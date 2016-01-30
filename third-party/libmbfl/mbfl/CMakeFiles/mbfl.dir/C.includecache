@@ -2114,5 +2114,5 @@ third-party/libmbfl/nls/nls_zh.h
 mbfilter.h
 third-party/libmbfl/nls/mbfilter.h
 
-third-party/libzip/config.h
+third-party/webscalesqlclient/src/include/config.h
 

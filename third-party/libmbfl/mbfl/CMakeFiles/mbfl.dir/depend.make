@@ -13,7 +13,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/html_entities.c.o: third
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/html_entities.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/html_entities.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/html_entities.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/html_entities.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/html_entities.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_7bit.c.o: third-party/libmbfl/filters/mbfilter_7bit.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_7bit.c.o: third-party/libmbfl/filters/mbfilter_7bit.h
@@ -27,7 +27,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_7bit.c.o: third
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_7bit.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_7bit.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_7bit.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_7bit.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_7bit.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_armscii8.c.o: third-party/libmbfl/filters/mbfilter_armscii8.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_armscii8.c.o: third-party/libmbfl/filters/mbfilter_armscii8.h
@@ -42,7 +42,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_armscii8.c.o: t
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_armscii8.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_armscii8.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_armscii8.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_armscii8.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_armscii8.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ascii.c.o: third-party/libmbfl/filters/mbfilter_ascii.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ascii.c.o: third-party/libmbfl/filters/mbfilter_ascii.h
@@ -56,7 +56,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ascii.c.o: thir
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ascii.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ascii.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ascii.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ascii.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ascii.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_base64.c.o: third-party/libmbfl/filters/mbfilter_base64.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_base64.c.o: third-party/libmbfl/filters/mbfilter_base64.h
@@ -70,7 +70,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_base64.c.o: thi
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_base64.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_base64.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_base64.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_base64.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_base64.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_big5.c.o: third-party/libmbfl/filters/mbfilter_big5.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_big5.c.o: third-party/libmbfl/filters/mbfilter_big5.h
@@ -85,7 +85,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_big5.c.o: third
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_big5.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_big5.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_big5.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_big5.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_big5.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte2.c.o: third-party/libmbfl/filters/mbfilter_byte2.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte2.c.o: third-party/libmbfl/filters/mbfilter_byte2.h
@@ -99,7 +99,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte2.c.o: thir
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte2.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte2.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte2.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte2.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte2.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte4.c.o: third-party/libmbfl/filters/mbfilter_byte4.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte4.c.o: third-party/libmbfl/filters/mbfilter_byte4.h
@@ -113,7 +113,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte4.c.o: thir
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte4.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte4.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte4.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte4.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte4.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1251.c.o: third-party/libmbfl/filters/mbfilter_cp1251.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1251.c.o: third-party/libmbfl/filters/mbfilter_cp1251.h
@@ -128,7 +128,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1251.c.o: thi
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1251.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1251.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1251.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1251.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1251.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1252.c.o: third-party/libmbfl/filters/mbfilter_cp1252.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1252.c.o: third-party/libmbfl/filters/mbfilter_cp1252.h
@@ -143,7 +143,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1252.c.o: thi
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1252.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1252.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1252.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1252.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1252.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1254.c.o: third-party/libmbfl/filters/mbfilter_cp1254.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1254.c.o: third-party/libmbfl/filters/mbfilter_cp1254.h
@@ -158,7 +158,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1254.c.o: thi
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1254.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1254.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1254.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1254.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1254.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp5022x.c.o: third-party/libmbfl/filters/cp932_table.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp5022x.c.o: third-party/libmbfl/filters/mbfilter_cp5022x.c
@@ -177,7 +177,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp5022x.c.o: th
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp5022x.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp5022x.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp5022x.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp5022x.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp5022x.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp51932.c.o: third-party/libmbfl/filters/cp932_table.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp51932.c.o: third-party/libmbfl/filters/mbfilter_cp51932.c
@@ -194,7 +194,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp51932.c.o: th
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp51932.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp51932.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp51932.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp51932.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp51932.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp850.c.o: third-party/libmbfl/filters/mbfilter_cp850.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp850.c.o: third-party/libmbfl/filters/mbfilter_cp850.h
@@ -209,7 +209,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp850.c.o: thir
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp850.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp850.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp850.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp850.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp850.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp866.c.o: third-party/libmbfl/filters/mbfilter_cp866.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp866.c.o: third-party/libmbfl/filters/mbfilter_cp866.h
@@ -224,7 +224,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp866.c.o: thir
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp866.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp866.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp866.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp866.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp866.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp932.c.o: third-party/libmbfl/filters/mbfilter_cp932.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp932.c.o: third-party/libmbfl/filters/mbfilter_cp932.h
@@ -240,7 +240,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp932.c.o: thir
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp932.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp932.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp932.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp932.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp932.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp936.c.o: third-party/libmbfl/filters/mbfilter_cp936.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp936.c.o: third-party/libmbfl/filters/mbfilter_cp936.h
@@ -255,7 +255,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp936.c.o: thir
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp936.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp936.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp936.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp936.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp936.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_cn.c.o: third-party/libmbfl/filters/mbfilter_euc_cn.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_cn.c.o: third-party/libmbfl/filters/mbfilter_euc_cn.h
@@ -270,7 +270,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_cn.c.o: thi
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_cn.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_cn.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_cn.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_cn.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_cn.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp.c.o: third-party/libmbfl/filters/mbfilter_euc_jp.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp.c.o: third-party/libmbfl/filters/mbfilter_euc_jp.h
@@ -286,7 +286,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp.c.o: thi
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_2004.c.o: third-party/libmbfl/filters/mbfilter_euc_jp_2004.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_2004.c.o: third-party/libmbfl/filters/mbfilter_euc_jp_2004.h
@@ -302,7 +302,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_2004.c.o
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_2004.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_2004.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_2004.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_2004.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_2004.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_win.c.o: third-party/libmbfl/filters/cp932_table.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_win.c.o: third-party/libmbfl/filters/mbfilter_euc_jp_win.c
@@ -319,7 +319,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_win.c.o:
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_win.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_win.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_win.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_win.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_win.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_kr.c.o: third-party/libmbfl/filters/mbfilter_euc_kr.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_kr.c.o: third-party/libmbfl/filters/mbfilter_euc_kr.h
@@ -334,7 +334,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_kr.c.o: thi
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_kr.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_kr.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_kr.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_kr.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_kr.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_tw.c.o: third-party/libmbfl/filters/mbfilter_euc_tw.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_tw.c.o: third-party/libmbfl/filters/mbfilter_euc_tw.h
@@ -349,7 +349,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_tw.c.o: thi
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_tw.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_tw.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_tw.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_tw.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_tw.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_gb18030.c.o: third-party/libmbfl/filters/mbfilter_gb18030.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_gb18030.c.o: third-party/libmbfl/filters/mbfilter_gb18030.h
@@ -365,7 +365,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_gb18030.c.o: th
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_gb18030.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_gb18030.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_gb18030.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_gb18030.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_gb18030.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_htmlent.c.o: third-party/libmbfl/filters/html_entities.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_htmlent.c.o: third-party/libmbfl/filters/mbfilter_htmlent.c
@@ -380,7 +380,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_htmlent.c.o: th
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_htmlent.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_htmlent.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_htmlent.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_htmlent.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_htmlent.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_hz.c.o: third-party/libmbfl/filters/mbfilter_hz.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_hz.c.o: third-party/libmbfl/filters/mbfilter_hz.h
@@ -395,7 +395,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_hz.c.o: third-p
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_hz.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_hz.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_hz.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_hz.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_hz.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_jp_ms.c.o: third-party/libmbfl/filters/cp932_table.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_jp_ms.c.o: third-party/libmbfl/filters/mbfilter_iso2022_jp_ms.c
@@ -412,7 +412,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_jp_ms.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_jp_ms.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_jp_ms.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_jp_ms.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_jp_ms.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_jp_ms.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_kr.c.o: third-party/libmbfl/filters/mbfilter_iso2022_kr.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_kr.c.o: third-party/libmbfl/filters/mbfilter_iso2022_kr.h
@@ -427,7 +427,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_kr.c.o:
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_kr.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_kr.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_kr.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_kr.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_kr.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_2004.c.o: third-party/libmbfl/filters/mbfilter_iso2022jp_2004.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_2004.c.o: third-party/libmbfl/filters/mbfilter_iso2022jp_2004.h
@@ -444,7 +444,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_2004.
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_2004.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_2004.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_2004.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_2004.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_2004.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_mobile.c.o: third-party/libmbfl/filters/cp932_table.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_mobile.c.o: third-party/libmbfl/filters/mbfilter_iso2022jp_mobile.c
@@ -462,7 +462,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_mobil
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_mobile.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_mobile.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_mobile.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_mobile.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_mobile.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_1.c.o: third-party/libmbfl/filters/mbfilter_iso8859_1.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_1.c.o: third-party/libmbfl/filters/mbfilter_iso8859_1.h
@@ -476,7 +476,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_1.c.o: 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_1.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_1.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_1.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_1.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_1.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_10.c.o: third-party/libmbfl/filters/mbfilter_iso8859_10.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_10.c.o: third-party/libmbfl/filters/mbfilter_iso8859_10.h
@@ -491,7 +491,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_10.c.o:
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_10.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_10.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_10.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_10.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_10.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_13.c.o: third-party/libmbfl/filters/mbfilter_iso8859_13.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_13.c.o: third-party/libmbfl/filters/mbfilter_iso8859_13.h
@@ -506,7 +506,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_13.c.o:
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_13.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_13.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_13.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_13.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_13.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_14.c.o: third-party/libmbfl/filters/mbfilter_iso8859_14.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_14.c.o: third-party/libmbfl/filters/mbfilter_iso8859_14.h
@@ -521,7 +521,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_14.c.o:
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_14.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_14.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_14.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_14.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_14.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_15.c.o: third-party/libmbfl/filters/mbfilter_iso8859_15.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_15.c.o: third-party/libmbfl/filters/mbfilter_iso8859_15.h
@@ -536,7 +536,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_15.c.o:
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_15.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_15.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_15.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_15.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_15.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_16.c.o: third-party/libmbfl/filters/mbfilter_iso8859_16.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_16.c.o: third-party/libmbfl/filters/mbfilter_iso8859_16.h
@@ -551,7 +551,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_16.c.o:
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_16.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_16.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_16.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_16.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_16.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_2.c.o: third-party/libmbfl/filters/mbfilter_iso8859_2.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_2.c.o: third-party/libmbfl/filters/mbfilter_iso8859_2.h
@@ -566,7 +566,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_2.c.o: 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_2.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_2.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_2.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_2.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_2.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_3.c.o: third-party/libmbfl/filters/mbfilter_iso8859_3.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_3.c.o: third-party/libmbfl/filters/mbfilter_iso8859_3.h
@@ -581,7 +581,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_3.c.o: 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_3.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_3.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_3.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_3.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_3.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_4.c.o: third-party/libmbfl/filters/mbfilter_iso8859_4.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_4.c.o: third-party/libmbfl/filters/mbfilter_iso8859_4.h
@@ -596,7 +596,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_4.c.o: 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_4.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_4.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_4.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_4.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_4.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_5.c.o: third-party/libmbfl/filters/mbfilter_iso8859_5.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_5.c.o: third-party/libmbfl/filters/mbfilter_iso8859_5.h
@@ -611,7 +611,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_5.c.o: 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_5.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_5.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_5.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_5.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_5.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_6.c.o: third-party/libmbfl/filters/mbfilter_iso8859_6.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_6.c.o: third-party/libmbfl/filters/mbfilter_iso8859_6.h
@@ -626,7 +626,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_6.c.o: 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_6.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_6.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_6.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_6.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_6.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_7.c.o: third-party/libmbfl/filters/mbfilter_iso8859_7.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_7.c.o: third-party/libmbfl/filters/mbfilter_iso8859_7.h
@@ -641,7 +641,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_7.c.o: 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_7.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_7.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_7.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_7.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_7.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_8.c.o: third-party/libmbfl/filters/mbfilter_iso8859_8.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_8.c.o: third-party/libmbfl/filters/mbfilter_iso8859_8.h
@@ -656,7 +656,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_8.c.o: 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_8.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_8.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_8.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_8.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_8.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_9.c.o: third-party/libmbfl/filters/mbfilter_iso8859_9.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_9.c.o: third-party/libmbfl/filters/mbfilter_iso8859_9.h
@@ -671,7 +671,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_9.c.o: 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_9.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_9.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_9.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_9.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_9.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_jis.c.o: third-party/libmbfl/filters/mbfilter_jis.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_jis.c.o: third-party/libmbfl/filters/mbfilter_jis.h
@@ -687,7 +687,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_jis.c.o: third-
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_jis.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_jis.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_jis.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_jis.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_jis.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8r.c.o: third-party/libmbfl/filters/mbfilter_koi8r.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8r.c.o: third-party/libmbfl/filters/mbfilter_koi8r.h
@@ -702,7 +702,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8r.c.o: thir
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8r.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8r.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8r.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8r.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8r.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8u.c.o: third-party/libmbfl/filters/mbfilter_koi8u.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8u.c.o: third-party/libmbfl/filters/mbfilter_koi8u.h
@@ -717,7 +717,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8u.c.o: thir
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8u.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8u.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8u.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8u.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8u.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_qprint.c.o: third-party/libmbfl/filters/mbfilter_qprint.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_qprint.c.o: third-party/libmbfl/filters/mbfilter_qprint.h
@@ -732,7 +732,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_qprint.c.o: thi
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_qprint.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_qprint.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_qprint.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_qprint.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_qprint.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis.c.o: third-party/libmbfl/filters/mbfilter_sjis.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis.c.o: third-party/libmbfl/filters/mbfilter_sjis.h
@@ -748,7 +748,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis.c.o: third
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_2004.c.o: third-party/libmbfl/filters/mbfilter_sjis_2004.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_2004.c.o: third-party/libmbfl/filters/mbfilter_sjis_2004.h
@@ -764,7 +764,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_2004.c.o: 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_2004.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_2004.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_2004.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_2004.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_2004.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mac.c.o: third-party/libmbfl/filters/mbfilter_sjis_mac.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mac.c.o: third-party/libmbfl/filters/mbfilter_sjis_mac.h
@@ -781,7 +781,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mac.c.o: t
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mac.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mac.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mac.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mac.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mac.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mobile.c.o: third-party/libmbfl/filters/emoji2uni.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mobile.c.o: third-party/libmbfl/filters/mbfilter_sjis_mobile.c
@@ -798,7 +798,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mobile.c.o
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mobile.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mobile.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mobile.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mobile.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mobile.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_open.c.o: third-party/libmbfl/filters/mbfilter_sjis_open.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_open.c.o: third-party/libmbfl/filters/mbfilter_sjis_open.h
@@ -814,7 +814,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_open.c.o: 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_open.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_open.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_open.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_open.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_open.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_tl_jisx0201_jisx0208.c.o: third-party/libmbfl/filters/mbfilter_tl_jisx0201_jisx0208.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_tl_jisx0201_jisx0208.c.o: third-party/libmbfl/filters/mbfilter_tl_jisx0201_jisx0208.h
@@ -839,7 +839,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs2.c.o: third
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs2.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs2.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs2.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs2.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs2.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs4.c.o: third-party/libmbfl/filters/mbfilter_ucs4.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs4.c.o: third-party/libmbfl/filters/mbfilter_ucs4.h
@@ -853,7 +853,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs4.c.o: third
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs4.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs4.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs4.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs4.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs4.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uhc.c.o: third-party/libmbfl/filters/mbfilter_uhc.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uhc.c.o: third-party/libmbfl/filters/mbfilter_uhc.h
@@ -868,7 +868,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uhc.c.o: third-
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uhc.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uhc.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uhc.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uhc.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uhc.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf16.c.o: third-party/libmbfl/filters/mbfilter_utf16.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf16.c.o: third-party/libmbfl/filters/mbfilter_utf16.h
@@ -882,7 +882,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf16.c.o: thir
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf16.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf16.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf16.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf16.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf16.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf32.c.o: third-party/libmbfl/filters/mbfilter_utf32.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf32.c.o: third-party/libmbfl/filters/mbfilter_utf32.h
@@ -896,7 +896,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf32.c.o: thir
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf32.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf32.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf32.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf32.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf32.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7.c.o: third-party/libmbfl/filters/mbfilter_utf7.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7.c.o: third-party/libmbfl/filters/mbfilter_utf7.h
@@ -910,7 +910,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7.c.o: third
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7imap.c.o: third-party/libmbfl/filters/mbfilter_utf7imap.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7imap.c.o: third-party/libmbfl/filters/mbfilter_utf7imap.h
@@ -924,7 +924,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7imap.c.o: t
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7imap.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7imap.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7imap.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7imap.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7imap.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8.c.o: third-party/libmbfl/filters/mbfilter_utf8.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8.c.o: third-party/libmbfl/filters/mbfilter_utf8.h
@@ -938,7 +938,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8.c.o: third
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8_mobile.c.o: third-party/libmbfl/filters/mbfilter_sjis_mobile.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8_mobile.c.o: third-party/libmbfl/filters/mbfilter_utf8_mobile.c
@@ -953,7 +953,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8_mobile.c.o
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8_mobile.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8_mobile.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8_mobile.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8_mobile.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8_mobile.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uuencode.c.o: third-party/libmbfl/filters/mbfilter_uuencode.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uuencode.c.o: third-party/libmbfl/filters/mbfilter_uuencode.h
@@ -967,7 +967,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uuencode.c.o: t
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uuencode.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uuencode.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uuencode.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uuencode.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uuencode.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_de.c.o: third-party/libmbfl/nls/nls_de.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_de.c.o: third-party/libmbfl/nls/nls_de.h
@@ -981,7 +981,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_de.c.o: third-party/libm
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_de.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_de.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_de.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_de.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_de.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_en.c.o: third-party/libmbfl/nls/nls_en.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_en.c.o: third-party/libmbfl/nls/nls_en.h
@@ -995,7 +995,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_en.c.o: third-party/libm
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_en.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_en.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_en.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_en.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_en.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_hy.c.o: third-party/libmbfl/nls/nls_hy.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_hy.c.o: third-party/libmbfl/nls/nls_hy.h
@@ -1009,7 +1009,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_hy.c.o: third-party/libm
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_hy.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_hy.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_hy.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_hy.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_hy.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ja.c.o: third-party/libmbfl/nls/nls_ja.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ja.c.o: third-party/libmbfl/nls/nls_ja.h
@@ -1023,7 +1023,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ja.c.o: third-party/libm
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ja.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ja.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ja.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ja.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ja.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_kr.c.o: third-party/libmbfl/nls/nls_kr.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_kr.c.o: third-party/libmbfl/nls/nls_kr.h
@@ -1037,7 +1037,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_kr.c.o: third-party/libm
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_kr.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_kr.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_kr.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_kr.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_kr.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_neutral.c.o: third-party/libmbfl/nls/nls_neutral.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_neutral.c.o: third-party/libmbfl/nls/nls_neutral.h
@@ -1051,7 +1051,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_neutral.c.o: third-party
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_neutral.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_neutral.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_neutral.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_neutral.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_neutral.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ru.c.o: third-party/libmbfl/nls/nls_ru.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ru.c.o: third-party/libmbfl/nls/nls_ru.h
@@ -1065,7 +1065,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ru.c.o: third-party/libm
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ru.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ru.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ru.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ru.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ru.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_tr.c.o: third-party/libmbfl/nls/nls_tr.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_tr.c.o: third-party/libmbfl/nls/nls_tr.h
@@ -1079,7 +1079,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_tr.c.o: third-party/libm
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_tr.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_tr.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_tr.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_tr.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_tr.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ua.c.o: third-party/libmbfl/nls/nls_ua.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ua.c.o: third-party/libmbfl/nls/nls_ua.h
@@ -1093,7 +1093,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ua.c.o: third-party/libm
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ua.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ua.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ua.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ua.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ua.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_uni.c.o: third-party/libmbfl/nls/nls_uni.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_uni.c.o: third-party/libmbfl/nls/nls_uni.h
@@ -1107,7 +1107,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_uni.c.o: third-party/lib
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_uni.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_uni.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_uni.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_uni.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_uni.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_zh.c.o: third-party/libmbfl/nls/nls_zh.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_zh.c.o: third-party/libmbfl/nls/nls_zh.h
@@ -1121,7 +1121,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_zh.c.o: third-party/libm
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_zh.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_zh.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_zh.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_zh.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_zh.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter.c.o: third-party/libmbfl/mbfl/eaw_table.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter.c.o: third-party/libmbfl/mbfl/mbfilter.c
@@ -1138,7 +1138,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter.c.o: third-party/libmbfl/m
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter.c.o: third-party/libmbfl/mbfl/mbfl_string.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter.c.o: third-party/libmbfl/filters/mbfilter_tl_jisx0201_jisx0208.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_8bit.c.o: third-party/libmbfl/mbfl/mbfilter.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_8bit.c.o: third-party/libmbfl/mbfl/mbfilter_8bit.c
@@ -1151,7 +1151,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_8bit.c.o: third-party/libm
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_8bit.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_8bit.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_8bit.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_8bit.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_8bit.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_pass.c.o: third-party/libmbfl/mbfl/mbfilter.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_pass.c.o: third-party/libmbfl/mbfl/mbfilter_pass.c
@@ -1165,7 +1165,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_pass.c.o: third-party/libm
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_pass.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_pass.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_pass.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_pass.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_pass.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_wchar.c.o: third-party/libmbfl/mbfl/mbfilter.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_wchar.c.o: third-party/libmbfl/mbfl/mbfilter_wchar.c
@@ -1178,12 +1178,12 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_wchar.c.o: third-party/lib
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_wchar.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_wchar.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_wchar.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_wchar.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_wchar.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_allocators.c.o: third-party/libmbfl/mbfl/mbfl_allocators.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_allocators.c.o: third-party/libmbfl/mbfl/mbfl_allocators.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_allocators.c.o: third-party/libmbfl/mbfl/mbfl_defs.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_allocators.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_allocators.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_convert.c.o: third-party/libmbfl/mbfl/mbfilter.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_convert.c.o: third-party/libmbfl/mbfl/mbfilter_8bit.h
@@ -1261,7 +1261,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_convert.c.o: third-party/libmb
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_convert.c.o: third-party/libmbfl/filters/mbfilter_utf8.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_convert.c.o: third-party/libmbfl/filters/mbfilter_utf8_mobile.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_convert.c.o: third-party/libmbfl/filters/mbfilter_uuencode.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_convert.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_convert.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_encoding.c.o: third-party/libmbfl/mbfl/mbfilter.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_encoding.c.o: third-party/libmbfl/mbfl/mbfilter_8bit.h
@@ -1339,7 +1339,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_encoding.c.o: third-party/libm
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_encoding.c.o: third-party/libmbfl/filters/mbfilter_utf8.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_encoding.c.o: third-party/libmbfl/filters/mbfilter_utf8_mobile.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_encoding.c.o: third-party/libmbfl/filters/mbfilter_uuencode.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_encoding.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_encoding.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_filter_output.c.o: third-party/libmbfl/mbfl/mbfl_convert.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_filter_output.c.o: third-party/libmbfl/mbfl/mbfl_defs.h
@@ -1349,7 +1349,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_filter_output.c.o: third-party
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_filter_output.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_filter_output.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_filter_output.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_filter_output.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_filter_output.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_ident.c.o: third-party/libmbfl/mbfl/mbfilter.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_ident.c.o: third-party/libmbfl/mbfl/mbfilter_8bit.h
@@ -1424,7 +1424,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_ident.c.o: third-party/libmbfl
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_ident.c.o: third-party/libmbfl/filters/mbfilter_utf8.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_ident.c.o: third-party/libmbfl/filters/mbfilter_utf8_mobile.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_ident.c.o: third-party/libmbfl/filters/mbfilter_uuencode.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_ident.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_ident.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_language.c.o: third-party/libmbfl/mbfl/mbfl_defs.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_language.c.o: third-party/libmbfl/mbfl/mbfl_encoding.h
@@ -1448,7 +1448,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_language.c.o: third-party/libm
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_language.c.o: third-party/libmbfl/nls/nls_ua.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_language.c.o: third-party/libmbfl/nls/nls_uni.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_language.c.o: third-party/libmbfl/nls/nls_zh.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_language.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_language.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_memory_device.c.o: third-party/libmbfl/mbfl/mbfl_allocators.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_memory_device.c.o: third-party/libmbfl/mbfl/mbfl_defs.h
@@ -1457,7 +1457,7 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_memory_device.c.o: third-party
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_memory_device.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_memory_device.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_memory_device.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_memory_device.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_memory_device.c.o: third-party/webscalesqlclient/src/include/config.h
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_string.c.o: third-party/libmbfl/mbfl/mbfl_allocators.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_string.c.o: third-party/libmbfl/mbfl/mbfl_defs.h
@@ -1465,5 +1465,5 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_string.c.o: third-party/libmbf
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_string.c.o: third-party/libmbfl/mbfl/mbfl_language.h
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_string.c.o: third-party/libmbfl/mbfl/mbfl_string.c
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_string.c.o: third-party/libmbfl/mbfl/mbfl_string.h
-third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_string.c.o: third-party/libzip/config.h
+third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_string.c.o: third-party/webscalesqlclient/src/include/config.h
 

@@ -1,1 +1,1 @@
-const char* const BuildInfo_kRevision = "64d37362bc0b6aee919492ad61cf65ce0a5d5e92";
+const char* const BuildInfo_kRevision = "90639aaa6ef4c790f038e0860d8ee381c2977e1b";

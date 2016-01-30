@@ -948,3 +948,145 @@ Source file was:
         Dwarf_Unsigned d, Dwarf_Unsigned e, Dwarf_Unsigned f,
         Dwarf_Unsigned * g, Dwarf_Ptr h, int * i) {}
       int main() { dwarf_producer_init_c(0, dwarfCallback, nullptr, nullptr, nullptr, nullptr); return 0; }
+Performing C++ SOURCE FILE Test DW_CONST failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec925561931/fast"
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec925561931.dir/build.make CMakeFiles/cmTryCompileExec925561931.dir/build
+gmake[2]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec925561931.dir/src.cxx.o
+/usr/bin/c++    -Wall -std=gnu++11 -ffunction-sections -fdata-sections -fno-gcse -fno-omit-frame-pointer -Woverloaded-virtual -Wno-deprecated -Wno-strict-aliasing -Wno-write-strings -Wno-invalid-offsetof -fno-operator-names -Wno-error=array-bounds -Wno-error=switch -Werror=format-security -Wno-unused-result -Wno-sign-compare -Wno-attributes -Wno-maybe-uninitialized -Wno-unused-local-typedefs -fno-canonical-system-headers -Wno-deprecated-declarations -Wno-unused-function -Wvla  -ftrack-macro-expansion=0 -fno-builtin-memcmp -mcrc32  -DDW_CONST -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec925561931.dir/src.cxx.o -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx: In function 'int dwarfCallback(const char*, int, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned*, Dwarf_Ptr, int*)':
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:6:52: warning: no return statement in function returning non-void [-Wreturn-type]
+         Dwarf_Unsigned * g, Dwarf_Ptr h, int * i) {}
+                                                    ^
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx: In function 'int main()':
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:7:128: error: invalid conversion from 'int (*)(const char*, int, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned*, Dwarf_Ptr, int*) {aka int (*)(const char*, int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int*, void*, int*)}' to 'Dwarf_Callback_Func {aka int (*)(char*, int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int, int*, int*)}' [-fpermissive]
+       int main() { dwarf_producer_init(0, dwarfCallback, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr); return 0; }
+                                                                                                                                ^
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:7:128: error: too many arguments to function 'Dwarf_P_Debug_s* dwarf_producer_init(Dwarf_Unsigned, Dwarf_Callback_Func, Dwarf_Handler, Dwarf_Ptr, Dwarf_Error_s**)'
+In file included from /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:2:0:
+/usr/include/libdwarf/libdwarf.h:2281:15: note: declared here
+ Dwarf_P_Debug dwarf_producer_init(
+               ^
+gmake[2]: *** [CMakeFiles/cmTryCompileExec925561931.dir/src.cxx.o] Error 1
+gmake[2]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec925561931/fast] Error 2
+
+Source file was:
+
+      #include <libdwarf.h>
+      #include <cstddef>
+      int dwarfCallback(const char * a, int b, Dwarf_Unsigned c,
+        Dwarf_Unsigned d, Dwarf_Unsigned e, Dwarf_Unsigned f,
+        Dwarf_Unsigned * g, Dwarf_Ptr h, int * i) {}
+      int main() { dwarf_producer_init(0, dwarfCallback, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr); return 0; }
+Performing C++ SOURCE FILE Test DW_CONST failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec740964829/fast"
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec740964829.dir/build.make CMakeFiles/cmTryCompileExec740964829.dir/build
+gmake[2]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec740964829.dir/src.cxx.o
+/usr/bin/c++    -Wall -std=gnu++11 -ffunction-sections -fdata-sections -fno-gcse -fno-omit-frame-pointer -Woverloaded-virtual -Wno-deprecated -Wno-strict-aliasing -Wno-write-strings -Wno-invalid-offsetof -fno-operator-names -Wno-error=array-bounds -Wno-error=switch -Werror=format-security -Wno-unused-result -Wno-sign-compare -Wno-attributes -Wno-maybe-uninitialized -Wno-unused-local-typedefs -fno-canonical-system-headers -Wno-deprecated-declarations -Wno-unused-function -Wvla  -ftrack-macro-expansion=0 -fno-builtin-memcmp -mcrc32  -DDW_CONST -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec740964829.dir/src.cxx.o -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx: In function 'int dwarfCallback(const char*, int, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned*, Dwarf_Ptr, int*)':
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:6:52: warning: no return statement in function returning non-void [-Wreturn-type]
+         Dwarf_Unsigned * g, Dwarf_Ptr h, int * i) {}
+                                                    ^
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx: In function 'int main()':
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:7:94: error: invalid conversion from 'int (*)(const char*, int, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned*, Dwarf_Ptr, int*) {aka int (*)(const char*, int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int*, void*, int*)}' to 'Dwarf_Callback_Func_c {aka int (*)(char*, int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int*, void*, int*)}' [-fpermissive]
+       int main() { dwarf_producer_init_c(0, dwarfCallback, nullptr, nullptr, nullptr, nullptr); return 0; }
+                                                                                              ^
+In file included from /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:2:0:
+/usr/include/libdwarf/libdwarf.h:2242:15: error:   initializing argument 2 of 'Dwarf_P_Debug_s* dwarf_producer_init_c(Dwarf_Unsigned, Dwarf_Callback_Func_c, Dwarf_Handler, Dwarf_Ptr, void*, Dwarf_Error_s**)' [-fpermissive]
+ Dwarf_P_Debug dwarf_producer_init_c(
+               ^
+gmake[2]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+gmake[2]: *** [CMakeFiles/cmTryCompileExec740964829.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec740964829/fast] Error 2
+
+Source file was:
+
+      #include <libdwarf.h>
+      #include <cstddef>
+      int dwarfCallback(const char * a, int b, Dwarf_Unsigned c,
+        Dwarf_Unsigned d, Dwarf_Unsigned e, Dwarf_Unsigned f,
+        Dwarf_Unsigned * g, Dwarf_Ptr h, int * i) {}
+      int main() { dwarf_producer_init_c(0, dwarfCallback, nullptr, nullptr, nullptr, nullptr); return 0; }
+Performing C++ SOURCE FILE Test DW_CONST failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2507627875/fast"
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2507627875.dir/build.make CMakeFiles/cmTryCompileExec2507627875.dir/build
+gmake[2]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2507627875.dir/src.cxx.o
+/usr/bin/c++    -Wall -std=gnu++11 -ffunction-sections -fdata-sections -fno-gcse -fno-omit-frame-pointer -Woverloaded-virtual -Wno-deprecated -Wno-strict-aliasing -Wno-write-strings -Wno-invalid-offsetof -fno-operator-names -Wno-error=array-bounds -Wno-error=switch -Werror=format-security -Wno-unused-result -Wno-sign-compare -Wno-attributes -Wno-maybe-uninitialized -Wno-unused-local-typedefs -fno-canonical-system-headers -Wno-deprecated-declarations -Wno-unused-function -Wvla  -ftrack-macro-expansion=0 -fno-builtin-memcmp -mcrc32  -DDW_CONST -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec2507627875.dir/src.cxx.o -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx: In function 'int dwarfCallback(const char*, int, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned*, Dwarf_Ptr, int*)':
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:6:52: warning: no return statement in function returning non-void [-Wreturn-type]
+         Dwarf_Unsigned * g, Dwarf_Ptr h, int * i) {}
+                                                    ^
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx: In function 'int main()':
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:7:128: error: invalid conversion from 'int (*)(const char*, int, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned*, Dwarf_Ptr, int*) {aka int (*)(const char*, int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int*, void*, int*)}' to 'Dwarf_Callback_Func {aka int (*)(char*, int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int, int*, int*)}' [-fpermissive]
+       int main() { dwarf_producer_init(0, dwarfCallback, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr); return 0; }
+                                                                                                                                ^
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:7:128: error: too many arguments to function 'Dwarf_P_Debug_s* dwarf_producer_init(Dwarf_Unsigned, Dwarf_Callback_Func, Dwarf_Handler, Dwarf_Ptr, Dwarf_Error_s**)'
+In file included from /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:2:0:
+/usr/include/libdwarf/libdwarf.h:2281:15: note: declared here
+ Dwarf_P_Debug dwarf_producer_init(
+               ^
+gmake[2]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+gmake[2]: *** [CMakeFiles/cmTryCompileExec2507627875.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec2507627875/fast] Error 2
+
+Source file was:
+
+      #include <libdwarf.h>
+      #include <cstddef>
+      int dwarfCallback(const char * a, int b, Dwarf_Unsigned c,
+        Dwarf_Unsigned d, Dwarf_Unsigned e, Dwarf_Unsigned f,
+        Dwarf_Unsigned * g, Dwarf_Ptr h, int * i) {}
+      int main() { dwarf_producer_init(0, dwarfCallback, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr); return 0; }
+Performing C++ SOURCE FILE Test DW_CONST failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec234873573/fast"
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec234873573.dir/build.make CMakeFiles/cmTryCompileExec234873573.dir/build
+gmake[2]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec234873573.dir/src.cxx.o
+/usr/bin/c++    -Wall -std=gnu++11 -ffunction-sections -fdata-sections -fno-gcse -fno-omit-frame-pointer -Woverloaded-virtual -Wno-deprecated -Wno-strict-aliasing -Wno-write-strings -Wno-invalid-offsetof -fno-operator-names -Wno-error=array-bounds -Wno-error=switch -Werror=format-security -Wno-unused-result -Wno-sign-compare -Wno-attributes -Wno-maybe-uninitialized -Wno-unused-local-typedefs -fno-canonical-system-headers -Wno-deprecated-declarations -Wno-unused-function -Wvla  -ftrack-macro-expansion=0 -fno-builtin-memcmp -mcrc32  -DDW_CONST -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec234873573.dir/src.cxx.o -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx: In function 'int dwarfCallback(const char*, int, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned*, Dwarf_Ptr, int*)':
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:6:52: warning: no return statement in function returning non-void [-Wreturn-type]
+         Dwarf_Unsigned * g, Dwarf_Ptr h, int * i) {}
+                                                    ^
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx: In function 'int main()':
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:7:94: error: invalid conversion from 'int (*)(const char*, int, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned*, Dwarf_Ptr, int*) {aka int (*)(const char*, int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int*, void*, int*)}' to 'Dwarf_Callback_Func_c {aka int (*)(char*, int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int*, void*, int*)}' [-fpermissive]
+       int main() { dwarf_producer_init_c(0, dwarfCallback, nullptr, nullptr, nullptr, nullptr); return 0; }
+                                                                                              ^
+In file included from /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:2:0:
+/usr/include/libdwarf/libdwarf.h:2242:15: error:   initializing argument 2 of 'Dwarf_P_Debug_s* dwarf_producer_init_c(Dwarf_Unsigned, Dwarf_Callback_Func_c, Dwarf_Handler, Dwarf_Ptr, void*, Dwarf_Error_s**)' [-fpermissive]
+ Dwarf_P_Debug dwarf_producer_init_c(
+               ^
+gmake[2]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+gmake[2]: *** [CMakeFiles/cmTryCompileExec234873573.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec234873573/fast] Error 2
+
+Source file was:
+
+      #include <libdwarf.h>
+      #include <cstddef>
+      int dwarfCallback(const char * a, int b, Dwarf_Unsigned c,
+        Dwarf_Unsigned d, Dwarf_Unsigned e, Dwarf_Unsigned f,
+        Dwarf_Unsigned * g, Dwarf_Ptr h, int * i) {}
+      int main() { dwarf_producer_init_c(0, dwarfCallback, nullptr, nullptr, nullptr, nullptr); return 0; }

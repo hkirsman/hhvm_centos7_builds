@@ -279,8 +279,8 @@ third-party/proxygen/preinstall:
 # Target rules for target third-party/proxygen/CMakeFiles/hphp_proxygen.dir
 
 # All Build rule for target.
-third-party/proxygen/CMakeFiles/hphp_proxygen.dir/all: third-party/folly/CMakeFiles/folly.dir/all
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/all: third-party/wangle/CMakeFiles/wangle.dir/all
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/all: third-party/folly/CMakeFiles/folly.dir/all
 	$(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/depend
 	$(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles  20 21 22 23
@@ -330,8 +330,8 @@ third-party/thrift/preinstall:
 # Target rules for target third-party/thrift/CMakeFiles/hphp_thrift.dir
 
 # All Build rule for target.
-third-party/thrift/CMakeFiles/hphp_thrift.dir/all: third-party/folly/CMakeFiles/folly.dir/all
 third-party/thrift/CMakeFiles/hphp_thrift.dir/all: third-party/wangle/CMakeFiles/wangle.dir/all
+third-party/thrift/CMakeFiles/hphp_thrift.dir/all: third-party/folly/CMakeFiles/folly.dir/all
 	$(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/depend
 	$(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles  67 68 69 70
@@ -1159,10 +1159,10 @@ clean: hphp/tools/hfsort/CMakeFiles/hfsort.dir/clean
 # Target rules for target hphp/tools/hfsort/CMakeFiles/jit_sort.dir
 
 # All Build rule for target.
-hphp/tools/hfsort/CMakeFiles/jit_sort.dir/all: third-party/folly/CMakeFiles/folly.dir/all
 hphp/tools/hfsort/CMakeFiles/jit_sort.dir/all: third-party/timelib/CMakeFiles/timelib.dir/all
-hphp/tools/hfsort/CMakeFiles/jit_sort.dir/all: third-party/wangle/CMakeFiles/wangle.dir/all
 hphp/tools/hfsort/CMakeFiles/jit_sort.dir/all: third-party/libzip/CMakeFiles/zip_static.dir/all
+hphp/tools/hfsort/CMakeFiles/jit_sort.dir/all: third-party/wangle/CMakeFiles/wangle.dir/all
+hphp/tools/hfsort/CMakeFiles/jit_sort.dir/all: third-party/folly/CMakeFiles/folly.dir/all
 hphp/tools/hfsort/CMakeFiles/jit_sort.dir/all: third-party/libafdt/CMakeFiles/afdt.dir/all
 hphp/tools/hfsort/CMakeFiles/jit_sort.dir/all: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/all
 hphp/tools/hfsort/CMakeFiles/jit_sort.dir/all: third-party/re2/CMakeFiles/re2.dir/all
@@ -1567,10 +1567,10 @@ hphp/runtime/preinstall:
 # Target rules for target hphp/runtime/CMakeFiles/hphp_runtime_static.dir
 
 # All Build rule for target.
-hphp/runtime/CMakeFiles/hphp_runtime_static.dir/all: third-party/folly/CMakeFiles/folly.dir/all
 hphp/runtime/CMakeFiles/hphp_runtime_static.dir/all: third-party/timelib/CMakeFiles/timelib.dir/all
-hphp/runtime/CMakeFiles/hphp_runtime_static.dir/all: third-party/wangle/CMakeFiles/wangle.dir/all
 hphp/runtime/CMakeFiles/hphp_runtime_static.dir/all: third-party/libzip/CMakeFiles/zip_static.dir/all
+hphp/runtime/CMakeFiles/hphp_runtime_static.dir/all: third-party/wangle/CMakeFiles/wangle.dir/all
+hphp/runtime/CMakeFiles/hphp_runtime_static.dir/all: third-party/folly/CMakeFiles/folly.dir/all
 hphp/runtime/CMakeFiles/hphp_runtime_static.dir/all: third-party/libafdt/CMakeFiles/afdt.dir/all
 hphp/runtime/CMakeFiles/hphp_runtime_static.dir/all: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/all
 hphp/runtime/CMakeFiles/hphp_runtime_static.dir/all: third-party/re2/CMakeFiles/re2.dir/all
@@ -1628,10 +1628,10 @@ hphp/runtime/ext/preinstall:
 # Target rules for target hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir
 
 # All Build rule for target.
-hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/all: third-party/folly/CMakeFiles/folly.dir/all
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/all: third-party/timelib/CMakeFiles/timelib.dir/all
-hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/all: third-party/wangle/CMakeFiles/wangle.dir/all
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/all: third-party/libzip/CMakeFiles/zip_static.dir/all
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/all: third-party/wangle/CMakeFiles/wangle.dir/all
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/all: third-party/folly/CMakeFiles/folly.dir/all
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/all: third-party/libafdt/CMakeFiles/afdt.dir/all
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/all: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/all
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/all: third-party/re2/CMakeFiles/re2.dir/all
@@ -1690,10 +1690,11 @@ hphp/runtime/ext_hhvm/preinstall:
 # Target rules for target hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir
 
 # All Build rule for target.
-hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/all: third-party/folly/CMakeFiles/folly.dir/all
+hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/all: hphp/tools/bootstrap/CMakeFiles/gen-infotabs.dir/all
 hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/all: third-party/timelib/CMakeFiles/timelib.dir/all
-hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/all: third-party/wangle/CMakeFiles/wangle.dir/all
 hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/all: third-party/libzip/CMakeFiles/zip_static.dir/all
+hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/all: third-party/wangle/CMakeFiles/wangle.dir/all
+hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/all: third-party/folly/CMakeFiles/folly.dir/all
 hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/all: third-party/libafdt/CMakeFiles/afdt.dir/all
 hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/all: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/all
 hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/all: third-party/squangle/CMakeFiles/squangle.dir/all
@@ -1701,7 +1702,6 @@ hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/all: third-party/fastlz/CMa
 hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/all: third-party/mcrouter/CMakeFiles/mcrouter.dir/all
 hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/all: third-party/double-conversion/CMakeFiles/double-conversion.dir/all
 hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/all: hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/all
-hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/all: hphp/tools/bootstrap/CMakeFiles/gen-infotabs.dir/all
 hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/all: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/all
 	$(MAKE) -f hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/build.make hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/depend
 	$(MAKE) -f hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/build.make hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/build
@@ -1784,10 +1784,10 @@ clean: hphp/runtime/ext_zend_compat/CMakeFiles/dso_test.dir/clean
 # Target rules for target hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir
 
 # All Build rule for target.
-hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/all: third-party/folly/CMakeFiles/folly.dir/all
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/all: third-party/timelib/CMakeFiles/timelib.dir/all
-hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/all: third-party/wangle/CMakeFiles/wangle.dir/all
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/all: third-party/libzip/CMakeFiles/zip_static.dir/all
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/all: third-party/wangle/CMakeFiles/wangle.dir/all
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/all: third-party/folly/CMakeFiles/folly.dir/all
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/all: third-party/libafdt/CMakeFiles/afdt.dir/all
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/all: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/all
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/all: third-party/re2/CMakeFiles/re2.dir/all
@@ -2128,11 +2128,11 @@ hphp/hhvm/preinstall:
 # Target rules for target hphp/hhvm/CMakeFiles/hhvm.dir
 
 # All Build rule for target.
-hphp/hhvm/CMakeFiles/hhvm.dir/all: third-party/folly/CMakeFiles/folly.dir/all
 hphp/hhvm/CMakeFiles/hhvm.dir/all: third-party/timelib/CMakeFiles/timelib.dir/all
-hphp/hhvm/CMakeFiles/hhvm.dir/all: third-party/wangle/CMakeFiles/wangle.dir/all
 hphp/hhvm/CMakeFiles/hhvm.dir/all: third-party/libzip/CMakeFiles/zip_static.dir/all
 hphp/hhvm/CMakeFiles/hhvm.dir/all: third-party/thrift/CMakeFiles/hphp_thrift.dir/all
+hphp/hhvm/CMakeFiles/hhvm.dir/all: third-party/wangle/CMakeFiles/wangle.dir/all
+hphp/hhvm/CMakeFiles/hhvm.dir/all: third-party/folly/CMakeFiles/folly.dir/all
 hphp/hhvm/CMakeFiles/hhvm.dir/all: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/all
 hphp/hhvm/CMakeFiles/hhvm.dir/all: third-party/libafdt/CMakeFiles/afdt.dir/all
 hphp/hhvm/CMakeFiles/hhvm.dir/all: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/all
@@ -2141,18 +2141,18 @@ hphp/hhvm/CMakeFiles/hhvm.dir/all: third-party/fastlz/CMakeFiles/fastlz.dir/all
 hphp/hhvm/CMakeFiles/hhvm.dir/all: third-party/mcrouter/CMakeFiles/mcrouter.dir/all
 hphp/hhvm/CMakeFiles/hhvm.dir/all: third-party/double-conversion/CMakeFiles/double-conversion.dir/all
 hphp/hhvm/CMakeFiles/hhvm.dir/all: hphp/tools/hfsort/CMakeFiles/jit_sort.dir/all
-hphp/hhvm/CMakeFiles/hhvm.dir/all: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/all
-hphp/hhvm/CMakeFiles/hhvm.dir/all: hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/all
 hphp/hhvm/CMakeFiles/hhvm.dir/all: hphp/compiler/CMakeFiles/hphp_analysis.dir/all
+hphp/hhvm/CMakeFiles/hhvm.dir/all: hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/all
 hphp/hhvm/CMakeFiles/hhvm.dir/all: hphp/neo/CMakeFiles/neo.dir/all
 hphp/hhvm/CMakeFiles/hhvm.dir/all: hphp/parser/CMakeFiles/hphp_parser.dir/all
+hphp/hhvm/CMakeFiles/hhvm.dir/all: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/all
 hphp/hhvm/CMakeFiles/hhvm.dir/all: hphp/runtime/CMakeFiles/hphp_runtime_static.dir/all
 hphp/hhvm/CMakeFiles/hhvm.dir/all: hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/all
-hphp/hhvm/CMakeFiles/hhvm.dir/all: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/all
-hphp/hhvm/CMakeFiles/hhvm.dir/all: hphp/system/CMakeFiles/hphp_system.dir/all
-hphp/hhvm/CMakeFiles/hhvm.dir/all: hphp/ppc64-asm/CMakeFiles/ppc64-asm.dir/all
+hphp/hhvm/CMakeFiles/hhvm.dir/all: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/all
 hphp/hhvm/CMakeFiles/hhvm.dir/all: hphp/system/CMakeFiles/systemlib.dir/all
+hphp/hhvm/CMakeFiles/hhvm.dir/all: hphp/system/CMakeFiles/hphp_system.dir/all
 hphp/hhvm/CMakeFiles/hhvm.dir/all: hphp/util/CMakeFiles/hphp_util.dir/all
+hphp/hhvm/CMakeFiles/hhvm.dir/all: hphp/ppc64-asm/CMakeFiles/ppc64-asm.dir/all
 hphp/hhvm/CMakeFiles/hhvm.dir/all: hphp/vixl/CMakeFiles/vixl.dir/all
 hphp/hhvm/CMakeFiles/hhvm.dir/all: hphp/zend/CMakeFiles/hphp_zend.dir/all
 	$(MAKE) -f hphp/hhvm/CMakeFiles/hhvm.dir/build.make hphp/hhvm/CMakeFiles/hhvm.dir/depend

@@ -35,6 +35,6 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
   INCLUDE("/tmp/hhvm-3.11.1/CMake/HPHPFunctions.cmake")
       HHVM_INSTALL_HEADERS(system /tmp/hhvm-3.11.1
-      "${CMAKE_INSTALL_PREFIX}/include" /tmp/hhvm-3.11.1/hphp/system/systemlib.h;/tmp/hhvm-3.11.1/hphp/system/systemlib.h;/tmp/hhvm-3.11.1/hphp/system/constants.h)
+      "${CMAKE_INSTALL_PREFIX}/include" /tmp/hhvm-3.11.1/hphp/system/constants.h;/tmp/hhvm-3.11.1/hphp/system/systemlib.h;/tmp/hhvm-3.11.1/hphp/system/constants.h;/tmp/hhvm-3.11.1/hphp/system/systemlib.h;/tmp/hhvm-3.11.1/hphp/system/constants.h)
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
 
