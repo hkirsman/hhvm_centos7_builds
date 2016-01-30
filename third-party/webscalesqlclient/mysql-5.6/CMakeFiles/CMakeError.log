@@ -1,0 +1,2564 @@
+Performing C++ SOURCE FILE Test HAVE_LLVM_LIBCPP failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1146648103/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1146648103.dir/build.make CMakeFiles/cmTryCompileExec1146648103.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1146648103.dir/src.cxx.o
+/usr/bin/c++    -Wall -std=gnu++11 -ffunction-sections -fdata-sections -fno-gcse -fno-omit-frame-pointer -Woverloaded-virtual -Wno-deprecated -Wno-strict-aliasing -Wno-write-strings -Wno-invalid-offsetof -fno-operator-names -Wno-error=array-bounds -Wno-error=switch -Werror=format-security -Wno-unused-result -Wno-sign-compare -Wno-attributes -Wno-maybe-uninitialized -Wno-unused-local-typedefs -fno-canonical-system-headers -Wno-deprecated-declarations -Wno-unused-function -Wvla  -ftrack-macro-expansion=0 -fno-builtin-memcmp -mcrc32  -DHAVE_LLVM_LIBCPP   -o CMakeFiles/cmTryCompileExec1146648103.dir/src.cxx.o -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1146648103
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1146648103.dir/link.txt --verbose=1
+/usr/bin/c++     -Wall -std=gnu++11 -ffunction-sections -fdata-sections -fno-gcse -fno-omit-frame-pointer -Woverloaded-virtual -Wno-deprecated -Wno-strict-aliasing -Wno-write-strings -Wno-invalid-offsetof -fno-operator-names -Wno-error=array-bounds -Wno-error=switch -Werror=format-security -Wno-unused-result -Wno-sign-compare -Wno-attributes -Wno-maybe-uninitialized -Wno-unused-local-typedefs -fno-canonical-system-headers -Wno-deprecated-declarations -Wno-unused-function -Wvla  -ftrack-macro-expansion=0 -fno-builtin-memcmp -mcrc32  -DHAVE_LLVM_LIBCPP    CMakeFiles/cmTryCompileExec1146648103.dir/src.cxx.o  -o cmTryCompileExec1146648103 -rdynamic 
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+#include <ciso646>
+int main()
+{
+#ifdef _LIBCPP_VERSION
+  return 0;
+#else
+  return 1;
+#endif
+}
+Determining if the function floor exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec5427884/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec5427884.dir/build.make CMakeFiles/cmTryCompileExec5427884.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec5427884.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=floor   -o CMakeFiles/cmTryCompileExec5427884.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec5427884
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec5427884.dir/link.txt --verbose=1
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=floor    CMakeFiles/cmTryCompileExec5427884.dir/CheckFunctionExists.c.o  -o cmTryCompileExec5427884 -rdynamic 
+CMakeFiles/cmTryCompileExec5427884.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `floor'
+collect2: error: ld returned 1 exit status
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [cmTryCompileExec5427884] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec5427884/fast] Error 2
+
+
+Determining if the function crypt exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1664302151/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1664302151.dir/build.make CMakeFiles/cmTryCompileExec1664302151.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1664302151.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=crypt   -o CMakeFiles/cmTryCompileExec1664302151.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1664302151
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1664302151.dir/link.txt --verbose=1
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=crypt    CMakeFiles/cmTryCompileExec1664302151.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1664302151 -rdynamic 
+CMakeFiles/cmTryCompileExec1664302151.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `crypt'
+collect2: error: ld returned 1 exit status
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [cmTryCompileExec1664302151] Error 1
+gmake[3]: *** [cmTryCompileExec1664302151/fast] Error 2
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+
+
+Determining if the function dlopen exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2736955451/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2736955451.dir/build.make CMakeFiles/cmTryCompileExec2736955451.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2736955451.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=dlopen   -o CMakeFiles/cmTryCompileExec2736955451.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2736955451
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2736955451.dir/link.txt --verbose=1
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=dlopen    CMakeFiles/cmTryCompileExec2736955451.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2736955451 -rdynamic 
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+CMakeFiles/cmTryCompileExec2736955451.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `dlopen'
+collect2: error: ld returned 1 exit status
+gmake[4]: *** [cmTryCompileExec2736955451] Error 1
+gmake[3]: *** [cmTryCompileExec2736955451/fast] Error 2
+
+
+Determining if the function timer_create exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec550627616/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec550627616.dir/build.make CMakeFiles/cmTryCompileExec550627616.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec550627616.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=timer_create   -o CMakeFiles/cmTryCompileExec550627616.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec550627616
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec550627616.dir/link.txt --verbose=1
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=timer_create    CMakeFiles/cmTryCompileExec550627616.dir/CheckFunctionExists.c.o  -o cmTryCompileExec550627616 -rdynamic 
+CMakeFiles/cmTryCompileExec550627616.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `timer_create'
+collect2: error: ld returned 1 exit status
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [cmTryCompileExec550627616] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec550627616/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3411757207/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3411757207.dir/build.make CMakeFiles/cmTryCompileExec3411757207.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3411757207.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec3411757207.dir/CheckSymbolExists.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3411757207
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3411757207.dir/link.txt --verbose=1
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w      CMakeFiles/cmTryCompileExec3411757207.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3411757207 -rdynamic 
+CMakeFiles/cmTryCompileExec3411757207.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [cmTryCompileExec3411757207] Error 1
+gmake[3]: *** [cmTryCompileExec3411757207/fast] Error 2
+
+File /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1669163506/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1669163506.dir/build.make CMakeFiles/cmTryCompileExec1669163506.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1669163506.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1669163506.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1669163506
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1669163506.dir/link.txt --verbose=1
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1669163506.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1669163506 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [cmTryCompileExec1669163506] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec1669163506/fast] Error 2
+
+
+Determining if files cxxabi.h exist failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec326217181/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec326217181.dir/build.make CMakeFiles/cmTryCompileExec326217181.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec326217181.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec326217181.dir/CheckIncludeFiles.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: fatal error: cxxabi.h: No such file or directory
+ #include <cxxabi.h>
+                    ^
+compilation terminated.
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [CMakeFiles/cmTryCompileExec326217181.dir/CheckIncludeFiles.c.o] Error 1
+gmake[3]: *** [cmTryCompileExec326217181/fast] Error 2
+
+Source:
+/* */
+#include <cxxabi.h>
+
+
+int main(){return 0;}
+
+Determining if files floatingpoint.h exist failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3527413401/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3527413401.dir/build.make CMakeFiles/cmTryCompileExec3527413401.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3527413401.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec3527413401.dir/CheckIncludeFiles.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:27: fatal error: floatingpoint.h: No such file or directory
+ #include <floatingpoint.h>
+                           ^
+compilation terminated.
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [CMakeFiles/cmTryCompileExec3527413401.dir/CheckIncludeFiles.c.o] Error 1
+gmake[3]: *** [cmTryCompileExec3527413401/fast] Error 2
+
+Source:
+/* */
+#include <floatingpoint.h>
+
+
+int main(){return 0;}
+
+Determining if files ieeefp.h exist failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec927732096/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec927732096.dir/build.make CMakeFiles/cmTryCompileExec927732096.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec927732096.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec927732096.dir/CheckIncludeFiles.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: fatal error: ieeefp.h: No such file or directory
+ #include <ieeefp.h>
+                    ^
+compilation terminated.
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [CMakeFiles/cmTryCompileExec927732096.dir/CheckIncludeFiles.c.o] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec927732096/fast] Error 2
+
+Source:
+/* */
+#include <ieeefp.h>
+
+
+int main(){return 0;}
+
+Determining if files ndir.h exist failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3802372224/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3802372224.dir/build.make CMakeFiles/cmTryCompileExec3802372224.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3802372224.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec3802372224.dir/CheckIncludeFiles.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:18: fatal error: ndir.h: No such file or directory
+ #include <ndir.h>
+                  ^
+compilation terminated.
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [CMakeFiles/cmTryCompileExec3802372224.dir/CheckIncludeFiles.c.o] Error 1
+gmake[3]: *** [cmTryCompileExec3802372224/fast] Error 2
+
+Source:
+/* */
+#include <ndir.h>
+
+
+int main(){return 0;}
+
+Determining if files port.h exist failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec668844589/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec668844589.dir/build.make CMakeFiles/cmTryCompileExec668844589.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec668844589.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec668844589.dir/CheckIncludeFiles.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:18: fatal error: port.h: No such file or directory
+ #include <port.h>
+                  ^
+compilation terminated.
+gmake[4]: *** [CMakeFiles/cmTryCompileExec668844589.dir/CheckIncludeFiles.c.o] Error 1
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec668844589/fast] Error 2
+
+Source:
+/* */
+#include <port.h>
+
+
+int main(){return 0;}
+
+Determining if files select.h exist failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1829066399/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1829066399.dir/build.make CMakeFiles/cmTryCompileExec1829066399.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1829066399.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec1829066399.dir/CheckIncludeFiles.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: fatal error: select.h: No such file or directory
+ #include <select.h>
+                    ^
+compilation terminated.
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [CMakeFiles/cmTryCompileExec1829066399.dir/CheckIncludeFiles.c.o] Error 1
+gmake[3]: *** [cmTryCompileExec1829066399/fast] Error 2
+
+Source:
+/* */
+#include <select.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/ndir.h exist failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2497070283/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2497070283.dir/build.make CMakeFiles/cmTryCompileExec2497070283.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2497070283.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec2497070283.dir/CheckIncludeFiles.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:22: fatal error: sys/ndir.h: No such file or directory
+ #include <sys/ndir.h>
+                      ^
+compilation terminated.
+gmake[4]: *** [CMakeFiles/cmTryCompileExec2497070283.dir/CheckIncludeFiles.c.o] Error 1
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec2497070283/fast] Error 2
+
+Source:
+/* */
+#include <sys/ndir.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/pte.h exist failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1063732979/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1063732979.dir/build.make CMakeFiles/cmTryCompileExec1063732979.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1063732979.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec1063732979.dir/CheckIncludeFiles.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:21: fatal error: sys/pte.h: No such file or directory
+ #include <sys/pte.h>
+                     ^
+compilation terminated.
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [CMakeFiles/cmTryCompileExec1063732979.dir/CheckIncludeFiles.c.o] Error 1
+gmake[3]: *** [cmTryCompileExec1063732979/fast] Error 2
+
+Source:
+/* */
+#include <sys/pte.h>
+
+
+int main(){return 0;}
+
+Determining if files synch.h exist failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2027862676/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2027862676.dir/build.make CMakeFiles/cmTryCompileExec2027862676.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2027862676.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec2027862676.dir/CheckIncludeFiles.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:19: fatal error: synch.h: No such file or directory
+ #include <synch.h>
+                   ^
+compilation terminated.
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [CMakeFiles/cmTryCompileExec2027862676.dir/CheckIncludeFiles.c.o] Error 1
+gmake[3]: *** [cmTryCompileExec2027862676/fast] Error 2
+
+Source:
+/* */
+#include <synch.h>
+
+
+int main(){return 0;}
+
+Determining if files sysent.h exist failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1497407020/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1497407020.dir/build.make CMakeFiles/cmTryCompileExec1497407020.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1497407020.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec1497407020.dir/CheckIncludeFiles.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: fatal error: sysent.h: No such file or directory
+ #include <sysent.h>
+                    ^
+compilation terminated.
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [CMakeFiles/cmTryCompileExec1497407020.dir/CheckIncludeFiles.c.o] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec1497407020/fast] Error 2
+
+Source:
+/* */
+#include <sysent.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/fpu.h exist failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3002237434/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3002237434.dir/build.make CMakeFiles/cmTryCompileExec3002237434.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3002237434.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec3002237434.dir/CheckIncludeFiles.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:21: fatal error: sys/fpu.h: No such file or directory
+ #include <sys/fpu.h>
+                     ^
+compilation terminated.
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [CMakeFiles/cmTryCompileExec3002237434.dir/CheckIncludeFiles.c.o] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec3002237434/fast] Error 2
+
+Source:
+/* */
+#include <sys/fpu.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/malloc.h exist failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1755148147/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1755148147.dir/build.make CMakeFiles/cmTryCompileExec1755148147.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1755148147.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec1755148147.dir/CheckIncludeFiles.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:24: fatal error: sys/malloc.h: No such file or directory
+ #include <sys/malloc.h>
+                        ^
+compilation terminated.
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [CMakeFiles/cmTryCompileExec1755148147.dir/CheckIncludeFiles.c.o] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec1755148147/fast] Error 2
+
+Source:
+/* */
+#include <sys/malloc.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/stream.h exist failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3840838800/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3840838800.dir/build.make CMakeFiles/cmTryCompileExec3840838800.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3840838800.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec3840838800.dir/CheckIncludeFiles.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:24: fatal error: sys/stream.h: No such file or directory
+ #include <sys/stream.h>
+                        ^
+compilation terminated.
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [CMakeFiles/cmTryCompileExec3840838800.dir/CheckIncludeFiles.c.o] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec3840838800/fast] Error 2
+
+Source:
+/* */
+#include <sys/stream.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/termcap.h exist failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4062682196/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4062682196.dir/build.make CMakeFiles/cmTryCompileExec4062682196.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4062682196.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec4062682196.dir/CheckIncludeFiles.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:25: fatal error: sys/termcap.h: No such file or directory
+ #include <sys/termcap.h>
+                         ^
+compilation terminated.
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [CMakeFiles/cmTryCompileExec4062682196.dir/CheckIncludeFiles.c.o] Error 1
+gmake[3]: *** [cmTryCompileExec4062682196/fast] Error 2
+
+Source:
+/* */
+#include <sys/termcap.h>
+
+
+int main(){return 0;}
+
+Determining if files termbits.h exist failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2125538115/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2125538115.dir/build.make CMakeFiles/cmTryCompileExec2125538115.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2125538115.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec2125538115.dir/CheckIncludeFiles.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:22: fatal error: termbits.h: No such file or directory
+ #include <termbits.h>
+                      ^
+compilation terminated.
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [CMakeFiles/cmTryCompileExec2125538115.dir/CheckIncludeFiles.c.o] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec2125538115/fast] Error 2
+
+Source:
+/* */
+#include <termbits.h>
+
+
+int main(){return 0;}
+
+Determining if files varargs.h exist failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2639755102/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2639755102.dir/build.make CMakeFiles/cmTryCompileExec2639755102.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2639755102.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec2639755102.dir/CheckIncludeFiles.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+In file included from /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:0:
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/varargs.h:4:2: error: #error "GCC no longer implements <varargs.h>."
+ #error "GCC no longer implements <varargs.h>."
+  ^
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/varargs.h:5:2: error: #error "Revise your code to use <stdarg.h>."
+ #error "Revise your code to use <stdarg.h>."
+  ^
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [CMakeFiles/cmTryCompileExec2639755102.dir/CheckIncludeFiles.c.o] Error 1
+gmake[3]: *** [cmTryCompileExec2639755102/fast] Error 2
+
+Source:
+/* */
+#include <varargs.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/utime.h exist failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2888823579/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2888823579.dir/build.make CMakeFiles/cmTryCompileExec2888823579.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2888823579.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec2888823579.dir/CheckIncludeFiles.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:23: fatal error: sys/utime.h: No such file or directory
+ #include <sys/utime.h>
+                       ^
+compilation terminated.
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [CMakeFiles/cmTryCompileExec2888823579.dir/CheckIncludeFiles.c.o] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec2888823579/fast] Error 2
+
+Source:
+/* */
+#include <sys/utime.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/vadvise.h exist failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3643613029/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3643613029.dir/build.make CMakeFiles/cmTryCompileExec3643613029.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3643613029.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec3643613029.dir/CheckIncludeFiles.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:25: fatal error: sys/vadvise.h: No such file or directory
+ #include <sys/vadvise.h>
+                         ^
+compilation terminated.
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [CMakeFiles/cmTryCompileExec3643613029.dir/CheckIncludeFiles.c.o] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec3643613029/fast] Error 2
+
+Source:
+/* */
+#include <sys/vadvise.h>
+
+
+int main(){return 0;}
+
+Determining if files vis.h exist failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1081218325/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1081218325.dir/build.make CMakeFiles/cmTryCompileExec1081218325.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1081218325.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec1081218325.dir/CheckIncludeFiles.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:17: fatal error: vis.h: No such file or directory
+ #include <vis.h>
+                 ^
+compilation terminated.
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [CMakeFiles/cmTryCompileExec1081218325.dir/CheckIncludeFiles.c.o] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec1081218325/fast] Error 2
+
+Source:
+/* */
+#include <vis.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/devpoll.h exist failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2554826582/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2554826582.dir/build.make CMakeFiles/cmTryCompileExec2554826582.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2554826582.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec2554826582.dir/CheckIncludeFiles.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:25: fatal error: sys/devpoll.h: No such file or directory
+ #include <sys/devpoll.h>
+                         ^
+compilation terminated.
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [CMakeFiles/cmTryCompileExec2554826582.dir/CheckIncludeFiles.c.o] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec2554826582/fast] Error 2
+
+Source:
+/* */
+#include <sys/devpoll.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/devpoll.h exist failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec511576370/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec511576370.dir/build.make CMakeFiles/cmTryCompileExec511576370.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec511576370.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec511576370.dir/CheckIncludeFiles.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:25: fatal error: sys/devpoll.h: No such file or directory
+ #include <sys/devpoll.h>
+                         ^
+compilation terminated.
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [CMakeFiles/cmTryCompileExec511576370.dir/CheckIncludeFiles.c.o] Error 1
+gmake[3]: *** [cmTryCompileExec511576370/fast] Error 2
+
+Source:
+/* */
+#include <sys/devpoll.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/event.h exist failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3251846148/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3251846148.dir/build.make CMakeFiles/cmTryCompileExec3251846148.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3251846148.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec3251846148.dir/CheckIncludeFiles.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:23: fatal error: sys/event.h: No such file or directory
+ #include <sys/event.h>
+                       ^
+compilation terminated.
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [CMakeFiles/cmTryCompileExec3251846148.dir/CheckIncludeFiles.c.o] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec3251846148/fast] Error 2
+
+Source:
+/* */
+#include <sys/event.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/ptem.h exist failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1522842853/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1522842853.dir/build.make CMakeFiles/cmTryCompileExec1522842853.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1522842853.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec1522842853.dir/CheckIncludeFiles.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:22: fatal error: sys/ptem.h: No such file or directory
+ #include <sys/ptem.h>
+                      ^
+compilation terminated.
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [CMakeFiles/cmTryCompileExec1522842853.dir/CheckIncludeFiles.c.o] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec1522842853/fast] Error 2
+
+Source:
+/* */
+#include <sys/ptem.h>
+
+
+int main(){return 0;}
+
+Determining if the function _aligned_malloc exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4136814111/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4136814111.dir/build.make CMakeFiles/cmTryCompileExec4136814111.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4136814111.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=_aligned_malloc   -o CMakeFiles/cmTryCompileExec4136814111.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4136814111
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4136814111.dir/link.txt --verbose=1
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=_aligned_malloc    CMakeFiles/cmTryCompileExec4136814111.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4136814111 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec4136814111.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_aligned_malloc'
+collect2: error: ld returned 1 exit status
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [cmTryCompileExec4136814111] Error 1
+gmake[3]: gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+*** [cmTryCompileExec4136814111/fast] Error 2
+
+
+Determining if the function _aligned_free exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec509926763/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec509926763.dir/build.make CMakeFiles/cmTryCompileExec509926763.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec509926763.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=_aligned_free   -o CMakeFiles/cmTryCompileExec509926763.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec509926763
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec509926763.dir/link.txt --verbose=1
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=_aligned_free    CMakeFiles/cmTryCompileExec509926763.dir/CheckFunctionExists.c.o  -o cmTryCompileExec509926763 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec509926763.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_aligned_free'
+collect2: error: ld returned 1 exit status
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [cmTryCompileExec509926763] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec509926763/fast] Error 2
+
+
+Determining if the function printstack exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2801247522/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2801247522.dir/build.make CMakeFiles/cmTryCompileExec2801247522.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2801247522.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=printstack   -o CMakeFiles/cmTryCompileExec2801247522.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2801247522
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2801247522.dir/link.txt --verbose=1
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=printstack    CMakeFiles/cmTryCompileExec2801247522.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2801247522 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec2801247522.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `printstack'
+collect2: error: ld returned 1 exit status
+gmake[4]: *** [cmTryCompileExec2801247522] Error 1
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec2801247522/fast] Error 2
+
+
+Determining if the function bmove exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1541100201/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1541100201.dir/build.make CMakeFiles/cmTryCompileExec1541100201.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1541100201.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=bmove   -o CMakeFiles/cmTryCompileExec1541100201.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1541100201
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1541100201.dir/link.txt --verbose=1
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=bmove    CMakeFiles/cmTryCompileExec1541100201.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1541100201 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec1541100201.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `bmove'
+collect2: error: ld returned 1 exit status
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [cmTryCompileExec1541100201] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec1541100201/fast] Error 2
+
+
+Determining if the function directio exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec673246799/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec673246799.dir/build.make CMakeFiles/cmTryCompileExec673246799.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec673246799.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=directio   -o CMakeFiles/cmTryCompileExec673246799.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec673246799
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec673246799.dir/link.txt --verbose=1
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=directio    CMakeFiles/cmTryCompileExec673246799.dir/CheckFunctionExists.c.o  -o cmTryCompileExec673246799 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec673246799.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `directio'
+collect2: error: ld returned 1 exit status
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [cmTryCompileExec673246799] Error 1
+gmake[3]: *** [cmTryCompileExec673246799/fast] Error 2
+
+
+Determining if the function _doprnt exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1594241579/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1594241579.dir/build.make CMakeFiles/cmTryCompileExec1594241579.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1594241579.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=_doprnt   -o CMakeFiles/cmTryCompileExec1594241579.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1594241579
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1594241579.dir/link.txt --verbose=1
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=_doprnt    CMakeFiles/cmTryCompileExec1594241579.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1594241579 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec1594241579.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_doprnt'
+collect2: error: ld returned 1 exit status
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [cmTryCompileExec1594241579] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec1594241579/fast] Error 2
+
+
+Determining if the function compress exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3791561480/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3791561480.dir/build.make CMakeFiles/cmTryCompileExec3791561480.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3791561480.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=compress   -o CMakeFiles/cmTryCompileExec3791561480.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3791561480
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3791561480.dir/link.txt --verbose=1
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=compress    CMakeFiles/cmTryCompileExec3791561480.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3791561480 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec3791561480.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `compress'
+collect2: error: ld returned 1 exit status
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [cmTryCompileExec3791561480] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec3791561480/fast] Error 2
+
+
+Determining if the function fconvert exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec485879145/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec485879145.dir/build.make CMakeFiles/cmTryCompileExec485879145.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec485879145.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=fconvert   -o CMakeFiles/cmTryCompileExec485879145.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec485879145
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec485879145.dir/link.txt --verbose=1
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=fconvert    CMakeFiles/cmTryCompileExec485879145.dir/CheckFunctionExists.c.o  -o cmTryCompileExec485879145 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec485879145.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `fconvert'
+collect2: error: ld returned 1 exit status
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [cmTryCompileExec485879145] Error 1
+gmake[3]: *** [cmTryCompileExec485879145/fast] Error 2
+
+
+Determining if the function fpsetmask exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3838463290/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3838463290.dir/build.make CMakeFiles/cmTryCompileExec3838463290.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3838463290.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=fpsetmask   -o CMakeFiles/cmTryCompileExec3838463290.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3838463290
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3838463290.dir/link.txt --verbose=1
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=fpsetmask    CMakeFiles/cmTryCompileExec3838463290.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3838463290 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFilesgmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/cmTryCompileExec3838463290.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `fpsetmask'
+collect2: error: ld returned 1 exit status
+gmake[4]: *** [cmTryCompileExec3838463290] Error 1
+gmake[3]: *** [cmTryCompileExec3838463290/fast] Error 2
+
+
+Determining if the function gethrtime exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2590719588/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2590719588.dir/build.make CMakeFiles/cmTryCompileExec2590719588.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2590719588.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=gethrtime   -o CMakeFiles/cmTryCompileExec2590719588.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2590719588
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2590719588.dir/link.txt --verbose=1
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=gethrtime    CMakeFiles/cmTryCompileExec2590719588.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2590719588 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec2590719588.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `gethrtime'
+collect2: error: ld returned 1 exit status
+gmake[4]: *** [cmTryCompileExec2590719588] Error 1
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec2590719588/fast] Error 2
+
+
+Determining if the function getpassphrase exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1267102806/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1267102806.dir/build.make CMakeFiles/cmTryCompileExec1267102806.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1267102806.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=getpassphrase   -o CMakeFiles/cmTryCompileExec1267102806.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1267102806
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1267102806.dir/link.txt --verbose=1
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=getpassphrase    CMakeFiles/cmTryCompileExec1267102806.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1267102806 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec1267102806.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `getpassphrase'
+collect2: error: ld returned 1 exit status
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [cmTryCompileExec1267102806] Error 1
+gmake[3]: *** [cmTryCompileExec1267102806/fast] Error 2
+
+
+Determining if the function issetugid exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1997005059/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1997005059.dir/build.make CMakeFiles/cmTryCompileExec1997005059.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1997005059.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=issetugid   -o CMakeFiles/cmTryCompileExec1997005059.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1997005059
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1997005059.dir/link.txt --verbose=1
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=issetugid    CMakeFiles/cmTryCompileExec1997005059.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1997005059 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec1997005059.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `issetugid'
+collect2: error: ld returned 1 exit status
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [cmTryCompileExec1997005059] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec1997005059/fast] Error 2
+
+
+Determining if the function port_create exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3666184651/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3666184651.dir/build.make CMakeFiles/cmTryCompileExec3666184651.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3666184651.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=port_create   -o CMakeFiles/cmTryCompileExec3666184651.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3666184651
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3666184651.dir/link.txt --verbose=1
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=port_create    CMakeFiles/cmTryCompileExec3666184651.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3666184651 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec3666184651.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `port_create'
+collect2: error: ld returned 1 exit status
+gmake[4]: gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+*** [cmTryCompileExec3666184651] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec3666184651/fast] Error 2
+
+
+Determining if the function pthread_attr_create exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec586976356/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec586976356.dir/build.make CMakeFiles/cmTryCompileExec586976356.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec586976356.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=pthread_attr_create   -o CMakeFiles/cmTryCompileExec586976356.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec586976356
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec586976356.dir/link.txt --verbose=1
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=pthread_attr_create    CMakeFiles/cmTryCompileExec586976356.dir/CheckFunctionExists.c.o  -o cmTryCompileExec586976356 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec586976356.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `pthread_attr_create'
+collect2: error: ld returned 1 exit status
+gmake[4]: gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+*** [cmTryCompileExec586976356] Error 1
+gmake[3]: *** [cmTryCompileExec586976356/fast] Error 2
+
+
+Determining if the function pthread_condattr_create exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1026784695/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1026784695.dir/build.make CMakeFiles/cmTryCompileExec1026784695.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1026784695.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=pthread_condattr_create   -o CMakeFiles/cmTryCompileExec1026784695.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1026784695
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1026784695.dir/link.txt --verbose=1
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=pthread_condattr_create    CMakeFiles/cmTryCompileExec1026784695.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1026784695 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec1026784695.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `pthread_condattr_create'
+collect2: error: ld returned 1 exit status
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [cmTryCompileExec1026784695] Error 1
+gmake[3]: *** [cmTryCompileExec1026784695/fast] Error 2
+
+
+Determining if the function pthread_threadmask exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2748964124/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2748964124.dir/build.make CMakeFiles/cmTryCompileExec2748964124.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2748964124.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=pthread_threadmask   -o CMakeFiles/cmTryCompileExec2748964124.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2748964124
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2748964124.dir/link.txt --verbose=1
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=pthread_threadmask    CMakeFiles/cmTryCompileExec2748964124.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2748964124 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec2748964124.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `pthread_threadmask'
+collect2: error: ld returned 1 exit status
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [cmTryCompileExec2748964124] Error 1
+gmake[3]: *** [cmTryCompileExec2748964124/fast] Error 2
+
+
+Determining if the function pthread_yield_np exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec924043862/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec924043862.dir/build.make CMakeFiles/cmTryCompileExec924043862.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec924043862.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=pthread_yield_np   -o CMakeFiles/cmTryCompileExec924043862.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec924043862
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec924043862.dir/link.txt --verbose=1
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=pthread_yield_np    CMakeFiles/cmTryCompileExec924043862.dir/CheckFunctionExists.c.o  -o cmTryCompileExec924043862 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec924043862.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `pthread_yield_np'
+collect2: error: ld returned 1 exit status
+gmake[4]: *** [cmTryCompileExec924043862] Error 1
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec924043862/fast] Error 2
+
+
+Determining if the function rwlock_init exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2087335350/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2087335350.dir/build.make CMakeFiles/cmTryCompileExec2087335350.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2087335350.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=rwlock_init   -o CMakeFiles/cmTryCompileExec2087335350.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2087335350
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2087335350.dir/link.txt --verbose=1
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=rwlock_init    CMakeFiles/cmTryCompileExec2087335350.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2087335350 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec2087335350.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `rwlock_init'
+collect2: error: ld returned 1 exit status
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [cmTryCompileExec2087335350] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec2087335350/fast] Error 2
+
+
+Determining if the function setfd exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3655112544/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3655112544.dir/build.make CMakeFiles/cmTryCompileExec3655112544.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3655112544.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=setfd   -o CMakeFiles/cmTryCompileExec3655112544.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3655112544
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3655112544.dir/link.txt --verbose=1
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=setfd    CMakeFiles/cmTryCompileExec3655112544.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3655112544 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec3655112544.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `setfd'
+collect2: error: ld returned 1 exit status
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [cmTryCompileExec3655112544] Error 1
+gmake[3]: *** [cmTryCompileExec3655112544/fast] Error 2
+
+
+Determining if the function sigthreadmask exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3862815781/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3862815781.dir/build.make CMakeFiles/cmTryCompileExec3862815781.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3862815781.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=sigthreadmask   -o CMakeFiles/cmTryCompileExec3862815781.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3862815781
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3862815781.dir/link.txt --verbose=1
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=sigthreadmask    CMakeFiles/cmTryCompileExec3862815781.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3862815781 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec3862815781.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `sigthreadmask'
+collect2: error: ld returned 1 exit status
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [cmTryCompileExec3862815781] Error 1
+gmake[3]: *** [cmTryCompileExec3862815781/fast] Error 2
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strlcpy exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec660248671/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec660248671.dir/build.make CMakeFiles/cmTryCompileExec660248671.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec660248671.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=strlcpy   -o CMakeFiles/cmTryCompileExec660248671.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec660248671
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec660248671.dir/link.txt --verbose=1
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=strlcpy    CMakeFiles/cmTryCompileExec660248671.dir/CheckFunctionExists.c.o  -o cmTryCompileExec660248671 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec660248671.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `strlcpy'
+collect2: error: ld returned 1 exit status
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [cmTryCompileExec660248671] Error 1
+gmake[3]: *** [cmTryCompileExec660248671/fast] Error 2
+
+
+Determining if the function strlcat exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3092229695/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3092229695.dir/build.make CMakeFiles/cmTryCompileExec3092229695.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3092229695.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=strlcat   -o CMakeFiles/cmTryCompileExec3092229695.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3092229695
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3092229695.dir/link.txt --verbose=1
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=strlcat    CMakeFiles/cmTryCompileExec3092229695.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3092229695 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec3092229695.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `strlcat'
+collect2: error: ld returned 1 exit status
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [cmTryCompileExec3092229695] Error 1
+gmake[3]: *** [cmTryCompileExec3092229695/fast] Error 2
+
+
+Determining if the function fgetln exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2317541479/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2317541479.dir/build.make CMakeFiles/cmTryCompileExec2317541479.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2317541479.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=fgetln   -o CMakeFiles/cmTryCompileExec2317541479.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2317541479
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2317541479.dir/link.txt --verbose=1
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=fgetln    CMakeFiles/cmTryCompileExec2317541479.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2317541479 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec2317541479.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `fgetln'
+collect2: error: ld returned 1 exit status
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [cmTryCompileExec2317541479] Error 1
+gmake[3]: *** [cmTryCompileExec2317541479/fast] Error 2
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+
+
+Determining if the function tell exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4289238105/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4289238105.dir/build.make CMakeFiles/cmTryCompileExec4289238105.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4289238105.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=tell   -o CMakeFiles/cmTryCompileExec4289238105.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4289238105
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4289238105.dir/link.txt --verbose=1
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=tell    CMakeFiles/cmTryCompileExec4289238105.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4289238105 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec4289238105.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `tell'
+collect2: error: ld returned 1 exit status
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [cmTryCompileExec4289238105] Error 1
+gmake[3]: *** [cmTryCompileExec4289238105/fast] Error 2
+
+
+Determining if the function thr_setconcurrency exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec682565318/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec682565318.dir/build.make CMakeFiles/cmTryCompileExec682565318.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec682565318.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=thr_setconcurrency   -o CMakeFiles/cmTryCompileExec682565318.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec682565318
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec682565318.dir/link.txt --verbose=1
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=thr_setconcurrency    CMakeFiles/cmTryCompileExec682565318.dir/CheckFunctionExists.c.o  -o cmTryCompileExec682565318 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec682565318.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `thr_setconcurrency'
+collect2: error: ld returned 1 exit status
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [cmTryCompileExec682565318] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec682565318/fast] Error 2
+
+
+Determining if the function thr_yield exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2898937819/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2898937819.dir/build.make CMakeFiles/cmTryCompileExec2898937819.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2898937819.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=thr_yield   -o CMakeFiles/cmTryCompileExec2898937819.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2898937819
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2898937819.dir/link.txt --verbose=1
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=thr_yield    CMakeFiles/cmTryCompileExec2898937819.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2898937819 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec2898937819.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `thr_yield'
+collect2: error: ld returned 1 exit status
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [cmTryCompileExec2898937819] Error 1
+gmake[3]: *** [cmTryCompileExec2898937819/fast] Error 2
+
+
+Determining if the function ntohll exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1678458465/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1678458465.dir/build.make CMakeFiles/cmTryCompileExec1678458465.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1678458465.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=ntohll   -o CMakeFiles/cmTryCompileExec1678458465.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1678458465
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1678458465.dir/link.txt --verbose=1
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=ntohll    CMakeFiles/cmTryCompileExec1678458465.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1678458465 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec1678458465.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `ntohll'
+collect2: error: ld returned 1 exit status
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [cmTryCompileExec1678458465] Error 1
+gmake[3]: *** [cmTryCompileExec1678458465/fast] Error 2
+
+
+Determining if the function kqueue exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4199060993/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4199060993.dir/build.make CMakeFiles/cmTryCompileExec4199060993.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4199060993.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=kqueue   -o CMakeFiles/cmTryCompileExec4199060993.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4199060993
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4199060993.dir/link.txt --verbose=1
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=kqueue    CMakeFiles/cmTryCompileExec4199060993.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4199060993 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec4199060993.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `kqueue'
+collect2: error: ld returned 1 exit status
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [cmTryCompileExec4199060993] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec4199060993/fast] Error 2
+
+
+Determining if the function kqueue exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3910872/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3910872.dir/build.make CMakeFiles/cmTryCompileExec3910872.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3910872.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=kqueue   -o CMakeFiles/cmTryCompileExec3910872.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3910872
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3910872.dir/link.txt --verbose=1
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=kqueue    CMakeFiles/cmTryCompileExec3910872.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3910872 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec3910872.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `kqueue'
+collect2: error: ld returned 1 exit status
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [cmTryCompileExec3910872] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec3910872/fast] Error 2
+
+
+Determining if files ia64intrin.h exist failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1689687042/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1689687042.dir/build.make CMakeFiles/cmTryCompileExec1689687042.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1689687042.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec1689687042.dir/CheckIncludeFiles.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:24: fatal error: ia64intrin.h: No such file or directory
+ #include <ia64intrin.h>
+                        ^
+compilation terminated.
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [CMakeFiles/cmTryCompileExec1689687042.dir/CheckIncludeFiles.c.o] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec1689687042/fast] Error 2
+
+Source:
+/* */
+#include <ia64intrin.h>
+
+
+int main(){return 0;}
+
+Determining if the function read_real_time exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2923035506/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2923035506.dir/build.make CMakeFiles/cmTryCompileExec2923035506.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2923035506.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=read_real_time   -o CMakeFiles/cmTryCompileExec2923035506.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2923035506
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2923035506.dir/link.txt --verbose=1
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=read_real_time    CMakeFiles/cmTryCompileExec2923035506.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2923035506 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec2923035506.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `read_real_time'
+collect2: error: ld returned 1 exit status
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [cmTryCompileExec2923035506] Error 1
+gmake[3]: *** [cmTryCompileExec2923035506/fast] Error 2
+
+
+Determining if the function rdtscll exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4278616871/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4278616871.dir/build.make CMakeFiles/cmTryCompileExec4278616871.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4278616871.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=rdtscll   -o CMakeFiles/cmTryCompileExec4278616871.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4278616871
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4278616871.dir/link.txt --verbose=1
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=rdtscll    CMakeFiles/cmTryCompileExec4278616871.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4278616871 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+CMakeFiles/cmTryCompileExec4278616871.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `rdtscll'
+collect2: error: ld returned 1 exit status
+gmake[4]: *** [cmTryCompileExec4278616871] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec4278616871/fast] Error 2
+
+
+Determining if the TIOCSTAT exist failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec197841595/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec197841595.dir/build.make CMakeFiles/cmTryCompileExec197841595.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec197841595.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec197841595.dir/CheckSymbolExists.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: 'TIOCSTAT' undeclared (first use in this function)
+   return ((int*)(&TIOCSTAT))[argc];
+                   ^
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[4]: *** [CMakeFiles/cmTryCompileExec197841595.dir/CheckSymbolExists.c.o] Error 1
+gmake[3]: *** [cmTryCompileExec197841595/fast] Error 2
+
+File /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/ioctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef TIOCSTAT
+  return ((int*)(&TIOCSTAT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the FIONREAD exist failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3205125065/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3205125065.dir/build.make CMakeFiles/cmTryCompileExec3205125065.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3205125065.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec3205125065.dir/CheckSymbolExists.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:23: fatal error: sys/filio.h: No such file or directory
+ #include <sys/filio.h>
+                       ^
+compilation terminated.
+gmake[4]: *** [CMakeFiles/cmTryCompileExec3205125065.dir/CheckSymbolExists.c.o] Error 1
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec3205125065/fast] Error 2
+
+File /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/filio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FIONREAD
+  return ((int*)(&FIONREAD))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the SIGEV_PORT exist failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3448998917/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3448998917.dir/build.make CMakeFiles/cmTryCompileExec3448998917.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3448998917.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec3448998917.dir/CheckSymbolExists.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c:9:19: error: 'SIGEV_PORT' undeclared (first use in this function)
+   return ((int*)(&SIGEV_PORT))[argc];
+                   ^
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c:9:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [CMakeFiles/cmTryCompileExec3448998917.dir/CheckSymbolExists.c.o] Error 1
+gmake[3]: gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+*** [cmTryCompileExec3448998917/fast] Error 2
+
+File /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <signal.h>
+#include <time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef SIGEV_PORT
+  return ((int*)(&SIGEV_PORT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the EVFILT_TIMER exist failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3295605732/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3295605732.dir/build.make CMakeFiles/cmTryCompileExec3295605732.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3295605732.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec3295605732.dir/CheckSymbolExists.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c:3:23: fatal error: sys/event.h: No such file or directory
+ #include <sys/event.h>
+                       ^
+compilation terminated.
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [CMakeFiles/cmTryCompileExec3295605732.dir/CheckSymbolExists.c.o] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec3295605732/fast] Error 2
+
+File /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/event.h>
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef EVFILT_TIMER
+  return ((int*)(&EVFILT_TIMER))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3716778102/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3716778102.dir/build.make CMakeFiles/cmTryCompileExec3716778102.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3716778102.dir/TestEndianess.c.o
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec3716778102.dir/TestEndianess.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTryCompileExec3716778102
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3716778102.dir/link.txt --verbose=1
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w      CMakeFiles/cmTryCompileExec3716778102.dir/TestEndianess.c.o  -o cmTryCompileExec3716778102 -rdynamic 
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uchar failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2802119979/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2802119979.dir/build.make CMakeFiles/cmTryCompileExec2802119979.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2802119979.dir/SIZEOF_UCHAR.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec2802119979.dir/SIZEOF_UCHAR.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:21:12: error: 'uchar' undeclared here (not in a function)
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [CMakeFiles/cmTryCompileExec2802119979.dir/SIZEOF_UCHAR.c.o] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec2802119979/fast] Error 2
+
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uchar))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int8 failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2366236822/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2366236822.dir/build.make CMakeFiles/cmTryCompileExec2366236822.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2366236822.dir/SIZEOF_INT8.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec2366236822.dir/SIZEOF_INT8.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:21:12: error: 'int8' undeclared here (not in a function)
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [CMakeFiles/cmTryCompileExec2366236822.dir/SIZEOF_INT8.c.o] Error 1
+gmake[3]: *** [cmTryCompileExec2366236822/fast] Error 2
+
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(int8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint8 failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec818928818/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec818928818.dir/build.make CMakeFiles/cmTryCompileExec818928818.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec818928818.dir/SIZEOF_UINT8.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec818928818.dir/SIZEOF_UINT8.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:21:12: error: 'uint8' undeclared here (not in a function)
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [CMakeFiles/cmTryCompileExec818928818.dir/SIZEOF_UINT8.c.o] Error 1
+gmake[3]: *** [cmTryCompileExec818928818/fast] Error 2
+
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uint8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int16 failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3696756843/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3696756843.dir/build.make CMakeFiles/cmTryCompileExec3696756843.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3696756843.dir/SIZEOF_INT16.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec3696756843.dir/SIZEOF_INT16.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:21:12: error: 'int16' undeclared here (not in a function)
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [CMakeFiles/cmTryCompileExec3696756843.dir/SIZEOF_INT16.c.o] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec3696756843/fast] Error 2
+
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(int16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint16 failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1128288115/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1128288115.dir/build.make CMakeFiles/cmTryCompileExec1128288115.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1128288115.dir/SIZEOF_UINT16.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec1128288115.dir/SIZEOF_UINT16.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:21:12: error: 'uint16' undeclared here (not in a function)
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [CMakeFiles/cmTryCompileExec1128288115.dir/SIZEOF_UINT16.c.o] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec1128288115/fast] Error 2
+
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uint16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int32 failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec406775745/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec406775745.dir/build.make CMakeFiles/cmTryCompileExec406775745.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec406775745.dir/SIZEOF_INT32.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec406775745.dir/SIZEOF_INT32.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:21:12: error: 'int32' undeclared here (not in a function)
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [CMakeFiles/cmTryCompileExec406775745.dir/SIZEOF_INT32.c.o] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec406775745/fast] Error 2
+
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(int32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint32 failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec405102722/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec405102722.dir/build.make CMakeFiles/cmTryCompileExec405102722.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec405102722.dir/SIZEOF_UINT32.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec405102722.dir/SIZEOF_UINT32.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:21:12: error: 'uint32' undeclared here (not in a function)
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+gmake[4]: *** [CMakeFiles/cmTryCompileExec405102722.dir/SIZEOF_UINT32.c.o] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec405102722/fast] Error 2
+
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uint32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int64 failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4171193721/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4171193721.dir/build.make CMakeFiles/cmTryCompileExec4171193721.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4171193721.dir/SIZEOF_INT64.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec4171193721.dir/SIZEOF_INT64.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:21:12: error: 'int64' undeclared here (not in a function)
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [CMakeFiles/cmTryCompileExec4171193721.dir/SIZEOF_INT64.c.o] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec4171193721/fast] Error 2
+
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint64 failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2202839814/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2202839814.dir/build.make CMakeFiles/cmTryCompileExec2202839814.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2202839814.dir/SIZEOF_UINT64.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec2202839814.dir/SIZEOF_UINT64.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:21:12: error: 'uint64' undeclared here (not in a function)
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [CMakeFiles/cmTryCompileExec2202839814.dir/SIZEOF_UINT64.c.o] Error 1
+gmake[3]: *** [cmTryCompileExec2202839814/fast] Error 2
+
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uint64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of bool failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2619622491/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2619622491.dir/build.make CMakeFiles/cmTryCompileExec2619622491.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2619622491.dir/SIZEOF_BOOL.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec2619622491.dir/SIZEOF_BOOL.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:20:12: error: 'bool' undeclared here (not in a function)
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [CMakeFiles/cmTryCompileExec2619622491.dir/SIZEOF_BOOL.c.o] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec2619622491/fast] Error 2
+
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(bool))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing C SOURCE FILE Test TIME_T_UNSIGNED failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2211456097/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2211456097.dir/build.make CMakeFiles/cmTryCompileExec2211456097.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2211456097.dir/src.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DTIME_T_UNSIGNED   -o CMakeFiles/cmTryCompileExec2211456097.dir/src.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/src.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/src.c: In function 'main':
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/src.c:5:7: error: size of array 'array' is negative
+   int array[(((time_t)-1) > 0) ? 1 : -1];
+       ^
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [CMakeFiles/cmTryCompileExec2211456097.dir/src.c.o] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec2211456097/fast] Error 2
+
+Source file was:
+
+#include <time.h>
+int main()
+{
+  int array[(((time_t)-1) > 0) ? 1 : -1];
+  return 0;
+}
+Performing C SOURCE FILE Test HAVE_TIMESPEC_TS_SEC failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2294378386/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2294378386.dir/build.make CMakeFiles/cmTryCompileExec2294378386.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2294378386.dir/src.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DHAVE_TIMESPEC_TS_SEC   -o CMakeFiles/cmTryCompileExec2294378386.dir/src.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/src.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/src.c: In function 'main':
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/src.c:7:10: error: 'struct timespec' has no member named 'ts_sec'
+   abstime.ts_sec = time(NULL)+1;
+          ^
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/src.c:8:10: error: 'struct timespec' has no member named 'ts_nsec'
+   abstime.ts_nsec = 0;
+          ^
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [CMakeFiles/cmTryCompileExec2294378386.dir/src.c.o] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec2294378386/fast] Error 2
+
+Source file was:
+
+#include <pthread.h>
+
+int main(int ac, char **av)
+{
+  struct timespec abstime;
+  abstime.ts_sec = time(NULL)+1;
+  abstime.ts_nsec = 0;
+}
+
+Performing C++ SOURCE FILE Test HAVE_SOLARIS_STYLE_GETHOST failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1626034503/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1626034503.dir/build.make CMakeFiles/cmTryCompileExec1626034503.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1626034503.dir/src.cxx.o
+/usr/bin/c++   -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall -std=gnu++11 -ffunction-sections -fdata-sections -fno-gcse -fno-omit-frame-pointer -Woverloaded-virtual -Wno-deprecated -Wno-strict-aliasing -Wno-write-strings -Wno-invalid-offsetof -fno-operator-names -Wno-error=array-bounds -Wno-error=switch -Werror=format-security -Wno-unused-result -Wno-sign-compare -Wno-attributes -Wno-maybe-uninitialized -Wno-unused-local-typedefs -fno-canonical-system-headers -Wno-deprecated-declarations -Wno-unused-function -Wvla  -ftrack-macro-expansion=0 -fno-builtin-memcmp -mcrc32  -DHAVE_SOLARIS_STYLE_GETHOST   -o CMakeFiles/cmTryCompileExec1626034503.dir/src.cxx.o -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/src.cxx
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/src.cxx: In function 'int main()':
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/src.cxx:17:66: error: cannot convert 'int*' to 'hostent**' for argument '7' to 'int gethostbyaddr_r(const void*, __socklen_t, int, hostent*, char*, size_t, hostent**, int*)'
+           0, 0, (struct hostent *) 0, (char *) NULL,  0, (int *)0);
+                                                                  ^
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/src.cxx:15:24: warning: unused variable 'foo' [-Wunused-variable]
+        struct hostent *foo =
+                        ^
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [CMakeFiles/cmTryCompileExec1626034503.dir/src.cxx.o] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec1626034503/fast] Error 2
+
+Source file was:
+
+    #undef inline
+    #if !defined(SCO) && !defined(__osf__) && !defined(_REENTRANT)
+    #define _REENTRANT
+    #endif
+    #include <pthread.h>
+    #include <sys/types.h>
+    #include <sys/socket.h>
+    #include <netinet/in.h>
+    #include <arpa/inet.h>
+    #include <netdb.h>
+    int main()
+    {
+
+       struct hostent *foo =
+       gethostbyaddr_r((const char *) 0,
+          0, 0, (struct hostent *) 0, (char *) NULL,  0, (int *)0);
+       return 0;
+    }
+  
+Determining if the include file netinet/in6.h exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2383118032/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2383118032.dir/build.make CMakeFiles/cmTryCompileExec2383118032.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2383118032.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec2383118032.dir/CheckIncludeFile.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: fatal error: netinet/in6.h: No such file or directory
+ #include <netinet/in6.h>
+                         ^
+compilation terminated.
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [CMakeFiles/cmTryCompileExec2383118032.dir/CheckIncludeFile.c.o] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec2383118032/fast] Error 2
+
+
+Performing C SOURCE FILE Test HAVE_SOCKADDR_IN_SIN_LEN failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1469857699/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1469857699.dir/build.make CMakeFiles/cmTryCompileExec1469857699.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1469857699.dir/src.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DHAVE_SOCKADDR_IN_SIN_LEN   -o CMakeFiles/cmTryCompileExec1469857699.dir/src.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/src.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/src.c: In function 'main':
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/src.c:9:7: error: 'struct sockaddr_in' has no member named 'sin_len'
+    tmp->sin_len;
+       ^
+gmake[4]: gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+*** [CMakeFiles/cmTryCompileExec1469857699.dir/src.c.o] Error 1
+gmake[3]: *** [cmTryCompileExec1469857699/fast] Error 2
+
+Source file was:
+
+#include <sys/types.h>
+#include <netinet/in.h>
+#include <sys/socket.h>
+
+int main()
+{
+   struct sockaddr_in* tmp;
+   tmp->sin_len;
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_SOCKADDR_IN6_SIN6_LEN failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3627456611/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3627456611.dir/build.make CMakeFiles/cmTryCompileExec3627456611.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3627456611.dir/src.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DHAVE_SOCKADDR_IN6_SIN6_LEN   -o CMakeFiles/cmTryCompileExec3627456611.dir/src.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/src.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/src.c: In function 'main':
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/src.c:9:7: error: 'struct sockaddr_in6' has no member named 'sin6_len'
+    tmp->sin6_len;
+       ^
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [CMakeFiles/cmTryCompileExec3627456611.dir/src.c.o] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec3627456611/fast] Error 2
+
+Source file was:
+
+#include <sys/types.h>
+#include <netinet/in.h>
+#include <sys/socket.h>
+
+int main()
+{
+   struct sockaddr_in6* tmp;
+   tmp->sin6_len;
+  return 0;
+}
+
+Performing C SOURCE FILE Test STRUCT_DIRENT_HAS_D_NAMLEN failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec524875466/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec524875466.dir/build.make CMakeFiles/cmTryCompileExec524875466.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec524875466.dir/src.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DSTRUCT_DIRENT_HAS_D_NAMLEN   -o CMakeFiles/cmTryCompileExec524875466.dir/src.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/src.c
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/src.c: In function 'main':
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/src.c:7:7: error: 'struct dirent' has no member named 'd_namlen'
+    tmp->d_namlen;
+       ^
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [CMakeFiles/cmTryCompileExec524875466.dir/src.c.o] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec524875466/fast] Error 2
+
+Source file was:
+
+#include <dirent.h>
+
+int main()
+{
+   struct dirent* tmp;
+   tmp->d_namlen;
+  return 0;
+}
+
+Determining if the function mbscmp exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3694984162/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3694984162.dir/build.make CMakeFiles/cmTryCompileExec3694984162.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3694984162.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=mbscmp   -o CMakeFiles/cmTryCompileExec3694984162.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3694984162
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3694984162.dir/link.txt --verbose=1
+/usr/bin/cc   -Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=mbscmp    CMakeFiles/cmTryCompileExec3694984162.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3694984162 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec3694984162.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `mbscmp'
+collect2: error: ld returned 1 exit status
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[4]: *** [cmTryCompileExec3694984162] Error 1
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec3694984162/fast] Error 2
+
+
+Performing C++ SOURCE FILE Test edit_USE_LIBEDIT_INTERFACE failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3410391255/fast"
+gmake[3]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3410391255.dir/build.make CMakeFiles/cmTryCompileExec3410391255.dir/build
+gmake[4]: Entering directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3410391255.dir/src.cxx.o
+/usr/bin/c++   -DHAVE_READLINE_HISTORY_H -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall -std=gnu++11 -ffunction-sections -fdata-sections -fno-gcse -fno-omit-frame-pointer -Woverloaded-virtual -Wno-deprecated -Wno-strict-aliasing -Wno-write-strings -Wno-invalid-offsetof -fno-operator-names -Wno-error=array-bounds -Wno-error=switch -Werror=format-security -Wno-unused-result -Wno-sign-compare -Wno-attributes -Wno-maybe-uninitialized -Wno-unused-local-typedefs -fno-canonical-system-headers -Wno-deprecated-declarations -Wno-unused-function -Wvla  -ftrack-macro-expansion=0 -fno-builtin-memcmp -mcrc32  -Dedit_USE_LIBEDIT_INTERFACE   -o CMakeFiles/cmTryCompileExec3410391255.dir/src.cxx.o -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/src.cxx
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/src.cxx: In function 'int main(int, char**)':
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/src.cxx:7:29: error: 'completion_matches' was not declared in this scope
+       completion_matches(0,0);
+                             ^
+/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/CMakeTmp/src.cxx:6:12: warning: unused variable 'res' [-Wunused-variable]
+       char res= *(*rl_completion_entry_function)(0,0);
+            ^
+gmake[4]: *** [CMakeFiles/cmTryCompileExec3410391255.dir/src.cxx.o] Error 1
+gmake[4]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory `/tmp/hhvm-3.11.1/third-party/webscalesqlclient/mysql-5.6/CMakeFiles/CMakeTmp'
+gmake[3]: *** [cmTryCompileExec3410391255/fast] Error 2
+
+Source file was:
+
+    #include <stdio.h>
+    #include <readline/readline.h>
+    int main(int argc, char **argv)
+    {
+      char res= *(*rl_completion_entry_function)(0,0);
+      completion_matches(0,0);
+    }

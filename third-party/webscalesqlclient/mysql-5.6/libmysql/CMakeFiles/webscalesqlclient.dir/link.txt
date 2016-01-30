@@ -1,0 +1,2 @@
+/usr/bin/ar cr libwebscalesqlclient.a  CMakeFiles/webscalesqlclient.dir/webscalesqlclient_depends.c.o
+/usr/bin/ranlib libwebscalesqlclient.a

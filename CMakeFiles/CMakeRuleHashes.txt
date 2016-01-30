@@ -1,0 +1,26 @@
+# Hashes of file build rules.
+e4e1cb4a304670ea1b7458ea43006acb hphp/hack/CMakeFiles/hack
+8c5004fbff13413b9ea39f959db67a29 hphp/hack/CMakeFiles/hack_test
+34535b2e8cf9f73a3ce3d5f0703b0657 hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp
+9e23fb4312133f4f486cd58f3aca1459 hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp
+ab57657122d00baabd82c9de95716393 hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp
+f190fb2ddb744e6ce8de4406028eea10 hphp/runtime/ext_hhvm/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp
+e1f30fe3f3df4af6787d33244896e4dc hphp/runtime/ext_zend_compat/CMakeFiles/dso_test
+7d37b64f53c1cdfabefadc705607fd63 hphp/runtime/ext_zend_compat/dso_test.so
+6258c7a39cf8b408a37edd22afdc6d57 hphp/runtime/ir-opcode-generated.h
+1fb27b4920aa81f2484da9e89db6033d hphp/system/CMakeFiles/systemlib
+df053b224bd06ef62436b294afd04035 hphp/system/class_map.cpp
+3aff47328efa32fc5b6967023f7f6fc4 hphp/system/systemlib.php
+bee34c550f1fcf10fbab230bd584c88b hphp/util/../hphp-repo-schema.h
+41d0d16ce37df29c75e6be81486aa7d0 third-party/libmbfl/mbfl/CMakeFiles/eaw_table
+7901fe95390bf1e3b43604630d62b90d third-party/proxygen/lib/http/HTTPCommonHeaders.cpp
+3586abefee3ced34864c6fb736c92e82 third-party/proxygen/lib/http/HTTPCommonHeaders.h
+9b2f058ee4ea339e7f8a5cebf7fe3898 third-party/webscalesqlclient/CMakeFiles/webscalesqlclient
+3bb0d4206bd79d3a7f91b19969039f0b third-party/webscalesqlclient/CMakeFiles/webscalesqlclient-complete
+9e415e0ab6e9fd314f444de4e4012b49 third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-build
+4bfd4e0331ff62097b4705023a2e7d90 third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-configure
+b5103dd8cbc865e20b92e51af25e1181 third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-download
+ef5e30387ec24cf6403bb7364674229e third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-install
+c58e75bb5f2707f745e0070b5984e200 third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-mkdir
+436f8b554d0d7165f94b734760aca999 third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-patch
+5ed9205abc149f0988efe8041da2c767 third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-update

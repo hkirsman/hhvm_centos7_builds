@@ -1,0 +1,1 @@
+parsing/parser_hack.ml: Ast Core Errors FileInfo Hashtbl Ide Lexer_hack Lexing Lint List Namespace_env Namespaces Option Parser_heap Php_escaping Pos Regexp_utils Relative_path String Sys_utils Utils

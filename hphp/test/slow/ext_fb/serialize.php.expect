@@ -1,0 +1,8 @@
+string(4) "test"
+bool(true)
+array(1) {
+  [0]=>
+  string(4) "test"
+}
+bool(true)
+bool(false)

@@ -1,0 +1,950 @@
+Performing C++ SOURCE FILE Test IS_AARCH64 failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2943695982/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2943695982.dir/build.make CMakeFiles/cmTryCompileExec2943695982.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2943695982.dir/src.cxx.o
+/usr/bin/c++    -DIS_AARCH64   -o CMakeFiles/cmTryCompileExec2943695982.dir/src.cxx.o -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:3:2: error: #error Not ARMv8
+ #error Not ARMv8
+  ^
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2943695982.dir/src.cxx.o] Error 1
+gmake: *** [cmTryCompileExec2943695982/fast] Error 2
+
+Source file was:
+
+#ifndef __AARCH64EL__
+#error Not ARMv8
+#endif
+int main() { return 0; }
+Performing C++ SOURCE FILE Test IS_PPC64 failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec168121826/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec168121826.dir/build.make CMakeFiles/cmTryCompileExec168121826.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec168121826.dir/src.cxx.o
+/usr/bin/c++    -DIS_PPC64   -o CMakeFiles/cmTryCompileExec168121826.dir/src.cxx.o -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:3:2: error: #error Not PPC64
+ #error Not PPC64
+  ^
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec168121826.dir/src.cxx.o] Error 1
+gmake: *** [cmTryCompileExec168121826/fast] Error 2
+
+Source file was:
+
+#ifndef __powerpc64__
+#error Not PPC64
+#endif
+int main() { return 0; }
+Performing C++ SOURCE FILE Test PTHREAD_TIMEDLOCK failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec426378343/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec426378343.dir/build.make CMakeFiles/cmTryCompileExec426378343.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec426378343.dir/src.cxx.o
+/usr/bin/c++    -DPTHREAD_TIMEDLOCK   -o CMakeFiles/cmTryCompileExec426378343.dir/src.cxx.o -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx: In function 'int main()':
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:3:36: error: too few arguments to function 'int pthread_mutex_timedlock(pthread_mutex_t*, const timespec*)'
+     return pthread_mutex_timedlock();
+                                    ^
+In file included from /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:1:0:
+/usr/include/pthread.h:758:12: note: declared here
+ extern int pthread_mutex_timedlock (pthread_mutex_t *__restrict __mutex,
+            ^
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec426378343.dir/src.cxx.o] Error 1
+gmake: *** [cmTryCompileExec426378343/fast] Error 2
+
+Source file was:
+#include <pthread.h>
+  int main() {
+    return pthread_mutex_timedlock();
+  }
+Performing C SOURCE FILE Test LIBDL_NEEDS_UNDERSCORE failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2235386756/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2235386756.dir/build.make CMakeFiles/cmTryCompileExec2235386756.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2235386756.dir/src.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DLIBDL_NEEDS_UNDERSCORE   -o CMakeFiles/cmTryCompileExec2235386756.dir/src.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2235386756
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2235386756.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DLIBDL_NEEDS_UNDERSCORE    CMakeFiles/cmTryCompileExec2235386756.dir/src.c.o  -o cmTryCompileExec2235386756 -rdynamic -ldl 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+#include <dlfcn.h>
+#include <stdlib.h>
+void testfunc() {}
+int main() {
+  testfunc();
+  if (dlsym(0, "_testfunc") != (void*)0) {
+    return EXIT_SUCCESS;
+  } else {
+    return EXIT_FAILURE;
+  }
+}
+Determining if the function evhttp_bind_socket_with_fd exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1847593510/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1847593510.dir/build.make CMakeFiles/cmTryCompileExec1847593510.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1847593510.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=evhttp_bind_socket_with_fd   -o CMakeFiles/cmTryCompileExec1847593510.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1847593510
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1847593510.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=evhttp_bind_socket_with_fd    CMakeFiles/cmTryCompileExec1847593510.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1847593510 -rdynamic -levent 
+CMakeFiles/cmTryCompileExec1847593510.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `evhttp_bind_socket_with_fd'
+collect2: error: ld returned 1 exit status
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec1847593510] Error 1
+gmake: *** [cmTryCompileExec1847593510/fast] Error 2
+
+
+Determining if the function curl_multi_select exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec754495012/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec754495012.dir/build.make CMakeFiles/cmTryCompileExec754495012.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec754495012.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=curl_multi_select   -o CMakeFiles/cmTryCompileExec754495012.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec754495012
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec754495012.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=curl_multi_select    CMakeFiles/cmTryCompileExec754495012.dir/CheckFunctionExists.c.o  -o cmTryCompileExec754495012 -rdynamic -lcurl 
+CMakeFiles/cmTryCompileExec754495012.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `curl_multi_select'
+collect2: error: ld returned 1 exit status
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec754495012] Error 1
+gmake: *** [cmTryCompileExec754495012/fast] Error 2
+
+
+Performing C++ SOURCE FILE Test DW_CONST failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec561474818/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec561474818.dir/build.make CMakeFiles/cmTryCompileExec561474818.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec561474818.dir/src.cxx.o
+/usr/bin/c++    -Wall -std=gnu++11 -ffunction-sections -fdata-sections -fno-gcse -fno-omit-frame-pointer -Woverloaded-virtual -Wno-deprecated -Wno-strict-aliasing -Wno-write-strings -Wno-invalid-offsetof -fno-operator-names -Wno-error=array-bounds -Wno-error=switch -Werror=format-security -Wno-unused-result -Wno-sign-compare -Wno-attributes -Wno-maybe-uninitialized -Wno-unused-local-typedefs -fno-canonical-system-headers -Wno-deprecated-declarations -Wno-unused-function -Wvla  -ftrack-macro-expansion=0 -fno-builtin-memcmp -mcrc32  -DDW_CONST -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec561474818.dir/src.cxx.o -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx: In function 'int dwarfCallback(const char*, int, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned*, Dwarf_Ptr, int*)':
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:6:52: warning: no return statement in function returning non-void [-Wreturn-type]
+         Dwarf_Unsigned * g, Dwarf_Ptr h, int * i) {}
+                                                    ^
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx: In function 'int main()':
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:7:128: error: invalid conversion from 'int (*)(const char*, int, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned*, Dwarf_Ptr, int*) {aka int (*)(const char*, int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int*, void*, int*)}' to 'Dwarf_Callback_Func {aka int (*)(char*, int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int, int*, int*)}' [-fpermissive]
+       int main() { dwarf_producer_init(0, dwarfCallback, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr); return 0; }
+                                                                                                                                ^
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:7:128: error: too many arguments to function 'Dwarf_P_Debug_s* dwarf_producer_init(Dwarf_Unsigned, Dwarf_Callback_Func, Dwarf_Handler, Dwarf_Ptr, Dwarf_Error_s**)'
+In file included from /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:2:0:
+/usr/include/libdwarf/libdwarf.h:2281:15: note: declared here
+ Dwarf_P_Debug dwarf_producer_init(
+               ^
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec561474818.dir/src.cxx.o] Error 1
+gmake: *** [cmTryCompileExec561474818/fast] Error 2
+
+Source file was:
+
+      #include <libdwarf.h>
+      #include <cstddef>
+      int dwarfCallback(const char * a, int b, Dwarf_Unsigned c,
+        Dwarf_Unsigned d, Dwarf_Unsigned e, Dwarf_Unsigned f,
+        Dwarf_Unsigned * g, Dwarf_Ptr h, int * i) {}
+      int main() { dwarf_producer_init(0, dwarfCallback, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr); return 0; }
+Performing C++ SOURCE FILE Test DW_CONST failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2403385260/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2403385260.dir/build.make CMakeFiles/cmTryCompileExec2403385260.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2403385260.dir/src.cxx.o
+/usr/bin/c++    -Wall -std=gnu++11 -ffunction-sections -fdata-sections -fno-gcse -fno-omit-frame-pointer -Woverloaded-virtual -Wno-deprecated -Wno-strict-aliasing -Wno-write-strings -Wno-invalid-offsetof -fno-operator-names -Wno-error=array-bounds -Wno-error=switch -Werror=format-security -Wno-unused-result -Wno-sign-compare -Wno-attributes -Wno-maybe-uninitialized -Wno-unused-local-typedefs -fno-canonical-system-headers -Wno-deprecated-declarations -Wno-unused-function -Wvla  -ftrack-macro-expansion=0 -fno-builtin-memcmp -mcrc32  -DDW_CONST -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec2403385260.dir/src.cxx.o -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx: In function 'int dwarfCallback(const char*, int, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned*, Dwarf_Ptr, int*)':
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:6:52: warning: no return statement in function returning non-void [-Wreturn-type]
+         Dwarf_Unsigned * g, Dwarf_Ptr h, int * i) {}
+                                                    ^
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx: In function 'int main()':
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:7:94: error: invalid conversion from 'int (*)(const char*, int, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned*, Dwarf_Ptr, int*) {aka int (*)(const char*, int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int*, void*, int*)}' to 'Dwarf_Callback_Func_c {aka int (*)(char*, int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int*, void*, int*)}' [-fpermissive]
+       int main() { dwarf_producer_init_c(0, dwarfCallback, nullptr, nullptr, nullptr, nullptr); return 0; }
+                                                                                              ^
+In file included from /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:2:0:
+/usr/include/libdwarf/libdwarf.h:2242:15: error:   initializing argument 2 of 'Dwarf_P_Debug_s* dwarf_producer_init_c(Dwarf_Unsigned, Dwarf_Callback_Func_c, Dwarf_Handler, Dwarf_Ptr, void*, Dwarf_Error_s**)' [-fpermissive]
+ Dwarf_P_Debug dwarf_producer_init_c(
+               ^
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2403385260.dir/src.cxx.o] Error 1
+gmake: *** [cmTryCompileExec2403385260/fast] Error 2
+
+Source file was:
+
+      #include <libdwarf.h>
+      #include <cstddef>
+      int dwarfCallback(const char * a, int b, Dwarf_Unsigned c,
+        Dwarf_Unsigned d, Dwarf_Unsigned e, Dwarf_Unsigned f,
+        Dwarf_Unsigned * g, Dwarf_Ptr h, int * i) {}
+      int main() { dwarf_producer_init_c(0, dwarfCallback, nullptr, nullptr, nullptr, nullptr); return 0; }
+Performing C++ SOURCE FILE Test FOLLY_IFUNC failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3896410301/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3896410301.dir/build.make CMakeFiles/cmTryCompileExec3896410301.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3896410301.dir/src.cxx.o
+/usr/bin/c++    -Wall -std=gnu++11 -ffunction-sections -fdata-sections -fno-gcse -fno-omit-frame-pointer -Woverloaded-virtual -Wno-deprecated -Wno-strict-aliasing -Wno-write-strings -Wno-invalid-offsetof -fno-operator-names -Wno-error=array-bounds -Wno-error=switch -Werror=format-security -Wno-unused-result -Wno-sign-compare -Wno-attributes -Wno-maybe-uninitialized -Wno-unused-local-typedefs -fno-canonical-system-headers -Wno-deprecated-declarations -Wno-unused-function -Wvla  -ftrack-macro-expansion=0 -fno-builtin-memcmp -mcrc32  -DFOLLY_IFUNC -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec3896410301.dir/src.cxx.o -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3896410301
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3896410301.dir/link.txt --verbose=1
+/usr/bin/c++     -Wall -std=gnu++11 -ffunction-sections -fdata-sections -fno-gcse -fno-omit-frame-pointer -Woverloaded-virtual -Wno-deprecated -Wno-strict-aliasing -Wno-write-strings -Wno-invalid-offsetof -fno-operator-names -Wno-error=array-bounds -Wno-error=switch -Werror=format-security -Wno-unused-result -Wno-sign-compare -Wno-attributes -Wno-maybe-uninitialized -Wno-unused-local-typedefs -fno-canonical-system-headers -Wno-deprecated-declarations -Wno-unused-function -Wvla  -ftrack-macro-expansion=0 -fno-builtin-memcmp -mcrc32  -DFOLLY_IFUNC -std=c++0x    CMakeFiles/cmTryCompileExec3896410301.dir/src.cxx.o  -o cmTryCompileExec3896410301 -rdynamic -lelf 
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec3896410301] Error 1
+gmake: *** [cmTryCompileExec3896410301/fast] Error 2
+
+Source file was:
+
+extern "C" void (*test_ifunc(void))() { return 0; }
+void func() __attribute__((ifunc("test_ifunc")));
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2933520794/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2933520794.dir/build.make CMakeFiles/cmTryCompileExec2933520794.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2933520794.dir/TestEndianess.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w     -o CMakeFiles/cmTryCompileExec2933520794.dir/TestEndianess.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTryCompileExec2933520794
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2933520794.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w      CMakeFiles/cmTryCompileExec2933520794.dir/TestEndianess.c.o  -o cmTryCompileExec2933520794 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function _close exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec844224815/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec844224815.dir/build.make CMakeFiles/cmTryCompileExec844224815.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec844224815.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=_close -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec844224815.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec844224815
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec844224815.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=_close -std=c++0x    CMakeFiles/cmTryCompileExec844224815.dir/CheckFunctionExists.c.o  -o cmTryCompileExec844224815 -rdynamic 
+CMakeFiles/cmTryCompileExec844224815.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_close'
+collect2: error: ld returned 1 exit status
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec844224815] Error 1
+gmake: *** [cmTryCompileExec844224815/fast] Error 2
+
+
+Determining if the function _dup exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1607324983/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1607324983.dir/build.make CMakeFiles/cmTryCompileExec1607324983.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1607324983.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=_dup -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec1607324983.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1607324983
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1607324983.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=_dup -std=c++0x    CMakeFiles/cmTryCompileExec1607324983.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1607324983 -rdynamic 
+CMakeFiles/cmTryCompileExec1607324983.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_dup'
+collect2: error: ld returned 1 exit status
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec1607324983] Error 1
+gmake: *** [cmTryCompileExec1607324983/fast] Error 2
+
+
+Determining if the function _fdopen exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2902078557/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2902078557.dir/build.make CMakeFiles/cmTryCompileExec2902078557.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2902078557.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=_fdopen -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec2902078557.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2902078557
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2902078557.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=_fdopen -std=c++0x    CMakeFiles/cmTryCompileExec2902078557.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2902078557 -rdynamic 
+CMakeFiles/cmTryCompileExec2902078557.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_fdopen'
+collect2: error: ld returned 1 exit status
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec2902078557] Error 1
+gmake: *** [cmTryCompileExec2902078557/fast] Error 2
+
+
+Determining if the function _fileno exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1033610456/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1033610456.dir/build.make CMakeFiles/cmTryCompileExec1033610456.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1033610456.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=_fileno -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec1033610456.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1033610456
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1033610456.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=_fileno -std=c++0x    CMakeFiles/cmTryCompileExec1033610456.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1033610456 -rdynamic 
+CMakeFiles/cmTryCompileExec1033610456.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_fileno'
+collect2: error: ld returned 1 exit status
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec1033610456] Error 1
+gmake: *** [cmTryCompileExec1033610456/fast] Error 2
+
+
+Determining if the function _open exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec966597548/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec966597548.dir/build.make CMakeFiles/cmTryCompileExec966597548.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec966597548.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=_open -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec966597548.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec966597548
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec966597548.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=_open -std=c++0x    CMakeFiles/cmTryCompileExec966597548.dir/CheckFunctionExists.c.o  -o cmTryCompileExec966597548 -rdynamic 
+CMakeFiles/cmTryCompileExec966597548.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_open'
+collect2: error: ld returned 1 exit status
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec966597548] Error 1
+gmake: *** [cmTryCompileExec966597548/fast] Error 2
+
+
+Determining if the function _snprintf exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3827697085/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3827697085.dir/build.make CMakeFiles/cmTryCompileExec3827697085.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3827697085.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=_snprintf -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec3827697085.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3827697085
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3827697085.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=_snprintf -std=c++0x    CMakeFiles/cmTryCompileExec3827697085.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3827697085 -rdynamic 
+CMakeFiles/cmTryCompileExec3827697085.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_snprintf'
+collect2: error: ld returned 1 exit status
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec3827697085] Error 1
+gmake: *** [cmTryCompileExec3827697085/fast] Error 2
+
+
+Determining if the function _strdup exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3528759444/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3528759444.dir/build.make CMakeFiles/cmTryCompileExec3528759444.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3528759444.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=_strdup -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec3528759444.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3528759444
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3528759444.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=_strdup -std=c++0x    CMakeFiles/cmTryCompileExec3528759444.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3528759444 -rdynamic 
+CMakeFiles/cmTryCompileExec3528759444.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_strdup'
+collect2: error: ld returned 1 exit status
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec3528759444] Error 1
+gmake: *** [cmTryCompileExec3528759444/fast] Error 2
+
+
+Determining if the function _stricmp exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3032992524/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3032992524.dir/build.make CMakeFiles/cmTryCompileExec3032992524.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3032992524.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=_stricmp -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec3032992524.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3032992524
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3032992524.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=_stricmp -std=c++0x    CMakeFiles/cmTryCompileExec3032992524.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3032992524 -rdynamic 
+CMakeFiles/cmTryCompileExec3032992524.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_stricmp'
+collect2: error: ld returned 1 exit status
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec3032992524] Error 1
+gmake: *** [cmTryCompileExec3032992524/fast] Error 2
+
+
+Determining if the MoveFileExA exist failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4225460660/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4225460660.dir/build.make CMakeFiles/cmTryCompileExec4225460660.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4225460660.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec4225460660.dir/CheckSymbolExists.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:21: fatal error: windows.h: No such file or directory
+ #include <windows.h>
+                     ^
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTryCompileExec4225460660.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec4225460660/fast] Error 2
+
+File /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef MoveFileExA
+  return ((int*)(&MoveFileExA))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining size of __int8 failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec243725613/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec243725613.dir/build.make CMakeFiles/cmTryCompileExec243725613.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec243725613.dir/__INT8_LIBZIP.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec243725613.dir/__INT8_LIBZIP.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CheckTypeSize/__INT8_LIBZIP.c
+/tmp/hhvm-3.11.1/CMakeFiles/CheckTypeSize/__INT8_LIBZIP.c:19:12: error: '__int8' undeclared here (not in a function)
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec243725613.dir/__INT8_LIBZIP.c.o] Error 1
+gmake: *** [cmTryCompileExec243725613/fast] Error 2
+
+/tmp/hhvm-3.11.1/CMakeFiles/CheckTypeSize/__INT8_LIBZIP.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __int16 failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec593436434/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec593436434.dir/build.make CMakeFiles/cmTryCompileExec593436434.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec593436434.dir/__INT16_LIBZIP.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec593436434.dir/__INT16_LIBZIP.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CheckTypeSize/__INT16_LIBZIP.c
+/tmp/hhvm-3.11.1/CMakeFiles/CheckTypeSize/__INT16_LIBZIP.c:19:12: error: '__int16' undeclared here (not in a function)
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec593436434.dir/__INT16_LIBZIP.c.o] Error 1
+gmake: *** [cmTryCompileExec593436434/fast] Error 2
+
+/tmp/hhvm-3.11.1/CMakeFiles/CheckTypeSize/__INT16_LIBZIP.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __int32 failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3686082804/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3686082804.dir/build.make CMakeFiles/cmTryCompileExec3686082804.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3686082804.dir/__INT32_LIBZIP.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec3686082804.dir/__INT32_LIBZIP.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CheckTypeSize/__INT32_LIBZIP.c
+/tmp/hhvm-3.11.1/CMakeFiles/CheckTypeSize/__INT32_LIBZIP.c:19:12: error: '__int32' undeclared here (not in a function)
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3686082804.dir/__INT32_LIBZIP.c.o] Error 1
+gmake: *** [cmTryCompileExec3686082804/fast] Error 2
+
+/tmp/hhvm-3.11.1/CMakeFiles/CheckTypeSize/__INT32_LIBZIP.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __int64 failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3691234161/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3691234161.dir/build.make CMakeFiles/cmTryCompileExec3691234161.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3691234161.dir/__INT64_LIBZIP.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec3691234161.dir/__INT64_LIBZIP.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CheckTypeSize/__INT64_LIBZIP.c
+/tmp/hhvm-3.11.1/CMakeFiles/CheckTypeSize/__INT64_LIBZIP.c:19:12: error: '__int64' undeclared here (not in a function)
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3691234161.dir/__INT64_LIBZIP.c.o] Error 1
+gmake: *** [cmTryCompileExec3691234161/fast] Error 2
+
+/tmp/hhvm-3.11.1/CMakeFiles/CheckTypeSize/__INT64_LIBZIP.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing C++ SOURCE FILE Test DW_CONST failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3990325321/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3990325321.dir/build.make CMakeFiles/cmTryCompileExec3990325321.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3990325321.dir/src.cxx.o
+/usr/bin/c++    -Wall -std=gnu++11 -ffunction-sections -fdata-sections -fno-gcse -fno-omit-frame-pointer -Woverloaded-virtual -Wno-deprecated -Wno-strict-aliasing -Wno-write-strings -Wno-invalid-offsetof -fno-operator-names -Wno-error=array-bounds -Wno-error=switch -Werror=format-security -Wno-unused-result -Wno-sign-compare -Wno-attributes -Wno-maybe-uninitialized -Wno-unused-local-typedefs -fno-canonical-system-headers -Wno-deprecated-declarations -Wno-unused-function -Wvla  -ftrack-macro-expansion=0 -fno-builtin-memcmp -mcrc32  -DDW_CONST -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec3990325321.dir/src.cxx.o -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx: In function 'int dwarfCallback(const char*, int, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned*, Dwarf_Ptr, int*)':
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:6:52: warning: no return statement in function returning non-void [-Wreturn-type]
+         Dwarf_Unsigned * g, Dwarf_Ptr h, int * i) {}
+                                                    ^
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx: In function 'int main()':
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:7:128: error: invalid conversion from 'int (*)(const char*, int, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned*, Dwarf_Ptr, int*) {aka int (*)(const char*, int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int*, void*, int*)}' to 'Dwarf_Callback_Func {aka int (*)(char*, int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int, int*, int*)}' [-fpermissive]
+       int main() { dwarf_producer_init(0, dwarfCallback, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr); return 0; }
+                                                                                                                                ^
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:7:128: error: too many arguments to function 'Dwarf_P_Debug_s* dwarf_producer_init(Dwarf_Unsigned, Dwarf_Callback_Func, Dwarf_Handler, Dwarf_Ptr, Dwarf_Error_s**)'
+In file included from /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:2:0:
+/usr/include/libdwarf/libdwarf.h:2281:15: note: declared here
+ Dwarf_P_Debug dwarf_producer_init(
+               ^
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3990325321.dir/src.cxx.o] Error 1
+gmake: *** [cmTryCompileExec3990325321/fast] Error 2
+
+Source file was:
+
+      #include <libdwarf.h>
+      #include <cstddef>
+      int dwarfCallback(const char * a, int b, Dwarf_Unsigned c,
+        Dwarf_Unsigned d, Dwarf_Unsigned e, Dwarf_Unsigned f,
+        Dwarf_Unsigned * g, Dwarf_Ptr h, int * i) {}
+      int main() { dwarf_producer_init(0, dwarfCallback, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr); return 0; }
+Performing C++ SOURCE FILE Test DW_CONST failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec728343340/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec728343340.dir/build.make CMakeFiles/cmTryCompileExec728343340.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec728343340.dir/src.cxx.o
+/usr/bin/c++    -Wall -std=gnu++11 -ffunction-sections -fdata-sections -fno-gcse -fno-omit-frame-pointer -Woverloaded-virtual -Wno-deprecated -Wno-strict-aliasing -Wno-write-strings -Wno-invalid-offsetof -fno-operator-names -Wno-error=array-bounds -Wno-error=switch -Werror=format-security -Wno-unused-result -Wno-sign-compare -Wno-attributes -Wno-maybe-uninitialized -Wno-unused-local-typedefs -fno-canonical-system-headers -Wno-deprecated-declarations -Wno-unused-function -Wvla  -ftrack-macro-expansion=0 -fno-builtin-memcmp -mcrc32  -DDW_CONST -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec728343340.dir/src.cxx.o -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx: In function 'int dwarfCallback(const char*, int, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned*, Dwarf_Ptr, int*)':
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:6:52: warning: no return statement in function returning non-void [-Wreturn-type]
+         Dwarf_Unsigned * g, Dwarf_Ptr h, int * i) {}
+                                                    ^
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx: In function 'int main()':
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:7:94: error: invalid conversion from 'int (*)(const char*, int, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned*, Dwarf_Ptr, int*) {aka int (*)(const char*, int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int*, void*, int*)}' to 'Dwarf_Callback_Func_c {aka int (*)(char*, int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int*, void*, int*)}' [-fpermissive]
+       int main() { dwarf_producer_init_c(0, dwarfCallback, nullptr, nullptr, nullptr, nullptr); return 0; }
+                                                                                              ^
+In file included from /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:2:0:
+/usr/include/libdwarf/libdwarf.h:2242:15: error:   initializing argument 2 of 'Dwarf_P_Debug_s* dwarf_producer_init_c(Dwarf_Unsigned, Dwarf_Callback_Func_c, Dwarf_Handler, Dwarf_Ptr, void*, Dwarf_Error_s**)' [-fpermissive]
+ Dwarf_P_Debug dwarf_producer_init_c(
+               ^
+gmake[1]: *** [CMakeFiles/cmTryCompileExec728343340.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec728343340/fast] Error 2
+
+Source file was:
+
+      #include <libdwarf.h>
+      #include <cstddef>
+      int dwarfCallback(const char * a, int b, Dwarf_Unsigned c,
+        Dwarf_Unsigned d, Dwarf_Unsigned e, Dwarf_Unsigned f,
+        Dwarf_Unsigned * g, Dwarf_Ptr h, int * i) {}
+      int main() { dwarf_producer_init_c(0, dwarfCallback, nullptr, nullptr, nullptr, nullptr); return 0; }
+Determining if the function memfd_create exists failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2795419740/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2795419740.dir/build.make CMakeFiles/cmTryCompileExec2795419740.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2795419740.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=memfd_create -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec2795419740.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2795419740
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2795419740.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=memfd_create -std=c++0x    CMakeFiles/cmTryCompileExec2795419740.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2795419740 -rdynamic -lelf 
+CMakeFiles/cmTryCompileExec2795419740.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `memfd_create'
+collect2: error: ld returned 1 exit status
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec2795419740] Error 1
+gmake: *** [cmTryCompileExec2795419740/fast] Error 2
+
+
+Performing C++ SOURCE FILE Test LIBICONV_CONST failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4246934927/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4246934927.dir/build.make CMakeFiles/cmTryCompileExec4246934927.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4246934927.dir/src.cxx.o
+/usr/bin/c++    -Wall -std=gnu++11 -ffunction-sections -fdata-sections -fno-gcse -fno-omit-frame-pointer -Woverloaded-virtual -Wno-deprecated -Wno-strict-aliasing -Wno-write-strings -Wno-invalid-offsetof -fno-operator-names -Wno-error=array-bounds -Wno-error=switch -Werror=format-security -Wno-unused-result -Wno-sign-compare -Wno-attributes -Wno-maybe-uninitialized -Wno-unused-local-typedefs -fno-canonical-system-headers -Wno-deprecated-declarations -Wno-unused-function -Wvla  -ftrack-macro-expansion=0 -fno-builtin-memcmp -mcrc32  -DLIBICONV_CONST -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec4246934927.dir/src.cxx.o -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx: In function 'int main()':
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:9:71: error: invalid conversion from 'const char**' to 'char**' [-fpermissive]
+   iconv(cd, (const char **)&in_p, &in_left, (char **)&out_p, &out_left);
+                                                                       ^
+In file included from /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:2:0:
+/usr/include/iconv.h:42:15: error:   initializing argument 2 of 'size_t iconv(iconv_t, char**, size_t*, char**, size_t*)' [-fpermissive]
+ extern size_t iconv (iconv_t __cd, char **__restrict __inbuf,
+               ^
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec4246934927.dir/src.cxx.o] Error 1
+gmake: *** [cmTryCompileExec4246934927/fast] Error 2
+
+Source file was:
+#include <string.h>
+#include <iconv.h>
+int main() {
+  iconv_t cd = 0;
+  const char *in_p = "testing";
+  size_t in_left = strlen(in_p);
+  char out_p[20];
+  size_t out_left = sizeof(out_p);
+  iconv(cd, (const char **)&in_p, &in_left, (char **)&out_p, &out_left);
+  return 0;
+}
+Performing C++ SOURCE FILE Test DW_CONST failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4151101064/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4151101064.dir/build.make CMakeFiles/cmTryCompileExec4151101064.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4151101064.dir/src.cxx.o
+/usr/bin/c++    -Wall -std=gnu++11 -ffunction-sections -fdata-sections -fno-gcse -fno-omit-frame-pointer -Woverloaded-virtual -Wno-deprecated -Wno-strict-aliasing -Wno-write-strings -Wno-invalid-offsetof -fno-operator-names -Wno-error=array-bounds -Wno-error=switch -Werror=format-security -Wno-unused-result -Wno-sign-compare -Wno-attributes -Wno-maybe-uninitialized -Wno-unused-local-typedefs -fno-canonical-system-headers -Wno-deprecated-declarations -Wno-unused-function -Wvla  -ftrack-macro-expansion=0 -fno-builtin-memcmp -mcrc32  -DDW_CONST -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec4151101064.dir/src.cxx.o -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx: In function 'int dwarfCallback(const char*, int, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned*, Dwarf_Ptr, int*)':
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:6:52: warning: no return statement in function returning non-void [-Wreturn-type]
+         Dwarf_Unsigned * g, Dwarf_Ptr h, int * i) {}
+                                                    ^
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx: In function 'int main()':
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:7:128: error: invalid conversion from 'int (*)(const char*, int, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned*, Dwarf_Ptr, int*) {aka int (*)(const char*, int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int*, void*, int*)}' to 'Dwarf_Callback_Func {aka int (*)(char*, int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int, int*, int*)}' [-fpermissive]
+       int main() { dwarf_producer_init(0, dwarfCallback, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr); return 0; }
+                                                                                                                                ^
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:7:128: error: too many arguments to function 'Dwarf_P_Debug_s* dwarf_producer_init(Dwarf_Unsigned, Dwarf_Callback_Func, Dwarf_Handler, Dwarf_Ptr, Dwarf_Error_s**)'
+In file included from /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:2:0:
+/usr/include/libdwarf/libdwarf.h:2281:15: note: declared here
+ Dwarf_P_Debug dwarf_producer_init(
+               ^
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec4151101064.dir/src.cxx.o] Error 1
+gmake: *** [cmTryCompileExec4151101064/fast] Error 2
+
+Source file was:
+
+      #include <libdwarf.h>
+      #include <cstddef>
+      int dwarfCallback(const char * a, int b, Dwarf_Unsigned c,
+        Dwarf_Unsigned d, Dwarf_Unsigned e, Dwarf_Unsigned f,
+        Dwarf_Unsigned * g, Dwarf_Ptr h, int * i) {}
+      int main() { dwarf_producer_init(0, dwarfCallback, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr); return 0; }
+Performing C++ SOURCE FILE Test DW_CONST failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2122116254/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2122116254.dir/build.make CMakeFiles/cmTryCompileExec2122116254.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2122116254.dir/src.cxx.o
+/usr/bin/c++    -Wall -std=gnu++11 -ffunction-sections -fdata-sections -fno-gcse -fno-omit-frame-pointer -Woverloaded-virtual -Wno-deprecated -Wno-strict-aliasing -Wno-write-strings -Wno-invalid-offsetof -fno-operator-names -Wno-error=array-bounds -Wno-error=switch -Werror=format-security -Wno-unused-result -Wno-sign-compare -Wno-attributes -Wno-maybe-uninitialized -Wno-unused-local-typedefs -fno-canonical-system-headers -Wno-deprecated-declarations -Wno-unused-function -Wvla  -ftrack-macro-expansion=0 -fno-builtin-memcmp -mcrc32  -DDW_CONST -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec2122116254.dir/src.cxx.o -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx: In function 'int dwarfCallback(const char*, int, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned*, Dwarf_Ptr, int*)':
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:6:52: warning: no return statement in function returning non-void [-Wreturn-type]
+         Dwarf_Unsigned * g, Dwarf_Ptr h, int * i) {}
+                                                    ^
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx: In function 'int main()':
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:7:94: error: invalid conversion from 'int (*)(const char*, int, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned*, Dwarf_Ptr, int*) {aka int (*)(const char*, int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int*, void*, int*)}' to 'Dwarf_Callback_Func_c {aka int (*)(char*, int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int*, void*, int*)}' [-fpermissive]
+       int main() { dwarf_producer_init_c(0, dwarfCallback, nullptr, nullptr, nullptr, nullptr); return 0; }
+                                                                                              ^
+In file included from /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:2:0:
+/usr/include/libdwarf/libdwarf.h:2242:15: error:   initializing argument 2 of 'Dwarf_P_Debug_s* dwarf_producer_init_c(Dwarf_Unsigned, Dwarf_Callback_Func_c, Dwarf_Handler, Dwarf_Ptr, void*, Dwarf_Error_s**)' [-fpermissive]
+ Dwarf_P_Debug dwarf_producer_init_c(
+               ^
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2122116254.dir/src.cxx.o] Error 1
+gmake: *** [cmTryCompileExec2122116254/fast] Error 2
+
+Source file was:
+
+      #include <libdwarf.h>
+      #include <cstddef>
+      int dwarfCallback(const char * a, int b, Dwarf_Unsigned c,
+        Dwarf_Unsigned d, Dwarf_Unsigned e, Dwarf_Unsigned f,
+        Dwarf_Unsigned * g, Dwarf_Ptr h, int * i) {}
+      int main() { dwarf_producer_init_c(0, dwarfCallback, nullptr, nullptr, nullptr, nullptr); return 0; }
+Performing C++ SOURCE FILE Test DW_CONST failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1659316956/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1659316956.dir/build.make CMakeFiles/cmTryCompileExec1659316956.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1659316956.dir/src.cxx.o
+/usr/bin/c++    -Wall -std=gnu++11 -ffunction-sections -fdata-sections -fno-gcse -fno-omit-frame-pointer -Woverloaded-virtual -Wno-deprecated -Wno-strict-aliasing -Wno-write-strings -Wno-invalid-offsetof -fno-operator-names -Wno-error=array-bounds -Wno-error=switch -Werror=format-security -Wno-unused-result -Wno-sign-compare -Wno-attributes -Wno-maybe-uninitialized -Wno-unused-local-typedefs -fno-canonical-system-headers -Wno-deprecated-declarations -Wno-unused-function -Wvla  -ftrack-macro-expansion=0 -fno-builtin-memcmp -mcrc32  -DDW_CONST -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec1659316956.dir/src.cxx.o -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx: In function 'int dwarfCallback(const char*, int, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned*, Dwarf_Ptr, int*)':
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:6:52: warning: no return statement in function returning non-void [-Wreturn-type]
+         Dwarf_Unsigned * g, Dwarf_Ptr h, int * i) {}
+                                                    ^
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx: In function 'int main()':
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:7:128: error: invalid conversion from 'int (*)(const char*, int, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned*, Dwarf_Ptr, int*) {aka int (*)(const char*, int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int*, void*, int*)}' to 'Dwarf_Callback_Func {aka int (*)(char*, int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int, int*, int*)}' [-fpermissive]
+       int main() { dwarf_producer_init(0, dwarfCallback, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr); return 0; }
+                                                                                                                                ^
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:7:128: error: too many arguments to function 'Dwarf_P_Debug_s* dwarf_producer_init(Dwarf_Unsigned, Dwarf_Callback_Func, Dwarf_Handler, Dwarf_Ptr, Dwarf_Error_s**)'
+In file included from /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:2:0:
+/usr/include/libdwarf/libdwarf.h:2281:15: note: declared here
+ Dwarf_P_Debug dwarf_producer_init(
+               ^
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1659316956.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1659316956/fast] Error 2
+
+Source file was:
+
+      #include <libdwarf.h>
+      #include <cstddef>
+      int dwarfCallback(const char * a, int b, Dwarf_Unsigned c,
+        Dwarf_Unsigned d, Dwarf_Unsigned e, Dwarf_Unsigned f,
+        Dwarf_Unsigned * g, Dwarf_Ptr h, int * i) {}
+      int main() { dwarf_producer_init(0, dwarfCallback, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr); return 0; }
+Performing C++ SOURCE FILE Test DW_CONST failed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3282252196/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3282252196.dir/build.make CMakeFiles/cmTryCompileExec3282252196.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3282252196.dir/src.cxx.o
+/usr/bin/c++    -Wall -std=gnu++11 -ffunction-sections -fdata-sections -fno-gcse -fno-omit-frame-pointer -Woverloaded-virtual -Wno-deprecated -Wno-strict-aliasing -Wno-write-strings -Wno-invalid-offsetof -fno-operator-names -Wno-error=array-bounds -Wno-error=switch -Werror=format-security -Wno-unused-result -Wno-sign-compare -Wno-attributes -Wno-maybe-uninitialized -Wno-unused-local-typedefs -fno-canonical-system-headers -Wno-deprecated-declarations -Wno-unused-function -Wvla  -ftrack-macro-expansion=0 -fno-builtin-memcmp -mcrc32  -DDW_CONST -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec3282252196.dir/src.cxx.o -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx: In function 'int dwarfCallback(const char*, int, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned*, Dwarf_Ptr, int*)':
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:6:52: warning: no return statement in function returning non-void [-Wreturn-type]
+         Dwarf_Unsigned * g, Dwarf_Ptr h, int * i) {}
+                                                    ^
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx: In function 'int main()':
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:7:94: error: invalid conversion from 'int (*)(const char*, int, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned, Dwarf_Unsigned*, Dwarf_Ptr, int*) {aka int (*)(const char*, int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int*, void*, int*)}' to 'Dwarf_Callback_Func_c {aka int (*)(char*, int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int, long long unsigned int*, void*, int*)}' [-fpermissive]
+       int main() { dwarf_producer_init_c(0, dwarfCallback, nullptr, nullptr, nullptr, nullptr); return 0; }
+                                                                                              ^
+In file included from /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:2:0:
+/usr/include/libdwarf/libdwarf.h:2242:15: error:   initializing argument 2 of 'Dwarf_P_Debug_s* dwarf_producer_init_c(Dwarf_Unsigned, Dwarf_Callback_Func_c, Dwarf_Handler, Dwarf_Ptr, void*, Dwarf_Error_s**)' [-fpermissive]
+ Dwarf_P_Debug dwarf_producer_init_c(
+               ^
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3282252196.dir/src.cxx.o] Error 1
+gmake: *** [cmTryCompileExec3282252196/fast] Error 2
+
+Source file was:
+
+      #include <libdwarf.h>
+      #include <cstddef>
+      int dwarfCallback(const char * a, int b, Dwarf_Unsigned c,
+        Dwarf_Unsigned d, Dwarf_Unsigned e, Dwarf_Unsigned f,
+        Dwarf_Unsigned * g, Dwarf_Ptr h, int * i) {}
+      int main() { dwarf_producer_init_c(0, dwarfCallback, nullptr, nullptr, nullptr, nullptr); return 0; }

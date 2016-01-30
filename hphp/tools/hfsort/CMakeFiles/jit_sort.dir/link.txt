@@ -1,0 +1,2 @@
+/usr/bin/ar cr libjit_sort.a  CMakeFiles/jit_sort.dir/jitsort.cpp.o CMakeFiles/jit_sort.dir/hfutil.cpp.o
+/usr/bin/ranlib libjit_sort.a

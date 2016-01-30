@@ -1,0 +1,2 @@
+/usr/bin/ar cr libppc64-asm.a  CMakeFiles/ppc64-asm.dir/asm-ppc64.cpp.o
+/usr/bin/ranlib libppc64-asm.a

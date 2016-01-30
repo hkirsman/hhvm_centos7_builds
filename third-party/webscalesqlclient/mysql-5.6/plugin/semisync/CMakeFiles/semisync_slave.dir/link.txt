@@ -1,0 +1,2 @@
+/usr/bin/ar cr libsemisync_slave.a  CMakeFiles/semisync_slave.dir/semisync.cc.o CMakeFiles/semisync_slave.dir/semisync_slave.cc.o CMakeFiles/semisync_slave.dir/semisync_slave_plugin.cc.o
+/usr/bin/ranlib libsemisync_slave.a

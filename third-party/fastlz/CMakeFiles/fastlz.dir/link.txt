@@ -1,0 +1,2 @@
+/usr/bin/ar cr libfastlz.a  CMakeFiles/fastlz.dir/fastlz.c.o
+/usr/bin/ranlib libfastlz.a

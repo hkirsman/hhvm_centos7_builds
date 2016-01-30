@@ -1,0 +1,155 @@
+# The set of languages for which implicit dependencies are needed:
+SET(CMAKE_DEPENDS_LANGUAGES
+  "ASM"
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+SET(CMAKE_DEPENDS_CHECK_ASM
+  "/tmp/hhvm-3.11.1/hphp/util/hash-crc.S" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/hash-crc.S.o"
+  "/tmp/hhvm-3.11.1/hphp/util/memcpy-x64.S" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/memcpy-x64.S.o"
+  "/tmp/hhvm-3.11.1/hphp/util/memset-x64-avx2.S" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/memset-x64-avx2.S.o"
+  "/tmp/hhvm-3.11.1/hphp/util/strcmp-sse42.S" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/strcmp-sse42.S.o"
+  )
+SET(CMAKE_ASM_COMPILER_ID "GNU")
+SET(CMAKE_DEPENDS_CHECK_CXX
+  "/tmp/hhvm-3.11.1/hphp/hphp-build-info.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/__/hphp-build-info.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/abi-cxx.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/abi-cxx.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/afdt-util.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/afdt-util.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/alloc.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/alloc.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/arena.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/arena.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/asm-x64.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/asm-x64.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/assertions.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/assertions.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/async-func.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/async-func.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/async-job.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/async-job.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/boot_timer.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/boot_timer.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/bstring.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/bstring.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/cache/cache-data.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/cache/cache-data.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/cache/cache-manager.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/cache/cache-manager.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/cache/cache-saver.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/cache/cache-saver.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/cache/mmap-file.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/cache/mmap-file.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/capability.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/capability.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/code-cache.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/code-cache.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/compatibility.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/compatibility.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/compression.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/compression.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/cronolog.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/cronolog.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/cronoutils.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/cronoutils.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/current-executable.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/current-executable.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/data-block.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/data-block.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/disasm.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/disasm.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/embedded-data.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/embedded-data.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/embedded-vfs.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/embedded-vfs.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/exception.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/exception.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/file-cache.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/file-cache.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/hardware-counter.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/hardware-counter.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/hash.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/hash.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/hdf.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/hdf.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/kernel-version.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/kernel-version.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/light-process.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/light-process.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/lock.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/lock.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/log-file-flusher.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/log-file-flusher.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/logger.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/logger.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/maphuge.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/maphuge.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/network.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/network.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/process.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/process.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/rank.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/rank.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/read-only-arena.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/read-only-arena.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/repo-schema.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/repo-schema.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/ringbuffer.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/ringbuffer.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/safe-cast.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/safe-cast.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/service-data.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/service-data.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/shm-counter.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/shm-counter.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/ssl-init.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/ssl-init.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/stack-trace.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/stack-trace.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/stacktrace-profiler.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/stacktrace-profiler.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/string-bag.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/string-bag.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/string-vsnprintf.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/string-vsnprintf.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/synchronizable-multi.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/synchronizable-multi.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/synchronizable.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/synchronizable.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/text-art.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/text-art.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/text-color.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/text-color.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/text-util.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/text-util.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/thread-local.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/thread-local.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/timer.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/timer.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/trace.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/trace.cpp.o"
+  "/tmp/hhvm-3.11.1/hphp/util/vdso.cpp" "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/vdso.cpp.o"
+  )
+SET(CMAKE_CXX_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+SET(CMAKE_TARGET_DEFINITIONS
+  "DEFAULT_CONFIG_DIR=\"/etc/hhvm/\""
+  "ENABLE_FASTCGI=1"
+  "ENABLE_ZEND_COMPAT=1"
+  "FOLLY_HAVE_CLOCK_GETTIME=1"
+  "FOLLY_HAVE_FEATURES_H=1"
+  "FOLLY_HAVE_PTHREAD_ATFORK=1"
+  "FOLLY_HAVE_PTHREAD_SPINLOCK_T=1"
+  "FOLLY_HAVE_VLA=1"
+  "FOLLY_HAVE_WEAK_SYMBOLS=1"
+  "FOLLY_NO_CONFIG=1"
+  "HAVE_BOOST1_49"
+  "HAVE_CURL_MULTI_WAIT"
+  "HAVE_ELF_GETSHDRSTRNDX"
+  "HAVE_FEATURES_H=1"
+  "HAVE_LIBDL"
+  "HHVM"
+  "HHVM_DYNAMIC_EXTENSION_DIR=\"/usr/local/lib64/hhvm/extensions\""
+  "HPHP_OSS=1"
+  "LIBDWARF_USE_INIT_C"
+  "MBFL_STATIC"
+  "NDEBUG"
+  "NO_LIB_GFLAGS"
+  "NO_TCMALLOC=1"
+  "PACKAGE=hhvm"
+  "PACKAGE_VERSION=Release"
+  "PHP_MYSQL_UNIX_SOCK_ADDR=\"/var/lib/mysql/mysql.sock\""
+  "RELEASE=1"
+  "THRIFT_MUTEX_EMULATE_PTHREAD_TIMEDLOCK"
+  "USE_CMAKE"
+  "USE_EDITLINE"
+  "USE_JEMALLOC=1"
+  "ZIP_EXTERN="
+  "_GNU_SOURCE"
+  "_PTHREADS=1"
+  "_REENTRANT=1"
+  "__STDC_FORMAT_MACROS"
+  )
+
+# Pairs of files generated by the same build rule.
+SET(CMAKE_MULTIPLE_OUTPUT_PAIRS
+  "/tmp/hhvm-3.11.1/hphp/util/../hphp-build-info.cpp" "/tmp/hhvm-3.11.1/hphp/util/../hphp-repo-schema.h"
+  )
+
+
+# Targets to which this target links.
+SET(CMAKE_TARGET_LINKED_INFO_FILES
+  )
+
+# The include file search paths:
+SET(CMAKE_C_TARGET_INCLUDE_PATH
+  "."
+  "third-party/re2/src"
+  "third-party/squangle/src"
+  "third-party/webscalesqlclient/src/include"
+  "/usr/include/libxml2"
+  "/usr/include/libdwarf"
+  "hphp"
+  "third-party/double-conversion/src"
+  "third-party/libzip"
+  "third-party/fastlz"
+  "third-party/timelib"
+  "third-party/libafdt/src"
+  "third-party/libmbfl"
+  "third-party/libmbfl/mbfl"
+  "third-party/libmbfl/filters"
+  "third-party/proxygen/src"
+  "third-party/mcrouter/src"
+  "third-party/folly"
+  "third-party/folly/src"
+  "third-party/thrift/src"
+  "third-party/wangle/src"
+  "third-party"
+  )
+SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
+SET(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
+SET(CMAKE_ASM_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

@@ -1,0 +1,2 @@
+
+Fatal error: Interface 'NonExistent' required by trait 'T1' cannot be loaded in %s on line 3

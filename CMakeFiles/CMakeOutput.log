@@ -1,0 +1,1703 @@
+The system is: Linux - 3.10.0-327.3.1.el7.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/tmp/hhvm-3.11.1/CMakeFiles/2.8.11/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/tmp/hhvm-3.11.1/CMakeFiles/2.8.11/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec192384507/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec192384507.dir/build.make CMakeFiles/cmTryCompileExec192384507.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec192384507.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec192384507.dir/testCCompiler.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec192384507
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec192384507.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec192384507.dir/testCCompiler.c.o  -o cmTryCompileExec192384507 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec838100361/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec838100361.dir/build.make CMakeFiles/cmTryCompileExec838100361.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec838100361.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec838100361.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec838100361
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec838100361.dir/link.txt --verbose=1
+/usr/bin/cc       -v CMakeFiles/cmTryCompileExec838100361.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec838100361 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
+Target: x86_64-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+Thread model: posix
+gcc version 4.8.5 20150623 (Red Hat 4.8.5-4) (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec838100361' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec838100361 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTryCompileExec838100361.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec838100361/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec838100361.dir/build.make CMakeFiles/cmTryCompileExec838100361.dir/build]
+  ignore line: [gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec838100361.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec838100361.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec838100361]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec838100361.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc       -v CMakeFiles/cmTryCompileExec838100361.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec838100361 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-4) (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec838100361' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec838100361 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTryCompileExec838100361.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec838100361] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
+    arg [CMakeFiles/cmTryCompileExec838100361.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/4.8.5;/usr/lib64;/lib64;/usr/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3009008342/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3009008342.dir/build.make CMakeFiles/cmTryCompileExec3009008342.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3009008342.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3009008342.dir/testCXXCompiler.cxx.o -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec3009008342
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3009008342.dir/link.txt --verbose=1
+/usr/bin/c++          CMakeFiles/cmTryCompileExec3009008342.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec3009008342 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2307013132/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2307013132.dir/build.make CMakeFiles/cmTryCompileExec2307013132.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2307013132.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2307013132.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec2307013132
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2307013132.dir/link.txt --verbose=1
+/usr/bin/c++        -v CMakeFiles/cmTryCompileExec2307013132.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2307013132 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
+Target: x86_64-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+Thread model: posix
+gcc version 4.8.5 20150623 (Red Hat 4.8.5-4) (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2307013132' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2307013132 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTryCompileExec2307013132.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec2307013132/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2307013132.dir/build.make CMakeFiles/cmTryCompileExec2307013132.dir/build]
+  ignore line: [gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec2307013132.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2307013132.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec2307013132]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2307013132.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++        -v CMakeFiles/cmTryCompileExec2307013132.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2307013132 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-4) (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2307013132' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2307013132 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTryCompileExec2307013132.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2307013132] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
+    arg [CMakeFiles/cmTryCompileExec2307013132.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/4.8.5;/usr/lib64;/lib64;/usr/lib]
+  implicit fwks: []
+
+
+Performing C++ SOURCE FILE Test IS_X64 succeded with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3657014456/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3657014456.dir/build.make CMakeFiles/cmTryCompileExec3657014456.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3657014456.dir/src.cxx.o
+/usr/bin/c++    -DIS_X64   -o CMakeFiles/cmTryCompileExec3657014456.dir/src.cxx.o -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3657014456
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3657014456.dir/link.txt --verbose=1
+/usr/bin/c++      -DIS_X64    CMakeFiles/cmTryCompileExec3657014456.dir/src.cxx.o  -o cmTryCompileExec3657014456 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#ifndef __x86_64__
+#error Not x64
+#endif
+int main() { return 0; }
+Performing C SOURCE FILE Test SYSTEM_PCRE_HAS_JIT succeded with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3573765070/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3573765070.dir/build.make CMakeFiles/cmTryCompileExec3573765070.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3573765070.dir/src.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DSYSTEM_PCRE_HAS_JIT   -o CMakeFiles/cmTryCompileExec3573765070.dir/src.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3573765070
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3573765070.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DSYSTEM_PCRE_HAS_JIT    CMakeFiles/cmTryCompileExec3573765070.dir/src.c.o  -o cmTryCompileExec3573765070 -rdynamic -lpcre 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+#include <pcre.h>
+int main() {
+  int has_jit = 0;
+  pcre_config(PCRE_CONFIG_JIT, &has_jit);
+  return has_jit ? 0 : 1;
+}
+
+Determining if the function curl_multi_wait exists passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec61321461/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec61321461.dir/build.make CMakeFiles/cmTryCompileExec61321461.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec61321461.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=curl_multi_wait   -o CMakeFiles/cmTryCompileExec61321461.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec61321461
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec61321461.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=curl_multi_wait    CMakeFiles/cmTryCompileExec61321461.dir/CheckFunctionExists.c.o  -o cmTryCompileExec61321461 -rdynamic -lcurl 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test JEMALLOC_VERSION_MINIMUM succeded with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2005199002/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2005199002.dir/build.make CMakeFiles/cmTryCompileExec2005199002.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2005199002.dir/src.cxx.o
+/usr/bin/c++    -Wall -std=gnu++11 -ffunction-sections -fdata-sections -fno-gcse -fno-omit-frame-pointer -Woverloaded-virtual -Wno-deprecated -Wno-strict-aliasing -Wno-write-strings -Wno-invalid-offsetof -fno-operator-names -Wno-error=array-bounds -Wno-error=switch -Werror=format-security -Wno-unused-result -Wno-sign-compare -Wno-attributes -Wno-maybe-uninitialized -Wno-unused-local-typedefs -fno-canonical-system-headers -Wno-deprecated-declarations -Wno-unused-function -Wvla  -ftrack-macro-expansion=0 -fno-builtin-memcmp -mcrc32  -DJEMALLOC_VERSION_MINIMUM   -o CMakeFiles/cmTryCompileExec2005199002.dir/src.cxx.o -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2005199002
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2005199002.dir/link.txt --verbose=1
+/usr/bin/c++     -Wall -std=gnu++11 -ffunction-sections -fdata-sections -fno-gcse -fno-omit-frame-pointer -Woverloaded-virtual -Wno-deprecated -Wno-strict-aliasing -Wno-write-strings -Wno-invalid-offsetof -fno-operator-names -Wno-error=array-bounds -Wno-error=switch -Werror=format-security -Wno-unused-result -Wno-sign-compare -Wno-attributes -Wno-maybe-uninitialized -Wno-unused-local-typedefs -fno-canonical-system-headers -Wno-deprecated-declarations -Wno-unused-function -Wvla  -ftrack-macro-expansion=0 -fno-builtin-memcmp -mcrc32  -DJEMALLOC_VERSION_MINIMUM    CMakeFiles/cmTryCompileExec2005199002.dir/src.cxx.o  -o cmTryCompileExec2005199002 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <jemalloc/jemalloc.h>
+
+#define JEMALLOC_VERSION_NUMERIC ((JEMALLOC_VERSION_MAJOR << 24) | (JEMALLOC_VERSION_MINOR << 16) | (JEMALLOC_VERSION_BUGFIX << 8) | JEMALLOC_VERSION_NDEV)
+
+#if JEMALLOC_VERSION_NUMERIC < 0x03050100
+# error jemalloc version >= 3.5.1 required
+#endif
+
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test OPENSSL_HAVE_RAND_EGD succeded with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1613098407/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1613098407.dir/build.make CMakeFiles/cmTryCompileExec1613098407.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1613098407.dir/src.cxx.o
+/usr/bin/c++    -Wall -std=gnu++11 -ffunction-sections -fdata-sections -fno-gcse -fno-omit-frame-pointer -Woverloaded-virtual -Wno-deprecated -Wno-strict-aliasing -Wno-write-strings -Wno-invalid-offsetof -fno-operator-names -Wno-error=array-bounds -Wno-error=switch -Werror=format-security -Wno-unused-result -Wno-sign-compare -Wno-attributes -Wno-maybe-uninitialized -Wno-unused-local-typedefs -fno-canonical-system-headers -Wno-deprecated-declarations -Wno-unused-function -Wvla  -ftrack-macro-expansion=0 -fno-builtin-memcmp -mcrc32  -DOPENSSL_HAVE_RAND_EGD   -o CMakeFiles/cmTryCompileExec1613098407.dir/src.cxx.o -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1613098407
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1613098407.dir/link.txt --verbose=1
+/usr/bin/c++     -Wall -std=gnu++11 -ffunction-sections -fdata-sections -fno-gcse -fno-omit-frame-pointer -Woverloaded-virtual -Wno-deprecated -Wno-strict-aliasing -Wno-write-strings -Wno-invalid-offsetof -fno-operator-names -Wno-error=array-bounds -Wno-error=switch -Werror=format-security -Wno-unused-result -Wno-sign-compare -Wno-attributes -Wno-maybe-uninitialized -Wno-unused-local-typedefs -fno-canonical-system-headers -Wno-deprecated-declarations -Wno-unused-function -Wvla  -ftrack-macro-expansion=0 -fno-builtin-memcmp -mcrc32  -DOPENSSL_HAVE_RAND_EGD    CMakeFiles/cmTryCompileExec1613098407.dir/src.cxx.o  -o cmTryCompileExec1613098407 -rdynamic -lssl -lcrypto 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <openssl/rand.h>
+int main() {
+  return RAND_egd("/dev/null");
+}
+Performing C++ SOURCE FILE Test ELF_GETSHDRSTRNDX succeded with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec903879377/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec903879377.dir/build.make CMakeFiles/cmTryCompileExec903879377.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec903879377.dir/src.cxx.o
+/usr/bin/c++    -Wall -std=gnu++11 -ffunction-sections -fdata-sections -fno-gcse -fno-omit-frame-pointer -Woverloaded-virtual -Wno-deprecated -Wno-strict-aliasing -Wno-write-strings -Wno-invalid-offsetof -fno-operator-names -Wno-error=array-bounds -Wno-error=switch -Werror=format-security -Wno-unused-result -Wno-sign-compare -Wno-attributes -Wno-maybe-uninitialized -Wno-unused-local-typedefs -fno-canonical-system-headers -Wno-deprecated-declarations -Wno-unused-function -Wvla  -ftrack-macro-expansion=0 -fno-builtin-memcmp -mcrc32  -DELF_GETSHDRSTRNDX   -o CMakeFiles/cmTryCompileExec903879377.dir/src.cxx.o -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec903879377
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec903879377.dir/link.txt --verbose=1
+/usr/bin/c++     -Wall -std=gnu++11 -ffunction-sections -fdata-sections -fno-gcse -fno-omit-frame-pointer -Woverloaded-virtual -Wno-deprecated -Wno-strict-aliasing -Wno-write-strings -Wno-invalid-offsetof -fno-operator-names -Wno-error=array-bounds -Wno-error=switch -Werror=format-security -Wno-unused-result -Wno-sign-compare -Wno-attributes -Wno-maybe-uninitialized -Wno-unused-local-typedefs -fno-canonical-system-headers -Wno-deprecated-declarations -Wno-unused-function -Wvla  -ftrack-macro-expansion=0 -fno-builtin-memcmp -mcrc32  -DELF_GETSHDRSTRNDX    CMakeFiles/cmTryCompileExec903879377.dir/src.cxx.o  -o cmTryCompileExec903879377 -rdynamic -lelf 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <libelf.h>
+int main() {
+  Elf *e = (Elf*)0;
+  size_t sz;
+  elf_getshdrstrndx(e, &sz);
+  return 0;
+}
+Determining if the function dwarf_producer_init exists passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1353713405/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1353713405.dir/build.make CMakeFiles/cmTryCompileExec1353713405.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1353713405.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=dwarf_producer_init -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec1353713405.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1353713405
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1353713405.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=dwarf_producer_init    CMakeFiles/cmTryCompileExec1353713405.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1353713405 -rdynamic -ldwarf -lelf 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the function dwarf_producer_init_c exists passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4064301837/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4064301837.dir/build.make CMakeFiles/cmTryCompileExec4064301837.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4064301837.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=dwarf_producer_init_c -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec4064301837.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4064301837
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4064301837.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=dwarf_producer_init_c -std=c++0x    CMakeFiles/cmTryCompileExec4064301837.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4064301837 -rdynamic -ldwarf -lelf 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test FOLLY_HAVE_WEAK_SYMBOLS succeded with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3737284094/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3737284094.dir/build.make CMakeFiles/cmTryCompileExec3737284094.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3737284094.dir/src.cxx.o
+/usr/bin/c++    -Wall -std=gnu++11 -ffunction-sections -fdata-sections -fno-gcse -fno-omit-frame-pointer -Woverloaded-virtual -Wno-deprecated -Wno-strict-aliasing -Wno-write-strings -Wno-invalid-offsetof -fno-operator-names -Wno-error=array-bounds -Wno-error=switch -Werror=format-security -Wno-unused-result -Wno-sign-compare -Wno-attributes -Wno-maybe-uninitialized -Wno-unused-local-typedefs -fno-canonical-system-headers -Wno-deprecated-declarations -Wno-unused-function -Wvla  -ftrack-macro-expansion=0 -fno-builtin-memcmp -mcrc32  -DFOLLY_HAVE_WEAK_SYMBOLS -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec3737284094.dir/src.cxx.o -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3737284094
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3737284094.dir/link.txt --verbose=1
+/usr/bin/c++     -Wall -std=gnu++11 -ffunction-sections -fdata-sections -fno-gcse -fno-omit-frame-pointer -Woverloaded-virtual -Wno-deprecated -Wno-strict-aliasing -Wno-write-strings -Wno-invalid-offsetof -fno-operator-names -Wno-error=array-bounds -Wno-error=switch -Werror=format-security -Wno-unused-result -Wno-sign-compare -Wno-attributes -Wno-maybe-uninitialized -Wno-unused-local-typedefs -fno-canonical-system-headers -Wno-deprecated-declarations -Wno-unused-function -Wvla  -ftrack-macro-expansion=0 -fno-builtin-memcmp -mcrc32  -DFOLLY_HAVE_WEAK_SYMBOLS -std=c++0x    CMakeFiles/cmTryCompileExec3737284094.dir/src.cxx.o  -o cmTryCompileExec3737284094 -rdynamic -lelf 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+      extern "C" void configure_link_extern_weak_test() __attribute__((weak));
+      int main(int argc, char** argv) {
+          return configure_link_extern_weak_test == nullptr;
+      }
+  
+Determining if the function clock_gettime exists passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2280745904/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2280745904.dir/build.make CMakeFiles/cmTryCompileExec2280745904.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2280745904.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=clock_gettime -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec2280745904.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2280745904
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2280745904.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=clock_gettime -std=c++0x    CMakeFiles/cmTryCompileExec2280745904.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2280745904 -rdynamic -lrt -lpthread 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_atfork exists passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2303663863/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2303663863.dir/build.make CMakeFiles/cmTryCompileExec2303663863.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2303663863.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=pthread_atfork -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec2303663863.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2303663863
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2303663863.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=pthread_atfork -std=c++0x    CMakeFiles/cmTryCompileExec2303663863.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2303663863 -rdynamic -lrt -lpthread 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_spin_lock exists passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec248506309/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec248506309.dir/build.make CMakeFiles/cmTryCompileExec248506309.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec248506309.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=pthread_spin_lock -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec248506309.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec248506309
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec248506309.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=pthread_spin_lock -std=c++0x    CMakeFiles/cmTryCompileExec248506309.dir/CheckFunctionExists.c.o  -o cmTryCompileExec248506309 -rdynamic -lrt -lpthread 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test FOLLY_HAVE_VLA succeded with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2293890918/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2293890918.dir/build.make CMakeFiles/cmTryCompileExec2293890918.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2293890918.dir/src.cxx.o
+/usr/bin/c++    -Wall -std=gnu++11 -ffunction-sections -fdata-sections -fno-gcse -fno-omit-frame-pointer -Woverloaded-virtual -Wno-deprecated -Wno-strict-aliasing -Wno-write-strings -Wno-invalid-offsetof -fno-operator-names -Wno-error=array-bounds -Wno-error=switch -Werror=format-security -Wno-unused-result -Wno-sign-compare -Wno-attributes -Wno-maybe-uninitialized -Wno-unused-local-typedefs -fno-canonical-system-headers -Wno-deprecated-declarations -Wno-unused-function -Wvla  -ftrack-macro-expansion=0 -fno-builtin-memcmp -mcrc32  -DFOLLY_HAVE_VLA -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec2293890918.dir/src.cxx.o -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx: In function 'int main(int, char**)':
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:4:17: warning: variable length array 'data' is used [-Wvla]
+   char data[size];
+                 ^
+/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx:4:8: warning: unused variable 'data' [-Wunused-variable]
+   char data[size];
+        ^
+Linking CXX executable cmTryCompileExec2293890918
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2293890918.dir/link.txt --verbose=1
+/usr/bin/c++     -Wall -std=gnu++11 -ffunction-sections -fdata-sections -fno-gcse -fno-omit-frame-pointer -Woverloaded-virtual -Wno-deprecated -Wno-strict-aliasing -Wno-write-strings -Wno-invalid-offsetof -fno-operator-names -Wno-error=array-bounds -Wno-error=switch -Werror=format-security -Wno-unused-result -Wno-sign-compare -Wno-attributes -Wno-maybe-uninitialized -Wno-unused-local-typedefs -fno-canonical-system-headers -Wno-deprecated-declarations -Wno-unused-function -Wvla  -ftrack-macro-expansion=0 -fno-builtin-memcmp -mcrc32  -DFOLLY_HAVE_VLA -std=c++0x    CMakeFiles/cmTryCompileExec2293890918.dir/src.cxx.o  -o cmTryCompileExec2293890918 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+int main(int argc, char** argv) {
+  unsigned size = argc;
+  char data[size];
+  return 0;
+}
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2679160511/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2679160511.dir/build.make CMakeFiles/cmTryCompileExec2679160511.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2679160511.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec2679160511.dir/CheckIncludeFile.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2679160511
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2679160511.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec2679160511.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2679160511 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1728366002/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1728366002.dir/build.make CMakeFiles/cmTryCompileExec1728366002.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1728366002.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec1728366002.dir/CheckIncludeFile.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1728366002
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1728366002.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec1728366002.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1728366002 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3678841713/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3678841713.dir/build.make CMakeFiles/cmTryCompileExec3678841713.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3678841713.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec3678841713.dir/CheckIncludeFile.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3678841713
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3678841713.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec3678841713.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3678841713 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec103813797/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec103813797.dir/build.make CMakeFiles/cmTryCompileExec103813797.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec103813797.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec103813797.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTryCompileExec103813797
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec103813797.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec103813797.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTryCompileExec103813797 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec104847170/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec104847170.dir/build.make CMakeFiles/cmTryCompileExec104847170.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec104847170.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec104847170.dir/CheckIncludeFiles.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec104847170
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec104847170.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec104847170.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec104847170 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if files string.h exist passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1820684738/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1820684738.dir/build.make CMakeFiles/cmTryCompileExec1820684738.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1820684738.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec1820684738.dir/CheckIncludeFiles.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1820684738
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1820684738.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec1820684738.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1820684738 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2603207414/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2603207414.dir/build.make CMakeFiles/cmTryCompileExec2603207414.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2603207414.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec2603207414.dir/CheckIncludeFiles.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2603207414
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2603207414.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec2603207414.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2603207414 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if files locale.h exist passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3912965593/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3912965593.dir/build.make CMakeFiles/cmTryCompileExec3912965593.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3912965593.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec3912965593.dir/CheckIncludeFiles.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3912965593
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3912965593.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec3912965593.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3912965593 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if files limits.h exist passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2734603349/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2734603349.dir/build.make CMakeFiles/cmTryCompileExec2734603349.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2734603349.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec2734603349.dir/CheckIncludeFiles.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2734603349
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2734603349.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec2734603349.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2734603349 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining size of int32_t passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1814317778/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1814317778.dir/build.make CMakeFiles/cmTryCompileExec1814317778.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1814317778.dir/HAVE_INT32_T.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec1814317778.dir/HAVE_INT32_T.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CheckTypeSize/HAVE_INT32_T.c
+Linking C executable cmTryCompileExec1814317778
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1814317778.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec1814317778.dir/HAVE_INT32_T.c.o  -o cmTryCompileExec1814317778 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3409526283/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3409526283.dir/build.make CMakeFiles/cmTryCompileExec3409526283.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3409526283.dir/HAVE_UINT32_T.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec3409526283.dir/HAVE_UINT32_T.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CheckTypeSize/HAVE_UINT32_T.c
+Linking C executable cmTryCompileExec3409526283
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3409526283.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec3409526283.dir/HAVE_UINT32_T.c.o  -o cmTryCompileExec3409526283 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtoll exists passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3784316870/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3784316870.dir/build.make CMakeFiles/cmTryCompileExec3784316870.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3784316870.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=strtoll -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec3784316870.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3784316870
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3784316870.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=strtoll -std=c++0x    CMakeFiles/cmTryCompileExec3784316870.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3784316870 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the function atoll exists passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3539308452/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3539308452.dir/build.make CMakeFiles/cmTryCompileExec3539308452.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3539308452.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=atoll -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec3539308452.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3539308452
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3539308452.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=atoll -std=c++0x    CMakeFiles/cmTryCompileExec3539308452.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3539308452 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strftime exists passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1620633584/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1620633584.dir/build.make CMakeFiles/cmTryCompileExec1620633584.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1620633584.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=strftime -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec1620633584.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1620633584
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1620633584.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=strftime -std=c++0x    CMakeFiles/cmTryCompileExec1620633584.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1620633584 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setlocale exists passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec774910694/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec774910694.dir/build.make CMakeFiles/cmTryCompileExec774910694.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec774910694.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=setlocale -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec774910694.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec774910694
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec774910694.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=setlocale -std=c++0x    CMakeFiles/cmTryCompileExec774910694.dir/CheckFunctionExists.c.o  -o cmTryCompileExec774910694 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test FOLLY_MALLOC succeded with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1225239925/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1225239925.dir/build.make CMakeFiles/cmTryCompileExec1225239925.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1225239925.dir/src.cxx.o
+/usr/bin/c++    -Wall -std=gnu++11 -ffunction-sections -fdata-sections -fno-gcse -fno-omit-frame-pointer -Woverloaded-virtual -Wno-deprecated -Wno-strict-aliasing -Wno-write-strings -Wno-invalid-offsetof -fno-operator-names -Wno-error=array-bounds -Wno-error=switch -Werror=format-security -Wno-unused-result -Wno-sign-compare -Wno-attributes -Wno-maybe-uninitialized -Wno-unused-local-typedefs -fno-canonical-system-headers -Wno-deprecated-declarations -Wno-unused-function -Wvla  -ftrack-macro-expansion=0 -fno-builtin-memcmp -mcrc32  -DFOLLY_MALLOC -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec1225239925.dir/src.cxx.o -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1225239925
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1225239925.dir/link.txt --verbose=1
+/usr/bin/c++     -Wall -std=gnu++11 -ffunction-sections -fdata-sections -fno-gcse -fno-omit-frame-pointer -Woverloaded-virtual -Wno-deprecated -Wno-strict-aliasing -Wno-write-strings -Wno-invalid-offsetof -fno-operator-names -Wno-error=array-bounds -Wno-error=switch -Werror=format-security -Wno-unused-result -Wno-sign-compare -Wno-attributes -Wno-maybe-uninitialized -Wno-unused-local-typedefs -fno-canonical-system-headers -Wno-deprecated-declarations -Wno-unused-function -Wvla  -ftrack-macro-expansion=0 -fno-builtin-memcmp -mcrc32  -DFOLLY_MALLOC -std=c++0x    CMakeFiles/cmTryCompileExec1225239925.dir/src.cxx.o  -o cmTryCompileExec1225239925 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <malloc.h>
+int main() {
+  return 0;
+}
+Performing C++ SOURCE FILE Test FOLLY_FUNCTEXCEPT succeded with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1329892787/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1329892787.dir/build.make CMakeFiles/cmTryCompileExec1329892787.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1329892787.dir/src.cxx.o
+/usr/bin/c++    -Wall -std=gnu++11 -ffunction-sections -fdata-sections -fno-gcse -fno-omit-frame-pointer -Woverloaded-virtual -Wno-deprecated -Wno-strict-aliasing -Wno-write-strings -Wno-invalid-offsetof -fno-operator-names -Wno-error=array-bounds -Wno-error=switch -Werror=format-security -Wno-unused-result -Wno-sign-compare -Wno-attributes -Wno-maybe-uninitialized -Wno-unused-local-typedefs -fno-canonical-system-headers -Wno-deprecated-declarations -Wno-unused-function -Wvla  -ftrack-macro-expansion=0 -fno-builtin-memcmp -mcrc32  -DFOLLY_FUNCTEXCEPT -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec1329892787.dir/src.cxx.o -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1329892787
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1329892787.dir/link.txt --verbose=1
+/usr/bin/c++     -Wall -std=gnu++11 -ffunction-sections -fdata-sections -fno-gcse -fno-omit-frame-pointer -Woverloaded-virtual -Wno-deprecated -Wno-strict-aliasing -Wno-write-strings -Wno-invalid-offsetof -fno-operator-names -Wno-error=array-bounds -Wno-error=switch -Werror=format-security -Wno-unused-result -Wno-sign-compare -Wno-attributes -Wno-maybe-uninitialized -Wno-unused-local-typedefs -fno-canonical-system-headers -Wno-deprecated-declarations -Wno-unused-function -Wvla  -ftrack-macro-expansion=0 -fno-builtin-memcmp -mcrc32  -DFOLLY_FUNCTEXCEPT -std=c++0x    CMakeFiles/cmTryCompileExec1329892787.dir/src.cxx.o  -o cmTryCompileExec1329892787 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <bits/functexcept.h>
+int main() {
+  return 0;
+}
+Determining if the include file arpa/inet.h exists passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3302886839/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3302886839.dir/build.make CMakeFiles/cmTryCompileExec3302886839.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3302886839.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec3302886839.dir/CheckIncludeFile.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3302886839
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3302886839.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec3302886839.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3302886839 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file netinet/in.h exists passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3801057438/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3801057438.dir/build.make CMakeFiles/cmTryCompileExec3801057438.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3801057438.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec3801057438.dir/CheckIncludeFile.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3801057438
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3801057438.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec3801057438.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3801057438 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec102550213/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec102550213.dir/build.make CMakeFiles/cmTryCompileExec102550213.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec102550213.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec102550213.dir/CheckIncludeFile.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec102550213
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec102550213.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec102550213.dir/CheckIncludeFile.c.o  -o cmTryCompileExec102550213 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec584337526/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec584337526.dir/build.make CMakeFiles/cmTryCompileExec584337526.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec584337526.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec584337526.dir/CheckIncludeFile.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec584337526
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec584337526.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec584337526.dir/CheckIncludeFile.c.o  -o cmTryCompileExec584337526 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec975532137/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec975532137.dir/build.make CMakeFiles/cmTryCompileExec975532137.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec975532137.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec975532137.dir/CheckIncludeFile.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec975532137
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec975532137.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec975532137.dir/CheckIncludeFile.c.o  -o cmTryCompileExec975532137 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/socket.h exists passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3568588630/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3568588630.dir/build.make CMakeFiles/cmTryCompileExec3568588630.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3568588630.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec3568588630.dir/CheckIncludeFile.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3568588630
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3568588630.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec3568588630.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3568588630 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3497886216/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3497886216.dir/build.make CMakeFiles/cmTryCompileExec3497886216.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3497886216.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec3497886216.dir/CheckIncludeFile.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3497886216
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3497886216.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec3497886216.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3497886216 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2319052459/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2319052459.dir/build.make CMakeFiles/cmTryCompileExec2319052459.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2319052459.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec2319052459.dir/CheckIncludeFile.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2319052459
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2319052459.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec2319052459.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2319052459 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec814707121/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec814707121.dir/build.make CMakeFiles/cmTryCompileExec814707121.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec814707121.dir/HAVE_SIZE_T.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec814707121.dir/HAVE_SIZE_T.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CheckTypeSize/HAVE_SIZE_T.c
+Linking C executable cmTryCompileExec814707121
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec814707121.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec814707121.dir/HAVE_SIZE_T.c.o  -o cmTryCompileExec814707121 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining size of ssize_t passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1601421475/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1601421475.dir/build.make CMakeFiles/cmTryCompileExec1601421475.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1601421475.dir/HAVE_SSIZE_T.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec1601421475.dir/HAVE_SSIZE_T.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CheckTypeSize/HAVE_SSIZE_T.c
+Linking C executable cmTryCompileExec1601421475
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1601421475.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec1601421475.dir/HAVE_SSIZE_T.c.o  -o cmTryCompileExec1601421475 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint8_t passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec727281513/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec727281513.dir/build.make CMakeFiles/cmTryCompileExec727281513.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec727281513.dir/HAVE_UINT8_T.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec727281513.dir/HAVE_UINT8_T.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CheckTypeSize/HAVE_UINT8_T.c
+Linking C executable cmTryCompileExec727281513
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec727281513.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec727281513.dir/HAVE_UINT8_T.c.o  -o cmTryCompileExec727281513 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the AF_LOCAL exist passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1018647907/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1018647907.dir/build.make CMakeFiles/cmTryCompileExec1018647907.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1018647907.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec1018647907.dir/CheckSymbolExists.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1018647907
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1018647907.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec1018647907.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1018647907 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+File /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/socket.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef AF_LOCAL
+  return ((int*)(&AF_LOCAL))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the PF_LOCAL exist passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2345686207/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2345686207.dir/build.make CMakeFiles/cmTryCompileExec2345686207.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2345686207.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec2345686207.dir/CheckSymbolExists.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2345686207
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2345686207.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec2345686207.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2345686207 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+File /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/socket.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef PF_LOCAL
+  return ((int*)(&PF_LOCAL))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1466556474/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1466556474.dir/build.make CMakeFiles/cmTryCompileExec1466556474.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1466556474.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=memset -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec1466556474.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1466556474
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1466556474.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=memset -std=c++0x    CMakeFiles/cmTryCompileExec1466556474.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1466556474 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the function socket exists passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1284295395/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1284295395.dir/build.make CMakeFiles/cmTryCompileExec1284295395.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1284295395.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=socket -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec1284295395.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1284295395
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1284295395.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=socket -std=c++0x    CMakeFiles/cmTryCompileExec1284295395.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1284295395 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strerror exists passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2168536769/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2168536769.dir/build.make CMakeFiles/cmTryCompileExec2168536769.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2168536769.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=strerror -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec2168536769.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2168536769
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2168536769.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=strerror -std=c++0x    CMakeFiles/cmTryCompileExec2168536769.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2168536769 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the event_get_version_number exist passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4090610206/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4090610206.dir/build.make CMakeFiles/cmTryCompileExec4090610206.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4090610206.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x   -o CMakeFiles/cmTryCompileExec4090610206.dir/CheckSymbolExists.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec4090610206
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4090610206.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec4090610206.dir/CheckSymbolExists.c.o  -o cmTryCompileExec4090610206 -rdynamic -levent 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+File /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <event.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef event_get_version_number
+  return ((int*)(&event_get_version_number))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_LIBEVENT_209 succeded with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1738720736/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1738720736.dir/build.make CMakeFiles/cmTryCompileExec1738720736.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1738720736.dir/src.c.o
+/usr/bin/cc  -DEVENT_VERSION_WANTED=0x2000900 -DHAVE_EVENT_GET_VERSION_NUMBER -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DHAVE_LIBEVENT_209 -std=c++0x   -o CMakeFiles/cmTryCompileExec1738720736.dir/src.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1738720736
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1738720736.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DHAVE_LIBEVENT_209 -std=c++0x    CMakeFiles/cmTryCompileExec1738720736.dir/src.c.o  -o cmTryCompileExec1738720736 -rdynamic -levent 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <sys/types.h>
+#include <event.h>
+#include <stdio.h>
+
+int main()
+{
+	unsigned int version;
+#if defined(HAVE_EVENT_GET_VERSION_NUMBER)
+	version = event_get_version_number();
+#else
+	unsigned int major, minor, patchlevel;
+	char c;
+	int fields;
+	fields = sscanf(event_get_version(), "%u.%u.%u%c", &major, &minor, &patchlevel, &c);
+	version = (((major) << 24) | ((minor) << 16) | ((patchlevel) << 8));
+#endif
+	return (version < EVENT_VERSION_WANTED);
+}
+
+Determining if files stdio.h exist passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4079704737/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4079704737.dir/build.make CMakeFiles/cmTryCompileExec4079704737.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4079704737.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec4079704737.dir/CheckIncludeFiles.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec4079704737
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4079704737.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec4079704737.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4079704737 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if files assert.h exist passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3252654084/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3252654084.dir/build.make CMakeFiles/cmTryCompileExec3252654084.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3252654084.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec3252654084.dir/CheckIncludeFiles.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3252654084
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3252654084.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec3252654084.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3252654084 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if files memory.h exist passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3453495458/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3453495458.dir/build.make CMakeFiles/cmTryCompileExec3453495458.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3453495458.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec3453495458.dir/CheckIncludeFiles.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3453495458
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3453495458.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec3453495458.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3453495458 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if files strings.h exist passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4136871975/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4136871975.dir/build.make CMakeFiles/cmTryCompileExec4136871975.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4136871975.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec4136871975.dir/CheckIncludeFiles.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec4136871975
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4136871975.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec4136871975.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4136871975 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strcasecmp exists passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1261922140/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1261922140.dir/build.make CMakeFiles/cmTryCompileExec1261922140.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1261922140.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=strcasecmp -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec1261922140.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1261922140
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1261922140.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=strcasecmp -std=c++0x    CMakeFiles/cmTryCompileExec1261922140.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1261922140 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strchr exists passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2781745301/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2781745301.dir/build.make CMakeFiles/cmTryCompileExec2781745301.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2781745301.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=strchr -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec2781745301.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2781745301
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2781745301.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=strchr -std=c++0x    CMakeFiles/cmTryCompileExec2781745301.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2781745301 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3536952441/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3536952441.dir/build.make CMakeFiles/cmTryCompileExec3536952441.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3536952441.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=fseeko -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec3536952441.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3536952441
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3536952441.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=fseeko -std=c++0x    CMakeFiles/cmTryCompileExec3536952441.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3536952441 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the function ftello exists passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2516645686/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2516645686.dir/build.make CMakeFiles/cmTryCompileExec2516645686.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2516645686.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=ftello -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec2516645686.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2516645686
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2516645686.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=ftello -std=c++0x    CMakeFiles/cmTryCompileExec2516645686.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2516645686 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the function open exists passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2827537869/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2827537869.dir/build.make CMakeFiles/cmTryCompileExec2827537869.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2827537869.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=open -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec2827537869.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2827537869
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2827537869.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=open -std=c++0x    CMakeFiles/cmTryCompileExec2827537869.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2827537869 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the function mkstemp exists passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1785438736/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1785438736.dir/build.make CMakeFiles/cmTryCompileExec1785438736.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1785438736.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=mkstemp -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec1785438736.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1785438736
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1785438736.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=mkstemp -std=c++0x    CMakeFiles/cmTryCompileExec1785438736.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1785438736 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the function snprintf exists passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2548438339/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2548438339.dir/build.make CMakeFiles/cmTryCompileExec2548438339.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2548438339.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=snprintf -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec2548438339.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2548438339
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2548438339.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=snprintf -std=c++0x    CMakeFiles/cmTryCompileExec2548438339.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2548438339 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strdup exists passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2131524895/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2131524895.dir/build.make CMakeFiles/cmTryCompileExec2131524895.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2131524895.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=strdup -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec2131524895.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2131524895
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2131524895.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=strdup -std=c++0x    CMakeFiles/cmTryCompileExec2131524895.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2131524895 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2370737368/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2370737368.dir/build.make CMakeFiles/cmTryCompileExec2370737368.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2370737368.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec2370737368.dir/CheckIncludeFiles.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2370737368
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2370737368.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec2370737368.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2370737368 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec507322328/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec507322328.dir/build.make CMakeFiles/cmTryCompileExec507322328.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec507322328.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec507322328.dir/CheckIncludeFiles.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec507322328
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec507322328.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec507322328.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec507322328 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2224603199/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2224603199.dir/build.make CMakeFiles/cmTryCompileExec2224603199.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2224603199.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec2224603199.dir/CheckIncludeFiles.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2224603199
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2224603199.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec2224603199.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2224603199 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec798437045/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec798437045.dir/build.make CMakeFiles/cmTryCompileExec798437045.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec798437045.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec798437045.dir/CheckIncludeFiles.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec798437045
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec798437045.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec798437045.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec798437045 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining size of int8_t passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec901819078/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec901819078.dir/build.make CMakeFiles/cmTryCompileExec901819078.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec901819078.dir/INT8_T_LIBZIP.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec901819078.dir/INT8_T_LIBZIP.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CheckTypeSize/INT8_T_LIBZIP.c
+Linking C executable cmTryCompileExec901819078
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec901819078.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec901819078.dir/INT8_T_LIBZIP.c.o  -o cmTryCompileExec901819078 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint8_t passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3878438768/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3878438768.dir/build.make CMakeFiles/cmTryCompileExec3878438768.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3878438768.dir/UINT8_T_LIBZIP.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec3878438768.dir/UINT8_T_LIBZIP.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CheckTypeSize/UINT8_T_LIBZIP.c
+Linking C executable cmTryCompileExec3878438768
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3878438768.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec3878438768.dir/UINT8_T_LIBZIP.c.o  -o cmTryCompileExec3878438768 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining size of int16_t passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3029638186/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3029638186.dir/build.make CMakeFiles/cmTryCompileExec3029638186.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3029638186.dir/INT16_T_LIBZIP.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec3029638186.dir/INT16_T_LIBZIP.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CheckTypeSize/INT16_T_LIBZIP.c
+Linking C executable cmTryCompileExec3029638186
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3029638186.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec3029638186.dir/INT16_T_LIBZIP.c.o  -o cmTryCompileExec3029638186 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec313044724/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec313044724.dir/build.make CMakeFiles/cmTryCompileExec313044724.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec313044724.dir/UINT16_T_LIBZIP.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec313044724.dir/UINT16_T_LIBZIP.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CheckTypeSize/UINT16_T_LIBZIP.c
+Linking C executable cmTryCompileExec313044724
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec313044724.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec313044724.dir/UINT16_T_LIBZIP.c.o  -o cmTryCompileExec313044724 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining size of int32_t passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1472464399/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1472464399.dir/build.make CMakeFiles/cmTryCompileExec1472464399.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1472464399.dir/INT32_T_LIBZIP.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec1472464399.dir/INT32_T_LIBZIP.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CheckTypeSize/INT32_T_LIBZIP.c
+Linking C executable cmTryCompileExec1472464399
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1472464399.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec1472464399.dir/INT32_T_LIBZIP.c.o  -o cmTryCompileExec1472464399 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec534166781/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec534166781.dir/build.make CMakeFiles/cmTryCompileExec534166781.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec534166781.dir/UINT32_T_LIBZIP.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec534166781.dir/UINT32_T_LIBZIP.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CheckTypeSize/UINT32_T_LIBZIP.c
+Linking C executable cmTryCompileExec534166781
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec534166781.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec534166781.dir/UINT32_T_LIBZIP.c.o  -o cmTryCompileExec534166781 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1560199878/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1560199878.dir/build.make CMakeFiles/cmTryCompileExec1560199878.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1560199878.dir/INT64_T_LIBZIP.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec1560199878.dir/INT64_T_LIBZIP.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CheckTypeSize/INT64_T_LIBZIP.c
+Linking C executable cmTryCompileExec1560199878
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1560199878.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec1560199878.dir/INT64_T_LIBZIP.c.o  -o cmTryCompileExec1560199878 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint64_t passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1453470289/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1453470289.dir/build.make CMakeFiles/cmTryCompileExec1453470289.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1453470289.dir/UINT64_T_LIBZIP.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec1453470289.dir/UINT64_T_LIBZIP.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CheckTypeSize/UINT64_T_LIBZIP.c
+Linking C executable cmTryCompileExec1453470289
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1453470289.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec1453470289.dir/UINT64_T_LIBZIP.c.o  -o cmTryCompileExec1453470289 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining size of short passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2265240611/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2265240611.dir/build.make CMakeFiles/cmTryCompileExec2265240611.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2265240611.dir/SHORT_LIBZIP.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec2265240611.dir/SHORT_LIBZIP.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CheckTypeSize/SHORT_LIBZIP.c
+Linking C executable cmTryCompileExec2265240611
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2265240611.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec2265240611.dir/SHORT_LIBZIP.c.o  -o cmTryCompileExec2265240611 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining size of int passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec892733600/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec892733600.dir/build.make CMakeFiles/cmTryCompileExec892733600.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec892733600.dir/INT_LIBZIP.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec892733600.dir/INT_LIBZIP.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CheckTypeSize/INT_LIBZIP.c
+Linking C executable cmTryCompileExec892733600
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec892733600.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec892733600.dir/INT_LIBZIP.c.o  -o cmTryCompileExec892733600 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining size of long passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3719741416/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3719741416.dir/build.make CMakeFiles/cmTryCompileExec3719741416.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3719741416.dir/LONG_LIBZIP.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec3719741416.dir/LONG_LIBZIP.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CheckTypeSize/LONG_LIBZIP.c
+Linking C executable cmTryCompileExec3719741416
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3719741416.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec3719741416.dir/LONG_LIBZIP.c.o  -o cmTryCompileExec3719741416 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining size of long long passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3853595978/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3853595978.dir/build.make CMakeFiles/cmTryCompileExec3853595978.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3853595978.dir/LONG_LONG_LIBZIP.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec3853595978.dir/LONG_LONG_LIBZIP.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CheckTypeSize/LONG_LONG_LIBZIP.c
+Linking C executable cmTryCompileExec3853595978
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3853595978.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec3853595978.dir/LONG_LONG_LIBZIP.c.o  -o cmTryCompileExec3853595978 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining size of off_t passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1604621429/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1604621429.dir/build.make CMakeFiles/cmTryCompileExec1604621429.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1604621429.dir/SIZEOF_OFF_T.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec1604621429.dir/SIZEOF_OFF_T.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CheckTypeSize/SIZEOF_OFF_T.c
+Linking C executable cmTryCompileExec1604621429
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1604621429.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec1604621429.dir/SIZEOF_OFF_T.c.o  -o cmTryCompileExec1604621429 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3053851364/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3053851364.dir/build.make CMakeFiles/cmTryCompileExec3053851364.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3053851364.dir/SIZE_T_LIBZIP.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec3053851364.dir/SIZE_T_LIBZIP.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CheckTypeSize/SIZE_T_LIBZIP.c
+Linking C executable cmTryCompileExec3053851364
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3053851364.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec3053851364.dir/SIZE_T_LIBZIP.c.o  -o cmTryCompileExec3053851364 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining size of ssize_t passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1366511807/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1366511807.dir/build.make CMakeFiles/cmTryCompileExec1366511807.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1366511807.dir/SSIZE_T_LIBZIP.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec1366511807.dir/SSIZE_T_LIBZIP.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CheckTypeSize/SSIZE_T_LIBZIP.c
+Linking C executable cmTryCompileExec1366511807
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1366511807.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -std=c++0x    CMakeFiles/cmTryCompileExec1366511807.dir/SSIZE_T_LIBZIP.c.o  -o cmTryCompileExec1366511807 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the function dwarf_producer_init exists passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1488700451/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1488700451.dir/build.make CMakeFiles/cmTryCompileExec1488700451.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1488700451.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=dwarf_producer_init -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec1488700451.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1488700451
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1488700451.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=dwarf_producer_init    CMakeFiles/cmTryCompileExec1488700451.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1488700451 -rdynamic -ldwarf -lelf 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the function dwarf_producer_init_c exists passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec16873449/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec16873449.dir/build.make CMakeFiles/cmTryCompileExec16873449.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec16873449.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=dwarf_producer_init_c -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec16873449.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec16873449
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec16873449.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=dwarf_producer_init_c -std=c++0x    CMakeFiles/cmTryCompileExec16873449.dir/CheckFunctionExists.c.o  -o cmTryCompileExec16873449 -rdynamic -ldwarf -lelf 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_DECL___NR_MEMFD_CREATE succeded with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3071963032/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3071963032.dir/build.make CMakeFiles/cmTryCompileExec3071963032.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3071963032.dir/src.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DHAVE_DECL___NR_MEMFD_CREATE -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec3071963032.dir/src.c.o   -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3071963032
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3071963032.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DHAVE_DECL___NR_MEMFD_CREATE -std=c++0x    CMakeFiles/cmTryCompileExec3071963032.dir/src.c.o  -o cmTryCompileExec3071963032 -rdynamic -lelf 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <unistd.h>
+#include <asm/unistd.h>
+int main() {
+  return syscall(__NR_memfd_create, "/dummy", 0);
+}
+Determining if the function BZ2_bzCompressInit exists in the /usr/lib64/libbz2.so passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec570755916/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec570755916.dir/build.make CMakeFiles/cmTryCompileExec570755916.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec570755916.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=BZ2_bzCompressInit -std=c++0x   -o CMakeFiles/cmTryCompileExec570755916.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec570755916
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec570755916.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=BZ2_bzCompressInit -std=c++0x    CMakeFiles/cmTryCompileExec570755916.dir/CheckFunctionExists.c.o  -o cmTryCompileExec570755916 -rdynamic -lbz2 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test NOT_REQUIRE_ATOMIC_LINKER_FLAG succeded with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec524145254/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec524145254.dir/build.make CMakeFiles/cmTryCompileExec524145254.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec524145254.dir/src.cxx.o
+/usr/bin/c++    -Wall -std=gnu++11 -ffunction-sections -fdata-sections -fno-gcse -fno-omit-frame-pointer -Woverloaded-virtual -Wno-deprecated -Wno-strict-aliasing -Wno-write-strings -Wno-invalid-offsetof -fno-operator-names -Wno-error=array-bounds -Wno-error=switch -Werror=format-security -Wno-unused-result -Wno-sign-compare -Wno-attributes -Wno-maybe-uninitialized -Wno-unused-local-typedefs -fno-canonical-system-headers -Wno-deprecated-declarations -Wno-unused-function -Wvla  -ftrack-macro-expansion=0 -fno-builtin-memcmp -mcrc32  -DNOT_REQUIRE_ATOMIC_LINKER_FLAG -std=c++11 -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec524145254.dir/src.cxx.o -c /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec524145254
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec524145254.dir/link.txt --verbose=1
+/usr/bin/c++     -Wall -std=gnu++11 -ffunction-sections -fdata-sections -fno-gcse -fno-omit-frame-pointer -Woverloaded-virtual -Wno-deprecated -Wno-strict-aliasing -Wno-write-strings -Wno-invalid-offsetof -fno-operator-names -Wno-error=array-bounds -Wno-error=switch -Werror=format-security -Wno-unused-result -Wno-sign-compare -Wno-attributes -Wno-maybe-uninitialized -Wno-unused-local-typedefs -fno-canonical-system-headers -Wno-deprecated-declarations -Wno-unused-function -Wvla  -ftrack-macro-expansion=0 -fno-builtin-memcmp -mcrc32  -DNOT_REQUIRE_ATOMIC_LINKER_FLAG -std=c++11    CMakeFiles/cmTryCompileExec524145254.dir/src.cxx.o  -o cmTryCompileExec524145254 -rdynamic 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <atomic>
+int main() {
+    struct Test { int val; };
+    std::atomic<Test> s;
+    s.is_lock_free();
+}
+
+Determining if the function dwarf_producer_init exists passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2862699622/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2862699622.dir/build.make CMakeFiles/cmTryCompileExec2862699622.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2862699622.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=dwarf_producer_init -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec2862699622.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2862699622
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2862699622.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=dwarf_producer_init    CMakeFiles/cmTryCompileExec2862699622.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2862699622 -rdynamic -ldwarf -lelf 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the function dwarf_producer_init_c exists passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1664833151/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1664833151.dir/build.make CMakeFiles/cmTryCompileExec1664833151.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1664833151.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=dwarf_producer_init_c -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec1664833151.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1664833151
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1664833151.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=dwarf_producer_init_c -std=c++0x    CMakeFiles/cmTryCompileExec1664833151.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1664833151 -rdynamic -ldwarf -lelf 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the function dwarf_producer_init exists passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec654373216/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec654373216.dir/build.make CMakeFiles/cmTryCompileExec654373216.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec654373216.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=dwarf_producer_init -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec654373216.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec654373216
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec654373216.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=dwarf_producer_init    CMakeFiles/cmTryCompileExec654373216.dir/CheckFunctionExists.c.o  -o cmTryCompileExec654373216 -rdynamic -ldwarf -lelf 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the function dwarf_producer_init_c exists passed with the following output:
+Change Dir: /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2610740933/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2610740933.dir/build.make CMakeFiles/cmTryCompileExec2610740933.dir/build
+gmake[1]: Entering directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2610740933.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=dwarf_producer_init_c -std=c++0x -I/usr/include/libdwarf    -o CMakeFiles/cmTryCompileExec2610740933.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2610740933
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2610740933.dir/link.txt --verbose=1
+/usr/bin/cc     -ftrack-macro-expansion=0 -fno-builtin-memcmp -w  -DCHECK_FUNCTION_EXISTS=dwarf_producer_init_c -std=c++0x    CMakeFiles/cmTryCompileExec2610740933.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2610740933 -rdynamic -ldwarf -lelf 
+gmake[1]: Leaving directory `/tmp/hhvm-3.11.1/CMakeFiles/CMakeTmp'
+
+

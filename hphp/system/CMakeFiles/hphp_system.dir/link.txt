@@ -1,0 +1,2 @@
+/usr/bin/ar cr libhphp_system.a  CMakeFiles/hphp_system.dir/class_map.cpp.o CMakeFiles/hphp_system.dir/systemlib.cpp.o
+/usr/bin/ranlib libhphp_system.a
