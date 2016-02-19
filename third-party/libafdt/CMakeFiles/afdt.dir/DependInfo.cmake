@@ -4,11 +4,11 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/tmp/hhvm-3.11.1/third-party/libafdt/src/async.c" "/tmp/hhvm-3.11.1/third-party/libafdt/CMakeFiles/afdt.dir/src/async.c.o"
-  "/tmp/hhvm-3.11.1/third-party/libafdt/src/lowlevel.c" "/tmp/hhvm-3.11.1/third-party/libafdt/CMakeFiles/afdt.dir/src/lowlevel.c.o"
-  "/tmp/hhvm-3.11.1/third-party/libafdt/src/strlcpy.c" "/tmp/hhvm-3.11.1/third-party/libafdt/CMakeFiles/afdt.dir/src/strlcpy.c.o"
-  "/tmp/hhvm-3.11.1/third-party/libafdt/src/sync.c" "/tmp/hhvm-3.11.1/third-party/libafdt/CMakeFiles/afdt.dir/src/sync.c.o"
-  "/tmp/hhvm-3.11.1/third-party/libafdt/src/util.c" "/tmp/hhvm-3.11.1/third-party/libafdt/CMakeFiles/afdt.dir/src/util.c.o"
+  "/tmp/hhvm-3.12.0/third-party/libafdt/src/async.c" "/tmp/hhvm-3.12.0/third-party/libafdt/CMakeFiles/afdt.dir/src/async.c.o"
+  "/tmp/hhvm-3.12.0/third-party/libafdt/src/lowlevel.c" "/tmp/hhvm-3.12.0/third-party/libafdt/CMakeFiles/afdt.dir/src/lowlevel.c.o"
+  "/tmp/hhvm-3.12.0/third-party/libafdt/src/strlcpy.c" "/tmp/hhvm-3.12.0/third-party/libafdt/CMakeFiles/afdt.dir/src/strlcpy.c.o"
+  "/tmp/hhvm-3.12.0/third-party/libafdt/src/sync.c" "/tmp/hhvm-3.12.0/third-party/libafdt/CMakeFiles/afdt.dir/src/sync.c.o"
+  "/tmp/hhvm-3.12.0/third-party/libafdt/src/util.c" "/tmp/hhvm-3.12.0/third-party/libafdt/CMakeFiles/afdt.dir/src/util.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 

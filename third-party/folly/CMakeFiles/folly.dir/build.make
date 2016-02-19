@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.0
 
 # Include any dependencies generated for this target.
 include third-party/folly/CMakeFiles/folly.dir/depend.make
@@ -54,17 +54,17 @@ include third-party/folly/CMakeFiles/folly.dir/flags.make
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Bits.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/Bits.cpp.o: third-party/folly/src/folly/Bits.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/Bits.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/Bits.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/Bits.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/Bits.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/Bits.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Bits.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/Bits.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/Bits.cpp > CMakeFiles/folly.dir/src/folly/Bits.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/Bits.cpp > CMakeFiles/folly.dir/src/folly/Bits.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Bits.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/Bits.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/Bits.cpp -o CMakeFiles/folly.dir/src/folly/Bits.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/Bits.cpp -o CMakeFiles/folly.dir/src/folly/Bits.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Bits.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/Bits.cpp.o.requires
@@ -77,17 +77,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/Bits.cpp.o.provides.build: thir
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Checksum.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/Checksum.cpp.o: third-party/folly/src/folly/Checksum.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/Checksum.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/Checksum.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/Checksum.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/Checksum.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/Checksum.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Checksum.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/Checksum.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/Checksum.cpp > CMakeFiles/folly.dir/src/folly/Checksum.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/Checksum.cpp > CMakeFiles/folly.dir/src/folly/Checksum.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Checksum.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/Checksum.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/Checksum.cpp -o CMakeFiles/folly.dir/src/folly/Checksum.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/Checksum.cpp -o CMakeFiles/folly.dir/src/folly/Checksum.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Checksum.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/Checksum.cpp.o.requires
@@ -100,17 +100,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/Checksum.cpp.o.provides.build: 
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Conv.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/Conv.cpp.o: third-party/folly/src/folly/Conv.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/Conv.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/Conv.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/Conv.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/Conv.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/Conv.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Conv.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/Conv.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/Conv.cpp > CMakeFiles/folly.dir/src/folly/Conv.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/Conv.cpp > CMakeFiles/folly.dir/src/folly/Conv.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Conv.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/Conv.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/Conv.cpp -o CMakeFiles/folly.dir/src/folly/Conv.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/Conv.cpp -o CMakeFiles/folly.dir/src/folly/Conv.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Conv.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/Conv.cpp.o.requires
@@ -123,17 +123,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/Conv.cpp.o.provides.build: thir
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Demangle.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/Demangle.cpp.o: third-party/folly/src/folly/Demangle.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/Demangle.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/Demangle.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/Demangle.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/Demangle.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/Demangle.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Demangle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/Demangle.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/Demangle.cpp > CMakeFiles/folly.dir/src/folly/Demangle.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/Demangle.cpp > CMakeFiles/folly.dir/src/folly/Demangle.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Demangle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/Demangle.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/Demangle.cpp -o CMakeFiles/folly.dir/src/folly/Demangle.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/Demangle.cpp -o CMakeFiles/folly.dir/src/folly/Demangle.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Demangle.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/Demangle.cpp.o.requires
@@ -146,17 +146,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/Demangle.cpp.o.provides.build: 
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/File.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/File.cpp.o: third-party/folly/src/folly/File.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/File.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/File.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/File.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/File.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/File.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/File.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/File.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/File.cpp > CMakeFiles/folly.dir/src/folly/File.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/File.cpp > CMakeFiles/folly.dir/src/folly/File.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/File.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/File.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/File.cpp -o CMakeFiles/folly.dir/src/folly/File.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/File.cpp -o CMakeFiles/folly.dir/src/folly/File.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/File.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/File.cpp.o.requires
@@ -169,17 +169,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/File.cpp.o.provides.build: thir
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/FileUtil.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/FileUtil.cpp.o: third-party/folly/src/folly/FileUtil.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/FileUtil.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/FileUtil.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/FileUtil.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/FileUtil.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/FileUtil.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/FileUtil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/FileUtil.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/FileUtil.cpp > CMakeFiles/folly.dir/src/folly/FileUtil.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/FileUtil.cpp > CMakeFiles/folly.dir/src/folly/FileUtil.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/FileUtil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/FileUtil.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/FileUtil.cpp -o CMakeFiles/folly.dir/src/folly/FileUtil.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/FileUtil.cpp -o CMakeFiles/folly.dir/src/folly/FileUtil.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/FileUtil.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/FileUtil.cpp.o.requires
@@ -192,17 +192,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/FileUtil.cpp.o.provides.build: 
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Format.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/Format.cpp.o: third-party/folly/src/folly/Format.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/Format.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/Format.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/Format.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/Format.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/Format.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Format.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/Format.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/Format.cpp > CMakeFiles/folly.dir/src/folly/Format.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/Format.cpp > CMakeFiles/folly.dir/src/folly/Format.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Format.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/Format.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/Format.cpp -o CMakeFiles/folly.dir/src/folly/Format.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/Format.cpp -o CMakeFiles/folly.dir/src/folly/Format.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Format.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/Format.cpp.o.requires
@@ -215,17 +215,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/Format.cpp.o.provides.build: th
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/GroupVarint.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/GroupVarint.cpp.o: third-party/folly/src/folly/GroupVarint.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/GroupVarint.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/GroupVarint.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/GroupVarint.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/GroupVarint.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/GroupVarint.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/GroupVarint.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/GroupVarint.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/GroupVarint.cpp > CMakeFiles/folly.dir/src/folly/GroupVarint.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/GroupVarint.cpp > CMakeFiles/folly.dir/src/folly/GroupVarint.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/GroupVarint.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/GroupVarint.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/GroupVarint.cpp -o CMakeFiles/folly.dir/src/folly/GroupVarint.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/GroupVarint.cpp -o CMakeFiles/folly.dir/src/folly/GroupVarint.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/GroupVarint.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/GroupVarint.cpp.o.requires
@@ -238,17 +238,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/GroupVarint.cpp.o.provides.buil
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddress.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddress.cpp.o: third-party/folly/src/folly/IPAddress.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddress.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/IPAddress.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/IPAddress.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/IPAddress.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/IPAddress.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddress.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/IPAddress.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/IPAddress.cpp > CMakeFiles/folly.dir/src/folly/IPAddress.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/IPAddress.cpp > CMakeFiles/folly.dir/src/folly/IPAddress.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddress.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/IPAddress.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/IPAddress.cpp -o CMakeFiles/folly.dir/src/folly/IPAddress.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/IPAddress.cpp -o CMakeFiles/folly.dir/src/folly/IPAddress.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddress.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddress.cpp.o.requires
@@ -261,17 +261,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddress.cpp.o.provides.build:
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddressV4.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddressV4.cpp.o: third-party/folly/src/folly/IPAddressV4.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddressV4.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/IPAddressV4.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/IPAddressV4.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/IPAddressV4.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/IPAddressV4.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddressV4.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/IPAddressV4.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/IPAddressV4.cpp > CMakeFiles/folly.dir/src/folly/IPAddressV4.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/IPAddressV4.cpp > CMakeFiles/folly.dir/src/folly/IPAddressV4.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddressV4.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/IPAddressV4.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/IPAddressV4.cpp -o CMakeFiles/folly.dir/src/folly/IPAddressV4.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/IPAddressV4.cpp -o CMakeFiles/folly.dir/src/folly/IPAddressV4.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddressV4.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddressV4.cpp.o.requires
@@ -284,17 +284,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddressV4.cpp.o.provides.buil
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddressV6.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddressV6.cpp.o: third-party/folly/src/folly/IPAddressV6.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddressV6.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/IPAddressV6.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/IPAddressV6.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/IPAddressV6.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/IPAddressV6.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddressV6.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/IPAddressV6.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/IPAddressV6.cpp > CMakeFiles/folly.dir/src/folly/IPAddressV6.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/IPAddressV6.cpp > CMakeFiles/folly.dir/src/folly/IPAddressV6.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddressV6.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/IPAddressV6.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/IPAddressV6.cpp -o CMakeFiles/folly.dir/src/folly/IPAddressV6.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/IPAddressV6.cpp -o CMakeFiles/folly.dir/src/folly/IPAddressV6.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddressV6.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddressV6.cpp.o.requires
@@ -307,17 +307,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddressV6.cpp.o.provides.buil
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/LifoSem.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/LifoSem.cpp.o: third-party/folly/src/folly/LifoSem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/LifoSem.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/LifoSem.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/LifoSem.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/LifoSem.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/LifoSem.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/LifoSem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/LifoSem.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/LifoSem.cpp > CMakeFiles/folly.dir/src/folly/LifoSem.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/LifoSem.cpp > CMakeFiles/folly.dir/src/folly/LifoSem.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/LifoSem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/LifoSem.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/LifoSem.cpp -o CMakeFiles/folly.dir/src/folly/LifoSem.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/LifoSem.cpp -o CMakeFiles/folly.dir/src/folly/LifoSem.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/LifoSem.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/LifoSem.cpp.o.requires
@@ -330,17 +330,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/LifoSem.cpp.o.provides.build: t
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/MacAddress.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/MacAddress.cpp.o: third-party/folly/src/folly/MacAddress.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/MacAddress.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/MacAddress.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/MacAddress.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/MacAddress.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/MacAddress.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/MacAddress.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/MacAddress.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/MacAddress.cpp > CMakeFiles/folly.dir/src/folly/MacAddress.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/MacAddress.cpp > CMakeFiles/folly.dir/src/folly/MacAddress.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/MacAddress.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/MacAddress.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/MacAddress.cpp -o CMakeFiles/folly.dir/src/folly/MacAddress.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/MacAddress.cpp -o CMakeFiles/folly.dir/src/folly/MacAddress.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/MacAddress.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/MacAddress.cpp.o.requires
@@ -353,17 +353,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/MacAddress.cpp.o.provides.build
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/MemoryMapping.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/MemoryMapping.cpp.o: third-party/folly/src/folly/MemoryMapping.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/MemoryMapping.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/MemoryMapping.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/MemoryMapping.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/MemoryMapping.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/MemoryMapping.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/MemoryMapping.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/MemoryMapping.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/MemoryMapping.cpp > CMakeFiles/folly.dir/src/folly/MemoryMapping.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/MemoryMapping.cpp > CMakeFiles/folly.dir/src/folly/MemoryMapping.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/MemoryMapping.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/MemoryMapping.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/MemoryMapping.cpp -o CMakeFiles/folly.dir/src/folly/MemoryMapping.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/MemoryMapping.cpp -o CMakeFiles/folly.dir/src/folly/MemoryMapping.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/MemoryMapping.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/MemoryMapping.cpp.o.requires
@@ -376,17 +376,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/MemoryMapping.cpp.o.provides.bu
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Random.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/Random.cpp.o: third-party/folly/src/folly/Random.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/Random.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/Random.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/Random.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/Random.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/Random.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Random.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/Random.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/Random.cpp > CMakeFiles/folly.dir/src/folly/Random.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/Random.cpp > CMakeFiles/folly.dir/src/folly/Random.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Random.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/Random.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/Random.cpp -o CMakeFiles/folly.dir/src/folly/Random.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/Random.cpp -o CMakeFiles/folly.dir/src/folly/Random.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Random.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/Random.cpp.o.requires
@@ -399,17 +399,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/Random.cpp.o.provides.build: th
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/SafeAssert.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/SafeAssert.cpp.o: third-party/folly/src/folly/SafeAssert.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/SafeAssert.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/SafeAssert.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/SafeAssert.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/SafeAssert.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/SafeAssert.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/SafeAssert.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/SafeAssert.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/SafeAssert.cpp > CMakeFiles/folly.dir/src/folly/SafeAssert.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/SafeAssert.cpp > CMakeFiles/folly.dir/src/folly/SafeAssert.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/SafeAssert.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/SafeAssert.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/SafeAssert.cpp -o CMakeFiles/folly.dir/src/folly/SafeAssert.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/SafeAssert.cpp -o CMakeFiles/folly.dir/src/folly/SafeAssert.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/SafeAssert.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/SafeAssert.cpp.o.requires
@@ -422,17 +422,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/SafeAssert.cpp.o.provides.build
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/SharedMutex.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/SharedMutex.cpp.o: third-party/folly/src/folly/SharedMutex.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/SharedMutex.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/SharedMutex.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/SharedMutex.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/SharedMutex.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/SharedMutex.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/SharedMutex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/SharedMutex.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/SharedMutex.cpp > CMakeFiles/folly.dir/src/folly/SharedMutex.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/SharedMutex.cpp > CMakeFiles/folly.dir/src/folly/SharedMutex.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/SharedMutex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/SharedMutex.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/SharedMutex.cpp -o CMakeFiles/folly.dir/src/folly/SharedMutex.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/SharedMutex.cpp -o CMakeFiles/folly.dir/src/folly/SharedMutex.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/SharedMutex.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/SharedMutex.cpp.o.requires
@@ -445,17 +445,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/SharedMutex.cpp.o.provides.buil
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Singleton.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/Singleton.cpp.o: third-party/folly/src/folly/Singleton.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/Singleton.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/Singleton.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/Singleton.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/Singleton.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/Singleton.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Singleton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/Singleton.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/Singleton.cpp > CMakeFiles/folly.dir/src/folly/Singleton.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/Singleton.cpp > CMakeFiles/folly.dir/src/folly/Singleton.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Singleton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/Singleton.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/Singleton.cpp -o CMakeFiles/folly.dir/src/folly/Singleton.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/Singleton.cpp -o CMakeFiles/folly.dir/src/folly/Singleton.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Singleton.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/Singleton.cpp.o.requires
@@ -468,17 +468,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/Singleton.cpp.o.provides.build:
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/SingletonVault_c.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/SingletonVault_c.cpp.o: third-party/folly/src/folly/SingletonVault_c.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/SingletonVault_c.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/SingletonVault_c.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/SingletonVault_c.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/SingletonVault_c.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/SingletonVault_c.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/SingletonVault_c.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/SingletonVault_c.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/SingletonVault_c.cpp > CMakeFiles/folly.dir/src/folly/SingletonVault_c.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/SingletonVault_c.cpp > CMakeFiles/folly.dir/src/folly/SingletonVault_c.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/SingletonVault_c.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/SingletonVault_c.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/SingletonVault_c.cpp -o CMakeFiles/folly.dir/src/folly/SingletonVault_c.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/SingletonVault_c.cpp -o CMakeFiles/folly.dir/src/folly/SingletonVault_c.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/SingletonVault_c.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/SingletonVault_c.cpp.o.requires
@@ -491,17 +491,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/SingletonVault_c.cpp.o.provides
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/SocketAddress.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/SocketAddress.cpp.o: third-party/folly/src/folly/SocketAddress.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/SocketAddress.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/SocketAddress.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/SocketAddress.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/SocketAddress.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/SocketAddress.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/SocketAddress.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/SocketAddress.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/SocketAddress.cpp > CMakeFiles/folly.dir/src/folly/SocketAddress.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/SocketAddress.cpp > CMakeFiles/folly.dir/src/folly/SocketAddress.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/SocketAddress.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/SocketAddress.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/SocketAddress.cpp -o CMakeFiles/folly.dir/src/folly/SocketAddress.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/SocketAddress.cpp -o CMakeFiles/folly.dir/src/folly/SocketAddress.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/SocketAddress.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/SocketAddress.cpp.o.requires
@@ -514,17 +514,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/SocketAddress.cpp.o.provides.bu
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/SpookyHashV1.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/SpookyHashV1.cpp.o: third-party/folly/src/folly/SpookyHashV1.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/SpookyHashV1.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/SpookyHashV1.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/SpookyHashV1.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/SpookyHashV1.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/SpookyHashV1.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/SpookyHashV1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/SpookyHashV1.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/SpookyHashV1.cpp > CMakeFiles/folly.dir/src/folly/SpookyHashV1.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/SpookyHashV1.cpp > CMakeFiles/folly.dir/src/folly/SpookyHashV1.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/SpookyHashV1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/SpookyHashV1.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/SpookyHashV1.cpp -o CMakeFiles/folly.dir/src/folly/SpookyHashV1.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/SpookyHashV1.cpp -o CMakeFiles/folly.dir/src/folly/SpookyHashV1.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/SpookyHashV1.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/SpookyHashV1.cpp.o.requires
@@ -537,17 +537,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/SpookyHashV1.cpp.o.provides.bui
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/SpookyHashV2.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/SpookyHashV2.cpp.o: third-party/folly/src/folly/SpookyHashV2.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/SpookyHashV2.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/SpookyHashV2.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/SpookyHashV2.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/SpookyHashV2.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/SpookyHashV2.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/SpookyHashV2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/SpookyHashV2.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/SpookyHashV2.cpp > CMakeFiles/folly.dir/src/folly/SpookyHashV2.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/SpookyHashV2.cpp > CMakeFiles/folly.dir/src/folly/SpookyHashV2.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/SpookyHashV2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/SpookyHashV2.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/SpookyHashV2.cpp -o CMakeFiles/folly.dir/src/folly/SpookyHashV2.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/SpookyHashV2.cpp -o CMakeFiles/folly.dir/src/folly/SpookyHashV2.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/SpookyHashV2.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/SpookyHashV2.cpp.o.requires
@@ -560,17 +560,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/SpookyHashV2.cpp.o.provides.bui
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/String.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/String.cpp.o: third-party/folly/src/folly/String.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/String.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/String.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/String.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/String.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/String.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/String.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/String.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/String.cpp > CMakeFiles/folly.dir/src/folly/String.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/String.cpp > CMakeFiles/folly.dir/src/folly/String.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/String.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/String.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/String.cpp -o CMakeFiles/folly.dir/src/folly/String.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/String.cpp -o CMakeFiles/folly.dir/src/folly/String.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/String.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/String.cpp.o.requires
@@ -583,17 +583,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/String.cpp.o.provides.build: th
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/StringBase.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/StringBase.cpp.o: third-party/folly/src/folly/StringBase.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/StringBase.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/StringBase.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/StringBase.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/StringBase.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/StringBase.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/StringBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/StringBase.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/StringBase.cpp > CMakeFiles/folly.dir/src/folly/StringBase.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/StringBase.cpp > CMakeFiles/folly.dir/src/folly/StringBase.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/StringBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/StringBase.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/StringBase.cpp -o CMakeFiles/folly.dir/src/folly/StringBase.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/StringBase.cpp -o CMakeFiles/folly.dir/src/folly/StringBase.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/StringBase.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/StringBase.cpp.o.requires
@@ -606,17 +606,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/StringBase.cpp.o.provides.build
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Subprocess.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/Subprocess.cpp.o: third-party/folly/src/folly/Subprocess.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/Subprocess.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/Subprocess.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/Subprocess.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/Subprocess.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/Subprocess.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Subprocess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/Subprocess.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/Subprocess.cpp > CMakeFiles/folly.dir/src/folly/Subprocess.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/Subprocess.cpp > CMakeFiles/folly.dir/src/folly/Subprocess.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Subprocess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/Subprocess.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/Subprocess.cpp -o CMakeFiles/folly.dir/src/folly/Subprocess.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/Subprocess.cpp -o CMakeFiles/folly.dir/src/folly/Subprocess.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Subprocess.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/Subprocess.cpp.o.requires
@@ -629,17 +629,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/Subprocess.cpp.o.provides.build
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/ThreadCachedArena.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/ThreadCachedArena.cpp.o: third-party/folly/src/folly/ThreadCachedArena.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/ThreadCachedArena.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/ThreadCachedArena.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/ThreadCachedArena.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/ThreadCachedArena.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/ThreadCachedArena.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/ThreadCachedArena.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/ThreadCachedArena.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/ThreadCachedArena.cpp > CMakeFiles/folly.dir/src/folly/ThreadCachedArena.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/ThreadCachedArena.cpp > CMakeFiles/folly.dir/src/folly/ThreadCachedArena.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/ThreadCachedArena.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/ThreadCachedArena.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/ThreadCachedArena.cpp -o CMakeFiles/folly.dir/src/folly/ThreadCachedArena.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/ThreadCachedArena.cpp -o CMakeFiles/folly.dir/src/folly/ThreadCachedArena.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/ThreadCachedArena.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/ThreadCachedArena.cpp.o.requires
@@ -652,17 +652,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/ThreadCachedArena.cpp.o.provide
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/TimeoutQueue.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/TimeoutQueue.cpp.o: third-party/folly/src/folly/TimeoutQueue.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/TimeoutQueue.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/TimeoutQueue.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/TimeoutQueue.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/TimeoutQueue.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/TimeoutQueue.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/TimeoutQueue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/TimeoutQueue.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/TimeoutQueue.cpp > CMakeFiles/folly.dir/src/folly/TimeoutQueue.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/TimeoutQueue.cpp > CMakeFiles/folly.dir/src/folly/TimeoutQueue.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/TimeoutQueue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/TimeoutQueue.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/TimeoutQueue.cpp -o CMakeFiles/folly.dir/src/folly/TimeoutQueue.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/TimeoutQueue.cpp -o CMakeFiles/folly.dir/src/folly/TimeoutQueue.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/TimeoutQueue.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/TimeoutQueue.cpp.o.requires
@@ -675,17 +675,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/TimeoutQueue.cpp.o.provides.bui
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Unicode.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/Unicode.cpp.o: third-party/folly/src/folly/Unicode.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/Unicode.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/Unicode.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/Unicode.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/Unicode.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/Unicode.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Unicode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/Unicode.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/Unicode.cpp > CMakeFiles/folly.dir/src/folly/Unicode.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/Unicode.cpp > CMakeFiles/folly.dir/src/folly/Unicode.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Unicode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/Unicode.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/Unicode.cpp -o CMakeFiles/folly.dir/src/folly/Unicode.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/Unicode.cpp -o CMakeFiles/folly.dir/src/folly/Unicode.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Unicode.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/Unicode.cpp.o.requires
@@ -698,17 +698,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/Unicode.cpp.o.provides.build: t
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Uri.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/Uri.cpp.o: third-party/folly/src/folly/Uri.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/Uri.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/Uri.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/Uri.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/Uri.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/Uri.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Uri.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/Uri.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/Uri.cpp > CMakeFiles/folly.dir/src/folly/Uri.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/Uri.cpp > CMakeFiles/folly.dir/src/folly/Uri.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Uri.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/Uri.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/Uri.cpp -o CMakeFiles/folly.dir/src/folly/Uri.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/Uri.cpp -o CMakeFiles/folly.dir/src/folly/Uri.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Uri.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/Uri.cpp.o.requires
@@ -721,17 +721,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/Uri.cpp.o.provides.build: third
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Version.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/Version.cpp.o: third-party/folly/src/folly/Version.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/Version.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/Version.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/Version.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/Version.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/Version.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Version.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/Version.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/Version.cpp > CMakeFiles/folly.dir/src/folly/Version.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/Version.cpp > CMakeFiles/folly.dir/src/folly/Version.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Version.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/Version.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/Version.cpp -o CMakeFiles/folly.dir/src/folly/Version.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/Version.cpp -o CMakeFiles/folly.dir/src/folly/Version.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/Version.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/Version.cpp.o.requires
@@ -744,17 +744,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/Version.cpp.o.provides.build: t
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/dynamic.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/dynamic.cpp.o: third-party/folly/src/folly/dynamic.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_31)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/dynamic.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/dynamic.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/dynamic.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/dynamic.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/dynamic.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/dynamic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/dynamic.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/dynamic.cpp > CMakeFiles/folly.dir/src/folly/dynamic.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/dynamic.cpp > CMakeFiles/folly.dir/src/folly/dynamic.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/dynamic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/dynamic.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/dynamic.cpp -o CMakeFiles/folly.dir/src/folly/dynamic.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/dynamic.cpp -o CMakeFiles/folly.dir/src/folly/dynamic.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/dynamic.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/dynamic.cpp.o.requires
@@ -767,17 +767,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/dynamic.cpp.o.provides.build: t
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/json.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/json.cpp.o: third-party/folly/src/folly/json.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_32)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_32)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/json.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/json.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/json.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/json.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/json.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/json.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/json.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/json.cpp > CMakeFiles/folly.dir/src/folly/json.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/json.cpp > CMakeFiles/folly.dir/src/folly/json.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/json.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/json.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/json.cpp -o CMakeFiles/folly.dir/src/folly/json.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/json.cpp -o CMakeFiles/folly.dir/src/folly/json.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/json.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/json.cpp.o.requires
@@ -790,17 +790,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/json.cpp.o.provides.build: thir
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/detail/CacheLocality.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/detail/CacheLocality.cpp.o: third-party/folly/src/folly/detail/CacheLocality.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_33)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_33)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/detail/CacheLocality.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/detail/CacheLocality.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/detail/CacheLocality.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/detail/CacheLocality.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/detail/CacheLocality.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/detail/CacheLocality.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/detail/CacheLocality.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/detail/CacheLocality.cpp > CMakeFiles/folly.dir/src/folly/detail/CacheLocality.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/detail/CacheLocality.cpp > CMakeFiles/folly.dir/src/folly/detail/CacheLocality.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/detail/CacheLocality.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/detail/CacheLocality.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/detail/CacheLocality.cpp -o CMakeFiles/folly.dir/src/folly/detail/CacheLocality.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/detail/CacheLocality.cpp -o CMakeFiles/folly.dir/src/folly/detail/CacheLocality.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/detail/CacheLocality.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/detail/CacheLocality.cpp.o.requires
@@ -813,17 +813,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/detail/CacheLocality.cpp.o.prov
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/detail/Futex.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/detail/Futex.cpp.o: third-party/folly/src/folly/detail/Futex.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_34)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_34)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/detail/Futex.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/detail/Futex.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/detail/Futex.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/detail/Futex.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/detail/Futex.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/detail/Futex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/detail/Futex.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/detail/Futex.cpp > CMakeFiles/folly.dir/src/folly/detail/Futex.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/detail/Futex.cpp > CMakeFiles/folly.dir/src/folly/detail/Futex.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/detail/Futex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/detail/Futex.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/detail/Futex.cpp -o CMakeFiles/folly.dir/src/folly/detail/Futex.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/detail/Futex.cpp -o CMakeFiles/folly.dir/src/folly/detail/Futex.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/detail/Futex.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/detail/Futex.cpp.o.requires
@@ -836,17 +836,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/detail/Futex.cpp.o.provides.bui
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/detail/MallocImpl.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/detail/MallocImpl.cpp.o: third-party/folly/src/folly/detail/MallocImpl.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_35)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_35)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/detail/MallocImpl.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/detail/MallocImpl.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/detail/MallocImpl.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/detail/MallocImpl.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/detail/MallocImpl.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/detail/MallocImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/detail/MallocImpl.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/detail/MallocImpl.cpp > CMakeFiles/folly.dir/src/folly/detail/MallocImpl.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/detail/MallocImpl.cpp > CMakeFiles/folly.dir/src/folly/detail/MallocImpl.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/detail/MallocImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/detail/MallocImpl.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/detail/MallocImpl.cpp -o CMakeFiles/folly.dir/src/folly/detail/MallocImpl.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/detail/MallocImpl.cpp -o CMakeFiles/folly.dir/src/folly/detail/MallocImpl.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/detail/MallocImpl.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/detail/MallocImpl.cpp.o.requires
@@ -859,17 +859,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/detail/MallocImpl.cpp.o.provide
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/detail/MemoryIdler.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/detail/MemoryIdler.cpp.o: third-party/folly/src/folly/detail/MemoryIdler.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_36)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_36)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/detail/MemoryIdler.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/detail/MemoryIdler.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/detail/MemoryIdler.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/detail/MemoryIdler.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/detail/MemoryIdler.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/detail/MemoryIdler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/detail/MemoryIdler.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/detail/MemoryIdler.cpp > CMakeFiles/folly.dir/src/folly/detail/MemoryIdler.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/detail/MemoryIdler.cpp > CMakeFiles/folly.dir/src/folly/detail/MemoryIdler.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/detail/MemoryIdler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/detail/MemoryIdler.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/detail/MemoryIdler.cpp -o CMakeFiles/folly.dir/src/folly/detail/MemoryIdler.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/detail/MemoryIdler.cpp -o CMakeFiles/folly.dir/src/folly/detail/MemoryIdler.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/detail/MemoryIdler.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/detail/MemoryIdler.cpp.o.requires
@@ -882,17 +882,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/detail/MemoryIdler.cpp.o.provid
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/detail/RangeCommon.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/detail/RangeCommon.cpp.o: third-party/folly/src/folly/detail/RangeCommon.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_37)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_37)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/detail/RangeCommon.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/detail/RangeCommon.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/detail/RangeCommon.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/detail/RangeCommon.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/detail/RangeCommon.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/detail/RangeCommon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/detail/RangeCommon.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/detail/RangeCommon.cpp > CMakeFiles/folly.dir/src/folly/detail/RangeCommon.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/detail/RangeCommon.cpp > CMakeFiles/folly.dir/src/folly/detail/RangeCommon.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/detail/RangeCommon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/detail/RangeCommon.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/detail/RangeCommon.cpp -o CMakeFiles/folly.dir/src/folly/detail/RangeCommon.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/detail/RangeCommon.cpp -o CMakeFiles/folly.dir/src/folly/detail/RangeCommon.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/detail/RangeCommon.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/detail/RangeCommon.cpp.o.requires
@@ -905,17 +905,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/detail/RangeCommon.cpp.o.provid
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/detail/RangeSse42.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/detail/RangeSse42.cpp.o: third-party/folly/src/folly/detail/RangeSse42.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_38)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_38)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/detail/RangeSse42.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/detail/RangeSse42.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/detail/RangeSse42.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/detail/RangeSse42.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/detail/RangeSse42.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/detail/RangeSse42.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/detail/RangeSse42.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/detail/RangeSse42.cpp > CMakeFiles/folly.dir/src/folly/detail/RangeSse42.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/detail/RangeSse42.cpp > CMakeFiles/folly.dir/src/folly/detail/RangeSse42.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/detail/RangeSse42.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/detail/RangeSse42.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/detail/RangeSse42.cpp -o CMakeFiles/folly.dir/src/folly/detail/RangeSse42.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/detail/RangeSse42.cpp -o CMakeFiles/folly.dir/src/folly/detail/RangeSse42.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/detail/RangeSse42.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/detail/RangeSse42.cpp.o.requires
@@ -926,19 +926,42 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/detail/RangeSse42.cpp.o.provide
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/detail/RangeSse42.cpp.o.provides.build: third-party/folly/CMakeFiles/folly.dir/src/folly/detail/RangeSse42.cpp.o
 
+third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
+third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o: third-party/folly/src/folly/detail/ThreadLocalDetail.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_39)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o"
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/detail/ThreadLocalDetail.cpp
+
+third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.i"
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/detail/ThreadLocalDetail.cpp > CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.i
+
+third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.s"
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/detail/ThreadLocalDetail.cpp -o CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.s
+
+third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o.requires:
+.PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o.requires
+
+third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o.provides: third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o.requires
+	$(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o.provides.build
+.PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o.provides
+
+third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o.provides.build: third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o
+
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.cpp.o: third-party/folly/src/folly/experimental/FunctionScheduler.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_39)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_40)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/FunctionScheduler.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/FunctionScheduler.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/FunctionScheduler.cpp > CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/FunctionScheduler.cpp > CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/FunctionScheduler.cpp -o CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/FunctionScheduler.cpp -o CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.cpp.o.requires
@@ -951,17 +974,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.o: third-party/folly/src/folly/experimental/JSONSchema.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_40)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_41)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/JSONSchema.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/JSONSchema.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/JSONSchema.cpp > CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/JSONSchema.cpp > CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/JSONSchema.cpp -o CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/JSONSchema.cpp -o CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.o.requires
@@ -974,17 +997,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.o.p
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/NestedCommandLineApp.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/NestedCommandLineApp.cpp.o: third-party/folly/src/folly/experimental/NestedCommandLineApp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_41)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_42)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/NestedCommandLineApp.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/experimental/NestedCommandLineApp.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/NestedCommandLineApp.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/experimental/NestedCommandLineApp.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/NestedCommandLineApp.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/NestedCommandLineApp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/experimental/NestedCommandLineApp.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/NestedCommandLineApp.cpp > CMakeFiles/folly.dir/src/folly/experimental/NestedCommandLineApp.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/NestedCommandLineApp.cpp > CMakeFiles/folly.dir/src/folly/experimental/NestedCommandLineApp.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/NestedCommandLineApp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/experimental/NestedCommandLineApp.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/NestedCommandLineApp.cpp -o CMakeFiles/folly.dir/src/folly/experimental/NestedCommandLineApp.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/NestedCommandLineApp.cpp -o CMakeFiles/folly.dir/src/folly/experimental/NestedCommandLineApp.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/NestedCommandLineApp.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/NestedCommandLineApp.cpp.o.requires
@@ -997,17 +1020,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/NestedCommandLineA
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/Select64.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/Select64.cpp.o: third-party/folly/src/folly/experimental/Select64.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_42)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_43)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/Select64.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/experimental/Select64.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/Select64.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/experimental/Select64.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/Select64.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/Select64.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/experimental/Select64.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/Select64.cpp > CMakeFiles/folly.dir/src/folly/experimental/Select64.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/Select64.cpp > CMakeFiles/folly.dir/src/folly/experimental/Select64.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/Select64.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/experimental/Select64.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/Select64.cpp -o CMakeFiles/folly.dir/src/folly/experimental/Select64.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/Select64.cpp -o CMakeFiles/folly.dir/src/folly/experimental/Select64.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/Select64.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/Select64.cpp.o.requires
@@ -1020,17 +1043,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/Select64.cpp.o.pro
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Baton.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Baton.cpp.o: third-party/folly/src/folly/experimental/fibers/Baton.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_43)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_44)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Baton.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/experimental/fibers/Baton.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/fibers/Baton.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/experimental/fibers/Baton.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/fibers/Baton.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Baton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/experimental/fibers/Baton.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/fibers/Baton.cpp > CMakeFiles/folly.dir/src/folly/experimental/fibers/Baton.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/fibers/Baton.cpp > CMakeFiles/folly.dir/src/folly/experimental/fibers/Baton.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Baton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/experimental/fibers/Baton.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/fibers/Baton.cpp -o CMakeFiles/folly.dir/src/folly/experimental/fibers/Baton.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/fibers/Baton.cpp -o CMakeFiles/folly.dir/src/folly/experimental/fibers/Baton.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Baton.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Baton.cpp.o.requires
@@ -1043,17 +1066,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Baton.cpp.o
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Fiber.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Fiber.cpp.o: third-party/folly/src/folly/experimental/fibers/Fiber.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_44)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_45)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Fiber.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/experimental/fibers/Fiber.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/fibers/Fiber.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/experimental/fibers/Fiber.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/fibers/Fiber.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Fiber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/experimental/fibers/Fiber.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/fibers/Fiber.cpp > CMakeFiles/folly.dir/src/folly/experimental/fibers/Fiber.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/fibers/Fiber.cpp > CMakeFiles/folly.dir/src/folly/experimental/fibers/Fiber.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Fiber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/experimental/fibers/Fiber.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/fibers/Fiber.cpp -o CMakeFiles/folly.dir/src/folly/experimental/fibers/Fiber.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/fibers/Fiber.cpp -o CMakeFiles/folly.dir/src/folly/experimental/fibers/Fiber.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Fiber.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Fiber.cpp.o.requires
@@ -1066,17 +1089,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Fiber.cpp.o
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManager.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManager.cpp.o: third-party/folly/src/folly/experimental/fibers/FiberManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_45)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_46)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManager.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManager.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/fibers/FiberManager.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManager.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/fibers/FiberManager.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManager.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/fibers/FiberManager.cpp > CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManager.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/fibers/FiberManager.cpp > CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManager.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManager.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/fibers/FiberManager.cpp -o CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManager.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/fibers/FiberManager.cpp -o CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManager.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManager.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManager.cpp.o.requires
@@ -1089,17 +1112,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManage
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManagerMap.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManagerMap.cpp.o: third-party/folly/src/folly/experimental/fibers/FiberManagerMap.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_46)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_47)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManagerMap.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManagerMap.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/fibers/FiberManagerMap.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManagerMap.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/fibers/FiberManagerMap.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManagerMap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManagerMap.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/fibers/FiberManagerMap.cpp > CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManagerMap.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/fibers/FiberManagerMap.cpp > CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManagerMap.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManagerMap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManagerMap.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/fibers/FiberManagerMap.cpp -o CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManagerMap.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/fibers/FiberManagerMap.cpp -o CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManagerMap.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManagerMap.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManagerMap.cpp.o.requires
@@ -1112,17 +1135,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManage
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/GuardPageAllocator.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/GuardPageAllocator.cpp.o: third-party/folly/src/folly/experimental/fibers/GuardPageAllocator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_47)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_48)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/GuardPageAllocator.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/experimental/fibers/GuardPageAllocator.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/fibers/GuardPageAllocator.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/experimental/fibers/GuardPageAllocator.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/fibers/GuardPageAllocator.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/GuardPageAllocator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/experimental/fibers/GuardPageAllocator.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/fibers/GuardPageAllocator.cpp > CMakeFiles/folly.dir/src/folly/experimental/fibers/GuardPageAllocator.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/fibers/GuardPageAllocator.cpp > CMakeFiles/folly.dir/src/folly/experimental/fibers/GuardPageAllocator.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/GuardPageAllocator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/experimental/fibers/GuardPageAllocator.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/fibers/GuardPageAllocator.cpp -o CMakeFiles/folly.dir/src/folly/experimental/fibers/GuardPageAllocator.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/fibers/GuardPageAllocator.cpp -o CMakeFiles/folly.dir/src/folly/experimental/fibers/GuardPageAllocator.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/GuardPageAllocator.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/GuardPageAllocator.cpp.o.requires
@@ -1135,17 +1158,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/GuardPageAl
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/TimeoutController.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/TimeoutController.cpp.o: third-party/folly/src/folly/experimental/fibers/TimeoutController.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_48)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_49)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/TimeoutController.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/experimental/fibers/TimeoutController.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/fibers/TimeoutController.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/experimental/fibers/TimeoutController.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/fibers/TimeoutController.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/TimeoutController.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/experimental/fibers/TimeoutController.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/fibers/TimeoutController.cpp > CMakeFiles/folly.dir/src/folly/experimental/fibers/TimeoutController.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/fibers/TimeoutController.cpp > CMakeFiles/folly.dir/src/folly/experimental/fibers/TimeoutController.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/TimeoutController.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/experimental/fibers/TimeoutController.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/fibers/TimeoutController.cpp -o CMakeFiles/folly.dir/src/folly/experimental/fibers/TimeoutController.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/fibers/TimeoutController.cpp -o CMakeFiles/folly.dir/src/folly/experimental/fibers/TimeoutController.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/TimeoutController.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/TimeoutController.cpp.o.requires
@@ -1158,17 +1181,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/TimeoutCont
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/io/FsUtil.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/io/FsUtil.cpp.o: third-party/folly/src/folly/experimental/io/FsUtil.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_49)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_50)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/io/FsUtil.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/experimental/io/FsUtil.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/io/FsUtil.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/experimental/io/FsUtil.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/io/FsUtil.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/io/FsUtil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/experimental/io/FsUtil.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/io/FsUtil.cpp > CMakeFiles/folly.dir/src/folly/experimental/io/FsUtil.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/io/FsUtil.cpp > CMakeFiles/folly.dir/src/folly/experimental/io/FsUtil.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/io/FsUtil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/experimental/io/FsUtil.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/io/FsUtil.cpp -o CMakeFiles/folly.dir/src/folly/experimental/io/FsUtil.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/io/FsUtil.cpp -o CMakeFiles/folly.dir/src/folly/experimental/io/FsUtil.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/io/FsUtil.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/io/FsUtil.cpp.o.requires
@@ -1181,17 +1204,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/io/FsUtil.cpp.o.pr
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/io/HugePages.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/io/HugePages.cpp.o: third-party/folly/src/folly/experimental/io/HugePages.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_50)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_51)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/io/HugePages.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/experimental/io/HugePages.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/io/HugePages.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/experimental/io/HugePages.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/io/HugePages.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/io/HugePages.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/experimental/io/HugePages.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/io/HugePages.cpp > CMakeFiles/folly.dir/src/folly/experimental/io/HugePages.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/io/HugePages.cpp > CMakeFiles/folly.dir/src/folly/experimental/io/HugePages.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/io/HugePages.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/experimental/io/HugePages.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/io/HugePages.cpp -o CMakeFiles/folly.dir/src/folly/experimental/io/HugePages.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/io/HugePages.cpp -o CMakeFiles/folly.dir/src/folly/experimental/io/HugePages.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/io/HugePages.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/io/HugePages.cpp.o.requires
@@ -1204,17 +1227,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/io/HugePages.cpp.o
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Dwarf.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Dwarf.cpp.o: third-party/folly/src/folly/experimental/symbolizer/Dwarf.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_51)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_52)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Dwarf.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Dwarf.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/symbolizer/Dwarf.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Dwarf.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/symbolizer/Dwarf.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Dwarf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Dwarf.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/symbolizer/Dwarf.cpp > CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Dwarf.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/symbolizer/Dwarf.cpp > CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Dwarf.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Dwarf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Dwarf.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/symbolizer/Dwarf.cpp -o CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Dwarf.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/symbolizer/Dwarf.cpp -o CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Dwarf.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Dwarf.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Dwarf.cpp.o.requires
@@ -1227,17 +1250,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Dwarf.c
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Elf.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Elf.cpp.o: third-party/folly/src/folly/experimental/symbolizer/Elf.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_52)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_53)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Elf.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Elf.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/symbolizer/Elf.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Elf.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/symbolizer/Elf.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Elf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Elf.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/symbolizer/Elf.cpp > CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Elf.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/symbolizer/Elf.cpp > CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Elf.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Elf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Elf.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/symbolizer/Elf.cpp -o CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Elf.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/symbolizer/Elf.cpp -o CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Elf.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Elf.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Elf.cpp.o.requires
@@ -1250,17 +1273,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Elf.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/LineReader.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/LineReader.cpp.o: third-party/folly/src/folly/experimental/symbolizer/LineReader.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_53)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_54)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/LineReader.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/experimental/symbolizer/LineReader.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/symbolizer/LineReader.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/experimental/symbolizer/LineReader.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/symbolizer/LineReader.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/LineReader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/experimental/symbolizer/LineReader.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/symbolizer/LineReader.cpp > CMakeFiles/folly.dir/src/folly/experimental/symbolizer/LineReader.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/symbolizer/LineReader.cpp > CMakeFiles/folly.dir/src/folly/experimental/symbolizer/LineReader.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/LineReader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/experimental/symbolizer/LineReader.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/symbolizer/LineReader.cpp -o CMakeFiles/folly.dir/src/folly/experimental/symbolizer/LineReader.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/symbolizer/LineReader.cpp -o CMakeFiles/folly.dir/src/folly/experimental/symbolizer/LineReader.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/LineReader.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/LineReader.cpp.o.requires
@@ -1273,17 +1296,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/LineRea
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Symbolizer.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Symbolizer.cpp.o: third-party/folly/src/folly/experimental/symbolizer/Symbolizer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_54)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_55)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Symbolizer.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Symbolizer.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/symbolizer/Symbolizer.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Symbolizer.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/symbolizer/Symbolizer.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Symbolizer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Symbolizer.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/symbolizer/Symbolizer.cpp > CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Symbolizer.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/symbolizer/Symbolizer.cpp > CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Symbolizer.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Symbolizer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Symbolizer.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/symbolizer/Symbolizer.cpp -o CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Symbolizer.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/experimental/symbolizer/Symbolizer.cpp -o CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Symbolizer.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Symbolizer.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Symbolizer.cpp.o.requires
@@ -1296,17 +1319,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Symboli
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/Barrier.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/Barrier.cpp.o: third-party/folly/src/folly/futures/Barrier.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_55)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_56)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/futures/Barrier.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/futures/Barrier.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/futures/Barrier.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/futures/Barrier.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/futures/Barrier.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/Barrier.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/futures/Barrier.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/futures/Barrier.cpp > CMakeFiles/folly.dir/src/folly/futures/Barrier.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/futures/Barrier.cpp > CMakeFiles/folly.dir/src/folly/futures/Barrier.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/Barrier.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/futures/Barrier.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/futures/Barrier.cpp -o CMakeFiles/folly.dir/src/folly/futures/Barrier.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/futures/Barrier.cpp -o CMakeFiles/folly.dir/src/folly/futures/Barrier.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/Barrier.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/futures/Barrier.cpp.o.requires
@@ -1319,17 +1342,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/futures/Barrier.cpp.o.provides.
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/Future.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/Future.cpp.o: third-party/folly/src/folly/futures/Future.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_56)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_57)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/futures/Future.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/futures/Future.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/futures/Future.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/futures/Future.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/futures/Future.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/Future.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/futures/Future.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/futures/Future.cpp > CMakeFiles/folly.dir/src/folly/futures/Future.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/futures/Future.cpp > CMakeFiles/folly.dir/src/folly/futures/Future.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/Future.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/futures/Future.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/futures/Future.cpp -o CMakeFiles/folly.dir/src/folly/futures/Future.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/futures/Future.cpp -o CMakeFiles/folly.dir/src/folly/futures/Future.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/Future.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/futures/Future.cpp.o.requires
@@ -1342,17 +1365,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/futures/Future.cpp.o.provides.b
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/InlineExecutor.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/InlineExecutor.cpp.o: third-party/folly/src/folly/futures/InlineExecutor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_57)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_58)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/futures/InlineExecutor.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/futures/InlineExecutor.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/futures/InlineExecutor.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/futures/InlineExecutor.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/futures/InlineExecutor.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/InlineExecutor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/futures/InlineExecutor.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/futures/InlineExecutor.cpp > CMakeFiles/folly.dir/src/folly/futures/InlineExecutor.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/futures/InlineExecutor.cpp > CMakeFiles/folly.dir/src/folly/futures/InlineExecutor.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/InlineExecutor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/futures/InlineExecutor.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/futures/InlineExecutor.cpp -o CMakeFiles/folly.dir/src/folly/futures/InlineExecutor.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/futures/InlineExecutor.cpp -o CMakeFiles/folly.dir/src/folly/futures/InlineExecutor.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/InlineExecutor.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/futures/InlineExecutor.cpp.o.requires
@@ -1365,17 +1388,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/futures/InlineExecutor.cpp.o.pr
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ManualExecutor.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ManualExecutor.cpp.o: third-party/folly/src/folly/futures/ManualExecutor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_58)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_59)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ManualExecutor.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/futures/ManualExecutor.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/futures/ManualExecutor.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/futures/ManualExecutor.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/futures/ManualExecutor.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ManualExecutor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/futures/ManualExecutor.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/futures/ManualExecutor.cpp > CMakeFiles/folly.dir/src/folly/futures/ManualExecutor.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/futures/ManualExecutor.cpp > CMakeFiles/folly.dir/src/folly/futures/ManualExecutor.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ManualExecutor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/futures/ManualExecutor.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/futures/ManualExecutor.cpp -o CMakeFiles/folly.dir/src/folly/futures/ManualExecutor.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/futures/ManualExecutor.cpp -o CMakeFiles/folly.dir/src/folly/futures/ManualExecutor.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ManualExecutor.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ManualExecutor.cpp.o.requires
@@ -1388,17 +1411,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ManualExecutor.cpp.o.pr
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/QueuedImmediateExecutor.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/QueuedImmediateExecutor.cpp.o: third-party/folly/src/folly/futures/QueuedImmediateExecutor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_59)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_60)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/futures/QueuedImmediateExecutor.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/futures/QueuedImmediateExecutor.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/futures/QueuedImmediateExecutor.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/futures/QueuedImmediateExecutor.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/futures/QueuedImmediateExecutor.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/QueuedImmediateExecutor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/futures/QueuedImmediateExecutor.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/futures/QueuedImmediateExecutor.cpp > CMakeFiles/folly.dir/src/folly/futures/QueuedImmediateExecutor.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/futures/QueuedImmediateExecutor.cpp > CMakeFiles/folly.dir/src/folly/futures/QueuedImmediateExecutor.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/QueuedImmediateExecutor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/futures/QueuedImmediateExecutor.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/futures/QueuedImmediateExecutor.cpp -o CMakeFiles/folly.dir/src/folly/futures/QueuedImmediateExecutor.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/futures/QueuedImmediateExecutor.cpp -o CMakeFiles/folly.dir/src/folly/futures/QueuedImmediateExecutor.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/QueuedImmediateExecutor.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/futures/QueuedImmediateExecutor.cpp.o.requires
@@ -1411,17 +1434,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/futures/QueuedImmediateExecutor
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ThreadWheelTimekeeper.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ThreadWheelTimekeeper.cpp.o: third-party/folly/src/folly/futures/ThreadWheelTimekeeper.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_60)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_61)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ThreadWheelTimekeeper.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/futures/ThreadWheelTimekeeper.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/futures/ThreadWheelTimekeeper.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/futures/ThreadWheelTimekeeper.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/futures/ThreadWheelTimekeeper.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ThreadWheelTimekeeper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/futures/ThreadWheelTimekeeper.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/futures/ThreadWheelTimekeeper.cpp > CMakeFiles/folly.dir/src/folly/futures/ThreadWheelTimekeeper.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/futures/ThreadWheelTimekeeper.cpp > CMakeFiles/folly.dir/src/folly/futures/ThreadWheelTimekeeper.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ThreadWheelTimekeeper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/futures/ThreadWheelTimekeeper.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/futures/ThreadWheelTimekeeper.cpp -o CMakeFiles/folly.dir/src/folly/futures/ThreadWheelTimekeeper.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/futures/ThreadWheelTimekeeper.cpp -o CMakeFiles/folly.dir/src/folly/futures/ThreadWheelTimekeeper.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ThreadWheelTimekeeper.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ThreadWheelTimekeeper.cpp.o.requires
@@ -1434,17 +1457,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ThreadWheelTimekeeper.c
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ThreadedExecutor.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ThreadedExecutor.cpp.o: third-party/folly/src/folly/futures/ThreadedExecutor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_61)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_62)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ThreadedExecutor.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/futures/ThreadedExecutor.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/futures/ThreadedExecutor.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/futures/ThreadedExecutor.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/futures/ThreadedExecutor.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ThreadedExecutor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/futures/ThreadedExecutor.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/futures/ThreadedExecutor.cpp > CMakeFiles/folly.dir/src/folly/futures/ThreadedExecutor.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/futures/ThreadedExecutor.cpp > CMakeFiles/folly.dir/src/folly/futures/ThreadedExecutor.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ThreadedExecutor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/futures/ThreadedExecutor.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/futures/ThreadedExecutor.cpp -o CMakeFiles/folly.dir/src/folly/futures/ThreadedExecutor.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/futures/ThreadedExecutor.cpp -o CMakeFiles/folly.dir/src/folly/futures/ThreadedExecutor.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ThreadedExecutor.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ThreadedExecutor.cpp.o.requires
@@ -1457,17 +1480,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ThreadedExecutor.cpp.o.
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/IOBuf.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/IOBuf.cpp.o: third-party/folly/src/folly/io/IOBuf.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_62)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_63)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/io/IOBuf.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/io/IOBuf.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/IOBuf.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/io/IOBuf.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/IOBuf.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/IOBuf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/io/IOBuf.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/IOBuf.cpp > CMakeFiles/folly.dir/src/folly/io/IOBuf.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/IOBuf.cpp > CMakeFiles/folly.dir/src/folly/io/IOBuf.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/IOBuf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/io/IOBuf.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/IOBuf.cpp -o CMakeFiles/folly.dir/src/folly/io/IOBuf.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/IOBuf.cpp -o CMakeFiles/folly.dir/src/folly/io/IOBuf.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/IOBuf.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/io/IOBuf.cpp.o.requires
@@ -1480,17 +1503,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/io/IOBuf.cpp.o.provides.build: 
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/IOBufQueue.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/IOBufQueue.cpp.o: third-party/folly/src/folly/io/IOBufQueue.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_63)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_64)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/io/IOBufQueue.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/io/IOBufQueue.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/IOBufQueue.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/io/IOBufQueue.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/IOBufQueue.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/IOBufQueue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/io/IOBufQueue.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/IOBufQueue.cpp > CMakeFiles/folly.dir/src/folly/io/IOBufQueue.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/IOBufQueue.cpp > CMakeFiles/folly.dir/src/folly/io/IOBufQueue.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/IOBufQueue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/io/IOBufQueue.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/IOBufQueue.cpp -o CMakeFiles/folly.dir/src/folly/io/IOBufQueue.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/IOBufQueue.cpp -o CMakeFiles/folly.dir/src/folly/io/IOBufQueue.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/IOBufQueue.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/io/IOBufQueue.cpp.o.requires
@@ -1503,17 +1526,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/io/IOBufQueue.cpp.o.provides.bu
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/RecordIO.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/RecordIO.cpp.o: third-party/folly/src/folly/io/RecordIO.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_64)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_65)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/io/RecordIO.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/io/RecordIO.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/RecordIO.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/io/RecordIO.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/RecordIO.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/RecordIO.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/io/RecordIO.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/RecordIO.cpp > CMakeFiles/folly.dir/src/folly/io/RecordIO.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/RecordIO.cpp > CMakeFiles/folly.dir/src/folly/io/RecordIO.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/RecordIO.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/io/RecordIO.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/RecordIO.cpp -o CMakeFiles/folly.dir/src/folly/io/RecordIO.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/RecordIO.cpp -o CMakeFiles/folly.dir/src/folly/io/RecordIO.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/RecordIO.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/io/RecordIO.cpp.o.requires
@@ -1526,17 +1549,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/io/RecordIO.cpp.o.provides.buil
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/ShutdownSocketSet.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/ShutdownSocketSet.cpp.o: third-party/folly/src/folly/io/ShutdownSocketSet.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_65)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_66)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/io/ShutdownSocketSet.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/io/ShutdownSocketSet.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/ShutdownSocketSet.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/io/ShutdownSocketSet.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/ShutdownSocketSet.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/ShutdownSocketSet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/io/ShutdownSocketSet.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/ShutdownSocketSet.cpp > CMakeFiles/folly.dir/src/folly/io/ShutdownSocketSet.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/ShutdownSocketSet.cpp > CMakeFiles/folly.dir/src/folly/io/ShutdownSocketSet.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/ShutdownSocketSet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/io/ShutdownSocketSet.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/ShutdownSocketSet.cpp -o CMakeFiles/folly.dir/src/folly/io/ShutdownSocketSet.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/ShutdownSocketSet.cpp -o CMakeFiles/folly.dir/src/folly/io/ShutdownSocketSet.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/ShutdownSocketSet.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/io/ShutdownSocketSet.cpp.o.requires
@@ -1549,17 +1572,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/io/ShutdownSocketSet.cpp.o.prov
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncPipe.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncPipe.cpp.o: third-party/folly/src/folly/io/async/AsyncPipe.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_66)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_67)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncPipe.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/io/async/AsyncPipe.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/AsyncPipe.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/io/async/AsyncPipe.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/AsyncPipe.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncPipe.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/io/async/AsyncPipe.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/AsyncPipe.cpp > CMakeFiles/folly.dir/src/folly/io/async/AsyncPipe.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/AsyncPipe.cpp > CMakeFiles/folly.dir/src/folly/io/async/AsyncPipe.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncPipe.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/io/async/AsyncPipe.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/AsyncPipe.cpp -o CMakeFiles/folly.dir/src/folly/io/async/AsyncPipe.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/AsyncPipe.cpp -o CMakeFiles/folly.dir/src/folly/io/async/AsyncPipe.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncPipe.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncPipe.cpp.o.requires
@@ -1572,17 +1595,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncPipe.cpp.o.provid
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSSLSocket.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSSLSocket.cpp.o: third-party/folly/src/folly/io/async/AsyncSSLSocket.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_67)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_68)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSSLSocket.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/io/async/AsyncSSLSocket.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/AsyncSSLSocket.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/io/async/AsyncSSLSocket.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/AsyncSSLSocket.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSSLSocket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/io/async/AsyncSSLSocket.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/AsyncSSLSocket.cpp > CMakeFiles/folly.dir/src/folly/io/async/AsyncSSLSocket.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/AsyncSSLSocket.cpp > CMakeFiles/folly.dir/src/folly/io/async/AsyncSSLSocket.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSSLSocket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/io/async/AsyncSSLSocket.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/AsyncSSLSocket.cpp -o CMakeFiles/folly.dir/src/folly/io/async/AsyncSSLSocket.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/AsyncSSLSocket.cpp -o CMakeFiles/folly.dir/src/folly/io/async/AsyncSSLSocket.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSSLSocket.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSSLSocket.cpp.o.requires
@@ -1595,17 +1618,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSSLSocket.cpp.o.p
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncServerSocket.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncServerSocket.cpp.o: third-party/folly/src/folly/io/async/AsyncServerSocket.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_68)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_69)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncServerSocket.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/io/async/AsyncServerSocket.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/AsyncServerSocket.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/io/async/AsyncServerSocket.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/AsyncServerSocket.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncServerSocket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/io/async/AsyncServerSocket.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/AsyncServerSocket.cpp > CMakeFiles/folly.dir/src/folly/io/async/AsyncServerSocket.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/AsyncServerSocket.cpp > CMakeFiles/folly.dir/src/folly/io/async/AsyncServerSocket.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncServerSocket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/io/async/AsyncServerSocket.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/AsyncServerSocket.cpp -o CMakeFiles/folly.dir/src/folly/io/async/AsyncServerSocket.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/AsyncServerSocket.cpp -o CMakeFiles/folly.dir/src/folly/io/async/AsyncServerSocket.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncServerSocket.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncServerSocket.cpp.o.requires
@@ -1618,17 +1641,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncServerSocket.cpp.
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSignalHandler.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSignalHandler.cpp.o: third-party/folly/src/folly/io/async/AsyncSignalHandler.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_69)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_70)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSignalHandler.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/io/async/AsyncSignalHandler.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/AsyncSignalHandler.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/io/async/AsyncSignalHandler.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/AsyncSignalHandler.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSignalHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/io/async/AsyncSignalHandler.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/AsyncSignalHandler.cpp > CMakeFiles/folly.dir/src/folly/io/async/AsyncSignalHandler.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/AsyncSignalHandler.cpp > CMakeFiles/folly.dir/src/folly/io/async/AsyncSignalHandler.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSignalHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/io/async/AsyncSignalHandler.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/AsyncSignalHandler.cpp -o CMakeFiles/folly.dir/src/folly/io/async/AsyncSignalHandler.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/AsyncSignalHandler.cpp -o CMakeFiles/folly.dir/src/folly/io/async/AsyncSignalHandler.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSignalHandler.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSignalHandler.cpp.o.requires
@@ -1641,17 +1664,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSignalHandler.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSocket.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSocket.cpp.o: third-party/folly/src/folly/io/async/AsyncSocket.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_70)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_71)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSocket.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/io/async/AsyncSocket.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/AsyncSocket.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/io/async/AsyncSocket.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/AsyncSocket.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSocket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/io/async/AsyncSocket.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/AsyncSocket.cpp > CMakeFiles/folly.dir/src/folly/io/async/AsyncSocket.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/AsyncSocket.cpp > CMakeFiles/folly.dir/src/folly/io/async/AsyncSocket.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSocket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/io/async/AsyncSocket.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/AsyncSocket.cpp -o CMakeFiles/folly.dir/src/folly/io/async/AsyncSocket.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/AsyncSocket.cpp -o CMakeFiles/folly.dir/src/folly/io/async/AsyncSocket.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSocket.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSocket.cpp.o.requires
@@ -1664,17 +1687,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSocket.cpp.o.prov
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncTimeout.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncTimeout.cpp.o: third-party/folly/src/folly/io/async/AsyncTimeout.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_71)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_72)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncTimeout.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/io/async/AsyncTimeout.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/AsyncTimeout.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/io/async/AsyncTimeout.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/AsyncTimeout.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncTimeout.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/io/async/AsyncTimeout.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/AsyncTimeout.cpp > CMakeFiles/folly.dir/src/folly/io/async/AsyncTimeout.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/AsyncTimeout.cpp > CMakeFiles/folly.dir/src/folly/io/async/AsyncTimeout.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncTimeout.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/io/async/AsyncTimeout.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/AsyncTimeout.cpp -o CMakeFiles/folly.dir/src/folly/io/async/AsyncTimeout.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/AsyncTimeout.cpp -o CMakeFiles/folly.dir/src/folly/io/async/AsyncTimeout.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncTimeout.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncTimeout.cpp.o.requires
@@ -1687,17 +1710,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncTimeout.cpp.o.pro
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncUDPSocket.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncUDPSocket.cpp.o: third-party/folly/src/folly/io/async/AsyncUDPSocket.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_72)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_73)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncUDPSocket.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/io/async/AsyncUDPSocket.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/AsyncUDPSocket.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/io/async/AsyncUDPSocket.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/AsyncUDPSocket.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncUDPSocket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/io/async/AsyncUDPSocket.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/AsyncUDPSocket.cpp > CMakeFiles/folly.dir/src/folly/io/async/AsyncUDPSocket.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/AsyncUDPSocket.cpp > CMakeFiles/folly.dir/src/folly/io/async/AsyncUDPSocket.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncUDPSocket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/io/async/AsyncUDPSocket.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/AsyncUDPSocket.cpp -o CMakeFiles/folly.dir/src/folly/io/async/AsyncUDPSocket.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/AsyncUDPSocket.cpp -o CMakeFiles/folly.dir/src/folly/io/async/AsyncUDPSocket.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncUDPSocket.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncUDPSocket.cpp.o.requires
@@ -1710,17 +1733,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncUDPSocket.cpp.o.p
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBase.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBase.cpp.o: third-party/folly/src/folly/io/async/EventBase.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_73)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_74)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBase.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/io/async/EventBase.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/EventBase.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/io/async/EventBase.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/EventBase.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/io/async/EventBase.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/EventBase.cpp > CMakeFiles/folly.dir/src/folly/io/async/EventBase.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/EventBase.cpp > CMakeFiles/folly.dir/src/folly/io/async/EventBase.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/io/async/EventBase.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/EventBase.cpp -o CMakeFiles/folly.dir/src/folly/io/async/EventBase.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/EventBase.cpp -o CMakeFiles/folly.dir/src/folly/io/async/EventBase.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBase.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBase.cpp.o.requires
@@ -1733,17 +1756,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBase.cpp.o.provid
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseLocal.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseLocal.cpp.o: third-party/folly/src/folly/io/async/EventBaseLocal.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_74)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_75)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseLocal.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/io/async/EventBaseLocal.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/EventBaseLocal.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/io/async/EventBaseLocal.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/EventBaseLocal.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseLocal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/io/async/EventBaseLocal.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/EventBaseLocal.cpp > CMakeFiles/folly.dir/src/folly/io/async/EventBaseLocal.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/EventBaseLocal.cpp > CMakeFiles/folly.dir/src/folly/io/async/EventBaseLocal.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseLocal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/io/async/EventBaseLocal.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/EventBaseLocal.cpp -o CMakeFiles/folly.dir/src/folly/io/async/EventBaseLocal.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/EventBaseLocal.cpp -o CMakeFiles/folly.dir/src/folly/io/async/EventBaseLocal.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseLocal.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseLocal.cpp.o.requires
@@ -1756,17 +1779,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseLocal.cpp.o.p
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseManager.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseManager.cpp.o: third-party/folly/src/folly/io/async/EventBaseManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_75)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_76)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseManager.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/io/async/EventBaseManager.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/EventBaseManager.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/io/async/EventBaseManager.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/EventBaseManager.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/io/async/EventBaseManager.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/EventBaseManager.cpp > CMakeFiles/folly.dir/src/folly/io/async/EventBaseManager.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/EventBaseManager.cpp > CMakeFiles/folly.dir/src/folly/io/async/EventBaseManager.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/io/async/EventBaseManager.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/EventBaseManager.cpp -o CMakeFiles/folly.dir/src/folly/io/async/EventBaseManager.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/EventBaseManager.cpp -o CMakeFiles/folly.dir/src/folly/io/async/EventBaseManager.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseManager.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseManager.cpp.o.requires
@@ -1779,17 +1802,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseManager.cpp.o
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventHandler.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventHandler.cpp.o: third-party/folly/src/folly/io/async/EventHandler.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_76)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_77)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventHandler.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/io/async/EventHandler.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/EventHandler.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/io/async/EventHandler.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/EventHandler.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/io/async/EventHandler.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/EventHandler.cpp > CMakeFiles/folly.dir/src/folly/io/async/EventHandler.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/EventHandler.cpp > CMakeFiles/folly.dir/src/folly/io/async/EventHandler.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/io/async/EventHandler.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/EventHandler.cpp -o CMakeFiles/folly.dir/src/folly/io/async/EventHandler.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/EventHandler.cpp -o CMakeFiles/folly.dir/src/folly/io/async/EventHandler.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventHandler.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventHandler.cpp.o.requires
@@ -1802,17 +1825,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventHandler.cpp.o.pro
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/HHWheelTimer.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/HHWheelTimer.cpp.o: third-party/folly/src/folly/io/async/HHWheelTimer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_77)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_78)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/HHWheelTimer.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/io/async/HHWheelTimer.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/HHWheelTimer.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/io/async/HHWheelTimer.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/HHWheelTimer.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/HHWheelTimer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/io/async/HHWheelTimer.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/HHWheelTimer.cpp > CMakeFiles/folly.dir/src/folly/io/async/HHWheelTimer.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/HHWheelTimer.cpp > CMakeFiles/folly.dir/src/folly/io/async/HHWheelTimer.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/HHWheelTimer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/io/async/HHWheelTimer.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/HHWheelTimer.cpp -o CMakeFiles/folly.dir/src/folly/io/async/HHWheelTimer.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/HHWheelTimer.cpp -o CMakeFiles/folly.dir/src/folly/io/async/HHWheelTimer.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/HHWheelTimer.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/HHWheelTimer.cpp.o.requires
@@ -1825,17 +1848,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/HHWheelTimer.cpp.o.pro
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/SSLContext.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/SSLContext.cpp.o: third-party/folly/src/folly/io/async/SSLContext.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_78)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_79)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/SSLContext.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/io/async/SSLContext.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/SSLContext.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/io/async/SSLContext.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/SSLContext.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/SSLContext.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/io/async/SSLContext.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/SSLContext.cpp > CMakeFiles/folly.dir/src/folly/io/async/SSLContext.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/SSLContext.cpp > CMakeFiles/folly.dir/src/folly/io/async/SSLContext.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/SSLContext.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/io/async/SSLContext.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/SSLContext.cpp -o CMakeFiles/folly.dir/src/folly/io/async/SSLContext.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/SSLContext.cpp -o CMakeFiles/folly.dir/src/folly/io/async/SSLContext.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/SSLContext.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/SSLContext.cpp.o.requires
@@ -1848,17 +1871,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/SSLContext.cpp.o.provi
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/ScopedEventBaseThread.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/ScopedEventBaseThread.cpp.o: third-party/folly/src/folly/io/async/ScopedEventBaseThread.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_79)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_80)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/ScopedEventBaseThread.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/io/async/ScopedEventBaseThread.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/ScopedEventBaseThread.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/io/async/ScopedEventBaseThread.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/ScopedEventBaseThread.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/ScopedEventBaseThread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/io/async/ScopedEventBaseThread.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/ScopedEventBaseThread.cpp > CMakeFiles/folly.dir/src/folly/io/async/ScopedEventBaseThread.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/ScopedEventBaseThread.cpp > CMakeFiles/folly.dir/src/folly/io/async/ScopedEventBaseThread.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/ScopedEventBaseThread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/io/async/ScopedEventBaseThread.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/ScopedEventBaseThread.cpp -o CMakeFiles/folly.dir/src/folly/io/async/ScopedEventBaseThread.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/io/async/ScopedEventBaseThread.cpp -o CMakeFiles/folly.dir/src/folly/io/async/ScopedEventBaseThread.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/ScopedEventBaseThread.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/ScopedEventBaseThread.cpp.o.requires
@@ -1871,17 +1894,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/ScopedEventBaseThread.
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/stats/Instantiations.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/src/folly/stats/Instantiations.cpp.o: third-party/folly/src/folly/stats/Instantiations.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_80)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_81)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/src/folly/stats/Instantiations.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/stats/Instantiations.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/src/folly/stats/Instantiations.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/src/folly/stats/Instantiations.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/src/folly/stats/Instantiations.cpp
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/stats/Instantiations.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/src/folly/stats/Instantiations.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/src/folly/stats/Instantiations.cpp > CMakeFiles/folly.dir/src/folly/stats/Instantiations.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/src/folly/stats/Instantiations.cpp > CMakeFiles/folly.dir/src/folly/stats/Instantiations.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/stats/Instantiations.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/src/folly/stats/Instantiations.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/src/folly/stats/Instantiations.cpp -o CMakeFiles/folly.dir/src/folly/stats/Instantiations.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/src/folly/stats/Instantiations.cpp -o CMakeFiles/folly.dir/src/folly/stats/Instantiations.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/src/folly/stats/Instantiations.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/src/folly/stats/Instantiations.cpp.o.requires
@@ -1894,17 +1917,17 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/stats/Instantiations.cpp.o.prov
 
 third-party/folly/CMakeFiles/folly.dir/gen/EscapeTables.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/gen/EscapeTables.cpp.o: third-party/folly/gen/EscapeTables.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_81)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_82)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/gen/EscapeTables.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/gen/EscapeTables.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/gen/EscapeTables.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/gen/EscapeTables.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/gen/EscapeTables.cpp
 
 third-party/folly/CMakeFiles/folly.dir/gen/EscapeTables.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/gen/EscapeTables.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/gen/EscapeTables.cpp > CMakeFiles/folly.dir/gen/EscapeTables.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/gen/EscapeTables.cpp > CMakeFiles/folly.dir/gen/EscapeTables.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/gen/EscapeTables.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/gen/EscapeTables.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/gen/EscapeTables.cpp -o CMakeFiles/folly.dir/gen/EscapeTables.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/gen/EscapeTables.cpp -o CMakeFiles/folly.dir/gen/EscapeTables.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/gen/EscapeTables.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/gen/EscapeTables.cpp.o.requires
@@ -1917,17 +1940,17 @@ third-party/folly/CMakeFiles/folly.dir/gen/EscapeTables.cpp.o.provides.build: th
 
 third-party/folly/CMakeFiles/folly.dir/gen/FingerprintTables.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/gen/FingerprintTables.cpp.o: third-party/folly/gen/FingerprintTables.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_82)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_83)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/gen/FingerprintTables.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/gen/FingerprintTables.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/gen/FingerprintTables.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/gen/FingerprintTables.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/gen/FingerprintTables.cpp
 
 third-party/folly/CMakeFiles/folly.dir/gen/FingerprintTables.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/gen/FingerprintTables.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/gen/FingerprintTables.cpp > CMakeFiles/folly.dir/gen/FingerprintTables.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/gen/FingerprintTables.cpp > CMakeFiles/folly.dir/gen/FingerprintTables.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/gen/FingerprintTables.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/gen/FingerprintTables.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/gen/FingerprintTables.cpp -o CMakeFiles/folly.dir/gen/FingerprintTables.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/gen/FingerprintTables.cpp -o CMakeFiles/folly.dir/gen/FingerprintTables.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/gen/FingerprintTables.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/gen/FingerprintTables.cpp.o.requires
@@ -1940,17 +1963,17 @@ third-party/folly/CMakeFiles/folly.dir/gen/FingerprintTables.cpp.o.provides.buil
 
 third-party/folly/CMakeFiles/folly.dir/gen/FormatTables.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/gen/FormatTables.cpp.o: third-party/folly/gen/FormatTables.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_83)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_84)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/gen/FormatTables.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/gen/FormatTables.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/gen/FormatTables.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/gen/FormatTables.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/gen/FormatTables.cpp
 
 third-party/folly/CMakeFiles/folly.dir/gen/FormatTables.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/gen/FormatTables.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/gen/FormatTables.cpp > CMakeFiles/folly.dir/gen/FormatTables.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/gen/FormatTables.cpp > CMakeFiles/folly.dir/gen/FormatTables.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/gen/FormatTables.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/gen/FormatTables.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/gen/FormatTables.cpp -o CMakeFiles/folly.dir/gen/FormatTables.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/gen/FormatTables.cpp -o CMakeFiles/folly.dir/gen/FormatTables.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/gen/FormatTables.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/gen/FormatTables.cpp.o.requires
@@ -1963,17 +1986,17 @@ third-party/folly/CMakeFiles/folly.dir/gen/FormatTables.cpp.o.provides.build: th
 
 third-party/folly/CMakeFiles/folly.dir/gen/GroupVarintTables.cpp.o: third-party/folly/CMakeFiles/folly.dir/flags.make
 third-party/folly/CMakeFiles/folly.dir/gen/GroupVarintTables.cpp.o: third-party/folly/gen/GroupVarintTables.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_84)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_85)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/folly/CMakeFiles/folly.dir/gen/GroupVarintTables.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/gen/GroupVarintTables.cpp.o -c /tmp/hhvm-3.11.1/third-party/folly/gen/GroupVarintTables.cpp
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/folly.dir/gen/GroupVarintTables.cpp.o -c /tmp/hhvm-3.12.0/third-party/folly/gen/GroupVarintTables.cpp
 
 third-party/folly/CMakeFiles/folly.dir/gen/GroupVarintTables.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/folly.dir/gen/GroupVarintTables.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/folly/gen/GroupVarintTables.cpp > CMakeFiles/folly.dir/gen/GroupVarintTables.cpp.i
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/folly/gen/GroupVarintTables.cpp > CMakeFiles/folly.dir/gen/GroupVarintTables.cpp.i
 
 third-party/folly/CMakeFiles/folly.dir/gen/GroupVarintTables.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/folly.dir/gen/GroupVarintTables.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/folly && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/folly/gen/GroupVarintTables.cpp -o CMakeFiles/folly.dir/gen/GroupVarintTables.cpp.s
+	cd /tmp/hhvm-3.12.0/third-party/folly && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/folly/gen/GroupVarintTables.cpp -o CMakeFiles/folly.dir/gen/GroupVarintTables.cpp.s
 
 third-party/folly/CMakeFiles/folly.dir/gen/GroupVarintTables.cpp.o.requires:
 .PHONY : third-party/folly/CMakeFiles/folly.dir/gen/GroupVarintTables.cpp.o.requires
@@ -2024,6 +2047,7 @@ folly_OBJECTS = \
 "CMakeFiles/folly.dir/src/folly/detail/MemoryIdler.cpp.o" \
 "CMakeFiles/folly.dir/src/folly/detail/RangeCommon.cpp.o" \
 "CMakeFiles/folly.dir/src/folly/detail/RangeSse42.cpp.o" \
+"CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o" \
 "CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.cpp.o" \
 "CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.o" \
 "CMakeFiles/folly.dir/src/folly/experimental/NestedCommandLineApp.cpp.o" \
@@ -2112,6 +2136,7 @@ third-party/folly/libfolly.a: third-party/folly/CMakeFiles/folly.dir/src/folly/d
 third-party/folly/libfolly.a: third-party/folly/CMakeFiles/folly.dir/src/folly/detail/MemoryIdler.cpp.o
 third-party/folly/libfolly.a: third-party/folly/CMakeFiles/folly.dir/src/folly/detail/RangeCommon.cpp.o
 third-party/folly/libfolly.a: third-party/folly/CMakeFiles/folly.dir/src/folly/detail/RangeSse42.cpp.o
+third-party/folly/libfolly.a: third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o
 third-party/folly/libfolly.a: third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.cpp.o
 third-party/folly/libfolly.a: third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.o
 third-party/folly/libfolly.a: third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/NestedCommandLineApp.cpp.o
@@ -2161,8 +2186,8 @@ third-party/folly/libfolly.a: third-party/folly/CMakeFiles/folly.dir/gen/GroupVa
 third-party/folly/libfolly.a: third-party/folly/CMakeFiles/folly.dir/build.make
 third-party/folly/libfolly.a: third-party/folly/CMakeFiles/folly.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libfolly.a"
-	cd /tmp/hhvm-3.11.1/third-party/folly && $(CMAKE_COMMAND) -P CMakeFiles/folly.dir/cmake_clean_target.cmake
-	cd /tmp/hhvm-3.11.1/third-party/folly && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/folly.dir/link.txt --verbose=$(VERBOSE)
+	cd /tmp/hhvm-3.12.0/third-party/folly && $(CMAKE_COMMAND) -P CMakeFiles/folly.dir/cmake_clean_target.cmake
+	cd /tmp/hhvm-3.12.0/third-party/folly && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/folly.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 third-party/folly/CMakeFiles/folly.dir/build: third-party/folly/libfolly.a
@@ -2206,6 +2231,7 @@ third-party/folly/CMakeFiles/folly.dir/requires: third-party/folly/CMakeFiles/fo
 third-party/folly/CMakeFiles/folly.dir/requires: third-party/folly/CMakeFiles/folly.dir/src/folly/detail/MemoryIdler.cpp.o.requires
 third-party/folly/CMakeFiles/folly.dir/requires: third-party/folly/CMakeFiles/folly.dir/src/folly/detail/RangeCommon.cpp.o.requires
 third-party/folly/CMakeFiles/folly.dir/requires: third-party/folly/CMakeFiles/folly.dir/src/folly/detail/RangeSse42.cpp.o.requires
+third-party/folly/CMakeFiles/folly.dir/requires: third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o.requires
 third-party/folly/CMakeFiles/folly.dir/requires: third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.cpp.o.requires
 third-party/folly/CMakeFiles/folly.dir/requires: third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.o.requires
 third-party/folly/CMakeFiles/folly.dir/requires: third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/NestedCommandLineApp.cpp.o.requires
@@ -2255,10 +2281,10 @@ third-party/folly/CMakeFiles/folly.dir/requires: third-party/folly/CMakeFiles/fo
 .PHONY : third-party/folly/CMakeFiles/folly.dir/requires
 
 third-party/folly/CMakeFiles/folly.dir/clean:
-	cd /tmp/hhvm-3.11.1/third-party/folly && $(CMAKE_COMMAND) -P CMakeFiles/folly.dir/cmake_clean.cmake
+	cd /tmp/hhvm-3.12.0/third-party/folly && $(CMAKE_COMMAND) -P CMakeFiles/folly.dir/cmake_clean.cmake
 .PHONY : third-party/folly/CMakeFiles/folly.dir/clean
 
 third-party/folly/CMakeFiles/folly.dir/depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/third-party/folly /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/third-party/folly /tmp/hhvm-3.11.1/third-party/folly/CMakeFiles/folly.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.12.0 /tmp/hhvm-3.12.0/third-party/folly /tmp/hhvm-3.12.0 /tmp/hhvm-3.12.0/third-party/folly /tmp/hhvm-3.12.0/third-party/folly/CMakeFiles/folly.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : third-party/folly/CMakeFiles/folly.dir/depend
 

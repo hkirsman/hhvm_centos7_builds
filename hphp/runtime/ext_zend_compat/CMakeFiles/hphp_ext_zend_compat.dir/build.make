@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.0
 
 # Include any dependencies generated for this target.
 include hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/depend.make
@@ -54,17 +54,17 @@ include hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.m
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/runtime/ext_zend_compat/php-src/TSRM/TSRM.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/TSRM/TSRM.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/TSRM/TSRM.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/TSRM/TSRM.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/TSRM/TSRM.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/TSRM/TSRM.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/TSRM/TSRM.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o.requires
@@ -77,17 +77,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TS
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/runtime/ext_zend_compat/php-src/TSRM/tsrm_virtual_cwd.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/TSRM/tsrm_virtual_cwd.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/TSRM/tsrm_virtual_cwd.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/TSRM/tsrm_virtual_cwd.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/TSRM/tsrm_virtual_cwd.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/TSRM/tsrm_virtual_cwd.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/TSRM/tsrm_virtual_cwd.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o.requires
@@ -100,17 +100,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/ts
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/runtime/ext_zend_compat/php-src/Zend/zend.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o.requires
@@ -123,17 +123,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/runtime/ext_zend_compat/php-src/Zend/zend_API.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_API.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_API.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_API.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_API.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_API.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_API.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o.requires
@@ -146,17 +146,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/runtime/ext_zend_compat/php-src/Zend/zend_alloc.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_alloc.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_alloc.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_alloc.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_alloc.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_alloc.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_alloc.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o.requires
@@ -169,17 +169,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/runtime/ext_zend_compat/php-src/Zend/zend_compile.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_compile.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_compile.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_compile.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_compile.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_compile.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_compile.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o.requires
@@ -192,17 +192,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/runtime/ext_zend_compat/php-src/Zend/zend_constants.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_constants.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_constants.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_constants.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_constants.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_constants.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_constants.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o.requires
@@ -215,17 +215,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/runtime/ext_zend_compat/php-src/Zend/zend_exceptions.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_exceptions.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_exceptions.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_exceptions.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_exceptions.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_exceptions.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_exceptions.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o.requires
@@ -238,17 +238,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/runtime/ext_zend_compat/php-src/Zend/zend_execute_API.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_execute_API.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_execute_API.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_execute_API.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_execute_API.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_execute_API.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_execute_API.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o.requires
@@ -261,17 +261,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/runtime/ext_zend_compat/php-src/Zend/zend_gc.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_gc.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_gc.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_gc.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_gc.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_gc.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_gc.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o.requires
@@ -284,17 +284,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/runtime/ext_zend_compat/php-src/Zend/zend_globals.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_globals.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_globals.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_globals.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_globals.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_globals.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_globals.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o.requires
@@ -307,17 +307,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/runtime/ext_zend_compat/php-src/Zend/zend_hash.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_hash.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_hash.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_hash.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_hash.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_hash.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_hash.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o.requires
@@ -330,17 +330,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/runtime/ext_zend_compat/php-src/Zend/zend_ini.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_ini.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_ini.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_ini.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_ini.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_ini.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_ini.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o.requires
@@ -353,17 +353,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/runtime/ext_zend_compat/php-src/Zend/zend_interfaces.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_interfaces.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_interfaces.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_interfaces.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_interfaces.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_interfaces.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_interfaces.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o.requires
@@ -376,17 +376,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/runtime/ext_zend_compat/php-src/Zend/zend_list.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_list.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_list.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_list.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_list.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_list.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_list.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o.requires
@@ -399,17 +399,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/runtime/ext_zend_compat/php-src/Zend/zend_object_handlers.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_object_handlers.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_object_handlers.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_object_handlers.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_object_handlers.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_object_handlers.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_object_handlers.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o.requires
@@ -422,17 +422,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/runtime/ext_zend_compat/php-src/Zend/zend_objects.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_objects.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_objects.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_objects.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_objects.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_objects.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_objects.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o.requires
@@ -445,17 +445,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/runtime/ext_zend_compat/php-src/Zend/zend_objects_API.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_objects_API.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_objects_API.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_objects_API.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_objects_API.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_objects_API.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_objects_API.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o.requires
@@ -468,17 +468,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/runtime/ext_zend_compat/php-src/Zend/zend_operators.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_operators.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_operators.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_operators.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_operators.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_operators.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_operators.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o.requires
@@ -491,17 +491,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/runtime/ext_zend_compat/php-src/Zend/zend_qsort.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_qsort.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_qsort.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_qsort.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_qsort.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_qsort.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_qsort.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o.requires
@@ -514,17 +514,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/runtime/ext_zend_compat/php-src/Zend/zend_strtod.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_strtod.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_strtod.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_strtod.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_strtod.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_strtod.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_strtod.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o.requires
@@ -537,17 +537,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/runtime/ext_zend_compat/php-src/Zend/zend_variables.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_variables.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_variables.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_variables.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_variables.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_variables.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_variables.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o.requires
@@ -560,17 +560,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/runtime/ext_zend_compat/php-src/Zend/zend_virtual_cwd.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_virtual_cwd.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_virtual_cwd.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_virtual_cwd.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_virtual_cwd.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/Zend/zend_virtual_cwd.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/Zend/zend_virtual_cwd.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o.requires
@@ -583,17 +583,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/runtime/ext_zend_compat/php-src/ext/pcre/php_pcre.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/ext/pcre/php_pcre.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/ext/pcre/php_pcre.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/ext/pcre/php_pcre.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/ext/pcre/php_pcre.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/ext/pcre/php_pcre.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/ext/pcre/php_pcre.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o.requires
@@ -606,17 +606,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcr
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/runtime/ext_zend_compat/php-src/ext/standard/base64.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/ext/standard/base64.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/ext/standard/base64.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/ext/standard/base64.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/ext/standard/base64.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/ext/standard/base64.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/ext/standard/base64.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o.requires
@@ -629,17 +629,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/runtime/ext_zend_compat/php-src/ext/standard/basic_functions.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/ext/standard/basic_functions.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/ext/standard/basic_functions.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/ext/standard/basic_functions.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/ext/standard/basic_functions.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/ext/standard/basic_functions.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/ext/standard/basic_functions.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o.requires
@@ -652,17 +652,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/runtime/ext_zend_compat/php-src/ext/standard/file.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/ext/standard/file.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/ext/standard/file.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/ext/standard/file.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/ext/standard/file.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/ext/standard/file.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/ext/standard/file.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o.requires
@@ -675,17 +675,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/runtime/ext_zend_compat/php-src/ext/standard/info.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/ext/standard/info.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/ext/standard/info.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/ext/standard/info.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/ext/standard/info.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/ext/standard/info.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/ext/standard/info.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o.requires
@@ -698,17 +698,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/runtime/ext_zend_compat/php-src/ext/standard/lcg.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/ext/standard/lcg.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/ext/standard/lcg.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/ext/standard/lcg.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/ext/standard/lcg.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/ext/standard/lcg.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/ext/standard/lcg.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o.requires
@@ -721,17 +721,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/runtime/ext_zend_compat/php-src/ext/standard/rand.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/ext/standard/rand.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/ext/standard/rand.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/ext/standard/rand.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/ext/standard/rand.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/ext/standard/rand.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/ext/standard/rand.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o.requires
@@ -744,17 +744,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/runtime/ext_zend_compat/php-src/ext/standard/string.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_31)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/ext/standard/string.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/ext/standard/string.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/ext/standard/string.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/ext/standard/string.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/ext/standard/string.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/ext/standard/string.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o.requires
@@ -767,17 +767,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/runtime/ext_zend_compat/php-src/ext/standard/url.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_32)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_32)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/ext/standard/url.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/ext/standard/url.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/ext/standard/url.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/ext/standard/url.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/ext/standard/url.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/ext/standard/url.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o.requires
@@ -790,17 +790,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/runtime/ext_zend_compat/php-src/ext/standard/var.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_33)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_33)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/ext/standard/var.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/ext/standard/var.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/ext/standard/var.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/ext/standard/var.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/ext/standard/var.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/ext/standard/var.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o.requires
@@ -813,17 +813,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/runtime/ext_zend_compat/php-src/main/SAPI.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_34)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_34)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/main/SAPI.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/main/SAPI.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/main/SAPI.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/main/SAPI.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/main/SAPI.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/main/SAPI.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o.requires
@@ -836,17 +836,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SA
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/runtime/ext_zend_compat/php-src/main/fopen_wrappers.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_35)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_35)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/main/fopen_wrappers.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/main/fopen_wrappers.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/main/fopen_wrappers.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/main/fopen_wrappers.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/main/fopen_wrappers.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/main/fopen_wrappers.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o.requires
@@ -859,17 +859,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fo
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/runtime/ext_zend_compat/php-src/main/main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_36)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_36)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/main/main.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/main/main.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/main/main.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/main/main.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/main/main.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/main/main.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o.requires
@@ -882,17 +882,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/ma
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/runtime/ext_zend_compat/php-src/main/network.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_37)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_37)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/main/network.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/main/network.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/main/network.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/main/network.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/main/network.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/main/network.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o.requires
@@ -905,17 +905,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/ne
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/runtime/ext_zend_compat/php-src/main/php_globals.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_38)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_38)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/main/php_globals.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/main/php_globals.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/main/php_globals.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/main/php_globals.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/main/php_globals.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/main/php_globals.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o.requires
@@ -928,17 +928,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/ph
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/runtime/ext_zend_compat/php-src/main/php_sprintf.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_39)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_39)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/main/php_sprintf.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/main/php_sprintf.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/main/php_sprintf.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/main/php_sprintf.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/main/php_sprintf.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/main/php_sprintf.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o.requires
@@ -951,17 +951,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/ph
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/runtime/ext_zend_compat/php-src/main/php_variable.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_40)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_40)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/main/php_variable.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/main/php_variable.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/main/php_variable.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/main/php_variable.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/main/php_variable.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/main/php_variable.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o.requires
@@ -974,17 +974,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/ph
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/runtime/ext_zend_compat/php-src/main/snprintf.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_41)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_41)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/main/snprintf.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/main/snprintf.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/main/snprintf.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/main/snprintf.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/main/snprintf.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/main/snprintf.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o.requires
@@ -997,17 +997,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/sn
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/runtime/ext_zend_compat/php-src/main/spprintf.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_42)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_42)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/main/spprintf.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/main/spprintf.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/main/spprintf.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/main/spprintf.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/main/spprintf.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/main/spprintf.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o.requires
@@ -1020,17 +1020,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/sp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/runtime/ext_zend_compat/php-src/main/streams/plain_wrapper.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_43)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_43)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/main/streams/plain_wrapper.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/main/streams/plain_wrapper.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/main/streams/plain_wrapper.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/main/streams/plain_wrapper.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/main/streams/plain_wrapper.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/main/streams/plain_wrapper.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o.requires
@@ -1043,17 +1043,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/st
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/runtime/ext_zend_compat/php-src/main/streams/streams.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_44)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_44)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/main/streams/streams.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/main/streams/streams.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/main/streams/streams.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/main/streams/streams.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/main/streams/streams.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/main/streams/streams.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o.requires
@@ -1066,17 +1066,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/st
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/runtime/ext_zend_compat/php-src/main/streams/transports.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_45)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_45)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/main/streams/transports.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/main/streams/transports.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/main/streams/transports.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/main/streams/transports.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/main/streams/transports.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/main/streams/transports.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o.requires
@@ -1089,17 +1089,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/st
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/runtime/ext_zend_compat/php-src/main/strlcpy.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_46)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_46)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/main/strlcpy.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/main/strlcpy.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/main/strlcpy.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/main/strlcpy.cpp > CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/php-src/main/strlcpy.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/php-src/main/strlcpy.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o.requires
@@ -1112,17 +1112,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/st
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/runtime/ext_zend_compat/hhvm/zend-class-entry.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_47)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_47)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/hhvm/zend-class-entry.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/hhvm/zend-class-entry.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/hhvm/zend-class-entry.cpp > CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/hhvm/zend-class-entry.cpp > CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/hhvm/zend-class-entry.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/hhvm/zend-class-entry.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o.requires
@@ -1135,17 +1135,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/runtime/ext_zend_compat/hhvm/zend-exception-store.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_48)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_48)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/hhvm/zend-exception-store.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/hhvm/zend-exception-store.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/hhvm/zend-exception-store.cpp > CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/hhvm/zend-exception-store.cpp > CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/hhvm/zend-exception-store.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/hhvm/zend-exception-store.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o.requires
@@ -1158,17 +1158,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-excep
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/runtime/ext_zend_compat/hhvm/zend-execution-stack.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_49)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_49)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/hhvm/zend-execution-stack.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/hhvm/zend-execution-stack.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/hhvm/zend-execution-stack.cpp > CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/hhvm/zend-execution-stack.cpp > CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/hhvm/zend-execution-stack.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/hhvm/zend-execution-stack.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o.requires
@@ -1181,17 +1181,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execu
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/runtime/ext_zend_compat/hhvm/zend-extension.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_50)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_50)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/hhvm/zend-extension.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/hhvm/zend-extension.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/hhvm/zend-extension.cpp > CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/hhvm/zend-extension.cpp > CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/hhvm/zend-extension.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/hhvm/zend-extension.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o.requires
@@ -1204,17 +1204,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exten
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/runtime/ext_zend_compat/hhvm/zend-object-store.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_51)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_51)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/hhvm/zend-object-store.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/hhvm/zend-object-store.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/hhvm/zend-object-store.cpp > CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/hhvm/zend-object-store.cpp > CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/hhvm/zend-object-store.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/hhvm/zend-object-store.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o.requires
@@ -1227,17 +1227,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-objec
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/runtime/ext_zend_compat/hhvm/zend-object.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_52)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_52)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/hhvm/zend-object.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/hhvm/zend-object.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/hhvm/zend-object.cpp > CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/hhvm/zend-object.cpp > CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/hhvm/zend-object.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/hhvm/zend-object.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o.requires
@@ -1250,17 +1250,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-objec
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/runtime/ext_zend_compat/hhvm/zend-property-info.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_53)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_53)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/hhvm/zend-property-info.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/hhvm/zend-property-info.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/hhvm/zend-property-info.cpp > CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/hhvm/zend-property-info.cpp > CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/hhvm/zend-property-info.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/hhvm/zend-property-info.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o.requires
@@ -1273,17 +1273,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-prope
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/runtime/ext_zend_compat/hhvm/zend-wrap-func.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_54)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_54)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/hhvm/zend-wrap-func.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/hhvm/zend-wrap-func.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/hhvm/zend-wrap-func.cpp > CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/hhvm/zend-wrap-func.cpp > CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/hhvm/zend-wrap-func.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/hhvm/zend-wrap-func.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o.requires
@@ -1296,17 +1296,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/runtime/ext_zend_compat/calendar/cal_unix.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_55)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_55)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/calendar/cal_unix.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/calendar/cal_unix.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/calendar/cal_unix.cpp > CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/calendar/cal_unix.cpp > CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/calendar/cal_unix.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/calendar/cal_unix.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o.requires
@@ -1319,17 +1319,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_un
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/runtime/ext_zend_compat/calendar/calendar.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_56)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_56)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/calendar/calendar.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/calendar/calendar.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/calendar/calendar.cpp > CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/calendar/calendar.cpp > CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/calendar/calendar.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/calendar/calendar.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o.requires
@@ -1342,17 +1342,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calend
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/dow.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/dow.cpp.o: hphp/runtime/ext_zend_compat/calendar/dow.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_57)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_57)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/dow.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/calendar/dow.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/calendar/dow.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/calendar/dow.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/calendar/dow.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/dow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/calendar/dow.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/calendar/dow.cpp > CMakeFiles/hphp_ext_zend_compat.dir/calendar/dow.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/calendar/dow.cpp > CMakeFiles/hphp_ext_zend_compat.dir/calendar/dow.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/dow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/calendar/dow.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/calendar/dow.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/calendar/dow.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/calendar/dow.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/calendar/dow.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/dow.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/dow.cpp.o.requires
@@ -1365,17 +1365,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/dow.cp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/runtime/ext_zend_compat/calendar/easter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_58)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_58)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/calendar/easter.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/calendar/easter.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/calendar/easter.cpp > CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/calendar/easter.cpp > CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/calendar/easter.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/calendar/easter.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o.requires
@@ -1388,17 +1388,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/french.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/french.cpp.o: hphp/runtime/ext_zend_compat/calendar/french.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_59)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_59)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/french.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/calendar/french.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/calendar/french.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/calendar/french.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/calendar/french.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/french.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/calendar/french.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/calendar/french.cpp > CMakeFiles/hphp_ext_zend_compat.dir/calendar/french.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/calendar/french.cpp > CMakeFiles/hphp_ext_zend_compat.dir/calendar/french.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/french.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/calendar/french.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/calendar/french.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/calendar/french.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/calendar/french.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/calendar/french.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/french.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/french.cpp.o.requires
@@ -1411,17 +1411,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/french
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/gregor.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/gregor.cpp.o: hphp/runtime/ext_zend_compat/calendar/gregor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_60)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_60)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/gregor.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/calendar/gregor.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/calendar/gregor.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/calendar/gregor.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/calendar/gregor.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/gregor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/calendar/gregor.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/calendar/gregor.cpp > CMakeFiles/hphp_ext_zend_compat.dir/calendar/gregor.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/calendar/gregor.cpp > CMakeFiles/hphp_ext_zend_compat.dir/calendar/gregor.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/gregor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/calendar/gregor.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/calendar/gregor.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/calendar/gregor.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/calendar/gregor.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/calendar/gregor.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/gregor.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/gregor.cpp.o.requires
@@ -1434,17 +1434,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/gregor
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/jewish.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/jewish.cpp.o: hphp/runtime/ext_zend_compat/calendar/jewish.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_61)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_61)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/jewish.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/calendar/jewish.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/calendar/jewish.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/calendar/jewish.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/calendar/jewish.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/jewish.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/calendar/jewish.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/calendar/jewish.cpp > CMakeFiles/hphp_ext_zend_compat.dir/calendar/jewish.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/calendar/jewish.cpp > CMakeFiles/hphp_ext_zend_compat.dir/calendar/jewish.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/jewish.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/calendar/jewish.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/calendar/jewish.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/calendar/jewish.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/calendar/jewish.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/calendar/jewish.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/jewish.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/jewish.cpp.o.requires
@@ -1457,17 +1457,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/jewish
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/julian.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/julian.cpp.o: hphp/runtime/ext_zend_compat/calendar/julian.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_62)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_62)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/julian.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/calendar/julian.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/calendar/julian.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/calendar/julian.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/calendar/julian.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/julian.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/calendar/julian.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/calendar/julian.cpp > CMakeFiles/hphp_ext_zend_compat.dir/calendar/julian.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/calendar/julian.cpp > CMakeFiles/hphp_ext_zend_compat.dir/calendar/julian.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/julian.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/calendar/julian.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/calendar/julian.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/calendar/julian.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/calendar/julian.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/calendar/julian.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/julian.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/julian.cpp.o.requires
@@ -1480,17 +1480,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/julian
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/runtime/ext_zend_compat/ftp/ftp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_63)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_63)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/ftp/ftp.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/ftp/ftp.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/ftp/ftp.cpp > CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/ftp/ftp.cpp > CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/ftp/ftp.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/ftp/ftp.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o.requires
@@ -1503,17 +1503,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o.p
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/runtime/ext_zend_compat/ftp/php_ftp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_64)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_64)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/ftp/php_ftp.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/ftp/php_ftp.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/ftp/php_ftp.cpp > CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/ftp/php_ftp.cpp > CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/ftp/php_ftp.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/ftp/php_ftp.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o.requires
@@ -1526,17 +1526,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/runtime/ext_zend_compat/oauth/oauth.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_65)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_65)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/oauth/oauth.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/oauth/oauth.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/oauth/oauth.cpp > CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/oauth/oauth.cpp > CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/oauth/oauth.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/oauth/oauth.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o.requires
@@ -1549,17 +1549,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/runtime/ext_zend_compat/oauth/provider.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_66)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_66)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/oauth/provider.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/oauth/provider.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/oauth/provider.cpp > CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/oauth/provider.cpp > CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/oauth/provider.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/oauth/provider.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o.requires
@@ -1572,17 +1572,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/runtime/ext_zend_compat/yaml/detect.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_67)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_67)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/yaml/detect.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/yaml/detect.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/yaml/detect.cpp > CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/yaml/detect.cpp > CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/yaml/detect.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/yaml/detect.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o.requires
@@ -1595,17 +1595,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/runtime/ext_zend_compat/yaml/emit.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_68)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_68)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/yaml/emit.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/yaml/emit.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/yaml/emit.cpp > CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/yaml/emit.cpp > CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/yaml/emit.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/yaml/emit.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o.requires
@@ -1618,17 +1618,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/runtime/ext_zend_compat/yaml/parse.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_69)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_69)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/yaml/parse.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/yaml/parse.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/yaml/parse.cpp > CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/yaml/parse.cpp > CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/yaml/parse.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/yaml/parse.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o.requires
@@ -1641,17 +1641,17 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/flags.make
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/runtime/ext_zend_compat/yaml/yaml.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_70)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_70)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/yaml/yaml.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/yaml/yaml.cpp
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/yaml/yaml.cpp > CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/yaml/yaml.cpp > CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.i
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/yaml/yaml.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/yaml/yaml.cpp -o CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.s
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o.requires:
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o.requires
@@ -1811,8 +1811,8 @@ hphp/runtime/ext_zend_compat/libhphp_ext_zend_compat.a: hphp/runtime/ext_zend_co
 hphp/runtime/ext_zend_compat/libhphp_ext_zend_compat.a: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make
 hphp/runtime/ext_zend_compat/libhphp_ext_zend_compat.a: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libhphp_ext_zend_compat.a"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && $(CMAKE_COMMAND) -P CMakeFiles/hphp_ext_zend_compat.dir/cmake_clean_target.cmake
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hphp_ext_zend_compat.dir/link.txt --verbose=$(VERBOSE)
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && $(CMAKE_COMMAND) -P CMakeFiles/hphp_ext_zend_compat.dir/cmake_clean_target.cmake
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hphp_ext_zend_compat.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build: hphp/runtime/ext_zend_compat/libhphp_ext_zend_compat.a
@@ -1891,10 +1891,10 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/requires: hphp/
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/requires
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/clean:
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && $(CMAKE_COMMAND) -P CMakeFiles/hphp_ext_zend_compat.dir/cmake_clean.cmake
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat && $(CMAKE_COMMAND) -P CMakeFiles/hphp_ext_zend_compat.dir/cmake_clean.cmake
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/clean
 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.12.0 /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat /tmp/hhvm-3.12.0 /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat /tmp/hhvm-3.12.0/hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/depend
 

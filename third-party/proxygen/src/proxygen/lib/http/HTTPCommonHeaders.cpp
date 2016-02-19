@@ -1,5 +1,5 @@
 /* C++ code produced by gperf version 3.0.4 */
-/* Command-line: gperf -m5 --output-file=/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/HTTPCommonHeaders.cpp  */
+/* Command-line: gperf -m5 --output-file=/tmp/hhvm-3.12.0/third-party/proxygen/lib/http/HTTPCommonHeaders.cpp  */
 /* Computed positions: -k'1,8,22,$' */
 
 #if !((' ' == 32) && ('!' == 33) && ('"' == 34) && ('#' == 35) \

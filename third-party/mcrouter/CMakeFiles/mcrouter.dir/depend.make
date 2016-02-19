@@ -721,6 +721,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileObserver.cpp.o: third-
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileObserver.cpp.o: third-party/folly/folly/Likely.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileObserver.cpp.o: third-party/folly/folly/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileObserver.cpp.o: third-party/folly/folly/Memory.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileObserver.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileObserver.cpp.o: third-party/folly/folly/Portability.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileObserver.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileObserver.cpp.o: third-party/folly/folly/RWSpinLock.h
@@ -737,6 +738,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileObserver.cpp.o: third-
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileObserver.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileObserver.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileObserver.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileObserver.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileObserver.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileObserver.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileObserver.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -765,6 +767,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/LeaseTokenMap.cpp.o: third
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/LeaseTokenMap.cpp.o: third-party/folly/folly/IntrusiveList.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/LeaseTokenMap.cpp.o: third-party/folly/folly/Likely.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/LeaseTokenMap.cpp.o: third-party/folly/folly/Malloc.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/LeaseTokenMap.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/LeaseTokenMap.cpp.o: third-party/folly/folly/Optional.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/LeaseTokenMap.cpp.o: third-party/folly/folly/Portability.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/LeaseTokenMap.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -780,6 +783,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/LeaseTokenMap.cpp.o: third
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/LeaseTokenMap.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/LeaseTokenMap.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/LeaseTokenMap.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/LeaseTokenMap.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/LeaseTokenMap.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/LeaseTokenMap.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/LeaseTokenMap.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -1030,6 +1034,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterFiberContext.cpp.o
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterFiberContext.cpp.o: third-party/folly/folly/Likely.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterFiberContext.cpp.o: third-party/folly/folly/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterFiberContext.cpp.o: third-party/folly/folly/Memory.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterFiberContext.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterFiberContext.cpp.o: third-party/folly/folly/Optional.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterFiberContext.cpp.o: third-party/folly/folly/Portability.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterFiberContext.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -1049,6 +1054,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterFiberContext.cpp.o
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterFiberContext.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterFiberContext.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterFiberContext.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterFiberContext.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterFiberContext.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterFiberContext.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterFiberContext.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -1323,6 +1329,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogFailure.cpp.o: 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogFailure.cpp.o: third-party/folly/folly/Hash.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogFailure.cpp.o: third-party/folly/folly/Likely.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogFailure.cpp.o: third-party/folly/folly/Malloc.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogFailure.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogFailure.cpp.o: third-party/folly/folly/Portability.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogFailure.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogFailure.cpp.o: third-party/folly/folly/RWSpinLock.h
@@ -1339,6 +1346,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogFailure.cpp.o: 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogFailure.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogFailure.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogFailure.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogFailure.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogFailure.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogFailure.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogFailure.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -1593,6 +1601,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/OptionsUtil.cpp.o: third-p
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/OptionsUtil.cpp.o: third-party/folly/folly/Hash.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/OptionsUtil.cpp.o: third-party/folly/folly/Likely.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/OptionsUtil.cpp.o: third-party/folly/folly/Malloc.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/OptionsUtil.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/OptionsUtil.cpp.o: third-party/folly/folly/Portability.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/OptionsUtil.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/OptionsUtil.cpp.o: third-party/folly/folly/RWSpinLock.h
@@ -1609,6 +1618,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/OptionsUtil.cpp.o: third-p
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/OptionsUtil.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/OptionsUtil.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/OptionsUtil.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/OptionsUtil.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/OptionsUtil.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/OptionsUtil.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/OptionsUtil.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -3262,6 +3272,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ThreadUtil.cpp.o: third-pa
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ThreadUtil.cpp.o: third-party/folly/folly/Hash.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ThreadUtil.cpp.o: third-party/folly/folly/Likely.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ThreadUtil.cpp.o: third-party/folly/folly/Malloc.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ThreadUtil.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ThreadUtil.cpp.o: third-party/folly/folly/Portability.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ThreadUtil.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ThreadUtil.cpp.o: third-party/folly/folly/RWSpinLock.h
@@ -3279,6 +3290,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ThreadUtil.cpp.o: third-pa
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ThreadUtil.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ThreadUtil.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ThreadUtil.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ThreadUtil.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ThreadUtil.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ThreadUtil.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ThreadUtil.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -4006,6 +4018,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/MessageQueue.cpp.o: th
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/MessageQueue.cpp.o: third-party/folly/folly/Likely.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/MessageQueue.cpp.o: third-party/folly/folly/MPMCQueue.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/MessageQueue.cpp.o: third-party/folly/folly/Malloc.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/MessageQueue.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/MessageQueue.cpp.o: third-party/folly/folly/Portability.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/MessageQueue.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/MessageQueue.cpp.o: third-party/folly/folly/RWSpinLock.h
@@ -4024,6 +4037,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/MessageQueue.cpp.o: th
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/MessageQueue.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/MessageQueue.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/MessageQueue.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/MessageQueue.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/MessageQueue.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/MessageQueue.cpp.o: third-party/folly/folly/detail/TurnSequencer.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/MessageQueue.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
@@ -4154,6 +4168,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/config/ConfigPreproces
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/config/ConfigPreprocessor.cpp.o: third-party/folly/folly/Likely.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/config/ConfigPreprocessor.cpp.o: third-party/folly/folly/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/config/ConfigPreprocessor.cpp.o: third-party/folly/folly/Memory.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/config/ConfigPreprocessor.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/config/ConfigPreprocessor.cpp.o: third-party/folly/folly/Portability.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/config/ConfigPreprocessor.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/config/ConfigPreprocessor.cpp.o: third-party/folly/folly/Random-inl.h
@@ -4171,6 +4186,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/config/ConfigPreproces
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/config/ConfigPreprocessor.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/config/ConfigPreprocessor.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/config/ConfigPreprocessor.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/config/ConfigPreprocessor.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/config/ConfigPreprocessor.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/config/ConfigPreprocessor.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/config/ConfigPreprocessor.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -4199,6 +4215,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Accumulator.cpp
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Accumulator.cpp.o: third-party/folly/folly/Likely.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Accumulator.cpp.o: third-party/folly/folly/MPMCQueue.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Accumulator.cpp.o: third-party/folly/folly/Malloc.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Accumulator.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Accumulator.cpp.o: third-party/folly/folly/Portability.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Accumulator.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Accumulator.cpp.o: third-party/folly/folly/RWSpinLock.h
@@ -4217,6 +4234,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Accumulator.cpp
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Accumulator.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Accumulator.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Accumulator.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Accumulator.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Accumulator.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Accumulator.cpp.o: third-party/folly/folly/detail/TurnSequencer.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Accumulator.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
@@ -4281,6 +4299,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/Fifo.cpp.o: thir
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/Fifo.cpp.o: third-party/folly/folly/IPAddressV6.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/Fifo.cpp.o: third-party/folly/folly/Likely.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/Fifo.cpp.o: third-party/folly/folly/Malloc.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/Fifo.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/Fifo.cpp.o: third-party/folly/folly/Portability.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/Fifo.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/Fifo.cpp.o: third-party/folly/folly/RWSpinLock.h
@@ -4301,6 +4320,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/Fifo.cpp.o: thir
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/Fifo.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/Fifo.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/Fifo.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/Fifo.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/Fifo.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/Fifo.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/Fifo.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -4348,6 +4368,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/FifoManager.cpp.
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/FifoManager.cpp.o: third-party/folly/folly/Likely.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/FifoManager.cpp.o: third-party/folly/folly/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/FifoManager.cpp.o: third-party/folly/folly/Memory.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/FifoManager.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/FifoManager.cpp.o: third-party/folly/folly/Portability.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/FifoManager.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/FifoManager.cpp.o: third-party/folly/folly/RWSpinLock.h
@@ -4374,6 +4395,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/FifoManager.cpp.
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/FifoManager.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/FifoManager.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/FifoManager.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/FifoManager.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/FifoManager.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/FifoManager.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/FifoManager.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -4412,6 +4434,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/LogFailure.cpp
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/LogFailure.cpp.o: third-party/folly/folly/Likely.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/LogFailure.cpp.o: third-party/folly/folly/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/LogFailure.cpp.o: third-party/folly/folly/Memory.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/LogFailure.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/LogFailure.cpp.o: third-party/folly/folly/Portability.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/LogFailure.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/LogFailure.cpp.o: third-party/folly/folly/RWSpinLock.h
@@ -4432,6 +4455,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/LogFailure.cpp
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/LogFailure.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/LogFailure.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/LogFailure.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/LogFailure.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/LogFailure.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/LogFailure.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/LogFailure.cpp.o: third-party/folly/folly/io/async/Request.h
@@ -4699,6 +4723,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcClientI
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcClientImpl.cpp.o: third-party/folly/folly/Likely.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcClientImpl.cpp.o: third-party/folly/folly/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcClientImpl.cpp.o: third-party/folly/folly/Memory.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcClientImpl.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcClientImpl.cpp.o: third-party/folly/folly/Optional.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcClientImpl.cpp.o: third-party/folly/folly/Portability.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcClientImpl.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -4727,6 +4752,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcClientI
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcClientImpl.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcClientImpl.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcClientImpl.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcClientImpl.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcClientImpl.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcClientImpl.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcClientImpl.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -4990,6 +5016,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServerW
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServerWorker.cpp.o: third-party/folly/folly/Likely.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServerWorker.cpp.o: third-party/folly/folly/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServerWorker.cpp.o: third-party/folly/folly/Memory.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServerWorker.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServerWorker.cpp.o: third-party/folly/folly/Optional.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServerWorker.cpp.o: third-party/folly/folly/Portability.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServerWorker.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -5011,6 +5038,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServerW
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServerWorker.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServerWorker.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServerWorker.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServerWorker.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServerWorker.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServerWorker.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServerWorker.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -5168,6 +5196,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McClientReques
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McClientRequestContext.cpp.o: third-party/folly/folly/Likely.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McClientRequestContext.cpp.o: third-party/folly/folly/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McClientRequestContext.cpp.o: third-party/folly/folly/Memory.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McClientRequestContext.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McClientRequestContext.cpp.o: third-party/folly/folly/Optional.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McClientRequestContext.cpp.o: third-party/folly/folly/Portability.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McClientRequestContext.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -5189,6 +5218,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McClientReques
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McClientRequestContext.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McClientRequestContext.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McClientRequestContext.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McClientRequestContext.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McClientRequestContext.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McClientRequestContext.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McClientRequestContext.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -5429,6 +5459,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerReques
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerRequestContext.cpp.o: third-party/folly/folly/Likely.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerRequestContext.cpp.o: third-party/folly/folly/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerRequestContext.cpp.o: third-party/folly/folly/Memory.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerRequestContext.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerRequestContext.cpp.o: third-party/folly/folly/Optional.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerRequestContext.cpp.o: third-party/folly/folly/Portability.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerRequestContext.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -5450,6 +5481,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerReques
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerRequestContext.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerRequestContext.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerRequestContext.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerRequestContext.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerRequestContext.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerRequestContext.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerRequestContext.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -5651,6 +5683,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MockMcClientTr
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MockMcClientTransport.cpp.o: third-party/folly/folly/IPAddressV6.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MockMcClientTransport.cpp.o: third-party/folly/folly/Likely.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MockMcClientTransport.cpp.o: third-party/folly/folly/Malloc.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MockMcClientTransport.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MockMcClientTransport.cpp.o: third-party/folly/folly/Portability.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MockMcClientTransport.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MockMcClientTransport.cpp.o: third-party/folly/folly/RWSpinLock.h
@@ -5669,6 +5702,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MockMcClientTr
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MockMcClientTransport.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MockMcClientTransport.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MockMcClientTransport.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MockMcClientTransport.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MockMcClientTransport.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MockMcClientTransport.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MockMcClientTransport.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -5710,6 +5744,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MultiOpParent.
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MultiOpParent.cpp.o: third-party/folly/folly/Likely.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MultiOpParent.cpp.o: third-party/folly/folly/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MultiOpParent.cpp.o: third-party/folly/folly/Memory.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MultiOpParent.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MultiOpParent.cpp.o: third-party/folly/folly/Optional.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MultiOpParent.cpp.o: third-party/folly/folly/Portability.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MultiOpParent.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -5731,6 +5766,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MultiOpParent.
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MultiOpParent.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MultiOpParent.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MultiOpParent.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MultiOpParent.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MultiOpParent.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MultiOpParent.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MultiOpParent.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -5922,6 +5958,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/WriteBuffer.cp
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/WriteBuffer.cpp.o: third-party/folly/folly/Likely.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/WriteBuffer.cpp.o: third-party/folly/folly/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/WriteBuffer.cpp.o: third-party/folly/folly/Memory.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/WriteBuffer.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/WriteBuffer.cpp.o: third-party/folly/folly/Optional.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/WriteBuffer.cpp.o: third-party/folly/folly/Portability.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/WriteBuffer.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -5943,6 +5980,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/WriteBuffer.cp
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/WriteBuffer.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/WriteBuffer.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/WriteBuffer.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/WriteBuffer.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/WriteBuffer.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/WriteBuffer.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/WriteBuffer.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -6945,6 +6983,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllAsyncRoute.cpp.o
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllAsyncRoute.cpp.o: third-party/folly/folly/Likely.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllAsyncRoute.cpp.o: third-party/folly/folly/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllAsyncRoute.cpp.o: third-party/folly/folly/Memory.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllAsyncRoute.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllAsyncRoute.cpp.o: third-party/folly/folly/Optional.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllAsyncRoute.cpp.o: third-party/folly/folly/Portability.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllAsyncRoute.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -6964,6 +7003,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllAsyncRoute.cpp.o
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllAsyncRoute.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllAsyncRoute.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllAsyncRoute.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllAsyncRoute.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllAsyncRoute.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllAsyncRoute.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllAsyncRoute.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -7043,6 +7083,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllFastestRoute.cpp
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllFastestRoute.cpp.o: third-party/folly/folly/Likely.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllFastestRoute.cpp.o: third-party/folly/folly/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllFastestRoute.cpp.o: third-party/folly/folly/Memory.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllFastestRoute.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllFastestRoute.cpp.o: third-party/folly/folly/Optional.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllFastestRoute.cpp.o: third-party/folly/folly/Portability.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllFastestRoute.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -7062,6 +7103,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllFastestRoute.cpp
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllFastestRoute.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllFastestRoute.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllFastestRoute.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllFastestRoute.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllFastestRoute.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllFastestRoute.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllFastestRoute.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -7142,6 +7184,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllInitialRoute.cpp
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllInitialRoute.cpp.o: third-party/folly/folly/Likely.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllInitialRoute.cpp.o: third-party/folly/folly/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllInitialRoute.cpp.o: third-party/folly/folly/Memory.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllInitialRoute.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllInitialRoute.cpp.o: third-party/folly/folly/Optional.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllInitialRoute.cpp.o: third-party/folly/folly/Portability.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllInitialRoute.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -7161,6 +7204,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllInitialRoute.cpp
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllInitialRoute.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllInitialRoute.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllInitialRoute.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllInitialRoute.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllInitialRoute.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllInitialRoute.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllInitialRoute.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -7241,6 +7285,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllMajorityRoute.cp
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllMajorityRoute.cpp.o: third-party/folly/folly/Likely.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllMajorityRoute.cpp.o: third-party/folly/folly/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllMajorityRoute.cpp.o: third-party/folly/folly/Memory.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllMajorityRoute.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllMajorityRoute.cpp.o: third-party/folly/folly/Optional.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllMajorityRoute.cpp.o: third-party/folly/folly/Portability.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllMajorityRoute.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -7260,6 +7305,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllMajorityRoute.cp
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllMajorityRoute.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllMajorityRoute.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllMajorityRoute.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllMajorityRoute.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllMajorityRoute.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllMajorityRoute.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllMajorityRoute.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -7340,6 +7386,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllSyncRoute.cpp.o:
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllSyncRoute.cpp.o: third-party/folly/folly/Likely.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllSyncRoute.cpp.o: third-party/folly/folly/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllSyncRoute.cpp.o: third-party/folly/folly/Memory.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllSyncRoute.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllSyncRoute.cpp.o: third-party/folly/folly/Optional.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllSyncRoute.cpp.o: third-party/folly/folly/Portability.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllSyncRoute.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -7359,6 +7406,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllSyncRoute.cpp.o:
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllSyncRoute.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllSyncRoute.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllSyncRoute.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllSyncRoute.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllSyncRoute.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllSyncRoute.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllSyncRoute.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -7441,6 +7489,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AsynclogRoute.cpp.o
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AsynclogRoute.cpp.o: third-party/folly/folly/Likely.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AsynclogRoute.cpp.o: third-party/folly/folly/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AsynclogRoute.cpp.o: third-party/folly/folly/Memory.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AsynclogRoute.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AsynclogRoute.cpp.o: third-party/folly/folly/Optional.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AsynclogRoute.cpp.o: third-party/folly/folly/Portability.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AsynclogRoute.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -7460,6 +7509,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AsynclogRoute.cpp.o
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AsynclogRoute.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AsynclogRoute.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AsynclogRoute.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AsynclogRoute.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AsynclogRoute.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AsynclogRoute.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AsynclogRoute.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -8230,6 +8280,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRateLimiter
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRateLimiter.cpp.o: third-party/folly/folly/Hash.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRateLimiter.cpp.o: third-party/folly/folly/Likely.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRateLimiter.cpp.o: third-party/folly/folly/Malloc.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRateLimiter.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRateLimiter.cpp.o: third-party/folly/folly/Portability.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRateLimiter.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRateLimiter.cpp.o: third-party/folly/folly/RWSpinLock.h
@@ -8246,6 +8297,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRateLimiter
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRateLimiter.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRateLimiter.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRateLimiter.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRateLimiter.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRateLimiter.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRateLimiter.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRateLimiter.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -8499,6 +8551,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverWithExptime
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverWithExptimeRoute.cpp.o: third-party/folly/folly/Likely.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverWithExptimeRoute.cpp.o: third-party/folly/folly/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverWithExptimeRoute.cpp.o: third-party/folly/folly/Memory.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverWithExptimeRoute.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverWithExptimeRoute.cpp.o: third-party/folly/folly/Optional.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverWithExptimeRoute.cpp.o: third-party/folly/folly/Portability.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverWithExptimeRoute.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -8516,6 +8569,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverWithExptime
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverWithExptimeRoute.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverWithExptimeRoute.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverWithExptimeRoute.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverWithExptimeRoute.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverWithExptimeRoute.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverWithExptimeRoute.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverWithExptimeRoute.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -8584,6 +8638,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HashRoute.cpp.o: th
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HashRoute.cpp.o: third-party/folly/folly/Likely.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HashRoute.cpp.o: third-party/folly/folly/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HashRoute.cpp.o: third-party/folly/folly/Memory.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HashRoute.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HashRoute.cpp.o: third-party/folly/folly/Optional.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HashRoute.cpp.o: third-party/folly/folly/Portability.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HashRoute.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -8603,6 +8658,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HashRoute.cpp.o: th
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HashRoute.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HashRoute.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HashRoute.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HashRoute.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HashRoute.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HashRoute.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HashRoute.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -8752,6 +8808,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/L1L2CacheRoute.cpp.
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/L1L2CacheRoute.cpp.o: third-party/folly/folly/Likely.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/L1L2CacheRoute.cpp.o: third-party/folly/folly/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/L1L2CacheRoute.cpp.o: third-party/folly/folly/Memory.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/L1L2CacheRoute.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/L1L2CacheRoute.cpp.o: third-party/folly/folly/Optional.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/L1L2CacheRoute.cpp.o: third-party/folly/folly/Portability.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/L1L2CacheRoute.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -8771,6 +8828,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/L1L2CacheRoute.cpp.
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/L1L2CacheRoute.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/L1L2CacheRoute.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/L1L2CacheRoute.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/L1L2CacheRoute.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/L1L2CacheRoute.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/L1L2CacheRoute.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/L1L2CacheRoute.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -8846,6 +8904,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LatestRoute.cpp.o: 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LatestRoute.cpp.o: third-party/folly/folly/Likely.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LatestRoute.cpp.o: third-party/folly/folly/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LatestRoute.cpp.o: third-party/folly/folly/Memory.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LatestRoute.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LatestRoute.cpp.o: third-party/folly/folly/Optional.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LatestRoute.cpp.o: third-party/folly/folly/Portability.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LatestRoute.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -8863,6 +8922,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LatestRoute.cpp.o: 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LatestRoute.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LatestRoute.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LatestRoute.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LatestRoute.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LatestRoute.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LatestRoute.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LatestRoute.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -9620,6 +9680,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MigrateRoute.cpp.o:
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MigrateRoute.cpp.o: third-party/folly/folly/Likely.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MigrateRoute.cpp.o: third-party/folly/folly/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MigrateRoute.cpp.o: third-party/folly/folly/Memory.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MigrateRoute.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MigrateRoute.cpp.o: third-party/folly/folly/Optional.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MigrateRoute.cpp.o: third-party/folly/folly/Portability.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MigrateRoute.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -9639,6 +9700,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MigrateRoute.cpp.o:
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MigrateRoute.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MigrateRoute.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MigrateRoute.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MigrateRoute.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MigrateRoute.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MigrateRoute.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MigrateRoute.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -9729,6 +9791,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MissFailoverRoute.c
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MissFailoverRoute.cpp.o: third-party/folly/folly/Likely.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MissFailoverRoute.cpp.o: third-party/folly/folly/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MissFailoverRoute.cpp.o: third-party/folly/folly/Memory.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MissFailoverRoute.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MissFailoverRoute.cpp.o: third-party/folly/folly/Optional.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MissFailoverRoute.cpp.o: third-party/folly/folly/Portability.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MissFailoverRoute.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -9748,6 +9811,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MissFailoverRoute.c
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MissFailoverRoute.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MissFailoverRoute.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MissFailoverRoute.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MissFailoverRoute.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MissFailoverRoute.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MissFailoverRoute.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MissFailoverRoute.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -10643,6 +10707,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimitRoute.cpp.
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimitRoute.cpp.o: third-party/folly/folly/Likely.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimitRoute.cpp.o: third-party/folly/folly/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimitRoute.cpp.o: third-party/folly/folly/Memory.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimitRoute.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimitRoute.cpp.o: third-party/folly/folly/Optional.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimitRoute.cpp.o: third-party/folly/folly/Portability.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimitRoute.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -10660,6 +10725,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimitRoute.cpp.
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimitRoute.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimitRoute.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimitRoute.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimitRoute.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimitRoute.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimitRoute.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimitRoute.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -10723,6 +10789,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimiter.cpp.o: 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimiter.cpp.o: third-party/folly/folly/Hash.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimiter.cpp.o: third-party/folly/folly/Likely.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimiter.cpp.o: third-party/folly/folly/Malloc.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimiter.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimiter.cpp.o: third-party/folly/folly/Optional.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimiter.cpp.o: third-party/folly/folly/Portability.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimiter.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -10740,6 +10807,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimiter.cpp.o: 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimiter.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimiter.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimiter.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimiter.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimiter.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimiter.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimiter.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -11526,6 +11594,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitter.cpp.o
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitter.cpp.o: third-party/folly/folly/Hash.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitter.cpp.o: third-party/folly/folly/Likely.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitter.cpp.o: third-party/folly/folly/Malloc.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitter.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitter.cpp.o: third-party/folly/folly/Portability.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitter.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitter.cpp.o: third-party/folly/folly/RWSpinLock.h
@@ -11542,6 +11611,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitter.cpp.o
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitter.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitter.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitter.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitter.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitter.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitter.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitter.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -11794,6 +11864,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRouteSett
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRouteSettings.cpp.o: third-party/folly/folly/Hash.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRouteSettings.cpp.o: third-party/folly/folly/Likely.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRouteSettings.cpp.o: third-party/folly/folly/Malloc.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRouteSettings.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRouteSettings.cpp.o: third-party/folly/folly/Portability.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRouteSettings.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRouteSettings.cpp.o: third-party/folly/folly/Random-inl.h
@@ -11811,6 +11882,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRouteSett
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRouteSettings.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRouteSettings.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRouteSettings.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRouteSettings.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRouteSettings.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRouteSettings.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRouteSettings.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -12663,6 +12735,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/FifoReader.c
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/FifoReader.cpp.o: third-party/folly/folly/Likely.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/FifoReader.cpp.o: third-party/folly/folly/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/FifoReader.cpp.o: third-party/folly/folly/Memory.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/FifoReader.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/FifoReader.cpp.o: third-party/folly/folly/Optional.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/FifoReader.cpp.o: third-party/folly/folly/Portability.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/FifoReader.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -12684,6 +12757,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/FifoReader.c
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/FifoReader.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/FifoReader.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/FifoReader.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/FifoReader.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/FifoReader.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/FifoReader.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/FifoReader.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -12905,6 +12979,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/mcpiper.cpp.
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/mcpiper.cpp.o: third-party/folly/folly/Likely.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/mcpiper.cpp.o: third-party/folly/folly/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/mcpiper.cpp.o: third-party/folly/folly/Memory.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/mcpiper.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/mcpiper.cpp.o: third-party/folly/folly/Optional.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/mcpiper.cpp.o: third-party/folly/folly/Portability.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/mcpiper.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -12926,6 +13001,7 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/mcpiper.cpp.
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/mcpiper.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/mcpiper.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/mcpiper.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/mcpiper.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/mcpiper.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/mcpiper.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/mcpiper.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h

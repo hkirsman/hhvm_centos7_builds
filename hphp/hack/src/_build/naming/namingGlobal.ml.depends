@@ -1,0 +1,1 @@
+naming/namingGlobal.ml: ClassCanonHeap ClassIdHeap ConstIdHeap Core Errors FileInfo FunCanonHeap FunIdHeap Ident List Naming_heap Naming_special_names Pos Relative_path SSet String TypedefIdHeap Utils

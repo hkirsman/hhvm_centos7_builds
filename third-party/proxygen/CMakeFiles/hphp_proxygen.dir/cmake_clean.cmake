@@ -1,7 +1,6 @@
 FILE(REMOVE_RECURSE
   "lib/http/HTTPCommonHeaders.cpp"
   "lib/http/HTTPCommonHeaders.h"
-  "CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.o"
   "CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.o"
   "CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConstants.cpp.o"
   "CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.o"
@@ -75,6 +74,7 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamCompressor.cpp.o"
   "CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamDecompressor.cpp.o"
   "CMakeFiles/hphp_proxygen.dir/external/http_parser/http_parser_cpp.cpp.o"
+  "CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.o"
   "libhphp_proxygen.pdb"
   "libhphp_proxygen.a"
 )

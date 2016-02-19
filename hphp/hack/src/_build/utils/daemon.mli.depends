@@ -1,1 +1,1 @@
-utils/daemon.mli: Marshal Unix
+utils/daemon.mli: Marshal Timeout Unix

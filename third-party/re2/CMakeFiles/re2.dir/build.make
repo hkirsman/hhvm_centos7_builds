@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.0
 
 # Include any dependencies generated for this target.
 include third-party/re2/CMakeFiles/re2.dir/depend.make
@@ -54,17 +54,17 @@ include third-party/re2/CMakeFiles/re2.dir/flags.make
 
 third-party/re2/CMakeFiles/re2.dir/src/util/hash.cc.o: third-party/re2/CMakeFiles/re2.dir/flags.make
 third-party/re2/CMakeFiles/re2.dir/src/util/hash.cc.o: third-party/re2/src/util/hash.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/re2/CMakeFiles/re2.dir/src/util/hash.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/util/hash.cc.o -c /tmp/hhvm-3.11.1/third-party/re2/src/util/hash.cc
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/util/hash.cc.o -c /tmp/hhvm-3.12.0/third-party/re2/src/util/hash.cc
 
 third-party/re2/CMakeFiles/re2.dir/src/util/hash.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/re2.dir/src/util/hash.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/re2/src/util/hash.cc > CMakeFiles/re2.dir/src/util/hash.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/re2/src/util/hash.cc > CMakeFiles/re2.dir/src/util/hash.cc.i
 
 third-party/re2/CMakeFiles/re2.dir/src/util/hash.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/re2.dir/src/util/hash.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/re2/src/util/hash.cc -o CMakeFiles/re2.dir/src/util/hash.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/re2/src/util/hash.cc -o CMakeFiles/re2.dir/src/util/hash.cc.s
 
 third-party/re2/CMakeFiles/re2.dir/src/util/hash.cc.o.requires:
 .PHONY : third-party/re2/CMakeFiles/re2.dir/src/util/hash.cc.o.requires
@@ -77,17 +77,17 @@ third-party/re2/CMakeFiles/re2.dir/src/util/hash.cc.o.provides.build: third-part
 
 third-party/re2/CMakeFiles/re2.dir/src/util/rune.cc.o: third-party/re2/CMakeFiles/re2.dir/flags.make
 third-party/re2/CMakeFiles/re2.dir/src/util/rune.cc.o: third-party/re2/src/util/rune.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/re2/CMakeFiles/re2.dir/src/util/rune.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/util/rune.cc.o -c /tmp/hhvm-3.11.1/third-party/re2/src/util/rune.cc
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/util/rune.cc.o -c /tmp/hhvm-3.12.0/third-party/re2/src/util/rune.cc
 
 third-party/re2/CMakeFiles/re2.dir/src/util/rune.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/re2.dir/src/util/rune.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/re2/src/util/rune.cc > CMakeFiles/re2.dir/src/util/rune.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/re2/src/util/rune.cc > CMakeFiles/re2.dir/src/util/rune.cc.i
 
 third-party/re2/CMakeFiles/re2.dir/src/util/rune.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/re2.dir/src/util/rune.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/re2/src/util/rune.cc -o CMakeFiles/re2.dir/src/util/rune.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/re2/src/util/rune.cc -o CMakeFiles/re2.dir/src/util/rune.cc.s
 
 third-party/re2/CMakeFiles/re2.dir/src/util/rune.cc.o.requires:
 .PHONY : third-party/re2/CMakeFiles/re2.dir/src/util/rune.cc.o.requires
@@ -100,17 +100,17 @@ third-party/re2/CMakeFiles/re2.dir/src/util/rune.cc.o.provides.build: third-part
 
 third-party/re2/CMakeFiles/re2.dir/src/util/stringprintf.cc.o: third-party/re2/CMakeFiles/re2.dir/flags.make
 third-party/re2/CMakeFiles/re2.dir/src/util/stringprintf.cc.o: third-party/re2/src/util/stringprintf.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/re2/CMakeFiles/re2.dir/src/util/stringprintf.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/util/stringprintf.cc.o -c /tmp/hhvm-3.11.1/third-party/re2/src/util/stringprintf.cc
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/util/stringprintf.cc.o -c /tmp/hhvm-3.12.0/third-party/re2/src/util/stringprintf.cc
 
 third-party/re2/CMakeFiles/re2.dir/src/util/stringprintf.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/re2.dir/src/util/stringprintf.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/re2/src/util/stringprintf.cc > CMakeFiles/re2.dir/src/util/stringprintf.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/re2/src/util/stringprintf.cc > CMakeFiles/re2.dir/src/util/stringprintf.cc.i
 
 third-party/re2/CMakeFiles/re2.dir/src/util/stringprintf.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/re2.dir/src/util/stringprintf.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/re2/src/util/stringprintf.cc -o CMakeFiles/re2.dir/src/util/stringprintf.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/re2/src/util/stringprintf.cc -o CMakeFiles/re2.dir/src/util/stringprintf.cc.s
 
 third-party/re2/CMakeFiles/re2.dir/src/util/stringprintf.cc.o.requires:
 .PHONY : third-party/re2/CMakeFiles/re2.dir/src/util/stringprintf.cc.o.requires
@@ -123,17 +123,17 @@ third-party/re2/CMakeFiles/re2.dir/src/util/stringprintf.cc.o.provides.build: th
 
 third-party/re2/CMakeFiles/re2.dir/src/util/strutil.cc.o: third-party/re2/CMakeFiles/re2.dir/flags.make
 third-party/re2/CMakeFiles/re2.dir/src/util/strutil.cc.o: third-party/re2/src/util/strutil.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/re2/CMakeFiles/re2.dir/src/util/strutil.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/util/strutil.cc.o -c /tmp/hhvm-3.11.1/third-party/re2/src/util/strutil.cc
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/util/strutil.cc.o -c /tmp/hhvm-3.12.0/third-party/re2/src/util/strutil.cc
 
 third-party/re2/CMakeFiles/re2.dir/src/util/strutil.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/re2.dir/src/util/strutil.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/re2/src/util/strutil.cc > CMakeFiles/re2.dir/src/util/strutil.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/re2/src/util/strutil.cc > CMakeFiles/re2.dir/src/util/strutil.cc.i
 
 third-party/re2/CMakeFiles/re2.dir/src/util/strutil.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/re2.dir/src/util/strutil.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/re2/src/util/strutil.cc -o CMakeFiles/re2.dir/src/util/strutil.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/re2/src/util/strutil.cc -o CMakeFiles/re2.dir/src/util/strutil.cc.s
 
 third-party/re2/CMakeFiles/re2.dir/src/util/strutil.cc.o.requires:
 .PHONY : third-party/re2/CMakeFiles/re2.dir/src/util/strutil.cc.o.requires
@@ -146,17 +146,17 @@ third-party/re2/CMakeFiles/re2.dir/src/util/strutil.cc.o.provides.build: third-p
 
 third-party/re2/CMakeFiles/re2.dir/src/util/valgrind.cc.o: third-party/re2/CMakeFiles/re2.dir/flags.make
 third-party/re2/CMakeFiles/re2.dir/src/util/valgrind.cc.o: third-party/re2/src/util/valgrind.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/re2/CMakeFiles/re2.dir/src/util/valgrind.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/util/valgrind.cc.o -c /tmp/hhvm-3.11.1/third-party/re2/src/util/valgrind.cc
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/util/valgrind.cc.o -c /tmp/hhvm-3.12.0/third-party/re2/src/util/valgrind.cc
 
 third-party/re2/CMakeFiles/re2.dir/src/util/valgrind.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/re2.dir/src/util/valgrind.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/re2/src/util/valgrind.cc > CMakeFiles/re2.dir/src/util/valgrind.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/re2/src/util/valgrind.cc > CMakeFiles/re2.dir/src/util/valgrind.cc.i
 
 third-party/re2/CMakeFiles/re2.dir/src/util/valgrind.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/re2.dir/src/util/valgrind.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/re2/src/util/valgrind.cc -o CMakeFiles/re2.dir/src/util/valgrind.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/re2/src/util/valgrind.cc -o CMakeFiles/re2.dir/src/util/valgrind.cc.s
 
 third-party/re2/CMakeFiles/re2.dir/src/util/valgrind.cc.o.requires:
 .PHONY : third-party/re2/CMakeFiles/re2.dir/src/util/valgrind.cc.o.requires
@@ -169,17 +169,17 @@ third-party/re2/CMakeFiles/re2.dir/src/util/valgrind.cc.o.provides.build: third-
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/bitstate.cc.o: third-party/re2/CMakeFiles/re2.dir/flags.make
 third-party/re2/CMakeFiles/re2.dir/src/re2/bitstate.cc.o: third-party/re2/src/re2/bitstate.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/re2/CMakeFiles/re2.dir/src/re2/bitstate.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/re2/bitstate.cc.o -c /tmp/hhvm-3.11.1/third-party/re2/src/re2/bitstate.cc
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/re2/bitstate.cc.o -c /tmp/hhvm-3.12.0/third-party/re2/src/re2/bitstate.cc
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/bitstate.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/re2.dir/src/re2/bitstate.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/re2/src/re2/bitstate.cc > CMakeFiles/re2.dir/src/re2/bitstate.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/re2/src/re2/bitstate.cc > CMakeFiles/re2.dir/src/re2/bitstate.cc.i
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/bitstate.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/re2.dir/src/re2/bitstate.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/re2/src/re2/bitstate.cc -o CMakeFiles/re2.dir/src/re2/bitstate.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/re2/src/re2/bitstate.cc -o CMakeFiles/re2.dir/src/re2/bitstate.cc.s
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/bitstate.cc.o.requires:
 .PHONY : third-party/re2/CMakeFiles/re2.dir/src/re2/bitstate.cc.o.requires
@@ -192,17 +192,17 @@ third-party/re2/CMakeFiles/re2.dir/src/re2/bitstate.cc.o.provides.build: third-p
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/compile.cc.o: third-party/re2/CMakeFiles/re2.dir/flags.make
 third-party/re2/CMakeFiles/re2.dir/src/re2/compile.cc.o: third-party/re2/src/re2/compile.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/re2/CMakeFiles/re2.dir/src/re2/compile.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/re2/compile.cc.o -c /tmp/hhvm-3.11.1/third-party/re2/src/re2/compile.cc
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/re2/compile.cc.o -c /tmp/hhvm-3.12.0/third-party/re2/src/re2/compile.cc
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/compile.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/re2.dir/src/re2/compile.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/re2/src/re2/compile.cc > CMakeFiles/re2.dir/src/re2/compile.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/re2/src/re2/compile.cc > CMakeFiles/re2.dir/src/re2/compile.cc.i
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/compile.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/re2.dir/src/re2/compile.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/re2/src/re2/compile.cc -o CMakeFiles/re2.dir/src/re2/compile.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/re2/src/re2/compile.cc -o CMakeFiles/re2.dir/src/re2/compile.cc.s
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/compile.cc.o.requires:
 .PHONY : third-party/re2/CMakeFiles/re2.dir/src/re2/compile.cc.o.requires
@@ -215,17 +215,17 @@ third-party/re2/CMakeFiles/re2.dir/src/re2/compile.cc.o.provides.build: third-pa
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/dfa.cc.o: third-party/re2/CMakeFiles/re2.dir/flags.make
 third-party/re2/CMakeFiles/re2.dir/src/re2/dfa.cc.o: third-party/re2/src/re2/dfa.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/re2/CMakeFiles/re2.dir/src/re2/dfa.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/re2/dfa.cc.o -c /tmp/hhvm-3.11.1/third-party/re2/src/re2/dfa.cc
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/re2/dfa.cc.o -c /tmp/hhvm-3.12.0/third-party/re2/src/re2/dfa.cc
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/dfa.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/re2.dir/src/re2/dfa.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/re2/src/re2/dfa.cc > CMakeFiles/re2.dir/src/re2/dfa.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/re2/src/re2/dfa.cc > CMakeFiles/re2.dir/src/re2/dfa.cc.i
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/dfa.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/re2.dir/src/re2/dfa.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/re2/src/re2/dfa.cc -o CMakeFiles/re2.dir/src/re2/dfa.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/re2/src/re2/dfa.cc -o CMakeFiles/re2.dir/src/re2/dfa.cc.s
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/dfa.cc.o.requires:
 .PHONY : third-party/re2/CMakeFiles/re2.dir/src/re2/dfa.cc.o.requires
@@ -238,17 +238,17 @@ third-party/re2/CMakeFiles/re2.dir/src/re2/dfa.cc.o.provides.build: third-party/
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/filtered_re2.cc.o: third-party/re2/CMakeFiles/re2.dir/flags.make
 third-party/re2/CMakeFiles/re2.dir/src/re2/filtered_re2.cc.o: third-party/re2/src/re2/filtered_re2.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/re2/CMakeFiles/re2.dir/src/re2/filtered_re2.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/re2/filtered_re2.cc.o -c /tmp/hhvm-3.11.1/third-party/re2/src/re2/filtered_re2.cc
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/re2/filtered_re2.cc.o -c /tmp/hhvm-3.12.0/third-party/re2/src/re2/filtered_re2.cc
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/filtered_re2.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/re2.dir/src/re2/filtered_re2.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/re2/src/re2/filtered_re2.cc > CMakeFiles/re2.dir/src/re2/filtered_re2.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/re2/src/re2/filtered_re2.cc > CMakeFiles/re2.dir/src/re2/filtered_re2.cc.i
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/filtered_re2.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/re2.dir/src/re2/filtered_re2.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/re2/src/re2/filtered_re2.cc -o CMakeFiles/re2.dir/src/re2/filtered_re2.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/re2/src/re2/filtered_re2.cc -o CMakeFiles/re2.dir/src/re2/filtered_re2.cc.s
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/filtered_re2.cc.o.requires:
 .PHONY : third-party/re2/CMakeFiles/re2.dir/src/re2/filtered_re2.cc.o.requires
@@ -261,17 +261,17 @@ third-party/re2/CMakeFiles/re2.dir/src/re2/filtered_re2.cc.o.provides.build: thi
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/mimics_pcre.cc.o: third-party/re2/CMakeFiles/re2.dir/flags.make
 third-party/re2/CMakeFiles/re2.dir/src/re2/mimics_pcre.cc.o: third-party/re2/src/re2/mimics_pcre.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/re2/CMakeFiles/re2.dir/src/re2/mimics_pcre.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/re2/mimics_pcre.cc.o -c /tmp/hhvm-3.11.1/third-party/re2/src/re2/mimics_pcre.cc
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/re2/mimics_pcre.cc.o -c /tmp/hhvm-3.12.0/third-party/re2/src/re2/mimics_pcre.cc
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/mimics_pcre.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/re2.dir/src/re2/mimics_pcre.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/re2/src/re2/mimics_pcre.cc > CMakeFiles/re2.dir/src/re2/mimics_pcre.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/re2/src/re2/mimics_pcre.cc > CMakeFiles/re2.dir/src/re2/mimics_pcre.cc.i
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/mimics_pcre.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/re2.dir/src/re2/mimics_pcre.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/re2/src/re2/mimics_pcre.cc -o CMakeFiles/re2.dir/src/re2/mimics_pcre.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/re2/src/re2/mimics_pcre.cc -o CMakeFiles/re2.dir/src/re2/mimics_pcre.cc.s
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/mimics_pcre.cc.o.requires:
 .PHONY : third-party/re2/CMakeFiles/re2.dir/src/re2/mimics_pcre.cc.o.requires
@@ -284,17 +284,17 @@ third-party/re2/CMakeFiles/re2.dir/src/re2/mimics_pcre.cc.o.provides.build: thir
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/nfa.cc.o: third-party/re2/CMakeFiles/re2.dir/flags.make
 third-party/re2/CMakeFiles/re2.dir/src/re2/nfa.cc.o: third-party/re2/src/re2/nfa.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/re2/CMakeFiles/re2.dir/src/re2/nfa.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/re2/nfa.cc.o -c /tmp/hhvm-3.11.1/third-party/re2/src/re2/nfa.cc
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/re2/nfa.cc.o -c /tmp/hhvm-3.12.0/third-party/re2/src/re2/nfa.cc
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/nfa.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/re2.dir/src/re2/nfa.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/re2/src/re2/nfa.cc > CMakeFiles/re2.dir/src/re2/nfa.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/re2/src/re2/nfa.cc > CMakeFiles/re2.dir/src/re2/nfa.cc.i
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/nfa.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/re2.dir/src/re2/nfa.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/re2/src/re2/nfa.cc -o CMakeFiles/re2.dir/src/re2/nfa.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/re2/src/re2/nfa.cc -o CMakeFiles/re2.dir/src/re2/nfa.cc.s
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/nfa.cc.o.requires:
 .PHONY : third-party/re2/CMakeFiles/re2.dir/src/re2/nfa.cc.o.requires
@@ -307,17 +307,17 @@ third-party/re2/CMakeFiles/re2.dir/src/re2/nfa.cc.o.provides.build: third-party/
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/onepass.cc.o: third-party/re2/CMakeFiles/re2.dir/flags.make
 third-party/re2/CMakeFiles/re2.dir/src/re2/onepass.cc.o: third-party/re2/src/re2/onepass.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/re2/CMakeFiles/re2.dir/src/re2/onepass.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/re2/onepass.cc.o -c /tmp/hhvm-3.11.1/third-party/re2/src/re2/onepass.cc
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/re2/onepass.cc.o -c /tmp/hhvm-3.12.0/third-party/re2/src/re2/onepass.cc
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/onepass.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/re2.dir/src/re2/onepass.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/re2/src/re2/onepass.cc > CMakeFiles/re2.dir/src/re2/onepass.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/re2/src/re2/onepass.cc > CMakeFiles/re2.dir/src/re2/onepass.cc.i
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/onepass.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/re2.dir/src/re2/onepass.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/re2/src/re2/onepass.cc -o CMakeFiles/re2.dir/src/re2/onepass.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/re2/src/re2/onepass.cc -o CMakeFiles/re2.dir/src/re2/onepass.cc.s
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/onepass.cc.o.requires:
 .PHONY : third-party/re2/CMakeFiles/re2.dir/src/re2/onepass.cc.o.requires
@@ -330,17 +330,17 @@ third-party/re2/CMakeFiles/re2.dir/src/re2/onepass.cc.o.provides.build: third-pa
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/parse.cc.o: third-party/re2/CMakeFiles/re2.dir/flags.make
 third-party/re2/CMakeFiles/re2.dir/src/re2/parse.cc.o: third-party/re2/src/re2/parse.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/re2/CMakeFiles/re2.dir/src/re2/parse.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/re2/parse.cc.o -c /tmp/hhvm-3.11.1/third-party/re2/src/re2/parse.cc
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/re2/parse.cc.o -c /tmp/hhvm-3.12.0/third-party/re2/src/re2/parse.cc
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/parse.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/re2.dir/src/re2/parse.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/re2/src/re2/parse.cc > CMakeFiles/re2.dir/src/re2/parse.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/re2/src/re2/parse.cc > CMakeFiles/re2.dir/src/re2/parse.cc.i
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/parse.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/re2.dir/src/re2/parse.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/re2/src/re2/parse.cc -o CMakeFiles/re2.dir/src/re2/parse.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/re2/src/re2/parse.cc -o CMakeFiles/re2.dir/src/re2/parse.cc.s
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/parse.cc.o.requires:
 .PHONY : third-party/re2/CMakeFiles/re2.dir/src/re2/parse.cc.o.requires
@@ -353,17 +353,17 @@ third-party/re2/CMakeFiles/re2.dir/src/re2/parse.cc.o.provides.build: third-part
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/perl_groups.cc.o: third-party/re2/CMakeFiles/re2.dir/flags.make
 third-party/re2/CMakeFiles/re2.dir/src/re2/perl_groups.cc.o: third-party/re2/src/re2/perl_groups.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/re2/CMakeFiles/re2.dir/src/re2/perl_groups.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/re2/perl_groups.cc.o -c /tmp/hhvm-3.11.1/third-party/re2/src/re2/perl_groups.cc
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/re2/perl_groups.cc.o -c /tmp/hhvm-3.12.0/third-party/re2/src/re2/perl_groups.cc
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/perl_groups.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/re2.dir/src/re2/perl_groups.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/re2/src/re2/perl_groups.cc > CMakeFiles/re2.dir/src/re2/perl_groups.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/re2/src/re2/perl_groups.cc > CMakeFiles/re2.dir/src/re2/perl_groups.cc.i
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/perl_groups.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/re2.dir/src/re2/perl_groups.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/re2/src/re2/perl_groups.cc -o CMakeFiles/re2.dir/src/re2/perl_groups.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/re2/src/re2/perl_groups.cc -o CMakeFiles/re2.dir/src/re2/perl_groups.cc.s
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/perl_groups.cc.o.requires:
 .PHONY : third-party/re2/CMakeFiles/re2.dir/src/re2/perl_groups.cc.o.requires
@@ -376,17 +376,17 @@ third-party/re2/CMakeFiles/re2.dir/src/re2/perl_groups.cc.o.provides.build: thir
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/prefilter.cc.o: third-party/re2/CMakeFiles/re2.dir/flags.make
 third-party/re2/CMakeFiles/re2.dir/src/re2/prefilter.cc.o: third-party/re2/src/re2/prefilter.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/re2/CMakeFiles/re2.dir/src/re2/prefilter.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/re2/prefilter.cc.o -c /tmp/hhvm-3.11.1/third-party/re2/src/re2/prefilter.cc
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/re2/prefilter.cc.o -c /tmp/hhvm-3.12.0/third-party/re2/src/re2/prefilter.cc
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/prefilter.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/re2.dir/src/re2/prefilter.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/re2/src/re2/prefilter.cc > CMakeFiles/re2.dir/src/re2/prefilter.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/re2/src/re2/prefilter.cc > CMakeFiles/re2.dir/src/re2/prefilter.cc.i
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/prefilter.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/re2.dir/src/re2/prefilter.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/re2/src/re2/prefilter.cc -o CMakeFiles/re2.dir/src/re2/prefilter.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/re2/src/re2/prefilter.cc -o CMakeFiles/re2.dir/src/re2/prefilter.cc.s
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/prefilter.cc.o.requires:
 .PHONY : third-party/re2/CMakeFiles/re2.dir/src/re2/prefilter.cc.o.requires
@@ -399,17 +399,17 @@ third-party/re2/CMakeFiles/re2.dir/src/re2/prefilter.cc.o.provides.build: third-
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/prefilter_tree.cc.o: third-party/re2/CMakeFiles/re2.dir/flags.make
 third-party/re2/CMakeFiles/re2.dir/src/re2/prefilter_tree.cc.o: third-party/re2/src/re2/prefilter_tree.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/re2/CMakeFiles/re2.dir/src/re2/prefilter_tree.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/re2/prefilter_tree.cc.o -c /tmp/hhvm-3.11.1/third-party/re2/src/re2/prefilter_tree.cc
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/re2/prefilter_tree.cc.o -c /tmp/hhvm-3.12.0/third-party/re2/src/re2/prefilter_tree.cc
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/prefilter_tree.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/re2.dir/src/re2/prefilter_tree.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/re2/src/re2/prefilter_tree.cc > CMakeFiles/re2.dir/src/re2/prefilter_tree.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/re2/src/re2/prefilter_tree.cc > CMakeFiles/re2.dir/src/re2/prefilter_tree.cc.i
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/prefilter_tree.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/re2.dir/src/re2/prefilter_tree.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/re2/src/re2/prefilter_tree.cc -o CMakeFiles/re2.dir/src/re2/prefilter_tree.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/re2/src/re2/prefilter_tree.cc -o CMakeFiles/re2.dir/src/re2/prefilter_tree.cc.s
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/prefilter_tree.cc.o.requires:
 .PHONY : third-party/re2/CMakeFiles/re2.dir/src/re2/prefilter_tree.cc.o.requires
@@ -422,17 +422,17 @@ third-party/re2/CMakeFiles/re2.dir/src/re2/prefilter_tree.cc.o.provides.build: t
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/prog.cc.o: third-party/re2/CMakeFiles/re2.dir/flags.make
 third-party/re2/CMakeFiles/re2.dir/src/re2/prog.cc.o: third-party/re2/src/re2/prog.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/re2/CMakeFiles/re2.dir/src/re2/prog.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/re2/prog.cc.o -c /tmp/hhvm-3.11.1/third-party/re2/src/re2/prog.cc
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/re2/prog.cc.o -c /tmp/hhvm-3.12.0/third-party/re2/src/re2/prog.cc
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/prog.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/re2.dir/src/re2/prog.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/re2/src/re2/prog.cc > CMakeFiles/re2.dir/src/re2/prog.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/re2/src/re2/prog.cc > CMakeFiles/re2.dir/src/re2/prog.cc.i
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/prog.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/re2.dir/src/re2/prog.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/re2/src/re2/prog.cc -o CMakeFiles/re2.dir/src/re2/prog.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/re2/src/re2/prog.cc -o CMakeFiles/re2.dir/src/re2/prog.cc.s
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/prog.cc.o.requires:
 .PHONY : third-party/re2/CMakeFiles/re2.dir/src/re2/prog.cc.o.requires
@@ -445,17 +445,17 @@ third-party/re2/CMakeFiles/re2.dir/src/re2/prog.cc.o.provides.build: third-party
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/re2.cc.o: third-party/re2/CMakeFiles/re2.dir/flags.make
 third-party/re2/CMakeFiles/re2.dir/src/re2/re2.cc.o: third-party/re2/src/re2/re2.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/re2/CMakeFiles/re2.dir/src/re2/re2.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/re2/re2.cc.o -c /tmp/hhvm-3.11.1/third-party/re2/src/re2/re2.cc
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/re2/re2.cc.o -c /tmp/hhvm-3.12.0/third-party/re2/src/re2/re2.cc
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/re2.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/re2.dir/src/re2/re2.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/re2/src/re2/re2.cc > CMakeFiles/re2.dir/src/re2/re2.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/re2/src/re2/re2.cc > CMakeFiles/re2.dir/src/re2/re2.cc.i
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/re2.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/re2.dir/src/re2/re2.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/re2/src/re2/re2.cc -o CMakeFiles/re2.dir/src/re2/re2.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/re2/src/re2/re2.cc -o CMakeFiles/re2.dir/src/re2/re2.cc.s
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/re2.cc.o.requires:
 .PHONY : third-party/re2/CMakeFiles/re2.dir/src/re2/re2.cc.o.requires
@@ -468,17 +468,17 @@ third-party/re2/CMakeFiles/re2.dir/src/re2/re2.cc.o.provides.build: third-party/
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/regexp.cc.o: third-party/re2/CMakeFiles/re2.dir/flags.make
 third-party/re2/CMakeFiles/re2.dir/src/re2/regexp.cc.o: third-party/re2/src/re2/regexp.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/re2/CMakeFiles/re2.dir/src/re2/regexp.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/re2/regexp.cc.o -c /tmp/hhvm-3.11.1/third-party/re2/src/re2/regexp.cc
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/re2/regexp.cc.o -c /tmp/hhvm-3.12.0/third-party/re2/src/re2/regexp.cc
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/regexp.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/re2.dir/src/re2/regexp.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/re2/src/re2/regexp.cc > CMakeFiles/re2.dir/src/re2/regexp.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/re2/src/re2/regexp.cc > CMakeFiles/re2.dir/src/re2/regexp.cc.i
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/regexp.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/re2.dir/src/re2/regexp.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/re2/src/re2/regexp.cc -o CMakeFiles/re2.dir/src/re2/regexp.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/re2/src/re2/regexp.cc -o CMakeFiles/re2.dir/src/re2/regexp.cc.s
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/regexp.cc.o.requires:
 .PHONY : third-party/re2/CMakeFiles/re2.dir/src/re2/regexp.cc.o.requires
@@ -491,17 +491,17 @@ third-party/re2/CMakeFiles/re2.dir/src/re2/regexp.cc.o.provides.build: third-par
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/set.cc.o: third-party/re2/CMakeFiles/re2.dir/flags.make
 third-party/re2/CMakeFiles/re2.dir/src/re2/set.cc.o: third-party/re2/src/re2/set.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/re2/CMakeFiles/re2.dir/src/re2/set.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/re2/set.cc.o -c /tmp/hhvm-3.11.1/third-party/re2/src/re2/set.cc
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/re2/set.cc.o -c /tmp/hhvm-3.12.0/third-party/re2/src/re2/set.cc
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/set.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/re2.dir/src/re2/set.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/re2/src/re2/set.cc > CMakeFiles/re2.dir/src/re2/set.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/re2/src/re2/set.cc > CMakeFiles/re2.dir/src/re2/set.cc.i
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/set.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/re2.dir/src/re2/set.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/re2/src/re2/set.cc -o CMakeFiles/re2.dir/src/re2/set.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/re2/src/re2/set.cc -o CMakeFiles/re2.dir/src/re2/set.cc.s
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/set.cc.o.requires:
 .PHONY : third-party/re2/CMakeFiles/re2.dir/src/re2/set.cc.o.requires
@@ -514,17 +514,17 @@ third-party/re2/CMakeFiles/re2.dir/src/re2/set.cc.o.provides.build: third-party/
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/simplify.cc.o: third-party/re2/CMakeFiles/re2.dir/flags.make
 third-party/re2/CMakeFiles/re2.dir/src/re2/simplify.cc.o: third-party/re2/src/re2/simplify.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/re2/CMakeFiles/re2.dir/src/re2/simplify.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/re2/simplify.cc.o -c /tmp/hhvm-3.11.1/third-party/re2/src/re2/simplify.cc
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/re2/simplify.cc.o -c /tmp/hhvm-3.12.0/third-party/re2/src/re2/simplify.cc
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/simplify.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/re2.dir/src/re2/simplify.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/re2/src/re2/simplify.cc > CMakeFiles/re2.dir/src/re2/simplify.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/re2/src/re2/simplify.cc > CMakeFiles/re2.dir/src/re2/simplify.cc.i
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/simplify.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/re2.dir/src/re2/simplify.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/re2/src/re2/simplify.cc -o CMakeFiles/re2.dir/src/re2/simplify.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/re2/src/re2/simplify.cc -o CMakeFiles/re2.dir/src/re2/simplify.cc.s
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/simplify.cc.o.requires:
 .PHONY : third-party/re2/CMakeFiles/re2.dir/src/re2/simplify.cc.o.requires
@@ -537,17 +537,17 @@ third-party/re2/CMakeFiles/re2.dir/src/re2/simplify.cc.o.provides.build: third-p
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/stringpiece.cc.o: third-party/re2/CMakeFiles/re2.dir/flags.make
 third-party/re2/CMakeFiles/re2.dir/src/re2/stringpiece.cc.o: third-party/re2/src/re2/stringpiece.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/re2/CMakeFiles/re2.dir/src/re2/stringpiece.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/re2/stringpiece.cc.o -c /tmp/hhvm-3.11.1/third-party/re2/src/re2/stringpiece.cc
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/re2/stringpiece.cc.o -c /tmp/hhvm-3.12.0/third-party/re2/src/re2/stringpiece.cc
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/stringpiece.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/re2.dir/src/re2/stringpiece.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/re2/src/re2/stringpiece.cc > CMakeFiles/re2.dir/src/re2/stringpiece.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/re2/src/re2/stringpiece.cc > CMakeFiles/re2.dir/src/re2/stringpiece.cc.i
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/stringpiece.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/re2.dir/src/re2/stringpiece.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/re2/src/re2/stringpiece.cc -o CMakeFiles/re2.dir/src/re2/stringpiece.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/re2/src/re2/stringpiece.cc -o CMakeFiles/re2.dir/src/re2/stringpiece.cc.s
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/stringpiece.cc.o.requires:
 .PHONY : third-party/re2/CMakeFiles/re2.dir/src/re2/stringpiece.cc.o.requires
@@ -560,17 +560,17 @@ third-party/re2/CMakeFiles/re2.dir/src/re2/stringpiece.cc.o.provides.build: thir
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/tostring.cc.o: third-party/re2/CMakeFiles/re2.dir/flags.make
 third-party/re2/CMakeFiles/re2.dir/src/re2/tostring.cc.o: third-party/re2/src/re2/tostring.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/re2/CMakeFiles/re2.dir/src/re2/tostring.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/re2/tostring.cc.o -c /tmp/hhvm-3.11.1/third-party/re2/src/re2/tostring.cc
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/re2/tostring.cc.o -c /tmp/hhvm-3.12.0/third-party/re2/src/re2/tostring.cc
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/tostring.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/re2.dir/src/re2/tostring.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/re2/src/re2/tostring.cc > CMakeFiles/re2.dir/src/re2/tostring.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/re2/src/re2/tostring.cc > CMakeFiles/re2.dir/src/re2/tostring.cc.i
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/tostring.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/re2.dir/src/re2/tostring.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/re2/src/re2/tostring.cc -o CMakeFiles/re2.dir/src/re2/tostring.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/re2/src/re2/tostring.cc -o CMakeFiles/re2.dir/src/re2/tostring.cc.s
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/tostring.cc.o.requires:
 .PHONY : third-party/re2/CMakeFiles/re2.dir/src/re2/tostring.cc.o.requires
@@ -583,17 +583,17 @@ third-party/re2/CMakeFiles/re2.dir/src/re2/tostring.cc.o.provides.build: third-p
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/unicode_casefold.cc.o: third-party/re2/CMakeFiles/re2.dir/flags.make
 third-party/re2/CMakeFiles/re2.dir/src/re2/unicode_casefold.cc.o: third-party/re2/src/re2/unicode_casefold.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/re2/CMakeFiles/re2.dir/src/re2/unicode_casefold.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/re2/unicode_casefold.cc.o -c /tmp/hhvm-3.11.1/third-party/re2/src/re2/unicode_casefold.cc
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/re2/unicode_casefold.cc.o -c /tmp/hhvm-3.12.0/third-party/re2/src/re2/unicode_casefold.cc
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/unicode_casefold.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/re2.dir/src/re2/unicode_casefold.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/re2/src/re2/unicode_casefold.cc > CMakeFiles/re2.dir/src/re2/unicode_casefold.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/re2/src/re2/unicode_casefold.cc > CMakeFiles/re2.dir/src/re2/unicode_casefold.cc.i
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/unicode_casefold.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/re2.dir/src/re2/unicode_casefold.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/re2/src/re2/unicode_casefold.cc -o CMakeFiles/re2.dir/src/re2/unicode_casefold.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/re2/src/re2/unicode_casefold.cc -o CMakeFiles/re2.dir/src/re2/unicode_casefold.cc.s
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/unicode_casefold.cc.o.requires:
 .PHONY : third-party/re2/CMakeFiles/re2.dir/src/re2/unicode_casefold.cc.o.requires
@@ -606,17 +606,17 @@ third-party/re2/CMakeFiles/re2.dir/src/re2/unicode_casefold.cc.o.provides.build:
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/unicode_groups.cc.o: third-party/re2/CMakeFiles/re2.dir/flags.make
 third-party/re2/CMakeFiles/re2.dir/src/re2/unicode_groups.cc.o: third-party/re2/src/re2/unicode_groups.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/re2/CMakeFiles/re2.dir/src/re2/unicode_groups.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/re2/unicode_groups.cc.o -c /tmp/hhvm-3.11.1/third-party/re2/src/re2/unicode_groups.cc
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/re2.dir/src/re2/unicode_groups.cc.o -c /tmp/hhvm-3.12.0/third-party/re2/src/re2/unicode_groups.cc
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/unicode_groups.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/re2.dir/src/re2/unicode_groups.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/re2/src/re2/unicode_groups.cc > CMakeFiles/re2.dir/src/re2/unicode_groups.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/re2/src/re2/unicode_groups.cc > CMakeFiles/re2.dir/src/re2/unicode_groups.cc.i
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/unicode_groups.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/re2.dir/src/re2/unicode_groups.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/re2/src/re2/unicode_groups.cc -o CMakeFiles/re2.dir/src/re2/unicode_groups.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/re2 && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/re2/src/re2/unicode_groups.cc -o CMakeFiles/re2.dir/src/re2/unicode_groups.cc.s
 
 third-party/re2/CMakeFiles/re2.dir/src/re2/unicode_groups.cc.o.requires:
 .PHONY : third-party/re2/CMakeFiles/re2.dir/src/re2/unicode_groups.cc.o.requires
@@ -686,8 +686,8 @@ third-party/re2/libre2.a: third-party/re2/CMakeFiles/re2.dir/src/re2/unicode_gro
 third-party/re2/libre2.a: third-party/re2/CMakeFiles/re2.dir/build.make
 third-party/re2/libre2.a: third-party/re2/CMakeFiles/re2.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libre2.a"
-	cd /tmp/hhvm-3.11.1/third-party/re2 && $(CMAKE_COMMAND) -P CMakeFiles/re2.dir/cmake_clean_target.cmake
-	cd /tmp/hhvm-3.11.1/third-party/re2 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/re2.dir/link.txt --verbose=$(VERBOSE)
+	cd /tmp/hhvm-3.12.0/third-party/re2 && $(CMAKE_COMMAND) -P CMakeFiles/re2.dir/cmake_clean_target.cmake
+	cd /tmp/hhvm-3.12.0/third-party/re2 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/re2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 third-party/re2/CMakeFiles/re2.dir/build: third-party/re2/libre2.a
@@ -721,10 +721,10 @@ third-party/re2/CMakeFiles/re2.dir/requires: third-party/re2/CMakeFiles/re2.dir/
 .PHONY : third-party/re2/CMakeFiles/re2.dir/requires
 
 third-party/re2/CMakeFiles/re2.dir/clean:
-	cd /tmp/hhvm-3.11.1/third-party/re2 && $(CMAKE_COMMAND) -P CMakeFiles/re2.dir/cmake_clean.cmake
+	cd /tmp/hhvm-3.12.0/third-party/re2 && $(CMAKE_COMMAND) -P CMakeFiles/re2.dir/cmake_clean.cmake
 .PHONY : third-party/re2/CMakeFiles/re2.dir/clean
 
 third-party/re2/CMakeFiles/re2.dir/depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/third-party/re2 /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/third-party/re2 /tmp/hhvm-3.11.1/third-party/re2/CMakeFiles/re2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.12.0 /tmp/hhvm-3.12.0/third-party/re2 /tmp/hhvm-3.12.0 /tmp/hhvm-3.12.0/third-party/re2 /tmp/hhvm-3.12.0/third-party/re2/CMakeFiles/re2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : third-party/re2/CMakeFiles/re2.dir/depend
 

@@ -453,7 +453,10 @@ bool DateTime::modify(const String& diff) {
   timelib_time *tmp_time = timelib_strtotime((char*)diff.data(), diff.size(),
                                              &error, TimeZone::GetDatabase(),
                                              TimeZone::GetTimeZoneInfoRaw);
-  SCOPE_EXIT { timelib_time_dtor(tmp_time); };
+  SCOPE_EXIT {
+    timelib_time_dtor(tmp_time);
+    if (error) timelib_error_container_dtor(error);
+  };
 
   if (error && error->error_count > 0) {
     raise_warning("DateTime::modify(): Failed to parse time string (%s)"
@@ -898,6 +901,7 @@ bool DateTime::fromString(const String& input, req::ptr<TimeZone> tz,
   // needed if any date part is missing
   timelib_fill_holes(t, m_time.get(), TIMELIB_NO_CLONE);
   timelib_update_ts(t, m_tz->get());
+  timelib_update_from_sse(t);
 
   int error2;
   m_timestamp = timelib_date_to_int(t, &error2);

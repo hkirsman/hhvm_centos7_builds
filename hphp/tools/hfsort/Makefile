@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.0
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles /tmp/hhvm-3.11.1/hphp/tools/hfsort/CMakeFiles/progress.marks
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/tools/hfsort/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles 0
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.0/CMakeFiles /tmp/hhvm-3.12.0/hphp/tools/hfsort/CMakeFiles/progress.marks
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/tools/hfsort/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.0/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/tools/hfsort/clean
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/tools/hfsort/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/tools/hfsort/preinstall
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/tools/hfsort/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/tools/hfsort/preinstall
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/tools/hfsort/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 hphp/tools/hfsort/CMakeFiles/hfsort.dir/rule:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/tools/hfsort/CMakeFiles/hfsort.dir/rule
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/tools/hfsort/CMakeFiles/hfsort.dir/rule
 .PHONY : hphp/tools/hfsort/CMakeFiles/hfsort.dir/rule
 
 # Convenience name for target.
@@ -153,12 +153,12 @@ hfsort: hphp/tools/hfsort/CMakeFiles/hfsort.dir/rule
 
 # fast build rule for target.
 hfsort/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/tools/hfsort/CMakeFiles/hfsort.dir/build.make hphp/tools/hfsort/CMakeFiles/hfsort.dir/build
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/tools/hfsort/CMakeFiles/hfsort.dir/build.make hphp/tools/hfsort/CMakeFiles/hfsort.dir/build
 .PHONY : hfsort/fast
 
 # Convenience name for target.
 hphp/tools/hfsort/CMakeFiles/jit_sort.dir/rule:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/tools/hfsort/CMakeFiles/jit_sort.dir/rule
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/tools/hfsort/CMakeFiles/jit_sort.dir/rule
 .PHONY : hphp/tools/hfsort/CMakeFiles/jit_sort.dir/rule
 
 # Convenience name for target.
@@ -167,7 +167,7 @@ jit_sort: hphp/tools/hfsort/CMakeFiles/jit_sort.dir/rule
 
 # fast build rule for target.
 jit_sort/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/tools/hfsort/CMakeFiles/jit_sort.dir/build.make hphp/tools/hfsort/CMakeFiles/jit_sort.dir/build
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/tools/hfsort/CMakeFiles/jit_sort.dir/build.make hphp/tools/hfsort/CMakeFiles/jit_sort.dir/build
 .PHONY : jit_sort/fast
 
 hfsort.o: hfsort.cpp.o
@@ -175,7 +175,7 @@ hfsort.o: hfsort.cpp.o
 
 # target to build an object file
 hfsort.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/tools/hfsort/CMakeFiles/hfsort.dir/build.make hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfsort.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/tools/hfsort/CMakeFiles/hfsort.dir/build.make hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfsort.cpp.o
 .PHONY : hfsort.cpp.o
 
 hfsort.i: hfsort.cpp.i
@@ -183,7 +183,7 @@ hfsort.i: hfsort.cpp.i
 
 # target to preprocess a source file
 hfsort.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/tools/hfsort/CMakeFiles/hfsort.dir/build.make hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfsort.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/tools/hfsort/CMakeFiles/hfsort.dir/build.make hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfsort.cpp.i
 .PHONY : hfsort.cpp.i
 
 hfsort.s: hfsort.cpp.s
@@ -191,7 +191,7 @@ hfsort.s: hfsort.cpp.s
 
 # target to generate assembly for a file
 hfsort.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/tools/hfsort/CMakeFiles/hfsort.dir/build.make hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfsort.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/tools/hfsort/CMakeFiles/hfsort.dir/build.make hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfsort.cpp.s
 .PHONY : hfsort.cpp.s
 
 hfutil.o: hfutil.cpp.o
@@ -199,8 +199,8 @@ hfutil.o: hfutil.cpp.o
 
 # target to build an object file
 hfutil.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/tools/hfsort/CMakeFiles/hfsort.dir/build.make hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfutil.cpp.o
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/tools/hfsort/CMakeFiles/jit_sort.dir/build.make hphp/tools/hfsort/CMakeFiles/jit_sort.dir/hfutil.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/tools/hfsort/CMakeFiles/hfsort.dir/build.make hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfutil.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/tools/hfsort/CMakeFiles/jit_sort.dir/build.make hphp/tools/hfsort/CMakeFiles/jit_sort.dir/hfutil.cpp.o
 .PHONY : hfutil.cpp.o
 
 hfutil.i: hfutil.cpp.i
@@ -208,8 +208,8 @@ hfutil.i: hfutil.cpp.i
 
 # target to preprocess a source file
 hfutil.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/tools/hfsort/CMakeFiles/hfsort.dir/build.make hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfutil.cpp.i
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/tools/hfsort/CMakeFiles/jit_sort.dir/build.make hphp/tools/hfsort/CMakeFiles/jit_sort.dir/hfutil.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/tools/hfsort/CMakeFiles/hfsort.dir/build.make hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfutil.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/tools/hfsort/CMakeFiles/jit_sort.dir/build.make hphp/tools/hfsort/CMakeFiles/jit_sort.dir/hfutil.cpp.i
 .PHONY : hfutil.cpp.i
 
 hfutil.s: hfutil.cpp.s
@@ -217,8 +217,8 @@ hfutil.s: hfutil.cpp.s
 
 # target to generate assembly for a file
 hfutil.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/tools/hfsort/CMakeFiles/hfsort.dir/build.make hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfutil.cpp.s
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/tools/hfsort/CMakeFiles/jit_sort.dir/build.make hphp/tools/hfsort/CMakeFiles/jit_sort.dir/hfutil.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/tools/hfsort/CMakeFiles/hfsort.dir/build.make hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfutil.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/tools/hfsort/CMakeFiles/jit_sort.dir/build.make hphp/tools/hfsort/CMakeFiles/jit_sort.dir/hfutil.cpp.s
 .PHONY : hfutil.cpp.s
 
 jitsort.o: jitsort.cpp.o
@@ -226,7 +226,7 @@ jitsort.o: jitsort.cpp.o
 
 # target to build an object file
 jitsort.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/tools/hfsort/CMakeFiles/jit_sort.dir/build.make hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/tools/hfsort/CMakeFiles/jit_sort.dir/build.make hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.o
 .PHONY : jitsort.cpp.o
 
 jitsort.i: jitsort.cpp.i
@@ -234,7 +234,7 @@ jitsort.i: jitsort.cpp.i
 
 # target to preprocess a source file
 jitsort.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/tools/hfsort/CMakeFiles/jit_sort.dir/build.make hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/tools/hfsort/CMakeFiles/jit_sort.dir/build.make hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.i
 .PHONY : jitsort.cpp.i
 
 jitsort.s: jitsort.cpp.s
@@ -242,7 +242,7 @@ jitsort.s: jitsort.cpp.s
 
 # target to generate assembly for a file
 jitsort.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/tools/hfsort/CMakeFiles/jit_sort.dir/build.make hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/tools/hfsort/CMakeFiles/jit_sort.dir/build.make hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.s
 .PHONY : jitsort.cpp.s
 
 # Help Target
@@ -279,6 +279,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

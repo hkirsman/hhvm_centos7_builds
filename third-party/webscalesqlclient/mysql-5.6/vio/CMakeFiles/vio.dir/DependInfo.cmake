@@ -4,12 +4,12 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/vio/vio.c" "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/vio/CMakeFiles/vio.dir/vio.c.o"
-  "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/vio/viopipe.c" "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/vio/CMakeFiles/vio.dir/viopipe.c.o"
-  "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/vio/vioshm.c" "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/vio/CMakeFiles/vio.dir/vioshm.c.o"
-  "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/vio/viosocket.c" "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/vio/CMakeFiles/vio.dir/viosocket.c.o"
-  "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/vio/viossl.c" "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/vio/CMakeFiles/vio.dir/viossl.c.o"
-  "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/vio/viosslfactories.c" "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/vio/CMakeFiles/vio.dir/viosslfactories.c.o"
+  "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/vio/vio.c" "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/vio/CMakeFiles/vio.dir/vio.c.o"
+  "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/vio/viopipe.c" "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/vio/CMakeFiles/vio.dir/viopipe.c.o"
+  "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/vio/vioshm.c" "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/vio/CMakeFiles/vio.dir/vioshm.c.o"
+  "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/vio/viosocket.c" "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/vio/CMakeFiles/vio.dir/viosocket.c.o"
+  "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/vio/viossl.c" "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/vio/CMakeFiles/vio.dir/viossl.c.o"
+  "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/vio/viosslfactories.c" "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/vio/CMakeFiles/vio.dir/viosslfactories.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 

@@ -56,7 +56,9 @@ class ServerAcceptor
       pipeline_->setPipelineManager(this);
     }
 
-    ~ServerConnection() = default;
+    ~ServerConnection() {
+      pipeline_->setPipelineManager(nullptr);
+    }
 
     void timeoutExpired() noexcept override {
       auto ew = folly::make_exception_wrapper<AcceptorException>(
@@ -66,7 +68,7 @@ class ServerAcceptor
 
     void describe(std::ostream& os) const override {}
     bool isBusy() const override {
-      return false;
+      return true;
     }
     void notifyPendingShutdown() override {}
     void closeWhenIdle() override {}
@@ -78,6 +80,14 @@ class ServerAcceptor
     void deletePipeline(wangle::PipelineBase* p) override {
       CHECK(p == pipeline_.get());
       delete this;
+    }
+
+    void init() {
+      pipeline_->transportActive();
+    }
+
+    void refreshTimeout() override {
+      resetTimeout();
     }
 
    private:
@@ -116,11 +126,12 @@ class ServerAcceptor
     }
 
     auto connInfo = boost::get<ConnInfo&>(conn);
-    folly::AsyncSocket::UniquePtr transport(connInfo.sock);
+    folly::AsyncTransportWrapper::UniquePtr transport(connInfo.sock);
 
     // Setup local and remote addresses
     auto tInfoPtr = std::make_shared<TransportInfo>(connInfo.tinfo);
-    tInfoPtr->localAddr = std::make_shared<folly::SocketAddress>();
+    tInfoPtr->localAddr =
+      std::make_shared<folly::SocketAddress>(accConfig_.bindAddress);
     transport->getLocalAddress(tInfoPtr->localAddr.get());
     tInfoPtr->remoteAddr =
       std::make_shared<folly::SocketAddress>(*connInfo.clientAddr);
@@ -128,12 +139,12 @@ class ServerAcceptor
       std::make_shared<std::string>(connInfo.nextProtoName);
 
     auto pipeline = childPipelineFactory_->newPipeline(
-      std::shared_ptr<folly::AsyncSocket>(
+      std::shared_ptr<folly::AsyncTransportWrapper>(
         transport.release(), folly::DelayedDestruction::Destructor()));
     pipeline->setTransportInfo(tInfoPtr);
-    pipeline->transportActive();
     auto connection = new ServerConnection(std::move(pipeline));
     Acceptor::addConnection(connection);
+    connection->init();
   }
 
   // Null implementation to terminate the call in this handler
@@ -143,7 +154,7 @@ class ServerAcceptor
                      folly::exception_wrapper ex) override {}
 
   /* See Acceptor::onNewConnection for details */
-  void onNewConnection(folly::AsyncSocket::UniquePtr transport,
+  void onNewConnection(folly::AsyncTransportWrapper::UniquePtr transport,
                        const folly::SocketAddress* clientAddr,
                        const std::string& nextProtocolName,
                        SecureTransportType secureTransportType,

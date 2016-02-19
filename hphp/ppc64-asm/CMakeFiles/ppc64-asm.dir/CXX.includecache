@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/tmp/hhvm-3.11.1/hphp/ppc64-asm/asm-ppc64.cpp
+/tmp/hhvm-3.12.0/hphp/ppc64-asm/asm-ppc64.cpp
 hphp/ppc64-asm/asm-ppc64.h
-/tmp/hhvm-3.11.1/hphp/ppc64-asm/hphp/ppc64-asm/asm-ppc64.h
+/tmp/hhvm-3.12.0/hphp/ppc64-asm/hphp/ppc64-asm/asm-ppc64.h
 
 hphp/ppc64-asm/asm-ppc64.h
 cstdint
@@ -29,8 +29,6 @@ hphp/util/asm-x64.h
 hphp/ppc64-asm/hphp/util/asm-x64.h
 hphp/util/immed.h
 hphp/ppc64-asm/hphp/util/immed.h
-hphp/util/safe-cast.h
-hphp/ppc64-asm/hphp/util/safe-cast.h
 
 hphp/ppc64-asm/isa-ppc64.h
 cstdint
@@ -53,8 +51,6 @@ hphp/runtime/base/types.h
 hphp/runtime/vm/jit/hphp/runtime/base/types.h
 
 hphp/util/asm-x64.h
-boost/noncopyable.hpp
--
 type_traits
 -
 hphp/util/data-block.h
@@ -154,6 +150,14 @@ hphp/util/immed.h
 hphp/util/safe-cast.h
 hphp/util/hphp/util/safe-cast.h
 
+hphp/util/locale-portability.h
+locale.h
+-
+langinfo.h
+-
+xlocale.h
+-
+
 hphp/util/low-ptr.h
 hphp/util/assertions.h
 hphp/util/hphp/util/assertions.h
@@ -182,6 +186,34 @@ folly/Portability.h
 folly/CPortability.h
 -
 sys/param.h
+-
+hphp/util/portability/fnmatch.h
+hphp/util/hphp/util/portability/fnmatch.h
+hphp/util/portability/glob.h
+hphp/util/hphp/util/portability/glob.h
+hphp/util/portability/rand_r.h
+hphp/util/hphp/util/portability/rand_r.h
+hphp/util/portability/strfmon.h
+hphp/util/hphp/util/portability/strfmon.h
+hphp/util/portability/strptime.h
+hphp/util/hphp/util/portability/strptime.h
+
+hphp/util/portability/fnmatch.h
+
+hphp/util/portability/glob.h
+
+hphp/util/portability/rand_r.h
+
+hphp/util/portability/strfmon.h
+hphp/util/locale-portability.h
+hphp/util/portability/hphp/util/locale-portability.h
+folly/Portability.h
+-
+stdint.h
+-
+
+hphp/util/portability/strptime.h
+time.h
 -
 
 hphp/util/safe-cast.h

@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/hhvm-3.11.1/hphp/neo
+# Install script for directory: /tmp/hhvm-3.12.0/hphp/neo
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,8 +33,8 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
-  INCLUDE("/tmp/hhvm-3.11.1/CMake/HPHPFunctions.cmake")
-      HHVM_INSTALL_HEADERS(neo /tmp/hhvm-3.11.1
-      "${CMAKE_INSTALL_PREFIX}/include" /tmp/hhvm-3.11.1/hphp/neo/./cs_config.h;/tmp/hhvm-3.11.1/hphp/neo/./neo_bool.h;/tmp/hhvm-3.11.1/hphp/neo/./neo_err.h;/tmp/hhvm-3.11.1/hphp/neo/./neo_files.h;/tmp/hhvm-3.11.1/hphp/neo/./neo_hash.h;/tmp/hhvm-3.11.1/hphp/neo/./neo_hdf.h;/tmp/hhvm-3.11.1/hphp/neo/./neo_misc.h;/tmp/hhvm-3.11.1/hphp/neo/./neo_rand.h;/tmp/hhvm-3.11.1/hphp/neo/./neo_str.h;/tmp/hhvm-3.11.1/hphp/neo/./ulist.h;/tmp/hhvm-3.11.1/hphp/neo/./ulocks.h)
+  INCLUDE("/tmp/hhvm-3.12.0/CMake/HPHPFunctions.cmake")
+      HHVM_INSTALL_HEADERS(neo /tmp/hhvm-3.12.0
+      "${CMAKE_INSTALL_PREFIX}/include" /tmp/hhvm-3.12.0/hphp/neo/./cs_config.h;/tmp/hhvm-3.12.0/hphp/neo/./neo_bool.h;/tmp/hhvm-3.12.0/hphp/neo/./neo_err.h;/tmp/hhvm-3.12.0/hphp/neo/./neo_files.h;/tmp/hhvm-3.12.0/hphp/neo/./neo_hash.h;/tmp/hhvm-3.12.0/hphp/neo/./neo_hdf.h;/tmp/hhvm-3.12.0/hphp/neo/./neo_misc.h;/tmp/hhvm-3.12.0/hphp/neo/./neo_rand.h;/tmp/hhvm-3.12.0/hphp/neo/./neo_str.h;/tmp/hhvm-3.12.0/hphp/neo/./ulist.h;/tmp/hhvm-3.12.0/hphp/neo/./ulocks.h)
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
 

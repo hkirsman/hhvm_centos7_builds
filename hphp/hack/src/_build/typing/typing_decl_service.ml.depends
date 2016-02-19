@@ -1,1 +1,1 @@
-typing/typing_decl_service.ml: Bucket Core Errors FileInfo GlobalStorage List MultiWorker Naming Relative_path SMap SSet Typing_decl Utils Worker
+typing/typing_decl_service.ml: Bucket Core Errors FileInfo GlobalStorage List MultiWorker Relative_path SMap SSet TypecheckerOptions Typing_decl Utils Worker

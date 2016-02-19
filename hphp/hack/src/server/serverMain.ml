@@ -17,8 +17,6 @@ open Utils
 exception State_not_found
 exception Load_state_disabled
 
-let sprintf = Printf.sprintf
-
 type recheck_loop_stats = {
   rechecked_batches : int;
   rechecked_count : int;
@@ -43,9 +41,6 @@ module MainInit : sig
     (unit -> env) ->    (* init function to run while we have init lock *)
     env
 end = struct
-  let grab_init_complete_lock root =
-    ignore(Lock.grab (ServerFiles.init_complete_file root))
-
   let wakeup_client oc msg =
     Option.iter oc begin fun oc ->
       try
@@ -79,7 +74,6 @@ end = struct
     let init_id = Random_id.short_string () in
     Hh_logger.log "Init id: %s" init_id;
     let env = HackEventLogger.with_id ~stage:`Init init_id init_fun in
-    grab_init_complete_lock root;
     Hh_logger.log "Server is READY";
     (** TODO: Send "ready" signal to the monitor. *)
     wakeup_client waiting_channel "ready";
@@ -96,15 +90,13 @@ module Program =
       (* Force hhi files to be extracted and their location saved before workers
        * fork, so everyone can know about the same hhi path. *)
       ignore (Hhi.get_hhi_root());
-      if not Sys.win32 then
-        (Sys.set_signal Sys.sigusr1
-          (Sys.Signal_handle Typing.debug_print_last_pos);
-        Sys.set_signal Sys.sigusr2
-          (Sys.Signal_handle (fun _ -> (
-            Hh_logger.log "Got sigusr2 signal. Going to shut down.";
-            Exit_status.exit Exit_status.Server_shutting_down
-          )));
-        )
+      Sys_utils.set_signal Sys.sigusr1
+        (Sys.Signal_handle Typing.debug_print_last_pos);
+      Sys_utils.set_signal Sys.sigusr2
+        (Sys.Signal_handle (fun _ -> (
+             Hh_logger.log "Got sigusr2 signal. Going to shut down.";
+             Exit_status.exit Exit_status.Server_shutting_down
+           )))
 
     let run_once_and_exit genv env =
       ServerError.print_errorl
@@ -163,7 +155,7 @@ let handle_connection_ genv env ic oc =
     flush oc;
     ServerCommand.handle genv env (ic, oc)
   with
-  | Sys_error("Broken pipe") ->
+  | Sys_error("Broken pipe") | ServerCommand.Read_command_timeout ->
     shutdown_client (ic, oc)
   | e ->
     let msg = Printexc.to_string e in
@@ -200,7 +192,7 @@ let recheck genv old_env updates =
         (Relative_path.suffix ServerConfig.filename)
         GlobalConfig.program_name;
        (** TODO: Notify the server monitor directly about this. *)
-       exit 4
+       Exit_status.(exit Hhconfig_changed)
     end;
   end;
   let env, total_rechecked = Program.recheck genv old_env to_recheck in
@@ -240,7 +232,7 @@ let recheck_loop = recheck_loop {
 (** Retrieve channels to client from monitor process. *)
 let get_client_channels parent_in_fd =
   let socket = Libancillary.ancil_recv_fd parent_in_fd in
-  (Unix.in_channel_of_descr socket), (Unix.out_channel_of_descr socket)
+  (Timeout.in_channel_of_descr socket), (Unix.out_channel_of_descr socket)
 
 
 let parent_is_dead () =
@@ -248,16 +240,10 @@ let parent_is_dead () =
   Unix.getppid() = 1
 
 let serve genv env in_fd _ =
-  let root = ServerArgs.root genv.options in
   let env = ref env in
   let last_stats = ref empty_recheck_loop_stats in
   let recheck_id = ref (Random_id.short_string ()) in
   while true do
-    let lock_file = ServerFiles.lock_file root in
-    if not (Lock.grab lock_file) then
-      (Hh_logger.log "Lost lock; terminating.\n%!";
-       HackEventLogger.lock_stolen lock_file;
-       Exit_status.(exit Lock_stolen));
     if parent_is_dead () then
       (Hh_logger.log "Typechecker's parent has died; exiting.\n";
        Exit_status.exit Exit_status.Lost_parent_monitor);
@@ -332,18 +318,19 @@ let load genv filename to_recheck =
 let run_load_script genv cmd =
   try
     let t = Unix.gettimeofday () in
-    let cmd =
-      sprintf
-        "%s %s %s"
-        (Filename.quote (Path.to_string cmd))
-        (Filename.quote (Path.to_string (ServerArgs.root genv.options)))
-        (Filename.quote Build_id.build_id_ohai) in
-    Hh_logger.log "Running load script: %s\n%!" cmd;
+    let cmd = Path.to_string cmd in
+    let root_arg =
+      Path.to_string (ServerArgs.root genv.options) in
+    let build_id_arg = Build_id.build_id_ohai in
+    Hh_logger.log
+      "Running load script: %s %s %s\n%!"
+      (Filename.quote cmd)
+      (Filename.quote root_arg)
+      (Filename.quote build_id_arg);
     let state_fn, to_recheck =
-      let do_fn () =
-        let ic = Unix.open_process_in cmd in
+      let reader timeout ic _oc =
         let state_fn =
-          try input_line ic
+          try Timeout.input_line ~timeout ic
           with End_of_file -> raise State_not_found
         in
         if state_fn = "DISABLED" then raise Load_state_disabled;
@@ -351,18 +338,19 @@ let run_load_script genv cmd =
         begin
           try
             while true do
-              to_recheck := input_line ic :: !to_recheck
+              to_recheck := Timeout.input_line ~timeout ic :: !to_recheck
             done
           with End_of_file -> ()
         end;
-        assert (Unix.close_process_in ic = Unix.WEXITED 0);
+        let rc = Timeout.close_process_in ic in
+        assert (rc = Unix.WEXITED 0);
         state_fn, !to_recheck
       in
-      with_timeout
-        (ServerConfig.load_script_timeout genv.config)
+      Timeout.read_process
+        ~timeout:(ServerConfig.load_script_timeout genv.config)
         ~on_timeout:(fun _ -> failwith "Load script timed out")
-        ~do_:do_fn
-    in
+        ~reader
+        cmd [| cmd; root_arg; build_id_arg; |] in
     Hh_logger.log
       "Load state found at %s. %d files to recheck\n%!"
       state_fn (List.length to_recheck);
@@ -389,7 +377,7 @@ let run_load_script genv cmd =
         HackEventLogger.load_failed msg;
         "load_error"
     in
-    let env = HackEventLogger.with_init_type init_type begin fun () ->
+    let env, _ = HackEventLogger.with_init_type init_type begin fun () ->
       ServerInit.init genv
     end in
     env, init_type
@@ -403,17 +391,19 @@ let program_init genv =
       ServerArgs.save_filename genv.options = None then
       match ServerConfig.load_mini_script genv.config with
       | None ->
-          let env = ServerInit.init genv in
+          let env, _ = ServerInit.init genv in
           env, "fresh"
       | Some load_mini_script ->
-          let env = ServerInit.init ~load_mini_script genv in
-          env, "mini_load"
+          let env, did_load = ServerInit.init ~load_mini_script genv in
+          env, if did_load then "mini_load" else "mini_load_fail"
     else
       match ServerConfig.load_script genv.config with
-      | Some load_script when not (ServerArgs.no_load genv.options) ->
+      | Some load_script
+        when ServerArgs.save_filename genv.options = None &&
+        not (ServerArgs.no_load genv.options) ->
           run_load_script genv load_script
       | _ ->
-          let env = ServerInit.init genv in
+          let env, _ = ServerInit.init genv in
           env, "fresh"
   in
   HackEventLogger.init_end init_type;
@@ -445,12 +435,6 @@ let setup_server options =
   let gc_control = Gc.get () in
   Gc.set {gc_control with Gc.max_overhead = 200};
   Relative_path.set_path_prefix Relative_path.Root root;
-  (* Make sure to lock the lockfile before doing *anything*, especially
-   * opening the socket. *)
-  if not (Lock.grab (ServerFiles.lock_file root)) then begin
-    Hh_logger.log "Error: another server is already running?\n";
-    Exit_status.(exit Server_already_exists);
-  end;
   let config = ServerConfig.(load filename options) in
   let {ServerLocalConfig.cpu_priority; io_priority; _} as local_config =
     ServerLocalConfig.load () in
@@ -468,7 +452,7 @@ let setup_server options =
   (* this is to transform SIGPIPE in an exception. A SIGPIPE can happen when
    * someone C-c the client.
    *)
-  if not Sys.win32 then Sys.set_signal Sys.sigpipe Sys.Signal_ignore;
+  Sys_utils.set_signal Sys.sigpipe Sys.Signal_ignore;
   PidLog.init (ServerFiles.pids_file root);
   PidLog.log ~reason:"main" (Unix.getpid());
   ServerEnvBuild.make_genv options config local_config
@@ -476,27 +460,24 @@ let setup_server options =
 let run_once options =
   let genv = setup_server options in
   if not (ServerArgs.check_mode genv.options) then
-    (Hh_logger.log "ServerMain run_once only support in check mode.";
+    (Hh_logger.log "ServerMain run_once only supported in check mode.";
     Exit_status.(exit Input_error));
   let env = program_init genv in
   Option.iter (ServerArgs.save_filename genv.options) (save genv env);
-  Printf.eprintf "Running in check mode\n";
+  Hh_logger.log "Running in check mode";
   Program.run_once_and_exit genv env
 
-(* The main entry point of the daemon
- * the only trick to understand here, is that env.modified is the set
- * of files that changed, it is only set back to SSet.empty when the
- * type-checker succeeded. So to know if there is some work to be done,
- * we look if env.modified changed.
- *
+(*
  * The server monitor will pass client connections to this process
- * via in_fd.
+ * via ic.
  *)
-let daemon_main options in_fd out_fd =
+let daemon_main options (ic, oc) =
   let genv = setup_server options in
   if ServerArgs.check_mode genv.options then
     (Hh_logger.log "Invalid program args - can't run daemon in check mode.";
     Exit_status.(exit Input_error));
+  let in_fd = Daemon.descr_of_in_channel ic in
+  let out_fd = Daemon.descr_of_out_channel oc in
   (** If the client started the server, it opened an FD before forking,
    * so it can be notified when the server is ready. The FD number was
    * passed in program args. *)
@@ -507,3 +488,6 @@ let daemon_main options in_fd out_fd =
   let env = MainInit.go options waiting_channel
     (fun () -> program_init genv) in
   serve genv env in_fd out_fd
+
+let entry =
+  Daemon.register_entry_point "ServerMain.daemon_main" daemon_main

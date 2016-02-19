@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.0
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles /tmp/hhvm-3.11.1/hphp/runtime/ext/CMakeFiles/progress.marks
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/runtime/ext/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles 0
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.0/CMakeFiles /tmp/hhvm-3.12.0/hphp/runtime/ext/CMakeFiles/progress.marks
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/runtime/ext/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.0/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/runtime/ext/clean
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/runtime/ext/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/runtime/ext/preinstall
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/runtime/ext/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/runtime/ext/preinstall
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/runtime/ext/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/rule:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/rule
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/rule
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ hphp_runtime_ext: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/rule
 
 # fast build rule for target.
 hphp_runtime_ext/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build
 .PHONY : hphp_runtime_ext/fast
 
 apache/ext_apache.o: apache/ext_apache.cpp.o
@@ -161,7 +161,7 @@ apache/ext_apache.o: apache/ext_apache.cpp.o
 
 # target to build an object file
 apache/ext_apache.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apache/ext_apache.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apache/ext_apache.cpp.o
 .PHONY : apache/ext_apache.cpp.o
 
 apache/ext_apache.i: apache/ext_apache.cpp.i
@@ -169,7 +169,7 @@ apache/ext_apache.i: apache/ext_apache.cpp.i
 
 # target to preprocess a source file
 apache/ext_apache.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apache/ext_apache.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apache/ext_apache.cpp.i
 .PHONY : apache/ext_apache.cpp.i
 
 apache/ext_apache.s: apache/ext_apache.cpp.s
@@ -177,7 +177,7 @@ apache/ext_apache.s: apache/ext_apache.cpp.s
 
 # target to generate assembly for a file
 apache/ext_apache.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apache/ext_apache.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apache/ext_apache.cpp.s
 .PHONY : apache/ext_apache.cpp.s
 
 apc/ext_apc.o: apc/ext_apc.cpp.o
@@ -185,7 +185,7 @@ apc/ext_apc.o: apc/ext_apc.cpp.o
 
 # target to build an object file
 apc/ext_apc.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apc/ext_apc.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apc/ext_apc.cpp.o
 .PHONY : apc/ext_apc.cpp.o
 
 apc/ext_apc.i: apc/ext_apc.cpp.i
@@ -193,7 +193,7 @@ apc/ext_apc.i: apc/ext_apc.cpp.i
 
 # target to preprocess a source file
 apc/ext_apc.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apc/ext_apc.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apc/ext_apc.cpp.i
 .PHONY : apc/ext_apc.cpp.i
 
 apc/ext_apc.s: apc/ext_apc.cpp.s
@@ -201,15 +201,39 @@ apc/ext_apc.s: apc/ext_apc.cpp.s
 
 # target to generate assembly for a file
 apc/ext_apc.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apc/ext_apc.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apc/ext_apc.cpp.s
 .PHONY : apc/ext_apc.cpp.s
+
+apc/snapshot.o: apc/snapshot.cpp.o
+.PHONY : apc/snapshot.o
+
+# target to build an object file
+apc/snapshot.cpp.o:
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apc/snapshot.cpp.o
+.PHONY : apc/snapshot.cpp.o
+
+apc/snapshot.i: apc/snapshot.cpp.i
+.PHONY : apc/snapshot.i
+
+# target to preprocess a source file
+apc/snapshot.cpp.i:
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apc/snapshot.cpp.i
+.PHONY : apc/snapshot.cpp.i
+
+apc/snapshot.s: apc/snapshot.cpp.s
+.PHONY : apc/snapshot.s
+
+# target to generate assembly for a file
+apc/snapshot.cpp.s:
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apc/snapshot.cpp.s
+.PHONY : apc/snapshot.cpp.s
 
 array/ext_array.o: array/ext_array.cpp.o
 .PHONY : array/ext_array.o
 
 # target to build an object file
 array/ext_array.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/array/ext_array.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/array/ext_array.cpp.o
 .PHONY : array/ext_array.cpp.o
 
 array/ext_array.i: array/ext_array.cpp.i
@@ -217,7 +241,7 @@ array/ext_array.i: array/ext_array.cpp.i
 
 # target to preprocess a source file
 array/ext_array.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/array/ext_array.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/array/ext_array.cpp.i
 .PHONY : array/ext_array.cpp.i
 
 array/ext_array.s: array/ext_array.cpp.s
@@ -225,7 +249,7 @@ array/ext_array.s: array/ext_array.cpp.s
 
 # target to generate assembly for a file
 array/ext_array.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/array/ext_array.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/array/ext_array.cpp.s
 .PHONY : array/ext_array.cpp.s
 
 asio/asio-blockable.o: asio/asio-blockable.cpp.o
@@ -233,7 +257,7 @@ asio/asio-blockable.o: asio/asio-blockable.cpp.o
 
 # target to build an object file
 asio/asio-blockable.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-blockable.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-blockable.cpp.o
 .PHONY : asio/asio-blockable.cpp.o
 
 asio/asio-blockable.i: asio/asio-blockable.cpp.i
@@ -241,7 +265,7 @@ asio/asio-blockable.i: asio/asio-blockable.cpp.i
 
 # target to preprocess a source file
 asio/asio-blockable.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-blockable.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-blockable.cpp.i
 .PHONY : asio/asio-blockable.cpp.i
 
 asio/asio-blockable.s: asio/asio-blockable.cpp.s
@@ -249,7 +273,7 @@ asio/asio-blockable.s: asio/asio-blockable.cpp.s
 
 # target to generate assembly for a file
 asio/asio-blockable.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-blockable.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-blockable.cpp.s
 .PHONY : asio/asio-blockable.cpp.s
 
 asio/asio-context-enter.o: asio/asio-context-enter.cpp.o
@@ -257,7 +281,7 @@ asio/asio-context-enter.o: asio/asio-context-enter.cpp.o
 
 # target to build an object file
 asio/asio-context-enter.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-context-enter.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-context-enter.cpp.o
 .PHONY : asio/asio-context-enter.cpp.o
 
 asio/asio-context-enter.i: asio/asio-context-enter.cpp.i
@@ -265,7 +289,7 @@ asio/asio-context-enter.i: asio/asio-context-enter.cpp.i
 
 # target to preprocess a source file
 asio/asio-context-enter.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-context-enter.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-context-enter.cpp.i
 .PHONY : asio/asio-context-enter.cpp.i
 
 asio/asio-context-enter.s: asio/asio-context-enter.cpp.s
@@ -273,7 +297,7 @@ asio/asio-context-enter.s: asio/asio-context-enter.cpp.s
 
 # target to generate assembly for a file
 asio/asio-context-enter.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-context-enter.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-context-enter.cpp.s
 .PHONY : asio/asio-context-enter.cpp.s
 
 asio/asio-context.o: asio/asio-context.cpp.o
@@ -281,7 +305,7 @@ asio/asio-context.o: asio/asio-context.cpp.o
 
 # target to build an object file
 asio/asio-context.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-context.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-context.cpp.o
 .PHONY : asio/asio-context.cpp.o
 
 asio/asio-context.i: asio/asio-context.cpp.i
@@ -289,7 +313,7 @@ asio/asio-context.i: asio/asio-context.cpp.i
 
 # target to preprocess a source file
 asio/asio-context.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-context.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-context.cpp.i
 .PHONY : asio/asio-context.cpp.i
 
 asio/asio-context.s: asio/asio-context.cpp.s
@@ -297,7 +321,7 @@ asio/asio-context.s: asio/asio-context.cpp.s
 
 # target to generate assembly for a file
 asio/asio-context.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-context.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-context.cpp.s
 .PHONY : asio/asio-context.cpp.s
 
 asio/asio-external-thread-event-queue.o: asio/asio-external-thread-event-queue.cpp.o
@@ -305,7 +329,7 @@ asio/asio-external-thread-event-queue.o: asio/asio-external-thread-event-queue.c
 
 # target to build an object file
 asio/asio-external-thread-event-queue.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event-queue.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event-queue.cpp.o
 .PHONY : asio/asio-external-thread-event-queue.cpp.o
 
 asio/asio-external-thread-event-queue.i: asio/asio-external-thread-event-queue.cpp.i
@@ -313,7 +337,7 @@ asio/asio-external-thread-event-queue.i: asio/asio-external-thread-event-queue.c
 
 # target to preprocess a source file
 asio/asio-external-thread-event-queue.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event-queue.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event-queue.cpp.i
 .PHONY : asio/asio-external-thread-event-queue.cpp.i
 
 asio/asio-external-thread-event-queue.s: asio/asio-external-thread-event-queue.cpp.s
@@ -321,7 +345,7 @@ asio/asio-external-thread-event-queue.s: asio/asio-external-thread-event-queue.c
 
 # target to generate assembly for a file
 asio/asio-external-thread-event-queue.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event-queue.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event-queue.cpp.s
 .PHONY : asio/asio-external-thread-event-queue.cpp.s
 
 asio/asio-external-thread-event.o: asio/asio-external-thread-event.cpp.o
@@ -329,7 +353,7 @@ asio/asio-external-thread-event.o: asio/asio-external-thread-event.cpp.o
 
 # target to build an object file
 asio/asio-external-thread-event.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event.cpp.o
 .PHONY : asio/asio-external-thread-event.cpp.o
 
 asio/asio-external-thread-event.i: asio/asio-external-thread-event.cpp.i
@@ -337,7 +361,7 @@ asio/asio-external-thread-event.i: asio/asio-external-thread-event.cpp.i
 
 # target to preprocess a source file
 asio/asio-external-thread-event.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event.cpp.i
 .PHONY : asio/asio-external-thread-event.cpp.i
 
 asio/asio-external-thread-event.s: asio/asio-external-thread-event.cpp.s
@@ -345,7 +369,7 @@ asio/asio-external-thread-event.s: asio/asio-external-thread-event.cpp.s
 
 # target to generate assembly for a file
 asio/asio-external-thread-event.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event.cpp.s
 .PHONY : asio/asio-external-thread-event.cpp.s
 
 asio/asio-session.o: asio/asio-session.cpp.o
@@ -353,7 +377,7 @@ asio/asio-session.o: asio/asio-session.cpp.o
 
 # target to build an object file
 asio/asio-session.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-session.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-session.cpp.o
 .PHONY : asio/asio-session.cpp.o
 
 asio/asio-session.i: asio/asio-session.cpp.i
@@ -361,7 +385,7 @@ asio/asio-session.i: asio/asio-session.cpp.i
 
 # target to preprocess a source file
 asio/asio-session.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-session.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-session.cpp.i
 .PHONY : asio/asio-session.cpp.i
 
 asio/asio-session.s: asio/asio-session.cpp.s
@@ -369,7 +393,7 @@ asio/asio-session.s: asio/asio-session.cpp.s
 
 # target to generate assembly for a file
 asio/asio-session.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-session.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-session.cpp.s
 .PHONY : asio/asio-session.cpp.s
 
 asio/ext_asio.o: asio/ext_asio.cpp.o
@@ -377,7 +401,7 @@ asio/ext_asio.o: asio/ext_asio.cpp.o
 
 # target to build an object file
 asio/ext_asio.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_asio.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_asio.cpp.o
 .PHONY : asio/ext_asio.cpp.o
 
 asio/ext_asio.i: asio/ext_asio.cpp.i
@@ -385,7 +409,7 @@ asio/ext_asio.i: asio/ext_asio.cpp.i
 
 # target to preprocess a source file
 asio/ext_asio.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_asio.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_asio.cpp.i
 .PHONY : asio/ext_asio.cpp.i
 
 asio/ext_asio.s: asio/ext_asio.cpp.s
@@ -393,7 +417,7 @@ asio/ext_asio.s: asio/ext_asio.cpp.s
 
 # target to generate assembly for a file
 asio/ext_asio.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_asio.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_asio.cpp.s
 .PHONY : asio/ext_asio.cpp.s
 
 asio/ext_async-function-wait-handle.o: asio/ext_async-function-wait-handle.cpp.o
@@ -401,7 +425,7 @@ asio/ext_async-function-wait-handle.o: asio/ext_async-function-wait-handle.cpp.o
 
 # target to build an object file
 asio/ext_async-function-wait-handle.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-function-wait-handle.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-function-wait-handle.cpp.o
 .PHONY : asio/ext_async-function-wait-handle.cpp.o
 
 asio/ext_async-function-wait-handle.i: asio/ext_async-function-wait-handle.cpp.i
@@ -409,7 +433,7 @@ asio/ext_async-function-wait-handle.i: asio/ext_async-function-wait-handle.cpp.i
 
 # target to preprocess a source file
 asio/ext_async-function-wait-handle.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-function-wait-handle.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-function-wait-handle.cpp.i
 .PHONY : asio/ext_async-function-wait-handle.cpp.i
 
 asio/ext_async-function-wait-handle.s: asio/ext_async-function-wait-handle.cpp.s
@@ -417,7 +441,7 @@ asio/ext_async-function-wait-handle.s: asio/ext_async-function-wait-handle.cpp.s
 
 # target to generate assembly for a file
 asio/ext_async-function-wait-handle.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-function-wait-handle.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-function-wait-handle.cpp.s
 .PHONY : asio/ext_async-function-wait-handle.cpp.s
 
 asio/ext_async-generator-wait-handle.o: asio/ext_async-generator-wait-handle.cpp.o
@@ -425,7 +449,7 @@ asio/ext_async-generator-wait-handle.o: asio/ext_async-generator-wait-handle.cpp
 
 # target to build an object file
 asio/ext_async-generator-wait-handle.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator-wait-handle.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator-wait-handle.cpp.o
 .PHONY : asio/ext_async-generator-wait-handle.cpp.o
 
 asio/ext_async-generator-wait-handle.i: asio/ext_async-generator-wait-handle.cpp.i
@@ -433,7 +457,7 @@ asio/ext_async-generator-wait-handle.i: asio/ext_async-generator-wait-handle.cpp
 
 # target to preprocess a source file
 asio/ext_async-generator-wait-handle.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator-wait-handle.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator-wait-handle.cpp.i
 .PHONY : asio/ext_async-generator-wait-handle.cpp.i
 
 asio/ext_async-generator-wait-handle.s: asio/ext_async-generator-wait-handle.cpp.s
@@ -441,7 +465,7 @@ asio/ext_async-generator-wait-handle.s: asio/ext_async-generator-wait-handle.cpp
 
 # target to generate assembly for a file
 asio/ext_async-generator-wait-handle.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator-wait-handle.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator-wait-handle.cpp.s
 .PHONY : asio/ext_async-generator-wait-handle.cpp.s
 
 asio/ext_async-generator.o: asio/ext_async-generator.cpp.o
@@ -449,7 +473,7 @@ asio/ext_async-generator.o: asio/ext_async-generator.cpp.o
 
 # target to build an object file
 asio/ext_async-generator.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator.cpp.o
 .PHONY : asio/ext_async-generator.cpp.o
 
 asio/ext_async-generator.i: asio/ext_async-generator.cpp.i
@@ -457,7 +481,7 @@ asio/ext_async-generator.i: asio/ext_async-generator.cpp.i
 
 # target to preprocess a source file
 asio/ext_async-generator.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator.cpp.i
 .PHONY : asio/ext_async-generator.cpp.i
 
 asio/ext_async-generator.s: asio/ext_async-generator.cpp.s
@@ -465,7 +489,7 @@ asio/ext_async-generator.s: asio/ext_async-generator.cpp.s
 
 # target to generate assembly for a file
 asio/ext_async-generator.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator.cpp.s
 .PHONY : asio/ext_async-generator.cpp.s
 
 asio/ext_await-all-wait-handle.o: asio/ext_await-all-wait-handle.cpp.o
@@ -473,7 +497,7 @@ asio/ext_await-all-wait-handle.o: asio/ext_await-all-wait-handle.cpp.o
 
 # target to build an object file
 asio/ext_await-all-wait-handle.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_await-all-wait-handle.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_await-all-wait-handle.cpp.o
 .PHONY : asio/ext_await-all-wait-handle.cpp.o
 
 asio/ext_await-all-wait-handle.i: asio/ext_await-all-wait-handle.cpp.i
@@ -481,7 +505,7 @@ asio/ext_await-all-wait-handle.i: asio/ext_await-all-wait-handle.cpp.i
 
 # target to preprocess a source file
 asio/ext_await-all-wait-handle.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_await-all-wait-handle.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_await-all-wait-handle.cpp.i
 .PHONY : asio/ext_await-all-wait-handle.cpp.i
 
 asio/ext_await-all-wait-handle.s: asio/ext_await-all-wait-handle.cpp.s
@@ -489,7 +513,7 @@ asio/ext_await-all-wait-handle.s: asio/ext_await-all-wait-handle.cpp.s
 
 # target to generate assembly for a file
 asio/ext_await-all-wait-handle.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_await-all-wait-handle.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_await-all-wait-handle.cpp.s
 .PHONY : asio/ext_await-all-wait-handle.cpp.s
 
 asio/ext_condition-wait-handle.o: asio/ext_condition-wait-handle.cpp.o
@@ -497,7 +521,7 @@ asio/ext_condition-wait-handle.o: asio/ext_condition-wait-handle.cpp.o
 
 # target to build an object file
 asio/ext_condition-wait-handle.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_condition-wait-handle.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_condition-wait-handle.cpp.o
 .PHONY : asio/ext_condition-wait-handle.cpp.o
 
 asio/ext_condition-wait-handle.i: asio/ext_condition-wait-handle.cpp.i
@@ -505,7 +529,7 @@ asio/ext_condition-wait-handle.i: asio/ext_condition-wait-handle.cpp.i
 
 # target to preprocess a source file
 asio/ext_condition-wait-handle.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_condition-wait-handle.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_condition-wait-handle.cpp.i
 .PHONY : asio/ext_condition-wait-handle.cpp.i
 
 asio/ext_condition-wait-handle.s: asio/ext_condition-wait-handle.cpp.s
@@ -513,7 +537,7 @@ asio/ext_condition-wait-handle.s: asio/ext_condition-wait-handle.cpp.s
 
 # target to generate assembly for a file
 asio/ext_condition-wait-handle.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_condition-wait-handle.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_condition-wait-handle.cpp.s
 .PHONY : asio/ext_condition-wait-handle.cpp.s
 
 asio/ext_external-thread-event-wait-handle.o: asio/ext_external-thread-event-wait-handle.cpp.o
@@ -521,7 +545,7 @@ asio/ext_external-thread-event-wait-handle.o: asio/ext_external-thread-event-wai
 
 # target to build an object file
 asio/ext_external-thread-event-wait-handle.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_external-thread-event-wait-handle.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_external-thread-event-wait-handle.cpp.o
 .PHONY : asio/ext_external-thread-event-wait-handle.cpp.o
 
 asio/ext_external-thread-event-wait-handle.i: asio/ext_external-thread-event-wait-handle.cpp.i
@@ -529,7 +553,7 @@ asio/ext_external-thread-event-wait-handle.i: asio/ext_external-thread-event-wai
 
 # target to preprocess a source file
 asio/ext_external-thread-event-wait-handle.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_external-thread-event-wait-handle.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_external-thread-event-wait-handle.cpp.i
 .PHONY : asio/ext_external-thread-event-wait-handle.cpp.i
 
 asio/ext_external-thread-event-wait-handle.s: asio/ext_external-thread-event-wait-handle.cpp.s
@@ -537,7 +561,7 @@ asio/ext_external-thread-event-wait-handle.s: asio/ext_external-thread-event-wai
 
 # target to generate assembly for a file
 asio/ext_external-thread-event-wait-handle.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_external-thread-event-wait-handle.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_external-thread-event-wait-handle.cpp.s
 .PHONY : asio/ext_external-thread-event-wait-handle.cpp.s
 
 asio/ext_gen-array-wait-handle.o: asio/ext_gen-array-wait-handle.cpp.o
@@ -545,7 +569,7 @@ asio/ext_gen-array-wait-handle.o: asio/ext_gen-array-wait-handle.cpp.o
 
 # target to build an object file
 asio/ext_gen-array-wait-handle.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-array-wait-handle.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-array-wait-handle.cpp.o
 .PHONY : asio/ext_gen-array-wait-handle.cpp.o
 
 asio/ext_gen-array-wait-handle.i: asio/ext_gen-array-wait-handle.cpp.i
@@ -553,7 +577,7 @@ asio/ext_gen-array-wait-handle.i: asio/ext_gen-array-wait-handle.cpp.i
 
 # target to preprocess a source file
 asio/ext_gen-array-wait-handle.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-array-wait-handle.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-array-wait-handle.cpp.i
 .PHONY : asio/ext_gen-array-wait-handle.cpp.i
 
 asio/ext_gen-array-wait-handle.s: asio/ext_gen-array-wait-handle.cpp.s
@@ -561,7 +585,7 @@ asio/ext_gen-array-wait-handle.s: asio/ext_gen-array-wait-handle.cpp.s
 
 # target to generate assembly for a file
 asio/ext_gen-array-wait-handle.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-array-wait-handle.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-array-wait-handle.cpp.s
 .PHONY : asio/ext_gen-array-wait-handle.cpp.s
 
 asio/ext_gen-map-wait-handle.o: asio/ext_gen-map-wait-handle.cpp.o
@@ -569,7 +593,7 @@ asio/ext_gen-map-wait-handle.o: asio/ext_gen-map-wait-handle.cpp.o
 
 # target to build an object file
 asio/ext_gen-map-wait-handle.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-map-wait-handle.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-map-wait-handle.cpp.o
 .PHONY : asio/ext_gen-map-wait-handle.cpp.o
 
 asio/ext_gen-map-wait-handle.i: asio/ext_gen-map-wait-handle.cpp.i
@@ -577,7 +601,7 @@ asio/ext_gen-map-wait-handle.i: asio/ext_gen-map-wait-handle.cpp.i
 
 # target to preprocess a source file
 asio/ext_gen-map-wait-handle.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-map-wait-handle.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-map-wait-handle.cpp.i
 .PHONY : asio/ext_gen-map-wait-handle.cpp.i
 
 asio/ext_gen-map-wait-handle.s: asio/ext_gen-map-wait-handle.cpp.s
@@ -585,7 +609,7 @@ asio/ext_gen-map-wait-handle.s: asio/ext_gen-map-wait-handle.cpp.s
 
 # target to generate assembly for a file
 asio/ext_gen-map-wait-handle.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-map-wait-handle.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-map-wait-handle.cpp.s
 .PHONY : asio/ext_gen-map-wait-handle.cpp.s
 
 asio/ext_gen-vector-wait-handle.o: asio/ext_gen-vector-wait-handle.cpp.o
@@ -593,7 +617,7 @@ asio/ext_gen-vector-wait-handle.o: asio/ext_gen-vector-wait-handle.cpp.o
 
 # target to build an object file
 asio/ext_gen-vector-wait-handle.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-vector-wait-handle.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-vector-wait-handle.cpp.o
 .PHONY : asio/ext_gen-vector-wait-handle.cpp.o
 
 asio/ext_gen-vector-wait-handle.i: asio/ext_gen-vector-wait-handle.cpp.i
@@ -601,7 +625,7 @@ asio/ext_gen-vector-wait-handle.i: asio/ext_gen-vector-wait-handle.cpp.i
 
 # target to preprocess a source file
 asio/ext_gen-vector-wait-handle.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-vector-wait-handle.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-vector-wait-handle.cpp.i
 .PHONY : asio/ext_gen-vector-wait-handle.cpp.i
 
 asio/ext_gen-vector-wait-handle.s: asio/ext_gen-vector-wait-handle.cpp.s
@@ -609,7 +633,7 @@ asio/ext_gen-vector-wait-handle.s: asio/ext_gen-vector-wait-handle.cpp.s
 
 # target to generate assembly for a file
 asio/ext_gen-vector-wait-handle.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-vector-wait-handle.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-vector-wait-handle.cpp.s
 .PHONY : asio/ext_gen-vector-wait-handle.cpp.s
 
 asio/ext_reschedule-wait-handle.o: asio/ext_reschedule-wait-handle.cpp.o
@@ -617,7 +641,7 @@ asio/ext_reschedule-wait-handle.o: asio/ext_reschedule-wait-handle.cpp.o
 
 # target to build an object file
 asio/ext_reschedule-wait-handle.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_reschedule-wait-handle.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_reschedule-wait-handle.cpp.o
 .PHONY : asio/ext_reschedule-wait-handle.cpp.o
 
 asio/ext_reschedule-wait-handle.i: asio/ext_reschedule-wait-handle.cpp.i
@@ -625,7 +649,7 @@ asio/ext_reschedule-wait-handle.i: asio/ext_reschedule-wait-handle.cpp.i
 
 # target to preprocess a source file
 asio/ext_reschedule-wait-handle.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_reschedule-wait-handle.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_reschedule-wait-handle.cpp.i
 .PHONY : asio/ext_reschedule-wait-handle.cpp.i
 
 asio/ext_reschedule-wait-handle.s: asio/ext_reschedule-wait-handle.cpp.s
@@ -633,7 +657,7 @@ asio/ext_reschedule-wait-handle.s: asio/ext_reschedule-wait-handle.cpp.s
 
 # target to generate assembly for a file
 asio/ext_reschedule-wait-handle.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_reschedule-wait-handle.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_reschedule-wait-handle.cpp.s
 .PHONY : asio/ext_reschedule-wait-handle.cpp.s
 
 asio/ext_resumable-wait-handle.o: asio/ext_resumable-wait-handle.cpp.o
@@ -641,7 +665,7 @@ asio/ext_resumable-wait-handle.o: asio/ext_resumable-wait-handle.cpp.o
 
 # target to build an object file
 asio/ext_resumable-wait-handle.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_resumable-wait-handle.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_resumable-wait-handle.cpp.o
 .PHONY : asio/ext_resumable-wait-handle.cpp.o
 
 asio/ext_resumable-wait-handle.i: asio/ext_resumable-wait-handle.cpp.i
@@ -649,7 +673,7 @@ asio/ext_resumable-wait-handle.i: asio/ext_resumable-wait-handle.cpp.i
 
 # target to preprocess a source file
 asio/ext_resumable-wait-handle.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_resumable-wait-handle.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_resumable-wait-handle.cpp.i
 .PHONY : asio/ext_resumable-wait-handle.cpp.i
 
 asio/ext_resumable-wait-handle.s: asio/ext_resumable-wait-handle.cpp.s
@@ -657,7 +681,7 @@ asio/ext_resumable-wait-handle.s: asio/ext_resumable-wait-handle.cpp.s
 
 # target to generate assembly for a file
 asio/ext_resumable-wait-handle.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_resumable-wait-handle.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_resumable-wait-handle.cpp.s
 .PHONY : asio/ext_resumable-wait-handle.cpp.s
 
 asio/ext_sleep-wait-handle.o: asio/ext_sleep-wait-handle.cpp.o
@@ -665,7 +689,7 @@ asio/ext_sleep-wait-handle.o: asio/ext_sleep-wait-handle.cpp.o
 
 # target to build an object file
 asio/ext_sleep-wait-handle.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_sleep-wait-handle.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_sleep-wait-handle.cpp.o
 .PHONY : asio/ext_sleep-wait-handle.cpp.o
 
 asio/ext_sleep-wait-handle.i: asio/ext_sleep-wait-handle.cpp.i
@@ -673,7 +697,7 @@ asio/ext_sleep-wait-handle.i: asio/ext_sleep-wait-handle.cpp.i
 
 # target to preprocess a source file
 asio/ext_sleep-wait-handle.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_sleep-wait-handle.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_sleep-wait-handle.cpp.i
 .PHONY : asio/ext_sleep-wait-handle.cpp.i
 
 asio/ext_sleep-wait-handle.s: asio/ext_sleep-wait-handle.cpp.s
@@ -681,7 +705,7 @@ asio/ext_sleep-wait-handle.s: asio/ext_sleep-wait-handle.cpp.s
 
 # target to generate assembly for a file
 asio/ext_sleep-wait-handle.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_sleep-wait-handle.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_sleep-wait-handle.cpp.s
 .PHONY : asio/ext_sleep-wait-handle.cpp.s
 
 asio/ext_static-wait-handle.o: asio/ext_static-wait-handle.cpp.o
@@ -689,7 +713,7 @@ asio/ext_static-wait-handle.o: asio/ext_static-wait-handle.cpp.o
 
 # target to build an object file
 asio/ext_static-wait-handle.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_static-wait-handle.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_static-wait-handle.cpp.o
 .PHONY : asio/ext_static-wait-handle.cpp.o
 
 asio/ext_static-wait-handle.i: asio/ext_static-wait-handle.cpp.i
@@ -697,7 +721,7 @@ asio/ext_static-wait-handle.i: asio/ext_static-wait-handle.cpp.i
 
 # target to preprocess a source file
 asio/ext_static-wait-handle.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_static-wait-handle.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_static-wait-handle.cpp.i
 .PHONY : asio/ext_static-wait-handle.cpp.i
 
 asio/ext_static-wait-handle.s: asio/ext_static-wait-handle.cpp.s
@@ -705,7 +729,7 @@ asio/ext_static-wait-handle.s: asio/ext_static-wait-handle.cpp.s
 
 # target to generate assembly for a file
 asio/ext_static-wait-handle.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_static-wait-handle.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_static-wait-handle.cpp.s
 .PHONY : asio/ext_static-wait-handle.cpp.s
 
 asio/ext_wait-handle.o: asio/ext_wait-handle.cpp.o
@@ -713,7 +737,7 @@ asio/ext_wait-handle.o: asio/ext_wait-handle.cpp.o
 
 # target to build an object file
 asio/ext_wait-handle.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_wait-handle.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_wait-handle.cpp.o
 .PHONY : asio/ext_wait-handle.cpp.o
 
 asio/ext_wait-handle.i: asio/ext_wait-handle.cpp.i
@@ -721,7 +745,7 @@ asio/ext_wait-handle.i: asio/ext_wait-handle.cpp.i
 
 # target to preprocess a source file
 asio/ext_wait-handle.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_wait-handle.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_wait-handle.cpp.i
 .PHONY : asio/ext_wait-handle.cpp.i
 
 asio/ext_wait-handle.s: asio/ext_wait-handle.cpp.s
@@ -729,7 +753,7 @@ asio/ext_wait-handle.s: asio/ext_wait-handle.cpp.s
 
 # target to generate assembly for a file
 asio/ext_wait-handle.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_wait-handle.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_wait-handle.cpp.s
 .PHONY : asio/ext_wait-handle.cpp.s
 
 asio/ext_waitable-wait-handle.o: asio/ext_waitable-wait-handle.cpp.o
@@ -737,7 +761,7 @@ asio/ext_waitable-wait-handle.o: asio/ext_waitable-wait-handle.cpp.o
 
 # target to build an object file
 asio/ext_waitable-wait-handle.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_waitable-wait-handle.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_waitable-wait-handle.cpp.o
 .PHONY : asio/ext_waitable-wait-handle.cpp.o
 
 asio/ext_waitable-wait-handle.i: asio/ext_waitable-wait-handle.cpp.i
@@ -745,7 +769,7 @@ asio/ext_waitable-wait-handle.i: asio/ext_waitable-wait-handle.cpp.i
 
 # target to preprocess a source file
 asio/ext_waitable-wait-handle.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_waitable-wait-handle.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_waitable-wait-handle.cpp.i
 .PHONY : asio/ext_waitable-wait-handle.cpp.i
 
 asio/ext_waitable-wait-handle.s: asio/ext_waitable-wait-handle.cpp.s
@@ -753,7 +777,7 @@ asio/ext_waitable-wait-handle.s: asio/ext_waitable-wait-handle.cpp.s
 
 # target to generate assembly for a file
 asio/ext_waitable-wait-handle.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_waitable-wait-handle.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_waitable-wait-handle.cpp.s
 .PHONY : asio/ext_waitable-wait-handle.cpp.s
 
 asio/socket-event.o: asio/socket-event.cpp.o
@@ -761,7 +785,7 @@ asio/socket-event.o: asio/socket-event.cpp.o
 
 # target to build an object file
 asio/socket-event.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/socket-event.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/socket-event.cpp.o
 .PHONY : asio/socket-event.cpp.o
 
 asio/socket-event.i: asio/socket-event.cpp.i
@@ -769,7 +793,7 @@ asio/socket-event.i: asio/socket-event.cpp.i
 
 # target to preprocess a source file
 asio/socket-event.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/socket-event.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/socket-event.cpp.i
 .PHONY : asio/socket-event.cpp.i
 
 asio/socket-event.s: asio/socket-event.cpp.s
@@ -777,7 +801,7 @@ asio/socket-event.s: asio/socket-event.cpp.s
 
 # target to generate assembly for a file
 asio/socket-event.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/socket-event.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/socket-event.cpp.s
 .PHONY : asio/socket-event.cpp.s
 
 async_mysql/ext_async_mysql.o: async_mysql/ext_async_mysql.cpp.o
@@ -785,7 +809,7 @@ async_mysql/ext_async_mysql.o: async_mysql/ext_async_mysql.cpp.o
 
 # target to build an object file
 async_mysql/ext_async_mysql.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/async_mysql/ext_async_mysql.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/async_mysql/ext_async_mysql.cpp.o
 .PHONY : async_mysql/ext_async_mysql.cpp.o
 
 async_mysql/ext_async_mysql.i: async_mysql/ext_async_mysql.cpp.i
@@ -793,7 +817,7 @@ async_mysql/ext_async_mysql.i: async_mysql/ext_async_mysql.cpp.i
 
 # target to preprocess a source file
 async_mysql/ext_async_mysql.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/async_mysql/ext_async_mysql.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/async_mysql/ext_async_mysql.cpp.i
 .PHONY : async_mysql/ext_async_mysql.cpp.i
 
 async_mysql/ext_async_mysql.s: async_mysql/ext_async_mysql.cpp.s
@@ -801,7 +825,7 @@ async_mysql/ext_async_mysql.s: async_mysql/ext_async_mysql.cpp.s
 
 # target to generate assembly for a file
 async_mysql/ext_async_mysql.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/async_mysql/ext_async_mysql.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/async_mysql/ext_async_mysql.cpp.s
 .PHONY : async_mysql/ext_async_mysql.cpp.s
 
 bcmath/add.o: bcmath/add.c.o
@@ -809,7 +833,7 @@ bcmath/add.o: bcmath/add.c.o
 
 # target to build an object file
 bcmath/add.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/add.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/add.c.o
 .PHONY : bcmath/add.c.o
 
 bcmath/add.i: bcmath/add.c.i
@@ -817,7 +841,7 @@ bcmath/add.i: bcmath/add.c.i
 
 # target to preprocess a source file
 bcmath/add.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/add.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/add.c.i
 .PHONY : bcmath/add.c.i
 
 bcmath/add.s: bcmath/add.c.s
@@ -825,7 +849,7 @@ bcmath/add.s: bcmath/add.c.s
 
 # target to generate assembly for a file
 bcmath/add.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/add.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/add.c.s
 .PHONY : bcmath/add.c.s
 
 bcmath/compare.o: bcmath/compare.c.o
@@ -833,7 +857,7 @@ bcmath/compare.o: bcmath/compare.c.o
 
 # target to build an object file
 bcmath/compare.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/compare.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/compare.c.o
 .PHONY : bcmath/compare.c.o
 
 bcmath/compare.i: bcmath/compare.c.i
@@ -841,7 +865,7 @@ bcmath/compare.i: bcmath/compare.c.i
 
 # target to preprocess a source file
 bcmath/compare.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/compare.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/compare.c.i
 .PHONY : bcmath/compare.c.i
 
 bcmath/compare.s: bcmath/compare.c.s
@@ -849,7 +873,7 @@ bcmath/compare.s: bcmath/compare.c.s
 
 # target to generate assembly for a file
 bcmath/compare.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/compare.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/compare.c.s
 .PHONY : bcmath/compare.c.s
 
 bcmath/debug.o: bcmath/debug.c.o
@@ -857,7 +881,7 @@ bcmath/debug.o: bcmath/debug.c.o
 
 # target to build an object file
 bcmath/debug.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/debug.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/debug.c.o
 .PHONY : bcmath/debug.c.o
 
 bcmath/debug.i: bcmath/debug.c.i
@@ -865,7 +889,7 @@ bcmath/debug.i: bcmath/debug.c.i
 
 # target to preprocess a source file
 bcmath/debug.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/debug.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/debug.c.i
 .PHONY : bcmath/debug.c.i
 
 bcmath/debug.s: bcmath/debug.c.s
@@ -873,7 +897,7 @@ bcmath/debug.s: bcmath/debug.c.s
 
 # target to generate assembly for a file
 bcmath/debug.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/debug.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/debug.c.s
 .PHONY : bcmath/debug.c.s
 
 bcmath/div.o: bcmath/div.c.o
@@ -881,7 +905,7 @@ bcmath/div.o: bcmath/div.c.o
 
 # target to build an object file
 bcmath/div.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/div.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/div.c.o
 .PHONY : bcmath/div.c.o
 
 bcmath/div.i: bcmath/div.c.i
@@ -889,7 +913,7 @@ bcmath/div.i: bcmath/div.c.i
 
 # target to preprocess a source file
 bcmath/div.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/div.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/div.c.i
 .PHONY : bcmath/div.c.i
 
 bcmath/div.s: bcmath/div.c.s
@@ -897,7 +921,7 @@ bcmath/div.s: bcmath/div.c.s
 
 # target to generate assembly for a file
 bcmath/div.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/div.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/div.c.s
 .PHONY : bcmath/div.c.s
 
 bcmath/divmod.o: bcmath/divmod.c.o
@@ -905,7 +929,7 @@ bcmath/divmod.o: bcmath/divmod.c.o
 
 # target to build an object file
 bcmath/divmod.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/divmod.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/divmod.c.o
 .PHONY : bcmath/divmod.c.o
 
 bcmath/divmod.i: bcmath/divmod.c.i
@@ -913,7 +937,7 @@ bcmath/divmod.i: bcmath/divmod.c.i
 
 # target to preprocess a source file
 bcmath/divmod.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/divmod.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/divmod.c.i
 .PHONY : bcmath/divmod.c.i
 
 bcmath/divmod.s: bcmath/divmod.c.s
@@ -921,7 +945,7 @@ bcmath/divmod.s: bcmath/divmod.c.s
 
 # target to generate assembly for a file
 bcmath/divmod.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/divmod.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/divmod.c.s
 .PHONY : bcmath/divmod.c.s
 
 bcmath/doaddsub.o: bcmath/doaddsub.c.o
@@ -929,7 +953,7 @@ bcmath/doaddsub.o: bcmath/doaddsub.c.o
 
 # target to build an object file
 bcmath/doaddsub.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/doaddsub.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/doaddsub.c.o
 .PHONY : bcmath/doaddsub.c.o
 
 bcmath/doaddsub.i: bcmath/doaddsub.c.i
@@ -937,7 +961,7 @@ bcmath/doaddsub.i: bcmath/doaddsub.c.i
 
 # target to preprocess a source file
 bcmath/doaddsub.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/doaddsub.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/doaddsub.c.i
 .PHONY : bcmath/doaddsub.c.i
 
 bcmath/doaddsub.s: bcmath/doaddsub.c.s
@@ -945,7 +969,7 @@ bcmath/doaddsub.s: bcmath/doaddsub.c.s
 
 # target to generate assembly for a file
 bcmath/doaddsub.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/doaddsub.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/doaddsub.c.s
 .PHONY : bcmath/doaddsub.c.s
 
 bcmath/ext_bcmath.o: bcmath/ext_bcmath.cpp.o
@@ -953,7 +977,7 @@ bcmath/ext_bcmath.o: bcmath/ext_bcmath.cpp.o
 
 # target to build an object file
 bcmath/ext_bcmath.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/ext_bcmath.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/ext_bcmath.cpp.o
 .PHONY : bcmath/ext_bcmath.cpp.o
 
 bcmath/ext_bcmath.i: bcmath/ext_bcmath.cpp.i
@@ -961,7 +985,7 @@ bcmath/ext_bcmath.i: bcmath/ext_bcmath.cpp.i
 
 # target to preprocess a source file
 bcmath/ext_bcmath.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/ext_bcmath.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/ext_bcmath.cpp.i
 .PHONY : bcmath/ext_bcmath.cpp.i
 
 bcmath/ext_bcmath.s: bcmath/ext_bcmath.cpp.s
@@ -969,7 +993,7 @@ bcmath/ext_bcmath.s: bcmath/ext_bcmath.cpp.s
 
 # target to generate assembly for a file
 bcmath/ext_bcmath.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/ext_bcmath.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/ext_bcmath.cpp.s
 .PHONY : bcmath/ext_bcmath.cpp.s
 
 bcmath/init.o: bcmath/init.c.o
@@ -977,7 +1001,7 @@ bcmath/init.o: bcmath/init.c.o
 
 # target to build an object file
 bcmath/init.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/init.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/init.c.o
 .PHONY : bcmath/init.c.o
 
 bcmath/init.i: bcmath/init.c.i
@@ -985,7 +1009,7 @@ bcmath/init.i: bcmath/init.c.i
 
 # target to preprocess a source file
 bcmath/init.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/init.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/init.c.i
 .PHONY : bcmath/init.c.i
 
 bcmath/init.s: bcmath/init.c.s
@@ -993,7 +1017,7 @@ bcmath/init.s: bcmath/init.c.s
 
 # target to generate assembly for a file
 bcmath/init.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/init.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/init.c.s
 .PHONY : bcmath/init.c.s
 
 bcmath/int2num.o: bcmath/int2num.c.o
@@ -1001,7 +1025,7 @@ bcmath/int2num.o: bcmath/int2num.c.o
 
 # target to build an object file
 bcmath/int2num.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/int2num.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/int2num.c.o
 .PHONY : bcmath/int2num.c.o
 
 bcmath/int2num.i: bcmath/int2num.c.i
@@ -1009,7 +1033,7 @@ bcmath/int2num.i: bcmath/int2num.c.i
 
 # target to preprocess a source file
 bcmath/int2num.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/int2num.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/int2num.c.i
 .PHONY : bcmath/int2num.c.i
 
 bcmath/int2num.s: bcmath/int2num.c.s
@@ -1017,7 +1041,7 @@ bcmath/int2num.s: bcmath/int2num.c.s
 
 # target to generate assembly for a file
 bcmath/int2num.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/int2num.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/int2num.c.s
 .PHONY : bcmath/int2num.c.s
 
 bcmath/nearzero.o: bcmath/nearzero.c.o
@@ -1025,7 +1049,7 @@ bcmath/nearzero.o: bcmath/nearzero.c.o
 
 # target to build an object file
 bcmath/nearzero.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/nearzero.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/nearzero.c.o
 .PHONY : bcmath/nearzero.c.o
 
 bcmath/nearzero.i: bcmath/nearzero.c.i
@@ -1033,7 +1057,7 @@ bcmath/nearzero.i: bcmath/nearzero.c.i
 
 # target to preprocess a source file
 bcmath/nearzero.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/nearzero.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/nearzero.c.i
 .PHONY : bcmath/nearzero.c.i
 
 bcmath/nearzero.s: bcmath/nearzero.c.s
@@ -1041,7 +1065,7 @@ bcmath/nearzero.s: bcmath/nearzero.c.s
 
 # target to generate assembly for a file
 bcmath/nearzero.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/nearzero.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/nearzero.c.s
 .PHONY : bcmath/nearzero.c.s
 
 bcmath/neg.o: bcmath/neg.c.o
@@ -1049,7 +1073,7 @@ bcmath/neg.o: bcmath/neg.c.o
 
 # target to build an object file
 bcmath/neg.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/neg.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/neg.c.o
 .PHONY : bcmath/neg.c.o
 
 bcmath/neg.i: bcmath/neg.c.i
@@ -1057,7 +1081,7 @@ bcmath/neg.i: bcmath/neg.c.i
 
 # target to preprocess a source file
 bcmath/neg.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/neg.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/neg.c.i
 .PHONY : bcmath/neg.c.i
 
 bcmath/neg.s: bcmath/neg.c.s
@@ -1065,7 +1089,7 @@ bcmath/neg.s: bcmath/neg.c.s
 
 # target to generate assembly for a file
 bcmath/neg.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/neg.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/neg.c.s
 .PHONY : bcmath/neg.c.s
 
 bcmath/num2long.o: bcmath/num2long.c.o
@@ -1073,7 +1097,7 @@ bcmath/num2long.o: bcmath/num2long.c.o
 
 # target to build an object file
 bcmath/num2long.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/num2long.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/num2long.c.o
 .PHONY : bcmath/num2long.c.o
 
 bcmath/num2long.i: bcmath/num2long.c.i
@@ -1081,7 +1105,7 @@ bcmath/num2long.i: bcmath/num2long.c.i
 
 # target to preprocess a source file
 bcmath/num2long.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/num2long.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/num2long.c.i
 .PHONY : bcmath/num2long.c.i
 
 bcmath/num2long.s: bcmath/num2long.c.s
@@ -1089,7 +1113,7 @@ bcmath/num2long.s: bcmath/num2long.c.s
 
 # target to generate assembly for a file
 bcmath/num2long.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/num2long.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/num2long.c.s
 .PHONY : bcmath/num2long.c.s
 
 bcmath/num2str.o: bcmath/num2str.c.o
@@ -1097,7 +1121,7 @@ bcmath/num2str.o: bcmath/num2str.c.o
 
 # target to build an object file
 bcmath/num2str.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/num2str.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/num2str.c.o
 .PHONY : bcmath/num2str.c.o
 
 bcmath/num2str.i: bcmath/num2str.c.i
@@ -1105,7 +1129,7 @@ bcmath/num2str.i: bcmath/num2str.c.i
 
 # target to preprocess a source file
 bcmath/num2str.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/num2str.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/num2str.c.i
 .PHONY : bcmath/num2str.c.i
 
 bcmath/num2str.s: bcmath/num2str.c.s
@@ -1113,7 +1137,7 @@ bcmath/num2str.s: bcmath/num2str.c.s
 
 # target to generate assembly for a file
 bcmath/num2str.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/num2str.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/num2str.c.s
 .PHONY : bcmath/num2str.c.s
 
 bcmath/outofmem.o: bcmath/outofmem.c.o
@@ -1121,7 +1145,7 @@ bcmath/outofmem.o: bcmath/outofmem.c.o
 
 # target to build an object file
 bcmath/outofmem.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/outofmem.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/outofmem.c.o
 .PHONY : bcmath/outofmem.c.o
 
 bcmath/outofmem.i: bcmath/outofmem.c.i
@@ -1129,7 +1153,7 @@ bcmath/outofmem.i: bcmath/outofmem.c.i
 
 # target to preprocess a source file
 bcmath/outofmem.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/outofmem.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/outofmem.c.i
 .PHONY : bcmath/outofmem.c.i
 
 bcmath/outofmem.s: bcmath/outofmem.c.s
@@ -1137,7 +1161,7 @@ bcmath/outofmem.s: bcmath/outofmem.c.s
 
 # target to generate assembly for a file
 bcmath/outofmem.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/outofmem.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/outofmem.c.s
 .PHONY : bcmath/outofmem.c.s
 
 bcmath/output.o: bcmath/output.c.o
@@ -1145,7 +1169,7 @@ bcmath/output.o: bcmath/output.c.o
 
 # target to build an object file
 bcmath/output.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/output.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/output.c.o
 .PHONY : bcmath/output.c.o
 
 bcmath/output.i: bcmath/output.c.i
@@ -1153,7 +1177,7 @@ bcmath/output.i: bcmath/output.c.i
 
 # target to preprocess a source file
 bcmath/output.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/output.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/output.c.i
 .PHONY : bcmath/output.c.i
 
 bcmath/output.s: bcmath/output.c.s
@@ -1161,7 +1185,7 @@ bcmath/output.s: bcmath/output.c.s
 
 # target to generate assembly for a file
 bcmath/output.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/output.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/output.c.s
 .PHONY : bcmath/output.c.s
 
 bcmath/raise.o: bcmath/raise.c.o
@@ -1169,7 +1193,7 @@ bcmath/raise.o: bcmath/raise.c.o
 
 # target to build an object file
 bcmath/raise.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/raise.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/raise.c.o
 .PHONY : bcmath/raise.c.o
 
 bcmath/raise.i: bcmath/raise.c.i
@@ -1177,7 +1201,7 @@ bcmath/raise.i: bcmath/raise.c.i
 
 # target to preprocess a source file
 bcmath/raise.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/raise.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/raise.c.i
 .PHONY : bcmath/raise.c.i
 
 bcmath/raise.s: bcmath/raise.c.s
@@ -1185,7 +1209,7 @@ bcmath/raise.s: bcmath/raise.c.s
 
 # target to generate assembly for a file
 bcmath/raise.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/raise.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/raise.c.s
 .PHONY : bcmath/raise.c.s
 
 bcmath/raisemod.o: bcmath/raisemod.c.o
@@ -1193,7 +1217,7 @@ bcmath/raisemod.o: bcmath/raisemod.c.o
 
 # target to build an object file
 bcmath/raisemod.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/raisemod.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/raisemod.c.o
 .PHONY : bcmath/raisemod.c.o
 
 bcmath/raisemod.i: bcmath/raisemod.c.i
@@ -1201,7 +1225,7 @@ bcmath/raisemod.i: bcmath/raisemod.c.i
 
 # target to preprocess a source file
 bcmath/raisemod.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/raisemod.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/raisemod.c.i
 .PHONY : bcmath/raisemod.c.i
 
 bcmath/raisemod.s: bcmath/raisemod.c.s
@@ -1209,7 +1233,7 @@ bcmath/raisemod.s: bcmath/raisemod.c.s
 
 # target to generate assembly for a file
 bcmath/raisemod.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/raisemod.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/raisemod.c.s
 .PHONY : bcmath/raisemod.c.s
 
 bcmath/recmul.o: bcmath/recmul.c.o
@@ -1217,7 +1241,7 @@ bcmath/recmul.o: bcmath/recmul.c.o
 
 # target to build an object file
 bcmath/recmul.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/recmul.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/recmul.c.o
 .PHONY : bcmath/recmul.c.o
 
 bcmath/recmul.i: bcmath/recmul.c.i
@@ -1225,7 +1249,7 @@ bcmath/recmul.i: bcmath/recmul.c.i
 
 # target to preprocess a source file
 bcmath/recmul.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/recmul.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/recmul.c.i
 .PHONY : bcmath/recmul.c.i
 
 bcmath/recmul.s: bcmath/recmul.c.s
@@ -1233,7 +1257,7 @@ bcmath/recmul.s: bcmath/recmul.c.s
 
 # target to generate assembly for a file
 bcmath/recmul.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/recmul.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/recmul.c.s
 .PHONY : bcmath/recmul.c.s
 
 bcmath/rmzero.o: bcmath/rmzero.c.o
@@ -1241,7 +1265,7 @@ bcmath/rmzero.o: bcmath/rmzero.c.o
 
 # target to build an object file
 bcmath/rmzero.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/rmzero.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/rmzero.c.o
 .PHONY : bcmath/rmzero.c.o
 
 bcmath/rmzero.i: bcmath/rmzero.c.i
@@ -1249,7 +1273,7 @@ bcmath/rmzero.i: bcmath/rmzero.c.i
 
 # target to preprocess a source file
 bcmath/rmzero.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/rmzero.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/rmzero.c.i
 .PHONY : bcmath/rmzero.c.i
 
 bcmath/rmzero.s: bcmath/rmzero.c.s
@@ -1257,7 +1281,7 @@ bcmath/rmzero.s: bcmath/rmzero.c.s
 
 # target to generate assembly for a file
 bcmath/rmzero.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/rmzero.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/rmzero.c.s
 .PHONY : bcmath/rmzero.c.s
 
 bcmath/rt.o: bcmath/rt.c.o
@@ -1265,7 +1289,7 @@ bcmath/rt.o: bcmath/rt.c.o
 
 # target to build an object file
 bcmath/rt.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/rt.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/rt.c.o
 .PHONY : bcmath/rt.c.o
 
 bcmath/rt.i: bcmath/rt.c.i
@@ -1273,7 +1297,7 @@ bcmath/rt.i: bcmath/rt.c.i
 
 # target to preprocess a source file
 bcmath/rt.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/rt.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/rt.c.i
 .PHONY : bcmath/rt.c.i
 
 bcmath/rt.s: bcmath/rt.c.s
@@ -1281,7 +1305,7 @@ bcmath/rt.s: bcmath/rt.c.s
 
 # target to generate assembly for a file
 bcmath/rt.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/rt.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/rt.c.s
 .PHONY : bcmath/rt.c.s
 
 bcmath/sqrt.o: bcmath/sqrt.c.o
@@ -1289,7 +1313,7 @@ bcmath/sqrt.o: bcmath/sqrt.c.o
 
 # target to build an object file
 bcmath/sqrt.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/sqrt.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/sqrt.c.o
 .PHONY : bcmath/sqrt.c.o
 
 bcmath/sqrt.i: bcmath/sqrt.c.i
@@ -1297,7 +1321,7 @@ bcmath/sqrt.i: bcmath/sqrt.c.i
 
 # target to preprocess a source file
 bcmath/sqrt.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/sqrt.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/sqrt.c.i
 .PHONY : bcmath/sqrt.c.i
 
 bcmath/sqrt.s: bcmath/sqrt.c.s
@@ -1305,7 +1329,7 @@ bcmath/sqrt.s: bcmath/sqrt.c.s
 
 # target to generate assembly for a file
 bcmath/sqrt.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/sqrt.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/sqrt.c.s
 .PHONY : bcmath/sqrt.c.s
 
 bcmath/str2num.o: bcmath/str2num.c.o
@@ -1313,7 +1337,7 @@ bcmath/str2num.o: bcmath/str2num.c.o
 
 # target to build an object file
 bcmath/str2num.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/str2num.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/str2num.c.o
 .PHONY : bcmath/str2num.c.o
 
 bcmath/str2num.i: bcmath/str2num.c.i
@@ -1321,7 +1345,7 @@ bcmath/str2num.i: bcmath/str2num.c.i
 
 # target to preprocess a source file
 bcmath/str2num.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/str2num.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/str2num.c.i
 .PHONY : bcmath/str2num.c.i
 
 bcmath/str2num.s: bcmath/str2num.c.s
@@ -1329,7 +1353,7 @@ bcmath/str2num.s: bcmath/str2num.c.s
 
 # target to generate assembly for a file
 bcmath/str2num.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/str2num.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/str2num.c.s
 .PHONY : bcmath/str2num.c.s
 
 bcmath/sub.o: bcmath/sub.c.o
@@ -1337,7 +1361,7 @@ bcmath/sub.o: bcmath/sub.c.o
 
 # target to build an object file
 bcmath/sub.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/sub.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/sub.c.o
 .PHONY : bcmath/sub.c.o
 
 bcmath/sub.i: bcmath/sub.c.i
@@ -1345,7 +1369,7 @@ bcmath/sub.i: bcmath/sub.c.i
 
 # target to preprocess a source file
 bcmath/sub.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/sub.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/sub.c.i
 .PHONY : bcmath/sub.c.i
 
 bcmath/sub.s: bcmath/sub.c.s
@@ -1353,7 +1377,7 @@ bcmath/sub.s: bcmath/sub.c.s
 
 # target to generate assembly for a file
 bcmath/sub.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/sub.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/sub.c.s
 .PHONY : bcmath/sub.c.s
 
 bcmath/zero.o: bcmath/zero.c.o
@@ -1361,7 +1385,7 @@ bcmath/zero.o: bcmath/zero.c.o
 
 # target to build an object file
 bcmath/zero.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/zero.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/zero.c.o
 .PHONY : bcmath/zero.c.o
 
 bcmath/zero.i: bcmath/zero.c.i
@@ -1369,7 +1393,7 @@ bcmath/zero.i: bcmath/zero.c.i
 
 # target to preprocess a source file
 bcmath/zero.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/zero.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/zero.c.i
 .PHONY : bcmath/zero.c.i
 
 bcmath/zero.s: bcmath/zero.c.s
@@ -1377,7 +1401,7 @@ bcmath/zero.s: bcmath/zero.c.s
 
 # target to generate assembly for a file
 bcmath/zero.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/zero.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/zero.c.s
 .PHONY : bcmath/zero.c.s
 
 bz2/bz2-file.o: bz2/bz2-file.cpp.o
@@ -1385,7 +1409,7 @@ bz2/bz2-file.o: bz2/bz2-file.cpp.o
 
 # target to build an object file
 bz2/bz2-file.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bz2/bz2-file.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bz2/bz2-file.cpp.o
 .PHONY : bz2/bz2-file.cpp.o
 
 bz2/bz2-file.i: bz2/bz2-file.cpp.i
@@ -1393,7 +1417,7 @@ bz2/bz2-file.i: bz2/bz2-file.cpp.i
 
 # target to preprocess a source file
 bz2/bz2-file.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bz2/bz2-file.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bz2/bz2-file.cpp.i
 .PHONY : bz2/bz2-file.cpp.i
 
 bz2/bz2-file.s: bz2/bz2-file.cpp.s
@@ -1401,7 +1425,7 @@ bz2/bz2-file.s: bz2/bz2-file.cpp.s
 
 # target to generate assembly for a file
 bz2/bz2-file.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bz2/bz2-file.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bz2/bz2-file.cpp.s
 .PHONY : bz2/bz2-file.cpp.s
 
 bz2/ext_bz2.o: bz2/ext_bz2.cpp.o
@@ -1409,7 +1433,7 @@ bz2/ext_bz2.o: bz2/ext_bz2.cpp.o
 
 # target to build an object file
 bz2/ext_bz2.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bz2/ext_bz2.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bz2/ext_bz2.cpp.o
 .PHONY : bz2/ext_bz2.cpp.o
 
 bz2/ext_bz2.i: bz2/ext_bz2.cpp.i
@@ -1417,7 +1441,7 @@ bz2/ext_bz2.i: bz2/ext_bz2.cpp.i
 
 # target to preprocess a source file
 bz2/ext_bz2.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bz2/ext_bz2.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bz2/ext_bz2.cpp.i
 .PHONY : bz2/ext_bz2.cpp.i
 
 bz2/ext_bz2.s: bz2/ext_bz2.cpp.s
@@ -1425,7 +1449,7 @@ bz2/ext_bz2.s: bz2/ext_bz2.cpp.s
 
 # target to generate assembly for a file
 bz2/ext_bz2.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bz2/ext_bz2.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bz2/ext_bz2.cpp.s
 .PHONY : bz2/ext_bz2.cpp.s
 
 collections/ext_collections-idl.o: collections/ext_collections-idl.cpp.o
@@ -1433,7 +1457,7 @@ collections/ext_collections-idl.o: collections/ext_collections-idl.cpp.o
 
 # target to build an object file
 collections/ext_collections-idl.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-idl.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-idl.cpp.o
 .PHONY : collections/ext_collections-idl.cpp.o
 
 collections/ext_collections-idl.i: collections/ext_collections-idl.cpp.i
@@ -1441,7 +1465,7 @@ collections/ext_collections-idl.i: collections/ext_collections-idl.cpp.i
 
 # target to preprocess a source file
 collections/ext_collections-idl.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-idl.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-idl.cpp.i
 .PHONY : collections/ext_collections-idl.cpp.i
 
 collections/ext_collections-idl.s: collections/ext_collections-idl.cpp.s
@@ -1449,7 +1473,7 @@ collections/ext_collections-idl.s: collections/ext_collections-idl.cpp.s
 
 # target to generate assembly for a file
 collections/ext_collections-idl.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-idl.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-idl.cpp.s
 .PHONY : collections/ext_collections-idl.cpp.s
 
 collections/ext_collections-map.o: collections/ext_collections-map.cpp.o
@@ -1457,7 +1481,7 @@ collections/ext_collections-map.o: collections/ext_collections-map.cpp.o
 
 # target to build an object file
 collections/ext_collections-map.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-map.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-map.cpp.o
 .PHONY : collections/ext_collections-map.cpp.o
 
 collections/ext_collections-map.i: collections/ext_collections-map.cpp.i
@@ -1465,7 +1489,7 @@ collections/ext_collections-map.i: collections/ext_collections-map.cpp.i
 
 # target to preprocess a source file
 collections/ext_collections-map.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-map.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-map.cpp.i
 .PHONY : collections/ext_collections-map.cpp.i
 
 collections/ext_collections-map.s: collections/ext_collections-map.cpp.s
@@ -1473,7 +1497,7 @@ collections/ext_collections-map.s: collections/ext_collections-map.cpp.s
 
 # target to generate assembly for a file
 collections/ext_collections-map.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-map.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-map.cpp.s
 .PHONY : collections/ext_collections-map.cpp.s
 
 collections/ext_collections-pair.o: collections/ext_collections-pair.cpp.o
@@ -1481,7 +1505,7 @@ collections/ext_collections-pair.o: collections/ext_collections-pair.cpp.o
 
 # target to build an object file
 collections/ext_collections-pair.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-pair.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-pair.cpp.o
 .PHONY : collections/ext_collections-pair.cpp.o
 
 collections/ext_collections-pair.i: collections/ext_collections-pair.cpp.i
@@ -1489,7 +1513,7 @@ collections/ext_collections-pair.i: collections/ext_collections-pair.cpp.i
 
 # target to preprocess a source file
 collections/ext_collections-pair.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-pair.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-pair.cpp.i
 .PHONY : collections/ext_collections-pair.cpp.i
 
 collections/ext_collections-pair.s: collections/ext_collections-pair.cpp.s
@@ -1497,7 +1521,7 @@ collections/ext_collections-pair.s: collections/ext_collections-pair.cpp.s
 
 # target to generate assembly for a file
 collections/ext_collections-pair.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-pair.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-pair.cpp.s
 .PHONY : collections/ext_collections-pair.cpp.s
 
 collections/ext_collections-set.o: collections/ext_collections-set.cpp.o
@@ -1505,7 +1529,7 @@ collections/ext_collections-set.o: collections/ext_collections-set.cpp.o
 
 # target to build an object file
 collections/ext_collections-set.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-set.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-set.cpp.o
 .PHONY : collections/ext_collections-set.cpp.o
 
 collections/ext_collections-set.i: collections/ext_collections-set.cpp.i
@@ -1513,7 +1537,7 @@ collections/ext_collections-set.i: collections/ext_collections-set.cpp.i
 
 # target to preprocess a source file
 collections/ext_collections-set.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-set.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-set.cpp.i
 .PHONY : collections/ext_collections-set.cpp.i
 
 collections/ext_collections-set.s: collections/ext_collections-set.cpp.s
@@ -1521,7 +1545,7 @@ collections/ext_collections-set.s: collections/ext_collections-set.cpp.s
 
 # target to generate assembly for a file
 collections/ext_collections-set.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-set.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-set.cpp.s
 .PHONY : collections/ext_collections-set.cpp.s
 
 collections/ext_collections-vector.o: collections/ext_collections-vector.cpp.o
@@ -1529,7 +1553,7 @@ collections/ext_collections-vector.o: collections/ext_collections-vector.cpp.o
 
 # target to build an object file
 collections/ext_collections-vector.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-vector.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-vector.cpp.o
 .PHONY : collections/ext_collections-vector.cpp.o
 
 collections/ext_collections-vector.i: collections/ext_collections-vector.cpp.i
@@ -1537,7 +1561,7 @@ collections/ext_collections-vector.i: collections/ext_collections-vector.cpp.i
 
 # target to preprocess a source file
 collections/ext_collections-vector.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-vector.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-vector.cpp.i
 .PHONY : collections/ext_collections-vector.cpp.i
 
 collections/ext_collections-vector.s: collections/ext_collections-vector.cpp.s
@@ -1545,7 +1569,7 @@ collections/ext_collections-vector.s: collections/ext_collections-vector.cpp.s
 
 # target to generate assembly for a file
 collections/ext_collections-vector.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-vector.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-vector.cpp.s
 .PHONY : collections/ext_collections-vector.cpp.s
 
 collections/ext_collections.o: collections/ext_collections.cpp.o
@@ -1553,7 +1577,7 @@ collections/ext_collections.o: collections/ext_collections.cpp.o
 
 # target to build an object file
 collections/ext_collections.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections.cpp.o
 .PHONY : collections/ext_collections.cpp.o
 
 collections/ext_collections.i: collections/ext_collections.cpp.i
@@ -1561,7 +1585,7 @@ collections/ext_collections.i: collections/ext_collections.cpp.i
 
 # target to preprocess a source file
 collections/ext_collections.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections.cpp.i
 .PHONY : collections/ext_collections.cpp.i
 
 collections/ext_collections.s: collections/ext_collections.cpp.s
@@ -1569,7 +1593,7 @@ collections/ext_collections.s: collections/ext_collections.cpp.s
 
 # target to generate assembly for a file
 collections/ext_collections.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections.cpp.s
 .PHONY : collections/ext_collections.cpp.s
 
 ctype/ext_ctype.o: ctype/ext_ctype.cpp.o
@@ -1577,7 +1601,7 @@ ctype/ext_ctype.o: ctype/ext_ctype.cpp.o
 
 # target to build an object file
 ctype/ext_ctype.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ctype/ext_ctype.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ctype/ext_ctype.cpp.o
 .PHONY : ctype/ext_ctype.cpp.o
 
 ctype/ext_ctype.i: ctype/ext_ctype.cpp.i
@@ -1585,7 +1609,7 @@ ctype/ext_ctype.i: ctype/ext_ctype.cpp.i
 
 # target to preprocess a source file
 ctype/ext_ctype.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ctype/ext_ctype.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ctype/ext_ctype.cpp.i
 .PHONY : ctype/ext_ctype.cpp.i
 
 ctype/ext_ctype.s: ctype/ext_ctype.cpp.s
@@ -1593,7 +1617,7 @@ ctype/ext_ctype.s: ctype/ext_ctype.cpp.s
 
 # target to generate assembly for a file
 ctype/ext_ctype.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ctype/ext_ctype.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ctype/ext_ctype.cpp.s
 .PHONY : ctype/ext_ctype.cpp.s
 
 curl/ext_curl.o: curl/ext_curl.cpp.o
@@ -1601,7 +1625,7 @@ curl/ext_curl.o: curl/ext_curl.cpp.o
 
 # target to build an object file
 curl/ext_curl.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/curl/ext_curl.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/curl/ext_curl.cpp.o
 .PHONY : curl/ext_curl.cpp.o
 
 curl/ext_curl.i: curl/ext_curl.cpp.i
@@ -1609,7 +1633,7 @@ curl/ext_curl.i: curl/ext_curl.cpp.i
 
 # target to preprocess a source file
 curl/ext_curl.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/curl/ext_curl.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/curl/ext_curl.cpp.i
 .PHONY : curl/ext_curl.cpp.i
 
 curl/ext_curl.s: curl/ext_curl.cpp.s
@@ -1617,7 +1641,7 @@ curl/ext_curl.s: curl/ext_curl.cpp.s
 
 # target to generate assembly for a file
 curl/ext_curl.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/curl/ext_curl.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/curl/ext_curl.cpp.s
 .PHONY : curl/ext_curl.cpp.s
 
 datetime/ext_datetime.o: datetime/ext_datetime.cpp.o
@@ -1625,7 +1649,7 @@ datetime/ext_datetime.o: datetime/ext_datetime.cpp.o
 
 # target to build an object file
 datetime/ext_datetime.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/datetime/ext_datetime.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/datetime/ext_datetime.cpp.o
 .PHONY : datetime/ext_datetime.cpp.o
 
 datetime/ext_datetime.i: datetime/ext_datetime.cpp.i
@@ -1633,7 +1657,7 @@ datetime/ext_datetime.i: datetime/ext_datetime.cpp.i
 
 # target to preprocess a source file
 datetime/ext_datetime.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/datetime/ext_datetime.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/datetime/ext_datetime.cpp.i
 .PHONY : datetime/ext_datetime.cpp.i
 
 datetime/ext_datetime.s: datetime/ext_datetime.cpp.s
@@ -1641,7 +1665,7 @@ datetime/ext_datetime.s: datetime/ext_datetime.cpp.s
 
 # target to generate assembly for a file
 datetime/ext_datetime.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/datetime/ext_datetime.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/datetime/ext_datetime.cpp.s
 .PHONY : datetime/ext_datetime.cpp.s
 
 debugger/ext_debugger.o: debugger/ext_debugger.cpp.o
@@ -1649,7 +1673,7 @@ debugger/ext_debugger.o: debugger/ext_debugger.cpp.o
 
 # target to build an object file
 debugger/ext_debugger.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/debugger/ext_debugger.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/debugger/ext_debugger.cpp.o
 .PHONY : debugger/ext_debugger.cpp.o
 
 debugger/ext_debugger.i: debugger/ext_debugger.cpp.i
@@ -1657,7 +1681,7 @@ debugger/ext_debugger.i: debugger/ext_debugger.cpp.i
 
 # target to preprocess a source file
 debugger/ext_debugger.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/debugger/ext_debugger.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/debugger/ext_debugger.cpp.i
 .PHONY : debugger/ext_debugger.cpp.i
 
 debugger/ext_debugger.s: debugger/ext_debugger.cpp.s
@@ -1665,7 +1689,7 @@ debugger/ext_debugger.s: debugger/ext_debugger.cpp.s
 
 # target to generate assembly for a file
 debugger/ext_debugger.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/debugger/ext_debugger.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/debugger/ext_debugger.cpp.s
 .PHONY : debugger/ext_debugger.cpp.s
 
 domdocument/ext_domdocument.o: domdocument/ext_domdocument.cpp.o
@@ -1673,7 +1697,7 @@ domdocument/ext_domdocument.o: domdocument/ext_domdocument.cpp.o
 
 # target to build an object file
 domdocument/ext_domdocument.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/domdocument/ext_domdocument.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/domdocument/ext_domdocument.cpp.o
 .PHONY : domdocument/ext_domdocument.cpp.o
 
 domdocument/ext_domdocument.i: domdocument/ext_domdocument.cpp.i
@@ -1681,7 +1705,7 @@ domdocument/ext_domdocument.i: domdocument/ext_domdocument.cpp.i
 
 # target to preprocess a source file
 domdocument/ext_domdocument.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/domdocument/ext_domdocument.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/domdocument/ext_domdocument.cpp.i
 .PHONY : domdocument/ext_domdocument.cpp.i
 
 domdocument/ext_domdocument.s: domdocument/ext_domdocument.cpp.s
@@ -1689,7 +1713,7 @@ domdocument/ext_domdocument.s: domdocument/ext_domdocument.cpp.s
 
 # target to generate assembly for a file
 domdocument/ext_domdocument.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/domdocument/ext_domdocument.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/domdocument/ext_domdocument.cpp.s
 .PHONY : domdocument/ext_domdocument.cpp.s
 
 enum/ext_enum.o: enum/ext_enum.cpp.o
@@ -1697,7 +1721,7 @@ enum/ext_enum.o: enum/ext_enum.cpp.o
 
 # target to build an object file
 enum/ext_enum.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/enum/ext_enum.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/enum/ext_enum.cpp.o
 .PHONY : enum/ext_enum.cpp.o
 
 enum/ext_enum.i: enum/ext_enum.cpp.i
@@ -1705,7 +1729,7 @@ enum/ext_enum.i: enum/ext_enum.cpp.i
 
 # target to preprocess a source file
 enum/ext_enum.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/enum/ext_enum.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/enum/ext_enum.cpp.i
 .PHONY : enum/ext_enum.cpp.i
 
 enum/ext_enum.s: enum/ext_enum.cpp.s
@@ -1713,7 +1737,7 @@ enum/ext_enum.s: enum/ext_enum.cpp.s
 
 # target to generate assembly for a file
 enum/ext_enum.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/enum/ext_enum.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/enum/ext_enum.cpp.s
 .PHONY : enum/ext_enum.cpp.s
 
 extension-registry.o: extension-registry.cpp.o
@@ -1721,7 +1745,7 @@ extension-registry.o: extension-registry.cpp.o
 
 # target to build an object file
 extension-registry.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/extension-registry.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/extension-registry.cpp.o
 .PHONY : extension-registry.cpp.o
 
 extension-registry.i: extension-registry.cpp.i
@@ -1729,7 +1753,7 @@ extension-registry.i: extension-registry.cpp.i
 
 # target to preprocess a source file
 extension-registry.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/extension-registry.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/extension-registry.cpp.i
 .PHONY : extension-registry.cpp.i
 
 extension-registry.s: extension-registry.cpp.s
@@ -1737,7 +1761,7 @@ extension-registry.s: extension-registry.cpp.s
 
 # target to generate assembly for a file
 extension-registry.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/extension-registry.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/extension-registry.cpp.s
 .PHONY : extension-registry.cpp.s
 
 extension.o: extension.cpp.o
@@ -1745,7 +1769,7 @@ extension.o: extension.cpp.o
 
 # target to build an object file
 extension.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/extension.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/extension.cpp.o
 .PHONY : extension.cpp.o
 
 extension.i: extension.cpp.i
@@ -1753,7 +1777,7 @@ extension.i: extension.cpp.i
 
 # target to preprocess a source file
 extension.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/extension.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/extension.cpp.i
 .PHONY : extension.cpp.i
 
 extension.s: extension.cpp.s
@@ -1761,7 +1785,7 @@ extension.s: extension.cpp.s
 
 # target to generate assembly for a file
 extension.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/extension.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/extension.cpp.s
 .PHONY : extension.cpp.s
 
 fb/ext_fb.o: fb/ext_fb.cpp.o
@@ -1769,7 +1793,7 @@ fb/ext_fb.o: fb/ext_fb.cpp.o
 
 # target to build an object file
 fb/ext_fb.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fb/ext_fb.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fb/ext_fb.cpp.o
 .PHONY : fb/ext_fb.cpp.o
 
 fb/ext_fb.i: fb/ext_fb.cpp.i
@@ -1777,7 +1801,7 @@ fb/ext_fb.i: fb/ext_fb.cpp.i
 
 # target to preprocess a source file
 fb/ext_fb.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fb/ext_fb.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fb/ext_fb.cpp.i
 .PHONY : fb/ext_fb.cpp.i
 
 fb/ext_fb.s: fb/ext_fb.cpp.s
@@ -1785,7 +1809,7 @@ fb/ext_fb.s: fb/ext_fb.cpp.s
 
 # target to generate assembly for a file
 fb/ext_fb.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fb/ext_fb.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fb/ext_fb.cpp.s
 .PHONY : fb/ext_fb.cpp.s
 
 fileinfo/ext_fileinfo.o: fileinfo/ext_fileinfo.cpp.o
@@ -1793,7 +1817,7 @@ fileinfo/ext_fileinfo.o: fileinfo/ext_fileinfo.cpp.o
 
 # target to build an object file
 fileinfo/ext_fileinfo.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/ext_fileinfo.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/ext_fileinfo.cpp.o
 .PHONY : fileinfo/ext_fileinfo.cpp.o
 
 fileinfo/ext_fileinfo.i: fileinfo/ext_fileinfo.cpp.i
@@ -1801,7 +1825,7 @@ fileinfo/ext_fileinfo.i: fileinfo/ext_fileinfo.cpp.i
 
 # target to preprocess a source file
 fileinfo/ext_fileinfo.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/ext_fileinfo.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/ext_fileinfo.cpp.i
 .PHONY : fileinfo/ext_fileinfo.cpp.i
 
 fileinfo/ext_fileinfo.s: fileinfo/ext_fileinfo.cpp.s
@@ -1809,7 +1833,7 @@ fileinfo/ext_fileinfo.s: fileinfo/ext_fileinfo.cpp.s
 
 # target to generate assembly for a file
 fileinfo/ext_fileinfo.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/ext_fileinfo.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/ext_fileinfo.cpp.s
 .PHONY : fileinfo/ext_fileinfo.cpp.s
 
 fileinfo/libmagic/apprentice.o: fileinfo/libmagic/apprentice.cpp.o
@@ -1817,7 +1841,7 @@ fileinfo/libmagic/apprentice.o: fileinfo/libmagic/apprentice.cpp.o
 
 # target to build an object file
 fileinfo/libmagic/apprentice.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apprentice.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apprentice.cpp.o
 .PHONY : fileinfo/libmagic/apprentice.cpp.o
 
 fileinfo/libmagic/apprentice.i: fileinfo/libmagic/apprentice.cpp.i
@@ -1825,7 +1849,7 @@ fileinfo/libmagic/apprentice.i: fileinfo/libmagic/apprentice.cpp.i
 
 # target to preprocess a source file
 fileinfo/libmagic/apprentice.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apprentice.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apprentice.cpp.i
 .PHONY : fileinfo/libmagic/apprentice.cpp.i
 
 fileinfo/libmagic/apprentice.s: fileinfo/libmagic/apprentice.cpp.s
@@ -1833,7 +1857,7 @@ fileinfo/libmagic/apprentice.s: fileinfo/libmagic/apprentice.cpp.s
 
 # target to generate assembly for a file
 fileinfo/libmagic/apprentice.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apprentice.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apprentice.cpp.s
 .PHONY : fileinfo/libmagic/apprentice.cpp.s
 
 fileinfo/libmagic/apptype.o: fileinfo/libmagic/apptype.cpp.o
@@ -1841,7 +1865,7 @@ fileinfo/libmagic/apptype.o: fileinfo/libmagic/apptype.cpp.o
 
 # target to build an object file
 fileinfo/libmagic/apptype.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apptype.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apptype.cpp.o
 .PHONY : fileinfo/libmagic/apptype.cpp.o
 
 fileinfo/libmagic/apptype.i: fileinfo/libmagic/apptype.cpp.i
@@ -1849,7 +1873,7 @@ fileinfo/libmagic/apptype.i: fileinfo/libmagic/apptype.cpp.i
 
 # target to preprocess a source file
 fileinfo/libmagic/apptype.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apptype.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apptype.cpp.i
 .PHONY : fileinfo/libmagic/apptype.cpp.i
 
 fileinfo/libmagic/apptype.s: fileinfo/libmagic/apptype.cpp.s
@@ -1857,7 +1881,7 @@ fileinfo/libmagic/apptype.s: fileinfo/libmagic/apptype.cpp.s
 
 # target to generate assembly for a file
 fileinfo/libmagic/apptype.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apptype.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apptype.cpp.s
 .PHONY : fileinfo/libmagic/apptype.cpp.s
 
 fileinfo/libmagic/ascmagic.o: fileinfo/libmagic/ascmagic.cpp.o
@@ -1865,7 +1889,7 @@ fileinfo/libmagic/ascmagic.o: fileinfo/libmagic/ascmagic.cpp.o
 
 # target to build an object file
 fileinfo/libmagic/ascmagic.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/ascmagic.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/ascmagic.cpp.o
 .PHONY : fileinfo/libmagic/ascmagic.cpp.o
 
 fileinfo/libmagic/ascmagic.i: fileinfo/libmagic/ascmagic.cpp.i
@@ -1873,7 +1897,7 @@ fileinfo/libmagic/ascmagic.i: fileinfo/libmagic/ascmagic.cpp.i
 
 # target to preprocess a source file
 fileinfo/libmagic/ascmagic.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/ascmagic.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/ascmagic.cpp.i
 .PHONY : fileinfo/libmagic/ascmagic.cpp.i
 
 fileinfo/libmagic/ascmagic.s: fileinfo/libmagic/ascmagic.cpp.s
@@ -1881,7 +1905,7 @@ fileinfo/libmagic/ascmagic.s: fileinfo/libmagic/ascmagic.cpp.s
 
 # target to generate assembly for a file
 fileinfo/libmagic/ascmagic.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/ascmagic.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/ascmagic.cpp.s
 .PHONY : fileinfo/libmagic/ascmagic.cpp.s
 
 fileinfo/libmagic/cdf.o: fileinfo/libmagic/cdf.cpp.o
@@ -1889,7 +1913,7 @@ fileinfo/libmagic/cdf.o: fileinfo/libmagic/cdf.cpp.o
 
 # target to build an object file
 fileinfo/libmagic/cdf.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf.cpp.o
 .PHONY : fileinfo/libmagic/cdf.cpp.o
 
 fileinfo/libmagic/cdf.i: fileinfo/libmagic/cdf.cpp.i
@@ -1897,7 +1921,7 @@ fileinfo/libmagic/cdf.i: fileinfo/libmagic/cdf.cpp.i
 
 # target to preprocess a source file
 fileinfo/libmagic/cdf.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf.cpp.i
 .PHONY : fileinfo/libmagic/cdf.cpp.i
 
 fileinfo/libmagic/cdf.s: fileinfo/libmagic/cdf.cpp.s
@@ -1905,7 +1929,7 @@ fileinfo/libmagic/cdf.s: fileinfo/libmagic/cdf.cpp.s
 
 # target to generate assembly for a file
 fileinfo/libmagic/cdf.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf.cpp.s
 .PHONY : fileinfo/libmagic/cdf.cpp.s
 
 fileinfo/libmagic/cdf_time.o: fileinfo/libmagic/cdf_time.cpp.o
@@ -1913,7 +1937,7 @@ fileinfo/libmagic/cdf_time.o: fileinfo/libmagic/cdf_time.cpp.o
 
 # target to build an object file
 fileinfo/libmagic/cdf_time.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf_time.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf_time.cpp.o
 .PHONY : fileinfo/libmagic/cdf_time.cpp.o
 
 fileinfo/libmagic/cdf_time.i: fileinfo/libmagic/cdf_time.cpp.i
@@ -1921,7 +1945,7 @@ fileinfo/libmagic/cdf_time.i: fileinfo/libmagic/cdf_time.cpp.i
 
 # target to preprocess a source file
 fileinfo/libmagic/cdf_time.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf_time.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf_time.cpp.i
 .PHONY : fileinfo/libmagic/cdf_time.cpp.i
 
 fileinfo/libmagic/cdf_time.s: fileinfo/libmagic/cdf_time.cpp.s
@@ -1929,7 +1953,7 @@ fileinfo/libmagic/cdf_time.s: fileinfo/libmagic/cdf_time.cpp.s
 
 # target to generate assembly for a file
 fileinfo/libmagic/cdf_time.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf_time.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf_time.cpp.s
 .PHONY : fileinfo/libmagic/cdf_time.cpp.s
 
 fileinfo/libmagic/compress.o: fileinfo/libmagic/compress.cpp.o
@@ -1937,7 +1961,7 @@ fileinfo/libmagic/compress.o: fileinfo/libmagic/compress.cpp.o
 
 # target to build an object file
 fileinfo/libmagic/compress.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/compress.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/compress.cpp.o
 .PHONY : fileinfo/libmagic/compress.cpp.o
 
 fileinfo/libmagic/compress.i: fileinfo/libmagic/compress.cpp.i
@@ -1945,7 +1969,7 @@ fileinfo/libmagic/compress.i: fileinfo/libmagic/compress.cpp.i
 
 # target to preprocess a source file
 fileinfo/libmagic/compress.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/compress.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/compress.cpp.i
 .PHONY : fileinfo/libmagic/compress.cpp.i
 
 fileinfo/libmagic/compress.s: fileinfo/libmagic/compress.cpp.s
@@ -1953,7 +1977,7 @@ fileinfo/libmagic/compress.s: fileinfo/libmagic/compress.cpp.s
 
 # target to generate assembly for a file
 fileinfo/libmagic/compress.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/compress.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/compress.cpp.s
 .PHONY : fileinfo/libmagic/compress.cpp.s
 
 fileinfo/libmagic/encoding.o: fileinfo/libmagic/encoding.cpp.o
@@ -1961,7 +1985,7 @@ fileinfo/libmagic/encoding.o: fileinfo/libmagic/encoding.cpp.o
 
 # target to build an object file
 fileinfo/libmagic/encoding.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/encoding.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/encoding.cpp.o
 .PHONY : fileinfo/libmagic/encoding.cpp.o
 
 fileinfo/libmagic/encoding.i: fileinfo/libmagic/encoding.cpp.i
@@ -1969,7 +1993,7 @@ fileinfo/libmagic/encoding.i: fileinfo/libmagic/encoding.cpp.i
 
 # target to preprocess a source file
 fileinfo/libmagic/encoding.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/encoding.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/encoding.cpp.i
 .PHONY : fileinfo/libmagic/encoding.cpp.i
 
 fileinfo/libmagic/encoding.s: fileinfo/libmagic/encoding.cpp.s
@@ -1977,7 +2001,7 @@ fileinfo/libmagic/encoding.s: fileinfo/libmagic/encoding.cpp.s
 
 # target to generate assembly for a file
 fileinfo/libmagic/encoding.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/encoding.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/encoding.cpp.s
 .PHONY : fileinfo/libmagic/encoding.cpp.s
 
 fileinfo/libmagic/fsmagic.o: fileinfo/libmagic/fsmagic.cpp.o
@@ -1985,7 +2009,7 @@ fileinfo/libmagic/fsmagic.o: fileinfo/libmagic/fsmagic.cpp.o
 
 # target to build an object file
 fileinfo/libmagic/fsmagic.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/fsmagic.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/fsmagic.cpp.o
 .PHONY : fileinfo/libmagic/fsmagic.cpp.o
 
 fileinfo/libmagic/fsmagic.i: fileinfo/libmagic/fsmagic.cpp.i
@@ -1993,7 +2017,7 @@ fileinfo/libmagic/fsmagic.i: fileinfo/libmagic/fsmagic.cpp.i
 
 # target to preprocess a source file
 fileinfo/libmagic/fsmagic.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/fsmagic.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/fsmagic.cpp.i
 .PHONY : fileinfo/libmagic/fsmagic.cpp.i
 
 fileinfo/libmagic/fsmagic.s: fileinfo/libmagic/fsmagic.cpp.s
@@ -2001,7 +2025,7 @@ fileinfo/libmagic/fsmagic.s: fileinfo/libmagic/fsmagic.cpp.s
 
 # target to generate assembly for a file
 fileinfo/libmagic/fsmagic.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/fsmagic.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/fsmagic.cpp.s
 .PHONY : fileinfo/libmagic/fsmagic.cpp.s
 
 fileinfo/libmagic/funcs.o: fileinfo/libmagic/funcs.cpp.o
@@ -2009,7 +2033,7 @@ fileinfo/libmagic/funcs.o: fileinfo/libmagic/funcs.cpp.o
 
 # target to build an object file
 fileinfo/libmagic/funcs.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/funcs.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/funcs.cpp.o
 .PHONY : fileinfo/libmagic/funcs.cpp.o
 
 fileinfo/libmagic/funcs.i: fileinfo/libmagic/funcs.cpp.i
@@ -2017,7 +2041,7 @@ fileinfo/libmagic/funcs.i: fileinfo/libmagic/funcs.cpp.i
 
 # target to preprocess a source file
 fileinfo/libmagic/funcs.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/funcs.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/funcs.cpp.i
 .PHONY : fileinfo/libmagic/funcs.cpp.i
 
 fileinfo/libmagic/funcs.s: fileinfo/libmagic/funcs.cpp.s
@@ -2025,7 +2049,7 @@ fileinfo/libmagic/funcs.s: fileinfo/libmagic/funcs.cpp.s
 
 # target to generate assembly for a file
 fileinfo/libmagic/funcs.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/funcs.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/funcs.cpp.s
 .PHONY : fileinfo/libmagic/funcs.cpp.s
 
 fileinfo/libmagic/is_tar.o: fileinfo/libmagic/is_tar.cpp.o
@@ -2033,7 +2057,7 @@ fileinfo/libmagic/is_tar.o: fileinfo/libmagic/is_tar.cpp.o
 
 # target to build an object file
 fileinfo/libmagic/is_tar.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/is_tar.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/is_tar.cpp.o
 .PHONY : fileinfo/libmagic/is_tar.cpp.o
 
 fileinfo/libmagic/is_tar.i: fileinfo/libmagic/is_tar.cpp.i
@@ -2041,7 +2065,7 @@ fileinfo/libmagic/is_tar.i: fileinfo/libmagic/is_tar.cpp.i
 
 # target to preprocess a source file
 fileinfo/libmagic/is_tar.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/is_tar.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/is_tar.cpp.i
 .PHONY : fileinfo/libmagic/is_tar.cpp.i
 
 fileinfo/libmagic/is_tar.s: fileinfo/libmagic/is_tar.cpp.s
@@ -2049,7 +2073,7 @@ fileinfo/libmagic/is_tar.s: fileinfo/libmagic/is_tar.cpp.s
 
 # target to generate assembly for a file
 fileinfo/libmagic/is_tar.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/is_tar.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/is_tar.cpp.s
 .PHONY : fileinfo/libmagic/is_tar.cpp.s
 
 fileinfo/libmagic/magic.o: fileinfo/libmagic/magic.cpp.o
@@ -2057,7 +2081,7 @@ fileinfo/libmagic/magic.o: fileinfo/libmagic/magic.cpp.o
 
 # target to build an object file
 fileinfo/libmagic/magic.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/magic.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/magic.cpp.o
 .PHONY : fileinfo/libmagic/magic.cpp.o
 
 fileinfo/libmagic/magic.i: fileinfo/libmagic/magic.cpp.i
@@ -2065,7 +2089,7 @@ fileinfo/libmagic/magic.i: fileinfo/libmagic/magic.cpp.i
 
 # target to preprocess a source file
 fileinfo/libmagic/magic.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/magic.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/magic.cpp.i
 .PHONY : fileinfo/libmagic/magic.cpp.i
 
 fileinfo/libmagic/magic.s: fileinfo/libmagic/magic.cpp.s
@@ -2073,7 +2097,7 @@ fileinfo/libmagic/magic.s: fileinfo/libmagic/magic.cpp.s
 
 # target to generate assembly for a file
 fileinfo/libmagic/magic.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/magic.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/magic.cpp.s
 .PHONY : fileinfo/libmagic/magic.cpp.s
 
 fileinfo/libmagic/print.o: fileinfo/libmagic/print.cpp.o
@@ -2081,7 +2105,7 @@ fileinfo/libmagic/print.o: fileinfo/libmagic/print.cpp.o
 
 # target to build an object file
 fileinfo/libmagic/print.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/print.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/print.cpp.o
 .PHONY : fileinfo/libmagic/print.cpp.o
 
 fileinfo/libmagic/print.i: fileinfo/libmagic/print.cpp.i
@@ -2089,7 +2113,7 @@ fileinfo/libmagic/print.i: fileinfo/libmagic/print.cpp.i
 
 # target to preprocess a source file
 fileinfo/libmagic/print.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/print.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/print.cpp.i
 .PHONY : fileinfo/libmagic/print.cpp.i
 
 fileinfo/libmagic/print.s: fileinfo/libmagic/print.cpp.s
@@ -2097,7 +2121,7 @@ fileinfo/libmagic/print.s: fileinfo/libmagic/print.cpp.s
 
 # target to generate assembly for a file
 fileinfo/libmagic/print.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/print.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/print.cpp.s
 .PHONY : fileinfo/libmagic/print.cpp.s
 
 fileinfo/libmagic/readcdf.o: fileinfo/libmagic/readcdf.cpp.o
@@ -2105,7 +2129,7 @@ fileinfo/libmagic/readcdf.o: fileinfo/libmagic/readcdf.cpp.o
 
 # target to build an object file
 fileinfo/libmagic/readcdf.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readcdf.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readcdf.cpp.o
 .PHONY : fileinfo/libmagic/readcdf.cpp.o
 
 fileinfo/libmagic/readcdf.i: fileinfo/libmagic/readcdf.cpp.i
@@ -2113,7 +2137,7 @@ fileinfo/libmagic/readcdf.i: fileinfo/libmagic/readcdf.cpp.i
 
 # target to preprocess a source file
 fileinfo/libmagic/readcdf.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readcdf.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readcdf.cpp.i
 .PHONY : fileinfo/libmagic/readcdf.cpp.i
 
 fileinfo/libmagic/readcdf.s: fileinfo/libmagic/readcdf.cpp.s
@@ -2121,7 +2145,7 @@ fileinfo/libmagic/readcdf.s: fileinfo/libmagic/readcdf.cpp.s
 
 # target to generate assembly for a file
 fileinfo/libmagic/readcdf.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readcdf.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readcdf.cpp.s
 .PHONY : fileinfo/libmagic/readcdf.cpp.s
 
 fileinfo/libmagic/readelf.o: fileinfo/libmagic/readelf.cpp.o
@@ -2129,7 +2153,7 @@ fileinfo/libmagic/readelf.o: fileinfo/libmagic/readelf.cpp.o
 
 # target to build an object file
 fileinfo/libmagic/readelf.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readelf.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readelf.cpp.o
 .PHONY : fileinfo/libmagic/readelf.cpp.o
 
 fileinfo/libmagic/readelf.i: fileinfo/libmagic/readelf.cpp.i
@@ -2137,7 +2161,7 @@ fileinfo/libmagic/readelf.i: fileinfo/libmagic/readelf.cpp.i
 
 # target to preprocess a source file
 fileinfo/libmagic/readelf.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readelf.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readelf.cpp.i
 .PHONY : fileinfo/libmagic/readelf.cpp.i
 
 fileinfo/libmagic/readelf.s: fileinfo/libmagic/readelf.cpp.s
@@ -2145,7 +2169,7 @@ fileinfo/libmagic/readelf.s: fileinfo/libmagic/readelf.cpp.s
 
 # target to generate assembly for a file
 fileinfo/libmagic/readelf.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readelf.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readelf.cpp.s
 .PHONY : fileinfo/libmagic/readelf.cpp.s
 
 fileinfo/libmagic/softmagic.o: fileinfo/libmagic/softmagic.cpp.o
@@ -2153,7 +2177,7 @@ fileinfo/libmagic/softmagic.o: fileinfo/libmagic/softmagic.cpp.o
 
 # target to build an object file
 fileinfo/libmagic/softmagic.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/softmagic.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/softmagic.cpp.o
 .PHONY : fileinfo/libmagic/softmagic.cpp.o
 
 fileinfo/libmagic/softmagic.i: fileinfo/libmagic/softmagic.cpp.i
@@ -2161,7 +2185,7 @@ fileinfo/libmagic/softmagic.i: fileinfo/libmagic/softmagic.cpp.i
 
 # target to preprocess a source file
 fileinfo/libmagic/softmagic.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/softmagic.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/softmagic.cpp.i
 .PHONY : fileinfo/libmagic/softmagic.cpp.i
 
 fileinfo/libmagic/softmagic.s: fileinfo/libmagic/softmagic.cpp.s
@@ -2169,7 +2193,7 @@ fileinfo/libmagic/softmagic.s: fileinfo/libmagic/softmagic.cpp.s
 
 # target to generate assembly for a file
 fileinfo/libmagic/softmagic.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/softmagic.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/softmagic.cpp.s
 .PHONY : fileinfo/libmagic/softmagic.cpp.s
 
 fileinfo/libmagic/strlcpy.o: fileinfo/libmagic/strlcpy.cpp.o
@@ -2177,7 +2201,7 @@ fileinfo/libmagic/strlcpy.o: fileinfo/libmagic/strlcpy.cpp.o
 
 # target to build an object file
 fileinfo/libmagic/strlcpy.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/strlcpy.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/strlcpy.cpp.o
 .PHONY : fileinfo/libmagic/strlcpy.cpp.o
 
 fileinfo/libmagic/strlcpy.i: fileinfo/libmagic/strlcpy.cpp.i
@@ -2185,7 +2209,7 @@ fileinfo/libmagic/strlcpy.i: fileinfo/libmagic/strlcpy.cpp.i
 
 # target to preprocess a source file
 fileinfo/libmagic/strlcpy.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/strlcpy.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/strlcpy.cpp.i
 .PHONY : fileinfo/libmagic/strlcpy.cpp.i
 
 fileinfo/libmagic/strlcpy.s: fileinfo/libmagic/strlcpy.cpp.s
@@ -2193,7 +2217,7 @@ fileinfo/libmagic/strlcpy.s: fileinfo/libmagic/strlcpy.cpp.s
 
 # target to generate assembly for a file
 fileinfo/libmagic/strlcpy.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/strlcpy.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/strlcpy.cpp.s
 .PHONY : fileinfo/libmagic/strlcpy.cpp.s
 
 filter/ext_filter.o: filter/ext_filter.cpp.o
@@ -2201,7 +2225,7 @@ filter/ext_filter.o: filter/ext_filter.cpp.o
 
 # target to build an object file
 filter/ext_filter.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/ext_filter.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/ext_filter.cpp.o
 .PHONY : filter/ext_filter.cpp.o
 
 filter/ext_filter.i: filter/ext_filter.cpp.i
@@ -2209,7 +2233,7 @@ filter/ext_filter.i: filter/ext_filter.cpp.i
 
 # target to preprocess a source file
 filter/ext_filter.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/ext_filter.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/ext_filter.cpp.i
 .PHONY : filter/ext_filter.cpp.i
 
 filter/ext_filter.s: filter/ext_filter.cpp.s
@@ -2217,7 +2241,7 @@ filter/ext_filter.s: filter/ext_filter.cpp.s
 
 # target to generate assembly for a file
 filter/ext_filter.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/ext_filter.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/ext_filter.cpp.s
 .PHONY : filter/ext_filter.cpp.s
 
 filter/logical_filters.o: filter/logical_filters.cpp.o
@@ -2225,7 +2249,7 @@ filter/logical_filters.o: filter/logical_filters.cpp.o
 
 # target to build an object file
 filter/logical_filters.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/logical_filters.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/logical_filters.cpp.o
 .PHONY : filter/logical_filters.cpp.o
 
 filter/logical_filters.i: filter/logical_filters.cpp.i
@@ -2233,7 +2257,7 @@ filter/logical_filters.i: filter/logical_filters.cpp.i
 
 # target to preprocess a source file
 filter/logical_filters.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/logical_filters.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/logical_filters.cpp.i
 .PHONY : filter/logical_filters.cpp.i
 
 filter/logical_filters.s: filter/logical_filters.cpp.s
@@ -2241,7 +2265,7 @@ filter/logical_filters.s: filter/logical_filters.cpp.s
 
 # target to generate assembly for a file
 filter/logical_filters.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/logical_filters.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/logical_filters.cpp.s
 .PHONY : filter/logical_filters.cpp.s
 
 filter/sanitizing_filters.o: filter/sanitizing_filters.cpp.o
@@ -2249,7 +2273,7 @@ filter/sanitizing_filters.o: filter/sanitizing_filters.cpp.o
 
 # target to build an object file
 filter/sanitizing_filters.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/sanitizing_filters.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/sanitizing_filters.cpp.o
 .PHONY : filter/sanitizing_filters.cpp.o
 
 filter/sanitizing_filters.i: filter/sanitizing_filters.cpp.i
@@ -2257,7 +2281,7 @@ filter/sanitizing_filters.i: filter/sanitizing_filters.cpp.i
 
 # target to preprocess a source file
 filter/sanitizing_filters.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/sanitizing_filters.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/sanitizing_filters.cpp.i
 .PHONY : filter/sanitizing_filters.cpp.i
 
 filter/sanitizing_filters.s: filter/sanitizing_filters.cpp.s
@@ -2265,7 +2289,7 @@ filter/sanitizing_filters.s: filter/sanitizing_filters.cpp.s
 
 # target to generate assembly for a file
 filter/sanitizing_filters.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/sanitizing_filters.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/sanitizing_filters.cpp.s
 .PHONY : filter/sanitizing_filters.cpp.s
 
 gd/ext_gd.o: gd/ext_gd.cpp.o
@@ -2273,7 +2297,7 @@ gd/ext_gd.o: gd/ext_gd.cpp.o
 
 # target to build an object file
 gd/ext_gd.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/ext_gd.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/ext_gd.cpp.o
 .PHONY : gd/ext_gd.cpp.o
 
 gd/ext_gd.i: gd/ext_gd.cpp.i
@@ -2281,7 +2305,7 @@ gd/ext_gd.i: gd/ext_gd.cpp.i
 
 # target to preprocess a source file
 gd/ext_gd.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/ext_gd.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/ext_gd.cpp.i
 .PHONY : gd/ext_gd.cpp.i
 
 gd/ext_gd.s: gd/ext_gd.cpp.s
@@ -2289,7 +2313,7 @@ gd/ext_gd.s: gd/ext_gd.cpp.s
 
 # target to generate assembly for a file
 gd/ext_gd.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/ext_gd.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/ext_gd.cpp.s
 .PHONY : gd/ext_gd.cpp.s
 
 gd/libgd/gd.o: gd/libgd/gd.cpp.o
@@ -2297,7 +2321,7 @@ gd/libgd/gd.o: gd/libgd/gd.cpp.o
 
 # target to build an object file
 gd/libgd/gd.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd.cpp.o
 .PHONY : gd/libgd/gd.cpp.o
 
 gd/libgd/gd.i: gd/libgd/gd.cpp.i
@@ -2305,7 +2329,7 @@ gd/libgd/gd.i: gd/libgd/gd.cpp.i
 
 # target to preprocess a source file
 gd/libgd/gd.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd.cpp.i
 .PHONY : gd/libgd/gd.cpp.i
 
 gd/libgd/gd.s: gd/libgd/gd.cpp.s
@@ -2313,7 +2337,7 @@ gd/libgd/gd.s: gd/libgd/gd.cpp.s
 
 # target to generate assembly for a file
 gd/libgd/gd.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd.cpp.s
 .PHONY : gd/libgd/gd.cpp.s
 
 gd/libgd/gd_arc.o: gd/libgd/gd_arc.cpp.o
@@ -2321,7 +2345,7 @@ gd/libgd/gd_arc.o: gd/libgd/gd_arc.cpp.o
 
 # target to build an object file
 gd/libgd/gd_arc.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc.cpp.o
 .PHONY : gd/libgd/gd_arc.cpp.o
 
 gd/libgd/gd_arc.i: gd/libgd/gd_arc.cpp.i
@@ -2329,7 +2353,7 @@ gd/libgd/gd_arc.i: gd/libgd/gd_arc.cpp.i
 
 # target to preprocess a source file
 gd/libgd/gd_arc.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc.cpp.i
 .PHONY : gd/libgd/gd_arc.cpp.i
 
 gd/libgd/gd_arc.s: gd/libgd/gd_arc.cpp.s
@@ -2337,39 +2361,15 @@ gd/libgd/gd_arc.s: gd/libgd/gd_arc.cpp.s
 
 # target to generate assembly for a file
 gd/libgd/gd_arc.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc.cpp.s
 .PHONY : gd/libgd/gd_arc.cpp.s
-
-gd/libgd/gd_arc_f_buggy.o: gd/libgd/gd_arc_f_buggy.cpp.o
-.PHONY : gd/libgd/gd_arc_f_buggy.o
-
-# target to build an object file
-gd/libgd/gd_arc_f_buggy.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc_f_buggy.cpp.o
-.PHONY : gd/libgd/gd_arc_f_buggy.cpp.o
-
-gd/libgd/gd_arc_f_buggy.i: gd/libgd/gd_arc_f_buggy.cpp.i
-.PHONY : gd/libgd/gd_arc_f_buggy.i
-
-# target to preprocess a source file
-gd/libgd/gd_arc_f_buggy.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc_f_buggy.cpp.i
-.PHONY : gd/libgd/gd_arc_f_buggy.cpp.i
-
-gd/libgd/gd_arc_f_buggy.s: gd/libgd/gd_arc_f_buggy.cpp.s
-.PHONY : gd/libgd/gd_arc_f_buggy.s
-
-# target to generate assembly for a file
-gd/libgd/gd_arc_f_buggy.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc_f_buggy.cpp.s
-.PHONY : gd/libgd/gd_arc_f_buggy.cpp.s
 
 gd/libgd/gd_color.o: gd/libgd/gd_color.cpp.o
 .PHONY : gd/libgd/gd_color.o
 
 # target to build an object file
 gd/libgd/gd_color.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_color.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_color.cpp.o
 .PHONY : gd/libgd/gd_color.cpp.o
 
 gd/libgd/gd_color.i: gd/libgd/gd_color.cpp.i
@@ -2377,7 +2377,7 @@ gd/libgd/gd_color.i: gd/libgd/gd_color.cpp.i
 
 # target to preprocess a source file
 gd/libgd/gd_color.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_color.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_color.cpp.i
 .PHONY : gd/libgd/gd_color.cpp.i
 
 gd/libgd/gd_color.s: gd/libgd/gd_color.cpp.s
@@ -2385,7 +2385,7 @@ gd/libgd/gd_color.s: gd/libgd/gd_color.cpp.s
 
 # target to generate assembly for a file
 gd/libgd/gd_color.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_color.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_color.cpp.s
 .PHONY : gd/libgd/gd_color.cpp.s
 
 gd/libgd/gd_crop.o: gd/libgd/gd_crop.cpp.o
@@ -2393,7 +2393,7 @@ gd/libgd/gd_crop.o: gd/libgd/gd_crop.cpp.o
 
 # target to build an object file
 gd/libgd/gd_crop.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_crop.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_crop.cpp.o
 .PHONY : gd/libgd/gd_crop.cpp.o
 
 gd/libgd/gd_crop.i: gd/libgd/gd_crop.cpp.i
@@ -2401,7 +2401,7 @@ gd/libgd/gd_crop.i: gd/libgd/gd_crop.cpp.i
 
 # target to preprocess a source file
 gd/libgd/gd_crop.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_crop.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_crop.cpp.i
 .PHONY : gd/libgd/gd_crop.cpp.i
 
 gd/libgd/gd_crop.s: gd/libgd/gd_crop.cpp.s
@@ -2409,7 +2409,7 @@ gd/libgd/gd_crop.s: gd/libgd/gd_crop.cpp.s
 
 # target to generate assembly for a file
 gd/libgd/gd_crop.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_crop.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_crop.cpp.s
 .PHONY : gd/libgd/gd_crop.cpp.s
 
 gd/libgd/gd_filter.o: gd/libgd/gd_filter.cpp.o
@@ -2417,7 +2417,7 @@ gd/libgd/gd_filter.o: gd/libgd/gd_filter.cpp.o
 
 # target to build an object file
 gd/libgd/gd_filter.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_filter.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_filter.cpp.o
 .PHONY : gd/libgd/gd_filter.cpp.o
 
 gd/libgd/gd_filter.i: gd/libgd/gd_filter.cpp.i
@@ -2425,7 +2425,7 @@ gd/libgd/gd_filter.i: gd/libgd/gd_filter.cpp.i
 
 # target to preprocess a source file
 gd/libgd/gd_filter.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_filter.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_filter.cpp.i
 .PHONY : gd/libgd/gd_filter.cpp.i
 
 gd/libgd/gd_filter.s: gd/libgd/gd_filter.cpp.s
@@ -2433,7 +2433,7 @@ gd/libgd/gd_filter.s: gd/libgd/gd_filter.cpp.s
 
 # target to generate assembly for a file
 gd/libgd/gd_filter.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_filter.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_filter.cpp.s
 .PHONY : gd/libgd/gd_filter.cpp.s
 
 gd/libgd/gd_gd.o: gd/libgd/gd_gd.cpp.o
@@ -2441,7 +2441,7 @@ gd/libgd/gd_gd.o: gd/libgd/gd_gd.cpp.o
 
 # target to build an object file
 gd/libgd/gd_gd.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd.cpp.o
 .PHONY : gd/libgd/gd_gd.cpp.o
 
 gd/libgd/gd_gd.i: gd/libgd/gd_gd.cpp.i
@@ -2449,7 +2449,7 @@ gd/libgd/gd_gd.i: gd/libgd/gd_gd.cpp.i
 
 # target to preprocess a source file
 gd/libgd/gd_gd.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd.cpp.i
 .PHONY : gd/libgd/gd_gd.cpp.i
 
 gd/libgd/gd_gd.s: gd/libgd/gd_gd.cpp.s
@@ -2457,7 +2457,7 @@ gd/libgd/gd_gd.s: gd/libgd/gd_gd.cpp.s
 
 # target to generate assembly for a file
 gd/libgd/gd_gd.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd.cpp.s
 .PHONY : gd/libgd/gd_gd.cpp.s
 
 gd/libgd/gd_gd2.o: gd/libgd/gd_gd2.cpp.o
@@ -2465,7 +2465,7 @@ gd/libgd/gd_gd2.o: gd/libgd/gd_gd2.cpp.o
 
 # target to build an object file
 gd/libgd/gd_gd2.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd2.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd2.cpp.o
 .PHONY : gd/libgd/gd_gd2.cpp.o
 
 gd/libgd/gd_gd2.i: gd/libgd/gd_gd2.cpp.i
@@ -2473,7 +2473,7 @@ gd/libgd/gd_gd2.i: gd/libgd/gd_gd2.cpp.i
 
 # target to preprocess a source file
 gd/libgd/gd_gd2.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd2.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd2.cpp.i
 .PHONY : gd/libgd/gd_gd2.cpp.i
 
 gd/libgd/gd_gd2.s: gd/libgd/gd_gd2.cpp.s
@@ -2481,7 +2481,7 @@ gd/libgd/gd_gd2.s: gd/libgd/gd_gd2.cpp.s
 
 # target to generate assembly for a file
 gd/libgd/gd_gd2.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd2.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd2.cpp.s
 .PHONY : gd/libgd/gd_gd2.cpp.s
 
 gd/libgd/gd_gif_in.o: gd/libgd/gd_gif_in.cpp.o
@@ -2489,7 +2489,7 @@ gd/libgd/gd_gif_in.o: gd/libgd/gd_gif_in.cpp.o
 
 # target to build an object file
 gd/libgd/gd_gif_in.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_in.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_in.cpp.o
 .PHONY : gd/libgd/gd_gif_in.cpp.o
 
 gd/libgd/gd_gif_in.i: gd/libgd/gd_gif_in.cpp.i
@@ -2497,7 +2497,7 @@ gd/libgd/gd_gif_in.i: gd/libgd/gd_gif_in.cpp.i
 
 # target to preprocess a source file
 gd/libgd/gd_gif_in.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_in.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_in.cpp.i
 .PHONY : gd/libgd/gd_gif_in.cpp.i
 
 gd/libgd/gd_gif_in.s: gd/libgd/gd_gif_in.cpp.s
@@ -2505,7 +2505,7 @@ gd/libgd/gd_gif_in.s: gd/libgd/gd_gif_in.cpp.s
 
 # target to generate assembly for a file
 gd/libgd/gd_gif_in.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_in.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_in.cpp.s
 .PHONY : gd/libgd/gd_gif_in.cpp.s
 
 gd/libgd/gd_gif_out.o: gd/libgd/gd_gif_out.cpp.o
@@ -2513,7 +2513,7 @@ gd/libgd/gd_gif_out.o: gd/libgd/gd_gif_out.cpp.o
 
 # target to build an object file
 gd/libgd/gd_gif_out.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_out.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_out.cpp.o
 .PHONY : gd/libgd/gd_gif_out.cpp.o
 
 gd/libgd/gd_gif_out.i: gd/libgd/gd_gif_out.cpp.i
@@ -2521,7 +2521,7 @@ gd/libgd/gd_gif_out.i: gd/libgd/gd_gif_out.cpp.i
 
 # target to preprocess a source file
 gd/libgd/gd_gif_out.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_out.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_out.cpp.i
 .PHONY : gd/libgd/gd_gif_out.cpp.i
 
 gd/libgd/gd_gif_out.s: gd/libgd/gd_gif_out.cpp.s
@@ -2529,7 +2529,7 @@ gd/libgd/gd_gif_out.s: gd/libgd/gd_gif_out.cpp.s
 
 # target to generate assembly for a file
 gd/libgd/gd_gif_out.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_out.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_out.cpp.s
 .PHONY : gd/libgd/gd_gif_out.cpp.s
 
 gd/libgd/gd_interpolation.o: gd/libgd/gd_interpolation.cpp.o
@@ -2537,7 +2537,7 @@ gd/libgd/gd_interpolation.o: gd/libgd/gd_interpolation.cpp.o
 
 # target to build an object file
 gd/libgd/gd_interpolation.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_interpolation.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_interpolation.cpp.o
 .PHONY : gd/libgd/gd_interpolation.cpp.o
 
 gd/libgd/gd_interpolation.i: gd/libgd/gd_interpolation.cpp.i
@@ -2545,7 +2545,7 @@ gd/libgd/gd_interpolation.i: gd/libgd/gd_interpolation.cpp.i
 
 # target to preprocess a source file
 gd/libgd/gd_interpolation.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_interpolation.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_interpolation.cpp.i
 .PHONY : gd/libgd/gd_interpolation.cpp.i
 
 gd/libgd/gd_interpolation.s: gd/libgd/gd_interpolation.cpp.s
@@ -2553,7 +2553,7 @@ gd/libgd/gd_interpolation.s: gd/libgd/gd_interpolation.cpp.s
 
 # target to generate assembly for a file
 gd/libgd/gd_interpolation.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_interpolation.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_interpolation.cpp.s
 .PHONY : gd/libgd/gd_interpolation.cpp.s
 
 gd/libgd/gd_io.o: gd/libgd/gd_io.cpp.o
@@ -2561,7 +2561,7 @@ gd/libgd/gd_io.o: gd/libgd/gd_io.cpp.o
 
 # target to build an object file
 gd/libgd/gd_io.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io.cpp.o
 .PHONY : gd/libgd/gd_io.cpp.o
 
 gd/libgd/gd_io.i: gd/libgd/gd_io.cpp.i
@@ -2569,7 +2569,7 @@ gd/libgd/gd_io.i: gd/libgd/gd_io.cpp.i
 
 # target to preprocess a source file
 gd/libgd/gd_io.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io.cpp.i
 .PHONY : gd/libgd/gd_io.cpp.i
 
 gd/libgd/gd_io.s: gd/libgd/gd_io.cpp.s
@@ -2577,7 +2577,7 @@ gd/libgd/gd_io.s: gd/libgd/gd_io.cpp.s
 
 # target to generate assembly for a file
 gd/libgd/gd_io.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io.cpp.s
 .PHONY : gd/libgd/gd_io.cpp.s
 
 gd/libgd/gd_io_dp.o: gd/libgd/gd_io_dp.cpp.o
@@ -2585,7 +2585,7 @@ gd/libgd/gd_io_dp.o: gd/libgd/gd_io_dp.cpp.o
 
 # target to build an object file
 gd/libgd/gd_io_dp.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_dp.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_dp.cpp.o
 .PHONY : gd/libgd/gd_io_dp.cpp.o
 
 gd/libgd/gd_io_dp.i: gd/libgd/gd_io_dp.cpp.i
@@ -2593,7 +2593,7 @@ gd/libgd/gd_io_dp.i: gd/libgd/gd_io_dp.cpp.i
 
 # target to preprocess a source file
 gd/libgd/gd_io_dp.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_dp.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_dp.cpp.i
 .PHONY : gd/libgd/gd_io_dp.cpp.i
 
 gd/libgd/gd_io_dp.s: gd/libgd/gd_io_dp.cpp.s
@@ -2601,7 +2601,7 @@ gd/libgd/gd_io_dp.s: gd/libgd/gd_io_dp.cpp.s
 
 # target to generate assembly for a file
 gd/libgd/gd_io_dp.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_dp.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_dp.cpp.s
 .PHONY : gd/libgd/gd_io_dp.cpp.s
 
 gd/libgd/gd_io_file.o: gd/libgd/gd_io_file.cpp.o
@@ -2609,7 +2609,7 @@ gd/libgd/gd_io_file.o: gd/libgd/gd_io_file.cpp.o
 
 # target to build an object file
 gd/libgd/gd_io_file.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_file.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_file.cpp.o
 .PHONY : gd/libgd/gd_io_file.cpp.o
 
 gd/libgd/gd_io_file.i: gd/libgd/gd_io_file.cpp.i
@@ -2617,7 +2617,7 @@ gd/libgd/gd_io_file.i: gd/libgd/gd_io_file.cpp.i
 
 # target to preprocess a source file
 gd/libgd/gd_io_file.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_file.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_file.cpp.i
 .PHONY : gd/libgd/gd_io_file.cpp.i
 
 gd/libgd/gd_io_file.s: gd/libgd/gd_io_file.cpp.s
@@ -2625,7 +2625,7 @@ gd/libgd/gd_io_file.s: gd/libgd/gd_io_file.cpp.s
 
 # target to generate assembly for a file
 gd/libgd/gd_io_file.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_file.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_file.cpp.s
 .PHONY : gd/libgd/gd_io_file.cpp.s
 
 gd/libgd/gd_io_ss.o: gd/libgd/gd_io_ss.cpp.o
@@ -2633,7 +2633,7 @@ gd/libgd/gd_io_ss.o: gd/libgd/gd_io_ss.cpp.o
 
 # target to build an object file
 gd/libgd/gd_io_ss.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_ss.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_ss.cpp.o
 .PHONY : gd/libgd/gd_io_ss.cpp.o
 
 gd/libgd/gd_io_ss.i: gd/libgd/gd_io_ss.cpp.i
@@ -2641,7 +2641,7 @@ gd/libgd/gd_io_ss.i: gd/libgd/gd_io_ss.cpp.i
 
 # target to preprocess a source file
 gd/libgd/gd_io_ss.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_ss.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_ss.cpp.i
 .PHONY : gd/libgd/gd_io_ss.cpp.i
 
 gd/libgd/gd_io_ss.s: gd/libgd/gd_io_ss.cpp.s
@@ -2649,7 +2649,7 @@ gd/libgd/gd_io_ss.s: gd/libgd/gd_io_ss.cpp.s
 
 # target to generate assembly for a file
 gd/libgd/gd_io_ss.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_ss.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_ss.cpp.s
 .PHONY : gd/libgd/gd_io_ss.cpp.s
 
 gd/libgd/gd_jpeg.o: gd/libgd/gd_jpeg.cpp.o
@@ -2657,7 +2657,7 @@ gd/libgd/gd_jpeg.o: gd/libgd/gd_jpeg.cpp.o
 
 # target to build an object file
 gd/libgd/gd_jpeg.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_jpeg.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_jpeg.cpp.o
 .PHONY : gd/libgd/gd_jpeg.cpp.o
 
 gd/libgd/gd_jpeg.i: gd/libgd/gd_jpeg.cpp.i
@@ -2665,7 +2665,7 @@ gd/libgd/gd_jpeg.i: gd/libgd/gd_jpeg.cpp.i
 
 # target to preprocess a source file
 gd/libgd/gd_jpeg.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_jpeg.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_jpeg.cpp.i
 .PHONY : gd/libgd/gd_jpeg.cpp.i
 
 gd/libgd/gd_jpeg.s: gd/libgd/gd_jpeg.cpp.s
@@ -2673,7 +2673,7 @@ gd/libgd/gd_jpeg.s: gd/libgd/gd_jpeg.cpp.s
 
 # target to generate assembly for a file
 gd/libgd/gd_jpeg.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_jpeg.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_jpeg.cpp.s
 .PHONY : gd/libgd/gd_jpeg.cpp.s
 
 gd/libgd/gd_matrix.o: gd/libgd/gd_matrix.cpp.o
@@ -2681,7 +2681,7 @@ gd/libgd/gd_matrix.o: gd/libgd/gd_matrix.cpp.o
 
 # target to build an object file
 gd/libgd/gd_matrix.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_matrix.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_matrix.cpp.o
 .PHONY : gd/libgd/gd_matrix.cpp.o
 
 gd/libgd/gd_matrix.i: gd/libgd/gd_matrix.cpp.i
@@ -2689,7 +2689,7 @@ gd/libgd/gd_matrix.i: gd/libgd/gd_matrix.cpp.i
 
 # target to preprocess a source file
 gd/libgd/gd_matrix.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_matrix.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_matrix.cpp.i
 .PHONY : gd/libgd/gd_matrix.cpp.i
 
 gd/libgd/gd_matrix.s: gd/libgd/gd_matrix.cpp.s
@@ -2697,7 +2697,7 @@ gd/libgd/gd_matrix.s: gd/libgd/gd_matrix.cpp.s
 
 # target to generate assembly for a file
 gd/libgd/gd_matrix.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_matrix.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_matrix.cpp.s
 .PHONY : gd/libgd/gd_matrix.cpp.s
 
 gd/libgd/gd_pixelate.o: gd/libgd/gd_pixelate.cpp.o
@@ -2705,7 +2705,7 @@ gd/libgd/gd_pixelate.o: gd/libgd/gd_pixelate.cpp.o
 
 # target to build an object file
 gd/libgd/gd_pixelate.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_pixelate.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_pixelate.cpp.o
 .PHONY : gd/libgd/gd_pixelate.cpp.o
 
 gd/libgd/gd_pixelate.i: gd/libgd/gd_pixelate.cpp.i
@@ -2713,7 +2713,7 @@ gd/libgd/gd_pixelate.i: gd/libgd/gd_pixelate.cpp.i
 
 # target to preprocess a source file
 gd/libgd/gd_pixelate.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_pixelate.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_pixelate.cpp.i
 .PHONY : gd/libgd/gd_pixelate.cpp.i
 
 gd/libgd/gd_pixelate.s: gd/libgd/gd_pixelate.cpp.s
@@ -2721,7 +2721,7 @@ gd/libgd/gd_pixelate.s: gd/libgd/gd_pixelate.cpp.s
 
 # target to generate assembly for a file
 gd/libgd/gd_pixelate.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_pixelate.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_pixelate.cpp.s
 .PHONY : gd/libgd/gd_pixelate.cpp.s
 
 gd/libgd/gd_png.o: gd/libgd/gd_png.cpp.o
@@ -2729,7 +2729,7 @@ gd/libgd/gd_png.o: gd/libgd/gd_png.cpp.o
 
 # target to build an object file
 gd/libgd/gd_png.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_png.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_png.cpp.o
 .PHONY : gd/libgd/gd_png.cpp.o
 
 gd/libgd/gd_png.i: gd/libgd/gd_png.cpp.i
@@ -2737,7 +2737,7 @@ gd/libgd/gd_png.i: gd/libgd/gd_png.cpp.i
 
 # target to preprocess a source file
 gd/libgd/gd_png.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_png.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_png.cpp.i
 .PHONY : gd/libgd/gd_png.cpp.i
 
 gd/libgd/gd_png.s: gd/libgd/gd_png.cpp.s
@@ -2745,7 +2745,7 @@ gd/libgd/gd_png.s: gd/libgd/gd_png.cpp.s
 
 # target to generate assembly for a file
 gd/libgd/gd_png.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_png.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_png.cpp.s
 .PHONY : gd/libgd/gd_png.cpp.s
 
 gd/libgd/gd_rotate.o: gd/libgd/gd_rotate.cpp.o
@@ -2753,7 +2753,7 @@ gd/libgd/gd_rotate.o: gd/libgd/gd_rotate.cpp.o
 
 # target to build an object file
 gd/libgd/gd_rotate.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_rotate.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_rotate.cpp.o
 .PHONY : gd/libgd/gd_rotate.cpp.o
 
 gd/libgd/gd_rotate.i: gd/libgd/gd_rotate.cpp.i
@@ -2761,7 +2761,7 @@ gd/libgd/gd_rotate.i: gd/libgd/gd_rotate.cpp.i
 
 # target to preprocess a source file
 gd/libgd/gd_rotate.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_rotate.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_rotate.cpp.i
 .PHONY : gd/libgd/gd_rotate.cpp.i
 
 gd/libgd/gd_rotate.s: gd/libgd/gd_rotate.cpp.s
@@ -2769,7 +2769,7 @@ gd/libgd/gd_rotate.s: gd/libgd/gd_rotate.cpp.s
 
 # target to generate assembly for a file
 gd/libgd/gd_rotate.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_rotate.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_rotate.cpp.s
 .PHONY : gd/libgd/gd_rotate.cpp.s
 
 gd/libgd/gd_security.o: gd/libgd/gd_security.cpp.o
@@ -2777,7 +2777,7 @@ gd/libgd/gd_security.o: gd/libgd/gd_security.cpp.o
 
 # target to build an object file
 gd/libgd/gd_security.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_security.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_security.cpp.o
 .PHONY : gd/libgd/gd_security.cpp.o
 
 gd/libgd/gd_security.i: gd/libgd/gd_security.cpp.i
@@ -2785,7 +2785,7 @@ gd/libgd/gd_security.i: gd/libgd/gd_security.cpp.i
 
 # target to preprocess a source file
 gd/libgd/gd_security.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_security.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_security.cpp.i
 .PHONY : gd/libgd/gd_security.cpp.i
 
 gd/libgd/gd_security.s: gd/libgd/gd_security.cpp.s
@@ -2793,7 +2793,7 @@ gd/libgd/gd_security.s: gd/libgd/gd_security.cpp.s
 
 # target to generate assembly for a file
 gd/libgd/gd_security.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_security.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_security.cpp.s
 .PHONY : gd/libgd/gd_security.cpp.s
 
 gd/libgd/gd_ss.o: gd/libgd/gd_ss.cpp.o
@@ -2801,7 +2801,7 @@ gd/libgd/gd_ss.o: gd/libgd/gd_ss.cpp.o
 
 # target to build an object file
 gd/libgd/gd_ss.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_ss.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_ss.cpp.o
 .PHONY : gd/libgd/gd_ss.cpp.o
 
 gd/libgd/gd_ss.i: gd/libgd/gd_ss.cpp.i
@@ -2809,7 +2809,7 @@ gd/libgd/gd_ss.i: gd/libgd/gd_ss.cpp.i
 
 # target to preprocess a source file
 gd/libgd/gd_ss.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_ss.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_ss.cpp.i
 .PHONY : gd/libgd/gd_ss.cpp.i
 
 gd/libgd/gd_ss.s: gd/libgd/gd_ss.cpp.s
@@ -2817,7 +2817,7 @@ gd/libgd/gd_ss.s: gd/libgd/gd_ss.cpp.s
 
 # target to generate assembly for a file
 gd/libgd/gd_ss.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_ss.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_ss.cpp.s
 .PHONY : gd/libgd/gd_ss.cpp.s
 
 gd/libgd/gd_topal.o: gd/libgd/gd_topal.cpp.o
@@ -2825,7 +2825,7 @@ gd/libgd/gd_topal.o: gd/libgd/gd_topal.cpp.o
 
 # target to build an object file
 gd/libgd/gd_topal.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_topal.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_topal.cpp.o
 .PHONY : gd/libgd/gd_topal.cpp.o
 
 gd/libgd/gd_topal.i: gd/libgd/gd_topal.cpp.i
@@ -2833,7 +2833,7 @@ gd/libgd/gd_topal.i: gd/libgd/gd_topal.cpp.i
 
 # target to preprocess a source file
 gd/libgd/gd_topal.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_topal.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_topal.cpp.i
 .PHONY : gd/libgd/gd_topal.cpp.i
 
 gd/libgd/gd_topal.s: gd/libgd/gd_topal.cpp.s
@@ -2841,7 +2841,7 @@ gd/libgd/gd_topal.s: gd/libgd/gd_topal.cpp.s
 
 # target to generate assembly for a file
 gd/libgd/gd_topal.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_topal.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_topal.cpp.s
 .PHONY : gd/libgd/gd_topal.cpp.s
 
 gd/libgd/gd_transform.o: gd/libgd/gd_transform.cpp.o
@@ -2849,7 +2849,7 @@ gd/libgd/gd_transform.o: gd/libgd/gd_transform.cpp.o
 
 # target to build an object file
 gd/libgd/gd_transform.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_transform.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_transform.cpp.o
 .PHONY : gd/libgd/gd_transform.cpp.o
 
 gd/libgd/gd_transform.i: gd/libgd/gd_transform.cpp.i
@@ -2857,7 +2857,7 @@ gd/libgd/gd_transform.i: gd/libgd/gd_transform.cpp.i
 
 # target to preprocess a source file
 gd/libgd/gd_transform.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_transform.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_transform.cpp.i
 .PHONY : gd/libgd/gd_transform.cpp.i
 
 gd/libgd/gd_transform.s: gd/libgd/gd_transform.cpp.s
@@ -2865,7 +2865,7 @@ gd/libgd/gd_transform.s: gd/libgd/gd_transform.cpp.s
 
 # target to generate assembly for a file
 gd/libgd/gd_transform.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_transform.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_transform.cpp.s
 .PHONY : gd/libgd/gd_transform.cpp.s
 
 gd/libgd/gd_wbmp.o: gd/libgd/gd_wbmp.cpp.o
@@ -2873,7 +2873,7 @@ gd/libgd/gd_wbmp.o: gd/libgd/gd_wbmp.cpp.o
 
 # target to build an object file
 gd/libgd/gd_wbmp.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_wbmp.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_wbmp.cpp.o
 .PHONY : gd/libgd/gd_wbmp.cpp.o
 
 gd/libgd/gd_wbmp.i: gd/libgd/gd_wbmp.cpp.i
@@ -2881,7 +2881,7 @@ gd/libgd/gd_wbmp.i: gd/libgd/gd_wbmp.cpp.i
 
 # target to preprocess a source file
 gd/libgd/gd_wbmp.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_wbmp.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_wbmp.cpp.i
 .PHONY : gd/libgd/gd_wbmp.cpp.i
 
 gd/libgd/gd_wbmp.s: gd/libgd/gd_wbmp.cpp.s
@@ -2889,7 +2889,7 @@ gd/libgd/gd_wbmp.s: gd/libgd/gd_wbmp.cpp.s
 
 # target to generate assembly for a file
 gd/libgd/gd_wbmp.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_wbmp.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_wbmp.cpp.s
 .PHONY : gd/libgd/gd_wbmp.cpp.s
 
 gd/libgd/gd_webp.o: gd/libgd/gd_webp.cpp.o
@@ -2897,7 +2897,7 @@ gd/libgd/gd_webp.o: gd/libgd/gd_webp.cpp.o
 
 # target to build an object file
 gd/libgd/gd_webp.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_webp.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_webp.cpp.o
 .PHONY : gd/libgd/gd_webp.cpp.o
 
 gd/libgd/gd_webp.i: gd/libgd/gd_webp.cpp.i
@@ -2905,7 +2905,7 @@ gd/libgd/gd_webp.i: gd/libgd/gd_webp.cpp.i
 
 # target to preprocess a source file
 gd/libgd/gd_webp.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_webp.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_webp.cpp.i
 .PHONY : gd/libgd/gd_webp.cpp.i
 
 gd/libgd/gd_webp.s: gd/libgd/gd_webp.cpp.s
@@ -2913,7 +2913,7 @@ gd/libgd/gd_webp.s: gd/libgd/gd_webp.cpp.s
 
 # target to generate assembly for a file
 gd/libgd/gd_webp.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_webp.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_webp.cpp.s
 .PHONY : gd/libgd/gd_webp.cpp.s
 
 gd/libgd/gdcache.o: gd/libgd/gdcache.cpp.o
@@ -2921,7 +2921,7 @@ gd/libgd/gdcache.o: gd/libgd/gdcache.cpp.o
 
 # target to build an object file
 gd/libgd/gdcache.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdcache.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdcache.cpp.o
 .PHONY : gd/libgd/gdcache.cpp.o
 
 gd/libgd/gdcache.i: gd/libgd/gdcache.cpp.i
@@ -2929,7 +2929,7 @@ gd/libgd/gdcache.i: gd/libgd/gdcache.cpp.i
 
 # target to preprocess a source file
 gd/libgd/gdcache.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdcache.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdcache.cpp.i
 .PHONY : gd/libgd/gdcache.cpp.i
 
 gd/libgd/gdcache.s: gd/libgd/gdcache.cpp.s
@@ -2937,7 +2937,7 @@ gd/libgd/gdcache.s: gd/libgd/gdcache.cpp.s
 
 # target to generate assembly for a file
 gd/libgd/gdcache.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdcache.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdcache.cpp.s
 .PHONY : gd/libgd/gdcache.cpp.s
 
 gd/libgd/gdfontg.o: gd/libgd/gdfontg.cpp.o
@@ -2945,7 +2945,7 @@ gd/libgd/gdfontg.o: gd/libgd/gdfontg.cpp.o
 
 # target to build an object file
 gd/libgd/gdfontg.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontg.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontg.cpp.o
 .PHONY : gd/libgd/gdfontg.cpp.o
 
 gd/libgd/gdfontg.i: gd/libgd/gdfontg.cpp.i
@@ -2953,7 +2953,7 @@ gd/libgd/gdfontg.i: gd/libgd/gdfontg.cpp.i
 
 # target to preprocess a source file
 gd/libgd/gdfontg.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontg.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontg.cpp.i
 .PHONY : gd/libgd/gdfontg.cpp.i
 
 gd/libgd/gdfontg.s: gd/libgd/gdfontg.cpp.s
@@ -2961,7 +2961,7 @@ gd/libgd/gdfontg.s: gd/libgd/gdfontg.cpp.s
 
 # target to generate assembly for a file
 gd/libgd/gdfontg.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontg.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontg.cpp.s
 .PHONY : gd/libgd/gdfontg.cpp.s
 
 gd/libgd/gdfontl.o: gd/libgd/gdfontl.cpp.o
@@ -2969,7 +2969,7 @@ gd/libgd/gdfontl.o: gd/libgd/gdfontl.cpp.o
 
 # target to build an object file
 gd/libgd/gdfontl.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontl.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontl.cpp.o
 .PHONY : gd/libgd/gdfontl.cpp.o
 
 gd/libgd/gdfontl.i: gd/libgd/gdfontl.cpp.i
@@ -2977,7 +2977,7 @@ gd/libgd/gdfontl.i: gd/libgd/gdfontl.cpp.i
 
 # target to preprocess a source file
 gd/libgd/gdfontl.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontl.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontl.cpp.i
 .PHONY : gd/libgd/gdfontl.cpp.i
 
 gd/libgd/gdfontl.s: gd/libgd/gdfontl.cpp.s
@@ -2985,7 +2985,7 @@ gd/libgd/gdfontl.s: gd/libgd/gdfontl.cpp.s
 
 # target to generate assembly for a file
 gd/libgd/gdfontl.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontl.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontl.cpp.s
 .PHONY : gd/libgd/gdfontl.cpp.s
 
 gd/libgd/gdfontmb.o: gd/libgd/gdfontmb.cpp.o
@@ -2993,7 +2993,7 @@ gd/libgd/gdfontmb.o: gd/libgd/gdfontmb.cpp.o
 
 # target to build an object file
 gd/libgd/gdfontmb.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontmb.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontmb.cpp.o
 .PHONY : gd/libgd/gdfontmb.cpp.o
 
 gd/libgd/gdfontmb.i: gd/libgd/gdfontmb.cpp.i
@@ -3001,7 +3001,7 @@ gd/libgd/gdfontmb.i: gd/libgd/gdfontmb.cpp.i
 
 # target to preprocess a source file
 gd/libgd/gdfontmb.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontmb.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontmb.cpp.i
 .PHONY : gd/libgd/gdfontmb.cpp.i
 
 gd/libgd/gdfontmb.s: gd/libgd/gdfontmb.cpp.s
@@ -3009,7 +3009,7 @@ gd/libgd/gdfontmb.s: gd/libgd/gdfontmb.cpp.s
 
 # target to generate assembly for a file
 gd/libgd/gdfontmb.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontmb.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontmb.cpp.s
 .PHONY : gd/libgd/gdfontmb.cpp.s
 
 gd/libgd/gdfonts.o: gd/libgd/gdfonts.cpp.o
@@ -3017,7 +3017,7 @@ gd/libgd/gdfonts.o: gd/libgd/gdfonts.cpp.o
 
 # target to build an object file
 gd/libgd/gdfonts.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfonts.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfonts.cpp.o
 .PHONY : gd/libgd/gdfonts.cpp.o
 
 gd/libgd/gdfonts.i: gd/libgd/gdfonts.cpp.i
@@ -3025,7 +3025,7 @@ gd/libgd/gdfonts.i: gd/libgd/gdfonts.cpp.i
 
 # target to preprocess a source file
 gd/libgd/gdfonts.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfonts.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfonts.cpp.i
 .PHONY : gd/libgd/gdfonts.cpp.i
 
 gd/libgd/gdfonts.s: gd/libgd/gdfonts.cpp.s
@@ -3033,7 +3033,7 @@ gd/libgd/gdfonts.s: gd/libgd/gdfonts.cpp.s
 
 # target to generate assembly for a file
 gd/libgd/gdfonts.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfonts.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfonts.cpp.s
 .PHONY : gd/libgd/gdfonts.cpp.s
 
 gd/libgd/gdfontt.o: gd/libgd/gdfontt.cpp.o
@@ -3041,7 +3041,7 @@ gd/libgd/gdfontt.o: gd/libgd/gdfontt.cpp.o
 
 # target to build an object file
 gd/libgd/gdfontt.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontt.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontt.cpp.o
 .PHONY : gd/libgd/gdfontt.cpp.o
 
 gd/libgd/gdfontt.i: gd/libgd/gdfontt.cpp.i
@@ -3049,7 +3049,7 @@ gd/libgd/gdfontt.i: gd/libgd/gdfontt.cpp.i
 
 # target to preprocess a source file
 gd/libgd/gdfontt.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontt.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontt.cpp.i
 .PHONY : gd/libgd/gdfontt.cpp.i
 
 gd/libgd/gdfontt.s: gd/libgd/gdfontt.cpp.s
@@ -3057,7 +3057,7 @@ gd/libgd/gdfontt.s: gd/libgd/gdfontt.cpp.s
 
 # target to generate assembly for a file
 gd/libgd/gdfontt.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontt.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontt.cpp.s
 .PHONY : gd/libgd/gdfontt.cpp.s
 
 gd/libgd/gdft.o: gd/libgd/gdft.cpp.o
@@ -3065,7 +3065,7 @@ gd/libgd/gdft.o: gd/libgd/gdft.cpp.o
 
 # target to build an object file
 gd/libgd/gdft.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdft.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdft.cpp.o
 .PHONY : gd/libgd/gdft.cpp.o
 
 gd/libgd/gdft.i: gd/libgd/gdft.cpp.i
@@ -3073,7 +3073,7 @@ gd/libgd/gdft.i: gd/libgd/gdft.cpp.i
 
 # target to preprocess a source file
 gd/libgd/gdft.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdft.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdft.cpp.i
 .PHONY : gd/libgd/gdft.cpp.i
 
 gd/libgd/gdft.s: gd/libgd/gdft.cpp.s
@@ -3081,7 +3081,7 @@ gd/libgd/gdft.s: gd/libgd/gdft.cpp.s
 
 # target to generate assembly for a file
 gd/libgd/gdft.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdft.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdft.cpp.s
 .PHONY : gd/libgd/gdft.cpp.s
 
 gd/libgd/gdhelpers.o: gd/libgd/gdhelpers.cpp.o
@@ -3089,7 +3089,7 @@ gd/libgd/gdhelpers.o: gd/libgd/gdhelpers.cpp.o
 
 # target to build an object file
 gd/libgd/gdhelpers.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdhelpers.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdhelpers.cpp.o
 .PHONY : gd/libgd/gdhelpers.cpp.o
 
 gd/libgd/gdhelpers.i: gd/libgd/gdhelpers.cpp.i
@@ -3097,7 +3097,7 @@ gd/libgd/gdhelpers.i: gd/libgd/gdhelpers.cpp.i
 
 # target to preprocess a source file
 gd/libgd/gdhelpers.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdhelpers.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdhelpers.cpp.i
 .PHONY : gd/libgd/gdhelpers.cpp.i
 
 gd/libgd/gdhelpers.s: gd/libgd/gdhelpers.cpp.s
@@ -3105,7 +3105,7 @@ gd/libgd/gdhelpers.s: gd/libgd/gdhelpers.cpp.s
 
 # target to generate assembly for a file
 gd/libgd/gdhelpers.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdhelpers.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdhelpers.cpp.s
 .PHONY : gd/libgd/gdhelpers.cpp.s
 
 gd/libgd/gdkanji.o: gd/libgd/gdkanji.cpp.o
@@ -3113,7 +3113,7 @@ gd/libgd/gdkanji.o: gd/libgd/gdkanji.cpp.o
 
 # target to build an object file
 gd/libgd/gdkanji.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdkanji.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdkanji.cpp.o
 .PHONY : gd/libgd/gdkanji.cpp.o
 
 gd/libgd/gdkanji.i: gd/libgd/gdkanji.cpp.i
@@ -3121,7 +3121,7 @@ gd/libgd/gdkanji.i: gd/libgd/gdkanji.cpp.i
 
 # target to preprocess a source file
 gd/libgd/gdkanji.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdkanji.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdkanji.cpp.i
 .PHONY : gd/libgd/gdkanji.cpp.i
 
 gd/libgd/gdkanji.s: gd/libgd/gdkanji.cpp.s
@@ -3129,7 +3129,7 @@ gd/libgd/gdkanji.s: gd/libgd/gdkanji.cpp.s
 
 # target to generate assembly for a file
 gd/libgd/gdkanji.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdkanji.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdkanji.cpp.s
 .PHONY : gd/libgd/gdkanji.cpp.s
 
 gd/libgd/gdtables.o: gd/libgd/gdtables.cpp.o
@@ -3137,7 +3137,7 @@ gd/libgd/gdtables.o: gd/libgd/gdtables.cpp.o
 
 # target to build an object file
 gd/libgd/gdtables.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdtables.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdtables.cpp.o
 .PHONY : gd/libgd/gdtables.cpp.o
 
 gd/libgd/gdtables.i: gd/libgd/gdtables.cpp.i
@@ -3145,7 +3145,7 @@ gd/libgd/gdtables.i: gd/libgd/gdtables.cpp.i
 
 # target to preprocess a source file
 gd/libgd/gdtables.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdtables.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdtables.cpp.i
 .PHONY : gd/libgd/gdtables.cpp.i
 
 gd/libgd/gdtables.s: gd/libgd/gdtables.cpp.s
@@ -3153,7 +3153,7 @@ gd/libgd/gdtables.s: gd/libgd/gdtables.cpp.s
 
 # target to generate assembly for a file
 gd/libgd/gdtables.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdtables.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdtables.cpp.s
 .PHONY : gd/libgd/gdtables.cpp.s
 
 gd/libgd/wbmp.o: gd/libgd/wbmp.cpp.o
@@ -3161,7 +3161,7 @@ gd/libgd/wbmp.o: gd/libgd/wbmp.cpp.o
 
 # target to build an object file
 gd/libgd/wbmp.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/wbmp.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/wbmp.cpp.o
 .PHONY : gd/libgd/wbmp.cpp.o
 
 gd/libgd/wbmp.i: gd/libgd/wbmp.cpp.i
@@ -3169,7 +3169,7 @@ gd/libgd/wbmp.i: gd/libgd/wbmp.cpp.i
 
 # target to preprocess a source file
 gd/libgd/wbmp.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/wbmp.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/wbmp.cpp.i
 .PHONY : gd/libgd/wbmp.cpp.i
 
 gd/libgd/wbmp.s: gd/libgd/wbmp.cpp.s
@@ -3177,7 +3177,7 @@ gd/libgd/wbmp.s: gd/libgd/wbmp.cpp.s
 
 # target to generate assembly for a file
 gd/libgd/wbmp.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/wbmp.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/wbmp.cpp.s
 .PHONY : gd/libgd/wbmp.cpp.s
 
 gd/libgd/webpimg.o: gd/libgd/webpimg.cpp.o
@@ -3185,7 +3185,7 @@ gd/libgd/webpimg.o: gd/libgd/webpimg.cpp.o
 
 # target to build an object file
 gd/libgd/webpimg.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/webpimg.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/webpimg.cpp.o
 .PHONY : gd/libgd/webpimg.cpp.o
 
 gd/libgd/webpimg.i: gd/libgd/webpimg.cpp.i
@@ -3193,7 +3193,7 @@ gd/libgd/webpimg.i: gd/libgd/webpimg.cpp.i
 
 # target to preprocess a source file
 gd/libgd/webpimg.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/webpimg.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/webpimg.cpp.i
 .PHONY : gd/libgd/webpimg.cpp.i
 
 gd/libgd/webpimg.s: gd/libgd/webpimg.cpp.s
@@ -3201,7 +3201,7 @@ gd/libgd/webpimg.s: gd/libgd/webpimg.cpp.s
 
 # target to generate assembly for a file
 gd/libgd/webpimg.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/webpimg.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/webpimg.cpp.s
 .PHONY : gd/libgd/webpimg.cpp.s
 
 gd/libgd/xbm.o: gd/libgd/xbm.cpp.o
@@ -3209,7 +3209,7 @@ gd/libgd/xbm.o: gd/libgd/xbm.cpp.o
 
 # target to build an object file
 gd/libgd/xbm.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/xbm.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/xbm.cpp.o
 .PHONY : gd/libgd/xbm.cpp.o
 
 gd/libgd/xbm.i: gd/libgd/xbm.cpp.i
@@ -3217,7 +3217,7 @@ gd/libgd/xbm.i: gd/libgd/xbm.cpp.i
 
 # target to preprocess a source file
 gd/libgd/xbm.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/xbm.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/xbm.cpp.i
 .PHONY : gd/libgd/xbm.cpp.i
 
 gd/libgd/xbm.s: gd/libgd/xbm.cpp.s
@@ -3225,7 +3225,7 @@ gd/libgd/xbm.s: gd/libgd/xbm.cpp.s
 
 # target to generate assembly for a file
 gd/libgd/xbm.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/xbm.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/xbm.cpp.s
 .PHONY : gd/libgd/xbm.cpp.s
 
 generator/ext_generator.o: generator/ext_generator.cpp.o
@@ -3233,7 +3233,7 @@ generator/ext_generator.o: generator/ext_generator.cpp.o
 
 # target to build an object file
 generator/ext_generator.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/generator/ext_generator.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/generator/ext_generator.cpp.o
 .PHONY : generator/ext_generator.cpp.o
 
 generator/ext_generator.i: generator/ext_generator.cpp.i
@@ -3241,7 +3241,7 @@ generator/ext_generator.i: generator/ext_generator.cpp.i
 
 # target to preprocess a source file
 generator/ext_generator.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/generator/ext_generator.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/generator/ext_generator.cpp.i
 .PHONY : generator/ext_generator.cpp.i
 
 generator/ext_generator.s: generator/ext_generator.cpp.s
@@ -3249,7 +3249,7 @@ generator/ext_generator.s: generator/ext_generator.cpp.s
 
 # target to generate assembly for a file
 generator/ext_generator.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/generator/ext_generator.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/generator/ext_generator.cpp.s
 .PHONY : generator/ext_generator.cpp.s
 
 gettext/ext_gettext.o: gettext/ext_gettext.cpp.o
@@ -3257,7 +3257,7 @@ gettext/ext_gettext.o: gettext/ext_gettext.cpp.o
 
 # target to build an object file
 gettext/ext_gettext.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gettext/ext_gettext.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gettext/ext_gettext.cpp.o
 .PHONY : gettext/ext_gettext.cpp.o
 
 gettext/ext_gettext.i: gettext/ext_gettext.cpp.i
@@ -3265,7 +3265,7 @@ gettext/ext_gettext.i: gettext/ext_gettext.cpp.i
 
 # target to preprocess a source file
 gettext/ext_gettext.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gettext/ext_gettext.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gettext/ext_gettext.cpp.i
 .PHONY : gettext/ext_gettext.cpp.i
 
 gettext/ext_gettext.s: gettext/ext_gettext.cpp.s
@@ -3273,7 +3273,7 @@ gettext/ext_gettext.s: gettext/ext_gettext.cpp.s
 
 # target to generate assembly for a file
 gettext/ext_gettext.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gettext/ext_gettext.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gettext/ext_gettext.cpp.s
 .PHONY : gettext/ext_gettext.cpp.s
 
 gmp/ext_gmp.o: gmp/ext_gmp.cpp.o
@@ -3281,7 +3281,7 @@ gmp/ext_gmp.o: gmp/ext_gmp.cpp.o
 
 # target to build an object file
 gmp/ext_gmp.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gmp/ext_gmp.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gmp/ext_gmp.cpp.o
 .PHONY : gmp/ext_gmp.cpp.o
 
 gmp/ext_gmp.i: gmp/ext_gmp.cpp.i
@@ -3289,7 +3289,7 @@ gmp/ext_gmp.i: gmp/ext_gmp.cpp.i
 
 # target to preprocess a source file
 gmp/ext_gmp.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gmp/ext_gmp.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gmp/ext_gmp.cpp.i
 .PHONY : gmp/ext_gmp.cpp.i
 
 gmp/ext_gmp.s: gmp/ext_gmp.cpp.s
@@ -3297,7 +3297,7 @@ gmp/ext_gmp.s: gmp/ext_gmp.cpp.s
 
 # target to generate assembly for a file
 gmp/ext_gmp.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gmp/ext_gmp.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gmp/ext_gmp.cpp.s
 .PHONY : gmp/ext_gmp.cpp.s
 
 hash/ext_hash.o: hash/ext_hash.cpp.o
@@ -3305,7 +3305,7 @@ hash/ext_hash.o: hash/ext_hash.cpp.o
 
 # target to build an object file
 hash/ext_hash.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/ext_hash.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/ext_hash.cpp.o
 .PHONY : hash/ext_hash.cpp.o
 
 hash/ext_hash.i: hash/ext_hash.cpp.i
@@ -3313,7 +3313,7 @@ hash/ext_hash.i: hash/ext_hash.cpp.i
 
 # target to preprocess a source file
 hash/ext_hash.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/ext_hash.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/ext_hash.cpp.i
 .PHONY : hash/ext_hash.cpp.i
 
 hash/ext_hash.s: hash/ext_hash.cpp.s
@@ -3321,7 +3321,7 @@ hash/ext_hash.s: hash/ext_hash.cpp.s
 
 # target to generate assembly for a file
 hash/ext_hash.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/ext_hash.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/ext_hash.cpp.s
 .PHONY : hash/ext_hash.cpp.s
 
 hash/hash_adler32.o: hash/hash_adler32.cpp.o
@@ -3329,7 +3329,7 @@ hash/hash_adler32.o: hash/hash_adler32.cpp.o
 
 # target to build an object file
 hash/hash_adler32.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_adler32.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_adler32.cpp.o
 .PHONY : hash/hash_adler32.cpp.o
 
 hash/hash_adler32.i: hash/hash_adler32.cpp.i
@@ -3337,7 +3337,7 @@ hash/hash_adler32.i: hash/hash_adler32.cpp.i
 
 # target to preprocess a source file
 hash/hash_adler32.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_adler32.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_adler32.cpp.i
 .PHONY : hash/hash_adler32.cpp.i
 
 hash/hash_adler32.s: hash/hash_adler32.cpp.s
@@ -3345,7 +3345,7 @@ hash/hash_adler32.s: hash/hash_adler32.cpp.s
 
 # target to generate assembly for a file
 hash/hash_adler32.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_adler32.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_adler32.cpp.s
 .PHONY : hash/hash_adler32.cpp.s
 
 hash/hash_crc32.o: hash/hash_crc32.cpp.o
@@ -3353,7 +3353,7 @@ hash/hash_crc32.o: hash/hash_crc32.cpp.o
 
 # target to build an object file
 hash/hash_crc32.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_crc32.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_crc32.cpp.o
 .PHONY : hash/hash_crc32.cpp.o
 
 hash/hash_crc32.i: hash/hash_crc32.cpp.i
@@ -3361,7 +3361,7 @@ hash/hash_crc32.i: hash/hash_crc32.cpp.i
 
 # target to preprocess a source file
 hash/hash_crc32.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_crc32.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_crc32.cpp.i
 .PHONY : hash/hash_crc32.cpp.i
 
 hash/hash_crc32.s: hash/hash_crc32.cpp.s
@@ -3369,7 +3369,7 @@ hash/hash_crc32.s: hash/hash_crc32.cpp.s
 
 # target to generate assembly for a file
 hash/hash_crc32.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_crc32.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_crc32.cpp.s
 .PHONY : hash/hash_crc32.cpp.s
 
 hash/hash_fnv1.o: hash/hash_fnv1.cpp.o
@@ -3377,7 +3377,7 @@ hash/hash_fnv1.o: hash/hash_fnv1.cpp.o
 
 # target to build an object file
 hash/hash_fnv1.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_fnv1.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_fnv1.cpp.o
 .PHONY : hash/hash_fnv1.cpp.o
 
 hash/hash_fnv1.i: hash/hash_fnv1.cpp.i
@@ -3385,7 +3385,7 @@ hash/hash_fnv1.i: hash/hash_fnv1.cpp.i
 
 # target to preprocess a source file
 hash/hash_fnv1.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_fnv1.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_fnv1.cpp.i
 .PHONY : hash/hash_fnv1.cpp.i
 
 hash/hash_fnv1.s: hash/hash_fnv1.cpp.s
@@ -3393,7 +3393,7 @@ hash/hash_fnv1.s: hash/hash_fnv1.cpp.s
 
 # target to generate assembly for a file
 hash/hash_fnv1.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_fnv1.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_fnv1.cpp.s
 .PHONY : hash/hash_fnv1.cpp.s
 
 hash/hash_furc.o: hash/hash_furc.cpp.o
@@ -3401,7 +3401,7 @@ hash/hash_furc.o: hash/hash_furc.cpp.o
 
 # target to build an object file
 hash/hash_furc.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_furc.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_furc.cpp.o
 .PHONY : hash/hash_furc.cpp.o
 
 hash/hash_furc.i: hash/hash_furc.cpp.i
@@ -3409,7 +3409,7 @@ hash/hash_furc.i: hash/hash_furc.cpp.i
 
 # target to preprocess a source file
 hash/hash_furc.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_furc.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_furc.cpp.i
 .PHONY : hash/hash_furc.cpp.i
 
 hash/hash_furc.s: hash/hash_furc.cpp.s
@@ -3417,7 +3417,7 @@ hash/hash_furc.s: hash/hash_furc.cpp.s
 
 # target to generate assembly for a file
 hash/hash_furc.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_furc.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_furc.cpp.s
 .PHONY : hash/hash_furc.cpp.s
 
 hash/hash_gost.o: hash/hash_gost.cpp.o
@@ -3425,7 +3425,7 @@ hash/hash_gost.o: hash/hash_gost.cpp.o
 
 # target to build an object file
 hash/hash_gost.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_gost.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_gost.cpp.o
 .PHONY : hash/hash_gost.cpp.o
 
 hash/hash_gost.i: hash/hash_gost.cpp.i
@@ -3433,7 +3433,7 @@ hash/hash_gost.i: hash/hash_gost.cpp.i
 
 # target to preprocess a source file
 hash/hash_gost.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_gost.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_gost.cpp.i
 .PHONY : hash/hash_gost.cpp.i
 
 hash/hash_gost.s: hash/hash_gost.cpp.s
@@ -3441,7 +3441,7 @@ hash/hash_gost.s: hash/hash_gost.cpp.s
 
 # target to generate assembly for a file
 hash/hash_gost.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_gost.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_gost.cpp.s
 .PHONY : hash/hash_gost.cpp.s
 
 hash/hash_haval.o: hash/hash_haval.cpp.o
@@ -3449,7 +3449,7 @@ hash/hash_haval.o: hash/hash_haval.cpp.o
 
 # target to build an object file
 hash/hash_haval.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_haval.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_haval.cpp.o
 .PHONY : hash/hash_haval.cpp.o
 
 hash/hash_haval.i: hash/hash_haval.cpp.i
@@ -3457,7 +3457,7 @@ hash/hash_haval.i: hash/hash_haval.cpp.i
 
 # target to preprocess a source file
 hash/hash_haval.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_haval.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_haval.cpp.i
 .PHONY : hash/hash_haval.cpp.i
 
 hash/hash_haval.s: hash/hash_haval.cpp.s
@@ -3465,15 +3465,39 @@ hash/hash_haval.s: hash/hash_haval.cpp.s
 
 # target to generate assembly for a file
 hash/hash_haval.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_haval.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_haval.cpp.s
 .PHONY : hash/hash_haval.cpp.s
+
+hash/hash_joaat.o: hash/hash_joaat.cpp.o
+.PHONY : hash/hash_joaat.o
+
+# target to build an object file
+hash/hash_joaat.cpp.o:
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_joaat.cpp.o
+.PHONY : hash/hash_joaat.cpp.o
+
+hash/hash_joaat.i: hash/hash_joaat.cpp.i
+.PHONY : hash/hash_joaat.i
+
+# target to preprocess a source file
+hash/hash_joaat.cpp.i:
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_joaat.cpp.i
+.PHONY : hash/hash_joaat.cpp.i
+
+hash/hash_joaat.s: hash/hash_joaat.cpp.s
+.PHONY : hash/hash_joaat.s
+
+# target to generate assembly for a file
+hash/hash_joaat.cpp.s:
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_joaat.cpp.s
+.PHONY : hash/hash_joaat.cpp.s
 
 hash/hash_keccak.o: hash/hash_keccak.cpp.o
 .PHONY : hash/hash_keccak.o
 
 # target to build an object file
 hash/hash_keccak.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_keccak.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_keccak.cpp.o
 .PHONY : hash/hash_keccak.cpp.o
 
 hash/hash_keccak.i: hash/hash_keccak.cpp.i
@@ -3481,7 +3505,7 @@ hash/hash_keccak.i: hash/hash_keccak.cpp.i
 
 # target to preprocess a source file
 hash/hash_keccak.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_keccak.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_keccak.cpp.i
 .PHONY : hash/hash_keccak.cpp.i
 
 hash/hash_keccak.s: hash/hash_keccak.cpp.s
@@ -3489,7 +3513,7 @@ hash/hash_keccak.s: hash/hash_keccak.cpp.s
 
 # target to generate assembly for a file
 hash/hash_keccak.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_keccak.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_keccak.cpp.s
 .PHONY : hash/hash_keccak.cpp.s
 
 hash/hash_md.o: hash/hash_md.cpp.o
@@ -3497,7 +3521,7 @@ hash/hash_md.o: hash/hash_md.cpp.o
 
 # target to build an object file
 hash/hash_md.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_md.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_md.cpp.o
 .PHONY : hash/hash_md.cpp.o
 
 hash/hash_md.i: hash/hash_md.cpp.i
@@ -3505,7 +3529,7 @@ hash/hash_md.i: hash/hash_md.cpp.i
 
 # target to preprocess a source file
 hash/hash_md.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_md.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_md.cpp.i
 .PHONY : hash/hash_md.cpp.i
 
 hash/hash_md.s: hash/hash_md.cpp.s
@@ -3513,7 +3537,7 @@ hash/hash_md.s: hash/hash_md.cpp.s
 
 # target to generate assembly for a file
 hash/hash_md.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_md.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_md.cpp.s
 .PHONY : hash/hash_md.cpp.s
 
 hash/hash_murmur.o: hash/hash_murmur.cpp.o
@@ -3521,7 +3545,7 @@ hash/hash_murmur.o: hash/hash_murmur.cpp.o
 
 # target to build an object file
 hash/hash_murmur.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_murmur.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_murmur.cpp.o
 .PHONY : hash/hash_murmur.cpp.o
 
 hash/hash_murmur.i: hash/hash_murmur.cpp.i
@@ -3529,7 +3553,7 @@ hash/hash_murmur.i: hash/hash_murmur.cpp.i
 
 # target to preprocess a source file
 hash/hash_murmur.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_murmur.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_murmur.cpp.i
 .PHONY : hash/hash_murmur.cpp.i
 
 hash/hash_murmur.s: hash/hash_murmur.cpp.s
@@ -3537,7 +3561,7 @@ hash/hash_murmur.s: hash/hash_murmur.cpp.s
 
 # target to generate assembly for a file
 hash/hash_murmur.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_murmur.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_murmur.cpp.s
 .PHONY : hash/hash_murmur.cpp.s
 
 hash/hash_ripemd.o: hash/hash_ripemd.cpp.o
@@ -3545,7 +3569,7 @@ hash/hash_ripemd.o: hash/hash_ripemd.cpp.o
 
 # target to build an object file
 hash/hash_ripemd.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_ripemd.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_ripemd.cpp.o
 .PHONY : hash/hash_ripemd.cpp.o
 
 hash/hash_ripemd.i: hash/hash_ripemd.cpp.i
@@ -3553,7 +3577,7 @@ hash/hash_ripemd.i: hash/hash_ripemd.cpp.i
 
 # target to preprocess a source file
 hash/hash_ripemd.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_ripemd.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_ripemd.cpp.i
 .PHONY : hash/hash_ripemd.cpp.i
 
 hash/hash_ripemd.s: hash/hash_ripemd.cpp.s
@@ -3561,7 +3585,7 @@ hash/hash_ripemd.s: hash/hash_ripemd.cpp.s
 
 # target to generate assembly for a file
 hash/hash_ripemd.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_ripemd.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_ripemd.cpp.s
 .PHONY : hash/hash_ripemd.cpp.s
 
 hash/hash_salsa.o: hash/hash_salsa.cpp.o
@@ -3569,7 +3593,7 @@ hash/hash_salsa.o: hash/hash_salsa.cpp.o
 
 # target to build an object file
 hash/hash_salsa.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_salsa.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_salsa.cpp.o
 .PHONY : hash/hash_salsa.cpp.o
 
 hash/hash_salsa.i: hash/hash_salsa.cpp.i
@@ -3577,7 +3601,7 @@ hash/hash_salsa.i: hash/hash_salsa.cpp.i
 
 # target to preprocess a source file
 hash/hash_salsa.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_salsa.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_salsa.cpp.i
 .PHONY : hash/hash_salsa.cpp.i
 
 hash/hash_salsa.s: hash/hash_salsa.cpp.s
@@ -3585,7 +3609,7 @@ hash/hash_salsa.s: hash/hash_salsa.cpp.s
 
 # target to generate assembly for a file
 hash/hash_salsa.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_salsa.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_salsa.cpp.s
 .PHONY : hash/hash_salsa.cpp.s
 
 hash/hash_sha.o: hash/hash_sha.cpp.o
@@ -3593,7 +3617,7 @@ hash/hash_sha.o: hash/hash_sha.cpp.o
 
 # target to build an object file
 hash/hash_sha.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_sha.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_sha.cpp.o
 .PHONY : hash/hash_sha.cpp.o
 
 hash/hash_sha.i: hash/hash_sha.cpp.i
@@ -3601,7 +3625,7 @@ hash/hash_sha.i: hash/hash_sha.cpp.i
 
 # target to preprocess a source file
 hash/hash_sha.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_sha.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_sha.cpp.i
 .PHONY : hash/hash_sha.cpp.i
 
 hash/hash_sha.s: hash/hash_sha.cpp.s
@@ -3609,7 +3633,7 @@ hash/hash_sha.s: hash/hash_sha.cpp.s
 
 # target to generate assembly for a file
 hash/hash_sha.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_sha.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_sha.cpp.s
 .PHONY : hash/hash_sha.cpp.s
 
 hash/hash_snefru.o: hash/hash_snefru.cpp.o
@@ -3617,7 +3641,7 @@ hash/hash_snefru.o: hash/hash_snefru.cpp.o
 
 # target to build an object file
 hash/hash_snefru.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_snefru.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_snefru.cpp.o
 .PHONY : hash/hash_snefru.cpp.o
 
 hash/hash_snefru.i: hash/hash_snefru.cpp.i
@@ -3625,7 +3649,7 @@ hash/hash_snefru.i: hash/hash_snefru.cpp.i
 
 # target to preprocess a source file
 hash/hash_snefru.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_snefru.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_snefru.cpp.i
 .PHONY : hash/hash_snefru.cpp.i
 
 hash/hash_snefru.s: hash/hash_snefru.cpp.s
@@ -3633,7 +3657,7 @@ hash/hash_snefru.s: hash/hash_snefru.cpp.s
 
 # target to generate assembly for a file
 hash/hash_snefru.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_snefru.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_snefru.cpp.s
 .PHONY : hash/hash_snefru.cpp.s
 
 hash/hash_tiger.o: hash/hash_tiger.cpp.o
@@ -3641,7 +3665,7 @@ hash/hash_tiger.o: hash/hash_tiger.cpp.o
 
 # target to build an object file
 hash/hash_tiger.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_tiger.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_tiger.cpp.o
 .PHONY : hash/hash_tiger.cpp.o
 
 hash/hash_tiger.i: hash/hash_tiger.cpp.i
@@ -3649,7 +3673,7 @@ hash/hash_tiger.i: hash/hash_tiger.cpp.i
 
 # target to preprocess a source file
 hash/hash_tiger.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_tiger.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_tiger.cpp.i
 .PHONY : hash/hash_tiger.cpp.i
 
 hash/hash_tiger.s: hash/hash_tiger.cpp.s
@@ -3657,7 +3681,7 @@ hash/hash_tiger.s: hash/hash_tiger.cpp.s
 
 # target to generate assembly for a file
 hash/hash_tiger.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_tiger.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_tiger.cpp.s
 .PHONY : hash/hash_tiger.cpp.s
 
 hash/hash_whirlpool.o: hash/hash_whirlpool.cpp.o
@@ -3665,7 +3689,7 @@ hash/hash_whirlpool.o: hash/hash_whirlpool.cpp.o
 
 # target to build an object file
 hash/hash_whirlpool.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_whirlpool.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_whirlpool.cpp.o
 .PHONY : hash/hash_whirlpool.cpp.o
 
 hash/hash_whirlpool.i: hash/hash_whirlpool.cpp.i
@@ -3673,7 +3697,7 @@ hash/hash_whirlpool.i: hash/hash_whirlpool.cpp.i
 
 # target to preprocess a source file
 hash/hash_whirlpool.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_whirlpool.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_whirlpool.cpp.i
 .PHONY : hash/hash_whirlpool.cpp.i
 
 hash/hash_whirlpool.s: hash/hash_whirlpool.cpp.s
@@ -3681,7 +3705,7 @@ hash/hash_whirlpool.s: hash/hash_whirlpool.cpp.s
 
 # target to generate assembly for a file
 hash/hash_whirlpool.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_whirlpool.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_whirlpool.cpp.s
 .PHONY : hash/hash_whirlpool.cpp.s
 
 hh/ext_hh.o: hh/ext_hh.cpp.o
@@ -3689,7 +3713,7 @@ hh/ext_hh.o: hh/ext_hh.cpp.o
 
 # target to build an object file
 hh/ext_hh.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hh/ext_hh.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hh/ext_hh.cpp.o
 .PHONY : hh/ext_hh.cpp.o
 
 hh/ext_hh.i: hh/ext_hh.cpp.i
@@ -3697,7 +3721,7 @@ hh/ext_hh.i: hh/ext_hh.cpp.i
 
 # target to preprocess a source file
 hh/ext_hh.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hh/ext_hh.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hh/ext_hh.cpp.i
 .PHONY : hh/ext_hh.cpp.i
 
 hh/ext_hh.s: hh/ext_hh.cpp.s
@@ -3705,7 +3729,7 @@ hh/ext_hh.s: hh/ext_hh.cpp.s
 
 # target to generate assembly for a file
 hh/ext_hh.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hh/ext_hh.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hh/ext_hh.cpp.s
 .PHONY : hh/ext_hh.cpp.s
 
 hh_client/ext_hh_client.o: hh_client/ext_hh_client.cpp.o
@@ -3713,7 +3737,7 @@ hh_client/ext_hh_client.o: hh_client/ext_hh_client.cpp.o
 
 # target to build an object file
 hh_client/ext_hh_client.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hh_client/ext_hh_client.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hh_client/ext_hh_client.cpp.o
 .PHONY : hh_client/ext_hh_client.cpp.o
 
 hh_client/ext_hh_client.i: hh_client/ext_hh_client.cpp.i
@@ -3721,7 +3745,7 @@ hh_client/ext_hh_client.i: hh_client/ext_hh_client.cpp.i
 
 # target to preprocess a source file
 hh_client/ext_hh_client.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hh_client/ext_hh_client.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hh_client/ext_hh_client.cpp.i
 .PHONY : hh_client/ext_hh_client.cpp.i
 
 hh_client/ext_hh_client.s: hh_client/ext_hh_client.cpp.s
@@ -3729,7 +3753,7 @@ hh_client/ext_hh_client.s: hh_client/ext_hh_client.cpp.s
 
 # target to generate assembly for a file
 hh_client/ext_hh_client.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hh_client/ext_hh_client.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hh_client/ext_hh_client.cpp.s
 .PHONY : hh_client/ext_hh_client.cpp.s
 
 hotprofiler/ext_hotprofiler.o: hotprofiler/ext_hotprofiler.cpp.o
@@ -3737,7 +3761,7 @@ hotprofiler/ext_hotprofiler.o: hotprofiler/ext_hotprofiler.cpp.o
 
 # target to build an object file
 hotprofiler/ext_hotprofiler.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hotprofiler/ext_hotprofiler.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hotprofiler/ext_hotprofiler.cpp.o
 .PHONY : hotprofiler/ext_hotprofiler.cpp.o
 
 hotprofiler/ext_hotprofiler.i: hotprofiler/ext_hotprofiler.cpp.i
@@ -3745,7 +3769,7 @@ hotprofiler/ext_hotprofiler.i: hotprofiler/ext_hotprofiler.cpp.i
 
 # target to preprocess a source file
 hotprofiler/ext_hotprofiler.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hotprofiler/ext_hotprofiler.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hotprofiler/ext_hotprofiler.cpp.i
 .PHONY : hotprofiler/ext_hotprofiler.cpp.i
 
 hotprofiler/ext_hotprofiler.s: hotprofiler/ext_hotprofiler.cpp.s
@@ -3753,7 +3777,7 @@ hotprofiler/ext_hotprofiler.s: hotprofiler/ext_hotprofiler.cpp.s
 
 # target to generate assembly for a file
 hotprofiler/ext_hotprofiler.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hotprofiler/ext_hotprofiler.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hotprofiler/ext_hotprofiler.cpp.s
 .PHONY : hotprofiler/ext_hotprofiler.cpp.s
 
 iconv/ext_iconv.o: iconv/ext_iconv.cpp.o
@@ -3761,7 +3785,7 @@ iconv/ext_iconv.o: iconv/ext_iconv.cpp.o
 
 # target to build an object file
 iconv/ext_iconv.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/iconv/ext_iconv.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/iconv/ext_iconv.cpp.o
 .PHONY : iconv/ext_iconv.cpp.o
 
 iconv/ext_iconv.i: iconv/ext_iconv.cpp.i
@@ -3769,7 +3793,7 @@ iconv/ext_iconv.i: iconv/ext_iconv.cpp.i
 
 # target to preprocess a source file
 iconv/ext_iconv.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/iconv/ext_iconv.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/iconv/ext_iconv.cpp.i
 .PHONY : iconv/ext_iconv.cpp.i
 
 iconv/ext_iconv.s: iconv/ext_iconv.cpp.s
@@ -3777,7 +3801,7 @@ iconv/ext_iconv.s: iconv/ext_iconv.cpp.s
 
 # target to generate assembly for a file
 iconv/ext_iconv.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/iconv/ext_iconv.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/iconv/ext_iconv.cpp.s
 .PHONY : iconv/ext_iconv.cpp.s
 
 icu/CodePointBreakIterator.o: icu/CodePointBreakIterator.cpp.o
@@ -3785,7 +3809,7 @@ icu/CodePointBreakIterator.o: icu/CodePointBreakIterator.cpp.o
 
 # target to build an object file
 icu/CodePointBreakIterator.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/CodePointBreakIterator.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/CodePointBreakIterator.cpp.o
 .PHONY : icu/CodePointBreakIterator.cpp.o
 
 icu/CodePointBreakIterator.i: icu/CodePointBreakIterator.cpp.i
@@ -3793,7 +3817,7 @@ icu/CodePointBreakIterator.i: icu/CodePointBreakIterator.cpp.i
 
 # target to preprocess a source file
 icu/CodePointBreakIterator.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/CodePointBreakIterator.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/CodePointBreakIterator.cpp.i
 .PHONY : icu/CodePointBreakIterator.cpp.i
 
 icu/CodePointBreakIterator.s: icu/CodePointBreakIterator.cpp.s
@@ -3801,7 +3825,7 @@ icu/CodePointBreakIterator.s: icu/CodePointBreakIterator.cpp.s
 
 # target to generate assembly for a file
 icu/CodePointBreakIterator.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/CodePointBreakIterator.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/CodePointBreakIterator.cpp.s
 .PHONY : icu/CodePointBreakIterator.cpp.s
 
 icu/ICUMatcher.o: icu/ICUMatcher.cpp.o
@@ -3809,7 +3833,7 @@ icu/ICUMatcher.o: icu/ICUMatcher.cpp.o
 
 # target to build an object file
 icu/ICUMatcher.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ICUMatcher.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ICUMatcher.cpp.o
 .PHONY : icu/ICUMatcher.cpp.o
 
 icu/ICUMatcher.i: icu/ICUMatcher.cpp.i
@@ -3817,7 +3841,7 @@ icu/ICUMatcher.i: icu/ICUMatcher.cpp.i
 
 # target to preprocess a source file
 icu/ICUMatcher.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ICUMatcher.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ICUMatcher.cpp.i
 .PHONY : icu/ICUMatcher.cpp.i
 
 icu/ICUMatcher.s: icu/ICUMatcher.cpp.s
@@ -3825,7 +3849,7 @@ icu/ICUMatcher.s: icu/ICUMatcher.cpp.s
 
 # target to generate assembly for a file
 icu/ICUMatcher.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ICUMatcher.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ICUMatcher.cpp.s
 .PHONY : icu/ICUMatcher.cpp.s
 
 icu/ICUTransliterator.o: icu/ICUTransliterator.cpp.o
@@ -3833,7 +3857,7 @@ icu/ICUTransliterator.o: icu/ICUTransliterator.cpp.o
 
 # target to build an object file
 icu/ICUTransliterator.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ICUTransliterator.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ICUTransliterator.cpp.o
 .PHONY : icu/ICUTransliterator.cpp.o
 
 icu/ICUTransliterator.i: icu/ICUTransliterator.cpp.i
@@ -3841,7 +3865,7 @@ icu/ICUTransliterator.i: icu/ICUTransliterator.cpp.i
 
 # target to preprocess a source file
 icu/ICUTransliterator.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ICUTransliterator.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ICUTransliterator.cpp.i
 .PHONY : icu/ICUTransliterator.cpp.i
 
 icu/ICUTransliterator.s: icu/ICUTransliterator.cpp.s
@@ -3849,7 +3873,7 @@ icu/ICUTransliterator.s: icu/ICUTransliterator.cpp.s
 
 # target to generate assembly for a file
 icu/ICUTransliterator.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ICUTransliterator.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ICUTransliterator.cpp.s
 .PHONY : icu/ICUTransliterator.cpp.s
 
 icu/LifeEventTokenizer.o: icu/LifeEventTokenizer.cpp.o
@@ -3857,7 +3881,7 @@ icu/LifeEventTokenizer.o: icu/LifeEventTokenizer.cpp.o
 
 # target to build an object file
 icu/LifeEventTokenizer.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/LifeEventTokenizer.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/LifeEventTokenizer.cpp.o
 .PHONY : icu/LifeEventTokenizer.cpp.o
 
 icu/LifeEventTokenizer.i: icu/LifeEventTokenizer.cpp.i
@@ -3865,7 +3889,7 @@ icu/LifeEventTokenizer.i: icu/LifeEventTokenizer.cpp.i
 
 # target to preprocess a source file
 icu/LifeEventTokenizer.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/LifeEventTokenizer.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/LifeEventTokenizer.cpp.i
 .PHONY : icu/LifeEventTokenizer.cpp.i
 
 icu/LifeEventTokenizer.s: icu/LifeEventTokenizer.cpp.s
@@ -3873,7 +3897,7 @@ icu/LifeEventTokenizer.s: icu/LifeEventTokenizer.cpp.s
 
 # target to generate assembly for a file
 icu/LifeEventTokenizer.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/LifeEventTokenizer.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/LifeEventTokenizer.cpp.s
 .PHONY : icu/LifeEventTokenizer.cpp.s
 
 icu/ext_icu.o: icu/ext_icu.cpp.o
@@ -3881,7 +3905,7 @@ icu/ext_icu.o: icu/ext_icu.cpp.o
 
 # target to build an object file
 icu/ext_icu.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu.cpp.o
 .PHONY : icu/ext_icu.cpp.o
 
 icu/ext_icu.i: icu/ext_icu.cpp.i
@@ -3889,7 +3913,7 @@ icu/ext_icu.i: icu/ext_icu.cpp.i
 
 # target to preprocess a source file
 icu/ext_icu.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu.cpp.i
 .PHONY : icu/ext_icu.cpp.i
 
 icu/ext_icu.s: icu/ext_icu.cpp.s
@@ -3897,7 +3921,7 @@ icu/ext_icu.s: icu/ext_icu.cpp.s
 
 # target to generate assembly for a file
 icu/ext_icu.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu.cpp.s
 .PHONY : icu/ext_icu.cpp.s
 
 icu/ext_icu_break_iterator.o: icu/ext_icu_break_iterator.cpp.o
@@ -3905,7 +3929,7 @@ icu/ext_icu_break_iterator.o: icu/ext_icu_break_iterator.cpp.o
 
 # target to build an object file
 icu/ext_icu_break_iterator.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_break_iterator.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_break_iterator.cpp.o
 .PHONY : icu/ext_icu_break_iterator.cpp.o
 
 icu/ext_icu_break_iterator.i: icu/ext_icu_break_iterator.cpp.i
@@ -3913,7 +3937,7 @@ icu/ext_icu_break_iterator.i: icu/ext_icu_break_iterator.cpp.i
 
 # target to preprocess a source file
 icu/ext_icu_break_iterator.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_break_iterator.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_break_iterator.cpp.i
 .PHONY : icu/ext_icu_break_iterator.cpp.i
 
 icu/ext_icu_break_iterator.s: icu/ext_icu_break_iterator.cpp.s
@@ -3921,7 +3945,7 @@ icu/ext_icu_break_iterator.s: icu/ext_icu_break_iterator.cpp.s
 
 # target to generate assembly for a file
 icu/ext_icu_break_iterator.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_break_iterator.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_break_iterator.cpp.s
 .PHONY : icu/ext_icu_break_iterator.cpp.s
 
 icu/ext_icu_calendar.o: icu/ext_icu_calendar.cpp.o
@@ -3929,7 +3953,7 @@ icu/ext_icu_calendar.o: icu/ext_icu_calendar.cpp.o
 
 # target to build an object file
 icu/ext_icu_calendar.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_calendar.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_calendar.cpp.o
 .PHONY : icu/ext_icu_calendar.cpp.o
 
 icu/ext_icu_calendar.i: icu/ext_icu_calendar.cpp.i
@@ -3937,7 +3961,7 @@ icu/ext_icu_calendar.i: icu/ext_icu_calendar.cpp.i
 
 # target to preprocess a source file
 icu/ext_icu_calendar.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_calendar.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_calendar.cpp.i
 .PHONY : icu/ext_icu_calendar.cpp.i
 
 icu/ext_icu_calendar.s: icu/ext_icu_calendar.cpp.s
@@ -3945,7 +3969,7 @@ icu/ext_icu_calendar.s: icu/ext_icu_calendar.cpp.s
 
 # target to generate assembly for a file
 icu/ext_icu_calendar.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_calendar.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_calendar.cpp.s
 .PHONY : icu/ext_icu_calendar.cpp.s
 
 icu/ext_icu_collator.o: icu/ext_icu_collator.cpp.o
@@ -3953,7 +3977,7 @@ icu/ext_icu_collator.o: icu/ext_icu_collator.cpp.o
 
 # target to build an object file
 icu/ext_icu_collator.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_collator.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_collator.cpp.o
 .PHONY : icu/ext_icu_collator.cpp.o
 
 icu/ext_icu_collator.i: icu/ext_icu_collator.cpp.i
@@ -3961,7 +3985,7 @@ icu/ext_icu_collator.i: icu/ext_icu_collator.cpp.i
 
 # target to preprocess a source file
 icu/ext_icu_collator.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_collator.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_collator.cpp.i
 .PHONY : icu/ext_icu_collator.cpp.i
 
 icu/ext_icu_collator.s: icu/ext_icu_collator.cpp.s
@@ -3969,7 +3993,7 @@ icu/ext_icu_collator.s: icu/ext_icu_collator.cpp.s
 
 # target to generate assembly for a file
 icu/ext_icu_collator.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_collator.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_collator.cpp.s
 .PHONY : icu/ext_icu_collator.cpp.s
 
 icu/ext_icu_date_fmt.o: icu/ext_icu_date_fmt.cpp.o
@@ -3977,7 +4001,7 @@ icu/ext_icu_date_fmt.o: icu/ext_icu_date_fmt.cpp.o
 
 # target to build an object file
 icu/ext_icu_date_fmt.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_fmt.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_fmt.cpp.o
 .PHONY : icu/ext_icu_date_fmt.cpp.o
 
 icu/ext_icu_date_fmt.i: icu/ext_icu_date_fmt.cpp.i
@@ -3985,7 +4009,7 @@ icu/ext_icu_date_fmt.i: icu/ext_icu_date_fmt.cpp.i
 
 # target to preprocess a source file
 icu/ext_icu_date_fmt.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_fmt.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_fmt.cpp.i
 .PHONY : icu/ext_icu_date_fmt.cpp.i
 
 icu/ext_icu_date_fmt.s: icu/ext_icu_date_fmt.cpp.s
@@ -3993,7 +4017,7 @@ icu/ext_icu_date_fmt.s: icu/ext_icu_date_fmt.cpp.s
 
 # target to generate assembly for a file
 icu/ext_icu_date_fmt.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_fmt.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_fmt.cpp.s
 .PHONY : icu/ext_icu_date_fmt.cpp.s
 
 icu/ext_icu_date_pattern_gen.o: icu/ext_icu_date_pattern_gen.cpp.o
@@ -4001,7 +4025,7 @@ icu/ext_icu_date_pattern_gen.o: icu/ext_icu_date_pattern_gen.cpp.o
 
 # target to build an object file
 icu/ext_icu_date_pattern_gen.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_pattern_gen.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_pattern_gen.cpp.o
 .PHONY : icu/ext_icu_date_pattern_gen.cpp.o
 
 icu/ext_icu_date_pattern_gen.i: icu/ext_icu_date_pattern_gen.cpp.i
@@ -4009,7 +4033,7 @@ icu/ext_icu_date_pattern_gen.i: icu/ext_icu_date_pattern_gen.cpp.i
 
 # target to preprocess a source file
 icu/ext_icu_date_pattern_gen.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_pattern_gen.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_pattern_gen.cpp.i
 .PHONY : icu/ext_icu_date_pattern_gen.cpp.i
 
 icu/ext_icu_date_pattern_gen.s: icu/ext_icu_date_pattern_gen.cpp.s
@@ -4017,7 +4041,7 @@ icu/ext_icu_date_pattern_gen.s: icu/ext_icu_date_pattern_gen.cpp.s
 
 # target to generate assembly for a file
 icu/ext_icu_date_pattern_gen.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_pattern_gen.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_pattern_gen.cpp.s
 .PHONY : icu/ext_icu_date_pattern_gen.cpp.s
 
 icu/ext_icu_grapheme.o: icu/ext_icu_grapheme.cpp.o
@@ -4025,7 +4049,7 @@ icu/ext_icu_grapheme.o: icu/ext_icu_grapheme.cpp.o
 
 # target to build an object file
 icu/ext_icu_grapheme.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_grapheme.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_grapheme.cpp.o
 .PHONY : icu/ext_icu_grapheme.cpp.o
 
 icu/ext_icu_grapheme.i: icu/ext_icu_grapheme.cpp.i
@@ -4033,7 +4057,7 @@ icu/ext_icu_grapheme.i: icu/ext_icu_grapheme.cpp.i
 
 # target to preprocess a source file
 icu/ext_icu_grapheme.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_grapheme.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_grapheme.cpp.i
 .PHONY : icu/ext_icu_grapheme.cpp.i
 
 icu/ext_icu_grapheme.s: icu/ext_icu_grapheme.cpp.s
@@ -4041,7 +4065,7 @@ icu/ext_icu_grapheme.s: icu/ext_icu_grapheme.cpp.s
 
 # target to generate assembly for a file
 icu/ext_icu_grapheme.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_grapheme.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_grapheme.cpp.s
 .PHONY : icu/ext_icu_grapheme.cpp.s
 
 icu/ext_icu_iterator.o: icu/ext_icu_iterator.cpp.o
@@ -4049,7 +4073,7 @@ icu/ext_icu_iterator.o: icu/ext_icu_iterator.cpp.o
 
 # target to build an object file
 icu/ext_icu_iterator.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_iterator.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_iterator.cpp.o
 .PHONY : icu/ext_icu_iterator.cpp.o
 
 icu/ext_icu_iterator.i: icu/ext_icu_iterator.cpp.i
@@ -4057,7 +4081,7 @@ icu/ext_icu_iterator.i: icu/ext_icu_iterator.cpp.i
 
 # target to preprocess a source file
 icu/ext_icu_iterator.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_iterator.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_iterator.cpp.i
 .PHONY : icu/ext_icu_iterator.cpp.i
 
 icu/ext_icu_iterator.s: icu/ext_icu_iterator.cpp.s
@@ -4065,7 +4089,7 @@ icu/ext_icu_iterator.s: icu/ext_icu_iterator.cpp.s
 
 # target to generate assembly for a file
 icu/ext_icu_iterator.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_iterator.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_iterator.cpp.s
 .PHONY : icu/ext_icu_iterator.cpp.s
 
 icu/ext_icu_locale.o: icu/ext_icu_locale.cpp.o
@@ -4073,7 +4097,7 @@ icu/ext_icu_locale.o: icu/ext_icu_locale.cpp.o
 
 # target to build an object file
 icu/ext_icu_locale.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_locale.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_locale.cpp.o
 .PHONY : icu/ext_icu_locale.cpp.o
 
 icu/ext_icu_locale.i: icu/ext_icu_locale.cpp.i
@@ -4081,7 +4105,7 @@ icu/ext_icu_locale.i: icu/ext_icu_locale.cpp.i
 
 # target to preprocess a source file
 icu/ext_icu_locale.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_locale.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_locale.cpp.i
 .PHONY : icu/ext_icu_locale.cpp.i
 
 icu/ext_icu_locale.s: icu/ext_icu_locale.cpp.s
@@ -4089,7 +4113,7 @@ icu/ext_icu_locale.s: icu/ext_icu_locale.cpp.s
 
 # target to generate assembly for a file
 icu/ext_icu_locale.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_locale.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_locale.cpp.s
 .PHONY : icu/ext_icu_locale.cpp.s
 
 icu/ext_icu_misc.o: icu/ext_icu_misc.cpp.o
@@ -4097,7 +4121,7 @@ icu/ext_icu_misc.o: icu/ext_icu_misc.cpp.o
 
 # target to build an object file
 icu/ext_icu_misc.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_misc.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_misc.cpp.o
 .PHONY : icu/ext_icu_misc.cpp.o
 
 icu/ext_icu_misc.i: icu/ext_icu_misc.cpp.i
@@ -4105,7 +4129,7 @@ icu/ext_icu_misc.i: icu/ext_icu_misc.cpp.i
 
 # target to preprocess a source file
 icu/ext_icu_misc.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_misc.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_misc.cpp.i
 .PHONY : icu/ext_icu_misc.cpp.i
 
 icu/ext_icu_misc.s: icu/ext_icu_misc.cpp.s
@@ -4113,7 +4137,7 @@ icu/ext_icu_misc.s: icu/ext_icu_misc.cpp.s
 
 # target to generate assembly for a file
 icu/ext_icu_misc.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_misc.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_misc.cpp.s
 .PHONY : icu/ext_icu_misc.cpp.s
 
 icu/ext_icu_msg_fmt.o: icu/ext_icu_msg_fmt.cpp.o
@@ -4121,7 +4145,7 @@ icu/ext_icu_msg_fmt.o: icu/ext_icu_msg_fmt.cpp.o
 
 # target to build an object file
 icu/ext_icu_msg_fmt.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_msg_fmt.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_msg_fmt.cpp.o
 .PHONY : icu/ext_icu_msg_fmt.cpp.o
 
 icu/ext_icu_msg_fmt.i: icu/ext_icu_msg_fmt.cpp.i
@@ -4129,7 +4153,7 @@ icu/ext_icu_msg_fmt.i: icu/ext_icu_msg_fmt.cpp.i
 
 # target to preprocess a source file
 icu/ext_icu_msg_fmt.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_msg_fmt.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_msg_fmt.cpp.i
 .PHONY : icu/ext_icu_msg_fmt.cpp.i
 
 icu/ext_icu_msg_fmt.s: icu/ext_icu_msg_fmt.cpp.s
@@ -4137,7 +4161,7 @@ icu/ext_icu_msg_fmt.s: icu/ext_icu_msg_fmt.cpp.s
 
 # target to generate assembly for a file
 icu/ext_icu_msg_fmt.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_msg_fmt.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_msg_fmt.cpp.s
 .PHONY : icu/ext_icu_msg_fmt.cpp.s
 
 icu/ext_icu_normalizer.o: icu/ext_icu_normalizer.cpp.o
@@ -4145,7 +4169,7 @@ icu/ext_icu_normalizer.o: icu/ext_icu_normalizer.cpp.o
 
 # target to build an object file
 icu/ext_icu_normalizer.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_normalizer.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_normalizer.cpp.o
 .PHONY : icu/ext_icu_normalizer.cpp.o
 
 icu/ext_icu_normalizer.i: icu/ext_icu_normalizer.cpp.i
@@ -4153,7 +4177,7 @@ icu/ext_icu_normalizer.i: icu/ext_icu_normalizer.cpp.i
 
 # target to preprocess a source file
 icu/ext_icu_normalizer.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_normalizer.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_normalizer.cpp.i
 .PHONY : icu/ext_icu_normalizer.cpp.i
 
 icu/ext_icu_normalizer.s: icu/ext_icu_normalizer.cpp.s
@@ -4161,7 +4185,7 @@ icu/ext_icu_normalizer.s: icu/ext_icu_normalizer.cpp.s
 
 # target to generate assembly for a file
 icu/ext_icu_normalizer.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_normalizer.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_normalizer.cpp.s
 .PHONY : icu/ext_icu_normalizer.cpp.s
 
 icu/ext_icu_num_fmt.o: icu/ext_icu_num_fmt.cpp.o
@@ -4169,7 +4193,7 @@ icu/ext_icu_num_fmt.o: icu/ext_icu_num_fmt.cpp.o
 
 # target to build an object file
 icu/ext_icu_num_fmt.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_num_fmt.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_num_fmt.cpp.o
 .PHONY : icu/ext_icu_num_fmt.cpp.o
 
 icu/ext_icu_num_fmt.i: icu/ext_icu_num_fmt.cpp.i
@@ -4177,7 +4201,7 @@ icu/ext_icu_num_fmt.i: icu/ext_icu_num_fmt.cpp.i
 
 # target to preprocess a source file
 icu/ext_icu_num_fmt.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_num_fmt.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_num_fmt.cpp.i
 .PHONY : icu/ext_icu_num_fmt.cpp.i
 
 icu/ext_icu_num_fmt.s: icu/ext_icu_num_fmt.cpp.s
@@ -4185,7 +4209,7 @@ icu/ext_icu_num_fmt.s: icu/ext_icu_num_fmt.cpp.s
 
 # target to generate assembly for a file
 icu/ext_icu_num_fmt.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_num_fmt.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_num_fmt.cpp.s
 .PHONY : icu/ext_icu_num_fmt.cpp.s
 
 icu/ext_icu_rsrc_bundle.o: icu/ext_icu_rsrc_bundle.cpp.o
@@ -4193,7 +4217,7 @@ icu/ext_icu_rsrc_bundle.o: icu/ext_icu_rsrc_bundle.cpp.o
 
 # target to build an object file
 icu/ext_icu_rsrc_bundle.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_rsrc_bundle.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_rsrc_bundle.cpp.o
 .PHONY : icu/ext_icu_rsrc_bundle.cpp.o
 
 icu/ext_icu_rsrc_bundle.i: icu/ext_icu_rsrc_bundle.cpp.i
@@ -4201,7 +4225,7 @@ icu/ext_icu_rsrc_bundle.i: icu/ext_icu_rsrc_bundle.cpp.i
 
 # target to preprocess a source file
 icu/ext_icu_rsrc_bundle.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_rsrc_bundle.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_rsrc_bundle.cpp.i
 .PHONY : icu/ext_icu_rsrc_bundle.cpp.i
 
 icu/ext_icu_rsrc_bundle.s: icu/ext_icu_rsrc_bundle.cpp.s
@@ -4209,7 +4233,7 @@ icu/ext_icu_rsrc_bundle.s: icu/ext_icu_rsrc_bundle.cpp.s
 
 # target to generate assembly for a file
 icu/ext_icu_rsrc_bundle.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_rsrc_bundle.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_rsrc_bundle.cpp.s
 .PHONY : icu/ext_icu_rsrc_bundle.cpp.s
 
 icu/ext_icu_timezone.o: icu/ext_icu_timezone.cpp.o
@@ -4217,7 +4241,7 @@ icu/ext_icu_timezone.o: icu/ext_icu_timezone.cpp.o
 
 # target to build an object file
 icu/ext_icu_timezone.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_timezone.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_timezone.cpp.o
 .PHONY : icu/ext_icu_timezone.cpp.o
 
 icu/ext_icu_timezone.i: icu/ext_icu_timezone.cpp.i
@@ -4225,7 +4249,7 @@ icu/ext_icu_timezone.i: icu/ext_icu_timezone.cpp.i
 
 # target to preprocess a source file
 icu/ext_icu_timezone.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_timezone.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_timezone.cpp.i
 .PHONY : icu/ext_icu_timezone.cpp.i
 
 icu/ext_icu_timezone.s: icu/ext_icu_timezone.cpp.s
@@ -4233,7 +4257,7 @@ icu/ext_icu_timezone.s: icu/ext_icu_timezone.cpp.s
 
 # target to generate assembly for a file
 icu/ext_icu_timezone.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_timezone.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_timezone.cpp.s
 .PHONY : icu/ext_icu_timezone.cpp.s
 
 icu/ext_icu_transliterator.o: icu/ext_icu_transliterator.cpp.o
@@ -4241,7 +4265,7 @@ icu/ext_icu_transliterator.o: icu/ext_icu_transliterator.cpp.o
 
 # target to build an object file
 icu/ext_icu_transliterator.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_transliterator.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_transliterator.cpp.o
 .PHONY : icu/ext_icu_transliterator.cpp.o
 
 icu/ext_icu_transliterator.i: icu/ext_icu_transliterator.cpp.i
@@ -4249,7 +4273,7 @@ icu/ext_icu_transliterator.i: icu/ext_icu_transliterator.cpp.i
 
 # target to preprocess a source file
 icu/ext_icu_transliterator.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_transliterator.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_transliterator.cpp.i
 .PHONY : icu/ext_icu_transliterator.cpp.i
 
 icu/ext_icu_transliterator.s: icu/ext_icu_transliterator.cpp.s
@@ -4257,7 +4281,7 @@ icu/ext_icu_transliterator.s: icu/ext_icu_transliterator.cpp.s
 
 # target to generate assembly for a file
 icu/ext_icu_transliterator.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_transliterator.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_transliterator.cpp.s
 .PHONY : icu/ext_icu_transliterator.cpp.s
 
 icu/ext_icu_uchar.o: icu/ext_icu_uchar.cpp.o
@@ -4265,7 +4289,7 @@ icu/ext_icu_uchar.o: icu/ext_icu_uchar.cpp.o
 
 # target to build an object file
 icu/ext_icu_uchar.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uchar.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uchar.cpp.o
 .PHONY : icu/ext_icu_uchar.cpp.o
 
 icu/ext_icu_uchar.i: icu/ext_icu_uchar.cpp.i
@@ -4273,7 +4297,7 @@ icu/ext_icu_uchar.i: icu/ext_icu_uchar.cpp.i
 
 # target to preprocess a source file
 icu/ext_icu_uchar.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uchar.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uchar.cpp.i
 .PHONY : icu/ext_icu_uchar.cpp.i
 
 icu/ext_icu_uchar.s: icu/ext_icu_uchar.cpp.s
@@ -4281,7 +4305,7 @@ icu/ext_icu_uchar.s: icu/ext_icu_uchar.cpp.s
 
 # target to generate assembly for a file
 icu/ext_icu_uchar.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uchar.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uchar.cpp.s
 .PHONY : icu/ext_icu_uchar.cpp.s
 
 icu/ext_icu_uconverter.o: icu/ext_icu_uconverter.cpp.o
@@ -4289,7 +4313,7 @@ icu/ext_icu_uconverter.o: icu/ext_icu_uconverter.cpp.o
 
 # target to build an object file
 icu/ext_icu_uconverter.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uconverter.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uconverter.cpp.o
 .PHONY : icu/ext_icu_uconverter.cpp.o
 
 icu/ext_icu_uconverter.i: icu/ext_icu_uconverter.cpp.i
@@ -4297,7 +4321,7 @@ icu/ext_icu_uconverter.i: icu/ext_icu_uconverter.cpp.i
 
 # target to preprocess a source file
 icu/ext_icu_uconverter.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uconverter.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uconverter.cpp.i
 .PHONY : icu/ext_icu_uconverter.cpp.i
 
 icu/ext_icu_uconverter.s: icu/ext_icu_uconverter.cpp.s
@@ -4305,7 +4329,7 @@ icu/ext_icu_uconverter.s: icu/ext_icu_uconverter.cpp.s
 
 # target to generate assembly for a file
 icu/ext_icu_uconverter.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uconverter.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uconverter.cpp.s
 .PHONY : icu/ext_icu_uconverter.cpp.s
 
 icu/ext_icu_ucsdet.o: icu/ext_icu_ucsdet.cpp.o
@@ -4313,7 +4337,7 @@ icu/ext_icu_ucsdet.o: icu/ext_icu_ucsdet.cpp.o
 
 # target to build an object file
 icu/ext_icu_ucsdet.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_ucsdet.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_ucsdet.cpp.o
 .PHONY : icu/ext_icu_ucsdet.cpp.o
 
 icu/ext_icu_ucsdet.i: icu/ext_icu_ucsdet.cpp.i
@@ -4321,7 +4345,7 @@ icu/ext_icu_ucsdet.i: icu/ext_icu_ucsdet.cpp.i
 
 # target to preprocess a source file
 icu/ext_icu_ucsdet.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_ucsdet.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_ucsdet.cpp.i
 .PHONY : icu/ext_icu_ucsdet.cpp.i
 
 icu/ext_icu_ucsdet.s: icu/ext_icu_ucsdet.cpp.s
@@ -4329,7 +4353,7 @@ icu/ext_icu_ucsdet.s: icu/ext_icu_ucsdet.cpp.s
 
 # target to generate assembly for a file
 icu/ext_icu_ucsdet.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_ucsdet.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_ucsdet.cpp.s
 .PHONY : icu/ext_icu_ucsdet.cpp.s
 
 icu/ext_icu_uspoof.o: icu/ext_icu_uspoof.cpp.o
@@ -4337,7 +4361,7 @@ icu/ext_icu_uspoof.o: icu/ext_icu_uspoof.cpp.o
 
 # target to build an object file
 icu/ext_icu_uspoof.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uspoof.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uspoof.cpp.o
 .PHONY : icu/ext_icu_uspoof.cpp.o
 
 icu/ext_icu_uspoof.i: icu/ext_icu_uspoof.cpp.i
@@ -4345,7 +4369,7 @@ icu/ext_icu_uspoof.i: icu/ext_icu_uspoof.cpp.i
 
 # target to preprocess a source file
 icu/ext_icu_uspoof.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uspoof.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uspoof.cpp.i
 .PHONY : icu/ext_icu_uspoof.cpp.i
 
 icu/ext_icu_uspoof.s: icu/ext_icu_uspoof.cpp.s
@@ -4353,7 +4377,7 @@ icu/ext_icu_uspoof.s: icu/ext_icu_uspoof.cpp.s
 
 # target to generate assembly for a file
 icu/ext_icu_uspoof.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uspoof.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uspoof.cpp.s
 .PHONY : icu/ext_icu_uspoof.cpp.s
 
 icu/icu.o: icu/icu.cpp.o
@@ -4361,7 +4385,7 @@ icu/icu.o: icu/icu.cpp.o
 
 # target to build an object file
 icu/icu.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/icu.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/icu.cpp.o
 .PHONY : icu/icu.cpp.o
 
 icu/icu.i: icu/icu.cpp.i
@@ -4369,7 +4393,7 @@ icu/icu.i: icu/icu.cpp.i
 
 # target to preprocess a source file
 icu/icu.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/icu.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/icu.cpp.i
 .PHONY : icu/icu.cpp.i
 
 icu/icu.s: icu/icu.cpp.s
@@ -4377,7 +4401,7 @@ icu/icu.s: icu/icu.cpp.s
 
 # target to generate assembly for a file
 icu/icu.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/icu.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/icu.cpp.s
 .PHONY : icu/icu.cpp.s
 
 imagick/constants.o: imagick/constants.cpp.o
@@ -4385,7 +4409,7 @@ imagick/constants.o: imagick/constants.cpp.o
 
 # target to build an object file
 imagick/constants.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/constants.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/constants.cpp.o
 .PHONY : imagick/constants.cpp.o
 
 imagick/constants.i: imagick/constants.cpp.i
@@ -4393,7 +4417,7 @@ imagick/constants.i: imagick/constants.cpp.i
 
 # target to preprocess a source file
 imagick/constants.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/constants.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/constants.cpp.i
 .PHONY : imagick/constants.cpp.i
 
 imagick/constants.s: imagick/constants.cpp.s
@@ -4401,7 +4425,7 @@ imagick/constants.s: imagick/constants.cpp.s
 
 # target to generate assembly for a file
 imagick/constants.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/constants.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/constants.cpp.s
 .PHONY : imagick/constants.cpp.s
 
 imagick/ext_imagick.o: imagick/ext_imagick.cpp.o
@@ -4409,7 +4433,7 @@ imagick/ext_imagick.o: imagick/ext_imagick.cpp.o
 
 # target to build an object file
 imagick/ext_imagick.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/ext_imagick.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/ext_imagick.cpp.o
 .PHONY : imagick/ext_imagick.cpp.o
 
 imagick/ext_imagick.i: imagick/ext_imagick.cpp.i
@@ -4417,7 +4441,7 @@ imagick/ext_imagick.i: imagick/ext_imagick.cpp.i
 
 # target to preprocess a source file
 imagick/ext_imagick.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/ext_imagick.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/ext_imagick.cpp.i
 .PHONY : imagick/ext_imagick.cpp.i
 
 imagick/ext_imagick.s: imagick/ext_imagick.cpp.s
@@ -4425,7 +4449,7 @@ imagick/ext_imagick.s: imagick/ext_imagick.cpp.s
 
 # target to generate assembly for a file
 imagick/ext_imagick.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/ext_imagick.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/ext_imagick.cpp.s
 .PHONY : imagick/ext_imagick.cpp.s
 
 imagick/imagick.o: imagick/imagick.cpp.o
@@ -4433,7 +4457,7 @@ imagick/imagick.o: imagick/imagick.cpp.o
 
 # target to build an object file
 imagick/imagick.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagick.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagick.cpp.o
 .PHONY : imagick/imagick.cpp.o
 
 imagick/imagick.i: imagick/imagick.cpp.i
@@ -4441,7 +4465,7 @@ imagick/imagick.i: imagick/imagick.cpp.i
 
 # target to preprocess a source file
 imagick/imagick.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagick.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagick.cpp.i
 .PHONY : imagick/imagick.cpp.i
 
 imagick/imagick.s: imagick/imagick.cpp.s
@@ -4449,7 +4473,7 @@ imagick/imagick.s: imagick/imagick.cpp.s
 
 # target to generate assembly for a file
 imagick/imagick.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagick.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagick.cpp.s
 .PHONY : imagick/imagick.cpp.s
 
 imagick/imagickdraw.o: imagick/imagickdraw.cpp.o
@@ -4457,7 +4481,7 @@ imagick/imagickdraw.o: imagick/imagickdraw.cpp.o
 
 # target to build an object file
 imagick/imagickdraw.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickdraw.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickdraw.cpp.o
 .PHONY : imagick/imagickdraw.cpp.o
 
 imagick/imagickdraw.i: imagick/imagickdraw.cpp.i
@@ -4465,7 +4489,7 @@ imagick/imagickdraw.i: imagick/imagickdraw.cpp.i
 
 # target to preprocess a source file
 imagick/imagickdraw.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickdraw.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickdraw.cpp.i
 .PHONY : imagick/imagickdraw.cpp.i
 
 imagick/imagickdraw.s: imagick/imagickdraw.cpp.s
@@ -4473,7 +4497,7 @@ imagick/imagickdraw.s: imagick/imagickdraw.cpp.s
 
 # target to generate assembly for a file
 imagick/imagickdraw.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickdraw.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickdraw.cpp.s
 .PHONY : imagick/imagickdraw.cpp.s
 
 imagick/imagickpixel.o: imagick/imagickpixel.cpp.o
@@ -4481,7 +4505,7 @@ imagick/imagickpixel.o: imagick/imagickpixel.cpp.o
 
 # target to build an object file
 imagick/imagickpixel.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixel.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixel.cpp.o
 .PHONY : imagick/imagickpixel.cpp.o
 
 imagick/imagickpixel.i: imagick/imagickpixel.cpp.i
@@ -4489,7 +4513,7 @@ imagick/imagickpixel.i: imagick/imagickpixel.cpp.i
 
 # target to preprocess a source file
 imagick/imagickpixel.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixel.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixel.cpp.i
 .PHONY : imagick/imagickpixel.cpp.i
 
 imagick/imagickpixel.s: imagick/imagickpixel.cpp.s
@@ -4497,7 +4521,7 @@ imagick/imagickpixel.s: imagick/imagickpixel.cpp.s
 
 # target to generate assembly for a file
 imagick/imagickpixel.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixel.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixel.cpp.s
 .PHONY : imagick/imagickpixel.cpp.s
 
 imagick/imagickpixeliterator.o: imagick/imagickpixeliterator.cpp.o
@@ -4505,7 +4529,7 @@ imagick/imagickpixeliterator.o: imagick/imagickpixeliterator.cpp.o
 
 # target to build an object file
 imagick/imagickpixeliterator.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixeliterator.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixeliterator.cpp.o
 .PHONY : imagick/imagickpixeliterator.cpp.o
 
 imagick/imagickpixeliterator.i: imagick/imagickpixeliterator.cpp.i
@@ -4513,7 +4537,7 @@ imagick/imagickpixeliterator.i: imagick/imagickpixeliterator.cpp.i
 
 # target to preprocess a source file
 imagick/imagickpixeliterator.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixeliterator.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixeliterator.cpp.i
 .PHONY : imagick/imagickpixeliterator.cpp.i
 
 imagick/imagickpixeliterator.s: imagick/imagickpixeliterator.cpp.s
@@ -4521,15 +4545,39 @@ imagick/imagickpixeliterator.s: imagick/imagickpixeliterator.cpp.s
 
 # target to generate assembly for a file
 imagick/imagickpixeliterator.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixeliterator.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixeliterator.cpp.s
 .PHONY : imagick/imagickpixeliterator.cpp.s
+
+imap/ext_imap.o: imap/ext_imap.cpp.o
+.PHONY : imap/ext_imap.o
+
+# target to build an object file
+imap/ext_imap.cpp.o:
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imap/ext_imap.cpp.o
+.PHONY : imap/ext_imap.cpp.o
+
+imap/ext_imap.i: imap/ext_imap.cpp.i
+.PHONY : imap/ext_imap.i
+
+# target to preprocess a source file
+imap/ext_imap.cpp.i:
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imap/ext_imap.cpp.i
+.PHONY : imap/ext_imap.cpp.i
+
+imap/ext_imap.s: imap/ext_imap.cpp.s
+.PHONY : imap/ext_imap.s
+
+# target to generate assembly for a file
+imap/ext_imap.cpp.s:
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imap/ext_imap.cpp.s
+.PHONY : imap/ext_imap.cpp.s
 
 intervaltimer/ext_intervaltimer.o: intervaltimer/ext_intervaltimer.cpp.o
 .PHONY : intervaltimer/ext_intervaltimer.o
 
 # target to build an object file
 intervaltimer/ext_intervaltimer.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/intervaltimer/ext_intervaltimer.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/intervaltimer/ext_intervaltimer.cpp.o
 .PHONY : intervaltimer/ext_intervaltimer.cpp.o
 
 intervaltimer/ext_intervaltimer.i: intervaltimer/ext_intervaltimer.cpp.i
@@ -4537,7 +4585,7 @@ intervaltimer/ext_intervaltimer.i: intervaltimer/ext_intervaltimer.cpp.i
 
 # target to preprocess a source file
 intervaltimer/ext_intervaltimer.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/intervaltimer/ext_intervaltimer.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/intervaltimer/ext_intervaltimer.cpp.i
 .PHONY : intervaltimer/ext_intervaltimer.cpp.i
 
 intervaltimer/ext_intervaltimer.s: intervaltimer/ext_intervaltimer.cpp.s
@@ -4545,7 +4593,7 @@ intervaltimer/ext_intervaltimer.s: intervaltimer/ext_intervaltimer.cpp.s
 
 # target to generate assembly for a file
 intervaltimer/ext_intervaltimer.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/intervaltimer/ext_intervaltimer.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/intervaltimer/ext_intervaltimer.cpp.s
 .PHONY : intervaltimer/ext_intervaltimer.cpp.s
 
 ipc/ext_ipc.o: ipc/ext_ipc.cpp.o
@@ -4553,7 +4601,7 @@ ipc/ext_ipc.o: ipc/ext_ipc.cpp.o
 
 # target to build an object file
 ipc/ext_ipc.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ipc/ext_ipc.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ipc/ext_ipc.cpp.o
 .PHONY : ipc/ext_ipc.cpp.o
 
 ipc/ext_ipc.i: ipc/ext_ipc.cpp.i
@@ -4561,7 +4609,7 @@ ipc/ext_ipc.i: ipc/ext_ipc.cpp.i
 
 # target to preprocess a source file
 ipc/ext_ipc.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ipc/ext_ipc.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ipc/ext_ipc.cpp.i
 .PHONY : ipc/ext_ipc.cpp.i
 
 ipc/ext_ipc.s: ipc/ext_ipc.cpp.s
@@ -4569,7 +4617,7 @@ ipc/ext_ipc.s: ipc/ext_ipc.cpp.s
 
 # target to generate assembly for a file
 ipc/ext_ipc.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ipc/ext_ipc.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ipc/ext_ipc.cpp.s
 .PHONY : ipc/ext_ipc.cpp.s
 
 json/JSON_parser.o: json/JSON_parser.cpp.o
@@ -4577,7 +4625,7 @@ json/JSON_parser.o: json/JSON_parser.cpp.o
 
 # target to build an object file
 json/JSON_parser.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/json/JSON_parser.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/json/JSON_parser.cpp.o
 .PHONY : json/JSON_parser.cpp.o
 
 json/JSON_parser.i: json/JSON_parser.cpp.i
@@ -4585,7 +4633,7 @@ json/JSON_parser.i: json/JSON_parser.cpp.i
 
 # target to preprocess a source file
 json/JSON_parser.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/json/JSON_parser.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/json/JSON_parser.cpp.i
 .PHONY : json/JSON_parser.cpp.i
 
 json/JSON_parser.s: json/JSON_parser.cpp.s
@@ -4593,7 +4641,7 @@ json/JSON_parser.s: json/JSON_parser.cpp.s
 
 # target to generate assembly for a file
 json/JSON_parser.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/json/JSON_parser.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/json/JSON_parser.cpp.s
 .PHONY : json/JSON_parser.cpp.s
 
 json/ext_json.o: json/ext_json.cpp.o
@@ -4601,7 +4649,7 @@ json/ext_json.o: json/ext_json.cpp.o
 
 # target to build an object file
 json/ext_json.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/json/ext_json.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/json/ext_json.cpp.o
 .PHONY : json/ext_json.cpp.o
 
 json/ext_json.i: json/ext_json.cpp.i
@@ -4609,7 +4657,7 @@ json/ext_json.i: json/ext_json.cpp.i
 
 # target to preprocess a source file
 json/ext_json.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/json/ext_json.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/json/ext_json.cpp.i
 .PHONY : json/ext_json.cpp.i
 
 json/ext_json.s: json/ext_json.cpp.s
@@ -4617,7 +4665,7 @@ json/ext_json.s: json/ext_json.cpp.s
 
 # target to generate assembly for a file
 json/ext_json.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/json/ext_json.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/json/ext_json.cpp.s
 .PHONY : json/ext_json.cpp.s
 
 ldap/ext_ldap.o: ldap/ext_ldap.cpp.o
@@ -4625,7 +4673,7 @@ ldap/ext_ldap.o: ldap/ext_ldap.cpp.o
 
 # target to build an object file
 ldap/ext_ldap.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ldap/ext_ldap.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ldap/ext_ldap.cpp.o
 .PHONY : ldap/ext_ldap.cpp.o
 
 ldap/ext_ldap.i: ldap/ext_ldap.cpp.i
@@ -4633,7 +4681,7 @@ ldap/ext_ldap.i: ldap/ext_ldap.cpp.i
 
 # target to preprocess a source file
 ldap/ext_ldap.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ldap/ext_ldap.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ldap/ext_ldap.cpp.i
 .PHONY : ldap/ext_ldap.cpp.i
 
 ldap/ext_ldap.s: ldap/ext_ldap.cpp.s
@@ -4641,7 +4689,7 @@ ldap/ext_ldap.s: ldap/ext_ldap.cpp.s
 
 # target to generate assembly for a file
 ldap/ext_ldap.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ldap/ext_ldap.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ldap/ext_ldap.cpp.s
 .PHONY : ldap/ext_ldap.cpp.s
 
 libxml/ext_libxml.o: libxml/ext_libxml.cpp.o
@@ -4649,7 +4697,7 @@ libxml/ext_libxml.o: libxml/ext_libxml.cpp.o
 
 # target to build an object file
 libxml/ext_libxml.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/libxml/ext_libxml.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/libxml/ext_libxml.cpp.o
 .PHONY : libxml/ext_libxml.cpp.o
 
 libxml/ext_libxml.i: libxml/ext_libxml.cpp.i
@@ -4657,7 +4705,7 @@ libxml/ext_libxml.i: libxml/ext_libxml.cpp.i
 
 # target to preprocess a source file
 libxml/ext_libxml.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/libxml/ext_libxml.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/libxml/ext_libxml.cpp.i
 .PHONY : libxml/ext_libxml.cpp.i
 
 libxml/ext_libxml.s: libxml/ext_libxml.cpp.s
@@ -4665,7 +4713,7 @@ libxml/ext_libxml.s: libxml/ext_libxml.cpp.s
 
 # target to generate assembly for a file
 libxml/ext_libxml.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/libxml/ext_libxml.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/libxml/ext_libxml.cpp.s
 .PHONY : libxml/ext_libxml.cpp.s
 
 mail/ext_mail.o: mail/ext_mail.cpp.o
@@ -4673,7 +4721,7 @@ mail/ext_mail.o: mail/ext_mail.cpp.o
 
 # target to build an object file
 mail/ext_mail.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mail/ext_mail.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mail/ext_mail.cpp.o
 .PHONY : mail/ext_mail.cpp.o
 
 mail/ext_mail.i: mail/ext_mail.cpp.i
@@ -4681,7 +4729,7 @@ mail/ext_mail.i: mail/ext_mail.cpp.i
 
 # target to preprocess a source file
 mail/ext_mail.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mail/ext_mail.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mail/ext_mail.cpp.i
 .PHONY : mail/ext_mail.cpp.i
 
 mail/ext_mail.s: mail/ext_mail.cpp.s
@@ -4689,7 +4737,7 @@ mail/ext_mail.s: mail/ext_mail.cpp.s
 
 # target to generate assembly for a file
 mail/ext_mail.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mail/ext_mail.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mail/ext_mail.cpp.s
 .PHONY : mail/ext_mail.cpp.s
 
 mailparse/ext_mailparse.o: mailparse/ext_mailparse.cpp.o
@@ -4697,7 +4745,7 @@ mailparse/ext_mailparse.o: mailparse/ext_mailparse.cpp.o
 
 # target to build an object file
 mailparse/ext_mailparse.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/ext_mailparse.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/ext_mailparse.cpp.o
 .PHONY : mailparse/ext_mailparse.cpp.o
 
 mailparse/ext_mailparse.i: mailparse/ext_mailparse.cpp.i
@@ -4705,7 +4753,7 @@ mailparse/ext_mailparse.i: mailparse/ext_mailparse.cpp.i
 
 # target to preprocess a source file
 mailparse/ext_mailparse.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/ext_mailparse.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/ext_mailparse.cpp.i
 .PHONY : mailparse/ext_mailparse.cpp.i
 
 mailparse/ext_mailparse.s: mailparse/ext_mailparse.cpp.s
@@ -4713,7 +4761,7 @@ mailparse/ext_mailparse.s: mailparse/ext_mailparse.cpp.s
 
 # target to generate assembly for a file
 mailparse/ext_mailparse.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/ext_mailparse.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/ext_mailparse.cpp.s
 .PHONY : mailparse/ext_mailparse.cpp.s
 
 mailparse/mime.o: mailparse/mime.cpp.o
@@ -4721,7 +4769,7 @@ mailparse/mime.o: mailparse/mime.cpp.o
 
 # target to build an object file
 mailparse/mime.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/mime.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/mime.cpp.o
 .PHONY : mailparse/mime.cpp.o
 
 mailparse/mime.i: mailparse/mime.cpp.i
@@ -4729,7 +4777,7 @@ mailparse/mime.i: mailparse/mime.cpp.i
 
 # target to preprocess a source file
 mailparse/mime.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/mime.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/mime.cpp.i
 .PHONY : mailparse/mime.cpp.i
 
 mailparse/mime.s: mailparse/mime.cpp.s
@@ -4737,7 +4785,7 @@ mailparse/mime.s: mailparse/mime.cpp.s
 
 # target to generate assembly for a file
 mailparse/mime.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/mime.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/mime.cpp.s
 .PHONY : mailparse/mime.cpp.s
 
 mailparse/rfc822.o: mailparse/rfc822.cpp.o
@@ -4745,7 +4793,7 @@ mailparse/rfc822.o: mailparse/rfc822.cpp.o
 
 # target to build an object file
 mailparse/rfc822.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/rfc822.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/rfc822.cpp.o
 .PHONY : mailparse/rfc822.cpp.o
 
 mailparse/rfc822.i: mailparse/rfc822.cpp.i
@@ -4753,7 +4801,7 @@ mailparse/rfc822.i: mailparse/rfc822.cpp.i
 
 # target to preprocess a source file
 mailparse/rfc822.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/rfc822.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/rfc822.cpp.i
 .PHONY : mailparse/rfc822.cpp.i
 
 mailparse/rfc822.s: mailparse/rfc822.cpp.s
@@ -4761,7 +4809,7 @@ mailparse/rfc822.s: mailparse/rfc822.cpp.s
 
 # target to generate assembly for a file
 mailparse/rfc822.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/rfc822.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/rfc822.cpp.s
 .PHONY : mailparse/rfc822.cpp.s
 
 mbstring/ext_mbstring.o: mbstring/ext_mbstring.cpp.o
@@ -4769,7 +4817,7 @@ mbstring/ext_mbstring.o: mbstring/ext_mbstring.cpp.o
 
 # target to build an object file
 mbstring/ext_mbstring.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mbstring/ext_mbstring.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mbstring/ext_mbstring.cpp.o
 .PHONY : mbstring/ext_mbstring.cpp.o
 
 mbstring/ext_mbstring.i: mbstring/ext_mbstring.cpp.i
@@ -4777,7 +4825,7 @@ mbstring/ext_mbstring.i: mbstring/ext_mbstring.cpp.i
 
 # target to preprocess a source file
 mbstring/ext_mbstring.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mbstring/ext_mbstring.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mbstring/ext_mbstring.cpp.i
 .PHONY : mbstring/ext_mbstring.cpp.i
 
 mbstring/ext_mbstring.s: mbstring/ext_mbstring.cpp.s
@@ -4785,7 +4833,7 @@ mbstring/ext_mbstring.s: mbstring/ext_mbstring.cpp.s
 
 # target to generate assembly for a file
 mbstring/ext_mbstring.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mbstring/ext_mbstring.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mbstring/ext_mbstring.cpp.s
 .PHONY : mbstring/ext_mbstring.cpp.s
 
 mcrouter/ext_mcrouter.o: mcrouter/ext_mcrouter.cpp.o
@@ -4793,7 +4841,7 @@ mcrouter/ext_mcrouter.o: mcrouter/ext_mcrouter.cpp.o
 
 # target to build an object file
 mcrouter/ext_mcrouter.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mcrouter/ext_mcrouter.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mcrouter/ext_mcrouter.cpp.o
 .PHONY : mcrouter/ext_mcrouter.cpp.o
 
 mcrouter/ext_mcrouter.i: mcrouter/ext_mcrouter.cpp.i
@@ -4801,7 +4849,7 @@ mcrouter/ext_mcrouter.i: mcrouter/ext_mcrouter.cpp.i
 
 # target to preprocess a source file
 mcrouter/ext_mcrouter.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mcrouter/ext_mcrouter.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mcrouter/ext_mcrouter.cpp.i
 .PHONY : mcrouter/ext_mcrouter.cpp.i
 
 mcrouter/ext_mcrouter.s: mcrouter/ext_mcrouter.cpp.s
@@ -4809,7 +4857,7 @@ mcrouter/ext_mcrouter.s: mcrouter/ext_mcrouter.cpp.s
 
 # target to generate assembly for a file
 mcrouter/ext_mcrouter.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mcrouter/ext_mcrouter.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mcrouter/ext_mcrouter.cpp.s
 .PHONY : mcrouter/ext_mcrouter.cpp.s
 
 mcrypt/ext_mcrypt.o: mcrypt/ext_mcrypt.cpp.o
@@ -4817,7 +4865,7 @@ mcrypt/ext_mcrypt.o: mcrypt/ext_mcrypt.cpp.o
 
 # target to build an object file
 mcrypt/ext_mcrypt.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mcrypt/ext_mcrypt.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mcrypt/ext_mcrypt.cpp.o
 .PHONY : mcrypt/ext_mcrypt.cpp.o
 
 mcrypt/ext_mcrypt.i: mcrypt/ext_mcrypt.cpp.i
@@ -4825,7 +4873,7 @@ mcrypt/ext_mcrypt.i: mcrypt/ext_mcrypt.cpp.i
 
 # target to preprocess a source file
 mcrypt/ext_mcrypt.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mcrypt/ext_mcrypt.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mcrypt/ext_mcrypt.cpp.i
 .PHONY : mcrypt/ext_mcrypt.cpp.i
 
 mcrypt/ext_mcrypt.s: mcrypt/ext_mcrypt.cpp.s
@@ -4833,7 +4881,7 @@ mcrypt/ext_mcrypt.s: mcrypt/ext_mcrypt.cpp.s
 
 # target to generate assembly for a file
 mcrypt/ext_mcrypt.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mcrypt/ext_mcrypt.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mcrypt/ext_mcrypt.cpp.s
 .PHONY : mcrypt/ext_mcrypt.cpp.s
 
 memcache/ext_memcache.o: memcache/ext_memcache.cpp.o
@@ -4841,7 +4889,7 @@ memcache/ext_memcache.o: memcache/ext_memcache.cpp.o
 
 # target to build an object file
 memcache/ext_memcache.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/memcache/ext_memcache.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/memcache/ext_memcache.cpp.o
 .PHONY : memcache/ext_memcache.cpp.o
 
 memcache/ext_memcache.i: memcache/ext_memcache.cpp.i
@@ -4849,7 +4897,7 @@ memcache/ext_memcache.i: memcache/ext_memcache.cpp.i
 
 # target to preprocess a source file
 memcache/ext_memcache.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/memcache/ext_memcache.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/memcache/ext_memcache.cpp.i
 .PHONY : memcache/ext_memcache.cpp.i
 
 memcache/ext_memcache.s: memcache/ext_memcache.cpp.s
@@ -4857,7 +4905,7 @@ memcache/ext_memcache.s: memcache/ext_memcache.cpp.s
 
 # target to generate assembly for a file
 memcache/ext_memcache.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/memcache/ext_memcache.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/memcache/ext_memcache.cpp.s
 .PHONY : memcache/ext_memcache.cpp.s
 
 memcached/ext_memcached.o: memcached/ext_memcached.cpp.o
@@ -4865,7 +4913,7 @@ memcached/ext_memcached.o: memcached/ext_memcached.cpp.o
 
 # target to build an object file
 memcached/ext_memcached.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/memcached/ext_memcached.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/memcached/ext_memcached.cpp.o
 .PHONY : memcached/ext_memcached.cpp.o
 
 memcached/ext_memcached.i: memcached/ext_memcached.cpp.i
@@ -4873,7 +4921,7 @@ memcached/ext_memcached.i: memcached/ext_memcached.cpp.i
 
 # target to preprocess a source file
 memcached/ext_memcached.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/memcached/ext_memcached.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/memcached/ext_memcached.cpp.i
 .PHONY : memcached/ext_memcached.cpp.i
 
 memcached/ext_memcached.s: memcached/ext_memcached.cpp.s
@@ -4881,7 +4929,7 @@ memcached/ext_memcached.s: memcached/ext_memcached.cpp.s
 
 # target to generate assembly for a file
 memcached/ext_memcached.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/memcached/ext_memcached.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/memcached/ext_memcached.cpp.s
 .PHONY : memcached/ext_memcached.cpp.s
 
 mysql/ext_mysql.o: mysql/ext_mysql.cpp.o
@@ -4889,7 +4937,7 @@ mysql/ext_mysql.o: mysql/ext_mysql.cpp.o
 
 # target to build an object file
 mysql/ext_mysql.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysql.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysql.cpp.o
 .PHONY : mysql/ext_mysql.cpp.o
 
 mysql/ext_mysql.i: mysql/ext_mysql.cpp.i
@@ -4897,7 +4945,7 @@ mysql/ext_mysql.i: mysql/ext_mysql.cpp.i
 
 # target to preprocess a source file
 mysql/ext_mysql.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysql.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysql.cpp.i
 .PHONY : mysql/ext_mysql.cpp.i
 
 mysql/ext_mysql.s: mysql/ext_mysql.cpp.s
@@ -4905,7 +4953,7 @@ mysql/ext_mysql.s: mysql/ext_mysql.cpp.s
 
 # target to generate assembly for a file
 mysql/ext_mysql.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysql.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysql.cpp.s
 .PHONY : mysql/ext_mysql.cpp.s
 
 mysql/ext_mysqli.o: mysql/ext_mysqli.cpp.o
@@ -4913,7 +4961,7 @@ mysql/ext_mysqli.o: mysql/ext_mysqli.cpp.o
 
 # target to build an object file
 mysql/ext_mysqli.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysqli.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysqli.cpp.o
 .PHONY : mysql/ext_mysqli.cpp.o
 
 mysql/ext_mysqli.i: mysql/ext_mysqli.cpp.i
@@ -4921,7 +4969,7 @@ mysql/ext_mysqli.i: mysql/ext_mysqli.cpp.i
 
 # target to preprocess a source file
 mysql/ext_mysqli.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysqli.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysqli.cpp.i
 .PHONY : mysql/ext_mysqli.cpp.i
 
 mysql/ext_mysqli.s: mysql/ext_mysqli.cpp.s
@@ -4929,7 +4977,7 @@ mysql/ext_mysqli.s: mysql/ext_mysqli.cpp.s
 
 # target to generate assembly for a file
 mysql/ext_mysqli.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysqli.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysqli.cpp.s
 .PHONY : mysql/ext_mysqli.cpp.s
 
 mysql/mysql_common.o: mysql/mysql_common.cpp.o
@@ -4937,7 +4985,7 @@ mysql/mysql_common.o: mysql/mysql_common.cpp.o
 
 # target to build an object file
 mysql/mysql_common.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_common.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_common.cpp.o
 .PHONY : mysql/mysql_common.cpp.o
 
 mysql/mysql_common.i: mysql/mysql_common.cpp.i
@@ -4945,7 +4993,7 @@ mysql/mysql_common.i: mysql/mysql_common.cpp.i
 
 # target to preprocess a source file
 mysql/mysql_common.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_common.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_common.cpp.i
 .PHONY : mysql/mysql_common.cpp.i
 
 mysql/mysql_common.s: mysql/mysql_common.cpp.s
@@ -4953,7 +5001,7 @@ mysql/mysql_common.s: mysql/mysql_common.cpp.s
 
 # target to generate assembly for a file
 mysql/mysql_common.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_common.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_common.cpp.s
 .PHONY : mysql/mysql_common.cpp.s
 
 mysql/mysql_stats.o: mysql/mysql_stats.cpp.o
@@ -4961,7 +5009,7 @@ mysql/mysql_stats.o: mysql/mysql_stats.cpp.o
 
 # target to build an object file
 mysql/mysql_stats.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_stats.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_stats.cpp.o
 .PHONY : mysql/mysql_stats.cpp.o
 
 mysql/mysql_stats.i: mysql/mysql_stats.cpp.i
@@ -4969,7 +5017,7 @@ mysql/mysql_stats.i: mysql/mysql_stats.cpp.i
 
 # target to preprocess a source file
 mysql/mysql_stats.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_stats.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_stats.cpp.i
 .PHONY : mysql/mysql_stats.cpp.i
 
 mysql/mysql_stats.s: mysql/mysql_stats.cpp.s
@@ -4977,7 +5025,7 @@ mysql/mysql_stats.s: mysql/mysql_stats.cpp.s
 
 # target to generate assembly for a file
 mysql/mysql_stats.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_stats.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_stats.cpp.s
 .PHONY : mysql/mysql_stats.cpp.s
 
 objprof/ext_objprof.o: objprof/ext_objprof.cpp.o
@@ -4985,7 +5033,7 @@ objprof/ext_objprof.o: objprof/ext_objprof.cpp.o
 
 # target to build an object file
 objprof/ext_objprof.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/objprof/ext_objprof.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/objprof/ext_objprof.cpp.o
 .PHONY : objprof/ext_objprof.cpp.o
 
 objprof/ext_objprof.i: objprof/ext_objprof.cpp.i
@@ -4993,7 +5041,7 @@ objprof/ext_objprof.i: objprof/ext_objprof.cpp.i
 
 # target to preprocess a source file
 objprof/ext_objprof.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/objprof/ext_objprof.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/objprof/ext_objprof.cpp.i
 .PHONY : objprof/ext_objprof.cpp.i
 
 objprof/ext_objprof.s: objprof/ext_objprof.cpp.s
@@ -5001,7 +5049,7 @@ objprof/ext_objprof.s: objprof/ext_objprof.cpp.s
 
 # target to generate assembly for a file
 objprof/ext_objprof.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/objprof/ext_objprof.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/objprof/ext_objprof.cpp.s
 .PHONY : objprof/ext_objprof.cpp.s
 
 odbc/ext_odbc.o: odbc/ext_odbc.cpp.o
@@ -5009,7 +5057,7 @@ odbc/ext_odbc.o: odbc/ext_odbc.cpp.o
 
 # target to build an object file
 odbc/ext_odbc.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/odbc/ext_odbc.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/odbc/ext_odbc.cpp.o
 .PHONY : odbc/ext_odbc.cpp.o
 
 odbc/ext_odbc.i: odbc/ext_odbc.cpp.i
@@ -5017,7 +5065,7 @@ odbc/ext_odbc.i: odbc/ext_odbc.cpp.i
 
 # target to preprocess a source file
 odbc/ext_odbc.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/odbc/ext_odbc.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/odbc/ext_odbc.cpp.i
 .PHONY : odbc/ext_odbc.cpp.i
 
 odbc/ext_odbc.s: odbc/ext_odbc.cpp.s
@@ -5025,7 +5073,7 @@ odbc/ext_odbc.s: odbc/ext_odbc.cpp.s
 
 # target to generate assembly for a file
 odbc/ext_odbc.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/odbc/ext_odbc.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/odbc/ext_odbc.cpp.s
 .PHONY : odbc/ext_odbc.cpp.s
 
 openssl/ext_openssl.o: openssl/ext_openssl.cpp.o
@@ -5033,7 +5081,7 @@ openssl/ext_openssl.o: openssl/ext_openssl.cpp.o
 
 # target to build an object file
 openssl/ext_openssl.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/openssl/ext_openssl.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/openssl/ext_openssl.cpp.o
 .PHONY : openssl/ext_openssl.cpp.o
 
 openssl/ext_openssl.i: openssl/ext_openssl.cpp.i
@@ -5041,7 +5089,7 @@ openssl/ext_openssl.i: openssl/ext_openssl.cpp.i
 
 # target to preprocess a source file
 openssl/ext_openssl.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/openssl/ext_openssl.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/openssl/ext_openssl.cpp.i
 .PHONY : openssl/ext_openssl.cpp.i
 
 openssl/ext_openssl.s: openssl/ext_openssl.cpp.s
@@ -5049,7 +5097,7 @@ openssl/ext_openssl.s: openssl/ext_openssl.cpp.s
 
 # target to generate assembly for a file
 openssl/ext_openssl.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/openssl/ext_openssl.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/openssl/ext_openssl.cpp.s
 .PHONY : openssl/ext_openssl.cpp.s
 
 password/ext_password.o: password/ext_password.cpp.o
@@ -5057,7 +5105,7 @@ password/ext_password.o: password/ext_password.cpp.o
 
 # target to build an object file
 password/ext_password.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/password/ext_password.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/password/ext_password.cpp.o
 .PHONY : password/ext_password.cpp.o
 
 password/ext_password.i: password/ext_password.cpp.i
@@ -5065,7 +5113,7 @@ password/ext_password.i: password/ext_password.cpp.i
 
 # target to preprocess a source file
 password/ext_password.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/password/ext_password.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/password/ext_password.cpp.i
 .PHONY : password/ext_password.cpp.i
 
 password/ext_password.s: password/ext_password.cpp.s
@@ -5073,7 +5121,7 @@ password/ext_password.s: password/ext_password.cpp.s
 
 # target to generate assembly for a file
 password/ext_password.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/password/ext_password.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/password/ext_password.cpp.s
 .PHONY : password/ext_password.cpp.s
 
 pcre/ext_pcre.o: pcre/ext_pcre.cpp.o
@@ -5081,7 +5129,7 @@ pcre/ext_pcre.o: pcre/ext_pcre.cpp.o
 
 # target to build an object file
 pcre/ext_pcre.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pcre/ext_pcre.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pcre/ext_pcre.cpp.o
 .PHONY : pcre/ext_pcre.cpp.o
 
 pcre/ext_pcre.i: pcre/ext_pcre.cpp.i
@@ -5089,7 +5137,7 @@ pcre/ext_pcre.i: pcre/ext_pcre.cpp.i
 
 # target to preprocess a source file
 pcre/ext_pcre.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pcre/ext_pcre.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pcre/ext_pcre.cpp.i
 .PHONY : pcre/ext_pcre.cpp.i
 
 pcre/ext_pcre.s: pcre/ext_pcre.cpp.s
@@ -5097,7 +5145,7 @@ pcre/ext_pcre.s: pcre/ext_pcre.cpp.s
 
 # target to generate assembly for a file
 pcre/ext_pcre.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pcre/ext_pcre.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pcre/ext_pcre.cpp.s
 .PHONY : pcre/ext_pcre.cpp.s
 
 pdo/ext_pdo.o: pdo/ext_pdo.cpp.o
@@ -5105,7 +5153,7 @@ pdo/ext_pdo.o: pdo/ext_pdo.cpp.o
 
 # target to build an object file
 pdo/ext_pdo.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo/ext_pdo.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo/ext_pdo.cpp.o
 .PHONY : pdo/ext_pdo.cpp.o
 
 pdo/ext_pdo.i: pdo/ext_pdo.cpp.i
@@ -5113,7 +5161,7 @@ pdo/ext_pdo.i: pdo/ext_pdo.cpp.i
 
 # target to preprocess a source file
 pdo/ext_pdo.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo/ext_pdo.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo/ext_pdo.cpp.i
 .PHONY : pdo/ext_pdo.cpp.i
 
 pdo/ext_pdo.s: pdo/ext_pdo.cpp.s
@@ -5121,7 +5169,7 @@ pdo/ext_pdo.s: pdo/ext_pdo.cpp.s
 
 # target to generate assembly for a file
 pdo/ext_pdo.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo/ext_pdo.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo/ext_pdo.cpp.s
 .PHONY : pdo/ext_pdo.cpp.s
 
 pdo/pdo_driver.o: pdo/pdo_driver.cpp.o
@@ -5129,7 +5177,7 @@ pdo/pdo_driver.o: pdo/pdo_driver.cpp.o
 
 # target to build an object file
 pdo/pdo_driver.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo/pdo_driver.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo/pdo_driver.cpp.o
 .PHONY : pdo/pdo_driver.cpp.o
 
 pdo/pdo_driver.i: pdo/pdo_driver.cpp.i
@@ -5137,7 +5185,7 @@ pdo/pdo_driver.i: pdo/pdo_driver.cpp.i
 
 # target to preprocess a source file
 pdo/pdo_driver.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo/pdo_driver.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo/pdo_driver.cpp.i
 .PHONY : pdo/pdo_driver.cpp.i
 
 pdo/pdo_driver.s: pdo/pdo_driver.cpp.s
@@ -5145,7 +5193,7 @@ pdo/pdo_driver.s: pdo/pdo_driver.cpp.s
 
 # target to generate assembly for a file
 pdo/pdo_driver.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo/pdo_driver.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo/pdo_driver.cpp.s
 .PHONY : pdo/pdo_driver.cpp.s
 
 pdo_mysql/pdo_mysql.o: pdo_mysql/pdo_mysql.cpp.o
@@ -5153,7 +5201,7 @@ pdo_mysql/pdo_mysql.o: pdo_mysql/pdo_mysql.cpp.o
 
 # target to build an object file
 pdo_mysql/pdo_mysql.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo_mysql/pdo_mysql.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo_mysql/pdo_mysql.cpp.o
 .PHONY : pdo_mysql/pdo_mysql.cpp.o
 
 pdo_mysql/pdo_mysql.i: pdo_mysql/pdo_mysql.cpp.i
@@ -5161,7 +5209,7 @@ pdo_mysql/pdo_mysql.i: pdo_mysql/pdo_mysql.cpp.i
 
 # target to preprocess a source file
 pdo_mysql/pdo_mysql.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo_mysql/pdo_mysql.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo_mysql/pdo_mysql.cpp.i
 .PHONY : pdo_mysql/pdo_mysql.cpp.i
 
 pdo_mysql/pdo_mysql.s: pdo_mysql/pdo_mysql.cpp.s
@@ -5169,7 +5217,7 @@ pdo_mysql/pdo_mysql.s: pdo_mysql/pdo_mysql.cpp.s
 
 # target to generate assembly for a file
 pdo_mysql/pdo_mysql.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo_mysql/pdo_mysql.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo_mysql/pdo_mysql.cpp.s
 .PHONY : pdo_mysql/pdo_mysql.cpp.s
 
 pdo_sqlite/pdo_sqlite.o: pdo_sqlite/pdo_sqlite.cpp.o
@@ -5177,7 +5225,7 @@ pdo_sqlite/pdo_sqlite.o: pdo_sqlite/pdo_sqlite.cpp.o
 
 # target to build an object file
 pdo_sqlite/pdo_sqlite.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo_sqlite/pdo_sqlite.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo_sqlite/pdo_sqlite.cpp.o
 .PHONY : pdo_sqlite/pdo_sqlite.cpp.o
 
 pdo_sqlite/pdo_sqlite.i: pdo_sqlite/pdo_sqlite.cpp.i
@@ -5185,7 +5233,7 @@ pdo_sqlite/pdo_sqlite.i: pdo_sqlite/pdo_sqlite.cpp.i
 
 # target to preprocess a source file
 pdo_sqlite/pdo_sqlite.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo_sqlite/pdo_sqlite.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo_sqlite/pdo_sqlite.cpp.i
 .PHONY : pdo_sqlite/pdo_sqlite.cpp.i
 
 pdo_sqlite/pdo_sqlite.s: pdo_sqlite/pdo_sqlite.cpp.s
@@ -5193,7 +5241,7 @@ pdo_sqlite/pdo_sqlite.s: pdo_sqlite/pdo_sqlite.cpp.s
 
 # target to generate assembly for a file
 pdo_sqlite/pdo_sqlite.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo_sqlite/pdo_sqlite.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo_sqlite/pdo_sqlite.cpp.s
 .PHONY : pdo_sqlite/pdo_sqlite.cpp.s
 
 phar/ext_phar.o: phar/ext_phar.cpp.o
@@ -5201,7 +5249,7 @@ phar/ext_phar.o: phar/ext_phar.cpp.o
 
 # target to build an object file
 phar/ext_phar.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/phar/ext_phar.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/phar/ext_phar.cpp.o
 .PHONY : phar/ext_phar.cpp.o
 
 phar/ext_phar.i: phar/ext_phar.cpp.i
@@ -5209,7 +5257,7 @@ phar/ext_phar.i: phar/ext_phar.cpp.i
 
 # target to preprocess a source file
 phar/ext_phar.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/phar/ext_phar.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/phar/ext_phar.cpp.i
 .PHONY : phar/ext_phar.cpp.i
 
 phar/ext_phar.s: phar/ext_phar.cpp.s
@@ -5217,7 +5265,7 @@ phar/ext_phar.s: phar/ext_phar.cpp.s
 
 # target to generate assembly for a file
 phar/ext_phar.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/phar/ext_phar.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/phar/ext_phar.cpp.s
 .PHONY : phar/ext_phar.cpp.s
 
 posix/ext_posix.o: posix/ext_posix.cpp.o
@@ -5225,7 +5273,7 @@ posix/ext_posix.o: posix/ext_posix.cpp.o
 
 # target to build an object file
 posix/ext_posix.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/posix/ext_posix.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/posix/ext_posix.cpp.o
 .PHONY : posix/ext_posix.cpp.o
 
 posix/ext_posix.i: posix/ext_posix.cpp.i
@@ -5233,7 +5281,7 @@ posix/ext_posix.i: posix/ext_posix.cpp.i
 
 # target to preprocess a source file
 posix/ext_posix.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/posix/ext_posix.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/posix/ext_posix.cpp.i
 .PHONY : posix/ext_posix.cpp.i
 
 posix/ext_posix.s: posix/ext_posix.cpp.s
@@ -5241,7 +5289,7 @@ posix/ext_posix.s: posix/ext_posix.cpp.s
 
 # target to generate assembly for a file
 posix/ext_posix.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/posix/ext_posix.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/posix/ext_posix.cpp.s
 .PHONY : posix/ext_posix.cpp.s
 
 process/ext_process.o: process/ext_process.cpp.o
@@ -5249,7 +5297,7 @@ process/ext_process.o: process/ext_process.cpp.o
 
 # target to build an object file
 process/ext_process.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/process/ext_process.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/process/ext_process.cpp.o
 .PHONY : process/ext_process.cpp.o
 
 process/ext_process.i: process/ext_process.cpp.i
@@ -5257,7 +5305,7 @@ process/ext_process.i: process/ext_process.cpp.i
 
 # target to preprocess a source file
 process/ext_process.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/process/ext_process.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/process/ext_process.cpp.i
 .PHONY : process/ext_process.cpp.i
 
 process/ext_process.s: process/ext_process.cpp.s
@@ -5265,7 +5313,7 @@ process/ext_process.s: process/ext_process.cpp.s
 
 # target to generate assembly for a file
 process/ext_process.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/process/ext_process.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/process/ext_process.cpp.s
 .PHONY : process/ext_process.cpp.s
 
 random/ext_random.o: random/ext_random.cpp.o
@@ -5273,7 +5321,7 @@ random/ext_random.o: random/ext_random.cpp.o
 
 # target to build an object file
 random/ext_random.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.o
 .PHONY : random/ext_random.cpp.o
 
 random/ext_random.i: random/ext_random.cpp.i
@@ -5281,7 +5329,7 @@ random/ext_random.i: random/ext_random.cpp.i
 
 # target to preprocess a source file
 random/ext_random.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.i
 .PHONY : random/ext_random.cpp.i
 
 random/ext_random.s: random/ext_random.cpp.s
@@ -5289,7 +5337,7 @@ random/ext_random.s: random/ext_random.cpp.s
 
 # target to generate assembly for a file
 random/ext_random.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.s
 .PHONY : random/ext_random.cpp.s
 
 readline/ext_readline.o: readline/ext_readline.cpp.o
@@ -5297,7 +5345,7 @@ readline/ext_readline.o: readline/ext_readline.cpp.o
 
 # target to build an object file
 readline/ext_readline.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/readline/ext_readline.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/readline/ext_readline.cpp.o
 .PHONY : readline/ext_readline.cpp.o
 
 readline/ext_readline.i: readline/ext_readline.cpp.i
@@ -5305,7 +5353,7 @@ readline/ext_readline.i: readline/ext_readline.cpp.i
 
 # target to preprocess a source file
 readline/ext_readline.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/readline/ext_readline.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/readline/ext_readline.cpp.i
 .PHONY : readline/ext_readline.cpp.i
 
 readline/ext_readline.s: readline/ext_readline.cpp.s
@@ -5313,7 +5361,7 @@ readline/ext_readline.s: readline/ext_readline.cpp.s
 
 # target to generate assembly for a file
 readline/ext_readline.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/readline/ext_readline.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/readline/ext_readline.cpp.s
 .PHONY : readline/ext_readline.cpp.s
 
 reflection/ext_reflection.o: reflection/ext_reflection.cpp.o
@@ -5321,7 +5369,7 @@ reflection/ext_reflection.o: reflection/ext_reflection.cpp.o
 
 # target to build an object file
 reflection/ext_reflection.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/reflection/ext_reflection.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/reflection/ext_reflection.cpp.o
 .PHONY : reflection/ext_reflection.cpp.o
 
 reflection/ext_reflection.i: reflection/ext_reflection.cpp.i
@@ -5329,7 +5377,7 @@ reflection/ext_reflection.i: reflection/ext_reflection.cpp.i
 
 # target to preprocess a source file
 reflection/ext_reflection.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/reflection/ext_reflection.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/reflection/ext_reflection.cpp.i
 .PHONY : reflection/ext_reflection.cpp.i
 
 reflection/ext_reflection.s: reflection/ext_reflection.cpp.s
@@ -5337,7 +5385,7 @@ reflection/ext_reflection.s: reflection/ext_reflection.cpp.s
 
 # target to generate assembly for a file
 reflection/ext_reflection.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/reflection/ext_reflection.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/reflection/ext_reflection.cpp.s
 .PHONY : reflection/ext_reflection.cpp.s
 
 server/ext_server.o: server/ext_server.cpp.o
@@ -5345,7 +5393,7 @@ server/ext_server.o: server/ext_server.cpp.o
 
 # target to build an object file
 server/ext_server.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/server/ext_server.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/server/ext_server.cpp.o
 .PHONY : server/ext_server.cpp.o
 
 server/ext_server.i: server/ext_server.cpp.i
@@ -5353,7 +5401,7 @@ server/ext_server.i: server/ext_server.cpp.i
 
 # target to preprocess a source file
 server/ext_server.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/server/ext_server.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/server/ext_server.cpp.i
 .PHONY : server/ext_server.cpp.i
 
 server/ext_server.s: server/ext_server.cpp.s
@@ -5361,7 +5409,7 @@ server/ext_server.s: server/ext_server.cpp.s
 
 # target to generate assembly for a file
 server/ext_server.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/server/ext_server.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/server/ext_server.cpp.s
 .PHONY : server/ext_server.cpp.s
 
 session/ext_session.o: session/ext_session.cpp.o
@@ -5369,7 +5417,7 @@ session/ext_session.o: session/ext_session.cpp.o
 
 # target to build an object file
 session/ext_session.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/session/ext_session.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/session/ext_session.cpp.o
 .PHONY : session/ext_session.cpp.o
 
 session/ext_session.i: session/ext_session.cpp.i
@@ -5377,7 +5425,7 @@ session/ext_session.i: session/ext_session.cpp.i
 
 # target to preprocess a source file
 session/ext_session.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/session/ext_session.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/session/ext_session.cpp.i
 .PHONY : session/ext_session.cpp.i
 
 session/ext_session.s: session/ext_session.cpp.s
@@ -5385,7 +5433,7 @@ session/ext_session.s: session/ext_session.cpp.s
 
 # target to generate assembly for a file
 session/ext_session.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/session/ext_session.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/session/ext_session.cpp.s
 .PHONY : session/ext_session.cpp.s
 
 simplexml/ext_simplexml.o: simplexml/ext_simplexml.cpp.o
@@ -5393,7 +5441,7 @@ simplexml/ext_simplexml.o: simplexml/ext_simplexml.cpp.o
 
 # target to build an object file
 simplexml/ext_simplexml.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/simplexml/ext_simplexml.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/simplexml/ext_simplexml.cpp.o
 .PHONY : simplexml/ext_simplexml.cpp.o
 
 simplexml/ext_simplexml.i: simplexml/ext_simplexml.cpp.i
@@ -5401,7 +5449,7 @@ simplexml/ext_simplexml.i: simplexml/ext_simplexml.cpp.i
 
 # target to preprocess a source file
 simplexml/ext_simplexml.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/simplexml/ext_simplexml.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/simplexml/ext_simplexml.cpp.i
 .PHONY : simplexml/ext_simplexml.cpp.i
 
 simplexml/ext_simplexml.s: simplexml/ext_simplexml.cpp.s
@@ -5409,7 +5457,7 @@ simplexml/ext_simplexml.s: simplexml/ext_simplexml.cpp.s
 
 # target to generate assembly for a file
 simplexml/ext_simplexml.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/simplexml/ext_simplexml.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/simplexml/ext_simplexml.cpp.s
 .PHONY : simplexml/ext_simplexml.cpp.s
 
 soap/encoding.o: soap/encoding.cpp.o
@@ -5417,7 +5465,7 @@ soap/encoding.o: soap/encoding.cpp.o
 
 # target to build an object file
 soap/encoding.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/encoding.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/encoding.cpp.o
 .PHONY : soap/encoding.cpp.o
 
 soap/encoding.i: soap/encoding.cpp.i
@@ -5425,7 +5473,7 @@ soap/encoding.i: soap/encoding.cpp.i
 
 # target to preprocess a source file
 soap/encoding.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/encoding.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/encoding.cpp.i
 .PHONY : soap/encoding.cpp.i
 
 soap/encoding.s: soap/encoding.cpp.s
@@ -5433,7 +5481,7 @@ soap/encoding.s: soap/encoding.cpp.s
 
 # target to generate assembly for a file
 soap/encoding.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/encoding.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/encoding.cpp.s
 .PHONY : soap/encoding.cpp.s
 
 soap/ext_soap.o: soap/ext_soap.cpp.o
@@ -5441,7 +5489,7 @@ soap/ext_soap.o: soap/ext_soap.cpp.o
 
 # target to build an object file
 soap/ext_soap.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/ext_soap.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/ext_soap.cpp.o
 .PHONY : soap/ext_soap.cpp.o
 
 soap/ext_soap.i: soap/ext_soap.cpp.i
@@ -5449,7 +5497,7 @@ soap/ext_soap.i: soap/ext_soap.cpp.i
 
 # target to preprocess a source file
 soap/ext_soap.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/ext_soap.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/ext_soap.cpp.i
 .PHONY : soap/ext_soap.cpp.i
 
 soap/ext_soap.s: soap/ext_soap.cpp.s
@@ -5457,7 +5505,7 @@ soap/ext_soap.s: soap/ext_soap.cpp.s
 
 # target to generate assembly for a file
 soap/ext_soap.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/ext_soap.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/ext_soap.cpp.s
 .PHONY : soap/ext_soap.cpp.s
 
 soap/packet.o: soap/packet.cpp.o
@@ -5465,7 +5513,7 @@ soap/packet.o: soap/packet.cpp.o
 
 # target to build an object file
 soap/packet.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/packet.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/packet.cpp.o
 .PHONY : soap/packet.cpp.o
 
 soap/packet.i: soap/packet.cpp.i
@@ -5473,7 +5521,7 @@ soap/packet.i: soap/packet.cpp.i
 
 # target to preprocess a source file
 soap/packet.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/packet.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/packet.cpp.i
 .PHONY : soap/packet.cpp.i
 
 soap/packet.s: soap/packet.cpp.s
@@ -5481,7 +5529,7 @@ soap/packet.s: soap/packet.cpp.s
 
 # target to generate assembly for a file
 soap/packet.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/packet.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/packet.cpp.s
 .PHONY : soap/packet.cpp.s
 
 soap/schema.o: soap/schema.cpp.o
@@ -5489,7 +5537,7 @@ soap/schema.o: soap/schema.cpp.o
 
 # target to build an object file
 soap/schema.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/schema.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/schema.cpp.o
 .PHONY : soap/schema.cpp.o
 
 soap/schema.i: soap/schema.cpp.i
@@ -5497,7 +5545,7 @@ soap/schema.i: soap/schema.cpp.i
 
 # target to preprocess a source file
 soap/schema.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/schema.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/schema.cpp.i
 .PHONY : soap/schema.cpp.i
 
 soap/schema.s: soap/schema.cpp.s
@@ -5505,7 +5553,7 @@ soap/schema.s: soap/schema.cpp.s
 
 # target to generate assembly for a file
 soap/schema.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/schema.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/schema.cpp.s
 .PHONY : soap/schema.cpp.s
 
 soap/sdl.o: soap/sdl.cpp.o
@@ -5513,7 +5561,7 @@ soap/sdl.o: soap/sdl.cpp.o
 
 # target to build an object file
 soap/sdl.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/sdl.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/sdl.cpp.o
 .PHONY : soap/sdl.cpp.o
 
 soap/sdl.i: soap/sdl.cpp.i
@@ -5521,7 +5569,7 @@ soap/sdl.i: soap/sdl.cpp.i
 
 # target to preprocess a source file
 soap/sdl.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/sdl.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/sdl.cpp.i
 .PHONY : soap/sdl.cpp.i
 
 soap/sdl.s: soap/sdl.cpp.s
@@ -5529,7 +5577,7 @@ soap/sdl.s: soap/sdl.cpp.s
 
 # target to generate assembly for a file
 soap/sdl.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/sdl.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/sdl.cpp.s
 .PHONY : soap/sdl.cpp.s
 
 soap/soap.o: soap/soap.cpp.o
@@ -5537,7 +5585,7 @@ soap/soap.o: soap/soap.cpp.o
 
 # target to build an object file
 soap/soap.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/soap.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/soap.cpp.o
 .PHONY : soap/soap.cpp.o
 
 soap/soap.i: soap/soap.cpp.i
@@ -5545,7 +5593,7 @@ soap/soap.i: soap/soap.cpp.i
 
 # target to preprocess a source file
 soap/soap.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/soap.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/soap.cpp.i
 .PHONY : soap/soap.cpp.i
 
 soap/soap.s: soap/soap.cpp.s
@@ -5553,7 +5601,7 @@ soap/soap.s: soap/soap.cpp.s
 
 # target to generate assembly for a file
 soap/soap.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/soap.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/soap.cpp.s
 .PHONY : soap/soap.cpp.s
 
 soap/xml.o: soap/xml.cpp.o
@@ -5561,7 +5609,7 @@ soap/xml.o: soap/xml.cpp.o
 
 # target to build an object file
 soap/xml.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/xml.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/xml.cpp.o
 .PHONY : soap/xml.cpp.o
 
 soap/xml.i: soap/xml.cpp.i
@@ -5569,7 +5617,7 @@ soap/xml.i: soap/xml.cpp.i
 
 # target to preprocess a source file
 soap/xml.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/xml.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/xml.cpp.i
 .PHONY : soap/xml.cpp.i
 
 soap/xml.s: soap/xml.cpp.s
@@ -5577,7 +5625,7 @@ soap/xml.s: soap/xml.cpp.s
 
 # target to generate assembly for a file
 soap/xml.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/xml.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/xml.cpp.s
 .PHONY : soap/xml.cpp.s
 
 sockets/ext_sockets.o: sockets/ext_sockets.cpp.o
@@ -5585,7 +5633,7 @@ sockets/ext_sockets.o: sockets/ext_sockets.cpp.o
 
 # target to build an object file
 sockets/ext_sockets.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/sockets/ext_sockets.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/sockets/ext_sockets.cpp.o
 .PHONY : sockets/ext_sockets.cpp.o
 
 sockets/ext_sockets.i: sockets/ext_sockets.cpp.i
@@ -5593,7 +5641,7 @@ sockets/ext_sockets.i: sockets/ext_sockets.cpp.i
 
 # target to preprocess a source file
 sockets/ext_sockets.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/sockets/ext_sockets.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/sockets/ext_sockets.cpp.i
 .PHONY : sockets/ext_sockets.cpp.i
 
 sockets/ext_sockets.s: sockets/ext_sockets.cpp.s
@@ -5601,7 +5649,7 @@ sockets/ext_sockets.s: sockets/ext_sockets.cpp.s
 
 # target to generate assembly for a file
 sockets/ext_sockets.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/sockets/ext_sockets.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/sockets/ext_sockets.cpp.s
 .PHONY : sockets/ext_sockets.cpp.s
 
 spl/ext_spl.o: spl/ext_spl.cpp.o
@@ -5609,7 +5657,7 @@ spl/ext_spl.o: spl/ext_spl.cpp.o
 
 # target to build an object file
 spl/ext_spl.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/spl/ext_spl.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/spl/ext_spl.cpp.o
 .PHONY : spl/ext_spl.cpp.o
 
 spl/ext_spl.i: spl/ext_spl.cpp.i
@@ -5617,7 +5665,7 @@ spl/ext_spl.i: spl/ext_spl.cpp.i
 
 # target to preprocess a source file
 spl/ext_spl.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/spl/ext_spl.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/spl/ext_spl.cpp.i
 .PHONY : spl/ext_spl.cpp.i
 
 spl/ext_spl.s: spl/ext_spl.cpp.s
@@ -5625,7 +5673,7 @@ spl/ext_spl.s: spl/ext_spl.cpp.s
 
 # target to generate assembly for a file
 spl/ext_spl.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/spl/ext_spl.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/spl/ext_spl.cpp.s
 .PHONY : spl/ext_spl.cpp.s
 
 sqlite3/ext_sqlite3.o: sqlite3/ext_sqlite3.cpp.o
@@ -5633,7 +5681,7 @@ sqlite3/ext_sqlite3.o: sqlite3/ext_sqlite3.cpp.o
 
 # target to build an object file
 sqlite3/ext_sqlite3.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/sqlite3/ext_sqlite3.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/sqlite3/ext_sqlite3.cpp.o
 .PHONY : sqlite3/ext_sqlite3.cpp.o
 
 sqlite3/ext_sqlite3.i: sqlite3/ext_sqlite3.cpp.i
@@ -5641,7 +5689,7 @@ sqlite3/ext_sqlite3.i: sqlite3/ext_sqlite3.cpp.i
 
 # target to preprocess a source file
 sqlite3/ext_sqlite3.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/sqlite3/ext_sqlite3.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/sqlite3/ext_sqlite3.cpp.i
 .PHONY : sqlite3/ext_sqlite3.cpp.i
 
 sqlite3/ext_sqlite3.s: sqlite3/ext_sqlite3.cpp.s
@@ -5649,7 +5697,7 @@ sqlite3/ext_sqlite3.s: sqlite3/ext_sqlite3.cpp.s
 
 # target to generate assembly for a file
 sqlite3/ext_sqlite3.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/sqlite3/ext_sqlite3.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/sqlite3/ext_sqlite3.cpp.s
 .PHONY : sqlite3/ext_sqlite3.cpp.s
 
 std/ext_std.o: std/ext_std.cpp.o
@@ -5657,7 +5705,7 @@ std/ext_std.o: std/ext_std.cpp.o
 
 # target to build an object file
 std/ext_std.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std.cpp.o
 .PHONY : std/ext_std.cpp.o
 
 std/ext_std.i: std/ext_std.cpp.i
@@ -5665,7 +5713,7 @@ std/ext_std.i: std/ext_std.cpp.i
 
 # target to preprocess a source file
 std/ext_std.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std.cpp.i
 .PHONY : std/ext_std.cpp.i
 
 std/ext_std.s: std/ext_std.cpp.s
@@ -5673,7 +5721,7 @@ std/ext_std.s: std/ext_std.cpp.s
 
 # target to generate assembly for a file
 std/ext_std.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std.cpp.s
 .PHONY : std/ext_std.cpp.s
 
 std/ext_std_classobj.o: std/ext_std_classobj.cpp.o
@@ -5681,7 +5729,7 @@ std/ext_std_classobj.o: std/ext_std_classobj.cpp.o
 
 # target to build an object file
 std/ext_std_classobj.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_classobj.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_classobj.cpp.o
 .PHONY : std/ext_std_classobj.cpp.o
 
 std/ext_std_classobj.i: std/ext_std_classobj.cpp.i
@@ -5689,7 +5737,7 @@ std/ext_std_classobj.i: std/ext_std_classobj.cpp.i
 
 # target to preprocess a source file
 std/ext_std_classobj.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_classobj.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_classobj.cpp.i
 .PHONY : std/ext_std_classobj.cpp.i
 
 std/ext_std_classobj.s: std/ext_std_classobj.cpp.s
@@ -5697,7 +5745,7 @@ std/ext_std_classobj.s: std/ext_std_classobj.cpp.s
 
 # target to generate assembly for a file
 std/ext_std_classobj.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_classobj.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_classobj.cpp.s
 .PHONY : std/ext_std_classobj.cpp.s
 
 std/ext_std_closure.o: std/ext_std_closure.cpp.o
@@ -5705,7 +5753,7 @@ std/ext_std_closure.o: std/ext_std_closure.cpp.o
 
 # target to build an object file
 std/ext_std_closure.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_closure.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_closure.cpp.o
 .PHONY : std/ext_std_closure.cpp.o
 
 std/ext_std_closure.i: std/ext_std_closure.cpp.i
@@ -5713,7 +5761,7 @@ std/ext_std_closure.i: std/ext_std_closure.cpp.i
 
 # target to preprocess a source file
 std/ext_std_closure.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_closure.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_closure.cpp.i
 .PHONY : std/ext_std_closure.cpp.i
 
 std/ext_std_closure.s: std/ext_std_closure.cpp.s
@@ -5721,7 +5769,7 @@ std/ext_std_closure.s: std/ext_std_closure.cpp.s
 
 # target to generate assembly for a file
 std/ext_std_closure.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_closure.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_closure.cpp.s
 .PHONY : std/ext_std_closure.cpp.s
 
 std/ext_std_errorfunc.o: std/ext_std_errorfunc.cpp.o
@@ -5729,7 +5777,7 @@ std/ext_std_errorfunc.o: std/ext_std_errorfunc.cpp.o
 
 # target to build an object file
 std/ext_std_errorfunc.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_errorfunc.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_errorfunc.cpp.o
 .PHONY : std/ext_std_errorfunc.cpp.o
 
 std/ext_std_errorfunc.i: std/ext_std_errorfunc.cpp.i
@@ -5737,7 +5785,7 @@ std/ext_std_errorfunc.i: std/ext_std_errorfunc.cpp.i
 
 # target to preprocess a source file
 std/ext_std_errorfunc.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_errorfunc.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_errorfunc.cpp.i
 .PHONY : std/ext_std_errorfunc.cpp.i
 
 std/ext_std_errorfunc.s: std/ext_std_errorfunc.cpp.s
@@ -5745,7 +5793,7 @@ std/ext_std_errorfunc.s: std/ext_std_errorfunc.cpp.s
 
 # target to generate assembly for a file
 std/ext_std_errorfunc.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_errorfunc.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_errorfunc.cpp.s
 .PHONY : std/ext_std_errorfunc.cpp.s
 
 std/ext_std_file.o: std/ext_std_file.cpp.o
@@ -5753,7 +5801,7 @@ std/ext_std_file.o: std/ext_std_file.cpp.o
 
 # target to build an object file
 std/ext_std_file.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_file.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_file.cpp.o
 .PHONY : std/ext_std_file.cpp.o
 
 std/ext_std_file.i: std/ext_std_file.cpp.i
@@ -5761,7 +5809,7 @@ std/ext_std_file.i: std/ext_std_file.cpp.i
 
 # target to preprocess a source file
 std/ext_std_file.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_file.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_file.cpp.i
 .PHONY : std/ext_std_file.cpp.i
 
 std/ext_std_file.s: std/ext_std_file.cpp.s
@@ -5769,7 +5817,7 @@ std/ext_std_file.s: std/ext_std_file.cpp.s
 
 # target to generate assembly for a file
 std/ext_std_file.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_file.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_file.cpp.s
 .PHONY : std/ext_std_file.cpp.s
 
 std/ext_std_function.o: std/ext_std_function.cpp.o
@@ -5777,7 +5825,7 @@ std/ext_std_function.o: std/ext_std_function.cpp.o
 
 # target to build an object file
 std/ext_std_function.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_function.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_function.cpp.o
 .PHONY : std/ext_std_function.cpp.o
 
 std/ext_std_function.i: std/ext_std_function.cpp.i
@@ -5785,7 +5833,7 @@ std/ext_std_function.i: std/ext_std_function.cpp.i
 
 # target to preprocess a source file
 std/ext_std_function.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_function.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_function.cpp.i
 .PHONY : std/ext_std_function.cpp.i
 
 std/ext_std_function.s: std/ext_std_function.cpp.s
@@ -5793,7 +5841,7 @@ std/ext_std_function.s: std/ext_std_function.cpp.s
 
 # target to generate assembly for a file
 std/ext_std_function.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_function.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_function.cpp.s
 .PHONY : std/ext_std_function.cpp.s
 
 std/ext_std_gc.o: std/ext_std_gc.cpp.o
@@ -5801,7 +5849,7 @@ std/ext_std_gc.o: std/ext_std_gc.cpp.o
 
 # target to build an object file
 std/ext_std_gc.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_gc.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_gc.cpp.o
 .PHONY : std/ext_std_gc.cpp.o
 
 std/ext_std_gc.i: std/ext_std_gc.cpp.i
@@ -5809,7 +5857,7 @@ std/ext_std_gc.i: std/ext_std_gc.cpp.i
 
 # target to preprocess a source file
 std/ext_std_gc.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_gc.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_gc.cpp.i
 .PHONY : std/ext_std_gc.cpp.i
 
 std/ext_std_gc.s: std/ext_std_gc.cpp.s
@@ -5817,7 +5865,7 @@ std/ext_std_gc.s: std/ext_std_gc.cpp.s
 
 # target to generate assembly for a file
 std/ext_std_gc.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_gc.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_gc.cpp.s
 .PHONY : std/ext_std_gc.cpp.s
 
 std/ext_std_intrinsics.o: std/ext_std_intrinsics.cpp.o
@@ -5825,7 +5873,7 @@ std/ext_std_intrinsics.o: std/ext_std_intrinsics.cpp.o
 
 # target to build an object file
 std/ext_std_intrinsics.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_intrinsics.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_intrinsics.cpp.o
 .PHONY : std/ext_std_intrinsics.cpp.o
 
 std/ext_std_intrinsics.i: std/ext_std_intrinsics.cpp.i
@@ -5833,7 +5881,7 @@ std/ext_std_intrinsics.i: std/ext_std_intrinsics.cpp.i
 
 # target to preprocess a source file
 std/ext_std_intrinsics.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_intrinsics.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_intrinsics.cpp.i
 .PHONY : std/ext_std_intrinsics.cpp.i
 
 std/ext_std_intrinsics.s: std/ext_std_intrinsics.cpp.s
@@ -5841,7 +5889,7 @@ std/ext_std_intrinsics.s: std/ext_std_intrinsics.cpp.s
 
 # target to generate assembly for a file
 std/ext_std_intrinsics.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_intrinsics.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_intrinsics.cpp.s
 .PHONY : std/ext_std_intrinsics.cpp.s
 
 std/ext_std_math.o: std/ext_std_math.cpp.o
@@ -5849,7 +5897,7 @@ std/ext_std_math.o: std/ext_std_math.cpp.o
 
 # target to build an object file
 std/ext_std_math.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_math.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_math.cpp.o
 .PHONY : std/ext_std_math.cpp.o
 
 std/ext_std_math.i: std/ext_std_math.cpp.i
@@ -5857,7 +5905,7 @@ std/ext_std_math.i: std/ext_std_math.cpp.i
 
 # target to preprocess a source file
 std/ext_std_math.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_math.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_math.cpp.i
 .PHONY : std/ext_std_math.cpp.i
 
 std/ext_std_math.s: std/ext_std_math.cpp.s
@@ -5865,7 +5913,7 @@ std/ext_std_math.s: std/ext_std_math.cpp.s
 
 # target to generate assembly for a file
 std/ext_std_math.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_math.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_math.cpp.s
 .PHONY : std/ext_std_math.cpp.s
 
 std/ext_std_misc.o: std/ext_std_misc.cpp.o
@@ -5873,7 +5921,7 @@ std/ext_std_misc.o: std/ext_std_misc.cpp.o
 
 # target to build an object file
 std/ext_std_misc.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_misc.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_misc.cpp.o
 .PHONY : std/ext_std_misc.cpp.o
 
 std/ext_std_misc.i: std/ext_std_misc.cpp.i
@@ -5881,7 +5929,7 @@ std/ext_std_misc.i: std/ext_std_misc.cpp.i
 
 # target to preprocess a source file
 std/ext_std_misc.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_misc.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_misc.cpp.i
 .PHONY : std/ext_std_misc.cpp.i
 
 std/ext_std_misc.s: std/ext_std_misc.cpp.s
@@ -5889,7 +5937,7 @@ std/ext_std_misc.s: std/ext_std_misc.cpp.s
 
 # target to generate assembly for a file
 std/ext_std_misc.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_misc.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_misc.cpp.s
 .PHONY : std/ext_std_misc.cpp.s
 
 std/ext_std_network-posix.o: std/ext_std_network-posix.cpp.o
@@ -5897,7 +5945,7 @@ std/ext_std_network-posix.o: std/ext_std_network-posix.cpp.o
 
 # target to build an object file
 std/ext_std_network-posix.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-posix.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-posix.cpp.o
 .PHONY : std/ext_std_network-posix.cpp.o
 
 std/ext_std_network-posix.i: std/ext_std_network-posix.cpp.i
@@ -5905,7 +5953,7 @@ std/ext_std_network-posix.i: std/ext_std_network-posix.cpp.i
 
 # target to preprocess a source file
 std/ext_std_network-posix.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-posix.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-posix.cpp.i
 .PHONY : std/ext_std_network-posix.cpp.i
 
 std/ext_std_network-posix.s: std/ext_std_network-posix.cpp.s
@@ -5913,7 +5961,7 @@ std/ext_std_network-posix.s: std/ext_std_network-posix.cpp.s
 
 # target to generate assembly for a file
 std/ext_std_network-posix.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-posix.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-posix.cpp.s
 .PHONY : std/ext_std_network-posix.cpp.s
 
 std/ext_std_network-win.o: std/ext_std_network-win.cpp.o
@@ -5921,7 +5969,7 @@ std/ext_std_network-win.o: std/ext_std_network-win.cpp.o
 
 # target to build an object file
 std/ext_std_network-win.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-win.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-win.cpp.o
 .PHONY : std/ext_std_network-win.cpp.o
 
 std/ext_std_network-win.i: std/ext_std_network-win.cpp.i
@@ -5929,7 +5977,7 @@ std/ext_std_network-win.i: std/ext_std_network-win.cpp.i
 
 # target to preprocess a source file
 std/ext_std_network-win.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-win.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-win.cpp.i
 .PHONY : std/ext_std_network-win.cpp.i
 
 std/ext_std_network-win.s: std/ext_std_network-win.cpp.s
@@ -5937,7 +5985,7 @@ std/ext_std_network-win.s: std/ext_std_network-win.cpp.s
 
 # target to generate assembly for a file
 std/ext_std_network-win.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-win.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-win.cpp.s
 .PHONY : std/ext_std_network-win.cpp.s
 
 std/ext_std_network.o: std/ext_std_network.cpp.o
@@ -5945,7 +5993,7 @@ std/ext_std_network.o: std/ext_std_network.cpp.o
 
 # target to build an object file
 std/ext_std_network.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network.cpp.o
 .PHONY : std/ext_std_network.cpp.o
 
 std/ext_std_network.i: std/ext_std_network.cpp.i
@@ -5953,7 +6001,7 @@ std/ext_std_network.i: std/ext_std_network.cpp.i
 
 # target to preprocess a source file
 std/ext_std_network.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network.cpp.i
 .PHONY : std/ext_std_network.cpp.i
 
 std/ext_std_network.s: std/ext_std_network.cpp.s
@@ -5961,7 +6009,7 @@ std/ext_std_network.s: std/ext_std_network.cpp.s
 
 # target to generate assembly for a file
 std/ext_std_network.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network.cpp.s
 .PHONY : std/ext_std_network.cpp.s
 
 std/ext_std_options.o: std/ext_std_options.cpp.o
@@ -5969,7 +6017,7 @@ std/ext_std_options.o: std/ext_std_options.cpp.o
 
 # target to build an object file
 std/ext_std_options.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_options.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_options.cpp.o
 .PHONY : std/ext_std_options.cpp.o
 
 std/ext_std_options.i: std/ext_std_options.cpp.i
@@ -5977,7 +6025,7 @@ std/ext_std_options.i: std/ext_std_options.cpp.i
 
 # target to preprocess a source file
 std/ext_std_options.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_options.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_options.cpp.i
 .PHONY : std/ext_std_options.cpp.i
 
 std/ext_std_options.s: std/ext_std_options.cpp.s
@@ -5985,7 +6033,7 @@ std/ext_std_options.s: std/ext_std_options.cpp.s
 
 # target to generate assembly for a file
 std/ext_std_options.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_options.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_options.cpp.s
 .PHONY : std/ext_std_options.cpp.s
 
 std/ext_std_output.o: std/ext_std_output.cpp.o
@@ -5993,7 +6041,7 @@ std/ext_std_output.o: std/ext_std_output.cpp.o
 
 # target to build an object file
 std/ext_std_output.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_output.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_output.cpp.o
 .PHONY : std/ext_std_output.cpp.o
 
 std/ext_std_output.i: std/ext_std_output.cpp.i
@@ -6001,7 +6049,7 @@ std/ext_std_output.i: std/ext_std_output.cpp.i
 
 # target to preprocess a source file
 std/ext_std_output.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_output.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_output.cpp.i
 .PHONY : std/ext_std_output.cpp.i
 
 std/ext_std_output.s: std/ext_std_output.cpp.s
@@ -6009,7 +6057,7 @@ std/ext_std_output.s: std/ext_std_output.cpp.s
 
 # target to generate assembly for a file
 std/ext_std_output.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_output.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_output.cpp.s
 .PHONY : std/ext_std_output.cpp.s
 
 std/ext_std_process.o: std/ext_std_process.cpp.o
@@ -6017,7 +6065,7 @@ std/ext_std_process.o: std/ext_std_process.cpp.o
 
 # target to build an object file
 std/ext_std_process.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_process.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_process.cpp.o
 .PHONY : std/ext_std_process.cpp.o
 
 std/ext_std_process.i: std/ext_std_process.cpp.i
@@ -6025,7 +6073,7 @@ std/ext_std_process.i: std/ext_std_process.cpp.i
 
 # target to preprocess a source file
 std/ext_std_process.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_process.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_process.cpp.i
 .PHONY : std/ext_std_process.cpp.i
 
 std/ext_std_process.s: std/ext_std_process.cpp.s
@@ -6033,7 +6081,7 @@ std/ext_std_process.s: std/ext_std_process.cpp.s
 
 # target to generate assembly for a file
 std/ext_std_process.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_process.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_process.cpp.s
 .PHONY : std/ext_std_process.cpp.s
 
 std/ext_std_string.o: std/ext_std_string.cpp.o
@@ -6041,7 +6089,7 @@ std/ext_std_string.o: std/ext_std_string.cpp.o
 
 # target to build an object file
 std/ext_std_string.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_string.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_string.cpp.o
 .PHONY : std/ext_std_string.cpp.o
 
 std/ext_std_string.i: std/ext_std_string.cpp.i
@@ -6049,7 +6097,7 @@ std/ext_std_string.i: std/ext_std_string.cpp.i
 
 # target to preprocess a source file
 std/ext_std_string.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_string.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_string.cpp.i
 .PHONY : std/ext_std_string.cpp.i
 
 std/ext_std_string.s: std/ext_std_string.cpp.s
@@ -6057,7 +6105,7 @@ std/ext_std_string.s: std/ext_std_string.cpp.s
 
 # target to generate assembly for a file
 std/ext_std_string.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_string.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_string.cpp.s
 .PHONY : std/ext_std_string.cpp.s
 
 std/ext_std_variable.o: std/ext_std_variable.cpp.o
@@ -6065,7 +6113,7 @@ std/ext_std_variable.o: std/ext_std_variable.cpp.o
 
 # target to build an object file
 std/ext_std_variable.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_variable.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_variable.cpp.o
 .PHONY : std/ext_std_variable.cpp.o
 
 std/ext_std_variable.i: std/ext_std_variable.cpp.i
@@ -6073,7 +6121,7 @@ std/ext_std_variable.i: std/ext_std_variable.cpp.i
 
 # target to preprocess a source file
 std/ext_std_variable.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_variable.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_variable.cpp.i
 .PHONY : std/ext_std_variable.cpp.i
 
 std/ext_std_variable.s: std/ext_std_variable.cpp.s
@@ -6081,7 +6129,7 @@ std/ext_std_variable.s: std/ext_std_variable.cpp.s
 
 # target to generate assembly for a file
 std/ext_std_variable.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_variable.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_variable.cpp.s
 .PHONY : std/ext_std_variable.cpp.s
 
 stream/ext_stream-user-filters.o: stream/ext_stream-user-filters.cpp.o
@@ -6089,7 +6137,7 @@ stream/ext_stream-user-filters.o: stream/ext_stream-user-filters.cpp.o
 
 # target to build an object file
 stream/ext_stream-user-filters.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream-user-filters.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream-user-filters.cpp.o
 .PHONY : stream/ext_stream-user-filters.cpp.o
 
 stream/ext_stream-user-filters.i: stream/ext_stream-user-filters.cpp.i
@@ -6097,7 +6145,7 @@ stream/ext_stream-user-filters.i: stream/ext_stream-user-filters.cpp.i
 
 # target to preprocess a source file
 stream/ext_stream-user-filters.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream-user-filters.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream-user-filters.cpp.i
 .PHONY : stream/ext_stream-user-filters.cpp.i
 
 stream/ext_stream-user-filters.s: stream/ext_stream-user-filters.cpp.s
@@ -6105,7 +6153,7 @@ stream/ext_stream-user-filters.s: stream/ext_stream-user-filters.cpp.s
 
 # target to generate assembly for a file
 stream/ext_stream-user-filters.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream-user-filters.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream-user-filters.cpp.s
 .PHONY : stream/ext_stream-user-filters.cpp.s
 
 stream/ext_stream.o: stream/ext_stream.cpp.o
@@ -6113,7 +6161,7 @@ stream/ext_stream.o: stream/ext_stream.cpp.o
 
 # target to build an object file
 stream/ext_stream.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream.cpp.o
 .PHONY : stream/ext_stream.cpp.o
 
 stream/ext_stream.i: stream/ext_stream.cpp.i
@@ -6121,7 +6169,7 @@ stream/ext_stream.i: stream/ext_stream.cpp.i
 
 # target to preprocess a source file
 stream/ext_stream.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream.cpp.i
 .PHONY : stream/ext_stream.cpp.i
 
 stream/ext_stream.s: stream/ext_stream.cpp.s
@@ -6129,7 +6177,7 @@ stream/ext_stream.s: stream/ext_stream.cpp.s
 
 # target to generate assembly for a file
 stream/ext_stream.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream.cpp.s
 .PHONY : stream/ext_stream.cpp.s
 
 string/ext_string.o: string/ext_string.cpp.o
@@ -6137,7 +6185,7 @@ string/ext_string.o: string/ext_string.cpp.o
 
 # target to build an object file
 string/ext_string.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/string/ext_string.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/string/ext_string.cpp.o
 .PHONY : string/ext_string.cpp.o
 
 string/ext_string.i: string/ext_string.cpp.i
@@ -6145,7 +6193,7 @@ string/ext_string.i: string/ext_string.cpp.i
 
 # target to preprocess a source file
 string/ext_string.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/string/ext_string.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/string/ext_string.cpp.i
 .PHONY : string/ext_string.cpp.i
 
 string/ext_string.s: string/ext_string.cpp.s
@@ -6153,7 +6201,7 @@ string/ext_string.s: string/ext_string.cpp.s
 
 # target to generate assembly for a file
 string/ext_string.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/string/ext_string.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/string/ext_string.cpp.s
 .PHONY : string/ext_string.cpp.s
 
 thread/ext_thread.o: thread/ext_thread.cpp.o
@@ -6161,7 +6209,7 @@ thread/ext_thread.o: thread/ext_thread.cpp.o
 
 # target to build an object file
 thread/ext_thread.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thread/ext_thread.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thread/ext_thread.cpp.o
 .PHONY : thread/ext_thread.cpp.o
 
 thread/ext_thread.i: thread/ext_thread.cpp.i
@@ -6169,7 +6217,7 @@ thread/ext_thread.i: thread/ext_thread.cpp.i
 
 # target to preprocess a source file
 thread/ext_thread.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thread/ext_thread.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thread/ext_thread.cpp.i
 .PHONY : thread/ext_thread.cpp.i
 
 thread/ext_thread.s: thread/ext_thread.cpp.s
@@ -6177,7 +6225,7 @@ thread/ext_thread.s: thread/ext_thread.cpp.s
 
 # target to generate assembly for a file
 thread/ext_thread.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thread/ext_thread.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thread/ext_thread.cpp.s
 .PHONY : thread/ext_thread.cpp.s
 
 thrift/binary.o: thrift/binary.cpp.o
@@ -6185,7 +6233,7 @@ thrift/binary.o: thrift/binary.cpp.o
 
 # target to build an object file
 thrift/binary.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/binary.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/binary.cpp.o
 .PHONY : thrift/binary.cpp.o
 
 thrift/binary.i: thrift/binary.cpp.i
@@ -6193,7 +6241,7 @@ thrift/binary.i: thrift/binary.cpp.i
 
 # target to preprocess a source file
 thrift/binary.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/binary.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/binary.cpp.i
 .PHONY : thrift/binary.cpp.i
 
 thrift/binary.s: thrift/binary.cpp.s
@@ -6201,7 +6249,7 @@ thrift/binary.s: thrift/binary.cpp.s
 
 # target to generate assembly for a file
 thrift/binary.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/binary.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/binary.cpp.s
 .PHONY : thrift/binary.cpp.s
 
 thrift/compact.o: thrift/compact.cpp.o
@@ -6209,7 +6257,7 @@ thrift/compact.o: thrift/compact.cpp.o
 
 # target to build an object file
 thrift/compact.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/compact.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/compact.cpp.o
 .PHONY : thrift/compact.cpp.o
 
 thrift/compact.i: thrift/compact.cpp.i
@@ -6217,7 +6265,7 @@ thrift/compact.i: thrift/compact.cpp.i
 
 # target to preprocess a source file
 thrift/compact.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/compact.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/compact.cpp.i
 .PHONY : thrift/compact.cpp.i
 
 thrift/compact.s: thrift/compact.cpp.s
@@ -6225,7 +6273,7 @@ thrift/compact.s: thrift/compact.cpp.s
 
 # target to generate assembly for a file
 thrift/compact.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/compact.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/compact.cpp.s
 .PHONY : thrift/compact.cpp.s
 
 thrift/ext_thrift.o: thrift/ext_thrift.cpp.o
@@ -6233,7 +6281,7 @@ thrift/ext_thrift.o: thrift/ext_thrift.cpp.o
 
 # target to build an object file
 thrift/ext_thrift.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/ext_thrift.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/ext_thrift.cpp.o
 .PHONY : thrift/ext_thrift.cpp.o
 
 thrift/ext_thrift.i: thrift/ext_thrift.cpp.i
@@ -6241,7 +6289,7 @@ thrift/ext_thrift.i: thrift/ext_thrift.cpp.i
 
 # target to preprocess a source file
 thrift/ext_thrift.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/ext_thrift.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/ext_thrift.cpp.i
 .PHONY : thrift/ext_thrift.cpp.i
 
 thrift/ext_thrift.s: thrift/ext_thrift.cpp.s
@@ -6249,15 +6297,39 @@ thrift/ext_thrift.s: thrift/ext_thrift.cpp.s
 
 # target to generate assembly for a file
 thrift/ext_thrift.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/ext_thrift.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/ext_thrift.cpp.s
 .PHONY : thrift/ext_thrift.cpp.s
+
+thrift/spec-holder.o: thrift/spec-holder.cpp.o
+.PHONY : thrift/spec-holder.o
+
+# target to build an object file
+thrift/spec-holder.cpp.o:
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/spec-holder.cpp.o
+.PHONY : thrift/spec-holder.cpp.o
+
+thrift/spec-holder.i: thrift/spec-holder.cpp.i
+.PHONY : thrift/spec-holder.i
+
+# target to preprocess a source file
+thrift/spec-holder.cpp.i:
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/spec-holder.cpp.i
+.PHONY : thrift/spec-holder.cpp.i
+
+thrift/spec-holder.s: thrift/spec-holder.cpp.s
+.PHONY : thrift/spec-holder.s
+
+# target to generate assembly for a file
+thrift/spec-holder.cpp.s:
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/spec-holder.cpp.s
+.PHONY : thrift/spec-holder.cpp.s
 
 url/ext_url.o: url/ext_url.cpp.o
 .PHONY : url/ext_url.o
 
 # target to build an object file
 url/ext_url.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/url/ext_url.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/url/ext_url.cpp.o
 .PHONY : url/ext_url.cpp.o
 
 url/ext_url.i: url/ext_url.cpp.i
@@ -6265,7 +6337,7 @@ url/ext_url.i: url/ext_url.cpp.i
 
 # target to preprocess a source file
 url/ext_url.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/url/ext_url.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/url/ext_url.cpp.i
 .PHONY : url/ext_url.cpp.i
 
 url/ext_url.s: url/ext_url.cpp.s
@@ -6273,7 +6345,7 @@ url/ext_url.s: url/ext_url.cpp.s
 
 # target to generate assembly for a file
 url/ext_url.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/url/ext_url.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/url/ext_url.cpp.s
 .PHONY : url/ext_url.cpp.s
 
 wddx/ext_wddx.o: wddx/ext_wddx.cpp.o
@@ -6281,7 +6353,7 @@ wddx/ext_wddx.o: wddx/ext_wddx.cpp.o
 
 # target to build an object file
 wddx/ext_wddx.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/wddx/ext_wddx.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/wddx/ext_wddx.cpp.o
 .PHONY : wddx/ext_wddx.cpp.o
 
 wddx/ext_wddx.i: wddx/ext_wddx.cpp.i
@@ -6289,7 +6361,7 @@ wddx/ext_wddx.i: wddx/ext_wddx.cpp.i
 
 # target to preprocess a source file
 wddx/ext_wddx.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/wddx/ext_wddx.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/wddx/ext_wddx.cpp.i
 .PHONY : wddx/ext_wddx.cpp.i
 
 wddx/ext_wddx.s: wddx/ext_wddx.cpp.s
@@ -6297,7 +6369,7 @@ wddx/ext_wddx.s: wddx/ext_wddx.cpp.s
 
 # target to generate assembly for a file
 wddx/ext_wddx.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/wddx/ext_wddx.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/wddx/ext_wddx.cpp.s
 .PHONY : wddx/ext_wddx.cpp.s
 
 xdebug/ext_xdebug.o: xdebug/ext_xdebug.cpp.o
@@ -6305,7 +6377,7 @@ xdebug/ext_xdebug.o: xdebug/ext_xdebug.cpp.o
 
 # target to build an object file
 xdebug/ext_xdebug.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/ext_xdebug.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/ext_xdebug.cpp.o
 .PHONY : xdebug/ext_xdebug.cpp.o
 
 xdebug/ext_xdebug.i: xdebug/ext_xdebug.cpp.i
@@ -6313,7 +6385,7 @@ xdebug/ext_xdebug.i: xdebug/ext_xdebug.cpp.i
 
 # target to preprocess a source file
 xdebug/ext_xdebug.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/ext_xdebug.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/ext_xdebug.cpp.i
 .PHONY : xdebug/ext_xdebug.cpp.i
 
 xdebug/ext_xdebug.s: xdebug/ext_xdebug.cpp.s
@@ -6321,7 +6393,7 @@ xdebug/ext_xdebug.s: xdebug/ext_xdebug.cpp.s
 
 # target to generate assembly for a file
 xdebug/ext_xdebug.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/ext_xdebug.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/ext_xdebug.cpp.s
 .PHONY : xdebug/ext_xdebug.cpp.s
 
 xdebug/hook.o: xdebug/hook.cpp.o
@@ -6329,7 +6401,7 @@ xdebug/hook.o: xdebug/hook.cpp.o
 
 # target to build an object file
 xdebug/hook.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/hook.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/hook.cpp.o
 .PHONY : xdebug/hook.cpp.o
 
 xdebug/hook.i: xdebug/hook.cpp.i
@@ -6337,7 +6409,7 @@ xdebug/hook.i: xdebug/hook.cpp.i
 
 # target to preprocess a source file
 xdebug/hook.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/hook.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/hook.cpp.i
 .PHONY : xdebug/hook.cpp.i
 
 xdebug/hook.s: xdebug/hook.cpp.s
@@ -6345,7 +6417,7 @@ xdebug/hook.s: xdebug/hook.cpp.s
 
 # target to generate assembly for a file
 xdebug/hook.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/hook.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/hook.cpp.s
 .PHONY : xdebug/hook.cpp.s
 
 xdebug/php5_xdebug/xdebug_str.o: xdebug/php5_xdebug/xdebug_str.cpp.o
@@ -6353,7 +6425,7 @@ xdebug/php5_xdebug/xdebug_str.o: xdebug/php5_xdebug/xdebug_str.cpp.o
 
 # target to build an object file
 xdebug/php5_xdebug/xdebug_str.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_str.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_str.cpp.o
 .PHONY : xdebug/php5_xdebug/xdebug_str.cpp.o
 
 xdebug/php5_xdebug/xdebug_str.i: xdebug/php5_xdebug/xdebug_str.cpp.i
@@ -6361,7 +6433,7 @@ xdebug/php5_xdebug/xdebug_str.i: xdebug/php5_xdebug/xdebug_str.cpp.i
 
 # target to preprocess a source file
 xdebug/php5_xdebug/xdebug_str.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_str.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_str.cpp.i
 .PHONY : xdebug/php5_xdebug/xdebug_str.cpp.i
 
 xdebug/php5_xdebug/xdebug_str.s: xdebug/php5_xdebug/xdebug_str.cpp.s
@@ -6369,7 +6441,7 @@ xdebug/php5_xdebug/xdebug_str.s: xdebug/php5_xdebug/xdebug_str.cpp.s
 
 # target to generate assembly for a file
 xdebug/php5_xdebug/xdebug_str.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_str.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_str.cpp.s
 .PHONY : xdebug/php5_xdebug/xdebug_str.cpp.s
 
 xdebug/php5_xdebug/xdebug_var.o: xdebug/php5_xdebug/xdebug_var.cpp.o
@@ -6377,7 +6449,7 @@ xdebug/php5_xdebug/xdebug_var.o: xdebug/php5_xdebug/xdebug_var.cpp.o
 
 # target to build an object file
 xdebug/php5_xdebug/xdebug_var.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_var.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_var.cpp.o
 .PHONY : xdebug/php5_xdebug/xdebug_var.cpp.o
 
 xdebug/php5_xdebug/xdebug_var.i: xdebug/php5_xdebug/xdebug_var.cpp.i
@@ -6385,7 +6457,7 @@ xdebug/php5_xdebug/xdebug_var.i: xdebug/php5_xdebug/xdebug_var.cpp.i
 
 # target to preprocess a source file
 xdebug/php5_xdebug/xdebug_var.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_var.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_var.cpp.i
 .PHONY : xdebug/php5_xdebug/xdebug_var.cpp.i
 
 xdebug/php5_xdebug/xdebug_var.s: xdebug/php5_xdebug/xdebug_var.cpp.s
@@ -6393,7 +6465,7 @@ xdebug/php5_xdebug/xdebug_var.s: xdebug/php5_xdebug/xdebug_var.cpp.s
 
 # target to generate assembly for a file
 xdebug/php5_xdebug/xdebug_var.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_var.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_var.cpp.s
 .PHONY : xdebug/php5_xdebug/xdebug_var.cpp.s
 
 xdebug/php5_xdebug/xdebug_xml.o: xdebug/php5_xdebug/xdebug_xml.cpp.o
@@ -6401,7 +6473,7 @@ xdebug/php5_xdebug/xdebug_xml.o: xdebug/php5_xdebug/xdebug_xml.cpp.o
 
 # target to build an object file
 xdebug/php5_xdebug/xdebug_xml.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_xml.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_xml.cpp.o
 .PHONY : xdebug/php5_xdebug/xdebug_xml.cpp.o
 
 xdebug/php5_xdebug/xdebug_xml.i: xdebug/php5_xdebug/xdebug_xml.cpp.i
@@ -6409,7 +6481,7 @@ xdebug/php5_xdebug/xdebug_xml.i: xdebug/php5_xdebug/xdebug_xml.cpp.i
 
 # target to preprocess a source file
 xdebug/php5_xdebug/xdebug_xml.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_xml.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_xml.cpp.i
 .PHONY : xdebug/php5_xdebug/xdebug_xml.cpp.i
 
 xdebug/php5_xdebug/xdebug_xml.s: xdebug/php5_xdebug/xdebug_xml.cpp.s
@@ -6417,7 +6489,7 @@ xdebug/php5_xdebug/xdebug_xml.s: xdebug/php5_xdebug/xdebug_xml.cpp.s
 
 # target to generate assembly for a file
 xdebug/php5_xdebug/xdebug_xml.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_xml.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_xml.cpp.s
 .PHONY : xdebug/php5_xdebug/xdebug_xml.cpp.s
 
 xdebug/status.o: xdebug/status.cpp.o
@@ -6425,7 +6497,7 @@ xdebug/status.o: xdebug/status.cpp.o
 
 # target to build an object file
 xdebug/status.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/status.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/status.cpp.o
 .PHONY : xdebug/status.cpp.o
 
 xdebug/status.i: xdebug/status.cpp.i
@@ -6433,7 +6505,7 @@ xdebug/status.i: xdebug/status.cpp.i
 
 # target to preprocess a source file
 xdebug/status.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/status.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/status.cpp.i
 .PHONY : xdebug/status.cpp.i
 
 xdebug/status.s: xdebug/status.cpp.s
@@ -6441,7 +6513,7 @@ xdebug/status.s: xdebug/status.cpp.s
 
 # target to generate assembly for a file
 xdebug/status.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/status.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/status.cpp.s
 .PHONY : xdebug/status.cpp.s
 
 xdebug/xdebug_command.o: xdebug/xdebug_command.cpp.o
@@ -6449,7 +6521,7 @@ xdebug/xdebug_command.o: xdebug/xdebug_command.cpp.o
 
 # target to build an object file
 xdebug/xdebug_command.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_command.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_command.cpp.o
 .PHONY : xdebug/xdebug_command.cpp.o
 
 xdebug/xdebug_command.i: xdebug/xdebug_command.cpp.i
@@ -6457,7 +6529,7 @@ xdebug/xdebug_command.i: xdebug/xdebug_command.cpp.i
 
 # target to preprocess a source file
 xdebug/xdebug_command.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_command.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_command.cpp.i
 .PHONY : xdebug/xdebug_command.cpp.i
 
 xdebug/xdebug_command.s: xdebug/xdebug_command.cpp.s
@@ -6465,7 +6537,7 @@ xdebug/xdebug_command.s: xdebug/xdebug_command.cpp.s
 
 # target to generate assembly for a file
 xdebug/xdebug_command.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_command.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_command.cpp.s
 .PHONY : xdebug/xdebug_command.cpp.s
 
 xdebug/xdebug_profiler.o: xdebug/xdebug_profiler.cpp.o
@@ -6473,7 +6545,7 @@ xdebug/xdebug_profiler.o: xdebug/xdebug_profiler.cpp.o
 
 # target to build an object file
 xdebug/xdebug_profiler.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_profiler.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_profiler.cpp.o
 .PHONY : xdebug/xdebug_profiler.cpp.o
 
 xdebug/xdebug_profiler.i: xdebug/xdebug_profiler.cpp.i
@@ -6481,7 +6553,7 @@ xdebug/xdebug_profiler.i: xdebug/xdebug_profiler.cpp.i
 
 # target to preprocess a source file
 xdebug/xdebug_profiler.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_profiler.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_profiler.cpp.i
 .PHONY : xdebug/xdebug_profiler.cpp.i
 
 xdebug/xdebug_profiler.s: xdebug/xdebug_profiler.cpp.s
@@ -6489,7 +6561,7 @@ xdebug/xdebug_profiler.s: xdebug/xdebug_profiler.cpp.s
 
 # target to generate assembly for a file
 xdebug/xdebug_profiler.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_profiler.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_profiler.cpp.s
 .PHONY : xdebug/xdebug_profiler.cpp.s
 
 xdebug/xdebug_server.o: xdebug/xdebug_server.cpp.o
@@ -6497,7 +6569,7 @@ xdebug/xdebug_server.o: xdebug/xdebug_server.cpp.o
 
 # target to build an object file
 xdebug/xdebug_server.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_server.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_server.cpp.o
 .PHONY : xdebug/xdebug_server.cpp.o
 
 xdebug/xdebug_server.i: xdebug/xdebug_server.cpp.i
@@ -6505,7 +6577,7 @@ xdebug/xdebug_server.i: xdebug/xdebug_server.cpp.i
 
 # target to preprocess a source file
 xdebug/xdebug_server.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_server.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_server.cpp.i
 .PHONY : xdebug/xdebug_server.cpp.i
 
 xdebug/xdebug_server.s: xdebug/xdebug_server.cpp.s
@@ -6513,7 +6585,7 @@ xdebug/xdebug_server.s: xdebug/xdebug_server.cpp.s
 
 # target to generate assembly for a file
 xdebug/xdebug_server.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_server.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_server.cpp.s
 .PHONY : xdebug/xdebug_server.cpp.s
 
 xdebug/xdebug_utils.o: xdebug/xdebug_utils.cpp.o
@@ -6521,7 +6593,7 @@ xdebug/xdebug_utils.o: xdebug/xdebug_utils.cpp.o
 
 # target to build an object file
 xdebug/xdebug_utils.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_utils.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_utils.cpp.o
 .PHONY : xdebug/xdebug_utils.cpp.o
 
 xdebug/xdebug_utils.i: xdebug/xdebug_utils.cpp.i
@@ -6529,7 +6601,7 @@ xdebug/xdebug_utils.i: xdebug/xdebug_utils.cpp.i
 
 # target to preprocess a source file
 xdebug/xdebug_utils.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_utils.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_utils.cpp.i
 .PHONY : xdebug/xdebug_utils.cpp.i
 
 xdebug/xdebug_utils.s: xdebug/xdebug_utils.cpp.s
@@ -6537,7 +6609,7 @@ xdebug/xdebug_utils.s: xdebug/xdebug_utils.cpp.s
 
 # target to generate assembly for a file
 xdebug/xdebug_utils.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_utils.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_utils.cpp.s
 .PHONY : xdebug/xdebug_utils.cpp.s
 
 xenon/ext_xenon.o: xenon/ext_xenon.cpp.o
@@ -6545,7 +6617,7 @@ xenon/ext_xenon.o: xenon/ext_xenon.cpp.o
 
 # target to build an object file
 xenon/ext_xenon.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xenon/ext_xenon.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xenon/ext_xenon.cpp.o
 .PHONY : xenon/ext_xenon.cpp.o
 
 xenon/ext_xenon.i: xenon/ext_xenon.cpp.i
@@ -6553,7 +6625,7 @@ xenon/ext_xenon.i: xenon/ext_xenon.cpp.i
 
 # target to preprocess a source file
 xenon/ext_xenon.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xenon/ext_xenon.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xenon/ext_xenon.cpp.i
 .PHONY : xenon/ext_xenon.cpp.i
 
 xenon/ext_xenon.s: xenon/ext_xenon.cpp.s
@@ -6561,7 +6633,7 @@ xenon/ext_xenon.s: xenon/ext_xenon.cpp.s
 
 # target to generate assembly for a file
 xenon/ext_xenon.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xenon/ext_xenon.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xenon/ext_xenon.cpp.s
 .PHONY : xenon/ext_xenon.cpp.s
 
 xhprof/ext_xhprof.o: xhprof/ext_xhprof.cpp.o
@@ -6569,7 +6641,7 @@ xhprof/ext_xhprof.o: xhprof/ext_xhprof.cpp.o
 
 # target to build an object file
 xhprof/ext_xhprof.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xhprof/ext_xhprof.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xhprof/ext_xhprof.cpp.o
 .PHONY : xhprof/ext_xhprof.cpp.o
 
 xhprof/ext_xhprof.i: xhprof/ext_xhprof.cpp.i
@@ -6577,7 +6649,7 @@ xhprof/ext_xhprof.i: xhprof/ext_xhprof.cpp.i
 
 # target to preprocess a source file
 xhprof/ext_xhprof.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xhprof/ext_xhprof.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xhprof/ext_xhprof.cpp.i
 .PHONY : xhprof/ext_xhprof.cpp.i
 
 xhprof/ext_xhprof.s: xhprof/ext_xhprof.cpp.s
@@ -6585,7 +6657,7 @@ xhprof/ext_xhprof.s: xhprof/ext_xhprof.cpp.s
 
 # target to generate assembly for a file
 xhprof/ext_xhprof.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xhprof/ext_xhprof.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xhprof/ext_xhprof.cpp.s
 .PHONY : xhprof/ext_xhprof.cpp.s
 
 xml/ext_xml.o: xml/ext_xml.cpp.o
@@ -6593,7 +6665,7 @@ xml/ext_xml.o: xml/ext_xml.cpp.o
 
 # target to build an object file
 xml/ext_xml.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xml/ext_xml.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xml/ext_xml.cpp.o
 .PHONY : xml/ext_xml.cpp.o
 
 xml/ext_xml.i: xml/ext_xml.cpp.i
@@ -6601,7 +6673,7 @@ xml/ext_xml.i: xml/ext_xml.cpp.i
 
 # target to preprocess a source file
 xml/ext_xml.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xml/ext_xml.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xml/ext_xml.cpp.i
 .PHONY : xml/ext_xml.cpp.i
 
 xml/ext_xml.s: xml/ext_xml.cpp.s
@@ -6609,7 +6681,7 @@ xml/ext_xml.s: xml/ext_xml.cpp.s
 
 # target to generate assembly for a file
 xml/ext_xml.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xml/ext_xml.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xml/ext_xml.cpp.s
 .PHONY : xml/ext_xml.cpp.s
 
 xmlreader/ext_xmlreader.o: xmlreader/ext_xmlreader.cpp.o
@@ -6617,7 +6689,7 @@ xmlreader/ext_xmlreader.o: xmlreader/ext_xmlreader.cpp.o
 
 # target to build an object file
 xmlreader/ext_xmlreader.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xmlreader/ext_xmlreader.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xmlreader/ext_xmlreader.cpp.o
 .PHONY : xmlreader/ext_xmlreader.cpp.o
 
 xmlreader/ext_xmlreader.i: xmlreader/ext_xmlreader.cpp.i
@@ -6625,7 +6697,7 @@ xmlreader/ext_xmlreader.i: xmlreader/ext_xmlreader.cpp.i
 
 # target to preprocess a source file
 xmlreader/ext_xmlreader.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xmlreader/ext_xmlreader.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xmlreader/ext_xmlreader.cpp.i
 .PHONY : xmlreader/ext_xmlreader.cpp.i
 
 xmlreader/ext_xmlreader.s: xmlreader/ext_xmlreader.cpp.s
@@ -6633,7 +6705,7 @@ xmlreader/ext_xmlreader.s: xmlreader/ext_xmlreader.cpp.s
 
 # target to generate assembly for a file
 xmlreader/ext_xmlreader.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xmlreader/ext_xmlreader.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xmlreader/ext_xmlreader.cpp.s
 .PHONY : xmlreader/ext_xmlreader.cpp.s
 
 xmlwriter/ext_xmlwriter.o: xmlwriter/ext_xmlwriter.cpp.o
@@ -6641,7 +6713,7 @@ xmlwriter/ext_xmlwriter.o: xmlwriter/ext_xmlwriter.cpp.o
 
 # target to build an object file
 xmlwriter/ext_xmlwriter.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xmlwriter/ext_xmlwriter.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xmlwriter/ext_xmlwriter.cpp.o
 .PHONY : xmlwriter/ext_xmlwriter.cpp.o
 
 xmlwriter/ext_xmlwriter.i: xmlwriter/ext_xmlwriter.cpp.i
@@ -6649,7 +6721,7 @@ xmlwriter/ext_xmlwriter.i: xmlwriter/ext_xmlwriter.cpp.i
 
 # target to preprocess a source file
 xmlwriter/ext_xmlwriter.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xmlwriter/ext_xmlwriter.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xmlwriter/ext_xmlwriter.cpp.i
 .PHONY : xmlwriter/ext_xmlwriter.cpp.i
 
 xmlwriter/ext_xmlwriter.s: xmlwriter/ext_xmlwriter.cpp.s
@@ -6657,7 +6729,7 @@ xmlwriter/ext_xmlwriter.s: xmlwriter/ext_xmlwriter.cpp.s
 
 # target to generate assembly for a file
 xmlwriter/ext_xmlwriter.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xmlwriter/ext_xmlwriter.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xmlwriter/ext_xmlwriter.cpp.s
 .PHONY : xmlwriter/ext_xmlwriter.cpp.s
 
 xsl/ext_xsl.o: xsl/ext_xsl.cpp.o
@@ -6665,7 +6737,7 @@ xsl/ext_xsl.o: xsl/ext_xsl.cpp.o
 
 # target to build an object file
 xsl/ext_xsl.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xsl/ext_xsl.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xsl/ext_xsl.cpp.o
 .PHONY : xsl/ext_xsl.cpp.o
 
 xsl/ext_xsl.i: xsl/ext_xsl.cpp.i
@@ -6673,7 +6745,7 @@ xsl/ext_xsl.i: xsl/ext_xsl.cpp.i
 
 # target to preprocess a source file
 xsl/ext_xsl.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xsl/ext_xsl.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xsl/ext_xsl.cpp.i
 .PHONY : xsl/ext_xsl.cpp.i
 
 xsl/ext_xsl.s: xsl/ext_xsl.cpp.s
@@ -6681,7 +6753,7 @@ xsl/ext_xsl.s: xsl/ext_xsl.cpp.s
 
 # target to generate assembly for a file
 xsl/ext_xsl.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xsl/ext_xsl.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xsl/ext_xsl.cpp.s
 .PHONY : xsl/ext_xsl.cpp.s
 
 zip/ext_zip.o: zip/ext_zip.cpp.o
@@ -6689,7 +6761,7 @@ zip/ext_zip.o: zip/ext_zip.cpp.o
 
 # target to build an object file
 zip/ext_zip.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zip/ext_zip.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zip/ext_zip.cpp.o
 .PHONY : zip/ext_zip.cpp.o
 
 zip/ext_zip.i: zip/ext_zip.cpp.i
@@ -6697,7 +6769,7 @@ zip/ext_zip.i: zip/ext_zip.cpp.i
 
 # target to preprocess a source file
 zip/ext_zip.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zip/ext_zip.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zip/ext_zip.cpp.i
 .PHONY : zip/ext_zip.cpp.i
 
 zip/ext_zip.s: zip/ext_zip.cpp.s
@@ -6705,7 +6777,7 @@ zip/ext_zip.s: zip/ext_zip.cpp.s
 
 # target to generate assembly for a file
 zip/ext_zip.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zip/ext_zip.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zip/ext_zip.cpp.s
 .PHONY : zip/ext_zip.cpp.s
 
 zlib/ext_zlib.o: zlib/ext_zlib.cpp.o
@@ -6713,7 +6785,7 @@ zlib/ext_zlib.o: zlib/ext_zlib.cpp.o
 
 # target to build an object file
 zlib/ext_zlib.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zlib/ext_zlib.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zlib/ext_zlib.cpp.o
 .PHONY : zlib/ext_zlib.cpp.o
 
 zlib/ext_zlib.i: zlib/ext_zlib.cpp.i
@@ -6721,7 +6793,7 @@ zlib/ext_zlib.i: zlib/ext_zlib.cpp.i
 
 # target to preprocess a source file
 zlib/ext_zlib.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zlib/ext_zlib.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zlib/ext_zlib.cpp.i
 .PHONY : zlib/ext_zlib.cpp.i
 
 zlib/ext_zlib.s: zlib/ext_zlib.cpp.s
@@ -6729,7 +6801,7 @@ zlib/ext_zlib.s: zlib/ext_zlib.cpp.s
 
 # target to generate assembly for a file
 zlib/ext_zlib.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zlib/ext_zlib.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zlib/ext_zlib.cpp.s
 .PHONY : zlib/ext_zlib.cpp.s
 
 zlib/zip-file.o: zlib/zip-file.cpp.o
@@ -6737,7 +6809,7 @@ zlib/zip-file.o: zlib/zip-file.cpp.o
 
 # target to build an object file
 zlib/zip-file.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zlib/zip-file.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zlib/zip-file.cpp.o
 .PHONY : zlib/zip-file.cpp.o
 
 zlib/zip-file.i: zlib/zip-file.cpp.i
@@ -6745,7 +6817,7 @@ zlib/zip-file.i: zlib/zip-file.cpp.i
 
 # target to preprocess a source file
 zlib/zip-file.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zlib/zip-file.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zlib/zip-file.cpp.i
 .PHONY : zlib/zip-file.cpp.i
 
 zlib/zip-file.s: zlib/zip-file.cpp.s
@@ -6753,7 +6825,7 @@ zlib/zip-file.s: zlib/zip-file.cpp.s
 
 # target to generate assembly for a file
 zlib/zip-file.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zlib/zip-file.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zlib/zip-file.cpp.s
 .PHONY : zlib/zip-file.cpp.s
 
 # Help Target
@@ -6775,6 +6847,9 @@ help:
 	@echo "... apc/ext_apc.o"
 	@echo "... apc/ext_apc.i"
 	@echo "... apc/ext_apc.s"
+	@echo "... apc/snapshot.o"
+	@echo "... apc/snapshot.i"
+	@echo "... apc/snapshot.s"
 	@echo "... array/ext_array.o"
 	@echo "... array/ext_array.i"
 	@echo "... array/ext_array.s"
@@ -7042,9 +7117,6 @@ help:
 	@echo "... gd/libgd/gd_arc.o"
 	@echo "... gd/libgd/gd_arc.i"
 	@echo "... gd/libgd/gd_arc.s"
-	@echo "... gd/libgd/gd_arc_f_buggy.o"
-	@echo "... gd/libgd/gd_arc_f_buggy.i"
-	@echo "... gd/libgd/gd_arc_f_buggy.s"
 	@echo "... gd/libgd/gd_color.o"
 	@echo "... gd/libgd/gd_color.i"
 	@echo "... gd/libgd/gd_color.s"
@@ -7183,6 +7255,9 @@ help:
 	@echo "... hash/hash_haval.o"
 	@echo "... hash/hash_haval.i"
 	@echo "... hash/hash_haval.s"
+	@echo "... hash/hash_joaat.o"
+	@echo "... hash/hash_joaat.i"
+	@echo "... hash/hash_joaat.s"
 	@echo "... hash/hash_keccak.o"
 	@echo "... hash/hash_keccak.i"
 	@echo "... hash/hash_keccak.s"
@@ -7315,6 +7390,9 @@ help:
 	@echo "... imagick/imagickpixeliterator.o"
 	@echo "... imagick/imagickpixeliterator.i"
 	@echo "... imagick/imagickpixeliterator.s"
+	@echo "... imap/ext_imap.o"
+	@echo "... imap/ext_imap.i"
+	@echo "... imap/ext_imap.s"
 	@echo "... intervaltimer/ext_intervaltimer.o"
 	@echo "... intervaltimer/ext_intervaltimer.i"
 	@echo "... intervaltimer/ext_intervaltimer.s"
@@ -7531,6 +7609,9 @@ help:
 	@echo "... thrift/ext_thrift.o"
 	@echo "... thrift/ext_thrift.i"
 	@echo "... thrift/ext_thrift.s"
+	@echo "... thrift/spec-holder.o"
+	@echo "... thrift/spec-holder.i"
+	@echo "... thrift/spec-holder.s"
 	@echo "... url/ext_url.o"
 	@echo "... url/ext_url.i"
 	@echo "... url/ext_url.s"
@@ -7605,6 +7686,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -390,7 +390,7 @@ Variant HHVM_STATIC_METHOD(DateTimeZone, listIdentifiers,
     return false;
   }
 
-  const timelib_tzdb *tzdb = timelib_builtin_db();
+  const timelib_tzdb *tzdb = timezone_get_builtin_tzdb();
   int item_count = tzdb->index_size;
   const timelib_tzdb_index_entry *table = tzdb->index;
 
@@ -856,7 +856,7 @@ static const StaticString
 
 static class DateTimeExtension final : public Extension {
 public:
-  DateTimeExtension() : Extension("date", k_PHP_VERSION.c_str()) { }
+  DateTimeExtension() : Extension("date", get_PHP_VERSION().c_str()) { }
 
   void moduleInit() override {
     HHVM_ME(DateTime, __construct);

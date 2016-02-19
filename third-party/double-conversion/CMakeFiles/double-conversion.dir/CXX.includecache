@@ -6,31 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/bignum-dtoa.cc
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/bignum-dtoa.cc
 math.h
 -
 bignum-dtoa.h
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/bignum-dtoa.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/bignum-dtoa.h
 bignum.h
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/bignum.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/bignum.h
 ieee.h
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/ieee.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/ieee.h
 
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/bignum-dtoa.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/bignum-dtoa.h
 utils.h
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/utils.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/utils.h
 
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/bignum.cc
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/bignum.cc
 bignum.h
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/bignum.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/bignum.h
 utils.h
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/utils.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/utils.h
 
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/bignum.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/bignum.h
 utils.h
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/utils.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/utils.h
 
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/cached-powers.cc
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/cached-powers.cc
 stdarg.h
 -
 limits.h
@@ -38,97 +38,97 @@ limits.h
 math.h
 -
 utils.h
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/utils.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/utils.h
 cached-powers.h
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/cached-powers.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/cached-powers.h
 
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/cached-powers.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/cached-powers.h
 diy-fp.h
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/diy-fp.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/diy-fp.h
 
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/diy-fp.cc
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/diy-fp.cc
 diy-fp.h
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/diy-fp.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/diy-fp.h
 utils.h
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/utils.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/utils.h
 
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/diy-fp.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/diy-fp.h
 utils.h
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/utils.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/utils.h
 
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/double-conversion.cc
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/double-conversion.cc
 limits.h
 -
 math.h
 -
 double-conversion.h
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/double-conversion.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/double-conversion.h
 bignum-dtoa.h
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/bignum-dtoa.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/bignum-dtoa.h
 fast-dtoa.h
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/fast-dtoa.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/fast-dtoa.h
 fixed-dtoa.h
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/fixed-dtoa.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/fixed-dtoa.h
 ieee.h
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/ieee.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/ieee.h
 strtod.h
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/strtod.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/strtod.h
 utils.h
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/utils.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/utils.h
 
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/double-conversion.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/double-conversion.h
 utils.h
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/utils.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/utils.h
 
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/fast-dtoa.cc
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/fast-dtoa.cc
 fast-dtoa.h
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/fast-dtoa.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/fast-dtoa.h
 cached-powers.h
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/cached-powers.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/cached-powers.h
 diy-fp.h
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/diy-fp.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/diy-fp.h
 ieee.h
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/ieee.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/ieee.h
 
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/fast-dtoa.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/fast-dtoa.h
 utils.h
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/utils.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/utils.h
 
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/fixed-dtoa.cc
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/fixed-dtoa.cc
 math.h
 -
 fixed-dtoa.h
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/fixed-dtoa.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/fixed-dtoa.h
 ieee.h
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/ieee.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/ieee.h
 
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/fixed-dtoa.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/fixed-dtoa.h
 utils.h
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/utils.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/utils.h
 
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/ieee.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/ieee.h
 diy-fp.h
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/diy-fp.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/diy-fp.h
 
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/strtod.cc
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/strtod.cc
 stdarg.h
 -
 limits.h
 -
 strtod.h
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/strtod.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/strtod.h
 bignum.h
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/bignum.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/bignum.h
 cached-powers.h
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/cached-powers.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/cached-powers.h
 ieee.h
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/ieee.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/ieee.h
 
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/strtod.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/strtod.h
 utils.h
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/utils.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/utils.h
 
-/tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/utils.h
+/tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/utils.h
 stdlib.h
 -
 string.h

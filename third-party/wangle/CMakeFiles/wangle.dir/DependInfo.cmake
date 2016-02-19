@@ -4,32 +4,32 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/acceptor/Acceptor.cpp" "/tmp/hhvm-3.11.1/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/Acceptor.cpp.o"
-  "/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/acceptor/AcceptorHandshakeHelper.cpp" "/tmp/hhvm-3.11.1/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/AcceptorHandshakeHelper.cpp.o"
-  "/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/acceptor/ConnectionManager.cpp" "/tmp/hhvm-3.11.1/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ConnectionManager.cpp.o"
-  "/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/acceptor/LoadShedConfiguration.cpp" "/tmp/hhvm-3.11.1/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/LoadShedConfiguration.cpp.o"
-  "/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/acceptor/ManagedConnection.cpp" "/tmp/hhvm-3.11.1/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ManagedConnection.cpp.o"
-  "/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/acceptor/SocketOptions.cpp" "/tmp/hhvm-3.11.1/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/SocketOptions.cpp.o"
-  "/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/acceptor/TransportInfo.cpp" "/tmp/hhvm-3.11.1/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/TransportInfo.cpp.o"
-  "/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/channel/Pipeline.cpp" "/tmp/hhvm-3.11.1/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/channel/Pipeline.cpp.o"
-  "/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/client/ssl/SSLSessionCacheData.cpp" "/tmp/hhvm-3.11.1/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheData.cpp.o"
-  "/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/client/ssl/SSLSessionCacheUtils.cpp" "/tmp/hhvm-3.11.1/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheUtils.cpp.o"
-  "/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/client/ssl/SSLSessionPersistentCache.cpp" "/tmp/hhvm-3.11.1/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionPersistentCache.cpp.o"
-  "/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp" "/tmp/hhvm-3.11.1/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.o"
-  "/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/codec/LengthFieldBasedFrameDecoder.cpp" "/tmp/hhvm-3.11.1/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldBasedFrameDecoder.cpp.o"
-  "/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/codec/LengthFieldPrepender.cpp" "/tmp/hhvm-3.11.1/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldPrepender.cpp.o"
-  "/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/codec/LineBasedFrameDecoder.cpp" "/tmp/hhvm-3.11.1/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LineBasedFrameDecoder.cpp.o"
-  "/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/concurrent/CPUThreadPoolExecutor.cpp" "/tmp/hhvm-3.11.1/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/CPUThreadPoolExecutor.cpp.o"
-  "/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/concurrent/Codel.cpp" "/tmp/hhvm-3.11.1/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/Codel.cpp.o"
-  "/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/concurrent/GlobalExecutor.cpp" "/tmp/hhvm-3.11.1/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/GlobalExecutor.cpp.o"
-  "/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/concurrent/IOThreadPoolExecutor.cpp" "/tmp/hhvm-3.11.1/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/IOThreadPoolExecutor.cpp.o"
-  "/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/concurrent/ThreadPoolExecutor.cpp" "/tmp/hhvm-3.11.1/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/ThreadPoolExecutor.cpp.o"
-  "/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/deprecated/rx/Dummy.cpp" "/tmp/hhvm-3.11.1/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/deprecated/rx/Dummy.cpp.o"
-  "/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/ssl/PasswordInFile.cpp" "/tmp/hhvm-3.11.1/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/PasswordInFile.cpp.o"
-  "/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/ssl/SSLContextManager.cpp" "/tmp/hhvm-3.11.1/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLContextManager.cpp.o"
-  "/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/ssl/SSLSessionCacheManager.cpp" "/tmp/hhvm-3.11.1/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLSessionCacheManager.cpp.o"
-  "/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/ssl/SSLUtil.cpp" "/tmp/hhvm-3.11.1/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLUtil.cpp.o"
-  "/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/ssl/TLSTicketKeyManager.cpp" "/tmp/hhvm-3.11.1/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/TLSTicketKeyManager.cpp.o"
+  "/tmp/hhvm-3.12.0/third-party/wangle/src/wangle/acceptor/Acceptor.cpp" "/tmp/hhvm-3.12.0/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/Acceptor.cpp.o"
+  "/tmp/hhvm-3.12.0/third-party/wangle/src/wangle/acceptor/AcceptorHandshakeHelper.cpp" "/tmp/hhvm-3.12.0/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/AcceptorHandshakeHelper.cpp.o"
+  "/tmp/hhvm-3.12.0/third-party/wangle/src/wangle/acceptor/ConnectionManager.cpp" "/tmp/hhvm-3.12.0/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ConnectionManager.cpp.o"
+  "/tmp/hhvm-3.12.0/third-party/wangle/src/wangle/acceptor/LoadShedConfiguration.cpp" "/tmp/hhvm-3.12.0/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/LoadShedConfiguration.cpp.o"
+  "/tmp/hhvm-3.12.0/third-party/wangle/src/wangle/acceptor/ManagedConnection.cpp" "/tmp/hhvm-3.12.0/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ManagedConnection.cpp.o"
+  "/tmp/hhvm-3.12.0/third-party/wangle/src/wangle/acceptor/SocketOptions.cpp" "/tmp/hhvm-3.12.0/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/SocketOptions.cpp.o"
+  "/tmp/hhvm-3.12.0/third-party/wangle/src/wangle/acceptor/TransportInfo.cpp" "/tmp/hhvm-3.12.0/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/TransportInfo.cpp.o"
+  "/tmp/hhvm-3.12.0/third-party/wangle/src/wangle/channel/Pipeline.cpp" "/tmp/hhvm-3.12.0/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/channel/Pipeline.cpp.o"
+  "/tmp/hhvm-3.12.0/third-party/wangle/src/wangle/client/ssl/SSLSessionCacheData.cpp" "/tmp/hhvm-3.12.0/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheData.cpp.o"
+  "/tmp/hhvm-3.12.0/third-party/wangle/src/wangle/client/ssl/SSLSessionCacheUtils.cpp" "/tmp/hhvm-3.12.0/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheUtils.cpp.o"
+  "/tmp/hhvm-3.12.0/third-party/wangle/src/wangle/client/ssl/SSLSessionPersistentCache.cpp" "/tmp/hhvm-3.12.0/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionPersistentCache.cpp.o"
+  "/tmp/hhvm-3.12.0/third-party/wangle/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp" "/tmp/hhvm-3.12.0/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.o"
+  "/tmp/hhvm-3.12.0/third-party/wangle/src/wangle/codec/LengthFieldBasedFrameDecoder.cpp" "/tmp/hhvm-3.12.0/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldBasedFrameDecoder.cpp.o"
+  "/tmp/hhvm-3.12.0/third-party/wangle/src/wangle/codec/LengthFieldPrepender.cpp" "/tmp/hhvm-3.12.0/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldPrepender.cpp.o"
+  "/tmp/hhvm-3.12.0/third-party/wangle/src/wangle/codec/LineBasedFrameDecoder.cpp" "/tmp/hhvm-3.12.0/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LineBasedFrameDecoder.cpp.o"
+  "/tmp/hhvm-3.12.0/third-party/wangle/src/wangle/concurrent/CPUThreadPoolExecutor.cpp" "/tmp/hhvm-3.12.0/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/CPUThreadPoolExecutor.cpp.o"
+  "/tmp/hhvm-3.12.0/third-party/wangle/src/wangle/concurrent/Codel.cpp" "/tmp/hhvm-3.12.0/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/Codel.cpp.o"
+  "/tmp/hhvm-3.12.0/third-party/wangle/src/wangle/concurrent/GlobalExecutor.cpp" "/tmp/hhvm-3.12.0/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/GlobalExecutor.cpp.o"
+  "/tmp/hhvm-3.12.0/third-party/wangle/src/wangle/concurrent/IOThreadPoolExecutor.cpp" "/tmp/hhvm-3.12.0/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/IOThreadPoolExecutor.cpp.o"
+  "/tmp/hhvm-3.12.0/third-party/wangle/src/wangle/concurrent/ThreadPoolExecutor.cpp" "/tmp/hhvm-3.12.0/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/ThreadPoolExecutor.cpp.o"
+  "/tmp/hhvm-3.12.0/third-party/wangle/src/wangle/deprecated/rx/Dummy.cpp" "/tmp/hhvm-3.12.0/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/deprecated/rx/Dummy.cpp.o"
+  "/tmp/hhvm-3.12.0/third-party/wangle/src/wangle/ssl/PasswordInFile.cpp" "/tmp/hhvm-3.12.0/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/PasswordInFile.cpp.o"
+  "/tmp/hhvm-3.12.0/third-party/wangle/src/wangle/ssl/SSLContextManager.cpp" "/tmp/hhvm-3.12.0/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLContextManager.cpp.o"
+  "/tmp/hhvm-3.12.0/third-party/wangle/src/wangle/ssl/SSLSessionCacheManager.cpp" "/tmp/hhvm-3.12.0/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLSessionCacheManager.cpp.o"
+  "/tmp/hhvm-3.12.0/third-party/wangle/src/wangle/ssl/SSLUtil.cpp" "/tmp/hhvm-3.12.0/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLUtil.cpp.o"
+  "/tmp/hhvm-3.12.0/third-party/wangle/src/wangle/ssl/TLSTicketKeyManager.cpp" "/tmp/hhvm-3.12.0/third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/TLSTicketKeyManager.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -75,8 +75,8 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/tmp/hhvm-3.11.1/third-party/folly/CMakeFiles/folly.dir/DependInfo.cmake"
-  "/tmp/hhvm-3.11.1/third-party/double-conversion/CMakeFiles/double-conversion.dir/DependInfo.cmake"
+  "/tmp/hhvm-3.12.0/third-party/folly/CMakeFiles/folly.dir/DependInfo.cmake"
+  "/tmp/hhvm-3.12.0/third-party/double-conversion/CMakeFiles/double-conversion.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

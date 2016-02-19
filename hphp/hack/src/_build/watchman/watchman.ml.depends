@@ -1,1 +1,1 @@
-watchman/watchman.ml: Core EventLogger Exit_status Filename GlobalConfig Hh_json Hh_logger List Option Path Printf Sys_utils Unix Utils
+watchman/watchman.ml: Core EventLogger Exit_status Filename GlobalConfig Hh_json Hh_logger List Option Path Printf Timeout Unix Utils

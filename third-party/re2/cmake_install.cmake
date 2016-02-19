@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/hhvm-3.11.1/third-party/re2
+# Install script for directory: /tmp/hhvm-3.12.0/third-party/re2
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

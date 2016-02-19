@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/vio/vio.c
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/vio/vio.c
 vio_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/vio/vio_priv.h
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/vio/vio_priv.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/vio/vio_priv.h
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/vio/vio_priv.h
 my_global.h
 -
 mysql_com.h
@@ -22,29 +22,29 @@ m_string.h
 violite.h
 -
 my_net.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/vio/my_net.h
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/vio/my_net.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/vio/viopipe.c
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/vio/viopipe.c
 vio_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/vio/vio_priv.h
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/vio/vio_priv.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/vio/vioshm.c
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/vio/vioshm.c
 vio_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/vio/vio_priv.h
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/vio/vio_priv.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/vio/viosocket.c
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/vio/viosocket.c
 vio_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/vio/vio_priv.h
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/vio/vio_priv.h
 sys/filio.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/vio/viossl.c
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/vio/viossl.c
 vio_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/vio/vio_priv.h
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/vio/vio_priv.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/vio/viosslfactories.c
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/vio/viosslfactories.c
 vio_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/vio/vio_priv.h
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/vio/vio_priv.h
 
 include/big_endian.h
 

@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.0
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm/CMakeFiles/progress.marks
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/runtime/ext_hhvm/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles 0
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.0/CMakeFiles /tmp/hhvm-3.12.0/hphp/runtime/ext_hhvm/CMakeFiles/progress.marks
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/runtime/ext_hhvm/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.0/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/runtime/ext_hhvm/clean
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/runtime/ext_hhvm/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/runtime/ext_hhvm/preinstall
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/runtime/ext_hhvm/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/runtime/ext_hhvm/preinstall
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/runtime/ext_hhvm/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/rule:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/rule
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/rule
 .PHONY : hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ ext_hhvm_static: hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/rule
 
 # fast build rule for target.
 ext_hhvm_static/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/build.make hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/build
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/build.make hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/build
 .PHONY : ext_hhvm_static/fast
 
 CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.o: CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp.o
@@ -161,7 +161,7 @@ CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.o: CMakeFiles/gener
 
 # target to build an object file
 CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/build.make hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/build.make hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp.o
 .PHONY : CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp.o
 
 CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.i: CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp.i
@@ -169,7 +169,7 @@ CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.i: CMakeFiles/gener
 
 # target to preprocess a source file
 CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/build.make hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/build.make hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp.i
 .PHONY : CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp.i
 
 CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.s: CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp.s
@@ -177,39 +177,15 @@ CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.s: CMakeFiles/gener
 
 # target to generate assembly for a file
 CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/build.make hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/build.make hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp.s
 .PHONY : CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp.s
-
-__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.o: __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp.o
-.PHONY : __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.o
-
-# target to build an object file
-__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/build.make hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp.o
-.PHONY : __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp.o
-
-__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.i: __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp.i
-.PHONY : __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.i
-
-# target to preprocess a source file
-__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/build.make hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp.i
-.PHONY : __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp.i
-
-__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.s: __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp.s
-.PHONY : __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.s
-
-# target to generate assembly for a file
-__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/build.make hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp.s
-.PHONY : __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp.s
 
 __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.o: __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp.o
 .PHONY : __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.o
 
 # target to build an object file
 __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/build.make hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/build.make hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp.o
 .PHONY : __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp.o
 
 __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.i: __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp.i
@@ -217,7 +193,7 @@ __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.i
 
 # target to preprocess a source file
 __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/build.make hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/build.make hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp.i
 .PHONY : __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp.i
 
 __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.s: __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp.s
@@ -225,7 +201,7 @@ __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.s
 
 # target to generate assembly for a file
 __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/build.make hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/build.make hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp.s
 .PHONY : __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp.s
 
 __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.o: __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp.o
@@ -233,7 +209,7 @@ __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.o: 
 
 # target to build an object file
 __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/build.make hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/build.make hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp.o
 .PHONY : __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp.o
 
 __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.i: __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp.i
@@ -241,7 +217,7 @@ __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.i: 
 
 # target to preprocess a source file
 __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/build.make hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/build.make hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp.i
 .PHONY : __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp.i
 
 __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.s: __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp.s
@@ -249,7 +225,7 @@ __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.s: 
 
 # target to generate assembly for a file
 __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/build.make hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/build.make hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp.s
 .PHONY : __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp.s
 
 # Help Target
@@ -268,9 +244,6 @@ help:
 	@echo "... CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.o"
 	@echo "... CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.i"
 	@echo "... CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.s"
-	@echo "... __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.o"
-	@echo "... __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.i"
-	@echo "... __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.s"
 	@echo "... __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.o"
 	@echo "... __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.i"
 	@echo "... __/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.s"
@@ -288,6 +261,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -36,14 +36,13 @@ else
         if [ -f "$root/fbcode/.projectid" ]; then
           root="$root/fbcode"
         fi
-        compiler="hg log -r . --template '{branch}-0-g{gitnode}' 2> /dev/null"
-        compiler="$compiler || hg log -r . --template '{branch}-0-h{node}'"
+        compiler="hg log -l1 -r'reverse(::.) & file(\"$root/**\")' -T'{branch}-0-g{sub(r\"^\$\",node,mirrornode(\"fbcode\",\"git\"))}\n' 2> /dev/null"
         find_files="hg files -I hphp/"
         alias scm_update='hg pull && hg rebase -d master'
     else
         scm=""
         root=$DIR/../../
-        find_files='find hphp \( -type f -o -type l \) \! -iregex ".*\(~\|#.*\|\.swp\|/tags\|/.bash_history\|/out\)" | sort'
+        find_files='find hphp \( -type f -o -type l \) \! -iregex ".*\(~\|#.*\|\.swp\|/tags\|/.bash_history\|/out\)" | LC_ALL=C sort'
     fi
 fi
 

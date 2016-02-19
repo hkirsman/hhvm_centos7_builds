@@ -59,6 +59,7 @@ hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: hphp/runtime/base/ref-d
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: hphp/runtime/base/req-containers.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: hphp/runtime/base/req-root.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: hphp/runtime/base/resource-data.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: hphp/runtime/base/runtime-error.h
@@ -121,6 +122,7 @@ hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: hphp/util/hash-map-type
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: hphp/util/hash.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: hphp/util/hdf.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: hphp/util/locale-portability.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: hphp/util/lock.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: hphp/util/log-file-flusher.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: hphp/util/logger-inl.h
@@ -131,6 +133,11 @@ hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: hphp/util/md5.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: hphp/util/meta.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: hphp/util/mutex.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: hphp/util/portability.h
+hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: hphp/util/portability/fnmatch.h
+hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: hphp/util/portability/glob.h
+hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: hphp/util/portability/rand_r.h
+hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: hphp/util/portability/strfmon.h
+hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: hphp/util/portability/strptime.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: hphp/util/range.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: hphp/util/rank.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: hphp/util/safe-cast.h
@@ -172,6 +179,7 @@ hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: third-party/folly/folly
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: third-party/folly/folly/Likely.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: third-party/folly/folly/Malloc.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: third-party/folly/folly/Memory.h
+hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: third-party/folly/folly/Optional.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: third-party/folly/folly/Portability.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -197,6 +205,7 @@ hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: third-party/folly/folly
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -268,6 +277,7 @@ hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: hphp/runtime/base/ref-d
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: hphp/runtime/base/req-containers.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: hphp/runtime/base/req-root.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: hphp/runtime/base/resource-data.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: hphp/runtime/base/runtime-error.h
@@ -330,6 +340,7 @@ hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: hphp/util/hash-map-type
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: hphp/util/hash.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: hphp/util/hdf.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: hphp/util/locale-portability.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: hphp/util/lock.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: hphp/util/log-file-flusher.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: hphp/util/logger-inl.h
@@ -340,6 +351,11 @@ hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: hphp/util/md5.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: hphp/util/meta.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: hphp/util/mutex.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: hphp/util/portability.h
+hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: hphp/util/portability/fnmatch.h
+hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: hphp/util/portability/glob.h
+hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: hphp/util/portability/rand_r.h
+hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: hphp/util/portability/strfmon.h
+hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: hphp/util/portability/strptime.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: hphp/util/range.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: hphp/util/rank.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: hphp/util/safe-cast.h
@@ -381,6 +397,7 @@ hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: third-party/folly/folly
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: third-party/folly/folly/Likely.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: third-party/folly/folly/Malloc.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: third-party/folly/folly/Memory.h
+hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: third-party/folly/folly/Optional.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: third-party/folly/folly/Portability.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -406,6 +423,7 @@ hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: third-party/folly/folly
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -428,8 +446,14 @@ hphp/parser/CMakeFiles/hphp_parser.dir/lex.yy.cpp.o: hphp/system/systemlib.h
 hphp/parser/CMakeFiles/hphp_parser.dir/lex.yy.cpp.o: hphp/util/assertions.h
 hphp/parser/CMakeFiles/hphp_parser.dir/lex.yy.cpp.o: hphp/util/compatibility.h
 hphp/parser/CMakeFiles/hphp_parser.dir/lex.yy.cpp.o: hphp/util/exception.h
+hphp/parser/CMakeFiles/hphp_parser.dir/lex.yy.cpp.o: hphp/util/locale-portability.h
 hphp/parser/CMakeFiles/hphp_parser.dir/lex.yy.cpp.o: hphp/util/low-ptr.h
 hphp/parser/CMakeFiles/hphp_parser.dir/lex.yy.cpp.o: hphp/util/portability.h
+hphp/parser/CMakeFiles/hphp_parser.dir/lex.yy.cpp.o: hphp/util/portability/fnmatch.h
+hphp/parser/CMakeFiles/hphp_parser.dir/lex.yy.cpp.o: hphp/util/portability/glob.h
+hphp/parser/CMakeFiles/hphp_parser.dir/lex.yy.cpp.o: hphp/util/portability/rand_r.h
+hphp/parser/CMakeFiles/hphp_parser.dir/lex.yy.cpp.o: hphp/util/portability/strfmon.h
+hphp/parser/CMakeFiles/hphp_parser.dir/lex.yy.cpp.o: hphp/util/portability/strptime.h
 hphp/parser/CMakeFiles/hphp_parser.dir/lex.yy.cpp.o: hphp/util/stack-trace.h
 hphp/parser/CMakeFiles/hphp_parser.dir/lex.yy.cpp.o: third-party/double-conversion/src/double-conversion/double-conversion.h
 hphp/parser/CMakeFiles/hphp_parser.dir/lex.yy.cpp.o: third-party/double-conversion/src/double-conversion/utils.h
@@ -453,6 +477,7 @@ hphp/parser/CMakeFiles/hphp_parser.dir/lex.yy.cpp.o: third-party/folly/folly/Has
 hphp/parser/CMakeFiles/hphp_parser.dir/lex.yy.cpp.o: third-party/folly/folly/Likely.h
 hphp/parser/CMakeFiles/hphp_parser.dir/lex.yy.cpp.o: third-party/folly/folly/Malloc.h
 hphp/parser/CMakeFiles/hphp_parser.dir/lex.yy.cpp.o: third-party/folly/folly/Memory.h
+hphp/parser/CMakeFiles/hphp_parser.dir/lex.yy.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/parser/CMakeFiles/hphp_parser.dir/lex.yy.cpp.o: third-party/folly/folly/Portability.h
 hphp/parser/CMakeFiles/hphp_parser.dir/lex.yy.cpp.o: third-party/folly/folly/Preprocessor.h
 hphp/parser/CMakeFiles/hphp_parser.dir/lex.yy.cpp.o: third-party/folly/folly/RWSpinLock.h
@@ -473,6 +498,7 @@ hphp/parser/CMakeFiles/hphp_parser.dir/lex.yy.cpp.o: third-party/folly/folly/det
 hphp/parser/CMakeFiles/hphp_parser.dir/lex.yy.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/parser/CMakeFiles/hphp_parser.dir/lex.yy.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/parser/CMakeFiles/hphp_parser.dir/lex.yy.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/parser/CMakeFiles/hphp_parser.dir/lex.yy.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/parser/CMakeFiles/hphp_parser.dir/lex.yy.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/parser/CMakeFiles/hphp_parser.dir/lex.yy.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/parser/CMakeFiles/hphp_parser.dir/lex.yy.cpp.o: third-party/folly/folly/io/async/Request.h
@@ -488,9 +514,15 @@ hphp/parser/CMakeFiles/hphp_parser.dir/parser.cpp.o: hphp/util/exception.h
 hphp/parser/CMakeFiles/hphp_parser.dir/parser.cpp.o: hphp/util/functional.h
 hphp/parser/CMakeFiles/hphp_parser.dir/parser.cpp.o: hphp/util/hash-map-typedefs.h
 hphp/parser/CMakeFiles/hphp_parser.dir/parser.cpp.o: hphp/util/hash.h
+hphp/parser/CMakeFiles/hphp_parser.dir/parser.cpp.o: hphp/util/locale-portability.h
 hphp/parser/CMakeFiles/hphp_parser.dir/parser.cpp.o: hphp/util/lock.h
 hphp/parser/CMakeFiles/hphp_parser.dir/parser.cpp.o: hphp/util/mutex.h
 hphp/parser/CMakeFiles/hphp_parser.dir/parser.cpp.o: hphp/util/portability.h
+hphp/parser/CMakeFiles/hphp_parser.dir/parser.cpp.o: hphp/util/portability/fnmatch.h
+hphp/parser/CMakeFiles/hphp_parser.dir/parser.cpp.o: hphp/util/portability/glob.h
+hphp/parser/CMakeFiles/hphp_parser.dir/parser.cpp.o: hphp/util/portability/rand_r.h
+hphp/parser/CMakeFiles/hphp_parser.dir/parser.cpp.o: hphp/util/portability/strfmon.h
+hphp/parser/CMakeFiles/hphp_parser.dir/parser.cpp.o: hphp/util/portability/strptime.h
 hphp/parser/CMakeFiles/hphp_parser.dir/parser.cpp.o: hphp/util/rank.h
 hphp/parser/CMakeFiles/hphp_parser.dir/parser.cpp.o: hphp/util/stack-trace.h
 hphp/parser/CMakeFiles/hphp_parser.dir/parser.cpp.o: hphp/util/synchronizable-multi.h
@@ -517,6 +549,7 @@ hphp/parser/CMakeFiles/hphp_parser.dir/parser.cpp.o: third-party/folly/folly/Has
 hphp/parser/CMakeFiles/hphp_parser.dir/parser.cpp.o: third-party/folly/folly/Likely.h
 hphp/parser/CMakeFiles/hphp_parser.dir/parser.cpp.o: third-party/folly/folly/Malloc.h
 hphp/parser/CMakeFiles/hphp_parser.dir/parser.cpp.o: third-party/folly/folly/Memory.h
+hphp/parser/CMakeFiles/hphp_parser.dir/parser.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/parser/CMakeFiles/hphp_parser.dir/parser.cpp.o: third-party/folly/folly/Portability.h
 hphp/parser/CMakeFiles/hphp_parser.dir/parser.cpp.o: third-party/folly/folly/Preprocessor.h
 hphp/parser/CMakeFiles/hphp_parser.dir/parser.cpp.o: third-party/folly/folly/RWSpinLock.h
@@ -537,6 +570,7 @@ hphp/parser/CMakeFiles/hphp_parser.dir/parser.cpp.o: third-party/folly/folly/det
 hphp/parser/CMakeFiles/hphp_parser.dir/parser.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/parser/CMakeFiles/hphp_parser.dir/parser.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/parser/CMakeFiles/hphp_parser.dir/parser.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/parser/CMakeFiles/hphp_parser.dir/parser.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/parser/CMakeFiles/hphp_parser.dir/parser.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/parser/CMakeFiles/hphp_parser.dir/parser.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/parser/CMakeFiles/hphp_parser.dir/parser.cpp.o: third-party/folly/folly/io/async/Request.h
@@ -554,12 +588,18 @@ hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.o: hphp/util/exception.h
 hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.o: hphp/util/functional.h
 hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.o: hphp/util/hash-map-typedefs.h
 hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.o: hphp/util/hash.h
+hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.o: hphp/util/locale-portability.h
 hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.o: hphp/util/lock.h
 hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.o: hphp/util/log-file-flusher.h
 hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.o: hphp/util/logger-inl.h
 hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.o: hphp/util/logger.h
 hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.o: hphp/util/mutex.h
 hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.o: hphp/util/portability.h
+hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.o: hphp/util/portability/fnmatch.h
+hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.o: hphp/util/portability/glob.h
+hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.o: hphp/util/portability/rand_r.h
+hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.o: hphp/util/portability/strfmon.h
+hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.o: hphp/util/portability/strptime.h
 hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.o: hphp/util/rank.h
 hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.o: hphp/util/stack-trace.h
 hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.o: hphp/util/string-vsnprintf.h
@@ -591,6 +631,7 @@ hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.o: third-party/folly/folly/Ha
 hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.o: third-party/folly/folly/Likely.h
 hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.o: third-party/folly/folly/Malloc.h
 hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.o: third-party/folly/folly/Memory.h
+hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.o: third-party/folly/folly/Portability.h
 hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.o: third-party/folly/folly/Preprocessor.h
 hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.o: third-party/folly/folly/RWSpinLock.h
@@ -611,6 +652,7 @@ hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.o: third-party/folly/folly/de
 hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.o: third-party/folly/folly/io/async/Request.h

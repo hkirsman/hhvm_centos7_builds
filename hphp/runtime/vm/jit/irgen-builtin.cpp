@@ -18,6 +18,7 @@
 #include "hphp/runtime/base/array-init.h"
 #include "hphp/runtime/base/collections.h"
 #include "hphp/runtime/vm/jit/analysis.h"
+#include "hphp/runtime/vm/jit/func-effects.h"
 #include "hphp/runtime/vm/jit/type-constraint.h"
 #include "hphp/runtime/vm/jit/type.h"
 
@@ -374,8 +375,15 @@ SSATmp* opt_strlen(IRGS& env, uint32_t numArgs) {
     return gen(env, LdStrLen, val);
   }
 
-  if (ty.subtypeOfAny(TNull, TBool, TInt, TDbl)) {
-    return gen(env, LdStrLen, gen(env, ConvCellToStr, val));
+  if (ty.subtypeOfAny(TNull, TBool)) {
+    return gen(env, ConvCellToInt, val);
+  }
+
+  if (ty.subtypeOfAny(TInt, TDbl)) {
+    auto str = gen(env, ConvCellToStr, val);
+    auto len = gen(env, LdStrLen, str);
+    decRef(env, str);
+    return len;
   }
 
   return nullptr;
@@ -1202,7 +1210,8 @@ SSATmp* builtinCall(IRGS& env,
       offsetFromIRSP(env, BCSPOffset{0}),
       callee,
       params.count ? -1 : numNonDefault,
-      builtinFuncDestroysLocals(callee)
+      builtinFuncDestroysLocals(callee),
+      builtinFuncNeedsCallerFrame(callee)
     },
     catchMaker.makeUnusualCatch(),
     std::make_pair(realized.size(), decayedPtr)

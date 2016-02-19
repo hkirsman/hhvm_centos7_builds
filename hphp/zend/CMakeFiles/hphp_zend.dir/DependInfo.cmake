@@ -1,19 +1,15 @@
 # The set of languages for which implicit dependencies are needed:
 SET(CMAKE_DEPENDS_LANGUAGES
-  "C"
   "CXX"
   )
 # The set of files for implicit dependencies of each language:
-SET(CMAKE_DEPENDS_CHECK_C
-  "/tmp/hhvm-3.11.1/hphp/zend/crypt-blowfish.c" "/tmp/hhvm-3.11.1/hphp/zend/CMakeFiles/hphp_zend.dir/crypt-blowfish.c.o"
-  )
-SET(CMAKE_C_COMPILER_ID "GNU")
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/tmp/hhvm-3.11.1/hphp/zend/html-table.cpp" "/tmp/hhvm-3.11.1/hphp/zend/CMakeFiles/hphp_zend.dir/html-table.cpp.o"
-  "/tmp/hhvm-3.11.1/hphp/zend/zend-html.cpp" "/tmp/hhvm-3.11.1/hphp/zend/CMakeFiles/hphp_zend.dir/zend-html.cpp.o"
-  "/tmp/hhvm-3.11.1/hphp/zend/zend-md5.cpp" "/tmp/hhvm-3.11.1/hphp/zend/CMakeFiles/hphp_zend.dir/zend-md5.cpp.o"
-  "/tmp/hhvm-3.11.1/hphp/zend/zend-sha1.cpp" "/tmp/hhvm-3.11.1/hphp/zend/CMakeFiles/hphp_zend.dir/zend-sha1.cpp.o"
-  "/tmp/hhvm-3.11.1/hphp/zend/zend-string.cpp" "/tmp/hhvm-3.11.1/hphp/zend/CMakeFiles/hphp_zend.dir/zend-string.cpp.o"
+  "/tmp/hhvm-3.12.0/hphp/zend/crypt-blowfish.cpp" "/tmp/hhvm-3.12.0/hphp/zend/CMakeFiles/hphp_zend.dir/crypt-blowfish.cpp.o"
+  "/tmp/hhvm-3.12.0/hphp/zend/html-table.cpp" "/tmp/hhvm-3.12.0/hphp/zend/CMakeFiles/hphp_zend.dir/html-table.cpp.o"
+  "/tmp/hhvm-3.12.0/hphp/zend/zend-html.cpp" "/tmp/hhvm-3.12.0/hphp/zend/CMakeFiles/hphp_zend.dir/zend-html.cpp.o"
+  "/tmp/hhvm-3.12.0/hphp/zend/zend-md5.cpp" "/tmp/hhvm-3.12.0/hphp/zend/CMakeFiles/hphp_zend.dir/zend-md5.cpp.o"
+  "/tmp/hhvm-3.12.0/hphp/zend/zend-sha1.cpp" "/tmp/hhvm-3.12.0/hphp/zend/CMakeFiles/hphp_zend.dir/zend-sha1.cpp.o"
+  "/tmp/hhvm-3.12.0/hphp/zend/zend-string.cpp" "/tmp/hhvm-3.12.0/hphp/zend/CMakeFiles/hphp_zend.dir/zend-string.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,1 +1,1 @@
-server/serverAutoComplete.ml: AutocompleteService Ident Naming Pos Relative_path SMap SSet ServerIdeUtils Utils
+server/serverAutoComplete.ml: AutocompleteService Core FileInfo List Relative_path SSet ServerIdeUtils Utils

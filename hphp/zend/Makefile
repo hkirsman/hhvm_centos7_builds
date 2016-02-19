@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.0
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles /tmp/hhvm-3.11.1/hphp/zend/CMakeFiles/progress.marks
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/zend/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles 0
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.0/CMakeFiles /tmp/hhvm-3.12.0/hphp/zend/CMakeFiles/progress.marks
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/zend/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.0/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/zend/clean
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/zend/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/zend/preinstall
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/zend/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/zend/preinstall
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/zend/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 hphp/zend/CMakeFiles/hphp_zend.dir/rule:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/zend/CMakeFiles/hphp_zend.dir/rule
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/zend/CMakeFiles/hphp_zend.dir/rule
 .PHONY : hphp/zend/CMakeFiles/hphp_zend.dir/rule
 
 # Convenience name for target.
@@ -153,39 +153,39 @@ hphp_zend: hphp/zend/CMakeFiles/hphp_zend.dir/rule
 
 # fast build rule for target.
 hphp_zend/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/zend/CMakeFiles/hphp_zend.dir/build.make hphp/zend/CMakeFiles/hphp_zend.dir/build
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/zend/CMakeFiles/hphp_zend.dir/build.make hphp/zend/CMakeFiles/hphp_zend.dir/build
 .PHONY : hphp_zend/fast
 
-crypt-blowfish.o: crypt-blowfish.c.o
+crypt-blowfish.o: crypt-blowfish.cpp.o
 .PHONY : crypt-blowfish.o
 
 # target to build an object file
-crypt-blowfish.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/zend/CMakeFiles/hphp_zend.dir/build.make hphp/zend/CMakeFiles/hphp_zend.dir/crypt-blowfish.c.o
-.PHONY : crypt-blowfish.c.o
+crypt-blowfish.cpp.o:
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/zend/CMakeFiles/hphp_zend.dir/build.make hphp/zend/CMakeFiles/hphp_zend.dir/crypt-blowfish.cpp.o
+.PHONY : crypt-blowfish.cpp.o
 
-crypt-blowfish.i: crypt-blowfish.c.i
+crypt-blowfish.i: crypt-blowfish.cpp.i
 .PHONY : crypt-blowfish.i
 
 # target to preprocess a source file
-crypt-blowfish.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/zend/CMakeFiles/hphp_zend.dir/build.make hphp/zend/CMakeFiles/hphp_zend.dir/crypt-blowfish.c.i
-.PHONY : crypt-blowfish.c.i
+crypt-blowfish.cpp.i:
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/zend/CMakeFiles/hphp_zend.dir/build.make hphp/zend/CMakeFiles/hphp_zend.dir/crypt-blowfish.cpp.i
+.PHONY : crypt-blowfish.cpp.i
 
-crypt-blowfish.s: crypt-blowfish.c.s
+crypt-blowfish.s: crypt-blowfish.cpp.s
 .PHONY : crypt-blowfish.s
 
 # target to generate assembly for a file
-crypt-blowfish.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/zend/CMakeFiles/hphp_zend.dir/build.make hphp/zend/CMakeFiles/hphp_zend.dir/crypt-blowfish.c.s
-.PHONY : crypt-blowfish.c.s
+crypt-blowfish.cpp.s:
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/zend/CMakeFiles/hphp_zend.dir/build.make hphp/zend/CMakeFiles/hphp_zend.dir/crypt-blowfish.cpp.s
+.PHONY : crypt-blowfish.cpp.s
 
 html-table.o: html-table.cpp.o
 .PHONY : html-table.o
 
 # target to build an object file
 html-table.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/zend/CMakeFiles/hphp_zend.dir/build.make hphp/zend/CMakeFiles/hphp_zend.dir/html-table.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/zend/CMakeFiles/hphp_zend.dir/build.make hphp/zend/CMakeFiles/hphp_zend.dir/html-table.cpp.o
 .PHONY : html-table.cpp.o
 
 html-table.i: html-table.cpp.i
@@ -193,7 +193,7 @@ html-table.i: html-table.cpp.i
 
 # target to preprocess a source file
 html-table.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/zend/CMakeFiles/hphp_zend.dir/build.make hphp/zend/CMakeFiles/hphp_zend.dir/html-table.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/zend/CMakeFiles/hphp_zend.dir/build.make hphp/zend/CMakeFiles/hphp_zend.dir/html-table.cpp.i
 .PHONY : html-table.cpp.i
 
 html-table.s: html-table.cpp.s
@@ -201,7 +201,7 @@ html-table.s: html-table.cpp.s
 
 # target to generate assembly for a file
 html-table.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/zend/CMakeFiles/hphp_zend.dir/build.make hphp/zend/CMakeFiles/hphp_zend.dir/html-table.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/zend/CMakeFiles/hphp_zend.dir/build.make hphp/zend/CMakeFiles/hphp_zend.dir/html-table.cpp.s
 .PHONY : html-table.cpp.s
 
 zend-html.o: zend-html.cpp.o
@@ -209,7 +209,7 @@ zend-html.o: zend-html.cpp.o
 
 # target to build an object file
 zend-html.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/zend/CMakeFiles/hphp_zend.dir/build.make hphp/zend/CMakeFiles/hphp_zend.dir/zend-html.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/zend/CMakeFiles/hphp_zend.dir/build.make hphp/zend/CMakeFiles/hphp_zend.dir/zend-html.cpp.o
 .PHONY : zend-html.cpp.o
 
 zend-html.i: zend-html.cpp.i
@@ -217,7 +217,7 @@ zend-html.i: zend-html.cpp.i
 
 # target to preprocess a source file
 zend-html.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/zend/CMakeFiles/hphp_zend.dir/build.make hphp/zend/CMakeFiles/hphp_zend.dir/zend-html.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/zend/CMakeFiles/hphp_zend.dir/build.make hphp/zend/CMakeFiles/hphp_zend.dir/zend-html.cpp.i
 .PHONY : zend-html.cpp.i
 
 zend-html.s: zend-html.cpp.s
@@ -225,7 +225,7 @@ zend-html.s: zend-html.cpp.s
 
 # target to generate assembly for a file
 zend-html.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/zend/CMakeFiles/hphp_zend.dir/build.make hphp/zend/CMakeFiles/hphp_zend.dir/zend-html.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/zend/CMakeFiles/hphp_zend.dir/build.make hphp/zend/CMakeFiles/hphp_zend.dir/zend-html.cpp.s
 .PHONY : zend-html.cpp.s
 
 zend-md5.o: zend-md5.cpp.o
@@ -233,7 +233,7 @@ zend-md5.o: zend-md5.cpp.o
 
 # target to build an object file
 zend-md5.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/zend/CMakeFiles/hphp_zend.dir/build.make hphp/zend/CMakeFiles/hphp_zend.dir/zend-md5.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/zend/CMakeFiles/hphp_zend.dir/build.make hphp/zend/CMakeFiles/hphp_zend.dir/zend-md5.cpp.o
 .PHONY : zend-md5.cpp.o
 
 zend-md5.i: zend-md5.cpp.i
@@ -241,7 +241,7 @@ zend-md5.i: zend-md5.cpp.i
 
 # target to preprocess a source file
 zend-md5.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/zend/CMakeFiles/hphp_zend.dir/build.make hphp/zend/CMakeFiles/hphp_zend.dir/zend-md5.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/zend/CMakeFiles/hphp_zend.dir/build.make hphp/zend/CMakeFiles/hphp_zend.dir/zend-md5.cpp.i
 .PHONY : zend-md5.cpp.i
 
 zend-md5.s: zend-md5.cpp.s
@@ -249,7 +249,7 @@ zend-md5.s: zend-md5.cpp.s
 
 # target to generate assembly for a file
 zend-md5.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/zend/CMakeFiles/hphp_zend.dir/build.make hphp/zend/CMakeFiles/hphp_zend.dir/zend-md5.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/zend/CMakeFiles/hphp_zend.dir/build.make hphp/zend/CMakeFiles/hphp_zend.dir/zend-md5.cpp.s
 .PHONY : zend-md5.cpp.s
 
 zend-sha1.o: zend-sha1.cpp.o
@@ -257,7 +257,7 @@ zend-sha1.o: zend-sha1.cpp.o
 
 # target to build an object file
 zend-sha1.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/zend/CMakeFiles/hphp_zend.dir/build.make hphp/zend/CMakeFiles/hphp_zend.dir/zend-sha1.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/zend/CMakeFiles/hphp_zend.dir/build.make hphp/zend/CMakeFiles/hphp_zend.dir/zend-sha1.cpp.o
 .PHONY : zend-sha1.cpp.o
 
 zend-sha1.i: zend-sha1.cpp.i
@@ -265,7 +265,7 @@ zend-sha1.i: zend-sha1.cpp.i
 
 # target to preprocess a source file
 zend-sha1.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/zend/CMakeFiles/hphp_zend.dir/build.make hphp/zend/CMakeFiles/hphp_zend.dir/zend-sha1.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/zend/CMakeFiles/hphp_zend.dir/build.make hphp/zend/CMakeFiles/hphp_zend.dir/zend-sha1.cpp.i
 .PHONY : zend-sha1.cpp.i
 
 zend-sha1.s: zend-sha1.cpp.s
@@ -273,7 +273,7 @@ zend-sha1.s: zend-sha1.cpp.s
 
 # target to generate assembly for a file
 zend-sha1.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/zend/CMakeFiles/hphp_zend.dir/build.make hphp/zend/CMakeFiles/hphp_zend.dir/zend-sha1.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/zend/CMakeFiles/hphp_zend.dir/build.make hphp/zend/CMakeFiles/hphp_zend.dir/zend-sha1.cpp.s
 .PHONY : zend-sha1.cpp.s
 
 zend-string.o: zend-string.cpp.o
@@ -281,7 +281,7 @@ zend-string.o: zend-string.cpp.o
 
 # target to build an object file
 zend-string.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/zend/CMakeFiles/hphp_zend.dir/build.make hphp/zend/CMakeFiles/hphp_zend.dir/zend-string.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/zend/CMakeFiles/hphp_zend.dir/build.make hphp/zend/CMakeFiles/hphp_zend.dir/zend-string.cpp.o
 .PHONY : zend-string.cpp.o
 
 zend-string.i: zend-string.cpp.i
@@ -289,7 +289,7 @@ zend-string.i: zend-string.cpp.i
 
 # target to preprocess a source file
 zend-string.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/zend/CMakeFiles/hphp_zend.dir/build.make hphp/zend/CMakeFiles/hphp_zend.dir/zend-string.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/zend/CMakeFiles/hphp_zend.dir/build.make hphp/zend/CMakeFiles/hphp_zend.dir/zend-string.cpp.i
 .PHONY : zend-string.cpp.i
 
 zend-string.s: zend-string.cpp.s
@@ -297,7 +297,7 @@ zend-string.s: zend-string.cpp.s
 
 # target to generate assembly for a file
 zend-string.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/zend/CMakeFiles/hphp_zend.dir/build.make hphp/zend/CMakeFiles/hphp_zend.dir/zend-string.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/zend/CMakeFiles/hphp_zend.dir/build.make hphp/zend/CMakeFiles/hphp_zend.dir/zend-string.cpp.s
 .PHONY : zend-string.cpp.s
 
 # Help Target
@@ -342,6 +342,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

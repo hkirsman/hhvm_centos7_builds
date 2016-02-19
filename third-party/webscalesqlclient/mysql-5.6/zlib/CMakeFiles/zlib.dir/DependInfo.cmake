@@ -4,18 +4,18 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/adler32.c" "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/CMakeFiles/zlib.dir/adler32.c.o"
-  "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/compress.c" "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/CMakeFiles/zlib.dir/compress.c.o"
-  "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/crc32.c" "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/CMakeFiles/zlib.dir/crc32.c.o"
-  "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/deflate.c" "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/CMakeFiles/zlib.dir/deflate.c.o"
-  "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/gzio.c" "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/CMakeFiles/zlib.dir/gzio.c.o"
-  "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/infback.c" "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/CMakeFiles/zlib.dir/infback.c.o"
-  "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/inffast.c" "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/CMakeFiles/zlib.dir/inffast.c.o"
-  "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/inflate.c" "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/CMakeFiles/zlib.dir/inflate.c.o"
-  "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/inftrees.c" "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/CMakeFiles/zlib.dir/inftrees.c.o"
-  "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/trees.c" "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/CMakeFiles/zlib.dir/trees.c.o"
-  "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/uncompr.c" "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/CMakeFiles/zlib.dir/uncompr.c.o"
-  "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/zutil.c" "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/CMakeFiles/zlib.dir/zutil.c.o"
+  "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/zlib/adler32.c" "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/zlib/CMakeFiles/zlib.dir/adler32.c.o"
+  "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/zlib/compress.c" "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/zlib/CMakeFiles/zlib.dir/compress.c.o"
+  "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/zlib/crc32.c" "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/zlib/CMakeFiles/zlib.dir/crc32.c.o"
+  "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/zlib/deflate.c" "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/zlib/CMakeFiles/zlib.dir/deflate.c.o"
+  "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/zlib/gzio.c" "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/zlib/CMakeFiles/zlib.dir/gzio.c.o"
+  "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/zlib/infback.c" "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/zlib/CMakeFiles/zlib.dir/infback.c.o"
+  "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/zlib/inffast.c" "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/zlib/CMakeFiles/zlib.dir/inffast.c.o"
+  "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/zlib/inflate.c" "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/zlib/CMakeFiles/zlib.dir/inflate.c.o"
+  "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/zlib/inftrees.c" "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/zlib/CMakeFiles/zlib.dir/inftrees.c.o"
+  "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/zlib/trees.c" "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/zlib/CMakeFiles/zlib.dir/trees.c.o"
+  "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/zlib/uncompr.c" "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/zlib/CMakeFiles/zlib.dir/uncompr.c.o"
+  "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/zlib/zutil.c" "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/zlib/CMakeFiles/zlib.dir/zutil.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 

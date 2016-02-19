@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/tmp/hhvm-3.11.1/hphp/hphp-build-info.cpp
+/tmp/hhvm-3.12.0/hphp/hphp-build-info.cpp
 
-/tmp/hhvm-3.11.1/hphp/util/abi-cxx.cpp
+/tmp/hhvm-3.12.0/hphp/util/abi-cxx.cpp
 hphp/util/abi-cxx.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/abi-cxx.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/abi-cxx.h
 algorithm
 -
 cstdio
@@ -40,13 +40,13 @@ execinfo.h
 folly/Format.h
 -
 hphp/util/functional.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/functional.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/functional.h
 hphp/util/compatibility.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/compatibility.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/compatibility.h
 
-/tmp/hhvm-3.11.1/hphp/util/afdt-util.cpp
+/tmp/hhvm-3.12.0/hphp/util/afdt-util.cpp
 hphp/util/afdt-util.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/afdt-util.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/afdt-util.h
 afdt.h
 -
 errno.h
@@ -54,9 +54,9 @@ errno.h
 limits.h
 -
 
-/tmp/hhvm-3.11.1/hphp/util/alloc.cpp
+/tmp/hhvm-3.12.0/hphp/util/alloc.cpp
 hphp/util/alloc.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/alloc.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/alloc.h
 atomic
 -
 sys/time.h
@@ -78,29 +78,29 @@ folly/Bits.h
 folly/Format.h
 -
 hphp/util/logger.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/logger.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/logger.h
 hphp/util/async-func.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/async-func.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/async-func.h
 
-/tmp/hhvm-3.11.1/hphp/util/arena.cpp
+/tmp/hhvm-3.12.0/hphp/util/arena.cpp
 hphp/util/arena.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/arena.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/arena.h
 hphp/util/assertions.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/assertions.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/assertions.h
 hphp/util/malloc-size-class.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/malloc-size-class.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/malloc-size-class.h
 
-/tmp/hhvm-3.11.1/hphp/util/asm-x64.cpp
+/tmp/hhvm-3.12.0/hphp/util/asm-x64.cpp
 hphp/util/asm-x64.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/asm-x64.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/asm-x64.h
 folly/Format.h
 -
 hphp/util/safe-cast.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/safe-cast.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/safe-cast.h
 
-/tmp/hhvm-3.11.1/hphp/util/assertions.cpp
+/tmp/hhvm-3.12.0/hphp/util/assertions.cpp
 hphp/util/assertions.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/assertions.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/assertions.h
 folly/Format.h
 -
 cstdio
@@ -114,9 +114,9 @@ string
 vector
 -
 
-/tmp/hhvm-3.11.1/hphp/util/async-func.cpp
+/tmp/hhvm-3.12.0/hphp/util/async-func.cpp
 hphp/util/async-func.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/async-func.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/async-func.h
 sys/time.h
 -
 sys/resource.h
@@ -126,29 +126,31 @@ sys/mman.h
 unistd.h
 -
 
-/tmp/hhvm-3.11.1/hphp/util/async-job.cpp
+/tmp/hhvm-3.12.0/hphp/util/async-job.cpp
 hphp/util/async-job.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/async-job.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/async-job.h
 
-/tmp/hhvm-3.11.1/hphp/util/boot_timer.cpp
+/tmp/hhvm-3.12.0/hphp/util/boot_timer.cpp
 hphp/util/boot_timer.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/boot_timer.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/boot_timer.h
 cassert
 -
 hphp/util/logger.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/logger.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/logger.h
+hphp/util/timer.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/timer.h
 hphp/util/trace.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/trace.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/trace.h
 
-/tmp/hhvm-3.11.1/hphp/util/bstring.cpp
+/tmp/hhvm-3.12.0/hphp/util/bstring.cpp
 hphp/util/bstring.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/bstring.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/bstring.h
 folly/Portability.h
 -
 
-/tmp/hhvm-3.11.1/hphp/util/cache/cache-data.cpp
+/tmp/hhvm-3.12.0/hphp/util/cache/cache-data.cpp
 hphp/util/cache/cache-data.h
-/tmp/hhvm-3.11.1/hphp/util/cache/hphp/util/cache/cache-data.h
+/tmp/hhvm-3.12.0/hphp/util/cache/hphp/util/cache/cache-data.h
 sys/stat.h
 -
 sys/types.h
@@ -166,19 +168,19 @@ folly/Format.h
 folly/ScopeGuard.h
 -
 hphp/util/cache/cache-saver.h
-/tmp/hhvm-3.11.1/hphp/util/cache/hphp/util/cache/cache-saver.h
+/tmp/hhvm-3.12.0/hphp/util/cache/hphp/util/cache/cache-saver.h
 hphp/util/cache/magic-numbers.h
-/tmp/hhvm-3.11.1/hphp/util/cache/hphp/util/cache/magic-numbers.h
+/tmp/hhvm-3.12.0/hphp/util/cache/hphp/util/cache/magic-numbers.h
 hphp/util/cache/mmap-file.h
-/tmp/hhvm-3.11.1/hphp/util/cache/hphp/util/cache/mmap-file.h
+/tmp/hhvm-3.12.0/hphp/util/cache/hphp/util/cache/mmap-file.h
 hphp/util/compression.h
-/tmp/hhvm-3.11.1/hphp/util/cache/hphp/util/compression.h
+/tmp/hhvm-3.12.0/hphp/util/cache/hphp/util/compression.h
 hphp/util/logger.h
-/tmp/hhvm-3.11.1/hphp/util/cache/hphp/util/logger.h
+/tmp/hhvm-3.12.0/hphp/util/cache/hphp/util/logger.h
 
-/tmp/hhvm-3.11.1/hphp/util/cache/cache-manager.cpp
+/tmp/hhvm-3.12.0/hphp/util/cache/cache-manager.cpp
 hphp/util/cache/cache-manager.h
-/tmp/hhvm-3.11.1/hphp/util/cache/hphp/util/cache/cache-manager.h
+/tmp/hhvm-3.12.0/hphp/util/cache/hphp/util/cache/cache-manager.h
 fcntl.h
 -
 sys/mman.h
@@ -202,21 +204,21 @@ utility
 vector
 -
 hphp/util/cache/cache-data.h
-/tmp/hhvm-3.11.1/hphp/util/cache/hphp/util/cache/cache-data.h
+/tmp/hhvm-3.12.0/hphp/util/cache/hphp/util/cache/cache-data.h
 hphp/util/cache/cache-saver.h
-/tmp/hhvm-3.11.1/hphp/util/cache/hphp/util/cache/cache-saver.h
+/tmp/hhvm-3.12.0/hphp/util/cache/hphp/util/cache/cache-saver.h
 hphp/util/cache/magic-numbers.h
-/tmp/hhvm-3.11.1/hphp/util/cache/hphp/util/cache/magic-numbers.h
+/tmp/hhvm-3.12.0/hphp/util/cache/hphp/util/cache/magic-numbers.h
 hphp/util/cache/mmap-file.h
-/tmp/hhvm-3.11.1/hphp/util/cache/hphp/util/cache/mmap-file.h
+/tmp/hhvm-3.12.0/hphp/util/cache/hphp/util/cache/mmap-file.h
 hphp/util/logger.h
-/tmp/hhvm-3.11.1/hphp/util/cache/hphp/util/logger.h
+/tmp/hhvm-3.12.0/hphp/util/cache/hphp/util/logger.h
 hphp/util/text-util.h
-/tmp/hhvm-3.11.1/hphp/util/cache/hphp/util/text-util.h
+/tmp/hhvm-3.12.0/hphp/util/cache/hphp/util/text-util.h
 
-/tmp/hhvm-3.11.1/hphp/util/cache/cache-saver.cpp
+/tmp/hhvm-3.12.0/hphp/util/cache/cache-saver.cpp
 hphp/util/cache/cache-saver.h
-/tmp/hhvm-3.11.1/hphp/util/cache/hphp/util/cache/cache-saver.h
+/tmp/hhvm-3.12.0/hphp/util/cache/hphp/util/cache/cache-saver.h
 sys/types.h
 -
 unistd.h
@@ -232,13 +234,13 @@ folly/FileUtil.h
 folly/Format.h
 -
 hphp/util/cache/magic-numbers.h
-/tmp/hhvm-3.11.1/hphp/util/cache/hphp/util/cache/magic-numbers.h
+/tmp/hhvm-3.12.0/hphp/util/cache/hphp/util/cache/magic-numbers.h
 hphp/util/logger.h
-/tmp/hhvm-3.11.1/hphp/util/cache/hphp/util/logger.h
+/tmp/hhvm-3.12.0/hphp/util/cache/hphp/util/logger.h
 
-/tmp/hhvm-3.11.1/hphp/util/cache/mmap-file.cpp
+/tmp/hhvm-3.12.0/hphp/util/cache/mmap-file.cpp
 hphp/util/cache/mmap-file.h
-/tmp/hhvm-3.11.1/hphp/util/cache/hphp/util/cache/mmap-file.h
+/tmp/hhvm-3.12.0/hphp/util/cache/hphp/util/cache/mmap-file.h
 sys/mman.h
 -
 sys/stat.h
@@ -252,13 +254,13 @@ string
 folly/Format.h
 -
 hphp/util/logger.h
-/tmp/hhvm-3.11.1/hphp/util/cache/hphp/util/logger.h
+/tmp/hhvm-3.12.0/hphp/util/cache/hphp/util/logger.h
 
-/tmp/hhvm-3.11.1/hphp/util/capability.cpp
+/tmp/hhvm-3.12.0/hphp/util/capability.cpp
 hphp/util/capability.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/capability.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/capability.h
 hphp/util/logger.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/logger.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/logger.h
 folly/String.h
 -
 linux/types.h
@@ -274,25 +276,25 @@ pwd.h
 grp.h
 -
 
-/tmp/hhvm-3.11.1/hphp/util/code-cache.cpp
+/tmp/hhvm-3.12.0/hphp/util/code-cache.cpp
 hphp/util/code-cache.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/code-cache.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/code-cache.h
 hphp/util/alloc.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/alloc.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/alloc.h
 hphp/util/asm-x64.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/asm-x64.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/asm-x64.h
 hphp/util/trace.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/trace.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/trace.h
 
-/tmp/hhvm-3.11.1/hphp/util/compatibility.cpp
+/tmp/hhvm-3.12.0/hphp/util/compatibility.cpp
 hphp/util/compatibility.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/compatibility.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/compatibility.h
 hphp/util/assertions.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/assertions.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/assertions.h
 hphp/util/logger.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/logger.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/logger.h
 hphp/util/vdso.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/vdso.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/vdso.h
 cstdarg
 -
 cstdio
@@ -316,33 +318,33 @@ windows.h
 libintl.h
 -
 
-/tmp/hhvm-3.11.1/hphp/util/compression.cpp
+/tmp/hhvm-3.12.0/hphp/util/compression.cpp
 hphp/util/compression.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/compression.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/compression.h
 hphp/util/logger.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/logger.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/logger.h
 hphp/util/exception.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/exception.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/exception.h
 
-/tmp/hhvm-3.11.1/hphp/util/cronolog.cpp
+/tmp/hhvm-3.12.0/hphp/util/cronolog.cpp
 hphp/util/cronolog.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/cronolog.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/cronolog.h
 boost/filesystem/path.hpp
 -
 pwd.h
 -
 
-/tmp/hhvm-3.11.1/hphp/util/cronoutils.cpp
+/tmp/hhvm-3.12.0/hphp/util/cronoutils.cpp
 hphp/util/cronoutils.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/cronoutils.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/cronoutils.h
 hphp/util/portability.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/portability.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/portability.h
 direct.h
 -
 
-/tmp/hhvm-3.11.1/hphp/util/current-executable.cpp
+/tmp/hhvm-3.12.0/hphp/util/current-executable.cpp
 hphp/util/current-executable.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/current-executable.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/current-executable.h
 unistd.h
 -
 limits.h
@@ -352,11 +354,11 @@ mach-o/dyld.h
 sys/sysctl.h
 -
 
-/tmp/hhvm-3.11.1/hphp/util/data-block.cpp
+/tmp/hhvm-3.12.0/hphp/util/data-block.cpp
 data-block.h
-/tmp/hhvm-3.11.1/hphp/util/data-block.h
+/tmp/hhvm-3.12.0/hphp/util/data-block.h
 
-/tmp/hhvm-3.11.1/hphp/util/data-block.h
+/tmp/hhvm-3.12.0/hphp/util/data-block.h
 map
 -
 set
@@ -372,29 +374,29 @@ folly/Bits.h
 folly/Format.h
 -
 hphp/util/assertions.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/assertions.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/assertions.h
 
-/tmp/hhvm-3.11.1/hphp/util/disasm.cpp
+/tmp/hhvm-3.12.0/hphp/util/disasm.cpp
 hphp/util/disasm.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/disasm.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/disasm.h
 iomanip
 -
 stdlib.h
 -
 boost/algorithm/string.hpp
-/tmp/hhvm-3.11.1/hphp/util/boost/algorithm/string.hpp
+/tmp/hhvm-3.12.0/hphp/util/boost/algorithm/string.hpp
 folly/Format.h
 -
 hphp/util/abi-cxx.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/abi-cxx.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/abi-cxx.h
 hphp/util/text-color.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/text-color.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/text-color.h
 
-/tmp/hhvm-3.11.1/hphp/util/embedded-data.cpp
+/tmp/hhvm-3.12.0/hphp/util/embedded-data.cpp
 hphp/util/embedded-data.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/embedded-data.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/embedded-data.h
 hphp/util/current-executable.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/current-executable.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/current-executable.h
 folly/ScopeGuard.h
 -
 stdio.h
@@ -420,9 +422,9 @@ libelf.h
 gelf.h
 -
 
-/tmp/hhvm-3.11.1/hphp/util/embedded-vfs.cpp
+/tmp/hhvm-3.12.0/hphp/util/embedded-vfs.cpp
 hphp/util/embedded-vfs.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/embedded-vfs.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/embedded-vfs.h
 sqlite3.h
 -
 string.h
@@ -444,33 +446,33 @@ fcntl.h
 sqlite3ext.h
 -
 
-/tmp/hhvm-3.11.1/hphp/util/exception.cpp
+/tmp/hhvm-3.12.0/hphp/util/exception.cpp
 hphp/util/exception.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/exception.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/exception.h
 hphp/util/string-vsnprintf.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/string-vsnprintf.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/string-vsnprintf.h
 
-/tmp/hhvm-3.11.1/hphp/util/file-cache.cpp
+/tmp/hhvm-3.12.0/hphp/util/file-cache.cpp
 hphp/util/file-cache.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/file-cache.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/file-cache.h
 set
 -
 string
 -
 hphp/util/cache/cache-manager.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/cache/cache-manager.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/cache/cache-manager.h
 hphp/util/exception.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/exception.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/exception.h
 hphp/util/logger.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/logger.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/logger.h
 
-/tmp/hhvm-3.11.1/hphp/util/hardware-counter.cpp
+/tmp/hhvm-3.12.0/hphp/util/hardware-counter.cpp
 hphp/util/hardware-counter.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/hardware-counter.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/hardware-counter.h
 folly/ScopeGuard.h
 -
 hphp/util/logger.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/logger.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/logger.h
 stdio.h
 -
 stdlib.h
@@ -500,27 +502,27 @@ folly/String.h
 folly/Memory.h
 -
 
-/tmp/hhvm-3.11.1/hphp/util/hash.cpp
+/tmp/hhvm-3.12.0/hphp/util/hash.cpp
 hphp/util/hash.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/hash.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/hash.h
 folly/CpuId.h
 -
 
-/tmp/hhvm-3.11.1/hphp/util/hdf.cpp
+/tmp/hhvm-3.12.0/hphp/util/hdf.cpp
 hphp/util/hdf.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/hdf.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/hdf.h
 boost/algorithm/string/predicate.hpp
 -
 hphp/util/lock.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/lock.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/lock.h
 
-/tmp/hhvm-3.11.1/hphp/util/kernel-version.cpp
+/tmp/hhvm-3.12.0/hphp/util/kernel-version.cpp
 hphp/util/kernel-version.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/kernel-version.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/kernel-version.h
 hphp/util/assertions.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/assertions.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/assertions.h
 hphp/util/portability.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/portability.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/portability.h
 stdio.h
 -
 iostream
@@ -532,9 +534,9 @@ unistd.h
 sys/utsname.h
 -
 
-/tmp/hhvm-3.11.1/hphp/util/light-process.cpp
+/tmp/hhvm-3.12.0/hphp/util/light-process.cpp
 hphp/util/light-process.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/light-process.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/light-process.h
 string
 -
 vector
@@ -570,61 +572,61 @@ folly/Memory.h
 folly/String.h
 -
 hphp/util/afdt-util.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/afdt-util.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/afdt-util.h
 hphp/util/compatibility.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/compatibility.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/compatibility.h
 hphp/util/hardware-counter.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/hardware-counter.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/hardware-counter.h
 hphp/util/logger.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/logger.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/logger.h
 hphp/util/process.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/process.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/process.h
 
-/tmp/hhvm-3.11.1/hphp/util/lock.cpp
+/tmp/hhvm-3.12.0/hphp/util/lock.cpp
 hphp/util/lock.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/lock.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/lock.h
 hphp/util/stack-trace.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/stack-trace.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/stack-trace.h
 hphp/util/timer.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/timer.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/timer.h
 
-/tmp/hhvm-3.11.1/hphp/util/log-file-flusher.cpp
+/tmp/hhvm-3.12.0/hphp/util/log-file-flusher.cpp
 hphp/util/log-file-flusher.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/log-file-flusher.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/log-file-flusher.h
 sys/types.h
 -
 unistd.h
 -
 
-/tmp/hhvm-3.11.1/hphp/util/logger.cpp
+/tmp/hhvm-3.12.0/hphp/util/logger.cpp
 hphp/util/logger.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/logger.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/logger.h
 syslog.h
 -
 hphp/util/stack-trace.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/stack-trace.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/stack-trace.h
 hphp/util/process.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/process.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/process.h
 hphp/util/exception.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/exception.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/exception.h
 hphp/util/text-color.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/text-color.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/text-color.h
 hphp/util/string-vsnprintf.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/string-vsnprintf.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/string-vsnprintf.h
 
-/tmp/hhvm-3.11.1/hphp/util/maphuge.cpp
+/tmp/hhvm-3.12.0/hphp/util/maphuge.cpp
 hphp/util/maphuge.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/maphuge.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/maphuge.h
 hphp/util/kernel-version.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/kernel-version.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/kernel-version.h
 unistd.h
 -
 sys/mman.h
 -
 
-/tmp/hhvm-3.11.1/hphp/util/network.cpp
+/tmp/hhvm-3.12.0/hphp/util/network.cpp
 hphp/util/network.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/network.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/network.h
 netinet/in.h
 -
 arpa/inet.h
@@ -640,13 +642,13 @@ folly/String.h
 folly/IPAddress.h
 -
 hphp/util/lock.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/lock.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/lock.h
 hphp/util/process.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/process.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/process.h
 
-/tmp/hhvm-3.11.1/hphp/util/process.cpp
+/tmp/hhvm-3.12.0/hphp/util/process.cpp
 hphp/util/process.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/process.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/process.h
 sys/types.h
 -
 stdlib.h
@@ -673,18 +675,20 @@ folly/ScopeGuard.h
 -
 folly/String.h
 -
+boost/filesystem.hpp
+-
 hphp/util/logger.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/logger.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/logger.h
 hphp/util/async-func.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/async-func.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/async-func.h
 hphp/util/text-color.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/text-color.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/text-color.h
 intrin.h
 -
 
-/tmp/hhvm-3.11.1/hphp/util/rank.cpp
+/tmp/hhvm-3.12.0/hphp/util/rank.cpp
 hphp/util/rank.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/rank.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/rank.h
 cstdio
 -
 cstdint
@@ -694,13 +698,13 @@ stack
 cinttypes
 -
 hphp/util/mutex.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/mutex.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/mutex.h
 hphp/util/process.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/process.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/process.h
 
-/tmp/hhvm-3.11.1/hphp/util/read-only-arena.cpp
+/tmp/hhvm-3.12.0/hphp/util/read-only-arena.cpp
 hphp/util/read-only-arena.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/read-only-arena.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/read-only-arena.h
 sys/mman.h
 -
 stdlib.h
@@ -708,15 +712,15 @@ stdlib.h
 folly/Exception.h
 -
 hphp/util/assertions.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/assertions.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/assertions.h
 
-/tmp/hhvm-3.11.1/hphp/util/repo-schema.cpp
+/tmp/hhvm-3.12.0/hphp/util/repo-schema.cpp
 hphp-repo-schema.h
 -
 
-/tmp/hhvm-3.11.1/hphp/util/ringbuffer.cpp
+/tmp/hhvm-3.12.0/hphp/util/ringbuffer.cpp
 hphp/util/ringbuffer.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/ringbuffer.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/ringbuffer.h
 algorithm
 -
 atomic
@@ -730,19 +734,19 @@ unistd.h
 folly/Bits.h
 -
 hphp/util/assertions.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/assertions.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/assertions.h
 
-/tmp/hhvm-3.11.1/hphp/util/safe-cast.cpp
+/tmp/hhvm-3.12.0/hphp/util/safe-cast.cpp
 hphp/util/safe-cast.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/safe-cast.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/safe-cast.h
 iostream
 -
 cstdlib
 -
 
-/tmp/hhvm-3.11.1/hphp/util/service-data.cpp
+/tmp/hhvm-3.12.0/hphp/util/service-data.cpp
 hphp/util/service-data.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/service-data.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/service-data.h
 array
 -
 memory
@@ -758,11 +762,11 @@ folly/MapUtil.h
 folly/stats/Histogram-defs.h
 -
 hphp/util/portability.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/portability.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/portability.h
 
-/tmp/hhvm-3.11.1/hphp/util/shm-counter.cpp
+/tmp/hhvm-3.12.0/hphp/util/shm-counter.cpp
 hphp/util/shm-counter.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/shm-counter.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/shm-counter.h
 stdio.h
 -
 stdlib.h
@@ -776,19 +780,21 @@ sys/ipc.h
 sys/shm.h
 -
 
-/tmp/hhvm-3.11.1/hphp/util/ssl-init.cpp
+/tmp/hhvm-3.12.0/hphp/util/ssl-init.cpp
 hphp/util/ssl-init.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/ssl-init.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/ssl-init.h
 hphp/util/mutex.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/mutex.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/mutex.h
 hphp/util/process.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/process.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/process.h
 openssl/crypto.h
 -
 
-/tmp/hhvm-3.11.1/hphp/util/stack-trace.cpp
+/tmp/hhvm-3.12.0/hphp/util/stack-trace.cpp
 hphp/util/stack-trace.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/stack-trace.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/stack-trace.h
+set
+-
 execinfo.h
 -
 bfd.h
@@ -808,29 +814,29 @@ folly/ScopeGuard.h
 folly/Conv.h
 -
 hphp/util/process.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/process.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/process.h
 hphp/util/lock.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/lock.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/lock.h
 hphp/util/logger.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/logger.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/logger.h
 hphp/util/compatibility.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/compatibility.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/compatibility.h
 hphp/util/hash.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/hash.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/hash.h
 
-/tmp/hhvm-3.11.1/hphp/util/stacktrace-profiler.cpp
+/tmp/hhvm-3.12.0/hphp/util/stacktrace-profiler.cpp
 hphp/util/stacktrace-profiler.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/stacktrace-profiler.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/stacktrace-profiler.h
 hphp/util/stack-trace.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/stack-trace.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/stack-trace.h
 execinfo.h
 -
 algorithm
 -
 
-/tmp/hhvm-3.11.1/hphp/util/string-bag.cpp
+/tmp/hhvm-3.12.0/hphp/util/string-bag.cpp
 hphp/util/string-bag.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/string-bag.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/string-bag.h
 cstdlib
 -
 cstring
@@ -838,47 +844,47 @@ cstring
 cassert
 -
 
-/tmp/hhvm-3.11.1/hphp/util/string-vsnprintf.cpp
+/tmp/hhvm-3.12.0/hphp/util/string-vsnprintf.cpp
 hphp/util/string-vsnprintf.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/string-vsnprintf.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/string-vsnprintf.h
 cstdlib
 -
 cstdio
 -
 
-/tmp/hhvm-3.11.1/hphp/util/synchronizable-multi.cpp
+/tmp/hhvm-3.12.0/hphp/util/synchronizable-multi.cpp
 hphp/util/synchronizable-multi.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/synchronizable-multi.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/synchronizable-multi.h
 hphp/util/compatibility.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/compatibility.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/compatibility.h
 hphp/util/lock.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/lock.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/lock.h
 hphp/util/timer.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/timer.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/timer.h
 sys/errno.h
 -
 
-/tmp/hhvm-3.11.1/hphp/util/synchronizable.cpp
+/tmp/hhvm-3.12.0/hphp/util/synchronizable.cpp
 hphp/util/synchronizable.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/synchronizable.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/synchronizable.h
 hphp/util/compatibility.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/compatibility.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/compatibility.h
 hphp/util/rank.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/rank.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/rank.h
 hphp/util/timer.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/timer.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/timer.h
 sys/errno.h
 -
 
-/tmp/hhvm-3.11.1/hphp/util/text-art.cpp
+/tmp/hhvm-3.12.0/hphp/util/text-art.cpp
 hphp/util/text-art.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/text-art.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/text-art.h
 cassert
 -
 
-/tmp/hhvm-3.11.1/hphp/util/text-color.cpp
+/tmp/hhvm-3.12.0/hphp/util/text-color.cpp
 hphp/util/text-color.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/text-color.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/text-color.h
 boost/algorithm/string.hpp
 -
 string
@@ -886,9 +892,9 @@ string
 cstring
 -
 
-/tmp/hhvm-3.11.1/hphp/util/text-util.cpp
+/tmp/hhvm-3.12.0/hphp/util/text-util.cpp
 hphp/util/text-util.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/text-util.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/text-util.h
 cassert
 -
 cstring
@@ -898,11 +904,11 @@ string
 vector
 -
 hphp/util/string-vsnprintf.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/string-vsnprintf.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/string-vsnprintf.h
 
-/tmp/hhvm-3.11.1/hphp/util/thread-local.cpp
+/tmp/hhvm-3.12.0/hphp/util/thread-local.cpp
 hphp/util/thread-local.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/thread-local.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/thread-local.h
 link.h
 -
 asm/prctl.h
@@ -910,9 +916,9 @@ asm/prctl.h
 sys/prctl.h
 -
 
-/tmp/hhvm-3.11.1/hphp/util/timer.cpp
+/tmp/hhvm-3.12.0/hphp/util/timer.cpp
 hphp/util/timer.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/timer.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/timer.h
 cassert
 -
 mach/clock.h
@@ -924,13 +930,13 @@ sys/time.h
 sys/resource.h
 -
 hphp/util/logger.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/logger.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/logger.h
 hphp/util/trace.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/trace.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/trace.h
 
-/tmp/hhvm-3.11.1/hphp/util/trace.cpp
+/tmp/hhvm-3.12.0/hphp/util/trace.cpp
 hphp/util/trace.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/trace.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/trace.h
 iostream
 -
 string.h
@@ -944,13 +950,13 @@ stdarg.h
 string
 -
 hphp/util/ringbuffer.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/ringbuffer.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/ringbuffer.h
 
-/tmp/hhvm-3.11.1/hphp/util/vdso.cpp
+/tmp/hhvm-3.12.0/hphp/util/vdso.cpp
 hphp/util/vdso.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/vdso.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/vdso.h
 common/time/ClockGettimeNS.h
-/tmp/hhvm-3.11.1/hphp/util/common/time/ClockGettimeNS.h
+/tmp/hhvm-3.12.0/hphp/util/common/time/ClockGettimeNS.h
 dlfcn.h
 -
 cstring
@@ -1035,8 +1041,12 @@ atomic
 -
 folly/Portability.h
 -
+hphp/util/assertions.h
+hphp/util/hphp/util/assertions.h
 hphp/util/exception.h
 hphp/util/hphp/util/exception.h
+hphp/util/logger.h
+hphp/util/hphp/util/logger.h
 google/malloc_extension.h
 -
 stdlib.h
@@ -1061,8 +1071,6 @@ hphp/util/pointer-list.h
 hphp/util/hphp/util/pointer-list.h
 
 hphp/util/asm-x64.h
-boost/noncopyable.hpp
--
 type_traits
 -
 hphp/util/data-block.h
@@ -1161,8 +1169,6 @@ cstdint
 -
 string
 -
-boost/utility.hpp
--
 
 hphp/util/cache/cache-manager.h
 cstdint
@@ -1177,8 +1183,6 @@ string
 -
 vector
 -
-boost/utility.hpp
--
 
 hphp/util/cache/cache-saver.h
 sys/types.h
@@ -1191,8 +1195,6 @@ string
 -
 vector
 -
-boost/utility.hpp
--
 
 hphp/util/cache/magic-numbers.h
 
@@ -1200,8 +1202,6 @@ hphp/util/cache/mmap-file.h
 cstdint
 -
 string
--
-boost/utility.hpp
 -
 
 hphp/util/capability.h
@@ -1310,8 +1310,6 @@ hphp/util/disasm.h
 xed-interface.h
 -
 ostream
--
-boost/noncopyable.hpp
 -
 
 hphp/util/embedded-data.h
@@ -1436,6 +1434,14 @@ hphp/util/hphp/util/process.h
 hphp/util/lock.h
 hphp/util/hphp/util/lock.h
 
+hphp/util/locale-portability.h
+locale.h
+-
+langinfo.h
+-
+xlocale.h
+-
+
 hphp/util/lock.h
 hphp/util/mutex.h
 hphp/util/hphp/util/mutex.h
@@ -1529,6 +1535,34 @@ folly/CPortability.h
 -
 sys/param.h
 -
+hphp/util/portability/fnmatch.h
+hphp/util/hphp/util/portability/fnmatch.h
+hphp/util/portability/glob.h
+hphp/util/hphp/util/portability/glob.h
+hphp/util/portability/rand_r.h
+hphp/util/hphp/util/portability/rand_r.h
+hphp/util/portability/strfmon.h
+hphp/util/hphp/util/portability/strfmon.h
+hphp/util/portability/strptime.h
+hphp/util/hphp/util/portability/strptime.h
+
+hphp/util/portability/fnmatch.h
+
+hphp/util/portability/glob.h
+
+hphp/util/portability/rand_r.h
+
+hphp/util/portability/strfmon.h
+hphp/util/locale-portability.h
+hphp/util/portability/hphp/util/locale-portability.h
+folly/Portability.h
+-
+stdint.h
+-
+
+hphp/util/portability/strptime.h
+time.h
+-
 
 hphp/util/process.h
 string
@@ -1553,8 +1587,6 @@ limits.h
 -
 
 hphp/util/read-only-arena.h
-boost/noncopyable.hpp
--
 cstdlib
 -
 mutex
@@ -2166,6 +2198,30 @@ stdexcept
 utility
 -
 
+third-party/folly/folly/MicroSpinLock.h
+array
+-
+cinttypes
+-
+type_traits
+-
+boost/noncopyable.hpp
+-
+cstdlib
+-
+pthread.h
+-
+mutex
+-
+atomic
+-
+glog/logging.h
+-
+folly/detail/Sleeper.h
+-
+folly/Portability.h
+-
+
 third-party/folly/folly/Optional.h
 cstddef
 -
@@ -2556,6 +2612,14 @@ cstddef
 folly/detail/RangeCommon.h
 -
 
+third-party/folly/folly/detail/Sleeper.h
+cinttypes
+-
+ctime
+-
+folly/Portability.h
+-
+
 third-party/folly/folly/detail/Stats.h
 chrono
 -
@@ -2582,6 +2646,8 @@ folly/Foreach.h
 folly/Exception.h
 -
 folly/Malloc.h
+-
+folly/MicroSpinLock.h
 -
 
 third-party/folly/folly/detail/UncaughtExceptionCounter.h

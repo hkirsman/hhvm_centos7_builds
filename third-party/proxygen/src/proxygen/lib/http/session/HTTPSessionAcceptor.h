@@ -95,7 +95,7 @@ protected:
 
   // Acceptor methods
   void onNewConnection(
-    folly::AsyncSocket::UniquePtr sock,
+    folly::AsyncTransportWrapper::UniquePtr sock,
     const folly::SocketAddress* address,
     const std::string& nextProtocol,
     SecureTransportType secureTransportType,
@@ -135,6 +135,7 @@ private:
   void onSettingsOutgoingStreamsFull(const HTTPSession&) override {}
   void onSettingsOutgoingStreamsNotFull(const HTTPSession&) override {}
   void onFlowControlWindowClosed(const HTTPSession&) override {}
+  void onEgressBuffered(const HTTPSession&) override {}
 
   /** General-case error page generator */
   std::unique_ptr<HTTPErrorPage> defaultErrorPage_;

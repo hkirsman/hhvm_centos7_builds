@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.0
 
 # Include any dependencies generated for this target.
 include hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/depend.make
@@ -54,17 +54,17 @@ include hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/extension-registry.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/extension-registry.cpp.o: hphp/runtime/ext/extension-registry.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/extension-registry.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/extension-registry.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/extension-registry.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/extension-registry.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/extension-registry.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/extension-registry.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/extension-registry.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/extension-registry.cpp > CMakeFiles/hphp_runtime_ext.dir/extension-registry.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/extension-registry.cpp > CMakeFiles/hphp_runtime_ext.dir/extension-registry.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/extension-registry.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/extension-registry.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/extension-registry.cpp -o CMakeFiles/hphp_runtime_ext.dir/extension-registry.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/extension-registry.cpp -o CMakeFiles/hphp_runtime_ext.dir/extension-registry.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/extension-registry.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/extension-registry.cpp.o.requires
@@ -77,17 +77,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/extension-registry.cpp.o.provid
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/extension.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/extension.cpp.o: hphp/runtime/ext/extension.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/extension.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/extension.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/extension.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/extension.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/extension.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/extension.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/extension.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/extension.cpp > CMakeFiles/hphp_runtime_ext.dir/extension.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/extension.cpp > CMakeFiles/hphp_runtime_ext.dir/extension.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/extension.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/extension.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/extension.cpp -o CMakeFiles/hphp_runtime_ext.dir/extension.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/extension.cpp -o CMakeFiles/hphp_runtime_ext.dir/extension.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/extension.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/extension.cpp.o.requires
@@ -98,42 +98,19 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/extension.cpp.o.provides: hphp/
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/extension.cpp.o.provides.build: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/extension.cpp.o
 
-hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
-hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.o: hphp/runtime/ext/random/ext_random.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/random/ext_random.cpp
-
-hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/random/ext_random.cpp > CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.i
-
-hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/random/ext_random.cpp -o CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.s
-
-hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.o.requires:
-.PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.o.requires
-
-hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.o.provides: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.o.requires
-	$(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.o.provides.build
-.PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.o.provides
-
-hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.o.provides.build: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.o
-
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apache/ext_apache.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apache/ext_apache.cpp.o: hphp/runtime/ext/apache/ext_apache.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apache/ext_apache.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/apache/ext_apache.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/apache/ext_apache.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/apache/ext_apache.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/apache/ext_apache.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apache/ext_apache.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/apache/ext_apache.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/apache/ext_apache.cpp > CMakeFiles/hphp_runtime_ext.dir/apache/ext_apache.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/apache/ext_apache.cpp > CMakeFiles/hphp_runtime_ext.dir/apache/ext_apache.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apache/ext_apache.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/apache/ext_apache.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/apache/ext_apache.cpp -o CMakeFiles/hphp_runtime_ext.dir/apache/ext_apache.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/apache/ext_apache.cpp -o CMakeFiles/hphp_runtime_ext.dir/apache/ext_apache.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apache/ext_apache.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apache/ext_apache.cpp.o.requires
@@ -146,17 +123,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apache/ext_apache.cpp.o.provide
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apc/ext_apc.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apc/ext_apc.cpp.o: hphp/runtime/ext/apc/ext_apc.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apc/ext_apc.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/apc/ext_apc.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/apc/ext_apc.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/apc/ext_apc.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/apc/ext_apc.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apc/ext_apc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/apc/ext_apc.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/apc/ext_apc.cpp > CMakeFiles/hphp_runtime_ext.dir/apc/ext_apc.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/apc/ext_apc.cpp > CMakeFiles/hphp_runtime_ext.dir/apc/ext_apc.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apc/ext_apc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/apc/ext_apc.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/apc/ext_apc.cpp -o CMakeFiles/hphp_runtime_ext.dir/apc/ext_apc.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/apc/ext_apc.cpp -o CMakeFiles/hphp_runtime_ext.dir/apc/ext_apc.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apc/ext_apc.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apc/ext_apc.cpp.o.requires
@@ -167,19 +144,42 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apc/ext_apc.cpp.o.provides: hph
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apc/ext_apc.cpp.o.provides.build: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apc/ext_apc.cpp.o
 
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apc/snapshot.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apc/snapshot.cpp.o: hphp/runtime/ext/apc/snapshot.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_5)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apc/snapshot.cpp.o"
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/apc/snapshot.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/apc/snapshot.cpp
+
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apc/snapshot.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/apc/snapshot.cpp.i"
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/apc/snapshot.cpp > CMakeFiles/hphp_runtime_ext.dir/apc/snapshot.cpp.i
+
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apc/snapshot.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/apc/snapshot.cpp.s"
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/apc/snapshot.cpp -o CMakeFiles/hphp_runtime_ext.dir/apc/snapshot.cpp.s
+
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apc/snapshot.cpp.o.requires:
+.PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apc/snapshot.cpp.o.requires
+
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apc/snapshot.cpp.o.provides: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apc/snapshot.cpp.o.requires
+	$(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apc/snapshot.cpp.o.provides.build
+.PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apc/snapshot.cpp.o.provides
+
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apc/snapshot.cpp.o.provides.build: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apc/snapshot.cpp.o
+
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/array/ext_array.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/array/ext_array.cpp.o: hphp/runtime/ext/array/ext_array.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/array/ext_array.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/array/ext_array.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/array/ext_array.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/array/ext_array.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/array/ext_array.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/array/ext_array.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/array/ext_array.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/array/ext_array.cpp > CMakeFiles/hphp_runtime_ext.dir/array/ext_array.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/array/ext_array.cpp > CMakeFiles/hphp_runtime_ext.dir/array/ext_array.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/array/ext_array.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/array/ext_array.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/array/ext_array.cpp -o CMakeFiles/hphp_runtime_ext.dir/array/ext_array.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/array/ext_array.cpp -o CMakeFiles/hphp_runtime_ext.dir/array/ext_array.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/array/ext_array.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/array/ext_array.cpp.o.requires
@@ -192,17 +192,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/array/ext_array.cpp.o.provides.
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-blockable.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-blockable.cpp.o: hphp/runtime/ext/asio/asio-blockable.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-blockable.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/asio-blockable.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/asio-blockable.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/asio-blockable.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/asio-blockable.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-blockable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/asio/asio-blockable.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/asio-blockable.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/asio-blockable.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/asio-blockable.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/asio-blockable.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-blockable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/asio/asio-blockable.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/asio-blockable.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/asio-blockable.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/asio-blockable.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/asio-blockable.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-blockable.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-blockable.cpp.o.requires
@@ -215,17 +215,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-blockable.cpp.o.provi
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-context.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-context.cpp.o: hphp/runtime/ext/asio/asio-context.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-context.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/asio-context.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/asio-context.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/asio-context.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/asio-context.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-context.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/asio/asio-context.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/asio-context.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/asio-context.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/asio-context.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/asio-context.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-context.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/asio/asio-context.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/asio-context.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/asio-context.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/asio-context.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/asio-context.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-context.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-context.cpp.o.requires
@@ -238,17 +238,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-context.cpp.o.provide
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-context-enter.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-context-enter.cpp.o: hphp/runtime/ext/asio/asio-context-enter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-context-enter.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/asio-context-enter.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/asio-context-enter.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/asio-context-enter.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/asio-context-enter.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-context-enter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/asio/asio-context-enter.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/asio-context-enter.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/asio-context-enter.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/asio-context-enter.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/asio-context-enter.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-context-enter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/asio/asio-context-enter.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/asio-context-enter.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/asio-context-enter.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/asio-context-enter.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/asio-context-enter.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-context-enter.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-context-enter.cpp.o.requires
@@ -261,17 +261,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-context-enter.cpp.o.p
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event.cpp.o: hphp/runtime/ext/asio/asio-external-thread-event.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/asio-external-thread-event.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/asio-external-thread-event.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/asio-external-thread-event.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/asio-external-thread-event.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/asio-external-thread-event.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/asio-external-thread-event.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event.cpp.o.requires
@@ -284,17 +284,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event-queue.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event-queue.cpp.o: hphp/runtime/ext/asio/asio-external-thread-event-queue.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event-queue.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event-queue.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/asio-external-thread-event-queue.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event-queue.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/asio-external-thread-event-queue.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event-queue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event-queue.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/asio-external-thread-event-queue.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event-queue.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/asio-external-thread-event-queue.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event-queue.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event-queue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event-queue.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/asio-external-thread-event-queue.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event-queue.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/asio-external-thread-event-queue.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event-queue.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event-queue.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event-queue.cpp.o.requires
@@ -307,17 +307,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-external-thread-event
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-session.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-session.cpp.o: hphp/runtime/ext/asio/asio-session.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-session.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/asio-session.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/asio-session.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/asio-session.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/asio-session.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-session.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/asio/asio-session.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/asio-session.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/asio-session.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/asio-session.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/asio-session.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-session.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/asio/asio-session.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/asio-session.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/asio-session.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/asio-session.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/asio-session.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-session.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-session.cpp.o.requires
@@ -330,17 +330,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-session.cpp.o.provide
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-function-wait-handle.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-function-wait-handle.cpp.o: hphp/runtime/ext/asio/ext_async-function-wait-handle.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-function-wait-handle.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-function-wait-handle.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_async-function-wait-handle.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-function-wait-handle.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_async-function-wait-handle.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-function-wait-handle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-function-wait-handle.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_async-function-wait-handle.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-function-wait-handle.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_async-function-wait-handle.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-function-wait-handle.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-function-wait-handle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-function-wait-handle.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_async-function-wait-handle.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-function-wait-handle.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_async-function-wait-handle.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-function-wait-handle.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-function-wait-handle.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-function-wait-handle.cpp.o.requires
@@ -353,17 +353,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-function-wait-ha
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator.cpp.o: hphp/runtime/ext/asio/ext_async-generator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_async-generator.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_async-generator.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_async-generator.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_async-generator.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_async-generator.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_async-generator.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator.cpp.o.requires
@@ -376,17 +376,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator.cpp.o.
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator-wait-handle.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator-wait-handle.cpp.o: hphp/runtime/ext/asio/ext_async-generator-wait-handle.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator-wait-handle.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator-wait-handle.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_async-generator-wait-handle.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator-wait-handle.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_async-generator-wait-handle.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator-wait-handle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator-wait-handle.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_async-generator-wait-handle.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator-wait-handle.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_async-generator-wait-handle.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator-wait-handle.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator-wait-handle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator-wait-handle.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_async-generator-wait-handle.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator-wait-handle.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_async-generator-wait-handle.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator-wait-handle.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator-wait-handle.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator-wait-handle.cpp.o.requires
@@ -399,17 +399,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_async-generator-wait-h
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_await-all-wait-handle.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_await-all-wait-handle.cpp.o: hphp/runtime/ext/asio/ext_await-all-wait-handle.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_await-all-wait-handle.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_await-all-wait-handle.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_await-all-wait-handle.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_await-all-wait-handle.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_await-all-wait-handle.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_await-all-wait-handle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/asio/ext_await-all-wait-handle.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_await-all-wait-handle.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/ext_await-all-wait-handle.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_await-all-wait-handle.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/ext_await-all-wait-handle.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_await-all-wait-handle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/asio/ext_await-all-wait-handle.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_await-all-wait-handle.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_await-all-wait-handle.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_await-all-wait-handle.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_await-all-wait-handle.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_await-all-wait-handle.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_await-all-wait-handle.cpp.o.requires
@@ -422,17 +422,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_await-all-wait-handle.
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_condition-wait-handle.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_condition-wait-handle.cpp.o: hphp/runtime/ext/asio/ext_condition-wait-handle.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_condition-wait-handle.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_condition-wait-handle.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_condition-wait-handle.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_condition-wait-handle.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_condition-wait-handle.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_condition-wait-handle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/asio/ext_condition-wait-handle.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_condition-wait-handle.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/ext_condition-wait-handle.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_condition-wait-handle.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/ext_condition-wait-handle.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_condition-wait-handle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/asio/ext_condition-wait-handle.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_condition-wait-handle.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_condition-wait-handle.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_condition-wait-handle.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_condition-wait-handle.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_condition-wait-handle.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_condition-wait-handle.cpp.o.requires
@@ -445,17 +445,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_condition-wait-handle.
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_asio.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_asio.cpp.o: hphp/runtime/ext/asio/ext_asio.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_asio.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_asio.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_asio.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_asio.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_asio.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_asio.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/asio/ext_asio.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_asio.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/ext_asio.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_asio.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/ext_asio.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_asio.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/asio/ext_asio.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_asio.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_asio.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_asio.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_asio.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_asio.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_asio.cpp.o.requires
@@ -468,17 +468,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_asio.cpp.o.provides.bu
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_external-thread-event-wait-handle.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_external-thread-event-wait-handle.cpp.o: hphp/runtime/ext/asio/ext_external-thread-event-wait-handle.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_external-thread-event-wait-handle.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_external-thread-event-wait-handle.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_external-thread-event-wait-handle.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_external-thread-event-wait-handle.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_external-thread-event-wait-handle.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_external-thread-event-wait-handle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/asio/ext_external-thread-event-wait-handle.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_external-thread-event-wait-handle.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/ext_external-thread-event-wait-handle.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_external-thread-event-wait-handle.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/ext_external-thread-event-wait-handle.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_external-thread-event-wait-handle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/asio/ext_external-thread-event-wait-handle.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_external-thread-event-wait-handle.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_external-thread-event-wait-handle.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_external-thread-event-wait-handle.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_external-thread-event-wait-handle.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_external-thread-event-wait-handle.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_external-thread-event-wait-handle.cpp.o.requires
@@ -491,17 +491,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_external-thread-event-
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-array-wait-handle.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-array-wait-handle.cpp.o: hphp/runtime/ext/asio/ext_gen-array-wait-handle.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-array-wait-handle.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-array-wait-handle.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_gen-array-wait-handle.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-array-wait-handle.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_gen-array-wait-handle.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-array-wait-handle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-array-wait-handle.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_gen-array-wait-handle.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-array-wait-handle.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_gen-array-wait-handle.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-array-wait-handle.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-array-wait-handle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-array-wait-handle.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_gen-array-wait-handle.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-array-wait-handle.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_gen-array-wait-handle.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-array-wait-handle.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-array-wait-handle.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-array-wait-handle.cpp.o.requires
@@ -514,17 +514,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-array-wait-handle.
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-map-wait-handle.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-map-wait-handle.cpp.o: hphp/runtime/ext/asio/ext_gen-map-wait-handle.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-map-wait-handle.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-map-wait-handle.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_gen-map-wait-handle.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-map-wait-handle.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_gen-map-wait-handle.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-map-wait-handle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-map-wait-handle.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_gen-map-wait-handle.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-map-wait-handle.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_gen-map-wait-handle.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-map-wait-handle.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-map-wait-handle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-map-wait-handle.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_gen-map-wait-handle.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-map-wait-handle.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_gen-map-wait-handle.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-map-wait-handle.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-map-wait-handle.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-map-wait-handle.cpp.o.requires
@@ -537,17 +537,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-map-wait-handle.cp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-vector-wait-handle.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-vector-wait-handle.cpp.o: hphp/runtime/ext/asio/ext_gen-vector-wait-handle.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-vector-wait-handle.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-vector-wait-handle.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_gen-vector-wait-handle.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-vector-wait-handle.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_gen-vector-wait-handle.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-vector-wait-handle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-vector-wait-handle.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_gen-vector-wait-handle.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-vector-wait-handle.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_gen-vector-wait-handle.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-vector-wait-handle.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-vector-wait-handle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-vector-wait-handle.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_gen-vector-wait-handle.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-vector-wait-handle.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_gen-vector-wait-handle.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-vector-wait-handle.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-vector-wait-handle.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-vector-wait-handle.cpp.o.requires
@@ -560,17 +560,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_gen-vector-wait-handle
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_reschedule-wait-handle.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_reschedule-wait-handle.cpp.o: hphp/runtime/ext/asio/ext_reschedule-wait-handle.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_reschedule-wait-handle.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_reschedule-wait-handle.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_reschedule-wait-handle.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_reschedule-wait-handle.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_reschedule-wait-handle.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_reschedule-wait-handle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/asio/ext_reschedule-wait-handle.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_reschedule-wait-handle.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/ext_reschedule-wait-handle.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_reschedule-wait-handle.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/ext_reschedule-wait-handle.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_reschedule-wait-handle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/asio/ext_reschedule-wait-handle.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_reschedule-wait-handle.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_reschedule-wait-handle.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_reschedule-wait-handle.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_reschedule-wait-handle.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_reschedule-wait-handle.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_reschedule-wait-handle.cpp.o.requires
@@ -583,17 +583,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_reschedule-wait-handle
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_resumable-wait-handle.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_resumable-wait-handle.cpp.o: hphp/runtime/ext/asio/ext_resumable-wait-handle.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_resumable-wait-handle.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_resumable-wait-handle.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_resumable-wait-handle.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_resumable-wait-handle.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_resumable-wait-handle.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_resumable-wait-handle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/asio/ext_resumable-wait-handle.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_resumable-wait-handle.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/ext_resumable-wait-handle.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_resumable-wait-handle.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/ext_resumable-wait-handle.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_resumable-wait-handle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/asio/ext_resumable-wait-handle.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_resumable-wait-handle.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_resumable-wait-handle.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_resumable-wait-handle.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_resumable-wait-handle.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_resumable-wait-handle.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_resumable-wait-handle.cpp.o.requires
@@ -606,17 +606,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_resumable-wait-handle.
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_sleep-wait-handle.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_sleep-wait-handle.cpp.o: hphp/runtime/ext/asio/ext_sleep-wait-handle.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_sleep-wait-handle.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_sleep-wait-handle.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_sleep-wait-handle.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_sleep-wait-handle.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_sleep-wait-handle.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_sleep-wait-handle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/asio/ext_sleep-wait-handle.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_sleep-wait-handle.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/ext_sleep-wait-handle.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_sleep-wait-handle.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/ext_sleep-wait-handle.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_sleep-wait-handle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/asio/ext_sleep-wait-handle.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_sleep-wait-handle.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_sleep-wait-handle.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_sleep-wait-handle.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_sleep-wait-handle.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_sleep-wait-handle.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_sleep-wait-handle.cpp.o.requires
@@ -629,17 +629,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_sleep-wait-handle.cpp.
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/socket-event.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/socket-event.cpp.o: hphp/runtime/ext/asio/socket-event.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/socket-event.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/socket-event.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/socket-event.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/socket-event.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/socket-event.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/socket-event.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/asio/socket-event.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/socket-event.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/socket-event.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/socket-event.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/socket-event.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/socket-event.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/asio/socket-event.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/socket-event.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/socket-event.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/socket-event.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/socket-event.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/socket-event.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/socket-event.cpp.o.requires
@@ -652,17 +652,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/socket-event.cpp.o.provide
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_static-wait-handle.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_static-wait-handle.cpp.o: hphp/runtime/ext/asio/ext_static-wait-handle.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_static-wait-handle.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_static-wait-handle.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_static-wait-handle.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_static-wait-handle.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_static-wait-handle.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_static-wait-handle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/asio/ext_static-wait-handle.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_static-wait-handle.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/ext_static-wait-handle.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_static-wait-handle.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/ext_static-wait-handle.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_static-wait-handle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/asio/ext_static-wait-handle.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_static-wait-handle.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_static-wait-handle.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_static-wait-handle.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_static-wait-handle.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_static-wait-handle.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_static-wait-handle.cpp.o.requires
@@ -675,17 +675,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_static-wait-handle.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_waitable-wait-handle.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_waitable-wait-handle.cpp.o: hphp/runtime/ext/asio/ext_waitable-wait-handle.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_waitable-wait-handle.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_waitable-wait-handle.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_waitable-wait-handle.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_waitable-wait-handle.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_waitable-wait-handle.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_waitable-wait-handle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/asio/ext_waitable-wait-handle.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_waitable-wait-handle.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/ext_waitable-wait-handle.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_waitable-wait-handle.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/ext_waitable-wait-handle.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_waitable-wait-handle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/asio/ext_waitable-wait-handle.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_waitable-wait-handle.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_waitable-wait-handle.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_waitable-wait-handle.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_waitable-wait-handle.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_waitable-wait-handle.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_waitable-wait-handle.cpp.o.requires
@@ -698,17 +698,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_waitable-wait-handle.c
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_wait-handle.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_wait-handle.cpp.o: hphp/runtime/ext/asio/ext_wait-handle.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_wait-handle.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_wait-handle.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_wait-handle.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_wait-handle.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_wait-handle.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_wait-handle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/asio/ext_wait-handle.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_wait-handle.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/ext_wait-handle.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_wait-handle.cpp > CMakeFiles/hphp_runtime_ext.dir/asio/ext_wait-handle.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_wait-handle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/asio/ext_wait-handle.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/asio/ext_wait-handle.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_wait-handle.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/asio/ext_wait-handle.cpp -o CMakeFiles/hphp_runtime_ext.dir/asio/ext_wait-handle.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_wait-handle.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_wait-handle.cpp.o.requires
@@ -721,17 +721,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/ext_wait-handle.cpp.o.prov
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/async_mysql/ext_async_mysql.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/async_mysql/ext_async_mysql.cpp.o: hphp/runtime/ext/async_mysql/ext_async_mysql.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/async_mysql/ext_async_mysql.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/async_mysql/ext_async_mysql.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/async_mysql/ext_async_mysql.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/async_mysql/ext_async_mysql.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/async_mysql/ext_async_mysql.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/async_mysql/ext_async_mysql.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/async_mysql/ext_async_mysql.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/async_mysql/ext_async_mysql.cpp > CMakeFiles/hphp_runtime_ext.dir/async_mysql/ext_async_mysql.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/async_mysql/ext_async_mysql.cpp > CMakeFiles/hphp_runtime_ext.dir/async_mysql/ext_async_mysql.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/async_mysql/ext_async_mysql.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/async_mysql/ext_async_mysql.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/async_mysql/ext_async_mysql.cpp -o CMakeFiles/hphp_runtime_ext.dir/async_mysql/ext_async_mysql.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/async_mysql/ext_async_mysql.cpp -o CMakeFiles/hphp_runtime_ext.dir/async_mysql/ext_async_mysql.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/async_mysql/ext_async_mysql.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/async_mysql/ext_async_mysql.cpp.o.requires
@@ -744,17 +744,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/async_mysql/ext_async_mysql.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/ext_bcmath.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/ext_bcmath.cpp.o: hphp/runtime/ext/bcmath/ext_bcmath.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_31)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/ext_bcmath.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/ext_bcmath.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/ext_bcmath.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/ext_bcmath.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/ext_bcmath.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/ext_bcmath.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/bcmath/ext_bcmath.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/ext_bcmath.cpp > CMakeFiles/hphp_runtime_ext.dir/bcmath/ext_bcmath.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/ext_bcmath.cpp > CMakeFiles/hphp_runtime_ext.dir/bcmath/ext_bcmath.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/ext_bcmath.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/bcmath/ext_bcmath.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/ext_bcmath.cpp -o CMakeFiles/hphp_runtime_ext.dir/bcmath/ext_bcmath.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/ext_bcmath.cpp -o CMakeFiles/hphp_runtime_ext.dir/bcmath/ext_bcmath.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/ext_bcmath.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/ext_bcmath.cpp.o.requires
@@ -767,17 +767,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/ext_bcmath.cpp.o.provide
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bz2/bz2-file.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bz2/bz2-file.cpp.o: hphp/runtime/ext/bz2/bz2-file.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_32)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_32)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bz2/bz2-file.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bz2/bz2-file.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/bz2/bz2-file.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bz2/bz2-file.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/bz2/bz2-file.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bz2/bz2-file.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/bz2/bz2-file.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/bz2/bz2-file.cpp > CMakeFiles/hphp_runtime_ext.dir/bz2/bz2-file.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/bz2/bz2-file.cpp > CMakeFiles/hphp_runtime_ext.dir/bz2/bz2-file.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bz2/bz2-file.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/bz2/bz2-file.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/bz2/bz2-file.cpp -o CMakeFiles/hphp_runtime_ext.dir/bz2/bz2-file.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/bz2/bz2-file.cpp -o CMakeFiles/hphp_runtime_ext.dir/bz2/bz2-file.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bz2/bz2-file.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bz2/bz2-file.cpp.o.requires
@@ -790,17 +790,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bz2/bz2-file.cpp.o.provides.bui
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bz2/ext_bz2.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bz2/ext_bz2.cpp.o: hphp/runtime/ext/bz2/ext_bz2.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_33)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_33)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bz2/ext_bz2.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bz2/ext_bz2.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/bz2/ext_bz2.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bz2/ext_bz2.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/bz2/ext_bz2.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bz2/ext_bz2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/bz2/ext_bz2.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/bz2/ext_bz2.cpp > CMakeFiles/hphp_runtime_ext.dir/bz2/ext_bz2.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/bz2/ext_bz2.cpp > CMakeFiles/hphp_runtime_ext.dir/bz2/ext_bz2.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bz2/ext_bz2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/bz2/ext_bz2.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/bz2/ext_bz2.cpp -o CMakeFiles/hphp_runtime_ext.dir/bz2/ext_bz2.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/bz2/ext_bz2.cpp -o CMakeFiles/hphp_runtime_ext.dir/bz2/ext_bz2.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bz2/ext_bz2.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bz2/ext_bz2.cpp.o.requires
@@ -813,17 +813,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bz2/ext_bz2.cpp.o.provides.buil
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections.cpp.o: hphp/runtime/ext/collections/ext_collections.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_34)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_34)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/collections/ext_collections.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/collections/ext_collections.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/collections/ext_collections.cpp > CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/collections/ext_collections.cpp > CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/collections/ext_collections.cpp -o CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/collections/ext_collections.cpp -o CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections.cpp.o.requires
@@ -836,17 +836,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-idl.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-idl.cpp.o: hphp/runtime/ext/collections/ext_collections-idl.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_35)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_35)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-idl.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-idl.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/collections/ext_collections-idl.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-idl.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/collections/ext_collections-idl.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-idl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-idl.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/collections/ext_collections-idl.cpp > CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-idl.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/collections/ext_collections-idl.cpp > CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-idl.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-idl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-idl.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/collections/ext_collections-idl.cpp -o CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-idl.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/collections/ext_collections-idl.cpp -o CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-idl.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-idl.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-idl.cpp.o.requires
@@ -859,17 +859,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-idl
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-map.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-map.cpp.o: hphp/runtime/ext/collections/ext_collections-map.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_36)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_36)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-map.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-map.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/collections/ext_collections-map.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-map.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/collections/ext_collections-map.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-map.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-map.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/collections/ext_collections-map.cpp > CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-map.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/collections/ext_collections-map.cpp > CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-map.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-map.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-map.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/collections/ext_collections-map.cpp -o CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-map.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/collections/ext_collections-map.cpp -o CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-map.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-map.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-map.cpp.o.requires
@@ -882,17 +882,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-map
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-pair.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-pair.cpp.o: hphp/runtime/ext/collections/ext_collections-pair.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_37)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_37)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-pair.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-pair.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/collections/ext_collections-pair.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-pair.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/collections/ext_collections-pair.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-pair.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-pair.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/collections/ext_collections-pair.cpp > CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-pair.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/collections/ext_collections-pair.cpp > CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-pair.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-pair.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-pair.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/collections/ext_collections-pair.cpp -o CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-pair.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/collections/ext_collections-pair.cpp -o CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-pair.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-pair.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-pair.cpp.o.requires
@@ -905,17 +905,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-pai
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-set.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-set.cpp.o: hphp/runtime/ext/collections/ext_collections-set.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_38)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_38)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-set.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-set.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/collections/ext_collections-set.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-set.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/collections/ext_collections-set.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-set.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-set.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/collections/ext_collections-set.cpp > CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-set.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/collections/ext_collections-set.cpp > CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-set.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-set.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-set.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/collections/ext_collections-set.cpp -o CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-set.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/collections/ext_collections-set.cpp -o CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-set.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-set.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-set.cpp.o.requires
@@ -928,17 +928,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-set
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-vector.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-vector.cpp.o: hphp/runtime/ext/collections/ext_collections-vector.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_39)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_39)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-vector.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-vector.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/collections/ext_collections-vector.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-vector.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/collections/ext_collections-vector.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-vector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-vector.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/collections/ext_collections-vector.cpp > CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-vector.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/collections/ext_collections-vector.cpp > CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-vector.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-vector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-vector.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/collections/ext_collections-vector.cpp -o CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-vector.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/collections/ext_collections-vector.cpp -o CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-vector.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-vector.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-vector.cpp.o.requires
@@ -951,17 +951,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/collections/ext_collections-vec
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ctype/ext_ctype.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ctype/ext_ctype.cpp.o: hphp/runtime/ext/ctype/ext_ctype.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_40)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_40)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ctype/ext_ctype.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/ctype/ext_ctype.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/ctype/ext_ctype.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/ctype/ext_ctype.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/ctype/ext_ctype.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ctype/ext_ctype.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/ctype/ext_ctype.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/ctype/ext_ctype.cpp > CMakeFiles/hphp_runtime_ext.dir/ctype/ext_ctype.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/ctype/ext_ctype.cpp > CMakeFiles/hphp_runtime_ext.dir/ctype/ext_ctype.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ctype/ext_ctype.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/ctype/ext_ctype.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/ctype/ext_ctype.cpp -o CMakeFiles/hphp_runtime_ext.dir/ctype/ext_ctype.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/ctype/ext_ctype.cpp -o CMakeFiles/hphp_runtime_ext.dir/ctype/ext_ctype.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ctype/ext_ctype.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ctype/ext_ctype.cpp.o.requires
@@ -974,17 +974,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ctype/ext_ctype.cpp.o.provides.
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/curl/ext_curl.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/curl/ext_curl.cpp.o: hphp/runtime/ext/curl/ext_curl.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_41)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_41)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/curl/ext_curl.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/curl/ext_curl.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/curl/ext_curl.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/curl/ext_curl.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/curl/ext_curl.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/curl/ext_curl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/curl/ext_curl.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/curl/ext_curl.cpp > CMakeFiles/hphp_runtime_ext.dir/curl/ext_curl.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/curl/ext_curl.cpp > CMakeFiles/hphp_runtime_ext.dir/curl/ext_curl.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/curl/ext_curl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/curl/ext_curl.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/curl/ext_curl.cpp -o CMakeFiles/hphp_runtime_ext.dir/curl/ext_curl.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/curl/ext_curl.cpp -o CMakeFiles/hphp_runtime_ext.dir/curl/ext_curl.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/curl/ext_curl.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/curl/ext_curl.cpp.o.requires
@@ -997,17 +997,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/curl/ext_curl.cpp.o.provides.bu
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/datetime/ext_datetime.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/datetime/ext_datetime.cpp.o: hphp/runtime/ext/datetime/ext_datetime.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_42)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_42)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/datetime/ext_datetime.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/datetime/ext_datetime.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/datetime/ext_datetime.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/datetime/ext_datetime.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/datetime/ext_datetime.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/datetime/ext_datetime.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/datetime/ext_datetime.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/datetime/ext_datetime.cpp > CMakeFiles/hphp_runtime_ext.dir/datetime/ext_datetime.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/datetime/ext_datetime.cpp > CMakeFiles/hphp_runtime_ext.dir/datetime/ext_datetime.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/datetime/ext_datetime.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/datetime/ext_datetime.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/datetime/ext_datetime.cpp -o CMakeFiles/hphp_runtime_ext.dir/datetime/ext_datetime.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/datetime/ext_datetime.cpp -o CMakeFiles/hphp_runtime_ext.dir/datetime/ext_datetime.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/datetime/ext_datetime.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/datetime/ext_datetime.cpp.o.requires
@@ -1020,17 +1020,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/datetime/ext_datetime.cpp.o.pro
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/debugger/ext_debugger.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/debugger/ext_debugger.cpp.o: hphp/runtime/ext/debugger/ext_debugger.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_43)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_43)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/debugger/ext_debugger.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/debugger/ext_debugger.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/debugger/ext_debugger.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/debugger/ext_debugger.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/debugger/ext_debugger.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/debugger/ext_debugger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/debugger/ext_debugger.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/debugger/ext_debugger.cpp > CMakeFiles/hphp_runtime_ext.dir/debugger/ext_debugger.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/debugger/ext_debugger.cpp > CMakeFiles/hphp_runtime_ext.dir/debugger/ext_debugger.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/debugger/ext_debugger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/debugger/ext_debugger.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/debugger/ext_debugger.cpp -o CMakeFiles/hphp_runtime_ext.dir/debugger/ext_debugger.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/debugger/ext_debugger.cpp -o CMakeFiles/hphp_runtime_ext.dir/debugger/ext_debugger.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/debugger/ext_debugger.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/debugger/ext_debugger.cpp.o.requires
@@ -1043,17 +1043,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/debugger/ext_debugger.cpp.o.pro
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/domdocument/ext_domdocument.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/domdocument/ext_domdocument.cpp.o: hphp/runtime/ext/domdocument/ext_domdocument.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_44)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_44)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/domdocument/ext_domdocument.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/domdocument/ext_domdocument.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/domdocument/ext_domdocument.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/domdocument/ext_domdocument.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/domdocument/ext_domdocument.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/domdocument/ext_domdocument.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/domdocument/ext_domdocument.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/domdocument/ext_domdocument.cpp > CMakeFiles/hphp_runtime_ext.dir/domdocument/ext_domdocument.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/domdocument/ext_domdocument.cpp > CMakeFiles/hphp_runtime_ext.dir/domdocument/ext_domdocument.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/domdocument/ext_domdocument.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/domdocument/ext_domdocument.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/domdocument/ext_domdocument.cpp -o CMakeFiles/hphp_runtime_ext.dir/domdocument/ext_domdocument.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/domdocument/ext_domdocument.cpp -o CMakeFiles/hphp_runtime_ext.dir/domdocument/ext_domdocument.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/domdocument/ext_domdocument.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/domdocument/ext_domdocument.cpp.o.requires
@@ -1066,17 +1066,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/domdocument/ext_domdocument.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/enum/ext_enum.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/enum/ext_enum.cpp.o: hphp/runtime/ext/enum/ext_enum.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_45)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_45)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/enum/ext_enum.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/enum/ext_enum.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/enum/ext_enum.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/enum/ext_enum.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/enum/ext_enum.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/enum/ext_enum.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/enum/ext_enum.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/enum/ext_enum.cpp > CMakeFiles/hphp_runtime_ext.dir/enum/ext_enum.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/enum/ext_enum.cpp > CMakeFiles/hphp_runtime_ext.dir/enum/ext_enum.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/enum/ext_enum.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/enum/ext_enum.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/enum/ext_enum.cpp -o CMakeFiles/hphp_runtime_ext.dir/enum/ext_enum.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/enum/ext_enum.cpp -o CMakeFiles/hphp_runtime_ext.dir/enum/ext_enum.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/enum/ext_enum.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/enum/ext_enum.cpp.o.requires
@@ -1089,17 +1089,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/enum/ext_enum.cpp.o.provides.bu
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fb/ext_fb.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fb/ext_fb.cpp.o: hphp/runtime/ext/fb/ext_fb.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_46)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_46)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fb/ext_fb.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/fb/ext_fb.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/fb/ext_fb.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/fb/ext_fb.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/fb/ext_fb.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fb/ext_fb.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/fb/ext_fb.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/fb/ext_fb.cpp > CMakeFiles/hphp_runtime_ext.dir/fb/ext_fb.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/fb/ext_fb.cpp > CMakeFiles/hphp_runtime_ext.dir/fb/ext_fb.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fb/ext_fb.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/fb/ext_fb.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/fb/ext_fb.cpp -o CMakeFiles/hphp_runtime_ext.dir/fb/ext_fb.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/fb/ext_fb.cpp -o CMakeFiles/hphp_runtime_ext.dir/fb/ext_fb.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fb/ext_fb.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fb/ext_fb.cpp.o.requires
@@ -1112,17 +1112,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fb/ext_fb.cpp.o.provides.build:
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/ext_fileinfo.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/ext_fileinfo.cpp.o: hphp/runtime/ext/fileinfo/ext_fileinfo.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_47)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_47)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/ext_fileinfo.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/ext_fileinfo.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/ext_fileinfo.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/ext_fileinfo.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/ext_fileinfo.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/ext_fileinfo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/fileinfo/ext_fileinfo.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/ext_fileinfo.cpp > CMakeFiles/hphp_runtime_ext.dir/fileinfo/ext_fileinfo.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/ext_fileinfo.cpp > CMakeFiles/hphp_runtime_ext.dir/fileinfo/ext_fileinfo.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/ext_fileinfo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/fileinfo/ext_fileinfo.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/ext_fileinfo.cpp -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/ext_fileinfo.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/ext_fileinfo.cpp -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/ext_fileinfo.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/ext_fileinfo.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/ext_fileinfo.cpp.o.requires
@@ -1135,17 +1135,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/ext_fileinfo.cpp.o.pro
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apprentice.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apprentice.cpp.o: hphp/runtime/ext/fileinfo/libmagic/apprentice.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_48)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_48)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apprentice.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apprentice.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/apprentice.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apprentice.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/apprentice.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apprentice.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apprentice.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/apprentice.cpp > CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apprentice.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/apprentice.cpp > CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apprentice.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apprentice.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apprentice.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/apprentice.cpp -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apprentice.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/apprentice.cpp -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apprentice.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apprentice.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apprentice.cpp.o.requires
@@ -1158,17 +1158,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apprentice.cp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apptype.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apptype.cpp.o: hphp/runtime/ext/fileinfo/libmagic/apptype.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_49)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_49)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apptype.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apptype.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/apptype.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apptype.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/apptype.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apptype.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apptype.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/apptype.cpp > CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apptype.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/apptype.cpp > CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apptype.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apptype.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apptype.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/apptype.cpp -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apptype.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/apptype.cpp -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apptype.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apptype.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apptype.cpp.o.requires
@@ -1181,17 +1181,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/apptype.cpp.o
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/ascmagic.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/ascmagic.cpp.o: hphp/runtime/ext/fileinfo/libmagic/ascmagic.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_50)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_50)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/ascmagic.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/ascmagic.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/ascmagic.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/ascmagic.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/ascmagic.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/ascmagic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/ascmagic.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/ascmagic.cpp > CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/ascmagic.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/ascmagic.cpp > CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/ascmagic.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/ascmagic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/ascmagic.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/ascmagic.cpp -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/ascmagic.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/ascmagic.cpp -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/ascmagic.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/ascmagic.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/ascmagic.cpp.o.requires
@@ -1204,17 +1204,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/ascmagic.cpp.
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf.cpp.o: hphp/runtime/ext/fileinfo/libmagic/cdf.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_51)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_51)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/cdf.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/cdf.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/cdf.cpp > CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/cdf.cpp > CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/cdf.cpp -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/cdf.cpp -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf.cpp.o.requires
@@ -1227,17 +1227,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf.cpp.o.pro
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf_time.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf_time.cpp.o: hphp/runtime/ext/fileinfo/libmagic/cdf_time.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_52)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_52)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf_time.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf_time.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/cdf_time.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf_time.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/cdf_time.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf_time.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf_time.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/cdf_time.cpp > CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf_time.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/cdf_time.cpp > CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf_time.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf_time.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf_time.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/cdf_time.cpp -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf_time.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/cdf_time.cpp -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf_time.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf_time.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf_time.cpp.o.requires
@@ -1250,17 +1250,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/cdf_time.cpp.
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/compress.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/compress.cpp.o: hphp/runtime/ext/fileinfo/libmagic/compress.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_53)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_53)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/compress.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/compress.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/compress.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/compress.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/compress.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/compress.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/compress.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/compress.cpp > CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/compress.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/compress.cpp > CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/compress.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/compress.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/compress.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/compress.cpp -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/compress.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/compress.cpp -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/compress.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/compress.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/compress.cpp.o.requires
@@ -1273,17 +1273,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/compress.cpp.
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/encoding.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/encoding.cpp.o: hphp/runtime/ext/fileinfo/libmagic/encoding.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_54)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_54)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/encoding.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/encoding.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/encoding.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/encoding.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/encoding.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/encoding.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/encoding.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/encoding.cpp > CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/encoding.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/encoding.cpp > CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/encoding.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/encoding.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/encoding.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/encoding.cpp -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/encoding.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/encoding.cpp -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/encoding.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/encoding.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/encoding.cpp.o.requires
@@ -1296,17 +1296,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/encoding.cpp.
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/fsmagic.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/fsmagic.cpp.o: hphp/runtime/ext/fileinfo/libmagic/fsmagic.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_55)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_55)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/fsmagic.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/fsmagic.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/fsmagic.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/fsmagic.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/fsmagic.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/fsmagic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/fsmagic.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/fsmagic.cpp > CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/fsmagic.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/fsmagic.cpp > CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/fsmagic.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/fsmagic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/fsmagic.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/fsmagic.cpp -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/fsmagic.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/fsmagic.cpp -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/fsmagic.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/fsmagic.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/fsmagic.cpp.o.requires
@@ -1319,17 +1319,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/fsmagic.cpp.o
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/funcs.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/funcs.cpp.o: hphp/runtime/ext/fileinfo/libmagic/funcs.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_56)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_56)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/funcs.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/funcs.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/funcs.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/funcs.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/funcs.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/funcs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/funcs.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/funcs.cpp > CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/funcs.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/funcs.cpp > CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/funcs.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/funcs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/funcs.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/funcs.cpp -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/funcs.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/funcs.cpp -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/funcs.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/funcs.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/funcs.cpp.o.requires
@@ -1342,17 +1342,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/funcs.cpp.o.p
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/is_tar.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/is_tar.cpp.o: hphp/runtime/ext/fileinfo/libmagic/is_tar.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_57)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_57)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/is_tar.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/is_tar.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/is_tar.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/is_tar.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/is_tar.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/is_tar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/is_tar.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/is_tar.cpp > CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/is_tar.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/is_tar.cpp > CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/is_tar.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/is_tar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/is_tar.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/is_tar.cpp -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/is_tar.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/is_tar.cpp -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/is_tar.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/is_tar.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/is_tar.cpp.o.requires
@@ -1365,17 +1365,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/is_tar.cpp.o.
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/magic.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/magic.cpp.o: hphp/runtime/ext/fileinfo/libmagic/magic.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_58)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_58)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/magic.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/magic.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/magic.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/magic.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/magic.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/magic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/magic.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/magic.cpp > CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/magic.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/magic.cpp > CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/magic.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/magic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/magic.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/magic.cpp -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/magic.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/magic.cpp -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/magic.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/magic.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/magic.cpp.o.requires
@@ -1388,17 +1388,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/magic.cpp.o.p
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/print.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/print.cpp.o: hphp/runtime/ext/fileinfo/libmagic/print.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_59)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_59)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/print.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/print.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/print.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/print.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/print.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/print.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/print.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/print.cpp > CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/print.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/print.cpp > CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/print.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/print.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/print.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/print.cpp -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/print.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/print.cpp -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/print.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/print.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/print.cpp.o.requires
@@ -1411,17 +1411,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/print.cpp.o.p
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readcdf.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readcdf.cpp.o: hphp/runtime/ext/fileinfo/libmagic/readcdf.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_60)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_60)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readcdf.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readcdf.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/readcdf.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readcdf.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/readcdf.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readcdf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readcdf.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/readcdf.cpp > CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readcdf.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/readcdf.cpp > CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readcdf.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readcdf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readcdf.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/readcdf.cpp -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readcdf.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/readcdf.cpp -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readcdf.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readcdf.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readcdf.cpp.o.requires
@@ -1434,17 +1434,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readcdf.cpp.o
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readelf.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readelf.cpp.o: hphp/runtime/ext/fileinfo/libmagic/readelf.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_61)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_61)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readelf.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readelf.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/readelf.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readelf.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/readelf.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readelf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readelf.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/readelf.cpp > CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readelf.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/readelf.cpp > CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readelf.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readelf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readelf.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/readelf.cpp -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readelf.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/readelf.cpp -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readelf.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readelf.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readelf.cpp.o.requires
@@ -1457,17 +1457,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/readelf.cpp.o
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/softmagic.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/softmagic.cpp.o: hphp/runtime/ext/fileinfo/libmagic/softmagic.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_62)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_62)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/softmagic.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/softmagic.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/softmagic.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/softmagic.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/softmagic.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/softmagic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/softmagic.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/softmagic.cpp > CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/softmagic.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/softmagic.cpp > CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/softmagic.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/softmagic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/softmagic.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/softmagic.cpp -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/softmagic.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/softmagic.cpp -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/softmagic.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/softmagic.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/softmagic.cpp.o.requires
@@ -1480,17 +1480,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/softmagic.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/strlcpy.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/strlcpy.cpp.o: hphp/runtime/ext/fileinfo/libmagic/strlcpy.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_63)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_63)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/strlcpy.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/strlcpy.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/strlcpy.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/strlcpy.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/strlcpy.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/strlcpy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/strlcpy.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/strlcpy.cpp > CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/strlcpy.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/strlcpy.cpp > CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/strlcpy.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/strlcpy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/strlcpy.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/fileinfo/libmagic/strlcpy.cpp -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/strlcpy.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/fileinfo/libmagic/strlcpy.cpp -o CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/strlcpy.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/strlcpy.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/strlcpy.cpp.o.requires
@@ -1503,17 +1503,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/fileinfo/libmagic/strlcpy.cpp.o
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/ext_filter.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/ext_filter.cpp.o: hphp/runtime/ext/filter/ext_filter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_64)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_64)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/ext_filter.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/filter/ext_filter.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/filter/ext_filter.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/filter/ext_filter.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/filter/ext_filter.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/ext_filter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/filter/ext_filter.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/filter/ext_filter.cpp > CMakeFiles/hphp_runtime_ext.dir/filter/ext_filter.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/filter/ext_filter.cpp > CMakeFiles/hphp_runtime_ext.dir/filter/ext_filter.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/ext_filter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/filter/ext_filter.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/filter/ext_filter.cpp -o CMakeFiles/hphp_runtime_ext.dir/filter/ext_filter.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/filter/ext_filter.cpp -o CMakeFiles/hphp_runtime_ext.dir/filter/ext_filter.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/ext_filter.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/ext_filter.cpp.o.requires
@@ -1526,17 +1526,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/ext_filter.cpp.o.provide
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/logical_filters.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/logical_filters.cpp.o: hphp/runtime/ext/filter/logical_filters.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_65)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_65)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/logical_filters.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/filter/logical_filters.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/filter/logical_filters.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/filter/logical_filters.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/filter/logical_filters.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/logical_filters.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/filter/logical_filters.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/filter/logical_filters.cpp > CMakeFiles/hphp_runtime_ext.dir/filter/logical_filters.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/filter/logical_filters.cpp > CMakeFiles/hphp_runtime_ext.dir/filter/logical_filters.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/logical_filters.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/filter/logical_filters.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/filter/logical_filters.cpp -o CMakeFiles/hphp_runtime_ext.dir/filter/logical_filters.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/filter/logical_filters.cpp -o CMakeFiles/hphp_runtime_ext.dir/filter/logical_filters.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/logical_filters.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/logical_filters.cpp.o.requires
@@ -1549,17 +1549,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/logical_filters.cpp.o.pr
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/sanitizing_filters.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/sanitizing_filters.cpp.o: hphp/runtime/ext/filter/sanitizing_filters.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_66)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_66)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/sanitizing_filters.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/filter/sanitizing_filters.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/filter/sanitizing_filters.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/filter/sanitizing_filters.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/filter/sanitizing_filters.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/sanitizing_filters.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/filter/sanitizing_filters.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/filter/sanitizing_filters.cpp > CMakeFiles/hphp_runtime_ext.dir/filter/sanitizing_filters.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/filter/sanitizing_filters.cpp > CMakeFiles/hphp_runtime_ext.dir/filter/sanitizing_filters.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/sanitizing_filters.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/filter/sanitizing_filters.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/filter/sanitizing_filters.cpp -o CMakeFiles/hphp_runtime_ext.dir/filter/sanitizing_filters.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/filter/sanitizing_filters.cpp -o CMakeFiles/hphp_runtime_ext.dir/filter/sanitizing_filters.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/sanitizing_filters.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/sanitizing_filters.cpp.o.requires
@@ -1572,17 +1572,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/sanitizing_filters.cpp.o
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/ext_gd.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/ext_gd.cpp.o: hphp/runtime/ext/gd/ext_gd.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_67)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_67)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/ext_gd.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/ext_gd.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/ext_gd.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/ext_gd.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/ext_gd.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/ext_gd.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gd/ext_gd.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/ext_gd.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/ext_gd.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/ext_gd.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/ext_gd.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/ext_gd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gd/ext_gd.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/ext_gd.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/ext_gd.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/ext_gd.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/ext_gd.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/ext_gd.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/ext_gd.cpp.o.requires
@@ -1595,17 +1595,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/ext_gd.cpp.o.provides.build:
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc.cpp.o: hphp/runtime/ext/gd/libgd/gd_arc.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_68)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_68)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_arc.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_arc.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_arc.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_arc.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_arc.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_arc.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc.cpp.o.requires
@@ -1616,42 +1616,19 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc.cpp.o.provides:
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc.cpp.o.provides.build: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc.cpp.o
 
-hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc_f_buggy.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
-hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc_f_buggy.cpp.o: hphp/runtime/ext/gd/libgd/gd_arc_f_buggy.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_69)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc_f_buggy.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc_f_buggy.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_arc_f_buggy.cpp
-
-hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc_f_buggy.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc_f_buggy.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_arc_f_buggy.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc_f_buggy.cpp.i
-
-hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc_f_buggy.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc_f_buggy.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_arc_f_buggy.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc_f_buggy.cpp.s
-
-hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc_f_buggy.cpp.o.requires:
-.PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc_f_buggy.cpp.o.requires
-
-hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc_f_buggy.cpp.o.provides: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc_f_buggy.cpp.o.requires
-	$(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc_f_buggy.cpp.o.provides.build
-.PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc_f_buggy.cpp.o.provides
-
-hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc_f_buggy.cpp.o.provides.build: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc_f_buggy.cpp.o
-
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdcache.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdcache.cpp.o: hphp/runtime/ext/gd/libgd/gdcache.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_70)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_69)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdcache.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdcache.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gdcache.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdcache.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gdcache.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdcache.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdcache.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gdcache.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdcache.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gdcache.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdcache.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdcache.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdcache.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gdcache.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdcache.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gdcache.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdcache.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdcache.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdcache.cpp.o.requires
@@ -1664,17 +1641,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdcache.cpp.o.provides
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_color.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_color.cpp.o: hphp/runtime/ext/gd/libgd/gd_color.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_71)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_70)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_color.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_color.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_color.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_color.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_color.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_color.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_color.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_color.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_color.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_color.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_color.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_color.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_color.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_color.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_color.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_color.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_color.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_color.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_color.cpp.o.requires
@@ -1687,17 +1664,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_color.cpp.o.provide
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd.cpp.o: hphp/runtime/ext/gd/libgd/gd.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_72)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_71)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd.cpp.o.requires
@@ -1710,17 +1687,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd.cpp.o.provides.buil
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_crop.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_crop.cpp.o: hphp/runtime/ext/gd/libgd/gd_crop.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_73)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_72)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_crop.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_crop.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_crop.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_crop.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_crop.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_crop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_crop.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_crop.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_crop.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_crop.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_crop.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_crop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_crop.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_crop.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_crop.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_crop.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_crop.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_crop.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_crop.cpp.o.requires
@@ -1733,17 +1710,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_crop.cpp.o.provides
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_filter.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_filter.cpp.o: hphp/runtime/ext/gd/libgd/gd_filter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_74)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_73)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_filter.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_filter.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_filter.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_filter.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_filter.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_filter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_filter.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_filter.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_filter.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_filter.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_filter.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_filter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_filter.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_filter.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_filter.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_filter.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_filter.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_filter.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_filter.cpp.o.requires
@@ -1756,17 +1733,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_filter.cpp.o.provid
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontg.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontg.cpp.o: hphp/runtime/ext/gd/libgd/gdfontg.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_75)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_74)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontg.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontg.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gdfontg.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontg.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gdfontg.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontg.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gdfontg.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontg.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gdfontg.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontg.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontg.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gdfontg.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontg.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gdfontg.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontg.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontg.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontg.cpp.o.requires
@@ -1779,17 +1756,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontg.cpp.o.provides
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontl.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontl.cpp.o: hphp/runtime/ext/gd/libgd/gdfontl.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_76)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_75)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontl.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontl.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gdfontl.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontl.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gdfontl.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontl.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gdfontl.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontl.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gdfontl.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontl.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontl.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gdfontl.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontl.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gdfontl.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontl.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontl.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontl.cpp.o.requires
@@ -1802,17 +1779,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontl.cpp.o.provides
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontmb.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontmb.cpp.o: hphp/runtime/ext/gd/libgd/gdfontmb.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_77)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_76)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontmb.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontmb.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gdfontmb.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontmb.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gdfontmb.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontmb.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontmb.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gdfontmb.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontmb.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gdfontmb.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontmb.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontmb.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontmb.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gdfontmb.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontmb.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gdfontmb.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontmb.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontmb.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontmb.cpp.o.requires
@@ -1825,17 +1802,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontmb.cpp.o.provide
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfonts.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfonts.cpp.o: hphp/runtime/ext/gd/libgd/gdfonts.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_78)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_77)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfonts.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfonts.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gdfonts.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfonts.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gdfonts.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfonts.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfonts.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gdfonts.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfonts.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gdfonts.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfonts.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfonts.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfonts.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gdfonts.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfonts.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gdfonts.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfonts.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfonts.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfonts.cpp.o.requires
@@ -1848,17 +1825,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfonts.cpp.o.provides
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontt.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontt.cpp.o: hphp/runtime/ext/gd/libgd/gdfontt.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_79)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_78)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontt.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontt.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gdfontt.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontt.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gdfontt.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontt.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gdfontt.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontt.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gdfontt.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontt.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontt.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gdfontt.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontt.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gdfontt.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontt.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontt.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontt.cpp.o.requires
@@ -1871,17 +1848,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdfontt.cpp.o.provides
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdft.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdft.cpp.o: hphp/runtime/ext/gd/libgd/gdft.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_80)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_79)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdft.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdft.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gdft.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdft.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gdft.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdft.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdft.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gdft.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdft.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gdft.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdft.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdft.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdft.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gdft.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdft.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gdft.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdft.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdft.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdft.cpp.o.requires
@@ -1894,17 +1871,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdft.cpp.o.provides.bu
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd2.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd2.cpp.o: hphp/runtime/ext/gd/libgd/gd_gd2.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_81)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_80)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd2.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd2.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_gd2.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd2.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_gd2.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd2.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_gd2.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd2.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_gd2.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd2.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd2.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_gd2.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd2.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_gd2.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd2.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd2.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd2.cpp.o.requires
@@ -1917,17 +1894,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd2.cpp.o.provides.
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd.cpp.o: hphp/runtime/ext/gd/libgd/gd_gd.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_82)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_81)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_gd.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_gd.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_gd.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_gd.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_gd.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_gd.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd.cpp.o.requires
@@ -1940,17 +1917,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gd.cpp.o.provides.b
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_in.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_in.cpp.o: hphp/runtime/ext/gd/libgd/gd_gif_in.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_83)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_82)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_in.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_in.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_gif_in.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_in.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_gif_in.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_in.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_in.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_gif_in.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_in.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_gif_in.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_in.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_in.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_in.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_gif_in.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_in.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_gif_in.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_in.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_in.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_in.cpp.o.requires
@@ -1963,17 +1940,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_in.cpp.o.provid
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_out.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_out.cpp.o: hphp/runtime/ext/gd/libgd/gd_gif_out.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_84)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_83)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_out.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_out.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_gif_out.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_out.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_gif_out.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_out.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_out.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_gif_out.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_out.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_gif_out.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_out.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_out.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_out.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_gif_out.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_out.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_gif_out.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_out.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_out.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_out.cpp.o.requires
@@ -1986,17 +1963,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_gif_out.cpp.o.provi
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdhelpers.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdhelpers.cpp.o: hphp/runtime/ext/gd/libgd/gdhelpers.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_85)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_84)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdhelpers.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdhelpers.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gdhelpers.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdhelpers.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gdhelpers.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdhelpers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdhelpers.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gdhelpers.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdhelpers.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gdhelpers.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdhelpers.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdhelpers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdhelpers.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gdhelpers.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdhelpers.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gdhelpers.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdhelpers.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdhelpers.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdhelpers.cpp.o.requires
@@ -2009,17 +1986,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdhelpers.cpp.o.provid
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_interpolation.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_interpolation.cpp.o: hphp/runtime/ext/gd/libgd/gd_interpolation.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_86)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_85)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_interpolation.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_interpolation.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_interpolation.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_interpolation.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_interpolation.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_interpolation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_interpolation.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_interpolation.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_interpolation.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_interpolation.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_interpolation.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_interpolation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_interpolation.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_interpolation.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_interpolation.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_interpolation.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_interpolation.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_interpolation.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_interpolation.cpp.o.requires
@@ -2032,17 +2009,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_interpolation.cpp.o
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io.cpp.o: hphp/runtime/ext/gd/libgd/gd_io.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_87)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_86)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_io.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_io.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_io.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_io.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_io.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_io.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io.cpp.o.requires
@@ -2055,17 +2032,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io.cpp.o.provides.b
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_dp.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_dp.cpp.o: hphp/runtime/ext/gd/libgd/gd_io_dp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_88)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_87)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_dp.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_dp.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_io_dp.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_dp.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_io_dp.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_dp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_dp.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_io_dp.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_dp.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_io_dp.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_dp.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_dp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_dp.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_io_dp.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_dp.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_io_dp.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_dp.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_dp.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_dp.cpp.o.requires
@@ -2078,17 +2055,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_dp.cpp.o.provide
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_file.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_file.cpp.o: hphp/runtime/ext/gd/libgd/gd_io_file.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_89)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_88)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_file.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_file.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_io_file.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_file.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_io_file.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_file.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_file.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_io_file.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_file.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_io_file.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_file.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_file.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_file.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_io_file.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_file.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_io_file.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_file.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_file.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_file.cpp.o.requires
@@ -2101,17 +2078,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_file.cpp.o.provi
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_ss.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_ss.cpp.o: hphp/runtime/ext/gd/libgd/gd_io_ss.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_90)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_89)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_ss.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_ss.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_io_ss.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_ss.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_io_ss.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_ss.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_ss.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_io_ss.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_ss.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_io_ss.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_ss.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_ss.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_ss.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_io_ss.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_ss.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_io_ss.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_ss.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_ss.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_ss.cpp.o.requires
@@ -2124,17 +2101,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_io_ss.cpp.o.provide
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_jpeg.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_jpeg.cpp.o: hphp/runtime/ext/gd/libgd/gd_jpeg.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_91)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_90)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_jpeg.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_jpeg.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_jpeg.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_jpeg.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_jpeg.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_jpeg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_jpeg.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_jpeg.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_jpeg.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_jpeg.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_jpeg.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_jpeg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_jpeg.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_jpeg.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_jpeg.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_jpeg.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_jpeg.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_jpeg.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_jpeg.cpp.o.requires
@@ -2147,17 +2124,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_jpeg.cpp.o.provides
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdkanji.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdkanji.cpp.o: hphp/runtime/ext/gd/libgd/gdkanji.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_92)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_91)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdkanji.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdkanji.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gdkanji.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdkanji.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gdkanji.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdkanji.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdkanji.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gdkanji.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdkanji.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gdkanji.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdkanji.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdkanji.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdkanji.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gdkanji.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdkanji.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gdkanji.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdkanji.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdkanji.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdkanji.cpp.o.requires
@@ -2170,17 +2147,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdkanji.cpp.o.provides
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_matrix.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_matrix.cpp.o: hphp/runtime/ext/gd/libgd/gd_matrix.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_93)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_92)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_matrix.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_matrix.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_matrix.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_matrix.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_matrix.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_matrix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_matrix.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_matrix.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_matrix.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_matrix.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_matrix.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_matrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_matrix.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_matrix.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_matrix.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_matrix.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_matrix.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_matrix.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_matrix.cpp.o.requires
@@ -2193,17 +2170,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_matrix.cpp.o.provid
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_pixelate.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_pixelate.cpp.o: hphp/runtime/ext/gd/libgd/gd_pixelate.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_94)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_93)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_pixelate.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_pixelate.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_pixelate.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_pixelate.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_pixelate.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_pixelate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_pixelate.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_pixelate.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_pixelate.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_pixelate.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_pixelate.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_pixelate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_pixelate.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_pixelate.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_pixelate.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_pixelate.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_pixelate.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_pixelate.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_pixelate.cpp.o.requires
@@ -2216,17 +2193,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_pixelate.cpp.o.prov
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_png.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_png.cpp.o: hphp/runtime/ext/gd/libgd/gd_png.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_95)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_94)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_png.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_png.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_png.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_png.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_png.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_png.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_png.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_png.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_png.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_png.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_png.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_png.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_png.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_png.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_png.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_png.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_png.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_png.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_png.cpp.o.requires
@@ -2239,17 +2216,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_png.cpp.o.provides.
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_rotate.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_rotate.cpp.o: hphp/runtime/ext/gd/libgd/gd_rotate.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_96)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_95)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_rotate.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_rotate.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_rotate.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_rotate.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_rotate.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_rotate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_rotate.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_rotate.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_rotate.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_rotate.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_rotate.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_rotate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_rotate.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_rotate.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_rotate.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_rotate.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_rotate.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_rotate.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_rotate.cpp.o.requires
@@ -2262,17 +2239,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_rotate.cpp.o.provid
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_security.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_security.cpp.o: hphp/runtime/ext/gd/libgd/gd_security.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_97)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_96)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_security.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_security.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_security.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_security.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_security.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_security.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_security.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_security.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_security.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_security.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_security.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_security.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_security.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_security.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_security.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_security.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_security.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_security.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_security.cpp.o.requires
@@ -2285,17 +2262,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_security.cpp.o.prov
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_ss.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_ss.cpp.o: hphp/runtime/ext/gd/libgd/gd_ss.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_98)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_97)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_ss.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_ss.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_ss.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_ss.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_ss.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_ss.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_ss.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_ss.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_ss.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_ss.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_ss.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_ss.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_ss.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_ss.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_ss.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_ss.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_ss.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_ss.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_ss.cpp.o.requires
@@ -2308,17 +2285,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_ss.cpp.o.provides.b
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdtables.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdtables.cpp.o: hphp/runtime/ext/gd/libgd/gdtables.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_99)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_98)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdtables.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdtables.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gdtables.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdtables.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gdtables.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdtables.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdtables.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gdtables.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdtables.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gdtables.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdtables.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdtables.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdtables.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gdtables.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdtables.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gdtables.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdtables.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdtables.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdtables.cpp.o.requires
@@ -2331,17 +2308,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdtables.cpp.o.provide
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_topal.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_topal.cpp.o: hphp/runtime/ext/gd/libgd/gd_topal.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_100)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_99)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_topal.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_topal.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_topal.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_topal.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_topal.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_topal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_topal.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_topal.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_topal.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_topal.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_topal.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_topal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_topal.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_topal.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_topal.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_topal.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_topal.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_topal.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_topal.cpp.o.requires
@@ -2354,17 +2331,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_topal.cpp.o.provide
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_transform.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_transform.cpp.o: hphp/runtime/ext/gd/libgd/gd_transform.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_101)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_100)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_transform.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_transform.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_transform.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_transform.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_transform.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_transform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_transform.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_transform.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_transform.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_transform.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_transform.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_transform.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_transform.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_transform.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_transform.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_transform.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_transform.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_transform.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_transform.cpp.o.requires
@@ -2377,17 +2354,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_transform.cpp.o.pro
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_wbmp.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_wbmp.cpp.o: hphp/runtime/ext/gd/libgd/gd_wbmp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_102)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_101)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_wbmp.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_wbmp.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_wbmp.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_wbmp.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_wbmp.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_wbmp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_wbmp.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_wbmp.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_wbmp.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_wbmp.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_wbmp.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_wbmp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_wbmp.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_wbmp.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_wbmp.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_wbmp.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_wbmp.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_wbmp.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_wbmp.cpp.o.requires
@@ -2400,17 +2377,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_wbmp.cpp.o.provides
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_webp.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_webp.cpp.o: hphp/runtime/ext/gd/libgd/gd_webp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_103)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_102)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_webp.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_webp.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_webp.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_webp.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_webp.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_webp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_webp.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_webp.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_webp.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_webp.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_webp.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_webp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_webp.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/gd_webp.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_webp.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/gd_webp.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_webp.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_webp.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_webp.cpp.o.requires
@@ -2423,17 +2400,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_webp.cpp.o.provides
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/wbmp.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/wbmp.cpp.o: hphp/runtime/ext/gd/libgd/wbmp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_104)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_103)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/wbmp.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/wbmp.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/wbmp.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/wbmp.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/wbmp.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/wbmp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gd/libgd/wbmp.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/wbmp.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/wbmp.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/wbmp.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/wbmp.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/wbmp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gd/libgd/wbmp.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/wbmp.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/wbmp.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/wbmp.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/wbmp.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/wbmp.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/wbmp.cpp.o.requires
@@ -2446,17 +2423,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/wbmp.cpp.o.provides.bu
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/webpimg.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/webpimg.cpp.o: hphp/runtime/ext/gd/libgd/webpimg.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_105)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_104)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/webpimg.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/webpimg.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/webpimg.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/webpimg.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/webpimg.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/webpimg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gd/libgd/webpimg.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/webpimg.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/webpimg.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/webpimg.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/webpimg.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/webpimg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gd/libgd/webpimg.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/webpimg.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/webpimg.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/webpimg.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/webpimg.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/webpimg.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/webpimg.cpp.o.requires
@@ -2469,17 +2446,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/webpimg.cpp.o.provides
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/xbm.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/xbm.cpp.o: hphp/runtime/ext/gd/libgd/xbm.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_106)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_105)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/xbm.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/xbm.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/xbm.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/xbm.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/xbm.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/xbm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gd/libgd/xbm.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/xbm.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/xbm.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/xbm.cpp > CMakeFiles/hphp_runtime_ext.dir/gd/libgd/xbm.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/xbm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gd/libgd/xbm.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gd/libgd/xbm.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/xbm.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gd/libgd/xbm.cpp -o CMakeFiles/hphp_runtime_ext.dir/gd/libgd/xbm.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/xbm.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/xbm.cpp.o.requires
@@ -2492,17 +2469,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/xbm.cpp.o.provides.bui
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/generator/ext_generator.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/generator/ext_generator.cpp.o: hphp/runtime/ext/generator/ext_generator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_107)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_106)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/generator/ext_generator.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/generator/ext_generator.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/generator/ext_generator.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/generator/ext_generator.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/generator/ext_generator.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/generator/ext_generator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/generator/ext_generator.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/generator/ext_generator.cpp > CMakeFiles/hphp_runtime_ext.dir/generator/ext_generator.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/generator/ext_generator.cpp > CMakeFiles/hphp_runtime_ext.dir/generator/ext_generator.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/generator/ext_generator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/generator/ext_generator.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/generator/ext_generator.cpp -o CMakeFiles/hphp_runtime_ext.dir/generator/ext_generator.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/generator/ext_generator.cpp -o CMakeFiles/hphp_runtime_ext.dir/generator/ext_generator.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/generator/ext_generator.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/generator/ext_generator.cpp.o.requires
@@ -2515,17 +2492,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/generator/ext_generator.cpp.o.p
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gettext/ext_gettext.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gettext/ext_gettext.cpp.o: hphp/runtime/ext/gettext/ext_gettext.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_108)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_107)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gettext/ext_gettext.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gettext/ext_gettext.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gettext/ext_gettext.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gettext/ext_gettext.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gettext/ext_gettext.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gettext/ext_gettext.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gettext/ext_gettext.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gettext/ext_gettext.cpp > CMakeFiles/hphp_runtime_ext.dir/gettext/ext_gettext.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gettext/ext_gettext.cpp > CMakeFiles/hphp_runtime_ext.dir/gettext/ext_gettext.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gettext/ext_gettext.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gettext/ext_gettext.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gettext/ext_gettext.cpp -o CMakeFiles/hphp_runtime_ext.dir/gettext/ext_gettext.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gettext/ext_gettext.cpp -o CMakeFiles/hphp_runtime_ext.dir/gettext/ext_gettext.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gettext/ext_gettext.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gettext/ext_gettext.cpp.o.requires
@@ -2538,17 +2515,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gettext/ext_gettext.cpp.o.provi
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gmp/ext_gmp.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gmp/ext_gmp.cpp.o: hphp/runtime/ext/gmp/ext_gmp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_109)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_108)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gmp/ext_gmp.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gmp/ext_gmp.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/gmp/ext_gmp.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/gmp/ext_gmp.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/gmp/ext_gmp.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gmp/ext_gmp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/gmp/ext_gmp.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/gmp/ext_gmp.cpp > CMakeFiles/hphp_runtime_ext.dir/gmp/ext_gmp.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/gmp/ext_gmp.cpp > CMakeFiles/hphp_runtime_ext.dir/gmp/ext_gmp.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gmp/ext_gmp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/gmp/ext_gmp.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/gmp/ext_gmp.cpp -o CMakeFiles/hphp_runtime_ext.dir/gmp/ext_gmp.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/gmp/ext_gmp.cpp -o CMakeFiles/hphp_runtime_ext.dir/gmp/ext_gmp.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gmp/ext_gmp.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gmp/ext_gmp.cpp.o.requires
@@ -2561,17 +2538,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gmp/ext_gmp.cpp.o.provides.buil
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/ext_hash.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/ext_hash.cpp.o: hphp/runtime/ext/hash/ext_hash.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_110)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_109)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/ext_hash.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/hash/ext_hash.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/ext_hash.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/hash/ext_hash.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/ext_hash.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/ext_hash.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/hash/ext_hash.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/ext_hash.cpp > CMakeFiles/hphp_runtime_ext.dir/hash/ext_hash.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/ext_hash.cpp > CMakeFiles/hphp_runtime_ext.dir/hash/ext_hash.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/ext_hash.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/hash/ext_hash.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/ext_hash.cpp -o CMakeFiles/hphp_runtime_ext.dir/hash/ext_hash.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/ext_hash.cpp -o CMakeFiles/hphp_runtime_ext.dir/hash/ext_hash.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/ext_hash.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/ext_hash.cpp.o.requires
@@ -2584,17 +2561,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/ext_hash.cpp.o.provides.bu
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_adler32.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_adler32.cpp.o: hphp/runtime/ext/hash/hash_adler32.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_111)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_110)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_adler32.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_adler32.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_adler32.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_adler32.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_adler32.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_adler32.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/hash/hash_adler32.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_adler32.cpp > CMakeFiles/hphp_runtime_ext.dir/hash/hash_adler32.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_adler32.cpp > CMakeFiles/hphp_runtime_ext.dir/hash/hash_adler32.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_adler32.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/hash/hash_adler32.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_adler32.cpp -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_adler32.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_adler32.cpp -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_adler32.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_adler32.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_adler32.cpp.o.requires
@@ -2607,17 +2584,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_adler32.cpp.o.provide
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_crc32.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_crc32.cpp.o: hphp/runtime/ext/hash/hash_crc32.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_112)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_111)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_crc32.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_crc32.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_crc32.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_crc32.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_crc32.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_crc32.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/hash/hash_crc32.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_crc32.cpp > CMakeFiles/hphp_runtime_ext.dir/hash/hash_crc32.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_crc32.cpp > CMakeFiles/hphp_runtime_ext.dir/hash/hash_crc32.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_crc32.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/hash/hash_crc32.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_crc32.cpp -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_crc32.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_crc32.cpp -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_crc32.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_crc32.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_crc32.cpp.o.requires
@@ -2630,17 +2607,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_crc32.cpp.o.provides.
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_fnv1.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_fnv1.cpp.o: hphp/runtime/ext/hash/hash_fnv1.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_113)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_112)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_fnv1.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_fnv1.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_fnv1.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_fnv1.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_fnv1.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_fnv1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/hash/hash_fnv1.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_fnv1.cpp > CMakeFiles/hphp_runtime_ext.dir/hash/hash_fnv1.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_fnv1.cpp > CMakeFiles/hphp_runtime_ext.dir/hash/hash_fnv1.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_fnv1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/hash/hash_fnv1.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_fnv1.cpp -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_fnv1.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_fnv1.cpp -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_fnv1.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_fnv1.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_fnv1.cpp.o.requires
@@ -2653,17 +2630,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_fnv1.cpp.o.provides.b
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_furc.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_furc.cpp.o: hphp/runtime/ext/hash/hash_furc.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_114)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_113)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_furc.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_furc.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_furc.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_furc.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_furc.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_furc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/hash/hash_furc.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_furc.cpp > CMakeFiles/hphp_runtime_ext.dir/hash/hash_furc.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_furc.cpp > CMakeFiles/hphp_runtime_ext.dir/hash/hash_furc.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_furc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/hash/hash_furc.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_furc.cpp -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_furc.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_furc.cpp -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_furc.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_furc.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_furc.cpp.o.requires
@@ -2676,17 +2653,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_furc.cpp.o.provides.b
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_gost.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_gost.cpp.o: hphp/runtime/ext/hash/hash_gost.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_115)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_114)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_gost.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_gost.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_gost.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_gost.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_gost.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_gost.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/hash/hash_gost.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_gost.cpp > CMakeFiles/hphp_runtime_ext.dir/hash/hash_gost.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_gost.cpp > CMakeFiles/hphp_runtime_ext.dir/hash/hash_gost.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_gost.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/hash/hash_gost.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_gost.cpp -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_gost.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_gost.cpp -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_gost.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_gost.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_gost.cpp.o.requires
@@ -2699,17 +2676,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_gost.cpp.o.provides.b
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_haval.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_haval.cpp.o: hphp/runtime/ext/hash/hash_haval.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_116)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_115)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_haval.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_haval.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_haval.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_haval.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_haval.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_haval.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/hash/hash_haval.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_haval.cpp > CMakeFiles/hphp_runtime_ext.dir/hash/hash_haval.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_haval.cpp > CMakeFiles/hphp_runtime_ext.dir/hash/hash_haval.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_haval.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/hash/hash_haval.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_haval.cpp -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_haval.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_haval.cpp -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_haval.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_haval.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_haval.cpp.o.requires
@@ -2720,19 +2697,42 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_haval.cpp.o.provides:
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_haval.cpp.o.provides.build: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_haval.cpp.o
 
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_joaat.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_joaat.cpp.o: hphp/runtime/ext/hash/hash_joaat.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_116)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_joaat.cpp.o"
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_joaat.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_joaat.cpp
+
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_joaat.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/hash/hash_joaat.cpp.i"
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_joaat.cpp > CMakeFiles/hphp_runtime_ext.dir/hash/hash_joaat.cpp.i
+
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_joaat.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/hash/hash_joaat.cpp.s"
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_joaat.cpp -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_joaat.cpp.s
+
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_joaat.cpp.o.requires:
+.PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_joaat.cpp.o.requires
+
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_joaat.cpp.o.provides: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_joaat.cpp.o.requires
+	$(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_joaat.cpp.o.provides.build
+.PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_joaat.cpp.o.provides
+
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_joaat.cpp.o.provides.build: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_joaat.cpp.o
+
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_keccak.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_keccak.cpp.o: hphp/runtime/ext/hash/hash_keccak.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_117)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_117)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_keccak.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_keccak.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_keccak.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_keccak.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_keccak.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_keccak.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/hash/hash_keccak.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_keccak.cpp > CMakeFiles/hphp_runtime_ext.dir/hash/hash_keccak.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_keccak.cpp > CMakeFiles/hphp_runtime_ext.dir/hash/hash_keccak.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_keccak.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/hash/hash_keccak.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_keccak.cpp -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_keccak.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_keccak.cpp -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_keccak.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_keccak.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_keccak.cpp.o.requires
@@ -2745,17 +2745,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_keccak.cpp.o.provides
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_md.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_md.cpp.o: hphp/runtime/ext/hash/hash_md.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_118)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_118)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_md.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_md.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_md.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_md.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_md.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_md.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/hash/hash_md.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_md.cpp > CMakeFiles/hphp_runtime_ext.dir/hash/hash_md.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_md.cpp > CMakeFiles/hphp_runtime_ext.dir/hash/hash_md.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_md.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/hash/hash_md.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_md.cpp -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_md.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_md.cpp -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_md.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_md.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_md.cpp.o.requires
@@ -2768,17 +2768,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_md.cpp.o.provides.bui
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_murmur.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_murmur.cpp.o: hphp/runtime/ext/hash/hash_murmur.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_119)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_119)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_murmur.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_murmur.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_murmur.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_murmur.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_murmur.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_murmur.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/hash/hash_murmur.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_murmur.cpp > CMakeFiles/hphp_runtime_ext.dir/hash/hash_murmur.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_murmur.cpp > CMakeFiles/hphp_runtime_ext.dir/hash/hash_murmur.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_murmur.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/hash/hash_murmur.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_murmur.cpp -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_murmur.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_murmur.cpp -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_murmur.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_murmur.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_murmur.cpp.o.requires
@@ -2791,17 +2791,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_murmur.cpp.o.provides
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_ripemd.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_ripemd.cpp.o: hphp/runtime/ext/hash/hash_ripemd.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_120)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_120)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_ripemd.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_ripemd.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_ripemd.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_ripemd.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_ripemd.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_ripemd.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/hash/hash_ripemd.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_ripemd.cpp > CMakeFiles/hphp_runtime_ext.dir/hash/hash_ripemd.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_ripemd.cpp > CMakeFiles/hphp_runtime_ext.dir/hash/hash_ripemd.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_ripemd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/hash/hash_ripemd.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_ripemd.cpp -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_ripemd.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_ripemd.cpp -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_ripemd.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_ripemd.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_ripemd.cpp.o.requires
@@ -2814,17 +2814,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_ripemd.cpp.o.provides
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_salsa.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_salsa.cpp.o: hphp/runtime/ext/hash/hash_salsa.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_121)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_121)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_salsa.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_salsa.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_salsa.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_salsa.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_salsa.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_salsa.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/hash/hash_salsa.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_salsa.cpp > CMakeFiles/hphp_runtime_ext.dir/hash/hash_salsa.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_salsa.cpp > CMakeFiles/hphp_runtime_ext.dir/hash/hash_salsa.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_salsa.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/hash/hash_salsa.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_salsa.cpp -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_salsa.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_salsa.cpp -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_salsa.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_salsa.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_salsa.cpp.o.requires
@@ -2837,17 +2837,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_salsa.cpp.o.provides.
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_sha.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_sha.cpp.o: hphp/runtime/ext/hash/hash_sha.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_122)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_122)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_sha.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_sha.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_sha.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_sha.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_sha.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_sha.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/hash/hash_sha.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_sha.cpp > CMakeFiles/hphp_runtime_ext.dir/hash/hash_sha.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_sha.cpp > CMakeFiles/hphp_runtime_ext.dir/hash/hash_sha.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_sha.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/hash/hash_sha.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_sha.cpp -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_sha.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_sha.cpp -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_sha.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_sha.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_sha.cpp.o.requires
@@ -2860,17 +2860,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_sha.cpp.o.provides.bu
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_snefru.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_snefru.cpp.o: hphp/runtime/ext/hash/hash_snefru.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_123)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_123)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_snefru.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_snefru.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_snefru.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_snefru.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_snefru.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_snefru.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/hash/hash_snefru.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_snefru.cpp > CMakeFiles/hphp_runtime_ext.dir/hash/hash_snefru.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_snefru.cpp > CMakeFiles/hphp_runtime_ext.dir/hash/hash_snefru.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_snefru.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/hash/hash_snefru.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_snefru.cpp -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_snefru.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_snefru.cpp -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_snefru.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_snefru.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_snefru.cpp.o.requires
@@ -2883,17 +2883,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_snefru.cpp.o.provides
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_tiger.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_tiger.cpp.o: hphp/runtime/ext/hash/hash_tiger.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_124)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_124)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_tiger.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_tiger.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_tiger.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_tiger.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_tiger.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_tiger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/hash/hash_tiger.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_tiger.cpp > CMakeFiles/hphp_runtime_ext.dir/hash/hash_tiger.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_tiger.cpp > CMakeFiles/hphp_runtime_ext.dir/hash/hash_tiger.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_tiger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/hash/hash_tiger.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_tiger.cpp -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_tiger.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_tiger.cpp -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_tiger.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_tiger.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_tiger.cpp.o.requires
@@ -2906,17 +2906,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_tiger.cpp.o.provides.
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_whirlpool.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_whirlpool.cpp.o: hphp/runtime/ext/hash/hash_whirlpool.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_125)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_125)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_whirlpool.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_whirlpool.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_whirlpool.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_whirlpool.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_whirlpool.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_whirlpool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/hash/hash_whirlpool.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_whirlpool.cpp > CMakeFiles/hphp_runtime_ext.dir/hash/hash_whirlpool.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_whirlpool.cpp > CMakeFiles/hphp_runtime_ext.dir/hash/hash_whirlpool.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_whirlpool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/hash/hash_whirlpool.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/hash/hash_whirlpool.cpp -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_whirlpool.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/hash/hash_whirlpool.cpp -o CMakeFiles/hphp_runtime_ext.dir/hash/hash_whirlpool.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_whirlpool.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_whirlpool.cpp.o.requires
@@ -2929,17 +2929,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_whirlpool.cpp.o.provi
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hh/ext_hh.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hh/ext_hh.cpp.o: hphp/runtime/ext/hh/ext_hh.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_126)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_126)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hh/ext_hh.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/hh/ext_hh.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/hh/ext_hh.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/hh/ext_hh.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/hh/ext_hh.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hh/ext_hh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/hh/ext_hh.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/hh/ext_hh.cpp > CMakeFiles/hphp_runtime_ext.dir/hh/ext_hh.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/hh/ext_hh.cpp > CMakeFiles/hphp_runtime_ext.dir/hh/ext_hh.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hh/ext_hh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/hh/ext_hh.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/hh/ext_hh.cpp -o CMakeFiles/hphp_runtime_ext.dir/hh/ext_hh.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/hh/ext_hh.cpp -o CMakeFiles/hphp_runtime_ext.dir/hh/ext_hh.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hh/ext_hh.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hh/ext_hh.cpp.o.requires
@@ -2952,17 +2952,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hh/ext_hh.cpp.o.provides.build:
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hh_client/ext_hh_client.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hh_client/ext_hh_client.cpp.o: hphp/runtime/ext/hh_client/ext_hh_client.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_127)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_127)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hh_client/ext_hh_client.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/hh_client/ext_hh_client.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/hh_client/ext_hh_client.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/hh_client/ext_hh_client.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/hh_client/ext_hh_client.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hh_client/ext_hh_client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/hh_client/ext_hh_client.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/hh_client/ext_hh_client.cpp > CMakeFiles/hphp_runtime_ext.dir/hh_client/ext_hh_client.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/hh_client/ext_hh_client.cpp > CMakeFiles/hphp_runtime_ext.dir/hh_client/ext_hh_client.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hh_client/ext_hh_client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/hh_client/ext_hh_client.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/hh_client/ext_hh_client.cpp -o CMakeFiles/hphp_runtime_ext.dir/hh_client/ext_hh_client.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/hh_client/ext_hh_client.cpp -o CMakeFiles/hphp_runtime_ext.dir/hh_client/ext_hh_client.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hh_client/ext_hh_client.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hh_client/ext_hh_client.cpp.o.requires
@@ -2975,17 +2975,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hh_client/ext_hh_client.cpp.o.p
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hotprofiler/ext_hotprofiler.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hotprofiler/ext_hotprofiler.cpp.o: hphp/runtime/ext/hotprofiler/ext_hotprofiler.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_128)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_128)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hotprofiler/ext_hotprofiler.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/hotprofiler/ext_hotprofiler.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/hotprofiler/ext_hotprofiler.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/hotprofiler/ext_hotprofiler.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/hotprofiler/ext_hotprofiler.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hotprofiler/ext_hotprofiler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/hotprofiler/ext_hotprofiler.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/hotprofiler/ext_hotprofiler.cpp > CMakeFiles/hphp_runtime_ext.dir/hotprofiler/ext_hotprofiler.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/hotprofiler/ext_hotprofiler.cpp > CMakeFiles/hphp_runtime_ext.dir/hotprofiler/ext_hotprofiler.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hotprofiler/ext_hotprofiler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/hotprofiler/ext_hotprofiler.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/hotprofiler/ext_hotprofiler.cpp -o CMakeFiles/hphp_runtime_ext.dir/hotprofiler/ext_hotprofiler.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/hotprofiler/ext_hotprofiler.cpp -o CMakeFiles/hphp_runtime_ext.dir/hotprofiler/ext_hotprofiler.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hotprofiler/ext_hotprofiler.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hotprofiler/ext_hotprofiler.cpp.o.requires
@@ -2998,17 +2998,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hotprofiler/ext_hotprofiler.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/iconv/ext_iconv.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/iconv/ext_iconv.cpp.o: hphp/runtime/ext/iconv/ext_iconv.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_129)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_129)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/iconv/ext_iconv.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/iconv/ext_iconv.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/iconv/ext_iconv.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/iconv/ext_iconv.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/iconv/ext_iconv.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/iconv/ext_iconv.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/iconv/ext_iconv.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/iconv/ext_iconv.cpp > CMakeFiles/hphp_runtime_ext.dir/iconv/ext_iconv.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/iconv/ext_iconv.cpp > CMakeFiles/hphp_runtime_ext.dir/iconv/ext_iconv.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/iconv/ext_iconv.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/iconv/ext_iconv.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/iconv/ext_iconv.cpp -o CMakeFiles/hphp_runtime_ext.dir/iconv/ext_iconv.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/iconv/ext_iconv.cpp -o CMakeFiles/hphp_runtime_ext.dir/iconv/ext_iconv.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/iconv/ext_iconv.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/iconv/ext_iconv.cpp.o.requires
@@ -3021,17 +3021,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/iconv/ext_iconv.cpp.o.provides.
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/CodePointBreakIterator.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/CodePointBreakIterator.cpp.o: hphp/runtime/ext/icu/CodePointBreakIterator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_130)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_130)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/CodePointBreakIterator.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/CodePointBreakIterator.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/CodePointBreakIterator.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/CodePointBreakIterator.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/CodePointBreakIterator.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/CodePointBreakIterator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/icu/CodePointBreakIterator.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/CodePointBreakIterator.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/CodePointBreakIterator.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/CodePointBreakIterator.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/CodePointBreakIterator.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/CodePointBreakIterator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/icu/CodePointBreakIterator.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/CodePointBreakIterator.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/CodePointBreakIterator.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/CodePointBreakIterator.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/CodePointBreakIterator.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/CodePointBreakIterator.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/CodePointBreakIterator.cpp.o.requires
@@ -3044,17 +3044,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/CodePointBreakIterator.cpp.
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu.cpp.o: hphp/runtime/ext/icu/ext_icu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_131)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_131)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu.cpp.o.requires
@@ -3067,17 +3067,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu.cpp.o.provides.buil
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_break_iterator.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_break_iterator.cpp.o: hphp/runtime/ext/icu/ext_icu_break_iterator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_132)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_132)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_break_iterator.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_break_iterator.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_break_iterator.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_break_iterator.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_break_iterator.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_break_iterator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_break_iterator.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_break_iterator.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_break_iterator.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_break_iterator.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_break_iterator.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_break_iterator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_break_iterator.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_break_iterator.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_break_iterator.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_break_iterator.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_break_iterator.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_break_iterator.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_break_iterator.cpp.o.requires
@@ -3090,17 +3090,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_break_iterator.cpp.
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_calendar.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_calendar.cpp.o: hphp/runtime/ext/icu/ext_icu_calendar.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_133)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_133)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_calendar.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_calendar.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_calendar.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_calendar.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_calendar.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_calendar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_calendar.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_calendar.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_calendar.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_calendar.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_calendar.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_calendar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_calendar.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_calendar.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_calendar.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_calendar.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_calendar.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_calendar.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_calendar.cpp.o.requires
@@ -3113,17 +3113,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_calendar.cpp.o.prov
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_collator.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_collator.cpp.o: hphp/runtime/ext/icu/ext_icu_collator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_134)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_134)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_collator.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_collator.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_collator.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_collator.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_collator.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_collator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_collator.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_collator.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_collator.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_collator.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_collator.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_collator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_collator.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_collator.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_collator.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_collator.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_collator.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_collator.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_collator.cpp.o.requires
@@ -3136,17 +3136,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_collator.cpp.o.prov
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_fmt.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_fmt.cpp.o: hphp/runtime/ext/icu/ext_icu_date_fmt.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_135)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_135)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_fmt.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_fmt.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_date_fmt.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_fmt.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_date_fmt.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_fmt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_fmt.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_date_fmt.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_fmt.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_date_fmt.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_fmt.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_fmt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_fmt.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_date_fmt.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_fmt.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_date_fmt.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_fmt.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_fmt.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_fmt.cpp.o.requires
@@ -3159,17 +3159,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_fmt.cpp.o.prov
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_pattern_gen.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_pattern_gen.cpp.o: hphp/runtime/ext/icu/ext_icu_date_pattern_gen.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_136)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_136)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_pattern_gen.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_pattern_gen.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_date_pattern_gen.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_pattern_gen.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_date_pattern_gen.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_pattern_gen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_pattern_gen.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_date_pattern_gen.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_pattern_gen.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_date_pattern_gen.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_pattern_gen.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_pattern_gen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_pattern_gen.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_date_pattern_gen.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_pattern_gen.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_date_pattern_gen.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_pattern_gen.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_pattern_gen.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_pattern_gen.cpp.o.requires
@@ -3182,17 +3182,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_date_pattern_gen.cp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_grapheme.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_grapheme.cpp.o: hphp/runtime/ext/icu/ext_icu_grapheme.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_137)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_137)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_grapheme.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_grapheme.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_grapheme.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_grapheme.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_grapheme.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_grapheme.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_grapheme.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_grapheme.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_grapheme.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_grapheme.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_grapheme.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_grapheme.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_grapheme.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_grapheme.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_grapheme.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_grapheme.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_grapheme.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_grapheme.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_grapheme.cpp.o.requires
@@ -3205,17 +3205,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_grapheme.cpp.o.prov
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_iterator.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_iterator.cpp.o: hphp/runtime/ext/icu/ext_icu_iterator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_138)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_138)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_iterator.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_iterator.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_iterator.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_iterator.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_iterator.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_iterator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_iterator.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_iterator.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_iterator.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_iterator.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_iterator.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_iterator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_iterator.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_iterator.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_iterator.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_iterator.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_iterator.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_iterator.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_iterator.cpp.o.requires
@@ -3228,17 +3228,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_iterator.cpp.o.prov
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_locale.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_locale.cpp.o: hphp/runtime/ext/icu/ext_icu_locale.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_139)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_139)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_locale.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_locale.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_locale.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_locale.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_locale.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_locale.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_locale.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_locale.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_locale.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_locale.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_locale.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_locale.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_locale.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_locale.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_locale.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_locale.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_locale.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_locale.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_locale.cpp.o.requires
@@ -3251,17 +3251,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_locale.cpp.o.provid
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_misc.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_misc.cpp.o: hphp/runtime/ext/icu/ext_icu_misc.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_140)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_140)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_misc.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_misc.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_misc.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_misc.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_misc.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_misc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_misc.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_misc.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_misc.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_misc.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_misc.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_misc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_misc.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_misc.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_misc.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_misc.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_misc.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_misc.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_misc.cpp.o.requires
@@ -3274,17 +3274,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_misc.cpp.o.provides
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_msg_fmt.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_msg_fmt.cpp.o: hphp/runtime/ext/icu/ext_icu_msg_fmt.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_141)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_141)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_msg_fmt.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_msg_fmt.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_msg_fmt.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_msg_fmt.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_msg_fmt.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_msg_fmt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_msg_fmt.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_msg_fmt.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_msg_fmt.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_msg_fmt.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_msg_fmt.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_msg_fmt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_msg_fmt.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_msg_fmt.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_msg_fmt.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_msg_fmt.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_msg_fmt.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_msg_fmt.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_msg_fmt.cpp.o.requires
@@ -3297,17 +3297,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_msg_fmt.cpp.o.provi
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_normalizer.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_normalizer.cpp.o: hphp/runtime/ext/icu/ext_icu_normalizer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_142)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_142)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_normalizer.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_normalizer.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_normalizer.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_normalizer.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_normalizer.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_normalizer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_normalizer.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_normalizer.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_normalizer.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_normalizer.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_normalizer.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_normalizer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_normalizer.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_normalizer.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_normalizer.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_normalizer.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_normalizer.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_normalizer.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_normalizer.cpp.o.requires
@@ -3320,17 +3320,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_normalizer.cpp.o.pr
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_num_fmt.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_num_fmt.cpp.o: hphp/runtime/ext/icu/ext_icu_num_fmt.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_143)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_143)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_num_fmt.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_num_fmt.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_num_fmt.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_num_fmt.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_num_fmt.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_num_fmt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_num_fmt.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_num_fmt.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_num_fmt.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_num_fmt.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_num_fmt.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_num_fmt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_num_fmt.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_num_fmt.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_num_fmt.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_num_fmt.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_num_fmt.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_num_fmt.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_num_fmt.cpp.o.requires
@@ -3343,17 +3343,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_num_fmt.cpp.o.provi
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_rsrc_bundle.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_rsrc_bundle.cpp.o: hphp/runtime/ext/icu/ext_icu_rsrc_bundle.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_144)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_144)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_rsrc_bundle.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_rsrc_bundle.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_rsrc_bundle.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_rsrc_bundle.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_rsrc_bundle.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_rsrc_bundle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_rsrc_bundle.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_rsrc_bundle.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_rsrc_bundle.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_rsrc_bundle.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_rsrc_bundle.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_rsrc_bundle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_rsrc_bundle.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_rsrc_bundle.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_rsrc_bundle.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_rsrc_bundle.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_rsrc_bundle.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_rsrc_bundle.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_rsrc_bundle.cpp.o.requires
@@ -3366,17 +3366,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_rsrc_bundle.cpp.o.p
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_timezone.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_timezone.cpp.o: hphp/runtime/ext/icu/ext_icu_timezone.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_145)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_145)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_timezone.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_timezone.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_timezone.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_timezone.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_timezone.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_timezone.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_timezone.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_timezone.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_timezone.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_timezone.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_timezone.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_timezone.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_timezone.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_timezone.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_timezone.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_timezone.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_timezone.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_timezone.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_timezone.cpp.o.requires
@@ -3389,17 +3389,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_timezone.cpp.o.prov
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_transliterator.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_transliterator.cpp.o: hphp/runtime/ext/icu/ext_icu_transliterator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_146)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_146)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_transliterator.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_transliterator.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_transliterator.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_transliterator.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_transliterator.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_transliterator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_transliterator.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_transliterator.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_transliterator.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_transliterator.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_transliterator.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_transliterator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_transliterator.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_transliterator.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_transliterator.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_transliterator.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_transliterator.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_transliterator.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_transliterator.cpp.o.requires
@@ -3412,17 +3412,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_transliterator.cpp.
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uchar.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uchar.cpp.o: hphp/runtime/ext/icu/ext_icu_uchar.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_147)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_147)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uchar.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uchar.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_uchar.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uchar.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_uchar.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uchar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uchar.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_uchar.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uchar.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_uchar.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uchar.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uchar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uchar.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_uchar.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uchar.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_uchar.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uchar.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uchar.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uchar.cpp.o.requires
@@ -3435,17 +3435,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uchar.cpp.o.provide
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uconverter.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uconverter.cpp.o: hphp/runtime/ext/icu/ext_icu_uconverter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_148)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_148)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uconverter.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uconverter.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_uconverter.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uconverter.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_uconverter.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uconverter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uconverter.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_uconverter.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uconverter.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_uconverter.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uconverter.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uconverter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uconverter.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_uconverter.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uconverter.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_uconverter.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uconverter.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uconverter.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uconverter.cpp.o.requires
@@ -3458,17 +3458,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uconverter.cpp.o.pr
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_ucsdet.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_ucsdet.cpp.o: hphp/runtime/ext/icu/ext_icu_ucsdet.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_149)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_149)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_ucsdet.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_ucsdet.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_ucsdet.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_ucsdet.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_ucsdet.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_ucsdet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_ucsdet.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_ucsdet.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_ucsdet.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_ucsdet.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_ucsdet.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_ucsdet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_ucsdet.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_ucsdet.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_ucsdet.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_ucsdet.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_ucsdet.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_ucsdet.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_ucsdet.cpp.o.requires
@@ -3481,17 +3481,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_ucsdet.cpp.o.provid
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uspoof.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uspoof.cpp.o: hphp/runtime/ext/icu/ext_icu_uspoof.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_150)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_150)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uspoof.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uspoof.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_uspoof.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uspoof.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_uspoof.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uspoof.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uspoof.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_uspoof.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uspoof.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_uspoof.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uspoof.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uspoof.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uspoof.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ext_icu_uspoof.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uspoof.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ext_icu_uspoof.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uspoof.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uspoof.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uspoof.cpp.o.requires
@@ -3504,17 +3504,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ext_icu_uspoof.cpp.o.provid
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/icu.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/icu.cpp.o: hphp/runtime/ext/icu/icu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_151)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_151)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/icu.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/icu.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/icu.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/icu.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/icu.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/icu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/icu/icu.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/icu.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/icu.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/icu.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/icu.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/icu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/icu/icu.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/icu.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/icu.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/icu.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/icu.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/icu.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/icu.cpp.o.requires
@@ -3527,17 +3527,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/icu.cpp.o.provides.build: h
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ICUMatcher.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ICUMatcher.cpp.o: hphp/runtime/ext/icu/ICUMatcher.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_152)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_152)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ICUMatcher.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ICUMatcher.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ICUMatcher.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ICUMatcher.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ICUMatcher.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ICUMatcher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/icu/ICUMatcher.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ICUMatcher.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ICUMatcher.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ICUMatcher.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ICUMatcher.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ICUMatcher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/icu/ICUMatcher.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ICUMatcher.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ICUMatcher.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ICUMatcher.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ICUMatcher.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ICUMatcher.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ICUMatcher.cpp.o.requires
@@ -3550,17 +3550,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ICUMatcher.cpp.o.provides.b
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ICUTransliterator.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ICUTransliterator.cpp.o: hphp/runtime/ext/icu/ICUTransliterator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_153)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_153)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ICUTransliterator.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ICUTransliterator.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ICUTransliterator.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/ICUTransliterator.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ICUTransliterator.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ICUTransliterator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/icu/ICUTransliterator.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ICUTransliterator.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ICUTransliterator.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ICUTransliterator.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/ICUTransliterator.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ICUTransliterator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/icu/ICUTransliterator.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/ICUTransliterator.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ICUTransliterator.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/ICUTransliterator.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/ICUTransliterator.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ICUTransliterator.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ICUTransliterator.cpp.o.requires
@@ -3573,17 +3573,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/ICUTransliterator.cpp.o.pro
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/LifeEventTokenizer.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/LifeEventTokenizer.cpp.o: hphp/runtime/ext/icu/LifeEventTokenizer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_154)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_154)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/LifeEventTokenizer.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/LifeEventTokenizer.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/LifeEventTokenizer.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/icu/LifeEventTokenizer.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/LifeEventTokenizer.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/LifeEventTokenizer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/icu/LifeEventTokenizer.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/LifeEventTokenizer.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/LifeEventTokenizer.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/LifeEventTokenizer.cpp > CMakeFiles/hphp_runtime_ext.dir/icu/LifeEventTokenizer.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/LifeEventTokenizer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/icu/LifeEventTokenizer.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/icu/LifeEventTokenizer.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/LifeEventTokenizer.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/icu/LifeEventTokenizer.cpp -o CMakeFiles/hphp_runtime_ext.dir/icu/LifeEventTokenizer.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/LifeEventTokenizer.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/LifeEventTokenizer.cpp.o.requires
@@ -3596,17 +3596,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/icu/LifeEventTokenizer.cpp.o.pr
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/constants.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/constants.cpp.o: hphp/runtime/ext/imagick/constants.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_155)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_155)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/constants.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/imagick/constants.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/imagick/constants.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/imagick/constants.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/imagick/constants.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/constants.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/imagick/constants.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/imagick/constants.cpp > CMakeFiles/hphp_runtime_ext.dir/imagick/constants.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/imagick/constants.cpp > CMakeFiles/hphp_runtime_ext.dir/imagick/constants.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/constants.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/imagick/constants.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/imagick/constants.cpp -o CMakeFiles/hphp_runtime_ext.dir/imagick/constants.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/imagick/constants.cpp -o CMakeFiles/hphp_runtime_ext.dir/imagick/constants.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/constants.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/constants.cpp.o.requires
@@ -3619,17 +3619,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/constants.cpp.o.provide
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/ext_imagick.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/ext_imagick.cpp.o: hphp/runtime/ext/imagick/ext_imagick.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_156)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_156)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/ext_imagick.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/imagick/ext_imagick.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/imagick/ext_imagick.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/imagick/ext_imagick.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/imagick/ext_imagick.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/ext_imagick.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/imagick/ext_imagick.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/imagick/ext_imagick.cpp > CMakeFiles/hphp_runtime_ext.dir/imagick/ext_imagick.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/imagick/ext_imagick.cpp > CMakeFiles/hphp_runtime_ext.dir/imagick/ext_imagick.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/ext_imagick.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/imagick/ext_imagick.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/imagick/ext_imagick.cpp -o CMakeFiles/hphp_runtime_ext.dir/imagick/ext_imagick.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/imagick/ext_imagick.cpp -o CMakeFiles/hphp_runtime_ext.dir/imagick/ext_imagick.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/ext_imagick.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/ext_imagick.cpp.o.requires
@@ -3642,17 +3642,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/ext_imagick.cpp.o.provi
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagick.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagick.cpp.o: hphp/runtime/ext/imagick/imagick.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_157)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_157)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagick.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/imagick/imagick.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/imagick/imagick.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/imagick/imagick.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/imagick/imagick.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagick.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/imagick/imagick.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/imagick/imagick.cpp > CMakeFiles/hphp_runtime_ext.dir/imagick/imagick.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/imagick/imagick.cpp > CMakeFiles/hphp_runtime_ext.dir/imagick/imagick.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagick.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/imagick/imagick.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/imagick/imagick.cpp -o CMakeFiles/hphp_runtime_ext.dir/imagick/imagick.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/imagick/imagick.cpp -o CMakeFiles/hphp_runtime_ext.dir/imagick/imagick.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagick.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagick.cpp.o.requires
@@ -3665,17 +3665,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagick.cpp.o.provides.
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickdraw.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickdraw.cpp.o: hphp/runtime/ext/imagick/imagickdraw.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_158)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_158)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickdraw.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/imagick/imagickdraw.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/imagick/imagickdraw.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/imagick/imagickdraw.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/imagick/imagickdraw.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickdraw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/imagick/imagickdraw.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/imagick/imagickdraw.cpp > CMakeFiles/hphp_runtime_ext.dir/imagick/imagickdraw.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/imagick/imagickdraw.cpp > CMakeFiles/hphp_runtime_ext.dir/imagick/imagickdraw.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickdraw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/imagick/imagickdraw.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/imagick/imagickdraw.cpp -o CMakeFiles/hphp_runtime_ext.dir/imagick/imagickdraw.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/imagick/imagickdraw.cpp -o CMakeFiles/hphp_runtime_ext.dir/imagick/imagickdraw.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickdraw.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickdraw.cpp.o.requires
@@ -3688,17 +3688,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickdraw.cpp.o.provi
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixel.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixel.cpp.o: hphp/runtime/ext/imagick/imagickpixel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_159)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_159)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixel.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixel.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/imagick/imagickpixel.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixel.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/imagick/imagickpixel.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixel.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/imagick/imagickpixel.cpp > CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixel.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/imagick/imagickpixel.cpp > CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixel.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixel.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/imagick/imagickpixel.cpp -o CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixel.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/imagick/imagickpixel.cpp -o CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixel.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixel.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixel.cpp.o.requires
@@ -3711,17 +3711,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixel.cpp.o.prov
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixeliterator.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixeliterator.cpp.o: hphp/runtime/ext/imagick/imagickpixeliterator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_160)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_160)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixeliterator.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixeliterator.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/imagick/imagickpixeliterator.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixeliterator.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/imagick/imagickpixeliterator.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixeliterator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixeliterator.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/imagick/imagickpixeliterator.cpp > CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixeliterator.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/imagick/imagickpixeliterator.cpp > CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixeliterator.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixeliterator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixeliterator.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/imagick/imagickpixeliterator.cpp -o CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixeliterator.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/imagick/imagickpixeliterator.cpp -o CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixeliterator.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixeliterator.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixeliterator.cpp.o.requires
@@ -3732,19 +3732,42 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixeliterator.cp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixeliterator.cpp.o.provides.build: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixeliterator.cpp.o
 
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imap/ext_imap.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imap/ext_imap.cpp.o: hphp/runtime/ext/imap/ext_imap.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_161)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imap/ext_imap.cpp.o"
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/imap/ext_imap.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/imap/ext_imap.cpp
+
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imap/ext_imap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/imap/ext_imap.cpp.i"
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/imap/ext_imap.cpp > CMakeFiles/hphp_runtime_ext.dir/imap/ext_imap.cpp.i
+
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imap/ext_imap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/imap/ext_imap.cpp.s"
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/imap/ext_imap.cpp -o CMakeFiles/hphp_runtime_ext.dir/imap/ext_imap.cpp.s
+
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imap/ext_imap.cpp.o.requires:
+.PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imap/ext_imap.cpp.o.requires
+
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imap/ext_imap.cpp.o.provides: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imap/ext_imap.cpp.o.requires
+	$(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imap/ext_imap.cpp.o.provides.build
+.PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imap/ext_imap.cpp.o.provides
+
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imap/ext_imap.cpp.o.provides.build: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imap/ext_imap.cpp.o
+
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/intervaltimer/ext_intervaltimer.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/intervaltimer/ext_intervaltimer.cpp.o: hphp/runtime/ext/intervaltimer/ext_intervaltimer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_161)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_162)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/intervaltimer/ext_intervaltimer.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/intervaltimer/ext_intervaltimer.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/intervaltimer/ext_intervaltimer.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/intervaltimer/ext_intervaltimer.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/intervaltimer/ext_intervaltimer.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/intervaltimer/ext_intervaltimer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/intervaltimer/ext_intervaltimer.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/intervaltimer/ext_intervaltimer.cpp > CMakeFiles/hphp_runtime_ext.dir/intervaltimer/ext_intervaltimer.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/intervaltimer/ext_intervaltimer.cpp > CMakeFiles/hphp_runtime_ext.dir/intervaltimer/ext_intervaltimer.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/intervaltimer/ext_intervaltimer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/intervaltimer/ext_intervaltimer.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/intervaltimer/ext_intervaltimer.cpp -o CMakeFiles/hphp_runtime_ext.dir/intervaltimer/ext_intervaltimer.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/intervaltimer/ext_intervaltimer.cpp -o CMakeFiles/hphp_runtime_ext.dir/intervaltimer/ext_intervaltimer.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/intervaltimer/ext_intervaltimer.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/intervaltimer/ext_intervaltimer.cpp.o.requires
@@ -3757,17 +3780,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/intervaltimer/ext_intervaltimer
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ipc/ext_ipc.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ipc/ext_ipc.cpp.o: hphp/runtime/ext/ipc/ext_ipc.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_162)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_163)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ipc/ext_ipc.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/ipc/ext_ipc.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/ipc/ext_ipc.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/ipc/ext_ipc.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/ipc/ext_ipc.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ipc/ext_ipc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/ipc/ext_ipc.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/ipc/ext_ipc.cpp > CMakeFiles/hphp_runtime_ext.dir/ipc/ext_ipc.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/ipc/ext_ipc.cpp > CMakeFiles/hphp_runtime_ext.dir/ipc/ext_ipc.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ipc/ext_ipc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/ipc/ext_ipc.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/ipc/ext_ipc.cpp -o CMakeFiles/hphp_runtime_ext.dir/ipc/ext_ipc.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/ipc/ext_ipc.cpp -o CMakeFiles/hphp_runtime_ext.dir/ipc/ext_ipc.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ipc/ext_ipc.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ipc/ext_ipc.cpp.o.requires
@@ -3780,17 +3803,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ipc/ext_ipc.cpp.o.provides.buil
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/json/ext_json.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/json/ext_json.cpp.o: hphp/runtime/ext/json/ext_json.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_163)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_164)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/json/ext_json.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/json/ext_json.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/json/ext_json.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/json/ext_json.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/json/ext_json.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/json/ext_json.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/json/ext_json.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/json/ext_json.cpp > CMakeFiles/hphp_runtime_ext.dir/json/ext_json.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/json/ext_json.cpp > CMakeFiles/hphp_runtime_ext.dir/json/ext_json.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/json/ext_json.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/json/ext_json.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/json/ext_json.cpp -o CMakeFiles/hphp_runtime_ext.dir/json/ext_json.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/json/ext_json.cpp -o CMakeFiles/hphp_runtime_ext.dir/json/ext_json.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/json/ext_json.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/json/ext_json.cpp.o.requires
@@ -3803,17 +3826,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/json/ext_json.cpp.o.provides.bu
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/json/JSON_parser.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/json/JSON_parser.cpp.o: hphp/runtime/ext/json/JSON_parser.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_164)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_165)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/json/JSON_parser.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/json/JSON_parser.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/json/JSON_parser.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/json/JSON_parser.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/json/JSON_parser.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/json/JSON_parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/json/JSON_parser.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/json/JSON_parser.cpp > CMakeFiles/hphp_runtime_ext.dir/json/JSON_parser.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/json/JSON_parser.cpp > CMakeFiles/hphp_runtime_ext.dir/json/JSON_parser.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/json/JSON_parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/json/JSON_parser.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/json/JSON_parser.cpp -o CMakeFiles/hphp_runtime_ext.dir/json/JSON_parser.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/json/JSON_parser.cpp -o CMakeFiles/hphp_runtime_ext.dir/json/JSON_parser.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/json/JSON_parser.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/json/JSON_parser.cpp.o.requires
@@ -3826,17 +3849,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/json/JSON_parser.cpp.o.provides
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ldap/ext_ldap.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ldap/ext_ldap.cpp.o: hphp/runtime/ext/ldap/ext_ldap.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_165)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_166)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ldap/ext_ldap.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/ldap/ext_ldap.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/ldap/ext_ldap.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/ldap/ext_ldap.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/ldap/ext_ldap.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ldap/ext_ldap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/ldap/ext_ldap.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/ldap/ext_ldap.cpp > CMakeFiles/hphp_runtime_ext.dir/ldap/ext_ldap.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/ldap/ext_ldap.cpp > CMakeFiles/hphp_runtime_ext.dir/ldap/ext_ldap.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ldap/ext_ldap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/ldap/ext_ldap.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/ldap/ext_ldap.cpp -o CMakeFiles/hphp_runtime_ext.dir/ldap/ext_ldap.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/ldap/ext_ldap.cpp -o CMakeFiles/hphp_runtime_ext.dir/ldap/ext_ldap.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ldap/ext_ldap.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ldap/ext_ldap.cpp.o.requires
@@ -3849,17 +3872,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ldap/ext_ldap.cpp.o.provides.bu
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/libxml/ext_libxml.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/libxml/ext_libxml.cpp.o: hphp/runtime/ext/libxml/ext_libxml.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_166)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_167)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/libxml/ext_libxml.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/libxml/ext_libxml.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/libxml/ext_libxml.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/libxml/ext_libxml.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/libxml/ext_libxml.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/libxml/ext_libxml.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/libxml/ext_libxml.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/libxml/ext_libxml.cpp > CMakeFiles/hphp_runtime_ext.dir/libxml/ext_libxml.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/libxml/ext_libxml.cpp > CMakeFiles/hphp_runtime_ext.dir/libxml/ext_libxml.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/libxml/ext_libxml.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/libxml/ext_libxml.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/libxml/ext_libxml.cpp -o CMakeFiles/hphp_runtime_ext.dir/libxml/ext_libxml.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/libxml/ext_libxml.cpp -o CMakeFiles/hphp_runtime_ext.dir/libxml/ext_libxml.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/libxml/ext_libxml.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/libxml/ext_libxml.cpp.o.requires
@@ -3872,17 +3895,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/libxml/ext_libxml.cpp.o.provide
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mail/ext_mail.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mail/ext_mail.cpp.o: hphp/runtime/ext/mail/ext_mail.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_167)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_168)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mail/ext_mail.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/mail/ext_mail.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/mail/ext_mail.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/mail/ext_mail.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/mail/ext_mail.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mail/ext_mail.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/mail/ext_mail.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/mail/ext_mail.cpp > CMakeFiles/hphp_runtime_ext.dir/mail/ext_mail.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/mail/ext_mail.cpp > CMakeFiles/hphp_runtime_ext.dir/mail/ext_mail.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mail/ext_mail.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/mail/ext_mail.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/mail/ext_mail.cpp -o CMakeFiles/hphp_runtime_ext.dir/mail/ext_mail.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/mail/ext_mail.cpp -o CMakeFiles/hphp_runtime_ext.dir/mail/ext_mail.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mail/ext_mail.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mail/ext_mail.cpp.o.requires
@@ -3895,17 +3918,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mail/ext_mail.cpp.o.provides.bu
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/ext_mailparse.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/ext_mailparse.cpp.o: hphp/runtime/ext/mailparse/ext_mailparse.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_168)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_169)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/ext_mailparse.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/mailparse/ext_mailparse.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/mailparse/ext_mailparse.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/mailparse/ext_mailparse.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/mailparse/ext_mailparse.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/ext_mailparse.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/mailparse/ext_mailparse.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/mailparse/ext_mailparse.cpp > CMakeFiles/hphp_runtime_ext.dir/mailparse/ext_mailparse.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/mailparse/ext_mailparse.cpp > CMakeFiles/hphp_runtime_ext.dir/mailparse/ext_mailparse.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/ext_mailparse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/mailparse/ext_mailparse.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/mailparse/ext_mailparse.cpp -o CMakeFiles/hphp_runtime_ext.dir/mailparse/ext_mailparse.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/mailparse/ext_mailparse.cpp -o CMakeFiles/hphp_runtime_ext.dir/mailparse/ext_mailparse.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/ext_mailparse.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/ext_mailparse.cpp.o.requires
@@ -3918,17 +3941,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/ext_mailparse.cpp.o.p
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/mime.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/mime.cpp.o: hphp/runtime/ext/mailparse/mime.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_169)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_170)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/mime.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/mailparse/mime.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/mailparse/mime.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/mailparse/mime.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/mailparse/mime.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/mime.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/mailparse/mime.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/mailparse/mime.cpp > CMakeFiles/hphp_runtime_ext.dir/mailparse/mime.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/mailparse/mime.cpp > CMakeFiles/hphp_runtime_ext.dir/mailparse/mime.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/mime.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/mailparse/mime.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/mailparse/mime.cpp -o CMakeFiles/hphp_runtime_ext.dir/mailparse/mime.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/mailparse/mime.cpp -o CMakeFiles/hphp_runtime_ext.dir/mailparse/mime.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/mime.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/mime.cpp.o.requires
@@ -3941,17 +3964,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/mime.cpp.o.provides.b
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/rfc822.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/rfc822.cpp.o: hphp/runtime/ext/mailparse/rfc822.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_170)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_171)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/rfc822.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/mailparse/rfc822.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/mailparse/rfc822.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/mailparse/rfc822.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/mailparse/rfc822.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/rfc822.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/mailparse/rfc822.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/mailparse/rfc822.cpp > CMakeFiles/hphp_runtime_ext.dir/mailparse/rfc822.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/mailparse/rfc822.cpp > CMakeFiles/hphp_runtime_ext.dir/mailparse/rfc822.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/rfc822.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/mailparse/rfc822.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/mailparse/rfc822.cpp -o CMakeFiles/hphp_runtime_ext.dir/mailparse/rfc822.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/mailparse/rfc822.cpp -o CMakeFiles/hphp_runtime_ext.dir/mailparse/rfc822.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/rfc822.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/rfc822.cpp.o.requires
@@ -3964,17 +3987,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mailparse/rfc822.cpp.o.provides
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mbstring/ext_mbstring.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mbstring/ext_mbstring.cpp.o: hphp/runtime/ext/mbstring/ext_mbstring.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_171)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_172)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mbstring/ext_mbstring.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/mbstring/ext_mbstring.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/mbstring/ext_mbstring.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/mbstring/ext_mbstring.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/mbstring/ext_mbstring.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mbstring/ext_mbstring.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/mbstring/ext_mbstring.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/mbstring/ext_mbstring.cpp > CMakeFiles/hphp_runtime_ext.dir/mbstring/ext_mbstring.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/mbstring/ext_mbstring.cpp > CMakeFiles/hphp_runtime_ext.dir/mbstring/ext_mbstring.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mbstring/ext_mbstring.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/mbstring/ext_mbstring.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/mbstring/ext_mbstring.cpp -o CMakeFiles/hphp_runtime_ext.dir/mbstring/ext_mbstring.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/mbstring/ext_mbstring.cpp -o CMakeFiles/hphp_runtime_ext.dir/mbstring/ext_mbstring.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mbstring/ext_mbstring.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mbstring/ext_mbstring.cpp.o.requires
@@ -3987,17 +4010,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mbstring/ext_mbstring.cpp.o.pro
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mcrouter/ext_mcrouter.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mcrouter/ext_mcrouter.cpp.o: hphp/runtime/ext/mcrouter/ext_mcrouter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_172)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_173)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mcrouter/ext_mcrouter.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/mcrouter/ext_mcrouter.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/mcrouter/ext_mcrouter.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/mcrouter/ext_mcrouter.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/mcrouter/ext_mcrouter.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mcrouter/ext_mcrouter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/mcrouter/ext_mcrouter.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/mcrouter/ext_mcrouter.cpp > CMakeFiles/hphp_runtime_ext.dir/mcrouter/ext_mcrouter.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/mcrouter/ext_mcrouter.cpp > CMakeFiles/hphp_runtime_ext.dir/mcrouter/ext_mcrouter.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mcrouter/ext_mcrouter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/mcrouter/ext_mcrouter.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/mcrouter/ext_mcrouter.cpp -o CMakeFiles/hphp_runtime_ext.dir/mcrouter/ext_mcrouter.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/mcrouter/ext_mcrouter.cpp -o CMakeFiles/hphp_runtime_ext.dir/mcrouter/ext_mcrouter.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mcrouter/ext_mcrouter.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mcrouter/ext_mcrouter.cpp.o.requires
@@ -4010,17 +4033,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mcrouter/ext_mcrouter.cpp.o.pro
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mcrypt/ext_mcrypt.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mcrypt/ext_mcrypt.cpp.o: hphp/runtime/ext/mcrypt/ext_mcrypt.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_173)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_174)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mcrypt/ext_mcrypt.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/mcrypt/ext_mcrypt.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/mcrypt/ext_mcrypt.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/mcrypt/ext_mcrypt.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/mcrypt/ext_mcrypt.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mcrypt/ext_mcrypt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/mcrypt/ext_mcrypt.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/mcrypt/ext_mcrypt.cpp > CMakeFiles/hphp_runtime_ext.dir/mcrypt/ext_mcrypt.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/mcrypt/ext_mcrypt.cpp > CMakeFiles/hphp_runtime_ext.dir/mcrypt/ext_mcrypt.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mcrypt/ext_mcrypt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/mcrypt/ext_mcrypt.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/mcrypt/ext_mcrypt.cpp -o CMakeFiles/hphp_runtime_ext.dir/mcrypt/ext_mcrypt.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/mcrypt/ext_mcrypt.cpp -o CMakeFiles/hphp_runtime_ext.dir/mcrypt/ext_mcrypt.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mcrypt/ext_mcrypt.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mcrypt/ext_mcrypt.cpp.o.requires
@@ -4033,17 +4056,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mcrypt/ext_mcrypt.cpp.o.provide
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/memcache/ext_memcache.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/memcache/ext_memcache.cpp.o: hphp/runtime/ext/memcache/ext_memcache.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_174)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_175)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/memcache/ext_memcache.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/memcache/ext_memcache.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/memcache/ext_memcache.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/memcache/ext_memcache.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/memcache/ext_memcache.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/memcache/ext_memcache.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/memcache/ext_memcache.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/memcache/ext_memcache.cpp > CMakeFiles/hphp_runtime_ext.dir/memcache/ext_memcache.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/memcache/ext_memcache.cpp > CMakeFiles/hphp_runtime_ext.dir/memcache/ext_memcache.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/memcache/ext_memcache.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/memcache/ext_memcache.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/memcache/ext_memcache.cpp -o CMakeFiles/hphp_runtime_ext.dir/memcache/ext_memcache.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/memcache/ext_memcache.cpp -o CMakeFiles/hphp_runtime_ext.dir/memcache/ext_memcache.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/memcache/ext_memcache.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/memcache/ext_memcache.cpp.o.requires
@@ -4056,17 +4079,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/memcache/ext_memcache.cpp.o.pro
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/memcached/ext_memcached.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/memcached/ext_memcached.cpp.o: hphp/runtime/ext/memcached/ext_memcached.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_175)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_176)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/memcached/ext_memcached.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/memcached/ext_memcached.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/memcached/ext_memcached.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/memcached/ext_memcached.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/memcached/ext_memcached.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/memcached/ext_memcached.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/memcached/ext_memcached.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/memcached/ext_memcached.cpp > CMakeFiles/hphp_runtime_ext.dir/memcached/ext_memcached.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/memcached/ext_memcached.cpp > CMakeFiles/hphp_runtime_ext.dir/memcached/ext_memcached.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/memcached/ext_memcached.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/memcached/ext_memcached.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/memcached/ext_memcached.cpp -o CMakeFiles/hphp_runtime_ext.dir/memcached/ext_memcached.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/memcached/ext_memcached.cpp -o CMakeFiles/hphp_runtime_ext.dir/memcached/ext_memcached.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/memcached/ext_memcached.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/memcached/ext_memcached.cpp.o.requires
@@ -4079,17 +4102,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/memcached/ext_memcached.cpp.o.p
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysql.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysql.cpp.o: hphp/runtime/ext/mysql/ext_mysql.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_176)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_177)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysql.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysql.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/mysql/ext_mysql.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysql.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/mysql/ext_mysql.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysql.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysql.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/mysql/ext_mysql.cpp > CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysql.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/mysql/ext_mysql.cpp > CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysql.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysql.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysql.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/mysql/ext_mysql.cpp -o CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysql.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/mysql/ext_mysql.cpp -o CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysql.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysql.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysql.cpp.o.requires
@@ -4102,17 +4125,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysql.cpp.o.provides.
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_common.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_common.cpp.o: hphp/runtime/ext/mysql/mysql_common.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_177)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_178)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_common.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_common.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/mysql/mysql_common.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_common.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/mysql/mysql_common.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_common.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_common.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/mysql/mysql_common.cpp > CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_common.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/mysql/mysql_common.cpp > CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_common.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_common.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_common.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/mysql/mysql_common.cpp -o CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_common.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/mysql/mysql_common.cpp -o CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_common.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_common.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_common.cpp.o.requires
@@ -4125,17 +4148,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_common.cpp.o.provid
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_stats.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_stats.cpp.o: hphp/runtime/ext/mysql/mysql_stats.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_178)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_179)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_stats.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_stats.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/mysql/mysql_stats.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_stats.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/mysql/mysql_stats.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_stats.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_stats.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/mysql/mysql_stats.cpp > CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_stats.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/mysql/mysql_stats.cpp > CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_stats.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_stats.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_stats.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/mysql/mysql_stats.cpp -o CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_stats.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/mysql/mysql_stats.cpp -o CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_stats.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_stats.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_stats.cpp.o.requires
@@ -4148,17 +4171,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/mysql_stats.cpp.o.provide
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysqli.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysqli.cpp.o: hphp/runtime/ext/mysql/ext_mysqli.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_179)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_180)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysqli.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysqli.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/mysql/ext_mysqli.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysqli.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/mysql/ext_mysqli.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysqli.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysqli.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/mysql/ext_mysqli.cpp > CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysqli.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/mysql/ext_mysqli.cpp > CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysqli.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysqli.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysqli.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/mysql/ext_mysqli.cpp -o CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysqli.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/mysql/ext_mysqli.cpp -o CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysqli.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysqli.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysqli.cpp.o.requires
@@ -4171,17 +4194,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/mysql/ext_mysqli.cpp.o.provides
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/objprof/ext_objprof.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/objprof/ext_objprof.cpp.o: hphp/runtime/ext/objprof/ext_objprof.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_180)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_181)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/objprof/ext_objprof.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/objprof/ext_objprof.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/objprof/ext_objprof.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/objprof/ext_objprof.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/objprof/ext_objprof.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/objprof/ext_objprof.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/objprof/ext_objprof.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/objprof/ext_objprof.cpp > CMakeFiles/hphp_runtime_ext.dir/objprof/ext_objprof.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/objprof/ext_objprof.cpp > CMakeFiles/hphp_runtime_ext.dir/objprof/ext_objprof.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/objprof/ext_objprof.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/objprof/ext_objprof.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/objprof/ext_objprof.cpp -o CMakeFiles/hphp_runtime_ext.dir/objprof/ext_objprof.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/objprof/ext_objprof.cpp -o CMakeFiles/hphp_runtime_ext.dir/objprof/ext_objprof.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/objprof/ext_objprof.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/objprof/ext_objprof.cpp.o.requires
@@ -4194,17 +4217,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/objprof/ext_objprof.cpp.o.provi
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/odbc/ext_odbc.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/odbc/ext_odbc.cpp.o: hphp/runtime/ext/odbc/ext_odbc.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_181)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_182)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/odbc/ext_odbc.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/odbc/ext_odbc.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/odbc/ext_odbc.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/odbc/ext_odbc.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/odbc/ext_odbc.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/odbc/ext_odbc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/odbc/ext_odbc.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/odbc/ext_odbc.cpp > CMakeFiles/hphp_runtime_ext.dir/odbc/ext_odbc.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/odbc/ext_odbc.cpp > CMakeFiles/hphp_runtime_ext.dir/odbc/ext_odbc.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/odbc/ext_odbc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/odbc/ext_odbc.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/odbc/ext_odbc.cpp -o CMakeFiles/hphp_runtime_ext.dir/odbc/ext_odbc.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/odbc/ext_odbc.cpp -o CMakeFiles/hphp_runtime_ext.dir/odbc/ext_odbc.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/odbc/ext_odbc.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/odbc/ext_odbc.cpp.o.requires
@@ -4217,17 +4240,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/odbc/ext_odbc.cpp.o.provides.bu
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/openssl/ext_openssl.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/openssl/ext_openssl.cpp.o: hphp/runtime/ext/openssl/ext_openssl.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_182)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_183)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/openssl/ext_openssl.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/openssl/ext_openssl.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/openssl/ext_openssl.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/openssl/ext_openssl.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/openssl/ext_openssl.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/openssl/ext_openssl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/openssl/ext_openssl.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/openssl/ext_openssl.cpp > CMakeFiles/hphp_runtime_ext.dir/openssl/ext_openssl.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/openssl/ext_openssl.cpp > CMakeFiles/hphp_runtime_ext.dir/openssl/ext_openssl.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/openssl/ext_openssl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/openssl/ext_openssl.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/openssl/ext_openssl.cpp -o CMakeFiles/hphp_runtime_ext.dir/openssl/ext_openssl.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/openssl/ext_openssl.cpp -o CMakeFiles/hphp_runtime_ext.dir/openssl/ext_openssl.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/openssl/ext_openssl.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/openssl/ext_openssl.cpp.o.requires
@@ -4240,17 +4263,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/openssl/ext_openssl.cpp.o.provi
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/password/ext_password.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/password/ext_password.cpp.o: hphp/runtime/ext/password/ext_password.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_183)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_184)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/password/ext_password.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/password/ext_password.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/password/ext_password.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/password/ext_password.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/password/ext_password.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/password/ext_password.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/password/ext_password.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/password/ext_password.cpp > CMakeFiles/hphp_runtime_ext.dir/password/ext_password.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/password/ext_password.cpp > CMakeFiles/hphp_runtime_ext.dir/password/ext_password.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/password/ext_password.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/password/ext_password.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/password/ext_password.cpp -o CMakeFiles/hphp_runtime_ext.dir/password/ext_password.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/password/ext_password.cpp -o CMakeFiles/hphp_runtime_ext.dir/password/ext_password.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/password/ext_password.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/password/ext_password.cpp.o.requires
@@ -4263,17 +4286,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/password/ext_password.cpp.o.pro
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pcre/ext_pcre.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pcre/ext_pcre.cpp.o: hphp/runtime/ext/pcre/ext_pcre.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_184)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_185)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pcre/ext_pcre.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/pcre/ext_pcre.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/pcre/ext_pcre.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/pcre/ext_pcre.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/pcre/ext_pcre.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pcre/ext_pcre.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/pcre/ext_pcre.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/pcre/ext_pcre.cpp > CMakeFiles/hphp_runtime_ext.dir/pcre/ext_pcre.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/pcre/ext_pcre.cpp > CMakeFiles/hphp_runtime_ext.dir/pcre/ext_pcre.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pcre/ext_pcre.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/pcre/ext_pcre.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/pcre/ext_pcre.cpp -o CMakeFiles/hphp_runtime_ext.dir/pcre/ext_pcre.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/pcre/ext_pcre.cpp -o CMakeFiles/hphp_runtime_ext.dir/pcre/ext_pcre.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pcre/ext_pcre.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pcre/ext_pcre.cpp.o.requires
@@ -4286,17 +4309,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pcre/ext_pcre.cpp.o.provides.bu
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo/ext_pdo.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo/ext_pdo.cpp.o: hphp/runtime/ext/pdo/ext_pdo.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_185)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_186)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo/ext_pdo.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/pdo/ext_pdo.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/pdo/ext_pdo.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/pdo/ext_pdo.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/pdo/ext_pdo.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo/ext_pdo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/pdo/ext_pdo.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/pdo/ext_pdo.cpp > CMakeFiles/hphp_runtime_ext.dir/pdo/ext_pdo.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/pdo/ext_pdo.cpp > CMakeFiles/hphp_runtime_ext.dir/pdo/ext_pdo.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo/ext_pdo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/pdo/ext_pdo.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/pdo/ext_pdo.cpp -o CMakeFiles/hphp_runtime_ext.dir/pdo/ext_pdo.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/pdo/ext_pdo.cpp -o CMakeFiles/hphp_runtime_ext.dir/pdo/ext_pdo.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo/ext_pdo.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo/ext_pdo.cpp.o.requires
@@ -4309,17 +4332,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo/ext_pdo.cpp.o.provides.buil
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo/pdo_driver.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo/pdo_driver.cpp.o: hphp/runtime/ext/pdo/pdo_driver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_186)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_187)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo/pdo_driver.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/pdo/pdo_driver.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/pdo/pdo_driver.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/pdo/pdo_driver.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/pdo/pdo_driver.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo/pdo_driver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/pdo/pdo_driver.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/pdo/pdo_driver.cpp > CMakeFiles/hphp_runtime_ext.dir/pdo/pdo_driver.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/pdo/pdo_driver.cpp > CMakeFiles/hphp_runtime_ext.dir/pdo/pdo_driver.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo/pdo_driver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/pdo/pdo_driver.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/pdo/pdo_driver.cpp -o CMakeFiles/hphp_runtime_ext.dir/pdo/pdo_driver.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/pdo/pdo_driver.cpp -o CMakeFiles/hphp_runtime_ext.dir/pdo/pdo_driver.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo/pdo_driver.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo/pdo_driver.cpp.o.requires
@@ -4332,17 +4355,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo/pdo_driver.cpp.o.provides.b
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo_mysql/pdo_mysql.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo_mysql/pdo_mysql.cpp.o: hphp/runtime/ext/pdo_mysql/pdo_mysql.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_187)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_188)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo_mysql/pdo_mysql.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/pdo_mysql/pdo_mysql.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/pdo_mysql/pdo_mysql.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/pdo_mysql/pdo_mysql.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/pdo_mysql/pdo_mysql.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo_mysql/pdo_mysql.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/pdo_mysql/pdo_mysql.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/pdo_mysql/pdo_mysql.cpp > CMakeFiles/hphp_runtime_ext.dir/pdo_mysql/pdo_mysql.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/pdo_mysql/pdo_mysql.cpp > CMakeFiles/hphp_runtime_ext.dir/pdo_mysql/pdo_mysql.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo_mysql/pdo_mysql.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/pdo_mysql/pdo_mysql.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/pdo_mysql/pdo_mysql.cpp -o CMakeFiles/hphp_runtime_ext.dir/pdo_mysql/pdo_mysql.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/pdo_mysql/pdo_mysql.cpp -o CMakeFiles/hphp_runtime_ext.dir/pdo_mysql/pdo_mysql.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo_mysql/pdo_mysql.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo_mysql/pdo_mysql.cpp.o.requires
@@ -4355,17 +4378,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo_mysql/pdo_mysql.cpp.o.provi
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo_sqlite/pdo_sqlite.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo_sqlite/pdo_sqlite.cpp.o: hphp/runtime/ext/pdo_sqlite/pdo_sqlite.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_188)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_189)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo_sqlite/pdo_sqlite.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/pdo_sqlite/pdo_sqlite.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/pdo_sqlite/pdo_sqlite.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/pdo_sqlite/pdo_sqlite.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/pdo_sqlite/pdo_sqlite.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo_sqlite/pdo_sqlite.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/pdo_sqlite/pdo_sqlite.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/pdo_sqlite/pdo_sqlite.cpp > CMakeFiles/hphp_runtime_ext.dir/pdo_sqlite/pdo_sqlite.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/pdo_sqlite/pdo_sqlite.cpp > CMakeFiles/hphp_runtime_ext.dir/pdo_sqlite/pdo_sqlite.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo_sqlite/pdo_sqlite.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/pdo_sqlite/pdo_sqlite.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/pdo_sqlite/pdo_sqlite.cpp -o CMakeFiles/hphp_runtime_ext.dir/pdo_sqlite/pdo_sqlite.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/pdo_sqlite/pdo_sqlite.cpp -o CMakeFiles/hphp_runtime_ext.dir/pdo_sqlite/pdo_sqlite.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo_sqlite/pdo_sqlite.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo_sqlite/pdo_sqlite.cpp.o.requires
@@ -4378,17 +4401,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/pdo_sqlite/pdo_sqlite.cpp.o.pro
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/phar/ext_phar.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/phar/ext_phar.cpp.o: hphp/runtime/ext/phar/ext_phar.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_189)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_190)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/phar/ext_phar.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/phar/ext_phar.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/phar/ext_phar.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/phar/ext_phar.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/phar/ext_phar.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/phar/ext_phar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/phar/ext_phar.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/phar/ext_phar.cpp > CMakeFiles/hphp_runtime_ext.dir/phar/ext_phar.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/phar/ext_phar.cpp > CMakeFiles/hphp_runtime_ext.dir/phar/ext_phar.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/phar/ext_phar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/phar/ext_phar.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/phar/ext_phar.cpp -o CMakeFiles/hphp_runtime_ext.dir/phar/ext_phar.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/phar/ext_phar.cpp -o CMakeFiles/hphp_runtime_ext.dir/phar/ext_phar.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/phar/ext_phar.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/phar/ext_phar.cpp.o.requires
@@ -4401,17 +4424,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/phar/ext_phar.cpp.o.provides.bu
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/posix/ext_posix.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/posix/ext_posix.cpp.o: hphp/runtime/ext/posix/ext_posix.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_190)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_191)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/posix/ext_posix.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/posix/ext_posix.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/posix/ext_posix.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/posix/ext_posix.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/posix/ext_posix.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/posix/ext_posix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/posix/ext_posix.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/posix/ext_posix.cpp > CMakeFiles/hphp_runtime_ext.dir/posix/ext_posix.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/posix/ext_posix.cpp > CMakeFiles/hphp_runtime_ext.dir/posix/ext_posix.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/posix/ext_posix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/posix/ext_posix.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/posix/ext_posix.cpp -o CMakeFiles/hphp_runtime_ext.dir/posix/ext_posix.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/posix/ext_posix.cpp -o CMakeFiles/hphp_runtime_ext.dir/posix/ext_posix.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/posix/ext_posix.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/posix/ext_posix.cpp.o.requires
@@ -4424,17 +4447,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/posix/ext_posix.cpp.o.provides.
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/process/ext_process.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/process/ext_process.cpp.o: hphp/runtime/ext/process/ext_process.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_191)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_192)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/process/ext_process.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/process/ext_process.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/process/ext_process.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/process/ext_process.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/process/ext_process.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/process/ext_process.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/process/ext_process.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/process/ext_process.cpp > CMakeFiles/hphp_runtime_ext.dir/process/ext_process.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/process/ext_process.cpp > CMakeFiles/hphp_runtime_ext.dir/process/ext_process.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/process/ext_process.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/process/ext_process.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/process/ext_process.cpp -o CMakeFiles/hphp_runtime_ext.dir/process/ext_process.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/process/ext_process.cpp -o CMakeFiles/hphp_runtime_ext.dir/process/ext_process.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/process/ext_process.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/process/ext_process.cpp.o.requires
@@ -4445,19 +4468,42 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/process/ext_process.cpp.o.provi
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/process/ext_process.cpp.o.provides.build: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/process/ext_process.cpp.o
 
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.o: hphp/runtime/ext/random/ext_random.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_193)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.o"
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/random/ext_random.cpp
+
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.i"
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/random/ext_random.cpp > CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.i
+
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.s"
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/random/ext_random.cpp -o CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.s
+
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.o.requires:
+.PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.o.requires
+
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.o.provides: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.o.requires
+	$(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.o.provides.build
+.PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.o.provides
+
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.o.provides.build: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.o
+
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/readline/ext_readline.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/readline/ext_readline.cpp.o: hphp/runtime/ext/readline/ext_readline.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_192)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_194)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/readline/ext_readline.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/readline/ext_readline.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/readline/ext_readline.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/readline/ext_readline.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/readline/ext_readline.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/readline/ext_readline.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/readline/ext_readline.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/readline/ext_readline.cpp > CMakeFiles/hphp_runtime_ext.dir/readline/ext_readline.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/readline/ext_readline.cpp > CMakeFiles/hphp_runtime_ext.dir/readline/ext_readline.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/readline/ext_readline.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/readline/ext_readline.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/readline/ext_readline.cpp -o CMakeFiles/hphp_runtime_ext.dir/readline/ext_readline.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/readline/ext_readline.cpp -o CMakeFiles/hphp_runtime_ext.dir/readline/ext_readline.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/readline/ext_readline.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/readline/ext_readline.cpp.o.requires
@@ -4470,17 +4516,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/readline/ext_readline.cpp.o.pro
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/reflection/ext_reflection.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/reflection/ext_reflection.cpp.o: hphp/runtime/ext/reflection/ext_reflection.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_193)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_195)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/reflection/ext_reflection.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/reflection/ext_reflection.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/reflection/ext_reflection.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/reflection/ext_reflection.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/reflection/ext_reflection.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/reflection/ext_reflection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/reflection/ext_reflection.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/reflection/ext_reflection.cpp > CMakeFiles/hphp_runtime_ext.dir/reflection/ext_reflection.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/reflection/ext_reflection.cpp > CMakeFiles/hphp_runtime_ext.dir/reflection/ext_reflection.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/reflection/ext_reflection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/reflection/ext_reflection.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/reflection/ext_reflection.cpp -o CMakeFiles/hphp_runtime_ext.dir/reflection/ext_reflection.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/reflection/ext_reflection.cpp -o CMakeFiles/hphp_runtime_ext.dir/reflection/ext_reflection.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/reflection/ext_reflection.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/reflection/ext_reflection.cpp.o.requires
@@ -4493,17 +4539,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/reflection/ext_reflection.cpp.o
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/server/ext_server.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/server/ext_server.cpp.o: hphp/runtime/ext/server/ext_server.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_194)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_196)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/server/ext_server.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/server/ext_server.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/server/ext_server.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/server/ext_server.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/server/ext_server.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/server/ext_server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/server/ext_server.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/server/ext_server.cpp > CMakeFiles/hphp_runtime_ext.dir/server/ext_server.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/server/ext_server.cpp > CMakeFiles/hphp_runtime_ext.dir/server/ext_server.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/server/ext_server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/server/ext_server.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/server/ext_server.cpp -o CMakeFiles/hphp_runtime_ext.dir/server/ext_server.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/server/ext_server.cpp -o CMakeFiles/hphp_runtime_ext.dir/server/ext_server.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/server/ext_server.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/server/ext_server.cpp.o.requires
@@ -4516,17 +4562,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/server/ext_server.cpp.o.provide
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/session/ext_session.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/session/ext_session.cpp.o: hphp/runtime/ext/session/ext_session.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_195)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_197)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/session/ext_session.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/session/ext_session.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/session/ext_session.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/session/ext_session.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/session/ext_session.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/session/ext_session.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/session/ext_session.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/session/ext_session.cpp > CMakeFiles/hphp_runtime_ext.dir/session/ext_session.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/session/ext_session.cpp > CMakeFiles/hphp_runtime_ext.dir/session/ext_session.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/session/ext_session.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/session/ext_session.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/session/ext_session.cpp -o CMakeFiles/hphp_runtime_ext.dir/session/ext_session.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/session/ext_session.cpp -o CMakeFiles/hphp_runtime_ext.dir/session/ext_session.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/session/ext_session.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/session/ext_session.cpp.o.requires
@@ -4539,17 +4585,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/session/ext_session.cpp.o.provi
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/simplexml/ext_simplexml.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/simplexml/ext_simplexml.cpp.o: hphp/runtime/ext/simplexml/ext_simplexml.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_196)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_198)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/simplexml/ext_simplexml.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/simplexml/ext_simplexml.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/simplexml/ext_simplexml.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/simplexml/ext_simplexml.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/simplexml/ext_simplexml.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/simplexml/ext_simplexml.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/simplexml/ext_simplexml.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/simplexml/ext_simplexml.cpp > CMakeFiles/hphp_runtime_ext.dir/simplexml/ext_simplexml.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/simplexml/ext_simplexml.cpp > CMakeFiles/hphp_runtime_ext.dir/simplexml/ext_simplexml.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/simplexml/ext_simplexml.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/simplexml/ext_simplexml.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/simplexml/ext_simplexml.cpp -o CMakeFiles/hphp_runtime_ext.dir/simplexml/ext_simplexml.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/simplexml/ext_simplexml.cpp -o CMakeFiles/hphp_runtime_ext.dir/simplexml/ext_simplexml.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/simplexml/ext_simplexml.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/simplexml/ext_simplexml.cpp.o.requires
@@ -4562,17 +4608,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/simplexml/ext_simplexml.cpp.o.p
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/encoding.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/encoding.cpp.o: hphp/runtime/ext/soap/encoding.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_197)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_199)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/encoding.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/soap/encoding.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/soap/encoding.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/soap/encoding.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/soap/encoding.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/encoding.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/soap/encoding.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/soap/encoding.cpp > CMakeFiles/hphp_runtime_ext.dir/soap/encoding.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/soap/encoding.cpp > CMakeFiles/hphp_runtime_ext.dir/soap/encoding.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/encoding.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/soap/encoding.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/soap/encoding.cpp -o CMakeFiles/hphp_runtime_ext.dir/soap/encoding.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/soap/encoding.cpp -o CMakeFiles/hphp_runtime_ext.dir/soap/encoding.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/encoding.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/encoding.cpp.o.requires
@@ -4585,17 +4631,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/encoding.cpp.o.provides.bu
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/ext_soap.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/ext_soap.cpp.o: hphp/runtime/ext/soap/ext_soap.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_198)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_200)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/ext_soap.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/soap/ext_soap.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/soap/ext_soap.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/soap/ext_soap.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/soap/ext_soap.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/ext_soap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/soap/ext_soap.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/soap/ext_soap.cpp > CMakeFiles/hphp_runtime_ext.dir/soap/ext_soap.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/soap/ext_soap.cpp > CMakeFiles/hphp_runtime_ext.dir/soap/ext_soap.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/ext_soap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/soap/ext_soap.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/soap/ext_soap.cpp -o CMakeFiles/hphp_runtime_ext.dir/soap/ext_soap.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/soap/ext_soap.cpp -o CMakeFiles/hphp_runtime_ext.dir/soap/ext_soap.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/ext_soap.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/ext_soap.cpp.o.requires
@@ -4608,17 +4654,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/ext_soap.cpp.o.provides.bu
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/packet.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/packet.cpp.o: hphp/runtime/ext/soap/packet.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_199)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_201)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/packet.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/soap/packet.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/soap/packet.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/soap/packet.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/soap/packet.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/packet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/soap/packet.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/soap/packet.cpp > CMakeFiles/hphp_runtime_ext.dir/soap/packet.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/soap/packet.cpp > CMakeFiles/hphp_runtime_ext.dir/soap/packet.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/packet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/soap/packet.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/soap/packet.cpp -o CMakeFiles/hphp_runtime_ext.dir/soap/packet.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/soap/packet.cpp -o CMakeFiles/hphp_runtime_ext.dir/soap/packet.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/packet.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/packet.cpp.o.requires
@@ -4631,17 +4677,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/packet.cpp.o.provides.buil
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/schema.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/schema.cpp.o: hphp/runtime/ext/soap/schema.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_200)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_202)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/schema.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/soap/schema.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/soap/schema.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/soap/schema.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/soap/schema.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/schema.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/soap/schema.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/soap/schema.cpp > CMakeFiles/hphp_runtime_ext.dir/soap/schema.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/soap/schema.cpp > CMakeFiles/hphp_runtime_ext.dir/soap/schema.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/schema.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/soap/schema.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/soap/schema.cpp -o CMakeFiles/hphp_runtime_ext.dir/soap/schema.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/soap/schema.cpp -o CMakeFiles/hphp_runtime_ext.dir/soap/schema.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/schema.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/schema.cpp.o.requires
@@ -4654,17 +4700,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/schema.cpp.o.provides.buil
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/sdl.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/sdl.cpp.o: hphp/runtime/ext/soap/sdl.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_201)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_203)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/sdl.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/soap/sdl.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/soap/sdl.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/soap/sdl.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/soap/sdl.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/sdl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/soap/sdl.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/soap/sdl.cpp > CMakeFiles/hphp_runtime_ext.dir/soap/sdl.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/soap/sdl.cpp > CMakeFiles/hphp_runtime_ext.dir/soap/sdl.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/sdl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/soap/sdl.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/soap/sdl.cpp -o CMakeFiles/hphp_runtime_ext.dir/soap/sdl.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/soap/sdl.cpp -o CMakeFiles/hphp_runtime_ext.dir/soap/sdl.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/sdl.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/sdl.cpp.o.requires
@@ -4677,17 +4723,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/sdl.cpp.o.provides.build: 
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/soap.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/soap.cpp.o: hphp/runtime/ext/soap/soap.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_202)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_204)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/soap.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/soap/soap.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/soap/soap.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/soap/soap.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/soap/soap.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/soap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/soap/soap.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/soap/soap.cpp > CMakeFiles/hphp_runtime_ext.dir/soap/soap.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/soap/soap.cpp > CMakeFiles/hphp_runtime_ext.dir/soap/soap.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/soap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/soap/soap.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/soap/soap.cpp -o CMakeFiles/hphp_runtime_ext.dir/soap/soap.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/soap/soap.cpp -o CMakeFiles/hphp_runtime_ext.dir/soap/soap.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/soap.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/soap.cpp.o.requires
@@ -4700,17 +4746,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/soap.cpp.o.provides.build:
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/xml.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/xml.cpp.o: hphp/runtime/ext/soap/xml.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_203)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_205)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/xml.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/soap/xml.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/soap/xml.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/soap/xml.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/soap/xml.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/xml.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/soap/xml.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/soap/xml.cpp > CMakeFiles/hphp_runtime_ext.dir/soap/xml.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/soap/xml.cpp > CMakeFiles/hphp_runtime_ext.dir/soap/xml.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/xml.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/soap/xml.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/soap/xml.cpp -o CMakeFiles/hphp_runtime_ext.dir/soap/xml.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/soap/xml.cpp -o CMakeFiles/hphp_runtime_ext.dir/soap/xml.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/xml.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/xml.cpp.o.requires
@@ -4723,17 +4769,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/soap/xml.cpp.o.provides.build: 
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/sockets/ext_sockets.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/sockets/ext_sockets.cpp.o: hphp/runtime/ext/sockets/ext_sockets.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_204)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_206)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/sockets/ext_sockets.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/sockets/ext_sockets.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/sockets/ext_sockets.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/sockets/ext_sockets.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/sockets/ext_sockets.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/sockets/ext_sockets.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/sockets/ext_sockets.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/sockets/ext_sockets.cpp > CMakeFiles/hphp_runtime_ext.dir/sockets/ext_sockets.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/sockets/ext_sockets.cpp > CMakeFiles/hphp_runtime_ext.dir/sockets/ext_sockets.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/sockets/ext_sockets.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/sockets/ext_sockets.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/sockets/ext_sockets.cpp -o CMakeFiles/hphp_runtime_ext.dir/sockets/ext_sockets.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/sockets/ext_sockets.cpp -o CMakeFiles/hphp_runtime_ext.dir/sockets/ext_sockets.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/sockets/ext_sockets.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/sockets/ext_sockets.cpp.o.requires
@@ -4746,17 +4792,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/sockets/ext_sockets.cpp.o.provi
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/spl/ext_spl.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/spl/ext_spl.cpp.o: hphp/runtime/ext/spl/ext_spl.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_205)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_207)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/spl/ext_spl.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/spl/ext_spl.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/spl/ext_spl.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/spl/ext_spl.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/spl/ext_spl.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/spl/ext_spl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/spl/ext_spl.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/spl/ext_spl.cpp > CMakeFiles/hphp_runtime_ext.dir/spl/ext_spl.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/spl/ext_spl.cpp > CMakeFiles/hphp_runtime_ext.dir/spl/ext_spl.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/spl/ext_spl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/spl/ext_spl.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/spl/ext_spl.cpp -o CMakeFiles/hphp_runtime_ext.dir/spl/ext_spl.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/spl/ext_spl.cpp -o CMakeFiles/hphp_runtime_ext.dir/spl/ext_spl.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/spl/ext_spl.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/spl/ext_spl.cpp.o.requires
@@ -4769,17 +4815,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/spl/ext_spl.cpp.o.provides.buil
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/sqlite3/ext_sqlite3.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/sqlite3/ext_sqlite3.cpp.o: hphp/runtime/ext/sqlite3/ext_sqlite3.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_206)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_208)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/sqlite3/ext_sqlite3.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/sqlite3/ext_sqlite3.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/sqlite3/ext_sqlite3.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/sqlite3/ext_sqlite3.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/sqlite3/ext_sqlite3.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/sqlite3/ext_sqlite3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/sqlite3/ext_sqlite3.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/sqlite3/ext_sqlite3.cpp > CMakeFiles/hphp_runtime_ext.dir/sqlite3/ext_sqlite3.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/sqlite3/ext_sqlite3.cpp > CMakeFiles/hphp_runtime_ext.dir/sqlite3/ext_sqlite3.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/sqlite3/ext_sqlite3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/sqlite3/ext_sqlite3.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/sqlite3/ext_sqlite3.cpp -o CMakeFiles/hphp_runtime_ext.dir/sqlite3/ext_sqlite3.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/sqlite3/ext_sqlite3.cpp -o CMakeFiles/hphp_runtime_ext.dir/sqlite3/ext_sqlite3.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/sqlite3/ext_sqlite3.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/sqlite3/ext_sqlite3.cpp.o.requires
@@ -4792,17 +4838,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/sqlite3/ext_sqlite3.cpp.o.provi
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std.cpp.o: hphp/runtime/ext/std/ext_std.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_207)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_209)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/std/ext_std.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std.cpp > CMakeFiles/hphp_runtime_ext.dir/std/ext_std.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std.cpp > CMakeFiles/hphp_runtime_ext.dir/std/ext_std.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/std/ext_std.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std.cpp -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std.cpp -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std.cpp.o.requires
@@ -4815,17 +4861,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std.cpp.o.provides.buil
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_classobj.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_classobj.cpp.o: hphp/runtime/ext/std/ext_std_classobj.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_208)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_210)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_classobj.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_classobj.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_classobj.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_classobj.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_classobj.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_classobj.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/std/ext_std_classobj.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_classobj.cpp > CMakeFiles/hphp_runtime_ext.dir/std/ext_std_classobj.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_classobj.cpp > CMakeFiles/hphp_runtime_ext.dir/std/ext_std_classobj.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_classobj.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/std/ext_std_classobj.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_classobj.cpp -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_classobj.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_classobj.cpp -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_classobj.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_classobj.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_classobj.cpp.o.requires
@@ -4838,17 +4884,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_classobj.cpp.o.prov
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_closure.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_closure.cpp.o: hphp/runtime/ext/std/ext_std_closure.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_209)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_211)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_closure.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_closure.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_closure.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_closure.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_closure.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_closure.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/std/ext_std_closure.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_closure.cpp > CMakeFiles/hphp_runtime_ext.dir/std/ext_std_closure.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_closure.cpp > CMakeFiles/hphp_runtime_ext.dir/std/ext_std_closure.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_closure.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/std/ext_std_closure.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_closure.cpp -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_closure.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_closure.cpp -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_closure.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_closure.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_closure.cpp.o.requires
@@ -4861,17 +4907,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_closure.cpp.o.provi
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_errorfunc.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_errorfunc.cpp.o: hphp/runtime/ext/std/ext_std_errorfunc.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_210)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_212)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_errorfunc.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_errorfunc.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_errorfunc.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_errorfunc.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_errorfunc.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_errorfunc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/std/ext_std_errorfunc.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_errorfunc.cpp > CMakeFiles/hphp_runtime_ext.dir/std/ext_std_errorfunc.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_errorfunc.cpp > CMakeFiles/hphp_runtime_ext.dir/std/ext_std_errorfunc.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_errorfunc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/std/ext_std_errorfunc.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_errorfunc.cpp -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_errorfunc.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_errorfunc.cpp -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_errorfunc.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_errorfunc.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_errorfunc.cpp.o.requires
@@ -4884,17 +4930,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_errorfunc.cpp.o.pro
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_file.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_file.cpp.o: hphp/runtime/ext/std/ext_std_file.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_211)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_213)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_file.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_file.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_file.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_file.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_file.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_file.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/std/ext_std_file.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_file.cpp > CMakeFiles/hphp_runtime_ext.dir/std/ext_std_file.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_file.cpp > CMakeFiles/hphp_runtime_ext.dir/std/ext_std_file.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_file.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/std/ext_std_file.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_file.cpp -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_file.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_file.cpp -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_file.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_file.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_file.cpp.o.requires
@@ -4907,17 +4953,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_file.cpp.o.provides
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_function.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_function.cpp.o: hphp/runtime/ext/std/ext_std_function.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_212)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_214)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_function.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_function.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_function.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_function.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_function.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_function.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/std/ext_std_function.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_function.cpp > CMakeFiles/hphp_runtime_ext.dir/std/ext_std_function.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_function.cpp > CMakeFiles/hphp_runtime_ext.dir/std/ext_std_function.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_function.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/std/ext_std_function.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_function.cpp -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_function.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_function.cpp -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_function.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_function.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_function.cpp.o.requires
@@ -4930,17 +4976,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_function.cpp.o.prov
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_gc.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_gc.cpp.o: hphp/runtime/ext/std/ext_std_gc.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_213)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_215)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_gc.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_gc.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_gc.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_gc.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_gc.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_gc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/std/ext_std_gc.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_gc.cpp > CMakeFiles/hphp_runtime_ext.dir/std/ext_std_gc.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_gc.cpp > CMakeFiles/hphp_runtime_ext.dir/std/ext_std_gc.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_gc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/std/ext_std_gc.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_gc.cpp -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_gc.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_gc.cpp -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_gc.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_gc.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_gc.cpp.o.requires
@@ -4953,17 +4999,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_gc.cpp.o.provides.b
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_intrinsics.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_intrinsics.cpp.o: hphp/runtime/ext/std/ext_std_intrinsics.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_214)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_216)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_intrinsics.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_intrinsics.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_intrinsics.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_intrinsics.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_intrinsics.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_intrinsics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/std/ext_std_intrinsics.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_intrinsics.cpp > CMakeFiles/hphp_runtime_ext.dir/std/ext_std_intrinsics.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_intrinsics.cpp > CMakeFiles/hphp_runtime_ext.dir/std/ext_std_intrinsics.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_intrinsics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/std/ext_std_intrinsics.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_intrinsics.cpp -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_intrinsics.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_intrinsics.cpp -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_intrinsics.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_intrinsics.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_intrinsics.cpp.o.requires
@@ -4976,17 +5022,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_intrinsics.cpp.o.pr
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_math.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_math.cpp.o: hphp/runtime/ext/std/ext_std_math.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_215)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_217)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_math.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_math.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_math.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_math.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_math.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_math.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/std/ext_std_math.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_math.cpp > CMakeFiles/hphp_runtime_ext.dir/std/ext_std_math.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_math.cpp > CMakeFiles/hphp_runtime_ext.dir/std/ext_std_math.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_math.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/std/ext_std_math.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_math.cpp -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_math.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_math.cpp -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_math.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_math.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_math.cpp.o.requires
@@ -4999,17 +5045,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_math.cpp.o.provides
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_misc.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_misc.cpp.o: hphp/runtime/ext/std/ext_std_misc.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_216)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_218)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_misc.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_misc.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_misc.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_misc.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_misc.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_misc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/std/ext_std_misc.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_misc.cpp > CMakeFiles/hphp_runtime_ext.dir/std/ext_std_misc.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_misc.cpp > CMakeFiles/hphp_runtime_ext.dir/std/ext_std_misc.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_misc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/std/ext_std_misc.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_misc.cpp -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_misc.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_misc.cpp -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_misc.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_misc.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_misc.cpp.o.requires
@@ -5022,17 +5068,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_misc.cpp.o.provides
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network.cpp.o: hphp/runtime/ext/std/ext_std_network.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_217)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_219)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_network.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_network.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_network.cpp > CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_network.cpp > CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_network.cpp -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_network.cpp -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network.cpp.o.requires
@@ -5045,17 +5091,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network.cpp.o.provi
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-posix.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-posix.cpp.o: hphp/runtime/ext/std/ext_std_network-posix.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_218)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_220)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-posix.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-posix.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_network-posix.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-posix.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_network-posix.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-posix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-posix.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_network-posix.cpp > CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-posix.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_network-posix.cpp > CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-posix.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-posix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-posix.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_network-posix.cpp -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-posix.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_network-posix.cpp -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-posix.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-posix.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-posix.cpp.o.requires
@@ -5068,17 +5114,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-posix.cpp.o
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-win.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-win.cpp.o: hphp/runtime/ext/std/ext_std_network-win.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_219)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_221)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-win.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-win.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_network-win.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-win.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_network-win.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-win.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-win.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_network-win.cpp > CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-win.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_network-win.cpp > CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-win.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-win.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-win.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_network-win.cpp -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-win.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_network-win.cpp -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-win.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-win.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-win.cpp.o.requires
@@ -5091,17 +5137,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_network-win.cpp.o.p
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_options.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_options.cpp.o: hphp/runtime/ext/std/ext_std_options.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_220)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_222)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_options.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_options.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_options.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_options.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_options.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_options.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/std/ext_std_options.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_options.cpp > CMakeFiles/hphp_runtime_ext.dir/std/ext_std_options.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_options.cpp > CMakeFiles/hphp_runtime_ext.dir/std/ext_std_options.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_options.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/std/ext_std_options.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_options.cpp -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_options.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_options.cpp -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_options.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_options.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_options.cpp.o.requires
@@ -5114,17 +5160,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_options.cpp.o.provi
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_output.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_output.cpp.o: hphp/runtime/ext/std/ext_std_output.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_221)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_223)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_output.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_output.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_output.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_output.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_output.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_output.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/std/ext_std_output.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_output.cpp > CMakeFiles/hphp_runtime_ext.dir/std/ext_std_output.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_output.cpp > CMakeFiles/hphp_runtime_ext.dir/std/ext_std_output.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_output.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/std/ext_std_output.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_output.cpp -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_output.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_output.cpp -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_output.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_output.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_output.cpp.o.requires
@@ -5137,17 +5183,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_output.cpp.o.provid
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_process.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_process.cpp.o: hphp/runtime/ext/std/ext_std_process.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_222)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_224)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_process.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_process.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_process.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_process.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_process.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_process.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/std/ext_std_process.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_process.cpp > CMakeFiles/hphp_runtime_ext.dir/std/ext_std_process.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_process.cpp > CMakeFiles/hphp_runtime_ext.dir/std/ext_std_process.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_process.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/std/ext_std_process.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_process.cpp -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_process.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_process.cpp -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_process.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_process.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_process.cpp.o.requires
@@ -5160,17 +5206,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_process.cpp.o.provi
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_string.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_string.cpp.o: hphp/runtime/ext/std/ext_std_string.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_223)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_225)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_string.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_string.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_string.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_string.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_string.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_string.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/std/ext_std_string.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_string.cpp > CMakeFiles/hphp_runtime_ext.dir/std/ext_std_string.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_string.cpp > CMakeFiles/hphp_runtime_ext.dir/std/ext_std_string.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_string.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/std/ext_std_string.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_string.cpp -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_string.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_string.cpp -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_string.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_string.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_string.cpp.o.requires
@@ -5183,17 +5229,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_string.cpp.o.provid
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_variable.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_variable.cpp.o: hphp/runtime/ext/std/ext_std_variable.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_224)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_226)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_variable.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_variable.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_variable.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_variable.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_variable.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_variable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/std/ext_std_variable.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_variable.cpp > CMakeFiles/hphp_runtime_ext.dir/std/ext_std_variable.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_variable.cpp > CMakeFiles/hphp_runtime_ext.dir/std/ext_std_variable.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_variable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/std/ext_std_variable.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/std/ext_std_variable.cpp -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_variable.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/std/ext_std_variable.cpp -o CMakeFiles/hphp_runtime_ext.dir/std/ext_std_variable.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_variable.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_variable.cpp.o.requires
@@ -5206,17 +5252,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/std/ext_std_variable.cpp.o.prov
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream.cpp.o: hphp/runtime/ext/stream/ext_stream.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_225)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_227)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/stream/ext_stream.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/stream/ext_stream.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/stream/ext_stream.cpp > CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/stream/ext_stream.cpp > CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/stream/ext_stream.cpp -o CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/stream/ext_stream.cpp -o CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream.cpp.o.requires
@@ -5229,17 +5275,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream.cpp.o.provide
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream-user-filters.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream-user-filters.cpp.o: hphp/runtime/ext/stream/ext_stream-user-filters.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_226)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_228)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream-user-filters.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream-user-filters.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/stream/ext_stream-user-filters.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream-user-filters.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/stream/ext_stream-user-filters.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream-user-filters.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream-user-filters.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/stream/ext_stream-user-filters.cpp > CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream-user-filters.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/stream/ext_stream-user-filters.cpp > CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream-user-filters.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream-user-filters.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream-user-filters.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/stream/ext_stream-user-filters.cpp -o CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream-user-filters.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/stream/ext_stream-user-filters.cpp -o CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream-user-filters.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream-user-filters.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream-user-filters.cpp.o.requires
@@ -5252,17 +5298,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/stream/ext_stream-user-filters.
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/string/ext_string.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/string/ext_string.cpp.o: hphp/runtime/ext/string/ext_string.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_227)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_229)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/string/ext_string.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/string/ext_string.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/string/ext_string.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/string/ext_string.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/string/ext_string.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/string/ext_string.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/string/ext_string.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/string/ext_string.cpp > CMakeFiles/hphp_runtime_ext.dir/string/ext_string.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/string/ext_string.cpp > CMakeFiles/hphp_runtime_ext.dir/string/ext_string.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/string/ext_string.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/string/ext_string.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/string/ext_string.cpp -o CMakeFiles/hphp_runtime_ext.dir/string/ext_string.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/string/ext_string.cpp -o CMakeFiles/hphp_runtime_ext.dir/string/ext_string.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/string/ext_string.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/string/ext_string.cpp.o.requires
@@ -5275,17 +5321,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/string/ext_string.cpp.o.provide
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thread/ext_thread.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thread/ext_thread.cpp.o: hphp/runtime/ext/thread/ext_thread.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_228)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_230)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thread/ext_thread.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/thread/ext_thread.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/thread/ext_thread.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/thread/ext_thread.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/thread/ext_thread.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thread/ext_thread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/thread/ext_thread.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/thread/ext_thread.cpp > CMakeFiles/hphp_runtime_ext.dir/thread/ext_thread.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/thread/ext_thread.cpp > CMakeFiles/hphp_runtime_ext.dir/thread/ext_thread.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thread/ext_thread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/thread/ext_thread.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/thread/ext_thread.cpp -o CMakeFiles/hphp_runtime_ext.dir/thread/ext_thread.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/thread/ext_thread.cpp -o CMakeFiles/hphp_runtime_ext.dir/thread/ext_thread.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thread/ext_thread.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thread/ext_thread.cpp.o.requires
@@ -5298,17 +5344,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thread/ext_thread.cpp.o.provide
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/binary.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/binary.cpp.o: hphp/runtime/ext/thrift/binary.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_229)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_231)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/binary.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/thrift/binary.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/thrift/binary.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/thrift/binary.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/thrift/binary.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/binary.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/thrift/binary.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/thrift/binary.cpp > CMakeFiles/hphp_runtime_ext.dir/thrift/binary.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/thrift/binary.cpp > CMakeFiles/hphp_runtime_ext.dir/thrift/binary.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/binary.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/thrift/binary.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/thrift/binary.cpp -o CMakeFiles/hphp_runtime_ext.dir/thrift/binary.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/thrift/binary.cpp -o CMakeFiles/hphp_runtime_ext.dir/thrift/binary.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/binary.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/binary.cpp.o.requires
@@ -5321,17 +5367,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/binary.cpp.o.provides.bu
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/compact.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/compact.cpp.o: hphp/runtime/ext/thrift/compact.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_230)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_232)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/compact.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/thrift/compact.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/thrift/compact.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/thrift/compact.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/thrift/compact.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/compact.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/thrift/compact.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/thrift/compact.cpp > CMakeFiles/hphp_runtime_ext.dir/thrift/compact.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/thrift/compact.cpp > CMakeFiles/hphp_runtime_ext.dir/thrift/compact.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/compact.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/thrift/compact.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/thrift/compact.cpp -o CMakeFiles/hphp_runtime_ext.dir/thrift/compact.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/thrift/compact.cpp -o CMakeFiles/hphp_runtime_ext.dir/thrift/compact.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/compact.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/compact.cpp.o.requires
@@ -5344,17 +5390,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/compact.cpp.o.provides.b
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/ext_thrift.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/ext_thrift.cpp.o: hphp/runtime/ext/thrift/ext_thrift.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_231)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_233)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/ext_thrift.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/thrift/ext_thrift.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/thrift/ext_thrift.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/thrift/ext_thrift.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/thrift/ext_thrift.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/ext_thrift.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/thrift/ext_thrift.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/thrift/ext_thrift.cpp > CMakeFiles/hphp_runtime_ext.dir/thrift/ext_thrift.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/thrift/ext_thrift.cpp > CMakeFiles/hphp_runtime_ext.dir/thrift/ext_thrift.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/ext_thrift.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/thrift/ext_thrift.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/thrift/ext_thrift.cpp -o CMakeFiles/hphp_runtime_ext.dir/thrift/ext_thrift.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/thrift/ext_thrift.cpp -o CMakeFiles/hphp_runtime_ext.dir/thrift/ext_thrift.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/ext_thrift.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/ext_thrift.cpp.o.requires
@@ -5365,19 +5411,42 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/ext_thrift.cpp.o.provide
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/ext_thrift.cpp.o.provides.build: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/ext_thrift.cpp.o
 
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/spec-holder.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/spec-holder.cpp.o: hphp/runtime/ext/thrift/spec-holder.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_234)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/spec-holder.cpp.o"
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/thrift/spec-holder.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/thrift/spec-holder.cpp
+
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/spec-holder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/thrift/spec-holder.cpp.i"
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/thrift/spec-holder.cpp > CMakeFiles/hphp_runtime_ext.dir/thrift/spec-holder.cpp.i
+
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/spec-holder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/thrift/spec-holder.cpp.s"
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/thrift/spec-holder.cpp -o CMakeFiles/hphp_runtime_ext.dir/thrift/spec-holder.cpp.s
+
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/spec-holder.cpp.o.requires:
+.PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/spec-holder.cpp.o.requires
+
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/spec-holder.cpp.o.provides: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/spec-holder.cpp.o.requires
+	$(MAKE) -f hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/spec-holder.cpp.o.provides.build
+.PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/spec-holder.cpp.o.provides
+
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/spec-holder.cpp.o.provides.build: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/spec-holder.cpp.o
+
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/url/ext_url.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/url/ext_url.cpp.o: hphp/runtime/ext/url/ext_url.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_232)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_235)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/url/ext_url.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/url/ext_url.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/url/ext_url.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/url/ext_url.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/url/ext_url.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/url/ext_url.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/url/ext_url.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/url/ext_url.cpp > CMakeFiles/hphp_runtime_ext.dir/url/ext_url.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/url/ext_url.cpp > CMakeFiles/hphp_runtime_ext.dir/url/ext_url.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/url/ext_url.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/url/ext_url.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/url/ext_url.cpp -o CMakeFiles/hphp_runtime_ext.dir/url/ext_url.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/url/ext_url.cpp -o CMakeFiles/hphp_runtime_ext.dir/url/ext_url.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/url/ext_url.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/url/ext_url.cpp.o.requires
@@ -5390,17 +5459,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/url/ext_url.cpp.o.provides.buil
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/wddx/ext_wddx.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/wddx/ext_wddx.cpp.o: hphp/runtime/ext/wddx/ext_wddx.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_233)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_236)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/wddx/ext_wddx.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/wddx/ext_wddx.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/wddx/ext_wddx.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/wddx/ext_wddx.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/wddx/ext_wddx.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/wddx/ext_wddx.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/wddx/ext_wddx.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/wddx/ext_wddx.cpp > CMakeFiles/hphp_runtime_ext.dir/wddx/ext_wddx.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/wddx/ext_wddx.cpp > CMakeFiles/hphp_runtime_ext.dir/wddx/ext_wddx.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/wddx/ext_wddx.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/wddx/ext_wddx.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/wddx/ext_wddx.cpp -o CMakeFiles/hphp_runtime_ext.dir/wddx/ext_wddx.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/wddx/ext_wddx.cpp -o CMakeFiles/hphp_runtime_ext.dir/wddx/ext_wddx.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/wddx/ext_wddx.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/wddx/ext_wddx.cpp.o.requires
@@ -5413,17 +5482,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/wddx/ext_wddx.cpp.o.provides.bu
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/ext_xdebug.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/ext_xdebug.cpp.o: hphp/runtime/ext/xdebug/ext_xdebug.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_234)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_237)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/ext_xdebug.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/xdebug/ext_xdebug.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/xdebug/ext_xdebug.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/xdebug/ext_xdebug.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/xdebug/ext_xdebug.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/ext_xdebug.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/xdebug/ext_xdebug.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/xdebug/ext_xdebug.cpp > CMakeFiles/hphp_runtime_ext.dir/xdebug/ext_xdebug.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/xdebug/ext_xdebug.cpp > CMakeFiles/hphp_runtime_ext.dir/xdebug/ext_xdebug.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/ext_xdebug.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/xdebug/ext_xdebug.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/xdebug/ext_xdebug.cpp -o CMakeFiles/hphp_runtime_ext.dir/xdebug/ext_xdebug.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/xdebug/ext_xdebug.cpp -o CMakeFiles/hphp_runtime_ext.dir/xdebug/ext_xdebug.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/ext_xdebug.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/ext_xdebug.cpp.o.requires
@@ -5436,17 +5505,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/ext_xdebug.cpp.o.provide
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/hook.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/hook.cpp.o: hphp/runtime/ext/xdebug/hook.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_235)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_238)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/hook.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/xdebug/hook.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/xdebug/hook.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/xdebug/hook.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/xdebug/hook.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/hook.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/xdebug/hook.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/xdebug/hook.cpp > CMakeFiles/hphp_runtime_ext.dir/xdebug/hook.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/xdebug/hook.cpp > CMakeFiles/hphp_runtime_ext.dir/xdebug/hook.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/hook.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/xdebug/hook.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/xdebug/hook.cpp -o CMakeFiles/hphp_runtime_ext.dir/xdebug/hook.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/xdebug/hook.cpp -o CMakeFiles/hphp_runtime_ext.dir/xdebug/hook.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/hook.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/hook.cpp.o.requires
@@ -5459,17 +5528,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/hook.cpp.o.provides.buil
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/status.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/status.cpp.o: hphp/runtime/ext/xdebug/status.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_236)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_239)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/status.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/xdebug/status.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/xdebug/status.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/xdebug/status.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/xdebug/status.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/status.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/xdebug/status.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/xdebug/status.cpp > CMakeFiles/hphp_runtime_ext.dir/xdebug/status.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/xdebug/status.cpp > CMakeFiles/hphp_runtime_ext.dir/xdebug/status.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/status.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/xdebug/status.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/xdebug/status.cpp -o CMakeFiles/hphp_runtime_ext.dir/xdebug/status.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/xdebug/status.cpp -o CMakeFiles/hphp_runtime_ext.dir/xdebug/status.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/status.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/status.cpp.o.requires
@@ -5482,17 +5551,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/status.cpp.o.provides.bu
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_command.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_command.cpp.o: hphp/runtime/ext/xdebug/xdebug_command.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_237)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_240)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_command.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_command.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/xdebug/xdebug_command.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_command.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/xdebug/xdebug_command.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_command.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_command.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/xdebug/xdebug_command.cpp > CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_command.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/xdebug/xdebug_command.cpp > CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_command.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_command.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_command.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/xdebug/xdebug_command.cpp -o CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_command.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/xdebug/xdebug_command.cpp -o CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_command.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_command.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_command.cpp.o.requires
@@ -5505,17 +5574,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_command.cpp.o.pro
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_profiler.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_profiler.cpp.o: hphp/runtime/ext/xdebug/xdebug_profiler.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_238)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_241)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_profiler.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_profiler.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/xdebug/xdebug_profiler.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_profiler.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/xdebug/xdebug_profiler.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_profiler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_profiler.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/xdebug/xdebug_profiler.cpp > CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_profiler.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/xdebug/xdebug_profiler.cpp > CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_profiler.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_profiler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_profiler.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/xdebug/xdebug_profiler.cpp -o CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_profiler.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/xdebug/xdebug_profiler.cpp -o CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_profiler.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_profiler.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_profiler.cpp.o.requires
@@ -5528,17 +5597,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_profiler.cpp.o.pr
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_server.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_server.cpp.o: hphp/runtime/ext/xdebug/xdebug_server.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_239)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_242)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_server.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_server.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/xdebug/xdebug_server.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_server.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/xdebug/xdebug_server.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_server.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/xdebug/xdebug_server.cpp > CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_server.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/xdebug/xdebug_server.cpp > CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_server.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_server.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/xdebug/xdebug_server.cpp -o CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_server.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/xdebug/xdebug_server.cpp -o CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_server.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_server.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_server.cpp.o.requires
@@ -5551,17 +5620,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_server.cpp.o.prov
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_utils.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_utils.cpp.o: hphp/runtime/ext/xdebug/xdebug_utils.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_240)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_243)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_utils.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_utils.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/xdebug/xdebug_utils.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_utils.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/xdebug/xdebug_utils.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_utils.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/xdebug/xdebug_utils.cpp > CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_utils.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/xdebug/xdebug_utils.cpp > CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_utils.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_utils.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/xdebug/xdebug_utils.cpp -o CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_utils.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/xdebug/xdebug_utils.cpp -o CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_utils.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_utils.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_utils.cpp.o.requires
@@ -5574,17 +5643,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/xdebug_utils.cpp.o.provi
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_str.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_str.cpp.o: hphp/runtime/ext/xdebug/php5_xdebug/xdebug_str.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_241)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_244)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_str.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_str.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/xdebug/php5_xdebug/xdebug_str.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_str.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/xdebug/php5_xdebug/xdebug_str.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_str.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_str.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/xdebug/php5_xdebug/xdebug_str.cpp > CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_str.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/xdebug/php5_xdebug/xdebug_str.cpp > CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_str.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_str.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_str.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/xdebug/php5_xdebug/xdebug_str.cpp -o CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_str.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/xdebug/php5_xdebug/xdebug_str.cpp -o CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_str.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_str.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_str.cpp.o.requires
@@ -5597,17 +5666,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_str.c
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_var.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_var.cpp.o: hphp/runtime/ext/xdebug/php5_xdebug/xdebug_var.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_242)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_245)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_var.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_var.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/xdebug/php5_xdebug/xdebug_var.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_var.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/xdebug/php5_xdebug/xdebug_var.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_var.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_var.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/xdebug/php5_xdebug/xdebug_var.cpp > CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_var.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/xdebug/php5_xdebug/xdebug_var.cpp > CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_var.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_var.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_var.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/xdebug/php5_xdebug/xdebug_var.cpp -o CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_var.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/xdebug/php5_xdebug/xdebug_var.cpp -o CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_var.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_var.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_var.cpp.o.requires
@@ -5620,17 +5689,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_var.c
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_xml.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_xml.cpp.o: hphp/runtime/ext/xdebug/php5_xdebug/xdebug_xml.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_243)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_246)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_xml.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_xml.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/xdebug/php5_xdebug/xdebug_xml.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_xml.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/xdebug/php5_xdebug/xdebug_xml.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_xml.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_xml.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/xdebug/php5_xdebug/xdebug_xml.cpp > CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_xml.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/xdebug/php5_xdebug/xdebug_xml.cpp > CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_xml.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_xml.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_xml.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/xdebug/php5_xdebug/xdebug_xml.cpp -o CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_xml.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/xdebug/php5_xdebug/xdebug_xml.cpp -o CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_xml.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_xml.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_xml.cpp.o.requires
@@ -5643,17 +5712,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/php5_xdebug/xdebug_xml.c
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xenon/ext_xenon.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xenon/ext_xenon.cpp.o: hphp/runtime/ext/xenon/ext_xenon.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_244)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_247)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xenon/ext_xenon.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/xenon/ext_xenon.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/xenon/ext_xenon.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/xenon/ext_xenon.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/xenon/ext_xenon.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xenon/ext_xenon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/xenon/ext_xenon.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/xenon/ext_xenon.cpp > CMakeFiles/hphp_runtime_ext.dir/xenon/ext_xenon.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/xenon/ext_xenon.cpp > CMakeFiles/hphp_runtime_ext.dir/xenon/ext_xenon.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xenon/ext_xenon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/xenon/ext_xenon.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/xenon/ext_xenon.cpp -o CMakeFiles/hphp_runtime_ext.dir/xenon/ext_xenon.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/xenon/ext_xenon.cpp -o CMakeFiles/hphp_runtime_ext.dir/xenon/ext_xenon.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xenon/ext_xenon.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xenon/ext_xenon.cpp.o.requires
@@ -5666,17 +5735,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xenon/ext_xenon.cpp.o.provides.
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xhprof/ext_xhprof.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xhprof/ext_xhprof.cpp.o: hphp/runtime/ext/xhprof/ext_xhprof.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_245)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_248)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xhprof/ext_xhprof.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/xhprof/ext_xhprof.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/xhprof/ext_xhprof.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/xhprof/ext_xhprof.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/xhprof/ext_xhprof.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xhprof/ext_xhprof.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/xhprof/ext_xhprof.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/xhprof/ext_xhprof.cpp > CMakeFiles/hphp_runtime_ext.dir/xhprof/ext_xhprof.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/xhprof/ext_xhprof.cpp > CMakeFiles/hphp_runtime_ext.dir/xhprof/ext_xhprof.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xhprof/ext_xhprof.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/xhprof/ext_xhprof.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/xhprof/ext_xhprof.cpp -o CMakeFiles/hphp_runtime_ext.dir/xhprof/ext_xhprof.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/xhprof/ext_xhprof.cpp -o CMakeFiles/hphp_runtime_ext.dir/xhprof/ext_xhprof.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xhprof/ext_xhprof.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xhprof/ext_xhprof.cpp.o.requires
@@ -5689,17 +5758,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xhprof/ext_xhprof.cpp.o.provide
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xml/ext_xml.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xml/ext_xml.cpp.o: hphp/runtime/ext/xml/ext_xml.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_246)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_249)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xml/ext_xml.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/xml/ext_xml.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/xml/ext_xml.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/xml/ext_xml.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/xml/ext_xml.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xml/ext_xml.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/xml/ext_xml.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/xml/ext_xml.cpp > CMakeFiles/hphp_runtime_ext.dir/xml/ext_xml.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/xml/ext_xml.cpp > CMakeFiles/hphp_runtime_ext.dir/xml/ext_xml.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xml/ext_xml.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/xml/ext_xml.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/xml/ext_xml.cpp -o CMakeFiles/hphp_runtime_ext.dir/xml/ext_xml.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/xml/ext_xml.cpp -o CMakeFiles/hphp_runtime_ext.dir/xml/ext_xml.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xml/ext_xml.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xml/ext_xml.cpp.o.requires
@@ -5712,17 +5781,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xml/ext_xml.cpp.o.provides.buil
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xmlreader/ext_xmlreader.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xmlreader/ext_xmlreader.cpp.o: hphp/runtime/ext/xmlreader/ext_xmlreader.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_247)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_250)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xmlreader/ext_xmlreader.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/xmlreader/ext_xmlreader.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/xmlreader/ext_xmlreader.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/xmlreader/ext_xmlreader.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/xmlreader/ext_xmlreader.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xmlreader/ext_xmlreader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/xmlreader/ext_xmlreader.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/xmlreader/ext_xmlreader.cpp > CMakeFiles/hphp_runtime_ext.dir/xmlreader/ext_xmlreader.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/xmlreader/ext_xmlreader.cpp > CMakeFiles/hphp_runtime_ext.dir/xmlreader/ext_xmlreader.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xmlreader/ext_xmlreader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/xmlreader/ext_xmlreader.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/xmlreader/ext_xmlreader.cpp -o CMakeFiles/hphp_runtime_ext.dir/xmlreader/ext_xmlreader.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/xmlreader/ext_xmlreader.cpp -o CMakeFiles/hphp_runtime_ext.dir/xmlreader/ext_xmlreader.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xmlreader/ext_xmlreader.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xmlreader/ext_xmlreader.cpp.o.requires
@@ -5735,17 +5804,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xmlreader/ext_xmlreader.cpp.o.p
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xmlwriter/ext_xmlwriter.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xmlwriter/ext_xmlwriter.cpp.o: hphp/runtime/ext/xmlwriter/ext_xmlwriter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_248)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_251)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xmlwriter/ext_xmlwriter.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/xmlwriter/ext_xmlwriter.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/xmlwriter/ext_xmlwriter.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/xmlwriter/ext_xmlwriter.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/xmlwriter/ext_xmlwriter.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xmlwriter/ext_xmlwriter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/xmlwriter/ext_xmlwriter.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/xmlwriter/ext_xmlwriter.cpp > CMakeFiles/hphp_runtime_ext.dir/xmlwriter/ext_xmlwriter.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/xmlwriter/ext_xmlwriter.cpp > CMakeFiles/hphp_runtime_ext.dir/xmlwriter/ext_xmlwriter.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xmlwriter/ext_xmlwriter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/xmlwriter/ext_xmlwriter.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/xmlwriter/ext_xmlwriter.cpp -o CMakeFiles/hphp_runtime_ext.dir/xmlwriter/ext_xmlwriter.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/xmlwriter/ext_xmlwriter.cpp -o CMakeFiles/hphp_runtime_ext.dir/xmlwriter/ext_xmlwriter.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xmlwriter/ext_xmlwriter.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xmlwriter/ext_xmlwriter.cpp.o.requires
@@ -5758,17 +5827,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xmlwriter/ext_xmlwriter.cpp.o.p
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xsl/ext_xsl.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xsl/ext_xsl.cpp.o: hphp/runtime/ext/xsl/ext_xsl.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_249)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_252)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xsl/ext_xsl.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/xsl/ext_xsl.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/xsl/ext_xsl.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/xsl/ext_xsl.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/xsl/ext_xsl.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xsl/ext_xsl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/xsl/ext_xsl.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/xsl/ext_xsl.cpp > CMakeFiles/hphp_runtime_ext.dir/xsl/ext_xsl.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/xsl/ext_xsl.cpp > CMakeFiles/hphp_runtime_ext.dir/xsl/ext_xsl.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xsl/ext_xsl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/xsl/ext_xsl.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/xsl/ext_xsl.cpp -o CMakeFiles/hphp_runtime_ext.dir/xsl/ext_xsl.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/xsl/ext_xsl.cpp -o CMakeFiles/hphp_runtime_ext.dir/xsl/ext_xsl.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xsl/ext_xsl.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xsl/ext_xsl.cpp.o.requires
@@ -5781,17 +5850,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xsl/ext_xsl.cpp.o.provides.buil
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zip/ext_zip.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zip/ext_zip.cpp.o: hphp/runtime/ext/zip/ext_zip.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_250)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_253)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zip/ext_zip.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/zip/ext_zip.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/zip/ext_zip.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/zip/ext_zip.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/zip/ext_zip.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zip/ext_zip.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/zip/ext_zip.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/zip/ext_zip.cpp > CMakeFiles/hphp_runtime_ext.dir/zip/ext_zip.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/zip/ext_zip.cpp > CMakeFiles/hphp_runtime_ext.dir/zip/ext_zip.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zip/ext_zip.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/zip/ext_zip.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/zip/ext_zip.cpp -o CMakeFiles/hphp_runtime_ext.dir/zip/ext_zip.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/zip/ext_zip.cpp -o CMakeFiles/hphp_runtime_ext.dir/zip/ext_zip.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zip/ext_zip.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zip/ext_zip.cpp.o.requires
@@ -5804,17 +5873,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zip/ext_zip.cpp.o.provides.buil
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zlib/ext_zlib.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zlib/ext_zlib.cpp.o: hphp/runtime/ext/zlib/ext_zlib.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_251)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_254)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zlib/ext_zlib.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/zlib/ext_zlib.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/zlib/ext_zlib.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/zlib/ext_zlib.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/zlib/ext_zlib.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zlib/ext_zlib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/zlib/ext_zlib.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/zlib/ext_zlib.cpp > CMakeFiles/hphp_runtime_ext.dir/zlib/ext_zlib.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/zlib/ext_zlib.cpp > CMakeFiles/hphp_runtime_ext.dir/zlib/ext_zlib.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zlib/ext_zlib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/zlib/ext_zlib.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/zlib/ext_zlib.cpp -o CMakeFiles/hphp_runtime_ext.dir/zlib/ext_zlib.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/zlib/ext_zlib.cpp -o CMakeFiles/hphp_runtime_ext.dir/zlib/ext_zlib.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zlib/ext_zlib.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zlib/ext_zlib.cpp.o.requires
@@ -5827,17 +5896,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zlib/ext_zlib.cpp.o.provides.bu
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zlib/zip-file.cpp.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zlib/zip-file.cpp.o: hphp/runtime/ext/zlib/zip-file.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_252)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_255)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zlib/zip-file.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/zlib/zip-file.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext/zlib/zip-file.cpp
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/zlib/zip-file.cpp.o -c /tmp/hhvm-3.12.0/hphp/runtime/ext/zlib/zip-file.cpp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zlib/zip-file.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_runtime_ext.dir/zlib/zip-file.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/zlib/zip-file.cpp > CMakeFiles/hphp_runtime_ext.dir/zlib/zip-file.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/zlib/zip-file.cpp > CMakeFiles/hphp_runtime_ext.dir/zlib/zip-file.cpp.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zlib/zip-file.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_runtime_ext.dir/zlib/zip-file.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/zlib/zip-file.cpp -o CMakeFiles/hphp_runtime_ext.dir/zlib/zip-file.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/zlib/zip-file.cpp -o CMakeFiles/hphp_runtime_ext.dir/zlib/zip-file.cpp.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zlib/zip-file.cpp.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zlib/zip-file.cpp.o.requires
@@ -5850,17 +5919,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/zlib/zip-file.cpp.o.provides.bu
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/add.c.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/add.c.o: hphp/runtime/ext/bcmath/add.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_253)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_256)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/add.c.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/add.c.o   -c /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/add.c
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/add.c.o   -c /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/add.c
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/add.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hphp_runtime_ext.dir/bcmath/add.c.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/add.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/add.c.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/add.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/add.c.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/add.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hphp_runtime_ext.dir/bcmath/add.c.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/add.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/add.c.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/add.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/add.c.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/add.c.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/add.c.o.requires
@@ -5873,17 +5942,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/add.c.o.provides.build: 
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/compare.c.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/compare.c.o: hphp/runtime/ext/bcmath/compare.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_254)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_257)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/compare.c.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/compare.c.o   -c /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/compare.c
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/compare.c.o   -c /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/compare.c
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/compare.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hphp_runtime_ext.dir/bcmath/compare.c.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/compare.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/compare.c.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/compare.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/compare.c.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/compare.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hphp_runtime_ext.dir/bcmath/compare.c.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/compare.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/compare.c.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/compare.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/compare.c.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/compare.c.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/compare.c.o.requires
@@ -5896,17 +5965,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/compare.c.o.provides.bui
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/debug.c.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/debug.c.o: hphp/runtime/ext/bcmath/debug.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_255)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_258)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/debug.c.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/debug.c.o   -c /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/debug.c
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/debug.c.o   -c /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/debug.c
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/debug.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hphp_runtime_ext.dir/bcmath/debug.c.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/debug.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/debug.c.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/debug.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/debug.c.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/debug.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hphp_runtime_ext.dir/bcmath/debug.c.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/debug.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/debug.c.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/debug.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/debug.c.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/debug.c.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/debug.c.o.requires
@@ -5919,17 +5988,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/debug.c.o.provides.build
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/div.c.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/div.c.o: hphp/runtime/ext/bcmath/div.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_256)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_259)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/div.c.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/div.c.o   -c /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/div.c
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/div.c.o   -c /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/div.c
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/div.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hphp_runtime_ext.dir/bcmath/div.c.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/div.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/div.c.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/div.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/div.c.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/div.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hphp_runtime_ext.dir/bcmath/div.c.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/div.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/div.c.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/div.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/div.c.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/div.c.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/div.c.o.requires
@@ -5942,17 +6011,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/div.c.o.provides.build: 
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/divmod.c.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/divmod.c.o: hphp/runtime/ext/bcmath/divmod.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_257)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_260)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/divmod.c.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/divmod.c.o   -c /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/divmod.c
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/divmod.c.o   -c /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/divmod.c
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/divmod.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hphp_runtime_ext.dir/bcmath/divmod.c.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/divmod.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/divmod.c.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/divmod.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/divmod.c.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/divmod.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hphp_runtime_ext.dir/bcmath/divmod.c.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/divmod.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/divmod.c.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/divmod.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/divmod.c.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/divmod.c.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/divmod.c.o.requires
@@ -5965,17 +6034,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/divmod.c.o.provides.buil
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/doaddsub.c.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/doaddsub.c.o: hphp/runtime/ext/bcmath/doaddsub.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_258)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_261)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/doaddsub.c.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/doaddsub.c.o   -c /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/doaddsub.c
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/doaddsub.c.o   -c /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/doaddsub.c
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/doaddsub.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hphp_runtime_ext.dir/bcmath/doaddsub.c.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/doaddsub.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/doaddsub.c.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/doaddsub.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/doaddsub.c.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/doaddsub.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hphp_runtime_ext.dir/bcmath/doaddsub.c.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/doaddsub.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/doaddsub.c.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/doaddsub.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/doaddsub.c.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/doaddsub.c.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/doaddsub.c.o.requires
@@ -5988,17 +6057,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/doaddsub.c.o.provides.bu
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/init.c.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/init.c.o: hphp/runtime/ext/bcmath/init.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_259)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_262)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/init.c.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/init.c.o   -c /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/init.c
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/init.c.o   -c /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/init.c
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hphp_runtime_ext.dir/bcmath/init.c.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/init.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/init.c.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/init.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/init.c.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hphp_runtime_ext.dir/bcmath/init.c.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/init.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/init.c.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/init.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/init.c.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/init.c.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/init.c.o.requires
@@ -6011,17 +6080,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/init.c.o.provides.build:
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/int2num.c.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/int2num.c.o: hphp/runtime/ext/bcmath/int2num.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_260)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_263)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/int2num.c.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/int2num.c.o   -c /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/int2num.c
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/int2num.c.o   -c /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/int2num.c
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/int2num.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hphp_runtime_ext.dir/bcmath/int2num.c.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/int2num.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/int2num.c.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/int2num.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/int2num.c.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/int2num.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hphp_runtime_ext.dir/bcmath/int2num.c.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/int2num.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/int2num.c.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/int2num.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/int2num.c.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/int2num.c.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/int2num.c.o.requires
@@ -6034,17 +6103,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/int2num.c.o.provides.bui
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/nearzero.c.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/nearzero.c.o: hphp/runtime/ext/bcmath/nearzero.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_261)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_264)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/nearzero.c.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/nearzero.c.o   -c /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/nearzero.c
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/nearzero.c.o   -c /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/nearzero.c
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/nearzero.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hphp_runtime_ext.dir/bcmath/nearzero.c.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/nearzero.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/nearzero.c.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/nearzero.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/nearzero.c.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/nearzero.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hphp_runtime_ext.dir/bcmath/nearzero.c.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/nearzero.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/nearzero.c.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/nearzero.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/nearzero.c.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/nearzero.c.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/nearzero.c.o.requires
@@ -6057,17 +6126,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/nearzero.c.o.provides.bu
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/neg.c.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/neg.c.o: hphp/runtime/ext/bcmath/neg.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_262)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_265)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/neg.c.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/neg.c.o   -c /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/neg.c
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/neg.c.o   -c /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/neg.c
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/neg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hphp_runtime_ext.dir/bcmath/neg.c.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/neg.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/neg.c.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/neg.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/neg.c.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/neg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hphp_runtime_ext.dir/bcmath/neg.c.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/neg.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/neg.c.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/neg.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/neg.c.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/neg.c.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/neg.c.o.requires
@@ -6080,17 +6149,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/neg.c.o.provides.build: 
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/num2long.c.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/num2long.c.o: hphp/runtime/ext/bcmath/num2long.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_263)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_266)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/num2long.c.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/num2long.c.o   -c /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/num2long.c
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/num2long.c.o   -c /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/num2long.c
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/num2long.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hphp_runtime_ext.dir/bcmath/num2long.c.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/num2long.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/num2long.c.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/num2long.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/num2long.c.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/num2long.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hphp_runtime_ext.dir/bcmath/num2long.c.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/num2long.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/num2long.c.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/num2long.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/num2long.c.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/num2long.c.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/num2long.c.o.requires
@@ -6103,17 +6172,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/num2long.c.o.provides.bu
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/num2str.c.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/num2str.c.o: hphp/runtime/ext/bcmath/num2str.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_264)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_267)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/num2str.c.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/num2str.c.o   -c /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/num2str.c
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/num2str.c.o   -c /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/num2str.c
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/num2str.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hphp_runtime_ext.dir/bcmath/num2str.c.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/num2str.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/num2str.c.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/num2str.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/num2str.c.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/num2str.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hphp_runtime_ext.dir/bcmath/num2str.c.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/num2str.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/num2str.c.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/num2str.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/num2str.c.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/num2str.c.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/num2str.c.o.requires
@@ -6126,17 +6195,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/num2str.c.o.provides.bui
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/outofmem.c.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/outofmem.c.o: hphp/runtime/ext/bcmath/outofmem.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_265)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_268)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/outofmem.c.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/outofmem.c.o   -c /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/outofmem.c
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/outofmem.c.o   -c /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/outofmem.c
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/outofmem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hphp_runtime_ext.dir/bcmath/outofmem.c.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/outofmem.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/outofmem.c.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/outofmem.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/outofmem.c.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/outofmem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hphp_runtime_ext.dir/bcmath/outofmem.c.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/outofmem.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/outofmem.c.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/outofmem.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/outofmem.c.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/outofmem.c.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/outofmem.c.o.requires
@@ -6149,17 +6218,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/outofmem.c.o.provides.bu
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/output.c.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/output.c.o: hphp/runtime/ext/bcmath/output.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_266)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_269)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/output.c.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/output.c.o   -c /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/output.c
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/output.c.o   -c /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/output.c
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/output.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hphp_runtime_ext.dir/bcmath/output.c.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/output.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/output.c.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/output.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/output.c.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/output.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hphp_runtime_ext.dir/bcmath/output.c.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/output.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/output.c.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/output.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/output.c.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/output.c.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/output.c.o.requires
@@ -6172,17 +6241,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/output.c.o.provides.buil
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/raise.c.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/raise.c.o: hphp/runtime/ext/bcmath/raise.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_267)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_270)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/raise.c.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/raise.c.o   -c /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/raise.c
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/raise.c.o   -c /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/raise.c
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/raise.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hphp_runtime_ext.dir/bcmath/raise.c.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/raise.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/raise.c.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/raise.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/raise.c.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/raise.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hphp_runtime_ext.dir/bcmath/raise.c.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/raise.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/raise.c.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/raise.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/raise.c.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/raise.c.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/raise.c.o.requires
@@ -6195,17 +6264,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/raise.c.o.provides.build
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/raisemod.c.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/raisemod.c.o: hphp/runtime/ext/bcmath/raisemod.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_268)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_271)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/raisemod.c.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/raisemod.c.o   -c /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/raisemod.c
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/raisemod.c.o   -c /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/raisemod.c
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/raisemod.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hphp_runtime_ext.dir/bcmath/raisemod.c.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/raisemod.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/raisemod.c.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/raisemod.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/raisemod.c.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/raisemod.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hphp_runtime_ext.dir/bcmath/raisemod.c.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/raisemod.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/raisemod.c.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/raisemod.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/raisemod.c.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/raisemod.c.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/raisemod.c.o.requires
@@ -6218,17 +6287,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/raisemod.c.o.provides.bu
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/recmul.c.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/recmul.c.o: hphp/runtime/ext/bcmath/recmul.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_269)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_272)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/recmul.c.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/recmul.c.o   -c /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/recmul.c
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/recmul.c.o   -c /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/recmul.c
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/recmul.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hphp_runtime_ext.dir/bcmath/recmul.c.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/recmul.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/recmul.c.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/recmul.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/recmul.c.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/recmul.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hphp_runtime_ext.dir/bcmath/recmul.c.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/recmul.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/recmul.c.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/recmul.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/recmul.c.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/recmul.c.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/recmul.c.o.requires
@@ -6241,17 +6310,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/recmul.c.o.provides.buil
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/rmzero.c.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/rmzero.c.o: hphp/runtime/ext/bcmath/rmzero.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_270)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_273)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/rmzero.c.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/rmzero.c.o   -c /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/rmzero.c
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/rmzero.c.o   -c /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/rmzero.c
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/rmzero.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hphp_runtime_ext.dir/bcmath/rmzero.c.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/rmzero.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/rmzero.c.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/rmzero.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/rmzero.c.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/rmzero.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hphp_runtime_ext.dir/bcmath/rmzero.c.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/rmzero.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/rmzero.c.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/rmzero.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/rmzero.c.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/rmzero.c.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/rmzero.c.o.requires
@@ -6264,17 +6333,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/rmzero.c.o.provides.buil
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/rt.c.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/rt.c.o: hphp/runtime/ext/bcmath/rt.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_271)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_274)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/rt.c.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/rt.c.o   -c /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/rt.c
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/rt.c.o   -c /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/rt.c
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/rt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hphp_runtime_ext.dir/bcmath/rt.c.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/rt.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/rt.c.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/rt.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/rt.c.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/rt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hphp_runtime_ext.dir/bcmath/rt.c.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/rt.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/rt.c.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/rt.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/rt.c.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/rt.c.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/rt.c.o.requires
@@ -6287,17 +6356,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/rt.c.o.provides.build: h
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/sqrt.c.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/sqrt.c.o: hphp/runtime/ext/bcmath/sqrt.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_272)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_275)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/sqrt.c.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/sqrt.c.o   -c /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/sqrt.c
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/sqrt.c.o   -c /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/sqrt.c
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/sqrt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hphp_runtime_ext.dir/bcmath/sqrt.c.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/sqrt.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/sqrt.c.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/sqrt.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/sqrt.c.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/sqrt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hphp_runtime_ext.dir/bcmath/sqrt.c.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/sqrt.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/sqrt.c.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/sqrt.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/sqrt.c.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/sqrt.c.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/sqrt.c.o.requires
@@ -6310,17 +6379,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/sqrt.c.o.provides.build:
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/str2num.c.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/str2num.c.o: hphp/runtime/ext/bcmath/str2num.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_273)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_276)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/str2num.c.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/str2num.c.o   -c /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/str2num.c
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/str2num.c.o   -c /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/str2num.c
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/str2num.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hphp_runtime_ext.dir/bcmath/str2num.c.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/str2num.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/str2num.c.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/str2num.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/str2num.c.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/str2num.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hphp_runtime_ext.dir/bcmath/str2num.c.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/str2num.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/str2num.c.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/str2num.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/str2num.c.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/str2num.c.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/str2num.c.o.requires
@@ -6333,17 +6402,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/str2num.c.o.provides.bui
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/sub.c.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/sub.c.o: hphp/runtime/ext/bcmath/sub.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_274)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_277)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/sub.c.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/sub.c.o   -c /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/sub.c
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/sub.c.o   -c /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/sub.c
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/sub.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hphp_runtime_ext.dir/bcmath/sub.c.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/sub.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/sub.c.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/sub.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/sub.c.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/sub.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hphp_runtime_ext.dir/bcmath/sub.c.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/sub.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/sub.c.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/sub.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/sub.c.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/sub.c.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/sub.c.o.requires
@@ -6356,17 +6425,17 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/sub.c.o.provides.build: 
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/zero.c.o: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/flags.make
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/zero.c.o: hphp/runtime/ext/bcmath/zero.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_275)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_278)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/zero.c.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/zero.c.o   -c /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/zero.c
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_runtime_ext.dir/bcmath/zero.c.o   -c /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/zero.c
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/zero.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hphp_runtime_ext.dir/bcmath/zero.c.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/zero.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/zero.c.i
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/zero.c > CMakeFiles/hphp_runtime_ext.dir/bcmath/zero.c.i
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/zero.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hphp_runtime_ext.dir/bcmath/zero.c.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/zero.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/zero.c.s
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/hphp/runtime/ext/bcmath/zero.c -o CMakeFiles/hphp_runtime_ext.dir/bcmath/zero.c.s
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/zero.c.o.requires:
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/zero.c.o.requires
@@ -6381,9 +6450,9 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/bcmath/zero.c.o.provides.build:
 hphp_runtime_ext_OBJECTS = \
 "CMakeFiles/hphp_runtime_ext.dir/extension-registry.cpp.o" \
 "CMakeFiles/hphp_runtime_ext.dir/extension.cpp.o" \
-"CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.o" \
 "CMakeFiles/hphp_runtime_ext.dir/apache/ext_apache.cpp.o" \
 "CMakeFiles/hphp_runtime_ext.dir/apc/ext_apc.cpp.o" \
+"CMakeFiles/hphp_runtime_ext.dir/apc/snapshot.cpp.o" \
 "CMakeFiles/hphp_runtime_ext.dir/array/ext_array.cpp.o" \
 "CMakeFiles/hphp_runtime_ext.dir/asio/asio-blockable.cpp.o" \
 "CMakeFiles/hphp_runtime_ext.dir/asio/asio-context.cpp.o" \
@@ -6447,7 +6516,6 @@ hphp_runtime_ext_OBJECTS = \
 "CMakeFiles/hphp_runtime_ext.dir/filter/sanitizing_filters.cpp.o" \
 "CMakeFiles/hphp_runtime_ext.dir/gd/ext_gd.cpp.o" \
 "CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc.cpp.o" \
-"CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc_f_buggy.cpp.o" \
 "CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdcache.cpp.o" \
 "CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_color.cpp.o" \
 "CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd.cpp.o" \
@@ -6495,6 +6563,7 @@ hphp_runtime_ext_OBJECTS = \
 "CMakeFiles/hphp_runtime_ext.dir/hash/hash_furc.cpp.o" \
 "CMakeFiles/hphp_runtime_ext.dir/hash/hash_gost.cpp.o" \
 "CMakeFiles/hphp_runtime_ext.dir/hash/hash_haval.cpp.o" \
+"CMakeFiles/hphp_runtime_ext.dir/hash/hash_joaat.cpp.o" \
 "CMakeFiles/hphp_runtime_ext.dir/hash/hash_keccak.cpp.o" \
 "CMakeFiles/hphp_runtime_ext.dir/hash/hash_md.cpp.o" \
 "CMakeFiles/hphp_runtime_ext.dir/hash/hash_murmur.cpp.o" \
@@ -6539,6 +6608,7 @@ hphp_runtime_ext_OBJECTS = \
 "CMakeFiles/hphp_runtime_ext.dir/imagick/imagickdraw.cpp.o" \
 "CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixel.cpp.o" \
 "CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixeliterator.cpp.o" \
+"CMakeFiles/hphp_runtime_ext.dir/imap/ext_imap.cpp.o" \
 "CMakeFiles/hphp_runtime_ext.dir/intervaltimer/ext_intervaltimer.cpp.o" \
 "CMakeFiles/hphp_runtime_ext.dir/ipc/ext_ipc.cpp.o" \
 "CMakeFiles/hphp_runtime_ext.dir/json/ext_json.cpp.o" \
@@ -6570,6 +6640,7 @@ hphp_runtime_ext_OBJECTS = \
 "CMakeFiles/hphp_runtime_ext.dir/phar/ext_phar.cpp.o" \
 "CMakeFiles/hphp_runtime_ext.dir/posix/ext_posix.cpp.o" \
 "CMakeFiles/hphp_runtime_ext.dir/process/ext_process.cpp.o" \
+"CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.o" \
 "CMakeFiles/hphp_runtime_ext.dir/readline/ext_readline.cpp.o" \
 "CMakeFiles/hphp_runtime_ext.dir/reflection/ext_reflection.cpp.o" \
 "CMakeFiles/hphp_runtime_ext.dir/server/ext_server.cpp.o" \
@@ -6610,6 +6681,7 @@ hphp_runtime_ext_OBJECTS = \
 "CMakeFiles/hphp_runtime_ext.dir/thrift/binary.cpp.o" \
 "CMakeFiles/hphp_runtime_ext.dir/thrift/compact.cpp.o" \
 "CMakeFiles/hphp_runtime_ext.dir/thrift/ext_thrift.cpp.o" \
+"CMakeFiles/hphp_runtime_ext.dir/thrift/spec-holder.cpp.o" \
 "CMakeFiles/hphp_runtime_ext.dir/url/ext_url.cpp.o" \
 "CMakeFiles/hphp_runtime_ext.dir/wddx/ext_wddx.cpp.o" \
 "CMakeFiles/hphp_runtime_ext.dir/xdebug/ext_xdebug.cpp.o" \
@@ -6660,9 +6732,9 @@ hphp_runtime_ext_EXTERNAL_OBJECTS =
 
 hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/extension-registry.cpp.o
 hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/extension.cpp.o
-hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.o
 hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apache/ext_apache.cpp.o
 hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apc/ext_apc.cpp.o
+hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apc/snapshot.cpp.o
 hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/array/ext_array.cpp.o
 hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-blockable.cpp.o
 hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-context.cpp.o
@@ -6726,7 +6798,6 @@ hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime
 hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/sanitizing_filters.cpp.o
 hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/ext_gd.cpp.o
 hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc.cpp.o
-hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc_f_buggy.cpp.o
 hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdcache.cpp.o
 hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_color.cpp.o
 hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd.cpp.o
@@ -6774,6 +6845,7 @@ hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime
 hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_furc.cpp.o
 hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_gost.cpp.o
 hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_haval.cpp.o
+hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_joaat.cpp.o
 hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_keccak.cpp.o
 hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_md.cpp.o
 hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_murmur.cpp.o
@@ -6818,6 +6890,7 @@ hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime
 hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickdraw.cpp.o
 hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixel.cpp.o
 hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixeliterator.cpp.o
+hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imap/ext_imap.cpp.o
 hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/intervaltimer/ext_intervaltimer.cpp.o
 hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ipc/ext_ipc.cpp.o
 hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/json/ext_json.cpp.o
@@ -6849,6 +6922,7 @@ hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime
 hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/phar/ext_phar.cpp.o
 hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/posix/ext_posix.cpp.o
 hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/process/ext_process.cpp.o
+hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.o
 hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/readline/ext_readline.cpp.o
 hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/reflection/ext_reflection.cpp.o
 hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/server/ext_server.cpp.o
@@ -6889,6 +6963,7 @@ hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime
 hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/binary.cpp.o
 hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/compact.cpp.o
 hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/ext_thrift.cpp.o
+hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/spec-holder.cpp.o
 hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/url/ext_url.cpp.o
 hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/wddx/ext_wddx.cpp.o
 hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/ext_xdebug.cpp.o
@@ -6936,8 +7011,8 @@ hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime
 hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build.make
 hphp/runtime/ext/libhphp_runtime_ext.a: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libhphp_runtime_ext.a"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && $(CMAKE_COMMAND) -P CMakeFiles/hphp_runtime_ext.dir/cmake_clean_target.cmake
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hphp_runtime_ext.dir/link.txt --verbose=$(VERBOSE)
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && $(CMAKE_COMMAND) -P CMakeFiles/hphp_runtime_ext.dir/cmake_clean_target.cmake
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hphp_runtime_ext.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build: hphp/runtime/ext/libhphp_runtime_ext.a
@@ -6945,9 +7020,9 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/build: hphp/runtime/ext/libhphp
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/extension-registry.cpp.o.requires
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/extension.cpp.o.requires
-hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.o.requires
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apache/ext_apache.cpp.o.requires
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apc/ext_apc.cpp.o.requires
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/apc/snapshot.cpp.o.requires
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/array/ext_array.cpp.o.requires
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-blockable.cpp.o.requires
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/asio/asio-context.cpp.o.requires
@@ -7011,7 +7086,6 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMak
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/filter/sanitizing_filters.cpp.o.requires
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/ext_gd.cpp.o.requires
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc.cpp.o.requires
-hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_arc_f_buggy.cpp.o.requires
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gdcache.cpp.o.requires
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd_color.cpp.o.requires
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/gd/libgd/gd.cpp.o.requires
@@ -7059,6 +7133,7 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMak
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_furc.cpp.o.requires
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_gost.cpp.o.requires
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_haval.cpp.o.requires
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_joaat.cpp.o.requires
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_keccak.cpp.o.requires
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_md.cpp.o.requires
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/hash/hash_murmur.cpp.o.requires
@@ -7103,6 +7178,7 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMak
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickdraw.cpp.o.requires
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixel.cpp.o.requires
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imagick/imagickpixeliterator.cpp.o.requires
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/imap/ext_imap.cpp.o.requires
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/intervaltimer/ext_intervaltimer.cpp.o.requires
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/ipc/ext_ipc.cpp.o.requires
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/json/ext_json.cpp.o.requires
@@ -7134,6 +7210,7 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMak
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/phar/ext_phar.cpp.o.requires
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/posix/ext_posix.cpp.o.requires
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/process/ext_process.cpp.o.requires
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/random/ext_random.cpp.o.requires
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/readline/ext_readline.cpp.o.requires
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/reflection/ext_reflection.cpp.o.requires
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/server/ext_server.cpp.o.requires
@@ -7174,6 +7251,7 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMak
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/binary.cpp.o.requires
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/compact.cpp.o.requires
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/ext_thrift.cpp.o.requires
+hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/thrift/spec-holder.cpp.o.requires
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/url/ext_url.cpp.o.requires
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/wddx/ext_wddx.cpp.o.requires
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/xdebug/ext_xdebug.cpp.o.requires
@@ -7221,10 +7299,10 @@ hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires: hphp/runtime/ext/CMak
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/requires
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/clean:
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext && $(CMAKE_COMMAND) -P CMakeFiles/hphp_runtime_ext.dir/cmake_clean.cmake
+	cd /tmp/hhvm-3.12.0/hphp/runtime/ext && $(CMAKE_COMMAND) -P CMakeFiles/hphp_runtime_ext.dir/cmake_clean.cmake
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/clean
 
 hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/hphp/runtime/ext /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/hphp/runtime/ext /tmp/hhvm-3.11.1/hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.12.0 /tmp/hhvm-3.12.0/hphp/runtime/ext /tmp/hhvm-3.12.0 /tmp/hhvm-3.12.0/hphp/runtime/ext /tmp/hhvm-3.12.0/hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/depend
 

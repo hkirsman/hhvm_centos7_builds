@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.0
 
 # Include any dependencies generated for this target.
 include third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/depend.make
@@ -54,17 +54,17 @@ include third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter.c.o: third-party/libmbfl/mbfl/mbfilter.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/mbfilter.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/mbfilter.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/mbfilter.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl/mbfilter.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/mbfilter.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/mbfilter.c > CMakeFiles/mbfl.dir/mbfilter.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl/mbfilter.c > CMakeFiles/mbfl.dir/mbfilter.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/mbfilter.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/mbfilter.c -o CMakeFiles/mbfl.dir/mbfilter.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl/mbfilter.c -o CMakeFiles/mbfl.dir/mbfilter.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter.c.o.requires
@@ -77,17 +77,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter.c.o.provides.build: third-
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_string.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_string.c.o: third-party/libmbfl/mbfl/mbfl_string.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_string.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/mbfl_string.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/mbfl_string.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/mbfl_string.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl/mbfl_string.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_string.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/mbfl_string.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/mbfl_string.c > CMakeFiles/mbfl.dir/mbfl_string.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl/mbfl_string.c > CMakeFiles/mbfl.dir/mbfl_string.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_string.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/mbfl_string.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/mbfl_string.c -o CMakeFiles/mbfl.dir/mbfl_string.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl/mbfl_string.c -o CMakeFiles/mbfl.dir/mbfl_string.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_string.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_string.c.o.requires
@@ -100,17 +100,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_string.c.o.provides.build: thi
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_language.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_language.c.o: third-party/libmbfl/mbfl/mbfl_language.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_language.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/mbfl_language.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/mbfl_language.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/mbfl_language.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl/mbfl_language.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_language.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/mbfl_language.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/mbfl_language.c > CMakeFiles/mbfl.dir/mbfl_language.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl/mbfl_language.c > CMakeFiles/mbfl.dir/mbfl_language.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_language.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/mbfl_language.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/mbfl_language.c -o CMakeFiles/mbfl.dir/mbfl_language.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl/mbfl_language.c -o CMakeFiles/mbfl.dir/mbfl_language.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_language.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_language.c.o.requires
@@ -123,17 +123,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_language.c.o.provides.build: t
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_encoding.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_encoding.c.o: third-party/libmbfl/mbfl/mbfl_encoding.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_encoding.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/mbfl_encoding.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/mbfl_encoding.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/mbfl_encoding.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl/mbfl_encoding.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_encoding.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/mbfl_encoding.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/mbfl_encoding.c > CMakeFiles/mbfl.dir/mbfl_encoding.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl/mbfl_encoding.c > CMakeFiles/mbfl.dir/mbfl_encoding.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_encoding.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/mbfl_encoding.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/mbfl_encoding.c -o CMakeFiles/mbfl.dir/mbfl_encoding.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl/mbfl_encoding.c -o CMakeFiles/mbfl.dir/mbfl_encoding.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_encoding.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_encoding.c.o.requires
@@ -146,17 +146,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_encoding.c.o.provides.build: t
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_convert.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_convert.c.o: third-party/libmbfl/mbfl/mbfl_convert.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_convert.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/mbfl_convert.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/mbfl_convert.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/mbfl_convert.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl/mbfl_convert.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_convert.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/mbfl_convert.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/mbfl_convert.c > CMakeFiles/mbfl.dir/mbfl_convert.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl/mbfl_convert.c > CMakeFiles/mbfl.dir/mbfl_convert.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_convert.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/mbfl_convert.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/mbfl_convert.c -o CMakeFiles/mbfl.dir/mbfl_convert.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl/mbfl_convert.c -o CMakeFiles/mbfl.dir/mbfl_convert.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_convert.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_convert.c.o.requires
@@ -169,17 +169,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_convert.c.o.provides.build: th
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_ident.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_ident.c.o: third-party/libmbfl/mbfl/mbfl_ident.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_ident.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/mbfl_ident.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/mbfl_ident.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/mbfl_ident.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl/mbfl_ident.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_ident.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/mbfl_ident.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/mbfl_ident.c > CMakeFiles/mbfl.dir/mbfl_ident.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl/mbfl_ident.c > CMakeFiles/mbfl.dir/mbfl_ident.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_ident.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/mbfl_ident.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/mbfl_ident.c -o CMakeFiles/mbfl.dir/mbfl_ident.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl/mbfl_ident.c -o CMakeFiles/mbfl.dir/mbfl_ident.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_ident.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_ident.c.o.requires
@@ -192,17 +192,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_ident.c.o.provides.build: thir
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_memory_device.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_memory_device.c.o: third-party/libmbfl/mbfl/mbfl_memory_device.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_memory_device.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/mbfl_memory_device.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/mbfl_memory_device.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/mbfl_memory_device.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl/mbfl_memory_device.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_memory_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/mbfl_memory_device.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/mbfl_memory_device.c > CMakeFiles/mbfl.dir/mbfl_memory_device.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl/mbfl_memory_device.c > CMakeFiles/mbfl.dir/mbfl_memory_device.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_memory_device.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/mbfl_memory_device.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/mbfl_memory_device.c -o CMakeFiles/mbfl.dir/mbfl_memory_device.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl/mbfl_memory_device.c -o CMakeFiles/mbfl.dir/mbfl_memory_device.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_memory_device.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_memory_device.c.o.requires
@@ -215,17 +215,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_memory_device.c.o.provides.bui
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_allocators.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_allocators.c.o: third-party/libmbfl/mbfl/mbfl_allocators.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_allocators.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/mbfl_allocators.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/mbfl_allocators.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/mbfl_allocators.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl/mbfl_allocators.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_allocators.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/mbfl_allocators.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/mbfl_allocators.c > CMakeFiles/mbfl.dir/mbfl_allocators.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl/mbfl_allocators.c > CMakeFiles/mbfl.dir/mbfl_allocators.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_allocators.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/mbfl_allocators.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/mbfl_allocators.c -o CMakeFiles/mbfl.dir/mbfl_allocators.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl/mbfl_allocators.c -o CMakeFiles/mbfl.dir/mbfl_allocators.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_allocators.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_allocators.c.o.requires
@@ -238,17 +238,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_allocators.c.o.provides.build:
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_filter_output.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_filter_output.c.o: third-party/libmbfl/mbfl/mbfl_filter_output.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_filter_output.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/mbfl_filter_output.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/mbfl_filter_output.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/mbfl_filter_output.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl/mbfl_filter_output.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_filter_output.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/mbfl_filter_output.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/mbfl_filter_output.c > CMakeFiles/mbfl.dir/mbfl_filter_output.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl/mbfl_filter_output.c > CMakeFiles/mbfl.dir/mbfl_filter_output.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_filter_output.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/mbfl_filter_output.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/mbfl_filter_output.c -o CMakeFiles/mbfl.dir/mbfl_filter_output.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl/mbfl_filter_output.c -o CMakeFiles/mbfl.dir/mbfl_filter_output.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_filter_output.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_filter_output.c.o.requires
@@ -261,17 +261,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_filter_output.c.o.provides.bui
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_pass.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_pass.c.o: third-party/libmbfl/mbfl/mbfilter_pass.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_pass.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/mbfilter_pass.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/mbfilter_pass.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/mbfilter_pass.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl/mbfilter_pass.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_pass.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/mbfilter_pass.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/mbfilter_pass.c > CMakeFiles/mbfl.dir/mbfilter_pass.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl/mbfilter_pass.c > CMakeFiles/mbfl.dir/mbfilter_pass.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_pass.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/mbfilter_pass.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/mbfilter_pass.c -o CMakeFiles/mbfl.dir/mbfilter_pass.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl/mbfilter_pass.c -o CMakeFiles/mbfl.dir/mbfilter_pass.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_pass.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_pass.c.o.requires
@@ -284,17 +284,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_pass.c.o.provides.build: t
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_wchar.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_wchar.c.o: third-party/libmbfl/mbfl/mbfilter_wchar.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_wchar.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/mbfilter_wchar.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/mbfilter_wchar.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/mbfilter_wchar.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl/mbfilter_wchar.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_wchar.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/mbfilter_wchar.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/mbfilter_wchar.c > CMakeFiles/mbfl.dir/mbfilter_wchar.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl/mbfilter_wchar.c > CMakeFiles/mbfl.dir/mbfilter_wchar.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_wchar.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/mbfilter_wchar.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/mbfilter_wchar.c -o CMakeFiles/mbfl.dir/mbfilter_wchar.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl/mbfilter_wchar.c -o CMakeFiles/mbfl.dir/mbfilter_wchar.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_wchar.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_wchar.c.o.requires
@@ -307,17 +307,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_wchar.c.o.provides.build: 
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_8bit.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_8bit.c.o: third-party/libmbfl/mbfl/mbfilter_8bit.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_8bit.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/mbfilter_8bit.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/mbfilter_8bit.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/mbfilter_8bit.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl/mbfilter_8bit.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_8bit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/mbfilter_8bit.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/mbfilter_8bit.c > CMakeFiles/mbfl.dir/mbfilter_8bit.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl/mbfilter_8bit.c > CMakeFiles/mbfl.dir/mbfilter_8bit.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_8bit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/mbfilter_8bit.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/mbfilter_8bit.c -o CMakeFiles/mbfl.dir/mbfilter_8bit.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl/mbfilter_8bit.c -o CMakeFiles/mbfl.dir/mbfilter_8bit.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_8bit.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_8bit.c.o.requires
@@ -330,17 +330,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_8bit.c.o.provides.build: t
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp936.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp936.c.o: third-party/libmbfl/filters/mbfilter_cp936.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp936.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_cp936.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_cp936.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_cp936.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_cp936.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp936.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_cp936.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_cp936.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_cp936.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_cp936.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_cp936.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp936.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_cp936.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_cp936.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_cp936.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_cp936.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_cp936.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp936.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp936.c.o.requires
@@ -353,17 +353,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp936.c.o.provi
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_hz.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_hz.c.o: third-party/libmbfl/filters/mbfilter_hz.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_hz.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_hz.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_hz.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_hz.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_hz.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_hz.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_hz.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_hz.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_hz.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_hz.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_hz.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_hz.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_hz.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_hz.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_hz.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_hz.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_hz.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_hz.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_hz.c.o.requires
@@ -376,17 +376,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_hz.c.o.provides
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_tw.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_tw.c.o: third-party/libmbfl/filters/mbfilter_euc_tw.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_tw.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_tw.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_euc_tw.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_tw.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_euc_tw.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_tw.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_tw.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_euc_tw.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_tw.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_euc_tw.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_tw.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_tw.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_tw.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_euc_tw.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_tw.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_euc_tw.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_tw.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_tw.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_tw.c.o.requires
@@ -399,17 +399,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_tw.c.o.prov
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_big5.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_big5.c.o: third-party/libmbfl/filters/mbfilter_big5.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_big5.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_big5.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_big5.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_big5.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_big5.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_big5.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_big5.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_big5.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_big5.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_big5.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_big5.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_big5.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_big5.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_big5.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_big5.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_big5.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_big5.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_big5.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_big5.c.o.requires
@@ -422,17 +422,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_big5.c.o.provid
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp.c.o: third-party/libmbfl/filters/mbfilter_euc_jp.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_euc_jp.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_euc_jp.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_euc_jp.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_euc_jp.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_euc_jp.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_euc_jp.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp.c.o.requires
@@ -445,17 +445,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp.c.o.prov
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_jis.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_jis.c.o: third-party/libmbfl/filters/mbfilter_jis.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_jis.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_jis.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_jis.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_jis.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_jis.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_jis.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_jis.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_jis.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_jis.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_jis.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_jis.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_jis.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_jis.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_jis.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_jis.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_jis.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_jis.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_jis.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_jis.c.o.requires
@@ -468,17 +468,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_jis.c.o.provide
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_1.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_1.c.o: third-party/libmbfl/filters/mbfilter_iso8859_1.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_1.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_1.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_1.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_1.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_1.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_1.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_1.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_1.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_1.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_1.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_1.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_1.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_1.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_1.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_1.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_1.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_1.c.o.requires
@@ -491,17 +491,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_1.c.o.p
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_2.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_2.c.o: third-party/libmbfl/filters/mbfilter_iso8859_2.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_2.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_2.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_2.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_2.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_2.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_2.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_2.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_2.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_2.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_2.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_2.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_2.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_2.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_2.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_2.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_2.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_2.c.o.requires
@@ -514,17 +514,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_2.c.o.p
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1254.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1254.c.o: third-party/libmbfl/filters/mbfilter_cp1254.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1254.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1254.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_cp1254.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1254.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_cp1254.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1254.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1254.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_cp1254.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1254.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_cp1254.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1254.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1254.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1254.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_cp1254.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1254.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_cp1254.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1254.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1254.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1254.c.o.requires
@@ -537,17 +537,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1254.c.o.prov
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1252.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1252.c.o: third-party/libmbfl/filters/mbfilter_cp1252.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1252.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1252.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_cp1252.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1252.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_cp1252.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1252.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1252.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_cp1252.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1252.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_cp1252.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1252.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1252.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1252.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_cp1252.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1252.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_cp1252.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1252.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1252.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1252.c.o.requires
@@ -560,17 +560,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1252.c.o.prov
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1251.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1251.c.o: third-party/libmbfl/filters/mbfilter_cp1251.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1251.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1251.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_cp1251.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1251.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_cp1251.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1251.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1251.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_cp1251.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1251.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_cp1251.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1251.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1251.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1251.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_cp1251.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1251.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_cp1251.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1251.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1251.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1251.c.o.requires
@@ -583,17 +583,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1251.c.o.prov
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ascii.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ascii.c.o: third-party/libmbfl/filters/mbfilter_ascii.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ascii.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_ascii.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_ascii.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_ascii.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_ascii.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ascii.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_ascii.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_ascii.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_ascii.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_ascii.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_ascii.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ascii.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_ascii.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_ascii.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_ascii.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_ascii.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_ascii.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ascii.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ascii.c.o.requires
@@ -606,17 +606,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ascii.c.o.provi
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_3.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_3.c.o: third-party/libmbfl/filters/mbfilter_iso8859_3.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_3.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_3.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_3.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_3.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_3.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_3.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_3.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_3.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_3.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_3.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_3.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_3.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_3.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_3.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_3.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_3.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_3.c.o.requires
@@ -629,17 +629,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_3.c.o.p
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_4.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_4.c.o: third-party/libmbfl/filters/mbfilter_iso8859_4.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_4.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_4.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_4.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_4.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_4.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_4.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_4.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_4.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_4.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_4.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_4.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_4.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_4.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_4.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_4.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_4.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_4.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_4.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_4.c.o.requires
@@ -652,17 +652,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_4.c.o.p
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_5.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_5.c.o: third-party/libmbfl/filters/mbfilter_iso8859_5.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_5.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_5.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_5.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_5.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_5.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_5.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_5.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_5.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_5.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_5.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_5.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_5.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_5.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_5.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_5.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_5.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_5.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_5.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_5.c.o.requires
@@ -675,17 +675,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_5.c.o.p
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_6.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_6.c.o: third-party/libmbfl/filters/mbfilter_iso8859_6.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_6.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_6.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_6.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_6.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_6.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_6.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_6.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_6.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_6.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_6.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_6.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_6.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_6.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_6.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_6.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_6.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_6.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_6.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_6.c.o.requires
@@ -698,17 +698,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_6.c.o.p
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_7.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_7.c.o: third-party/libmbfl/filters/mbfilter_iso8859_7.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_7.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_7.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_7.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_7.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_7.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_7.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_7.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_7.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_7.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_7.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_7.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_7.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_7.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_7.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_7.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_7.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_7.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_7.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_7.c.o.requires
@@ -721,17 +721,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_7.c.o.p
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_8.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_8.c.o: third-party/libmbfl/filters/mbfilter_iso8859_8.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_8.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_8.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_8.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_8.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_8.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_8.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_8.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_8.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_8.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_8.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_8.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_8.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_8.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_8.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_8.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_8.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_8.c.o.requires
@@ -744,17 +744,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_8.c.o.p
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_9.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_9.c.o: third-party/libmbfl/filters/mbfilter_iso8859_9.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_31)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_9.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_9.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_9.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_9.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_9.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_9.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_9.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_9.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_9.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_9.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_9.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_9.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_9.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_9.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_9.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_9.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_9.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_9.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_9.c.o.requires
@@ -767,17 +767,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_9.c.o.p
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_10.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_10.c.o: third-party/libmbfl/filters/mbfilter_iso8859_10.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_32)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_32)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_10.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_10.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_10.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_10.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_10.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_10.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_10.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_10.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_10.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_10.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_10.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_10.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_10.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_10.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_10.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_10.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_10.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_10.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_10.c.o.requires
@@ -790,17 +790,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_10.c.o.
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_13.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_13.c.o: third-party/libmbfl/filters/mbfilter_iso8859_13.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_33)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_33)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_13.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_13.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_13.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_13.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_13.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_13.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_13.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_13.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_13.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_13.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_13.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_13.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_13.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_13.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_13.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_13.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_13.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_13.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_13.c.o.requires
@@ -813,17 +813,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_13.c.o.
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_14.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_14.c.o: third-party/libmbfl/filters/mbfilter_iso8859_14.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_34)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_34)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_14.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_14.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_14.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_14.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_14.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_14.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_14.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_14.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_14.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_14.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_14.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_14.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_14.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_14.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_14.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_14.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_14.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_14.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_14.c.o.requires
@@ -836,17 +836,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_14.c.o.
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_15.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_15.c.o: third-party/libmbfl/filters/mbfilter_iso8859_15.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_35)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_35)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_15.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_15.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_15.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_15.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_15.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_15.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_15.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_15.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_15.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_15.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_15.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_15.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_15.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_15.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_15.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_15.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_15.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_15.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_15.c.o.requires
@@ -859,17 +859,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_15.c.o.
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_16.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_16.c.o: third-party/libmbfl/filters/mbfilter_iso8859_16.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_36)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_36)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_16.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_16.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_16.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_16.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_16.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_16.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_16.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_16.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_16.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_16.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_16.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_16.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_16.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso8859_16.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_16.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso8859_16.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_16.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_16.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_16.c.o.requires
@@ -882,17 +882,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_16.c.o.
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_htmlent.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_htmlent.c.o: third-party/libmbfl/filters/mbfilter_htmlent.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_37)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_37)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_htmlent.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_htmlent.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_htmlent.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_htmlent.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_htmlent.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_htmlent.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_htmlent.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_htmlent.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_htmlent.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_htmlent.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_htmlent.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_htmlent.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_htmlent.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_htmlent.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_htmlent.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_htmlent.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_htmlent.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_htmlent.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_htmlent.c.o.requires
@@ -905,17 +905,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_htmlent.c.o.pro
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte2.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte2.c.o: third-party/libmbfl/filters/mbfilter_byte2.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_38)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_38)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte2.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_byte2.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_byte2.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_byte2.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_byte2.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_byte2.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_byte2.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_byte2.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_byte2.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_byte2.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_byte2.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_byte2.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_byte2.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_byte2.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_byte2.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte2.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte2.c.o.requires
@@ -928,17 +928,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte2.c.o.provi
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte4.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte4.c.o: third-party/libmbfl/filters/mbfilter_byte4.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_39)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_39)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte4.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_byte4.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_byte4.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_byte4.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_byte4.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte4.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_byte4.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_byte4.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_byte4.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_byte4.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_byte4.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte4.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_byte4.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_byte4.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_byte4.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_byte4.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_byte4.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte4.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte4.c.o.requires
@@ -951,17 +951,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte4.c.o.provi
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uuencode.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uuencode.c.o: third-party/libmbfl/filters/mbfilter_uuencode.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_40)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_40)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uuencode.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_uuencode.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_uuencode.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_uuencode.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_uuencode.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uuencode.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_uuencode.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_uuencode.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_uuencode.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_uuencode.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_uuencode.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uuencode.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_uuencode.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_uuencode.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_uuencode.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_uuencode.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_uuencode.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uuencode.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uuencode.c.o.requires
@@ -974,17 +974,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uuencode.c.o.pr
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_base64.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_base64.c.o: third-party/libmbfl/filters/mbfilter_base64.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_41)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_41)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_base64.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_base64.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_base64.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_base64.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_base64.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_base64.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_base64.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_base64.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_base64.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_base64.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_base64.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_base64.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_base64.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_base64.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_base64.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_base64.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_base64.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_base64.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_base64.c.o.requires
@@ -997,17 +997,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_base64.c.o.prov
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis.c.o: third-party/libmbfl/filters/mbfilter_sjis.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_42)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_42)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_sjis.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_sjis.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_sjis.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_sjis.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_sjis.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_sjis.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis.c.o.requires
@@ -1020,17 +1020,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis.c.o.provid
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_7bit.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_7bit.c.o: third-party/libmbfl/filters/mbfilter_7bit.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_43)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_43)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_7bit.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_7bit.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_7bit.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_7bit.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_7bit.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_7bit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_7bit.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_7bit.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_7bit.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_7bit.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_7bit.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_7bit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_7bit.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_7bit.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_7bit.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_7bit.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_7bit.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_7bit.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_7bit.c.o.requires
@@ -1043,17 +1043,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_7bit.c.o.provid
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_qprint.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_qprint.c.o: third-party/libmbfl/filters/mbfilter_qprint.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_44)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_44)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_qprint.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_qprint.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_qprint.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_qprint.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_qprint.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_qprint.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_qprint.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_qprint.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_qprint.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_qprint.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_qprint.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_qprint.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_qprint.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_qprint.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_qprint.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_qprint.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_qprint.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_qprint.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_qprint.c.o.requires
@@ -1066,17 +1066,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_qprint.c.o.prov
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs4.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs4.c.o: third-party/libmbfl/filters/mbfilter_ucs4.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_45)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_45)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs4.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs4.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_ucs4.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs4.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_ucs4.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs4.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs4.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_ucs4.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs4.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_ucs4.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs4.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs4.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs4.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_ucs4.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs4.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_ucs4.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs4.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs4.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs4.c.o.requires
@@ -1089,17 +1089,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs4.c.o.provid
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs2.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs2.c.o: third-party/libmbfl/filters/mbfilter_ucs2.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_46)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_46)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs2.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs2.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_ucs2.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs2.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_ucs2.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs2.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_ucs2.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs2.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_ucs2.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs2.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs2.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_ucs2.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs2.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_ucs2.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs2.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs2.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs2.c.o.requires
@@ -1112,17 +1112,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs2.c.o.provid
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf32.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf32.c.o: third-party/libmbfl/filters/mbfilter_utf32.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_47)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_47)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf32.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_utf32.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_utf32.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_utf32.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_utf32.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_utf32.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_utf32.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_utf32.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_utf32.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_utf32.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_utf32.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_utf32.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_utf32.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_utf32.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_utf32.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf32.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf32.c.o.requires
@@ -1135,17 +1135,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf32.c.o.provi
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf16.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf16.c.o: third-party/libmbfl/filters/mbfilter_utf16.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_48)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_48)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf16.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_utf16.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_utf16.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_utf16.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_utf16.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf16.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_utf16.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_utf16.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_utf16.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_utf16.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_utf16.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf16.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_utf16.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_utf16.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_utf16.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_utf16.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_utf16.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf16.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf16.c.o.requires
@@ -1158,17 +1158,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf16.c.o.provi
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8.c.o: third-party/libmbfl/filters/mbfilter_utf8.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_49)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_49)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_utf8.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_utf8.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_utf8.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_utf8.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_utf8.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_utf8.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8.c.o.requires
@@ -1181,17 +1181,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8.c.o.provid
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7.c.o: third-party/libmbfl/filters/mbfilter_utf7.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_50)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_50)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_utf7.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_utf7.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_utf7.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_utf7.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_utf7.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_utf7.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7.c.o.requires
@@ -1204,17 +1204,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7.c.o.provid
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7imap.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7imap.c.o: third-party/libmbfl/filters/mbfilter_utf7imap.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_51)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_51)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7imap.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7imap.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_utf7imap.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7imap.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_utf7imap.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7imap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7imap.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_utf7imap.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7imap.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_utf7imap.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7imap.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7imap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7imap.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_utf7imap.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7imap.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_utf7imap.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7imap.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7imap.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7imap.c.o.requires
@@ -1227,17 +1227,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7imap.c.o.pr
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_win.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_win.c.o: third-party/libmbfl/filters/mbfilter_euc_jp_win.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_52)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_52)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_win.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_win.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_euc_jp_win.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_win.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_euc_jp_win.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_win.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_win.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_euc_jp_win.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_win.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_euc_jp_win.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_win.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_win.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_win.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_euc_jp_win.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_win.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_euc_jp_win.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_win.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_win.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_win.c.o.requires
@@ -1250,17 +1250,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_win.c.o.
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp932.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp932.c.o: third-party/libmbfl/filters/mbfilter_cp932.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_53)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_53)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp932.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_cp932.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_cp932.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_cp932.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_cp932.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp932.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_cp932.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_cp932.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_cp932.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_cp932.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_cp932.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp932.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_cp932.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_cp932.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_cp932.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_cp932.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_cp932.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp932.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp932.c.o.requires
@@ -1273,17 +1273,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp932.c.o.provi
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp51932.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp51932.c.o: third-party/libmbfl/filters/mbfilter_cp51932.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_54)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_54)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp51932.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_cp51932.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_cp51932.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_cp51932.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_cp51932.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp51932.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_cp51932.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_cp51932.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_cp51932.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_cp51932.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_cp51932.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp51932.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_cp51932.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_cp51932.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_cp51932.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_cp51932.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_cp51932.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp51932.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp51932.c.o.requires
@@ -1296,17 +1296,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp51932.c.o.pro
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_cn.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_cn.c.o: third-party/libmbfl/filters/mbfilter_euc_cn.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_55)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_55)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_cn.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_cn.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_euc_cn.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_cn.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_euc_cn.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_cn.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_cn.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_euc_cn.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_cn.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_euc_cn.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_cn.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_cn.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_cn.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_euc_cn.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_cn.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_euc_cn.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_cn.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_cn.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_cn.c.o.requires
@@ -1319,17 +1319,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_cn.c.o.prov
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_kr.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_kr.c.o: third-party/libmbfl/filters/mbfilter_euc_kr.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_56)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_56)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_kr.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_kr.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_euc_kr.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_kr.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_euc_kr.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_kr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_kr.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_euc_kr.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_kr.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_euc_kr.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_kr.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_kr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_kr.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_euc_kr.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_kr.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_euc_kr.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_kr.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_kr.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_kr.c.o.requires
@@ -1342,17 +1342,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_kr.c.o.prov
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uhc.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uhc.c.o: third-party/libmbfl/filters/mbfilter_uhc.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_57)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_57)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uhc.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_uhc.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_uhc.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_uhc.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_uhc.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uhc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_uhc.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_uhc.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_uhc.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_uhc.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_uhc.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uhc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_uhc.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_uhc.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_uhc.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_uhc.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_uhc.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uhc.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uhc.c.o.requires
@@ -1365,17 +1365,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uhc.c.o.provide
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_jp_ms.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_jp_ms.c.o: third-party/libmbfl/filters/mbfilter_iso2022_jp_ms.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_58)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_58)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_jp_ms.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_jp_ms.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso2022_jp_ms.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_jp_ms.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso2022_jp_ms.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_jp_ms.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_jp_ms.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso2022_jp_ms.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_jp_ms.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso2022_jp_ms.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_jp_ms.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_jp_ms.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_jp_ms.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso2022_jp_ms.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_jp_ms.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso2022_jp_ms.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_jp_ms.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_jp_ms.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_jp_ms.c.o.requires
@@ -1388,17 +1388,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_jp_ms.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_kr.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_kr.c.o: third-party/libmbfl/filters/mbfilter_iso2022_kr.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_59)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_59)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_kr.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_kr.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso2022_kr.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_kr.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso2022_kr.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_kr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_kr.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso2022_kr.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_kr.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso2022_kr.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_kr.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_kr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_kr.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso2022_kr.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_kr.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso2022_kr.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_kr.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_kr.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_kr.c.o.requires
@@ -1411,17 +1411,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_kr.c.o.
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp866.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp866.c.o: third-party/libmbfl/filters/mbfilter_cp866.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_60)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_60)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp866.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_cp866.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_cp866.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_cp866.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_cp866.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp866.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_cp866.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_cp866.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_cp866.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_cp866.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_cp866.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp866.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_cp866.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_cp866.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_cp866.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_cp866.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_cp866.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp866.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp866.c.o.requires
@@ -1434,17 +1434,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp866.c.o.provi
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8r.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8r.c.o: third-party/libmbfl/filters/mbfilter_koi8r.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_61)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_61)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8r.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8r.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_koi8r.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8r.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_koi8r.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8r.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8r.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_koi8r.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8r.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_koi8r.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8r.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8r.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8r.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_koi8r.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8r.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_koi8r.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8r.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8r.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8r.c.o.requires
@@ -1457,17 +1457,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8r.c.o.provi
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8u.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8u.c.o: third-party/libmbfl/filters/mbfilter_koi8u.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_62)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_62)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8u.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8u.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_koi8u.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8u.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_koi8u.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8u.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8u.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_koi8u.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8u.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_koi8u.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8u.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8u.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8u.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_koi8u.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8u.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_koi8u.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8u.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8u.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8u.c.o.requires
@@ -1480,17 +1480,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8u.c.o.provi
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_armscii8.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_armscii8.c.o: third-party/libmbfl/filters/mbfilter_armscii8.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_63)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_63)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_armscii8.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_armscii8.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_armscii8.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_armscii8.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_armscii8.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_armscii8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_armscii8.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_armscii8.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_armscii8.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_armscii8.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_armscii8.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_armscii8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_armscii8.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_armscii8.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_armscii8.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_armscii8.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_armscii8.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_armscii8.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_armscii8.c.o.requires
@@ -1503,17 +1503,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_armscii8.c.o.pr
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp850.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp850.c.o: third-party/libmbfl/filters/mbfilter_cp850.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_64)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_64)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp850.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_cp850.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_cp850.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_cp850.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_cp850.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp850.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_cp850.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_cp850.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_cp850.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_cp850.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_cp850.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp850.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_cp850.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_cp850.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_cp850.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_cp850.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_cp850.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp850.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp850.c.o.requires
@@ -1526,17 +1526,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp850.c.o.provi
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/html_entities.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/html_entities.c.o: third-party/libmbfl/filters/html_entities.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_65)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_65)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/html_entities.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/html_entities.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/html_entities.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/html_entities.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/html_entities.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/html_entities.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/html_entities.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/html_entities.c > CMakeFiles/mbfl.dir/__/filters/html_entities.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/html_entities.c > CMakeFiles/mbfl.dir/__/filters/html_entities.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/html_entities.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/html_entities.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/html_entities.c -o CMakeFiles/mbfl.dir/__/filters/html_entities.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/html_entities.c -o CMakeFiles/mbfl.dir/__/filters/html_entities.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/html_entities.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/html_entities.c.o.requires
@@ -1549,17 +1549,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/html_entities.c.o.provid
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp5022x.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp5022x.c.o: third-party/libmbfl/filters/mbfilter_cp5022x.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_66)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_66)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp5022x.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_cp5022x.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_cp5022x.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_cp5022x.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_cp5022x.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp5022x.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_cp5022x.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_cp5022x.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_cp5022x.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_cp5022x.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_cp5022x.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp5022x.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_cp5022x.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_cp5022x.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_cp5022x.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_cp5022x.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_cp5022x.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp5022x.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp5022x.c.o.requires
@@ -1572,17 +1572,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp5022x.c.o.pro
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_2004.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_2004.c.o: third-party/libmbfl/filters/mbfilter_euc_jp_2004.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_67)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_67)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_2004.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_2004.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_euc_jp_2004.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_2004.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_euc_jp_2004.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_2004.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_2004.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_euc_jp_2004.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_2004.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_euc_jp_2004.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_2004.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_2004.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_2004.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_euc_jp_2004.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_2004.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_euc_jp_2004.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_2004.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_2004.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_2004.c.o.requires
@@ -1595,17 +1595,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_2004.c.o
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_gb18030.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_gb18030.c.o: third-party/libmbfl/filters/mbfilter_gb18030.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_68)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_68)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_gb18030.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_gb18030.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_gb18030.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_gb18030.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_gb18030.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_gb18030.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_gb18030.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_gb18030.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_gb18030.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_gb18030.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_gb18030.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_gb18030.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_gb18030.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_gb18030.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_gb18030.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_gb18030.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_gb18030.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_gb18030.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_gb18030.c.o.requires
@@ -1618,17 +1618,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_gb18030.c.o.pro
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_2004.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_2004.c.o: third-party/libmbfl/filters/mbfilter_iso2022jp_2004.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_69)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_69)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_2004.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_2004.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso2022jp_2004.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_2004.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso2022jp_2004.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_2004.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_2004.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso2022jp_2004.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_2004.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso2022jp_2004.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_2004.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_2004.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_2004.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso2022jp_2004.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_2004.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso2022jp_2004.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_2004.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_2004.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_2004.c.o.requires
@@ -1641,17 +1641,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_2004.
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_mobile.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_mobile.c.o: third-party/libmbfl/filters/mbfilter_iso2022jp_mobile.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_70)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_70)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_mobile.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_mobile.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso2022jp_mobile.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_mobile.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso2022jp_mobile.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_mobile.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_mobile.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso2022jp_mobile.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_mobile.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso2022jp_mobile.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_mobile.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_mobile.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_mobile.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_iso2022jp_mobile.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_mobile.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_iso2022jp_mobile.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_mobile.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_mobile.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_mobile.c.o.requires
@@ -1664,17 +1664,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_mobil
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_2004.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_2004.c.o: third-party/libmbfl/filters/mbfilter_sjis_2004.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_71)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_71)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_2004.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_2004.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_sjis_2004.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_2004.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_sjis_2004.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_2004.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_2004.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_sjis_2004.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_2004.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_sjis_2004.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_2004.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_2004.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_2004.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_sjis_2004.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_2004.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_sjis_2004.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_2004.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_2004.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_2004.c.o.requires
@@ -1687,17 +1687,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_2004.c.o.p
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mac.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mac.c.o: third-party/libmbfl/filters/mbfilter_sjis_mac.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_72)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_72)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mac.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mac.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_sjis_mac.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mac.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_sjis_mac.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mac.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mac.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_sjis_mac.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mac.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_sjis_mac.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mac.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mac.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mac.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_sjis_mac.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mac.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_sjis_mac.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mac.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mac.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mac.c.o.requires
@@ -1710,17 +1710,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mac.c.o.pr
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mobile.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mobile.c.o: third-party/libmbfl/filters/mbfilter_sjis_mobile.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_73)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_73)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mobile.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mobile.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_sjis_mobile.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mobile.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_sjis_mobile.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mobile.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mobile.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_sjis_mobile.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mobile.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_sjis_mobile.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mobile.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mobile.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mobile.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_sjis_mobile.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mobile.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_sjis_mobile.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mobile.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mobile.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mobile.c.o.requires
@@ -1733,17 +1733,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mobile.c.o
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_open.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_open.c.o: third-party/libmbfl/filters/mbfilter_sjis_open.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_74)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_74)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_open.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_open.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_sjis_open.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_open.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_sjis_open.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_open.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_open.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_sjis_open.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_open.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_sjis_open.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_open.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_open.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_open.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_sjis_open.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_open.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_sjis_open.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_open.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_open.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_open.c.o.requires
@@ -1756,17 +1756,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_open.c.o.p
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_tl_jisx0201_jisx0208.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_tl_jisx0201_jisx0208.c.o: third-party/libmbfl/filters/mbfilter_tl_jisx0201_jisx0208.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_75)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_75)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_tl_jisx0201_jisx0208.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_tl_jisx0201_jisx0208.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_tl_jisx0201_jisx0208.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_tl_jisx0201_jisx0208.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_tl_jisx0201_jisx0208.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_tl_jisx0201_jisx0208.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_tl_jisx0201_jisx0208.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_tl_jisx0201_jisx0208.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_tl_jisx0201_jisx0208.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_tl_jisx0201_jisx0208.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_tl_jisx0201_jisx0208.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_tl_jisx0201_jisx0208.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_tl_jisx0201_jisx0208.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_tl_jisx0201_jisx0208.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_tl_jisx0201_jisx0208.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_tl_jisx0201_jisx0208.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_tl_jisx0201_jisx0208.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_tl_jisx0201_jisx0208.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_tl_jisx0201_jisx0208.c.o.requires
@@ -1779,17 +1779,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_tl_jisx0201_jis
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8_mobile.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8_mobile.c.o: third-party/libmbfl/filters/mbfilter_utf8_mobile.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_76)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_76)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8_mobile.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8_mobile.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_utf8_mobile.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8_mobile.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_utf8_mobile.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8_mobile.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8_mobile.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_utf8_mobile.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8_mobile.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_utf8_mobile.c > CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8_mobile.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8_mobile.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8_mobile.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/filters/mbfilter_utf8_mobile.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8_mobile.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/filters/mbfilter_utf8_mobile.c -o CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8_mobile.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8_mobile.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8_mobile.c.o.requires
@@ -1802,17 +1802,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8_mobile.c.o
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ja.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ja.c.o: third-party/libmbfl/nls/nls_ja.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_77)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_77)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ja.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/nls/nls_ja.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/nls/nls_ja.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/nls/nls_ja.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/nls/nls_ja.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ja.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/nls/nls_ja.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/nls/nls_ja.c > CMakeFiles/mbfl.dir/__/nls/nls_ja.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/nls/nls_ja.c > CMakeFiles/mbfl.dir/__/nls/nls_ja.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ja.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/nls/nls_ja.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/nls/nls_ja.c -o CMakeFiles/mbfl.dir/__/nls/nls_ja.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/nls/nls_ja.c -o CMakeFiles/mbfl.dir/__/nls/nls_ja.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ja.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ja.c.o.requires
@@ -1825,17 +1825,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ja.c.o.provides.build: t
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_de.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_de.c.o: third-party/libmbfl/nls/nls_de.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_78)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_78)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_de.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/nls/nls_de.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/nls/nls_de.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/nls/nls_de.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/nls/nls_de.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_de.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/nls/nls_de.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/nls/nls_de.c > CMakeFiles/mbfl.dir/__/nls/nls_de.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/nls/nls_de.c > CMakeFiles/mbfl.dir/__/nls/nls_de.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_de.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/nls/nls_de.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/nls/nls_de.c -o CMakeFiles/mbfl.dir/__/nls/nls_de.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/nls/nls_de.c -o CMakeFiles/mbfl.dir/__/nls/nls_de.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_de.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_de.c.o.requires
@@ -1848,17 +1848,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_de.c.o.provides.build: t
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_en.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_en.c.o: third-party/libmbfl/nls/nls_en.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_79)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_79)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_en.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/nls/nls_en.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/nls/nls_en.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/nls/nls_en.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/nls/nls_en.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_en.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/nls/nls_en.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/nls/nls_en.c > CMakeFiles/mbfl.dir/__/nls/nls_en.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/nls/nls_en.c > CMakeFiles/mbfl.dir/__/nls/nls_en.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_en.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/nls/nls_en.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/nls/nls_en.c -o CMakeFiles/mbfl.dir/__/nls/nls_en.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/nls/nls_en.c -o CMakeFiles/mbfl.dir/__/nls/nls_en.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_en.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_en.c.o.requires
@@ -1871,17 +1871,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_en.c.o.provides.build: t
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_hy.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_hy.c.o: third-party/libmbfl/nls/nls_hy.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_80)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_80)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_hy.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/nls/nls_hy.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/nls/nls_hy.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/nls/nls_hy.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/nls/nls_hy.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_hy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/nls/nls_hy.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/nls/nls_hy.c > CMakeFiles/mbfl.dir/__/nls/nls_hy.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/nls/nls_hy.c > CMakeFiles/mbfl.dir/__/nls/nls_hy.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_hy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/nls/nls_hy.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/nls/nls_hy.c -o CMakeFiles/mbfl.dir/__/nls/nls_hy.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/nls/nls_hy.c -o CMakeFiles/mbfl.dir/__/nls/nls_hy.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_hy.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_hy.c.o.requires
@@ -1894,17 +1894,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_hy.c.o.provides.build: t
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_tr.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_tr.c.o: third-party/libmbfl/nls/nls_tr.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_81)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_81)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_tr.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/nls/nls_tr.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/nls/nls_tr.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/nls/nls_tr.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/nls/nls_tr.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_tr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/nls/nls_tr.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/nls/nls_tr.c > CMakeFiles/mbfl.dir/__/nls/nls_tr.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/nls/nls_tr.c > CMakeFiles/mbfl.dir/__/nls/nls_tr.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_tr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/nls/nls_tr.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/nls/nls_tr.c -o CMakeFiles/mbfl.dir/__/nls/nls_tr.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/nls/nls_tr.c -o CMakeFiles/mbfl.dir/__/nls/nls_tr.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_tr.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_tr.c.o.requires
@@ -1917,17 +1917,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_tr.c.o.provides.build: t
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_kr.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_kr.c.o: third-party/libmbfl/nls/nls_kr.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_82)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_82)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_kr.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/nls/nls_kr.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/nls/nls_kr.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/nls/nls_kr.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/nls/nls_kr.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_kr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/nls/nls_kr.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/nls/nls_kr.c > CMakeFiles/mbfl.dir/__/nls/nls_kr.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/nls/nls_kr.c > CMakeFiles/mbfl.dir/__/nls/nls_kr.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_kr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/nls/nls_kr.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/nls/nls_kr.c -o CMakeFiles/mbfl.dir/__/nls/nls_kr.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/nls/nls_kr.c -o CMakeFiles/mbfl.dir/__/nls/nls_kr.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_kr.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_kr.c.o.requires
@@ -1940,17 +1940,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_kr.c.o.provides.build: t
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ru.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ru.c.o: third-party/libmbfl/nls/nls_ru.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_83)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_83)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ru.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/nls/nls_ru.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/nls/nls_ru.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/nls/nls_ru.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/nls/nls_ru.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ru.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/nls/nls_ru.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/nls/nls_ru.c > CMakeFiles/mbfl.dir/__/nls/nls_ru.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/nls/nls_ru.c > CMakeFiles/mbfl.dir/__/nls/nls_ru.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ru.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/nls/nls_ru.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/nls/nls_ru.c -o CMakeFiles/mbfl.dir/__/nls/nls_ru.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/nls/nls_ru.c -o CMakeFiles/mbfl.dir/__/nls/nls_ru.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ru.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ru.c.o.requires
@@ -1963,17 +1963,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ru.c.o.provides.build: t
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ua.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ua.c.o: third-party/libmbfl/nls/nls_ua.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_84)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_84)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ua.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/nls/nls_ua.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/nls/nls_ua.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/nls/nls_ua.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/nls/nls_ua.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ua.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/nls/nls_ua.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/nls/nls_ua.c > CMakeFiles/mbfl.dir/__/nls/nls_ua.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/nls/nls_ua.c > CMakeFiles/mbfl.dir/__/nls/nls_ua.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ua.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/nls/nls_ua.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/nls/nls_ua.c -o CMakeFiles/mbfl.dir/__/nls/nls_ua.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/nls/nls_ua.c -o CMakeFiles/mbfl.dir/__/nls/nls_ua.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ua.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ua.c.o.requires
@@ -1986,17 +1986,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ua.c.o.provides.build: t
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_zh.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_zh.c.o: third-party/libmbfl/nls/nls_zh.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_85)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_85)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_zh.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/nls/nls_zh.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/nls/nls_zh.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/nls/nls_zh.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/nls/nls_zh.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_zh.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/nls/nls_zh.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/nls/nls_zh.c > CMakeFiles/mbfl.dir/__/nls/nls_zh.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/nls/nls_zh.c > CMakeFiles/mbfl.dir/__/nls/nls_zh.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_zh.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/nls/nls_zh.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/nls/nls_zh.c -o CMakeFiles/mbfl.dir/__/nls/nls_zh.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/nls/nls_zh.c -o CMakeFiles/mbfl.dir/__/nls/nls_zh.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_zh.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_zh.c.o.requires
@@ -2009,17 +2009,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_zh.c.o.provides.build: t
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_uni.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_uni.c.o: third-party/libmbfl/nls/nls_uni.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_86)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_86)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_uni.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/nls/nls_uni.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/nls/nls_uni.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/nls/nls_uni.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/nls/nls_uni.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_uni.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/nls/nls_uni.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/nls/nls_uni.c > CMakeFiles/mbfl.dir/__/nls/nls_uni.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/nls/nls_uni.c > CMakeFiles/mbfl.dir/__/nls/nls_uni.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_uni.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/nls/nls_uni.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/nls/nls_uni.c -o CMakeFiles/mbfl.dir/__/nls/nls_uni.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/nls/nls_uni.c -o CMakeFiles/mbfl.dir/__/nls/nls_uni.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_uni.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_uni.c.o.requires
@@ -2032,17 +2032,17 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_uni.c.o.provides.build: 
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_neutral.c.o: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/flags.make
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_neutral.c.o: third-party/libmbfl/nls/nls_neutral.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_87)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_87)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_neutral.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/nls/nls_neutral.c.o   -c /tmp/hhvm-3.11.1/third-party/libmbfl/nls/nls_neutral.c
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mbfl.dir/__/nls/nls_neutral.c.o   -c /tmp/hhvm-3.12.0/third-party/libmbfl/nls/nls_neutral.c
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_neutral.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbfl.dir/__/nls/nls_neutral.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libmbfl/nls/nls_neutral.c > CMakeFiles/mbfl.dir/__/nls/nls_neutral.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libmbfl/nls/nls_neutral.c > CMakeFiles/mbfl.dir/__/nls/nls_neutral.c.i
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_neutral.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbfl.dir/__/nls/nls_neutral.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libmbfl/nls/nls_neutral.c -o CMakeFiles/mbfl.dir/__/nls/nls_neutral.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libmbfl/nls/nls_neutral.c -o CMakeFiles/mbfl.dir/__/nls/nls_neutral.c.s
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_neutral.c.o.requires:
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_neutral.c.o.requires
@@ -2236,8 +2236,8 @@ third-party/libmbfl/mbfl/libmbfl.a: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir
 third-party/libmbfl/mbfl/libmbfl.a: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make
 third-party/libmbfl/mbfl/libmbfl.a: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C static library libmbfl.a"
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && $(CMAKE_COMMAND) -P CMakeFiles/mbfl.dir/cmake_clean_target.cmake
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mbfl.dir/link.txt --verbose=$(VERBOSE)
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && $(CMAKE_COMMAND) -P CMakeFiles/mbfl.dir/cmake_clean_target.cmake
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mbfl.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build: third-party/libmbfl/mbfl/libmbfl.a
@@ -2333,10 +2333,10 @@ third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/requires: third-party/libmbfl/mbfl/
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/requires
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/clean:
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && $(CMAKE_COMMAND) -P CMakeFiles/mbfl.dir/cmake_clean.cmake
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && $(CMAKE_COMMAND) -P CMakeFiles/mbfl.dir/cmake_clean.cmake
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/clean
 
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.12.0 /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl /tmp/hhvm-3.12.0 /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/depend
 

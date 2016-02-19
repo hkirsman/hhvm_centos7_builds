@@ -6,21 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/tmp/hhvm-3.11.1/hphp/util/hash-crc.S
+/tmp/hhvm-3.12.0/hphp/util/hash-crc.S
 hphp/util/etch-helpers.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/etch-helpers.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/etch-helpers.h
 
-/tmp/hhvm-3.11.1/hphp/util/memcpy-x64.S
+/tmp/hhvm-3.12.0/hphp/util/memcpy-x64.S
 hphp/util/etch-helpers.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/etch-helpers.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/etch-helpers.h
 
-/tmp/hhvm-3.11.1/hphp/util/memset-x64-avx2.S
+/tmp/hhvm-3.12.0/hphp/util/memset-x64-avx2.S
 hphp/util/etch-helpers.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/etch-helpers.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/etch-helpers.h
 
-/tmp/hhvm-3.11.1/hphp/util/strcmp-sse42.S
+/tmp/hhvm-3.12.0/hphp/util/strcmp-sse42.S
 hphp/util/etch-helpers.h
-/tmp/hhvm-3.11.1/hphp/util/hphp/util/etch-helpers.h
+/tmp/hhvm-3.12.0/hphp/util/hphp/util/etch-helpers.h
 
 hphp/util/etch-helpers.h
 

@@ -25,11 +25,11 @@
 #include "hphp/runtime/base/extended-logger.h"
 #include "hphp/runtime/base/externals.h"
 #include "hphp/runtime/base/file-util.h"
+#include "hphp/runtime/base/hhprof.h"
 #include "hphp/runtime/base/ini-setting.h"
 #include "hphp/runtime/base/memory-manager.h"
 #include "hphp/runtime/base/php-globals.h"
 #include "hphp/runtime/base/plain-file.h"
-#include "hphp/runtime/base/pprof-server.h"
 #include "hphp/runtime/base/runtime-option.h"
 #include "hphp/runtime/base/simple-counter.h"
 #include "hphp/runtime/base/stat-cache.h"
@@ -39,6 +39,7 @@
 #include "hphp/runtime/base/type-conversions.h"
 #include "hphp/runtime/base/unit-cache.h"
 #include "hphp/runtime/base/thread-safe-setlocale.h"
+#include "hphp/runtime/base/variable-serializer.h"
 #include "hphp/runtime/base/zend-math.h"
 #include "hphp/runtime/base/zend-strtod.h"
 #include "hphp/runtime/debugger/debugger.h"
@@ -689,7 +690,6 @@ void execute_command_line_begin(int argc, char **argv, int xhprof) {
 }
 
 void execute_command_line_end(int xhprof, bool coverage, const char *program) {
-  MM().collect("execute_command_line_end");
   if (RuntimeOption::EvalDumpTC ||
       RuntimeOption::EvalDumpIR ||
       RuntimeOption::EvalDumpRegion) {
@@ -974,13 +974,11 @@ static int start_server(const std::string &username, int xhprof) {
 
   if (RuntimeOption::EvalEnableNuma) {
 #ifdef USE_JEMALLOC
-    uint64_t epoch = 1;
     unsigned narenas;
-    size_t sz = sizeof(narenas);
     size_t mib[3];
     size_t miblen = 3;
-    if (mallctl("epoch", nullptr, nullptr, &epoch, sizeof(epoch)) == 0 &&
-        mallctl("arenas.narenas", &narenas, &sz, nullptr, 0) == 0 &&
+    if (mallctlWrite<uint64_t>("epoch", 1, true) == 0 &&
+        mallctlRead("arenas.narenas", &narenas, true) == 0 &&
         mallctlnametomib("arena.0.purge", mib, &miblen) == 0) {
       mib[1] = size_t(narenas);
       mallctlbymib(mib, miblen, nullptr, nullptr, nullptr, 0);
@@ -1511,14 +1509,18 @@ static int execute_program_impl(int argc, char** argv) {
     s_config_files = po.config;
     // Start with .hdf and .ini files
     for (auto& filename : s_config_files) {
-      Config::ParseConfigFile(filename, ini, config);
+      if (boost::filesystem::exists(filename)) {
+        Config::ParseConfigFile(filename, ini, config);
+      }
     }
     // Now, take care of CLI options and then officially load and bind things
     RuntimeOption::Load(ini, config, po.iniStrings, po.confStrings, &messages);
     std::vector<std::string> badnodes;
     config.lint(badnodes);
-    for (unsigned int i = 0; i < badnodes.size(); i++) {
-      Logger::Error("Possible bad config node: %s", badnodes[i].c_str());
+    for (const auto& badnode : badnodes) {
+      const auto msg = "Possible bad config node: " + badnode;
+      fprintf(stderr, "%s\n", msg.c_str());
+      messages.push_back(msg);
     }
   }
   std::vector<int> inherited_fds;
@@ -1903,6 +1905,8 @@ void hphp_process_init() {
   Process::InitProcessStatics();
   BootTimer::mark("Process::InitProcessStatics");
 
+  HHProf::Init();
+
   // initialize the tzinfo cache.
   timezone_init();
   BootTimer::mark("timezone_init");
@@ -1955,11 +1959,17 @@ void hphp_process_init() {
 
   InitFiniNode::ProcessInit();
   BootTimer::mark("extra_process_init");
-  int64_t save = RuntimeOption::SerializationSizeLimit;
-  RuntimeOption::SerializationSizeLimit = StringData::MaxSize;
-  apc_load(apcExtension::LoadThread);
-  RuntimeOption::SerializationSizeLimit = save;
-  BootTimer::mark("apc_load");
+  {
+    UnlimitSerializationScope unlimit;
+    // TODO(9755792): Add real execution mode for snapshot generation.
+    if (apcExtension::PrimeLibraryUpgradeDest != "") {
+      Timer timer(Timer::WallTime, "optimizeApcPrime");
+      apc_load(apcExtension::LoadThread);
+    } else {
+      apc_load(apcExtension::LoadThread);
+    }
+    BootTimer::mark("apc_load");
+  }
 
   rds::requestExit();
   BootTimer::mark("rds::requestExit");
@@ -1968,6 +1978,13 @@ void hphp_process_init() {
   context->~ExecutionContext();
   new (context) ExecutionContext();
   BootTimer::mark("ExecutionContext");
+
+  // TODO(9755792): Add real execution mode for snapshot generation.
+  if (apcExtension::PrimeLibraryUpgradeDest != "") {
+    Logger::Info("APC PrimeLibrary upgrade mode completed; exiting.");
+    hphp_process_exit();
+    exit(0);
+  }
 }
 
 static void handle_exception(bool& ret, ExecutionContext* context,

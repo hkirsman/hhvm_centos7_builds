@@ -1,2 +1,2 @@
-/usr/bin/ar cr libafdt.a  CMakeFiles/afdt.dir/src/lowlevel.c.o CMakeFiles/afdt.dir/src/strlcpy.c.o CMakeFiles/afdt.dir/src/sync.c.o CMakeFiles/afdt.dir/src/util.c.o CMakeFiles/afdt.dir/src/async.c.o
-/usr/bin/ranlib libafdt.a
+/bin/ar cr libafdt.a  CMakeFiles/afdt.dir/src/lowlevel.c.o CMakeFiles/afdt.dir/src/strlcpy.c.o CMakeFiles/afdt.dir/src/sync.c.o CMakeFiles/afdt.dir/src/util.c.o CMakeFiles/afdt.dir/src/async.c.o
+/bin/ranlib libafdt.a

@@ -6,71 +6,71 @@
 
 #IncludeRegexTransform: 
 
-/tmp/hhvm-3.11.1/hphp/vixl/a64/assembler-a64.cc
+/tmp/hhvm-3.12.0/hphp/vixl/a64/assembler-a64.cc
 hphp/vixl/a64/assembler-a64.h
-/tmp/hhvm-3.11.1/hphp/vixl/a64/hphp/vixl/a64/assembler-a64.h
+/tmp/hhvm-3.12.0/hphp/vixl/a64/hphp/vixl/a64/assembler-a64.h
 cmath
 -
 
-/tmp/hhvm-3.11.1/hphp/vixl/a64/cpu-a64.cc
+/tmp/hhvm-3.12.0/hphp/vixl/a64/cpu-a64.cc
 hphp/vixl/a64/cpu-a64.h
-/tmp/hhvm-3.11.1/hphp/vixl/a64/hphp/vixl/a64/cpu-a64.h
+/tmp/hhvm-3.12.0/hphp/vixl/a64/hphp/vixl/a64/cpu-a64.h
 hphp/vixl/utils.h
-/tmp/hhvm-3.11.1/hphp/vixl/a64/hphp/vixl/utils.h
+/tmp/hhvm-3.12.0/hphp/vixl/a64/hphp/vixl/utils.h
 
-/tmp/hhvm-3.11.1/hphp/vixl/a64/debugger-a64.cc
+/tmp/hhvm-3.12.0/hphp/vixl/a64/debugger-a64.cc
 hphp/vixl/a64/debugger-a64.h
-/tmp/hhvm-3.11.1/hphp/vixl/a64/hphp/vixl/a64/debugger-a64.h
+/tmp/hhvm-3.12.0/hphp/vixl/a64/hphp/vixl/a64/debugger-a64.h
 iostream
 -
 folly/Format.h
 -
 
-/tmp/hhvm-3.11.1/hphp/vixl/a64/decoder-a64.cc
+/tmp/hhvm-3.12.0/hphp/vixl/a64/decoder-a64.cc
 hphp/vixl/a64/decoder-a64.h
-/tmp/hhvm-3.11.1/hphp/vixl/a64/hphp/vixl/a64/decoder-a64.h
+/tmp/hhvm-3.12.0/hphp/vixl/a64/hphp/vixl/a64/decoder-a64.h
 hphp/vixl/globals.h
-/tmp/hhvm-3.11.1/hphp/vixl/a64/hphp/vixl/globals.h
+/tmp/hhvm-3.12.0/hphp/vixl/a64/hphp/vixl/globals.h
 hphp/vixl/utils.h
-/tmp/hhvm-3.11.1/hphp/vixl/a64/hphp/vixl/utils.h
+/tmp/hhvm-3.12.0/hphp/vixl/a64/hphp/vixl/utils.h
 
-/tmp/hhvm-3.11.1/hphp/vixl/a64/disasm-a64.cc
+/tmp/hhvm-3.12.0/hphp/vixl/a64/disasm-a64.cc
 hphp/vixl/a64/disasm-a64.h
-/tmp/hhvm-3.11.1/hphp/vixl/a64/hphp/vixl/a64/disasm-a64.h
+/tmp/hhvm-3.12.0/hphp/vixl/a64/hphp/vixl/a64/disasm-a64.h
 hphp/util/text-color.h
-/tmp/hhvm-3.11.1/hphp/vixl/a64/hphp/util/text-color.h
+/tmp/hhvm-3.12.0/hphp/vixl/a64/hphp/util/text-color.h
 folly/Format.h
 -
 
-/tmp/hhvm-3.11.1/hphp/vixl/a64/instructions-a64.cc
+/tmp/hhvm-3.12.0/hphp/vixl/a64/instructions-a64.cc
 hphp/vixl/a64/instructions-a64.h
-/tmp/hhvm-3.11.1/hphp/vixl/a64/hphp/vixl/a64/instructions-a64.h
+/tmp/hhvm-3.12.0/hphp/vixl/a64/hphp/vixl/a64/instructions-a64.h
 hphp/vixl/a64/assembler-a64.h
-/tmp/hhvm-3.11.1/hphp/vixl/a64/hphp/vixl/a64/assembler-a64.h
+/tmp/hhvm-3.12.0/hphp/vixl/a64/hphp/vixl/a64/assembler-a64.h
 
-/tmp/hhvm-3.11.1/hphp/vixl/a64/instrument-a64.cc
+/tmp/hhvm-3.12.0/hphp/vixl/a64/instrument-a64.cc
 hphp/vixl/a64/instrument-a64.h
-/tmp/hhvm-3.11.1/hphp/vixl/a64/hphp/vixl/a64/instrument-a64.h
+/tmp/hhvm-3.12.0/hphp/vixl/a64/hphp/vixl/a64/instrument-a64.h
 
-/tmp/hhvm-3.11.1/hphp/vixl/a64/macro-assembler-a64.cc
+/tmp/hhvm-3.12.0/hphp/vixl/a64/macro-assembler-a64.cc
 hphp/vixl/a64/macro-assembler-a64.h
-/tmp/hhvm-3.11.1/hphp/vixl/a64/hphp/vixl/a64/macro-assembler-a64.h
+/tmp/hhvm-3.12.0/hphp/vixl/a64/hphp/vixl/a64/macro-assembler-a64.h
 
-/tmp/hhvm-3.11.1/hphp/vixl/a64/simulator-a64.cc
+/tmp/hhvm-3.12.0/hphp/vixl/a64/simulator-a64.cc
 hphp/vixl/a64/simulator-a64.h
-/tmp/hhvm-3.11.1/hphp/vixl/a64/hphp/vixl/a64/simulator-a64.h
+/tmp/hhvm-3.12.0/hphp/vixl/a64/hphp/vixl/a64/simulator-a64.h
 hphp/util/thread-local.h
-/tmp/hhvm-3.11.1/hphp/vixl/a64/hphp/util/thread-local.h
+/tmp/hhvm-3.12.0/hphp/vixl/a64/hphp/util/thread-local.h
 hphp/util/compilation-flags.h
-/tmp/hhvm-3.11.1/hphp/vixl/a64/hphp/util/compilation-flags.h
+/tmp/hhvm-3.12.0/hphp/vixl/a64/hphp/util/compilation-flags.h
 folly/Format.h
 -
 math.h
 -
 
-/tmp/hhvm-3.11.1/hphp/vixl/utils.cc
+/tmp/hhvm-3.12.0/hphp/vixl/utils.cc
 hphp/vixl/utils.h
-/tmp/hhvm-3.11.1/hphp/vixl/hphp/vixl/utils.h
+/tmp/hhvm-3.12.0/hphp/vixl/hphp/vixl/utils.h
 stdio.h
 -
 
@@ -186,6 +186,14 @@ cstring
 hphp/util/portability.h
 hphp/util/hphp/util/portability.h
 
+hphp/util/locale-portability.h
+locale.h
+-
+langinfo.h
+-
+xlocale.h
+-
+
 hphp/util/low-ptr.h
 hphp/util/assertions.h
 hphp/util/hphp/util/assertions.h
@@ -214,6 +222,34 @@ folly/Portability.h
 folly/CPortability.h
 -
 sys/param.h
+-
+hphp/util/portability/fnmatch.h
+hphp/util/hphp/util/portability/fnmatch.h
+hphp/util/portability/glob.h
+hphp/util/hphp/util/portability/glob.h
+hphp/util/portability/rand_r.h
+hphp/util/hphp/util/portability/rand_r.h
+hphp/util/portability/strfmon.h
+hphp/util/hphp/util/portability/strfmon.h
+hphp/util/portability/strptime.h
+hphp/util/hphp/util/portability/strptime.h
+
+hphp/util/portability/fnmatch.h
+
+hphp/util/portability/glob.h
+
+hphp/util/portability/rand_r.h
+
+hphp/util/portability/strfmon.h
+hphp/util/locale-portability.h
+hphp/util/portability/hphp/util/locale-portability.h
+folly/Portability.h
+-
+stdint.h
+-
+
+hphp/util/portability/strptime.h
+time.h
 -
 
 hphp/util/stack-trace.h
@@ -716,6 +752,30 @@ stdexcept
 utility
 -
 
+third-party/folly/folly/MicroSpinLock.h
+array
+-
+cinttypes
+-
+type_traits
+-
+boost/noncopyable.hpp
+-
+cstdlib
+-
+pthread.h
+-
+mutex
+-
+atomic
+-
+glog/logging.h
+-
+folly/detail/Sleeper.h
+-
+folly/Portability.h
+-
+
 third-party/folly/folly/Portability.h
 string.h
 -
@@ -1042,6 +1102,14 @@ cstddef
 folly/detail/RangeCommon.h
 -
 
+third-party/folly/folly/detail/Sleeper.h
+cinttypes
+-
+ctime
+-
+folly/Portability.h
+-
+
 third-party/folly/folly/detail/ThreadLocalDetail.h
 limits.h
 -
@@ -1060,6 +1128,8 @@ folly/Foreach.h
 folly/Exception.h
 -
 folly/Malloc.h
+-
+folly/MicroSpinLock.h
 -
 
 third-party/folly/folly/detail/UncaughtExceptionCounter.h

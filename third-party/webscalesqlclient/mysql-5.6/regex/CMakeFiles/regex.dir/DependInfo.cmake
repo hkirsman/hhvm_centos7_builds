@@ -4,11 +4,11 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/regex/regcomp.c" "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/regex/CMakeFiles/regex.dir/regcomp.c.o"
-  "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/regex/regerror.c" "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/regex/CMakeFiles/regex.dir/regerror.c.o"
-  "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/regex/regexec.c" "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/regex/CMakeFiles/regex.dir/regexec.c.o"
-  "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/regex/regfree.c" "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/regex/CMakeFiles/regex.dir/regfree.c.o"
-  "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/regex/reginit.c" "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/regex/CMakeFiles/regex.dir/reginit.c.o"
+  "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/regex/regcomp.c" "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/regex/CMakeFiles/regex.dir/regcomp.c.o"
+  "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/regex/regerror.c" "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/regex/CMakeFiles/regex.dir/regerror.c.o"
+  "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/regex/regexec.c" "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/regex/CMakeFiles/regex.dir/regexec.c.o"
+  "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/regex/regfree.c" "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/regex/CMakeFiles/regex.dir/regfree.c.o"
+  "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/regex/reginit.c" "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/regex/CMakeFiles/regex.dir/reginit.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 

@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.0
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles /tmp/hhvm-3.11.1/third-party/wangle/CMakeFiles/progress.marks
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/wangle/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles 0
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.0/CMakeFiles /tmp/hhvm-3.12.0/third-party/wangle/CMakeFiles/progress.marks
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/wangle/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.0/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/wangle/clean
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/wangle/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/wangle/preinstall
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/wangle/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/wangle/preinstall
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/wangle/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 third-party/wangle/CMakeFiles/wangle.dir/rule:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/wangle/CMakeFiles/wangle.dir/rule
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/wangle/CMakeFiles/wangle.dir/rule
 .PHONY : third-party/wangle/CMakeFiles/wangle.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ wangle: third-party/wangle/CMakeFiles/wangle.dir/rule
 
 # fast build rule for target.
 wangle/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/build
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/build
 .PHONY : wangle/fast
 
 src/wangle/acceptor/Acceptor.o: src/wangle/acceptor/Acceptor.cpp.o
@@ -161,7 +161,7 @@ src/wangle/acceptor/Acceptor.o: src/wangle/acceptor/Acceptor.cpp.o
 
 # target to build an object file
 src/wangle/acceptor/Acceptor.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/Acceptor.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/Acceptor.cpp.o
 .PHONY : src/wangle/acceptor/Acceptor.cpp.o
 
 src/wangle/acceptor/Acceptor.i: src/wangle/acceptor/Acceptor.cpp.i
@@ -169,7 +169,7 @@ src/wangle/acceptor/Acceptor.i: src/wangle/acceptor/Acceptor.cpp.i
 
 # target to preprocess a source file
 src/wangle/acceptor/Acceptor.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/Acceptor.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/Acceptor.cpp.i
 .PHONY : src/wangle/acceptor/Acceptor.cpp.i
 
 src/wangle/acceptor/Acceptor.s: src/wangle/acceptor/Acceptor.cpp.s
@@ -177,7 +177,7 @@ src/wangle/acceptor/Acceptor.s: src/wangle/acceptor/Acceptor.cpp.s
 
 # target to generate assembly for a file
 src/wangle/acceptor/Acceptor.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/Acceptor.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/Acceptor.cpp.s
 .PHONY : src/wangle/acceptor/Acceptor.cpp.s
 
 src/wangle/acceptor/AcceptorHandshakeHelper.o: src/wangle/acceptor/AcceptorHandshakeHelper.cpp.o
@@ -185,7 +185,7 @@ src/wangle/acceptor/AcceptorHandshakeHelper.o: src/wangle/acceptor/AcceptorHands
 
 # target to build an object file
 src/wangle/acceptor/AcceptorHandshakeHelper.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/AcceptorHandshakeHelper.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/AcceptorHandshakeHelper.cpp.o
 .PHONY : src/wangle/acceptor/AcceptorHandshakeHelper.cpp.o
 
 src/wangle/acceptor/AcceptorHandshakeHelper.i: src/wangle/acceptor/AcceptorHandshakeHelper.cpp.i
@@ -193,7 +193,7 @@ src/wangle/acceptor/AcceptorHandshakeHelper.i: src/wangle/acceptor/AcceptorHands
 
 # target to preprocess a source file
 src/wangle/acceptor/AcceptorHandshakeHelper.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/AcceptorHandshakeHelper.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/AcceptorHandshakeHelper.cpp.i
 .PHONY : src/wangle/acceptor/AcceptorHandshakeHelper.cpp.i
 
 src/wangle/acceptor/AcceptorHandshakeHelper.s: src/wangle/acceptor/AcceptorHandshakeHelper.cpp.s
@@ -201,7 +201,7 @@ src/wangle/acceptor/AcceptorHandshakeHelper.s: src/wangle/acceptor/AcceptorHands
 
 # target to generate assembly for a file
 src/wangle/acceptor/AcceptorHandshakeHelper.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/AcceptorHandshakeHelper.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/AcceptorHandshakeHelper.cpp.s
 .PHONY : src/wangle/acceptor/AcceptorHandshakeHelper.cpp.s
 
 src/wangle/acceptor/ConnectionManager.o: src/wangle/acceptor/ConnectionManager.cpp.o
@@ -209,7 +209,7 @@ src/wangle/acceptor/ConnectionManager.o: src/wangle/acceptor/ConnectionManager.c
 
 # target to build an object file
 src/wangle/acceptor/ConnectionManager.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ConnectionManager.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ConnectionManager.cpp.o
 .PHONY : src/wangle/acceptor/ConnectionManager.cpp.o
 
 src/wangle/acceptor/ConnectionManager.i: src/wangle/acceptor/ConnectionManager.cpp.i
@@ -217,7 +217,7 @@ src/wangle/acceptor/ConnectionManager.i: src/wangle/acceptor/ConnectionManager.c
 
 # target to preprocess a source file
 src/wangle/acceptor/ConnectionManager.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ConnectionManager.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ConnectionManager.cpp.i
 .PHONY : src/wangle/acceptor/ConnectionManager.cpp.i
 
 src/wangle/acceptor/ConnectionManager.s: src/wangle/acceptor/ConnectionManager.cpp.s
@@ -225,7 +225,7 @@ src/wangle/acceptor/ConnectionManager.s: src/wangle/acceptor/ConnectionManager.c
 
 # target to generate assembly for a file
 src/wangle/acceptor/ConnectionManager.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ConnectionManager.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ConnectionManager.cpp.s
 .PHONY : src/wangle/acceptor/ConnectionManager.cpp.s
 
 src/wangle/acceptor/LoadShedConfiguration.o: src/wangle/acceptor/LoadShedConfiguration.cpp.o
@@ -233,7 +233,7 @@ src/wangle/acceptor/LoadShedConfiguration.o: src/wangle/acceptor/LoadShedConfigu
 
 # target to build an object file
 src/wangle/acceptor/LoadShedConfiguration.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/LoadShedConfiguration.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/LoadShedConfiguration.cpp.o
 .PHONY : src/wangle/acceptor/LoadShedConfiguration.cpp.o
 
 src/wangle/acceptor/LoadShedConfiguration.i: src/wangle/acceptor/LoadShedConfiguration.cpp.i
@@ -241,7 +241,7 @@ src/wangle/acceptor/LoadShedConfiguration.i: src/wangle/acceptor/LoadShedConfigu
 
 # target to preprocess a source file
 src/wangle/acceptor/LoadShedConfiguration.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/LoadShedConfiguration.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/LoadShedConfiguration.cpp.i
 .PHONY : src/wangle/acceptor/LoadShedConfiguration.cpp.i
 
 src/wangle/acceptor/LoadShedConfiguration.s: src/wangle/acceptor/LoadShedConfiguration.cpp.s
@@ -249,7 +249,7 @@ src/wangle/acceptor/LoadShedConfiguration.s: src/wangle/acceptor/LoadShedConfigu
 
 # target to generate assembly for a file
 src/wangle/acceptor/LoadShedConfiguration.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/LoadShedConfiguration.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/LoadShedConfiguration.cpp.s
 .PHONY : src/wangle/acceptor/LoadShedConfiguration.cpp.s
 
 src/wangle/acceptor/ManagedConnection.o: src/wangle/acceptor/ManagedConnection.cpp.o
@@ -257,7 +257,7 @@ src/wangle/acceptor/ManagedConnection.o: src/wangle/acceptor/ManagedConnection.c
 
 # target to build an object file
 src/wangle/acceptor/ManagedConnection.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ManagedConnection.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ManagedConnection.cpp.o
 .PHONY : src/wangle/acceptor/ManagedConnection.cpp.o
 
 src/wangle/acceptor/ManagedConnection.i: src/wangle/acceptor/ManagedConnection.cpp.i
@@ -265,7 +265,7 @@ src/wangle/acceptor/ManagedConnection.i: src/wangle/acceptor/ManagedConnection.c
 
 # target to preprocess a source file
 src/wangle/acceptor/ManagedConnection.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ManagedConnection.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ManagedConnection.cpp.i
 .PHONY : src/wangle/acceptor/ManagedConnection.cpp.i
 
 src/wangle/acceptor/ManagedConnection.s: src/wangle/acceptor/ManagedConnection.cpp.s
@@ -273,7 +273,7 @@ src/wangle/acceptor/ManagedConnection.s: src/wangle/acceptor/ManagedConnection.c
 
 # target to generate assembly for a file
 src/wangle/acceptor/ManagedConnection.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ManagedConnection.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ManagedConnection.cpp.s
 .PHONY : src/wangle/acceptor/ManagedConnection.cpp.s
 
 src/wangle/acceptor/SocketOptions.o: src/wangle/acceptor/SocketOptions.cpp.o
@@ -281,7 +281,7 @@ src/wangle/acceptor/SocketOptions.o: src/wangle/acceptor/SocketOptions.cpp.o
 
 # target to build an object file
 src/wangle/acceptor/SocketOptions.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/SocketOptions.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/SocketOptions.cpp.o
 .PHONY : src/wangle/acceptor/SocketOptions.cpp.o
 
 src/wangle/acceptor/SocketOptions.i: src/wangle/acceptor/SocketOptions.cpp.i
@@ -289,7 +289,7 @@ src/wangle/acceptor/SocketOptions.i: src/wangle/acceptor/SocketOptions.cpp.i
 
 # target to preprocess a source file
 src/wangle/acceptor/SocketOptions.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/SocketOptions.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/SocketOptions.cpp.i
 .PHONY : src/wangle/acceptor/SocketOptions.cpp.i
 
 src/wangle/acceptor/SocketOptions.s: src/wangle/acceptor/SocketOptions.cpp.s
@@ -297,7 +297,7 @@ src/wangle/acceptor/SocketOptions.s: src/wangle/acceptor/SocketOptions.cpp.s
 
 # target to generate assembly for a file
 src/wangle/acceptor/SocketOptions.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/SocketOptions.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/SocketOptions.cpp.s
 .PHONY : src/wangle/acceptor/SocketOptions.cpp.s
 
 src/wangle/acceptor/TransportInfo.o: src/wangle/acceptor/TransportInfo.cpp.o
@@ -305,7 +305,7 @@ src/wangle/acceptor/TransportInfo.o: src/wangle/acceptor/TransportInfo.cpp.o
 
 # target to build an object file
 src/wangle/acceptor/TransportInfo.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/TransportInfo.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/TransportInfo.cpp.o
 .PHONY : src/wangle/acceptor/TransportInfo.cpp.o
 
 src/wangle/acceptor/TransportInfo.i: src/wangle/acceptor/TransportInfo.cpp.i
@@ -313,7 +313,7 @@ src/wangle/acceptor/TransportInfo.i: src/wangle/acceptor/TransportInfo.cpp.i
 
 # target to preprocess a source file
 src/wangle/acceptor/TransportInfo.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/TransportInfo.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/TransportInfo.cpp.i
 .PHONY : src/wangle/acceptor/TransportInfo.cpp.i
 
 src/wangle/acceptor/TransportInfo.s: src/wangle/acceptor/TransportInfo.cpp.s
@@ -321,7 +321,7 @@ src/wangle/acceptor/TransportInfo.s: src/wangle/acceptor/TransportInfo.cpp.s
 
 # target to generate assembly for a file
 src/wangle/acceptor/TransportInfo.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/TransportInfo.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/TransportInfo.cpp.s
 .PHONY : src/wangle/acceptor/TransportInfo.cpp.s
 
 src/wangle/channel/Pipeline.o: src/wangle/channel/Pipeline.cpp.o
@@ -329,7 +329,7 @@ src/wangle/channel/Pipeline.o: src/wangle/channel/Pipeline.cpp.o
 
 # target to build an object file
 src/wangle/channel/Pipeline.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/channel/Pipeline.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/channel/Pipeline.cpp.o
 .PHONY : src/wangle/channel/Pipeline.cpp.o
 
 src/wangle/channel/Pipeline.i: src/wangle/channel/Pipeline.cpp.i
@@ -337,7 +337,7 @@ src/wangle/channel/Pipeline.i: src/wangle/channel/Pipeline.cpp.i
 
 # target to preprocess a source file
 src/wangle/channel/Pipeline.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/channel/Pipeline.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/channel/Pipeline.cpp.i
 .PHONY : src/wangle/channel/Pipeline.cpp.i
 
 src/wangle/channel/Pipeline.s: src/wangle/channel/Pipeline.cpp.s
@@ -345,7 +345,7 @@ src/wangle/channel/Pipeline.s: src/wangle/channel/Pipeline.cpp.s
 
 # target to generate assembly for a file
 src/wangle/channel/Pipeline.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/channel/Pipeline.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/channel/Pipeline.cpp.s
 .PHONY : src/wangle/channel/Pipeline.cpp.s
 
 src/wangle/client/ssl/SSLSessionCacheData.o: src/wangle/client/ssl/SSLSessionCacheData.cpp.o
@@ -353,7 +353,7 @@ src/wangle/client/ssl/SSLSessionCacheData.o: src/wangle/client/ssl/SSLSessionCac
 
 # target to build an object file
 src/wangle/client/ssl/SSLSessionCacheData.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheData.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheData.cpp.o
 .PHONY : src/wangle/client/ssl/SSLSessionCacheData.cpp.o
 
 src/wangle/client/ssl/SSLSessionCacheData.i: src/wangle/client/ssl/SSLSessionCacheData.cpp.i
@@ -361,7 +361,7 @@ src/wangle/client/ssl/SSLSessionCacheData.i: src/wangle/client/ssl/SSLSessionCac
 
 # target to preprocess a source file
 src/wangle/client/ssl/SSLSessionCacheData.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheData.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheData.cpp.i
 .PHONY : src/wangle/client/ssl/SSLSessionCacheData.cpp.i
 
 src/wangle/client/ssl/SSLSessionCacheData.s: src/wangle/client/ssl/SSLSessionCacheData.cpp.s
@@ -369,7 +369,7 @@ src/wangle/client/ssl/SSLSessionCacheData.s: src/wangle/client/ssl/SSLSessionCac
 
 # target to generate assembly for a file
 src/wangle/client/ssl/SSLSessionCacheData.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheData.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheData.cpp.s
 .PHONY : src/wangle/client/ssl/SSLSessionCacheData.cpp.s
 
 src/wangle/client/ssl/SSLSessionCacheUtils.o: src/wangle/client/ssl/SSLSessionCacheUtils.cpp.o
@@ -377,7 +377,7 @@ src/wangle/client/ssl/SSLSessionCacheUtils.o: src/wangle/client/ssl/SSLSessionCa
 
 # target to build an object file
 src/wangle/client/ssl/SSLSessionCacheUtils.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheUtils.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheUtils.cpp.o
 .PHONY : src/wangle/client/ssl/SSLSessionCacheUtils.cpp.o
 
 src/wangle/client/ssl/SSLSessionCacheUtils.i: src/wangle/client/ssl/SSLSessionCacheUtils.cpp.i
@@ -385,7 +385,7 @@ src/wangle/client/ssl/SSLSessionCacheUtils.i: src/wangle/client/ssl/SSLSessionCa
 
 # target to preprocess a source file
 src/wangle/client/ssl/SSLSessionCacheUtils.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheUtils.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheUtils.cpp.i
 .PHONY : src/wangle/client/ssl/SSLSessionCacheUtils.cpp.i
 
 src/wangle/client/ssl/SSLSessionCacheUtils.s: src/wangle/client/ssl/SSLSessionCacheUtils.cpp.s
@@ -393,7 +393,7 @@ src/wangle/client/ssl/SSLSessionCacheUtils.s: src/wangle/client/ssl/SSLSessionCa
 
 # target to generate assembly for a file
 src/wangle/client/ssl/SSLSessionCacheUtils.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheUtils.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheUtils.cpp.s
 .PHONY : src/wangle/client/ssl/SSLSessionCacheUtils.cpp.s
 
 src/wangle/client/ssl/SSLSessionPersistentCache.o: src/wangle/client/ssl/SSLSessionPersistentCache.cpp.o
@@ -401,7 +401,7 @@ src/wangle/client/ssl/SSLSessionPersistentCache.o: src/wangle/client/ssl/SSLSess
 
 # target to build an object file
 src/wangle/client/ssl/SSLSessionPersistentCache.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionPersistentCache.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionPersistentCache.cpp.o
 .PHONY : src/wangle/client/ssl/SSLSessionPersistentCache.cpp.o
 
 src/wangle/client/ssl/SSLSessionPersistentCache.i: src/wangle/client/ssl/SSLSessionPersistentCache.cpp.i
@@ -409,7 +409,7 @@ src/wangle/client/ssl/SSLSessionPersistentCache.i: src/wangle/client/ssl/SSLSess
 
 # target to preprocess a source file
 src/wangle/client/ssl/SSLSessionPersistentCache.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionPersistentCache.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionPersistentCache.cpp.i
 .PHONY : src/wangle/client/ssl/SSLSessionPersistentCache.cpp.i
 
 src/wangle/client/ssl/SSLSessionPersistentCache.s: src/wangle/client/ssl/SSLSessionPersistentCache.cpp.s
@@ -417,7 +417,7 @@ src/wangle/client/ssl/SSLSessionPersistentCache.s: src/wangle/client/ssl/SSLSess
 
 # target to generate assembly for a file
 src/wangle/client/ssl/SSLSessionPersistentCache.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionPersistentCache.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionPersistentCache.cpp.s
 .PHONY : src/wangle/client/ssl/SSLSessionPersistentCache.cpp.s
 
 src/wangle/client/ssl/ThreadSafeSSLSessionCache.o: src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.o
@@ -425,7 +425,7 @@ src/wangle/client/ssl/ThreadSafeSSLSessionCache.o: src/wangle/client/ssl/ThreadS
 
 # target to build an object file
 src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.o
 .PHONY : src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.o
 
 src/wangle/client/ssl/ThreadSafeSSLSessionCache.i: src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.i
@@ -433,7 +433,7 @@ src/wangle/client/ssl/ThreadSafeSSLSessionCache.i: src/wangle/client/ssl/ThreadS
 
 # target to preprocess a source file
 src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.i
 .PHONY : src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.i
 
 src/wangle/client/ssl/ThreadSafeSSLSessionCache.s: src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.s
@@ -441,7 +441,7 @@ src/wangle/client/ssl/ThreadSafeSSLSessionCache.s: src/wangle/client/ssl/ThreadS
 
 # target to generate assembly for a file
 src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.s
 .PHONY : src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.s
 
 src/wangle/codec/LengthFieldBasedFrameDecoder.o: src/wangle/codec/LengthFieldBasedFrameDecoder.cpp.o
@@ -449,7 +449,7 @@ src/wangle/codec/LengthFieldBasedFrameDecoder.o: src/wangle/codec/LengthFieldBas
 
 # target to build an object file
 src/wangle/codec/LengthFieldBasedFrameDecoder.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldBasedFrameDecoder.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldBasedFrameDecoder.cpp.o
 .PHONY : src/wangle/codec/LengthFieldBasedFrameDecoder.cpp.o
 
 src/wangle/codec/LengthFieldBasedFrameDecoder.i: src/wangle/codec/LengthFieldBasedFrameDecoder.cpp.i
@@ -457,7 +457,7 @@ src/wangle/codec/LengthFieldBasedFrameDecoder.i: src/wangle/codec/LengthFieldBas
 
 # target to preprocess a source file
 src/wangle/codec/LengthFieldBasedFrameDecoder.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldBasedFrameDecoder.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldBasedFrameDecoder.cpp.i
 .PHONY : src/wangle/codec/LengthFieldBasedFrameDecoder.cpp.i
 
 src/wangle/codec/LengthFieldBasedFrameDecoder.s: src/wangle/codec/LengthFieldBasedFrameDecoder.cpp.s
@@ -465,7 +465,7 @@ src/wangle/codec/LengthFieldBasedFrameDecoder.s: src/wangle/codec/LengthFieldBas
 
 # target to generate assembly for a file
 src/wangle/codec/LengthFieldBasedFrameDecoder.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldBasedFrameDecoder.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldBasedFrameDecoder.cpp.s
 .PHONY : src/wangle/codec/LengthFieldBasedFrameDecoder.cpp.s
 
 src/wangle/codec/LengthFieldPrepender.o: src/wangle/codec/LengthFieldPrepender.cpp.o
@@ -473,7 +473,7 @@ src/wangle/codec/LengthFieldPrepender.o: src/wangle/codec/LengthFieldPrepender.c
 
 # target to build an object file
 src/wangle/codec/LengthFieldPrepender.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldPrepender.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldPrepender.cpp.o
 .PHONY : src/wangle/codec/LengthFieldPrepender.cpp.o
 
 src/wangle/codec/LengthFieldPrepender.i: src/wangle/codec/LengthFieldPrepender.cpp.i
@@ -481,7 +481,7 @@ src/wangle/codec/LengthFieldPrepender.i: src/wangle/codec/LengthFieldPrepender.c
 
 # target to preprocess a source file
 src/wangle/codec/LengthFieldPrepender.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldPrepender.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldPrepender.cpp.i
 .PHONY : src/wangle/codec/LengthFieldPrepender.cpp.i
 
 src/wangle/codec/LengthFieldPrepender.s: src/wangle/codec/LengthFieldPrepender.cpp.s
@@ -489,7 +489,7 @@ src/wangle/codec/LengthFieldPrepender.s: src/wangle/codec/LengthFieldPrepender.c
 
 # target to generate assembly for a file
 src/wangle/codec/LengthFieldPrepender.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldPrepender.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldPrepender.cpp.s
 .PHONY : src/wangle/codec/LengthFieldPrepender.cpp.s
 
 src/wangle/codec/LineBasedFrameDecoder.o: src/wangle/codec/LineBasedFrameDecoder.cpp.o
@@ -497,7 +497,7 @@ src/wangle/codec/LineBasedFrameDecoder.o: src/wangle/codec/LineBasedFrameDecoder
 
 # target to build an object file
 src/wangle/codec/LineBasedFrameDecoder.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LineBasedFrameDecoder.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LineBasedFrameDecoder.cpp.o
 .PHONY : src/wangle/codec/LineBasedFrameDecoder.cpp.o
 
 src/wangle/codec/LineBasedFrameDecoder.i: src/wangle/codec/LineBasedFrameDecoder.cpp.i
@@ -505,7 +505,7 @@ src/wangle/codec/LineBasedFrameDecoder.i: src/wangle/codec/LineBasedFrameDecoder
 
 # target to preprocess a source file
 src/wangle/codec/LineBasedFrameDecoder.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LineBasedFrameDecoder.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LineBasedFrameDecoder.cpp.i
 .PHONY : src/wangle/codec/LineBasedFrameDecoder.cpp.i
 
 src/wangle/codec/LineBasedFrameDecoder.s: src/wangle/codec/LineBasedFrameDecoder.cpp.s
@@ -513,7 +513,7 @@ src/wangle/codec/LineBasedFrameDecoder.s: src/wangle/codec/LineBasedFrameDecoder
 
 # target to generate assembly for a file
 src/wangle/codec/LineBasedFrameDecoder.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LineBasedFrameDecoder.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LineBasedFrameDecoder.cpp.s
 .PHONY : src/wangle/codec/LineBasedFrameDecoder.cpp.s
 
 src/wangle/concurrent/CPUThreadPoolExecutor.o: src/wangle/concurrent/CPUThreadPoolExecutor.cpp.o
@@ -521,7 +521,7 @@ src/wangle/concurrent/CPUThreadPoolExecutor.o: src/wangle/concurrent/CPUThreadPo
 
 # target to build an object file
 src/wangle/concurrent/CPUThreadPoolExecutor.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/CPUThreadPoolExecutor.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/CPUThreadPoolExecutor.cpp.o
 .PHONY : src/wangle/concurrent/CPUThreadPoolExecutor.cpp.o
 
 src/wangle/concurrent/CPUThreadPoolExecutor.i: src/wangle/concurrent/CPUThreadPoolExecutor.cpp.i
@@ -529,7 +529,7 @@ src/wangle/concurrent/CPUThreadPoolExecutor.i: src/wangle/concurrent/CPUThreadPo
 
 # target to preprocess a source file
 src/wangle/concurrent/CPUThreadPoolExecutor.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/CPUThreadPoolExecutor.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/CPUThreadPoolExecutor.cpp.i
 .PHONY : src/wangle/concurrent/CPUThreadPoolExecutor.cpp.i
 
 src/wangle/concurrent/CPUThreadPoolExecutor.s: src/wangle/concurrent/CPUThreadPoolExecutor.cpp.s
@@ -537,7 +537,7 @@ src/wangle/concurrent/CPUThreadPoolExecutor.s: src/wangle/concurrent/CPUThreadPo
 
 # target to generate assembly for a file
 src/wangle/concurrent/CPUThreadPoolExecutor.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/CPUThreadPoolExecutor.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/CPUThreadPoolExecutor.cpp.s
 .PHONY : src/wangle/concurrent/CPUThreadPoolExecutor.cpp.s
 
 src/wangle/concurrent/Codel.o: src/wangle/concurrent/Codel.cpp.o
@@ -545,7 +545,7 @@ src/wangle/concurrent/Codel.o: src/wangle/concurrent/Codel.cpp.o
 
 # target to build an object file
 src/wangle/concurrent/Codel.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/Codel.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/Codel.cpp.o
 .PHONY : src/wangle/concurrent/Codel.cpp.o
 
 src/wangle/concurrent/Codel.i: src/wangle/concurrent/Codel.cpp.i
@@ -553,7 +553,7 @@ src/wangle/concurrent/Codel.i: src/wangle/concurrent/Codel.cpp.i
 
 # target to preprocess a source file
 src/wangle/concurrent/Codel.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/Codel.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/Codel.cpp.i
 .PHONY : src/wangle/concurrent/Codel.cpp.i
 
 src/wangle/concurrent/Codel.s: src/wangle/concurrent/Codel.cpp.s
@@ -561,7 +561,7 @@ src/wangle/concurrent/Codel.s: src/wangle/concurrent/Codel.cpp.s
 
 # target to generate assembly for a file
 src/wangle/concurrent/Codel.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/Codel.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/Codel.cpp.s
 .PHONY : src/wangle/concurrent/Codel.cpp.s
 
 src/wangle/concurrent/GlobalExecutor.o: src/wangle/concurrent/GlobalExecutor.cpp.o
@@ -569,7 +569,7 @@ src/wangle/concurrent/GlobalExecutor.o: src/wangle/concurrent/GlobalExecutor.cpp
 
 # target to build an object file
 src/wangle/concurrent/GlobalExecutor.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/GlobalExecutor.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/GlobalExecutor.cpp.o
 .PHONY : src/wangle/concurrent/GlobalExecutor.cpp.o
 
 src/wangle/concurrent/GlobalExecutor.i: src/wangle/concurrent/GlobalExecutor.cpp.i
@@ -577,7 +577,7 @@ src/wangle/concurrent/GlobalExecutor.i: src/wangle/concurrent/GlobalExecutor.cpp
 
 # target to preprocess a source file
 src/wangle/concurrent/GlobalExecutor.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/GlobalExecutor.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/GlobalExecutor.cpp.i
 .PHONY : src/wangle/concurrent/GlobalExecutor.cpp.i
 
 src/wangle/concurrent/GlobalExecutor.s: src/wangle/concurrent/GlobalExecutor.cpp.s
@@ -585,7 +585,7 @@ src/wangle/concurrent/GlobalExecutor.s: src/wangle/concurrent/GlobalExecutor.cpp
 
 # target to generate assembly for a file
 src/wangle/concurrent/GlobalExecutor.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/GlobalExecutor.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/GlobalExecutor.cpp.s
 .PHONY : src/wangle/concurrent/GlobalExecutor.cpp.s
 
 src/wangle/concurrent/IOThreadPoolExecutor.o: src/wangle/concurrent/IOThreadPoolExecutor.cpp.o
@@ -593,7 +593,7 @@ src/wangle/concurrent/IOThreadPoolExecutor.o: src/wangle/concurrent/IOThreadPool
 
 # target to build an object file
 src/wangle/concurrent/IOThreadPoolExecutor.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/IOThreadPoolExecutor.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/IOThreadPoolExecutor.cpp.o
 .PHONY : src/wangle/concurrent/IOThreadPoolExecutor.cpp.o
 
 src/wangle/concurrent/IOThreadPoolExecutor.i: src/wangle/concurrent/IOThreadPoolExecutor.cpp.i
@@ -601,7 +601,7 @@ src/wangle/concurrent/IOThreadPoolExecutor.i: src/wangle/concurrent/IOThreadPool
 
 # target to preprocess a source file
 src/wangle/concurrent/IOThreadPoolExecutor.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/IOThreadPoolExecutor.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/IOThreadPoolExecutor.cpp.i
 .PHONY : src/wangle/concurrent/IOThreadPoolExecutor.cpp.i
 
 src/wangle/concurrent/IOThreadPoolExecutor.s: src/wangle/concurrent/IOThreadPoolExecutor.cpp.s
@@ -609,7 +609,7 @@ src/wangle/concurrent/IOThreadPoolExecutor.s: src/wangle/concurrent/IOThreadPool
 
 # target to generate assembly for a file
 src/wangle/concurrent/IOThreadPoolExecutor.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/IOThreadPoolExecutor.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/IOThreadPoolExecutor.cpp.s
 .PHONY : src/wangle/concurrent/IOThreadPoolExecutor.cpp.s
 
 src/wangle/concurrent/ThreadPoolExecutor.o: src/wangle/concurrent/ThreadPoolExecutor.cpp.o
@@ -617,7 +617,7 @@ src/wangle/concurrent/ThreadPoolExecutor.o: src/wangle/concurrent/ThreadPoolExec
 
 # target to build an object file
 src/wangle/concurrent/ThreadPoolExecutor.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/ThreadPoolExecutor.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/ThreadPoolExecutor.cpp.o
 .PHONY : src/wangle/concurrent/ThreadPoolExecutor.cpp.o
 
 src/wangle/concurrent/ThreadPoolExecutor.i: src/wangle/concurrent/ThreadPoolExecutor.cpp.i
@@ -625,7 +625,7 @@ src/wangle/concurrent/ThreadPoolExecutor.i: src/wangle/concurrent/ThreadPoolExec
 
 # target to preprocess a source file
 src/wangle/concurrent/ThreadPoolExecutor.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/ThreadPoolExecutor.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/ThreadPoolExecutor.cpp.i
 .PHONY : src/wangle/concurrent/ThreadPoolExecutor.cpp.i
 
 src/wangle/concurrent/ThreadPoolExecutor.s: src/wangle/concurrent/ThreadPoolExecutor.cpp.s
@@ -633,7 +633,7 @@ src/wangle/concurrent/ThreadPoolExecutor.s: src/wangle/concurrent/ThreadPoolExec
 
 # target to generate assembly for a file
 src/wangle/concurrent/ThreadPoolExecutor.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/ThreadPoolExecutor.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/ThreadPoolExecutor.cpp.s
 .PHONY : src/wangle/concurrent/ThreadPoolExecutor.cpp.s
 
 src/wangle/deprecated/rx/Dummy.o: src/wangle/deprecated/rx/Dummy.cpp.o
@@ -641,7 +641,7 @@ src/wangle/deprecated/rx/Dummy.o: src/wangle/deprecated/rx/Dummy.cpp.o
 
 # target to build an object file
 src/wangle/deprecated/rx/Dummy.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/deprecated/rx/Dummy.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/deprecated/rx/Dummy.cpp.o
 .PHONY : src/wangle/deprecated/rx/Dummy.cpp.o
 
 src/wangle/deprecated/rx/Dummy.i: src/wangle/deprecated/rx/Dummy.cpp.i
@@ -649,7 +649,7 @@ src/wangle/deprecated/rx/Dummy.i: src/wangle/deprecated/rx/Dummy.cpp.i
 
 # target to preprocess a source file
 src/wangle/deprecated/rx/Dummy.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/deprecated/rx/Dummy.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/deprecated/rx/Dummy.cpp.i
 .PHONY : src/wangle/deprecated/rx/Dummy.cpp.i
 
 src/wangle/deprecated/rx/Dummy.s: src/wangle/deprecated/rx/Dummy.cpp.s
@@ -657,7 +657,7 @@ src/wangle/deprecated/rx/Dummy.s: src/wangle/deprecated/rx/Dummy.cpp.s
 
 # target to generate assembly for a file
 src/wangle/deprecated/rx/Dummy.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/deprecated/rx/Dummy.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/deprecated/rx/Dummy.cpp.s
 .PHONY : src/wangle/deprecated/rx/Dummy.cpp.s
 
 src/wangle/ssl/PasswordInFile.o: src/wangle/ssl/PasswordInFile.cpp.o
@@ -665,7 +665,7 @@ src/wangle/ssl/PasswordInFile.o: src/wangle/ssl/PasswordInFile.cpp.o
 
 # target to build an object file
 src/wangle/ssl/PasswordInFile.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/PasswordInFile.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/PasswordInFile.cpp.o
 .PHONY : src/wangle/ssl/PasswordInFile.cpp.o
 
 src/wangle/ssl/PasswordInFile.i: src/wangle/ssl/PasswordInFile.cpp.i
@@ -673,7 +673,7 @@ src/wangle/ssl/PasswordInFile.i: src/wangle/ssl/PasswordInFile.cpp.i
 
 # target to preprocess a source file
 src/wangle/ssl/PasswordInFile.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/PasswordInFile.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/PasswordInFile.cpp.i
 .PHONY : src/wangle/ssl/PasswordInFile.cpp.i
 
 src/wangle/ssl/PasswordInFile.s: src/wangle/ssl/PasswordInFile.cpp.s
@@ -681,7 +681,7 @@ src/wangle/ssl/PasswordInFile.s: src/wangle/ssl/PasswordInFile.cpp.s
 
 # target to generate assembly for a file
 src/wangle/ssl/PasswordInFile.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/PasswordInFile.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/PasswordInFile.cpp.s
 .PHONY : src/wangle/ssl/PasswordInFile.cpp.s
 
 src/wangle/ssl/SSLContextManager.o: src/wangle/ssl/SSLContextManager.cpp.o
@@ -689,7 +689,7 @@ src/wangle/ssl/SSLContextManager.o: src/wangle/ssl/SSLContextManager.cpp.o
 
 # target to build an object file
 src/wangle/ssl/SSLContextManager.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLContextManager.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLContextManager.cpp.o
 .PHONY : src/wangle/ssl/SSLContextManager.cpp.o
 
 src/wangle/ssl/SSLContextManager.i: src/wangle/ssl/SSLContextManager.cpp.i
@@ -697,7 +697,7 @@ src/wangle/ssl/SSLContextManager.i: src/wangle/ssl/SSLContextManager.cpp.i
 
 # target to preprocess a source file
 src/wangle/ssl/SSLContextManager.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLContextManager.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLContextManager.cpp.i
 .PHONY : src/wangle/ssl/SSLContextManager.cpp.i
 
 src/wangle/ssl/SSLContextManager.s: src/wangle/ssl/SSLContextManager.cpp.s
@@ -705,7 +705,7 @@ src/wangle/ssl/SSLContextManager.s: src/wangle/ssl/SSLContextManager.cpp.s
 
 # target to generate assembly for a file
 src/wangle/ssl/SSLContextManager.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLContextManager.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLContextManager.cpp.s
 .PHONY : src/wangle/ssl/SSLContextManager.cpp.s
 
 src/wangle/ssl/SSLSessionCacheManager.o: src/wangle/ssl/SSLSessionCacheManager.cpp.o
@@ -713,7 +713,7 @@ src/wangle/ssl/SSLSessionCacheManager.o: src/wangle/ssl/SSLSessionCacheManager.c
 
 # target to build an object file
 src/wangle/ssl/SSLSessionCacheManager.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLSessionCacheManager.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLSessionCacheManager.cpp.o
 .PHONY : src/wangle/ssl/SSLSessionCacheManager.cpp.o
 
 src/wangle/ssl/SSLSessionCacheManager.i: src/wangle/ssl/SSLSessionCacheManager.cpp.i
@@ -721,7 +721,7 @@ src/wangle/ssl/SSLSessionCacheManager.i: src/wangle/ssl/SSLSessionCacheManager.c
 
 # target to preprocess a source file
 src/wangle/ssl/SSLSessionCacheManager.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLSessionCacheManager.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLSessionCacheManager.cpp.i
 .PHONY : src/wangle/ssl/SSLSessionCacheManager.cpp.i
 
 src/wangle/ssl/SSLSessionCacheManager.s: src/wangle/ssl/SSLSessionCacheManager.cpp.s
@@ -729,7 +729,7 @@ src/wangle/ssl/SSLSessionCacheManager.s: src/wangle/ssl/SSLSessionCacheManager.c
 
 # target to generate assembly for a file
 src/wangle/ssl/SSLSessionCacheManager.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLSessionCacheManager.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLSessionCacheManager.cpp.s
 .PHONY : src/wangle/ssl/SSLSessionCacheManager.cpp.s
 
 src/wangle/ssl/SSLUtil.o: src/wangle/ssl/SSLUtil.cpp.o
@@ -737,7 +737,7 @@ src/wangle/ssl/SSLUtil.o: src/wangle/ssl/SSLUtil.cpp.o
 
 # target to build an object file
 src/wangle/ssl/SSLUtil.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLUtil.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLUtil.cpp.o
 .PHONY : src/wangle/ssl/SSLUtil.cpp.o
 
 src/wangle/ssl/SSLUtil.i: src/wangle/ssl/SSLUtil.cpp.i
@@ -745,7 +745,7 @@ src/wangle/ssl/SSLUtil.i: src/wangle/ssl/SSLUtil.cpp.i
 
 # target to preprocess a source file
 src/wangle/ssl/SSLUtil.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLUtil.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLUtil.cpp.i
 .PHONY : src/wangle/ssl/SSLUtil.cpp.i
 
 src/wangle/ssl/SSLUtil.s: src/wangle/ssl/SSLUtil.cpp.s
@@ -753,7 +753,7 @@ src/wangle/ssl/SSLUtil.s: src/wangle/ssl/SSLUtil.cpp.s
 
 # target to generate assembly for a file
 src/wangle/ssl/SSLUtil.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLUtil.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLUtil.cpp.s
 .PHONY : src/wangle/ssl/SSLUtil.cpp.s
 
 src/wangle/ssl/TLSTicketKeyManager.o: src/wangle/ssl/TLSTicketKeyManager.cpp.o
@@ -761,7 +761,7 @@ src/wangle/ssl/TLSTicketKeyManager.o: src/wangle/ssl/TLSTicketKeyManager.cpp.o
 
 # target to build an object file
 src/wangle/ssl/TLSTicketKeyManager.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/TLSTicketKeyManager.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/TLSTicketKeyManager.cpp.o
 .PHONY : src/wangle/ssl/TLSTicketKeyManager.cpp.o
 
 src/wangle/ssl/TLSTicketKeyManager.i: src/wangle/ssl/TLSTicketKeyManager.cpp.i
@@ -769,7 +769,7 @@ src/wangle/ssl/TLSTicketKeyManager.i: src/wangle/ssl/TLSTicketKeyManager.cpp.i
 
 # target to preprocess a source file
 src/wangle/ssl/TLSTicketKeyManager.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/TLSTicketKeyManager.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/TLSTicketKeyManager.cpp.i
 .PHONY : src/wangle/ssl/TLSTicketKeyManager.cpp.i
 
 src/wangle/ssl/TLSTicketKeyManager.s: src/wangle/ssl/TLSTicketKeyManager.cpp.s
@@ -777,7 +777,7 @@ src/wangle/ssl/TLSTicketKeyManager.s: src/wangle/ssl/TLSTicketKeyManager.cpp.s
 
 # target to generate assembly for a file
 src/wangle/ssl/TLSTicketKeyManager.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/TLSTicketKeyManager.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/wangle/CMakeFiles/wangle.dir/build.make third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/TLSTicketKeyManager.cpp.s
 .PHONY : src/wangle/ssl/TLSTicketKeyManager.cpp.s
 
 # Help Target
@@ -882,6 +882,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

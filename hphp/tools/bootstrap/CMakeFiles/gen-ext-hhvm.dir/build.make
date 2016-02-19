@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.0
 
 # Include any dependencies generated for this target.
 include hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/depend.make
@@ -54,17 +54,17 @@ include hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/flags.make
 
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/flags.make
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/tools/bootstrap/gen-ext-hhvm.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/tools/bootstrap && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o -c /tmp/hhvm-3.11.1/hphp/tools/bootstrap/gen-ext-hhvm.cpp
+	cd /tmp/hhvm-3.12.0/hphp/tools/bootstrap && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o -c /tmp/hhvm-3.12.0/hphp/tools/bootstrap/gen-ext-hhvm.cpp
 
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/tools/bootstrap && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/tools/bootstrap/gen-ext-hhvm.cpp > CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/tools/bootstrap && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/tools/bootstrap/gen-ext-hhvm.cpp > CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.i
 
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/tools/bootstrap && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/tools/bootstrap/gen-ext-hhvm.cpp -o CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/tools/bootstrap && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/tools/bootstrap/gen-ext-hhvm.cpp -o CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.s
 
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o.requires:
 .PHONY : hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o.requires
@@ -77,17 +77,17 @@ hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o.provides.bui
 
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/idl.cpp.o: hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/flags.make
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/idl.cpp.o: hphp/tools/bootstrap/idl.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/idl.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/tools/bootstrap && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/gen-ext-hhvm.dir/idl.cpp.o -c /tmp/hhvm-3.11.1/hphp/tools/bootstrap/idl.cpp
+	cd /tmp/hhvm-3.12.0/hphp/tools/bootstrap && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/gen-ext-hhvm.dir/idl.cpp.o -c /tmp/hhvm-3.12.0/hphp/tools/bootstrap/idl.cpp
 
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/idl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gen-ext-hhvm.dir/idl.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/tools/bootstrap && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/tools/bootstrap/idl.cpp > CMakeFiles/gen-ext-hhvm.dir/idl.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/tools/bootstrap && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/tools/bootstrap/idl.cpp > CMakeFiles/gen-ext-hhvm.dir/idl.cpp.i
 
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/idl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gen-ext-hhvm.dir/idl.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/tools/bootstrap && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/tools/bootstrap/idl.cpp -o CMakeFiles/gen-ext-hhvm.dir/idl.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/tools/bootstrap && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/tools/bootstrap/idl.cpp -o CMakeFiles/gen-ext-hhvm.dir/idl.cpp.s
 
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/idl.cpp.o.requires:
 .PHONY : hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/idl.cpp.o.requires
@@ -124,7 +124,7 @@ hphp/tools/bootstrap/gen-ext-hhvm: /usr/lib64/libpthread.so
 hphp/tools/bootstrap/gen-ext-hhvm: /usr/lib64/libjemalloc.so
 hphp/tools/bootstrap/gen-ext-hhvm: hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable gen-ext-hhvm"
-	cd /tmp/hhvm-3.11.1/hphp/tools/bootstrap && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gen-ext-hhvm.dir/link.txt --verbose=$(VERBOSE)
+	cd /tmp/hhvm-3.12.0/hphp/tools/bootstrap && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gen-ext-hhvm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/build: hphp/tools/bootstrap/gen-ext-hhvm
@@ -135,10 +135,10 @@ hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/requires: hphp/tools/bootstrap/
 .PHONY : hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/requires
 
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/clean:
-	cd /tmp/hhvm-3.11.1/hphp/tools/bootstrap && $(CMAKE_COMMAND) -P CMakeFiles/gen-ext-hhvm.dir/cmake_clean.cmake
+	cd /tmp/hhvm-3.12.0/hphp/tools/bootstrap && $(CMAKE_COMMAND) -P CMakeFiles/gen-ext-hhvm.dir/cmake_clean.cmake
 .PHONY : hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/clean
 
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/hphp/tools/bootstrap /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/hphp/tools/bootstrap /tmp/hhvm-3.11.1/hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.12.0 /tmp/hhvm-3.12.0/hphp/tools/bootstrap /tmp/hhvm-3.12.0 /tmp/hhvm-3.12.0/hphp/tools/bootstrap /tmp/hhvm-3.12.0/hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/depend
 

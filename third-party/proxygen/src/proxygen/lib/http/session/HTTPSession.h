@@ -41,7 +41,8 @@ class HTTPSession:
   public ByteEventTracker::Callback,
   public HTTPTransaction::Transport,
   public folly::AsyncTransportWrapper::ReadCallback,
-  public wangle::ManagedConnection {
+  public wangle::ManagedConnection,
+  public folly::AsyncTransportWrapper::BufferCallback {
  public:
   typedef std::unique_ptr<HTTPSession, Destructor> UniquePtr;
 
@@ -77,6 +78,7 @@ class HTTPSession:
     virtual void onSettingsOutgoingStreamsFull(const HTTPSession&) = 0;
     virtual void onSettingsOutgoingStreamsNotFull(const HTTPSession&) = 0;
     virtual void onFlowControlWindowClosed(const HTTPSession&) = 0;
+    virtual void onEgressBuffered(const HTTPSession&) = 0;
   };
 
   class WriteTimeout :
@@ -322,10 +324,13 @@ class HTTPSession:
   }
 
   std::chrono::seconds getLatestIdleTime() const {
-    DCHECK(numTxnServed_ > 0) << "No idle time for the first transcation";
+    DCHECK_GT(numTxnServed_, 0) << "No idle time for the first transcation";
     DCHECK(latestActive_ > TimePoint::min());
     return latestIdleDuration_;
   }
+
+  // from AsyncTransport::BufferCallback
+  virtual void onEgressBuffered() override;
 
  protected:
   /**
@@ -353,7 +358,7 @@ class HTTPSession:
    *                               lifecycle events.
    */
   HTTPSession(
-      folly::HHWheelTimer* transactionTimeouts,
+      folly::HHWheelTimer::SharedPtr transactionTimeouts,
       folly::AsyncTransportWrapper::UniquePtr sock,
       const folly::SocketAddress& localAddr,
       const folly::SocketAddress& peerAddr,
@@ -361,6 +366,24 @@ class HTTPSession:
       std::unique_ptr<HTTPCodec> codec,
       const wangle::TransportInfo& tinfo,
       InfoCallback* infoCallback = nullptr);
+
+  HTTPSession(
+      folly::HHWheelTimer* transactionTimeouts,
+      folly::AsyncTransportWrapper::UniquePtr sock,
+      const folly::SocketAddress& localAddr,
+      const folly::SocketAddress& peerAddr,
+      HTTPSessionController* controller,
+      std::unique_ptr<HTTPCodec> codec,
+      const wangle::TransportInfo& tinfo,
+      InfoCallback* infoCallback = nullptr)
+    : HTTPSession(folly::HHWheelTimer::SharedPtr(transactionTimeouts),
+                  std::move(sock),
+                  localAddr,
+                  peerAddr,
+                  controller,
+                  std::move(codec),
+                  tinfo,
+                  infoCallback) {}
 
   ~HTTPSession() override;
 
@@ -550,8 +573,7 @@ class HTTPSession:
   void notifyEgressBodyBuffered(int64_t bytes) noexcept override;
   HTTPTransaction* newPushedTransaction(
     HTTPCodec::StreamID assocStreamId,
-    HTTPTransaction::PushHandler* handler,
-    http2::PriorityUpdate priority) noexcept override;
+    HTTPTransaction::PushHandler* handler) noexcept override;
 
  public:
   const folly::SocketAddress& getLocalAddress()
@@ -649,7 +671,7 @@ class HTTPSession:
   HTTPTransaction* createTransaction(
     HTTPCodec::StreamID streamID,
     HTTPCodec::StreamID assocStreamID,
-    http2::PriorityUpdate priority);
+    http2::PriorityUpdate priority = http2::DefaultPriority);
 
   /** Invoked by WriteSegment on completion of a write. */
   void onWriteSuccess(uint64_t bytesWritten);
@@ -787,7 +809,7 @@ class HTTPSession:
 
   FlowControlTimeout flowControlTimeout_;
 
-  folly::HHWheelTimer* transactionTimeouts_{nullptr};
+  folly::HHWheelTimer::SharedPtr transactionTimeouts_{nullptr};
 
   HTTPSessionStats* sessionStats_{nullptr};
 
@@ -981,6 +1003,8 @@ class HTTPSession:
    */
   void invalidStream(HTTPCodec::StreamID stream,
                      ErrorCode code = ErrorCode::_SPDY_INVALID_STREAM);
+
+  http2::PriorityUpdate getMessagePriority(const HTTPMessage* msg);
 
   bool isConnWindowFull() const {
     return connFlowControl_ && connFlowControl_->getAvailableSend() == 0;

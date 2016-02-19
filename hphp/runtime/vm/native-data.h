@@ -159,15 +159,16 @@ void>::type nativeDataInfoWakeup(ObjectData* obj, const Variant& content) {
 FOLLY_CREATE_HAS_MEMBER_FN_TRAITS(hasScan, scan);
 
 void conservativeScan(const ObjectData* obj, IMarker& mark);
+using ScanSig = void(IMarker&) const;
 
 template<class T>
-typename std::enable_if<hasScan<T, void(IMarker&)>::value,
+typename std::enable_if<hasScan<T,ScanSig>::value,
 void>::type nativeDataInfoScan(const ObjectData* obj, IMarker& mark) {
   data<T>(obj)->scan(mark);
 }
 
 template<class T>
-typename std::enable_if<!hasScan<T, void(IMarker&)>::value,
+typename std::enable_if<!hasScan<T,ScanSig>::value,
 void>::type nativeDataInfoScan(const ObjectData* obj, IMarker& mark) {
   conservativeScan(obj, mark);
 }
@@ -188,19 +189,20 @@ typename std::enable_if<
   void
 >::type registerNativeDataInfo(const StringData* name,
                                int64_t flags = 0) {
+  auto ndic = &nativeDataInfoCopy<T>;
+  auto ndisw = &nativeDataInfoSweep<T>;
+  auto ndisl = &nativeDataInfoSleep<T>;
+  auto ndiw = &nativeDataInfoWakeup<T>;
+  auto ndis = &nativeDataInfoScan<T>;
+
   registerNativeDataInfo(name, sizeof(T),
-                         &nativeDataInfoInit<T>,
-                         (flags & NDIFlags::NO_COPY)
-                           ? nullptr : &nativeDataInfoCopy<T>,
-                         &nativeDataInfoDestroy<T>,
-                         (flags & NDIFlags::NO_SWEEP)
-                           ? nullptr : &nativeDataInfoSweep<T>,
-                         hasSleep<T, Variant() const>::value
-                           ? &nativeDataInfoSleep<T> : nullptr,
-                         hasWakeup<T, void(const Variant&, ObjectData*)>::value
-                           ? &nativeDataInfoWakeup<T> : nullptr,
-                         hasScan<T, void(IMarker&)>::value
-                           ? &nativeDataInfoScan<T> : nullptr);
+    &nativeDataInfoInit<T>,
+    (flags & NDIFlags::NO_COPY) ? nullptr : ndic,
+    &nativeDataInfoDestroy<T>,
+    (flags & NDIFlags::NO_SWEEP) ? nullptr : ndisw,
+    hasSleep<T, Variant() const>::value ? ndisl : nullptr,
+    hasWakeup<T, void(const Variant&, ObjectData*)>::value ? ndiw : nullptr,
+    hasScan<T,ScanSig>::value ? ndis : nullptr);
 }
 
 // Return the ObjectData payload allocated after this NativeNode header

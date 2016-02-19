@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.0
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles /tmp/hhvm-3.11.1/hphp/compiler/CMakeFiles/progress.marks
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/compiler/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles 0
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.0/CMakeFiles /tmp/hhvm-3.12.0/hphp/compiler/CMakeFiles/progress.marks
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/compiler/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.0/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/compiler/clean
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/compiler/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/compiler/preinstall
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/compiler/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/compiler/preinstall
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/compiler/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 hphp/compiler/CMakeFiles/hphp_analysis.dir/rule:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/compiler/CMakeFiles/hphp_analysis.dir/rule
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/compiler/CMakeFiles/hphp_analysis.dir/rule
 .PHONY : hphp/compiler/CMakeFiles/hphp_analysis.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ hphp_analysis: hphp/compiler/CMakeFiles/hphp_analysis.dir/rule
 
 # fast build rule for target.
 hphp_analysis/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/build
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/build
 .PHONY : hphp_analysis/fast
 
 analysis/analysis_result.o: analysis/analysis_result.cpp.o
@@ -161,7 +161,7 @@ analysis/analysis_result.o: analysis/analysis_result.cpp.o
 
 # target to build an object file
 analysis/analysis_result.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/analysis_result.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/analysis_result.cpp.o
 .PHONY : analysis/analysis_result.cpp.o
 
 analysis/analysis_result.i: analysis/analysis_result.cpp.i
@@ -169,7 +169,7 @@ analysis/analysis_result.i: analysis/analysis_result.cpp.i
 
 # target to preprocess a source file
 analysis/analysis_result.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/analysis_result.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/analysis_result.cpp.i
 .PHONY : analysis/analysis_result.cpp.i
 
 analysis/analysis_result.s: analysis/analysis_result.cpp.s
@@ -177,7 +177,7 @@ analysis/analysis_result.s: analysis/analysis_result.cpp.s
 
 # target to generate assembly for a file
 analysis/analysis_result.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/analysis_result.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/analysis_result.cpp.s
 .PHONY : analysis/analysis_result.cpp.s
 
 analysis/block_scope.o: analysis/block_scope.cpp.o
@@ -185,7 +185,7 @@ analysis/block_scope.o: analysis/block_scope.cpp.o
 
 # target to build an object file
 analysis/block_scope.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/block_scope.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/block_scope.cpp.o
 .PHONY : analysis/block_scope.cpp.o
 
 analysis/block_scope.i: analysis/block_scope.cpp.i
@@ -193,7 +193,7 @@ analysis/block_scope.i: analysis/block_scope.cpp.i
 
 # target to preprocess a source file
 analysis/block_scope.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/block_scope.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/block_scope.cpp.i
 .PHONY : analysis/block_scope.cpp.i
 
 analysis/block_scope.s: analysis/block_scope.cpp.s
@@ -201,7 +201,7 @@ analysis/block_scope.s: analysis/block_scope.cpp.s
 
 # target to generate assembly for a file
 analysis/block_scope.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/block_scope.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/block_scope.cpp.s
 .PHONY : analysis/block_scope.cpp.s
 
 analysis/class_scope.o: analysis/class_scope.cpp.o
@@ -209,7 +209,7 @@ analysis/class_scope.o: analysis/class_scope.cpp.o
 
 # target to build an object file
 analysis/class_scope.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/class_scope.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/class_scope.cpp.o
 .PHONY : analysis/class_scope.cpp.o
 
 analysis/class_scope.i: analysis/class_scope.cpp.i
@@ -217,7 +217,7 @@ analysis/class_scope.i: analysis/class_scope.cpp.i
 
 # target to preprocess a source file
 analysis/class_scope.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/class_scope.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/class_scope.cpp.i
 .PHONY : analysis/class_scope.cpp.i
 
 analysis/class_scope.s: analysis/class_scope.cpp.s
@@ -225,7 +225,7 @@ analysis/class_scope.s: analysis/class_scope.cpp.s
 
 # target to generate assembly for a file
 analysis/class_scope.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/class_scope.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/class_scope.cpp.s
 .PHONY : analysis/class_scope.cpp.s
 
 analysis/code_error.o: analysis/code_error.cpp.o
@@ -233,7 +233,7 @@ analysis/code_error.o: analysis/code_error.cpp.o
 
 # target to build an object file
 analysis/code_error.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/code_error.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/code_error.cpp.o
 .PHONY : analysis/code_error.cpp.o
 
 analysis/code_error.i: analysis/code_error.cpp.i
@@ -241,7 +241,7 @@ analysis/code_error.i: analysis/code_error.cpp.i
 
 # target to preprocess a source file
 analysis/code_error.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/code_error.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/code_error.cpp.i
 .PHONY : analysis/code_error.cpp.i
 
 analysis/code_error.s: analysis/code_error.cpp.s
@@ -249,7 +249,7 @@ analysis/code_error.s: analysis/code_error.cpp.s
 
 # target to generate assembly for a file
 analysis/code_error.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/code_error.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/code_error.cpp.s
 .PHONY : analysis/code_error.cpp.s
 
 analysis/constant_table.o: analysis/constant_table.cpp.o
@@ -257,7 +257,7 @@ analysis/constant_table.o: analysis/constant_table.cpp.o
 
 # target to build an object file
 analysis/constant_table.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/constant_table.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/constant_table.cpp.o
 .PHONY : analysis/constant_table.cpp.o
 
 analysis/constant_table.i: analysis/constant_table.cpp.i
@@ -265,7 +265,7 @@ analysis/constant_table.i: analysis/constant_table.cpp.i
 
 # target to preprocess a source file
 analysis/constant_table.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/constant_table.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/constant_table.cpp.i
 .PHONY : analysis/constant_table.cpp.i
 
 analysis/constant_table.s: analysis/constant_table.cpp.s
@@ -273,7 +273,7 @@ analysis/constant_table.s: analysis/constant_table.cpp.s
 
 # target to generate assembly for a file
 analysis/constant_table.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/constant_table.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/constant_table.cpp.s
 .PHONY : analysis/constant_table.cpp.s
 
 analysis/emitter.o: analysis/emitter.cpp.o
@@ -281,7 +281,7 @@ analysis/emitter.o: analysis/emitter.cpp.o
 
 # target to build an object file
 analysis/emitter.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/emitter.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/emitter.cpp.o
 .PHONY : analysis/emitter.cpp.o
 
 analysis/emitter.i: analysis/emitter.cpp.i
@@ -289,7 +289,7 @@ analysis/emitter.i: analysis/emitter.cpp.i
 
 # target to preprocess a source file
 analysis/emitter.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/emitter.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/emitter.cpp.i
 .PHONY : analysis/emitter.cpp.i
 
 analysis/emitter.s: analysis/emitter.cpp.s
@@ -297,7 +297,7 @@ analysis/emitter.s: analysis/emitter.cpp.s
 
 # target to generate assembly for a file
 analysis/emitter.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/emitter.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/emitter.cpp.s
 .PHONY : analysis/emitter.cpp.s
 
 analysis/file_scope.o: analysis/file_scope.cpp.o
@@ -305,7 +305,7 @@ analysis/file_scope.o: analysis/file_scope.cpp.o
 
 # target to build an object file
 analysis/file_scope.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/file_scope.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/file_scope.cpp.o
 .PHONY : analysis/file_scope.cpp.o
 
 analysis/file_scope.i: analysis/file_scope.cpp.i
@@ -313,7 +313,7 @@ analysis/file_scope.i: analysis/file_scope.cpp.i
 
 # target to preprocess a source file
 analysis/file_scope.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/file_scope.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/file_scope.cpp.i
 .PHONY : analysis/file_scope.cpp.i
 
 analysis/file_scope.s: analysis/file_scope.cpp.s
@@ -321,7 +321,7 @@ analysis/file_scope.s: analysis/file_scope.cpp.s
 
 # target to generate assembly for a file
 analysis/file_scope.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/file_scope.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/file_scope.cpp.s
 .PHONY : analysis/file_scope.cpp.s
 
 analysis/function_container.o: analysis/function_container.cpp.o
@@ -329,7 +329,7 @@ analysis/function_container.o: analysis/function_container.cpp.o
 
 # target to build an object file
 analysis/function_container.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/function_container.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/function_container.cpp.o
 .PHONY : analysis/function_container.cpp.o
 
 analysis/function_container.i: analysis/function_container.cpp.i
@@ -337,7 +337,7 @@ analysis/function_container.i: analysis/function_container.cpp.i
 
 # target to preprocess a source file
 analysis/function_container.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/function_container.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/function_container.cpp.i
 .PHONY : analysis/function_container.cpp.i
 
 analysis/function_container.s: analysis/function_container.cpp.s
@@ -345,7 +345,7 @@ analysis/function_container.s: analysis/function_container.cpp.s
 
 # target to generate assembly for a file
 analysis/function_container.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/function_container.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/function_container.cpp.s
 .PHONY : analysis/function_container.cpp.s
 
 analysis/function_scope.o: analysis/function_scope.cpp.o
@@ -353,7 +353,7 @@ analysis/function_scope.o: analysis/function_scope.cpp.o
 
 # target to build an object file
 analysis/function_scope.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/function_scope.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/function_scope.cpp.o
 .PHONY : analysis/function_scope.cpp.o
 
 analysis/function_scope.i: analysis/function_scope.cpp.i
@@ -361,7 +361,7 @@ analysis/function_scope.i: analysis/function_scope.cpp.i
 
 # target to preprocess a source file
 analysis/function_scope.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/function_scope.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/function_scope.cpp.i
 .PHONY : analysis/function_scope.cpp.i
 
 analysis/function_scope.s: analysis/function_scope.cpp.s
@@ -369,7 +369,7 @@ analysis/function_scope.s: analysis/function_scope.cpp.s
 
 # target to generate assembly for a file
 analysis/function_scope.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/function_scope.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/function_scope.cpp.s
 .PHONY : analysis/function_scope.cpp.s
 
 analysis/lambda_names.o: analysis/lambda_names.cpp.o
@@ -377,7 +377,7 @@ analysis/lambda_names.o: analysis/lambda_names.cpp.o
 
 # target to build an object file
 analysis/lambda_names.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/lambda_names.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/lambda_names.cpp.o
 .PHONY : analysis/lambda_names.cpp.o
 
 analysis/lambda_names.i: analysis/lambda_names.cpp.i
@@ -385,7 +385,7 @@ analysis/lambda_names.i: analysis/lambda_names.cpp.i
 
 # target to preprocess a source file
 analysis/lambda_names.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/lambda_names.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/lambda_names.cpp.i
 .PHONY : analysis/lambda_names.cpp.i
 
 analysis/lambda_names.s: analysis/lambda_names.cpp.s
@@ -393,7 +393,7 @@ analysis/lambda_names.s: analysis/lambda_names.cpp.s
 
 # target to generate assembly for a file
 analysis/lambda_names.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/lambda_names.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/lambda_names.cpp.s
 .PHONY : analysis/lambda_names.cpp.s
 
 analysis/symbol_table.o: analysis/symbol_table.cpp.o
@@ -401,7 +401,7 @@ analysis/symbol_table.o: analysis/symbol_table.cpp.o
 
 # target to build an object file
 analysis/symbol_table.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/symbol_table.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/symbol_table.cpp.o
 .PHONY : analysis/symbol_table.cpp.o
 
 analysis/symbol_table.i: analysis/symbol_table.cpp.i
@@ -409,7 +409,7 @@ analysis/symbol_table.i: analysis/symbol_table.cpp.i
 
 # target to preprocess a source file
 analysis/symbol_table.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/symbol_table.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/symbol_table.cpp.i
 .PHONY : analysis/symbol_table.cpp.i
 
 analysis/symbol_table.s: analysis/symbol_table.cpp.s
@@ -417,7 +417,7 @@ analysis/symbol_table.s: analysis/symbol_table.cpp.s
 
 # target to generate assembly for a file
 analysis/symbol_table.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/symbol_table.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/symbol_table.cpp.s
 .PHONY : analysis/symbol_table.cpp.s
 
 analysis/variable_table.o: analysis/variable_table.cpp.o
@@ -425,7 +425,7 @@ analysis/variable_table.o: analysis/variable_table.cpp.o
 
 # target to build an object file
 analysis/variable_table.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/variable_table.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/variable_table.cpp.o
 .PHONY : analysis/variable_table.cpp.o
 
 analysis/variable_table.i: analysis/variable_table.cpp.i
@@ -433,7 +433,7 @@ analysis/variable_table.i: analysis/variable_table.cpp.i
 
 # target to preprocess a source file
 analysis/variable_table.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/variable_table.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/variable_table.cpp.i
 .PHONY : analysis/variable_table.cpp.i
 
 analysis/variable_table.s: analysis/variable_table.cpp.s
@@ -441,7 +441,7 @@ analysis/variable_table.s: analysis/variable_table.cpp.s
 
 # target to generate assembly for a file
 analysis/variable_table.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/variable_table.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/analysis/variable_table.cpp.s
 .PHONY : analysis/variable_table.cpp.s
 
 builtin_symbols.o: builtin_symbols.cpp.o
@@ -449,7 +449,7 @@ builtin_symbols.o: builtin_symbols.cpp.o
 
 # target to build an object file
 builtin_symbols.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/builtin_symbols.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/builtin_symbols.cpp.o
 .PHONY : builtin_symbols.cpp.o
 
 builtin_symbols.i: builtin_symbols.cpp.i
@@ -457,7 +457,7 @@ builtin_symbols.i: builtin_symbols.cpp.i
 
 # target to preprocess a source file
 builtin_symbols.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/builtin_symbols.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/builtin_symbols.cpp.i
 .PHONY : builtin_symbols.cpp.i
 
 builtin_symbols.s: builtin_symbols.cpp.s
@@ -465,7 +465,7 @@ builtin_symbols.s: builtin_symbols.cpp.s
 
 # target to generate assembly for a file
 builtin_symbols.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/builtin_symbols.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/builtin_symbols.cpp.s
 .PHONY : builtin_symbols.cpp.s
 
 code_generator.o: code_generator.cpp.o
@@ -473,7 +473,7 @@ code_generator.o: code_generator.cpp.o
 
 # target to build an object file
 code_generator.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/code_generator.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/code_generator.cpp.o
 .PHONY : code_generator.cpp.o
 
 code_generator.i: code_generator.cpp.i
@@ -481,7 +481,7 @@ code_generator.i: code_generator.cpp.i
 
 # target to preprocess a source file
 code_generator.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/code_generator.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/code_generator.cpp.i
 .PHONY : code_generator.cpp.i
 
 code_generator.s: code_generator.cpp.s
@@ -489,7 +489,7 @@ code_generator.s: code_generator.cpp.s
 
 # target to generate assembly for a file
 code_generator.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/code_generator.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/code_generator.cpp.s
 .PHONY : code_generator.cpp.s
 
 compiler.o: compiler.cpp.o
@@ -497,7 +497,7 @@ compiler.o: compiler.cpp.o
 
 # target to build an object file
 compiler.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/compiler.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/compiler.cpp.o
 .PHONY : compiler.cpp.o
 
 compiler.i: compiler.cpp.i
@@ -505,7 +505,7 @@ compiler.i: compiler.cpp.i
 
 # target to preprocess a source file
 compiler.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/compiler.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/compiler.cpp.i
 .PHONY : compiler.cpp.i
 
 compiler.s: compiler.cpp.s
@@ -513,7 +513,7 @@ compiler.s: compiler.cpp.s
 
 # target to generate assembly for a file
 compiler.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/compiler.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/compiler.cpp.s
 .PHONY : compiler.cpp.s
 
 construct.o: construct.cpp.o
@@ -521,7 +521,7 @@ construct.o: construct.cpp.o
 
 # target to build an object file
 construct.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/construct.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/construct.cpp.o
 .PHONY : construct.cpp.o
 
 construct.i: construct.cpp.i
@@ -529,7 +529,7 @@ construct.i: construct.cpp.i
 
 # target to preprocess a source file
 construct.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/construct.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/construct.cpp.i
 .PHONY : construct.cpp.i
 
 construct.s: construct.cpp.s
@@ -537,7 +537,7 @@ construct.s: construct.cpp.s
 
 # target to generate assembly for a file
 construct.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/construct.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/construct.cpp.s
 .PHONY : construct.cpp.s
 
 expression/array_element_expression.o: expression/array_element_expression.cpp.o
@@ -545,7 +545,7 @@ expression/array_element_expression.o: expression/array_element_expression.cpp.o
 
 # target to build an object file
 expression/array_element_expression.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/array_element_expression.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/array_element_expression.cpp.o
 .PHONY : expression/array_element_expression.cpp.o
 
 expression/array_element_expression.i: expression/array_element_expression.cpp.i
@@ -553,7 +553,7 @@ expression/array_element_expression.i: expression/array_element_expression.cpp.i
 
 # target to preprocess a source file
 expression/array_element_expression.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/array_element_expression.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/array_element_expression.cpp.i
 .PHONY : expression/array_element_expression.cpp.i
 
 expression/array_element_expression.s: expression/array_element_expression.cpp.s
@@ -561,7 +561,7 @@ expression/array_element_expression.s: expression/array_element_expression.cpp.s
 
 # target to generate assembly for a file
 expression/array_element_expression.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/array_element_expression.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/array_element_expression.cpp.s
 .PHONY : expression/array_element_expression.cpp.s
 
 expression/array_pair_expression.o: expression/array_pair_expression.cpp.o
@@ -569,7 +569,7 @@ expression/array_pair_expression.o: expression/array_pair_expression.cpp.o
 
 # target to build an object file
 expression/array_pair_expression.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/array_pair_expression.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/array_pair_expression.cpp.o
 .PHONY : expression/array_pair_expression.cpp.o
 
 expression/array_pair_expression.i: expression/array_pair_expression.cpp.i
@@ -577,7 +577,7 @@ expression/array_pair_expression.i: expression/array_pair_expression.cpp.i
 
 # target to preprocess a source file
 expression/array_pair_expression.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/array_pair_expression.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/array_pair_expression.cpp.i
 .PHONY : expression/array_pair_expression.cpp.i
 
 expression/array_pair_expression.s: expression/array_pair_expression.cpp.s
@@ -585,7 +585,7 @@ expression/array_pair_expression.s: expression/array_pair_expression.cpp.s
 
 # target to generate assembly for a file
 expression/array_pair_expression.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/array_pair_expression.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/array_pair_expression.cpp.s
 .PHONY : expression/array_pair_expression.cpp.s
 
 expression/assignment_expression.o: expression/assignment_expression.cpp.o
@@ -593,7 +593,7 @@ expression/assignment_expression.o: expression/assignment_expression.cpp.o
 
 # target to build an object file
 expression/assignment_expression.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/assignment_expression.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/assignment_expression.cpp.o
 .PHONY : expression/assignment_expression.cpp.o
 
 expression/assignment_expression.i: expression/assignment_expression.cpp.i
@@ -601,7 +601,7 @@ expression/assignment_expression.i: expression/assignment_expression.cpp.i
 
 # target to preprocess a source file
 expression/assignment_expression.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/assignment_expression.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/assignment_expression.cpp.i
 .PHONY : expression/assignment_expression.cpp.i
 
 expression/assignment_expression.s: expression/assignment_expression.cpp.s
@@ -609,7 +609,7 @@ expression/assignment_expression.s: expression/assignment_expression.cpp.s
 
 # target to generate assembly for a file
 expression/assignment_expression.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/assignment_expression.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/assignment_expression.cpp.s
 .PHONY : expression/assignment_expression.cpp.s
 
 expression/await_expression.o: expression/await_expression.cpp.o
@@ -617,7 +617,7 @@ expression/await_expression.o: expression/await_expression.cpp.o
 
 # target to build an object file
 expression/await_expression.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/await_expression.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/await_expression.cpp.o
 .PHONY : expression/await_expression.cpp.o
 
 expression/await_expression.i: expression/await_expression.cpp.i
@@ -625,7 +625,7 @@ expression/await_expression.i: expression/await_expression.cpp.i
 
 # target to preprocess a source file
 expression/await_expression.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/await_expression.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/await_expression.cpp.i
 .PHONY : expression/await_expression.cpp.i
 
 expression/await_expression.s: expression/await_expression.cpp.s
@@ -633,7 +633,7 @@ expression/await_expression.s: expression/await_expression.cpp.s
 
 # target to generate assembly for a file
 expression/await_expression.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/await_expression.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/await_expression.cpp.s
 .PHONY : expression/await_expression.cpp.s
 
 expression/binary_op_expression.o: expression/binary_op_expression.cpp.o
@@ -641,7 +641,7 @@ expression/binary_op_expression.o: expression/binary_op_expression.cpp.o
 
 # target to build an object file
 expression/binary_op_expression.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/binary_op_expression.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/binary_op_expression.cpp.o
 .PHONY : expression/binary_op_expression.cpp.o
 
 expression/binary_op_expression.i: expression/binary_op_expression.cpp.i
@@ -649,7 +649,7 @@ expression/binary_op_expression.i: expression/binary_op_expression.cpp.i
 
 # target to preprocess a source file
 expression/binary_op_expression.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/binary_op_expression.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/binary_op_expression.cpp.i
 .PHONY : expression/binary_op_expression.cpp.i
 
 expression/binary_op_expression.s: expression/binary_op_expression.cpp.s
@@ -657,7 +657,7 @@ expression/binary_op_expression.s: expression/binary_op_expression.cpp.s
 
 # target to generate assembly for a file
 expression/binary_op_expression.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/binary_op_expression.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/binary_op_expression.cpp.s
 .PHONY : expression/binary_op_expression.cpp.s
 
 expression/class_constant_expression.o: expression/class_constant_expression.cpp.o
@@ -665,7 +665,7 @@ expression/class_constant_expression.o: expression/class_constant_expression.cpp
 
 # target to build an object file
 expression/class_constant_expression.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/class_constant_expression.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/class_constant_expression.cpp.o
 .PHONY : expression/class_constant_expression.cpp.o
 
 expression/class_constant_expression.i: expression/class_constant_expression.cpp.i
@@ -673,7 +673,7 @@ expression/class_constant_expression.i: expression/class_constant_expression.cpp
 
 # target to preprocess a source file
 expression/class_constant_expression.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/class_constant_expression.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/class_constant_expression.cpp.i
 .PHONY : expression/class_constant_expression.cpp.i
 
 expression/class_constant_expression.s: expression/class_constant_expression.cpp.s
@@ -681,7 +681,7 @@ expression/class_constant_expression.s: expression/class_constant_expression.cpp
 
 # target to generate assembly for a file
 expression/class_constant_expression.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/class_constant_expression.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/class_constant_expression.cpp.s
 .PHONY : expression/class_constant_expression.cpp.s
 
 expression/class_expression.o: expression/class_expression.cpp.o
@@ -689,7 +689,7 @@ expression/class_expression.o: expression/class_expression.cpp.o
 
 # target to build an object file
 expression/class_expression.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/class_expression.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/class_expression.cpp.o
 .PHONY : expression/class_expression.cpp.o
 
 expression/class_expression.i: expression/class_expression.cpp.i
@@ -697,7 +697,7 @@ expression/class_expression.i: expression/class_expression.cpp.i
 
 # target to preprocess a source file
 expression/class_expression.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/class_expression.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/class_expression.cpp.i
 .PHONY : expression/class_expression.cpp.i
 
 expression/class_expression.s: expression/class_expression.cpp.s
@@ -705,7 +705,7 @@ expression/class_expression.s: expression/class_expression.cpp.s
 
 # target to generate assembly for a file
 expression/class_expression.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/class_expression.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/class_expression.cpp.s
 .PHONY : expression/class_expression.cpp.s
 
 expression/closure_expression.o: expression/closure_expression.cpp.o
@@ -713,7 +713,7 @@ expression/closure_expression.o: expression/closure_expression.cpp.o
 
 # target to build an object file
 expression/closure_expression.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/closure_expression.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/closure_expression.cpp.o
 .PHONY : expression/closure_expression.cpp.o
 
 expression/closure_expression.i: expression/closure_expression.cpp.i
@@ -721,7 +721,7 @@ expression/closure_expression.i: expression/closure_expression.cpp.i
 
 # target to preprocess a source file
 expression/closure_expression.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/closure_expression.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/closure_expression.cpp.i
 .PHONY : expression/closure_expression.cpp.i
 
 expression/closure_expression.s: expression/closure_expression.cpp.s
@@ -729,7 +729,7 @@ expression/closure_expression.s: expression/closure_expression.cpp.s
 
 # target to generate assembly for a file
 expression/closure_expression.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/closure_expression.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/closure_expression.cpp.s
 .PHONY : expression/closure_expression.cpp.s
 
 expression/constant_expression.o: expression/constant_expression.cpp.o
@@ -737,7 +737,7 @@ expression/constant_expression.o: expression/constant_expression.cpp.o
 
 # target to build an object file
 expression/constant_expression.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/constant_expression.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/constant_expression.cpp.o
 .PHONY : expression/constant_expression.cpp.o
 
 expression/constant_expression.i: expression/constant_expression.cpp.i
@@ -745,7 +745,7 @@ expression/constant_expression.i: expression/constant_expression.cpp.i
 
 # target to preprocess a source file
 expression/constant_expression.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/constant_expression.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/constant_expression.cpp.i
 .PHONY : expression/constant_expression.cpp.i
 
 expression/constant_expression.s: expression/constant_expression.cpp.s
@@ -753,7 +753,7 @@ expression/constant_expression.s: expression/constant_expression.cpp.s
 
 # target to generate assembly for a file
 expression/constant_expression.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/constant_expression.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/constant_expression.cpp.s
 .PHONY : expression/constant_expression.cpp.s
 
 expression/dynamic_function_call.o: expression/dynamic_function_call.cpp.o
@@ -761,7 +761,7 @@ expression/dynamic_function_call.o: expression/dynamic_function_call.cpp.o
 
 # target to build an object file
 expression/dynamic_function_call.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/dynamic_function_call.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/dynamic_function_call.cpp.o
 .PHONY : expression/dynamic_function_call.cpp.o
 
 expression/dynamic_function_call.i: expression/dynamic_function_call.cpp.i
@@ -769,7 +769,7 @@ expression/dynamic_function_call.i: expression/dynamic_function_call.cpp.i
 
 # target to preprocess a source file
 expression/dynamic_function_call.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/dynamic_function_call.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/dynamic_function_call.cpp.i
 .PHONY : expression/dynamic_function_call.cpp.i
 
 expression/dynamic_function_call.s: expression/dynamic_function_call.cpp.s
@@ -777,7 +777,7 @@ expression/dynamic_function_call.s: expression/dynamic_function_call.cpp.s
 
 # target to generate assembly for a file
 expression/dynamic_function_call.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/dynamic_function_call.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/dynamic_function_call.cpp.s
 .PHONY : expression/dynamic_function_call.cpp.s
 
 expression/dynamic_variable.o: expression/dynamic_variable.cpp.o
@@ -785,7 +785,7 @@ expression/dynamic_variable.o: expression/dynamic_variable.cpp.o
 
 # target to build an object file
 expression/dynamic_variable.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/dynamic_variable.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/dynamic_variable.cpp.o
 .PHONY : expression/dynamic_variable.cpp.o
 
 expression/dynamic_variable.i: expression/dynamic_variable.cpp.i
@@ -793,7 +793,7 @@ expression/dynamic_variable.i: expression/dynamic_variable.cpp.i
 
 # target to preprocess a source file
 expression/dynamic_variable.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/dynamic_variable.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/dynamic_variable.cpp.i
 .PHONY : expression/dynamic_variable.cpp.i
 
 expression/dynamic_variable.s: expression/dynamic_variable.cpp.s
@@ -801,7 +801,7 @@ expression/dynamic_variable.s: expression/dynamic_variable.cpp.s
 
 # target to generate assembly for a file
 expression/dynamic_variable.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/dynamic_variable.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/dynamic_variable.cpp.s
 .PHONY : expression/dynamic_variable.cpp.s
 
 expression/encaps_list_expression.o: expression/encaps_list_expression.cpp.o
@@ -809,7 +809,7 @@ expression/encaps_list_expression.o: expression/encaps_list_expression.cpp.o
 
 # target to build an object file
 expression/encaps_list_expression.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/encaps_list_expression.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/encaps_list_expression.cpp.o
 .PHONY : expression/encaps_list_expression.cpp.o
 
 expression/encaps_list_expression.i: expression/encaps_list_expression.cpp.i
@@ -817,7 +817,7 @@ expression/encaps_list_expression.i: expression/encaps_list_expression.cpp.i
 
 # target to preprocess a source file
 expression/encaps_list_expression.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/encaps_list_expression.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/encaps_list_expression.cpp.i
 .PHONY : expression/encaps_list_expression.cpp.i
 
 expression/encaps_list_expression.s: expression/encaps_list_expression.cpp.s
@@ -825,7 +825,7 @@ expression/encaps_list_expression.s: expression/encaps_list_expression.cpp.s
 
 # target to generate assembly for a file
 expression/encaps_list_expression.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/encaps_list_expression.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/encaps_list_expression.cpp.s
 .PHONY : expression/encaps_list_expression.cpp.s
 
 expression/expression.o: expression/expression.cpp.o
@@ -833,7 +833,7 @@ expression/expression.o: expression/expression.cpp.o
 
 # target to build an object file
 expression/expression.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/expression.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/expression.cpp.o
 .PHONY : expression/expression.cpp.o
 
 expression/expression.i: expression/expression.cpp.i
@@ -841,7 +841,7 @@ expression/expression.i: expression/expression.cpp.i
 
 # target to preprocess a source file
 expression/expression.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/expression.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/expression.cpp.i
 .PHONY : expression/expression.cpp.i
 
 expression/expression.s: expression/expression.cpp.s
@@ -849,7 +849,7 @@ expression/expression.s: expression/expression.cpp.s
 
 # target to generate assembly for a file
 expression/expression.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/expression.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/expression.cpp.s
 .PHONY : expression/expression.cpp.s
 
 expression/expression_list.o: expression/expression_list.cpp.o
@@ -857,7 +857,7 @@ expression/expression_list.o: expression/expression_list.cpp.o
 
 # target to build an object file
 expression/expression_list.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/expression_list.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/expression_list.cpp.o
 .PHONY : expression/expression_list.cpp.o
 
 expression/expression_list.i: expression/expression_list.cpp.i
@@ -865,7 +865,7 @@ expression/expression_list.i: expression/expression_list.cpp.i
 
 # target to preprocess a source file
 expression/expression_list.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/expression_list.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/expression_list.cpp.i
 .PHONY : expression/expression_list.cpp.i
 
 expression/expression_list.s: expression/expression_list.cpp.s
@@ -873,7 +873,7 @@ expression/expression_list.s: expression/expression_list.cpp.s
 
 # target to generate assembly for a file
 expression/expression_list.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/expression_list.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/expression_list.cpp.s
 .PHONY : expression/expression_list.cpp.s
 
 expression/function_call.o: expression/function_call.cpp.o
@@ -881,7 +881,7 @@ expression/function_call.o: expression/function_call.cpp.o
 
 # target to build an object file
 expression/function_call.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/function_call.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/function_call.cpp.o
 .PHONY : expression/function_call.cpp.o
 
 expression/function_call.i: expression/function_call.cpp.i
@@ -889,7 +889,7 @@ expression/function_call.i: expression/function_call.cpp.i
 
 # target to preprocess a source file
 expression/function_call.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/function_call.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/function_call.cpp.i
 .PHONY : expression/function_call.cpp.i
 
 expression/function_call.s: expression/function_call.cpp.s
@@ -897,7 +897,7 @@ expression/function_call.s: expression/function_call.cpp.s
 
 # target to generate assembly for a file
 expression/function_call.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/function_call.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/function_call.cpp.s
 .PHONY : expression/function_call.cpp.s
 
 expression/include_expression.o: expression/include_expression.cpp.o
@@ -905,7 +905,7 @@ expression/include_expression.o: expression/include_expression.cpp.o
 
 # target to build an object file
 expression/include_expression.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/include_expression.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/include_expression.cpp.o
 .PHONY : expression/include_expression.cpp.o
 
 expression/include_expression.i: expression/include_expression.cpp.i
@@ -913,7 +913,7 @@ expression/include_expression.i: expression/include_expression.cpp.i
 
 # target to preprocess a source file
 expression/include_expression.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/include_expression.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/include_expression.cpp.i
 .PHONY : expression/include_expression.cpp.i
 
 expression/include_expression.s: expression/include_expression.cpp.s
@@ -921,7 +921,7 @@ expression/include_expression.s: expression/include_expression.cpp.s
 
 # target to generate assembly for a file
 expression/include_expression.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/include_expression.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/include_expression.cpp.s
 .PHONY : expression/include_expression.cpp.s
 
 expression/list_assignment.o: expression/list_assignment.cpp.o
@@ -929,7 +929,7 @@ expression/list_assignment.o: expression/list_assignment.cpp.o
 
 # target to build an object file
 expression/list_assignment.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/list_assignment.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/list_assignment.cpp.o
 .PHONY : expression/list_assignment.cpp.o
 
 expression/list_assignment.i: expression/list_assignment.cpp.i
@@ -937,7 +937,7 @@ expression/list_assignment.i: expression/list_assignment.cpp.i
 
 # target to preprocess a source file
 expression/list_assignment.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/list_assignment.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/list_assignment.cpp.i
 .PHONY : expression/list_assignment.cpp.i
 
 expression/list_assignment.s: expression/list_assignment.cpp.s
@@ -945,7 +945,7 @@ expression/list_assignment.s: expression/list_assignment.cpp.s
 
 # target to generate assembly for a file
 expression/list_assignment.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/list_assignment.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/list_assignment.cpp.s
 .PHONY : expression/list_assignment.cpp.s
 
 expression/modifier_expression.o: expression/modifier_expression.cpp.o
@@ -953,7 +953,7 @@ expression/modifier_expression.o: expression/modifier_expression.cpp.o
 
 # target to build an object file
 expression/modifier_expression.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/modifier_expression.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/modifier_expression.cpp.o
 .PHONY : expression/modifier_expression.cpp.o
 
 expression/modifier_expression.i: expression/modifier_expression.cpp.i
@@ -961,7 +961,7 @@ expression/modifier_expression.i: expression/modifier_expression.cpp.i
 
 # target to preprocess a source file
 expression/modifier_expression.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/modifier_expression.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/modifier_expression.cpp.i
 .PHONY : expression/modifier_expression.cpp.i
 
 expression/modifier_expression.s: expression/modifier_expression.cpp.s
@@ -969,7 +969,7 @@ expression/modifier_expression.s: expression/modifier_expression.cpp.s
 
 # target to generate assembly for a file
 expression/modifier_expression.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/modifier_expression.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/modifier_expression.cpp.s
 .PHONY : expression/modifier_expression.cpp.s
 
 expression/new_object_expression.o: expression/new_object_expression.cpp.o
@@ -977,7 +977,7 @@ expression/new_object_expression.o: expression/new_object_expression.cpp.o
 
 # target to build an object file
 expression/new_object_expression.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/new_object_expression.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/new_object_expression.cpp.o
 .PHONY : expression/new_object_expression.cpp.o
 
 expression/new_object_expression.i: expression/new_object_expression.cpp.i
@@ -985,7 +985,7 @@ expression/new_object_expression.i: expression/new_object_expression.cpp.i
 
 # target to preprocess a source file
 expression/new_object_expression.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/new_object_expression.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/new_object_expression.cpp.i
 .PHONY : expression/new_object_expression.cpp.i
 
 expression/new_object_expression.s: expression/new_object_expression.cpp.s
@@ -993,7 +993,7 @@ expression/new_object_expression.s: expression/new_object_expression.cpp.s
 
 # target to generate assembly for a file
 expression/new_object_expression.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/new_object_expression.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/new_object_expression.cpp.s
 .PHONY : expression/new_object_expression.cpp.s
 
 expression/null_coalesce_expression.o: expression/null_coalesce_expression.cpp.o
@@ -1001,7 +1001,7 @@ expression/null_coalesce_expression.o: expression/null_coalesce_expression.cpp.o
 
 # target to build an object file
 expression/null_coalesce_expression.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/null_coalesce_expression.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/null_coalesce_expression.cpp.o
 .PHONY : expression/null_coalesce_expression.cpp.o
 
 expression/null_coalesce_expression.i: expression/null_coalesce_expression.cpp.i
@@ -1009,7 +1009,7 @@ expression/null_coalesce_expression.i: expression/null_coalesce_expression.cpp.i
 
 # target to preprocess a source file
 expression/null_coalesce_expression.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/null_coalesce_expression.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/null_coalesce_expression.cpp.i
 .PHONY : expression/null_coalesce_expression.cpp.i
 
 expression/null_coalesce_expression.s: expression/null_coalesce_expression.cpp.s
@@ -1017,7 +1017,7 @@ expression/null_coalesce_expression.s: expression/null_coalesce_expression.cpp.s
 
 # target to generate assembly for a file
 expression/null_coalesce_expression.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/null_coalesce_expression.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/null_coalesce_expression.cpp.s
 .PHONY : expression/null_coalesce_expression.cpp.s
 
 expression/object_method_expression.o: expression/object_method_expression.cpp.o
@@ -1025,7 +1025,7 @@ expression/object_method_expression.o: expression/object_method_expression.cpp.o
 
 # target to build an object file
 expression/object_method_expression.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/object_method_expression.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/object_method_expression.cpp.o
 .PHONY : expression/object_method_expression.cpp.o
 
 expression/object_method_expression.i: expression/object_method_expression.cpp.i
@@ -1033,7 +1033,7 @@ expression/object_method_expression.i: expression/object_method_expression.cpp.i
 
 # target to preprocess a source file
 expression/object_method_expression.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/object_method_expression.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/object_method_expression.cpp.i
 .PHONY : expression/object_method_expression.cpp.i
 
 expression/object_method_expression.s: expression/object_method_expression.cpp.s
@@ -1041,7 +1041,7 @@ expression/object_method_expression.s: expression/object_method_expression.cpp.s
 
 # target to generate assembly for a file
 expression/object_method_expression.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/object_method_expression.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/object_method_expression.cpp.s
 .PHONY : expression/object_method_expression.cpp.s
 
 expression/object_property_expression.o: expression/object_property_expression.cpp.o
@@ -1049,7 +1049,7 @@ expression/object_property_expression.o: expression/object_property_expression.c
 
 # target to build an object file
 expression/object_property_expression.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/object_property_expression.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/object_property_expression.cpp.o
 .PHONY : expression/object_property_expression.cpp.o
 
 expression/object_property_expression.i: expression/object_property_expression.cpp.i
@@ -1057,7 +1057,7 @@ expression/object_property_expression.i: expression/object_property_expression.c
 
 # target to preprocess a source file
 expression/object_property_expression.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/object_property_expression.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/object_property_expression.cpp.i
 .PHONY : expression/object_property_expression.cpp.i
 
 expression/object_property_expression.s: expression/object_property_expression.cpp.s
@@ -1065,7 +1065,7 @@ expression/object_property_expression.s: expression/object_property_expression.c
 
 # target to generate assembly for a file
 expression/object_property_expression.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/object_property_expression.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/object_property_expression.cpp.s
 .PHONY : expression/object_property_expression.cpp.s
 
 expression/parameter_expression.o: expression/parameter_expression.cpp.o
@@ -1073,7 +1073,7 @@ expression/parameter_expression.o: expression/parameter_expression.cpp.o
 
 # target to build an object file
 expression/parameter_expression.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/parameter_expression.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/parameter_expression.cpp.o
 .PHONY : expression/parameter_expression.cpp.o
 
 expression/parameter_expression.i: expression/parameter_expression.cpp.i
@@ -1081,7 +1081,7 @@ expression/parameter_expression.i: expression/parameter_expression.cpp.i
 
 # target to preprocess a source file
 expression/parameter_expression.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/parameter_expression.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/parameter_expression.cpp.i
 .PHONY : expression/parameter_expression.cpp.i
 
 expression/parameter_expression.s: expression/parameter_expression.cpp.s
@@ -1089,7 +1089,7 @@ expression/parameter_expression.s: expression/parameter_expression.cpp.s
 
 # target to generate assembly for a file
 expression/parameter_expression.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/parameter_expression.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/parameter_expression.cpp.s
 .PHONY : expression/parameter_expression.cpp.s
 
 expression/qop_expression.o: expression/qop_expression.cpp.o
@@ -1097,7 +1097,7 @@ expression/qop_expression.o: expression/qop_expression.cpp.o
 
 # target to build an object file
 expression/qop_expression.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/qop_expression.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/qop_expression.cpp.o
 .PHONY : expression/qop_expression.cpp.o
 
 expression/qop_expression.i: expression/qop_expression.cpp.i
@@ -1105,7 +1105,7 @@ expression/qop_expression.i: expression/qop_expression.cpp.i
 
 # target to preprocess a source file
 expression/qop_expression.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/qop_expression.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/qop_expression.cpp.i
 .PHONY : expression/qop_expression.cpp.i
 
 expression/qop_expression.s: expression/qop_expression.cpp.s
@@ -1113,7 +1113,7 @@ expression/qop_expression.s: expression/qop_expression.cpp.s
 
 # target to generate assembly for a file
 expression/qop_expression.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/qop_expression.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/qop_expression.cpp.s
 .PHONY : expression/qop_expression.cpp.s
 
 expression/scalar_expression.o: expression/scalar_expression.cpp.o
@@ -1121,7 +1121,7 @@ expression/scalar_expression.o: expression/scalar_expression.cpp.o
 
 # target to build an object file
 expression/scalar_expression.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/scalar_expression.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/scalar_expression.cpp.o
 .PHONY : expression/scalar_expression.cpp.o
 
 expression/scalar_expression.i: expression/scalar_expression.cpp.i
@@ -1129,7 +1129,7 @@ expression/scalar_expression.i: expression/scalar_expression.cpp.i
 
 # target to preprocess a source file
 expression/scalar_expression.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/scalar_expression.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/scalar_expression.cpp.i
 .PHONY : expression/scalar_expression.cpp.i
 
 expression/scalar_expression.s: expression/scalar_expression.cpp.s
@@ -1137,7 +1137,7 @@ expression/scalar_expression.s: expression/scalar_expression.cpp.s
 
 # target to generate assembly for a file
 expression/scalar_expression.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/scalar_expression.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/scalar_expression.cpp.s
 .PHONY : expression/scalar_expression.cpp.s
 
 expression/simple_function_call.o: expression/simple_function_call.cpp.o
@@ -1145,7 +1145,7 @@ expression/simple_function_call.o: expression/simple_function_call.cpp.o
 
 # target to build an object file
 expression/simple_function_call.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/simple_function_call.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/simple_function_call.cpp.o
 .PHONY : expression/simple_function_call.cpp.o
 
 expression/simple_function_call.i: expression/simple_function_call.cpp.i
@@ -1153,7 +1153,7 @@ expression/simple_function_call.i: expression/simple_function_call.cpp.i
 
 # target to preprocess a source file
 expression/simple_function_call.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/simple_function_call.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/simple_function_call.cpp.i
 .PHONY : expression/simple_function_call.cpp.i
 
 expression/simple_function_call.s: expression/simple_function_call.cpp.s
@@ -1161,7 +1161,7 @@ expression/simple_function_call.s: expression/simple_function_call.cpp.s
 
 # target to generate assembly for a file
 expression/simple_function_call.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/simple_function_call.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/simple_function_call.cpp.s
 .PHONY : expression/simple_function_call.cpp.s
 
 expression/simple_variable.o: expression/simple_variable.cpp.o
@@ -1169,7 +1169,7 @@ expression/simple_variable.o: expression/simple_variable.cpp.o
 
 # target to build an object file
 expression/simple_variable.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/simple_variable.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/simple_variable.cpp.o
 .PHONY : expression/simple_variable.cpp.o
 
 expression/simple_variable.i: expression/simple_variable.cpp.i
@@ -1177,7 +1177,7 @@ expression/simple_variable.i: expression/simple_variable.cpp.i
 
 # target to preprocess a source file
 expression/simple_variable.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/simple_variable.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/simple_variable.cpp.i
 .PHONY : expression/simple_variable.cpp.i
 
 expression/simple_variable.s: expression/simple_variable.cpp.s
@@ -1185,7 +1185,7 @@ expression/simple_variable.s: expression/simple_variable.cpp.s
 
 # target to generate assembly for a file
 expression/simple_variable.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/simple_variable.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/simple_variable.cpp.s
 .PHONY : expression/simple_variable.cpp.s
 
 expression/static_class_name.o: expression/static_class_name.cpp.o
@@ -1193,7 +1193,7 @@ expression/static_class_name.o: expression/static_class_name.cpp.o
 
 # target to build an object file
 expression/static_class_name.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/static_class_name.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/static_class_name.cpp.o
 .PHONY : expression/static_class_name.cpp.o
 
 expression/static_class_name.i: expression/static_class_name.cpp.i
@@ -1201,7 +1201,7 @@ expression/static_class_name.i: expression/static_class_name.cpp.i
 
 # target to preprocess a source file
 expression/static_class_name.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/static_class_name.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/static_class_name.cpp.i
 .PHONY : expression/static_class_name.cpp.i
 
 expression/static_class_name.s: expression/static_class_name.cpp.s
@@ -1209,7 +1209,7 @@ expression/static_class_name.s: expression/static_class_name.cpp.s
 
 # target to generate assembly for a file
 expression/static_class_name.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/static_class_name.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/static_class_name.cpp.s
 .PHONY : expression/static_class_name.cpp.s
 
 expression/static_member_expression.o: expression/static_member_expression.cpp.o
@@ -1217,7 +1217,7 @@ expression/static_member_expression.o: expression/static_member_expression.cpp.o
 
 # target to build an object file
 expression/static_member_expression.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/static_member_expression.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/static_member_expression.cpp.o
 .PHONY : expression/static_member_expression.cpp.o
 
 expression/static_member_expression.i: expression/static_member_expression.cpp.i
@@ -1225,7 +1225,7 @@ expression/static_member_expression.i: expression/static_member_expression.cpp.i
 
 # target to preprocess a source file
 expression/static_member_expression.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/static_member_expression.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/static_member_expression.cpp.i
 .PHONY : expression/static_member_expression.cpp.i
 
 expression/static_member_expression.s: expression/static_member_expression.cpp.s
@@ -1233,7 +1233,7 @@ expression/static_member_expression.s: expression/static_member_expression.cpp.s
 
 # target to generate assembly for a file
 expression/static_member_expression.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/static_member_expression.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/static_member_expression.cpp.s
 .PHONY : expression/static_member_expression.cpp.s
 
 expression/unary_op_expression.o: expression/unary_op_expression.cpp.o
@@ -1241,7 +1241,7 @@ expression/unary_op_expression.o: expression/unary_op_expression.cpp.o
 
 # target to build an object file
 expression/unary_op_expression.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/unary_op_expression.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/unary_op_expression.cpp.o
 .PHONY : expression/unary_op_expression.cpp.o
 
 expression/unary_op_expression.i: expression/unary_op_expression.cpp.i
@@ -1249,7 +1249,7 @@ expression/unary_op_expression.i: expression/unary_op_expression.cpp.i
 
 # target to preprocess a source file
 expression/unary_op_expression.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/unary_op_expression.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/unary_op_expression.cpp.i
 .PHONY : expression/unary_op_expression.cpp.i
 
 expression/unary_op_expression.s: expression/unary_op_expression.cpp.s
@@ -1257,7 +1257,7 @@ expression/unary_op_expression.s: expression/unary_op_expression.cpp.s
 
 # target to generate assembly for a file
 expression/unary_op_expression.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/unary_op_expression.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/unary_op_expression.cpp.s
 .PHONY : expression/unary_op_expression.cpp.s
 
 expression/user_attribute.o: expression/user_attribute.cpp.o
@@ -1265,7 +1265,7 @@ expression/user_attribute.o: expression/user_attribute.cpp.o
 
 # target to build an object file
 expression/user_attribute.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/user_attribute.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/user_attribute.cpp.o
 .PHONY : expression/user_attribute.cpp.o
 
 expression/user_attribute.i: expression/user_attribute.cpp.i
@@ -1273,7 +1273,7 @@ expression/user_attribute.i: expression/user_attribute.cpp.i
 
 # target to preprocess a source file
 expression/user_attribute.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/user_attribute.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/user_attribute.cpp.i
 .PHONY : expression/user_attribute.cpp.i
 
 expression/user_attribute.s: expression/user_attribute.cpp.s
@@ -1281,7 +1281,7 @@ expression/user_attribute.s: expression/user_attribute.cpp.s
 
 # target to generate assembly for a file
 expression/user_attribute.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/user_attribute.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/user_attribute.cpp.s
 .PHONY : expression/user_attribute.cpp.s
 
 expression/yield_expression.o: expression/yield_expression.cpp.o
@@ -1289,7 +1289,7 @@ expression/yield_expression.o: expression/yield_expression.cpp.o
 
 # target to build an object file
 expression/yield_expression.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/yield_expression.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/yield_expression.cpp.o
 .PHONY : expression/yield_expression.cpp.o
 
 expression/yield_expression.i: expression/yield_expression.cpp.i
@@ -1297,7 +1297,7 @@ expression/yield_expression.i: expression/yield_expression.cpp.i
 
 # target to preprocess a source file
 expression/yield_expression.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/yield_expression.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/yield_expression.cpp.i
 .PHONY : expression/yield_expression.cpp.i
 
 expression/yield_expression.s: expression/yield_expression.cpp.s
@@ -1305,7 +1305,7 @@ expression/yield_expression.s: expression/yield_expression.cpp.s
 
 # target to generate assembly for a file
 expression/yield_expression.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/yield_expression.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/yield_expression.cpp.s
 .PHONY : expression/yield_expression.cpp.s
 
 expression/yield_from_expression.o: expression/yield_from_expression.cpp.o
@@ -1313,7 +1313,7 @@ expression/yield_from_expression.o: expression/yield_from_expression.cpp.o
 
 # target to build an object file
 expression/yield_from_expression.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/yield_from_expression.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/yield_from_expression.cpp.o
 .PHONY : expression/yield_from_expression.cpp.o
 
 expression/yield_from_expression.i: expression/yield_from_expression.cpp.i
@@ -1321,7 +1321,7 @@ expression/yield_from_expression.i: expression/yield_from_expression.cpp.i
 
 # target to preprocess a source file
 expression/yield_from_expression.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/yield_from_expression.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/yield_from_expression.cpp.i
 .PHONY : expression/yield_from_expression.cpp.i
 
 expression/yield_from_expression.s: expression/yield_from_expression.cpp.s
@@ -1329,7 +1329,7 @@ expression/yield_from_expression.s: expression/yield_from_expression.cpp.s
 
 # target to generate assembly for a file
 expression/yield_from_expression.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/yield_from_expression.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/expression/yield_from_expression.cpp.s
 .PHONY : expression/yield_from_expression.cpp.s
 
 json.o: json.cpp.o
@@ -1337,7 +1337,7 @@ json.o: json.cpp.o
 
 # target to build an object file
 json.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/json.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/json.cpp.o
 .PHONY : json.cpp.o
 
 json.i: json.cpp.i
@@ -1345,7 +1345,7 @@ json.i: json.cpp.i
 
 # target to preprocess a source file
 json.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/json.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/json.cpp.i
 .PHONY : json.cpp.i
 
 json.s: json.cpp.s
@@ -1353,7 +1353,7 @@ json.s: json.cpp.s
 
 # target to generate assembly for a file
 json.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/json.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/json.cpp.s
 .PHONY : json.cpp.s
 
 option.o: option.cpp.o
@@ -1361,7 +1361,7 @@ option.o: option.cpp.o
 
 # target to build an object file
 option.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/option.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/option.cpp.o
 .PHONY : option.cpp.o
 
 option.i: option.cpp.i
@@ -1369,7 +1369,7 @@ option.i: option.cpp.i
 
 # target to preprocess a source file
 option.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/option.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/option.cpp.i
 .PHONY : option.cpp.i
 
 option.s: option.cpp.s
@@ -1377,7 +1377,7 @@ option.s: option.cpp.s
 
 # target to generate assembly for a file
 option.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/option.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/option.cpp.s
 .PHONY : option.cpp.s
 
 package.o: package.cpp.o
@@ -1385,7 +1385,7 @@ package.o: package.cpp.o
 
 # target to build an object file
 package.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/package.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/package.cpp.o
 .PHONY : package.cpp.o
 
 package.i: package.cpp.i
@@ -1393,7 +1393,7 @@ package.i: package.cpp.i
 
 # target to preprocess a source file
 package.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/package.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/package.cpp.i
 .PHONY : package.cpp.i
 
 package.s: package.cpp.s
@@ -1401,7 +1401,7 @@ package.s: package.cpp.s
 
 # target to generate assembly for a file
 package.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/package.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/package.cpp.s
 .PHONY : package.cpp.s
 
 parser/parser.o: parser/parser.cpp.o
@@ -1409,7 +1409,7 @@ parser/parser.o: parser/parser.cpp.o
 
 # target to build an object file
 parser/parser.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/parser/parser.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/parser/parser.cpp.o
 .PHONY : parser/parser.cpp.o
 
 parser/parser.i: parser/parser.cpp.i
@@ -1417,7 +1417,7 @@ parser/parser.i: parser/parser.cpp.i
 
 # target to preprocess a source file
 parser/parser.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/parser/parser.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/parser/parser.cpp.i
 .PHONY : parser/parser.cpp.i
 
 parser/parser.s: parser/parser.cpp.s
@@ -1425,7 +1425,7 @@ parser/parser.s: parser/parser.cpp.s
 
 # target to generate assembly for a file
 parser/parser.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/parser/parser.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/parser/parser.cpp.s
 .PHONY : parser/parser.cpp.s
 
 statement/block_statement.o: statement/block_statement.cpp.o
@@ -1433,7 +1433,7 @@ statement/block_statement.o: statement/block_statement.cpp.o
 
 # target to build an object file
 statement/block_statement.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/block_statement.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/block_statement.cpp.o
 .PHONY : statement/block_statement.cpp.o
 
 statement/block_statement.i: statement/block_statement.cpp.i
@@ -1441,7 +1441,7 @@ statement/block_statement.i: statement/block_statement.cpp.i
 
 # target to preprocess a source file
 statement/block_statement.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/block_statement.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/block_statement.cpp.i
 .PHONY : statement/block_statement.cpp.i
 
 statement/block_statement.s: statement/block_statement.cpp.s
@@ -1449,7 +1449,7 @@ statement/block_statement.s: statement/block_statement.cpp.s
 
 # target to generate assembly for a file
 statement/block_statement.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/block_statement.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/block_statement.cpp.s
 .PHONY : statement/block_statement.cpp.s
 
 statement/break_statement.o: statement/break_statement.cpp.o
@@ -1457,7 +1457,7 @@ statement/break_statement.o: statement/break_statement.cpp.o
 
 # target to build an object file
 statement/break_statement.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/break_statement.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/break_statement.cpp.o
 .PHONY : statement/break_statement.cpp.o
 
 statement/break_statement.i: statement/break_statement.cpp.i
@@ -1465,7 +1465,7 @@ statement/break_statement.i: statement/break_statement.cpp.i
 
 # target to preprocess a source file
 statement/break_statement.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/break_statement.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/break_statement.cpp.i
 .PHONY : statement/break_statement.cpp.i
 
 statement/break_statement.s: statement/break_statement.cpp.s
@@ -1473,7 +1473,7 @@ statement/break_statement.s: statement/break_statement.cpp.s
 
 # target to generate assembly for a file
 statement/break_statement.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/break_statement.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/break_statement.cpp.s
 .PHONY : statement/break_statement.cpp.s
 
 statement/case_statement.o: statement/case_statement.cpp.o
@@ -1481,7 +1481,7 @@ statement/case_statement.o: statement/case_statement.cpp.o
 
 # target to build an object file
 statement/case_statement.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/case_statement.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/case_statement.cpp.o
 .PHONY : statement/case_statement.cpp.o
 
 statement/case_statement.i: statement/case_statement.cpp.i
@@ -1489,7 +1489,7 @@ statement/case_statement.i: statement/case_statement.cpp.i
 
 # target to preprocess a source file
 statement/case_statement.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/case_statement.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/case_statement.cpp.i
 .PHONY : statement/case_statement.cpp.i
 
 statement/case_statement.s: statement/case_statement.cpp.s
@@ -1497,7 +1497,7 @@ statement/case_statement.s: statement/case_statement.cpp.s
 
 # target to generate assembly for a file
 statement/case_statement.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/case_statement.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/case_statement.cpp.s
 .PHONY : statement/case_statement.cpp.s
 
 statement/catch_statement.o: statement/catch_statement.cpp.o
@@ -1505,7 +1505,7 @@ statement/catch_statement.o: statement/catch_statement.cpp.o
 
 # target to build an object file
 statement/catch_statement.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/catch_statement.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/catch_statement.cpp.o
 .PHONY : statement/catch_statement.cpp.o
 
 statement/catch_statement.i: statement/catch_statement.cpp.i
@@ -1513,7 +1513,7 @@ statement/catch_statement.i: statement/catch_statement.cpp.i
 
 # target to preprocess a source file
 statement/catch_statement.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/catch_statement.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/catch_statement.cpp.i
 .PHONY : statement/catch_statement.cpp.i
 
 statement/catch_statement.s: statement/catch_statement.cpp.s
@@ -1521,7 +1521,7 @@ statement/catch_statement.s: statement/catch_statement.cpp.s
 
 # target to generate assembly for a file
 statement/catch_statement.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/catch_statement.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/catch_statement.cpp.s
 .PHONY : statement/catch_statement.cpp.s
 
 statement/class_constant.o: statement/class_constant.cpp.o
@@ -1529,7 +1529,7 @@ statement/class_constant.o: statement/class_constant.cpp.o
 
 # target to build an object file
 statement/class_constant.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/class_constant.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/class_constant.cpp.o
 .PHONY : statement/class_constant.cpp.o
 
 statement/class_constant.i: statement/class_constant.cpp.i
@@ -1537,7 +1537,7 @@ statement/class_constant.i: statement/class_constant.cpp.i
 
 # target to preprocess a source file
 statement/class_constant.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/class_constant.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/class_constant.cpp.i
 .PHONY : statement/class_constant.cpp.i
 
 statement/class_constant.s: statement/class_constant.cpp.s
@@ -1545,7 +1545,7 @@ statement/class_constant.s: statement/class_constant.cpp.s
 
 # target to generate assembly for a file
 statement/class_constant.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/class_constant.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/class_constant.cpp.s
 .PHONY : statement/class_constant.cpp.s
 
 statement/class_require_statement.o: statement/class_require_statement.cpp.o
@@ -1553,7 +1553,7 @@ statement/class_require_statement.o: statement/class_require_statement.cpp.o
 
 # target to build an object file
 statement/class_require_statement.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/class_require_statement.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/class_require_statement.cpp.o
 .PHONY : statement/class_require_statement.cpp.o
 
 statement/class_require_statement.i: statement/class_require_statement.cpp.i
@@ -1561,7 +1561,7 @@ statement/class_require_statement.i: statement/class_require_statement.cpp.i
 
 # target to preprocess a source file
 statement/class_require_statement.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/class_require_statement.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/class_require_statement.cpp.i
 .PHONY : statement/class_require_statement.cpp.i
 
 statement/class_require_statement.s: statement/class_require_statement.cpp.s
@@ -1569,7 +1569,7 @@ statement/class_require_statement.s: statement/class_require_statement.cpp.s
 
 # target to generate assembly for a file
 statement/class_require_statement.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/class_require_statement.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/class_require_statement.cpp.s
 .PHONY : statement/class_require_statement.cpp.s
 
 statement/class_statement.o: statement/class_statement.cpp.o
@@ -1577,7 +1577,7 @@ statement/class_statement.o: statement/class_statement.cpp.o
 
 # target to build an object file
 statement/class_statement.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/class_statement.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/class_statement.cpp.o
 .PHONY : statement/class_statement.cpp.o
 
 statement/class_statement.i: statement/class_statement.cpp.i
@@ -1585,7 +1585,7 @@ statement/class_statement.i: statement/class_statement.cpp.i
 
 # target to preprocess a source file
 statement/class_statement.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/class_statement.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/class_statement.cpp.i
 .PHONY : statement/class_statement.cpp.i
 
 statement/class_statement.s: statement/class_statement.cpp.s
@@ -1593,7 +1593,7 @@ statement/class_statement.s: statement/class_statement.cpp.s
 
 # target to generate assembly for a file
 statement/class_statement.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/class_statement.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/class_statement.cpp.s
 .PHONY : statement/class_statement.cpp.s
 
 statement/class_variable.o: statement/class_variable.cpp.o
@@ -1601,7 +1601,7 @@ statement/class_variable.o: statement/class_variable.cpp.o
 
 # target to build an object file
 statement/class_variable.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/class_variable.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/class_variable.cpp.o
 .PHONY : statement/class_variable.cpp.o
 
 statement/class_variable.i: statement/class_variable.cpp.i
@@ -1609,7 +1609,7 @@ statement/class_variable.i: statement/class_variable.cpp.i
 
 # target to preprocess a source file
 statement/class_variable.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/class_variable.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/class_variable.cpp.i
 .PHONY : statement/class_variable.cpp.i
 
 statement/class_variable.s: statement/class_variable.cpp.s
@@ -1617,7 +1617,7 @@ statement/class_variable.s: statement/class_variable.cpp.s
 
 # target to generate assembly for a file
 statement/class_variable.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/class_variable.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/class_variable.cpp.s
 .PHONY : statement/class_variable.cpp.s
 
 statement/continue_statement.o: statement/continue_statement.cpp.o
@@ -1625,7 +1625,7 @@ statement/continue_statement.o: statement/continue_statement.cpp.o
 
 # target to build an object file
 statement/continue_statement.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/continue_statement.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/continue_statement.cpp.o
 .PHONY : statement/continue_statement.cpp.o
 
 statement/continue_statement.i: statement/continue_statement.cpp.i
@@ -1633,7 +1633,7 @@ statement/continue_statement.i: statement/continue_statement.cpp.i
 
 # target to preprocess a source file
 statement/continue_statement.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/continue_statement.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/continue_statement.cpp.i
 .PHONY : statement/continue_statement.cpp.i
 
 statement/continue_statement.s: statement/continue_statement.cpp.s
@@ -1641,7 +1641,7 @@ statement/continue_statement.s: statement/continue_statement.cpp.s
 
 # target to generate assembly for a file
 statement/continue_statement.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/continue_statement.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/continue_statement.cpp.s
 .PHONY : statement/continue_statement.cpp.s
 
 statement/declare_statement.o: statement/declare_statement.cpp.o
@@ -1649,7 +1649,7 @@ statement/declare_statement.o: statement/declare_statement.cpp.o
 
 # target to build an object file
 statement/declare_statement.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/declare_statement.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/declare_statement.cpp.o
 .PHONY : statement/declare_statement.cpp.o
 
 statement/declare_statement.i: statement/declare_statement.cpp.i
@@ -1657,7 +1657,7 @@ statement/declare_statement.i: statement/declare_statement.cpp.i
 
 # target to preprocess a source file
 statement/declare_statement.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/declare_statement.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/declare_statement.cpp.i
 .PHONY : statement/declare_statement.cpp.i
 
 statement/declare_statement.s: statement/declare_statement.cpp.s
@@ -1665,7 +1665,7 @@ statement/declare_statement.s: statement/declare_statement.cpp.s
 
 # target to generate assembly for a file
 statement/declare_statement.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/declare_statement.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/declare_statement.cpp.s
 .PHONY : statement/declare_statement.cpp.s
 
 statement/do_statement.o: statement/do_statement.cpp.o
@@ -1673,7 +1673,7 @@ statement/do_statement.o: statement/do_statement.cpp.o
 
 # target to build an object file
 statement/do_statement.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/do_statement.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/do_statement.cpp.o
 .PHONY : statement/do_statement.cpp.o
 
 statement/do_statement.i: statement/do_statement.cpp.i
@@ -1681,7 +1681,7 @@ statement/do_statement.i: statement/do_statement.cpp.i
 
 # target to preprocess a source file
 statement/do_statement.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/do_statement.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/do_statement.cpp.i
 .PHONY : statement/do_statement.cpp.i
 
 statement/do_statement.s: statement/do_statement.cpp.s
@@ -1689,7 +1689,7 @@ statement/do_statement.s: statement/do_statement.cpp.s
 
 # target to generate assembly for a file
 statement/do_statement.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/do_statement.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/do_statement.cpp.s
 .PHONY : statement/do_statement.cpp.s
 
 statement/echo_statement.o: statement/echo_statement.cpp.o
@@ -1697,7 +1697,7 @@ statement/echo_statement.o: statement/echo_statement.cpp.o
 
 # target to build an object file
 statement/echo_statement.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/echo_statement.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/echo_statement.cpp.o
 .PHONY : statement/echo_statement.cpp.o
 
 statement/echo_statement.i: statement/echo_statement.cpp.i
@@ -1705,7 +1705,7 @@ statement/echo_statement.i: statement/echo_statement.cpp.i
 
 # target to preprocess a source file
 statement/echo_statement.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/echo_statement.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/echo_statement.cpp.i
 .PHONY : statement/echo_statement.cpp.i
 
 statement/echo_statement.s: statement/echo_statement.cpp.s
@@ -1713,7 +1713,7 @@ statement/echo_statement.s: statement/echo_statement.cpp.s
 
 # target to generate assembly for a file
 statement/echo_statement.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/echo_statement.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/echo_statement.cpp.s
 .PHONY : statement/echo_statement.cpp.s
 
 statement/exp_statement.o: statement/exp_statement.cpp.o
@@ -1721,7 +1721,7 @@ statement/exp_statement.o: statement/exp_statement.cpp.o
 
 # target to build an object file
 statement/exp_statement.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/exp_statement.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/exp_statement.cpp.o
 .PHONY : statement/exp_statement.cpp.o
 
 statement/exp_statement.i: statement/exp_statement.cpp.i
@@ -1729,7 +1729,7 @@ statement/exp_statement.i: statement/exp_statement.cpp.i
 
 # target to preprocess a source file
 statement/exp_statement.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/exp_statement.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/exp_statement.cpp.i
 .PHONY : statement/exp_statement.cpp.i
 
 statement/exp_statement.s: statement/exp_statement.cpp.s
@@ -1737,7 +1737,7 @@ statement/exp_statement.s: statement/exp_statement.cpp.s
 
 # target to generate assembly for a file
 statement/exp_statement.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/exp_statement.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/exp_statement.cpp.s
 .PHONY : statement/exp_statement.cpp.s
 
 statement/finally_statement.o: statement/finally_statement.cpp.o
@@ -1745,7 +1745,7 @@ statement/finally_statement.o: statement/finally_statement.cpp.o
 
 # target to build an object file
 statement/finally_statement.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/finally_statement.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/finally_statement.cpp.o
 .PHONY : statement/finally_statement.cpp.o
 
 statement/finally_statement.i: statement/finally_statement.cpp.i
@@ -1753,7 +1753,7 @@ statement/finally_statement.i: statement/finally_statement.cpp.i
 
 # target to preprocess a source file
 statement/finally_statement.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/finally_statement.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/finally_statement.cpp.i
 .PHONY : statement/finally_statement.cpp.i
 
 statement/finally_statement.s: statement/finally_statement.cpp.s
@@ -1761,7 +1761,7 @@ statement/finally_statement.s: statement/finally_statement.cpp.s
 
 # target to generate assembly for a file
 statement/finally_statement.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/finally_statement.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/finally_statement.cpp.s
 .PHONY : statement/finally_statement.cpp.s
 
 statement/for_statement.o: statement/for_statement.cpp.o
@@ -1769,7 +1769,7 @@ statement/for_statement.o: statement/for_statement.cpp.o
 
 # target to build an object file
 statement/for_statement.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/for_statement.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/for_statement.cpp.o
 .PHONY : statement/for_statement.cpp.o
 
 statement/for_statement.i: statement/for_statement.cpp.i
@@ -1777,7 +1777,7 @@ statement/for_statement.i: statement/for_statement.cpp.i
 
 # target to preprocess a source file
 statement/for_statement.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/for_statement.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/for_statement.cpp.i
 .PHONY : statement/for_statement.cpp.i
 
 statement/for_statement.s: statement/for_statement.cpp.s
@@ -1785,7 +1785,7 @@ statement/for_statement.s: statement/for_statement.cpp.s
 
 # target to generate assembly for a file
 statement/for_statement.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/for_statement.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/for_statement.cpp.s
 .PHONY : statement/for_statement.cpp.s
 
 statement/foreach_statement.o: statement/foreach_statement.cpp.o
@@ -1793,7 +1793,7 @@ statement/foreach_statement.o: statement/foreach_statement.cpp.o
 
 # target to build an object file
 statement/foreach_statement.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/foreach_statement.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/foreach_statement.cpp.o
 .PHONY : statement/foreach_statement.cpp.o
 
 statement/foreach_statement.i: statement/foreach_statement.cpp.i
@@ -1801,7 +1801,7 @@ statement/foreach_statement.i: statement/foreach_statement.cpp.i
 
 # target to preprocess a source file
 statement/foreach_statement.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/foreach_statement.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/foreach_statement.cpp.i
 .PHONY : statement/foreach_statement.cpp.i
 
 statement/foreach_statement.s: statement/foreach_statement.cpp.s
@@ -1809,7 +1809,7 @@ statement/foreach_statement.s: statement/foreach_statement.cpp.s
 
 # target to generate assembly for a file
 statement/foreach_statement.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/foreach_statement.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/foreach_statement.cpp.s
 .PHONY : statement/foreach_statement.cpp.s
 
 statement/function_statement.o: statement/function_statement.cpp.o
@@ -1817,7 +1817,7 @@ statement/function_statement.o: statement/function_statement.cpp.o
 
 # target to build an object file
 statement/function_statement.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/function_statement.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/function_statement.cpp.o
 .PHONY : statement/function_statement.cpp.o
 
 statement/function_statement.i: statement/function_statement.cpp.i
@@ -1825,7 +1825,7 @@ statement/function_statement.i: statement/function_statement.cpp.i
 
 # target to preprocess a source file
 statement/function_statement.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/function_statement.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/function_statement.cpp.i
 .PHONY : statement/function_statement.cpp.i
 
 statement/function_statement.s: statement/function_statement.cpp.s
@@ -1833,7 +1833,7 @@ statement/function_statement.s: statement/function_statement.cpp.s
 
 # target to generate assembly for a file
 statement/function_statement.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/function_statement.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/function_statement.cpp.s
 .PHONY : statement/function_statement.cpp.s
 
 statement/global_statement.o: statement/global_statement.cpp.o
@@ -1841,7 +1841,7 @@ statement/global_statement.o: statement/global_statement.cpp.o
 
 # target to build an object file
 statement/global_statement.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/global_statement.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/global_statement.cpp.o
 .PHONY : statement/global_statement.cpp.o
 
 statement/global_statement.i: statement/global_statement.cpp.i
@@ -1849,7 +1849,7 @@ statement/global_statement.i: statement/global_statement.cpp.i
 
 # target to preprocess a source file
 statement/global_statement.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/global_statement.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/global_statement.cpp.i
 .PHONY : statement/global_statement.cpp.i
 
 statement/global_statement.s: statement/global_statement.cpp.s
@@ -1857,7 +1857,7 @@ statement/global_statement.s: statement/global_statement.cpp.s
 
 # target to generate assembly for a file
 statement/global_statement.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/global_statement.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/global_statement.cpp.s
 .PHONY : statement/global_statement.cpp.s
 
 statement/goto_statement.o: statement/goto_statement.cpp.o
@@ -1865,7 +1865,7 @@ statement/goto_statement.o: statement/goto_statement.cpp.o
 
 # target to build an object file
 statement/goto_statement.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/goto_statement.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/goto_statement.cpp.o
 .PHONY : statement/goto_statement.cpp.o
 
 statement/goto_statement.i: statement/goto_statement.cpp.i
@@ -1873,7 +1873,7 @@ statement/goto_statement.i: statement/goto_statement.cpp.i
 
 # target to preprocess a source file
 statement/goto_statement.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/goto_statement.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/goto_statement.cpp.i
 .PHONY : statement/goto_statement.cpp.i
 
 statement/goto_statement.s: statement/goto_statement.cpp.s
@@ -1881,7 +1881,7 @@ statement/goto_statement.s: statement/goto_statement.cpp.s
 
 # target to generate assembly for a file
 statement/goto_statement.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/goto_statement.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/goto_statement.cpp.s
 .PHONY : statement/goto_statement.cpp.s
 
 statement/if_branch_statement.o: statement/if_branch_statement.cpp.o
@@ -1889,7 +1889,7 @@ statement/if_branch_statement.o: statement/if_branch_statement.cpp.o
 
 # target to build an object file
 statement/if_branch_statement.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/if_branch_statement.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/if_branch_statement.cpp.o
 .PHONY : statement/if_branch_statement.cpp.o
 
 statement/if_branch_statement.i: statement/if_branch_statement.cpp.i
@@ -1897,7 +1897,7 @@ statement/if_branch_statement.i: statement/if_branch_statement.cpp.i
 
 # target to preprocess a source file
 statement/if_branch_statement.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/if_branch_statement.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/if_branch_statement.cpp.i
 .PHONY : statement/if_branch_statement.cpp.i
 
 statement/if_branch_statement.s: statement/if_branch_statement.cpp.s
@@ -1905,7 +1905,7 @@ statement/if_branch_statement.s: statement/if_branch_statement.cpp.s
 
 # target to generate assembly for a file
 statement/if_branch_statement.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/if_branch_statement.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/if_branch_statement.cpp.s
 .PHONY : statement/if_branch_statement.cpp.s
 
 statement/if_statement.o: statement/if_statement.cpp.o
@@ -1913,7 +1913,7 @@ statement/if_statement.o: statement/if_statement.cpp.o
 
 # target to build an object file
 statement/if_statement.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/if_statement.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/if_statement.cpp.o
 .PHONY : statement/if_statement.cpp.o
 
 statement/if_statement.i: statement/if_statement.cpp.i
@@ -1921,7 +1921,7 @@ statement/if_statement.i: statement/if_statement.cpp.i
 
 # target to preprocess a source file
 statement/if_statement.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/if_statement.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/if_statement.cpp.i
 .PHONY : statement/if_statement.cpp.i
 
 statement/if_statement.s: statement/if_statement.cpp.s
@@ -1929,7 +1929,7 @@ statement/if_statement.s: statement/if_statement.cpp.s
 
 # target to generate assembly for a file
 statement/if_statement.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/if_statement.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/if_statement.cpp.s
 .PHONY : statement/if_statement.cpp.s
 
 statement/interface_statement.o: statement/interface_statement.cpp.o
@@ -1937,7 +1937,7 @@ statement/interface_statement.o: statement/interface_statement.cpp.o
 
 # target to build an object file
 statement/interface_statement.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/interface_statement.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/interface_statement.cpp.o
 .PHONY : statement/interface_statement.cpp.o
 
 statement/interface_statement.i: statement/interface_statement.cpp.i
@@ -1945,7 +1945,7 @@ statement/interface_statement.i: statement/interface_statement.cpp.i
 
 # target to preprocess a source file
 statement/interface_statement.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/interface_statement.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/interface_statement.cpp.i
 .PHONY : statement/interface_statement.cpp.i
 
 statement/interface_statement.s: statement/interface_statement.cpp.s
@@ -1953,7 +1953,7 @@ statement/interface_statement.s: statement/interface_statement.cpp.s
 
 # target to generate assembly for a file
 statement/interface_statement.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/interface_statement.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/interface_statement.cpp.s
 .PHONY : statement/interface_statement.cpp.s
 
 statement/label_statement.o: statement/label_statement.cpp.o
@@ -1961,7 +1961,7 @@ statement/label_statement.o: statement/label_statement.cpp.o
 
 # target to build an object file
 statement/label_statement.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/label_statement.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/label_statement.cpp.o
 .PHONY : statement/label_statement.cpp.o
 
 statement/label_statement.i: statement/label_statement.cpp.i
@@ -1969,7 +1969,7 @@ statement/label_statement.i: statement/label_statement.cpp.i
 
 # target to preprocess a source file
 statement/label_statement.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/label_statement.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/label_statement.cpp.i
 .PHONY : statement/label_statement.cpp.i
 
 statement/label_statement.s: statement/label_statement.cpp.s
@@ -1977,7 +1977,7 @@ statement/label_statement.s: statement/label_statement.cpp.s
 
 # target to generate assembly for a file
 statement/label_statement.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/label_statement.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/label_statement.cpp.s
 .PHONY : statement/label_statement.cpp.s
 
 statement/loop_statement.o: statement/loop_statement.cpp.o
@@ -1985,7 +1985,7 @@ statement/loop_statement.o: statement/loop_statement.cpp.o
 
 # target to build an object file
 statement/loop_statement.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/loop_statement.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/loop_statement.cpp.o
 .PHONY : statement/loop_statement.cpp.o
 
 statement/loop_statement.i: statement/loop_statement.cpp.i
@@ -1993,7 +1993,7 @@ statement/loop_statement.i: statement/loop_statement.cpp.i
 
 # target to preprocess a source file
 statement/loop_statement.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/loop_statement.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/loop_statement.cpp.i
 .PHONY : statement/loop_statement.cpp.i
 
 statement/loop_statement.s: statement/loop_statement.cpp.s
@@ -2001,7 +2001,7 @@ statement/loop_statement.s: statement/loop_statement.cpp.s
 
 # target to generate assembly for a file
 statement/loop_statement.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/loop_statement.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/loop_statement.cpp.s
 .PHONY : statement/loop_statement.cpp.s
 
 statement/method_statement.o: statement/method_statement.cpp.o
@@ -2009,7 +2009,7 @@ statement/method_statement.o: statement/method_statement.cpp.o
 
 # target to build an object file
 statement/method_statement.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/method_statement.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/method_statement.cpp.o
 .PHONY : statement/method_statement.cpp.o
 
 statement/method_statement.i: statement/method_statement.cpp.i
@@ -2017,7 +2017,7 @@ statement/method_statement.i: statement/method_statement.cpp.i
 
 # target to preprocess a source file
 statement/method_statement.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/method_statement.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/method_statement.cpp.i
 .PHONY : statement/method_statement.cpp.i
 
 statement/method_statement.s: statement/method_statement.cpp.s
@@ -2025,7 +2025,7 @@ statement/method_statement.s: statement/method_statement.cpp.s
 
 # target to generate assembly for a file
 statement/method_statement.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/method_statement.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/method_statement.cpp.s
 .PHONY : statement/method_statement.cpp.s
 
 statement/return_statement.o: statement/return_statement.cpp.o
@@ -2033,7 +2033,7 @@ statement/return_statement.o: statement/return_statement.cpp.o
 
 # target to build an object file
 statement/return_statement.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/return_statement.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/return_statement.cpp.o
 .PHONY : statement/return_statement.cpp.o
 
 statement/return_statement.i: statement/return_statement.cpp.i
@@ -2041,7 +2041,7 @@ statement/return_statement.i: statement/return_statement.cpp.i
 
 # target to preprocess a source file
 statement/return_statement.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/return_statement.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/return_statement.cpp.i
 .PHONY : statement/return_statement.cpp.i
 
 statement/return_statement.s: statement/return_statement.cpp.s
@@ -2049,7 +2049,7 @@ statement/return_statement.s: statement/return_statement.cpp.s
 
 # target to generate assembly for a file
 statement/return_statement.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/return_statement.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/return_statement.cpp.s
 .PHONY : statement/return_statement.cpp.s
 
 statement/statement.o: statement/statement.cpp.o
@@ -2057,7 +2057,7 @@ statement/statement.o: statement/statement.cpp.o
 
 # target to build an object file
 statement/statement.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/statement.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/statement.cpp.o
 .PHONY : statement/statement.cpp.o
 
 statement/statement.i: statement/statement.cpp.i
@@ -2065,7 +2065,7 @@ statement/statement.i: statement/statement.cpp.i
 
 # target to preprocess a source file
 statement/statement.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/statement.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/statement.cpp.i
 .PHONY : statement/statement.cpp.i
 
 statement/statement.s: statement/statement.cpp.s
@@ -2073,7 +2073,7 @@ statement/statement.s: statement/statement.cpp.s
 
 # target to generate assembly for a file
 statement/statement.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/statement.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/statement.cpp.s
 .PHONY : statement/statement.cpp.s
 
 statement/statement_list.o: statement/statement_list.cpp.o
@@ -2081,7 +2081,7 @@ statement/statement_list.o: statement/statement_list.cpp.o
 
 # target to build an object file
 statement/statement_list.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/statement_list.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/statement_list.cpp.o
 .PHONY : statement/statement_list.cpp.o
 
 statement/statement_list.i: statement/statement_list.cpp.i
@@ -2089,7 +2089,7 @@ statement/statement_list.i: statement/statement_list.cpp.i
 
 # target to preprocess a source file
 statement/statement_list.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/statement_list.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/statement_list.cpp.i
 .PHONY : statement/statement_list.cpp.i
 
 statement/statement_list.s: statement/statement_list.cpp.s
@@ -2097,7 +2097,7 @@ statement/statement_list.s: statement/statement_list.cpp.s
 
 # target to generate assembly for a file
 statement/statement_list.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/statement_list.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/statement_list.cpp.s
 .PHONY : statement/statement_list.cpp.s
 
 statement/static_statement.o: statement/static_statement.cpp.o
@@ -2105,7 +2105,7 @@ statement/static_statement.o: statement/static_statement.cpp.o
 
 # target to build an object file
 statement/static_statement.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/static_statement.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/static_statement.cpp.o
 .PHONY : statement/static_statement.cpp.o
 
 statement/static_statement.i: statement/static_statement.cpp.i
@@ -2113,7 +2113,7 @@ statement/static_statement.i: statement/static_statement.cpp.i
 
 # target to preprocess a source file
 statement/static_statement.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/static_statement.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/static_statement.cpp.i
 .PHONY : statement/static_statement.cpp.i
 
 statement/static_statement.s: statement/static_statement.cpp.s
@@ -2121,7 +2121,7 @@ statement/static_statement.s: statement/static_statement.cpp.s
 
 # target to generate assembly for a file
 statement/static_statement.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/static_statement.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/static_statement.cpp.s
 .PHONY : statement/static_statement.cpp.s
 
 statement/switch_statement.o: statement/switch_statement.cpp.o
@@ -2129,7 +2129,7 @@ statement/switch_statement.o: statement/switch_statement.cpp.o
 
 # target to build an object file
 statement/switch_statement.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/switch_statement.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/switch_statement.cpp.o
 .PHONY : statement/switch_statement.cpp.o
 
 statement/switch_statement.i: statement/switch_statement.cpp.i
@@ -2137,7 +2137,7 @@ statement/switch_statement.i: statement/switch_statement.cpp.i
 
 # target to preprocess a source file
 statement/switch_statement.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/switch_statement.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/switch_statement.cpp.i
 .PHONY : statement/switch_statement.cpp.i
 
 statement/switch_statement.s: statement/switch_statement.cpp.s
@@ -2145,7 +2145,7 @@ statement/switch_statement.s: statement/switch_statement.cpp.s
 
 # target to generate assembly for a file
 statement/switch_statement.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/switch_statement.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/switch_statement.cpp.s
 .PHONY : statement/switch_statement.cpp.s
 
 statement/throw_statement.o: statement/throw_statement.cpp.o
@@ -2153,7 +2153,7 @@ statement/throw_statement.o: statement/throw_statement.cpp.o
 
 # target to build an object file
 statement/throw_statement.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/throw_statement.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/throw_statement.cpp.o
 .PHONY : statement/throw_statement.cpp.o
 
 statement/throw_statement.i: statement/throw_statement.cpp.i
@@ -2161,7 +2161,7 @@ statement/throw_statement.i: statement/throw_statement.cpp.i
 
 # target to preprocess a source file
 statement/throw_statement.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/throw_statement.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/throw_statement.cpp.i
 .PHONY : statement/throw_statement.cpp.i
 
 statement/throw_statement.s: statement/throw_statement.cpp.s
@@ -2169,7 +2169,7 @@ statement/throw_statement.s: statement/throw_statement.cpp.s
 
 # target to generate assembly for a file
 statement/throw_statement.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/throw_statement.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/throw_statement.cpp.s
 .PHONY : statement/throw_statement.cpp.s
 
 statement/trait_alias_statement.o: statement/trait_alias_statement.cpp.o
@@ -2177,7 +2177,7 @@ statement/trait_alias_statement.o: statement/trait_alias_statement.cpp.o
 
 # target to build an object file
 statement/trait_alias_statement.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/trait_alias_statement.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/trait_alias_statement.cpp.o
 .PHONY : statement/trait_alias_statement.cpp.o
 
 statement/trait_alias_statement.i: statement/trait_alias_statement.cpp.i
@@ -2185,7 +2185,7 @@ statement/trait_alias_statement.i: statement/trait_alias_statement.cpp.i
 
 # target to preprocess a source file
 statement/trait_alias_statement.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/trait_alias_statement.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/trait_alias_statement.cpp.i
 .PHONY : statement/trait_alias_statement.cpp.i
 
 statement/trait_alias_statement.s: statement/trait_alias_statement.cpp.s
@@ -2193,7 +2193,7 @@ statement/trait_alias_statement.s: statement/trait_alias_statement.cpp.s
 
 # target to generate assembly for a file
 statement/trait_alias_statement.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/trait_alias_statement.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/trait_alias_statement.cpp.s
 .PHONY : statement/trait_alias_statement.cpp.s
 
 statement/trait_prec_statement.o: statement/trait_prec_statement.cpp.o
@@ -2201,7 +2201,7 @@ statement/trait_prec_statement.o: statement/trait_prec_statement.cpp.o
 
 # target to build an object file
 statement/trait_prec_statement.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/trait_prec_statement.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/trait_prec_statement.cpp.o
 .PHONY : statement/trait_prec_statement.cpp.o
 
 statement/trait_prec_statement.i: statement/trait_prec_statement.cpp.i
@@ -2209,7 +2209,7 @@ statement/trait_prec_statement.i: statement/trait_prec_statement.cpp.i
 
 # target to preprocess a source file
 statement/trait_prec_statement.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/trait_prec_statement.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/trait_prec_statement.cpp.i
 .PHONY : statement/trait_prec_statement.cpp.i
 
 statement/trait_prec_statement.s: statement/trait_prec_statement.cpp.s
@@ -2217,7 +2217,7 @@ statement/trait_prec_statement.s: statement/trait_prec_statement.cpp.s
 
 # target to generate assembly for a file
 statement/trait_prec_statement.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/trait_prec_statement.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/trait_prec_statement.cpp.s
 .PHONY : statement/trait_prec_statement.cpp.s
 
 statement/try_statement.o: statement/try_statement.cpp.o
@@ -2225,7 +2225,7 @@ statement/try_statement.o: statement/try_statement.cpp.o
 
 # target to build an object file
 statement/try_statement.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/try_statement.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/try_statement.cpp.o
 .PHONY : statement/try_statement.cpp.o
 
 statement/try_statement.i: statement/try_statement.cpp.i
@@ -2233,7 +2233,7 @@ statement/try_statement.i: statement/try_statement.cpp.i
 
 # target to preprocess a source file
 statement/try_statement.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/try_statement.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/try_statement.cpp.i
 .PHONY : statement/try_statement.cpp.i
 
 statement/try_statement.s: statement/try_statement.cpp.s
@@ -2241,7 +2241,7 @@ statement/try_statement.s: statement/try_statement.cpp.s
 
 # target to generate assembly for a file
 statement/try_statement.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/try_statement.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/try_statement.cpp.s
 .PHONY : statement/try_statement.cpp.s
 
 statement/typedef_statement.o: statement/typedef_statement.cpp.o
@@ -2249,7 +2249,7 @@ statement/typedef_statement.o: statement/typedef_statement.cpp.o
 
 # target to build an object file
 statement/typedef_statement.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/typedef_statement.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/typedef_statement.cpp.o
 .PHONY : statement/typedef_statement.cpp.o
 
 statement/typedef_statement.i: statement/typedef_statement.cpp.i
@@ -2257,7 +2257,7 @@ statement/typedef_statement.i: statement/typedef_statement.cpp.i
 
 # target to preprocess a source file
 statement/typedef_statement.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/typedef_statement.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/typedef_statement.cpp.i
 .PHONY : statement/typedef_statement.cpp.i
 
 statement/typedef_statement.s: statement/typedef_statement.cpp.s
@@ -2265,7 +2265,7 @@ statement/typedef_statement.s: statement/typedef_statement.cpp.s
 
 # target to generate assembly for a file
 statement/typedef_statement.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/typedef_statement.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/typedef_statement.cpp.s
 .PHONY : statement/typedef_statement.cpp.s
 
 statement/unset_statement.o: statement/unset_statement.cpp.o
@@ -2273,7 +2273,7 @@ statement/unset_statement.o: statement/unset_statement.cpp.o
 
 # target to build an object file
 statement/unset_statement.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/unset_statement.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/unset_statement.cpp.o
 .PHONY : statement/unset_statement.cpp.o
 
 statement/unset_statement.i: statement/unset_statement.cpp.i
@@ -2281,7 +2281,7 @@ statement/unset_statement.i: statement/unset_statement.cpp.i
 
 # target to preprocess a source file
 statement/unset_statement.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/unset_statement.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/unset_statement.cpp.i
 .PHONY : statement/unset_statement.cpp.i
 
 statement/unset_statement.s: statement/unset_statement.cpp.s
@@ -2289,7 +2289,7 @@ statement/unset_statement.s: statement/unset_statement.cpp.s
 
 # target to generate assembly for a file
 statement/unset_statement.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/unset_statement.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/unset_statement.cpp.s
 .PHONY : statement/unset_statement.cpp.s
 
 statement/use_trait_statement.o: statement/use_trait_statement.cpp.o
@@ -2297,7 +2297,7 @@ statement/use_trait_statement.o: statement/use_trait_statement.cpp.o
 
 # target to build an object file
 statement/use_trait_statement.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/use_trait_statement.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/use_trait_statement.cpp.o
 .PHONY : statement/use_trait_statement.cpp.o
 
 statement/use_trait_statement.i: statement/use_trait_statement.cpp.i
@@ -2305,7 +2305,7 @@ statement/use_trait_statement.i: statement/use_trait_statement.cpp.i
 
 # target to preprocess a source file
 statement/use_trait_statement.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/use_trait_statement.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/use_trait_statement.cpp.i
 .PHONY : statement/use_trait_statement.cpp.i
 
 statement/use_trait_statement.s: statement/use_trait_statement.cpp.s
@@ -2313,7 +2313,7 @@ statement/use_trait_statement.s: statement/use_trait_statement.cpp.s
 
 # target to generate assembly for a file
 statement/use_trait_statement.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/use_trait_statement.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/use_trait_statement.cpp.s
 .PHONY : statement/use_trait_statement.cpp.s
 
 statement/while_statement.o: statement/while_statement.cpp.o
@@ -2321,7 +2321,7 @@ statement/while_statement.o: statement/while_statement.cpp.o
 
 # target to build an object file
 statement/while_statement.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/while_statement.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/while_statement.cpp.o
 .PHONY : statement/while_statement.cpp.o
 
 statement/while_statement.i: statement/while_statement.cpp.i
@@ -2329,7 +2329,7 @@ statement/while_statement.i: statement/while_statement.cpp.i
 
 # target to preprocess a source file
 statement/while_statement.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/while_statement.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/while_statement.cpp.i
 .PHONY : statement/while_statement.cpp.i
 
 statement/while_statement.s: statement/while_statement.cpp.s
@@ -2337,7 +2337,7 @@ statement/while_statement.s: statement/while_statement.cpp.s
 
 # target to generate assembly for a file
 statement/while_statement.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/while_statement.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/statement/while_statement.cpp.s
 .PHONY : statement/while_statement.cpp.s
 
 type_annotation.o: type_annotation.cpp.o
@@ -2345,7 +2345,7 @@ type_annotation.o: type_annotation.cpp.o
 
 # target to build an object file
 type_annotation.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/type_annotation.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/type_annotation.cpp.o
 .PHONY : type_annotation.cpp.o
 
 type_annotation.i: type_annotation.cpp.i
@@ -2353,7 +2353,7 @@ type_annotation.i: type_annotation.cpp.i
 
 # target to preprocess a source file
 type_annotation.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/type_annotation.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/type_annotation.cpp.i
 .PHONY : type_annotation.cpp.i
 
 type_annotation.s: type_annotation.cpp.s
@@ -2361,7 +2361,7 @@ type_annotation.s: type_annotation.cpp.s
 
 # target to generate assembly for a file
 type_annotation.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/type_annotation.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/compiler/CMakeFiles/hphp_analysis.dir/build.make hphp/compiler/CMakeFiles/hphp_analysis.dir/type_annotation.cpp.s
 .PHONY : type_annotation.cpp.s
 
 # Help Target
@@ -2664,6 +2664,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

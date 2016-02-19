@@ -1,1 +1,1 @@
-naming/naming.mli: Ast Errors FileInfo Ident Nast Pos Relative_path SMap SSet String TypecheckerOptions Utils
+naming/naming.mli: Ast Nast TypecheckerOptions

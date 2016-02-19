@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/hhvm-3.11.1/hphp/tools/gdb
+# Install script for directory: /tmp/hhvm-3.12.0/hphp/tools/gdb
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,27 +33,27 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE PROGRAM FILES "/tmp/hhvm-3.11.1/hphp/tools/gdb/hhvm-gdb")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE PROGRAM FILES "/tmp/hhvm-3.12.0/hphp/tools/gdb/hhvm-gdb")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/hhvm/gdb" TYPE FILE FILES
-    "/tmp/hhvm-3.11.1/hphp/tools/gdb/asio.py"
-    "/tmp/hhvm-3.11.1/hphp/tools/gdb/compatibility.py"
-    "/tmp/hhvm-3.11.1/hphp/tools/gdb/frame.py"
-    "/tmp/hhvm-3.11.1/hphp/tools/gdb/gdbutils.py"
-    "/tmp/hhvm-3.11.1/hphp/tools/gdb/hashes.py"
-    "/tmp/hhvm-3.11.1/hphp/tools/gdb/hhbc.py"
-    "/tmp/hhvm-3.11.1/hphp/tools/gdb/hhvm.py"
-    "/tmp/hhvm-3.11.1/hphp/tools/gdb/idx.py"
-    "/tmp/hhvm-3.11.1/hphp/tools/gdb/lookup.py"
-    "/tmp/hhvm-3.11.1/hphp/tools/gdb/nameof.py"
-    "/tmp/hhvm-3.11.1/hphp/tools/gdb/pretty.py"
-    "/tmp/hhvm-3.11.1/hphp/tools/gdb/repo.py"
-    "/tmp/hhvm-3.11.1/hphp/tools/gdb/sizeof.py"
-    "/tmp/hhvm-3.11.1/hphp/tools/gdb/stack.py"
-    "/tmp/hhvm-3.11.1/hphp/tools/gdb/unit.py"
-    "/tmp/hhvm-3.11.1/hphp/tools/gdb/util.py"
+    "/tmp/hhvm-3.12.0/hphp/tools/gdb/asio.py"
+    "/tmp/hhvm-3.12.0/hphp/tools/gdb/compatibility.py"
+    "/tmp/hhvm-3.12.0/hphp/tools/gdb/frame.py"
+    "/tmp/hhvm-3.12.0/hphp/tools/gdb/gdbutils.py"
+    "/tmp/hhvm-3.12.0/hphp/tools/gdb/hashes.py"
+    "/tmp/hhvm-3.12.0/hphp/tools/gdb/hhbc.py"
+    "/tmp/hhvm-3.12.0/hphp/tools/gdb/hhvm.py"
+    "/tmp/hhvm-3.12.0/hphp/tools/gdb/idx.py"
+    "/tmp/hhvm-3.12.0/hphp/tools/gdb/lookup.py"
+    "/tmp/hhvm-3.12.0/hphp/tools/gdb/nameof.py"
+    "/tmp/hhvm-3.12.0/hphp/tools/gdb/pretty.py"
+    "/tmp/hhvm-3.12.0/hphp/tools/gdb/repo.py"
+    "/tmp/hhvm-3.12.0/hphp/tools/gdb/sizeof.py"
+    "/tmp/hhvm-3.12.0/hphp/tools/gdb/stack.py"
+    "/tmp/hhvm-3.12.0/hphp/tools/gdb/unit.py"
+    "/tmp/hhvm-3.12.0/hphp/tools/gdb/util.py"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
 

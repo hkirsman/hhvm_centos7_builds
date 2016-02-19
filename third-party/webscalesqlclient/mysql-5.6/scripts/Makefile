@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -104,7 +104,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -114,7 +114,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && /usr/bin/cpack --config ./CPackSourceConfig.cmake /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CPackSourceConfig.cmake
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src && /usr/bin/cpack --config ./CPackSourceConfig.cmake /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -133,14 +133,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/scripts/CMakeFiles/progress.marks
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 scripts/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles 0
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/CMakeFiles /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/scripts/CMakeFiles/progress.marks
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 scripts/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 scripts/clean
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 scripts/clean
 .PHONY : clean
 
 # The main clean target
@@ -149,22 +149,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 scripts/preinstall
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 scripts/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 scripts/preinstall
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 scripts/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 scripts/CMakeFiles/GenFixPrivs.dir/rule:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 scripts/CMakeFiles/GenFixPrivs.dir/rule
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 scripts/CMakeFiles/GenFixPrivs.dir/rule
 .PHONY : scripts/CMakeFiles/GenFixPrivs.dir/rule
 
 # Convenience name for target.
@@ -173,12 +173,12 @@ GenFixPrivs: scripts/CMakeFiles/GenFixPrivs.dir/rule
 
 # fast build rule for target.
 GenFixPrivs/fast:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f scripts/CMakeFiles/GenFixPrivs.dir/build.make scripts/CMakeFiles/GenFixPrivs.dir/build
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src && $(MAKE) -f scripts/CMakeFiles/GenFixPrivs.dir/build.make scripts/CMakeFiles/GenFixPrivs.dir/build
 .PHONY : GenFixPrivs/fast
 
 # Convenience name for target.
 scripts/CMakeFiles/comp_sql.dir/rule:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 scripts/CMakeFiles/comp_sql.dir/rule
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 scripts/CMakeFiles/comp_sql.dir/rule
 .PHONY : scripts/CMakeFiles/comp_sql.dir/rule
 
 # Convenience name for target.
@@ -187,7 +187,7 @@ comp_sql: scripts/CMakeFiles/comp_sql.dir/rule
 
 # fast build rule for target.
 comp_sql/fast:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f scripts/CMakeFiles/comp_sql.dir/build.make scripts/CMakeFiles/comp_sql.dir/build
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src && $(MAKE) -f scripts/CMakeFiles/comp_sql.dir/build.make scripts/CMakeFiles/comp_sql.dir/build
 .PHONY : comp_sql/fast
 
 comp_sql.o: comp_sql.c.o
@@ -195,7 +195,7 @@ comp_sql.o: comp_sql.c.o
 
 # target to build an object file
 comp_sql.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f scripts/CMakeFiles/comp_sql.dir/build.make scripts/CMakeFiles/comp_sql.dir/comp_sql.c.o
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src && $(MAKE) -f scripts/CMakeFiles/comp_sql.dir/build.make scripts/CMakeFiles/comp_sql.dir/comp_sql.c.o
 .PHONY : comp_sql.c.o
 
 comp_sql.i: comp_sql.c.i
@@ -203,7 +203,7 @@ comp_sql.i: comp_sql.c.i
 
 # target to preprocess a source file
 comp_sql.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f scripts/CMakeFiles/comp_sql.dir/build.make scripts/CMakeFiles/comp_sql.dir/comp_sql.c.i
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src && $(MAKE) -f scripts/CMakeFiles/comp_sql.dir/build.make scripts/CMakeFiles/comp_sql.dir/comp_sql.c.i
 .PHONY : comp_sql.c.i
 
 comp_sql.s: comp_sql.c.s
@@ -211,7 +211,7 @@ comp_sql.s: comp_sql.c.s
 
 # target to generate assembly for a file
 comp_sql.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f scripts/CMakeFiles/comp_sql.dir/build.make scripts/CMakeFiles/comp_sql.dir/comp_sql.c.s
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src && $(MAKE) -f scripts/CMakeFiles/comp_sql.dir/build.make scripts/CMakeFiles/comp_sql.dir/comp_sql.c.s
 .PHONY : comp_sql.c.s
 
 # Help Target
@@ -244,6 +244,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

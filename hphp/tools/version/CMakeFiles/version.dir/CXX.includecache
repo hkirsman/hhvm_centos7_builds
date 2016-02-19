@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/tmp/hhvm-3.11.1/hphp/tools/version/version.cpp
+/tmp/hhvm-3.12.0/hphp/tools/version/version.cpp
 stdio.h
 -
 hphp/runtime/version.h
-/tmp/hhvm-3.11.1/hphp/tools/version/hphp/runtime/version.h
+/tmp/hhvm-3.12.0/hphp/tools/version/hphp/runtime/version.h
 
 hphp/runtime/version.h
 boost/preprocessor/stringize.hpp

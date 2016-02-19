@@ -1,1 +1,1 @@
-client/clientConnect.ml: ClientConnectSimple ClientMessages ClientStart Exit_status HackEventLogger List Marshal_tools Option Path Printf Result ServerFiles ServerUtils Str Sys Sys_utils Tail Tty Unix
+client/clientConnect.ml: ClientMessages ClientStart Exit_status HackEventLogger HhServerMonitorConfig List Option Path Printf Result ServerFiles ServerMonitorUtils ServerUtils Str Sys_utils Tail Timeout Tty Unix

@@ -1,1 +1,1 @@
-typing/typing_env.mli: Ast FileInfo IMap ISet Ident Nast Pos Relative_path SSet TypecheckerOptions Typing_defs Typing_deps Typing_heap Utils
+typing/typing_env.mli: Ast FileInfo IMap ISet Ident Nast Pos Reason Relative_path SSet TypecheckerOptions Typing_defs Typing_deps Typing_heap Utils

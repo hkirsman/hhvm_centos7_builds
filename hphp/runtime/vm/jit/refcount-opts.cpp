@@ -1258,21 +1258,22 @@ void remove_helper(IRInstruction* inst) {
  * Walk through each block, and remove nearby IncRef/DecRef[NZ] pairs that
  * operate on the same must-alias-set, if there are obviously no instructions
  * in between them that could read the reference count of that object.
+ *
+ * Then run the same pass, but backwards, which removes nearby DecRef[NZ]/IncRef
+ * likewise.
  */
 void remove_trivial_incdecs(Env& env) {
   FTRACE(2, "remove_trivial_incdecs ---------------------------------\n");
   auto incs = jit::vector<IRInstruction*>{};
   for (auto& blk : env.rpoBlocks) {
-    incs.clear();
-
-    for (auto& inst : *blk) {
+    auto process = [&] (IRInstruction& inst) {
       if (inst.is(IncRef)) {
         incs.push_back(&inst);
-        continue;
+        return;
       }
 
       if (inst.is(DecRef, DecRefNZ)) {
-        if (incs.empty()) continue;
+        if (incs.empty()) return;
         auto const setID = env.asetMap[inst.src(0)];
         auto const to_rm = [&] () -> IRInstruction* {
           for (auto it = begin(incs); it != end(incs); ++it) {
@@ -1287,14 +1288,13 @@ void remove_trivial_incdecs(Env& env) {
           incs.clear();
           return nullptr;
         }();
-        if (to_rm == nullptr) continue;
+        if (to_rm == nullptr) return;
 
         FTRACE(3, "    ** trivial pair: {}, {}\n", *to_rm, inst);
         remove_helper(to_rm);
         remove_helper(&inst);
-        continue;
+        return;
       }
-
 
       auto const effects = memory_effects(inst);
       match<void>(
@@ -1306,13 +1306,36 @@ void remove_trivial_incdecs(Env& env) {
         [&] (PureSpillFrame) {},
         [&] (IrrelevantEffects) {},
 
+        // Inlining related instructions can manipulate the frame but don't
+        // observe reference counts.
+        [&] (GeneralEffects) {
+          auto const is_inlining_inst = inst.is(
+            BeginInlining,
+            DefInlineFP,
+            InlineReturn,
+            InlineReturnNoFrame,
+            SyncReturnBC
+          );
+          if (!is_inlining_inst) {
+            incs.clear();
+          }
+        },
+
         // Everything else may.
-        [&] (GeneralEffects)    { incs.clear(); },
         [&] (CallEffects)       { incs.clear(); },
         [&] (ReturnEffects)     { incs.clear(); },
         [&] (ExitEffects)       { incs.clear(); },
         [&] (UnknownEffects)    { incs.clear(); }
       );
+    };
+
+    incs.clear();
+    for (auto& inst : *blk) {
+      process(inst);
+    }
+    incs.clear();
+    for (auto iter = blk->rbegin(); iter != blk->rend(); ++iter) {
+      process(*iter);
     }
   }
 }
@@ -3395,7 +3418,7 @@ void sink_incs(Env& env) {
       // insert the inc right before succ if we advanced any instruction
       auto const new_inc = env.unit.gen(IncRef, marker, tmp);
       block->insert(iter, new_inc);
-      FTRACE(2, "    ** sink_incs: {} -> {}, {}\n", *inc, *new_inc);
+      FTRACE(2, "    ** sink_incs: {} -> {}\n", *inc, *new_inc);
       remove_helper(inc);
     }
   }

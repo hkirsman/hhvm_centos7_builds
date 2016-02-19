@@ -31,7 +31,7 @@ let crash_marker_path root =
   Filename.concat GlobalConfig.tmp_dir (spf ".%s.watchman_failed" root_name)
 
 type env = {
-  sockname: string;
+  socket: Timeout.in_channel * out_channel;
   root: Path.t;
   watch_root: string;
   relative_path: string;
@@ -144,22 +144,20 @@ let capability_check ?(optional=[]) required =
   end
 
 let read_with_timeout timeout ic =
-  Sys_utils.with_timeout timeout
-    ~do_:(fun () -> input_line ic)
+  Timeout.with_timeout ~timeout
+    ~do_:(fun t -> Timeout.input_line ~timeout:t ic)
     ~on_timeout:begin fun _ ->
       EventLogger.watchman_timeout ();
       raise Timeout
     end
 
-let exec ?(timeout=120) sockname json =
-  let ic, oc = Unix.(open_connection (ADDR_UNIX sockname)) in
+let exec ?(timeout=120) (ic, oc) json =
   let json_str = Hh_json.(json_to_string json) in
   if debug then Printf.eprintf "Watchman query: %s\n%!" json_str;
   output_string oc json_str;
   output_string oc "\n";
   flush oc;
   let output = read_with_timeout timeout ic in
-  close_in ic;
   if debug then Printf.eprintf "Watchman response: %s\n%!" output;
   let response =
     try Hh_json.json_of_string output
@@ -183,19 +181,20 @@ let extract_file_names env json =
 
 let get_all_files env =
   with_crash_record env.root "get_all_files" @@ fun () ->
-  let response = exec env.sockname (query env) in
+  let response = exec env.socket (query env) in
   extract_file_names env response
 
 let get_changes env =
   with_crash_record env.root "get_changes" @@ fun () ->
-  let response = exec env.sockname (since env) in
+  let response = exec env.socket (since env) in
   env.clockspec <- J.get_string_val "clock" response;
   set_of_list @@ extract_file_names env response
 
 let get_sockname timeout =
-  let ic = Unix.open_process_in "watchman get-sockname --no-pretty" in
+  let ic =
+    Timeout.open_process_in "watchman" [| "watchman"; "get-sockname"; "--no-pretty" |] in
   let output = read_with_timeout timeout ic in
-  assert (Unix.close_process_in ic = Unix.WEXITED 0);
+  assert (Timeout.close_process_in ic = Unix.WEXITED 0);
   let json = Hh_json.json_of_string output in
   J.get_string_val "sockname" json
 
@@ -203,14 +202,15 @@ let init timeout root =
   with_crash_record_opt root "init" @@ fun () ->
   let root_s = Path.to_string root in
   let sockname = get_sockname timeout in
-  ignore @@ exec sockname (capability_check ["relative_root"]);
-  let response = exec sockname (watch_project root_s) in
+  let socket = Timeout.open_connection (Unix.ADDR_UNIX sockname) in
+  ignore @@ exec socket (capability_check ["relative_root"]);
+  let response = exec socket (watch_project root_s) in
   let watch_root = J.get_string_val "watch" response in
   let relative_path = J.get_string_val "relative_path" ~default:"" response in
   let clockspec =
-    exec sockname (clock watch_root) |> J.get_string_val "clock" in
+    exec socket (clock watch_root) |> J.get_string_val "clock" in
   let env = {
-    sockname;
+    socket;
     root;
     watch_root;
     relative_path;

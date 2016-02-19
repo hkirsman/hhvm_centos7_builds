@@ -21,8 +21,14 @@
 #include "hphp/runtime/ext/collections/ext_collections-idl.h"
 #include "hphp/runtime/ext/reflection/ext_reflection.h"
 #include "hphp/runtime/ext/thrift/ext_thrift.h"
+#include "hphp/runtime/ext/thrift/spec-holder.h"
 #include "hphp/runtime/base/request-event-handler.h"
 #include "hphp/runtime/vm/vm-regs.h"
+#include "hphp/runtime/vm/jit/mc-generator.h"
+#include "hphp/util/fixed-vector.h"
+
+#include <folly/AtomicHashMap.h>
+#include <folly/Format.h>
 
 #include <stack>
 #include <utility>
@@ -37,17 +43,6 @@ const uint8_t VERSION_DOUBLE_BE = 2;
 const uint8_t PROTOCOL_ID = 0x82;
 const uint8_t TYPE_MASK = 0xe0;
 const uint8_t TYPE_SHIFT_AMOUNT = 5;
-
-enum TError {
-  ERR_UNKNOWN = 0,
-  ERR_INVALID_DATA = 1,
-  ERR_BAD_VERSION = 4
-};
-
-ATTRIBUTE_NORETURN static void thrift_error(const String& what, TError why);
-static void thrift_error(const String& what, TError why) {
-  throw create_object(s_TProtocolException, make_packed_array(what, why));
-}
 
 enum CState {
   STATE_CLEAR,
@@ -124,41 +119,32 @@ static CType ttype_to_ctype(TType x) {
   }
 }
 
+static const TType s_ctype_to_ttype_map[14] {
+  T_STOP,
+  T_BOOL,
+  T_BOOL,
+  T_BYTE,
+  T_I16,
+  T_I32,
+  T_I64,
+  T_DOUBLE,
+  T_STRING,
+  T_LIST,
+  T_SET,
+  T_MAP,
+  T_STRUCT,
+  T_FLOAT
+};
+
 static TType ctype_to_ttype(CType x) {
-  switch (x) {
-    case C_STOP:
-      return T_STOP;
-    case C_TRUE:
-    case C_FALSE:
-      return T_BOOL;
-    case C_BYTE:
-      return T_BYTE;
-    case C_I16:
-      return T_I16;
-    case C_I32:
-      return T_I32;
-    case C_I64:
-      return T_I64;
-    case C_DOUBLE:
-      return T_DOUBLE;
-    case C_BINARY:
-      return T_STRING;
-    case C_STRUCT:
-      return T_STRUCT;
-    case C_LIST:
-      return T_LIST;
-    case C_SET:
-      return T_SET;
-    case C_MAP:
-      return T_MAP;
-    case C_FLOAT:
-      return T_FLOAT;
-    default:
-      thrift_error(
-        folly::to<std::string>(
-          "Unknown Compact data type ", static_cast<int>(x)),
-        ERR_INVALID_DATA);
+  uint8_t index = static_cast<uint8_t>(x);
+  if (UNLIKELY(index > C_FLOAT)) {
+    thrift_error(
+      folly::to<std::string>(
+        "Unknown Compact data type ", static_cast<int>(x)),
+      ERR_INVALID_DATA);
   }
+  return s_ctype_to_ttype_map[index];
 }
 
 struct CompactRequestData final : RequestEventHandler {
@@ -218,6 +204,19 @@ class CompactWriter {
     std::stack<std::pair<CState, uint16_t> > structHistory;
     std::stack<CState> containerHistory;
 
+    void writeSlow(const FieldSpec& field, const Object& obj) {
+      INC_TPC(thrift_write_slow);
+      StrNR fieldName(field.name);
+      Variant fieldVal = obj->o_get(fieldName, true, obj->getClassName());
+      if (!fieldVal.isNull()) {
+        TType fieldType = field.type;
+        writeFieldBegin(field.fieldNum, fieldType);
+        ArrNR fieldSpec(field.spec);
+        writeField(fieldVal, fieldSpec.asArray(), fieldType);
+        writeFieldEnd();
+      }
+    }
+
     void writeStruct(const Object& obj) {
       // Save state
       structHistory.push(std::make_pair(state, lastFieldNum));
@@ -225,32 +224,27 @@ class CompactWriter {
       lastFieldNum = 0;
 
       // Get field specification
-      const Array& spec = HHVM_FN(hphp_get_static_property)(obj->getClassName(),
-                                                       s_TSPEC, false)
-        .toArray();
-
+      Class* cls = obj->getVMClass();
+      Array spec(get_tspec(cls));
+      SpecHolder specHolder;
+      const auto& fields = specHolder.getSpec(spec);
+      auto prop = cls->declProperties().begin();
+      auto objProp = obj->propVec();
+      const size_t numProps = cls->numDeclProperties();
+      const size_t numFields = fields.size();
       // Write each member
-      for (ArrayIter specIter = spec.begin(); !specIter.end(); ++specIter) {
-        Variant key = specIter.first();
-        if (!key.isInteger()) {
-          thrift_error("Bad keytype in TSPEC (expected 'long')",
-            ERR_INVALID_DATA);
-        }
-
-        uint16_t fieldNo = key.toInt16();
-        Array fieldSpec = specIter.second().toArray();
-
-        String fieldName = fieldSpec
-          .rvalAt(s_var, AccessFlags::Error_Key).toString();
-        TType fieldType = (TType)fieldSpec
-          .rvalAt(s_type, AccessFlags::Error_Key).toByte();
-
-        Variant fieldVal = obj->o_get(fieldName, true, obj->getClassName());
-
-        if (!fieldVal.isNull()) {
-          writeFieldBegin(fieldNo, fieldType);
-          writeField(fieldVal, fieldSpec, fieldType);
-          writeFieldEnd();
+      for (int i = 0; i < numFields; ++i) {
+        if (i <= numProps && fields[i].name == prop[i].name) {
+          Variant fieldVal = tvAsVariant(&objProp[i]);
+          if (!fieldVal.isNull()) {
+            TType fieldType = fields[i].type;
+            ArrNR fieldSpec(fields[i].spec);
+            writeFieldBegin(fields[i].fieldNum, fieldType);
+            writeField(fieldVal, fieldSpec.asArray(), fieldType);
+            writeFieldEnd();
+          }
+        } else {
+          writeSlow(fields[i], obj);
         }
       }
 
@@ -533,33 +527,24 @@ class CompactReader {
 
       if (type == T_REPLY) {
         Object ret = create_object(resultClassName, Array());
-        Variant spec = HHVM_FN(hphp_get_static_property)(resultClassName,
-                                                         s_TSPEC, false);
-        readStruct(ret, spec.toArray());
+        Array spec(get_tspec(ret->getVMClass()));
+        readStruct(ret, spec);
         return ret;
       } else if (type == T_EXCEPTION) {
         Object exn = create_object(s_TApplicationException, Array());
-        Variant spec = HHVM_FN(hphp_get_static_property)(
-                                      s_TApplicationException, s_TSPEC, false);
-        readStruct(exn, spec.toArray());
+        Array spec(get_tspec(exn->getVMClass()));
+        readStruct(exn, spec);
         throw exn;
       } else {
         thrift_error("Invalid response type", ERR_INVALID_DATA);
       }
     }
 
-    void readStruct(const Object& dest, const Array& spec) {
-      readStructBegin();
-
-      while (true) {
-        int16_t fieldNum;
-        TType fieldType;
-        readFieldBegin(fieldNum, fieldType);
-
-        if (fieldType == T_STOP) {
-          break;
-        }
-
+    NEVER_INLINE
+    void readStructSlow(const Object& dest, const Array& spec,
+                        int16_t fieldNum, TType fieldType) {
+      INC_TPC(thrift_read_slow);
+      while (fieldType != T_STOP) {
         bool readComplete = false;
 
         Variant fieldSpecVariant = spec.rvalAt(fieldNum);
@@ -578,12 +563,44 @@ class CompactReader {
         }
 
         if (!readComplete) {
+          INC_TPC(thrift_spec_slow);
           skip(fieldType);
         }
-
         readFieldEnd();
+        readFieldBegin(fieldNum, fieldType);
       }
+      readStructEnd();
+    }
 
+    void readStruct(const Object& dest, const Array& spec) {
+      readStructBegin();
+      int16_t fieldNum;
+      TType fieldType;
+      readFieldBegin(fieldNum, fieldType);
+      SpecHolder specHolder;
+      const auto& fields = specHolder.getSpec(spec);
+      const size_t numFields = fields.size();
+      Class* cls = dest->getVMClass();
+      if (cls->numDeclProperties() < numFields) {
+        return readStructSlow(dest, spec, fieldNum, fieldType);
+      }
+      auto objProp = dest->propVec();
+      auto prop = cls->declProperties().begin();
+      int i = -1;
+      while (fieldType != T_STOP) {
+        do {
+          ++i;
+        } while (i < numFields && fields[i].fieldNum != fieldNum);
+        if (i == numFields ||
+            prop[i].name != fields[i].name ||
+            !typesAreCompatible(fieldType, fields[i].type)) {
+          return readStructSlow(dest, spec, fieldNum, fieldType);
+        }
+        ArrNR fieldSpec(fields[i].spec);
+        tvAsVariant(&objProp[i]) = readField(fieldSpec.asArray(), fieldType);
+        readFieldEnd();
+        readFieldBegin(fieldNum, fieldType);
+      }
       readStructEnd();
     }
 
@@ -661,15 +678,9 @@ class CompactReader {
               thrift_error("invalid class type in spec", ERR_INVALID_DATA);
             }
 
-            Variant newStructSpec =
-              HHVM_FN(hphp_get_static_property)(classNameString, s_TSPEC,
-                                                false);
-
-            if (!newStructSpec.isArray()) {
-              thrift_error("invalid type of spec", ERR_INVALID_DATA);
-            }
-
-            readStruct(newStruct.toObject(), newStructSpec.toArray());
+            Object obj = newStruct.toObject();
+            Array spec(get_tspec(obj->getVMClass()));
+            readStruct(obj, spec);
             return newStruct;
           }
 
@@ -1056,9 +1067,8 @@ Object HHVM_FUNCTION(thrift_protocol_read_compact_struct,
   EagerVMRegAnchor _;
   CompactReader reader(transportobj);
   Object ret = create_object(obj_typename, Array());
-  Variant spec = HHVM_FN(hphp_get_static_property)(obj_typename,
-                                                   s_TSPEC, false);
-  reader.readStruct(ret, spec.toArray());
+  Array spec(get_tspec(ret->getVMClass()));
+  reader.readStruct(ret, spec);
   return ret;
 }
 

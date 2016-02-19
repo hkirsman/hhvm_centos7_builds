@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/hhvm-3.11.1/hphp/hhbbc
+# Install script for directory: /tmp/hhvm-3.12.0/hphp/hhbbc
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,8 +33,8 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
-  INCLUDE("/tmp/hhvm-3.11.1/CMake/HPHPFunctions.cmake")
-      HHVM_INSTALL_HEADERS(hhbc /tmp/hhvm-3.11.1
-      "${CMAKE_INSTALL_PREFIX}/include" /tmp/hhvm-3.11.1/hphp/hhbbc/analyze.h;/tmp/hhvm-3.11.1/hphp/hhbbc/bc.h;/tmp/hhvm-3.11.1/hphp/hhbbc/cfg.h;/tmp/hhvm-3.11.1/hphp/hhbbc/class-util.h;/tmp/hhvm-3.11.1/hphp/hhbbc/dce.h;/tmp/hhvm-3.11.1/hphp/hhbbc/debug.h;/tmp/hhvm-3.11.1/hphp/hhbbc/emit.h;/tmp/hhvm-3.11.1/hphp/hhbbc/eval-cell.h;/tmp/hhvm-3.11.1/hphp/hhbbc/func-util.h;/tmp/hhvm-3.11.1/hphp/hhbbc/hhbbc-inl.h;/tmp/hhvm-3.11.1/hphp/hhbbc/hhbbc.h;/tmp/hhvm-3.11.1/hphp/hhbbc/index.h;/tmp/hhvm-3.11.1/hphp/hhbbc/interp-internal.h;/tmp/hhvm-3.11.1/hphp/hhbbc/interp-state.h;/tmp/hhvm-3.11.1/hphp/hhbbc/interp.h;/tmp/hhvm-3.11.1/hphp/hhbbc/misc.h;/tmp/hhvm-3.11.1/hphp/hhbbc/optimize.h;/tmp/hhvm-3.11.1/hphp/hhbbc/options-util.h;/tmp/hhvm-3.11.1/hphp/hhbbc/parallel.h;/tmp/hhvm-3.11.1/hphp/hhbbc/parse.h;/tmp/hhvm-3.11.1/hphp/hhbbc/peephole.h;/tmp/hhvm-3.11.1/hphp/hhbbc/representation.h;/tmp/hhvm-3.11.1/hphp/hhbbc/src-loc.h;/tmp/hhvm-3.11.1/hphp/hhbbc/stats.h;/tmp/hhvm-3.11.1/hphp/hhbbc/type-builtins.h;/tmp/hhvm-3.11.1/hphp/hhbbc/type-ops.h;/tmp/hhvm-3.11.1/hphp/hhbbc/type-system.h;/tmp/hhvm-3.11.1/hphp/hhbbc/unit-util.h)
+  INCLUDE("/tmp/hhvm-3.12.0/CMake/HPHPFunctions.cmake")
+      HHVM_INSTALL_HEADERS(hhbc /tmp/hhvm-3.12.0
+      "${CMAKE_INSTALL_PREFIX}/include" /tmp/hhvm-3.12.0/hphp/hhbbc/analyze.h;/tmp/hhvm-3.12.0/hphp/hhbbc/bc.h;/tmp/hhvm-3.12.0/hphp/hhbbc/cfg.h;/tmp/hhvm-3.12.0/hphp/hhbbc/class-util.h;/tmp/hhvm-3.12.0/hphp/hhbbc/dce.h;/tmp/hhvm-3.12.0/hphp/hhbbc/debug.h;/tmp/hhvm-3.12.0/hphp/hhbbc/emit.h;/tmp/hhvm-3.12.0/hphp/hhbbc/eval-cell.h;/tmp/hhvm-3.12.0/hphp/hhbbc/func-util.h;/tmp/hhvm-3.12.0/hphp/hhbbc/hhbbc-inl.h;/tmp/hhvm-3.12.0/hphp/hhbbc/hhbbc.h;/tmp/hhvm-3.12.0/hphp/hhbbc/index.h;/tmp/hhvm-3.12.0/hphp/hhbbc/interp-internal.h;/tmp/hhvm-3.12.0/hphp/hhbbc/interp-state.h;/tmp/hhvm-3.12.0/hphp/hhbbc/interp.h;/tmp/hhvm-3.12.0/hphp/hhbbc/misc.h;/tmp/hhvm-3.12.0/hphp/hhbbc/optimize.h;/tmp/hhvm-3.12.0/hphp/hhbbc/options-util.h;/tmp/hhvm-3.12.0/hphp/hhbbc/parallel.h;/tmp/hhvm-3.12.0/hphp/hhbbc/parse.h;/tmp/hhvm-3.12.0/hphp/hhbbc/peephole.h;/tmp/hhvm-3.12.0/hphp/hhbbc/representation.h;/tmp/hhvm-3.12.0/hphp/hhbbc/src-loc.h;/tmp/hhvm-3.12.0/hphp/hhbbc/stats.h;/tmp/hhvm-3.12.0/hphp/hhbbc/type-builtins.h;/tmp/hhvm-3.12.0/hphp/hhbbc/type-ops.h;/tmp/hhvm-3.12.0/hphp/hhbbc/type-system.h;/tmp/hhvm-3.12.0/hphp/hhbbc/unit-util.h)
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
 

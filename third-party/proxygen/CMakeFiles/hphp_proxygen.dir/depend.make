@@ -36,6 +36,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.o: 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.o: third-party/folly/folly/Likely.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.o: third-party/folly/folly/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.o: third-party/folly/folly/Memory.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.o: third-party/folly/folly/Optional.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.o: third-party/folly/folly/Portability.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -57,6 +58,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.o: 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -180,6 +182,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.o: 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.o: third-party/folly/folly/Likely.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.o: third-party/folly/folly/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.o: third-party/folly/folly/Memory.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.o: third-party/folly/folly/Optional.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.o: third-party/folly/folly/Portability.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -201,6 +204,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.o: 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -294,6 +298,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMessage.cpp.o: th
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMessage.cpp.o: third-party/folly/folly/Likely.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMessage.cpp.o: third-party/folly/folly/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMessage.cpp.o: third-party/folly/folly/Memory.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMessage.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMessage.cpp.o: third-party/folly/folly/Optional.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMessage.cpp.o: third-party/folly/folly/Portability.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMessage.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -315,6 +320,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMessage.cpp.o: th
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMessage.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMessage.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMessage.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMessage.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMessage.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMessage.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMessage.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -399,6 +405,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/RFC2616.cpp.o: third-
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/RFC2616.cpp.o: third-party/folly/folly/Hash.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/RFC2616.cpp.o: third-party/folly/folly/Likely.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/RFC2616.cpp.o: third-party/folly/folly/Malloc.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/RFC2616.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/RFC2616.cpp.o: third-party/folly/folly/Portability.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/RFC2616.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/RFC2616.cpp.o: third-party/folly/folly/Range.h
@@ -414,6 +421,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/RFC2616.cpp.o: third-
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/RFC2616.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/RFC2616.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/RFC2616.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/RFC2616.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/RFC2616.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/RFC2616.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/RFC2616.cpp.o: third-party/proxygen/src/proxygen/lib/http/HTTPCommonHeaders.h
@@ -453,6 +461,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/CodecProtocol.c
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/CodecProtocol.cpp.o: third-party/folly/folly/Likely.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/CodecProtocol.cpp.o: third-party/folly/folly/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/CodecProtocol.cpp.o: third-party/folly/folly/Memory.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/CodecProtocol.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/CodecProtocol.cpp.o: third-party/folly/folly/Optional.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/CodecProtocol.cpp.o: third-party/folly/folly/Portability.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/CodecProtocol.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -474,6 +483,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/CodecProtocol.c
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/CodecProtocol.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/CodecProtocol.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/CodecProtocol.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/CodecProtocol.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/CodecProtocol.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/CodecProtocol.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/CodecProtocol.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -551,6 +561,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/FlowControlFilt
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/FlowControlFilter.cpp.o: third-party/folly/folly/Likely.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/FlowControlFilter.cpp.o: third-party/folly/folly/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/FlowControlFilter.cpp.o: third-party/folly/folly/Memory.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/FlowControlFilter.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/FlowControlFilter.cpp.o: third-party/folly/folly/Optional.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/FlowControlFilter.cpp.o: third-party/folly/folly/Portability.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/FlowControlFilter.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -572,6 +583,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/FlowControlFilt
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/FlowControlFilter.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/FlowControlFilter.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/FlowControlFilter.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/FlowControlFilter.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/FlowControlFilter.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/FlowControlFilter.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/FlowControlFilter.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -650,6 +662,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTP1xCodec.cpp
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTP1xCodec.cpp.o: third-party/folly/folly/Likely.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTP1xCodec.cpp.o: third-party/folly/folly/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTP1xCodec.cpp.o: third-party/folly/folly/Memory.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTP1xCodec.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTP1xCodec.cpp.o: third-party/folly/folly/Optional.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTP1xCodec.cpp.o: third-party/folly/folly/Portability.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTP1xCodec.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -671,6 +684,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTP1xCodec.cpp
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTP1xCodec.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTP1xCodec.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTP1xCodec.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTP1xCodec.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTP1xCodec.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTP1xCodec.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTP1xCodec.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -748,6 +762,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPChecks.cpp.
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPChecks.cpp.o: third-party/folly/folly/Likely.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPChecks.cpp.o: third-party/folly/folly/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPChecks.cpp.o: third-party/folly/folly/Memory.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPChecks.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPChecks.cpp.o: third-party/folly/folly/Optional.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPChecks.cpp.o: third-party/folly/folly/Portability.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPChecks.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -769,6 +784,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPChecks.cpp.
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPChecks.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPChecks.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPChecks.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPChecks.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPChecks.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPChecks.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPChecks.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -847,6 +863,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecFilter
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecFilter.cpp.o: third-party/folly/folly/Likely.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecFilter.cpp.o: third-party/folly/folly/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecFilter.cpp.o: third-party/folly/folly/Memory.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecFilter.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecFilter.cpp.o: third-party/folly/folly/Optional.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecFilter.cpp.o: third-party/folly/folly/Portability.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecFilter.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -868,6 +885,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecFilter
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecFilter.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecFilter.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecFilter.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecFilter.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecFilter.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecFilter.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecFilter.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -944,6 +962,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecPrinte
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecPrinter.cpp.o: third-party/folly/folly/Likely.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecPrinter.cpp.o: third-party/folly/folly/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecPrinter.cpp.o: third-party/folly/folly/Memory.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecPrinter.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecPrinter.cpp.o: third-party/folly/folly/Optional.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecPrinter.cpp.o: third-party/folly/folly/Portability.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecPrinter.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -965,6 +984,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecPrinte
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecPrinter.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecPrinter.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecPrinter.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecPrinter.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecPrinter.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecPrinter.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecPrinter.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -1042,6 +1062,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPParallelCod
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPParallelCodec.cpp.o: third-party/folly/folly/Likely.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPParallelCodec.cpp.o: third-party/folly/folly/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPParallelCodec.cpp.o: third-party/folly/folly/Memory.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPParallelCodec.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPParallelCodec.cpp.o: third-party/folly/folly/Optional.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPParallelCodec.cpp.o: third-party/folly/folly/Portability.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPParallelCodec.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -1063,6 +1084,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPParallelCod
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPParallelCodec.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPParallelCodec.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPParallelCodec.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPParallelCodec.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPParallelCodec.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPParallelCodec.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPParallelCodec.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -1143,6 +1165,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYCodec.cpp.o
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYCodec.cpp.o: third-party/folly/folly/Likely.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYCodec.cpp.o: third-party/folly/folly/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYCodec.cpp.o: third-party/folly/folly/Memory.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYCodec.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYCodec.cpp.o: third-party/folly/folly/Optional.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYCodec.cpp.o: third-party/folly/folly/Portability.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYCodec.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -1164,6 +1187,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYCodec.cpp.o
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYCodec.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYCodec.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYCodec.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYCodec.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYCodec.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYCodec.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYCodec.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -1248,6 +1272,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYUtil.cpp.o:
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYUtil.cpp.o: third-party/folly/folly/Hash.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYUtil.cpp.o: third-party/folly/folly/Likely.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYUtil.cpp.o: third-party/folly/folly/Malloc.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYUtil.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYUtil.cpp.o: third-party/folly/folly/Portability.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYUtil.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYUtil.cpp.o: third-party/folly/folly/Range.h
@@ -1261,6 +1286,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYUtil.cpp.o:
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYUtil.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYUtil.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYUtil.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYUtil.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYUtil.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYUtil.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYUtil.cpp.o: third-party/proxygen/src/proxygen/lib/http/HTTPMethod.h
@@ -1300,6 +1326,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/GzipHe
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/GzipHeaderCodec.cpp.o: third-party/folly/folly/Likely.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/GzipHeaderCodec.cpp.o: third-party/folly/folly/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/GzipHeaderCodec.cpp.o: third-party/folly/folly/Memory.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/GzipHeaderCodec.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/GzipHeaderCodec.cpp.o: third-party/folly/folly/Optional.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/GzipHeaderCodec.cpp.o: third-party/folly/folly/Portability.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/GzipHeaderCodec.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -1321,6 +1348,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/GzipHe
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/GzipHeaderCodec.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/GzipHeaderCodec.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/GzipHeaderCodec.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/GzipHeaderCodec.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/GzipHeaderCodec.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/GzipHeaderCodec.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/GzipHeaderCodec.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -1414,6 +1442,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKC
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKCodec.cpp.o: third-party/folly/folly/Likely.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKCodec.cpp.o: third-party/folly/folly/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKCodec.cpp.o: third-party/folly/folly/Memory.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKCodec.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKCodec.cpp.o: third-party/folly/folly/Optional.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKCodec.cpp.o: third-party/folly/folly/Portability.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKCodec.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -1435,6 +1464,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKC
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKCodec.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKCodec.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKCodec.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKCodec.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKCodec.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKCodec.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKCodec.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -1578,6 +1608,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKD
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecoder.cpp.o: third-party/folly/folly/Likely.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecoder.cpp.o: third-party/folly/folly/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecoder.cpp.o: third-party/folly/folly/Memory.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecoder.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecoder.cpp.o: third-party/folly/folly/Optional.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecoder.cpp.o: third-party/folly/folly/Portability.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecoder.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -1599,6 +1630,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKD
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecoder.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecoder.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecoder.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecoder.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecoder.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecoder.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecoder.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -1895,6 +1927,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experi
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.o: third-party/folly/folly/Likely.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.o: third-party/folly/folly/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.o: third-party/folly/folly/Memory.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.o: third-party/folly/folly/Optional.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.o: third-party/folly/folly/Portability.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -1916,6 +1949,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experi
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -1995,6 +2029,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experi
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.o: third-party/folly/folly/Likely.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.o: third-party/folly/folly/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.o: third-party/folly/folly/Memory.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.o: third-party/folly/folly/Optional.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.o: third-party/folly/folly/Portability.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -2016,6 +2051,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experi
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -2202,6 +2238,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HT
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Codec.cpp.o: third-party/folly/folly/Likely.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Codec.cpp.o: third-party/folly/folly/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Codec.cpp.o: third-party/folly/folly/Memory.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Codec.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Codec.cpp.o: third-party/folly/folly/Optional.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Codec.cpp.o: third-party/folly/folly/Portability.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Codec.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -2225,6 +2262,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HT
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Codec.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Codec.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Codec.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Codec.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Codec.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Codec.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Codec.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -2359,6 +2397,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEventTrac
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEventTracker.cpp.o: third-party/folly/folly/Likely.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEventTracker.cpp.o: third-party/folly/folly/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEventTracker.cpp.o: third-party/folly/folly/Memory.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEventTracker.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEventTracker.cpp.o: third-party/folly/folly/Optional.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEventTracker.cpp.o: third-party/folly/folly/Portability.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEventTracker.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -2380,6 +2419,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEventTrac
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEventTracker.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEventTracker.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEventTracker.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEventTracker.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEventTracker.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEventTracker.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEventTracker.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -2477,6 +2517,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEvents.cp
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEvents.cpp.o: third-party/folly/folly/Likely.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEvents.cpp.o: third-party/folly/folly/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEvents.cpp.o: third-party/folly/folly/Memory.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEvents.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEvents.cpp.o: third-party/folly/folly/Optional.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEvents.cpp.o: third-party/folly/folly/Portability.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEvents.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -2498,6 +2539,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEvents.cp
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEvents.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEvents.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEvents.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEvents.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEvents.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEvents.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEvents.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -2585,6 +2627,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/CodecErrorRes
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/CodecErrorResponseHandler.cpp.o: third-party/folly/folly/Likely.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/CodecErrorResponseHandler.cpp.o: third-party/folly/folly/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/CodecErrorResponseHandler.cpp.o: third-party/folly/folly/Memory.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/CodecErrorResponseHandler.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/CodecErrorResponseHandler.cpp.o: third-party/folly/folly/Optional.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/CodecErrorResponseHandler.cpp.o: third-party/folly/folly/Portability.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/CodecErrorResponseHandler.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -2606,6 +2649,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/CodecErrorRes
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/CodecErrorResponseHandler.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/CodecErrorResponseHandler.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/CodecErrorResponseHandler.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/CodecErrorResponseHandler.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/CodecErrorResponseHandler.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/CodecErrorResponseHandler.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/CodecErrorResponseHandler.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -2692,6 +2736,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTP2Priority
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTP2PriorityQueue.cpp.o: third-party/folly/folly/Likely.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTP2PriorityQueue.cpp.o: third-party/folly/folly/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTP2PriorityQueue.cpp.o: third-party/folly/folly/Memory.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTP2PriorityQueue.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTP2PriorityQueue.cpp.o: third-party/folly/folly/Optional.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTP2PriorityQueue.cpp.o: third-party/folly/folly/Portability.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTP2PriorityQueue.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -2713,6 +2758,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTP2Priority
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTP2PriorityQueue.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTP2PriorityQueue.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTP2PriorityQueue.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTP2PriorityQueue.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTP2PriorityQueue.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTP2PriorityQueue.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTP2PriorityQueue.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -2790,6 +2836,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDirectRes
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDirectResponseHandler.cpp.o: third-party/folly/folly/Likely.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDirectResponseHandler.cpp.o: third-party/folly/folly/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDirectResponseHandler.cpp.o: third-party/folly/folly/Memory.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDirectResponseHandler.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDirectResponseHandler.cpp.o: third-party/folly/folly/Optional.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDirectResponseHandler.cpp.o: third-party/folly/folly/Portability.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDirectResponseHandler.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -2811,6 +2858,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDirectRes
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDirectResponseHandler.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDirectResponseHandler.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDirectResponseHandler.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDirectResponseHandler.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDirectResponseHandler.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDirectResponseHandler.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDirectResponseHandler.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -2899,6 +2947,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDownstrea
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDownstreamSession.cpp.o: third-party/folly/folly/Likely.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDownstreamSession.cpp.o: third-party/folly/folly/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDownstreamSession.cpp.o: third-party/folly/folly/Memory.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDownstreamSession.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDownstreamSession.cpp.o: third-party/folly/folly/Optional.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDownstreamSession.cpp.o: third-party/folly/folly/Portability.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDownstreamSession.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -2920,6 +2969,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDownstrea
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDownstreamSession.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDownstreamSession.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDownstreamSession.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDownstreamSession.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDownstreamSession.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDownstreamSession.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDownstreamSession.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -3042,6 +3092,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPEvent.cpp
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPEvent.cpp.o: third-party/folly/folly/Likely.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPEvent.cpp.o: third-party/folly/folly/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPEvent.cpp.o: third-party/folly/folly/Memory.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPEvent.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPEvent.cpp.o: third-party/folly/folly/Optional.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPEvent.cpp.o: third-party/folly/folly/Portability.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPEvent.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -3063,6 +3114,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPEvent.cpp
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPEvent.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPEvent.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPEvent.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPEvent.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPEvent.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPEvent.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPEvent.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -3140,6 +3192,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSession.c
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSession.cpp.o: third-party/folly/folly/Likely.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSession.cpp.o: third-party/folly/folly/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSession.cpp.o: third-party/folly/folly/Memory.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSession.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSession.cpp.o: third-party/folly/folly/Optional.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSession.cpp.o: third-party/folly/folly/Portability.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSession.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -3161,6 +3214,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSession.c
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSession.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSession.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSession.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSession.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSession.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSession.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSession.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -3436,6 +3490,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransacti
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransaction.cpp.o: third-party/folly/folly/Likely.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransaction.cpp.o: third-party/folly/folly/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransaction.cpp.o: third-party/folly/folly/Memory.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransaction.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransaction.cpp.o: third-party/folly/folly/Optional.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransaction.cpp.o: third-party/folly/folly/Portability.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransaction.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -3457,6 +3512,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransacti
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransaction.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransaction.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransaction.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransaction.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransaction.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransaction.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransaction.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -3557,6 +3613,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPUpstreamS
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPUpstreamSession.cpp.o: third-party/folly/folly/Likely.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPUpstreamSession.cpp.o: third-party/folly/folly/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPUpstreamSession.cpp.o: third-party/folly/folly/Memory.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPUpstreamSession.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPUpstreamSession.cpp.o: third-party/folly/folly/Optional.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPUpstreamSession.cpp.o: third-party/folly/folly/Portability.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPUpstreamSession.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -3578,6 +3635,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPUpstreamS
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPUpstreamSession.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPUpstreamSession.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPUpstreamSession.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPUpstreamSession.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPUpstreamSession.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPUpstreamSession.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPUpstreamSession.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -3844,6 +3902,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/TransportFilt
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/TransportFilter.cpp.o: third-party/folly/folly/Likely.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/TransportFilter.cpp.o: third-party/folly/folly/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/TransportFilter.cpp.o: third-party/folly/folly/Memory.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/TransportFilter.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/TransportFilter.cpp.o: third-party/folly/folly/Portability.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/TransportFilter.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/TransportFilter.cpp.o: third-party/folly/folly/RWSpinLock.h
@@ -3862,6 +3921,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/TransportFilt
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/TransportFilter.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/TransportFilter.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/TransportFilter.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/TransportFilter.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/TransportFilter.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/TransportFilter.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/TransportFilter.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -4112,6 +4172,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/WorkerThread.cpp.
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/WorkerThread.cpp.o: third-party/folly/folly/Hash.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/WorkerThread.cpp.o: third-party/folly/folly/Likely.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/WorkerThread.cpp.o: third-party/folly/folly/Malloc.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/WorkerThread.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/WorkerThread.cpp.o: third-party/folly/folly/Portability.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/WorkerThread.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/WorkerThread.cpp.o: third-party/folly/folly/RWSpinLock.h
@@ -4128,6 +4189,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/WorkerThread.cpp.
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/WorkerThread.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/WorkerThread.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/WorkerThread.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/WorkerThread.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/WorkerThread.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/WorkerThread.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/WorkerThread.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -4152,6 +4214,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/AsyncTimeoutSet.cpp.
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/AsyncTimeoutSet.cpp.o: third-party/folly/folly/Hash.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/AsyncTimeoutSet.cpp.o: third-party/folly/folly/Likely.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/AsyncTimeoutSet.cpp.o: third-party/folly/folly/Malloc.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/AsyncTimeoutSet.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/AsyncTimeoutSet.cpp.o: third-party/folly/folly/Portability.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/AsyncTimeoutSet.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/AsyncTimeoutSet.cpp.o: third-party/folly/folly/RWSpinLock.h
@@ -4166,6 +4229,7 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/AsyncTimeoutSet.cpp.
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/AsyncTimeoutSet.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/AsyncTimeoutSet.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/AsyncTimeoutSet.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/AsyncTimeoutSet.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/AsyncTimeoutSet.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/AsyncTimeoutSet.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/AsyncTimeoutSet.cpp.o: third-party/folly/folly/io/async/AsyncTimeout.h

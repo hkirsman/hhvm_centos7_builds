@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/tmp/hhvm-3.11.1/hphp/tools/hfsort/hfutil.cpp
+/tmp/hhvm-3.12.0/hphp/tools/hfsort/hfutil.cpp
 hphp/tools/hfsort/hfutil.h
-/tmp/hhvm-3.11.1/hphp/tools/hfsort/hphp/tools/hfsort/hfutil.h
+/tmp/hhvm-3.12.0/hphp/tools/hfsort/hphp/tools/hfsort/hfutil.h
 set
 -
 stdio.h
@@ -20,21 +20,21 @@ zlib.h
 ctype.h
 -
 
-/tmp/hhvm-3.11.1/hphp/tools/hfsort/jitsort.cpp
+/tmp/hhvm-3.12.0/hphp/tools/hfsort/jitsort.cpp
 hphp/tools/hfsort/jitsort.h
-/tmp/hhvm-3.11.1/hphp/tools/hfsort/hphp/tools/hfsort/jitsort.h
+/tmp/hhvm-3.12.0/hphp/tools/hfsort/hphp/tools/hfsort/jitsort.h
 hphp/util/light-process.h
-/tmp/hhvm-3.11.1/hphp/tools/hfsort/hphp/util/light-process.h
+/tmp/hhvm-3.12.0/hphp/tools/hfsort/hphp/util/light-process.h
 hphp/util/logger.h
-/tmp/hhvm-3.11.1/hphp/tools/hfsort/hphp/util/logger.h
+/tmp/hhvm-3.12.0/hphp/tools/hfsort/hphp/util/logger.h
 hphp/util/string-vsnprintf.h
-/tmp/hhvm-3.11.1/hphp/tools/hfsort/hphp/util/string-vsnprintf.h
+/tmp/hhvm-3.12.0/hphp/tools/hfsort/hphp/util/string-vsnprintf.h
 folly/Format.h
 -
 folly/ScopeGuard.h
 -
 hphp/tools/hfsort/hfutil.h
-/tmp/hhvm-3.11.1/hphp/tools/hfsort/hphp/tools/hfsort/hfutil.h
+/tmp/hhvm-3.12.0/hphp/tools/hfsort/hphp/tools/hfsort/hfutil.h
 assert.h
 -
 zlib.h
@@ -204,6 +204,14 @@ hphp/util/hphp/util/process.h
 hphp/util/lock.h
 hphp/util/hphp/util/lock.h
 
+hphp/util/locale-portability.h
+locale.h
+-
+langinfo.h
+-
+xlocale.h
+-
+
 hphp/util/lock.h
 hphp/util/mutex.h
 hphp/util/hphp/util/mutex.h
@@ -264,6 +272,34 @@ folly/Portability.h
 folly/CPortability.h
 -
 sys/param.h
+-
+hphp/util/portability/fnmatch.h
+hphp/util/hphp/util/portability/fnmatch.h
+hphp/util/portability/glob.h
+hphp/util/hphp/util/portability/glob.h
+hphp/util/portability/rand_r.h
+hphp/util/hphp/util/portability/rand_r.h
+hphp/util/portability/strfmon.h
+hphp/util/hphp/util/portability/strfmon.h
+hphp/util/portability/strptime.h
+hphp/util/hphp/util/portability/strptime.h
+
+hphp/util/portability/fnmatch.h
+
+hphp/util/portability/glob.h
+
+hphp/util/portability/rand_r.h
+
+hphp/util/portability/strfmon.h
+hphp/util/locale-portability.h
+hphp/util/portability/hphp/util/locale-portability.h
+folly/Portability.h
+-
+stdint.h
+-
+
+hphp/util/portability/strptime.h
+time.h
 -
 
 hphp/util/process.h
@@ -646,6 +682,30 @@ stdexcept
 utility
 -
 
+third-party/folly/folly/MicroSpinLock.h
+array
+-
+cinttypes
+-
+type_traits
+-
+boost/noncopyable.hpp
+-
+cstdlib
+-
+pthread.h
+-
+mutex
+-
+atomic
+-
+glog/logging.h
+-
+folly/detail/Sleeper.h
+-
+folly/Portability.h
+-
+
 third-party/folly/folly/Portability.h
 string.h
 -
@@ -962,6 +1022,14 @@ cstddef
 folly/detail/RangeCommon.h
 -
 
+third-party/folly/folly/detail/Sleeper.h
+cinttypes
+-
+ctime
+-
+folly/Portability.h
+-
+
 third-party/folly/folly/detail/ThreadLocalDetail.h
 limits.h
 -
@@ -980,6 +1048,8 @@ folly/Foreach.h
 folly/Exception.h
 -
 folly/Malloc.h
+-
+folly/MicroSpinLock.h
 -
 
 third-party/folly/folly/detail/UncaughtExceptionCounter.h

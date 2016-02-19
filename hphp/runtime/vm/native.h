@@ -20,6 +20,7 @@
 #include "hphp/runtime/base/typed-value.h"
 
 #include "hphp/runtime/vm/func.h"
+#include "hphp/util/abi-cxx.h"
 
 #include <type_traits>
 
@@ -232,28 +233,6 @@ void callFunc(const Func* func, void* ctx,
  */
 const StringData* getInvokeName(ActRec* ar);
 
-/**
- * Returns a specialization of either functionWrapper or methodWrapper
- *
- * functionWrapper() Unpacks args and coerces types according
- * to Func typehints. Calls C++ function in the form:
- * ret f_foo(type arg1, type arg2, ...)
- * Marshalls return into TypedValue.
- *
- * methodWrapper() behaves the same as functionWrapper(),
- * but also prepends either an ObjectData* (instance) or Class* (static)
- * argument to the signature. i.e.:
- * ret c_class_ni_method(ObjectData* this_, type arg1, type arg2, ...)
- * ret c_class_ns_method(Class* self_, type arg1, type arg2, ...)
- */
-BuiltinFunction getWrapper(bool method, bool usesDoubles);
-
-/**
- * Fallback method bound to declared methods with no matching
- * internal implementation.
- */
-TypedValue* unimplementedWrapper(ActRec* ar);
-
 #define NATIVE_TYPES                                \
   /* kind       arg type              return type */  \
   X(Int32,      int32_t,              int32_t)        \
@@ -404,6 +383,35 @@ struct BuiltinFunctionInfo {
   BuiltinFunction ptr;
 };
 
+/////////////////////////////////////////////////////////////////////////////
+
+/**
+ * Returns a specialization of either functionWrapper or methodWrapper
+ *
+ * functionWrapper() Unpacks args and coerces types according
+ * to Func typehints. Calls C++ function in the form:
+ * ret f_foo(type arg1, type arg2, ...)
+ * Marshalls return into TypedValue.
+ *
+ * methodWrapper() behaves the same as functionWrapper(),
+ * but also prepends either an ObjectData* (instance) or Class* (static)
+ * argument to the signature. i.e.:
+ * ret c_class_ni_method(ObjectData* this_, type arg1, type arg2, ...)
+ * ret c_class_ns_method(Class* self_, type arg1, type arg2, ...)
+ */
+void getFunctionPointers(const BuiltinFunctionInfo& info,
+                         int nativeAttrs,
+                         BuiltinFunction& bif,
+                         BuiltinFunction& nif);
+
+/**
+ * Fallback method bound to declared methods with no matching
+ * internal implementation.
+ */
+TypedValue* unimplementedWrapper(ActRec* ar);
+
+/////////////////////////////////////////////////////////////////////////////
+
 /**
  * Case insensitive map of "name" to function pointer
  *
@@ -417,8 +425,9 @@ typedef hphp_hash_map<const StringData*, BuiltinFunctionInfo,
 
 extern BuiltinFunctionMap s_builtinFunctions;
 
-template <class Fun>
-inline void registerBuiltinFunction(const char* name, Fun func) {
+template <class Fun> typename
+  std::enable_if<!std::is_member_function_pointer<Fun>::value, void>::type
+registerBuiltinFunction(const char* name, Fun func) {
   static_assert(
     std::is_pointer<Fun>::value &&
     std::is_function<typename std::remove_pointer<Fun>::type>::value,
@@ -431,8 +440,9 @@ inline void registerBuiltinFunction(const char* name, Fun func) {
   s_builtinFunctions[makeStaticString(name)] = BuiltinFunctionInfo(func);
 }
 
-template <class Fun>
-inline void registerBuiltinFunction(const String& name, Fun func) {
+template <class Fun> typename
+  std::enable_if<!std::is_member_function_pointer<Fun>::value, void>::type
+registerBuiltinFunction(const String& name, Fun func) {
   static_assert(
     std::is_pointer<Fun>::value &&
     std::is_function<typename std::remove_pointer<Fun>::type>::value,
@@ -445,8 +455,9 @@ inline void registerBuiltinFunction(const String& name, Fun func) {
   s_builtinFunctions[makeStaticString(name)] = BuiltinFunctionInfo(func);
 }
 
-template <class Fun>
-inline void registerBuiltinZendFunction(const char* name, Fun func) {
+template <class Fun> typename
+  std::enable_if<!std::is_member_function_pointer<Fun>::value, void>::type
+registerBuiltinZendFunction(const char* name, Fun func) {
   static_assert(
     std::is_pointer<Fun>::value &&
     std::is_function<typename std::remove_pointer<Fun>::type>::value,
@@ -458,8 +469,9 @@ inline void registerBuiltinZendFunction(const char* name, Fun func) {
   s_builtinFunctions[makeStaticString(name)] = bfi;
 }
 
-template <class Fun>
-inline void registerBuiltinZendFunction(const String& name, Fun func) {
+template <class Fun> typename
+  std::enable_if<!std::is_member_function_pointer<Fun>::value, void>::type
+registerBuiltinZendFunction(const String& name, Fun func) {
   static_assert(
     std::is_pointer<Fun>::value &&
     std::is_function<typename std::remove_pointer<Fun>::type>::value,
@@ -470,6 +482,43 @@ inline void registerBuiltinZendFunction(const String& name, Fun func) {
   bfi.sig = NativeSig(ZendFuncType{});
   s_builtinFunctions[makeStaticString(name)] = bfi;
 }
+
+// Specializations of registerBuiltinFunction for taking
+// Pointers to Member Functions and making them look like HNI wrapper funcs
+//
+// This allows invoking object method calls directly,
+// but ONLY for specialized subclasses of ObjectData.
+//
+// This API is limited to: Closure, Asio, and Collections
+// Do not use it if you are not implementing one of these
+template<class Ret, class Cls> typename
+  std::enable_if<std::is_base_of<ObjectData, Cls>::value, void>::type
+registerBuiltinFunction(const char* name, Ret (Cls::*func)()) {
+  registerBuiltinFunction(name,
+                          (Ret (*)(ObjectData*))getMethodPtr(func));
+}
+
+template<class Ret, class Cls, class... Args> typename
+  std::enable_if<std::is_base_of<ObjectData, Cls>::value, void>::type
+registerBuiltinFunction(const char* name, Ret (Cls::*func)(Args...)) {
+  registerBuiltinFunction(name,
+                          (Ret (*)(ObjectData*, Args...))getMethodPtr(func));
+}
+
+template<class Ret, class Cls> typename
+  std::enable_if<std::is_base_of<ObjectData, Cls>::value, void>::type
+registerBuiltinFunction(const char* name, Ret (Cls::*func)() const) {
+  registerBuiltinFunction(name,
+                          (Ret (*)(ObjectData*))getMethodPtr(func));
+}
+template<class Ret, class Cls, class... Args> typename
+  std::enable_if<std::is_base_of<ObjectData, Cls>::value, void>::type
+registerBuiltinFunction(const char* name, Ret (Cls::*func)(Args...) const) {
+  registerBuiltinFunction(name,
+                          (Ret (*)(ObjectData*, Args...))getMethodPtr(func));
+}
+
+/////////////////////////////////////////////////////////////////////////////
 
 const char* checkTypeFunc(const NativeSig& sig,
                           const TypeConstraint& retType,

@@ -52,6 +52,9 @@
 #include "hphp/runtime/base/builtin-functions.h"
 #include "hphp/runtime/base/apc-file-storage.h"
 #include "hphp/runtime/base/extended-logger.h"
+#ifdef FACEBOOK
+#include "hphp/facebook/runtime/server/thrift-logger.h"
+#endif
 #include "hphp/runtime/base/simple-counter.h"
 #include "hphp/runtime/base/memory-manager.h"
 #include "hphp/runtime/base/preg.h"
@@ -382,6 +385,7 @@ bool RuntimeOption::PHP7_EngineExceptions = false;
 bool RuntimeOption::PHP7_IntSemantics = false;
 bool RuntimeOption::PHP7_LTR_assign = false;
 bool RuntimeOption::PHP7_NoHexNumerics = false;
+bool RuntimeOption::PHP7_ReportVersion = false;
 bool RuntimeOption::PHP7_ScalarTypes = false;
 bool RuntimeOption::PHP7_UVS = false;
 
@@ -402,14 +406,6 @@ const std::string& RuntimeOption::GetServerPrimaryIPv4() {
 const std::string& RuntimeOption::GetServerPrimaryIPv6() {
    static std::string serverPrimaryIPv6 = GetPrimaryIPv6();
    return serverPrimaryIPv6;
-}
-
-static inline bool newMInstrsDefault() {
-#ifdef HHVM_NEW_MINSTRS
-  return true;
-#else
-  return getenv("HHVM_NEW_MINSTRS");
-#endif
 }
 
 static inline std::string regionSelectorDefault() {
@@ -533,6 +529,11 @@ bool RuntimeOption::RepoDebugInfo = true;
 // perf-sensitive.
 bool RuntimeOption::RepoPreload;
 
+bool RuntimeOption::HHProfEnabled = false;
+bool RuntimeOption::HHProfActive = false;
+bool RuntimeOption::HHProfAccum = false;
+bool RuntimeOption::HHProfRequest = false;
+
 bool RuntimeOption::SandboxMode = false;
 std::string RuntimeOption::SandboxPattern;
 std::string RuntimeOption::SandboxHome;
@@ -564,15 +565,6 @@ std::string RuntimeOption::MailForceExtraParameters;
 int64_t RuntimeOption::PregBacktraceLimit = 1000000;
 int64_t RuntimeOption::PregRecursionLimit = 100000;
 bool RuntimeOption::EnablePregErrorLog = true;
-
-bool RuntimeOption::HHProfServerEnabled = false;
-int RuntimeOption::HHProfServerPort = 4327;
-int RuntimeOption::HHProfServerThreads = 2;
-int RuntimeOption::HHProfServerTimeoutSeconds = 30;
-bool RuntimeOption::HHProfServerProfileClientMode = true;
-bool RuntimeOption::HHProfServerAllocationProfile = false;
-int RuntimeOption::HHProfServerFilterMinAllocPerReq = 2;
-int RuntimeOption::HHProfServerFilterMinBytesPerReq = 128;
 
 bool RuntimeOption::SimpleXMLEmptyNamespaceMatchesAll = false;
 
@@ -807,33 +799,48 @@ void RuntimeOption::Load(
       }
     ));
 
-    Config::Bind(Logger::LogHeader, ini, config, "Log.Header");
-    if (Config::GetBool(ini, config, "Log.AlwaysPrintStackTraces")) {
-      Logger::SetTheLogger(new ExtendedLogger());
-      ExtendedLogger::EnabledByDefault = true;
-    }
-    Config::Bind(Logger::LogNativeStackTrace, ini, config,
-                 "Log.NativeStackTrace", true);
-    Config::Bind(Logger::MaxMessagesPerRequest, ini,
-                 config, "Log.MaxMessagesPerRequest", -1);
-
-    Config::Bind(Logger::UseSyslog, ini, config, "Log.UseSyslog", false);
-    Config::Bind(Logger::UseLogFile, ini, config, "Log.UseLogFile", true);
-    Config::Bind(Logger::UseCronolog, ini, config, "Log.UseCronolog", false);
-    Config::Bind(Logger::UseRequestLog, ini, config, "Log.UseRequestLog",
-                 false);
-    if (Logger::UseLogFile) {
+#ifdef FACEBOOK
+    if (Config::GetBool(ini, config, "Log.UseThriftLogger", false)) {
+      fprintf(stderr,
+              "WARNING: Log.UseThriftLogger overrides other logger options.\n"
+              "WARNING: Log.UseThriftLogger ignores logger's thread-hook.\n");
+      Logger::UseLogFile = true;
       Config::Bind(LogFile, ini, config, "Log.File");
-      if (!RuntimeOption::ServerExecutionMode()) {
-        LogFile.clear();
-      }
       if (LogFile[0] == '|') Logger::IsPipeOutput = true;
       Config::Bind(LogFileSymLink, ini, config, "Log.SymLink");
+      Logger::SetTheLogger(new ThriftLogger());
+#else
+    if (false) {
+#endif
+    } else {
+      Config::Bind(Logger::LogHeader, ini, config, "Log.Header");
+      if (Config::GetBool(ini, config, "Log.AlwaysPrintStackTraces")) {
+        Logger::SetTheLogger(new ExtendedLogger());
+        ExtendedLogger::EnabledByDefault = true;
+      }
+      Config::Bind(Logger::LogNativeStackTrace, ini, config,
+                   "Log.NativeStackTrace", true);
+      Config::Bind(Logger::UseSyslog, ini, config, "Log.UseSyslog", false);
+      Config::Bind(Logger::UseLogFile, ini, config, "Log.UseLogFile", true);
+      Config::Bind(Logger::UseRequestLog, ini, config, "Log.UseRequestLog",
+                   false);
+      Config::Bind(Logger::AlwaysEscapeLog, ini, config, "Log.AlwaysEscapeLog",
+                   true);
+      if (Logger::UseLogFile) {
+        Config::Bind(LogFile, ini, config, "Log.File");
+        if (!RuntimeOption::ServerExecutionMode()) {
+          LogFile.clear();
+        }
+        if (LogFile[0] == '|') Logger::IsPipeOutput = true;
+        Config::Bind(LogFileSymLink, ini, config, "Log.SymLink");
+      }
     }
+
+    Config::Bind(Logger::UseCronolog, ini, config, "Log.UseCronolog", false);
+    Config::Bind(Logger::MaxMessagesPerRequest, ini,
+                 config, "Log.MaxMessagesPerRequest", -1);
     Config::Bind(LogFileFlusher::DropCacheChunkSize, ini,
                  config, "Log.DropCacheChunkSize", 1 << 20);
-    Config::Bind(Logger::AlwaysEscapeLog, ini, config, "Log.AlwaysEscapeLog",
-                 true);
     Config::Bind(RuntimeOption::LogHeaderMangle, ini, config,
                  "Log.HeaderMangle", 0);
     Config::Bind(AlwaysLogUnhandledExceptions, ini,
@@ -1006,6 +1013,13 @@ void RuntimeOption::Load(
     Config::Bind(RepoPreload, ini, config, "Repo.Preload", false);
   }
 
+  {
+    // HHProf
+    Config::Bind(HHProfEnabled, ini, config, "HHProf.Enabled", false);
+    Config::Bind(HHProfActive, ini, config, "HHProf.Active", false);
+    Config::Bind(HHProfAccum, ini, config, "HHProf.Accum", false);
+    Config::Bind(HHProfRequest, ini, config, "HHProf.Request", false);
+  }
   {
     // Eval
     Config::Bind(EnableHipHopSyntax, ini, config, "Eval.EnableHipHopSyntax");
@@ -1198,6 +1212,8 @@ void RuntimeOption::Load(
                  s_PHP7_master);
     Config::Bind(PHP7_NoHexNumerics, ini, config, "PHP7.NoHexNumerics",
                  s_PHP7_master);
+    Config::Bind(PHP7_ReportVersion, ini, config, "PHP7.ReportVersion",
+                 s_PHP7_master);
     Config::Bind(PHP7_ScalarTypes, ini, config, "PHP7.ScalarTypes",
                  s_PHP7_master);
     Config::Bind(PHP7_UVS, ini, config, "PHP7.UVS", s_PHP7_master);
@@ -1335,9 +1351,12 @@ void RuntimeOption::Load(
                  "Server.TLSClientCipherSpec");
 
     // SourceRoot has been default to: Process::GetCurrentDirectory() + '/'
+    auto defSourceRoot = SourceRoot;
     Config::Bind(SourceRoot, ini, config, "Server.SourceRoot", SourceRoot);
-    string srcRoot = FileUtil::normalizeDir(SourceRoot);
-    if (!srcRoot.empty()) SourceRoot = srcRoot;
+    SourceRoot = FileUtil::normalizeDir(SourceRoot);
+    if (SourceRoot.empty()) {
+      SourceRoot = defSourceRoot;
+    }
     FileCache::SourceRoot = SourceRoot;
 
     Config::Bind(IncludeSearchPaths, ini, config, "Server.IncludeSearchPaths");
@@ -1641,9 +1660,8 @@ void RuntimeOption::Load(
   {
     // Sandbox
     Config::Bind(SandboxMode, ini, config, "Sandbox.SandboxMode");
-    SandboxPattern = format_pattern(Config::GetString(ini, config,
-                                                      "Sandbox.Pattern"),
-                                    true);
+    Config::Bind(SandboxPattern, ini, config, "Sandbox.Pattern");
+    SandboxPattern = format_pattern(SandboxPattern, true);
     Config::Bind(SandboxHome, ini, config, "Sandbox.Home");
     Config::Bind(SandboxFallback, ini, config, "Sandbox.Fallback");
     Config::Bind(SandboxConfFile, ini, config, "Sandbox.ConfFile");
@@ -1668,25 +1686,6 @@ void RuntimeOption::Load(
     Config::Bind(PregRecursionLimit, ini, config, "Preg.RecursionLimit",
                  100000);
     Config::Bind(EnablePregErrorLog, ini, config, "Preg.ErrorLog", true);
-  }
-  {
-    Config::Bind(HHProfServerEnabled, ini, config, "HHProfServer.Enabled",
-                 false);
-    Config::Bind(HHProfServerPort, ini, config, "HHProfServer.Port", 4327);
-    Config::Bind(HHProfServerThreads, ini, config, "HHProfServer.Threads", 2);
-    Config::Bind(HHProfServerTimeoutSeconds, ini, config,
-                 "HHProfServer.TimeoutSeconds", 30);
-    Config::Bind(HHProfServerProfileClientMode, ini, config,
-                 "HHProfServer.ProfileClientMode", true);
-    Config::Bind(HHProfServerAllocationProfile, ini, config,
-                 "HHProfServer.AllocationProfile", false);
-    {
-      // HHProfServer.Filter.*
-      Config::Bind(HHProfServerFilterMinAllocPerReq, ini, config,
-                   "HHProfServer.Filter.MinAllocPerReq", 2);
-      Config::Bind(HHProfServerFilterMinBytesPerReq, ini, config,
-                   "HHProfServer.Filter.MinBytesPerReq", 128);
-    }
   }
   {
     // SimpleXML

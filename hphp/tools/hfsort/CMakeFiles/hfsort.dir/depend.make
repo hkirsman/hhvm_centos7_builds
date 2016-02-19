@@ -3,7 +3,13 @@
 
 hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfsort.cpp.o: hphp/tools/hfsort/hfsort.cpp
 hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfsort.cpp.o: hphp/tools/hfsort/hfutil.h
+hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfsort.cpp.o: hphp/util/locale-portability.h
 hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfsort.cpp.o: hphp/util/portability.h
+hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfsort.cpp.o: hphp/util/portability/fnmatch.h
+hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfsort.cpp.o: hphp/util/portability/glob.h
+hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfsort.cpp.o: hphp/util/portability/rand_r.h
+hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfsort.cpp.o: hphp/util/portability/strfmon.h
+hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfsort.cpp.o: hphp/util/portability/strptime.h
 hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfsort.cpp.o: hphp/util/text-util.h
 hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfsort.cpp.o: third-party/double-conversion/src/double-conversion/double-conversion.h
 hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfsort.cpp.o: third-party/double-conversion/src/double-conversion/utils.h

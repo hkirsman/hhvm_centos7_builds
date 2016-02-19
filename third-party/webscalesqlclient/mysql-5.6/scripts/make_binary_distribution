@@ -1,1 +1,1 @@
-cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && '/usr/bin/cpack' -G TGZ --config CPackConfig.cmake
+cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src && '/usr/bin/cpack' -G TGZ --config CPackConfig.cmake

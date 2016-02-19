@@ -20,6 +20,8 @@
 #include "hphp/runtime/base/strings.h"
 #include "hphp/runtime/base/collections.h"
 
+#include "hphp/runtime/vm/native-prop-handler.h"
+
 #include "hphp/runtime/vm/jit/minstr-effects.h"
 #include "hphp/runtime/vm/jit/normalized-instruction.h"
 #include "hphp/runtime/vm/jit/target-profile.h"
@@ -65,114 +67,6 @@ enum class SimpleOp {
   Map,    // c_Map*
   Pair,   // c_Pair*
 };
-
-/*
- * Minstr Translation State.  Member instructions are complex enough that we
- * need our own state environment while processing one.
- *
- * This is implicitly convertible to IRGS so you can use ht-internal functions
- * on it.  Effectively MTS <: IRGS (except the dot operator).
- */
-struct MTS {
-  explicit MTS(IRGS& irgs, Op effectiveOp)
-    : irgs(irgs)
-    , op(effectiveOp)
-    , immVec(irgs.currentNormalizedInstruction->immVec)
-    , immVecM(irgs.currentNormalizedInstruction->immVecM)
-    , ni(*irgs.currentNormalizedInstruction)
-    , irb(*irgs.irb)
-    , unit(irgs.unit)
-    , mii(getMInstrInfo(effectiveOp))
-    , iInd(mii.valCount())
-  {}
-  /* implicit */ operator IRGS&() { return irgs; }
-  /* implicit */ operator const IRGS&() const { return irgs; }
-
-  IRGS& irgs;
-  Op op;
-  ImmVector immVec;
-  jit::vector<MemberCode> immVecM;
-  const NormalizedInstruction& ni;
-  IRBuilder& irb;
-  IRUnit& unit;
-  MInstrInfo mii;
-
-  /*
-   * Member index. The current position in immVecM, which contains the list of
-   * member lookup keys.
-   */
-  unsigned mInd;
-
-  /*
-   * Input index. The current position in ni.inputs. This travels at a
-   * different rate than mInd because not all member codes correspond to a
-   * NormalizedInstruction input.
-   */
-  unsigned iInd;
-
-  /*
-   * Cached information about which stages of the minstr need ratchet
-   * operations. Filled in by computeRatchets().
-   */
-  unsigned numLogicalRatchets;
-  bool needFirstRatchet;
-  bool needFinalRatchet;
-
-  /*
-   * Old minstrs use this flag to determine whether they can elide all
-   * operations to MInstrState.
-   */
-  bool needMIS{true};
-
-  /*
-   * The value of the base for the next member operation. Starts as the base
-   * for the whole instruction and is updated as the translator makes
-   * progress.
-   *
-   * We have a separate type in case we have more information about the type
-   * than base.value->type() has (this may be the case with pointers to locals
-   * or stack slots right now, for example). If base.value is not nullptr,
-   * base.value->type() is always a supertype of base.type, and base.type is
-   * always large enough to accommodate the type the base ends up having at
-   * runtime.
-   *
-   * Don't change base directly; use setBase, to update base.type
-   * automatically.
-   */
-  struct {
-    SSATmp* value{nullptr};
-    Type type{TBottom};
-  } base;
-
-  /* Value computed before we do anything to allow better translations for
-   * common, simple operations. */
-  SimpleOp simpleOp{SimpleOp::None};
-
-  /* The result of the vector instruction. nullptr if the current instruction
-   * doesn't produce a result. */
-  SSATmp* result{nullptr};
-
-  /* If set, contains a value of type CountedStr|Nullptr. If a runtime test
-   * determines that the value is not Nullptr, we incorrectly predicted the
-   * output type of the instruction and must side exit. */
-  SSATmp* strTestResult{nullptr};
-
-  /* If set, contains the catch target for the final set operation of this
-   * instruction. The operations that set this member may need to return an
-   * unexpected type, in which case they'll throw an InvalidSetMException. To
-   * handle this, emitMPost adds code to the catch trace to fish the correct
-   * value out of the exception and side exit. */
-  Block* failedSetBlock{nullptr};
-};
-
-//////////////////////////////////////////////////////////////////////
-
-// Make a catch block that cleans up temporary values stored in the
-// MInstrState, if we have any, in addition to normal catch block behavior.
-Block* makeMISCatch(MTS& env);
-
-// Make a special catch block that deals with InvalidSetMExceptions.
-Block* makeCatchSet(MTS& env);
 
 //////////////////////////////////////////////////////////////////////
 // Property information.
@@ -249,17 +143,47 @@ PropInfo getPropertyOffset(IRGS& env,
   );
 }
 
-//////////////////////////////////////////////////////////////////////
+/*
+ * Returns true iff a Prop{X,DX,Q} operation with the given base and key will
+ * not write to its tvRef src, using the same set of conditions checked in
+ * ObjectData::propImpl(). This allows us to skip the very expensive ratchet
+ * operation after intermediate operations.
+ */
+bool prop_ignores_tvref(IRGS& env, SSATmp* base, const SSATmp* key) {
+  // Make sure it's an object of a known class.
+  if (!base->isA(TObj) || !base->type().clsSpec().cls()) return false;
 
-bool constrainBase(MTS& env, TypeConstraint tc) {
-  // Member operations only care about the inner type of the base if it's
-  // boxed, so this handles the logic of using the inner constraint when
-  // appropriate.
-  if (env.base.type.maybe(TBoxedCell)) {
-    tc.category = DataTypeCountness;
+  auto cls = base->type().clsSpec().cls();
+  auto propType = TGen;
+  auto isDeclared = false;
+
+  // If the property name is known, try to look it up and get its RAT.
+  if (key->hasConstVal(TStr)) {
+    auto const keyStr = key->strVal();
+    auto const ctx = curClass(env);
+    auto const lookup = cls->getDeclPropIndex(ctx, keyStr);
+    if (lookup.prop != kInvalidSlot) {
+      isDeclared = true;
+      if (RuntimeOption::RepoAuthoritative) {
+        propType = typeFromRAT(cls->declPropRepoAuthType(lookup.prop));
+      }
+    }
   }
-  return env.irb.constrainValue(env.base.value, tc);
+
+  // Magic getters/setters use tvRef if the property is unset.
+  if (classMayHaveMagicPropMethods(cls) && propType.maybe(TUninit)) {
+    return false;
+  }
+
+  // Native prop handlers never kick in for declared properties, even if
+  // they're unset.
+  if (!isDeclared && cls->hasNativePropHandler()) return false;
+
+  env.irb->constrainValue(base, TypeConstraint(cls));
+  return true;
 }
+
+//////////////////////////////////////////////////////////////////////
 
 folly::Optional<TypeConstraint> simpleOpConstraint(SimpleOp op) {
   switch (op) {
@@ -291,76 +215,40 @@ folly::Optional<TypeConstraint> simpleOpConstraint(SimpleOp op) {
   always_assert(false);
 }
 
-void specializeBaseIfPossible(MTS& env, Type baseType) {
-  if (auto tc = simpleOpConstraint(env.simpleOp)) {
-    constrainBase(env, *tc);
-    return;
-  }
-
-  if (baseType < TObj && baseType.clsSpec()) {
-    constrainBase(env, TypeConstraint(baseType.clsSpec().cls()));
-  }
-}
-
 //////////////////////////////////////////////////////////////////////
 
 /*
- * Returns a pointer to a particular field in the MInstrState structure.
- *
- * Must not be called if !env.needMIS.
+ * Returns a pointer to a specific value in MInstrState.
  */
-SSATmp* misLea(MTS& env, ptrdiff_t offset) {
-  assertx(env.needMIS);
-  env.irb.fs().setNeedRatchet(true);
-  auto const offvalue = cns(env, safe_cast<int32_t>(offset));
-  return gen(env, LdMIStateAddr, offvalue);
+SSATmp* misLea(IRGS& env, int32_t offset) {
+  env.irb->fs().setNeedRatchet(true);
+  return gen(env, LdMIStateAddr, cns(env, offset));
 }
 
-SSATmp* tvRefPtr(MTS& env) {
+SSATmp* tvRefPtr(IRGS& env) {
   return misLea(env, offsetof(MInstrState, tvRef));
+}
+
+SSATmp* propTvRefPtr(IRGS& env, SSATmp* base, const SSATmp* key) {
+  return prop_ignores_tvref(env, base, key)
+    ? cns(env, Type::cns(nullptr, TPtrToMISGen))
+    : tvRefPtr(env);
+}
+
+SSATmp* tvRef2Ptr(IRGS& env) {
+  return misLea(env, offsetof(MInstrState, tvRef2));
 }
 
 SSATmp* ptrToInitNull(IRGS& env) {
   // Nothing is allowed to write anything to the init null variant, so this
   // inner type is always true.
-  return cns(env, Type::cns(&init_null_variant, TPtrToMembInitNull));
+  return cns(env, Type::cns(&init_null_variant, TPtrToOtherInitNull));
 }
 
 SSATmp* ptrToUninit(IRGS& env) {
   // Nothing can write to the uninit null variant either, so the inner type
   // here is also always true.
-  return cns(env, Type::cns(&null_variant, TPtrToMembUninit));
-}
-
-SSATmp* getInput(IRGS& env, unsigned i, TypeConstraint tc) {
-  auto const& l = env.currentNormalizedInstruction->inputs[i];
-
-  switch (l.space) {
-    case Location::Stack: {
-      auto const offset = l.bcRelOffset;
-      assertx(offset.offset >= 0);
-      return top(env, offset, tc);
-    }
-
-    case Location::Local:
-      // N.B. Exit block for LdLocPseudoMain is nullptr because we always
-      // InterpOne member instructions in pseudomains
-      return ldLoc(env, l.offset, nullptr, tc);
-
-    case Location::Litstr:
-      return cns(env, curUnit(env)->lookupLitstrId(l.offset));
-
-    case Location::Litint:
-      return cns(env, l.offset);
-
-    case Location::This:
-      // If we don't have a current class context, this instruction will be
-      // unreachable.
-      if (!curClass(env)) PUNT(Unreachable-LdThis);
-      return ldThis(env);
-
-    default: not_reached();
-  }
+  return cns(env, Type::cns(&null_variant, TPtrToOtherUninit));
 }
 
 bool mightCallMagicPropMethod(MInstrAttr mia, PropInfo propInfo) {
@@ -382,280 +270,7 @@ bool mightCallMagicPropMethod(MInstrAttr mia, PropInfo propInfo) {
   return !no_override_magic;
 }
 
-bool mInstrHasUnknownOffsets(IRGS& env) {
-  auto const& ni = *env.currentNormalizedInstruction;
-  auto const& mii = getMInstrInfo(ni.mInstrOp());
-  unsigned ii = mii.valCount();
-
-  // It's ok to use DataTypeGeneric here because our only caller will constrain
-  // the base properly if we return true and it uses that information.
-  auto const base = getInput(env, ii, DataTypeGeneric);
-  auto baseType = base->type().unbox();
-  if (!(baseType < (TObj | TInitNull)) || !baseType.clsSpec()) return true;
-  ++ii;
-
-  for (unsigned mi = 0; mi < ni.immVecM.size(); ++mi, ++ii) {
-    auto const mc = ni.immVecM[mi];
-    if (!mcodeIsProp(mc)) return true;
-
-    auto const keyType = provenTypeFromLocation(env, ni.inputs[ii]);
-    auto propInfo = getPropertyOffset(env,
-                                      curClass(env),
-                                      baseType.clsSpec().cls(),
-                                      keyType);
-    if (propInfo.offset == -1 ||
-        mightCallMagicPropMethod(mii.getAttr(mc), propInfo)) {
-      return true;
-    }
-    baseType = typeFromRAT(propInfo.repoAuthType);
-  }
-
-  return false;
-}
-
-// "Simple" bases are stack cells and locals, which imply that
-// env.ni.inputs[env.mii.valCount()] is the actual base value. Other base types
-// have things like Class references or global variable names in the first few
-// inputs.
-bool isSimpleBase(const IRGS& env) {
-  auto const loc = env.currentNormalizedInstruction->immVec.locationCode();
-  return loc == LL || loc == LC || loc == LR || loc == LH;
-}
-
-bool isSingleMember(const IRGS& env) {
-  return env.currentNormalizedInstruction->immVecM.size() == 1;
-}
-
-bool isOptimizableCollectionClass(const Class* klass) {
-  return collections::isType(klass, CollectionType::Vector,
-                                    CollectionType::Map,
-                                    CollectionType::Pair);
-}
-
-/*
- * Inspect the instruction we're about to translate and determine if it can be
- * executed without using an MInstrState struct.
- */
-void checkMIState(MTS& env) {
-  // We're definitely going to punt in emitBaseN, so we might not have guarded
-  // the base's type.
-  if (env.immVec.locationCode() == LNL || env.immVec.locationCode() == LNC) {
-    return;
-  }
-
-  Type baseType       = env.base.type.derefIfPtr();
-  auto const isCGetM  = env.op == Op::CGetM;
-  auto const isSetM   = env.op == Op::SetM;
-  auto const isIssetM = env.op == Op::IssetM;
-  auto const isUnsetM = env.op == Op::UnsetM;
-  auto const isSingle = env.immVecM.size() == 1;
-
-  // We don't need to bother with weird base types.
-  if (baseType.maybe(TCell) && baseType.maybe(TBoxedCell)) {
-    return;
-  }
-
-  if (baseType <= TBoxedCell) {
-    baseType = ldRefReturn(baseType.unbox());
-  }
-
-  // CGetM or SetM with no unknown property offsets.
-  auto const simpleProp = [&]() {
-    if (!isCGetM && !isSetM) return false;
-    if (mInstrHasUnknownOffsets(env)) return false;
-    auto const cls = baseType.clsSpec().cls();
-    if (cls == nullptr) return false;
-    return !constrainBase(env, TypeConstraint(cls).setWeak());
-  }();
-
-  // Final operations that don't use MIState.
-  auto const simpleFinal = isCGetM || isSetM || isIssetM || isUnsetM;
-
-  if (simpleProp || (isSingle && simpleFinal)) {
-    env.needMIS = false;
-
-    // Element access with one element in the vector.
-    auto const singleElem = isSingle && mcodeIsElem(env.immVecM[0]);
-
-    // CGetM or IssetM with one vector array element and a collection type.
-    auto const simpleCollection =
-      (isIssetM || isCGetM) &&
-      singleElem &&
-      baseType < TObj &&
-      isOptimizableCollectionClass(baseType.clsSpec().cls());
-
-    if (simpleCollection) {
-      constrainBase(env, TypeConstraint(baseType.clsSpec().cls()));
-    } else {
-      constrainBase(env, DataTypeSpecific);
-    }
-  }
-}
-
-void emitMTrace(MTS& env) {
-  auto rttStr = [&](int i) {
-    return predictedTypeFromLocation(env, env.ni.inputs[i]).unbox().toString();
-  };
-  std::ostringstream shape;
-  int iInd = env.mii.valCount();
-  const char* separator = "";
-
-  shape << opcodeToName(env.op) << " <";
-  auto baseLoc = env.immVec.locationCode();
-  shape << folly::format("{}:{} ", locationCodeString(baseLoc), rttStr(iInd));
-  ++iInd;
-
-  for (int mInd = 0; mInd < env.immVecM.size(); ++mInd) {
-    auto mcode = env.immVecM[mInd];
-    shape << separator;
-    if (mcode == MW) {
-      shape << "MW";
-    } else if (mcodeIsElem(mcode)) {
-      shape << "ME:" << rttStr(iInd);
-    } else if (mcodeIsProp(mcode)) {
-      shape << "MP:" << rttStr(iInd);
-    } else {
-      not_reached();
-    }
-    if (mcode != MW) ++iInd;
-    separator = " ";
-  }
-  shape << '>';
-  gen(env,
-      IncStatGrouped,
-      cns(env, makeStaticString("vector instructions")),
-      cns(env, makeStaticString(shape.str())),
-      cns(env, 1));
-}
-
-void setBase(MTS& env,
-             SSATmp* tmp,
-             folly::Optional<Type> baseType = folly::none) {
-  env.base.value = tmp;
-  env.base.type = baseType ? *baseType : env.base.value->type();
-  always_assert(env.base.type <= env.base.value->type());
-}
-
-SSATmp* getUnconstrainedKey(MTS& env) {
-  return getInput(env, env.iInd, DataTypeGeneric);
-}
-
-SSATmp* getKey(MTS& env) {
-  auto key = getInput(env, env.iInd, DataTypeSpecific);
-  auto const keyType = key->type();
-
-  assertx(keyType <= TCell || keyType <= TBoxedCell);
-  if (keyType <= TBoxedCell) {
-    key = gen(env, LdRef, TInitCell, key);
-  }
-  return key;
-}
-
-SSATmp* getValue(MTS& env) {
-  // If an instruction takes an rhs, it's always input 0.
-  assertx(env.mii.valCount() == 1);
-  const int kValIdx = 0;
-  return getInput(env, kValIdx, DataTypeGeneric);
-}
-
 //////////////////////////////////////////////////////////////////////
-
-// Compute whether the current instruction a 1-element simple collection
-// (includes Array) operation.
-SimpleOp computeSimpleCollectionOp(
-  const IRGS& env,
-  Type(*getType)(const IRGS&, const Location&)
-) {
-  // DataTypeGeneric is used in here to avoid constraining the base in case we
-  // end up not caring about the type. Consumers of the return value must
-  // constrain the base as appropriate.
-  if (!isSimpleBase(env)) return SimpleOp::None;
-
-  auto const& ni = *env.currentNormalizedInstruction;
-  auto const op = ni.mInstrOp();
-  auto const& mii = getMInstrInfo(ni.mInstrOp());
-  auto baseType = getType(env, ni.inputs[mii.valCount()]);
-  if (baseType.maybe(TCell) && baseType.maybe(TBoxedCell)) {
-    // We might be doing a Base NL or something similar.  Either way we can't
-    // do a simple op if we have a mixed boxed/unboxed type.
-    return SimpleOp::None;
-  }
-
-  auto const& baseL = ni.inputs[mii.valCount()];
-  // Before we do any simpleCollectionOp on a local base, we will always emit
-  // the appropriate CheckRefInner guard to allow us to use a predicted inner
-  // type.  So when calculating the SimpleOp assume that type.
-  if (baseType.maybe(TBoxedCell) && baseL.isLocal()) {
-    baseType = env.irb->predictedInnerType(baseL.offset);
-  }
-
-  bool const readInst = (op == Op::CGetM || op == Op::IssetM);
-  if ((op == OpSetM || readInst) && isSimpleBase(env) &&
-      isSingleMember(env)) {
-    if (baseType <= TArr) {
-      auto isPacked = false;
-      auto isStruct = false;
-      if (auto arrSpec = baseType.arrSpec()) {
-        isPacked = arrSpec.kind() == ArrayData::kPackedKind;
-        isStruct = arrSpec.kind() == ArrayData::kStructKind &&
-                   arrSpec.shape() != nullptr;
-      }
-      if (mcodeIsElem(ni.immVecM[0])) {
-        auto const keyType = getType(env, ni.inputs[mii.valCount() + 1]);
-        if (keyType <=TInt || keyType <= TStr) {
-          if (readInst) {
-            if (keyType <= TInt) {
-              return isPacked ? SimpleOp::PackedArray
-                              : SimpleOp::ProfiledPackedArray;
-            } else if (keyType.hasConstVal(TStaticStr)) {
-              if (!isStruct || !baseType.arrSpec().shape()) {
-                return SimpleOp::ProfiledStructArray;
-              }
-              return SimpleOp::StructArray;
-            }
-          }
-          return SimpleOp::Array;
-        }
-      }
-    } else if (baseType <= TStr && mcodeMaybeArrayIntKey(ni.immVecM[0])) {
-      auto const keyType = getType(env, ni.inputs[mii.valCount() + 1]);
-      if (keyType <= TInt) {
-        // Don't bother with SetM on strings, because profile data
-        // shows it basically never happens.
-        if (readInst) return SimpleOp::String;
-      }
-    } else if (baseType < TObj) {
-      const Class* klass = baseType.clsSpec().cls();
-      auto const isVector = collections::isType(klass, CollectionType::Vector);
-      auto const isImmVector =
-        collections::isType(klass, CollectionType::ImmVector);
-      auto const isPair   = collections::isType(klass, CollectionType::Pair);
-      auto const isMap    = collections::isType(klass, CollectionType::Map);
-      auto const isImmMap = collections::isType(klass, CollectionType::ImmMap);
-
-      if (isVector || isPair || (isImmVector && readInst)) {
-        if (mcodeMaybeVectorKey(ni.immVecM[0])) {
-          auto const keyType = getType(env, ni.inputs[mii.valCount() + 1]);
-          if (keyType <= TInt) {
-            // We don't specialize setting pair elements.
-            if (isPair && op == Op::SetM) return SimpleOp::None;
-            return (isImmVector || isVector)
-              ? SimpleOp::Vector : SimpleOp::Pair;
-          }
-        }
-      } else if (isMap || (isImmMap && readInst)) {
-        if (mcodeIsElem(ni.immVecM[0])) {
-          auto const keyType = getType(env, ni.inputs[mii.valCount() + 1]);
-          if (keyType <= TInt || keyType <= TStr) {
-            return SimpleOp::Map;
-          }
-        }
-      }
-    }
-  }
-
-  return SimpleOp::None;
-}
 
 /*
  * Punt if the given base type isn't known to be boxed or unboxed.
@@ -666,133 +281,14 @@ void checkGenBase(Type baseType) {
   }
 }
 
-//////////////////////////////////////////////////////////////////////
-// Base ops
-
-void emitBaseLCR(MTS& env) {
-  auto const& mia = env.mii.getAttr(env.immVec.locationCode());
-  auto const& baseL = env.ni.inputs[env.iInd];
-  // We use DataTypeGeneric here because we might not care about the type. If
-  // we do, it's constrained further.
-  auto base = getInput(env, env.iInd, DataTypeGeneric);
-  auto baseType = base->type();
-
-  checkGenBase(baseType);
-
-  // Check for Uninit and warn if needed.
-  if (baseL.isLocal() && (mia & MIA_warn) && baseType <= TUninit) {
-    env.irb.constrainLocal(baseL.offset, DataTypeSpecific,
-                           "emitBaseLCR: Uninit base local");
-    gen(env,
-        RaiseUninitLoc,
-        cns(env, curFunc(env)->localVarName(baseL.offset)));
-  }
-
-  /*
-   * If the base is boxed, and from a local, we can do a better translation
-   * using the inner type after guarding.  If we're going to do a generic
-   * translation that uses a pointer to the local we still want this
-   * LdRef---some of the translations will be smarter if they know the inner
-   * type.  This is the first code emitted for the minstr so it's ok to
-   * side-exit here.
-   */
-  Block* failedRef = baseType <= TBoxedCell ? makeExit(env) : nullptr;
-  if (baseType <= TBoxedCell && baseL.isLocal()) {
-    auto const predTy = env.irb.predictedInnerType(baseL.offset);
-    gen(env, CheckRefInner, predTy, failedRef, base);
-    base = gen(env, LdRef, predTy, base);
-    baseType = base->type();
-  }
-
-  // Check for common cases where we can pass the base by value, we unboxed
-  // above if it was needed.
-  if ((baseType <= TObj && mcodeIsProp(env.immVecM[0])) ||
-      env.simpleOp != SimpleOp::None) {
-    // Register that we care about the specific type of the base, though, and
-    // might care about its specialized type.
-    setBase(env, base, baseType);
-    constrainBase(env, DataTypeSpecific);
-    specializeBaseIfPossible(env, baseType);
-    return;
-  }
-
-  // Everything else is passed by pointer. We don't have to worry about
-  // unboxing, since all the generic helpers understand boxed bases. They still
-  // may rely on the CheckRefInner guard above, though; the various emit*
-  // functions may do smarter things based on the guarded type.
-  if (baseL.space == Location::Local) {
-    setBase(
-      env,
-      ldLocAddr(env, baseL.offset),
-      env.irb.localType(
-        baseL.offset,
-        DataTypeSpecific
-      ).ptr(Ptr::Frame)
-    );
-  } else {
-    assertx(baseL.space == Location::Stack);
-    auto const stkType = env.irb.stackType(
-      offsetFromIRSP(env, baseL.bcRelOffset),
-      DataTypeGeneric
-    );
-    setBase(
-      env,
-      ldStkAddr(env, baseL.bcRelOffset),
-      stkType.ptr(Ptr::Stk)
-    );
-  }
-  assertx(env.base.value->type() <= TPtrToGen);
-  assertx(env.base.type <= TPtrToGen);
-
-  // TODO(t2598894): We do this for consistency with the old guard relaxation
-  // code, but may change it in the future.
-  constrainBase(env, DataTypeSpecific);
-}
-
-void emitBaseH(MTS& env) {
-  setBase(env, getInput(env, env.iInd, DataTypeSpecific));
-}
-
-void emitBaseN(MTS& env) {
-  // If this is ever implemented, the check at the beginning of
-  // checkMIState must be removed/adjusted as appropriate.
-  PUNT(emitBaseN);
-}
-
-void emitBaseG(MTS& env) {
-  auto const& mia = env.mii.getAttr(env.immVec.locationCode());
-  auto const gblName = getInput(env, env.iInd, DataTypeSpecific);
-  if (!gblName->isA(TStr)) PUNT(BaseG-non-string-name);
-  setBase(
-    env,
-    gen(env, BaseG, MInstrAttrData { mia }, gblName)
-  );
-}
-
-void emitBaseS(MTS& env) {
-  const int kClassIdx = env.ni.inputs.size() - 1;
-  auto const key = getKey(env);
-  auto const clsRef = getInput(env, kClassIdx,
-                               DataTypeGeneric /* will be a Cls */);
-
-  /*
-   * Note, the base may be a pointer to a boxed type after this.  We don't
-   * unbox here, because we never are going to generate a special translation
-   * unless we know it's not boxed, and the C++ helpers for generic dims
-   * currently always conditionally unbox.
-   */
-  setBase(env, ldClsPropAddr(env, clsRef, key, true));
-}
-
-void emitBaseOp(MTS& env) {
-  switch (env.immVec.locationCode()) {
-  case LL: case LC: case LR: emitBaseLCR(env); break;
-  case LH:                   emitBaseH(env);   break;
-  case LGL: case LGC:        emitBaseG(env);   break;
-  case LNL: case LNC:        emitBaseN(env);   break;
-  case LSL: case LSC:        emitBaseS(env);   break;
-  case InvalidLocationCode:
-    not_reached();
+/*
+ * This is called in a few places to be consistent with old minstrs, and should
+ * be revisited once they're gone. It probably doesn't make sense to always
+ * guard on an object class when we have one.
+ */
+void specializeObjBase(IRGS& env, SSATmp* base) {
+  if (base && base->isA(TObj) && base->type().clsSpec().cls()) {
+    env.irb->constrainValue(base, TypeConstraint(base->type().clsSpec().cls()));
   }
 }
 
@@ -819,13 +315,6 @@ PropInfo getCurrentPropertyOffset(IRGS& env, SSATmp* base,
   }
 
   return info;
-}
-
-PropInfo getCurrentPropertyOffset(MTS& env) {
-  return getCurrentPropertyOffset(
-    env, env.base.value, env.base.type,
-    provenTypeFromLocation(env, env.ni.inputs[env.iInd])
-  );
 }
 
 /*
@@ -965,368 +454,6 @@ SSATmp* emitPropSpecialized(
       return initNull;
     }
   );
-}
-
-SSATmp* emitPropSpecialized(MTS& env, const MInstrAttr mia,
-                            PropInfo propInfo) {
-  return emitPropSpecialized(
-    env, env.base.value, env.base.type, getKey(env),
-    env.immVecM[env.mInd] == MQT, mia, propInfo
-  );
-}
-
-void emitPropGeneric(MTS& env) {
-  auto const mCode = env.immVecM[env.mInd];
-  auto const mia = MInstrAttr(env.mii.getAttr(mCode) & MIA_intermediate_prop);
-  auto const nullsafe = (mCode == MQT);
-
-  if ((mia & MIA_unset) && !env.base.type.strip().maybe(TObj)) {
-    constrainBase(env, DataTypeSpecific);
-    setBase(env, ptrToInitNull(env));
-    return;
-  }
-
-  auto const key = getKey(env);
-
-  if (mia & MIA_define) {
-    if (nullsafe) {
-      gen(
-        env,
-        RaiseError,
-        cns(env, makeStaticString(Strings::NULLSAFE_PROP_WRITE_ERROR))
-      );
-      setBase(env, ptrToInitNull(env));
-      return;
-    }
-    setBase(
-      env,
-      gen(
-        env,
-        PropDX,
-        MInstrAttrData { mia },
-        env.base.value,
-        key,
-        tvRefPtr(env)
-      )
-    );
-  } else {
-    setBase(
-      env,
-      nullsafe
-        ? gen(
-            env,
-            PropQ,
-            env.base.value,
-            key,
-            tvRefPtr(env)
-          )
-        : gen(
-            env,
-            PropX,
-            MInstrAttrData { mia },
-            env.base.value,
-            key,
-            tvRefPtr(env)
-          )
-    );
-  }
-}
-
-void emitProp(MTS& env) {
-  const auto propInfo   = getCurrentPropertyOffset(env);
-  auto mia = env.mii.getAttr(env.immVecM[env.mInd]);
-  if (propInfo.offset == -1 || (mia & MIA_unset) ||
-      mightCallMagicPropMethod(mia, propInfo)) {
-    emitPropGeneric(env);
-  } else {
-    setBase(env, emitPropSpecialized(env, mia, propInfo));
-  }
-}
-
-void emitElem(MTS& env) {
-  auto const mCode = env.immVecM[env.mInd];
-  auto const mia = MInstrAttr(env.mii.getAttr(mCode) & MIA_intermediate);
-  auto const key = getKey(env);
-
-  auto const warn   = mia & MIA_warn;
-  auto const unset  = mia & MIA_unset;
-  auto const define = mia & MIA_define;
-
-  assertx(!define || !unset);
-  assertx(!define || !warn);
-
-  // Fast path for the common/easy case.
-  if (env.base.type <= TPtrToArr && !unset && !define &&
-      key->type().subtypeOfAny(TInt, TStr)) {
-    setBase(
-      env,
-      gen(env,
-          warn ? ElemArrayW : ElemArray,
-          gen(env, LdMem, TArr, env.base.value),
-          key)
-    );
-    return;
-  }
-
-  if (env.base.type <= TPtrToArr && (define || unset) &&
-      key->type().subtypeOfAny(TInt, TStr)) {
-    setBase(
-      env,
-      gen(env, unset ? ElemArrayU : ElemArrayD, env.base.value, key)
-    );
-    return;
-  }
-
-  if (unset) {
-    auto const uninit = ptrToUninit(env);
-    auto const baseType = env.base.type.strip();
-    constrainBase(env, DataTypeSpecific);
-    if (baseType <= TStr) {
-      gen(
-        env,
-        RaiseError,
-        cns(env, makeStaticString(Strings::OP_NOT_SUPPORTED_STRING))
-      );
-      setBase(env, uninit);
-      return;
-    }
-    if (!baseType.maybe(TArr | TObj)) {
-      setBase(env, uninit);
-      return;
-    }
-  }
-
-  if (define || unset) {
-    setBase(
-      env,
-      gen(env,
-          define ? ElemDX : ElemUX,
-          MInstrAttrData { mia },
-          env.base.value,
-          key,
-          tvRefPtr(env))
-    );
-    return;
-  }
-  setBase(
-    env,
-    gen(env,
-        ElemX,
-        MInstrAttrData { mia },
-        env.base.value,
-        key,
-        tvRefPtr(env))
-  );
-}
-
-void emitNewElem(MTS& env) { PUNT(emitNewElem); }
-
-void emitIntermediateOp(MTS& env) {
-  switch (env.immVecM[env.mInd]) {
-    case MEC: case MEL: case MET: case MEI: {
-      emitElem(env);
-      ++env.iInd;
-      break;
-    }
-    case MQT:
-    case MPC: case MPL: case MPT:
-      emitProp(env);
-      ++env.iInd;
-      break;
-    case MW:
-      assertx(env.mii.newElem());
-      emitNewElem(env);
-      break;
-    case InvalidMemberCode:
-      not_reached();
-  }
-}
-
-//////////////////////////////////////////////////////////////////////
-
-bool needFirstRatchet(MTS& env) {
-  if (!isSimpleBase(env)) return true;
-
-  auto const firstVal = getInput(env, env.mii.valCount(), DataTypeSpecific);
-  auto const firstTy = firstVal->type().unbox();
-  if (firstTy <= TArr) {
-    if (mcodeIsElem(env.immVecM[0])) return false;
-    return true;
-  }
-
-  // Using the specialized type here is safe because we only elide the first
-  // ratchet if the first member instruction is a property access, in which
-  // case we have constrained the specialized type of the base in emitBaseLCR
-  if (!(firstTy < TObj && firstTy.clsSpec())) return true;
-  auto const firstCls = firstTy.clsSpec().cls();
-
-  auto const no_overrides = AttrNoOverrideMagicGet|
-    AttrNoOverrideMagicSet|
-    AttrNoOverrideMagicIsset|
-    AttrNoOverrideMagicUnset;
-  if ((firstCls->attrs() & no_overrides) != no_overrides) {
-    // Note: we could also add a check here on whether the first property RAT
-    // contains Uninit---if not we can still return false.  See
-    // mightCallMagicPropMethod.
-    return true;
-  }
-
-  if (firstCls->hasNativePropHandler()) {
-    auto propInfo = getPropertyOffset(
-      env, curClass(env), firstCls,
-      provenTypeFromLocation(env, env.ni.inputs[env.mii.valCount() + 1])
-    );
-    // For native properties if the property is declared then we know don't
-    // call the native handler
-    if (propInfo.offset == -1) return true;
-  }
-
-  return !mcodeIsProp(env.immVecM[0]);
-}
-
-bool needFinalRatchet(const MTS& env) { return env.mii.finalGet(); }
-
-// Ratchet operations occur after each intermediate operation, except
-// possibly the first and last (see need{First,Final}Ratchet()).  No actual
-// ratchet occurs after the final operation, but this means that both tvRef
-// and tvRef2 can contain references just after the final operation.  Here we
-// pretend that a ratchet occurs after the final operation, i.e. a "logical"
-// ratchet.  The reason for counting logical ratchets as part of the total is
-// the following case, in which the logical count is 0:
-//
-//   (base is array)
-//   BaseL
-//   IssetElemL
-//     no logical ratchet
-//
-// Following are a few more examples to make the algorithm clear:
-//
-//   (base is array)      (base is object*)  (base is object*)
-//   BaseL                BaseL              BaseL
-//   ElemL                ElemL              CGetPropL
-//     no ratchet           ratchet            logical ratchet
-//   ElemL                PropL
-//     ratchet              ratchet
-//   ElemL                CGetElemL
-//     ratchet              logical ratchet
-//   IssetElemL
-//     logical ratchet
-//
-//   (base is array)        * If the base is a known (specialized) object type,
-//   BaseL                    we can also avoid the first rachet if we can
-//   ElemL                    prove it can't possibly invoke magic methods.
-//     no ratchet
-//   ElemL
-//     ratchet
-//   ElemL
-//     logical ratchet
-//   SetElemL
-//     no ratchet
-unsigned nLogicalRatchets(MTS& env) {
-  // If we've proven elsewhere that we don't need an MInstrState struct, we know
-  // this translation won't need any ratchets.
-  if (!env.needMIS) return 0;
-
-  unsigned ratchets = env.immVecM.size();
-  if (!env.needFirstRatchet) --ratchets;
-  if (!env.needFinalRatchet) --ratchets;
-  return ratchets;
-}
-
-int ratchetInd(MTS& env) {
-  return env.needFirstRatchet ? int(env.mInd) : int(env.mInd) - 1;
-}
-
-/*
- * Compute and store ratchet-related fields in env, because their values can
- * depending on state that will change during translation of the minstr.
- */
-void computeRatchets(MTS& env) {
-  env.needFirstRatchet = needFirstRatchet(env);
-  env.needFinalRatchet = needFinalRatchet(env);
-  env.numLogicalRatchets = nLogicalRatchets(env);
-}
-
-void emitRatchetRefs(MTS& env) {
-  if (ratchetInd(env) < 0 || ratchetInd(env) >= int(env.numLogicalRatchets)) {
-    return;
-  }
-
-  if (!env.irb.fs().needRatchet()) {
-    return;
-  }
-
-  auto const misRefAddr = misLea(env, offsetof(MInstrState, tvRef));
-
-  setBase(env, cond(
-    env,
-    [&] (Block* taken) {
-      gen(env, CheckInitMem, taken, misRefAddr);
-    },
-    [&] { // Next: tvRef isn't Uninit. Ratchet the refs
-      auto const misRef2Addr = misLea(env, offsetof(MInstrState, tvRef2));
-      // Clean up tvRef2 before overwriting it.
-      if (ratchetInd(env) > 0) {
-        auto const val = gen(env, LdMem, TGen, misRef2Addr);
-        decRef(env, val);
-      }
-      // Copy tvRef to tvRef2.
-      auto const tvRef = gen(env, LdMem, TGen, misRefAddr);
-      gen(env, StMem, misRef2Addr, tvRef);
-      // Reset tvRef.
-      gen(env, StMem, misRefAddr, cns(env, TUninit));
-
-      // Adjust base pointer.
-      assertx(env.base.type <= TPtrToGen);
-
-      // See the comment in ratchetRefs().
-      return misLea(env, offsetof(MInstrState, tvRef2));
-    },
-    [&] { // Taken: tvRef is Uninit. Do nothing.
-      return env.base.value;
-    }
-  ));
-}
-
-void emitMPre(MTS& env) {
-  if (HPHP::Trace::moduleEnabled(HPHP::Trace::minstr, 1)) {
-    emitMTrace(env);
-  }
-
-  env.simpleOp = computeSimpleCollectionOp(env, provenTypeFromLocation);
-  emitBaseOp(env);
-  ++env.iInd;
-
-  checkMIState(env);
-  computeRatchets(env);
-  if (env.needMIS) {
-    auto const uninit = cns(env, TUninit);
-    if (env.numLogicalRatchets > 0) {
-      gen(env, StMem, misLea(env, offsetof(MInstrState, tvRef)), uninit);
-      gen(env, StMem, misLea(env, offsetof(MInstrState, tvRef2)), uninit);
-    }
-
-    // If we're using an MInstrState, all the default-created catch blocks for
-    // exception paths from here out will need to clean up the tvRef{,2}
-    // storage, so install a custom catch creator.
-    auto const penv = &env;
-    env.irgs.catchCreator = [penv] { return makeMISCatch(*penv); };
-  }
-
-  /*
-   * Iterate over all but the last member, which is consumed by a final
-   * operation.
-   *
-   * Intermediate operations (and the base op) can define new StkPtrs, even
-   * though the stack depth won't be changing, so we need to have a stack
-   * boundary in-between each one.
-   */
-  for (env.mInd = 0; env.mInd < env.immVecM.size() - 1; ++env.mInd) {
-    env.irb.exceptionStackBoundary();
-    emitIntermediateOp(env);
-    emitRatchetRefs(env);
-  }
-  env.irb.exceptionStackBoundary();
 }
 
 //////////////////////////////////////////////////////////////////////
@@ -1578,53 +705,6 @@ SSATmp* emitPackedArrayIsset(IRGS& env, SSATmp* base, SSATmp* key) {
   );
 }
 
-void emitArraySet(MTS& env, SSATmp* key, SSATmp* value) {
-  assertx(env.iInd == env.mii.valCount() + 1);
-  const int baseStkIdx = env.mii.valCount();
-  assertx(key->type() <= TCell);
-  assertx(value->type() <= TCell);
-
-  auto const& baseLoc = env.ni.inputs[env.mii.valCount()];
-  auto const setRef =
-    getInput(env, env.mii.valCount(), DataTypeSpecific)->type() <= TBoxedCell;
-
-  // No catch trace below because the helper can't throw. It may reenter to
-  // call destructors so it has a sync point in nativecalls.cpp, but exceptions
-  // are swallowed at destructor boundaries right now: #2182869.
-  if (setRef) {
-    assertx(baseLoc.space == Location::Local ||
-           baseLoc.space == Location::Stack);
-    auto const box = getInput(env, baseStkIdx, DataTypeSpecific);
-    gen(env, ArraySetRef, env.base.value, key, value, box);
-    // Unlike the non-ref case, we don't need to do anything to the stack
-    // because any load of the box will be guarded.
-    env.result = value;
-    return;
-  }
-
-  auto const newArr = gen(
-    env,
-    ArraySet,
-    env.base.value,
-    key,
-    value
-  );
-
-  // Update the base's value with the new array
-  if (baseLoc.space == Location::Local) {
-    // We know it's not boxed (setRef above handles that), and
-    // newArr has already been incref'd in the helper.
-    gen(env, StLoc, LocalId(baseLoc.offset), fp(env), newArr);
-  } else if (baseLoc.space == Location::Stack) {
-    auto const offset = offsetFromIRSP(env, BCSPOffset{baseStkIdx});
-    gen(env, StStk, IRSPOffsetData{offset}, sp(env), newArr);
-  } else {
-    always_assert(false);
-  }
-
-  env.result = value;
-}
-
 void emitVectorSet(IRGS& env, SSATmp* base, SSATmp* key, SSATmp* value) {
   auto const size = gen(env, LdVectorSize, base);
   checkBounds(env, key, size);
@@ -1652,108 +732,9 @@ void emitVectorSet(IRGS& env, SSATmp* base, SSATmp* key, SSATmp* value) {
 
 //////////////////////////////////////////////////////////////////////
 
-void emitCGetProp(MTS& env) {
-  const auto propInfo = getCurrentPropertyOffset(env);
-
-  if (propInfo.offset != -1 &&
-      !mightCallMagicPropMethod(MIA_none, propInfo)) {
-    setBase(env, emitPropSpecialized(env, MIA_warn, propInfo));
-
-    if (!RuntimeOption::RepoAuthoritative) {
-      auto const cellPtr = gen(env, UnboxPtr, env.base.value);
-      env.result = gen(env, LdMem, TCell, cellPtr);
-      gen(env, IncRef, env.result);
-      return;
-    }
-
-    auto const ty = env.base.type.deref();
-    auto const cellPtr = ty.maybe(TBoxedCell)
-      ? gen(env, UnboxPtr, env.base.value)
-      : env.base.value;
-
-    env.result = gen(env, LdMem, ty.unbox(), cellPtr);
-    gen(env, IncRef, env.result);
-    return;
-  }
-
-  auto const nullsafe = (env.immVecM[env.mInd] == MQT);
-  auto const key = getKey(env);
-
-  if (nullsafe) {
-    env.result = gen(env, CGetPropQ, env.base.value, key);
-  } else {
-    env.result =
-      gen(env, CGetProp, MInstrAttrData{MIA_warn}, env.base.value, key);
-  }
-}
-
-void emitVGetProp(MTS& env) {
-  auto const key = getKey(env);
-  if (env.immVecM[env.mInd] == MQT) {
-    gen(
-      env,
-      RaiseError,
-      cns(env, makeStaticString(Strings::NULLSAFE_PROP_WRITE_ERROR))
-    );
-  }
-  env.result = gen(env, VGetProp, env.base.value, key, tvRefPtr(env));
-}
-
-void emitIssetProp(MTS& env) {
-  auto const key = getKey(env);
-  env.result = gen(env, IssetProp, env.base.value, key);
-}
-
-void emitEmptyProp(MTS& env) {
-  auto const key = getKey(env);
-  env.result = gen(env, EmptyProp, env.base.value, key);
-}
-
-void emitSetProp(MTS& env) {
-  auto const value = getValue(env);
-
-  /* If we know the class for the current base, emit a direct property set. */
-  auto const propInfo = getCurrentPropertyOffset(env);
-
-  if (propInfo.offset != -1 &&
-      !mightCallMagicPropMethod(MIA_define, propInfo)) {
-    setBase(env, emitPropSpecialized(env, MIA_define, propInfo));
-
-    auto cellTy = env.base.type.deref();
-    auto cellPtr = env.base.value;
-
-    if (cellTy.maybe(TBoxedCell)) {
-      cellTy = cellTy.unbox();
-      cellPtr = gen(env, UnboxPtr, cellPtr);
-    }
-    auto const oldVal  = gen(env, LdMem, cellTy, cellPtr);
-
-    env.irb.constrainValue(value, DataTypeCountness);
-    gen(env, IncRef, value);
-    gen(env, StMem, cellPtr, value);
-    decRef(env, oldVal);
-    env.result = value;
-    return;
-  }
-
-  // Emit the appropriate helper call.
-  auto const key = getKey(env);
-  gen(env, SetProp, makeCatchSet(env), env.base.value, key, value);
-  env.result = value;
-}
-
-void emitSetOpProp(MTS& env) {
-  SetOpOp op = SetOpOp(env.ni.imm[0].u_OA);
-  auto const key = getKey(env);
-  auto const value = getValue(env);
-  env.result = gen(env, SetOpProp, SetOpData { op },
-                   env.base.value, key, value, tvRefPtr(env));
-}
-
-void emitIncDecProp(MTS& env) {
-  auto const op = static_cast<IncDecOp>(env.ni.imm[0].u_OA);
-  auto const key = getKey(env);
-  auto const propInfo = getCurrentPropertyOffset(env);
+SSATmp* emitIncDecProp(IRGS& env, IncDecOp op, SSATmp* base, SSATmp* key) {
+  auto const propInfo =
+    getCurrentPropertyOffset(env, base, base->type(), key->type());
 
   if (RuntimeOption::RepoAuthoritative &&
       propInfo.offset != -1 &&
@@ -1761,38 +742,19 @@ void emitIncDecProp(MTS& env) {
       !mightCallMagicPropMethod(MIA_define, propInfo)) {
 
     // Special case for when the property is known to be an int.
-    if (env.base.type <= TObj &&
+    if (base->isA(TObj) &&
         propInfo.repoAuthType.tag() == RepoAuthType::Tag::Int) {
-      DEBUG_ONLY auto const propIntTy = TInt.ptr(Ptr::Prop);
-      setBase(env, emitPropSpecialized(env, MIA_define, propInfo));
-      assertx(env.base.value->type() <= propIntTy);
-      auto const prop = gen(env, LdMem, TInt, env.base.value);
+      base = emitPropSpecialized(env, base, base->type(), key, false,
+                                 MIA_define, propInfo);
+      auto const prop = gen(env, LdMem, TInt, base);
       auto const result = incDec(env, op, prop);
       assertx(result != nullptr);
-      gen(env, StMem, env.base.value, result);
-      env.result = isPre(op) ? result : prop;
-      return;
+      gen(env, StMem, base, result);
+      return isPre(op) ? result : prop;
     }
   }
 
-  env.result = gen(env, IncDecProp, IncDecData { op }, env.base.value, key);
-}
-
-void emitBindProp(MTS& env) {
-  auto const key = getKey(env);
-  auto const box = getValue(env);
-  gen(env, BindProp, env.base.value, key, box, tvRefPtr(env));
-  env.result = box;
-}
-
-void emitUnsetProp(MTS& env) {
-  auto const key = getKey(env);
-  if (!env.base.type.strip().maybe(TObj)) {
-    // Noop
-    constrainBase(env, DataTypeSpecific);
-    return;
-  }
-  gen(env, UnsetProp, env.base.value, key);
+  return gen(env, IncDecProp, IncDecData{op}, base, key);
 }
 
 SSATmp* emitCGetElem(IRGS& env, SSATmp* base, SSATmp* key,
@@ -1823,16 +785,6 @@ SSATmp* emitCGetElem(IRGS& env, SSATmp* base, SSATmp* key,
   always_assert(false);
 }
 
-void emitCGetElem(MTS& env) {
-  env.result = emitCGetElem(env, env.base.value, getKey(env),
-                            MOpFlags::Warn, env.simpleOp);
-}
-
-void emitVGetElem(MTS& env) {
-  auto const key = getKey(env);
-  env.result = gen(env, VGetElem, env.base.value, key, tvRefPtr(env));
-}
-
 SSATmp* emitIssetElem(IRGS& env, SSATmp* base, SSATmp* key, SimpleOp simpleOp) {
   switch (simpleOp) {
   case SimpleOp::Array:
@@ -1857,379 +809,10 @@ SSATmp* emitIssetElem(IRGS& env, SSATmp* base, SSATmp* key, SimpleOp simpleOp) {
   always_assert(false);
 }
 
-void emitIssetElem(MTS& env) {
-  env.result = emitIssetElem(env, env.base.value, getKey(env), env.simpleOp);
+void setWithRefImpl(IRGS& env, int32_t keyLoc, SSATmp* value) {
+  auto const key = ldLoc(env, keyLoc, nullptr, DataTypeGeneric);
+  gen(env, SetWithRefElem, gen(env, LdMBase, TPtrToGen), key, value);
 }
-
-void emitEmptyElem(MTS& env) {
-  auto const key = getKey(env);
-  env.result = gen(env, EmptyElem, env.base.value, key);
-}
-
-void emitSetNewElem(MTS& env) {
-  auto const value = getValue(env);
-  if (env.base.type <= TPtrToArr) {
-    constrainBase(env, DataTypeSpecific);
-    gen(env, SetNewElemArray, makeCatchSet(env), env.base.value, value);
-  } else {
-    gen(env, SetNewElem, makeCatchSet(env), env.base.value, value);
-  }
-  env.result = value;
-}
-
-void emitSetWithRefLProp(MTS& env) { SPUNT(__func__); }
-void emitSetWithRefRProp(MTS& env) { emitSetWithRefLProp(env); }
-
-void emitSetWithRefNewElem(MTS& env) {
-  auto const val = getValue(env);
-  gen(env, SetWithRefNewElem, env.base.value, val, tvRefPtr(env));
-  env.result = nullptr;
-}
-
-void emitSetElem(MTS& env) {
-  auto const value = getValue(env);
-  auto const key = getKey(env);
-
-  switch (env.simpleOp) {
-  case SimpleOp::Array:
-  case SimpleOp::ProfiledPackedArray:
-  case SimpleOp::ProfiledStructArray:
-    emitArraySet(env, key, value);
-    break;
-  case SimpleOp::PackedArray:
-  case SimpleOp::StructArray:
-  case SimpleOp::String:
-    always_assert(false && "Bad SimpleOp in emitSetElem");
-    break;
-  case SimpleOp::Vector:
-    emitVectorSet(env, env.base.value, key, value);
-    env.result = value;
-    break;
-  case SimpleOp::Map:
-    gen(env, MapSet, env.base.value, key, value);
-    env.result = value;
-    break;
-  case SimpleOp::Pair:
-  case SimpleOp::None:
-    constrainBase(env, DataTypeSpecific);
-    auto const result = gen(env, SetElem, makeCatchSet(env),
-                            env.base.value, key, value);
-    auto const t = result->type();
-    if (t == TNullptr) {
-      // Base is not a string. Result is always value.
-      env.result = value;
-    } else if (t == TCountedStr) {
-      // Base is a string. Stack result is a new string so we're responsible for
-      // decreffing value.
-      env.irb.constrainValue(value, DataTypeCountness);
-      env.result = result;
-      decRef(env, value);
-    } else {
-      assertx(t == (TCountedStr | TNullptr));
-      // Base might be a string. Assume the result is value, then inform
-      // emitMPost that it needs to test the actual result.
-      env.result = value;
-      env.strTestResult = result;
-    }
-    break;
-  }
-}
-
-void emitSetWithRefElem(MTS& env) {
-  auto const key = getUnconstrainedKey(env);
-  auto const val = getValue(env);
-  gen(env, SetWithRefElem, env.base.value, key, val, tvRefPtr(env));
-  env.result = nullptr;
-}
-
-void emitSetWithRefLElem(MTS& env) { emitSetWithRefElem(env); }
-void emitSetWithRefRElem(MTS& env) { emitSetWithRefElem(env); }
-
-void emitSetOpElem(MTS& env) {
-  auto const op = static_cast<SetOpOp>(env.ni.imm[0].u_OA);
-  env.result = gen(env, SetOpElem, SetOpData{op},
-                   env.base.value, getKey(env), getValue(env),
-                   tvRefPtr(env));
-}
-
-void emitIncDecElem(MTS& env) {
-  auto const op = static_cast<IncDecOp>(env.ni.imm[0].u_OA);
-  env.result = gen(env, IncDecElem, IncDecData { op },
-                   env.base.value, getKey(env), tvRefPtr(env));
-}
-
-void emitBindElem(MTS& env) {
-  auto const key = getKey(env);
-  auto const box = getValue(env);
-  gen(env, BindElem, env.base.value, key, box, tvRefPtr(env));
-  env.result = box;
-}
-
-void emitUnsetElem(MTS& env) {
-  auto const key = getKey(env);
-
-  auto const baseType = env.base.type.strip();
-  constrainBase(env, DataTypeSpecific);
-  if (baseType <= TStr) {
-    gen(env,
-        RaiseError,
-        cns(env, makeStaticString(Strings::CANT_UNSET_STRING)));
-    return;
-  }
-  if (!baseType.maybe(TArr | TObj)) {
-    // Noop
-    return;
-  }
-
-  gen(env, UnsetElem, env.base.value, key);
-}
-
-void emitNotSuppNewElem(MTS& env) {
-  PUNT(NotSuppNewElem);
-}
-
-void emitVGetNewElem(MTS& env) {
-  SPUNT(__func__);
-}
-
-void emitSetOpNewElem(MTS& env) {
-  SPUNT(__func__);
-}
-
-void emitIncDecNewElem(MTS& env) {
-  SPUNT(__func__);
-}
-
-void emitBindNewElem(MTS& env) {
-  auto const box = getValue(env);
-  gen(env, BindNewElem, env.base.value, box, tvRefPtr(env));
-  env.result = box;
-}
-
-void emitFinalMOp(MTS& env) {
-  using MemFun = void (*)(MTS&);
-
-  switch (env.immVecM[env.mInd]) {
-  case MEC: case MEL: case MET: case MEI:
-    static constexpr MemFun elemOps[] = {
-#   define MII(instr, ...) &emit##instr##Elem,
-    MINSTRS
-#   undef MII
-    };
-    elemOps[env.mii.instr()](env);
-    break;
-
-  case MQT:
-  case MPC: case MPL: case MPT:
-    static constexpr MemFun propOps[] = {
-#   define MII(instr, ...) &emit##instr##Prop,
-    MINSTRS
-#   undef MII
-    };
-    propOps[env.mii.instr()](env);
-    break;
-
-  case MW:
-    assertx(env.mii.getAttr(MW) & MIA_final);
-    static constexpr MemFun newOps[] = {
-#   define MII(instr, attrs, bS, iS, vC, fN) \
-      &emit##fN,
-    MINSTRS
-#   undef MII
-    };
-    newOps[env.mii.instr()](env);
-    break;
-
-  case InvalidMemberCode:
-    not_reached();
-  }
-}
-
-//////////////////////////////////////////////////////////////////////
-
-/*
- * Helper to generate decrefs for tvRef(2): during exception handling any
- * objects required only during vector expansion need to be DecRef'd, and we
- * also need to clean them on the main code path before exiting.
- *
- * There may be either one or two such scratch objects, in the case of a Set
- * the first of which will always be tvRef2, in all other cases if only one
- * scratch value is present it will be stored in tvRef.  TODO: that's a bit
- * weird right?
- */
-void cleanTvRefs(MTS& env) {
-  constexpr ptrdiff_t refOffs[] = {
-    offsetof(MInstrState, tvRef),
-    offsetof(MInstrState, tvRef2)
-  };
-  for (unsigned i = 0; i < std::min(env.numLogicalRatchets, 2U); ++i) {
-    auto const addr = misLea(env, refOffs[env.failedSetBlock ? 1 - i : i]);
-    auto const val  = gen(env, LdMem, TGen, addr);
-    decRef(env, val);
-  }
-}
-
-enum class DecRefStyle { FromCatch, FromMain };
-uint32_t decRefStackInputs(MTS& env, DecRefStyle why) {
-  auto const startOff = BCSPOffset{
-    env.op == Op::SetM || env.op == Op::BindM ? 1 : 0
-  };
-  auto const hasStackRHS =
-    env.mii.valCount() && env.ni.inputs[0].space == Location::Stack;
-  auto const stackCnt = env.immVec.numStackValues() + hasStackRHS;
-  for (auto i = startOff; i < stackCnt; ++i) {
-    auto const type = topType(env, i, DataTypeGeneric);
-    if (type <= TCls) continue;
-
-    auto const tc = why == DecRefStyle::FromMain ? DataTypeSpecific
-                                                 : DataTypeGeneric;
-    auto const input = top(env, i, tc);
-    decRef(env, input);
-  }
-  return stackCnt;
-}
-
-void handleStrTestResult(MTS& env) {
-  if (!env.strTestResult) return;
-  // We expected SetElem's base to not be a Str but might be wrong. Make an
-  // exit trace to side exit to the next instruction, replacing our guess
-  // with the correct stack output.
-  ifThen(
-    env,
-    [&] (Block* taken) {
-      gen(env, CheckNullptr, taken, env.strTestResult);
-    },
-    [&] {
-      hint(env, Block::Hint::Unlikely);
-      auto const str = gen(env, AssertNonNull, env.strTestResult);
-      decRef(env, env.result);
-      auto const stackCnt = decRefStackInputs(env, DecRefStyle::FromMain);
-      discard(env, stackCnt);
-      cleanTvRefs(env);
-      push(env, str);
-      gen(env, Jmp, makeExit(env, nextBcOff(env)));
-    }
-  );
-}
-
-Block* makeMISCatch(MTS& env) {
-  auto const exit = defBlock(env.irgs, Block::Hint::Unused);
-  BlockPusher bp(env.irb, makeMarker(env, bcOff(env)), exit);
-  gen(env, BeginCatch);
-  cleanTvRefs(env);
-  gen(env, EndCatch, IRSPOffsetData { offsetFromIRSP(env, BCSPOffset{0}) },
-    fp(env), sp(env));
-  return exit;
-}
-
-Block* makeCatchSet(MTS& env) {
-  env.failedSetBlock = defBlock(env.irgs, Block::Hint::Unused);
-
-  const bool isSetWithRef = env.op == Op::SetWithRefLM ||
-                            env.op == Op::SetWithRefRM;
-
-  BlockPusher bp(env.irb, makeMarker(env, bcOff(env)), env.failedSetBlock);
-  gen(env, BeginCatch);
-
-  ifThen(
-    env,
-    [&] (Block* taken) {
-      gen(env, UnwindCheckSideExit, taken, fp(env), sp(env));
-    },
-    [&] {
-      hint(env, Block::Hint::Unused);
-      cleanTvRefs(env);
-      gen(env, EndCatch, IRSPOffsetData { offsetFromIRSP(env, BCSPOffset{0}) },
-        fp(env), sp(env));
-    }
-  );
-  hint(env, Block::Hint::Unused);
-
-  /*
-   * Fallthrough from here on is side-exiting due to an InvalidSetMException.
-   */
-
-  // For consistency with the interpreter, decref the rhs before we decref the
-  // stack inputs, and decref the ratchet storage after the stack inputs.
-  if (!isSetWithRef) {
-    auto const val = top(env, BCSPOffset{0}, DataTypeGeneric);
-    decRef(env, val);
-  }
-  auto const stackCnt = decRefStackInputs(env, DecRefStyle::FromCatch);
-  discard(env, stackCnt);
-  cleanTvRefs(env);
-  if (!isSetWithRef) {
-    auto const val = gen(env, LdUnwinderValue, TCell);
-    push(env, val);
-  }
-  gen(env, Jmp, makeExit(env, nextBcOff(env)));
-  return env.failedSetBlock;
-}
-
-void emitMPost(MTS& env) {
-  handleStrTestResult(env);
-
-  auto const stackCnt = decRefStackInputs(env, DecRefStyle::FromMain);
-  discard(env, stackCnt);
-  cleanTvRefs(env);
-
-  // Push result, if one was produced. If we had a predicted result
-  // (strTestResult case), it was already guarded on above.
-  if (env.result) {
-    push(env, env.result);
-  } else {
-    assertx(env.op == Op::UnsetM ||
-            env.op == Op::SetWithRefLM ||
-            env.op == Op::SetWithRefRM);
-  }
-}
-
-//////////////////////////////////////////////////////////////////////
-
-void implMInstr(IRGS& irgs, Op effectiveOp) {
-  if (curFunc(irgs)->isPseudoMain()) {
-    interpOne(irgs, *irgs.currentNormalizedInstruction);
-    return;
-  }
-
-  auto env = MTS { irgs, effectiveOp };
-  emitMPre(env);          // Emit the base and every intermediate op
-  emitFinalMOp(env);      // Emit the final operation
-  emitMPost(env);         // Cleanup: decref inputs and scratch values
-}
-
-//////////////////////////////////////////////////////////////////////
-
-bool isClassSpecializedTypeReliable(Type input) {
-  assert(input.isSpecialized());
-  assert(input.clsSpec());
-  auto baseClass = input.clsSpec().cls();
-  return RuntimeOption::RepoAuthoritative &&
-      (baseClass->preClass()->attrs() & AttrUnique);
-}
-
-}
-
-TypeConstraint mInstrBaseConstraint(const IRGS& env, Type predictedType) {
-  if (!isSimpleBase(env)) return DataTypeSpecific;
-
-  if (predictedType.isSpecialized()) {
-    if (predictedType.clsSpec() &&
-        isClassSpecializedTypeReliable(predictedType)) {
-      return TypeConstraint(predictedType.clsSpec().cls());
-    }
-
-    auto const simpleOp =
-      computeSimpleCollectionOp(env, predictedTypeFromLocation);
-    if (auto tc = simpleOpConstraint(simpleOp)) return *tc;
-  }
-
-  return DataTypeSpecific;
-}
-
-//////////////////////////////////////////////////////////////////////
-
-namespace {
 
 /*
  * Determine which simple collection op to use for the given base and key
@@ -2287,22 +870,6 @@ SimpleOp simpleCollectionOp(Type baseType, Type keyType, bool readInst) {
   }
 
   return SimpleOp::None;
-}
-
-/*
- * Returns a pointer to a specific value in MInstrState.
- */
-SSATmp* misLea(IRGS& env, int32_t offset) {
-  env.irb->fs().setNeedRatchet(true);
-  return gen(env, LdMIStateAddr, cns(env, offset));
-}
-
-SSATmp* tvRefPtr(IRGS& env) {
-  return misLea(env, offsetof(MInstrState, tvRef));
-}
-
-SSATmp* tvRef2Ptr(IRGS& env) {
-  return misLea(env, offsetof(MInstrState, tvRef2));
 }
 
 /*
@@ -2374,7 +941,7 @@ void baseSImpl(IRGS& env, SSATmp* name, int32_t clsIdx) {
   gen(env, StMBase, spropPtr);
 
   if (clsIdx == 1) {
-    auto rhs = popC(env, DataTypeGeneric);
+    auto rhs = pop(env, DataTypeGeneric);
     popA(env);
     push(env, rhs);
   } else {
@@ -2398,23 +965,21 @@ void simpleBaseImpl(IRGS& env, SSATmp* base, Type innerTy) {
   env.irb->constrainValue(base, DataTypeSpecific);
 }
 
-SSATmp* propGenericImpl(IRGS& env, MOpFlags flags, SSATmp* base, SSATmp* key,
+SSATmp* propGenericImpl(IRGS& env, MInstrAttr mia, SSATmp* base, SSATmp* key,
                         bool nullsafe) {
-  auto const miaData = MInstrAttrData{mOpFlagsToAttr(flags)};
-  if (flags & MOpFlags::Define) {
-    if (nullsafe) {
-      gen(env, RaiseError,
-          cns(env, makeStaticString(Strings::NULLSAFE_PROP_WRITE_ERROR)));
-      return ptrToInitNull(env);
-    }
+  auto const miaData = MInstrAttrData{mia};
+  auto const define = bool(mia & MIA_define);
 
-    return gen(env, PropDX, miaData, base, key, tvRefPtr(env));
+  if (define && nullsafe) {
+    gen(env, RaiseError,
+        cns(env, makeStaticString(Strings::NULLSAFE_PROP_WRITE_ERROR)));
+    return ptrToInitNull(env);
   }
 
-  if (nullsafe) {
-    return gen(env, PropQ, base, key, tvRefPtr(env));
-  }
-  return gen(env, PropX, miaData, base, key, tvRefPtr(env));
+  auto const tvRef = propTvRefPtr(env, base, key);
+  return nullsafe
+    ? gen(env, PropQ, base, key, tvRef)
+    : gen(env, define ? PropDX : PropX, miaData, base, key, tvRef);
 }
 
 SSATmp* propImpl(IRGS& env, MOpFlags flags, SSATmp* key, bool nullsafe) {
@@ -2433,12 +998,14 @@ SSATmp* propImpl(IRGS& env, MOpFlags flags, SSATmp* key, bool nullsafe) {
     base = basePtr;
   }
 
-  auto const mia = mOpFlagsToAttr(flags);
+  specializeObjBase(env, base);
+
+  auto const mia = MInstrAttr(mOpFlagsToAttr(flags) & MIA_intermediate_prop);
   auto const propInfo =
     getCurrentPropertyOffset(env, base, base->type(), key->type());
   if (propInfo.offset == -1 || (flags & MOpFlags::Unset) ||
       mightCallMagicPropMethod(mia, propInfo)) {
-    return propGenericImpl(env, flags, base, key, nullsafe);
+    return propGenericImpl(env, mia, base, key, nullsafe);
   }
 
   return emitPropSpecialized(env, base, base->type(), key,
@@ -2517,6 +1084,7 @@ void mFinalImpl(IRGS& env, int32_t nDiscard, SSATmp* result) {
 
 SSATmp* cGetPropImpl(IRGS& env, SSATmp* base, SSATmp* key,
                      MOpFlags flags, bool nullsafe) {
+  specializeObjBase(env, base);
   auto const propInfo =
     getCurrentPropertyOffset(env, base, base->type(), key->type());
   auto const mia = mOpFlagsToAttr(flags);
@@ -2666,6 +1234,8 @@ SSATmp* setPropImpl(IRGS& env, SSATmp* key) {
     base = basePtr;
   }
 
+  specializeObjBase(env, base);
+
   auto const mia = MIA_define;
   auto const propInfo =
     getCurrentPropertyOffset(env, base, base->type(), key->type());
@@ -2712,6 +1282,7 @@ void handleStrTestResult(IRGS& env, SSATmp* strTestResult) {
       }
       cleanTvRefs(env);
       push(env, str);
+      gen(env, FinishMemberOp);
       gen(env, Jmp, makeExit(env, nextBcOff(env)));
     }
   );
@@ -2828,6 +1399,27 @@ SSATmp* setElemImpl(IRGS& env, SSATmp* key) {
   return value;
 }
 
+void vGetMImpl(IRGS& env, int32_t nDiscard, PropElemOp propElem, SSATmp* key) {
+  auto basePtr = gen(env, LdMBase, TPtrToGen);
+  auto base = env.irb->fs().memberBaseValue();
+  auto baseObj = base && base->isA(TObj) ? base : basePtr;
+
+  auto const result = [&] {
+    switch (propElem) {
+      case PropElemOp::PropQ:
+        gen(env, RaiseError,
+            cns(env, makeStaticString(Strings::NULLSAFE_PROP_WRITE_ERROR)));
+      case PropElemOp::Prop:
+        return gen(env, VGetProp, baseObj, key);
+      case PropElemOp::Elem:
+        return gen(env, VGetElem, basePtr, key);
+    }
+    always_assert(false);
+  }();
+
+  mFinalImpl(env, nDiscard, result);
+}
+
 void setMImpl(IRGS& env, int32_t nDiscard, PropElemOp propElem, SSATmp* key) {
   auto const result = [&] {
     if (propElem == PropElemOp::Prop) return setPropImpl(env, key);
@@ -2839,6 +1431,87 @@ void setMImpl(IRGS& env, int32_t nDiscard, PropElemOp propElem, SSATmp* key) {
   mFinalImpl(env, nDiscard, result);
 }
 
+void incDecMImpl(IRGS& env, int32_t nDiscard, PropElemOp propElem,
+                 IncDecOp incDec, SSATmp* key) {
+  auto basePtr = gen(env, LdMBase, TPtrToGen);
+  auto base = env.irb->fs().memberBaseValue();
+  auto baseObj = base && base->isA(TObj) ? base : basePtr;
+
+  auto const result = [&] {
+    if (propElem == PropElemOp::Prop) {
+      return emitIncDecProp(env, incDec, baseObj, key);
+    }
+    if (propElem == PropElemOp::Elem) {
+      return gen(env, IncDecElem, IncDecData{incDec}, basePtr, key);
+    }
+    always_assert(false);
+  }();
+
+  mFinalImpl(env, nDiscard, result);
+}
+
+void setOpMImpl(IRGS& env, int32_t nDiscard, PropElemOp propElem,
+                SetOpOp op, SSATmp* key) {
+  auto basePtr = gen(env, LdMBase, TPtrToGen);
+  auto base = env.irb->fs().memberBaseValue();
+  auto baseObj = base && base->isA(TObj) ? base : basePtr;
+  auto rhs = topC(env);
+
+  auto const result = [&] {
+    if (propElem == PropElemOp::Prop) {
+      return gen(env, SetOpProp, SetOpData{op}, baseObj, key, rhs);
+    }
+    if (propElem == PropElemOp::Elem) {
+      return gen(env, SetOpElem, SetOpData{op}, basePtr, key, rhs);
+    }
+    always_assert(false);
+  }();
+
+  popDecRef(env);
+  mFinalImpl(env, nDiscard, result);
+}
+
+void bindMImpl(IRGS& env, int32_t nDiscard, PropElemOp propElem, SSATmp* key) {
+  auto basePtr = gen(env, LdMBase, TPtrToGen);
+  auto base = env.irb->fs().memberBaseValue();
+  auto baseObj = base && base->isA(TObj) ? base : basePtr;
+  auto rhs = topV(env);
+
+  if (propElem == PropElemOp::Prop) {
+    gen(env, BindProp, baseObj, key, rhs);
+  } else if (propElem == PropElemOp::Elem) {
+    gen(env, BindElem, basePtr, key, rhs);
+  } else {
+    always_assert(false);
+  }
+
+  popV(env);
+  mFinalImpl(env, nDiscard, rhs);
+}
+
+void unsetMImpl(IRGS& env, int32_t nDiscard, PropElemOp propElem, SSATmp* key) {
+  auto basePtr = gen(env, LdMBase, TPtrToGen);
+  auto base = env.irb->fs().memberBaseValue();
+  auto baseObj = base && base->isA(TObj) ? base : basePtr;
+
+  if (propElem == PropElemOp::Prop) {
+    gen(env, UnsetProp, baseObj, key);
+  } else if (propElem == PropElemOp::Elem) {
+    gen(env, UnsetElem, basePtr, key);
+  } else {
+    always_assert(false);
+  }
+
+  mFinalImpl(env, nDiscard, nullptr);
+}
+
+MOpFlags fpassFlags(IRGS& env, int32_t idx) {
+  if (env.currentNormalizedInstruction->preppedByRef) {
+    return MOpFlags::DefineReffy;
+  }
+  return MOpFlags::Warn;
+}
+
 }
 
 void emitBaseNC(IRGS& env, int32_t idx, MOpFlags flags) {
@@ -2847,6 +1520,14 @@ void emitBaseNC(IRGS& env, int32_t idx, MOpFlags flags) {
 
 void emitBaseNL(IRGS& env, int32_t locId, MOpFlags flags) {
   interpOne(env, *env.currentNormalizedInstruction);
+}
+
+void emitFPassBaseNC(IRGS& env, int32_t arg, int32_t idx) {
+  emitBaseNC(env, idx, fpassFlags(env, arg));
+}
+
+void emitFPassBaseNL(IRGS& env, int32_t arg, int32_t locId) {
+  emitBaseNL(env, locId, fpassFlags(env, arg));
 }
 
 void emitBaseGC(IRGS& env, int32_t idx, MOpFlags flags) {
@@ -2860,6 +1541,14 @@ void emitBaseGL(IRGS& env, int32_t locId, MOpFlags flags) {
   auto name = ldLocInner(env, locId, makeExit(env), makePseudoMainExit(env),
                          DataTypeSpecific);
   baseGImpl(env, name, flags);
+}
+
+void emitFPassBaseGC(IRGS& env, int32_t arg, int32_t idx) {
+  emitBaseGC(env, idx, fpassFlags(env, arg));
+}
+
+void emitFPassBaseGL(IRGS& env, int32_t arg, int32_t locId) {
+  emitBaseGL(env, locId, fpassFlags(env, arg));
 }
 
 void emitBaseSC(IRGS& env, int32_t propIdx, int32_t clsIdx) {
@@ -2890,6 +1579,10 @@ void emitBaseL(IRGS& env, int32_t locId, MOpFlags flags) {
   auto innerTy = base->isA(TBoxedCell) ? env.irb->predictedInnerType(locId)
                                        : TTop;
   simpleBaseImpl(env, base, innerTy);
+}
+
+void emitFPassBaseL(IRGS& env, int32_t arg, int32_t locId) {
+  emitBaseL(env, locId, fpassFlags(env, arg));
 }
 
 void emitBaseC(IRGS& env, int32_t idx) {
@@ -2943,6 +1636,27 @@ void emitDimNewElem(IRGS& env, MOpFlags flags) {
   interpOne(env, *env.currentNormalizedInstruction);
 }
 
+void emitFPassDimL(IRGS& env, int32_t arg, int32_t locId, PropElemOp propElem) {
+  emitDimL(env, locId, propElem, fpassFlags(env, arg));
+}
+
+void emitFPassDimC(IRGS& env, int32_t arg, int32_t idx, PropElemOp propElem) {
+  emitDimC(env, idx, propElem, fpassFlags(env, arg));
+}
+
+void emitFPassDimInt(IRGS& env, int32_t arg, int64_t key, PropElemOp propElem) {
+  emitDimInt(env, key, propElem, fpassFlags(env, arg));
+}
+
+void emitFPassDimStr(IRGS& env, int32_t arg, const StringData* key,
+                     PropElemOp propElem) {
+  emitDimStr(env, key, propElem, fpassFlags(env, arg));
+}
+
+void emitFPassDimNewElem(IRGS& env, int32_t arg) {
+  emitDimNewElem(env, fpassFlags(env, arg));
+}
+
 void emitQueryML(IRGS& env, int32_t nDiscard, QueryMOp query,
                  PropElemOp propElem, int32_t locId) {
   auto key = ldLocInner(env, locId, makeExit(env), makePseudoMainExit(env),
@@ -2963,6 +1677,71 @@ void emitQueryMInt(IRGS& env, int32_t nDiscard, QueryMOp query,
 void emitQueryMStr(IRGS& env, int32_t nDiscard, QueryMOp query,
                    PropElemOp propElem, const StringData* key) {
   queryMImpl(env, nDiscard, query, propElem, cns(env, key));
+}
+
+void emitVGetML(IRGS& env, int32_t nDiscard, PropElemOp propElem,
+                int32_t locId) {
+  auto key = ldLocInner(env, locId, makeExit(env), makePseudoMainExit(env),
+                        DataTypeSpecific);
+  vGetMImpl(env, nDiscard, propElem, key);
+}
+
+void emitVGetMC(IRGS& env, int32_t nDiscard, PropElemOp propElem) {
+  vGetMImpl(env, nDiscard, propElem, topC(env));
+}
+
+void emitVGetMInt(IRGS& env, int32_t nDiscard, PropElemOp propElem,
+                 int64_t key) {
+  vGetMImpl(env, nDiscard, propElem, cns(env, key));
+}
+
+void emitVGetMStr(IRGS& env, int32_t nDiscard, PropElemOp propElem,
+                 const StringData* key) {
+  vGetMImpl(env, nDiscard, propElem, cns(env, key));
+}
+
+void emitVGetMNewElem(IRGS& env, int32_t nDiscard) {
+  SPUNT(__func__);
+}
+
+void emitFPassML(IRGS& env, int32_t arg, int32_t nDiscard, PropElemOp propElem,
+                 int32_t locId) {
+  if (fpassFlags(env, arg) == MOpFlags::Warn) {
+    return emitQueryML(env, nDiscard, QueryMOp::CGet, propElem, locId);
+  }
+  emitVGetML(env, nDiscard, propElem, locId);
+}
+
+void emitFPassMC(IRGS& env, int32_t arg, int32_t nDiscard,
+                 PropElemOp propElem) {
+  if (fpassFlags(env, arg) == MOpFlags::Warn) {
+    return emitQueryMC(env, nDiscard, QueryMOp::CGet, propElem);
+  }
+  emitVGetMC(env, nDiscard, propElem);
+}
+
+void emitFPassMInt(IRGS& env, int32_t arg, int32_t nDiscard,
+                   PropElemOp propElem, int64_t key) {
+  if (fpassFlags(env, arg) == MOpFlags::Warn) {
+    return emitQueryMInt(env, nDiscard, QueryMOp::CGet, propElem, key);
+  }
+  emitVGetMInt(env, nDiscard, propElem, key);
+}
+
+void emitFPassMStr(IRGS& env, int32_t arg, int32_t nDiscard,
+                   PropElemOp propElem, const StringData* key) {
+  if (fpassFlags(env, arg) == MOpFlags::Warn) {
+    return emitQueryMStr(env, nDiscard, QueryMOp::CGet, propElem, key);
+  }
+  emitVGetMStr(env, nDiscard, propElem, key);
+}
+
+void emitFPassMNewElem(IRGS& env, int32_t arg, int32_t nDiscard) {
+  if (fpassFlags(env, arg) == MOpFlags::Warn) {
+    // This will throw.
+    return interpOne(env, *env.currentNormalizedInstruction);
+  }
+  emitVGetMNewElem(env, nDiscard);
 }
 
 void emitSetML(IRGS& env, int32_t nDiscard, PropElemOp propElem,
@@ -3002,24 +1781,117 @@ void emitSetMNewElem(IRGS& env, int32_t nDiscard) {
   mFinalImpl(env, nDiscard, value);
 }
 
-//////////////////////////////////////////////////////////////////////
-
-void emitBindM(IRGS& env, int)                 { implMInstr(env, Op::BindM); }
-void emitCGetM(IRGS& env, int)                 { implMInstr(env, Op::CGetM); }
-void emitEmptyM(IRGS& env, int)                { implMInstr(env, Op::EmptyM); }
-void emitIncDecM(IRGS& env, IncDecOp, int)     { implMInstr(env, Op::IncDecM); }
-void emitIssetM(IRGS& env, int)                { implMInstr(env, Op::IssetM); }
-void emitSetM(IRGS& env, int)                  { implMInstr(env, Op::SetM); }
-void emitSetOpM(IRGS& env, SetOpOp, int)       { implMInstr(env, Op::SetOpM); }
-void emitUnsetM(IRGS& env, int)                { implMInstr(env, Op::UnsetM); }
-void emitVGetM(IRGS& env, int)                 { implMInstr(env, Op::VGetM); }
-
-void emitSetWithRefLM(IRGS& env, int, int32_t) {
-  implMInstr(env, Op::SetWithRefLM);
+void emitIncDecML(IRGS& env, int32_t nDiscard, PropElemOp propElem,
+                  IncDecOp incDec, int32_t locId) {
+  auto key = ldLocInner(env, locId, makeExit(env), makePseudoMainExit(env),
+                        DataTypeSpecific);
+  incDecMImpl(env, nDiscard, propElem, incDec, key);
 }
 
-void emitSetWithRefRM(IRGS& env, int) {
-  implMInstr(env, Op::SetWithRefRM);
+void emitIncDecMC(IRGS& env, int32_t nDiscard, PropElemOp propElem,
+                  IncDecOp incDec) {
+  incDecMImpl(env, nDiscard, propElem, incDec, topC(env));
+}
+
+void emitIncDecMInt(IRGS& env, int32_t nDiscard, PropElemOp propElem,
+                    IncDecOp incDec, int64_t key) {
+  incDecMImpl(env, nDiscard, propElem, incDec, cns(env, key));
+}
+
+void emitIncDecMStr(IRGS& env, int32_t nDiscard, PropElemOp propElem,
+                    IncDecOp incDec, const StringData* key) {
+  incDecMImpl(env, nDiscard, propElem, incDec, cns(env, key));
+}
+
+void emitIncDecMNewElem(IRGS& env, int32_t nDiscard, IncDecOp incDec) {
+  interpOne(env, *env.currentNormalizedInstruction);
+}
+
+void emitSetOpML(IRGS& env, int32_t nDiscard, PropElemOp propElem,
+                  SetOpOp op, int32_t locId) {
+  auto key = ldLocInner(env, locId, makeExit(env), makePseudoMainExit(env),
+                        DataTypeSpecific);
+  setOpMImpl(env, nDiscard, propElem, op, key);
+}
+
+void emitSetOpMC(IRGS& env, int32_t nDiscard, PropElemOp propElem, SetOpOp op) {
+  setOpMImpl(env, nDiscard, propElem, op, topC(env, BCSPOffset{1}));
+}
+
+void emitSetOpMInt(IRGS& env, int32_t nDiscard, PropElemOp propElem,
+                    SetOpOp op, int64_t key) {
+  setOpMImpl(env, nDiscard, propElem, op, cns(env, key));
+}
+
+void emitSetOpMStr(IRGS& env, int32_t nDiscard, PropElemOp propElem,
+                    SetOpOp op, const StringData* key) {
+  setOpMImpl(env, nDiscard, propElem, op, cns(env, key));
+}
+
+void emitSetOpMNewElem(IRGS& env, int32_t nDiscard, SetOpOp op) {
+  interpOne(env, *env.currentNormalizedInstruction);
+}
+
+void emitBindML(IRGS& env, int32_t nDiscard, PropElemOp propElem,
+                int32_t locId) {
+  auto key = ldLocInner(env, locId, makeExit(env), makePseudoMainExit(env),
+                        DataTypeSpecific);
+  bindMImpl(env, nDiscard, propElem, key);
+}
+
+void emitBindMC(IRGS& env, int32_t nDiscard, PropElemOp propElem) {
+  bindMImpl(env, nDiscard, propElem, topC(env, BCSPOffset{1}));
+}
+
+void emitBindMInt(IRGS& env, int32_t nDiscard, PropElemOp propElem,
+                  int64_t key) {
+  bindMImpl(env, nDiscard, propElem, cns(env, key));
+}
+
+void emitBindMStr(IRGS& env, int32_t nDiscard, PropElemOp propElem,
+                 const StringData* key) {
+  bindMImpl(env, nDiscard, propElem, cns(env, key));
+}
+
+void emitBindMNewElem(IRGS& env, int32_t nDiscard) {
+  auto basePtr = gen(env, LdMBase, TPtrToGen);
+  auto rhs = topV(env);
+
+  gen(env, BindNewElem, basePtr, rhs);
+  popV(env);
+  mFinalImpl(env, nDiscard, rhs);
+}
+
+void emitUnsetML(IRGS& env, int32_t nDiscard, PropElemOp propElem,
+                 int32_t locId) {
+  auto key = ldLocInner(env, locId, makeExit(env), makePseudoMainExit(env),
+                        DataTypeSpecific);
+  unsetMImpl(env, nDiscard, propElem, key);
+}
+
+void emitUnsetMC(IRGS& env, int32_t nDiscard, PropElemOp propElem) {
+  unsetMImpl(env, nDiscard, propElem, topC(env));
+}
+
+void emitUnsetMInt(IRGS& env, int32_t nDiscard, PropElemOp propElem,
+                   int64_t key) {
+  unsetMImpl(env, nDiscard, propElem, cns(env, key));
+}
+
+void emitUnsetMStr(IRGS& env, int32_t nDiscard, PropElemOp propElem,
+                 const StringData* key) {
+  unsetMImpl(env, nDiscard, propElem, cns(env, key));
+}
+
+void emitSetWithRefLML(IRGS& env, int32_t keyLoc, int32_t valLoc) {
+  setWithRefImpl(env, keyLoc, ldLoc(env, valLoc, nullptr, DataTypeGeneric));
+  mFinalImpl(env, 0, nullptr);
+}
+
+void emitSetWithRefRML(IRGS& env, int32_t keyLoc) {
+  setWithRefImpl(env, keyLoc, top(env, BCSPOffset{0}, DataTypeGeneric));
+  popDecRef(env);
+  mFinalImpl(env, 0, nullptr);
 }
 
 //////////////////////////////////////////////////////////////////////

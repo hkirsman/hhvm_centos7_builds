@@ -9,8 +9,14 @@ hphp/vixl/CMakeFiles/vixl.dir/a64/assembler-a64.cc.o: hphp/util/data-block.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/assembler-a64.cc.o: hphp/util/functional.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/assembler-a64.cc.o: hphp/util/hash-map-typedefs.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/assembler-a64.cc.o: hphp/util/hash.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/assembler-a64.cc.o: hphp/util/locale-portability.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/assembler-a64.cc.o: hphp/util/low-ptr.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/assembler-a64.cc.o: hphp/util/portability.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/assembler-a64.cc.o: hphp/util/portability/fnmatch.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/assembler-a64.cc.o: hphp/util/portability/glob.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/assembler-a64.cc.o: hphp/util/portability/rand_r.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/assembler-a64.cc.o: hphp/util/portability/strfmon.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/assembler-a64.cc.o: hphp/util/portability/strptime.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/assembler-a64.cc.o: hphp/vixl/a64/assembler-a64.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/assembler-a64.cc.o: hphp/vixl/a64/constants-a64.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/assembler-a64.cc.o: hphp/vixl/a64/instructions-a64.h
@@ -55,7 +61,13 @@ hphp/vixl/CMakeFiles/vixl.dir/a64/assembler-a64.cc.o: third-party/folly/folly/de
 
 hphp/vixl/CMakeFiles/vixl.dir/a64/cpu-a64.cc.o: hphp/vixl/a64/cpu-a64.cc
 hphp/vixl/CMakeFiles/vixl.dir/a64/cpu-a64.cc.o: hphp/util/assertions.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/cpu-a64.cc.o: hphp/util/locale-portability.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/cpu-a64.cc.o: hphp/util/portability.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/cpu-a64.cc.o: hphp/util/portability/fnmatch.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/cpu-a64.cc.o: hphp/util/portability/glob.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/cpu-a64.cc.o: hphp/util/portability/rand_r.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/cpu-a64.cc.o: hphp/util/portability/strfmon.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/cpu-a64.cc.o: hphp/util/portability/strptime.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/cpu-a64.cc.o: hphp/vixl/a64/cpu-a64.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/cpu-a64.cc.o: hphp/vixl/globals.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/cpu-a64.cc.o: hphp/vixl/platform.h
@@ -101,8 +113,14 @@ hphp/vixl/CMakeFiles/vixl.dir/a64/debugger-a64.cc.o: hphp/util/data-block.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/debugger-a64.cc.o: hphp/util/functional.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/debugger-a64.cc.o: hphp/util/hash-map-typedefs.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/debugger-a64.cc.o: hphp/util/hash.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/debugger-a64.cc.o: hphp/util/locale-portability.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/debugger-a64.cc.o: hphp/util/low-ptr.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/debugger-a64.cc.o: hphp/util/portability.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/debugger-a64.cc.o: hphp/util/portability/fnmatch.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/debugger-a64.cc.o: hphp/util/portability/glob.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/debugger-a64.cc.o: hphp/util/portability/rand_r.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/debugger-a64.cc.o: hphp/util/portability/strfmon.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/debugger-a64.cc.o: hphp/util/portability/strptime.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/debugger-a64.cc.o: hphp/vixl/a64/assembler-a64.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/debugger-a64.cc.o: hphp/vixl/a64/constants-a64.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/debugger-a64.cc.o: hphp/vixl/a64/debugger-a64.h
@@ -152,7 +170,13 @@ hphp/vixl/CMakeFiles/vixl.dir/a64/debugger-a64.cc.o: third-party/folly/folly/det
 
 hphp/vixl/CMakeFiles/vixl.dir/a64/decoder-a64.cc.o: hphp/vixl/a64/decoder-a64.cc
 hphp/vixl/CMakeFiles/vixl.dir/a64/decoder-a64.cc.o: hphp/util/assertions.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/decoder-a64.cc.o: hphp/util/locale-portability.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/decoder-a64.cc.o: hphp/util/portability.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/decoder-a64.cc.o: hphp/util/portability/fnmatch.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/decoder-a64.cc.o: hphp/util/portability/glob.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/decoder-a64.cc.o: hphp/util/portability/rand_r.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/decoder-a64.cc.o: hphp/util/portability/strfmon.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/decoder-a64.cc.o: hphp/util/portability/strptime.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/decoder-a64.cc.o: hphp/vixl/a64/constants-a64.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/decoder-a64.cc.o: hphp/vixl/a64/decoder-a64.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/decoder-a64.cc.o: hphp/vixl/a64/instructions-a64.h
@@ -194,7 +218,13 @@ hphp/vixl/CMakeFiles/vixl.dir/a64/decoder-a64.cc.o: third-party/folly/folly/deta
 
 hphp/vixl/CMakeFiles/vixl.dir/a64/disasm-a64.cc.o: hphp/vixl/a64/disasm-a64.cc
 hphp/vixl/CMakeFiles/vixl.dir/a64/disasm-a64.cc.o: hphp/util/assertions.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/disasm-a64.cc.o: hphp/util/locale-portability.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/disasm-a64.cc.o: hphp/util/portability.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/disasm-a64.cc.o: hphp/util/portability/fnmatch.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/disasm-a64.cc.o: hphp/util/portability/glob.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/disasm-a64.cc.o: hphp/util/portability/rand_r.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/disasm-a64.cc.o: hphp/util/portability/strfmon.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/disasm-a64.cc.o: hphp/util/portability/strptime.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/disasm-a64.cc.o: hphp/util/text-color.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/disasm-a64.cc.o: hphp/vixl/a64/constants-a64.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/disasm-a64.cc.o: hphp/vixl/a64/decoder-a64.h
@@ -244,8 +274,14 @@ hphp/vixl/CMakeFiles/vixl.dir/a64/instructions-a64.cc.o: hphp/util/data-block.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/instructions-a64.cc.o: hphp/util/functional.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/instructions-a64.cc.o: hphp/util/hash-map-typedefs.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/instructions-a64.cc.o: hphp/util/hash.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/instructions-a64.cc.o: hphp/util/locale-portability.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/instructions-a64.cc.o: hphp/util/low-ptr.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/instructions-a64.cc.o: hphp/util/portability.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/instructions-a64.cc.o: hphp/util/portability/fnmatch.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/instructions-a64.cc.o: hphp/util/portability/glob.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/instructions-a64.cc.o: hphp/util/portability/rand_r.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/instructions-a64.cc.o: hphp/util/portability/strfmon.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/instructions-a64.cc.o: hphp/util/portability/strptime.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/instructions-a64.cc.o: hphp/vixl/a64/assembler-a64.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/instructions-a64.cc.o: hphp/vixl/a64/constants-a64.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/instructions-a64.cc.o: hphp/vixl/a64/instructions-a64.h
@@ -290,7 +326,13 @@ hphp/vixl/CMakeFiles/vixl.dir/a64/instructions-a64.cc.o: third-party/folly/folly
 
 hphp/vixl/CMakeFiles/vixl.dir/a64/instrument-a64.cc.o: hphp/vixl/a64/instrument-a64.cc
 hphp/vixl/CMakeFiles/vixl.dir/a64/instrument-a64.cc.o: hphp/util/assertions.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/instrument-a64.cc.o: hphp/util/locale-portability.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/instrument-a64.cc.o: hphp/util/portability.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/instrument-a64.cc.o: hphp/util/portability/fnmatch.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/instrument-a64.cc.o: hphp/util/portability/glob.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/instrument-a64.cc.o: hphp/util/portability/rand_r.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/instrument-a64.cc.o: hphp/util/portability/strfmon.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/instrument-a64.cc.o: hphp/util/portability/strptime.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/instrument-a64.cc.o: hphp/vixl/a64/constants-a64.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/instrument-a64.cc.o: hphp/vixl/a64/decoder-a64.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/instrument-a64.cc.o: hphp/vixl/a64/instructions-a64.h
@@ -339,8 +381,14 @@ hphp/vixl/CMakeFiles/vixl.dir/a64/macro-assembler-a64.cc.o: hphp/util/data-block
 hphp/vixl/CMakeFiles/vixl.dir/a64/macro-assembler-a64.cc.o: hphp/util/functional.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/macro-assembler-a64.cc.o: hphp/util/hash-map-typedefs.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/macro-assembler-a64.cc.o: hphp/util/hash.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/macro-assembler-a64.cc.o: hphp/util/locale-portability.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/macro-assembler-a64.cc.o: hphp/util/low-ptr.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/macro-assembler-a64.cc.o: hphp/util/portability.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/macro-assembler-a64.cc.o: hphp/util/portability/fnmatch.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/macro-assembler-a64.cc.o: hphp/util/portability/glob.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/macro-assembler-a64.cc.o: hphp/util/portability/rand_r.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/macro-assembler-a64.cc.o: hphp/util/portability/strfmon.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/macro-assembler-a64.cc.o: hphp/util/portability/strptime.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/macro-assembler-a64.cc.o: hphp/vixl/a64/assembler-a64.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/macro-assembler-a64.cc.o: hphp/vixl/a64/constants-a64.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/macro-assembler-a64.cc.o: hphp/vixl/a64/debugger-a64.h
@@ -400,8 +448,14 @@ hphp/vixl/CMakeFiles/vixl.dir/a64/simulator-a64.cc.o: hphp/util/exception.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/simulator-a64.cc.o: hphp/util/functional.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/simulator-a64.cc.o: hphp/util/hash-map-typedefs.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/simulator-a64.cc.o: hphp/util/hash.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/simulator-a64.cc.o: hphp/util/locale-portability.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/simulator-a64.cc.o: hphp/util/low-ptr.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/simulator-a64.cc.o: hphp/util/portability.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/simulator-a64.cc.o: hphp/util/portability/fnmatch.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/simulator-a64.cc.o: hphp/util/portability/glob.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/simulator-a64.cc.o: hphp/util/portability/rand_r.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/simulator-a64.cc.o: hphp/util/portability/strfmon.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/simulator-a64.cc.o: hphp/util/portability/strptime.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/simulator-a64.cc.o: hphp/util/stack-trace.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/simulator-a64.cc.o: hphp/util/thread-local.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/simulator-a64.cc.o: hphp/vixl/a64/assembler-a64.h
@@ -437,6 +491,7 @@ hphp/vixl/CMakeFiles/vixl.dir/a64/simulator-a64.cc.o: third-party/folly/folly/Ha
 hphp/vixl/CMakeFiles/vixl.dir/a64/simulator-a64.cc.o: third-party/folly/folly/Likely.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/simulator-a64.cc.o: third-party/folly/folly/Malloc.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/simulator-a64.cc.o: third-party/folly/folly/Memory.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/simulator-a64.cc.o: third-party/folly/folly/MicroSpinLock.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/simulator-a64.cc.o: third-party/folly/folly/Portability.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/simulator-a64.cc.o: third-party/folly/folly/Preprocessor.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/simulator-a64.cc.o: third-party/folly/folly/RWSpinLock.h
@@ -459,13 +514,20 @@ hphp/vixl/CMakeFiles/vixl.dir/a64/simulator-a64.cc.o: third-party/folly/folly/de
 hphp/vixl/CMakeFiles/vixl.dir/a64/simulator-a64.cc.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/simulator-a64.cc.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/simulator-a64.cc.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/vixl/CMakeFiles/vixl.dir/a64/simulator-a64.cc.o: third-party/folly/folly/detail/Sleeper.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/simulator-a64.cc.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/simulator-a64.cc.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/vixl/CMakeFiles/vixl.dir/a64/simulator-a64.cc.o: third-party/folly/folly/io/async/Request.h
 
 hphp/vixl/CMakeFiles/vixl.dir/utils.cc.o: hphp/vixl/utils.cc
 hphp/vixl/CMakeFiles/vixl.dir/utils.cc.o: hphp/util/assertions.h
+hphp/vixl/CMakeFiles/vixl.dir/utils.cc.o: hphp/util/locale-portability.h
 hphp/vixl/CMakeFiles/vixl.dir/utils.cc.o: hphp/util/portability.h
+hphp/vixl/CMakeFiles/vixl.dir/utils.cc.o: hphp/util/portability/fnmatch.h
+hphp/vixl/CMakeFiles/vixl.dir/utils.cc.o: hphp/util/portability/glob.h
+hphp/vixl/CMakeFiles/vixl.dir/utils.cc.o: hphp/util/portability/rand_r.h
+hphp/vixl/CMakeFiles/vixl.dir/utils.cc.o: hphp/util/portability/strfmon.h
+hphp/vixl/CMakeFiles/vixl.dir/utils.cc.o: hphp/util/portability/strptime.h
 hphp/vixl/CMakeFiles/vixl.dir/utils.cc.o: hphp/vixl/globals.h
 hphp/vixl/CMakeFiles/vixl.dir/utils.cc.o: hphp/vixl/platform.h
 hphp/vixl/CMakeFiles/vixl.dir/utils.cc.o: hphp/vixl/utils.h

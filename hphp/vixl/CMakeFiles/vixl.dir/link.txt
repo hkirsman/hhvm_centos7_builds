@@ -1,2 +1,2 @@
-/usr/bin/ar cr libvixl.a  CMakeFiles/vixl.dir/utils.cc.o CMakeFiles/vixl.dir/a64/assembler-a64.cc.o CMakeFiles/vixl.dir/a64/cpu-a64.cc.o CMakeFiles/vixl.dir/a64/debugger-a64.cc.o CMakeFiles/vixl.dir/a64/decoder-a64.cc.o CMakeFiles/vixl.dir/a64/disasm-a64.cc.o CMakeFiles/vixl.dir/a64/instructions-a64.cc.o CMakeFiles/vixl.dir/a64/instrument-a64.cc.o CMakeFiles/vixl.dir/a64/macro-assembler-a64.cc.o CMakeFiles/vixl.dir/a64/simulator-a64.cc.o
-/usr/bin/ranlib libvixl.a
+/bin/ar cr libvixl.a  CMakeFiles/vixl.dir/utils.cc.o CMakeFiles/vixl.dir/a64/assembler-a64.cc.o CMakeFiles/vixl.dir/a64/cpu-a64.cc.o CMakeFiles/vixl.dir/a64/debugger-a64.cc.o CMakeFiles/vixl.dir/a64/decoder-a64.cc.o CMakeFiles/vixl.dir/a64/disasm-a64.cc.o CMakeFiles/vixl.dir/a64/instructions-a64.cc.o CMakeFiles/vixl.dir/a64/instrument-a64.cc.o CMakeFiles/vixl.dir/a64/macro-assembler-a64.cc.o CMakeFiles/vixl.dir/a64/simulator-a64.cc.o
+/bin/ranlib libvixl.a

@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm
+# Install script for directory: /tmp/hhvm-3.12.0/hphp/runtime/ext_hhvm
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

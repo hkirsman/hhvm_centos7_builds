@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.0
 
 # Include any dependencies generated for this target.
 include hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/depend.make
@@ -54,17 +54,17 @@ include hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/flags.make
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/analyze.cpp.o: hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/flags.make
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/analyze.cpp.o: hphp/hhbbc/analyze.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/analyze.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/analyze.cpp.o -c /tmp/hhvm-3.11.1/hphp/hhbbc/analyze.cpp
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/analyze.cpp.o -c /tmp/hhvm-3.12.0/hphp/hhbbc/analyze.cpp
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/analyze.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_hhbbc.dir/analyze.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/hhbbc/analyze.cpp > CMakeFiles/hphp_hhbbc.dir/analyze.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/hhbbc/analyze.cpp > CMakeFiles/hphp_hhbbc.dir/analyze.cpp.i
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/analyze.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_hhbbc.dir/analyze.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/hhbbc/analyze.cpp -o CMakeFiles/hphp_hhbbc.dir/analyze.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/hhbbc/analyze.cpp -o CMakeFiles/hphp_hhbbc.dir/analyze.cpp.s
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/analyze.cpp.o.requires:
 .PHONY : hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/analyze.cpp.o.requires
@@ -77,17 +77,17 @@ hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/analyze.cpp.o.provides.build: hphp/hhbbc/CM
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/cfg.cpp.o: hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/flags.make
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/cfg.cpp.o: hphp/hhbbc/cfg.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/cfg.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/cfg.cpp.o -c /tmp/hhvm-3.11.1/hphp/hhbbc/cfg.cpp
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/cfg.cpp.o -c /tmp/hhvm-3.12.0/hphp/hhbbc/cfg.cpp
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/cfg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_hhbbc.dir/cfg.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/hhbbc/cfg.cpp > CMakeFiles/hphp_hhbbc.dir/cfg.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/hhbbc/cfg.cpp > CMakeFiles/hphp_hhbbc.dir/cfg.cpp.i
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/cfg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_hhbbc.dir/cfg.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/hhbbc/cfg.cpp -o CMakeFiles/hphp_hhbbc.dir/cfg.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/hhbbc/cfg.cpp -o CMakeFiles/hphp_hhbbc.dir/cfg.cpp.s
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/cfg.cpp.o.requires:
 .PHONY : hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/cfg.cpp.o.requires
@@ -100,17 +100,17 @@ hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/cfg.cpp.o.provides.build: hphp/hhbbc/CMakeF
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/check.cpp.o: hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/flags.make
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/check.cpp.o: hphp/hhbbc/check.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/check.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/check.cpp.o -c /tmp/hhvm-3.11.1/hphp/hhbbc/check.cpp
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/check.cpp.o -c /tmp/hhvm-3.12.0/hphp/hhbbc/check.cpp
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/check.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_hhbbc.dir/check.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/hhbbc/check.cpp > CMakeFiles/hphp_hhbbc.dir/check.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/hhbbc/check.cpp > CMakeFiles/hphp_hhbbc.dir/check.cpp.i
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/check.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_hhbbc.dir/check.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/hhbbc/check.cpp -o CMakeFiles/hphp_hhbbc.dir/check.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/hhbbc/check.cpp -o CMakeFiles/hphp_hhbbc.dir/check.cpp.s
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/check.cpp.o.requires:
 .PHONY : hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/check.cpp.o.requires
@@ -123,17 +123,17 @@ hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/check.cpp.o.provides.build: hphp/hhbbc/CMak
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/class-util.cpp.o: hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/flags.make
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/class-util.cpp.o: hphp/hhbbc/class-util.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/class-util.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/class-util.cpp.o -c /tmp/hhvm-3.11.1/hphp/hhbbc/class-util.cpp
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/class-util.cpp.o -c /tmp/hhvm-3.12.0/hphp/hhbbc/class-util.cpp
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/class-util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_hhbbc.dir/class-util.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/hhbbc/class-util.cpp > CMakeFiles/hphp_hhbbc.dir/class-util.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/hhbbc/class-util.cpp > CMakeFiles/hphp_hhbbc.dir/class-util.cpp.i
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/class-util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_hhbbc.dir/class-util.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/hhbbc/class-util.cpp -o CMakeFiles/hphp_hhbbc.dir/class-util.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/hhbbc/class-util.cpp -o CMakeFiles/hphp_hhbbc.dir/class-util.cpp.s
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/class-util.cpp.o.requires:
 .PHONY : hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/class-util.cpp.o.requires
@@ -146,17 +146,17 @@ hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/class-util.cpp.o.provides.build: hphp/hhbbc
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/dce.cpp.o: hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/flags.make
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/dce.cpp.o: hphp/hhbbc/dce.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/dce.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/dce.cpp.o -c /tmp/hhvm-3.11.1/hphp/hhbbc/dce.cpp
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/dce.cpp.o -c /tmp/hhvm-3.12.0/hphp/hhbbc/dce.cpp
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/dce.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_hhbbc.dir/dce.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/hhbbc/dce.cpp > CMakeFiles/hphp_hhbbc.dir/dce.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/hhbbc/dce.cpp > CMakeFiles/hphp_hhbbc.dir/dce.cpp.i
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/dce.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_hhbbc.dir/dce.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/hhbbc/dce.cpp -o CMakeFiles/hphp_hhbbc.dir/dce.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/hhbbc/dce.cpp -o CMakeFiles/hphp_hhbbc.dir/dce.cpp.s
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/dce.cpp.o.requires:
 .PHONY : hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/dce.cpp.o.requires
@@ -169,17 +169,17 @@ hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/dce.cpp.o.provides.build: hphp/hhbbc/CMakeF
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/debug.cpp.o: hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/flags.make
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/debug.cpp.o: hphp/hhbbc/debug.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/debug.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/debug.cpp.o -c /tmp/hhvm-3.11.1/hphp/hhbbc/debug.cpp
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/debug.cpp.o -c /tmp/hhvm-3.12.0/hphp/hhbbc/debug.cpp
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/debug.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_hhbbc.dir/debug.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/hhbbc/debug.cpp > CMakeFiles/hphp_hhbbc.dir/debug.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/hhbbc/debug.cpp > CMakeFiles/hphp_hhbbc.dir/debug.cpp.i
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/debug.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_hhbbc.dir/debug.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/hhbbc/debug.cpp -o CMakeFiles/hphp_hhbbc.dir/debug.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/hhbbc/debug.cpp -o CMakeFiles/hphp_hhbbc.dir/debug.cpp.s
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/debug.cpp.o.requires:
 .PHONY : hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/debug.cpp.o.requires
@@ -192,17 +192,17 @@ hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/debug.cpp.o.provides.build: hphp/hhbbc/CMak
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/emit.cpp.o: hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/flags.make
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/emit.cpp.o: hphp/hhbbc/emit.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/emit.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/emit.cpp.o -c /tmp/hhvm-3.11.1/hphp/hhbbc/emit.cpp
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/emit.cpp.o -c /tmp/hhvm-3.12.0/hphp/hhbbc/emit.cpp
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/emit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_hhbbc.dir/emit.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/hhbbc/emit.cpp > CMakeFiles/hphp_hhbbc.dir/emit.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/hhbbc/emit.cpp > CMakeFiles/hphp_hhbbc.dir/emit.cpp.i
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/emit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_hhbbc.dir/emit.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/hhbbc/emit.cpp -o CMakeFiles/hphp_hhbbc.dir/emit.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/hhbbc/emit.cpp -o CMakeFiles/hphp_hhbbc.dir/emit.cpp.s
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/emit.cpp.o.requires:
 .PHONY : hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/emit.cpp.o.requires
@@ -215,17 +215,17 @@ hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/emit.cpp.o.provides.build: hphp/hhbbc/CMake
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/func-util.cpp.o: hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/flags.make
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/func-util.cpp.o: hphp/hhbbc/func-util.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/func-util.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/func-util.cpp.o -c /tmp/hhvm-3.11.1/hphp/hhbbc/func-util.cpp
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/func-util.cpp.o -c /tmp/hhvm-3.12.0/hphp/hhbbc/func-util.cpp
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/func-util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_hhbbc.dir/func-util.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/hhbbc/func-util.cpp > CMakeFiles/hphp_hhbbc.dir/func-util.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/hhbbc/func-util.cpp > CMakeFiles/hphp_hhbbc.dir/func-util.cpp.i
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/func-util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_hhbbc.dir/func-util.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/hhbbc/func-util.cpp -o CMakeFiles/hphp_hhbbc.dir/func-util.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/hhbbc/func-util.cpp -o CMakeFiles/hphp_hhbbc.dir/func-util.cpp.s
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/func-util.cpp.o.requires:
 .PHONY : hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/func-util.cpp.o.requires
@@ -238,17 +238,17 @@ hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/func-util.cpp.o.provides.build: hphp/hhbbc/
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/hhbbc.cpp.o: hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/flags.make
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/hhbbc.cpp.o: hphp/hhbbc/hhbbc.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/hhbbc.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/hhbbc.cpp.o -c /tmp/hhvm-3.11.1/hphp/hhbbc/hhbbc.cpp
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/hhbbc.cpp.o -c /tmp/hhvm-3.12.0/hphp/hhbbc/hhbbc.cpp
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/hhbbc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_hhbbc.dir/hhbbc.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/hhbbc/hhbbc.cpp > CMakeFiles/hphp_hhbbc.dir/hhbbc.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/hhbbc/hhbbc.cpp > CMakeFiles/hphp_hhbbc.dir/hhbbc.cpp.i
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/hhbbc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_hhbbc.dir/hhbbc.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/hhbbc/hhbbc.cpp -o CMakeFiles/hphp_hhbbc.dir/hhbbc.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/hhbbc/hhbbc.cpp -o CMakeFiles/hphp_hhbbc.dir/hhbbc.cpp.s
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/hhbbc.cpp.o.requires:
 .PHONY : hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/hhbbc.cpp.o.requires
@@ -261,17 +261,17 @@ hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/hhbbc.cpp.o.provides.build: hphp/hhbbc/CMak
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/index.cpp.o: hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/flags.make
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/index.cpp.o: hphp/hhbbc/index.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/index.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/index.cpp.o -c /tmp/hhvm-3.11.1/hphp/hhbbc/index.cpp
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/index.cpp.o -c /tmp/hhvm-3.12.0/hphp/hhbbc/index.cpp
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/index.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_hhbbc.dir/index.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/hhbbc/index.cpp > CMakeFiles/hphp_hhbbc.dir/index.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/hhbbc/index.cpp > CMakeFiles/hphp_hhbbc.dir/index.cpp.i
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/index.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_hhbbc.dir/index.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/hhbbc/index.cpp -o CMakeFiles/hphp_hhbbc.dir/index.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/hhbbc/index.cpp -o CMakeFiles/hphp_hhbbc.dir/index.cpp.s
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/index.cpp.o.requires:
 .PHONY : hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/index.cpp.o.requires
@@ -284,17 +284,17 @@ hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/index.cpp.o.provides.build: hphp/hhbbc/CMak
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/interp-builtin.cpp.o: hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/flags.make
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/interp-builtin.cpp.o: hphp/hhbbc/interp-builtin.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/interp-builtin.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/interp-builtin.cpp.o -c /tmp/hhvm-3.11.1/hphp/hhbbc/interp-builtin.cpp
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/interp-builtin.cpp.o -c /tmp/hhvm-3.12.0/hphp/hhbbc/interp-builtin.cpp
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/interp-builtin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_hhbbc.dir/interp-builtin.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/hhbbc/interp-builtin.cpp > CMakeFiles/hphp_hhbbc.dir/interp-builtin.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/hhbbc/interp-builtin.cpp > CMakeFiles/hphp_hhbbc.dir/interp-builtin.cpp.i
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/interp-builtin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_hhbbc.dir/interp-builtin.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/hhbbc/interp-builtin.cpp -o CMakeFiles/hphp_hhbbc.dir/interp-builtin.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/hhbbc/interp-builtin.cpp -o CMakeFiles/hphp_hhbbc.dir/interp-builtin.cpp.s
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/interp-builtin.cpp.o.requires:
 .PHONY : hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/interp-builtin.cpp.o.requires
@@ -307,17 +307,17 @@ hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/interp-builtin.cpp.o.provides.build: hphp/h
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/interp-minstr.cpp.o: hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/flags.make
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/interp-minstr.cpp.o: hphp/hhbbc/interp-minstr.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/interp-minstr.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/interp-minstr.cpp.o -c /tmp/hhvm-3.11.1/hphp/hhbbc/interp-minstr.cpp
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/interp-minstr.cpp.o -c /tmp/hhvm-3.12.0/hphp/hhbbc/interp-minstr.cpp
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/interp-minstr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_hhbbc.dir/interp-minstr.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/hhbbc/interp-minstr.cpp > CMakeFiles/hphp_hhbbc.dir/interp-minstr.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/hhbbc/interp-minstr.cpp > CMakeFiles/hphp_hhbbc.dir/interp-minstr.cpp.i
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/interp-minstr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_hhbbc.dir/interp-minstr.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/hhbbc/interp-minstr.cpp -o CMakeFiles/hphp_hhbbc.dir/interp-minstr.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/hhbbc/interp-minstr.cpp -o CMakeFiles/hphp_hhbbc.dir/interp-minstr.cpp.s
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/interp-minstr.cpp.o.requires:
 .PHONY : hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/interp-minstr.cpp.o.requires
@@ -330,17 +330,17 @@ hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/interp-minstr.cpp.o.provides.build: hphp/hh
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/interp-state.cpp.o: hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/flags.make
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/interp-state.cpp.o: hphp/hhbbc/interp-state.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/interp-state.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/interp-state.cpp.o -c /tmp/hhvm-3.11.1/hphp/hhbbc/interp-state.cpp
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/interp-state.cpp.o -c /tmp/hhvm-3.12.0/hphp/hhbbc/interp-state.cpp
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/interp-state.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_hhbbc.dir/interp-state.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/hhbbc/interp-state.cpp > CMakeFiles/hphp_hhbbc.dir/interp-state.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/hhbbc/interp-state.cpp > CMakeFiles/hphp_hhbbc.dir/interp-state.cpp.i
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/interp-state.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_hhbbc.dir/interp-state.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/hhbbc/interp-state.cpp -o CMakeFiles/hphp_hhbbc.dir/interp-state.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/hhbbc/interp-state.cpp -o CMakeFiles/hphp_hhbbc.dir/interp-state.cpp.s
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/interp-state.cpp.o.requires:
 .PHONY : hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/interp-state.cpp.o.requires
@@ -353,17 +353,17 @@ hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/interp-state.cpp.o.provides.build: hphp/hhb
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/interp.cpp.o: hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/flags.make
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/interp.cpp.o: hphp/hhbbc/interp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/interp.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/interp.cpp.o -c /tmp/hhvm-3.11.1/hphp/hhbbc/interp.cpp
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/interp.cpp.o -c /tmp/hhvm-3.12.0/hphp/hhbbc/interp.cpp
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/interp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_hhbbc.dir/interp.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/hhbbc/interp.cpp > CMakeFiles/hphp_hhbbc.dir/interp.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/hhbbc/interp.cpp > CMakeFiles/hphp_hhbbc.dir/interp.cpp.i
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/interp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_hhbbc.dir/interp.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/hhbbc/interp.cpp -o CMakeFiles/hphp_hhbbc.dir/interp.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/hhbbc/interp.cpp -o CMakeFiles/hphp_hhbbc.dir/interp.cpp.s
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/interp.cpp.o.requires:
 .PHONY : hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/interp.cpp.o.requires
@@ -376,17 +376,17 @@ hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/interp.cpp.o.provides.build: hphp/hhbbc/CMa
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/main.cpp.o: hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/flags.make
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/main.cpp.o: hphp/hhbbc/main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/main.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/main.cpp.o -c /tmp/hhvm-3.11.1/hphp/hhbbc/main.cpp
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/main.cpp.o -c /tmp/hhvm-3.12.0/hphp/hhbbc/main.cpp
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_hhbbc.dir/main.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/hhbbc/main.cpp > CMakeFiles/hphp_hhbbc.dir/main.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/hhbbc/main.cpp > CMakeFiles/hphp_hhbbc.dir/main.cpp.i
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_hhbbc.dir/main.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/hhbbc/main.cpp -o CMakeFiles/hphp_hhbbc.dir/main.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/hhbbc/main.cpp -o CMakeFiles/hphp_hhbbc.dir/main.cpp.s
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/main.cpp.o.requires:
 .PHONY : hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/main.cpp.o.requires
@@ -399,17 +399,17 @@ hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/main.cpp.o.provides.build: hphp/hhbbc/CMake
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/optimize.cpp.o: hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/flags.make
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/optimize.cpp.o: hphp/hhbbc/optimize.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/optimize.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/optimize.cpp.o -c /tmp/hhvm-3.11.1/hphp/hhbbc/optimize.cpp
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/optimize.cpp.o -c /tmp/hhvm-3.12.0/hphp/hhbbc/optimize.cpp
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/optimize.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_hhbbc.dir/optimize.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/hhbbc/optimize.cpp > CMakeFiles/hphp_hhbbc.dir/optimize.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/hhbbc/optimize.cpp > CMakeFiles/hphp_hhbbc.dir/optimize.cpp.i
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/optimize.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_hhbbc.dir/optimize.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/hhbbc/optimize.cpp -o CMakeFiles/hphp_hhbbc.dir/optimize.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/hhbbc/optimize.cpp -o CMakeFiles/hphp_hhbbc.dir/optimize.cpp.s
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/optimize.cpp.o.requires:
 .PHONY : hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/optimize.cpp.o.requires
@@ -422,17 +422,17 @@ hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/optimize.cpp.o.provides.build: hphp/hhbbc/C
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/options-util.cpp.o: hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/flags.make
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/options-util.cpp.o: hphp/hhbbc/options-util.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/options-util.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/options-util.cpp.o -c /tmp/hhvm-3.11.1/hphp/hhbbc/options-util.cpp
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/options-util.cpp.o -c /tmp/hhvm-3.12.0/hphp/hhbbc/options-util.cpp
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/options-util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_hhbbc.dir/options-util.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/hhbbc/options-util.cpp > CMakeFiles/hphp_hhbbc.dir/options-util.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/hhbbc/options-util.cpp > CMakeFiles/hphp_hhbbc.dir/options-util.cpp.i
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/options-util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_hhbbc.dir/options-util.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/hhbbc/options-util.cpp -o CMakeFiles/hphp_hhbbc.dir/options-util.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/hhbbc/options-util.cpp -o CMakeFiles/hphp_hhbbc.dir/options-util.cpp.s
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/options-util.cpp.o.requires:
 .PHONY : hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/options-util.cpp.o.requires
@@ -445,17 +445,17 @@ hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/options-util.cpp.o.provides.build: hphp/hhb
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/parallel.cpp.o: hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/flags.make
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/parallel.cpp.o: hphp/hhbbc/parallel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/parallel.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/parallel.cpp.o -c /tmp/hhvm-3.11.1/hphp/hhbbc/parallel.cpp
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/parallel.cpp.o -c /tmp/hhvm-3.12.0/hphp/hhbbc/parallel.cpp
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/parallel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_hhbbc.dir/parallel.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/hhbbc/parallel.cpp > CMakeFiles/hphp_hhbbc.dir/parallel.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/hhbbc/parallel.cpp > CMakeFiles/hphp_hhbbc.dir/parallel.cpp.i
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/parallel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_hhbbc.dir/parallel.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/hhbbc/parallel.cpp -o CMakeFiles/hphp_hhbbc.dir/parallel.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/hhbbc/parallel.cpp -o CMakeFiles/hphp_hhbbc.dir/parallel.cpp.s
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/parallel.cpp.o.requires:
 .PHONY : hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/parallel.cpp.o.requires
@@ -468,17 +468,17 @@ hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/parallel.cpp.o.provides.build: hphp/hhbbc/C
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/parse.cpp.o: hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/flags.make
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/parse.cpp.o: hphp/hhbbc/parse.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/parse.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/parse.cpp.o -c /tmp/hhvm-3.11.1/hphp/hhbbc/parse.cpp
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/parse.cpp.o -c /tmp/hhvm-3.12.0/hphp/hhbbc/parse.cpp
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/parse.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_hhbbc.dir/parse.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/hhbbc/parse.cpp > CMakeFiles/hphp_hhbbc.dir/parse.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/hhbbc/parse.cpp > CMakeFiles/hphp_hhbbc.dir/parse.cpp.i
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/parse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_hhbbc.dir/parse.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/hhbbc/parse.cpp -o CMakeFiles/hphp_hhbbc.dir/parse.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/hhbbc/parse.cpp -o CMakeFiles/hphp_hhbbc.dir/parse.cpp.s
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/parse.cpp.o.requires:
 .PHONY : hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/parse.cpp.o.requires
@@ -491,17 +491,17 @@ hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/parse.cpp.o.provides.build: hphp/hhbbc/CMak
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/peephole.cpp.o: hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/flags.make
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/peephole.cpp.o: hphp/hhbbc/peephole.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/peephole.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/peephole.cpp.o -c /tmp/hhvm-3.11.1/hphp/hhbbc/peephole.cpp
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/peephole.cpp.o -c /tmp/hhvm-3.12.0/hphp/hhbbc/peephole.cpp
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/peephole.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_hhbbc.dir/peephole.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/hhbbc/peephole.cpp > CMakeFiles/hphp_hhbbc.dir/peephole.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/hhbbc/peephole.cpp > CMakeFiles/hphp_hhbbc.dir/peephole.cpp.i
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/peephole.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_hhbbc.dir/peephole.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/hhbbc/peephole.cpp -o CMakeFiles/hphp_hhbbc.dir/peephole.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/hhbbc/peephole.cpp -o CMakeFiles/hphp_hhbbc.dir/peephole.cpp.s
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/peephole.cpp.o.requires:
 .PHONY : hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/peephole.cpp.o.requires
@@ -514,17 +514,17 @@ hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/peephole.cpp.o.provides.build: hphp/hhbbc/C
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/show.cpp.o: hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/flags.make
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/show.cpp.o: hphp/hhbbc/show.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/show.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/show.cpp.o -c /tmp/hhvm-3.11.1/hphp/hhbbc/show.cpp
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/show.cpp.o -c /tmp/hhvm-3.12.0/hphp/hhbbc/show.cpp
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/show.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_hhbbc.dir/show.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/hhbbc/show.cpp > CMakeFiles/hphp_hhbbc.dir/show.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/hhbbc/show.cpp > CMakeFiles/hphp_hhbbc.dir/show.cpp.i
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/show.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_hhbbc.dir/show.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/hhbbc/show.cpp -o CMakeFiles/hphp_hhbbc.dir/show.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/hhbbc/show.cpp -o CMakeFiles/hphp_hhbbc.dir/show.cpp.s
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/show.cpp.o.requires:
 .PHONY : hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/show.cpp.o.requires
@@ -537,17 +537,17 @@ hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/show.cpp.o.provides.build: hphp/hhbbc/CMake
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/stats.cpp.o: hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/flags.make
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/stats.cpp.o: hphp/hhbbc/stats.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/stats.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/stats.cpp.o -c /tmp/hhvm-3.11.1/hphp/hhbbc/stats.cpp
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/stats.cpp.o -c /tmp/hhvm-3.12.0/hphp/hhbbc/stats.cpp
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/stats.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_hhbbc.dir/stats.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/hhbbc/stats.cpp > CMakeFiles/hphp_hhbbc.dir/stats.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/hhbbc/stats.cpp > CMakeFiles/hphp_hhbbc.dir/stats.cpp.i
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/stats.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_hhbbc.dir/stats.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/hhbbc/stats.cpp -o CMakeFiles/hphp_hhbbc.dir/stats.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/hhbbc/stats.cpp -o CMakeFiles/hphp_hhbbc.dir/stats.cpp.s
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/stats.cpp.o.requires:
 .PHONY : hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/stats.cpp.o.requires
@@ -560,17 +560,17 @@ hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/stats.cpp.o.provides.build: hphp/hhbbc/CMak
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/type-builtins.cpp.o: hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/flags.make
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/type-builtins.cpp.o: hphp/hhbbc/type-builtins.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/type-builtins.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/type-builtins.cpp.o -c /tmp/hhvm-3.11.1/hphp/hhbbc/type-builtins.cpp
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/type-builtins.cpp.o -c /tmp/hhvm-3.12.0/hphp/hhbbc/type-builtins.cpp
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/type-builtins.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_hhbbc.dir/type-builtins.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/hhbbc/type-builtins.cpp > CMakeFiles/hphp_hhbbc.dir/type-builtins.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/hhbbc/type-builtins.cpp > CMakeFiles/hphp_hhbbc.dir/type-builtins.cpp.i
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/type-builtins.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_hhbbc.dir/type-builtins.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/hhbbc/type-builtins.cpp -o CMakeFiles/hphp_hhbbc.dir/type-builtins.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/hhbbc/type-builtins.cpp -o CMakeFiles/hphp_hhbbc.dir/type-builtins.cpp.s
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/type-builtins.cpp.o.requires:
 .PHONY : hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/type-builtins.cpp.o.requires
@@ -583,17 +583,17 @@ hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/type-builtins.cpp.o.provides.build: hphp/hh
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/type-ops.cpp.o: hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/flags.make
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/type-ops.cpp.o: hphp/hhbbc/type-ops.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/type-ops.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/type-ops.cpp.o -c /tmp/hhvm-3.11.1/hphp/hhbbc/type-ops.cpp
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/type-ops.cpp.o -c /tmp/hhvm-3.12.0/hphp/hhbbc/type-ops.cpp
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/type-ops.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_hhbbc.dir/type-ops.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/hhbbc/type-ops.cpp > CMakeFiles/hphp_hhbbc.dir/type-ops.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/hhbbc/type-ops.cpp > CMakeFiles/hphp_hhbbc.dir/type-ops.cpp.i
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/type-ops.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_hhbbc.dir/type-ops.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/hhbbc/type-ops.cpp -o CMakeFiles/hphp_hhbbc.dir/type-ops.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/hhbbc/type-ops.cpp -o CMakeFiles/hphp_hhbbc.dir/type-ops.cpp.s
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/type-ops.cpp.o.requires:
 .PHONY : hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/type-ops.cpp.o.requires
@@ -606,17 +606,17 @@ hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/type-ops.cpp.o.provides.build: hphp/hhbbc/C
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/type-system.cpp.o: hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/flags.make
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/type-system.cpp.o: hphp/hhbbc/type-system.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/type-system.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/type-system.cpp.o -c /tmp/hhvm-3.11.1/hphp/hhbbc/type-system.cpp
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/type-system.cpp.o -c /tmp/hhvm-3.12.0/hphp/hhbbc/type-system.cpp
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/type-system.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_hhbbc.dir/type-system.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/hhbbc/type-system.cpp > CMakeFiles/hphp_hhbbc.dir/type-system.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/hhbbc/type-system.cpp > CMakeFiles/hphp_hhbbc.dir/type-system.cpp.i
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/type-system.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_hhbbc.dir/type-system.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/hhbbc/type-system.cpp -o CMakeFiles/hphp_hhbbc.dir/type-system.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/hhbbc/type-system.cpp -o CMakeFiles/hphp_hhbbc.dir/type-system.cpp.s
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/type-system.cpp.o.requires:
 .PHONY : hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/type-system.cpp.o.requires
@@ -629,17 +629,17 @@ hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/type-system.cpp.o.provides.build: hphp/hhbb
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/unit-util.cpp.o: hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/flags.make
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/unit-util.cpp.o: hphp/hhbbc/unit-util.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/unit-util.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/unit-util.cpp.o -c /tmp/hhvm-3.11.1/hphp/hhbbc/unit-util.cpp
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/unit-util.cpp.o -c /tmp/hhvm-3.12.0/hphp/hhbbc/unit-util.cpp
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/unit-util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_hhbbc.dir/unit-util.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/hhbbc/unit-util.cpp > CMakeFiles/hphp_hhbbc.dir/unit-util.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/hhbbc/unit-util.cpp > CMakeFiles/hphp_hhbbc.dir/unit-util.cpp.i
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/unit-util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_hhbbc.dir/unit-util.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/hhbbc/unit-util.cpp -o CMakeFiles/hphp_hhbbc.dir/unit-util.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/hhbbc/unit-util.cpp -o CMakeFiles/hphp_hhbbc.dir/unit-util.cpp.s
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/unit-util.cpp.o.requires:
 .PHONY : hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/unit-util.cpp.o.requires
@@ -652,17 +652,17 @@ hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/unit-util.cpp.o.provides.build: hphp/hhbbc/
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/whole-program.cpp.o: hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/flags.make
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/whole-program.cpp.o: hphp/hhbbc/whole-program.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/whole-program.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/whole-program.cpp.o -c /tmp/hhvm-3.11.1/hphp/hhbbc/whole-program.cpp
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_hhbbc.dir/whole-program.cpp.o -c /tmp/hhvm-3.12.0/hphp/hhbbc/whole-program.cpp
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/whole-program.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_hhbbc.dir/whole-program.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/hhbbc/whole-program.cpp > CMakeFiles/hphp_hhbbc.dir/whole-program.cpp.i
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/hphp/hhbbc/whole-program.cpp > CMakeFiles/hphp_hhbbc.dir/whole-program.cpp.i
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/whole-program.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_hhbbc.dir/whole-program.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/hhbbc/whole-program.cpp -o CMakeFiles/hphp_hhbbc.dir/whole-program.cpp.s
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/hphp/hhbbc/whole-program.cpp -o CMakeFiles/hphp_hhbbc.dir/whole-program.cpp.s
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/whole-program.cpp.o.requires:
 .PHONY : hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/whole-program.cpp.o.requires
@@ -736,8 +736,8 @@ hphp/hhbbc/libhphp_hhbbc.a: hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/whole-program.c
 hphp/hhbbc/libhphp_hhbbc.a: hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/build.make
 hphp/hhbbc/libhphp_hhbbc.a: hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libhphp_hhbbc.a"
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && $(CMAKE_COMMAND) -P CMakeFiles/hphp_hhbbc.dir/cmake_clean_target.cmake
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hphp_hhbbc.dir/link.txt --verbose=$(VERBOSE)
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && $(CMAKE_COMMAND) -P CMakeFiles/hphp_hhbbc.dir/cmake_clean_target.cmake
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hphp_hhbbc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/build: hphp/hhbbc/libhphp_hhbbc.a
@@ -773,10 +773,10 @@ hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/requires: hphp/hhbbc/CMakeFiles/hphp_hhbbc.
 .PHONY : hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/requires
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/clean:
-	cd /tmp/hhvm-3.11.1/hphp/hhbbc && $(CMAKE_COMMAND) -P CMakeFiles/hphp_hhbbc.dir/cmake_clean.cmake
+	cd /tmp/hhvm-3.12.0/hphp/hhbbc && $(CMAKE_COMMAND) -P CMakeFiles/hphp_hhbbc.dir/cmake_clean.cmake
 .PHONY : hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/clean
 
 hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/hphp/hhbbc /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/hphp/hhbbc /tmp/hhvm-3.11.1/hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.12.0 /tmp/hhvm-3.12.0/hphp/hhbbc /tmp/hhvm-3.12.0 /tmp/hhvm-3.12.0/hphp/hhbbc /tmp/hhvm-3.12.0/hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/depend
 

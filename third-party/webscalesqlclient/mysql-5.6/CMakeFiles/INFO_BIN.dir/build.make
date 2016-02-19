@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src
 
 # Utility rule file for INFO_BIN.
 
@@ -49,7 +49,7 @@ CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src
 include CMakeFiles/INFO_BIN.dir/progress.make
 
 CMakeFiles/INFO_BIN:
-	/usr/bin/cmake -P /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/cmake/info_bin.cmake
+	/usr/bin/cmake -P /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/cmake/info_bin.cmake
 
 INFO_BIN: CMakeFiles/INFO_BIN
 INFO_BIN: CMakeFiles/INFO_BIN.dir/build.make
@@ -64,6 +64,6 @@ CMakeFiles/INFO_BIN.dir/clean:
 .PHONY : CMakeFiles/INFO_BIN.dir/clean
 
 CMakeFiles/INFO_BIN.dir/depend:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/INFO_BIN.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/CMakeFiles/INFO_BIN.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/INFO_BIN.dir/depend
 

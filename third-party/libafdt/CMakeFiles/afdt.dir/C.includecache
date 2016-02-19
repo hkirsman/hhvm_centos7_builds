@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/tmp/hhvm-3.11.1/third-party/libafdt/src/afdt.h
+/tmp/hhvm-3.12.0/third-party/libafdt/src/afdt.h
 stdint.h
 -
 
-/tmp/hhvm-3.11.1/third-party/libafdt/src/async.c
+/tmp/hhvm-3.12.0/third-party/libafdt/src/async.c
 stdlib.h
 -
 errno.h
@@ -26,19 +26,19 @@ sys/socket.h
 event.h
 -
 config.h
-/tmp/hhvm-3.11.1/third-party/libafdt/src/config.h
+/tmp/hhvm-3.12.0/third-party/libafdt/src/config.h
 afdt.h
-/tmp/hhvm-3.11.1/third-party/libafdt/src/afdt.h
+/tmp/hhvm-3.12.0/third-party/libafdt/src/afdt.h
 internal.h
-/tmp/hhvm-3.11.1/third-party/libafdt/src/internal.h
+/tmp/hhvm-3.12.0/third-party/libafdt/src/internal.h
 
-/tmp/hhvm-3.11.1/third-party/libafdt/src/config.h
+/tmp/hhvm-3.12.0/third-party/libafdt/src/config.h
 
-/tmp/hhvm-3.11.1/third-party/libafdt/src/internal.h
+/tmp/hhvm-3.12.0/third-party/libafdt/src/internal.h
 stddef.h
 -
 
-/tmp/hhvm-3.11.1/third-party/libafdt/src/lowlevel.c
+/tmp/hhvm-3.12.0/third-party/libafdt/src/lowlevel.c
 string.h
 -
 errno.h
@@ -52,19 +52,19 @@ sys/socket.h
 sys/un.h
 -
 config.h
-/tmp/hhvm-3.11.1/third-party/libafdt/src/config.h
+/tmp/hhvm-3.12.0/third-party/libafdt/src/config.h
 afdt.h
-/tmp/hhvm-3.11.1/third-party/libafdt/src/afdt.h
+/tmp/hhvm-3.12.0/third-party/libafdt/src/afdt.h
 internal.h
-/tmp/hhvm-3.11.1/third-party/libafdt/src/internal.h
+/tmp/hhvm-3.12.0/third-party/libafdt/src/internal.h
 
-/tmp/hhvm-3.11.1/third-party/libafdt/src/strlcpy.c
+/tmp/hhvm-3.12.0/third-party/libafdt/src/strlcpy.c
 sys/types.h
 -
 string.h
 -
 
-/tmp/hhvm-3.11.1/third-party/libafdt/src/sync.c
+/tmp/hhvm-3.12.0/third-party/libafdt/src/sync.c
 assert.h
 -
 poll.h
@@ -72,15 +72,15 @@ poll.h
 sys/time.h
 -
 config.h
-/tmp/hhvm-3.11.1/third-party/libafdt/src/config.h
+/tmp/hhvm-3.12.0/third-party/libafdt/src/config.h
 afdt.h
-/tmp/hhvm-3.11.1/third-party/libafdt/src/afdt.h
+/tmp/hhvm-3.12.0/third-party/libafdt/src/afdt.h
 internal.h
-/tmp/hhvm-3.11.1/third-party/libafdt/src/internal.h
+/tmp/hhvm-3.12.0/third-party/libafdt/src/internal.h
 
-/tmp/hhvm-3.11.1/third-party/libafdt/src/util.c
+/tmp/hhvm-3.12.0/third-party/libafdt/src/util.c
 config.h
-/tmp/hhvm-3.11.1/third-party/libafdt/src/config.h
+/tmp/hhvm-3.12.0/third-party/libafdt/src/config.h
 afdt.h
-/tmp/hhvm-3.11.1/third-party/libafdt/src/afdt.h
+/tmp/hhvm-3.12.0/third-party/libafdt/src/afdt.h
 

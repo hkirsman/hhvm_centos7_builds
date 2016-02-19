@@ -1,1 +1,1 @@
-typing/typing_redecl_service.ml: Bucket Core DepSet Errors FileInfo GlobalStorage List MultiWorker Naming Naming_heap Pos Printexc Printf Relative_path SMap SharedMem Typing_compare Typing_decl Typing_decl_service Typing_deps Typing_env Utils
+typing/typing_redecl_service.ml: Bucket Core DepSet Errors FileInfo GlobalStorage List MultiWorker Naming_heap Pos Printexc Printf Relative_path SMap SharedMem TypecheckerOptions Typing_compare Typing_decl Typing_decl_service Typing_deps Typing_env Utils

@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.0
 
 # Utility rule file for eaw_table.
 
@@ -50,7 +50,7 @@ include third-party/libmbfl/mbfl/CMakeFiles/eaw_table.dir/progress.make
 
 third-party/libmbfl/mbfl/CMakeFiles/eaw_table: third-party/libmbfl/mbfl/mk_eaw_tbl.awk
 third-party/libmbfl/mbfl/CMakeFiles/eaw_table: third-party/libmbfl/mbfl/EastAsianWidth.txt
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && sh /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/generate-eaw-table.sh /usr/bin/gawk /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && sh /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl/generate-eaw-table.sh /bin/gawk /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl
 
 eaw_table: third-party/libmbfl/mbfl/CMakeFiles/eaw_table
 eaw_table: third-party/libmbfl/mbfl/CMakeFiles/eaw_table.dir/build.make
@@ -61,10 +61,10 @@ third-party/libmbfl/mbfl/CMakeFiles/eaw_table.dir/build: eaw_table
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/eaw_table.dir/build
 
 third-party/libmbfl/mbfl/CMakeFiles/eaw_table.dir/clean:
-	cd /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl && $(CMAKE_COMMAND) -P CMakeFiles/eaw_table.dir/cmake_clean.cmake
+	cd /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl && $(CMAKE_COMMAND) -P CMakeFiles/eaw_table.dir/cmake_clean.cmake
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/eaw_table.dir/clean
 
 third-party/libmbfl/mbfl/CMakeFiles/eaw_table.dir/depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/CMakeFiles/eaw_table.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.12.0 /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl /tmp/hhvm-3.12.0 /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl/CMakeFiles/eaw_table.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/eaw_table.dir/depend
 

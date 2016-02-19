@@ -22,6 +22,7 @@
 #include "hphp/runtime/base/resource-data.h"
 #include "hphp/runtime/base/string-data.h"
 #include "hphp/runtime/base/typed-value.h"
+#include "hphp/runtime/base/req-root.h"
 
 namespace HPHP {
 ///////////////////////////////////////////////////////////////////////////////
@@ -54,9 +55,9 @@ struct Variant;
 #define TV_GENERIC_DISPATCH_SLOW(exp, func) \
   [](HPHP::TypedValue tv) {                                     \
     switch (tv.m_type) {                                        \
-      case HPHP::KindOfStaticString:                            \
+      case HPHP::KindOfPersistentString:                        \
       case HPHP::KindOfString: return tv.m_data.pstr->func();   \
-      case HPHP::KindOfPersistentArray:                             \
+      case HPHP::KindOfPersistentArray:                         \
       case HPHP::KindOfArray: return tv.m_data.parr->func();    \
       case HPHP::KindOfObject: return tv.m_data.pobj->func();   \
       case HPHP::KindOfResource: return tv.m_data.pres->func(); \
@@ -108,9 +109,8 @@ ALWAYS_INLINE bool isUncounted(const TypedValue& tv) {
   return uncounted;
 }
 
-// Assumes 'data' is live
-// Assumes 'isRefcountedType(type)'
-void tvDecRefHelper(DataType type, uint64_t datum) noexcept;
+typedef void(*RawDestructor)(void*);
+extern RawDestructor g_destructors[kDestrTableSize];
 
 /*
  * Returns true if decreffing the specified TypedValue will free heap-allocated
@@ -158,6 +158,20 @@ ALWAYS_INLINE void tvDecRefRefInternal(RefData* r) {
 ALWAYS_INLINE void tvDecRefRef(TypedValue* tv) {
   assert(tv->m_type == KindOfRef);
   tvDecRefRefInternal(tv->m_data.pref);
+}
+
+// Assumes 'data' is live
+// Assumes 'isRefcountedType(type)'
+ALWAYS_INLINE void tvDecRefHelper(DataType type, uint64_t datum) noexcept {
+  assert(type == KindOfString || type == KindOfArray ||
+         type == KindOfObject || type == KindOfResource ||
+         type == KindOfRef);
+  TypedValue tmp;
+  tmp.m_type = type;
+  tmp.m_data.num = datum;
+  if (TV_GENERIC_DISPATCH(tmp, decReleaseCheck)) {
+    g_destructors[typeToDestrIdx(type)]((void*)datum);
+  }
 }
 
 // Assumes 'tv' is live
@@ -302,9 +316,9 @@ ALWAYS_INLINE void cellDup(const Cell fr, Cell& to) {
 }
 
 /*
- * Duplicate a Ref from one location to another. Copies the m_data and
- * m_type fields and increments the reference count. Does not perform
- * as decRef on the value that was overwritten.
+ * Duplicate a Ref from one location to another. Copies the m_data and m_type
+ * fields and increments the reference count. Does not perform a decRef on the
+ * value that was overwritten.
  */
 ALWAYS_INLINE void refDup(const Ref fr, Ref& to) {
   assert(refIsPlausible(fr));
@@ -669,6 +683,23 @@ ALWAYS_INLINE void tvUnboxIfNeeded(TypedValue* tv) {
   if (tv->m_type == KindOfRef) tvUnbox(tv);
 }
 
+// Used when adding an array element.
+ALWAYS_INLINE void initVal(TypedValue& tv, Cell v) {
+  cellDup(v, tv);
+  if (UNLIKELY(tv.m_type == KindOfUninit)) {
+    tv.m_type = KindOfNull;
+  }
+}
+
+// Used when changing an array element.
+ALWAYS_INLINE void setVal(TypedValue& tv, Cell src) {
+  auto const dst = tvToCell(&tv);
+  if (UNLIKELY(src.m_type == KindOfUninit)) {
+    src.m_type = KindOfNull;
+  }
+  cellSet(src, *dst);
+}
+
 /*
  * TypedValue conversions that update the tv in place (decrefing and
  * old value, if necessary).
@@ -710,9 +741,6 @@ X(Object)
 X(NullableObject)
 X(Resource)
 #undef X
-
-typedef void(*RawDestructor)(void*);
-extern RawDestructor g_destructors[kDestrTableSize];
 
 ALWAYS_INLINE void tvCastInPlace(TypedValue *tv, DataType DType) {
 #define X(kind) \

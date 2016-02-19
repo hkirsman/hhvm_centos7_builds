@@ -1,1 +1,1 @@
-server/serverMain.mli: ServerArgs Unix
+server/serverMain.mli: Daemon ServerArgs

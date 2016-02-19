@@ -4,18 +4,18 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/tmp/hhvm-3.11.1/third-party/squangle/squangle/logger/DBEventCounter.cpp" "/tmp/hhvm-3.11.1/third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventCounter.cpp.o"
-  "/tmp/hhvm-3.11.1/third-party/squangle/squangle/logger/DBEventLogger.cpp" "/tmp/hhvm-3.11.1/third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventLogger.cpp.o"
-  "/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/AsyncConnectionPool.cpp" "/tmp/hhvm-3.11.1/third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncConnectionPool.cpp.o"
-  "/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/AsyncHelpers.cpp" "/tmp/hhvm-3.11.1/third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncHelpers.cpp.o"
-  "/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/AsyncMysqlClient.cpp" "/tmp/hhvm-3.11.1/third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncMysqlClient.cpp.o"
-  "/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/Connection.cpp" "/tmp/hhvm-3.11.1/third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Connection.cpp.o"
-  "/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/DbResult.cpp" "/tmp/hhvm-3.11.1/third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/DbResult.cpp.o"
-  "/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/FutureAdapter.cpp" "/tmp/hhvm-3.11.1/third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/FutureAdapter.cpp.o"
-  "/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/Operation.cpp" "/tmp/hhvm-3.11.1/third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Operation.cpp.o"
-  "/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/OperationBatch.cpp" "/tmp/hhvm-3.11.1/third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/OperationBatch.cpp.o"
-  "/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/Query.cpp" "/tmp/hhvm-3.11.1/third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Query.cpp.o"
-  "/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/Row.cpp" "/tmp/hhvm-3.11.1/third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Row.cpp.o"
+  "/tmp/hhvm-3.12.0/third-party/squangle/squangle/logger/DBEventCounter.cpp" "/tmp/hhvm-3.12.0/third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventCounter.cpp.o"
+  "/tmp/hhvm-3.12.0/third-party/squangle/squangle/logger/DBEventLogger.cpp" "/tmp/hhvm-3.12.0/third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventLogger.cpp.o"
+  "/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/AsyncConnectionPool.cpp" "/tmp/hhvm-3.12.0/third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncConnectionPool.cpp.o"
+  "/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/AsyncHelpers.cpp" "/tmp/hhvm-3.12.0/third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncHelpers.cpp.o"
+  "/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/AsyncMysqlClient.cpp" "/tmp/hhvm-3.12.0/third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncMysqlClient.cpp.o"
+  "/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/Connection.cpp" "/tmp/hhvm-3.12.0/third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Connection.cpp.o"
+  "/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/DbResult.cpp" "/tmp/hhvm-3.12.0/third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/DbResult.cpp.o"
+  "/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/FutureAdapter.cpp" "/tmp/hhvm-3.12.0/third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/FutureAdapter.cpp.o"
+  "/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/Operation.cpp" "/tmp/hhvm-3.12.0/third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Operation.cpp.o"
+  "/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/OperationBatch.cpp" "/tmp/hhvm-3.12.0/third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/OperationBatch.cpp.o"
+  "/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/Query.cpp" "/tmp/hhvm-3.12.0/third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Query.cpp.o"
+  "/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/Row.cpp" "/tmp/hhvm-3.12.0/third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Row.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -60,9 +60,9 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/tmp/hhvm-3.11.1/third-party/folly/CMakeFiles/folly.dir/DependInfo.cmake"
-  "/tmp/hhvm-3.11.1/third-party/re2/CMakeFiles/re2.dir/DependInfo.cmake"
-  "/tmp/hhvm-3.11.1/third-party/double-conversion/CMakeFiles/double-conversion.dir/DependInfo.cmake"
+  "/tmp/hhvm-3.12.0/third-party/folly/CMakeFiles/folly.dir/DependInfo.cmake"
+  "/tmp/hhvm-3.12.0/third-party/re2/CMakeFiles/re2.dir/DependInfo.cmake"
+  "/tmp/hhvm-3.12.0/third-party/double-conversion/CMakeFiles/double-conversion.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

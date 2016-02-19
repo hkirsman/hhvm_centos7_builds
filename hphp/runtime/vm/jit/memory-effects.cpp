@@ -28,16 +28,51 @@
 
 namespace HPHP { namespace jit {
 
-AliasClass pointee(const SSATmp* ptr) {
+namespace {
+
+AliasClass pointee(
+  const SSATmp* ptr,
+  jit::flat_set<const IRInstruction*>* visited_labels
+) {
   auto const type = ptr->type();
   always_assert(type <= TPtrToGen);
   auto const maybeRef = type.maybe(TPtrToRefGen);
   auto const typeNR = type - TPtrToRefGen;
+  auto const sinst = canonical(ptr)->inst();
+
+  if (sinst->is(UnboxPtr)) {
+    return ARefAny | pointee(sinst->src(0), visited_labels);
+  }
+
+  // For phis, union all incoming values, taking care to not recurse infinitely
+  // in the presence of loops.
+  if (sinst->is(DefLabel)) {
+    if (visited_labels && visited_labels->count(sinst)) {
+      return AEmpty;
+    }
+
+    auto const dsts = sinst->dsts();
+    auto const dstIdx = std::find(dsts.begin(), dsts.end(), ptr) - dsts.begin();
+
+    folly::Optional<jit::flat_set<const IRInstruction*>> label_set;
+    if (visited_labels == nullptr) {
+      label_set.emplace();
+      visited_labels = &label_set.value();
+    }
+    visited_labels->insert(sinst);
+
+    auto ret = AEmpty;
+    sinst->block()->forEachSrc(
+      dstIdx,
+      [&] (const IRInstruction* jmp, const SSATmp* ptr) {
+        ret = ret | pointee(ptr, visited_labels);
+      }
+    );
+    return ret;
+  }
 
   auto specific = [&] () -> folly::Optional<AliasClass> {
     if (typeNR <= TBottom) return AEmpty;
-
-    auto const sinst = canonical(ptr)->inst();
 
     if (typeNR <= TPtrToFrameGen) {
       if (sinst->is(LdLocAddr)) {
@@ -71,6 +106,11 @@ AliasClass pointee(const SSATmp* ptr) {
     if (typeNR <= TPtrToMISGen) {
       if (sinst->is(LdMIStateAddr)) {
         return mis_from_offset(sinst->src(0)->intVal());
+      }
+      if (ptr->hasConstVal() && ptr->rawVal() == 0) {
+        // nullptr tvRef pointer, representing an instruction that doesn't use
+        // it.
+        return AEmpty;
       }
       return AMIStateTV;
     }
@@ -107,6 +147,22 @@ AliasClass pointee(const SSATmp* ptr) {
       // base.
       if (sinst->is(ElemArrayU)) return AElemAny;
 
+      // These instructions can only get at tvRef when given it as a
+      // src. Otherwise they can only return pointers to properties or
+      // &init_null_variant().
+      if (sinst->is(PropX, PropDX, PropQ)) {
+        assertx(sinst->srcs().back()->isA(TPtrToMISGen));
+        return APropAny | pointee(sinst->srcs().back(), visited_labels);
+      }
+
+      // Like the Prop* instructions, but for array elements. These could also
+      // return pointers to collection elements but those don't exist in
+      // AliasClass yet.
+      if (sinst->is(ElemX, ElemDX, ElemUX)) {
+        assertx(sinst->srcs().back()->isA(TPtrToMISGen));
+        return AElemAny | pointee(sinst->srcs().back(), visited_labels);
+      }
+
       return folly::none;
     }
 
@@ -129,8 +185,6 @@ AliasClass pointee(const SSATmp* ptr) {
   if (typeNR.maybe(TPtrToClsCnsGen))  ret = ret | AHeapAny;
   return ret;
 }
-
-namespace {
 
 //////////////////////////////////////////////////////////////////////
 
@@ -470,6 +524,12 @@ MemEffects memory_effects_impl(const IRInstruction& inst) {
    * effectively converted AStack locations into a frame until the
    * InlineReturn).
    *
+   * Note: We may push the publishing of the inline frame below the start of
+   * the inline function so that we can avoid spilling the inline frame in the
+   * common case. Because of this we cannot add the stack positions within the
+   * inline function to the kill set here as they may be live having been stored
+   * on the main trace.
+   *
    * TODO(#3634984): Additionally, DefInlineFP is marking may-load on all the
    * locals of the outer frame.  This is probably not necessary anymore, but we
    * added it originally because a store sinking prototype needed to know it
@@ -478,32 +538,78 @@ MemEffects memory_effects_impl(const IRInstruction& inst) {
    * removing that set.
    */
   case DefInlineFP:
+    return may_load_store(
+      /*
+       * We need to mark DefInlineFP as both loading and storing the entire
+       * stack below its frame because it may have been pushed. If DefInlineFP
+       * is not pushed these cells were marked as both stored and killed by
+       * BeginInlining so now actual stores should be aliased.
+       *
+       * Importantly, if we do sink DefInlineFP stack cells from above may
+       * alias locals within DefInlineFP, this confuses alias analysis, these
+       * stores must not be sunk past DefInlineFP where they could clobber a
+       * local.
+       */
+      AFrameAny | inline_fp_frame(&inst) | stack_below(inst.dst(), 0),
+      AFrameAny | stack_below(inst.dst(), 0)
+    );
+
+  /*
+   * BeginInlining is similar to DefInlineFP, however, it must always be the
+   * first instruction in the inlined call and has no effect serving only as
+   * a marker to memory effects that the stack cells within the inlined call
+   * are now dead.
+   *
+   * Unlike DefInlineFP it does not load the SpillFrame, which we hope to push
+   * off the main trace or elide entirely.
+   */
+  case BeginInlining: {
+    /*
+     * SP relative offset of the first non-frame cell within the inlined call.
+     */
+    auto inlineStackOff = inst.extra<BeginInlining>()->offset.offset;
     return may_load_store_kill(
-      AFrameAny | inline_fp_frame(&inst),
+      AEmpty,
       /*
        * This prevents stack slots from the caller from being sunk into the
        * callee. Note that some of these stack slots overlap with the frame
        * locals of the callee-- those slots are inacessible in the inlined
        * call as frame and stack locations may not alias.
        */
-      stack_below(inst.dst(), 0),
+      stack_below(inst.src(0), inlineStackOff),
       /*
        * While not required for correctness adding these slots to the kill set
        * will hopefully avoid some extra stores.
        */
-      stack_below(inst.dst(), 0)
+      stack_below(inst.src(0), inlineStackOff)
     );
+  }
 
-  case InlineReturn:
-    return ReturnEffects { stack_below(inst.src(0), 2) | AMIStateAny };
+  case InlineReturn: {
+    auto const callee = stack_below(inst.src(0), 2) | AMIStateAny | AFrameAny;
+    return may_load_store_kill(AEmpty, callee, callee);
+  }
 
-  case InlineReturnNoFrame:
-    return ReturnEffects {
-      AliasClass(AStack {
-        inst.extra<InlineReturnNoFrame>()->frameOffset.offset,
+  case InlineReturnNoFrame: {
+    auto const callee = AliasClass(AStack {
+      inst.extra<InlineReturnNoFrame>()->frameOffset.offset,
         std::numeric_limits<int32_t>::max()
-      }) | AMIStateAny
+    }) | AMIStateAny;
+    return may_load_store_kill(AEmpty, callee, callee);
+  }
+
+  case SyncReturnBC: {
+    auto const spOffset = inst.extra<SyncReturnBC>()->spOffset;
+    auto const arStack = AStack {
+      inst.src(0),
+      // Same as spillframe
+      spOffset.offset + int32_t{kNumActRecCells} - 1,
+      int32_t{kNumActRecCells}
     };
+    // This instruction doesn't actually load but SpillFrame cannot be pushed
+    // past it
+    return may_load_store(arStack, arStack);
+  }
 
   case InterpOne:
     return interp_one_effects(inst);
@@ -799,66 +905,59 @@ MemEffects memory_effects_impl(const IRInstruction& inst) {
 
   /*
    * Various minstr opcodes that take a PtrToGen in src 0, which may or may not
-   * point to a frame local or the evaluation stack.  These instructions can
-   * all re-enter the VM and access arbitrary heap locations, and some of them
-   * take pointers to MinstrState locations, which they may both load and store
-   * from if present.
+   * point to a frame local or the evaluation stack. Some may read or write to
+   * that pointer while some only read. They can all re-enter the VM and access
+   * arbitrary heap locations.
    */
   case CGetElem:
   case EmptyElem:
   case IssetElem:
-  case SetElem:
-  case SetNewElemArray:
-  case SetNewElem:
-  case UnsetElem:
-  case ElemArrayD:
-  case ElemArrayU:
-    // Right now we generally can't limit any of these better than general
-    // re-entry rules, since they can raise warnings and re-enter.
-    assertx(inst.src(0)->type() <= TPtrToGen);
-    return may_raise(inst, may_load_store(
-      AHeapAny | all_pointees(inst),
-      AHeapAny | all_pointees(inst)
-    ));
-
-  case ElemX:
-  case ElemDX:
-  case ElemUX:
-  case BindElem:
-  case BindNewElem:
-  case IncDecElem:
-  case SetOpElem:
-  case SetWithRefElem:
-  case SetWithRefNewElem:
-  case VGetElem:
-
-    assertx(inst.src(0)->isA(TPtrToGen));
-    return minstr_with_tvref(inst);
-
-  /*
-   * These minstr opcodes either take a PtrToGen or an Obj as the base.  The
-   * pointer may point at frame locals or the stack.  These instructions can
-   * all re-enter the VM and access arbitrary non-frame/stack locations, as
-   * well.
-   */
   case CGetProp:
   case CGetPropQ:
   case EmptyProp:
   case IssetProp:
+    return may_raise(inst, may_load_store(
+      AHeapAny | all_pointees(inst),
+      AHeapAny
+    ));
+
+  case VGetElem:
+  case SetElem:
+  case SetNewElemArray:
+  case SetNewElem:
+  case SetOpElem:
+  case SetWithRefElem:
+  case SetWithRefNewElem:
+  case UnsetElem:
+  case BindElem:
+  case BindNewElem:
+  case IncDecElem:
+  case ElemArrayD:
+  case ElemArrayU:
+  case VGetProp:
   case UnsetProp:
   case IncDecProp:
   case SetProp:
+  case SetOpProp:
+  case BindProp:
+    // Right now we generally can't limit any of these better than general
+    // re-entry rules, since they can raise warnings and re-enter.
     return may_raise(inst, may_load_store(
       AHeapAny | all_pointees(inst),
       AHeapAny | all_pointees(inst)
     ));
 
+  /*
+   * Intermediate minstr operations. In addition to a base pointer like the
+   * operations agove, these may take a pointer to MInstrState::tvRef, which
+   * they may store to (but not read from).
+   */
+  case ElemX:
+  case ElemDX:
+  case ElemUX:
   case PropX:
   case PropDX:
   case PropQ:
-  case BindProp:
-  case SetOpProp:
-  case VGetProp:
     return minstr_with_tvref(inst);
 
   /*
@@ -1085,6 +1184,8 @@ MemEffects memory_effects_impl(const IRInstruction& inst) {
   case CheckARMagicFlag:
   case LdARNumArgsAndFlags:
   case StARNumArgsAndFlags:
+  case LdTVAux:
+  case StTVAux:
   case LdARInvName:
   case StARInvName:
   case MethodExists:
@@ -1522,6 +1623,10 @@ MemEffects memory_effects(const IRInstruction& inst) {
   auto const ret = memory_effects_impl(inst);
   assertx(check_effects(inst, ret));
   return ret;
+}
+
+AliasClass pointee(const SSATmp* tmp) {
+  return pointee(tmp, nullptr);
 }
 
 //////////////////////////////////////////////////////////////////////

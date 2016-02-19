@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.0
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles /tmp/hhvm-3.11.1/hphp/system/CMakeFiles/progress.marks
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/system/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles 0
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.0/CMakeFiles /tmp/hhvm-3.12.0/hphp/system/CMakeFiles/progress.marks
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/system/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.0/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/system/clean
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/system/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/system/preinstall
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/system/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/system/preinstall
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/system/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 hphp/system/CMakeFiles/hphp_system.dir/rule:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/system/CMakeFiles/hphp_system.dir/rule
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/system/CMakeFiles/hphp_system.dir/rule
 .PHONY : hphp/system/CMakeFiles/hphp_system.dir/rule
 
 # Convenience name for target.
@@ -153,12 +153,12 @@ hphp_system: hphp/system/CMakeFiles/hphp_system.dir/rule
 
 # fast build rule for target.
 hphp_system/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/system/CMakeFiles/hphp_system.dir/build.make hphp/system/CMakeFiles/hphp_system.dir/build
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/system/CMakeFiles/hphp_system.dir/build.make hphp/system/CMakeFiles/hphp_system.dir/build
 .PHONY : hphp_system/fast
 
 # Convenience name for target.
 hphp/system/CMakeFiles/systemlib.dir/rule:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/system/CMakeFiles/systemlib.dir/rule
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/system/CMakeFiles/systemlib.dir/rule
 .PHONY : hphp/system/CMakeFiles/systemlib.dir/rule
 
 # Convenience name for target.
@@ -167,7 +167,7 @@ systemlib: hphp/system/CMakeFiles/systemlib.dir/rule
 
 # fast build rule for target.
 systemlib/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/system/CMakeFiles/systemlib.dir/build.make hphp/system/CMakeFiles/systemlib.dir/build
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/system/CMakeFiles/systemlib.dir/build.make hphp/system/CMakeFiles/systemlib.dir/build
 .PHONY : systemlib/fast
 
 class_map.o: class_map.cpp.o
@@ -175,7 +175,7 @@ class_map.o: class_map.cpp.o
 
 # target to build an object file
 class_map.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/system/CMakeFiles/hphp_system.dir/build.make hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/system/CMakeFiles/hphp_system.dir/build.make hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o
 .PHONY : class_map.cpp.o
 
 class_map.i: class_map.cpp.i
@@ -183,7 +183,7 @@ class_map.i: class_map.cpp.i
 
 # target to preprocess a source file
 class_map.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/system/CMakeFiles/hphp_system.dir/build.make hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/system/CMakeFiles/hphp_system.dir/build.make hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.i
 .PHONY : class_map.cpp.i
 
 class_map.s: class_map.cpp.s
@@ -191,7 +191,7 @@ class_map.s: class_map.cpp.s
 
 # target to generate assembly for a file
 class_map.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/system/CMakeFiles/hphp_system.dir/build.make hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/system/CMakeFiles/hphp_system.dir/build.make hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.s
 .PHONY : class_map.cpp.s
 
 systemlib.o: systemlib.cpp.o
@@ -199,7 +199,7 @@ systemlib.o: systemlib.cpp.o
 
 # target to build an object file
 systemlib.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/system/CMakeFiles/hphp_system.dir/build.make hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/system/CMakeFiles/hphp_system.dir/build.make hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o
 .PHONY : systemlib.cpp.o
 
 systemlib.i: systemlib.cpp.i
@@ -207,7 +207,7 @@ systemlib.i: systemlib.cpp.i
 
 # target to preprocess a source file
 systemlib.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/system/CMakeFiles/hphp_system.dir/build.make hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/system/CMakeFiles/hphp_system.dir/build.make hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.i
 .PHONY : systemlib.cpp.i
 
 systemlib.s: systemlib.cpp.s
@@ -215,7 +215,7 @@ systemlib.s: systemlib.cpp.s
 
 # target to generate assembly for a file
 systemlib.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/system/CMakeFiles/hphp_system.dir/build.make hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/system/CMakeFiles/hphp_system.dir/build.make hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.s
 .PHONY : systemlib.cpp.s
 
 # Help Target
@@ -249,6 +249,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

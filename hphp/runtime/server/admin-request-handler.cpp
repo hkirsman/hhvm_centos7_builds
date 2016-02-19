@@ -19,6 +19,7 @@
 #include "hphp/runtime/base/apc-file-storage.h"
 #include "hphp/runtime/base/apc-stats.h"
 #include "hphp/runtime/base/datetime.h"
+#include "hphp/runtime/base/hhprof.h"
 #include "hphp/runtime/base/http-client.h"
 #include "hphp/runtime/base/memory-manager.h"
 #include "hphp/runtime/base/preg.h"
@@ -52,6 +53,7 @@
 #include "hphp/util/timer.h"
 
 #include <folly/Conv.h>
+#include <folly/Random.h>
 
 #include <boost/lexical_cast.hpp>
 
@@ -132,9 +134,19 @@ static void malloc_write_cb(void *cbopaque, const char *s) {
 extern unsigned low_arena;
 #endif
 
+void WarnIfNotOK(Transport* transport) {
+  auto code = static_cast<Transport::StatusCode>(transport->getResponseCode());
+  if (code != Transport::StatusCode::OK) {
+    Logger::Warning("Non-OK response from admin server: %d %s",
+                    static_cast<int>(code),
+                    transport->getResponseInfo().c_str());
+  }
+}
+
 void AdminRequestHandler::logToAccessLog(Transport* transport) {
   GetAccessLog().onNewRequest();
   GetAccessLog().log(transport, nullptr);
+  WarnIfNotOK(transport);
 }
 
 void AdminRequestHandler::setupRequest(Transport* transport) {
@@ -145,6 +157,7 @@ void AdminRequestHandler::setupRequest(Transport* transport) {
 void AdminRequestHandler::teardownRequest(Transport* transport) noexcept {
   SCOPE_EXIT { hphp_memory_cleanup(); };
   GetAccessLog().log(transport, nullptr);
+  WarnIfNotOK(transport);
 }
 
 void AdminRequestHandler::handleRequest(Transport *transport) {
@@ -216,6 +229,8 @@ void AdminRequestHandler::handleRequest(Transport *transport) {
         "/static-strings:  get number of static strings\n"
         "/static-strings-rds: ... that correspond to defined constants\n"
         "/dump-static-strings: dump static strings to /tmp/static_strings\n"
+        "/random-static-strings: return randomly selected static strings\n"
+        "    count         number of strings to return, default 1\n"
         "/dump-apc:        dump all current value in APC to /tmp/apc_dump\n"
         "/dump-apc-info:   show basic APC stats\n"
         "/dump-apc-meta:   dump meta information for all objects in APC to\n"
@@ -280,15 +295,39 @@ void AdminRequestHandler::handleRequest(Transport *transport) {
               "                  the next request that runs\n"
               "    file          optional, filesystem path\n"
           );
+#ifdef ENABLE_HHPROF
+          usage.append(
+              "/hhprof/start:    start profiling\n"
+              "    requestType   \"all\" or \"next\"*\n"
+              "    url           profile next matching url for \"next\"\n"
+              "    lgSample      lg sample rate\n"
+              "    profileType   \"current\"* or \"cumulative\"\n"
+              "/hhprof/status:   configuration and current dump status\n"
+              "/hhprof/stop:     stop profiling\n"
+              "/pprof/cmdline:   program command line\n"
+              "/pprof/heap:      heap dump\n"
+              "/pprof/symbol:    symbol lookup\n"
+          );
+#endif // ENABLE_HHPROF
         }
-#endif
+#endif // USE_JEMALLOC
 
       transport->sendString(usage);
       break;
     }
 
     bool needs_password = (cmd != "build-id") && (cmd != "compiler-id") &&
-                          (cmd != "instance-id");
+                          (cmd != "instance-id")
+#if defined(ENABLE_HHPROF) && defined(USE_JEMALLOC)
+                          && (mallctl == nullptr || (
+                                 (cmd != "hhprof/start")
+                              && (cmd != "hhprof/status")
+                              && (cmd != "hhprof/stop")
+                              && (cmd != "pprof/cmdline")
+                              && (cmd != "pprof/heap")
+                              && (cmd != "pprof/symbol")))
+#endif
+                          ;
 
     if (needs_password && !RuntimeOption::AdminPasswords.empty()) {
       std::set<std::string>::const_iterator iter =
@@ -398,15 +437,15 @@ void AdminRequestHandler::handleRequest(Transport *transport) {
         handleStaticStringsRequest(cmd, transport)) {
       break;
     }
-    if (strncmp(cmd.c_str(), "static-strings-rds", 18) == 0 &&
-        handleStaticStringsRdsRequest(cmd, transport)) {
-      break;
-    }
     if (strncmp(cmd.c_str(), "dump-static-strings", 19) == 0) {
       auto filename = transport->getParam("file");
       if (filename == "") filename = "/tmp/static_strings";
-      handleDumpStaticStrings(cmd, transport, filename);
+      handleDumpStaticStringsRequest(cmd, filename);
       transport->sendString("OK\n");
+      break;
+    }
+    if (strncmp(cmd.c_str(), "random-static-strings", 21) == 0) {
+      handleRandomStaticStringsRequest(cmd, transport);
       break;
     }
     if (strncmp(cmd.c_str(), "vm-", 3) == 0 &&
@@ -542,8 +581,7 @@ void AdminRequestHandler::handleRequest(Transport *transport) {
       assert(mallctlnametomib && mallctlbymib);
       if (cmd == "free-mem") {
         // Purge all dirty unused pages.
-        uint64_t epoch = 1;
-        int err = mallctl("epoch", nullptr, nullptr, &epoch, sizeof(epoch));
+        int err = mallctlWrite<uint64_t>("epoch", 1, true);
         if (err) {
           std::ostringstream estr;
           estr << "Error " << err << " in mallctl(\"epoch\", ...)" << endl;
@@ -552,8 +590,7 @@ void AdminRequestHandler::handleRequest(Transport *transport) {
         }
 
         unsigned narenas;
-        size_t sz = sizeof(narenas);
-        err = mallctl("arenas.narenas", &narenas, &sz, nullptr, 0);
+        err = mallctlRead("arenas.narenas", &narenas, true);
         if (err) {
           std::ostringstream estr;
           estr << "Error " << err << " in mallctl(\"arenas.narenas\", ...)"
@@ -587,16 +624,14 @@ void AdminRequestHandler::handleRequest(Transport *transport) {
       }
       if (cmd == "jemalloc-stats") {
         // Force jemalloc to update stats cached for use by mallctl().
-        uint64_t epoch = 1;
         uint32_t error = 0;
-        if (mallctl("epoch", nullptr, nullptr, &epoch, sizeof(epoch)) != 0) {
+        if (mallctlWrite<uint64_t>("epoch", 1, true) != 0) {
           error = 1;
         }
 
         auto call_mallctl = [&](const char* statName) {
           size_t value = 0;
-          size_t sz = sizeof(value);
-          if (mallctl(statName, &value, &sz, nullptr, 0) != 0){
+          if (mallctlRead(statName, &value, true) != 0) {
             error = 1;
           }
           return value;
@@ -702,8 +737,34 @@ void AdminRequestHandler::handleRequest(Transport *transport) {
         }
         break;
       }
+#ifdef ENABLE_HHPROF
+      if (cmd == "hhprof/start") {
+        HHProf::HandleHHProfStart(transport);
+        break;
+      }
+      if (cmd == "hhprof/status") {
+        HHProf::HandleHHProfStatus(transport);
+        break;
+      }
+      if (cmd == "hhprof/stop") {
+        HHProf::HandleHHProfStop(transport);
+        break;
+      }
+      if (cmd == "pprof/cmdline") {
+        HHProf::HandlePProfCmdline(transport);
+        break;
+      }
+      if (cmd == "pprof/heap") {
+        HHProf::HandlePProfHeap(transport);
+        break;
+      }
+      if (cmd == "pprof/symbol") {
+        HHProf::HandlePProfSymbol(transport);
+        break;
+      }
+#endif // ENABLE_HHPROF
     }
-#endif
+#endif // USE_JEMALLOC
 
     transport->sendString("Unknown command: " + cmd + "\n", 404);
   } while (0);
@@ -888,7 +949,7 @@ bool AdminRequestHandler::handleMemoryRequest(const std::string &cmd,
   }
   if (cmd == "memory.html" || cmd == "memory.htm") {
       MemoryStats::GetInstance()->ReportMemory(out, Writer::Format::HTML);
-      transport->replaceHeader("Content-Type","application/html");
+      transport->replaceHeader("Content-Type","text/html");
       transport->sendString(out);
       return true;
   }
@@ -1045,31 +1106,64 @@ bool AdminRequestHandler::handleConstSizeRequest (const std::string &cmd,
 
 bool AdminRequestHandler::handleStaticStringsRequest(const std::string& cmd,
                                                      Transport* transport) {
-  std::ostringstream result;
-  result << makeStaticStringCount();
-  transport->sendString(result.str());
-  return true;
+  if (cmd == "static-strings") {
+    std::ostringstream result;
+    result << makeStaticStringCount();
+    transport->sendString(result.str());
+    return true;
+  } else if (cmd == "static-strings-rds") {
+    std::ostringstream result;
+    result << countStaticStringConstants();
+    transport->sendString(result.str());
+    return true;
+  }
+  return false;
 }
 
-bool AdminRequestHandler::handleStaticStringsRdsRequest(const std::string& cmd,
-                                                        Transport* transport) {
-  std::ostringstream result;
-  result << countStaticStringConstants();
-  transport->sendString(result.str());
-  return true;
+std::string formatStaticString(StringData* str) {
+  return folly::sformat(
+      "----\n{} bytes\n{}\n", str->size(), str->toCppString());
 }
 
-bool AdminRequestHandler::handleDumpStaticStrings(const std::string& cmd,
-                                                  Transport* transporti,
-                                                  const std::string &filename) {
+bool AdminRequestHandler::handleDumpStaticStringsRequest(
+  const std::string& cmd,
+  const std::string& filename
+) {
   std::vector<StringData*> list = lookupDefinedStaticStrings();
   std::ofstream out(filename.c_str());
   SCOPE_EXIT { out.close(); };
   for (auto item : list) {
-    out << "----\n";
-    out << item->size() << " bytes\n";
-    out << item->toCppString() << "\n";
+    out << formatStaticString(item);
   }
+  return true;
+}
+
+bool AdminRequestHandler::handleRandomStaticStringsRequest(
+  const std::string& cmd,
+  Transport* transport
+) {
+  size_t count = 1;
+  auto countParam = transport->getParam("count");
+  if (countParam != "") {
+    try {
+      count = folly::to<size_t>(countParam);
+    } catch (...) {
+      // do the default on invalid input
+    }
+  }
+  std::string output;
+  std::vector<StringData*> list = lookupDefinedStaticStrings();
+  if (count < list.size()) {
+    for (size_t i = 0; i < count; i++) {
+      size_t j = folly::Random::rand64(i, list.size());
+      std::swap(list[i], list[j]);
+    }
+    list.resize(count);
+  }
+  for (auto item : list) {
+    output += formatStaticString(item);
+  }
+  transport->sendString(output);
   return true;
 }
 
@@ -1174,7 +1268,7 @@ bool AdminRequestHandler::handleRandomApcRequest(const std::string &cmd,
   if (count != "") {
     try {
       keyCount = folly::to<int64_t>(count);
-    } catch (const std::invalid_argument& ia) {
+    } catch (...) {
       // set keyCount to 1 if an invalid string is passed
       keyCount = 1;
     }

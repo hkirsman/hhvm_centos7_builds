@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.0
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles /tmp/hhvm-3.11.1/third-party/proxygen/CMakeFiles/progress.marks
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/proxygen/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles 0
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.0/CMakeFiles /tmp/hhvm-3.12.0/third-party/proxygen/CMakeFiles/progress.marks
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/proxygen/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.0/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/proxygen/clean
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/proxygen/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/proxygen/preinstall
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/proxygen/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/proxygen/preinstall
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/proxygen/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/rule:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/rule
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/rule
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ hphp_proxygen: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/rule
 
 # fast build rule for target.
 hphp_proxygen/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build
 .PHONY : hphp_proxygen/fast
 
 external/http_parser/http_parser_cpp.o: external/http_parser/http_parser_cpp.cpp.o
@@ -161,7 +161,7 @@ external/http_parser/http_parser_cpp.o: external/http_parser/http_parser_cpp.cpp
 
 # target to build an object file
 external/http_parser/http_parser_cpp.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/external/http_parser/http_parser_cpp.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/external/http_parser/http_parser_cpp.cpp.o
 .PHONY : external/http_parser/http_parser_cpp.cpp.o
 
 external/http_parser/http_parser_cpp.i: external/http_parser/http_parser_cpp.cpp.i
@@ -169,7 +169,7 @@ external/http_parser/http_parser_cpp.i: external/http_parser/http_parser_cpp.cpp
 
 # target to preprocess a source file
 external/http_parser/http_parser_cpp.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/external/http_parser/http_parser_cpp.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/external/http_parser/http_parser_cpp.cpp.i
 .PHONY : external/http_parser/http_parser_cpp.cpp.i
 
 external/http_parser/http_parser_cpp.s: external/http_parser/http_parser_cpp.cpp.s
@@ -177,7 +177,7 @@ external/http_parser/http_parser_cpp.s: external/http_parser/http_parser_cpp.cpp
 
 # target to generate assembly for a file
 external/http_parser/http_parser_cpp.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/external/http_parser/http_parser_cpp.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/external/http_parser/http_parser_cpp.cpp.s
 .PHONY : external/http_parser/http_parser_cpp.cpp.s
 
 lib/http/HTTPCommonHeaders.o: lib/http/HTTPCommonHeaders.cpp.o
@@ -185,7 +185,7 @@ lib/http/HTTPCommonHeaders.o: lib/http/HTTPCommonHeaders.cpp.o
 
 # target to build an object file
 lib/http/HTTPCommonHeaders.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.o
 .PHONY : lib/http/HTTPCommonHeaders.cpp.o
 
 lib/http/HTTPCommonHeaders.i: lib/http/HTTPCommonHeaders.cpp.i
@@ -193,7 +193,7 @@ lib/http/HTTPCommonHeaders.i: lib/http/HTTPCommonHeaders.cpp.i
 
 # target to preprocess a source file
 lib/http/HTTPCommonHeaders.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.i
 .PHONY : lib/http/HTTPCommonHeaders.cpp.i
 
 lib/http/HTTPCommonHeaders.s: lib/http/HTTPCommonHeaders.cpp.s
@@ -201,7 +201,7 @@ lib/http/HTTPCommonHeaders.s: lib/http/HTTPCommonHeaders.cpp.s
 
 # target to generate assembly for a file
 lib/http/HTTPCommonHeaders.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.s
 .PHONY : lib/http/HTTPCommonHeaders.cpp.s
 
 lib/http/HTTPConnector.o: lib/http/HTTPConnector.cpp.o
@@ -209,7 +209,7 @@ lib/http/HTTPConnector.o: lib/http/HTTPConnector.cpp.o
 
 # target to build an object file
 lib/http/HTTPConnector.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.o
 .PHONY : lib/http/HTTPConnector.cpp.o
 
 lib/http/HTTPConnector.i: lib/http/HTTPConnector.cpp.i
@@ -217,7 +217,7 @@ lib/http/HTTPConnector.i: lib/http/HTTPConnector.cpp.i
 
 # target to preprocess a source file
 lib/http/HTTPConnector.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.i
 .PHONY : lib/http/HTTPConnector.cpp.i
 
 lib/http/HTTPConnector.s: lib/http/HTTPConnector.cpp.s
@@ -225,7 +225,7 @@ lib/http/HTTPConnector.s: lib/http/HTTPConnector.cpp.s
 
 # target to generate assembly for a file
 lib/http/HTTPConnector.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.s
 .PHONY : lib/http/HTTPConnector.cpp.s
 
 lib/http/HTTPConstants.o: lib/http/HTTPConstants.cpp.o
@@ -233,7 +233,7 @@ lib/http/HTTPConstants.o: lib/http/HTTPConstants.cpp.o
 
 # target to build an object file
 lib/http/HTTPConstants.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConstants.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConstants.cpp.o
 .PHONY : lib/http/HTTPConstants.cpp.o
 
 lib/http/HTTPConstants.i: lib/http/HTTPConstants.cpp.i
@@ -241,7 +241,7 @@ lib/http/HTTPConstants.i: lib/http/HTTPConstants.cpp.i
 
 # target to preprocess a source file
 lib/http/HTTPConstants.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConstants.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConstants.cpp.i
 .PHONY : lib/http/HTTPConstants.cpp.i
 
 lib/http/HTTPConstants.s: lib/http/HTTPConstants.cpp.s
@@ -249,7 +249,7 @@ lib/http/HTTPConstants.s: lib/http/HTTPConstants.cpp.s
 
 # target to generate assembly for a file
 lib/http/HTTPConstants.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConstants.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConstants.cpp.s
 .PHONY : lib/http/HTTPConstants.cpp.s
 
 lib/http/HTTPException.o: lib/http/HTTPException.cpp.o
@@ -257,7 +257,7 @@ lib/http/HTTPException.o: lib/http/HTTPException.cpp.o
 
 # target to build an object file
 lib/http/HTTPException.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.o
 .PHONY : lib/http/HTTPException.cpp.o
 
 lib/http/HTTPException.i: lib/http/HTTPException.cpp.i
@@ -265,7 +265,7 @@ lib/http/HTTPException.i: lib/http/HTTPException.cpp.i
 
 # target to preprocess a source file
 lib/http/HTTPException.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.i
 .PHONY : lib/http/HTTPException.cpp.i
 
 lib/http/HTTPException.s: lib/http/HTTPException.cpp.s
@@ -273,7 +273,7 @@ lib/http/HTTPException.s: lib/http/HTTPException.cpp.s
 
 # target to generate assembly for a file
 lib/http/HTTPException.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.s
 .PHONY : lib/http/HTTPException.cpp.s
 
 lib/http/HTTPHeaders.o: lib/http/HTTPHeaders.cpp.o
@@ -281,7 +281,7 @@ lib/http/HTTPHeaders.o: lib/http/HTTPHeaders.cpp.o
 
 # target to build an object file
 lib/http/HTTPHeaders.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPHeaders.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPHeaders.cpp.o
 .PHONY : lib/http/HTTPHeaders.cpp.o
 
 lib/http/HTTPHeaders.i: lib/http/HTTPHeaders.cpp.i
@@ -289,7 +289,7 @@ lib/http/HTTPHeaders.i: lib/http/HTTPHeaders.cpp.i
 
 # target to preprocess a source file
 lib/http/HTTPHeaders.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPHeaders.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPHeaders.cpp.i
 .PHONY : lib/http/HTTPHeaders.cpp.i
 
 lib/http/HTTPHeaders.s: lib/http/HTTPHeaders.cpp.s
@@ -297,7 +297,7 @@ lib/http/HTTPHeaders.s: lib/http/HTTPHeaders.cpp.s
 
 # target to generate assembly for a file
 lib/http/HTTPHeaders.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPHeaders.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPHeaders.cpp.s
 .PHONY : lib/http/HTTPHeaders.cpp.s
 
 lib/http/HTTPMessage.o: lib/http/HTTPMessage.cpp.o
@@ -305,7 +305,7 @@ lib/http/HTTPMessage.o: lib/http/HTTPMessage.cpp.o
 
 # target to build an object file
 lib/http/HTTPMessage.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMessage.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMessage.cpp.o
 .PHONY : lib/http/HTTPMessage.cpp.o
 
 lib/http/HTTPMessage.i: lib/http/HTTPMessage.cpp.i
@@ -313,7 +313,7 @@ lib/http/HTTPMessage.i: lib/http/HTTPMessage.cpp.i
 
 # target to preprocess a source file
 lib/http/HTTPMessage.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMessage.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMessage.cpp.i
 .PHONY : lib/http/HTTPMessage.cpp.i
 
 lib/http/HTTPMessage.s: lib/http/HTTPMessage.cpp.s
@@ -321,7 +321,7 @@ lib/http/HTTPMessage.s: lib/http/HTTPMessage.cpp.s
 
 # target to generate assembly for a file
 lib/http/HTTPMessage.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMessage.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMessage.cpp.s
 .PHONY : lib/http/HTTPMessage.cpp.s
 
 lib/http/HTTPMethod.o: lib/http/HTTPMethod.cpp.o
@@ -329,7 +329,7 @@ lib/http/HTTPMethod.o: lib/http/HTTPMethod.cpp.o
 
 # target to build an object file
 lib/http/HTTPMethod.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMethod.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMethod.cpp.o
 .PHONY : lib/http/HTTPMethod.cpp.o
 
 lib/http/HTTPMethod.i: lib/http/HTTPMethod.cpp.i
@@ -337,7 +337,7 @@ lib/http/HTTPMethod.i: lib/http/HTTPMethod.cpp.i
 
 # target to preprocess a source file
 lib/http/HTTPMethod.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMethod.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMethod.cpp.i
 .PHONY : lib/http/HTTPMethod.cpp.i
 
 lib/http/HTTPMethod.s: lib/http/HTTPMethod.cpp.s
@@ -345,7 +345,7 @@ lib/http/HTTPMethod.s: lib/http/HTTPMethod.cpp.s
 
 # target to generate assembly for a file
 lib/http/HTTPMethod.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMethod.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMethod.cpp.s
 .PHONY : lib/http/HTTPMethod.cpp.s
 
 lib/http/ProxygenErrorEnum.o: lib/http/ProxygenErrorEnum.cpp.o
@@ -353,7 +353,7 @@ lib/http/ProxygenErrorEnum.o: lib/http/ProxygenErrorEnum.cpp.o
 
 # target to build an object file
 lib/http/ProxygenErrorEnum.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/ProxygenErrorEnum.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/ProxygenErrorEnum.cpp.o
 .PHONY : lib/http/ProxygenErrorEnum.cpp.o
 
 lib/http/ProxygenErrorEnum.i: lib/http/ProxygenErrorEnum.cpp.i
@@ -361,7 +361,7 @@ lib/http/ProxygenErrorEnum.i: lib/http/ProxygenErrorEnum.cpp.i
 
 # target to preprocess a source file
 lib/http/ProxygenErrorEnum.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/ProxygenErrorEnum.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/ProxygenErrorEnum.cpp.i
 .PHONY : lib/http/ProxygenErrorEnum.cpp.i
 
 lib/http/ProxygenErrorEnum.s: lib/http/ProxygenErrorEnum.cpp.s
@@ -369,7 +369,7 @@ lib/http/ProxygenErrorEnum.s: lib/http/ProxygenErrorEnum.cpp.s
 
 # target to generate assembly for a file
 lib/http/ProxygenErrorEnum.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/ProxygenErrorEnum.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/ProxygenErrorEnum.cpp.s
 .PHONY : lib/http/ProxygenErrorEnum.cpp.s
 
 lib/http/RFC2616.o: lib/http/RFC2616.cpp.o
@@ -377,7 +377,7 @@ lib/http/RFC2616.o: lib/http/RFC2616.cpp.o
 
 # target to build an object file
 lib/http/RFC2616.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/RFC2616.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/RFC2616.cpp.o
 .PHONY : lib/http/RFC2616.cpp.o
 
 lib/http/RFC2616.i: lib/http/RFC2616.cpp.i
@@ -385,7 +385,7 @@ lib/http/RFC2616.i: lib/http/RFC2616.cpp.i
 
 # target to preprocess a source file
 lib/http/RFC2616.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/RFC2616.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/RFC2616.cpp.i
 .PHONY : lib/http/RFC2616.cpp.i
 
 lib/http/RFC2616.s: lib/http/RFC2616.cpp.s
@@ -393,7 +393,7 @@ lib/http/RFC2616.s: lib/http/RFC2616.cpp.s
 
 # target to generate assembly for a file
 lib/http/RFC2616.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/RFC2616.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/RFC2616.cpp.s
 .PHONY : lib/http/RFC2616.cpp.s
 
 lib/http/Window.o: lib/http/Window.cpp.o
@@ -401,7 +401,7 @@ lib/http/Window.o: lib/http/Window.cpp.o
 
 # target to build an object file
 lib/http/Window.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/Window.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/Window.cpp.o
 .PHONY : lib/http/Window.cpp.o
 
 lib/http/Window.i: lib/http/Window.cpp.i
@@ -409,7 +409,7 @@ lib/http/Window.i: lib/http/Window.cpp.i
 
 # target to preprocess a source file
 lib/http/Window.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/Window.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/Window.cpp.i
 .PHONY : lib/http/Window.cpp.i
 
 lib/http/Window.s: lib/http/Window.cpp.s
@@ -417,7 +417,7 @@ lib/http/Window.s: lib/http/Window.cpp.s
 
 # target to generate assembly for a file
 lib/http/Window.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/Window.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/Window.cpp.s
 .PHONY : lib/http/Window.cpp.s
 
 lib/http/codec/CodecProtocol.o: lib/http/codec/CodecProtocol.cpp.o
@@ -425,7 +425,7 @@ lib/http/codec/CodecProtocol.o: lib/http/codec/CodecProtocol.cpp.o
 
 # target to build an object file
 lib/http/codec/CodecProtocol.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/CodecProtocol.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/CodecProtocol.cpp.o
 .PHONY : lib/http/codec/CodecProtocol.cpp.o
 
 lib/http/codec/CodecProtocol.i: lib/http/codec/CodecProtocol.cpp.i
@@ -433,7 +433,7 @@ lib/http/codec/CodecProtocol.i: lib/http/codec/CodecProtocol.cpp.i
 
 # target to preprocess a source file
 lib/http/codec/CodecProtocol.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/CodecProtocol.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/CodecProtocol.cpp.i
 .PHONY : lib/http/codec/CodecProtocol.cpp.i
 
 lib/http/codec/CodecProtocol.s: lib/http/codec/CodecProtocol.cpp.s
@@ -441,7 +441,7 @@ lib/http/codec/CodecProtocol.s: lib/http/codec/CodecProtocol.cpp.s
 
 # target to generate assembly for a file
 lib/http/codec/CodecProtocol.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/CodecProtocol.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/CodecProtocol.cpp.s
 .PHONY : lib/http/codec/CodecProtocol.cpp.s
 
 lib/http/codec/ErrorCode.o: lib/http/codec/ErrorCode.cpp.o
@@ -449,7 +449,7 @@ lib/http/codec/ErrorCode.o: lib/http/codec/ErrorCode.cpp.o
 
 # target to build an object file
 lib/http/codec/ErrorCode.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/ErrorCode.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/ErrorCode.cpp.o
 .PHONY : lib/http/codec/ErrorCode.cpp.o
 
 lib/http/codec/ErrorCode.i: lib/http/codec/ErrorCode.cpp.i
@@ -457,7 +457,7 @@ lib/http/codec/ErrorCode.i: lib/http/codec/ErrorCode.cpp.i
 
 # target to preprocess a source file
 lib/http/codec/ErrorCode.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/ErrorCode.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/ErrorCode.cpp.i
 .PHONY : lib/http/codec/ErrorCode.cpp.i
 
 lib/http/codec/ErrorCode.s: lib/http/codec/ErrorCode.cpp.s
@@ -465,7 +465,7 @@ lib/http/codec/ErrorCode.s: lib/http/codec/ErrorCode.cpp.s
 
 # target to generate assembly for a file
 lib/http/codec/ErrorCode.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/ErrorCode.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/ErrorCode.cpp.s
 .PHONY : lib/http/codec/ErrorCode.cpp.s
 
 lib/http/codec/FlowControlFilter.o: lib/http/codec/FlowControlFilter.cpp.o
@@ -473,7 +473,7 @@ lib/http/codec/FlowControlFilter.o: lib/http/codec/FlowControlFilter.cpp.o
 
 # target to build an object file
 lib/http/codec/FlowControlFilter.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/FlowControlFilter.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/FlowControlFilter.cpp.o
 .PHONY : lib/http/codec/FlowControlFilter.cpp.o
 
 lib/http/codec/FlowControlFilter.i: lib/http/codec/FlowControlFilter.cpp.i
@@ -481,7 +481,7 @@ lib/http/codec/FlowControlFilter.i: lib/http/codec/FlowControlFilter.cpp.i
 
 # target to preprocess a source file
 lib/http/codec/FlowControlFilter.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/FlowControlFilter.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/FlowControlFilter.cpp.i
 .PHONY : lib/http/codec/FlowControlFilter.cpp.i
 
 lib/http/codec/FlowControlFilter.s: lib/http/codec/FlowControlFilter.cpp.s
@@ -489,7 +489,7 @@ lib/http/codec/FlowControlFilter.s: lib/http/codec/FlowControlFilter.cpp.s
 
 # target to generate assembly for a file
 lib/http/codec/FlowControlFilter.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/FlowControlFilter.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/FlowControlFilter.cpp.s
 .PHONY : lib/http/codec/FlowControlFilter.cpp.s
 
 lib/http/codec/HTTP1xCodec.o: lib/http/codec/HTTP1xCodec.cpp.o
@@ -497,7 +497,7 @@ lib/http/codec/HTTP1xCodec.o: lib/http/codec/HTTP1xCodec.cpp.o
 
 # target to build an object file
 lib/http/codec/HTTP1xCodec.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTP1xCodec.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTP1xCodec.cpp.o
 .PHONY : lib/http/codec/HTTP1xCodec.cpp.o
 
 lib/http/codec/HTTP1xCodec.i: lib/http/codec/HTTP1xCodec.cpp.i
@@ -505,7 +505,7 @@ lib/http/codec/HTTP1xCodec.i: lib/http/codec/HTTP1xCodec.cpp.i
 
 # target to preprocess a source file
 lib/http/codec/HTTP1xCodec.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTP1xCodec.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTP1xCodec.cpp.i
 .PHONY : lib/http/codec/HTTP1xCodec.cpp.i
 
 lib/http/codec/HTTP1xCodec.s: lib/http/codec/HTTP1xCodec.cpp.s
@@ -513,7 +513,7 @@ lib/http/codec/HTTP1xCodec.s: lib/http/codec/HTTP1xCodec.cpp.s
 
 # target to generate assembly for a file
 lib/http/codec/HTTP1xCodec.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTP1xCodec.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTP1xCodec.cpp.s
 .PHONY : lib/http/codec/HTTP1xCodec.cpp.s
 
 lib/http/codec/HTTPChecks.o: lib/http/codec/HTTPChecks.cpp.o
@@ -521,7 +521,7 @@ lib/http/codec/HTTPChecks.o: lib/http/codec/HTTPChecks.cpp.o
 
 # target to build an object file
 lib/http/codec/HTTPChecks.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPChecks.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPChecks.cpp.o
 .PHONY : lib/http/codec/HTTPChecks.cpp.o
 
 lib/http/codec/HTTPChecks.i: lib/http/codec/HTTPChecks.cpp.i
@@ -529,7 +529,7 @@ lib/http/codec/HTTPChecks.i: lib/http/codec/HTTPChecks.cpp.i
 
 # target to preprocess a source file
 lib/http/codec/HTTPChecks.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPChecks.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPChecks.cpp.i
 .PHONY : lib/http/codec/HTTPChecks.cpp.i
 
 lib/http/codec/HTTPChecks.s: lib/http/codec/HTTPChecks.cpp.s
@@ -537,7 +537,7 @@ lib/http/codec/HTTPChecks.s: lib/http/codec/HTTPChecks.cpp.s
 
 # target to generate assembly for a file
 lib/http/codec/HTTPChecks.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPChecks.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPChecks.cpp.s
 .PHONY : lib/http/codec/HTTPChecks.cpp.s
 
 lib/http/codec/HTTPCodecFilter.o: lib/http/codec/HTTPCodecFilter.cpp.o
@@ -545,7 +545,7 @@ lib/http/codec/HTTPCodecFilter.o: lib/http/codec/HTTPCodecFilter.cpp.o
 
 # target to build an object file
 lib/http/codec/HTTPCodecFilter.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecFilter.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecFilter.cpp.o
 .PHONY : lib/http/codec/HTTPCodecFilter.cpp.o
 
 lib/http/codec/HTTPCodecFilter.i: lib/http/codec/HTTPCodecFilter.cpp.i
@@ -553,7 +553,7 @@ lib/http/codec/HTTPCodecFilter.i: lib/http/codec/HTTPCodecFilter.cpp.i
 
 # target to preprocess a source file
 lib/http/codec/HTTPCodecFilter.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecFilter.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecFilter.cpp.i
 .PHONY : lib/http/codec/HTTPCodecFilter.cpp.i
 
 lib/http/codec/HTTPCodecFilter.s: lib/http/codec/HTTPCodecFilter.cpp.s
@@ -561,7 +561,7 @@ lib/http/codec/HTTPCodecFilter.s: lib/http/codec/HTTPCodecFilter.cpp.s
 
 # target to generate assembly for a file
 lib/http/codec/HTTPCodecFilter.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecFilter.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecFilter.cpp.s
 .PHONY : lib/http/codec/HTTPCodecFilter.cpp.s
 
 lib/http/codec/HTTPCodecPrinter.o: lib/http/codec/HTTPCodecPrinter.cpp.o
@@ -569,7 +569,7 @@ lib/http/codec/HTTPCodecPrinter.o: lib/http/codec/HTTPCodecPrinter.cpp.o
 
 # target to build an object file
 lib/http/codec/HTTPCodecPrinter.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecPrinter.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecPrinter.cpp.o
 .PHONY : lib/http/codec/HTTPCodecPrinter.cpp.o
 
 lib/http/codec/HTTPCodecPrinter.i: lib/http/codec/HTTPCodecPrinter.cpp.i
@@ -577,7 +577,7 @@ lib/http/codec/HTTPCodecPrinter.i: lib/http/codec/HTTPCodecPrinter.cpp.i
 
 # target to preprocess a source file
 lib/http/codec/HTTPCodecPrinter.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecPrinter.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecPrinter.cpp.i
 .PHONY : lib/http/codec/HTTPCodecPrinter.cpp.i
 
 lib/http/codec/HTTPCodecPrinter.s: lib/http/codec/HTTPCodecPrinter.cpp.s
@@ -585,7 +585,7 @@ lib/http/codec/HTTPCodecPrinter.s: lib/http/codec/HTTPCodecPrinter.cpp.s
 
 # target to generate assembly for a file
 lib/http/codec/HTTPCodecPrinter.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecPrinter.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecPrinter.cpp.s
 .PHONY : lib/http/codec/HTTPCodecPrinter.cpp.s
 
 lib/http/codec/HTTPParallelCodec.o: lib/http/codec/HTTPParallelCodec.cpp.o
@@ -593,7 +593,7 @@ lib/http/codec/HTTPParallelCodec.o: lib/http/codec/HTTPParallelCodec.cpp.o
 
 # target to build an object file
 lib/http/codec/HTTPParallelCodec.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPParallelCodec.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPParallelCodec.cpp.o
 .PHONY : lib/http/codec/HTTPParallelCodec.cpp.o
 
 lib/http/codec/HTTPParallelCodec.i: lib/http/codec/HTTPParallelCodec.cpp.i
@@ -601,7 +601,7 @@ lib/http/codec/HTTPParallelCodec.i: lib/http/codec/HTTPParallelCodec.cpp.i
 
 # target to preprocess a source file
 lib/http/codec/HTTPParallelCodec.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPParallelCodec.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPParallelCodec.cpp.i
 .PHONY : lib/http/codec/HTTPParallelCodec.cpp.i
 
 lib/http/codec/HTTPParallelCodec.s: lib/http/codec/HTTPParallelCodec.cpp.s
@@ -609,7 +609,7 @@ lib/http/codec/HTTPParallelCodec.s: lib/http/codec/HTTPParallelCodec.cpp.s
 
 # target to generate assembly for a file
 lib/http/codec/HTTPParallelCodec.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPParallelCodec.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPParallelCodec.cpp.s
 .PHONY : lib/http/codec/HTTPParallelCodec.cpp.s
 
 lib/http/codec/HTTPSettings.o: lib/http/codec/HTTPSettings.cpp.o
@@ -617,7 +617,7 @@ lib/http/codec/HTTPSettings.o: lib/http/codec/HTTPSettings.cpp.o
 
 # target to build an object file
 lib/http/codec/HTTPSettings.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPSettings.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPSettings.cpp.o
 .PHONY : lib/http/codec/HTTPSettings.cpp.o
 
 lib/http/codec/HTTPSettings.i: lib/http/codec/HTTPSettings.cpp.i
@@ -625,7 +625,7 @@ lib/http/codec/HTTPSettings.i: lib/http/codec/HTTPSettings.cpp.i
 
 # target to preprocess a source file
 lib/http/codec/HTTPSettings.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPSettings.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPSettings.cpp.i
 .PHONY : lib/http/codec/HTTPSettings.cpp.i
 
 lib/http/codec/HTTPSettings.s: lib/http/codec/HTTPSettings.cpp.s
@@ -633,7 +633,7 @@ lib/http/codec/HTTPSettings.s: lib/http/codec/HTTPSettings.cpp.s
 
 # target to generate assembly for a file
 lib/http/codec/HTTPSettings.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPSettings.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPSettings.cpp.s
 .PHONY : lib/http/codec/HTTPSettings.cpp.s
 
 lib/http/codec/SPDYCodec.o: lib/http/codec/SPDYCodec.cpp.o
@@ -641,7 +641,7 @@ lib/http/codec/SPDYCodec.o: lib/http/codec/SPDYCodec.cpp.o
 
 # target to build an object file
 lib/http/codec/SPDYCodec.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYCodec.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYCodec.cpp.o
 .PHONY : lib/http/codec/SPDYCodec.cpp.o
 
 lib/http/codec/SPDYCodec.i: lib/http/codec/SPDYCodec.cpp.i
@@ -649,7 +649,7 @@ lib/http/codec/SPDYCodec.i: lib/http/codec/SPDYCodec.cpp.i
 
 # target to preprocess a source file
 lib/http/codec/SPDYCodec.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYCodec.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYCodec.cpp.i
 .PHONY : lib/http/codec/SPDYCodec.cpp.i
 
 lib/http/codec/SPDYCodec.s: lib/http/codec/SPDYCodec.cpp.s
@@ -657,7 +657,7 @@ lib/http/codec/SPDYCodec.s: lib/http/codec/SPDYCodec.cpp.s
 
 # target to generate assembly for a file
 lib/http/codec/SPDYCodec.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYCodec.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYCodec.cpp.s
 .PHONY : lib/http/codec/SPDYCodec.cpp.s
 
 lib/http/codec/SPDYConstants.o: lib/http/codec/SPDYConstants.cpp.o
@@ -665,7 +665,7 @@ lib/http/codec/SPDYConstants.o: lib/http/codec/SPDYConstants.cpp.o
 
 # target to build an object file
 lib/http/codec/SPDYConstants.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYConstants.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYConstants.cpp.o
 .PHONY : lib/http/codec/SPDYConstants.cpp.o
 
 lib/http/codec/SPDYConstants.i: lib/http/codec/SPDYConstants.cpp.i
@@ -673,7 +673,7 @@ lib/http/codec/SPDYConstants.i: lib/http/codec/SPDYConstants.cpp.i
 
 # target to preprocess a source file
 lib/http/codec/SPDYConstants.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYConstants.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYConstants.cpp.i
 .PHONY : lib/http/codec/SPDYConstants.cpp.i
 
 lib/http/codec/SPDYConstants.s: lib/http/codec/SPDYConstants.cpp.s
@@ -681,7 +681,7 @@ lib/http/codec/SPDYConstants.s: lib/http/codec/SPDYConstants.cpp.s
 
 # target to generate assembly for a file
 lib/http/codec/SPDYConstants.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYConstants.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYConstants.cpp.s
 .PHONY : lib/http/codec/SPDYConstants.cpp.s
 
 lib/http/codec/SPDYUtil.o: lib/http/codec/SPDYUtil.cpp.o
@@ -689,7 +689,7 @@ lib/http/codec/SPDYUtil.o: lib/http/codec/SPDYUtil.cpp.o
 
 # target to build an object file
 lib/http/codec/SPDYUtil.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYUtil.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYUtil.cpp.o
 .PHONY : lib/http/codec/SPDYUtil.cpp.o
 
 lib/http/codec/SPDYUtil.i: lib/http/codec/SPDYUtil.cpp.i
@@ -697,7 +697,7 @@ lib/http/codec/SPDYUtil.i: lib/http/codec/SPDYUtil.cpp.i
 
 # target to preprocess a source file
 lib/http/codec/SPDYUtil.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYUtil.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYUtil.cpp.i
 .PHONY : lib/http/codec/SPDYUtil.cpp.i
 
 lib/http/codec/SPDYUtil.s: lib/http/codec/SPDYUtil.cpp.s
@@ -705,7 +705,7 @@ lib/http/codec/SPDYUtil.s: lib/http/codec/SPDYUtil.cpp.s
 
 # target to generate assembly for a file
 lib/http/codec/SPDYUtil.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYUtil.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYUtil.cpp.s
 .PHONY : lib/http/codec/SPDYUtil.cpp.s
 
 lib/http/codec/SettingsId.o: lib/http/codec/SettingsId.cpp.o
@@ -713,7 +713,7 @@ lib/http/codec/SettingsId.o: lib/http/codec/SettingsId.cpp.o
 
 # target to build an object file
 lib/http/codec/SettingsId.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SettingsId.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SettingsId.cpp.o
 .PHONY : lib/http/codec/SettingsId.cpp.o
 
 lib/http/codec/SettingsId.i: lib/http/codec/SettingsId.cpp.i
@@ -721,7 +721,7 @@ lib/http/codec/SettingsId.i: lib/http/codec/SettingsId.cpp.i
 
 # target to preprocess a source file
 lib/http/codec/SettingsId.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SettingsId.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SettingsId.cpp.i
 .PHONY : lib/http/codec/SettingsId.cpp.i
 
 lib/http/codec/SettingsId.s: lib/http/codec/SettingsId.cpp.s
@@ -729,7 +729,7 @@ lib/http/codec/SettingsId.s: lib/http/codec/SettingsId.cpp.s
 
 # target to generate assembly for a file
 lib/http/codec/SettingsId.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SettingsId.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SettingsId.cpp.s
 .PHONY : lib/http/codec/SettingsId.cpp.s
 
 lib/http/codec/TransportDirection.o: lib/http/codec/TransportDirection.cpp.o
@@ -737,7 +737,7 @@ lib/http/codec/TransportDirection.o: lib/http/codec/TransportDirection.cpp.o
 
 # target to build an object file
 lib/http/codec/TransportDirection.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/TransportDirection.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/TransportDirection.cpp.o
 .PHONY : lib/http/codec/TransportDirection.cpp.o
 
 lib/http/codec/TransportDirection.i: lib/http/codec/TransportDirection.cpp.i
@@ -745,7 +745,7 @@ lib/http/codec/TransportDirection.i: lib/http/codec/TransportDirection.cpp.i
 
 # target to preprocess a source file
 lib/http/codec/TransportDirection.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/TransportDirection.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/TransportDirection.cpp.i
 .PHONY : lib/http/codec/TransportDirection.cpp.i
 
 lib/http/codec/TransportDirection.s: lib/http/codec/TransportDirection.cpp.s
@@ -753,7 +753,7 @@ lib/http/codec/TransportDirection.s: lib/http/codec/TransportDirection.cpp.s
 
 # target to generate assembly for a file
 lib/http/codec/TransportDirection.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/TransportDirection.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/TransportDirection.cpp.s
 .PHONY : lib/http/codec/TransportDirection.cpp.s
 
 lib/http/codec/compress/GzipHeaderCodec.o: lib/http/codec/compress/GzipHeaderCodec.cpp.o
@@ -761,7 +761,7 @@ lib/http/codec/compress/GzipHeaderCodec.o: lib/http/codec/compress/GzipHeaderCod
 
 # target to build an object file
 lib/http/codec/compress/GzipHeaderCodec.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/GzipHeaderCodec.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/GzipHeaderCodec.cpp.o
 .PHONY : lib/http/codec/compress/GzipHeaderCodec.cpp.o
 
 lib/http/codec/compress/GzipHeaderCodec.i: lib/http/codec/compress/GzipHeaderCodec.cpp.i
@@ -769,7 +769,7 @@ lib/http/codec/compress/GzipHeaderCodec.i: lib/http/codec/compress/GzipHeaderCod
 
 # target to preprocess a source file
 lib/http/codec/compress/GzipHeaderCodec.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/GzipHeaderCodec.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/GzipHeaderCodec.cpp.i
 .PHONY : lib/http/codec/compress/GzipHeaderCodec.cpp.i
 
 lib/http/codec/compress/GzipHeaderCodec.s: lib/http/codec/compress/GzipHeaderCodec.cpp.s
@@ -777,7 +777,7 @@ lib/http/codec/compress/GzipHeaderCodec.s: lib/http/codec/compress/GzipHeaderCod
 
 # target to generate assembly for a file
 lib/http/codec/compress/GzipHeaderCodec.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/GzipHeaderCodec.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/GzipHeaderCodec.cpp.s
 .PHONY : lib/http/codec/compress/GzipHeaderCodec.cpp.s
 
 lib/http/codec/compress/HPACKCodec.o: lib/http/codec/compress/HPACKCodec.cpp.o
@@ -785,7 +785,7 @@ lib/http/codec/compress/HPACKCodec.o: lib/http/codec/compress/HPACKCodec.cpp.o
 
 # target to build an object file
 lib/http/codec/compress/HPACKCodec.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKCodec.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKCodec.cpp.o
 .PHONY : lib/http/codec/compress/HPACKCodec.cpp.o
 
 lib/http/codec/compress/HPACKCodec.i: lib/http/codec/compress/HPACKCodec.cpp.i
@@ -793,7 +793,7 @@ lib/http/codec/compress/HPACKCodec.i: lib/http/codec/compress/HPACKCodec.cpp.i
 
 # target to preprocess a source file
 lib/http/codec/compress/HPACKCodec.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKCodec.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKCodec.cpp.i
 .PHONY : lib/http/codec/compress/HPACKCodec.cpp.i
 
 lib/http/codec/compress/HPACKCodec.s: lib/http/codec/compress/HPACKCodec.cpp.s
@@ -801,7 +801,7 @@ lib/http/codec/compress/HPACKCodec.s: lib/http/codec/compress/HPACKCodec.cpp.s
 
 # target to generate assembly for a file
 lib/http/codec/compress/HPACKCodec.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKCodec.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKCodec.cpp.s
 .PHONY : lib/http/codec/compress/HPACKCodec.cpp.s
 
 lib/http/codec/compress/HPACKContext.o: lib/http/codec/compress/HPACKContext.cpp.o
@@ -809,7 +809,7 @@ lib/http/codec/compress/HPACKContext.o: lib/http/codec/compress/HPACKContext.cpp
 
 # target to build an object file
 lib/http/codec/compress/HPACKContext.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKContext.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKContext.cpp.o
 .PHONY : lib/http/codec/compress/HPACKContext.cpp.o
 
 lib/http/codec/compress/HPACKContext.i: lib/http/codec/compress/HPACKContext.cpp.i
@@ -817,7 +817,7 @@ lib/http/codec/compress/HPACKContext.i: lib/http/codec/compress/HPACKContext.cpp
 
 # target to preprocess a source file
 lib/http/codec/compress/HPACKContext.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKContext.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKContext.cpp.i
 .PHONY : lib/http/codec/compress/HPACKContext.cpp.i
 
 lib/http/codec/compress/HPACKContext.s: lib/http/codec/compress/HPACKContext.cpp.s
@@ -825,7 +825,7 @@ lib/http/codec/compress/HPACKContext.s: lib/http/codec/compress/HPACKContext.cpp
 
 # target to generate assembly for a file
 lib/http/codec/compress/HPACKContext.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKContext.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKContext.cpp.s
 .PHONY : lib/http/codec/compress/HPACKContext.cpp.s
 
 lib/http/codec/compress/HPACKDecodeBuffer.o: lib/http/codec/compress/HPACKDecodeBuffer.cpp.o
@@ -833,7 +833,7 @@ lib/http/codec/compress/HPACKDecodeBuffer.o: lib/http/codec/compress/HPACKDecode
 
 # target to build an object file
 lib/http/codec/compress/HPACKDecodeBuffer.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecodeBuffer.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecodeBuffer.cpp.o
 .PHONY : lib/http/codec/compress/HPACKDecodeBuffer.cpp.o
 
 lib/http/codec/compress/HPACKDecodeBuffer.i: lib/http/codec/compress/HPACKDecodeBuffer.cpp.i
@@ -841,7 +841,7 @@ lib/http/codec/compress/HPACKDecodeBuffer.i: lib/http/codec/compress/HPACKDecode
 
 # target to preprocess a source file
 lib/http/codec/compress/HPACKDecodeBuffer.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecodeBuffer.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecodeBuffer.cpp.i
 .PHONY : lib/http/codec/compress/HPACKDecodeBuffer.cpp.i
 
 lib/http/codec/compress/HPACKDecodeBuffer.s: lib/http/codec/compress/HPACKDecodeBuffer.cpp.s
@@ -849,7 +849,7 @@ lib/http/codec/compress/HPACKDecodeBuffer.s: lib/http/codec/compress/HPACKDecode
 
 # target to generate assembly for a file
 lib/http/codec/compress/HPACKDecodeBuffer.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecodeBuffer.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecodeBuffer.cpp.s
 .PHONY : lib/http/codec/compress/HPACKDecodeBuffer.cpp.s
 
 lib/http/codec/compress/HPACKDecoder.o: lib/http/codec/compress/HPACKDecoder.cpp.o
@@ -857,7 +857,7 @@ lib/http/codec/compress/HPACKDecoder.o: lib/http/codec/compress/HPACKDecoder.cpp
 
 # target to build an object file
 lib/http/codec/compress/HPACKDecoder.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecoder.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecoder.cpp.o
 .PHONY : lib/http/codec/compress/HPACKDecoder.cpp.o
 
 lib/http/codec/compress/HPACKDecoder.i: lib/http/codec/compress/HPACKDecoder.cpp.i
@@ -865,7 +865,7 @@ lib/http/codec/compress/HPACKDecoder.i: lib/http/codec/compress/HPACKDecoder.cpp
 
 # target to preprocess a source file
 lib/http/codec/compress/HPACKDecoder.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecoder.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecoder.cpp.i
 .PHONY : lib/http/codec/compress/HPACKDecoder.cpp.i
 
 lib/http/codec/compress/HPACKDecoder.s: lib/http/codec/compress/HPACKDecoder.cpp.s
@@ -873,7 +873,7 @@ lib/http/codec/compress/HPACKDecoder.s: lib/http/codec/compress/HPACKDecoder.cpp
 
 # target to generate assembly for a file
 lib/http/codec/compress/HPACKDecoder.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecoder.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecoder.cpp.s
 .PHONY : lib/http/codec/compress/HPACKDecoder.cpp.s
 
 lib/http/codec/compress/HPACKEncodeBuffer.o: lib/http/codec/compress/HPACKEncodeBuffer.cpp.o
@@ -881,7 +881,7 @@ lib/http/codec/compress/HPACKEncodeBuffer.o: lib/http/codec/compress/HPACKEncode
 
 # target to build an object file
 lib/http/codec/compress/HPACKEncodeBuffer.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncodeBuffer.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncodeBuffer.cpp.o
 .PHONY : lib/http/codec/compress/HPACKEncodeBuffer.cpp.o
 
 lib/http/codec/compress/HPACKEncodeBuffer.i: lib/http/codec/compress/HPACKEncodeBuffer.cpp.i
@@ -889,7 +889,7 @@ lib/http/codec/compress/HPACKEncodeBuffer.i: lib/http/codec/compress/HPACKEncode
 
 # target to preprocess a source file
 lib/http/codec/compress/HPACKEncodeBuffer.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncodeBuffer.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncodeBuffer.cpp.i
 .PHONY : lib/http/codec/compress/HPACKEncodeBuffer.cpp.i
 
 lib/http/codec/compress/HPACKEncodeBuffer.s: lib/http/codec/compress/HPACKEncodeBuffer.cpp.s
@@ -897,7 +897,7 @@ lib/http/codec/compress/HPACKEncodeBuffer.s: lib/http/codec/compress/HPACKEncode
 
 # target to generate assembly for a file
 lib/http/codec/compress/HPACKEncodeBuffer.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncodeBuffer.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncodeBuffer.cpp.s
 .PHONY : lib/http/codec/compress/HPACKEncodeBuffer.cpp.s
 
 lib/http/codec/compress/HPACKEncoder.o: lib/http/codec/compress/HPACKEncoder.cpp.o
@@ -905,7 +905,7 @@ lib/http/codec/compress/HPACKEncoder.o: lib/http/codec/compress/HPACKEncoder.cpp
 
 # target to build an object file
 lib/http/codec/compress/HPACKEncoder.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncoder.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncoder.cpp.o
 .PHONY : lib/http/codec/compress/HPACKEncoder.cpp.o
 
 lib/http/codec/compress/HPACKEncoder.i: lib/http/codec/compress/HPACKEncoder.cpp.i
@@ -913,7 +913,7 @@ lib/http/codec/compress/HPACKEncoder.i: lib/http/codec/compress/HPACKEncoder.cpp
 
 # target to preprocess a source file
 lib/http/codec/compress/HPACKEncoder.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncoder.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncoder.cpp.i
 .PHONY : lib/http/codec/compress/HPACKEncoder.cpp.i
 
 lib/http/codec/compress/HPACKEncoder.s: lib/http/codec/compress/HPACKEncoder.cpp.s
@@ -921,7 +921,7 @@ lib/http/codec/compress/HPACKEncoder.s: lib/http/codec/compress/HPACKEncoder.cpp
 
 # target to generate assembly for a file
 lib/http/codec/compress/HPACKEncoder.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncoder.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncoder.cpp.s
 .PHONY : lib/http/codec/compress/HPACKEncoder.cpp.s
 
 lib/http/codec/compress/HPACKHeader.o: lib/http/codec/compress/HPACKHeader.cpp.o
@@ -929,7 +929,7 @@ lib/http/codec/compress/HPACKHeader.o: lib/http/codec/compress/HPACKHeader.cpp.o
 
 # target to build an object file
 lib/http/codec/compress/HPACKHeader.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKHeader.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKHeader.cpp.o
 .PHONY : lib/http/codec/compress/HPACKHeader.cpp.o
 
 lib/http/codec/compress/HPACKHeader.i: lib/http/codec/compress/HPACKHeader.cpp.i
@@ -937,7 +937,7 @@ lib/http/codec/compress/HPACKHeader.i: lib/http/codec/compress/HPACKHeader.cpp.i
 
 # target to preprocess a source file
 lib/http/codec/compress/HPACKHeader.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKHeader.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKHeader.cpp.i
 .PHONY : lib/http/codec/compress/HPACKHeader.cpp.i
 
 lib/http/codec/compress/HPACKHeader.s: lib/http/codec/compress/HPACKHeader.cpp.s
@@ -945,7 +945,7 @@ lib/http/codec/compress/HPACKHeader.s: lib/http/codec/compress/HPACKHeader.cpp.s
 
 # target to generate assembly for a file
 lib/http/codec/compress/HPACKHeader.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKHeader.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKHeader.cpp.s
 .PHONY : lib/http/codec/compress/HPACKHeader.cpp.s
 
 lib/http/codec/compress/HeaderTable.o: lib/http/codec/compress/HeaderTable.cpp.o
@@ -953,7 +953,7 @@ lib/http/codec/compress/HeaderTable.o: lib/http/codec/compress/HeaderTable.cpp.o
 
 # target to build an object file
 lib/http/codec/compress/HeaderTable.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HeaderTable.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HeaderTable.cpp.o
 .PHONY : lib/http/codec/compress/HeaderTable.cpp.o
 
 lib/http/codec/compress/HeaderTable.i: lib/http/codec/compress/HeaderTable.cpp.i
@@ -961,7 +961,7 @@ lib/http/codec/compress/HeaderTable.i: lib/http/codec/compress/HeaderTable.cpp.i
 
 # target to preprocess a source file
 lib/http/codec/compress/HeaderTable.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HeaderTable.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HeaderTable.cpp.i
 .PHONY : lib/http/codec/compress/HeaderTable.cpp.i
 
 lib/http/codec/compress/HeaderTable.s: lib/http/codec/compress/HeaderTable.cpp.s
@@ -969,7 +969,7 @@ lib/http/codec/compress/HeaderTable.s: lib/http/codec/compress/HeaderTable.cpp.s
 
 # target to generate assembly for a file
 lib/http/codec/compress/HeaderTable.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HeaderTable.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HeaderTable.cpp.s
 .PHONY : lib/http/codec/compress/HeaderTable.cpp.s
 
 lib/http/codec/compress/Huffman.o: lib/http/codec/compress/Huffman.cpp.o
@@ -977,7 +977,7 @@ lib/http/codec/compress/Huffman.o: lib/http/codec/compress/Huffman.cpp.o
 
 # target to build an object file
 lib/http/codec/compress/Huffman.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Huffman.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Huffman.cpp.o
 .PHONY : lib/http/codec/compress/Huffman.cpp.o
 
 lib/http/codec/compress/Huffman.i: lib/http/codec/compress/Huffman.cpp.i
@@ -985,7 +985,7 @@ lib/http/codec/compress/Huffman.i: lib/http/codec/compress/Huffman.cpp.i
 
 # target to preprocess a source file
 lib/http/codec/compress/Huffman.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Huffman.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Huffman.cpp.i
 .PHONY : lib/http/codec/compress/Huffman.cpp.i
 
 lib/http/codec/compress/Huffman.s: lib/http/codec/compress/Huffman.cpp.s
@@ -993,7 +993,7 @@ lib/http/codec/compress/Huffman.s: lib/http/codec/compress/Huffman.cpp.s
 
 # target to generate assembly for a file
 lib/http/codec/compress/Huffman.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Huffman.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Huffman.cpp.s
 .PHONY : lib/http/codec/compress/Huffman.cpp.s
 
 lib/http/codec/compress/Logging.o: lib/http/codec/compress/Logging.cpp.o
@@ -1001,7 +1001,7 @@ lib/http/codec/compress/Logging.o: lib/http/codec/compress/Logging.cpp.o
 
 # target to build an object file
 lib/http/codec/compress/Logging.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Logging.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Logging.cpp.o
 .PHONY : lib/http/codec/compress/Logging.cpp.o
 
 lib/http/codec/compress/Logging.i: lib/http/codec/compress/Logging.cpp.i
@@ -1009,7 +1009,7 @@ lib/http/codec/compress/Logging.i: lib/http/codec/compress/Logging.cpp.i
 
 # target to preprocess a source file
 lib/http/codec/compress/Logging.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Logging.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Logging.cpp.i
 .PHONY : lib/http/codec/compress/Logging.cpp.i
 
 lib/http/codec/compress/Logging.s: lib/http/codec/compress/Logging.cpp.s
@@ -1017,7 +1017,7 @@ lib/http/codec/compress/Logging.s: lib/http/codec/compress/Logging.cpp.s
 
 # target to generate assembly for a file
 lib/http/codec/compress/Logging.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Logging.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Logging.cpp.s
 .PHONY : lib/http/codec/compress/Logging.cpp.s
 
 lib/http/codec/compress/StaticHeaderTable.o: lib/http/codec/compress/StaticHeaderTable.cpp.o
@@ -1025,7 +1025,7 @@ lib/http/codec/compress/StaticHeaderTable.o: lib/http/codec/compress/StaticHeade
 
 # target to build an object file
 lib/http/codec/compress/StaticHeaderTable.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/StaticHeaderTable.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/StaticHeaderTable.cpp.o
 .PHONY : lib/http/codec/compress/StaticHeaderTable.cpp.o
 
 lib/http/codec/compress/StaticHeaderTable.i: lib/http/codec/compress/StaticHeaderTable.cpp.i
@@ -1033,7 +1033,7 @@ lib/http/codec/compress/StaticHeaderTable.i: lib/http/codec/compress/StaticHeade
 
 # target to preprocess a source file
 lib/http/codec/compress/StaticHeaderTable.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/StaticHeaderTable.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/StaticHeaderTable.cpp.i
 .PHONY : lib/http/codec/compress/StaticHeaderTable.cpp.i
 
 lib/http/codec/compress/StaticHeaderTable.s: lib/http/codec/compress/StaticHeaderTable.cpp.s
@@ -1041,7 +1041,7 @@ lib/http/codec/compress/StaticHeaderTable.s: lib/http/codec/compress/StaticHeade
 
 # target to generate assembly for a file
 lib/http/codec/compress/StaticHeaderTable.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/StaticHeaderTable.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/StaticHeaderTable.cpp.s
 .PHONY : lib/http/codec/compress/StaticHeaderTable.cpp.s
 
 lib/http/codec/compress/experimental/hpack9/HPACKCodec.o: lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.o
@@ -1049,7 +1049,7 @@ lib/http/codec/compress/experimental/hpack9/HPACKCodec.o: lib/http/codec/compres
 
 # target to build an object file
 lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.o
 .PHONY : lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.o
 
 lib/http/codec/compress/experimental/hpack9/HPACKCodec.i: lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.i
@@ -1057,7 +1057,7 @@ lib/http/codec/compress/experimental/hpack9/HPACKCodec.i: lib/http/codec/compres
 
 # target to preprocess a source file
 lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.i
 .PHONY : lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.i
 
 lib/http/codec/compress/experimental/hpack9/HPACKCodec.s: lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.s
@@ -1065,7 +1065,7 @@ lib/http/codec/compress/experimental/hpack9/HPACKCodec.s: lib/http/codec/compres
 
 # target to generate assembly for a file
 lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.s
 .PHONY : lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.s
 
 lib/http/codec/compress/experimental/hpack9/HPACKDecoder.o: lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.o
@@ -1073,7 +1073,7 @@ lib/http/codec/compress/experimental/hpack9/HPACKDecoder.o: lib/http/codec/compr
 
 # target to build an object file
 lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.o
 .PHONY : lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.o
 
 lib/http/codec/compress/experimental/hpack9/HPACKDecoder.i: lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.i
@@ -1081,7 +1081,7 @@ lib/http/codec/compress/experimental/hpack9/HPACKDecoder.i: lib/http/codec/compr
 
 # target to preprocess a source file
 lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.i
 .PHONY : lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.i
 
 lib/http/codec/compress/experimental/hpack9/HPACKDecoder.s: lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.s
@@ -1089,7 +1089,7 @@ lib/http/codec/compress/experimental/hpack9/HPACKDecoder.s: lib/http/codec/compr
 
 # target to generate assembly for a file
 lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.s
 .PHONY : lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.s
 
 lib/http/codec/compress/experimental/hpack9/HPACKEncoder.o: lib/http/codec/compress/experimental/hpack9/HPACKEncoder.cpp.o
@@ -1097,7 +1097,7 @@ lib/http/codec/compress/experimental/hpack9/HPACKEncoder.o: lib/http/codec/compr
 
 # target to build an object file
 lib/http/codec/compress/experimental/hpack9/HPACKEncoder.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKEncoder.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKEncoder.cpp.o
 .PHONY : lib/http/codec/compress/experimental/hpack9/HPACKEncoder.cpp.o
 
 lib/http/codec/compress/experimental/hpack9/HPACKEncoder.i: lib/http/codec/compress/experimental/hpack9/HPACKEncoder.cpp.i
@@ -1105,7 +1105,7 @@ lib/http/codec/compress/experimental/hpack9/HPACKEncoder.i: lib/http/codec/compr
 
 # target to preprocess a source file
 lib/http/codec/compress/experimental/hpack9/HPACKEncoder.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKEncoder.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKEncoder.cpp.i
 .PHONY : lib/http/codec/compress/experimental/hpack9/HPACKEncoder.cpp.i
 
 lib/http/codec/compress/experimental/hpack9/HPACKEncoder.s: lib/http/codec/compress/experimental/hpack9/HPACKEncoder.cpp.s
@@ -1113,7 +1113,7 @@ lib/http/codec/compress/experimental/hpack9/HPACKEncoder.s: lib/http/codec/compr
 
 # target to generate assembly for a file
 lib/http/codec/compress/experimental/hpack9/HPACKEncoder.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKEncoder.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKEncoder.cpp.s
 .PHONY : lib/http/codec/compress/experimental/hpack9/HPACKEncoder.cpp.s
 
 lib/http/codec/compress/experimental/hpack9/Huffman.o: lib/http/codec/compress/experimental/hpack9/Huffman.cpp.o
@@ -1121,7 +1121,7 @@ lib/http/codec/compress/experimental/hpack9/Huffman.o: lib/http/codec/compress/e
 
 # target to build an object file
 lib/http/codec/compress/experimental/hpack9/Huffman.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/Huffman.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/Huffman.cpp.o
 .PHONY : lib/http/codec/compress/experimental/hpack9/Huffman.cpp.o
 
 lib/http/codec/compress/experimental/hpack9/Huffman.i: lib/http/codec/compress/experimental/hpack9/Huffman.cpp.i
@@ -1129,7 +1129,7 @@ lib/http/codec/compress/experimental/hpack9/Huffman.i: lib/http/codec/compress/e
 
 # target to preprocess a source file
 lib/http/codec/compress/experimental/hpack9/Huffman.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/Huffman.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/Huffman.cpp.i
 .PHONY : lib/http/codec/compress/experimental/hpack9/Huffman.cpp.i
 
 lib/http/codec/compress/experimental/hpack9/Huffman.s: lib/http/codec/compress/experimental/hpack9/Huffman.cpp.s
@@ -1137,7 +1137,7 @@ lib/http/codec/compress/experimental/hpack9/Huffman.s: lib/http/codec/compress/e
 
 # target to generate assembly for a file
 lib/http/codec/compress/experimental/hpack9/Huffman.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/Huffman.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/Huffman.cpp.s
 .PHONY : lib/http/codec/compress/experimental/hpack9/Huffman.cpp.s
 
 lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.o: lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.cpp.o
@@ -1145,7 +1145,7 @@ lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.o: lib/http/codec/
 
 # target to build an object file
 lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.cpp.o
 .PHONY : lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.cpp.o
 
 lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.i: lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.cpp.i
@@ -1153,7 +1153,7 @@ lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.i: lib/http/codec/
 
 # target to preprocess a source file
 lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.cpp.i
 .PHONY : lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.cpp.i
 
 lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.s: lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.cpp.s
@@ -1161,7 +1161,7 @@ lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.s: lib/http/codec/
 
 # target to generate assembly for a file
 lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.cpp.s
 .PHONY : lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.cpp.s
 
 lib/http/codec/experimental/HTTP2Codec.o: lib/http/codec/experimental/HTTP2Codec.cpp.o
@@ -1169,7 +1169,7 @@ lib/http/codec/experimental/HTTP2Codec.o: lib/http/codec/experimental/HTTP2Codec
 
 # target to build an object file
 lib/http/codec/experimental/HTTP2Codec.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Codec.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Codec.cpp.o
 .PHONY : lib/http/codec/experimental/HTTP2Codec.cpp.o
 
 lib/http/codec/experimental/HTTP2Codec.i: lib/http/codec/experimental/HTTP2Codec.cpp.i
@@ -1177,7 +1177,7 @@ lib/http/codec/experimental/HTTP2Codec.i: lib/http/codec/experimental/HTTP2Codec
 
 # target to preprocess a source file
 lib/http/codec/experimental/HTTP2Codec.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Codec.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Codec.cpp.i
 .PHONY : lib/http/codec/experimental/HTTP2Codec.cpp.i
 
 lib/http/codec/experimental/HTTP2Codec.s: lib/http/codec/experimental/HTTP2Codec.cpp.s
@@ -1185,7 +1185,7 @@ lib/http/codec/experimental/HTTP2Codec.s: lib/http/codec/experimental/HTTP2Codec
 
 # target to generate assembly for a file
 lib/http/codec/experimental/HTTP2Codec.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Codec.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Codec.cpp.s
 .PHONY : lib/http/codec/experimental/HTTP2Codec.cpp.s
 
 lib/http/codec/experimental/HTTP2Constants.o: lib/http/codec/experimental/HTTP2Constants.cpp.o
@@ -1193,7 +1193,7 @@ lib/http/codec/experimental/HTTP2Constants.o: lib/http/codec/experimental/HTTP2C
 
 # target to build an object file
 lib/http/codec/experimental/HTTP2Constants.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Constants.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Constants.cpp.o
 .PHONY : lib/http/codec/experimental/HTTP2Constants.cpp.o
 
 lib/http/codec/experimental/HTTP2Constants.i: lib/http/codec/experimental/HTTP2Constants.cpp.i
@@ -1201,7 +1201,7 @@ lib/http/codec/experimental/HTTP2Constants.i: lib/http/codec/experimental/HTTP2C
 
 # target to preprocess a source file
 lib/http/codec/experimental/HTTP2Constants.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Constants.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Constants.cpp.i
 .PHONY : lib/http/codec/experimental/HTTP2Constants.cpp.i
 
 lib/http/codec/experimental/HTTP2Constants.s: lib/http/codec/experimental/HTTP2Constants.cpp.s
@@ -1209,7 +1209,7 @@ lib/http/codec/experimental/HTTP2Constants.s: lib/http/codec/experimental/HTTP2C
 
 # target to generate assembly for a file
 lib/http/codec/experimental/HTTP2Constants.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Constants.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Constants.cpp.s
 .PHONY : lib/http/codec/experimental/HTTP2Constants.cpp.s
 
 lib/http/codec/experimental/HTTP2Framer.o: lib/http/codec/experimental/HTTP2Framer.cpp.o
@@ -1217,7 +1217,7 @@ lib/http/codec/experimental/HTTP2Framer.o: lib/http/codec/experimental/HTTP2Fram
 
 # target to build an object file
 lib/http/codec/experimental/HTTP2Framer.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Framer.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Framer.cpp.o
 .PHONY : lib/http/codec/experimental/HTTP2Framer.cpp.o
 
 lib/http/codec/experimental/HTTP2Framer.i: lib/http/codec/experimental/HTTP2Framer.cpp.i
@@ -1225,7 +1225,7 @@ lib/http/codec/experimental/HTTP2Framer.i: lib/http/codec/experimental/HTTP2Fram
 
 # target to preprocess a source file
 lib/http/codec/experimental/HTTP2Framer.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Framer.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Framer.cpp.i
 .PHONY : lib/http/codec/experimental/HTTP2Framer.cpp.i
 
 lib/http/codec/experimental/HTTP2Framer.s: lib/http/codec/experimental/HTTP2Framer.cpp.s
@@ -1233,7 +1233,7 @@ lib/http/codec/experimental/HTTP2Framer.s: lib/http/codec/experimental/HTTP2Fram
 
 # target to generate assembly for a file
 lib/http/codec/experimental/HTTP2Framer.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Framer.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Framer.cpp.s
 .PHONY : lib/http/codec/experimental/HTTP2Framer.cpp.s
 
 lib/http/session/ByteEventTracker.o: lib/http/session/ByteEventTracker.cpp.o
@@ -1241,7 +1241,7 @@ lib/http/session/ByteEventTracker.o: lib/http/session/ByteEventTracker.cpp.o
 
 # target to build an object file
 lib/http/session/ByteEventTracker.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEventTracker.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEventTracker.cpp.o
 .PHONY : lib/http/session/ByteEventTracker.cpp.o
 
 lib/http/session/ByteEventTracker.i: lib/http/session/ByteEventTracker.cpp.i
@@ -1249,7 +1249,7 @@ lib/http/session/ByteEventTracker.i: lib/http/session/ByteEventTracker.cpp.i
 
 # target to preprocess a source file
 lib/http/session/ByteEventTracker.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEventTracker.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEventTracker.cpp.i
 .PHONY : lib/http/session/ByteEventTracker.cpp.i
 
 lib/http/session/ByteEventTracker.s: lib/http/session/ByteEventTracker.cpp.s
@@ -1257,7 +1257,7 @@ lib/http/session/ByteEventTracker.s: lib/http/session/ByteEventTracker.cpp.s
 
 # target to generate assembly for a file
 lib/http/session/ByteEventTracker.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEventTracker.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEventTracker.cpp.s
 .PHONY : lib/http/session/ByteEventTracker.cpp.s
 
 lib/http/session/ByteEvents.o: lib/http/session/ByteEvents.cpp.o
@@ -1265,7 +1265,7 @@ lib/http/session/ByteEvents.o: lib/http/session/ByteEvents.cpp.o
 
 # target to build an object file
 lib/http/session/ByteEvents.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEvents.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEvents.cpp.o
 .PHONY : lib/http/session/ByteEvents.cpp.o
 
 lib/http/session/ByteEvents.i: lib/http/session/ByteEvents.cpp.i
@@ -1273,7 +1273,7 @@ lib/http/session/ByteEvents.i: lib/http/session/ByteEvents.cpp.i
 
 # target to preprocess a source file
 lib/http/session/ByteEvents.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEvents.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEvents.cpp.i
 .PHONY : lib/http/session/ByteEvents.cpp.i
 
 lib/http/session/ByteEvents.s: lib/http/session/ByteEvents.cpp.s
@@ -1281,7 +1281,7 @@ lib/http/session/ByteEvents.s: lib/http/session/ByteEvents.cpp.s
 
 # target to generate assembly for a file
 lib/http/session/ByteEvents.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEvents.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEvents.cpp.s
 .PHONY : lib/http/session/ByteEvents.cpp.s
 
 lib/http/session/CodecErrorResponseHandler.o: lib/http/session/CodecErrorResponseHandler.cpp.o
@@ -1289,7 +1289,7 @@ lib/http/session/CodecErrorResponseHandler.o: lib/http/session/CodecErrorRespons
 
 # target to build an object file
 lib/http/session/CodecErrorResponseHandler.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/CodecErrorResponseHandler.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/CodecErrorResponseHandler.cpp.o
 .PHONY : lib/http/session/CodecErrorResponseHandler.cpp.o
 
 lib/http/session/CodecErrorResponseHandler.i: lib/http/session/CodecErrorResponseHandler.cpp.i
@@ -1297,7 +1297,7 @@ lib/http/session/CodecErrorResponseHandler.i: lib/http/session/CodecErrorRespons
 
 # target to preprocess a source file
 lib/http/session/CodecErrorResponseHandler.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/CodecErrorResponseHandler.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/CodecErrorResponseHandler.cpp.i
 .PHONY : lib/http/session/CodecErrorResponseHandler.cpp.i
 
 lib/http/session/CodecErrorResponseHandler.s: lib/http/session/CodecErrorResponseHandler.cpp.s
@@ -1305,7 +1305,7 @@ lib/http/session/CodecErrorResponseHandler.s: lib/http/session/CodecErrorRespons
 
 # target to generate assembly for a file
 lib/http/session/CodecErrorResponseHandler.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/CodecErrorResponseHandler.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/CodecErrorResponseHandler.cpp.s
 .PHONY : lib/http/session/CodecErrorResponseHandler.cpp.s
 
 lib/http/session/HTTP2PriorityQueue.o: lib/http/session/HTTP2PriorityQueue.cpp.o
@@ -1313,7 +1313,7 @@ lib/http/session/HTTP2PriorityQueue.o: lib/http/session/HTTP2PriorityQueue.cpp.o
 
 # target to build an object file
 lib/http/session/HTTP2PriorityQueue.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTP2PriorityQueue.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTP2PriorityQueue.cpp.o
 .PHONY : lib/http/session/HTTP2PriorityQueue.cpp.o
 
 lib/http/session/HTTP2PriorityQueue.i: lib/http/session/HTTP2PriorityQueue.cpp.i
@@ -1321,7 +1321,7 @@ lib/http/session/HTTP2PriorityQueue.i: lib/http/session/HTTP2PriorityQueue.cpp.i
 
 # target to preprocess a source file
 lib/http/session/HTTP2PriorityQueue.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTP2PriorityQueue.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTP2PriorityQueue.cpp.i
 .PHONY : lib/http/session/HTTP2PriorityQueue.cpp.i
 
 lib/http/session/HTTP2PriorityQueue.s: lib/http/session/HTTP2PriorityQueue.cpp.s
@@ -1329,7 +1329,7 @@ lib/http/session/HTTP2PriorityQueue.s: lib/http/session/HTTP2PriorityQueue.cpp.s
 
 # target to generate assembly for a file
 lib/http/session/HTTP2PriorityQueue.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTP2PriorityQueue.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTP2PriorityQueue.cpp.s
 .PHONY : lib/http/session/HTTP2PriorityQueue.cpp.s
 
 lib/http/session/HTTPDirectResponseHandler.o: lib/http/session/HTTPDirectResponseHandler.cpp.o
@@ -1337,7 +1337,7 @@ lib/http/session/HTTPDirectResponseHandler.o: lib/http/session/HTTPDirectRespons
 
 # target to build an object file
 lib/http/session/HTTPDirectResponseHandler.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDirectResponseHandler.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDirectResponseHandler.cpp.o
 .PHONY : lib/http/session/HTTPDirectResponseHandler.cpp.o
 
 lib/http/session/HTTPDirectResponseHandler.i: lib/http/session/HTTPDirectResponseHandler.cpp.i
@@ -1345,7 +1345,7 @@ lib/http/session/HTTPDirectResponseHandler.i: lib/http/session/HTTPDirectRespons
 
 # target to preprocess a source file
 lib/http/session/HTTPDirectResponseHandler.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDirectResponseHandler.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDirectResponseHandler.cpp.i
 .PHONY : lib/http/session/HTTPDirectResponseHandler.cpp.i
 
 lib/http/session/HTTPDirectResponseHandler.s: lib/http/session/HTTPDirectResponseHandler.cpp.s
@@ -1353,7 +1353,7 @@ lib/http/session/HTTPDirectResponseHandler.s: lib/http/session/HTTPDirectRespons
 
 # target to generate assembly for a file
 lib/http/session/HTTPDirectResponseHandler.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDirectResponseHandler.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDirectResponseHandler.cpp.s
 .PHONY : lib/http/session/HTTPDirectResponseHandler.cpp.s
 
 lib/http/session/HTTPDownstreamSession.o: lib/http/session/HTTPDownstreamSession.cpp.o
@@ -1361,7 +1361,7 @@ lib/http/session/HTTPDownstreamSession.o: lib/http/session/HTTPDownstreamSession
 
 # target to build an object file
 lib/http/session/HTTPDownstreamSession.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDownstreamSession.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDownstreamSession.cpp.o
 .PHONY : lib/http/session/HTTPDownstreamSession.cpp.o
 
 lib/http/session/HTTPDownstreamSession.i: lib/http/session/HTTPDownstreamSession.cpp.i
@@ -1369,7 +1369,7 @@ lib/http/session/HTTPDownstreamSession.i: lib/http/session/HTTPDownstreamSession
 
 # target to preprocess a source file
 lib/http/session/HTTPDownstreamSession.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDownstreamSession.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDownstreamSession.cpp.i
 .PHONY : lib/http/session/HTTPDownstreamSession.cpp.i
 
 lib/http/session/HTTPDownstreamSession.s: lib/http/session/HTTPDownstreamSession.cpp.s
@@ -1377,7 +1377,7 @@ lib/http/session/HTTPDownstreamSession.s: lib/http/session/HTTPDownstreamSession
 
 # target to generate assembly for a file
 lib/http/session/HTTPDownstreamSession.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDownstreamSession.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDownstreamSession.cpp.s
 .PHONY : lib/http/session/HTTPDownstreamSession.cpp.s
 
 lib/http/session/HTTPErrorPage.o: lib/http/session/HTTPErrorPage.cpp.o
@@ -1385,7 +1385,7 @@ lib/http/session/HTTPErrorPage.o: lib/http/session/HTTPErrorPage.cpp.o
 
 # target to build an object file
 lib/http/session/HTTPErrorPage.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPErrorPage.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPErrorPage.cpp.o
 .PHONY : lib/http/session/HTTPErrorPage.cpp.o
 
 lib/http/session/HTTPErrorPage.i: lib/http/session/HTTPErrorPage.cpp.i
@@ -1393,7 +1393,7 @@ lib/http/session/HTTPErrorPage.i: lib/http/session/HTTPErrorPage.cpp.i
 
 # target to preprocess a source file
 lib/http/session/HTTPErrorPage.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPErrorPage.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPErrorPage.cpp.i
 .PHONY : lib/http/session/HTTPErrorPage.cpp.i
 
 lib/http/session/HTTPErrorPage.s: lib/http/session/HTTPErrorPage.cpp.s
@@ -1401,7 +1401,7 @@ lib/http/session/HTTPErrorPage.s: lib/http/session/HTTPErrorPage.cpp.s
 
 # target to generate assembly for a file
 lib/http/session/HTTPErrorPage.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPErrorPage.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPErrorPage.cpp.s
 .PHONY : lib/http/session/HTTPErrorPage.cpp.s
 
 lib/http/session/HTTPEvent.o: lib/http/session/HTTPEvent.cpp.o
@@ -1409,7 +1409,7 @@ lib/http/session/HTTPEvent.o: lib/http/session/HTTPEvent.cpp.o
 
 # target to build an object file
 lib/http/session/HTTPEvent.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPEvent.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPEvent.cpp.o
 .PHONY : lib/http/session/HTTPEvent.cpp.o
 
 lib/http/session/HTTPEvent.i: lib/http/session/HTTPEvent.cpp.i
@@ -1417,7 +1417,7 @@ lib/http/session/HTTPEvent.i: lib/http/session/HTTPEvent.cpp.i
 
 # target to preprocess a source file
 lib/http/session/HTTPEvent.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPEvent.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPEvent.cpp.i
 .PHONY : lib/http/session/HTTPEvent.cpp.i
 
 lib/http/session/HTTPEvent.s: lib/http/session/HTTPEvent.cpp.s
@@ -1425,7 +1425,7 @@ lib/http/session/HTTPEvent.s: lib/http/session/HTTPEvent.cpp.s
 
 # target to generate assembly for a file
 lib/http/session/HTTPEvent.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPEvent.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPEvent.cpp.s
 .PHONY : lib/http/session/HTTPEvent.cpp.s
 
 lib/http/session/HTTPSession.o: lib/http/session/HTTPSession.cpp.o
@@ -1433,7 +1433,7 @@ lib/http/session/HTTPSession.o: lib/http/session/HTTPSession.cpp.o
 
 # target to build an object file
 lib/http/session/HTTPSession.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSession.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSession.cpp.o
 .PHONY : lib/http/session/HTTPSession.cpp.o
 
 lib/http/session/HTTPSession.i: lib/http/session/HTTPSession.cpp.i
@@ -1441,7 +1441,7 @@ lib/http/session/HTTPSession.i: lib/http/session/HTTPSession.cpp.i
 
 # target to preprocess a source file
 lib/http/session/HTTPSession.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSession.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSession.cpp.i
 .PHONY : lib/http/session/HTTPSession.cpp.i
 
 lib/http/session/HTTPSession.s: lib/http/session/HTTPSession.cpp.s
@@ -1449,7 +1449,7 @@ lib/http/session/HTTPSession.s: lib/http/session/HTTPSession.cpp.s
 
 # target to generate assembly for a file
 lib/http/session/HTTPSession.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSession.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSession.cpp.s
 .PHONY : lib/http/session/HTTPSession.cpp.s
 
 lib/http/session/HTTPSessionAcceptor.o: lib/http/session/HTTPSessionAcceptor.cpp.o
@@ -1457,7 +1457,7 @@ lib/http/session/HTTPSessionAcceptor.o: lib/http/session/HTTPSessionAcceptor.cpp
 
 # target to build an object file
 lib/http/session/HTTPSessionAcceptor.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSessionAcceptor.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSessionAcceptor.cpp.o
 .PHONY : lib/http/session/HTTPSessionAcceptor.cpp.o
 
 lib/http/session/HTTPSessionAcceptor.i: lib/http/session/HTTPSessionAcceptor.cpp.i
@@ -1465,7 +1465,7 @@ lib/http/session/HTTPSessionAcceptor.i: lib/http/session/HTTPSessionAcceptor.cpp
 
 # target to preprocess a source file
 lib/http/session/HTTPSessionAcceptor.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSessionAcceptor.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSessionAcceptor.cpp.i
 .PHONY : lib/http/session/HTTPSessionAcceptor.cpp.i
 
 lib/http/session/HTTPSessionAcceptor.s: lib/http/session/HTTPSessionAcceptor.cpp.s
@@ -1473,7 +1473,7 @@ lib/http/session/HTTPSessionAcceptor.s: lib/http/session/HTTPSessionAcceptor.cpp
 
 # target to generate assembly for a file
 lib/http/session/HTTPSessionAcceptor.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSessionAcceptor.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSessionAcceptor.cpp.s
 .PHONY : lib/http/session/HTTPSessionAcceptor.cpp.s
 
 lib/http/session/HTTPTransaction.o: lib/http/session/HTTPTransaction.cpp.o
@@ -1481,7 +1481,7 @@ lib/http/session/HTTPTransaction.o: lib/http/session/HTTPTransaction.cpp.o
 
 # target to build an object file
 lib/http/session/HTTPTransaction.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransaction.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransaction.cpp.o
 .PHONY : lib/http/session/HTTPTransaction.cpp.o
 
 lib/http/session/HTTPTransaction.i: lib/http/session/HTTPTransaction.cpp.i
@@ -1489,7 +1489,7 @@ lib/http/session/HTTPTransaction.i: lib/http/session/HTTPTransaction.cpp.i
 
 # target to preprocess a source file
 lib/http/session/HTTPTransaction.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransaction.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransaction.cpp.i
 .PHONY : lib/http/session/HTTPTransaction.cpp.i
 
 lib/http/session/HTTPTransaction.s: lib/http/session/HTTPTransaction.cpp.s
@@ -1497,7 +1497,7 @@ lib/http/session/HTTPTransaction.s: lib/http/session/HTTPTransaction.cpp.s
 
 # target to generate assembly for a file
 lib/http/session/HTTPTransaction.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransaction.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransaction.cpp.s
 .PHONY : lib/http/session/HTTPTransaction.cpp.s
 
 lib/http/session/HTTPTransactionEgressSM.o: lib/http/session/HTTPTransactionEgressSM.cpp.o
@@ -1505,7 +1505,7 @@ lib/http/session/HTTPTransactionEgressSM.o: lib/http/session/HTTPTransactionEgre
 
 # target to build an object file
 lib/http/session/HTTPTransactionEgressSM.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionEgressSM.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionEgressSM.cpp.o
 .PHONY : lib/http/session/HTTPTransactionEgressSM.cpp.o
 
 lib/http/session/HTTPTransactionEgressSM.i: lib/http/session/HTTPTransactionEgressSM.cpp.i
@@ -1513,7 +1513,7 @@ lib/http/session/HTTPTransactionEgressSM.i: lib/http/session/HTTPTransactionEgre
 
 # target to preprocess a source file
 lib/http/session/HTTPTransactionEgressSM.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionEgressSM.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionEgressSM.cpp.i
 .PHONY : lib/http/session/HTTPTransactionEgressSM.cpp.i
 
 lib/http/session/HTTPTransactionEgressSM.s: lib/http/session/HTTPTransactionEgressSM.cpp.s
@@ -1521,7 +1521,7 @@ lib/http/session/HTTPTransactionEgressSM.s: lib/http/session/HTTPTransactionEgre
 
 # target to generate assembly for a file
 lib/http/session/HTTPTransactionEgressSM.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionEgressSM.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionEgressSM.cpp.s
 .PHONY : lib/http/session/HTTPTransactionEgressSM.cpp.s
 
 lib/http/session/HTTPTransactionIngressSM.o: lib/http/session/HTTPTransactionIngressSM.cpp.o
@@ -1529,7 +1529,7 @@ lib/http/session/HTTPTransactionIngressSM.o: lib/http/session/HTTPTransactionIng
 
 # target to build an object file
 lib/http/session/HTTPTransactionIngressSM.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionIngressSM.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionIngressSM.cpp.o
 .PHONY : lib/http/session/HTTPTransactionIngressSM.cpp.o
 
 lib/http/session/HTTPTransactionIngressSM.i: lib/http/session/HTTPTransactionIngressSM.cpp.i
@@ -1537,7 +1537,7 @@ lib/http/session/HTTPTransactionIngressSM.i: lib/http/session/HTTPTransactionIng
 
 # target to preprocess a source file
 lib/http/session/HTTPTransactionIngressSM.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionIngressSM.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionIngressSM.cpp.i
 .PHONY : lib/http/session/HTTPTransactionIngressSM.cpp.i
 
 lib/http/session/HTTPTransactionIngressSM.s: lib/http/session/HTTPTransactionIngressSM.cpp.s
@@ -1545,7 +1545,7 @@ lib/http/session/HTTPTransactionIngressSM.s: lib/http/session/HTTPTransactionIng
 
 # target to generate assembly for a file
 lib/http/session/HTTPTransactionIngressSM.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionIngressSM.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionIngressSM.cpp.s
 .PHONY : lib/http/session/HTTPTransactionIngressSM.cpp.s
 
 lib/http/session/HTTPUpstreamSession.o: lib/http/session/HTTPUpstreamSession.cpp.o
@@ -1553,7 +1553,7 @@ lib/http/session/HTTPUpstreamSession.o: lib/http/session/HTTPUpstreamSession.cpp
 
 # target to build an object file
 lib/http/session/HTTPUpstreamSession.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPUpstreamSession.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPUpstreamSession.cpp.o
 .PHONY : lib/http/session/HTTPUpstreamSession.cpp.o
 
 lib/http/session/HTTPUpstreamSession.i: lib/http/session/HTTPUpstreamSession.cpp.i
@@ -1561,7 +1561,7 @@ lib/http/session/HTTPUpstreamSession.i: lib/http/session/HTTPUpstreamSession.cpp
 
 # target to preprocess a source file
 lib/http/session/HTTPUpstreamSession.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPUpstreamSession.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPUpstreamSession.cpp.i
 .PHONY : lib/http/session/HTTPUpstreamSession.cpp.i
 
 lib/http/session/HTTPUpstreamSession.s: lib/http/session/HTTPUpstreamSession.cpp.s
@@ -1569,7 +1569,7 @@ lib/http/session/HTTPUpstreamSession.s: lib/http/session/HTTPUpstreamSession.cpp
 
 # target to generate assembly for a file
 lib/http/session/HTTPUpstreamSession.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPUpstreamSession.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPUpstreamSession.cpp.s
 .PHONY : lib/http/session/HTTPUpstreamSession.cpp.s
 
 lib/http/session/SimpleController.o: lib/http/session/SimpleController.cpp.o
@@ -1577,7 +1577,7 @@ lib/http/session/SimpleController.o: lib/http/session/SimpleController.cpp.o
 
 # target to build an object file
 lib/http/session/SimpleController.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/SimpleController.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/SimpleController.cpp.o
 .PHONY : lib/http/session/SimpleController.cpp.o
 
 lib/http/session/SimpleController.i: lib/http/session/SimpleController.cpp.i
@@ -1585,7 +1585,7 @@ lib/http/session/SimpleController.i: lib/http/session/SimpleController.cpp.i
 
 # target to preprocess a source file
 lib/http/session/SimpleController.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/SimpleController.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/SimpleController.cpp.i
 .PHONY : lib/http/session/SimpleController.cpp.i
 
 lib/http/session/SimpleController.s: lib/http/session/SimpleController.cpp.s
@@ -1593,7 +1593,7 @@ lib/http/session/SimpleController.s: lib/http/session/SimpleController.cpp.s
 
 # target to generate assembly for a file
 lib/http/session/SimpleController.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/SimpleController.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/SimpleController.cpp.s
 .PHONY : lib/http/session/SimpleController.cpp.s
 
 lib/http/session/TransportFilter.o: lib/http/session/TransportFilter.cpp.o
@@ -1601,7 +1601,7 @@ lib/http/session/TransportFilter.o: lib/http/session/TransportFilter.cpp.o
 
 # target to build an object file
 lib/http/session/TransportFilter.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/TransportFilter.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/TransportFilter.cpp.o
 .PHONY : lib/http/session/TransportFilter.cpp.o
 
 lib/http/session/TransportFilter.i: lib/http/session/TransportFilter.cpp.i
@@ -1609,7 +1609,7 @@ lib/http/session/TransportFilter.i: lib/http/session/TransportFilter.cpp.i
 
 # target to preprocess a source file
 lib/http/session/TransportFilter.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/TransportFilter.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/TransportFilter.cpp.i
 .PHONY : lib/http/session/TransportFilter.cpp.i
 
 lib/http/session/TransportFilter.s: lib/http/session/TransportFilter.cpp.s
@@ -1617,7 +1617,7 @@ lib/http/session/TransportFilter.s: lib/http/session/TransportFilter.cpp.s
 
 # target to generate assembly for a file
 lib/http/session/TransportFilter.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/TransportFilter.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/TransportFilter.cpp.s
 .PHONY : lib/http/session/TransportFilter.cpp.s
 
 lib/services/RequestWorker.o: lib/services/RequestWorker.cpp.o
@@ -1625,7 +1625,7 @@ lib/services/RequestWorker.o: lib/services/RequestWorker.cpp.o
 
 # target to build an object file
 lib/services/RequestWorker.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/RequestWorker.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/RequestWorker.cpp.o
 .PHONY : lib/services/RequestWorker.cpp.o
 
 lib/services/RequestWorker.i: lib/services/RequestWorker.cpp.i
@@ -1633,7 +1633,7 @@ lib/services/RequestWorker.i: lib/services/RequestWorker.cpp.i
 
 # target to preprocess a source file
 lib/services/RequestWorker.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/RequestWorker.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/RequestWorker.cpp.i
 .PHONY : lib/services/RequestWorker.cpp.i
 
 lib/services/RequestWorker.s: lib/services/RequestWorker.cpp.s
@@ -1641,7 +1641,7 @@ lib/services/RequestWorker.s: lib/services/RequestWorker.cpp.s
 
 # target to generate assembly for a file
 lib/services/RequestWorker.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/RequestWorker.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/RequestWorker.cpp.s
 .PHONY : lib/services/RequestWorker.cpp.s
 
 lib/services/Service.o: lib/services/Service.cpp.o
@@ -1649,7 +1649,7 @@ lib/services/Service.o: lib/services/Service.cpp.o
 
 # target to build an object file
 lib/services/Service.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/Service.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/Service.cpp.o
 .PHONY : lib/services/Service.cpp.o
 
 lib/services/Service.i: lib/services/Service.cpp.i
@@ -1657,7 +1657,7 @@ lib/services/Service.i: lib/services/Service.cpp.i
 
 # target to preprocess a source file
 lib/services/Service.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/Service.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/Service.cpp.i
 .PHONY : lib/services/Service.cpp.i
 
 lib/services/Service.s: lib/services/Service.cpp.s
@@ -1665,7 +1665,7 @@ lib/services/Service.s: lib/services/Service.cpp.s
 
 # target to generate assembly for a file
 lib/services/Service.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/Service.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/Service.cpp.s
 .PHONY : lib/services/Service.cpp.s
 
 lib/services/WorkerThread.o: lib/services/WorkerThread.cpp.o
@@ -1673,7 +1673,7 @@ lib/services/WorkerThread.o: lib/services/WorkerThread.cpp.o
 
 # target to build an object file
 lib/services/WorkerThread.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/WorkerThread.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/WorkerThread.cpp.o
 .PHONY : lib/services/WorkerThread.cpp.o
 
 lib/services/WorkerThread.i: lib/services/WorkerThread.cpp.i
@@ -1681,7 +1681,7 @@ lib/services/WorkerThread.i: lib/services/WorkerThread.cpp.i
 
 # target to preprocess a source file
 lib/services/WorkerThread.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/WorkerThread.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/WorkerThread.cpp.i
 .PHONY : lib/services/WorkerThread.cpp.i
 
 lib/services/WorkerThread.s: lib/services/WorkerThread.cpp.s
@@ -1689,7 +1689,7 @@ lib/services/WorkerThread.s: lib/services/WorkerThread.cpp.s
 
 # target to generate assembly for a file
 lib/services/WorkerThread.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/WorkerThread.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/WorkerThread.cpp.s
 .PHONY : lib/services/WorkerThread.cpp.s
 
 lib/utils/AsyncTimeoutSet.o: lib/utils/AsyncTimeoutSet.cpp.o
@@ -1697,7 +1697,7 @@ lib/utils/AsyncTimeoutSet.o: lib/utils/AsyncTimeoutSet.cpp.o
 
 # target to build an object file
 lib/utils/AsyncTimeoutSet.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/AsyncTimeoutSet.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/AsyncTimeoutSet.cpp.o
 .PHONY : lib/utils/AsyncTimeoutSet.cpp.o
 
 lib/utils/AsyncTimeoutSet.i: lib/utils/AsyncTimeoutSet.cpp.i
@@ -1705,7 +1705,7 @@ lib/utils/AsyncTimeoutSet.i: lib/utils/AsyncTimeoutSet.cpp.i
 
 # target to preprocess a source file
 lib/utils/AsyncTimeoutSet.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/AsyncTimeoutSet.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/AsyncTimeoutSet.cpp.i
 .PHONY : lib/utils/AsyncTimeoutSet.cpp.i
 
 lib/utils/AsyncTimeoutSet.s: lib/utils/AsyncTimeoutSet.cpp.s
@@ -1713,7 +1713,7 @@ lib/utils/AsyncTimeoutSet.s: lib/utils/AsyncTimeoutSet.cpp.s
 
 # target to generate assembly for a file
 lib/utils/AsyncTimeoutSet.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/AsyncTimeoutSet.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/AsyncTimeoutSet.cpp.s
 .PHONY : lib/utils/AsyncTimeoutSet.cpp.s
 
 lib/utils/ChromeUtils.o: lib/utils/ChromeUtils.cpp.o
@@ -1721,7 +1721,7 @@ lib/utils/ChromeUtils.o: lib/utils/ChromeUtils.cpp.o
 
 # target to build an object file
 lib/utils/ChromeUtils.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ChromeUtils.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ChromeUtils.cpp.o
 .PHONY : lib/utils/ChromeUtils.cpp.o
 
 lib/utils/ChromeUtils.i: lib/utils/ChromeUtils.cpp.i
@@ -1729,7 +1729,7 @@ lib/utils/ChromeUtils.i: lib/utils/ChromeUtils.cpp.i
 
 # target to preprocess a source file
 lib/utils/ChromeUtils.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ChromeUtils.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ChromeUtils.cpp.i
 .PHONY : lib/utils/ChromeUtils.cpp.i
 
 lib/utils/ChromeUtils.s: lib/utils/ChromeUtils.cpp.s
@@ -1737,7 +1737,7 @@ lib/utils/ChromeUtils.s: lib/utils/ChromeUtils.cpp.s
 
 # target to generate assembly for a file
 lib/utils/ChromeUtils.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ChromeUtils.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ChromeUtils.cpp.s
 .PHONY : lib/utils/ChromeUtils.cpp.s
 
 lib/utils/CryptUtil.o: lib/utils/CryptUtil.cpp.o
@@ -1745,7 +1745,7 @@ lib/utils/CryptUtil.o: lib/utils/CryptUtil.cpp.o
 
 # target to build an object file
 lib/utils/CryptUtil.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/CryptUtil.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/CryptUtil.cpp.o
 .PHONY : lib/utils/CryptUtil.cpp.o
 
 lib/utils/CryptUtil.i: lib/utils/CryptUtil.cpp.i
@@ -1753,7 +1753,7 @@ lib/utils/CryptUtil.i: lib/utils/CryptUtil.cpp.i
 
 # target to preprocess a source file
 lib/utils/CryptUtil.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/CryptUtil.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/CryptUtil.cpp.i
 .PHONY : lib/utils/CryptUtil.cpp.i
 
 lib/utils/CryptUtil.s: lib/utils/CryptUtil.cpp.s
@@ -1761,7 +1761,7 @@ lib/utils/CryptUtil.s: lib/utils/CryptUtil.cpp.s
 
 # target to generate assembly for a file
 lib/utils/CryptUtil.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/CryptUtil.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/CryptUtil.cpp.s
 .PHONY : lib/utils/CryptUtil.cpp.s
 
 lib/utils/Exception.o: lib/utils/Exception.cpp.o
@@ -1769,7 +1769,7 @@ lib/utils/Exception.o: lib/utils/Exception.cpp.o
 
 # target to build an object file
 lib/utils/Exception.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/Exception.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/Exception.cpp.o
 .PHONY : lib/utils/Exception.cpp.o
 
 lib/utils/Exception.i: lib/utils/Exception.cpp.i
@@ -1777,7 +1777,7 @@ lib/utils/Exception.i: lib/utils/Exception.cpp.i
 
 # target to preprocess a source file
 lib/utils/Exception.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/Exception.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/Exception.cpp.i
 .PHONY : lib/utils/Exception.cpp.i
 
 lib/utils/Exception.s: lib/utils/Exception.cpp.s
@@ -1785,7 +1785,7 @@ lib/utils/Exception.s: lib/utils/Exception.cpp.s
 
 # target to generate assembly for a file
 lib/utils/Exception.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/Exception.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/Exception.cpp.s
 .PHONY : lib/utils/Exception.cpp.s
 
 lib/utils/HTTPTime.o: lib/utils/HTTPTime.cpp.o
@@ -1793,7 +1793,7 @@ lib/utils/HTTPTime.o: lib/utils/HTTPTime.cpp.o
 
 # target to build an object file
 lib/utils/HTTPTime.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/HTTPTime.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/HTTPTime.cpp.o
 .PHONY : lib/utils/HTTPTime.cpp.o
 
 lib/utils/HTTPTime.i: lib/utils/HTTPTime.cpp.i
@@ -1801,7 +1801,7 @@ lib/utils/HTTPTime.i: lib/utils/HTTPTime.cpp.i
 
 # target to preprocess a source file
 lib/utils/HTTPTime.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/HTTPTime.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/HTTPTime.cpp.i
 .PHONY : lib/utils/HTTPTime.cpp.i
 
 lib/utils/HTTPTime.s: lib/utils/HTTPTime.cpp.s
@@ -1809,7 +1809,7 @@ lib/utils/HTTPTime.s: lib/utils/HTTPTime.cpp.s
 
 # target to generate assembly for a file
 lib/utils/HTTPTime.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/HTTPTime.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/HTTPTime.cpp.s
 .PHONY : lib/utils/HTTPTime.cpp.s
 
 lib/utils/Logging.o: lib/utils/Logging.cpp.o
@@ -1817,7 +1817,7 @@ lib/utils/Logging.o: lib/utils/Logging.cpp.o
 
 # target to build an object file
 lib/utils/Logging.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/Logging.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/Logging.cpp.o
 .PHONY : lib/utils/Logging.cpp.o
 
 lib/utils/Logging.i: lib/utils/Logging.cpp.i
@@ -1825,7 +1825,7 @@ lib/utils/Logging.i: lib/utils/Logging.cpp.i
 
 # target to preprocess a source file
 lib/utils/Logging.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/Logging.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/Logging.cpp.i
 .PHONY : lib/utils/Logging.cpp.i
 
 lib/utils/Logging.s: lib/utils/Logging.cpp.s
@@ -1833,7 +1833,7 @@ lib/utils/Logging.s: lib/utils/Logging.cpp.s
 
 # target to generate assembly for a file
 lib/utils/Logging.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/Logging.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/Logging.cpp.s
 .PHONY : lib/utils/Logging.cpp.s
 
 lib/utils/ParseURL.o: lib/utils/ParseURL.cpp.o
@@ -1841,7 +1841,7 @@ lib/utils/ParseURL.o: lib/utils/ParseURL.cpp.o
 
 # target to build an object file
 lib/utils/ParseURL.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ParseURL.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ParseURL.cpp.o
 .PHONY : lib/utils/ParseURL.cpp.o
 
 lib/utils/ParseURL.i: lib/utils/ParseURL.cpp.i
@@ -1849,7 +1849,7 @@ lib/utils/ParseURL.i: lib/utils/ParseURL.cpp.i
 
 # target to preprocess a source file
 lib/utils/ParseURL.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ParseURL.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ParseURL.cpp.i
 .PHONY : lib/utils/ParseURL.cpp.i
 
 lib/utils/ParseURL.s: lib/utils/ParseURL.cpp.s
@@ -1857,7 +1857,7 @@ lib/utils/ParseURL.s: lib/utils/ParseURL.cpp.s
 
 # target to generate assembly for a file
 lib/utils/ParseURL.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ParseURL.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ParseURL.cpp.s
 .PHONY : lib/utils/ParseURL.cpp.s
 
 lib/utils/RendezvousHash.o: lib/utils/RendezvousHash.cpp.o
@@ -1865,7 +1865,7 @@ lib/utils/RendezvousHash.o: lib/utils/RendezvousHash.cpp.o
 
 # target to build an object file
 lib/utils/RendezvousHash.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/RendezvousHash.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/RendezvousHash.cpp.o
 .PHONY : lib/utils/RendezvousHash.cpp.o
 
 lib/utils/RendezvousHash.i: lib/utils/RendezvousHash.cpp.i
@@ -1873,7 +1873,7 @@ lib/utils/RendezvousHash.i: lib/utils/RendezvousHash.cpp.i
 
 # target to preprocess a source file
 lib/utils/RendezvousHash.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/RendezvousHash.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/RendezvousHash.cpp.i
 .PHONY : lib/utils/RendezvousHash.cpp.i
 
 lib/utils/RendezvousHash.s: lib/utils/RendezvousHash.cpp.s
@@ -1881,7 +1881,7 @@ lib/utils/RendezvousHash.s: lib/utils/RendezvousHash.cpp.s
 
 # target to generate assembly for a file
 lib/utils/RendezvousHash.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/RendezvousHash.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/RendezvousHash.cpp.s
 .PHONY : lib/utils/RendezvousHash.cpp.s
 
 lib/utils/ZlibStreamCompressor.o: lib/utils/ZlibStreamCompressor.cpp.o
@@ -1889,7 +1889,7 @@ lib/utils/ZlibStreamCompressor.o: lib/utils/ZlibStreamCompressor.cpp.o
 
 # target to build an object file
 lib/utils/ZlibStreamCompressor.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamCompressor.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamCompressor.cpp.o
 .PHONY : lib/utils/ZlibStreamCompressor.cpp.o
 
 lib/utils/ZlibStreamCompressor.i: lib/utils/ZlibStreamCompressor.cpp.i
@@ -1897,7 +1897,7 @@ lib/utils/ZlibStreamCompressor.i: lib/utils/ZlibStreamCompressor.cpp.i
 
 # target to preprocess a source file
 lib/utils/ZlibStreamCompressor.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamCompressor.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamCompressor.cpp.i
 .PHONY : lib/utils/ZlibStreamCompressor.cpp.i
 
 lib/utils/ZlibStreamCompressor.s: lib/utils/ZlibStreamCompressor.cpp.s
@@ -1905,7 +1905,7 @@ lib/utils/ZlibStreamCompressor.s: lib/utils/ZlibStreamCompressor.cpp.s
 
 # target to generate assembly for a file
 lib/utils/ZlibStreamCompressor.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamCompressor.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamCompressor.cpp.s
 .PHONY : lib/utils/ZlibStreamCompressor.cpp.s
 
 lib/utils/ZlibStreamDecompressor.o: lib/utils/ZlibStreamDecompressor.cpp.o
@@ -1913,7 +1913,7 @@ lib/utils/ZlibStreamDecompressor.o: lib/utils/ZlibStreamDecompressor.cpp.o
 
 # target to build an object file
 lib/utils/ZlibStreamDecompressor.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamDecompressor.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamDecompressor.cpp.o
 .PHONY : lib/utils/ZlibStreamDecompressor.cpp.o
 
 lib/utils/ZlibStreamDecompressor.i: lib/utils/ZlibStreamDecompressor.cpp.i
@@ -1921,7 +1921,7 @@ lib/utils/ZlibStreamDecompressor.i: lib/utils/ZlibStreamDecompressor.cpp.i
 
 # target to preprocess a source file
 lib/utils/ZlibStreamDecompressor.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamDecompressor.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamDecompressor.cpp.i
 .PHONY : lib/utils/ZlibStreamDecompressor.cpp.i
 
 lib/utils/ZlibStreamDecompressor.s: lib/utils/ZlibStreamDecompressor.cpp.s
@@ -1929,7 +1929,7 @@ lib/utils/ZlibStreamDecompressor.s: lib/utils/ZlibStreamDecompressor.cpp.s
 
 # target to generate assembly for a file
 lib/utils/ZlibStreamDecompressor.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamDecompressor.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamDecompressor.cpp.s
 .PHONY : lib/utils/ZlibStreamDecompressor.cpp.s
 
 # Help Target
@@ -2178,6 +2178,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

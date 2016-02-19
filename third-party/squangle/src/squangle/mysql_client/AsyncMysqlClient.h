@@ -69,6 +69,7 @@
 #include <folly/experimental/fibers/Baton.h>
 #include <folly/futures/Future.h>
 #include <folly/io/async/EventBase.h>
+#include <folly/Portability.h>
 #include <folly/Singleton.h>
 #include <wangle/client/ssl/SSLSession.h>
 
@@ -545,6 +546,17 @@ class Connection {
     return string(ret);
   }
 
+  // Returns whether or not the SSL session was reused from a previous
+  // connection.
+  // If the connection isn't SSL, it will return false as well.
+  bool sslSessionReused() const {
+    CHECK_THROW(mysql_connection_ != nullptr, InvalidConnectionException);
+    return mysql_get_ssl_session_reused(mysql_connection_->mysql());
+  }
+
+  // Checks if `client_flag` is set for SSL.
+  bool isSSL() const;
+
   // Escape the provided string using mysql_real_escape_string(). You almost
   // certainly don't want to use this - look at the Query class instead.
   //
@@ -733,12 +745,15 @@ std::shared_ptr<QueryOperation> Connection::beginQuery(
   return beginQuery(std::move(conn), std::move(query));
 }
 
+template <>
+folly::Future<DbQueryResult> Connection::queryFuture(
+  std::unique_ptr<Connection> conn, Query&& query);
+
 template <typename... Args>
 folly::Future<DbQueryResult> Connection::queryFuture(
     std::unique_ptr<Connection> conn, Args&&... args) {
   Query query{std::forward<Args>(args)...};
-  // This std::move fixes a bug in Clang opt builds: #6120972
-  return std::move(queryFuture(std::move(conn), std::move(query)));
+  return queryFuture(std::move(conn), std::move(query));
 }
 
 }

@@ -28,6 +28,7 @@
 #include "hphp/runtime/base/actrec-args.h"
 #include "hphp/runtime/base/pipe.h"
 #include "hphp/runtime/base/plain-file.h"
+#include "hphp/runtime/base/temp-file.h"
 #include "hphp/runtime/base/request-local.h"
 #include "hphp/runtime/base/runtime-error.h"
 #include "hphp/runtime/base/runtime-option.h"
@@ -65,9 +66,9 @@
 #define REGISTER_CONSTANT(name, value)                                         \
   Native::registerConstant<KindOfInt64>(makeStaticString(#name), value)        \
 
-#define REGISTER_STRING_CONSTANT(name, value)                                  \
-  Native::registerConstant<KindOfStaticString>(makeStaticString(#name),        \
-                                               value.get())                    \
+#define REGISTER_STRING_CONSTANT(name, value)       \
+  Native::registerConstant<KindOfPersistentString>( \
+      makeStaticString(#name), value.get())
 
 #define CHECK_HANDLE_BASE(handle, f, ret)               \
   auto f = dyn_cast_or_null<File>(handle);              \
@@ -682,7 +683,7 @@ Variant HHVM_FUNCTION(file_put_contents,
     case KindOfBoolean:
     case KindOfInt64:
     case KindOfDouble:
-    case KindOfStaticString:
+    case KindOfPersistentString:
     case KindOfString:
     case KindOfRef: {
       String value = data.toString();
@@ -1829,11 +1830,11 @@ Variant HHVM_FUNCTION(tempnam,
 }
 
 Variant HHVM_FUNCTION(tmpfile) {
-  FILE *f = tmpfile();
-  if (f) {
-    return Variant(req::make<PlainFile>(f));
+  auto file = req::make<TempFile>(true);
+  if (!file->valid()) {
+    return false;
   }
-  return false;
+  return Variant(file);
 }
 
 ///////////////////////////////////////////////////////////////////////////////

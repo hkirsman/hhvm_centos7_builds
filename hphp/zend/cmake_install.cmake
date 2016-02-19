@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/hhvm-3.11.1/hphp/zend
+# Install script for directory: /tmp/hhvm-3.12.0/hphp/zend
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,8 +33,8 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
-  INCLUDE("/tmp/hhvm-3.11.1/CMake/HPHPFunctions.cmake")
-      HHVM_INSTALL_HEADERS(zend /tmp/hhvm-3.11.1
-      "${CMAKE_INSTALL_PREFIX}/include" /tmp/hhvm-3.11.1/hphp/zend/./crypt-blowfish.h;/tmp/hhvm-3.11.1/hphp/zend/./crypt-freesec.h;/tmp/hhvm-3.11.1/hphp/zend/./html-table.h;/tmp/hhvm-3.11.1/hphp/zend/./php-crypt_r.h;/tmp/hhvm-3.11.1/hphp/zend/./zend-html.h;/tmp/hhvm-3.11.1/hphp/zend/./zend-string.h)
+  INCLUDE("/tmp/hhvm-3.12.0/CMake/HPHPFunctions.cmake")
+      HHVM_INSTALL_HEADERS(zend /tmp/hhvm-3.12.0
+      "${CMAKE_INSTALL_PREFIX}/include" /tmp/hhvm-3.12.0/hphp/zend/./crypt-blowfish.h;/tmp/hhvm-3.12.0/hphp/zend/./crypt-freesec.h;/tmp/hhvm-3.12.0/hphp/zend/./html-table.h;/tmp/hhvm-3.12.0/hphp/zend/./php-crypt_r.h;/tmp/hhvm-3.12.0/hphp/zend/./zend-html.h;/tmp/hhvm-3.12.0/hphp/zend/./zend-md5.h;/tmp/hhvm-3.12.0/hphp/zend/./zend-string.h)
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
 

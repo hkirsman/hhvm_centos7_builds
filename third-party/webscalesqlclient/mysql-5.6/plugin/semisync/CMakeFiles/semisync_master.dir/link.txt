@@ -1,2 +1,2 @@
-/usr/bin/ar cr libsemisync_master.a  CMakeFiles/semisync_master.dir/semisync.cc.o CMakeFiles/semisync_master.dir/semisync_master.cc.o CMakeFiles/semisync_master.dir/semisync_master_plugin.cc.o
-/usr/bin/ranlib libsemisync_master.a
+/bin/ar cr libsemisync_master.a  CMakeFiles/semisync_master.dir/semisync.cc.o CMakeFiles/semisync_master.dir/semisync_master.cc.o CMakeFiles/semisync_master.dir/semisync_master_plugin.cc.o
+/bin/ranlib libsemisync_master.a

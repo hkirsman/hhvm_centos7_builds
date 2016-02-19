@@ -30,9 +30,10 @@ O(AsyncRetCtrl,              ND, S(StkPtr) S(FramePtr), T) \
 O(AsyncRetFast,              ND, S(StkPtr) S(FramePtr) S(Cell), T) \
 O(BaseG,                     D(PtrToRMembCell), S(Str), Er) \
 O(BeginCatch,                ND, NA, NF) \
-O(BindElem,                  ND, S(PtrToGen) S(Cell) S(BoxedCell) S(PtrToMISGen), MElem|Er) \
-O(BindNewElem,               ND, S(PtrToGen) S(BoxedCell) S(PtrToMISGen), MElem|Er) \
-O(BindProp,                  ND, S(Obj,PtrToGen) S(Cell) S(BoxedCell) S(PtrToMISGen), MProp|Er) \
+O(BeginInlining,             ND, S(StkPtr), NF) \
+O(BindElem,                  ND, S(PtrToGen) S(Cell) S(BoxedCell), MElem|Er) \
+O(BindNewElem,               ND, S(PtrToGen) S(BoxedCell), MElem|Er) \
+O(BindProp,                  ND, S(Obj,PtrToGen) S(Cell) S(BoxedCell), MProp|Er) \
 O(Box,                       D(BoxedInitCell), S(Cell), CRc|PRc) \
 O(BoxPtr,                    DBoxPtr, S(PtrToGen), NF) \
 O(CGetElem,                  D(Cell), S(PtrToGen) S(Cell), PRc|Er) \
@@ -218,7 +219,7 @@ O(Halt,                      ND, NA, T) \
 O(HasToString,               D(Bool), S(Obj), NF) \
 O(HintLocInner,              ND, S(FramePtr), NF) \
 O(HintStkInner,              ND, S(StkPtr), NF) \
-O(IncDecElem,                D(Cell), S(PtrToGen) S(Cell) S(PtrToMISGen), MElem|PRc|Er) \
+O(IncDecElem,                D(Cell), S(PtrToGen) S(Cell), MElem|PRc|Er) \
 O(IncDecProp,                D(Cell), S(Obj,PtrToGen) S(Cell), MProp|PRc|Er) \
 O(IncProfCounter,            ND, NA, NF) \
 O(IncRef,                    ND, S(Gen), NF) \
@@ -333,6 +334,7 @@ O(LdStructArrayElem,         DArrElem, AK(Struct) S(StaticStr), NF) \
 O(LdSwitchDblIndex,          D(Int), S(Dbl) S(Int) S(Int), NF) \
 O(LdSwitchObjIndex,          D(Int), S(Obj) S(Int) S(Int), CRc|Er) \
 O(LdSwitchStrIndex,          D(Int), S(Str) S(Int) S(Int), CRc) \
+O(LdTVAux,                   D(Int), S(PtrToStkGen), NF) \
 O(LdUnwinderValue,           DParam, NA, PRc) \
 O(LdVectorBase,              D(PtrToMembCell), S(Obj), NF) \
 O(LdVectorSize,              D(Int), S(Obj), NF) \
@@ -438,11 +440,11 @@ O(SameStr,                   D(Bool), S(Str) S(Str), NF) \
 O(SetElem,                   DSetElem, S(PtrToGen) S(Cell) S(Cell), MElem|PRc|Er) \
 O(SetNewElem,                ND, S(PtrToGen) S(Cell), MElem|Er) \
 O(SetNewElemArray,           ND, S(PtrToGen) S(Cell), MElem|Er) \
-O(SetOpElem,                 D(Cell), S(PtrToGen) S(Cell) S(Cell) S(PtrToMISGen), MElem|PRc|Er) \
-O(SetOpProp,                 D(Cell), S(Obj,PtrToGen) S(Cell) S(Cell) S(PtrToMISGen), MProp|PRc|Er) \
+O(SetOpElem,                 D(Cell), S(PtrToGen) S(Cell) S(Cell), MElem|PRc|Er) \
+O(SetOpProp,                 D(Cell), S(Obj,PtrToGen) S(Cell) S(Cell), MProp|PRc|Er) \
 O(SetProp,                   ND, S(Obj,PtrToGen) S(Cell) S(Cell), MProp|Er) \
-O(SetWithRefElem,            ND, S(PtrToGen) S(Gen) S(Gen) S(PtrToMISGen), MElem|Er) \
-O(SetWithRefNewElem,         ND, S(PtrToGen) S(PtrToGen) S(PtrToMISGen), MElem|Er) \
+O(SetWithRefElem,            ND, S(PtrToGen) S(Gen) S(Gen), MElem|Er) \
+O(SetWithRefNewElem,         ND, S(PtrToGen) S(PtrToGen), MElem|Er) \
 O(Shl,                       D(Int), S(Int) S(Int), NF) \
 O(Shr,                       D(Int), S(Int) S(Int), NF) \
 O(SpillFrame,                ND, S(StkPtr) S(Func,Nullptr) S(Ctx,Cls,Nullptr), CRc) \
@@ -467,6 +469,7 @@ O(StMem,                     ND, S(PtrToGen) S(Gen), CRc) \
 O(StRef,                     ND, S(BoxedCell) S(Cell), CRc) \
 O(StRetVal,                  ND, S(FramePtr) S(Gen), CRc) \
 O(StStk,                     ND, S(StkPtr) S(StkElem), CRc) \
+O(StTVAux,                   ND, S(FramePtr) S(Int), CRc) \
 O(StaticLocInitCached,       ND, S(BoxedCell) S(Cell), NF) \
 O(StringGet,                 D(StaticStr), S(Str) S(Int), PRc|Er) \
 O(StringIsset,               D(Bool), S(Str) S(Int), NF) \
@@ -475,6 +478,7 @@ O(SubInt,                    D(Int), S(Int) S(Int), NF) \
 O(SubIntO,                   D(Int), S(Int) S(Int), B) \
 O(SuspendHookE,              ND, S(FramePtr) S(FramePtr) S(Obj), Er) \
 O(SuspendHookR,              ND, S(FramePtr) S(Obj|Nullptr), Er) \
+O(SyncReturnBC,              ND, S(StkPtr) S(FramePtr), NF) \
 O(ThrowArithmeticError,      ND, S(Str), Er|T) \
 O(ThrowDivisionByZeroError,  ND, S(Str), Er|T) \
 O(ThrowInvalidOperation,     ND, S(Str), Er|T) \
@@ -483,8 +487,8 @@ O(UnboxPtr,                  DUnboxPtr, S(PtrToGen), NF) \
 O(UnsetElem,                 ND, S(PtrToGen) S(Cell), MElem|Er) \
 O(UnsetProp,                 ND, S(Obj,PtrToGen) S(Cell), Er) \
 O(UnwindCheckSideExit,       ND, S(FramePtr) S(StkPtr), B) \
-O(VGetElem,                  D(BoxedInitCell), S(PtrToGen) S(Cell) S(PtrToMISGen), MElem|PRc|Er) \
-O(VGetProp,                  D(BoxedInitCell), S(Obj,PtrToGen) S(Cell) S(PtrToMISGen), MProp|PRc|Er) \
+O(VGetElem,                  D(BoxedInitCell), S(PtrToGen) S(Cell), MElem|PRc|Er) \
+O(VGetProp,                  D(BoxedInitCell), S(Obj,PtrToGen) S(Cell), MProp|PRc|Er) \
 O(VectorDoCow,               ND, S(Obj), NF) \
 O(VectorHasImmCopy,          ND, S(Obj), B) \
 O(VectorIsset,               D(Bool), S(Obj) S(Int), NF) \

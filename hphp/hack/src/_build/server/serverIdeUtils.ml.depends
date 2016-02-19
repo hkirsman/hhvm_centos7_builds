@@ -1,1 +1,1 @@
-server/serverIdeUtils.ml: Ast Autocomplete Core Errors List Naming Naming_heap Nast Parser_hack Pos Printexc Printf Relative_path SSet ServerUtils SharedMem TypecheckerOptions Typing Typing_check_utils Typing_decl Typing_env Utils
+server/serverIdeUtils.ml: Ast Autocomplete Core Errors List Naming NamingGlobal Naming_heap Nast Parser_hack Pos Printexc Printf Relative_path SSet ServerUtils SharedMem TypecheckerOptions Typing Typing_check_utils Typing_decl Typing_env Utils

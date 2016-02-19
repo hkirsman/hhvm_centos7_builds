@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/tmp/hhvm-3.11.1/hphp/tools/bootstrap/gen-infotabs.cpp
+/tmp/hhvm-3.12.0/hphp/tools/bootstrap/gen-infotabs.cpp
 algorithm
 -
 iostream
@@ -22,11 +22,11 @@ folly/FBString.h
 folly/FBVector.h
 -
 hphp/tools/bootstrap/idl.h
-/tmp/hhvm-3.11.1/hphp/tools/bootstrap/hphp/tools/bootstrap/idl.h
+/tmp/hhvm-3.12.0/hphp/tools/bootstrap/hphp/tools/bootstrap/idl.h
 
-/tmp/hhvm-3.11.1/hphp/tools/bootstrap/idl.cpp
+/tmp/hhvm-3.12.0/hphp/tools/bootstrap/idl.cpp
 hphp/tools/bootstrap/idl.h
-/tmp/hhvm-3.11.1/hphp/tools/bootstrap/hphp/tools/bootstrap/idl.h
+/tmp/hhvm-3.12.0/hphp/tools/bootstrap/hphp/tools/bootstrap/idl.h
 algorithm
 -
 fstream

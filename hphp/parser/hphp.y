@@ -567,7 +567,7 @@ static int yylex(YYSTYPE *token, HPHP::Location *loc, Parser *_p) {
 }
 %}
 
-%expect 2
+%expect 4
 %define api.pure
 %lex-param {HPHP::HPHP_PARSER_NS::Parser *_p}
 %parse-param {HPHP::HPHP_PARSER_NS::Parser *_p}
@@ -1676,7 +1676,7 @@ xhp_nullable_attribute_decl_type:
 xhp_attribute_decl_type:
     T_ARRAY                            { $$ = 4;}
   | T_ARRAY T_TYPELIST_LT hh_type
-    T_TYPELIST_GT                      { $$ = 4;}
+    possible_comma T_TYPELIST_GT       { $$ = 4;}
   | T_ARRAY T_TYPELIST_LT hh_type ','
     hh_type T_TYPELIST_GT              { $$ = 4;}
   | fully_qualified_class_name         { /* This case handles all types other
@@ -1995,11 +1995,11 @@ closure_expression:
                                          _p->onClosureStart(t);
                                          _p->pushLabelInfo(); }
     parameter_list ')'
-    opt_return_type lambda_use_vars
-    '{' inner_statement_list '}'       { _p->finishStatement($10, $10); $10 = 1;
-                                         $$ = _p->onClosure(ClosureType::Long,
-                                                            nullptr,
-                                                            $2,$5,$8,$10,$7);
+    opt_return_type lambda_use_vars opt_return_type
+    '{' inner_statement_list '}'       { _p->finishStatement($11, $11); $11 = 1;
+                                         $$ = _p->onClosure(
+                                           ClosureType::Long, nullptr,
+                                           $2,$5,$8,$11,$7,&$9);
                                          _p->popLabelInfo();
                                          _p->onCompleteLabelScope(true);}
   | non_empty_member_modifiers
@@ -2009,11 +2009,11 @@ closure_expression:
                                          _p->onClosureStart(t);
                                          _p->pushLabelInfo(); }
     parameter_list ')'
-    opt_return_type lambda_use_vars
-    '{' inner_statement_list '}'       { _p->finishStatement($11, $11); $11 = 1;
-                                         $$ = _p->onClosure(ClosureType::Long,
-                                                            &$1,
-                                                            $3,$6,$9,$11,$8);
+    opt_return_type lambda_use_vars opt_return_type
+    '{' inner_statement_list '}'       { _p->finishStatement($12, $12); $12 = 1;
+                                         $$ = _p->onClosure(
+                                           ClosureType::Long, &$1,
+                                           $3,$6,$9,$12,$8,&$10);
                                          _p->popLabelInfo();
                                          _p->onCompleteLabelScope(true);}
 ;
@@ -3168,7 +3168,7 @@ hh_func_type_list:
 
 opt_return_type:
                                        { $$.reset(); }
-  | ':' hh_type                        { $$ = $2; }
+  | ':' hh_type                        { $$ = $2; $$ = 1; }
 ;
 
 hh_constraint:
@@ -3176,12 +3176,17 @@ hh_constraint:
  |  T_SUPER hh_type
 
 hh_typevar_list:
-    hh_typevar_list ','
+    hh_non_empty_typevar_list
+    possible_comma                     { $$ = $1; }
+;
+
+hh_non_empty_typevar_list:
+    hh_non_empty_typevar_list ','
     hh_typevar_variance
     ident_no_semireserved              { _p->addTypeVar($4.text()); }
  |  hh_typevar_variance
     ident_no_semireserved              { _p->addTypeVar($2.text()); }
- |  hh_typevar_list ','
+ |  hh_non_empty_typevar_list ','
     hh_typevar_variance
     ident_no_semireserved
     hh_constraint                      { _p->addTypeVar($4.text()); }
@@ -3274,7 +3279,7 @@ hh_type:
                                          _p->onTypeAnnotation($$, $1, $3);
                                          _p->onTypeSpecialization($$, 'a'); }
   | T_ARRAY T_TYPELIST_LT hh_type
-    T_TYPELIST_GT                      { $1.setText("array");
+    possible_comma T_TYPELIST_GT       { $1.setText("array");
                                          _p->onTypeAnnotation($$, $1, $3); }
   | T_ARRAY T_TYPELIST_LT hh_type ','
     hh_type T_TYPELIST_GT              { _p->onTypeList($3, $5);

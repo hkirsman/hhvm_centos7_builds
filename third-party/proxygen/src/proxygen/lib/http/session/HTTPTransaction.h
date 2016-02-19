@@ -354,8 +354,7 @@ class HTTPTransaction :
 
     virtual HTTPTransaction* newPushedTransaction(
       HTTPCodec::StreamID assocStreamId,
-      HTTPTransaction::PushHandler* handler,
-      http2::PriorityUpdate  priority) noexcept = 0;
+      HTTPTransaction::PushHandler* handler) noexcept = 0;
   };
 
   /**
@@ -431,6 +430,11 @@ class HTTPTransaction :
 
   TransactionInfo getTransactionInfo() const {
     return txnInfo_;
+  }
+
+  std::pair<uint64_t, double> getPrioritySummary() const {
+    return {insertDepth_,
+        egressCalls_ > 0 ? cumulativeRatio_ / egressCalls_ : 0};
   }
 
   HTTPTransactionEgressSM::State getEgressState() const {
@@ -584,7 +588,7 @@ class HTTPTransaction :
    * Notify this transaction that it is ok to egress.  Returns true if there
    * is additional pending egress
    */
-  bool onWriteReady(uint32_t maxEgress);
+  bool onWriteReady(uint32_t maxEgress, double ratio);
 
   /**
    * Invoked by the session when there is a timeout on the egress stream.
@@ -846,6 +850,15 @@ class HTTPTransaction :
    */
   void setEgressRateLimit(uint64_t bitsPerSecond);
 
+
+  /**
+   * Update this transaction's priority to the specified value
+   */
+  void updatePriority(http2::PriorityUpdate pri) {
+    priority_ = pri;
+    egressQueue_.updatePriority(queueHandle_, pri);
+  }
+
   /**
    * @return true iff egress processing is paused for the handler
    */
@@ -868,12 +881,11 @@ class HTTPTransaction :
    * transaction is impossible right now.
    */
   virtual HTTPTransaction* newPushedTransaction(
-    HTTPPushTransactionHandler* handler,
-    http2::PriorityUpdate priority) {
+    HTTPPushTransactionHandler* handler) {
     if (isEgressEOMSeen()) {
       return nullptr;
     }
-    auto txn = transport_.newPushedTransaction(id_, handler, priority);
+    auto txn = transport_.newPushedTransaction(id_, handler);
     if (txn) {
       pushedTransactions_.insert(txn->getID());
     }
@@ -1185,6 +1197,17 @@ class HTTPTransaction :
    * Priority of this transaction
    */
   http2::PriorityUpdate priority_;
+
+  /**
+   * Information about this transaction's priority.
+   *
+   * insertDepth_ is the depth of this node in the tree when the txn was created
+   * cumulativeRatio_ / egressCalls_ is the average relative weight of this
+   *                                 txn during egress
+   */
+  uint64_t insertDepth_{0};
+  double cumulativeRatio_{0};
+  uint64_t egressCalls_{0};
 
   /**
    * If this transaction represents a request (ie, it is backed by an

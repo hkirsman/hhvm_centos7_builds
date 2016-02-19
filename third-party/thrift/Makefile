@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.0
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles /tmp/hhvm-3.11.1/third-party/thrift/CMakeFiles/progress.marks
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/thrift/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles 0
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.0/CMakeFiles /tmp/hhvm-3.12.0/third-party/thrift/CMakeFiles/progress.marks
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/thrift/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.0/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/thrift/clean
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/thrift/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/thrift/preinstall
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/thrift/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/thrift/preinstall
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/thrift/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 third-party/thrift/CMakeFiles/hphp_thrift.dir/rule:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/thrift/CMakeFiles/hphp_thrift.dir/rule
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/thrift/CMakeFiles/hphp_thrift.dir/rule
 .PHONY : third-party/thrift/CMakeFiles/hphp_thrift.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ hphp_thrift: third-party/thrift/CMakeFiles/hphp_thrift.dir/rule
 
 # fast build rule for target.
 hphp_thrift/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/build
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/build
 .PHONY : hphp_thrift/fast
 
 src/thrift/lib/cpp/EventHandlerBase.o: src/thrift/lib/cpp/EventHandlerBase.cpp.o
@@ -161,7 +161,7 @@ src/thrift/lib/cpp/EventHandlerBase.o: src/thrift/lib/cpp/EventHandlerBase.cpp.o
 
 # target to build an object file
 src/thrift/lib/cpp/EventHandlerBase.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/EventHandlerBase.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/EventHandlerBase.cpp.o
 .PHONY : src/thrift/lib/cpp/EventHandlerBase.cpp.o
 
 src/thrift/lib/cpp/EventHandlerBase.i: src/thrift/lib/cpp/EventHandlerBase.cpp.i
@@ -169,7 +169,7 @@ src/thrift/lib/cpp/EventHandlerBase.i: src/thrift/lib/cpp/EventHandlerBase.cpp.i
 
 # target to preprocess a source file
 src/thrift/lib/cpp/EventHandlerBase.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/EventHandlerBase.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/EventHandlerBase.cpp.i
 .PHONY : src/thrift/lib/cpp/EventHandlerBase.cpp.i
 
 src/thrift/lib/cpp/EventHandlerBase.s: src/thrift/lib/cpp/EventHandlerBase.cpp.s
@@ -177,7 +177,7 @@ src/thrift/lib/cpp/EventHandlerBase.s: src/thrift/lib/cpp/EventHandlerBase.cpp.s
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/EventHandlerBase.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/EventHandlerBase.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/EventHandlerBase.cpp.s
 .PHONY : src/thrift/lib/cpp/EventHandlerBase.cpp.s
 
 src/thrift/lib/cpp/Thrift.o: src/thrift/lib/cpp/Thrift.cpp.o
@@ -185,7 +185,7 @@ src/thrift/lib/cpp/Thrift.o: src/thrift/lib/cpp/Thrift.cpp.o
 
 # target to build an object file
 src/thrift/lib/cpp/Thrift.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/Thrift.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/Thrift.cpp.o
 .PHONY : src/thrift/lib/cpp/Thrift.cpp.o
 
 src/thrift/lib/cpp/Thrift.i: src/thrift/lib/cpp/Thrift.cpp.i
@@ -193,7 +193,7 @@ src/thrift/lib/cpp/Thrift.i: src/thrift/lib/cpp/Thrift.cpp.i
 
 # target to preprocess a source file
 src/thrift/lib/cpp/Thrift.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/Thrift.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/Thrift.cpp.i
 .PHONY : src/thrift/lib/cpp/Thrift.cpp.i
 
 src/thrift/lib/cpp/Thrift.s: src/thrift/lib/cpp/Thrift.cpp.s
@@ -201,7 +201,7 @@ src/thrift/lib/cpp/Thrift.s: src/thrift/lib/cpp/Thrift.cpp.s
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/Thrift.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/Thrift.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/Thrift.cpp.s
 .PHONY : src/thrift/lib/cpp/Thrift.cpp.s
 
 src/thrift/lib/cpp/VirtualProfiling.o: src/thrift/lib/cpp/VirtualProfiling.cpp.o
@@ -209,7 +209,7 @@ src/thrift/lib/cpp/VirtualProfiling.o: src/thrift/lib/cpp/VirtualProfiling.cpp.o
 
 # target to build an object file
 src/thrift/lib/cpp/VirtualProfiling.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/VirtualProfiling.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/VirtualProfiling.cpp.o
 .PHONY : src/thrift/lib/cpp/VirtualProfiling.cpp.o
 
 src/thrift/lib/cpp/VirtualProfiling.i: src/thrift/lib/cpp/VirtualProfiling.cpp.i
@@ -217,7 +217,7 @@ src/thrift/lib/cpp/VirtualProfiling.i: src/thrift/lib/cpp/VirtualProfiling.cpp.i
 
 # target to preprocess a source file
 src/thrift/lib/cpp/VirtualProfiling.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/VirtualProfiling.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/VirtualProfiling.cpp.i
 .PHONY : src/thrift/lib/cpp/VirtualProfiling.cpp.i
 
 src/thrift/lib/cpp/VirtualProfiling.s: src/thrift/lib/cpp/VirtualProfiling.cpp.s
@@ -225,7 +225,7 @@ src/thrift/lib/cpp/VirtualProfiling.s: src/thrift/lib/cpp/VirtualProfiling.cpp.s
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/VirtualProfiling.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/VirtualProfiling.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/VirtualProfiling.cpp.s
 .PHONY : src/thrift/lib/cpp/VirtualProfiling.cpp.s
 
 src/thrift/lib/cpp/async/TAsyncSSLSocketFactory.o: src/thrift/lib/cpp/async/TAsyncSSLSocketFactory.cpp.o
@@ -233,7 +233,7 @@ src/thrift/lib/cpp/async/TAsyncSSLSocketFactory.o: src/thrift/lib/cpp/async/TAsy
 
 # target to build an object file
 src/thrift/lib/cpp/async/TAsyncSSLSocketFactory.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSSLSocketFactory.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSSLSocketFactory.cpp.o
 .PHONY : src/thrift/lib/cpp/async/TAsyncSSLSocketFactory.cpp.o
 
 src/thrift/lib/cpp/async/TAsyncSSLSocketFactory.i: src/thrift/lib/cpp/async/TAsyncSSLSocketFactory.cpp.i
@@ -241,7 +241,7 @@ src/thrift/lib/cpp/async/TAsyncSSLSocketFactory.i: src/thrift/lib/cpp/async/TAsy
 
 # target to preprocess a source file
 src/thrift/lib/cpp/async/TAsyncSSLSocketFactory.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSSLSocketFactory.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSSLSocketFactory.cpp.i
 .PHONY : src/thrift/lib/cpp/async/TAsyncSSLSocketFactory.cpp.i
 
 src/thrift/lib/cpp/async/TAsyncSSLSocketFactory.s: src/thrift/lib/cpp/async/TAsyncSSLSocketFactory.cpp.s
@@ -249,7 +249,7 @@ src/thrift/lib/cpp/async/TAsyncSSLSocketFactory.s: src/thrift/lib/cpp/async/TAsy
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/async/TAsyncSSLSocketFactory.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSSLSocketFactory.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSSLSocketFactory.cpp.s
 .PHONY : src/thrift/lib/cpp/async/TAsyncSSLSocketFactory.cpp.s
 
 src/thrift/lib/cpp/async/TAsyncSocketFactory.o: src/thrift/lib/cpp/async/TAsyncSocketFactory.cpp.o
@@ -257,7 +257,7 @@ src/thrift/lib/cpp/async/TAsyncSocketFactory.o: src/thrift/lib/cpp/async/TAsyncS
 
 # target to build an object file
 src/thrift/lib/cpp/async/TAsyncSocketFactory.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSocketFactory.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSocketFactory.cpp.o
 .PHONY : src/thrift/lib/cpp/async/TAsyncSocketFactory.cpp.o
 
 src/thrift/lib/cpp/async/TAsyncSocketFactory.i: src/thrift/lib/cpp/async/TAsyncSocketFactory.cpp.i
@@ -265,7 +265,7 @@ src/thrift/lib/cpp/async/TAsyncSocketFactory.i: src/thrift/lib/cpp/async/TAsyncS
 
 # target to preprocess a source file
 src/thrift/lib/cpp/async/TAsyncSocketFactory.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSocketFactory.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSocketFactory.cpp.i
 .PHONY : src/thrift/lib/cpp/async/TAsyncSocketFactory.cpp.i
 
 src/thrift/lib/cpp/async/TAsyncSocketFactory.s: src/thrift/lib/cpp/async/TAsyncSocketFactory.cpp.s
@@ -273,7 +273,7 @@ src/thrift/lib/cpp/async/TAsyncSocketFactory.s: src/thrift/lib/cpp/async/TAsyncS
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/async/TAsyncSocketFactory.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSocketFactory.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSocketFactory.cpp.s
 .PHONY : src/thrift/lib/cpp/async/TAsyncSocketFactory.cpp.s
 
 src/thrift/lib/cpp/async/TBinaryAsyncChannel.o: src/thrift/lib/cpp/async/TBinaryAsyncChannel.cpp.o
@@ -281,7 +281,7 @@ src/thrift/lib/cpp/async/TBinaryAsyncChannel.o: src/thrift/lib/cpp/async/TBinary
 
 # target to build an object file
 src/thrift/lib/cpp/async/TBinaryAsyncChannel.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TBinaryAsyncChannel.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TBinaryAsyncChannel.cpp.o
 .PHONY : src/thrift/lib/cpp/async/TBinaryAsyncChannel.cpp.o
 
 src/thrift/lib/cpp/async/TBinaryAsyncChannel.i: src/thrift/lib/cpp/async/TBinaryAsyncChannel.cpp.i
@@ -289,7 +289,7 @@ src/thrift/lib/cpp/async/TBinaryAsyncChannel.i: src/thrift/lib/cpp/async/TBinary
 
 # target to preprocess a source file
 src/thrift/lib/cpp/async/TBinaryAsyncChannel.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TBinaryAsyncChannel.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TBinaryAsyncChannel.cpp.i
 .PHONY : src/thrift/lib/cpp/async/TBinaryAsyncChannel.cpp.i
 
 src/thrift/lib/cpp/async/TBinaryAsyncChannel.s: src/thrift/lib/cpp/async/TBinaryAsyncChannel.cpp.s
@@ -297,7 +297,7 @@ src/thrift/lib/cpp/async/TBinaryAsyncChannel.s: src/thrift/lib/cpp/async/TBinary
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/async/TBinaryAsyncChannel.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TBinaryAsyncChannel.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TBinaryAsyncChannel.cpp.s
 .PHONY : src/thrift/lib/cpp/async/TBinaryAsyncChannel.cpp.s
 
 src/thrift/lib/cpp/async/TEventConnection.o: src/thrift/lib/cpp/async/TEventConnection.cpp.o
@@ -305,7 +305,7 @@ src/thrift/lib/cpp/async/TEventConnection.o: src/thrift/lib/cpp/async/TEventConn
 
 # target to build an object file
 src/thrift/lib/cpp/async/TEventConnection.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TEventConnection.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TEventConnection.cpp.o
 .PHONY : src/thrift/lib/cpp/async/TEventConnection.cpp.o
 
 src/thrift/lib/cpp/async/TEventConnection.i: src/thrift/lib/cpp/async/TEventConnection.cpp.i
@@ -313,7 +313,7 @@ src/thrift/lib/cpp/async/TEventConnection.i: src/thrift/lib/cpp/async/TEventConn
 
 # target to preprocess a source file
 src/thrift/lib/cpp/async/TEventConnection.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TEventConnection.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TEventConnection.cpp.i
 .PHONY : src/thrift/lib/cpp/async/TEventConnection.cpp.i
 
 src/thrift/lib/cpp/async/TEventConnection.s: src/thrift/lib/cpp/async/TEventConnection.cpp.s
@@ -321,7 +321,7 @@ src/thrift/lib/cpp/async/TEventConnection.s: src/thrift/lib/cpp/async/TEventConn
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/async/TEventConnection.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TEventConnection.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TEventConnection.cpp.s
 .PHONY : src/thrift/lib/cpp/async/TEventConnection.cpp.s
 
 src/thrift/lib/cpp/async/TEventServer.o: src/thrift/lib/cpp/async/TEventServer.cpp.o
@@ -329,7 +329,7 @@ src/thrift/lib/cpp/async/TEventServer.o: src/thrift/lib/cpp/async/TEventServer.c
 
 # target to build an object file
 src/thrift/lib/cpp/async/TEventServer.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TEventServer.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TEventServer.cpp.o
 .PHONY : src/thrift/lib/cpp/async/TEventServer.cpp.o
 
 src/thrift/lib/cpp/async/TEventServer.i: src/thrift/lib/cpp/async/TEventServer.cpp.i
@@ -337,7 +337,7 @@ src/thrift/lib/cpp/async/TEventServer.i: src/thrift/lib/cpp/async/TEventServer.c
 
 # target to preprocess a source file
 src/thrift/lib/cpp/async/TEventServer.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TEventServer.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TEventServer.cpp.i
 .PHONY : src/thrift/lib/cpp/async/TEventServer.cpp.i
 
 src/thrift/lib/cpp/async/TEventServer.s: src/thrift/lib/cpp/async/TEventServer.cpp.s
@@ -345,7 +345,7 @@ src/thrift/lib/cpp/async/TEventServer.s: src/thrift/lib/cpp/async/TEventServer.c
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/async/TEventServer.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TEventServer.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TEventServer.cpp.s
 .PHONY : src/thrift/lib/cpp/async/TEventServer.cpp.s
 
 src/thrift/lib/cpp/async/TEventTask.o: src/thrift/lib/cpp/async/TEventTask.cpp.o
@@ -353,7 +353,7 @@ src/thrift/lib/cpp/async/TEventTask.o: src/thrift/lib/cpp/async/TEventTask.cpp.o
 
 # target to build an object file
 src/thrift/lib/cpp/async/TEventTask.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TEventTask.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TEventTask.cpp.o
 .PHONY : src/thrift/lib/cpp/async/TEventTask.cpp.o
 
 src/thrift/lib/cpp/async/TEventTask.i: src/thrift/lib/cpp/async/TEventTask.cpp.i
@@ -361,7 +361,7 @@ src/thrift/lib/cpp/async/TEventTask.i: src/thrift/lib/cpp/async/TEventTask.cpp.i
 
 # target to preprocess a source file
 src/thrift/lib/cpp/async/TEventTask.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TEventTask.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TEventTask.cpp.i
 .PHONY : src/thrift/lib/cpp/async/TEventTask.cpp.i
 
 src/thrift/lib/cpp/async/TEventTask.s: src/thrift/lib/cpp/async/TEventTask.cpp.s
@@ -369,7 +369,7 @@ src/thrift/lib/cpp/async/TEventTask.s: src/thrift/lib/cpp/async/TEventTask.cpp.s
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/async/TEventTask.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TEventTask.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TEventTask.cpp.s
 .PHONY : src/thrift/lib/cpp/async/TEventTask.cpp.s
 
 src/thrift/lib/cpp/async/TEventWorker.o: src/thrift/lib/cpp/async/TEventWorker.cpp.o
@@ -377,7 +377,7 @@ src/thrift/lib/cpp/async/TEventWorker.o: src/thrift/lib/cpp/async/TEventWorker.c
 
 # target to build an object file
 src/thrift/lib/cpp/async/TEventWorker.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TEventWorker.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TEventWorker.cpp.o
 .PHONY : src/thrift/lib/cpp/async/TEventWorker.cpp.o
 
 src/thrift/lib/cpp/async/TEventWorker.i: src/thrift/lib/cpp/async/TEventWorker.cpp.i
@@ -385,7 +385,7 @@ src/thrift/lib/cpp/async/TEventWorker.i: src/thrift/lib/cpp/async/TEventWorker.c
 
 # target to preprocess a source file
 src/thrift/lib/cpp/async/TEventWorker.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TEventWorker.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TEventWorker.cpp.i
 .PHONY : src/thrift/lib/cpp/async/TEventWorker.cpp.i
 
 src/thrift/lib/cpp/async/TEventWorker.s: src/thrift/lib/cpp/async/TEventWorker.cpp.s
@@ -393,7 +393,7 @@ src/thrift/lib/cpp/async/TEventWorker.s: src/thrift/lib/cpp/async/TEventWorker.c
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/async/TEventWorker.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TEventWorker.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TEventWorker.cpp.s
 .PHONY : src/thrift/lib/cpp/async/TEventWorker.cpp.s
 
 src/thrift/lib/cpp/async/TFramedAsyncChannel.o: src/thrift/lib/cpp/async/TFramedAsyncChannel.cpp.o
@@ -401,7 +401,7 @@ src/thrift/lib/cpp/async/TFramedAsyncChannel.o: src/thrift/lib/cpp/async/TFramed
 
 # target to build an object file
 src/thrift/lib/cpp/async/TFramedAsyncChannel.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TFramedAsyncChannel.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TFramedAsyncChannel.cpp.o
 .PHONY : src/thrift/lib/cpp/async/TFramedAsyncChannel.cpp.o
 
 src/thrift/lib/cpp/async/TFramedAsyncChannel.i: src/thrift/lib/cpp/async/TFramedAsyncChannel.cpp.i
@@ -409,7 +409,7 @@ src/thrift/lib/cpp/async/TFramedAsyncChannel.i: src/thrift/lib/cpp/async/TFramed
 
 # target to preprocess a source file
 src/thrift/lib/cpp/async/TFramedAsyncChannel.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TFramedAsyncChannel.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TFramedAsyncChannel.cpp.i
 .PHONY : src/thrift/lib/cpp/async/TFramedAsyncChannel.cpp.i
 
 src/thrift/lib/cpp/async/TFramedAsyncChannel.s: src/thrift/lib/cpp/async/TFramedAsyncChannel.cpp.s
@@ -417,7 +417,7 @@ src/thrift/lib/cpp/async/TFramedAsyncChannel.s: src/thrift/lib/cpp/async/TFramed
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/async/TFramedAsyncChannel.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TFramedAsyncChannel.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TFramedAsyncChannel.cpp.s
 .PHONY : src/thrift/lib/cpp/async/TFramedAsyncChannel.cpp.s
 
 src/thrift/lib/cpp/async/THeaderAsyncChannel.o: src/thrift/lib/cpp/async/THeaderAsyncChannel.cpp.o
@@ -425,7 +425,7 @@ src/thrift/lib/cpp/async/THeaderAsyncChannel.o: src/thrift/lib/cpp/async/THeader
 
 # target to build an object file
 src/thrift/lib/cpp/async/THeaderAsyncChannel.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THeaderAsyncChannel.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THeaderAsyncChannel.cpp.o
 .PHONY : src/thrift/lib/cpp/async/THeaderAsyncChannel.cpp.o
 
 src/thrift/lib/cpp/async/THeaderAsyncChannel.i: src/thrift/lib/cpp/async/THeaderAsyncChannel.cpp.i
@@ -433,7 +433,7 @@ src/thrift/lib/cpp/async/THeaderAsyncChannel.i: src/thrift/lib/cpp/async/THeader
 
 # target to preprocess a source file
 src/thrift/lib/cpp/async/THeaderAsyncChannel.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THeaderAsyncChannel.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THeaderAsyncChannel.cpp.i
 .PHONY : src/thrift/lib/cpp/async/THeaderAsyncChannel.cpp.i
 
 src/thrift/lib/cpp/async/THeaderAsyncChannel.s: src/thrift/lib/cpp/async/THeaderAsyncChannel.cpp.s
@@ -441,7 +441,7 @@ src/thrift/lib/cpp/async/THeaderAsyncChannel.s: src/thrift/lib/cpp/async/THeader
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/async/THeaderAsyncChannel.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THeaderAsyncChannel.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THeaderAsyncChannel.cpp.s
 .PHONY : src/thrift/lib/cpp/async/THeaderAsyncChannel.cpp.s
 
 src/thrift/lib/cpp/async/THttpAsyncChannel.o: src/thrift/lib/cpp/async/THttpAsyncChannel.cpp.o
@@ -449,7 +449,7 @@ src/thrift/lib/cpp/async/THttpAsyncChannel.o: src/thrift/lib/cpp/async/THttpAsyn
 
 # target to build an object file
 src/thrift/lib/cpp/async/THttpAsyncChannel.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THttpAsyncChannel.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THttpAsyncChannel.cpp.o
 .PHONY : src/thrift/lib/cpp/async/THttpAsyncChannel.cpp.o
 
 src/thrift/lib/cpp/async/THttpAsyncChannel.i: src/thrift/lib/cpp/async/THttpAsyncChannel.cpp.i
@@ -457,7 +457,7 @@ src/thrift/lib/cpp/async/THttpAsyncChannel.i: src/thrift/lib/cpp/async/THttpAsyn
 
 # target to preprocess a source file
 src/thrift/lib/cpp/async/THttpAsyncChannel.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THttpAsyncChannel.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THttpAsyncChannel.cpp.i
 .PHONY : src/thrift/lib/cpp/async/THttpAsyncChannel.cpp.i
 
 src/thrift/lib/cpp/async/THttpAsyncChannel.s: src/thrift/lib/cpp/async/THttpAsyncChannel.cpp.s
@@ -465,7 +465,7 @@ src/thrift/lib/cpp/async/THttpAsyncChannel.s: src/thrift/lib/cpp/async/THttpAsyn
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/async/THttpAsyncChannel.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THttpAsyncChannel.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THttpAsyncChannel.cpp.s
 .PHONY : src/thrift/lib/cpp/async/THttpAsyncChannel.cpp.s
 
 src/thrift/lib/cpp/async/TUnframedAsyncChannel.o: src/thrift/lib/cpp/async/TUnframedAsyncChannel.cpp.o
@@ -473,7 +473,7 @@ src/thrift/lib/cpp/async/TUnframedAsyncChannel.o: src/thrift/lib/cpp/async/TUnfr
 
 # target to build an object file
 src/thrift/lib/cpp/async/TUnframedAsyncChannel.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TUnframedAsyncChannel.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TUnframedAsyncChannel.cpp.o
 .PHONY : src/thrift/lib/cpp/async/TUnframedAsyncChannel.cpp.o
 
 src/thrift/lib/cpp/async/TUnframedAsyncChannel.i: src/thrift/lib/cpp/async/TUnframedAsyncChannel.cpp.i
@@ -481,7 +481,7 @@ src/thrift/lib/cpp/async/TUnframedAsyncChannel.i: src/thrift/lib/cpp/async/TUnfr
 
 # target to preprocess a source file
 src/thrift/lib/cpp/async/TUnframedAsyncChannel.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TUnframedAsyncChannel.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TUnframedAsyncChannel.cpp.i
 .PHONY : src/thrift/lib/cpp/async/TUnframedAsyncChannel.cpp.i
 
 src/thrift/lib/cpp/async/TUnframedAsyncChannel.s: src/thrift/lib/cpp/async/TUnframedAsyncChannel.cpp.s
@@ -489,7 +489,7 @@ src/thrift/lib/cpp/async/TUnframedAsyncChannel.s: src/thrift/lib/cpp/async/TUnfr
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/async/TUnframedAsyncChannel.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TUnframedAsyncChannel.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TUnframedAsyncChannel.cpp.s
 .PHONY : src/thrift/lib/cpp/async/TUnframedAsyncChannel.cpp.s
 
 src/thrift/lib/cpp/async/TZlibAsyncChannel.o: src/thrift/lib/cpp/async/TZlibAsyncChannel.cpp.o
@@ -497,7 +497,7 @@ src/thrift/lib/cpp/async/TZlibAsyncChannel.o: src/thrift/lib/cpp/async/TZlibAsyn
 
 # target to build an object file
 src/thrift/lib/cpp/async/TZlibAsyncChannel.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TZlibAsyncChannel.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TZlibAsyncChannel.cpp.o
 .PHONY : src/thrift/lib/cpp/async/TZlibAsyncChannel.cpp.o
 
 src/thrift/lib/cpp/async/TZlibAsyncChannel.i: src/thrift/lib/cpp/async/TZlibAsyncChannel.cpp.i
@@ -505,7 +505,7 @@ src/thrift/lib/cpp/async/TZlibAsyncChannel.i: src/thrift/lib/cpp/async/TZlibAsyn
 
 # target to preprocess a source file
 src/thrift/lib/cpp/async/TZlibAsyncChannel.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TZlibAsyncChannel.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TZlibAsyncChannel.cpp.i
 .PHONY : src/thrift/lib/cpp/async/TZlibAsyncChannel.cpp.i
 
 src/thrift/lib/cpp/async/TZlibAsyncChannel.s: src/thrift/lib/cpp/async/TZlibAsyncChannel.cpp.s
@@ -513,7 +513,7 @@ src/thrift/lib/cpp/async/TZlibAsyncChannel.s: src/thrift/lib/cpp/async/TZlibAsyn
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/async/TZlibAsyncChannel.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TZlibAsyncChannel.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TZlibAsyncChannel.cpp.s
 .PHONY : src/thrift/lib/cpp/async/TZlibAsyncChannel.cpp.s
 
 src/thrift/lib/cpp/concurrency/Monitor.o: src/thrift/lib/cpp/concurrency/Monitor.cpp.o
@@ -521,7 +521,7 @@ src/thrift/lib/cpp/concurrency/Monitor.o: src/thrift/lib/cpp/concurrency/Monitor
 
 # target to build an object file
 src/thrift/lib/cpp/concurrency/Monitor.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/Monitor.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/Monitor.cpp.o
 .PHONY : src/thrift/lib/cpp/concurrency/Monitor.cpp.o
 
 src/thrift/lib/cpp/concurrency/Monitor.i: src/thrift/lib/cpp/concurrency/Monitor.cpp.i
@@ -529,7 +529,7 @@ src/thrift/lib/cpp/concurrency/Monitor.i: src/thrift/lib/cpp/concurrency/Monitor
 
 # target to preprocess a source file
 src/thrift/lib/cpp/concurrency/Monitor.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/Monitor.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/Monitor.cpp.i
 .PHONY : src/thrift/lib/cpp/concurrency/Monitor.cpp.i
 
 src/thrift/lib/cpp/concurrency/Monitor.s: src/thrift/lib/cpp/concurrency/Monitor.cpp.s
@@ -537,7 +537,7 @@ src/thrift/lib/cpp/concurrency/Monitor.s: src/thrift/lib/cpp/concurrency/Monitor
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/concurrency/Monitor.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/Monitor.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/Monitor.cpp.s
 .PHONY : src/thrift/lib/cpp/concurrency/Monitor.cpp.s
 
 src/thrift/lib/cpp/concurrency/Mutex.o: src/thrift/lib/cpp/concurrency/Mutex.cpp.o
@@ -545,7 +545,7 @@ src/thrift/lib/cpp/concurrency/Mutex.o: src/thrift/lib/cpp/concurrency/Mutex.cpp
 
 # target to build an object file
 src/thrift/lib/cpp/concurrency/Mutex.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/Mutex.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/Mutex.cpp.o
 .PHONY : src/thrift/lib/cpp/concurrency/Mutex.cpp.o
 
 src/thrift/lib/cpp/concurrency/Mutex.i: src/thrift/lib/cpp/concurrency/Mutex.cpp.i
@@ -553,7 +553,7 @@ src/thrift/lib/cpp/concurrency/Mutex.i: src/thrift/lib/cpp/concurrency/Mutex.cpp
 
 # target to preprocess a source file
 src/thrift/lib/cpp/concurrency/Mutex.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/Mutex.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/Mutex.cpp.i
 .PHONY : src/thrift/lib/cpp/concurrency/Mutex.cpp.i
 
 src/thrift/lib/cpp/concurrency/Mutex.s: src/thrift/lib/cpp/concurrency/Mutex.cpp.s
@@ -561,7 +561,7 @@ src/thrift/lib/cpp/concurrency/Mutex.s: src/thrift/lib/cpp/concurrency/Mutex.cpp
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/concurrency/Mutex.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/Mutex.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/Mutex.cpp.s
 .PHONY : src/thrift/lib/cpp/concurrency/Mutex.cpp.s
 
 src/thrift/lib/cpp/concurrency/PosixThreadFactory.o: src/thrift/lib/cpp/concurrency/PosixThreadFactory.cpp.o
@@ -569,7 +569,7 @@ src/thrift/lib/cpp/concurrency/PosixThreadFactory.o: src/thrift/lib/cpp/concurre
 
 # target to build an object file
 src/thrift/lib/cpp/concurrency/PosixThreadFactory.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/PosixThreadFactory.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/PosixThreadFactory.cpp.o
 .PHONY : src/thrift/lib/cpp/concurrency/PosixThreadFactory.cpp.o
 
 src/thrift/lib/cpp/concurrency/PosixThreadFactory.i: src/thrift/lib/cpp/concurrency/PosixThreadFactory.cpp.i
@@ -577,7 +577,7 @@ src/thrift/lib/cpp/concurrency/PosixThreadFactory.i: src/thrift/lib/cpp/concurre
 
 # target to preprocess a source file
 src/thrift/lib/cpp/concurrency/PosixThreadFactory.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/PosixThreadFactory.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/PosixThreadFactory.cpp.i
 .PHONY : src/thrift/lib/cpp/concurrency/PosixThreadFactory.cpp.i
 
 src/thrift/lib/cpp/concurrency/PosixThreadFactory.s: src/thrift/lib/cpp/concurrency/PosixThreadFactory.cpp.s
@@ -585,7 +585,7 @@ src/thrift/lib/cpp/concurrency/PosixThreadFactory.s: src/thrift/lib/cpp/concurre
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/concurrency/PosixThreadFactory.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/PosixThreadFactory.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/PosixThreadFactory.cpp.s
 .PHONY : src/thrift/lib/cpp/concurrency/PosixThreadFactory.cpp.s
 
 src/thrift/lib/cpp/concurrency/ProfiledMutex.o: src/thrift/lib/cpp/concurrency/ProfiledMutex.cpp.o
@@ -593,7 +593,7 @@ src/thrift/lib/cpp/concurrency/ProfiledMutex.o: src/thrift/lib/cpp/concurrency/P
 
 # target to build an object file
 src/thrift/lib/cpp/concurrency/ProfiledMutex.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/ProfiledMutex.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/ProfiledMutex.cpp.o
 .PHONY : src/thrift/lib/cpp/concurrency/ProfiledMutex.cpp.o
 
 src/thrift/lib/cpp/concurrency/ProfiledMutex.i: src/thrift/lib/cpp/concurrency/ProfiledMutex.cpp.i
@@ -601,7 +601,7 @@ src/thrift/lib/cpp/concurrency/ProfiledMutex.i: src/thrift/lib/cpp/concurrency/P
 
 # target to preprocess a source file
 src/thrift/lib/cpp/concurrency/ProfiledMutex.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/ProfiledMutex.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/ProfiledMutex.cpp.i
 .PHONY : src/thrift/lib/cpp/concurrency/ProfiledMutex.cpp.i
 
 src/thrift/lib/cpp/concurrency/ProfiledMutex.s: src/thrift/lib/cpp/concurrency/ProfiledMutex.cpp.s
@@ -609,7 +609,7 @@ src/thrift/lib/cpp/concurrency/ProfiledMutex.s: src/thrift/lib/cpp/concurrency/P
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/concurrency/ProfiledMutex.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/ProfiledMutex.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/ProfiledMutex.cpp.s
 .PHONY : src/thrift/lib/cpp/concurrency/ProfiledMutex.cpp.s
 
 src/thrift/lib/cpp/concurrency/ThreadManager.o: src/thrift/lib/cpp/concurrency/ThreadManager.cpp.o
@@ -617,7 +617,7 @@ src/thrift/lib/cpp/concurrency/ThreadManager.o: src/thrift/lib/cpp/concurrency/T
 
 # target to build an object file
 src/thrift/lib/cpp/concurrency/ThreadManager.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/ThreadManager.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/ThreadManager.cpp.o
 .PHONY : src/thrift/lib/cpp/concurrency/ThreadManager.cpp.o
 
 src/thrift/lib/cpp/concurrency/ThreadManager.i: src/thrift/lib/cpp/concurrency/ThreadManager.cpp.i
@@ -625,7 +625,7 @@ src/thrift/lib/cpp/concurrency/ThreadManager.i: src/thrift/lib/cpp/concurrency/T
 
 # target to preprocess a source file
 src/thrift/lib/cpp/concurrency/ThreadManager.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/ThreadManager.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/ThreadManager.cpp.i
 .PHONY : src/thrift/lib/cpp/concurrency/ThreadManager.cpp.i
 
 src/thrift/lib/cpp/concurrency/ThreadManager.s: src/thrift/lib/cpp/concurrency/ThreadManager.cpp.s
@@ -633,7 +633,7 @@ src/thrift/lib/cpp/concurrency/ThreadManager.s: src/thrift/lib/cpp/concurrency/T
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/concurrency/ThreadManager.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/ThreadManager.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/ThreadManager.cpp.s
 .PHONY : src/thrift/lib/cpp/concurrency/ThreadManager.cpp.s
 
 src/thrift/lib/cpp/concurrency/TimerManager.o: src/thrift/lib/cpp/concurrency/TimerManager.cpp.o
@@ -641,7 +641,7 @@ src/thrift/lib/cpp/concurrency/TimerManager.o: src/thrift/lib/cpp/concurrency/Ti
 
 # target to build an object file
 src/thrift/lib/cpp/concurrency/TimerManager.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/TimerManager.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/TimerManager.cpp.o
 .PHONY : src/thrift/lib/cpp/concurrency/TimerManager.cpp.o
 
 src/thrift/lib/cpp/concurrency/TimerManager.i: src/thrift/lib/cpp/concurrency/TimerManager.cpp.i
@@ -649,7 +649,7 @@ src/thrift/lib/cpp/concurrency/TimerManager.i: src/thrift/lib/cpp/concurrency/Ti
 
 # target to preprocess a source file
 src/thrift/lib/cpp/concurrency/TimerManager.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/TimerManager.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/TimerManager.cpp.i
 .PHONY : src/thrift/lib/cpp/concurrency/TimerManager.cpp.i
 
 src/thrift/lib/cpp/concurrency/TimerManager.s: src/thrift/lib/cpp/concurrency/TimerManager.cpp.s
@@ -657,7 +657,7 @@ src/thrift/lib/cpp/concurrency/TimerManager.s: src/thrift/lib/cpp/concurrency/Ti
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/concurrency/TimerManager.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/TimerManager.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/TimerManager.cpp.s
 .PHONY : src/thrift/lib/cpp/concurrency/TimerManager.cpp.s
 
 src/thrift/lib/cpp/concurrency/Util.o: src/thrift/lib/cpp/concurrency/Util.cpp.o
@@ -665,7 +665,7 @@ src/thrift/lib/cpp/concurrency/Util.o: src/thrift/lib/cpp/concurrency/Util.cpp.o
 
 # target to build an object file
 src/thrift/lib/cpp/concurrency/Util.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/Util.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/Util.cpp.o
 .PHONY : src/thrift/lib/cpp/concurrency/Util.cpp.o
 
 src/thrift/lib/cpp/concurrency/Util.i: src/thrift/lib/cpp/concurrency/Util.cpp.i
@@ -673,7 +673,7 @@ src/thrift/lib/cpp/concurrency/Util.i: src/thrift/lib/cpp/concurrency/Util.cpp.i
 
 # target to preprocess a source file
 src/thrift/lib/cpp/concurrency/Util.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/Util.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/Util.cpp.i
 .PHONY : src/thrift/lib/cpp/concurrency/Util.cpp.i
 
 src/thrift/lib/cpp/concurrency/Util.s: src/thrift/lib/cpp/concurrency/Util.cpp.s
@@ -681,7 +681,7 @@ src/thrift/lib/cpp/concurrency/Util.s: src/thrift/lib/cpp/concurrency/Util.cpp.s
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/concurrency/Util.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/Util.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/concurrency/Util.cpp.s
 .PHONY : src/thrift/lib/cpp/concurrency/Util.cpp.s
 
 src/thrift/lib/cpp/processor/PeekProcessor.o: src/thrift/lib/cpp/processor/PeekProcessor.cpp.o
@@ -689,7 +689,7 @@ src/thrift/lib/cpp/processor/PeekProcessor.o: src/thrift/lib/cpp/processor/PeekP
 
 # target to build an object file
 src/thrift/lib/cpp/processor/PeekProcessor.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/processor/PeekProcessor.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/processor/PeekProcessor.cpp.o
 .PHONY : src/thrift/lib/cpp/processor/PeekProcessor.cpp.o
 
 src/thrift/lib/cpp/processor/PeekProcessor.i: src/thrift/lib/cpp/processor/PeekProcessor.cpp.i
@@ -697,7 +697,7 @@ src/thrift/lib/cpp/processor/PeekProcessor.i: src/thrift/lib/cpp/processor/PeekP
 
 # target to preprocess a source file
 src/thrift/lib/cpp/processor/PeekProcessor.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/processor/PeekProcessor.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/processor/PeekProcessor.cpp.i
 .PHONY : src/thrift/lib/cpp/processor/PeekProcessor.cpp.i
 
 src/thrift/lib/cpp/processor/PeekProcessor.s: src/thrift/lib/cpp/processor/PeekProcessor.cpp.s
@@ -705,7 +705,7 @@ src/thrift/lib/cpp/processor/PeekProcessor.s: src/thrift/lib/cpp/processor/PeekP
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/processor/PeekProcessor.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/processor/PeekProcessor.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/processor/PeekProcessor.cpp.s
 .PHONY : src/thrift/lib/cpp/processor/PeekProcessor.cpp.s
 
 src/thrift/lib/cpp/server/TRpcTransportContext.o: src/thrift/lib/cpp/server/TRpcTransportContext.cpp.o
@@ -713,7 +713,7 @@ src/thrift/lib/cpp/server/TRpcTransportContext.o: src/thrift/lib/cpp/server/TRpc
 
 # target to build an object file
 src/thrift/lib/cpp/server/TRpcTransportContext.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TRpcTransportContext.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TRpcTransportContext.cpp.o
 .PHONY : src/thrift/lib/cpp/server/TRpcTransportContext.cpp.o
 
 src/thrift/lib/cpp/server/TRpcTransportContext.i: src/thrift/lib/cpp/server/TRpcTransportContext.cpp.i
@@ -721,7 +721,7 @@ src/thrift/lib/cpp/server/TRpcTransportContext.i: src/thrift/lib/cpp/server/TRpc
 
 # target to preprocess a source file
 src/thrift/lib/cpp/server/TRpcTransportContext.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TRpcTransportContext.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TRpcTransportContext.cpp.i
 .PHONY : src/thrift/lib/cpp/server/TRpcTransportContext.cpp.i
 
 src/thrift/lib/cpp/server/TRpcTransportContext.s: src/thrift/lib/cpp/server/TRpcTransportContext.cpp.s
@@ -729,7 +729,7 @@ src/thrift/lib/cpp/server/TRpcTransportContext.s: src/thrift/lib/cpp/server/TRpc
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/server/TRpcTransportContext.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TRpcTransportContext.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TRpcTransportContext.cpp.s
 .PHONY : src/thrift/lib/cpp/server/TRpcTransportContext.cpp.s
 
 src/thrift/lib/cpp/server/TServer.o: src/thrift/lib/cpp/server/TServer.cpp.o
@@ -737,7 +737,7 @@ src/thrift/lib/cpp/server/TServer.o: src/thrift/lib/cpp/server/TServer.cpp.o
 
 # target to build an object file
 src/thrift/lib/cpp/server/TServer.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TServer.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TServer.cpp.o
 .PHONY : src/thrift/lib/cpp/server/TServer.cpp.o
 
 src/thrift/lib/cpp/server/TServer.i: src/thrift/lib/cpp/server/TServer.cpp.i
@@ -745,7 +745,7 @@ src/thrift/lib/cpp/server/TServer.i: src/thrift/lib/cpp/server/TServer.cpp.i
 
 # target to preprocess a source file
 src/thrift/lib/cpp/server/TServer.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TServer.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TServer.cpp.i
 .PHONY : src/thrift/lib/cpp/server/TServer.cpp.i
 
 src/thrift/lib/cpp/server/TServer.s: src/thrift/lib/cpp/server/TServer.cpp.s
@@ -753,7 +753,7 @@ src/thrift/lib/cpp/server/TServer.s: src/thrift/lib/cpp/server/TServer.cpp.s
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/server/TServer.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TServer.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TServer.cpp.s
 .PHONY : src/thrift/lib/cpp/server/TServer.cpp.s
 
 src/thrift/lib/cpp/transport/TBufferTransports.o: src/thrift/lib/cpp/transport/TBufferTransports.cpp.o
@@ -761,7 +761,7 @@ src/thrift/lib/cpp/transport/TBufferTransports.o: src/thrift/lib/cpp/transport/T
 
 # target to build an object file
 src/thrift/lib/cpp/transport/TBufferTransports.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TBufferTransports.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TBufferTransports.cpp.o
 .PHONY : src/thrift/lib/cpp/transport/TBufferTransports.cpp.o
 
 src/thrift/lib/cpp/transport/TBufferTransports.i: src/thrift/lib/cpp/transport/TBufferTransports.cpp.i
@@ -769,7 +769,7 @@ src/thrift/lib/cpp/transport/TBufferTransports.i: src/thrift/lib/cpp/transport/T
 
 # target to preprocess a source file
 src/thrift/lib/cpp/transport/TBufferTransports.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TBufferTransports.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TBufferTransports.cpp.i
 .PHONY : src/thrift/lib/cpp/transport/TBufferTransports.cpp.i
 
 src/thrift/lib/cpp/transport/TBufferTransports.s: src/thrift/lib/cpp/transport/TBufferTransports.cpp.s
@@ -777,7 +777,7 @@ src/thrift/lib/cpp/transport/TBufferTransports.s: src/thrift/lib/cpp/transport/T
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/transport/TBufferTransports.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TBufferTransports.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TBufferTransports.cpp.s
 .PHONY : src/thrift/lib/cpp/transport/TBufferTransports.cpp.s
 
 src/thrift/lib/cpp/transport/TCallbackTransport.o: src/thrift/lib/cpp/transport/TCallbackTransport.cpp.o
@@ -785,7 +785,7 @@ src/thrift/lib/cpp/transport/TCallbackTransport.o: src/thrift/lib/cpp/transport/
 
 # target to build an object file
 src/thrift/lib/cpp/transport/TCallbackTransport.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TCallbackTransport.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TCallbackTransport.cpp.o
 .PHONY : src/thrift/lib/cpp/transport/TCallbackTransport.cpp.o
 
 src/thrift/lib/cpp/transport/TCallbackTransport.i: src/thrift/lib/cpp/transport/TCallbackTransport.cpp.i
@@ -793,7 +793,7 @@ src/thrift/lib/cpp/transport/TCallbackTransport.i: src/thrift/lib/cpp/transport/
 
 # target to preprocess a source file
 src/thrift/lib/cpp/transport/TCallbackTransport.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TCallbackTransport.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TCallbackTransport.cpp.i
 .PHONY : src/thrift/lib/cpp/transport/TCallbackTransport.cpp.i
 
 src/thrift/lib/cpp/transport/TCallbackTransport.s: src/thrift/lib/cpp/transport/TCallbackTransport.cpp.s
@@ -801,7 +801,7 @@ src/thrift/lib/cpp/transport/TCallbackTransport.s: src/thrift/lib/cpp/transport/
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/transport/TCallbackTransport.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TCallbackTransport.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TCallbackTransport.cpp.s
 .PHONY : src/thrift/lib/cpp/transport/TCallbackTransport.cpp.s
 
 src/thrift/lib/cpp/transport/TFDTransport.o: src/thrift/lib/cpp/transport/TFDTransport.cpp.o
@@ -809,7 +809,7 @@ src/thrift/lib/cpp/transport/TFDTransport.o: src/thrift/lib/cpp/transport/TFDTra
 
 # target to build an object file
 src/thrift/lib/cpp/transport/TFDTransport.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TFDTransport.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TFDTransport.cpp.o
 .PHONY : src/thrift/lib/cpp/transport/TFDTransport.cpp.o
 
 src/thrift/lib/cpp/transport/TFDTransport.i: src/thrift/lib/cpp/transport/TFDTransport.cpp.i
@@ -817,7 +817,7 @@ src/thrift/lib/cpp/transport/TFDTransport.i: src/thrift/lib/cpp/transport/TFDTra
 
 # target to preprocess a source file
 src/thrift/lib/cpp/transport/TFDTransport.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TFDTransport.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TFDTransport.cpp.i
 .PHONY : src/thrift/lib/cpp/transport/TFDTransport.cpp.i
 
 src/thrift/lib/cpp/transport/TFDTransport.s: src/thrift/lib/cpp/transport/TFDTransport.cpp.s
@@ -825,7 +825,7 @@ src/thrift/lib/cpp/transport/TFDTransport.s: src/thrift/lib/cpp/transport/TFDTra
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/transport/TFDTransport.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TFDTransport.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TFDTransport.cpp.s
 .PHONY : src/thrift/lib/cpp/transport/TFDTransport.cpp.s
 
 src/thrift/lib/cpp/transport/TFileTransport.o: src/thrift/lib/cpp/transport/TFileTransport.cpp.o
@@ -833,7 +833,7 @@ src/thrift/lib/cpp/transport/TFileTransport.o: src/thrift/lib/cpp/transport/TFil
 
 # target to build an object file
 src/thrift/lib/cpp/transport/TFileTransport.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TFileTransport.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TFileTransport.cpp.o
 .PHONY : src/thrift/lib/cpp/transport/TFileTransport.cpp.o
 
 src/thrift/lib/cpp/transport/TFileTransport.i: src/thrift/lib/cpp/transport/TFileTransport.cpp.i
@@ -841,7 +841,7 @@ src/thrift/lib/cpp/transport/TFileTransport.i: src/thrift/lib/cpp/transport/TFil
 
 # target to preprocess a source file
 src/thrift/lib/cpp/transport/TFileTransport.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TFileTransport.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TFileTransport.cpp.i
 .PHONY : src/thrift/lib/cpp/transport/TFileTransport.cpp.i
 
 src/thrift/lib/cpp/transport/TFileTransport.s: src/thrift/lib/cpp/transport/TFileTransport.cpp.s
@@ -849,7 +849,7 @@ src/thrift/lib/cpp/transport/TFileTransport.s: src/thrift/lib/cpp/transport/TFil
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/transport/TFileTransport.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TFileTransport.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TFileTransport.cpp.s
 .PHONY : src/thrift/lib/cpp/transport/TFileTransport.cpp.s
 
 src/thrift/lib/cpp/transport/THttpClient.o: src/thrift/lib/cpp/transport/THttpClient.cpp.o
@@ -857,7 +857,7 @@ src/thrift/lib/cpp/transport/THttpClient.o: src/thrift/lib/cpp/transport/THttpCl
 
 # target to build an object file
 src/thrift/lib/cpp/transport/THttpClient.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/THttpClient.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/THttpClient.cpp.o
 .PHONY : src/thrift/lib/cpp/transport/THttpClient.cpp.o
 
 src/thrift/lib/cpp/transport/THttpClient.i: src/thrift/lib/cpp/transport/THttpClient.cpp.i
@@ -865,7 +865,7 @@ src/thrift/lib/cpp/transport/THttpClient.i: src/thrift/lib/cpp/transport/THttpCl
 
 # target to preprocess a source file
 src/thrift/lib/cpp/transport/THttpClient.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/THttpClient.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/THttpClient.cpp.i
 .PHONY : src/thrift/lib/cpp/transport/THttpClient.cpp.i
 
 src/thrift/lib/cpp/transport/THttpClient.s: src/thrift/lib/cpp/transport/THttpClient.cpp.s
@@ -873,7 +873,7 @@ src/thrift/lib/cpp/transport/THttpClient.s: src/thrift/lib/cpp/transport/THttpCl
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/transport/THttpClient.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/THttpClient.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/THttpClient.cpp.s
 .PHONY : src/thrift/lib/cpp/transport/THttpClient.cpp.s
 
 src/thrift/lib/cpp/transport/THttpServer.o: src/thrift/lib/cpp/transport/THttpServer.cpp.o
@@ -881,7 +881,7 @@ src/thrift/lib/cpp/transport/THttpServer.o: src/thrift/lib/cpp/transport/THttpSe
 
 # target to build an object file
 src/thrift/lib/cpp/transport/THttpServer.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/THttpServer.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/THttpServer.cpp.o
 .PHONY : src/thrift/lib/cpp/transport/THttpServer.cpp.o
 
 src/thrift/lib/cpp/transport/THttpServer.i: src/thrift/lib/cpp/transport/THttpServer.cpp.i
@@ -889,7 +889,7 @@ src/thrift/lib/cpp/transport/THttpServer.i: src/thrift/lib/cpp/transport/THttpSe
 
 # target to preprocess a source file
 src/thrift/lib/cpp/transport/THttpServer.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/THttpServer.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/THttpServer.cpp.i
 .PHONY : src/thrift/lib/cpp/transport/THttpServer.cpp.i
 
 src/thrift/lib/cpp/transport/THttpServer.s: src/thrift/lib/cpp/transport/THttpServer.cpp.s
@@ -897,7 +897,7 @@ src/thrift/lib/cpp/transport/THttpServer.s: src/thrift/lib/cpp/transport/THttpSe
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/transport/THttpServer.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/THttpServer.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/THttpServer.cpp.s
 .PHONY : src/thrift/lib/cpp/transport/THttpServer.cpp.s
 
 src/thrift/lib/cpp/transport/THttpTransport.o: src/thrift/lib/cpp/transport/THttpTransport.cpp.o
@@ -905,7 +905,7 @@ src/thrift/lib/cpp/transport/THttpTransport.o: src/thrift/lib/cpp/transport/THtt
 
 # target to build an object file
 src/thrift/lib/cpp/transport/THttpTransport.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/THttpTransport.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/THttpTransport.cpp.o
 .PHONY : src/thrift/lib/cpp/transport/THttpTransport.cpp.o
 
 src/thrift/lib/cpp/transport/THttpTransport.i: src/thrift/lib/cpp/transport/THttpTransport.cpp.i
@@ -913,7 +913,7 @@ src/thrift/lib/cpp/transport/THttpTransport.i: src/thrift/lib/cpp/transport/THtt
 
 # target to preprocess a source file
 src/thrift/lib/cpp/transport/THttpTransport.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/THttpTransport.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/THttpTransport.cpp.i
 .PHONY : src/thrift/lib/cpp/transport/THttpTransport.cpp.i
 
 src/thrift/lib/cpp/transport/THttpTransport.s: src/thrift/lib/cpp/transport/THttpTransport.cpp.s
@@ -921,7 +921,7 @@ src/thrift/lib/cpp/transport/THttpTransport.s: src/thrift/lib/cpp/transport/THtt
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/transport/THttpTransport.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/THttpTransport.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/THttpTransport.cpp.s
 .PHONY : src/thrift/lib/cpp/transport/THttpTransport.cpp.s
 
 src/thrift/lib/cpp/transport/TSSLServerSocket.o: src/thrift/lib/cpp/transport/TSSLServerSocket.cpp.o
@@ -929,7 +929,7 @@ src/thrift/lib/cpp/transport/TSSLServerSocket.o: src/thrift/lib/cpp/transport/TS
 
 # target to build an object file
 src/thrift/lib/cpp/transport/TSSLServerSocket.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TSSLServerSocket.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TSSLServerSocket.cpp.o
 .PHONY : src/thrift/lib/cpp/transport/TSSLServerSocket.cpp.o
 
 src/thrift/lib/cpp/transport/TSSLServerSocket.i: src/thrift/lib/cpp/transport/TSSLServerSocket.cpp.i
@@ -937,7 +937,7 @@ src/thrift/lib/cpp/transport/TSSLServerSocket.i: src/thrift/lib/cpp/transport/TS
 
 # target to preprocess a source file
 src/thrift/lib/cpp/transport/TSSLServerSocket.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TSSLServerSocket.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TSSLServerSocket.cpp.i
 .PHONY : src/thrift/lib/cpp/transport/TSSLServerSocket.cpp.i
 
 src/thrift/lib/cpp/transport/TSSLServerSocket.s: src/thrift/lib/cpp/transport/TSSLServerSocket.cpp.s
@@ -945,7 +945,7 @@ src/thrift/lib/cpp/transport/TSSLServerSocket.s: src/thrift/lib/cpp/transport/TS
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/transport/TSSLServerSocket.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TSSLServerSocket.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TSSLServerSocket.cpp.s
 .PHONY : src/thrift/lib/cpp/transport/TSSLServerSocket.cpp.s
 
 src/thrift/lib/cpp/transport/TSSLSocket.o: src/thrift/lib/cpp/transport/TSSLSocket.cpp.o
@@ -953,7 +953,7 @@ src/thrift/lib/cpp/transport/TSSLSocket.o: src/thrift/lib/cpp/transport/TSSLSock
 
 # target to build an object file
 src/thrift/lib/cpp/transport/TSSLSocket.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TSSLSocket.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TSSLSocket.cpp.o
 .PHONY : src/thrift/lib/cpp/transport/TSSLSocket.cpp.o
 
 src/thrift/lib/cpp/transport/TSSLSocket.i: src/thrift/lib/cpp/transport/TSSLSocket.cpp.i
@@ -961,7 +961,7 @@ src/thrift/lib/cpp/transport/TSSLSocket.i: src/thrift/lib/cpp/transport/TSSLSock
 
 # target to preprocess a source file
 src/thrift/lib/cpp/transport/TSSLSocket.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TSSLSocket.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TSSLSocket.cpp.i
 .PHONY : src/thrift/lib/cpp/transport/TSSLSocket.cpp.i
 
 src/thrift/lib/cpp/transport/TSSLSocket.s: src/thrift/lib/cpp/transport/TSSLSocket.cpp.s
@@ -969,7 +969,7 @@ src/thrift/lib/cpp/transport/TSSLSocket.s: src/thrift/lib/cpp/transport/TSSLSock
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/transport/TSSLSocket.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TSSLSocket.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TSSLSocket.cpp.s
 .PHONY : src/thrift/lib/cpp/transport/TSSLSocket.cpp.s
 
 src/thrift/lib/cpp/transport/TServerSocket.o: src/thrift/lib/cpp/transport/TServerSocket.cpp.o
@@ -977,7 +977,7 @@ src/thrift/lib/cpp/transport/TServerSocket.o: src/thrift/lib/cpp/transport/TServ
 
 # target to build an object file
 src/thrift/lib/cpp/transport/TServerSocket.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TServerSocket.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TServerSocket.cpp.o
 .PHONY : src/thrift/lib/cpp/transport/TServerSocket.cpp.o
 
 src/thrift/lib/cpp/transport/TServerSocket.i: src/thrift/lib/cpp/transport/TServerSocket.cpp.i
@@ -985,7 +985,7 @@ src/thrift/lib/cpp/transport/TServerSocket.i: src/thrift/lib/cpp/transport/TServ
 
 # target to preprocess a source file
 src/thrift/lib/cpp/transport/TServerSocket.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TServerSocket.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TServerSocket.cpp.i
 .PHONY : src/thrift/lib/cpp/transport/TServerSocket.cpp.i
 
 src/thrift/lib/cpp/transport/TServerSocket.s: src/thrift/lib/cpp/transport/TServerSocket.cpp.s
@@ -993,7 +993,7 @@ src/thrift/lib/cpp/transport/TServerSocket.s: src/thrift/lib/cpp/transport/TServ
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/transport/TServerSocket.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TServerSocket.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TServerSocket.cpp.s
 .PHONY : src/thrift/lib/cpp/transport/TServerSocket.cpp.s
 
 src/thrift/lib/cpp/transport/TSimpleFileTransport.o: src/thrift/lib/cpp/transport/TSimpleFileTransport.cpp.o
@@ -1001,7 +1001,7 @@ src/thrift/lib/cpp/transport/TSimpleFileTransport.o: src/thrift/lib/cpp/transpor
 
 # target to build an object file
 src/thrift/lib/cpp/transport/TSimpleFileTransport.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TSimpleFileTransport.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TSimpleFileTransport.cpp.o
 .PHONY : src/thrift/lib/cpp/transport/TSimpleFileTransport.cpp.o
 
 src/thrift/lib/cpp/transport/TSimpleFileTransport.i: src/thrift/lib/cpp/transport/TSimpleFileTransport.cpp.i
@@ -1009,7 +1009,7 @@ src/thrift/lib/cpp/transport/TSimpleFileTransport.i: src/thrift/lib/cpp/transpor
 
 # target to preprocess a source file
 src/thrift/lib/cpp/transport/TSimpleFileTransport.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TSimpleFileTransport.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TSimpleFileTransport.cpp.i
 .PHONY : src/thrift/lib/cpp/transport/TSimpleFileTransport.cpp.i
 
 src/thrift/lib/cpp/transport/TSimpleFileTransport.s: src/thrift/lib/cpp/transport/TSimpleFileTransport.cpp.s
@@ -1017,7 +1017,7 @@ src/thrift/lib/cpp/transport/TSimpleFileTransport.s: src/thrift/lib/cpp/transpor
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/transport/TSimpleFileTransport.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TSimpleFileTransport.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TSimpleFileTransport.cpp.s
 .PHONY : src/thrift/lib/cpp/transport/TSimpleFileTransport.cpp.s
 
 src/thrift/lib/cpp/transport/TSocket.o: src/thrift/lib/cpp/transport/TSocket.cpp.o
@@ -1025,7 +1025,7 @@ src/thrift/lib/cpp/transport/TSocket.o: src/thrift/lib/cpp/transport/TSocket.cpp
 
 # target to build an object file
 src/thrift/lib/cpp/transport/TSocket.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TSocket.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TSocket.cpp.o
 .PHONY : src/thrift/lib/cpp/transport/TSocket.cpp.o
 
 src/thrift/lib/cpp/transport/TSocket.i: src/thrift/lib/cpp/transport/TSocket.cpp.i
@@ -1033,7 +1033,7 @@ src/thrift/lib/cpp/transport/TSocket.i: src/thrift/lib/cpp/transport/TSocket.cpp
 
 # target to preprocess a source file
 src/thrift/lib/cpp/transport/TSocket.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TSocket.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TSocket.cpp.i
 .PHONY : src/thrift/lib/cpp/transport/TSocket.cpp.i
 
 src/thrift/lib/cpp/transport/TSocket.s: src/thrift/lib/cpp/transport/TSocket.cpp.s
@@ -1041,7 +1041,7 @@ src/thrift/lib/cpp/transport/TSocket.s: src/thrift/lib/cpp/transport/TSocket.cpp
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/transport/TSocket.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TSocket.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TSocket.cpp.s
 .PHONY : src/thrift/lib/cpp/transport/TSocket.cpp.s
 
 src/thrift/lib/cpp/transport/TSocketOverHttpTunnel.o: src/thrift/lib/cpp/transport/TSocketOverHttpTunnel.cpp.o
@@ -1049,7 +1049,7 @@ src/thrift/lib/cpp/transport/TSocketOverHttpTunnel.o: src/thrift/lib/cpp/transpo
 
 # target to build an object file
 src/thrift/lib/cpp/transport/TSocketOverHttpTunnel.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TSocketOverHttpTunnel.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TSocketOverHttpTunnel.cpp.o
 .PHONY : src/thrift/lib/cpp/transport/TSocketOverHttpTunnel.cpp.o
 
 src/thrift/lib/cpp/transport/TSocketOverHttpTunnel.i: src/thrift/lib/cpp/transport/TSocketOverHttpTunnel.cpp.i
@@ -1057,7 +1057,7 @@ src/thrift/lib/cpp/transport/TSocketOverHttpTunnel.i: src/thrift/lib/cpp/transpo
 
 # target to preprocess a source file
 src/thrift/lib/cpp/transport/TSocketOverHttpTunnel.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TSocketOverHttpTunnel.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TSocketOverHttpTunnel.cpp.i
 .PHONY : src/thrift/lib/cpp/transport/TSocketOverHttpTunnel.cpp.i
 
 src/thrift/lib/cpp/transport/TSocketOverHttpTunnel.s: src/thrift/lib/cpp/transport/TSocketOverHttpTunnel.cpp.s
@@ -1065,7 +1065,7 @@ src/thrift/lib/cpp/transport/TSocketOverHttpTunnel.s: src/thrift/lib/cpp/transpo
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/transport/TSocketOverHttpTunnel.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TSocketOverHttpTunnel.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TSocketOverHttpTunnel.cpp.s
 .PHONY : src/thrift/lib/cpp/transport/TSocketOverHttpTunnel.cpp.s
 
 src/thrift/lib/cpp/transport/TSocketPool.o: src/thrift/lib/cpp/transport/TSocketPool.cpp.o
@@ -1073,7 +1073,7 @@ src/thrift/lib/cpp/transport/TSocketPool.o: src/thrift/lib/cpp/transport/TSocket
 
 # target to build an object file
 src/thrift/lib/cpp/transport/TSocketPool.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TSocketPool.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TSocketPool.cpp.o
 .PHONY : src/thrift/lib/cpp/transport/TSocketPool.cpp.o
 
 src/thrift/lib/cpp/transport/TSocketPool.i: src/thrift/lib/cpp/transport/TSocketPool.cpp.i
@@ -1081,7 +1081,7 @@ src/thrift/lib/cpp/transport/TSocketPool.i: src/thrift/lib/cpp/transport/TSocket
 
 # target to preprocess a source file
 src/thrift/lib/cpp/transport/TSocketPool.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TSocketPool.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TSocketPool.cpp.i
 .PHONY : src/thrift/lib/cpp/transport/TSocketPool.cpp.i
 
 src/thrift/lib/cpp/transport/TSocketPool.s: src/thrift/lib/cpp/transport/TSocketPool.cpp.s
@@ -1089,7 +1089,7 @@ src/thrift/lib/cpp/transport/TSocketPool.s: src/thrift/lib/cpp/transport/TSocket
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/transport/TSocketPool.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TSocketPool.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TSocketPool.cpp.s
 .PHONY : src/thrift/lib/cpp/transport/TSocketPool.cpp.s
 
 src/thrift/lib/cpp/transport/TTransportException.o: src/thrift/lib/cpp/transport/TTransportException.cpp.o
@@ -1097,7 +1097,7 @@ src/thrift/lib/cpp/transport/TTransportException.o: src/thrift/lib/cpp/transport
 
 # target to build an object file
 src/thrift/lib/cpp/transport/TTransportException.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TTransportException.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TTransportException.cpp.o
 .PHONY : src/thrift/lib/cpp/transport/TTransportException.cpp.o
 
 src/thrift/lib/cpp/transport/TTransportException.i: src/thrift/lib/cpp/transport/TTransportException.cpp.i
@@ -1105,7 +1105,7 @@ src/thrift/lib/cpp/transport/TTransportException.i: src/thrift/lib/cpp/transport
 
 # target to preprocess a source file
 src/thrift/lib/cpp/transport/TTransportException.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TTransportException.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TTransportException.cpp.i
 .PHONY : src/thrift/lib/cpp/transport/TTransportException.cpp.i
 
 src/thrift/lib/cpp/transport/TTransportException.s: src/thrift/lib/cpp/transport/TTransportException.cpp.s
@@ -1113,7 +1113,7 @@ src/thrift/lib/cpp/transport/TTransportException.s: src/thrift/lib/cpp/transport
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/transport/TTransportException.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TTransportException.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TTransportException.cpp.s
 .PHONY : src/thrift/lib/cpp/transport/TTransportException.cpp.s
 
 src/thrift/lib/cpp/transport/TTransportUtils.o: src/thrift/lib/cpp/transport/TTransportUtils.cpp.o
@@ -1121,7 +1121,7 @@ src/thrift/lib/cpp/transport/TTransportUtils.o: src/thrift/lib/cpp/transport/TTr
 
 # target to build an object file
 src/thrift/lib/cpp/transport/TTransportUtils.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TTransportUtils.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TTransportUtils.cpp.o
 .PHONY : src/thrift/lib/cpp/transport/TTransportUtils.cpp.o
 
 src/thrift/lib/cpp/transport/TTransportUtils.i: src/thrift/lib/cpp/transport/TTransportUtils.cpp.i
@@ -1129,7 +1129,7 @@ src/thrift/lib/cpp/transport/TTransportUtils.i: src/thrift/lib/cpp/transport/TTr
 
 # target to preprocess a source file
 src/thrift/lib/cpp/transport/TTransportUtils.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TTransportUtils.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TTransportUtils.cpp.i
 .PHONY : src/thrift/lib/cpp/transport/TTransportUtils.cpp.i
 
 src/thrift/lib/cpp/transport/TTransportUtils.s: src/thrift/lib/cpp/transport/TTransportUtils.cpp.s
@@ -1137,7 +1137,7 @@ src/thrift/lib/cpp/transport/TTransportUtils.s: src/thrift/lib/cpp/transport/TTr
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/transport/TTransportUtils.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TTransportUtils.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TTransportUtils.cpp.s
 .PHONY : src/thrift/lib/cpp/transport/TTransportUtils.cpp.s
 
 src/thrift/lib/cpp/transport/TZlibTransport.o: src/thrift/lib/cpp/transport/TZlibTransport.cpp.o
@@ -1145,7 +1145,7 @@ src/thrift/lib/cpp/transport/TZlibTransport.o: src/thrift/lib/cpp/transport/TZli
 
 # target to build an object file
 src/thrift/lib/cpp/transport/TZlibTransport.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TZlibTransport.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TZlibTransport.cpp.o
 .PHONY : src/thrift/lib/cpp/transport/TZlibTransport.cpp.o
 
 src/thrift/lib/cpp/transport/TZlibTransport.i: src/thrift/lib/cpp/transport/TZlibTransport.cpp.i
@@ -1153,7 +1153,7 @@ src/thrift/lib/cpp/transport/TZlibTransport.i: src/thrift/lib/cpp/transport/TZli
 
 # target to preprocess a source file
 src/thrift/lib/cpp/transport/TZlibTransport.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TZlibTransport.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TZlibTransport.cpp.i
 .PHONY : src/thrift/lib/cpp/transport/TZlibTransport.cpp.i
 
 src/thrift/lib/cpp/transport/TZlibTransport.s: src/thrift/lib/cpp/transport/TZlibTransport.cpp.s
@@ -1161,7 +1161,7 @@ src/thrift/lib/cpp/transport/TZlibTransport.s: src/thrift/lib/cpp/transport/TZli
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/transport/TZlibTransport.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TZlibTransport.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TZlibTransport.cpp.s
 .PHONY : src/thrift/lib/cpp/transport/TZlibTransport.cpp.s
 
 src/thrift/lib/cpp/util/FdUtils.o: src/thrift/lib/cpp/util/FdUtils.cpp.o
@@ -1169,7 +1169,7 @@ src/thrift/lib/cpp/util/FdUtils.o: src/thrift/lib/cpp/util/FdUtils.cpp.o
 
 # target to build an object file
 src/thrift/lib/cpp/util/FdUtils.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/FdUtils.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/FdUtils.cpp.o
 .PHONY : src/thrift/lib/cpp/util/FdUtils.cpp.o
 
 src/thrift/lib/cpp/util/FdUtils.i: src/thrift/lib/cpp/util/FdUtils.cpp.i
@@ -1177,7 +1177,7 @@ src/thrift/lib/cpp/util/FdUtils.i: src/thrift/lib/cpp/util/FdUtils.cpp.i
 
 # target to preprocess a source file
 src/thrift/lib/cpp/util/FdUtils.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/FdUtils.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/FdUtils.cpp.i
 .PHONY : src/thrift/lib/cpp/util/FdUtils.cpp.i
 
 src/thrift/lib/cpp/util/FdUtils.s: src/thrift/lib/cpp/util/FdUtils.cpp.s
@@ -1185,7 +1185,7 @@ src/thrift/lib/cpp/util/FdUtils.s: src/thrift/lib/cpp/util/FdUtils.cpp.s
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/util/FdUtils.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/FdUtils.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/FdUtils.cpp.s
 .PHONY : src/thrift/lib/cpp/util/FdUtils.cpp.s
 
 src/thrift/lib/cpp/util/PausableTimer.o: src/thrift/lib/cpp/util/PausableTimer.cpp.o
@@ -1193,7 +1193,7 @@ src/thrift/lib/cpp/util/PausableTimer.o: src/thrift/lib/cpp/util/PausableTimer.c
 
 # target to build an object file
 src/thrift/lib/cpp/util/PausableTimer.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/PausableTimer.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/PausableTimer.cpp.o
 .PHONY : src/thrift/lib/cpp/util/PausableTimer.cpp.o
 
 src/thrift/lib/cpp/util/PausableTimer.i: src/thrift/lib/cpp/util/PausableTimer.cpp.i
@@ -1201,7 +1201,7 @@ src/thrift/lib/cpp/util/PausableTimer.i: src/thrift/lib/cpp/util/PausableTimer.c
 
 # target to preprocess a source file
 src/thrift/lib/cpp/util/PausableTimer.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/PausableTimer.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/PausableTimer.cpp.i
 .PHONY : src/thrift/lib/cpp/util/PausableTimer.cpp.i
 
 src/thrift/lib/cpp/util/PausableTimer.s: src/thrift/lib/cpp/util/PausableTimer.cpp.s
@@ -1209,7 +1209,7 @@ src/thrift/lib/cpp/util/PausableTimer.s: src/thrift/lib/cpp/util/PausableTimer.c
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/util/PausableTimer.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/PausableTimer.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/PausableTimer.cpp.s
 .PHONY : src/thrift/lib/cpp/util/PausableTimer.cpp.s
 
 src/thrift/lib/cpp/util/ScopedServerThread.o: src/thrift/lib/cpp/util/ScopedServerThread.cpp.o
@@ -1217,7 +1217,7 @@ src/thrift/lib/cpp/util/ScopedServerThread.o: src/thrift/lib/cpp/util/ScopedServ
 
 # target to build an object file
 src/thrift/lib/cpp/util/ScopedServerThread.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ScopedServerThread.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ScopedServerThread.cpp.o
 .PHONY : src/thrift/lib/cpp/util/ScopedServerThread.cpp.o
 
 src/thrift/lib/cpp/util/ScopedServerThread.i: src/thrift/lib/cpp/util/ScopedServerThread.cpp.i
@@ -1225,7 +1225,7 @@ src/thrift/lib/cpp/util/ScopedServerThread.i: src/thrift/lib/cpp/util/ScopedServ
 
 # target to preprocess a source file
 src/thrift/lib/cpp/util/ScopedServerThread.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ScopedServerThread.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ScopedServerThread.cpp.i
 .PHONY : src/thrift/lib/cpp/util/ScopedServerThread.cpp.i
 
 src/thrift/lib/cpp/util/ScopedServerThread.s: src/thrift/lib/cpp/util/ScopedServerThread.cpp.s
@@ -1233,7 +1233,7 @@ src/thrift/lib/cpp/util/ScopedServerThread.s: src/thrift/lib/cpp/util/ScopedServ
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/util/ScopedServerThread.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ScopedServerThread.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ScopedServerThread.cpp.s
 .PHONY : src/thrift/lib/cpp/util/ScopedServerThread.cpp.s
 
 src/thrift/lib/cpp/util/ServerCreatorBase.o: src/thrift/lib/cpp/util/ServerCreatorBase.cpp.o
@@ -1241,7 +1241,7 @@ src/thrift/lib/cpp/util/ServerCreatorBase.o: src/thrift/lib/cpp/util/ServerCreat
 
 # target to build an object file
 src/thrift/lib/cpp/util/ServerCreatorBase.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ServerCreatorBase.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ServerCreatorBase.cpp.o
 .PHONY : src/thrift/lib/cpp/util/ServerCreatorBase.cpp.o
 
 src/thrift/lib/cpp/util/ServerCreatorBase.i: src/thrift/lib/cpp/util/ServerCreatorBase.cpp.i
@@ -1249,7 +1249,7 @@ src/thrift/lib/cpp/util/ServerCreatorBase.i: src/thrift/lib/cpp/util/ServerCreat
 
 # target to preprocess a source file
 src/thrift/lib/cpp/util/ServerCreatorBase.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ServerCreatorBase.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ServerCreatorBase.cpp.i
 .PHONY : src/thrift/lib/cpp/util/ServerCreatorBase.cpp.i
 
 src/thrift/lib/cpp/util/ServerCreatorBase.s: src/thrift/lib/cpp/util/ServerCreatorBase.cpp.s
@@ -1257,7 +1257,7 @@ src/thrift/lib/cpp/util/ServerCreatorBase.s: src/thrift/lib/cpp/util/ServerCreat
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/util/ServerCreatorBase.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ServerCreatorBase.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ServerCreatorBase.cpp.s
 .PHONY : src/thrift/lib/cpp/util/ServerCreatorBase.cpp.s
 
 src/thrift/lib/cpp/util/SocketRetriever.o: src/thrift/lib/cpp/util/SocketRetriever.cpp.o
@@ -1265,7 +1265,7 @@ src/thrift/lib/cpp/util/SocketRetriever.o: src/thrift/lib/cpp/util/SocketRetriev
 
 # target to build an object file
 src/thrift/lib/cpp/util/SocketRetriever.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/SocketRetriever.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/SocketRetriever.cpp.o
 .PHONY : src/thrift/lib/cpp/util/SocketRetriever.cpp.o
 
 src/thrift/lib/cpp/util/SocketRetriever.i: src/thrift/lib/cpp/util/SocketRetriever.cpp.i
@@ -1273,7 +1273,7 @@ src/thrift/lib/cpp/util/SocketRetriever.i: src/thrift/lib/cpp/util/SocketRetriev
 
 # target to preprocess a source file
 src/thrift/lib/cpp/util/SocketRetriever.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/SocketRetriever.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/SocketRetriever.cpp.i
 .PHONY : src/thrift/lib/cpp/util/SocketRetriever.cpp.i
 
 src/thrift/lib/cpp/util/SocketRetriever.s: src/thrift/lib/cpp/util/SocketRetriever.cpp.s
@@ -1281,7 +1281,7 @@ src/thrift/lib/cpp/util/SocketRetriever.s: src/thrift/lib/cpp/util/SocketRetriev
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/util/SocketRetriever.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/SocketRetriever.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/SocketRetriever.cpp.s
 .PHONY : src/thrift/lib/cpp/util/SocketRetriever.cpp.s
 
 src/thrift/lib/cpp/util/SyncServerCreator.o: src/thrift/lib/cpp/util/SyncServerCreator.cpp.o
@@ -1289,7 +1289,7 @@ src/thrift/lib/cpp/util/SyncServerCreator.o: src/thrift/lib/cpp/util/SyncServerC
 
 # target to build an object file
 src/thrift/lib/cpp/util/SyncServerCreator.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/SyncServerCreator.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/SyncServerCreator.cpp.o
 .PHONY : src/thrift/lib/cpp/util/SyncServerCreator.cpp.o
 
 src/thrift/lib/cpp/util/SyncServerCreator.i: src/thrift/lib/cpp/util/SyncServerCreator.cpp.i
@@ -1297,7 +1297,7 @@ src/thrift/lib/cpp/util/SyncServerCreator.i: src/thrift/lib/cpp/util/SyncServerC
 
 # target to preprocess a source file
 src/thrift/lib/cpp/util/SyncServerCreator.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/SyncServerCreator.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/SyncServerCreator.cpp.i
 .PHONY : src/thrift/lib/cpp/util/SyncServerCreator.cpp.i
 
 src/thrift/lib/cpp/util/SyncServerCreator.s: src/thrift/lib/cpp/util/SyncServerCreator.cpp.s
@@ -1305,7 +1305,7 @@ src/thrift/lib/cpp/util/SyncServerCreator.s: src/thrift/lib/cpp/util/SyncServerC
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/util/SyncServerCreator.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/SyncServerCreator.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/SyncServerCreator.cpp.s
 .PHONY : src/thrift/lib/cpp/util/SyncServerCreator.cpp.s
 
 src/thrift/lib/cpp/util/TEventServerCreator.o: src/thrift/lib/cpp/util/TEventServerCreator.cpp.o
@@ -1313,7 +1313,7 @@ src/thrift/lib/cpp/util/TEventServerCreator.o: src/thrift/lib/cpp/util/TEventSer
 
 # target to build an object file
 src/thrift/lib/cpp/util/TEventServerCreator.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/TEventServerCreator.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/TEventServerCreator.cpp.o
 .PHONY : src/thrift/lib/cpp/util/TEventServerCreator.cpp.o
 
 src/thrift/lib/cpp/util/TEventServerCreator.i: src/thrift/lib/cpp/util/TEventServerCreator.cpp.i
@@ -1321,7 +1321,7 @@ src/thrift/lib/cpp/util/TEventServerCreator.i: src/thrift/lib/cpp/util/TEventSer
 
 # target to preprocess a source file
 src/thrift/lib/cpp/util/TEventServerCreator.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/TEventServerCreator.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/TEventServerCreator.cpp.i
 .PHONY : src/thrift/lib/cpp/util/TEventServerCreator.cpp.i
 
 src/thrift/lib/cpp/util/TEventServerCreator.s: src/thrift/lib/cpp/util/TEventServerCreator.cpp.s
@@ -1329,7 +1329,7 @@ src/thrift/lib/cpp/util/TEventServerCreator.s: src/thrift/lib/cpp/util/TEventSer
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/util/TEventServerCreator.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/TEventServerCreator.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/TEventServerCreator.cpp.s
 .PHONY : src/thrift/lib/cpp/util/TEventServerCreator.cpp.s
 
 src/thrift/lib/cpp/util/THttpParser.o: src/thrift/lib/cpp/util/THttpParser.cpp.o
@@ -1337,7 +1337,7 @@ src/thrift/lib/cpp/util/THttpParser.o: src/thrift/lib/cpp/util/THttpParser.cpp.o
 
 # target to build an object file
 src/thrift/lib/cpp/util/THttpParser.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/THttpParser.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/THttpParser.cpp.o
 .PHONY : src/thrift/lib/cpp/util/THttpParser.cpp.o
 
 src/thrift/lib/cpp/util/THttpParser.i: src/thrift/lib/cpp/util/THttpParser.cpp.i
@@ -1345,7 +1345,7 @@ src/thrift/lib/cpp/util/THttpParser.i: src/thrift/lib/cpp/util/THttpParser.cpp.i
 
 # target to preprocess a source file
 src/thrift/lib/cpp/util/THttpParser.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/THttpParser.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/THttpParser.cpp.i
 .PHONY : src/thrift/lib/cpp/util/THttpParser.cpp.i
 
 src/thrift/lib/cpp/util/THttpParser.s: src/thrift/lib/cpp/util/THttpParser.cpp.s
@@ -1353,7 +1353,7 @@ src/thrift/lib/cpp/util/THttpParser.s: src/thrift/lib/cpp/util/THttpParser.cpp.s
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/util/THttpParser.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/THttpParser.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/THttpParser.cpp.s
 .PHONY : src/thrift/lib/cpp/util/THttpParser.cpp.s
 
 src/thrift/lib/cpp/util/VarintUtils.o: src/thrift/lib/cpp/util/VarintUtils.cpp.o
@@ -1361,7 +1361,7 @@ src/thrift/lib/cpp/util/VarintUtils.o: src/thrift/lib/cpp/util/VarintUtils.cpp.o
 
 # target to build an object file
 src/thrift/lib/cpp/util/VarintUtils.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/VarintUtils.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/VarintUtils.cpp.o
 .PHONY : src/thrift/lib/cpp/util/VarintUtils.cpp.o
 
 src/thrift/lib/cpp/util/VarintUtils.i: src/thrift/lib/cpp/util/VarintUtils.cpp.i
@@ -1369,7 +1369,7 @@ src/thrift/lib/cpp/util/VarintUtils.i: src/thrift/lib/cpp/util/VarintUtils.cpp.i
 
 # target to preprocess a source file
 src/thrift/lib/cpp/util/VarintUtils.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/VarintUtils.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/VarintUtils.cpp.i
 .PHONY : src/thrift/lib/cpp/util/VarintUtils.cpp.i
 
 src/thrift/lib/cpp/util/VarintUtils.s: src/thrift/lib/cpp/util/VarintUtils.cpp.s
@@ -1377,7 +1377,7 @@ src/thrift/lib/cpp/util/VarintUtils.s: src/thrift/lib/cpp/util/VarintUtils.cpp.s
 
 # target to generate assembly for a file
 src/thrift/lib/cpp/util/VarintUtils.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/VarintUtils.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/thrift/CMakeFiles/hphp_thrift.dir/build.make third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/VarintUtils.cpp.s
 .PHONY : src/thrift/lib/cpp/util/VarintUtils.cpp.s
 
 # Help Target
@@ -1557,6 +1557,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

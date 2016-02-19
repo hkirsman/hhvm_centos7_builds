@@ -6,53 +6,63 @@
 
 #IncludeRegexTransform: 
 
-/tmp/hhvm-3.11.1/hphp/zend/html-table.cpp
-hphp/zend/html-table.h
-/tmp/hhvm-3.11.1/hphp/zend/hphp/zend/html-table.h
+/tmp/hhvm-3.12.0/hphp/zend/crypt-blowfish.cpp
+string.h
+-
+errno.h
+-
+hphp/zend/crypt-blowfish.h
+/tmp/hhvm-3.12.0/hphp/zend/hphp/zend/crypt-blowfish.h
 
-/tmp/hhvm-3.11.1/hphp/zend/zend-html.cpp
+/tmp/hhvm-3.12.0/hphp/zend/html-table.cpp
+hphp/zend/html-table.h
+/tmp/hhvm-3.12.0/hphp/zend/hphp/zend/html-table.h
+
+/tmp/hhvm-3.12.0/hphp/zend/zend-html.cpp
 hphp/zend/zend-html.h
-/tmp/hhvm-3.11.1/hphp/zend/hphp/zend/zend-html.h
+/tmp/hhvm-3.12.0/hphp/zend/hphp/zend/zend-html.h
 unicode/uchar.h
 -
 unicode/utf8.h
 -
 hphp/util/lock.h
-/tmp/hhvm-3.11.1/hphp/zend/hphp/util/lock.h
+/tmp/hhvm-3.12.0/hphp/zend/hphp/util/lock.h
 hphp/util/functional.h
-/tmp/hhvm-3.11.1/hphp/zend/hphp/util/functional.h
+/tmp/hhvm-3.12.0/hphp/zend/hphp/util/functional.h
 
-/tmp/hhvm-3.11.1/hphp/zend/zend-md5.cpp
+/tmp/hhvm-3.12.0/hphp/zend/zend-md5.cpp
+hphp/zend/zend-md5.h
+/tmp/hhvm-3.12.0/hphp/zend/hphp/zend/zend-md5.h
 hphp/zend/zend-string.h
-/tmp/hhvm-3.11.1/hphp/zend/hphp/zend/zend-string.h
+/tmp/hhvm-3.12.0/hphp/zend/hphp/zend/zend-string.h
 cinttypes
 -
 
-/tmp/hhvm-3.11.1/hphp/zend/zend-sha1.cpp
+/tmp/hhvm-3.12.0/hphp/zend/zend-sha1.cpp
 hphp/zend/zend-string.h
-/tmp/hhvm-3.11.1/hphp/zend/hphp/zend/zend-string.h
+/tmp/hhvm-3.12.0/hphp/zend/hphp/zend/zend-string.h
 cinttypes
 -
 
-/tmp/hhvm-3.11.1/hphp/zend/zend-string.cpp
+/tmp/hhvm-3.12.0/hphp/zend/zend-string.cpp
 hphp/zend/zend-string.h
-/tmp/hhvm-3.11.1/hphp/zend/hphp/zend/zend-string.h
+/tmp/hhvm-3.12.0/hphp/zend/hphp/zend/zend-string.h
 cinttypes
 -
-hphp/util/assertions.h
-/tmp/hhvm-3.11.1/hphp/zend/hphp/util/assertions.h
-hphp/util/mutex.h
-/tmp/hhvm-3.11.1/hphp/zend/hphp/util/mutex.h
-hphp/util/lock.h
-/tmp/hhvm-3.11.1/hphp/zend/hphp/util/lock.h
-hphp/zend/php-crypt_r.h
-/tmp/hhvm-3.11.1/hphp/zend/hphp/zend/php-crypt_r.h
 unistd.h
 -
+hphp/util/assertions.h
+/tmp/hhvm-3.12.0/hphp/zend/hphp/util/assertions.h
+hphp/util/mutex.h
+/tmp/hhvm-3.12.0/hphp/zend/hphp/util/mutex.h
+hphp/util/lock.h
+/tmp/hhvm-3.12.0/hphp/zend/hphp/util/lock.h
+hphp/zend/crypt-blowfish.h
+/tmp/hhvm-3.12.0/hphp/zend/hphp/zend/crypt-blowfish.h
+hphp/zend/php-crypt_r.h
+/tmp/hhvm-3.12.0/hphp/zend/hphp/zend/php-crypt_r.h
 crypt.h
 -
-hphp/zend/crypt-blowfish.h
-/tmp/hhvm-3.11.1/hphp/zend/hphp/zend/crypt-blowfish.h
 
 hphp/util/assertions.h
 cassert
@@ -106,6 +116,14 @@ cstring
 hphp/util/portability.h
 hphp/util/hphp/util/portability.h
 
+hphp/util/locale-portability.h
+locale.h
+-
+langinfo.h
+-
+xlocale.h
+-
+
 hphp/util/lock.h
 hphp/util/mutex.h
 hphp/util/hphp/util/mutex.h
@@ -136,6 +154,34 @@ folly/Portability.h
 folly/CPortability.h
 -
 sys/param.h
+-
+hphp/util/portability/fnmatch.h
+hphp/util/hphp/util/portability/fnmatch.h
+hphp/util/portability/glob.h
+hphp/util/hphp/util/portability/glob.h
+hphp/util/portability/rand_r.h
+hphp/util/hphp/util/portability/rand_r.h
+hphp/util/portability/strfmon.h
+hphp/util/hphp/util/portability/strfmon.h
+hphp/util/portability/strptime.h
+hphp/util/hphp/util/portability/strptime.h
+
+hphp/util/portability/fnmatch.h
+
+hphp/util/portability/glob.h
+
+hphp/util/portability/rand_r.h
+
+hphp/util/portability/strfmon.h
+hphp/util/locale-portability.h
+hphp/util/portability/hphp/util/locale-portability.h
+folly/Portability.h
+-
+stdint.h
+-
+
+hphp/util/portability/strptime.h
+time.h
 -
 
 hphp/util/rank.h
@@ -179,13 +225,17 @@ map
 -
 
 hphp/zend/php-crypt_r.h
-crypt-freesec.h
-hphp/zend/crypt-freesec.h
 crypt-blowfish.h
 hphp/zend/crypt-blowfish.h
+crypt-freesec.h
+hphp/zend/crypt-freesec.h
 
 hphp/zend/zend-html.h
 cstdint
+-
+
+hphp/zend/zend-md5.h
+stdint.h
 -
 
 hphp/zend/zend-string.h

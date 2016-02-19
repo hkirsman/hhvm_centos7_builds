@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/tmp/hhvm-3.11.1/third-party/fastlz/fastlz.c" "/tmp/hhvm-3.11.1/third-party/fastlz/CMakeFiles/fastlz.dir/fastlz.c.o"
+  "/tmp/hhvm-3.12.0/third-party/fastlz/fastlz.c" "/tmp/hhvm-3.12.0/third-party/fastlz/CMakeFiles/fastlz.dir/fastlz.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 

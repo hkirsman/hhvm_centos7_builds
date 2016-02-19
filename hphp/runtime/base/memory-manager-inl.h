@@ -238,7 +238,7 @@ inline void* MemoryManager::mallocSmallIndex(size_t index, uint32_t bytes) {
   assert(index < kNumSmallSizes);
   assert(bytes <= kSmallIndex2Size[index]);
 
-  if (debug) eagerGCCheck();
+  if (debug) checkEagerGC();
 
   m_stats.usage += bytes;
 
@@ -268,8 +268,6 @@ inline void MemoryManager::freeSmallIndex(void* ptr, size_t index,
     return freeBigSize(ptr, bytes);
   }
 
-  if (debug) eagerGCCheck();
-
   FTRACE(3, "freeSmallSize({}, {}), freelist {}\n", ptr, bytes, index);
 
   m_freelists[index].push(ptr, bytes);
@@ -287,8 +285,6 @@ inline void MemoryManager::freeSmallSize(void* ptr, uint32_t bytes) {
     return freeBigSize(ptr, bytes);
   }
 
-  if (debug) eagerGCCheck();
-
   auto const i = smallSize2Index(bytes);
   FTRACE(3, "freeSmallSize({}, {}), freelist {}\n", ptr, bytes, i);
 
@@ -301,7 +297,6 @@ inline void MemoryManager::freeSmallSize(void* ptr, uint32_t bytes) {
 
 ALWAYS_INLINE
 void MemoryManager::freeBigSize(void* vp, size_t bytes) {
-  if (debug) eagerGCCheck();
   m_stats.usage -= bytes;
   // Since we account for these direct allocations in our usage and adjust for
   // them on allocation, we also need to adjust for them negatively on free.
@@ -407,7 +402,8 @@ inline bool MemoryManager::contains(void *p) const {
 
 inline bool MemoryManager::checkContains(void* p) const {
   // Be conservative if the small-block allocator is disabled.
-  assert(RuntimeOption::DisableSmallAllocator || contains(p));
+  assert(RuntimeOption::DisableSmallAllocator || m_bypassSlabAlloc ||
+         contains(p));
   return true;
 }
 

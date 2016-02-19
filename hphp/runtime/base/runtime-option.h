@@ -374,6 +374,7 @@ public:
   static bool PHP7_IntSemantics;
   static bool PHP7_LTR_assign;
   static bool PHP7_NoHexNumerics;
+  static bool PHP7_ReportVersion;
   static bool PHP7_ScalarTypes;
   static bool PHP7_EngineExceptions;
   static bool PHP7_UVS;
@@ -447,7 +448,6 @@ public:
   F(int, ExternalEmitterFallback,      0)                               \
   F(bool, ExternalEmitterAllowPartial, false)                           \
   F(bool, EmitSwitch,                  true)                            \
-  F(bool, EmitNewMInstrs,              newMInstrsDefault())             \
   F(bool, LogThreadCreateBacktraces,   false)                           \
   F(bool, FailJitPrologs,              false)                           \
   /* CheckReturnTypeHints:
@@ -563,13 +563,11 @@ public:
   F(uint32_t, MaxHotTextHugePages,     hugePagesSoundNice() ? 1 : 0)    \
   F(int32_t, MaxLowMemHugePages,       hugePagesSoundNice() ? 8 : 0)    \
   F(bool, RandomHotFuncs,              false)                           \
-  F(bool, CheckHeapOnAlloc,            false)                           \
   F(bool, EnableGC,                    false)                           \
-  /*
-    Run GC on every allocation/deallocation with probability 1/N (0 to
-    disable). Requires EnableGC=true with debug build.
-  */                                                                    \
-  F(uint32_t, EagerGCProbability,   0)                                  \
+  /* Run GC eagerly at each surprise point. */                          \
+  F(bool, EagerGC,                     false)                           \
+  /* only run eager-gc once at each surprise point (much faster) */     \
+  F(bool, FilterGCPoints,              true)                            \
   F(bool, DisableSomeRepoAuthNotices,  true)                            \
   F(uint32_t, InitialNamedEntityTableSize,  30000)                      \
   F(uint32_t, InitialStaticStringTableSize,                             \
@@ -613,6 +611,12 @@ public:
   static bool RepoAuthoritative;
   static bool RepoPreload;
 
+  // pprof/hhprof options
+  static bool HHProfEnabled;
+  static bool HHProfActive;
+  static bool HHProfAccum;
+  static bool HHProfRequest;
+
   // Sandbox options
   static bool SandboxMode;
   static std::string SandboxPattern;
@@ -648,16 +652,6 @@ public:
   static int64_t PregBacktraceLimit;
   static int64_t PregRecursionLimit;
   static bool EnablePregErrorLog;
-
-  // pprof/hhprof server options
-  static bool HHProfServerEnabled;
-  static int HHProfServerPort;
-  static int HHProfServerThreads;
-  static int HHProfServerTimeoutSeconds;
-  static bool HHProfServerProfileClientMode;
-  static bool HHProfServerAllocationProfile;
-  static int HHProfServerFilterMinAllocPerReq;
-  static int HHProfServerFilterMinBytesPerReq;
 
   // SimpleXML options
   static bool SimpleXMLEmptyNamespaceMatchesAll;

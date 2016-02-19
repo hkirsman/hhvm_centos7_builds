@@ -6,21 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/sql-common/client_authentication.cc
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/sql-common/client_authentication.cc
 my_config.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/sql-common/my_config.h
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/sql-common/my_config.h
 crypt_genhash_impl.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/sql-common/crypt_genhash_impl.h
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/sql-common/crypt_genhash_impl.h
 mysql/client_authentication.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/sql-common/mysql/client_authentication.h
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/sql-common/mysql/client_authentication.h
 m_ctype.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/sql-common/m_ctype.h
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/sql-common/m_ctype.h
 sql_common.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/sql-common/sql_common.h
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/sql-common/sql_common.h
 errmsg.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/sql-common/errmsg.h
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/sql-common/errmsg.h
 sql_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/sql-common/sql_string.h
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/sql-common/sql_string.h
 string.h
 -
 stdarg.h
@@ -34,9 +34,9 @@ openssl/err.h
 openssl/applink.c
 -
 mysql/service_my_plugin_log.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/sql-common/mysql/service_my_plugin_log.h
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/sql-common/mysql/service_my_plugin_log.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/sql/net_serv.cc
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/sql/net_serv.cc
 my_global.h
 -
 mysql.h
@@ -60,11 +60,11 @@ errno.h
 sys/uio.h
 -
 probes_mysql.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/sql/probes_mysql.h
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/sql/probes_mysql.h
 algorithm
 -
 mysql_com_server.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/sql/mysql_com_server.h
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/sql/mysql_com_server.h
 
 include/big_endian.h
 

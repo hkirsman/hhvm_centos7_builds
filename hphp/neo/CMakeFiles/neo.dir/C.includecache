@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/tmp/hhvm-3.11.1/hphp/neo/cs_config.h
+/tmp/hhvm-3.12.0/hphp/neo/cs_config.h
 
-/tmp/hhvm-3.11.1/hphp/neo/neo_bool.h
+/tmp/hhvm-3.12.0/hphp/neo/neo_bool.h
 
-/tmp/hhvm-3.11.1/hphp/neo/neo_err.c
+/tmp/hhvm-3.12.0/hphp/neo/neo_err.c
 cs_config.h
-/tmp/hhvm-3.11.1/hphp/neo/cs_config.h
+/tmp/hhvm-3.12.0/hphp/neo/cs_config.h
 stdio.h
 -
 stdlib.h
@@ -24,23 +24,23 @@ errno.h
 string.h
 -
 neo_misc.h
-/tmp/hhvm-3.11.1/hphp/neo/neo_misc.h
+/tmp/hhvm-3.12.0/hphp/neo/neo_misc.h
 neo_err.h
-/tmp/hhvm-3.11.1/hphp/neo/neo_err.h
+/tmp/hhvm-3.12.0/hphp/neo/neo_err.h
 ulist.h
-/tmp/hhvm-3.11.1/hphp/neo/ulist.h
+/tmp/hhvm-3.12.0/hphp/neo/ulist.h
 ulocks.h
-/tmp/hhvm-3.11.1/hphp/neo/ulocks.h
+/tmp/hhvm-3.12.0/hphp/neo/ulocks.h
 
-/tmp/hhvm-3.11.1/hphp/neo/neo_err.h
+/tmp/hhvm-3.12.0/hphp/neo/neo_err.h
 hphp/neo/neo_misc.h
-/tmp/hhvm-3.11.1/hphp/neo/hphp/neo/neo_misc.h
+/tmp/hhvm-3.12.0/hphp/neo/hphp/neo/neo_misc.h
 hphp/neo/neo_str.h
-/tmp/hhvm-3.11.1/hphp/neo/hphp/neo/neo_str.h
+/tmp/hhvm-3.12.0/hphp/neo/hphp/neo/neo_str.h
 
-/tmp/hhvm-3.11.1/hphp/neo/neo_files.c
+/tmp/hhvm-3.12.0/hphp/neo/neo_files.c
 cs_config.h
-/tmp/hhvm-3.11.1/hphp/neo/cs_config.h
+/tmp/hhvm-3.12.0/hphp/neo/cs_config.h
 stdio.h
 -
 stdlib.h
@@ -70,41 +70,41 @@ unistd.h
 dirent.h
 -
 neo_misc.h
-/tmp/hhvm-3.11.1/hphp/neo/neo_misc.h
+/tmp/hhvm-3.12.0/hphp/neo/neo_misc.h
 neo_err.h
-/tmp/hhvm-3.11.1/hphp/neo/neo_err.h
+/tmp/hhvm-3.12.0/hphp/neo/neo_err.h
 neo_files.h
-/tmp/hhvm-3.11.1/hphp/neo/neo_files.h
+/tmp/hhvm-3.12.0/hphp/neo/neo_files.h
 
-/tmp/hhvm-3.11.1/hphp/neo/neo_files.h
+/tmp/hhvm-3.12.0/hphp/neo/neo_files.h
 stdarg.h
 -
 sys/types.h
 -
 
-/tmp/hhvm-3.11.1/hphp/neo/neo_hash.c
+/tmp/hhvm-3.12.0/hphp/neo/neo_hash.c
 cs_config.h
-/tmp/hhvm-3.11.1/hphp/neo/cs_config.h
+/tmp/hhvm-3.12.0/hphp/neo/cs_config.h
 stdlib.h
 -
 string.h
 -
 neo_misc.h
-/tmp/hhvm-3.11.1/hphp/neo/neo_misc.h
+/tmp/hhvm-3.12.0/hphp/neo/neo_misc.h
 neo_err.h
-/tmp/hhvm-3.11.1/hphp/neo/neo_err.h
+/tmp/hhvm-3.12.0/hphp/neo/neo_err.h
 neo_hash.h
-/tmp/hhvm-3.11.1/hphp/neo/neo_hash.h
+/tmp/hhvm-3.12.0/hphp/neo/neo_hash.h
 
-/tmp/hhvm-3.11.1/hphp/neo/neo_hash.h
+/tmp/hhvm-3.12.0/hphp/neo/neo_hash.h
 stdlib.h
 -
 hphp/neo/neo_misc.h
-/tmp/hhvm-3.11.1/hphp/neo/hphp/neo/neo_misc.h
+/tmp/hhvm-3.12.0/hphp/neo/hphp/neo/neo_misc.h
 
-/tmp/hhvm-3.11.1/hphp/neo/neo_hdf.c
+/tmp/hhvm-3.12.0/hphp/neo/neo_hdf.c
 cs_config.h
-/tmp/hhvm-3.11.1/hphp/neo/cs_config.h
+/tmp/hhvm-3.12.0/hphp/neo/cs_config.h
 stdlib.h
 -
 string.h
@@ -130,31 +130,31 @@ io.h
 unistd.h
 -
 neo_misc.h
-/tmp/hhvm-3.11.1/hphp/neo/neo_misc.h
+/tmp/hhvm-3.12.0/hphp/neo/neo_misc.h
 neo_err.h
-/tmp/hhvm-3.11.1/hphp/neo/neo_err.h
+/tmp/hhvm-3.12.0/hphp/neo/neo_err.h
 neo_rand.h
-/tmp/hhvm-3.11.1/hphp/neo/neo_rand.h
+/tmp/hhvm-3.12.0/hphp/neo/neo_rand.h
 neo_hdf.h
-/tmp/hhvm-3.11.1/hphp/neo/neo_hdf.h
+/tmp/hhvm-3.12.0/hphp/neo/neo_hdf.h
 neo_str.h
-/tmp/hhvm-3.11.1/hphp/neo/neo_str.h
+/tmp/hhvm-3.12.0/hphp/neo/neo_str.h
 neo_files.h
-/tmp/hhvm-3.11.1/hphp/neo/neo_files.h
+/tmp/hhvm-3.12.0/hphp/neo/neo_files.h
 ulist.h
-/tmp/hhvm-3.11.1/hphp/neo/ulist.h
+/tmp/hhvm-3.12.0/hphp/neo/ulist.h
 
-/tmp/hhvm-3.11.1/hphp/neo/neo_hdf.h
+/tmp/hhvm-3.12.0/hphp/neo/neo_hdf.h
 stdio.h
 -
 hphp/neo/neo_err.h
-/tmp/hhvm-3.11.1/hphp/neo/hphp/neo/neo_err.h
+/tmp/hhvm-3.12.0/hphp/neo/hphp/neo/neo_err.h
 hphp/neo/neo_hash.h
-/tmp/hhvm-3.11.1/hphp/neo/hphp/neo/neo_hash.h
+/tmp/hhvm-3.12.0/hphp/neo/hphp/neo/neo_hash.h
 
-/tmp/hhvm-3.11.1/hphp/neo/neo_misc.c
+/tmp/hhvm-3.12.0/hphp/neo/neo_misc.c
 cs_config.h
-/tmp/hhvm-3.11.1/hphp/neo/cs_config.h
+/tmp/hhvm-3.12.0/hphp/neo/cs_config.h
 time.h
 -
 stdarg.h
@@ -176,11 +176,11 @@ sys/time.h
 unistd.h
 -
 neo_misc.h
-/tmp/hhvm-3.11.1/hphp/neo/neo_misc.h
+/tmp/hhvm-3.12.0/hphp/neo/neo_misc.h
 neo_err.h
-/tmp/hhvm-3.11.1/hphp/neo/neo_err.h
+/tmp/hhvm-3.12.0/hphp/neo/neo_err.h
 
-/tmp/hhvm-3.11.1/hphp/neo/neo_misc.h
+/tmp/hhvm-3.12.0/hphp/neo/neo_misc.h
 stdlib.h
 -
 time.h
@@ -188,7 +188,7 @@ time.h
 limits.h
 -
 hphp/neo/cs_config.h
-/tmp/hhvm-3.11.1/hphp/neo/hphp/neo/cs_config.h
+/tmp/hhvm-3.12.0/hphp/neo/hphp/neo/cs_config.h
 sys/stat.h
 -
 stdarg.h
@@ -196,9 +196,9 @@ stdarg.h
 sys/types.h
 -
 
-/tmp/hhvm-3.11.1/hphp/neo/neo_rand.c
+/tmp/hhvm-3.12.0/hphp/neo/neo_rand.c
 cs_config.h
-/tmp/hhvm-3.11.1/hphp/neo/cs_config.h
+/tmp/hhvm-3.12.0/hphp/neo/cs_config.h
 stdlib.h
 -
 stdio.h
@@ -206,15 +206,15 @@ stdio.h
 time.h
 -
 neo_misc.h
-/tmp/hhvm-3.11.1/hphp/neo/neo_misc.h
+/tmp/hhvm-3.12.0/hphp/neo/neo_misc.h
 neo_rand.h
-/tmp/hhvm-3.11.1/hphp/neo/neo_rand.h
+/tmp/hhvm-3.12.0/hphp/neo/neo_rand.h
 
-/tmp/hhvm-3.11.1/hphp/neo/neo_rand.h
+/tmp/hhvm-3.12.0/hphp/neo/neo_rand.h
 
-/tmp/hhvm-3.11.1/hphp/neo/neo_str.c
+/tmp/hhvm-3.12.0/hphp/neo/neo_str.c
 cs_config.h
-/tmp/hhvm-3.11.1/hphp/neo/cs_config.h
+/tmp/hhvm-3.12.0/hphp/neo/cs_config.h
 ctype.h
 -
 stdlib.h
@@ -230,29 +230,29 @@ io.h
 unistd.h
 -
 neo_bool.h
-/tmp/hhvm-3.11.1/hphp/neo/neo_bool.h
+/tmp/hhvm-3.12.0/hphp/neo/neo_bool.h
 neo_misc.h
-/tmp/hhvm-3.11.1/hphp/neo/neo_misc.h
+/tmp/hhvm-3.12.0/hphp/neo/neo_misc.h
 neo_err.h
-/tmp/hhvm-3.11.1/hphp/neo/neo_err.h
+/tmp/hhvm-3.12.0/hphp/neo/neo_err.h
 neo_str.h
-/tmp/hhvm-3.11.1/hphp/neo/neo_str.h
+/tmp/hhvm-3.12.0/hphp/neo/neo_str.h
 ulist.h
-/tmp/hhvm-3.11.1/hphp/neo/ulist.h
+/tmp/hhvm-3.12.0/hphp/neo/ulist.h
 
-/tmp/hhvm-3.11.1/hphp/neo/neo_str.h
+/tmp/hhvm-3.12.0/hphp/neo/neo_str.h
 stdarg.h
 -
 stdio.h
 -
 hphp/neo/neo_bool.h
-/tmp/hhvm-3.11.1/hphp/neo/hphp/neo/neo_bool.h
+/tmp/hhvm-3.12.0/hphp/neo/hphp/neo/neo_bool.h
 hphp/neo/neo_misc.h
-/tmp/hhvm-3.11.1/hphp/neo/hphp/neo/neo_misc.h
+/tmp/hhvm-3.12.0/hphp/neo/hphp/neo/neo_misc.h
 
-/tmp/hhvm-3.11.1/hphp/neo/ulist.c
+/tmp/hhvm-3.12.0/hphp/neo/ulist.c
 cs_config.h
-/tmp/hhvm-3.11.1/hphp/neo/cs_config.h
+/tmp/hhvm-3.12.0/hphp/neo/cs_config.h
 stdlib.h
 -
 string.h
@@ -260,29 +260,29 @@ string.h
 errno.h
 -
 neo_misc.h
-/tmp/hhvm-3.11.1/hphp/neo/neo_misc.h
+/tmp/hhvm-3.12.0/hphp/neo/neo_misc.h
 neo_err.h
-/tmp/hhvm-3.11.1/hphp/neo/neo_err.h
+/tmp/hhvm-3.12.0/hphp/neo/neo_err.h
 ulist.h
-/tmp/hhvm-3.11.1/hphp/neo/ulist.h
+/tmp/hhvm-3.12.0/hphp/neo/ulist.h
 
-/tmp/hhvm-3.11.1/hphp/neo/ulist.h
+/tmp/hhvm-3.12.0/hphp/neo/ulist.h
 hphp/neo/neo_err.h
-/tmp/hhvm-3.11.1/hphp/neo/hphp/neo/neo_err.h
+/tmp/hhvm-3.12.0/hphp/neo/hphp/neo/neo_err.h
 
-/tmp/hhvm-3.11.1/hphp/neo/ulocks.c
+/tmp/hhvm-3.12.0/hphp/neo/ulocks.c
 cs_config.h
-/tmp/hhvm-3.11.1/hphp/neo/cs_config.h
+/tmp/hhvm-3.12.0/hphp/neo/cs_config.h
 string.h
 -
 neo_misc.h
-/tmp/hhvm-3.11.1/hphp/neo/neo_misc.h
+/tmp/hhvm-3.12.0/hphp/neo/neo_misc.h
 neo_err.h
-/tmp/hhvm-3.11.1/hphp/neo/neo_err.h
+/tmp/hhvm-3.12.0/hphp/neo/neo_err.h
 ulocks.h
-/tmp/hhvm-3.11.1/hphp/neo/ulocks.h
+/tmp/hhvm-3.12.0/hphp/neo/ulocks.h
 
-/tmp/hhvm-3.11.1/hphp/neo/ulocks.h
+/tmp/hhvm-3.12.0/hphp/neo/ulocks.h
 pthread.h
 -
 

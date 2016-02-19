@@ -16,6 +16,7 @@
 
 #include <folly/ThreadLocal.h>
 
+#include <dlfcn.h>
 #include <sys/types.h>
 #include <sys/wait.h>
 #include <unistd.h>
@@ -37,6 +38,8 @@
 #include <gtest/gtest.h>
 
 #include <folly/Benchmark.h>
+#include <folly/Baton.h>
+#include <folly/experimental/io/FsUtil.h>
 
 using namespace folly;
 
@@ -537,6 +540,60 @@ TEST(ThreadLocal, Fork2) {
   } else {
     EXPECT_TRUE(false) << "fork failed";
   }
+}
+
+TEST(ThreadLocal, SharedLibrary) {
+  auto exe = fs::executable_path();
+  auto lib = exe.parent_path() / "lib_thread_local_test.so";
+  auto handle = dlopen(lib.string().c_str(), RTLD_LAZY);
+  EXPECT_NE(nullptr, handle);
+
+  typedef void (*useA_t)();
+  dlerror();
+  useA_t useA = (useA_t) dlsym(handle, "useA");
+
+  const char *dlsym_error = dlerror();
+  EXPECT_EQ(nullptr, dlsym_error);
+
+  useA();
+
+  folly::Baton<> b11, b12, b21, b22;
+
+  std::thread t1([&]() {
+      useA();
+      b11.post();
+      b12.wait();
+    });
+
+  std::thread t2([&]() {
+      useA();
+      b21.post();
+      b22.wait();
+    });
+
+  b11.wait();
+  b21.wait();
+
+  dlclose(handle);
+
+  b12.post();
+  b22.post();
+
+  t1.join();
+  t2.join();
+}
+
+namespace folly { namespace threadlocal_detail {
+struct PthreadKeyUnregisterTester {
+  PthreadKeyUnregister p;
+  constexpr PthreadKeyUnregisterTester() = default;
+};
+}}
+
+TEST(ThreadLocal, UnregisterClassHasConstExprCtor) {
+  folly::threadlocal_detail::PthreadKeyUnregisterTester x;
+  // yep!
+  SUCCEED();
 }
 
 // clang is unable to compile this code unless in c++14 mode.

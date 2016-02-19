@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/tmp/hhvm-3.11.1/third-party/fastlz/fastlz.c
+/tmp/hhvm-3.12.0/third-party/fastlz/fastlz.c
 fastlz.c
-/tmp/hhvm-3.11.1/third-party/fastlz/fastlz.c
+/tmp/hhvm-3.12.0/third-party/fastlz/fastlz.c
 fastlz.c
-/tmp/hhvm-3.11.1/third-party/fastlz/fastlz.c
+/tmp/hhvm-3.12.0/third-party/fastlz/fastlz.c
 

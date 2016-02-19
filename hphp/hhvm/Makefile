@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.0
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles /tmp/hhvm-3.11.1/hphp/hhvm/CMakeFiles/progress.marks
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/hhvm/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles 0
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.0/CMakeFiles /tmp/hhvm-3.12.0/hphp/hhvm/CMakeFiles/progress.marks
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/hhvm/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.0/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/hhvm/clean
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/hhvm/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/hhvm/preinstall
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/hhvm/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/hhvm/preinstall
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/hhvm/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 hphp/hhvm/CMakeFiles/hhvm.dir/rule:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/hhvm/CMakeFiles/hhvm.dir/rule
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/hhvm/CMakeFiles/hhvm.dir/rule
 .PHONY : hphp/hhvm/CMakeFiles/hhvm.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ hhvm: hphp/hhvm/CMakeFiles/hhvm.dir/rule
 
 # fast build rule for target.
 hhvm/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/hhvm/CMakeFiles/hhvm.dir/build.make hphp/hhvm/CMakeFiles/hhvm.dir/build
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/hhvm/CMakeFiles/hhvm.dir/build.make hphp/hhvm/CMakeFiles/hhvm.dir/build
 .PHONY : hhvm/fast
 
 global-variables.o: global-variables.cpp.o
@@ -161,7 +161,7 @@ global-variables.o: global-variables.cpp.o
 
 # target to build an object file
 global-variables.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/hhvm/CMakeFiles/hhvm.dir/build.make hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/hhvm/CMakeFiles/hhvm.dir/build.make hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o
 .PHONY : global-variables.cpp.o
 
 global-variables.i: global-variables.cpp.i
@@ -169,7 +169,7 @@ global-variables.i: global-variables.cpp.i
 
 # target to preprocess a source file
 global-variables.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/hhvm/CMakeFiles/hhvm.dir/build.make hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/hhvm/CMakeFiles/hhvm.dir/build.make hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.i
 .PHONY : global-variables.cpp.i
 
 global-variables.s: global-variables.cpp.s
@@ -177,7 +177,7 @@ global-variables.s: global-variables.cpp.s
 
 # target to generate assembly for a file
 global-variables.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/hhvm/CMakeFiles/hhvm.dir/build.make hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/hhvm/CMakeFiles/hhvm.dir/build.make hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.s
 .PHONY : global-variables.cpp.s
 
 main.o: main.cpp.o
@@ -185,7 +185,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/hhvm/CMakeFiles/hhvm.dir/build.make hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/hhvm/CMakeFiles/hhvm.dir/build.make hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -193,7 +193,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/hhvm/CMakeFiles/hhvm.dir/build.make hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/hhvm/CMakeFiles/hhvm.dir/build.make hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -201,7 +201,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/hhvm/CMakeFiles/hhvm.dir/build.make hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/hhvm/CMakeFiles/hhvm.dir/build.make hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 process-init.o: process-init.cpp.o
@@ -209,7 +209,7 @@ process-init.o: process-init.cpp.o
 
 # target to build an object file
 process-init.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/hhvm/CMakeFiles/hhvm.dir/build.make hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/hhvm/CMakeFiles/hhvm.dir/build.make hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o
 .PHONY : process-init.cpp.o
 
 process-init.i: process-init.cpp.i
@@ -217,7 +217,7 @@ process-init.i: process-init.cpp.i
 
 # target to preprocess a source file
 process-init.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/hhvm/CMakeFiles/hhvm.dir/build.make hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/hhvm/CMakeFiles/hhvm.dir/build.make hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.i
 .PHONY : process-init.cpp.i
 
 process-init.s: process-init.cpp.s
@@ -225,7 +225,7 @@ process-init.s: process-init.cpp.s
 
 # target to generate assembly for a file
 process-init.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/hhvm/CMakeFiles/hhvm.dir/build.make hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/hhvm/CMakeFiles/hhvm.dir/build.make hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.s
 .PHONY : process-init.cpp.s
 
 # Help Target
@@ -261,6 +261,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

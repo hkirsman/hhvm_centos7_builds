@@ -19,6 +19,7 @@
 #include "hphp/runtime/base/heap-scan.h"
 #include "hphp/runtime/base/thread-info.h"
 #include "hphp/runtime/base/heap-graph.h"
+#include "hphp/runtime/vm/vm-regs.h"
 #include "hphp/util/alloc.h"
 #include "hphp/util/trace.h"
 
@@ -26,10 +27,10 @@
 #include <iterator>
 #include <vector>
 #include <folly/Range.h>
+#include <boost/dynamic_bitset.hpp>
 
 namespace HPHP {
 TRACE_SET_MOD(gc);
-using HK = HeaderKind;
 
 namespace {
 
@@ -146,9 +147,9 @@ private:
   template<class T> void enqueue(const T* p) {
     auto h = reinterpret_cast<const Header*>(p);
     assert(h &&
-           h->kind() <= HK::BigMalloc &&
-           h->kind() != HK::ResumableFrame &&
-           h->kind() != HK::NativeData);
+           h->kind() <= HeaderKind::BigMalloc &&
+           h->kind() != HeaderKind::ResumableFrame &&
+           h->kind() != HeaderKind::NativeData);
     work_.push_back(h);
   }
 
@@ -163,7 +164,8 @@ private:
 bool Marker::mark(const void* p) {
   assert(p && ptrs_.isHeader(p));
   auto h = static_cast<const Header*>(p);
-  assert(h->kind() <= HK::BigMalloc && h->kind() != HK::ResumableObj);
+  assert(h->kind() <= HeaderKind::BigMalloc &&
+         h->kind() != HeaderKind::ResumableObj);
   auto first = !h->hdr_.mark;
   h->hdr_.mark = true;
   return first;
@@ -178,7 +180,7 @@ void Marker::operator()(const ObjectData* p) {
   if (!p) return;
   assert(isObjectKind(p->headerKind()));
   auto kind = p->headerKind();
-  if (kind == HK::ResumableObj) {
+  if (kind == HeaderKind::ResumableObj) {
     // Resumable object, prefixed by a ResumableNode header, which is what
     // we need to mark.
     // [ResumableNode][locals][Resumable][ObjectData<ResumableObj>]
@@ -186,20 +188,20 @@ void Marker::operator()(const ObjectData* p) {
     auto frame = reinterpret_cast<const TypedValue*>(r) -
                  r->actRec()->func()->numSlotsInFrame();
     auto node = reinterpret_cast<const ResumableNode*>(frame) - 1;
-    assert(node->hdr.kind == HK::ResumableFrame);
+    assert(node->hdr.kind == HeaderKind::ResumableFrame);
     if (mark(node)) {
       // mark the ResumableFrame prefix, but enqueue the ObjectData* to scan
       enqueue(p);
     }
     assert(!p->getVMClass()->getNativeDataInfo());
-  } else if (kind != HeaderKind::WaitHandle &&
-             p->getAttribute(ObjectData::HasNativeData)) {
+  } else if (p->getAttribute(ObjectData::HasNativeData)) {
     // HNI style native object; mark the NativeNode header, queue the object.
     // [NativeNode][NativeData][ObjectData][props] is one allocation.
     // For generators -
     // [NativeNode][locals][Resumable][GeneratorData][ObjectData]
+    assert(p->getVMClass()->getNativeDataInfo() != nullptr);
     auto h = Native::getNativeNode(p, p->getVMClass()->getNativeDataInfo());
-    assert(h->hdr.kind == HK::NativeData);
+    assert(h->hdr.kind == HeaderKind::NativeData);
     if (mark(h)) {
       enqueue(p);
     }
@@ -213,14 +215,14 @@ void Marker::operator()(const ObjectData* p) {
 
 void Marker::operator()(const ResourceHdr* p) {
   if (p && mark(p)) {
-    assert(kind(p) == HK::Resource);
+    assert(kind(p) == HeaderKind::Resource);
     enqueue(p);
   }
 }
 
 void Marker::operator()(const ResourceData* r) {
   if (r && mark(r->hdr())) {
-    assert(kind(r->hdr()) == HK::Resource);
+    assert(kind(r->hdr()) == HeaderKind::Resource);
     enqueue(r->hdr());
   }
 }
@@ -242,7 +244,7 @@ void Marker::operator()(const RefData* p) {
     return;
   }
   if (mark(p)) {
-    assert(kind(p) == HK::Ref);
+    assert(kind(p) == HeaderKind::Ref);
     enqueue(p);
   }
 }
@@ -251,7 +253,7 @@ void Marker::operator()(const RefData* p) {
 // which is not a request-local allocation.
 void Marker::operator()(const StringData* p) {
   if (p && counted(p)) {
-    assert(kind(p) == HK::String);
+    assert(kind(p) == HeaderKind::String);
     mark(p);
   }
 }
@@ -293,7 +295,7 @@ void Marker::operator()(const TypedValue& tv) {
     case KindOfBoolean:
     case KindOfInt64:
     case KindOfDouble:
-    case KindOfStaticString:
+    case KindOfPersistentString:
     case KindOfPersistentArray:
     case KindOfClass: // only in eval stack
       return;
@@ -316,51 +318,47 @@ Marker::operator()(const void* start, size_t len) {
     h->hdr_.cmark = true;
     if (!mark(h)) continue; // skip if already marked.
     switch (h->kind()) {
-      case HK::Apc:
-      case HK::Globals:
-      case HK::Proxy:
-      case HK::Ref:
-      case HK::Resource:
-      case HK::Packed:
-      case HK::Struct:
-      case HK::Mixed:
-      case HK::Empty:
-      case HK::SmallMalloc:
-      case HK::BigMalloc:
+      case HeaderKind::Apc:
+      case HeaderKind::Globals:
+      case HeaderKind::Proxy:
+      case HeaderKind::Ref:
+      case HeaderKind::Resource:
+      case HeaderKind::Packed:
+      case HeaderKind::Struct:
+      case HeaderKind::Mixed:
+      case HeaderKind::Empty:
+      case HeaderKind::SmallMalloc:
+      case HeaderKind::BigMalloc:
         enqueue(h);
         break;
-      case HK::Object:
-      case HK::Vector:
-      case HK::Map:
-      case HK::Set:
-      case HK::Pair:
-      case HK::ImmVector:
-      case HK::ImmMap:
-      case HK::ImmSet:
+      case HeaderKind::Object:
+      case HeaderKind::Vector:
+      case HeaderKind::Map:
+      case HeaderKind::Set:
+      case HeaderKind::Pair:
+      case HeaderKind::ImmVector:
+      case HeaderKind::ImmMap:
+      case HeaderKind::ImmSet:
+      case HeaderKind::WaitHandle:
+      case HeaderKind::AwaitAllWH:
         // Object kinds. None of these should have native-data, because if they
         // do, the mapped header should be for the NativeData prefix.
-        assert(!h->obj_.getAttribute(ObjectData::HasNativeData) ||
-               h->kind() == HeaderKind::WaitHandle);
+        assert(!h->obj_.getAttribute(ObjectData::HasNativeData));
         enqueue(h);
         break;
-      case HK::WaitHandle:
-      case HK::AwaitAllWH:
-        // HNI objects w/o NativeData prefix
-        enqueue(h);
-        break;
-      case HK::ResumableFrame:
+      case HeaderKind::ResumableFrame:
         enqueue(h->resumableObj());
         break;
-      case HK::NativeData:
+      case HeaderKind::NativeData:
         enqueue(h->nativeObj());
         break;
-      case HK::String:
+      case HeaderKind::String:
         // nothing to queue since strings don't have pointers
         break;
-      case HK::ResumableObj:
-      case HK::BigObj:
-      case HK::Free:
-      case HK::Hole:
+      case HeaderKind::ResumableObj:
+      case HeaderKind::BigObj:
+      case HeaderKind::Free:
+      case HeaderKind::Hole:
         // None of these kinds should be encountered because they're either not
         // interesting to begin with, or are mapped to different headers, so we
         // shouldn't get these from the pointer map.
@@ -371,95 +369,66 @@ Marker::operator()(const void* start, size_t len) {
 }
 
 // initially parse the heap to find valid objects and initialize metadata.
-// Certain objects can have count==0
-// * StringData owned by StringBuffer
-// * ArrayData owned by ArrayInit
-// * Object ctors allocating memory in ctor (while count still==0).
 void Marker::init() {
   rds_ = folly::Range<const char*>((char*)rds::header(),
                                    RuntimeOption::EvalJitTargetCacheSize);
   MM().forEachHeader([&](Header* h) {
+    if (h->kind() == HeaderKind::Free) return;
     h->hdr_.mark = h->hdr_.cmark = false;
+    total_ += h->size();
     switch (h->kind()) {
-      case HK::Apc:
-      case HK::Globals:
-      case HK::Proxy:
-      case HK::Packed:
-      case HK::Mixed:
-      case HK::Struct:
-      case HK::Empty:
-      case HK::String:
-        assert(h->hdr_.count > 0);
-        ptrs_.insert(h);
-        total_ += h->size();
-        break;
-      case HK::Ref:
-        // EZC non-ref refdatas sometimes have count==0
-        assert(h->hdr_.count > 0 || !h->ref_.zIsRef());
-        ptrs_.insert(h);
-        total_ += h->size();
-        break;
-      case HK::Resource:
-        // ZendNormalResourceData objects sometimes never incref'd
-        // TODO: t5969922, t6545412 might be a real bug.
-        ptrs_.insert(h);
-        total_ += h->size();
-        break;
-      case HK::Object:
-      case HK::Vector:
-      case HK::Map:
-      case HK::Set:
-      case HK::Pair:
-      case HK::ImmVector:
-      case HK::ImmMap:
-      case HK::ImmSet:
-        // count==0 can be witnessed, see above
-        total_ += h->size();
-        if (!h->obj_.getAttribute(ObjectData::HasNativeData)) {
-          ptrs_.insert(h);
-        } else {
-          // Objects with native-data shouldn't be encountered on their own
-          // because they should be prefixed by a NativeData allocation.
-          assert(false && "object with native-data from forEachHeader()");
-        }
-        break;
-      case HK::AwaitAllWH:
-      case HK::WaitHandle:
-        // like Object with HasNativeData, but with cpp data off the end
-        // instead of the NativeData prefix.
-        total_ += h->size();
+      case HeaderKind::Apc:
+      case HeaderKind::Globals:
+      case HeaderKind::Proxy:
+      case HeaderKind::Packed:
+      case HeaderKind::Mixed:
+      case HeaderKind::Struct:
+      case HeaderKind::Empty:
+      case HeaderKind::String:
+      case HeaderKind::Ref:
+      case HeaderKind::Resource:
         ptrs_.insert(h);
         break;
-      case HK::ResumableFrame: {
-        // Pointers to either the frame or the object will be mapped to the
-        // frame.
-        total_ += h->size();
+      case HeaderKind::Object:
+      case HeaderKind::Vector:
+      case HeaderKind::Map:
+      case HeaderKind::Set:
+      case HeaderKind::Pair:
+      case HeaderKind::ImmVector:
+      case HeaderKind::ImmMap:
+      case HeaderKind::ImmSet:
+      case HeaderKind::AwaitAllWH:
+      case HeaderKind::WaitHandle:
+        assert(!h->obj_.getAttribute(ObjectData::HasNativeData) &&
+               "object with NativeData from forEachHeader");
+        ptrs_.insert(h);
+        break;
+      case HeaderKind::ResumableFrame: {
+        // Pointers to either the frame or object will be mapped to the frame.
         ptrs_.insert(h);
         auto obj = reinterpret_cast<const Header*>(h->resumableObj());
         obj->hdr_.mark = obj->hdr_.cmark = false;
         break;
       }
-      case HK::NativeData: {
+      case HeaderKind::NativeData: {
         // Pointers to either the native data or the object will be mapped to
         // the native data.
-        total_ += h->size();
         ptrs_.insert(h);
         auto obj = reinterpret_cast<const Header*>(h->nativeObj());
         obj->hdr_.mark = obj->hdr_.cmark = false;
         break;
       }
-      case HK::SmallMalloc:
-      case HK::BigMalloc:
-        total_ += h->size();
+      case HeaderKind::SmallMalloc:
+      case HeaderKind::BigMalloc:
         ptrs_.insert(h);
         break;
-      case HK::Free:
-        break;
-      case HK::ResumableObj:
-        // These shouldn't be encountered on their own, they should always be
-        // prefixed by a ResumableFrame allocation.
-      case HK::Hole:
-      case HK::BigObj:
+      case HeaderKind::ResumableObj:
+        // ResumableObj should not be encountered on their own, they should
+        // always be prefixed by a ResumableFrame allocation.
+      case HeaderKind::Free:
+      case HeaderKind::Hole:
+      case HeaderKind::BigObj:
+        // Hole and BigObj are skipped in ForEachHeader. Free is skipped above.
         assert(false && "skipped by forEachHeader()");
         break;
     }
@@ -480,48 +449,46 @@ void Marker::trace() {
 DEBUG_ONLY bool check_sweep_header(const Header* h) {
   assert(!h->hdr_.cmark || h->hdr_.mark); // cmark implies mark
   switch (h->kind()) {
-    case HK::Packed:
-    case HK::Struct:
-    case HK::Mixed:
-    case HK::Empty:
-    case HK::Apc:
-    case HK::Globals:
-    case HK::Proxy:
-    case HK::String:
-    case HK::Resource:
-    case HK::Ref:
+    case HeaderKind::Packed:
+    case HeaderKind::Struct:
+    case HeaderKind::Mixed:
+    case HeaderKind::Empty:
+    case HeaderKind::Apc:
+    case HeaderKind::Globals:
+    case HeaderKind::Proxy:
+    case HeaderKind::String:
+    case HeaderKind::Resource:
+    case HeaderKind::Ref:
       // ordinary counted objects
       break;
-    case HK::Object:
-    case HK::WaitHandle:
-    case HK::Vector:
-    case HK::Map:
-    case HK::Set:
-    case HK::Pair:
-    case HK::ImmVector:
-    case HK::ImmMap:
-    case HK::ImmSet:
-    case HK::AwaitAllWH:
+    case HeaderKind::Object:
+    case HeaderKind::Vector:
+    case HeaderKind::Map:
+    case HeaderKind::Set:
+    case HeaderKind::Pair:
+    case HeaderKind::ImmVector:
+    case HeaderKind::ImmMap:
+    case HeaderKind::ImmSet:
+    case HeaderKind::WaitHandle:
+    case HeaderKind::AwaitAllWH:
       // objects; should not have native-data
-      assert(!h->obj_.getAttribute(ObjectData::HasNativeData) ||
-             h->kind() == HeaderKind::WaitHandle ||
-             h->kind() == HeaderKind::AwaitAllWH);
+      assert(!h->obj_.getAttribute(ObjectData::HasNativeData));
       break;
-    case HK::ResumableFrame:
-    case HK::NativeData:
+    case HeaderKind::ResumableFrame:
+    case HeaderKind::NativeData:
       // not counted but marked when embedded object is marked
       break;
-    case HK::SmallMalloc:
-    case HK::BigMalloc:
+    case HeaderKind::SmallMalloc:
+    case HeaderKind::BigMalloc:
       // not counted but can be marked.
       break;
-    case HK::Free:
+    case HeaderKind::Free:
       // free memory; these should not be marked.
       assert(!h->hdr_.mark);
       break;
-    case HK::ResumableObj:
-    case HK::BigObj:
-    case HK::Hole:
+    case HeaderKind::ResumableObj:
+    case HeaderKind::BigObj:
+    case HeaderKind::Hole:
       // These should never be encountered because they don't represent
       // independent allocations.
       assert(false && "invalid header kind");
@@ -550,55 +517,60 @@ void Marker::sweep() {
     // then must initialize the FreeNode header on them, in order to continue
     // parsing. For now, defer freeing those kinds of objects to after parsing.
     switch (h->kind()) {
-      case HK::Packed:
-      case HK::Struct:
-      case HK::Mixed:
-      case HK::Empty:
-      case HK::Globals:
-      case HK::Proxy:
-      case HK::Resource:
-      case HK::Ref:
-      case HK::Object:
-      case HK::WaitHandle:
-      case HK::AwaitAllWH:
-      case HK::Vector:
-      case HK::Map:
-      case HK::Set:
-      case HK::Pair:
-      case HK::ImmVector:
-      case HK::ImmMap:
-      case HK::ImmSet:
-      case HK::ResumableFrame:
-      case HK::NativeData:
-      case HK::Apc:
-      case HK::String:
+      case HeaderKind::Packed:
+      case HeaderKind::Struct:
+      case HeaderKind::Mixed:
+      case HeaderKind::Empty:
+      case HeaderKind::Globals:
+      case HeaderKind::Proxy:
+      case HeaderKind::Resource:
+      case HeaderKind::Ref:
+      case HeaderKind::Object:
+      case HeaderKind::WaitHandle:
+      case HeaderKind::AwaitAllWH:
+      case HeaderKind::Vector:
+      case HeaderKind::Map:
+      case HeaderKind::Set:
+      case HeaderKind::Pair:
+      case HeaderKind::ImmVector:
+      case HeaderKind::ImmMap:
+      case HeaderKind::ImmSet:
+      case HeaderKind::ResumableFrame:
+      case HeaderKind::NativeData:
+      case HeaderKind::Apc:
+      case HeaderKind::String:
         freed += size;
         reaped.push_back(h);
         break;
-      case HK::SmallMalloc:
-      case HK::BigMalloc:
+      case HeaderKind::SmallMalloc:
+      case HeaderKind::BigMalloc:
         // Don't free malloc-ed allocations even if they're not reachable.
         break;
-      case HK::Free:
+      case HeaderKind::Free:
         break;
-      case HK::Hole:
-      case HK::BigObj:
-      case HK::ResumableObj:
+      case HeaderKind::Hole:
+      case HeaderKind::BigObj:
+      case HeaderKind::ResumableObj:
         assert(false && "skipped by forEachHeader()");
         break;
     }
   });
-  TRACE(1, "sweep tot %lu(%lu) mk %lu(%lu) amb %lu(%lu) free %lu(%lu)\n",
-        total_.count, total_.bytes,
-        marked.count, marked.bytes,
-        ambig.count, ambig.bytes,
-        freed.count, freed.bytes);
+  if (freed.count > 1) {
+    TRACE(1, "sweep tot %lu(%lu) mk %lu(%lu) amb %lu(%lu) free %lu(%lu)\n",
+          total_.count, total_.bytes,
+          marked.count, marked.bytes,
+          ambig.count, ambig.bytes,
+          freed.count, freed.bytes);
+  }
   // once we're done iterating the heap, it's safe to free unreachable objects.
+  const bool use_quarantine = debug && RuntimeOption::EvalEagerGC;
+  if (use_quarantine) mm.beginQuarantine();
+  SCOPE_EXIT { if (use_quarantine) mm.endQuarantine(); };
   for (auto h : reaped) {
-    if (h->kind() == HK::Apc) {
+    if (h->kind() == HeaderKind::Apc) {
       // frees localCache, delists, decref apc-array, free array
       h->apc_.reap();
-    } else if (h->kind() == HK::String) {
+    } else if (h->kind() == HeaderKind::String) {
       // decref apc shared str, free str
       h->str_.release(); // no destructor can run, so release() is safe.
     } else if (auto obj = h->obj()) {
@@ -611,19 +583,67 @@ void Marker::sweep() {
       mm.objFree(h, h->size());
     }
   }
-  if (RuntimeOption::EvalEagerGCProbability > 0) {
-    mm.quarantine();
-  }
-}
 }
 
-void MemoryManager::collect(const char* phase) {
-  if (!RuntimeOption::EvalEnableGC || empty()) return;
-  if (debug) checkHeap(phase);
+template<size_t NBITS> struct BloomFilter {
+  BloomFilter() : bits_{NBITS} {}
+  using T = const void*;
+  static size_t h1(size_t h) { return h % NBITS; }
+  static size_t h2(size_t h) { return (h / NBITS) % NBITS; }
+  void insert(T x) {
+    auto h = hash_int64(intptr_t(x));
+    bits_.set(h1(h)).set(h2(h));
+  }
+  bool test(T x) const {
+    auto h = hash_int64(intptr_t(x));
+    return bits_.test(h1(h)) & bits_.test(h2(h));
+  }
+  void clear() {
+    bits_.reset();
+    static_assert(NBITS < (1LL << 32), "");
+  }
+private:
+  boost::dynamic_bitset<> bits_;
+};
+
+thread_local bool t_eager_gc{false};
+thread_local BloomFilter<256*1024> t_surprise_filter;
+
+void collectImpl(const char* phase) {
+  VMRegAnchor _;
+  if (t_eager_gc && RuntimeOption::EvalFilterGCPoints) {
+    t_eager_gc = false;
+    auto pc = vmpc();
+    if (t_surprise_filter.test(pc)) return;
+    t_surprise_filter.insert(pc);
+    TRACE(2, "eager gc %s at %p\n", phase, pc);
+  } else {
+    TRACE(2, "normal gc %s at %p\n", phase, vmpc());
+  }
   Marker mkr;
   mkr.init();
   mkr.trace();
   mkr.sweep();
+}
+
+}
+
+void MemoryManager::resetEagerGC() {
+  if (RuntimeOption::EvalEagerGC && RuntimeOption::EvalFilterGCPoints) {
+    t_surprise_filter.clear();
+  }
+}
+
+void MemoryManager::checkEagerGC() {
+  if (RuntimeOption::EvalEagerGC && rds::header()) {
+    t_eager_gc = true;
+    setSurpriseFlag(PendingGCFlag);
+  }
+}
+
+void MemoryManager::collect(const char* phase) {
+  if (!RuntimeOption::EvalEnableGC || empty()) return;
+  collectImpl(phase);
 }
 
 }

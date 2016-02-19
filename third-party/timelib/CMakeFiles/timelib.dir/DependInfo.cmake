@@ -4,15 +4,15 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/tmp/hhvm-3.11.1/third-party/timelib/astro.c" "/tmp/hhvm-3.11.1/third-party/timelib/CMakeFiles/timelib.dir/astro.c.o"
-  "/tmp/hhvm-3.11.1/third-party/timelib/dow.c" "/tmp/hhvm-3.11.1/third-party/timelib/CMakeFiles/timelib.dir/dow.c.o"
-  "/tmp/hhvm-3.11.1/third-party/timelib/interval.c" "/tmp/hhvm-3.11.1/third-party/timelib/CMakeFiles/timelib.dir/interval.c.o"
-  "/tmp/hhvm-3.11.1/third-party/timelib/parse_date.c" "/tmp/hhvm-3.11.1/third-party/timelib/CMakeFiles/timelib.dir/parse_date.c.o"
-  "/tmp/hhvm-3.11.1/third-party/timelib/parse_iso_intervals.c" "/tmp/hhvm-3.11.1/third-party/timelib/CMakeFiles/timelib.dir/parse_iso_intervals.c.o"
-  "/tmp/hhvm-3.11.1/third-party/timelib/parse_tz.c" "/tmp/hhvm-3.11.1/third-party/timelib/CMakeFiles/timelib.dir/parse_tz.c.o"
-  "/tmp/hhvm-3.11.1/third-party/timelib/timelib.c" "/tmp/hhvm-3.11.1/third-party/timelib/CMakeFiles/timelib.dir/timelib.c.o"
-  "/tmp/hhvm-3.11.1/third-party/timelib/tm2unixtime.c" "/tmp/hhvm-3.11.1/third-party/timelib/CMakeFiles/timelib.dir/tm2unixtime.c.o"
-  "/tmp/hhvm-3.11.1/third-party/timelib/unixtime2tm.c" "/tmp/hhvm-3.11.1/third-party/timelib/CMakeFiles/timelib.dir/unixtime2tm.c.o"
+  "/tmp/hhvm-3.12.0/third-party/timelib/astro.c" "/tmp/hhvm-3.12.0/third-party/timelib/CMakeFiles/timelib.dir/astro.c.o"
+  "/tmp/hhvm-3.12.0/third-party/timelib/dow.c" "/tmp/hhvm-3.12.0/third-party/timelib/CMakeFiles/timelib.dir/dow.c.o"
+  "/tmp/hhvm-3.12.0/third-party/timelib/interval.c" "/tmp/hhvm-3.12.0/third-party/timelib/CMakeFiles/timelib.dir/interval.c.o"
+  "/tmp/hhvm-3.12.0/third-party/timelib/parse_date.c" "/tmp/hhvm-3.12.0/third-party/timelib/CMakeFiles/timelib.dir/parse_date.c.o"
+  "/tmp/hhvm-3.12.0/third-party/timelib/parse_iso_intervals.c" "/tmp/hhvm-3.12.0/third-party/timelib/CMakeFiles/timelib.dir/parse_iso_intervals.c.o"
+  "/tmp/hhvm-3.12.0/third-party/timelib/parse_tz.c" "/tmp/hhvm-3.12.0/third-party/timelib/CMakeFiles/timelib.dir/parse_tz.c.o"
+  "/tmp/hhvm-3.12.0/third-party/timelib/timelib.c" "/tmp/hhvm-3.12.0/third-party/timelib/CMakeFiles/timelib.dir/timelib.c.o"
+  "/tmp/hhvm-3.12.0/third-party/timelib/tm2unixtime.c" "/tmp/hhvm-3.12.0/third-party/timelib/CMakeFiles/timelib.dir/tm2unixtime.c.o"
+  "/tmp/hhvm-3.12.0/third-party/timelib/unixtime2tm.c" "/tmp/hhvm-3.12.0/third-party/timelib/CMakeFiles/timelib.dir/unixtime2tm.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 

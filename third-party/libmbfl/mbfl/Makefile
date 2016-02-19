@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.0
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles /tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/CMakeFiles/progress.marks
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/libmbfl/mbfl/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles 0
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.0/CMakeFiles /tmp/hhvm-3.12.0/third-party/libmbfl/mbfl/CMakeFiles/progress.marks
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/libmbfl/mbfl/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.0/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/libmbfl/mbfl/clean
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/libmbfl/mbfl/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/libmbfl/mbfl/preinstall
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/libmbfl/mbfl/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/libmbfl/mbfl/preinstall
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/libmbfl/mbfl/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 third-party/libmbfl/mbfl/CMakeFiles/eaw_table.dir/rule:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/libmbfl/mbfl/CMakeFiles/eaw_table.dir/rule
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/libmbfl/mbfl/CMakeFiles/eaw_table.dir/rule
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/eaw_table.dir/rule
 
 # Convenience name for target.
@@ -153,12 +153,12 @@ eaw_table: third-party/libmbfl/mbfl/CMakeFiles/eaw_table.dir/rule
 
 # fast build rule for target.
 eaw_table/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/eaw_table.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/eaw_table.dir/build
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/eaw_table.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/eaw_table.dir/build
 .PHONY : eaw_table/fast
 
 # Convenience name for target.
 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/rule:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/rule
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/rule
 .PHONY : third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/rule
 
 # Convenience name for target.
@@ -167,7 +167,7 @@ mbfl: third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/rule
 
 # fast build rule for target.
 mbfl/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build
 .PHONY : mbfl/fast
 
 __/filters/html_entities.o: __/filters/html_entities.c.o
@@ -175,7 +175,7 @@ __/filters/html_entities.o: __/filters/html_entities.c.o
 
 # target to build an object file
 __/filters/html_entities.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/html_entities.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/html_entities.c.o
 .PHONY : __/filters/html_entities.c.o
 
 __/filters/html_entities.i: __/filters/html_entities.c.i
@@ -183,7 +183,7 @@ __/filters/html_entities.i: __/filters/html_entities.c.i
 
 # target to preprocess a source file
 __/filters/html_entities.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/html_entities.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/html_entities.c.i
 .PHONY : __/filters/html_entities.c.i
 
 __/filters/html_entities.s: __/filters/html_entities.c.s
@@ -191,7 +191,7 @@ __/filters/html_entities.s: __/filters/html_entities.c.s
 
 # target to generate assembly for a file
 __/filters/html_entities.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/html_entities.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/html_entities.c.s
 .PHONY : __/filters/html_entities.c.s
 
 __/filters/mbfilter_7bit.o: __/filters/mbfilter_7bit.c.o
@@ -199,7 +199,7 @@ __/filters/mbfilter_7bit.o: __/filters/mbfilter_7bit.c.o
 
 # target to build an object file
 __/filters/mbfilter_7bit.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_7bit.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_7bit.c.o
 .PHONY : __/filters/mbfilter_7bit.c.o
 
 __/filters/mbfilter_7bit.i: __/filters/mbfilter_7bit.c.i
@@ -207,7 +207,7 @@ __/filters/mbfilter_7bit.i: __/filters/mbfilter_7bit.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_7bit.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_7bit.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_7bit.c.i
 .PHONY : __/filters/mbfilter_7bit.c.i
 
 __/filters/mbfilter_7bit.s: __/filters/mbfilter_7bit.c.s
@@ -215,7 +215,7 @@ __/filters/mbfilter_7bit.s: __/filters/mbfilter_7bit.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_7bit.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_7bit.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_7bit.c.s
 .PHONY : __/filters/mbfilter_7bit.c.s
 
 __/filters/mbfilter_armscii8.o: __/filters/mbfilter_armscii8.c.o
@@ -223,7 +223,7 @@ __/filters/mbfilter_armscii8.o: __/filters/mbfilter_armscii8.c.o
 
 # target to build an object file
 __/filters/mbfilter_armscii8.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_armscii8.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_armscii8.c.o
 .PHONY : __/filters/mbfilter_armscii8.c.o
 
 __/filters/mbfilter_armscii8.i: __/filters/mbfilter_armscii8.c.i
@@ -231,7 +231,7 @@ __/filters/mbfilter_armscii8.i: __/filters/mbfilter_armscii8.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_armscii8.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_armscii8.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_armscii8.c.i
 .PHONY : __/filters/mbfilter_armscii8.c.i
 
 __/filters/mbfilter_armscii8.s: __/filters/mbfilter_armscii8.c.s
@@ -239,7 +239,7 @@ __/filters/mbfilter_armscii8.s: __/filters/mbfilter_armscii8.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_armscii8.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_armscii8.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_armscii8.c.s
 .PHONY : __/filters/mbfilter_armscii8.c.s
 
 __/filters/mbfilter_ascii.o: __/filters/mbfilter_ascii.c.o
@@ -247,7 +247,7 @@ __/filters/mbfilter_ascii.o: __/filters/mbfilter_ascii.c.o
 
 # target to build an object file
 __/filters/mbfilter_ascii.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ascii.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ascii.c.o
 .PHONY : __/filters/mbfilter_ascii.c.o
 
 __/filters/mbfilter_ascii.i: __/filters/mbfilter_ascii.c.i
@@ -255,7 +255,7 @@ __/filters/mbfilter_ascii.i: __/filters/mbfilter_ascii.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_ascii.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ascii.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ascii.c.i
 .PHONY : __/filters/mbfilter_ascii.c.i
 
 __/filters/mbfilter_ascii.s: __/filters/mbfilter_ascii.c.s
@@ -263,7 +263,7 @@ __/filters/mbfilter_ascii.s: __/filters/mbfilter_ascii.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_ascii.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ascii.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ascii.c.s
 .PHONY : __/filters/mbfilter_ascii.c.s
 
 __/filters/mbfilter_base64.o: __/filters/mbfilter_base64.c.o
@@ -271,7 +271,7 @@ __/filters/mbfilter_base64.o: __/filters/mbfilter_base64.c.o
 
 # target to build an object file
 __/filters/mbfilter_base64.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_base64.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_base64.c.o
 .PHONY : __/filters/mbfilter_base64.c.o
 
 __/filters/mbfilter_base64.i: __/filters/mbfilter_base64.c.i
@@ -279,7 +279,7 @@ __/filters/mbfilter_base64.i: __/filters/mbfilter_base64.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_base64.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_base64.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_base64.c.i
 .PHONY : __/filters/mbfilter_base64.c.i
 
 __/filters/mbfilter_base64.s: __/filters/mbfilter_base64.c.s
@@ -287,7 +287,7 @@ __/filters/mbfilter_base64.s: __/filters/mbfilter_base64.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_base64.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_base64.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_base64.c.s
 .PHONY : __/filters/mbfilter_base64.c.s
 
 __/filters/mbfilter_big5.o: __/filters/mbfilter_big5.c.o
@@ -295,7 +295,7 @@ __/filters/mbfilter_big5.o: __/filters/mbfilter_big5.c.o
 
 # target to build an object file
 __/filters/mbfilter_big5.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_big5.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_big5.c.o
 .PHONY : __/filters/mbfilter_big5.c.o
 
 __/filters/mbfilter_big5.i: __/filters/mbfilter_big5.c.i
@@ -303,7 +303,7 @@ __/filters/mbfilter_big5.i: __/filters/mbfilter_big5.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_big5.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_big5.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_big5.c.i
 .PHONY : __/filters/mbfilter_big5.c.i
 
 __/filters/mbfilter_big5.s: __/filters/mbfilter_big5.c.s
@@ -311,7 +311,7 @@ __/filters/mbfilter_big5.s: __/filters/mbfilter_big5.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_big5.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_big5.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_big5.c.s
 .PHONY : __/filters/mbfilter_big5.c.s
 
 __/filters/mbfilter_byte2.o: __/filters/mbfilter_byte2.c.o
@@ -319,7 +319,7 @@ __/filters/mbfilter_byte2.o: __/filters/mbfilter_byte2.c.o
 
 # target to build an object file
 __/filters/mbfilter_byte2.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte2.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte2.c.o
 .PHONY : __/filters/mbfilter_byte2.c.o
 
 __/filters/mbfilter_byte2.i: __/filters/mbfilter_byte2.c.i
@@ -327,7 +327,7 @@ __/filters/mbfilter_byte2.i: __/filters/mbfilter_byte2.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_byte2.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte2.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte2.c.i
 .PHONY : __/filters/mbfilter_byte2.c.i
 
 __/filters/mbfilter_byte2.s: __/filters/mbfilter_byte2.c.s
@@ -335,7 +335,7 @@ __/filters/mbfilter_byte2.s: __/filters/mbfilter_byte2.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_byte2.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte2.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte2.c.s
 .PHONY : __/filters/mbfilter_byte2.c.s
 
 __/filters/mbfilter_byte4.o: __/filters/mbfilter_byte4.c.o
@@ -343,7 +343,7 @@ __/filters/mbfilter_byte4.o: __/filters/mbfilter_byte4.c.o
 
 # target to build an object file
 __/filters/mbfilter_byte4.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte4.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte4.c.o
 .PHONY : __/filters/mbfilter_byte4.c.o
 
 __/filters/mbfilter_byte4.i: __/filters/mbfilter_byte4.c.i
@@ -351,7 +351,7 @@ __/filters/mbfilter_byte4.i: __/filters/mbfilter_byte4.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_byte4.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte4.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte4.c.i
 .PHONY : __/filters/mbfilter_byte4.c.i
 
 __/filters/mbfilter_byte4.s: __/filters/mbfilter_byte4.c.s
@@ -359,7 +359,7 @@ __/filters/mbfilter_byte4.s: __/filters/mbfilter_byte4.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_byte4.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte4.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_byte4.c.s
 .PHONY : __/filters/mbfilter_byte4.c.s
 
 __/filters/mbfilter_cp1251.o: __/filters/mbfilter_cp1251.c.o
@@ -367,7 +367,7 @@ __/filters/mbfilter_cp1251.o: __/filters/mbfilter_cp1251.c.o
 
 # target to build an object file
 __/filters/mbfilter_cp1251.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1251.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1251.c.o
 .PHONY : __/filters/mbfilter_cp1251.c.o
 
 __/filters/mbfilter_cp1251.i: __/filters/mbfilter_cp1251.c.i
@@ -375,7 +375,7 @@ __/filters/mbfilter_cp1251.i: __/filters/mbfilter_cp1251.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_cp1251.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1251.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1251.c.i
 .PHONY : __/filters/mbfilter_cp1251.c.i
 
 __/filters/mbfilter_cp1251.s: __/filters/mbfilter_cp1251.c.s
@@ -383,7 +383,7 @@ __/filters/mbfilter_cp1251.s: __/filters/mbfilter_cp1251.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_cp1251.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1251.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1251.c.s
 .PHONY : __/filters/mbfilter_cp1251.c.s
 
 __/filters/mbfilter_cp1252.o: __/filters/mbfilter_cp1252.c.o
@@ -391,7 +391,7 @@ __/filters/mbfilter_cp1252.o: __/filters/mbfilter_cp1252.c.o
 
 # target to build an object file
 __/filters/mbfilter_cp1252.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1252.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1252.c.o
 .PHONY : __/filters/mbfilter_cp1252.c.o
 
 __/filters/mbfilter_cp1252.i: __/filters/mbfilter_cp1252.c.i
@@ -399,7 +399,7 @@ __/filters/mbfilter_cp1252.i: __/filters/mbfilter_cp1252.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_cp1252.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1252.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1252.c.i
 .PHONY : __/filters/mbfilter_cp1252.c.i
 
 __/filters/mbfilter_cp1252.s: __/filters/mbfilter_cp1252.c.s
@@ -407,7 +407,7 @@ __/filters/mbfilter_cp1252.s: __/filters/mbfilter_cp1252.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_cp1252.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1252.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1252.c.s
 .PHONY : __/filters/mbfilter_cp1252.c.s
 
 __/filters/mbfilter_cp1254.o: __/filters/mbfilter_cp1254.c.o
@@ -415,7 +415,7 @@ __/filters/mbfilter_cp1254.o: __/filters/mbfilter_cp1254.c.o
 
 # target to build an object file
 __/filters/mbfilter_cp1254.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1254.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1254.c.o
 .PHONY : __/filters/mbfilter_cp1254.c.o
 
 __/filters/mbfilter_cp1254.i: __/filters/mbfilter_cp1254.c.i
@@ -423,7 +423,7 @@ __/filters/mbfilter_cp1254.i: __/filters/mbfilter_cp1254.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_cp1254.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1254.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1254.c.i
 .PHONY : __/filters/mbfilter_cp1254.c.i
 
 __/filters/mbfilter_cp1254.s: __/filters/mbfilter_cp1254.c.s
@@ -431,7 +431,7 @@ __/filters/mbfilter_cp1254.s: __/filters/mbfilter_cp1254.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_cp1254.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1254.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp1254.c.s
 .PHONY : __/filters/mbfilter_cp1254.c.s
 
 __/filters/mbfilter_cp5022x.o: __/filters/mbfilter_cp5022x.c.o
@@ -439,7 +439,7 @@ __/filters/mbfilter_cp5022x.o: __/filters/mbfilter_cp5022x.c.o
 
 # target to build an object file
 __/filters/mbfilter_cp5022x.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp5022x.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp5022x.c.o
 .PHONY : __/filters/mbfilter_cp5022x.c.o
 
 __/filters/mbfilter_cp5022x.i: __/filters/mbfilter_cp5022x.c.i
@@ -447,7 +447,7 @@ __/filters/mbfilter_cp5022x.i: __/filters/mbfilter_cp5022x.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_cp5022x.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp5022x.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp5022x.c.i
 .PHONY : __/filters/mbfilter_cp5022x.c.i
 
 __/filters/mbfilter_cp5022x.s: __/filters/mbfilter_cp5022x.c.s
@@ -455,7 +455,7 @@ __/filters/mbfilter_cp5022x.s: __/filters/mbfilter_cp5022x.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_cp5022x.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp5022x.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp5022x.c.s
 .PHONY : __/filters/mbfilter_cp5022x.c.s
 
 __/filters/mbfilter_cp51932.o: __/filters/mbfilter_cp51932.c.o
@@ -463,7 +463,7 @@ __/filters/mbfilter_cp51932.o: __/filters/mbfilter_cp51932.c.o
 
 # target to build an object file
 __/filters/mbfilter_cp51932.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp51932.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp51932.c.o
 .PHONY : __/filters/mbfilter_cp51932.c.o
 
 __/filters/mbfilter_cp51932.i: __/filters/mbfilter_cp51932.c.i
@@ -471,7 +471,7 @@ __/filters/mbfilter_cp51932.i: __/filters/mbfilter_cp51932.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_cp51932.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp51932.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp51932.c.i
 .PHONY : __/filters/mbfilter_cp51932.c.i
 
 __/filters/mbfilter_cp51932.s: __/filters/mbfilter_cp51932.c.s
@@ -479,7 +479,7 @@ __/filters/mbfilter_cp51932.s: __/filters/mbfilter_cp51932.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_cp51932.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp51932.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp51932.c.s
 .PHONY : __/filters/mbfilter_cp51932.c.s
 
 __/filters/mbfilter_cp850.o: __/filters/mbfilter_cp850.c.o
@@ -487,7 +487,7 @@ __/filters/mbfilter_cp850.o: __/filters/mbfilter_cp850.c.o
 
 # target to build an object file
 __/filters/mbfilter_cp850.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp850.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp850.c.o
 .PHONY : __/filters/mbfilter_cp850.c.o
 
 __/filters/mbfilter_cp850.i: __/filters/mbfilter_cp850.c.i
@@ -495,7 +495,7 @@ __/filters/mbfilter_cp850.i: __/filters/mbfilter_cp850.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_cp850.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp850.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp850.c.i
 .PHONY : __/filters/mbfilter_cp850.c.i
 
 __/filters/mbfilter_cp850.s: __/filters/mbfilter_cp850.c.s
@@ -503,7 +503,7 @@ __/filters/mbfilter_cp850.s: __/filters/mbfilter_cp850.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_cp850.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp850.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp850.c.s
 .PHONY : __/filters/mbfilter_cp850.c.s
 
 __/filters/mbfilter_cp866.o: __/filters/mbfilter_cp866.c.o
@@ -511,7 +511,7 @@ __/filters/mbfilter_cp866.o: __/filters/mbfilter_cp866.c.o
 
 # target to build an object file
 __/filters/mbfilter_cp866.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp866.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp866.c.o
 .PHONY : __/filters/mbfilter_cp866.c.o
 
 __/filters/mbfilter_cp866.i: __/filters/mbfilter_cp866.c.i
@@ -519,7 +519,7 @@ __/filters/mbfilter_cp866.i: __/filters/mbfilter_cp866.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_cp866.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp866.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp866.c.i
 .PHONY : __/filters/mbfilter_cp866.c.i
 
 __/filters/mbfilter_cp866.s: __/filters/mbfilter_cp866.c.s
@@ -527,7 +527,7 @@ __/filters/mbfilter_cp866.s: __/filters/mbfilter_cp866.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_cp866.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp866.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp866.c.s
 .PHONY : __/filters/mbfilter_cp866.c.s
 
 __/filters/mbfilter_cp932.o: __/filters/mbfilter_cp932.c.o
@@ -535,7 +535,7 @@ __/filters/mbfilter_cp932.o: __/filters/mbfilter_cp932.c.o
 
 # target to build an object file
 __/filters/mbfilter_cp932.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp932.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp932.c.o
 .PHONY : __/filters/mbfilter_cp932.c.o
 
 __/filters/mbfilter_cp932.i: __/filters/mbfilter_cp932.c.i
@@ -543,7 +543,7 @@ __/filters/mbfilter_cp932.i: __/filters/mbfilter_cp932.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_cp932.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp932.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp932.c.i
 .PHONY : __/filters/mbfilter_cp932.c.i
 
 __/filters/mbfilter_cp932.s: __/filters/mbfilter_cp932.c.s
@@ -551,7 +551,7 @@ __/filters/mbfilter_cp932.s: __/filters/mbfilter_cp932.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_cp932.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp932.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp932.c.s
 .PHONY : __/filters/mbfilter_cp932.c.s
 
 __/filters/mbfilter_cp936.o: __/filters/mbfilter_cp936.c.o
@@ -559,7 +559,7 @@ __/filters/mbfilter_cp936.o: __/filters/mbfilter_cp936.c.o
 
 # target to build an object file
 __/filters/mbfilter_cp936.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp936.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp936.c.o
 .PHONY : __/filters/mbfilter_cp936.c.o
 
 __/filters/mbfilter_cp936.i: __/filters/mbfilter_cp936.c.i
@@ -567,7 +567,7 @@ __/filters/mbfilter_cp936.i: __/filters/mbfilter_cp936.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_cp936.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp936.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp936.c.i
 .PHONY : __/filters/mbfilter_cp936.c.i
 
 __/filters/mbfilter_cp936.s: __/filters/mbfilter_cp936.c.s
@@ -575,7 +575,7 @@ __/filters/mbfilter_cp936.s: __/filters/mbfilter_cp936.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_cp936.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp936.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_cp936.c.s
 .PHONY : __/filters/mbfilter_cp936.c.s
 
 __/filters/mbfilter_euc_cn.o: __/filters/mbfilter_euc_cn.c.o
@@ -583,7 +583,7 @@ __/filters/mbfilter_euc_cn.o: __/filters/mbfilter_euc_cn.c.o
 
 # target to build an object file
 __/filters/mbfilter_euc_cn.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_cn.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_cn.c.o
 .PHONY : __/filters/mbfilter_euc_cn.c.o
 
 __/filters/mbfilter_euc_cn.i: __/filters/mbfilter_euc_cn.c.i
@@ -591,7 +591,7 @@ __/filters/mbfilter_euc_cn.i: __/filters/mbfilter_euc_cn.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_euc_cn.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_cn.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_cn.c.i
 .PHONY : __/filters/mbfilter_euc_cn.c.i
 
 __/filters/mbfilter_euc_cn.s: __/filters/mbfilter_euc_cn.c.s
@@ -599,7 +599,7 @@ __/filters/mbfilter_euc_cn.s: __/filters/mbfilter_euc_cn.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_euc_cn.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_cn.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_cn.c.s
 .PHONY : __/filters/mbfilter_euc_cn.c.s
 
 __/filters/mbfilter_euc_jp.o: __/filters/mbfilter_euc_jp.c.o
@@ -607,7 +607,7 @@ __/filters/mbfilter_euc_jp.o: __/filters/mbfilter_euc_jp.c.o
 
 # target to build an object file
 __/filters/mbfilter_euc_jp.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp.c.o
 .PHONY : __/filters/mbfilter_euc_jp.c.o
 
 __/filters/mbfilter_euc_jp.i: __/filters/mbfilter_euc_jp.c.i
@@ -615,7 +615,7 @@ __/filters/mbfilter_euc_jp.i: __/filters/mbfilter_euc_jp.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_euc_jp.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp.c.i
 .PHONY : __/filters/mbfilter_euc_jp.c.i
 
 __/filters/mbfilter_euc_jp.s: __/filters/mbfilter_euc_jp.c.s
@@ -623,7 +623,7 @@ __/filters/mbfilter_euc_jp.s: __/filters/mbfilter_euc_jp.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_euc_jp.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp.c.s
 .PHONY : __/filters/mbfilter_euc_jp.c.s
 
 __/filters/mbfilter_euc_jp_2004.o: __/filters/mbfilter_euc_jp_2004.c.o
@@ -631,7 +631,7 @@ __/filters/mbfilter_euc_jp_2004.o: __/filters/mbfilter_euc_jp_2004.c.o
 
 # target to build an object file
 __/filters/mbfilter_euc_jp_2004.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_2004.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_2004.c.o
 .PHONY : __/filters/mbfilter_euc_jp_2004.c.o
 
 __/filters/mbfilter_euc_jp_2004.i: __/filters/mbfilter_euc_jp_2004.c.i
@@ -639,7 +639,7 @@ __/filters/mbfilter_euc_jp_2004.i: __/filters/mbfilter_euc_jp_2004.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_euc_jp_2004.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_2004.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_2004.c.i
 .PHONY : __/filters/mbfilter_euc_jp_2004.c.i
 
 __/filters/mbfilter_euc_jp_2004.s: __/filters/mbfilter_euc_jp_2004.c.s
@@ -647,7 +647,7 @@ __/filters/mbfilter_euc_jp_2004.s: __/filters/mbfilter_euc_jp_2004.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_euc_jp_2004.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_2004.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_2004.c.s
 .PHONY : __/filters/mbfilter_euc_jp_2004.c.s
 
 __/filters/mbfilter_euc_jp_win.o: __/filters/mbfilter_euc_jp_win.c.o
@@ -655,7 +655,7 @@ __/filters/mbfilter_euc_jp_win.o: __/filters/mbfilter_euc_jp_win.c.o
 
 # target to build an object file
 __/filters/mbfilter_euc_jp_win.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_win.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_win.c.o
 .PHONY : __/filters/mbfilter_euc_jp_win.c.o
 
 __/filters/mbfilter_euc_jp_win.i: __/filters/mbfilter_euc_jp_win.c.i
@@ -663,7 +663,7 @@ __/filters/mbfilter_euc_jp_win.i: __/filters/mbfilter_euc_jp_win.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_euc_jp_win.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_win.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_win.c.i
 .PHONY : __/filters/mbfilter_euc_jp_win.c.i
 
 __/filters/mbfilter_euc_jp_win.s: __/filters/mbfilter_euc_jp_win.c.s
@@ -671,7 +671,7 @@ __/filters/mbfilter_euc_jp_win.s: __/filters/mbfilter_euc_jp_win.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_euc_jp_win.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_win.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_jp_win.c.s
 .PHONY : __/filters/mbfilter_euc_jp_win.c.s
 
 __/filters/mbfilter_euc_kr.o: __/filters/mbfilter_euc_kr.c.o
@@ -679,7 +679,7 @@ __/filters/mbfilter_euc_kr.o: __/filters/mbfilter_euc_kr.c.o
 
 # target to build an object file
 __/filters/mbfilter_euc_kr.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_kr.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_kr.c.o
 .PHONY : __/filters/mbfilter_euc_kr.c.o
 
 __/filters/mbfilter_euc_kr.i: __/filters/mbfilter_euc_kr.c.i
@@ -687,7 +687,7 @@ __/filters/mbfilter_euc_kr.i: __/filters/mbfilter_euc_kr.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_euc_kr.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_kr.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_kr.c.i
 .PHONY : __/filters/mbfilter_euc_kr.c.i
 
 __/filters/mbfilter_euc_kr.s: __/filters/mbfilter_euc_kr.c.s
@@ -695,7 +695,7 @@ __/filters/mbfilter_euc_kr.s: __/filters/mbfilter_euc_kr.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_euc_kr.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_kr.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_kr.c.s
 .PHONY : __/filters/mbfilter_euc_kr.c.s
 
 __/filters/mbfilter_euc_tw.o: __/filters/mbfilter_euc_tw.c.o
@@ -703,7 +703,7 @@ __/filters/mbfilter_euc_tw.o: __/filters/mbfilter_euc_tw.c.o
 
 # target to build an object file
 __/filters/mbfilter_euc_tw.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_tw.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_tw.c.o
 .PHONY : __/filters/mbfilter_euc_tw.c.o
 
 __/filters/mbfilter_euc_tw.i: __/filters/mbfilter_euc_tw.c.i
@@ -711,7 +711,7 @@ __/filters/mbfilter_euc_tw.i: __/filters/mbfilter_euc_tw.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_euc_tw.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_tw.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_tw.c.i
 .PHONY : __/filters/mbfilter_euc_tw.c.i
 
 __/filters/mbfilter_euc_tw.s: __/filters/mbfilter_euc_tw.c.s
@@ -719,7 +719,7 @@ __/filters/mbfilter_euc_tw.s: __/filters/mbfilter_euc_tw.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_euc_tw.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_tw.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_euc_tw.c.s
 .PHONY : __/filters/mbfilter_euc_tw.c.s
 
 __/filters/mbfilter_gb18030.o: __/filters/mbfilter_gb18030.c.o
@@ -727,7 +727,7 @@ __/filters/mbfilter_gb18030.o: __/filters/mbfilter_gb18030.c.o
 
 # target to build an object file
 __/filters/mbfilter_gb18030.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_gb18030.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_gb18030.c.o
 .PHONY : __/filters/mbfilter_gb18030.c.o
 
 __/filters/mbfilter_gb18030.i: __/filters/mbfilter_gb18030.c.i
@@ -735,7 +735,7 @@ __/filters/mbfilter_gb18030.i: __/filters/mbfilter_gb18030.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_gb18030.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_gb18030.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_gb18030.c.i
 .PHONY : __/filters/mbfilter_gb18030.c.i
 
 __/filters/mbfilter_gb18030.s: __/filters/mbfilter_gb18030.c.s
@@ -743,7 +743,7 @@ __/filters/mbfilter_gb18030.s: __/filters/mbfilter_gb18030.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_gb18030.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_gb18030.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_gb18030.c.s
 .PHONY : __/filters/mbfilter_gb18030.c.s
 
 __/filters/mbfilter_htmlent.o: __/filters/mbfilter_htmlent.c.o
@@ -751,7 +751,7 @@ __/filters/mbfilter_htmlent.o: __/filters/mbfilter_htmlent.c.o
 
 # target to build an object file
 __/filters/mbfilter_htmlent.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_htmlent.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_htmlent.c.o
 .PHONY : __/filters/mbfilter_htmlent.c.o
 
 __/filters/mbfilter_htmlent.i: __/filters/mbfilter_htmlent.c.i
@@ -759,7 +759,7 @@ __/filters/mbfilter_htmlent.i: __/filters/mbfilter_htmlent.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_htmlent.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_htmlent.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_htmlent.c.i
 .PHONY : __/filters/mbfilter_htmlent.c.i
 
 __/filters/mbfilter_htmlent.s: __/filters/mbfilter_htmlent.c.s
@@ -767,7 +767,7 @@ __/filters/mbfilter_htmlent.s: __/filters/mbfilter_htmlent.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_htmlent.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_htmlent.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_htmlent.c.s
 .PHONY : __/filters/mbfilter_htmlent.c.s
 
 __/filters/mbfilter_hz.o: __/filters/mbfilter_hz.c.o
@@ -775,7 +775,7 @@ __/filters/mbfilter_hz.o: __/filters/mbfilter_hz.c.o
 
 # target to build an object file
 __/filters/mbfilter_hz.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_hz.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_hz.c.o
 .PHONY : __/filters/mbfilter_hz.c.o
 
 __/filters/mbfilter_hz.i: __/filters/mbfilter_hz.c.i
@@ -783,7 +783,7 @@ __/filters/mbfilter_hz.i: __/filters/mbfilter_hz.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_hz.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_hz.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_hz.c.i
 .PHONY : __/filters/mbfilter_hz.c.i
 
 __/filters/mbfilter_hz.s: __/filters/mbfilter_hz.c.s
@@ -791,7 +791,7 @@ __/filters/mbfilter_hz.s: __/filters/mbfilter_hz.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_hz.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_hz.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_hz.c.s
 .PHONY : __/filters/mbfilter_hz.c.s
 
 __/filters/mbfilter_iso2022_jp_ms.o: __/filters/mbfilter_iso2022_jp_ms.c.o
@@ -799,7 +799,7 @@ __/filters/mbfilter_iso2022_jp_ms.o: __/filters/mbfilter_iso2022_jp_ms.c.o
 
 # target to build an object file
 __/filters/mbfilter_iso2022_jp_ms.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_jp_ms.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_jp_ms.c.o
 .PHONY : __/filters/mbfilter_iso2022_jp_ms.c.o
 
 __/filters/mbfilter_iso2022_jp_ms.i: __/filters/mbfilter_iso2022_jp_ms.c.i
@@ -807,7 +807,7 @@ __/filters/mbfilter_iso2022_jp_ms.i: __/filters/mbfilter_iso2022_jp_ms.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_iso2022_jp_ms.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_jp_ms.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_jp_ms.c.i
 .PHONY : __/filters/mbfilter_iso2022_jp_ms.c.i
 
 __/filters/mbfilter_iso2022_jp_ms.s: __/filters/mbfilter_iso2022_jp_ms.c.s
@@ -815,7 +815,7 @@ __/filters/mbfilter_iso2022_jp_ms.s: __/filters/mbfilter_iso2022_jp_ms.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_iso2022_jp_ms.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_jp_ms.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_jp_ms.c.s
 .PHONY : __/filters/mbfilter_iso2022_jp_ms.c.s
 
 __/filters/mbfilter_iso2022_kr.o: __/filters/mbfilter_iso2022_kr.c.o
@@ -823,7 +823,7 @@ __/filters/mbfilter_iso2022_kr.o: __/filters/mbfilter_iso2022_kr.c.o
 
 # target to build an object file
 __/filters/mbfilter_iso2022_kr.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_kr.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_kr.c.o
 .PHONY : __/filters/mbfilter_iso2022_kr.c.o
 
 __/filters/mbfilter_iso2022_kr.i: __/filters/mbfilter_iso2022_kr.c.i
@@ -831,7 +831,7 @@ __/filters/mbfilter_iso2022_kr.i: __/filters/mbfilter_iso2022_kr.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_iso2022_kr.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_kr.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_kr.c.i
 .PHONY : __/filters/mbfilter_iso2022_kr.c.i
 
 __/filters/mbfilter_iso2022_kr.s: __/filters/mbfilter_iso2022_kr.c.s
@@ -839,7 +839,7 @@ __/filters/mbfilter_iso2022_kr.s: __/filters/mbfilter_iso2022_kr.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_iso2022_kr.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_kr.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022_kr.c.s
 .PHONY : __/filters/mbfilter_iso2022_kr.c.s
 
 __/filters/mbfilter_iso2022jp_2004.o: __/filters/mbfilter_iso2022jp_2004.c.o
@@ -847,7 +847,7 @@ __/filters/mbfilter_iso2022jp_2004.o: __/filters/mbfilter_iso2022jp_2004.c.o
 
 # target to build an object file
 __/filters/mbfilter_iso2022jp_2004.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_2004.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_2004.c.o
 .PHONY : __/filters/mbfilter_iso2022jp_2004.c.o
 
 __/filters/mbfilter_iso2022jp_2004.i: __/filters/mbfilter_iso2022jp_2004.c.i
@@ -855,7 +855,7 @@ __/filters/mbfilter_iso2022jp_2004.i: __/filters/mbfilter_iso2022jp_2004.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_iso2022jp_2004.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_2004.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_2004.c.i
 .PHONY : __/filters/mbfilter_iso2022jp_2004.c.i
 
 __/filters/mbfilter_iso2022jp_2004.s: __/filters/mbfilter_iso2022jp_2004.c.s
@@ -863,7 +863,7 @@ __/filters/mbfilter_iso2022jp_2004.s: __/filters/mbfilter_iso2022jp_2004.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_iso2022jp_2004.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_2004.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_2004.c.s
 .PHONY : __/filters/mbfilter_iso2022jp_2004.c.s
 
 __/filters/mbfilter_iso2022jp_mobile.o: __/filters/mbfilter_iso2022jp_mobile.c.o
@@ -871,7 +871,7 @@ __/filters/mbfilter_iso2022jp_mobile.o: __/filters/mbfilter_iso2022jp_mobile.c.o
 
 # target to build an object file
 __/filters/mbfilter_iso2022jp_mobile.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_mobile.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_mobile.c.o
 .PHONY : __/filters/mbfilter_iso2022jp_mobile.c.o
 
 __/filters/mbfilter_iso2022jp_mobile.i: __/filters/mbfilter_iso2022jp_mobile.c.i
@@ -879,7 +879,7 @@ __/filters/mbfilter_iso2022jp_mobile.i: __/filters/mbfilter_iso2022jp_mobile.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_iso2022jp_mobile.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_mobile.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_mobile.c.i
 .PHONY : __/filters/mbfilter_iso2022jp_mobile.c.i
 
 __/filters/mbfilter_iso2022jp_mobile.s: __/filters/mbfilter_iso2022jp_mobile.c.s
@@ -887,7 +887,7 @@ __/filters/mbfilter_iso2022jp_mobile.s: __/filters/mbfilter_iso2022jp_mobile.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_iso2022jp_mobile.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_mobile.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso2022jp_mobile.c.s
 .PHONY : __/filters/mbfilter_iso2022jp_mobile.c.s
 
 __/filters/mbfilter_iso8859_1.o: __/filters/mbfilter_iso8859_1.c.o
@@ -895,7 +895,7 @@ __/filters/mbfilter_iso8859_1.o: __/filters/mbfilter_iso8859_1.c.o
 
 # target to build an object file
 __/filters/mbfilter_iso8859_1.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_1.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_1.c.o
 .PHONY : __/filters/mbfilter_iso8859_1.c.o
 
 __/filters/mbfilter_iso8859_1.i: __/filters/mbfilter_iso8859_1.c.i
@@ -903,7 +903,7 @@ __/filters/mbfilter_iso8859_1.i: __/filters/mbfilter_iso8859_1.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_iso8859_1.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_1.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_1.c.i
 .PHONY : __/filters/mbfilter_iso8859_1.c.i
 
 __/filters/mbfilter_iso8859_1.s: __/filters/mbfilter_iso8859_1.c.s
@@ -911,7 +911,7 @@ __/filters/mbfilter_iso8859_1.s: __/filters/mbfilter_iso8859_1.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_iso8859_1.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_1.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_1.c.s
 .PHONY : __/filters/mbfilter_iso8859_1.c.s
 
 __/filters/mbfilter_iso8859_10.o: __/filters/mbfilter_iso8859_10.c.o
@@ -919,7 +919,7 @@ __/filters/mbfilter_iso8859_10.o: __/filters/mbfilter_iso8859_10.c.o
 
 # target to build an object file
 __/filters/mbfilter_iso8859_10.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_10.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_10.c.o
 .PHONY : __/filters/mbfilter_iso8859_10.c.o
 
 __/filters/mbfilter_iso8859_10.i: __/filters/mbfilter_iso8859_10.c.i
@@ -927,7 +927,7 @@ __/filters/mbfilter_iso8859_10.i: __/filters/mbfilter_iso8859_10.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_iso8859_10.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_10.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_10.c.i
 .PHONY : __/filters/mbfilter_iso8859_10.c.i
 
 __/filters/mbfilter_iso8859_10.s: __/filters/mbfilter_iso8859_10.c.s
@@ -935,7 +935,7 @@ __/filters/mbfilter_iso8859_10.s: __/filters/mbfilter_iso8859_10.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_iso8859_10.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_10.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_10.c.s
 .PHONY : __/filters/mbfilter_iso8859_10.c.s
 
 __/filters/mbfilter_iso8859_13.o: __/filters/mbfilter_iso8859_13.c.o
@@ -943,7 +943,7 @@ __/filters/mbfilter_iso8859_13.o: __/filters/mbfilter_iso8859_13.c.o
 
 # target to build an object file
 __/filters/mbfilter_iso8859_13.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_13.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_13.c.o
 .PHONY : __/filters/mbfilter_iso8859_13.c.o
 
 __/filters/mbfilter_iso8859_13.i: __/filters/mbfilter_iso8859_13.c.i
@@ -951,7 +951,7 @@ __/filters/mbfilter_iso8859_13.i: __/filters/mbfilter_iso8859_13.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_iso8859_13.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_13.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_13.c.i
 .PHONY : __/filters/mbfilter_iso8859_13.c.i
 
 __/filters/mbfilter_iso8859_13.s: __/filters/mbfilter_iso8859_13.c.s
@@ -959,7 +959,7 @@ __/filters/mbfilter_iso8859_13.s: __/filters/mbfilter_iso8859_13.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_iso8859_13.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_13.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_13.c.s
 .PHONY : __/filters/mbfilter_iso8859_13.c.s
 
 __/filters/mbfilter_iso8859_14.o: __/filters/mbfilter_iso8859_14.c.o
@@ -967,7 +967,7 @@ __/filters/mbfilter_iso8859_14.o: __/filters/mbfilter_iso8859_14.c.o
 
 # target to build an object file
 __/filters/mbfilter_iso8859_14.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_14.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_14.c.o
 .PHONY : __/filters/mbfilter_iso8859_14.c.o
 
 __/filters/mbfilter_iso8859_14.i: __/filters/mbfilter_iso8859_14.c.i
@@ -975,7 +975,7 @@ __/filters/mbfilter_iso8859_14.i: __/filters/mbfilter_iso8859_14.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_iso8859_14.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_14.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_14.c.i
 .PHONY : __/filters/mbfilter_iso8859_14.c.i
 
 __/filters/mbfilter_iso8859_14.s: __/filters/mbfilter_iso8859_14.c.s
@@ -983,7 +983,7 @@ __/filters/mbfilter_iso8859_14.s: __/filters/mbfilter_iso8859_14.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_iso8859_14.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_14.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_14.c.s
 .PHONY : __/filters/mbfilter_iso8859_14.c.s
 
 __/filters/mbfilter_iso8859_15.o: __/filters/mbfilter_iso8859_15.c.o
@@ -991,7 +991,7 @@ __/filters/mbfilter_iso8859_15.o: __/filters/mbfilter_iso8859_15.c.o
 
 # target to build an object file
 __/filters/mbfilter_iso8859_15.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_15.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_15.c.o
 .PHONY : __/filters/mbfilter_iso8859_15.c.o
 
 __/filters/mbfilter_iso8859_15.i: __/filters/mbfilter_iso8859_15.c.i
@@ -999,7 +999,7 @@ __/filters/mbfilter_iso8859_15.i: __/filters/mbfilter_iso8859_15.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_iso8859_15.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_15.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_15.c.i
 .PHONY : __/filters/mbfilter_iso8859_15.c.i
 
 __/filters/mbfilter_iso8859_15.s: __/filters/mbfilter_iso8859_15.c.s
@@ -1007,7 +1007,7 @@ __/filters/mbfilter_iso8859_15.s: __/filters/mbfilter_iso8859_15.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_iso8859_15.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_15.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_15.c.s
 .PHONY : __/filters/mbfilter_iso8859_15.c.s
 
 __/filters/mbfilter_iso8859_16.o: __/filters/mbfilter_iso8859_16.c.o
@@ -1015,7 +1015,7 @@ __/filters/mbfilter_iso8859_16.o: __/filters/mbfilter_iso8859_16.c.o
 
 # target to build an object file
 __/filters/mbfilter_iso8859_16.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_16.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_16.c.o
 .PHONY : __/filters/mbfilter_iso8859_16.c.o
 
 __/filters/mbfilter_iso8859_16.i: __/filters/mbfilter_iso8859_16.c.i
@@ -1023,7 +1023,7 @@ __/filters/mbfilter_iso8859_16.i: __/filters/mbfilter_iso8859_16.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_iso8859_16.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_16.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_16.c.i
 .PHONY : __/filters/mbfilter_iso8859_16.c.i
 
 __/filters/mbfilter_iso8859_16.s: __/filters/mbfilter_iso8859_16.c.s
@@ -1031,7 +1031,7 @@ __/filters/mbfilter_iso8859_16.s: __/filters/mbfilter_iso8859_16.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_iso8859_16.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_16.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_16.c.s
 .PHONY : __/filters/mbfilter_iso8859_16.c.s
 
 __/filters/mbfilter_iso8859_2.o: __/filters/mbfilter_iso8859_2.c.o
@@ -1039,7 +1039,7 @@ __/filters/mbfilter_iso8859_2.o: __/filters/mbfilter_iso8859_2.c.o
 
 # target to build an object file
 __/filters/mbfilter_iso8859_2.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_2.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_2.c.o
 .PHONY : __/filters/mbfilter_iso8859_2.c.o
 
 __/filters/mbfilter_iso8859_2.i: __/filters/mbfilter_iso8859_2.c.i
@@ -1047,7 +1047,7 @@ __/filters/mbfilter_iso8859_2.i: __/filters/mbfilter_iso8859_2.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_iso8859_2.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_2.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_2.c.i
 .PHONY : __/filters/mbfilter_iso8859_2.c.i
 
 __/filters/mbfilter_iso8859_2.s: __/filters/mbfilter_iso8859_2.c.s
@@ -1055,7 +1055,7 @@ __/filters/mbfilter_iso8859_2.s: __/filters/mbfilter_iso8859_2.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_iso8859_2.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_2.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_2.c.s
 .PHONY : __/filters/mbfilter_iso8859_2.c.s
 
 __/filters/mbfilter_iso8859_3.o: __/filters/mbfilter_iso8859_3.c.o
@@ -1063,7 +1063,7 @@ __/filters/mbfilter_iso8859_3.o: __/filters/mbfilter_iso8859_3.c.o
 
 # target to build an object file
 __/filters/mbfilter_iso8859_3.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_3.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_3.c.o
 .PHONY : __/filters/mbfilter_iso8859_3.c.o
 
 __/filters/mbfilter_iso8859_3.i: __/filters/mbfilter_iso8859_3.c.i
@@ -1071,7 +1071,7 @@ __/filters/mbfilter_iso8859_3.i: __/filters/mbfilter_iso8859_3.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_iso8859_3.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_3.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_3.c.i
 .PHONY : __/filters/mbfilter_iso8859_3.c.i
 
 __/filters/mbfilter_iso8859_3.s: __/filters/mbfilter_iso8859_3.c.s
@@ -1079,7 +1079,7 @@ __/filters/mbfilter_iso8859_3.s: __/filters/mbfilter_iso8859_3.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_iso8859_3.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_3.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_3.c.s
 .PHONY : __/filters/mbfilter_iso8859_3.c.s
 
 __/filters/mbfilter_iso8859_4.o: __/filters/mbfilter_iso8859_4.c.o
@@ -1087,7 +1087,7 @@ __/filters/mbfilter_iso8859_4.o: __/filters/mbfilter_iso8859_4.c.o
 
 # target to build an object file
 __/filters/mbfilter_iso8859_4.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_4.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_4.c.o
 .PHONY : __/filters/mbfilter_iso8859_4.c.o
 
 __/filters/mbfilter_iso8859_4.i: __/filters/mbfilter_iso8859_4.c.i
@@ -1095,7 +1095,7 @@ __/filters/mbfilter_iso8859_4.i: __/filters/mbfilter_iso8859_4.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_iso8859_4.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_4.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_4.c.i
 .PHONY : __/filters/mbfilter_iso8859_4.c.i
 
 __/filters/mbfilter_iso8859_4.s: __/filters/mbfilter_iso8859_4.c.s
@@ -1103,7 +1103,7 @@ __/filters/mbfilter_iso8859_4.s: __/filters/mbfilter_iso8859_4.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_iso8859_4.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_4.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_4.c.s
 .PHONY : __/filters/mbfilter_iso8859_4.c.s
 
 __/filters/mbfilter_iso8859_5.o: __/filters/mbfilter_iso8859_5.c.o
@@ -1111,7 +1111,7 @@ __/filters/mbfilter_iso8859_5.o: __/filters/mbfilter_iso8859_5.c.o
 
 # target to build an object file
 __/filters/mbfilter_iso8859_5.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_5.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_5.c.o
 .PHONY : __/filters/mbfilter_iso8859_5.c.o
 
 __/filters/mbfilter_iso8859_5.i: __/filters/mbfilter_iso8859_5.c.i
@@ -1119,7 +1119,7 @@ __/filters/mbfilter_iso8859_5.i: __/filters/mbfilter_iso8859_5.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_iso8859_5.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_5.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_5.c.i
 .PHONY : __/filters/mbfilter_iso8859_5.c.i
 
 __/filters/mbfilter_iso8859_5.s: __/filters/mbfilter_iso8859_5.c.s
@@ -1127,7 +1127,7 @@ __/filters/mbfilter_iso8859_5.s: __/filters/mbfilter_iso8859_5.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_iso8859_5.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_5.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_5.c.s
 .PHONY : __/filters/mbfilter_iso8859_5.c.s
 
 __/filters/mbfilter_iso8859_6.o: __/filters/mbfilter_iso8859_6.c.o
@@ -1135,7 +1135,7 @@ __/filters/mbfilter_iso8859_6.o: __/filters/mbfilter_iso8859_6.c.o
 
 # target to build an object file
 __/filters/mbfilter_iso8859_6.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_6.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_6.c.o
 .PHONY : __/filters/mbfilter_iso8859_6.c.o
 
 __/filters/mbfilter_iso8859_6.i: __/filters/mbfilter_iso8859_6.c.i
@@ -1143,7 +1143,7 @@ __/filters/mbfilter_iso8859_6.i: __/filters/mbfilter_iso8859_6.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_iso8859_6.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_6.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_6.c.i
 .PHONY : __/filters/mbfilter_iso8859_6.c.i
 
 __/filters/mbfilter_iso8859_6.s: __/filters/mbfilter_iso8859_6.c.s
@@ -1151,7 +1151,7 @@ __/filters/mbfilter_iso8859_6.s: __/filters/mbfilter_iso8859_6.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_iso8859_6.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_6.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_6.c.s
 .PHONY : __/filters/mbfilter_iso8859_6.c.s
 
 __/filters/mbfilter_iso8859_7.o: __/filters/mbfilter_iso8859_7.c.o
@@ -1159,7 +1159,7 @@ __/filters/mbfilter_iso8859_7.o: __/filters/mbfilter_iso8859_7.c.o
 
 # target to build an object file
 __/filters/mbfilter_iso8859_7.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_7.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_7.c.o
 .PHONY : __/filters/mbfilter_iso8859_7.c.o
 
 __/filters/mbfilter_iso8859_7.i: __/filters/mbfilter_iso8859_7.c.i
@@ -1167,7 +1167,7 @@ __/filters/mbfilter_iso8859_7.i: __/filters/mbfilter_iso8859_7.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_iso8859_7.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_7.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_7.c.i
 .PHONY : __/filters/mbfilter_iso8859_7.c.i
 
 __/filters/mbfilter_iso8859_7.s: __/filters/mbfilter_iso8859_7.c.s
@@ -1175,7 +1175,7 @@ __/filters/mbfilter_iso8859_7.s: __/filters/mbfilter_iso8859_7.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_iso8859_7.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_7.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_7.c.s
 .PHONY : __/filters/mbfilter_iso8859_7.c.s
 
 __/filters/mbfilter_iso8859_8.o: __/filters/mbfilter_iso8859_8.c.o
@@ -1183,7 +1183,7 @@ __/filters/mbfilter_iso8859_8.o: __/filters/mbfilter_iso8859_8.c.o
 
 # target to build an object file
 __/filters/mbfilter_iso8859_8.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_8.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_8.c.o
 .PHONY : __/filters/mbfilter_iso8859_8.c.o
 
 __/filters/mbfilter_iso8859_8.i: __/filters/mbfilter_iso8859_8.c.i
@@ -1191,7 +1191,7 @@ __/filters/mbfilter_iso8859_8.i: __/filters/mbfilter_iso8859_8.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_iso8859_8.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_8.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_8.c.i
 .PHONY : __/filters/mbfilter_iso8859_8.c.i
 
 __/filters/mbfilter_iso8859_8.s: __/filters/mbfilter_iso8859_8.c.s
@@ -1199,7 +1199,7 @@ __/filters/mbfilter_iso8859_8.s: __/filters/mbfilter_iso8859_8.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_iso8859_8.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_8.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_8.c.s
 .PHONY : __/filters/mbfilter_iso8859_8.c.s
 
 __/filters/mbfilter_iso8859_9.o: __/filters/mbfilter_iso8859_9.c.o
@@ -1207,7 +1207,7 @@ __/filters/mbfilter_iso8859_9.o: __/filters/mbfilter_iso8859_9.c.o
 
 # target to build an object file
 __/filters/mbfilter_iso8859_9.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_9.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_9.c.o
 .PHONY : __/filters/mbfilter_iso8859_9.c.o
 
 __/filters/mbfilter_iso8859_9.i: __/filters/mbfilter_iso8859_9.c.i
@@ -1215,7 +1215,7 @@ __/filters/mbfilter_iso8859_9.i: __/filters/mbfilter_iso8859_9.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_iso8859_9.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_9.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_9.c.i
 .PHONY : __/filters/mbfilter_iso8859_9.c.i
 
 __/filters/mbfilter_iso8859_9.s: __/filters/mbfilter_iso8859_9.c.s
@@ -1223,7 +1223,7 @@ __/filters/mbfilter_iso8859_9.s: __/filters/mbfilter_iso8859_9.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_iso8859_9.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_9.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_iso8859_9.c.s
 .PHONY : __/filters/mbfilter_iso8859_9.c.s
 
 __/filters/mbfilter_jis.o: __/filters/mbfilter_jis.c.o
@@ -1231,7 +1231,7 @@ __/filters/mbfilter_jis.o: __/filters/mbfilter_jis.c.o
 
 # target to build an object file
 __/filters/mbfilter_jis.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_jis.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_jis.c.o
 .PHONY : __/filters/mbfilter_jis.c.o
 
 __/filters/mbfilter_jis.i: __/filters/mbfilter_jis.c.i
@@ -1239,7 +1239,7 @@ __/filters/mbfilter_jis.i: __/filters/mbfilter_jis.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_jis.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_jis.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_jis.c.i
 .PHONY : __/filters/mbfilter_jis.c.i
 
 __/filters/mbfilter_jis.s: __/filters/mbfilter_jis.c.s
@@ -1247,7 +1247,7 @@ __/filters/mbfilter_jis.s: __/filters/mbfilter_jis.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_jis.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_jis.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_jis.c.s
 .PHONY : __/filters/mbfilter_jis.c.s
 
 __/filters/mbfilter_koi8r.o: __/filters/mbfilter_koi8r.c.o
@@ -1255,7 +1255,7 @@ __/filters/mbfilter_koi8r.o: __/filters/mbfilter_koi8r.c.o
 
 # target to build an object file
 __/filters/mbfilter_koi8r.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8r.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8r.c.o
 .PHONY : __/filters/mbfilter_koi8r.c.o
 
 __/filters/mbfilter_koi8r.i: __/filters/mbfilter_koi8r.c.i
@@ -1263,7 +1263,7 @@ __/filters/mbfilter_koi8r.i: __/filters/mbfilter_koi8r.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_koi8r.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8r.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8r.c.i
 .PHONY : __/filters/mbfilter_koi8r.c.i
 
 __/filters/mbfilter_koi8r.s: __/filters/mbfilter_koi8r.c.s
@@ -1271,7 +1271,7 @@ __/filters/mbfilter_koi8r.s: __/filters/mbfilter_koi8r.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_koi8r.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8r.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8r.c.s
 .PHONY : __/filters/mbfilter_koi8r.c.s
 
 __/filters/mbfilter_koi8u.o: __/filters/mbfilter_koi8u.c.o
@@ -1279,7 +1279,7 @@ __/filters/mbfilter_koi8u.o: __/filters/mbfilter_koi8u.c.o
 
 # target to build an object file
 __/filters/mbfilter_koi8u.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8u.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8u.c.o
 .PHONY : __/filters/mbfilter_koi8u.c.o
 
 __/filters/mbfilter_koi8u.i: __/filters/mbfilter_koi8u.c.i
@@ -1287,7 +1287,7 @@ __/filters/mbfilter_koi8u.i: __/filters/mbfilter_koi8u.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_koi8u.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8u.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8u.c.i
 .PHONY : __/filters/mbfilter_koi8u.c.i
 
 __/filters/mbfilter_koi8u.s: __/filters/mbfilter_koi8u.c.s
@@ -1295,7 +1295,7 @@ __/filters/mbfilter_koi8u.s: __/filters/mbfilter_koi8u.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_koi8u.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8u.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_koi8u.c.s
 .PHONY : __/filters/mbfilter_koi8u.c.s
 
 __/filters/mbfilter_qprint.o: __/filters/mbfilter_qprint.c.o
@@ -1303,7 +1303,7 @@ __/filters/mbfilter_qprint.o: __/filters/mbfilter_qprint.c.o
 
 # target to build an object file
 __/filters/mbfilter_qprint.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_qprint.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_qprint.c.o
 .PHONY : __/filters/mbfilter_qprint.c.o
 
 __/filters/mbfilter_qprint.i: __/filters/mbfilter_qprint.c.i
@@ -1311,7 +1311,7 @@ __/filters/mbfilter_qprint.i: __/filters/mbfilter_qprint.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_qprint.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_qprint.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_qprint.c.i
 .PHONY : __/filters/mbfilter_qprint.c.i
 
 __/filters/mbfilter_qprint.s: __/filters/mbfilter_qprint.c.s
@@ -1319,7 +1319,7 @@ __/filters/mbfilter_qprint.s: __/filters/mbfilter_qprint.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_qprint.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_qprint.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_qprint.c.s
 .PHONY : __/filters/mbfilter_qprint.c.s
 
 __/filters/mbfilter_sjis.o: __/filters/mbfilter_sjis.c.o
@@ -1327,7 +1327,7 @@ __/filters/mbfilter_sjis.o: __/filters/mbfilter_sjis.c.o
 
 # target to build an object file
 __/filters/mbfilter_sjis.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis.c.o
 .PHONY : __/filters/mbfilter_sjis.c.o
 
 __/filters/mbfilter_sjis.i: __/filters/mbfilter_sjis.c.i
@@ -1335,7 +1335,7 @@ __/filters/mbfilter_sjis.i: __/filters/mbfilter_sjis.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_sjis.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis.c.i
 .PHONY : __/filters/mbfilter_sjis.c.i
 
 __/filters/mbfilter_sjis.s: __/filters/mbfilter_sjis.c.s
@@ -1343,7 +1343,7 @@ __/filters/mbfilter_sjis.s: __/filters/mbfilter_sjis.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_sjis.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis.c.s
 .PHONY : __/filters/mbfilter_sjis.c.s
 
 __/filters/mbfilter_sjis_2004.o: __/filters/mbfilter_sjis_2004.c.o
@@ -1351,7 +1351,7 @@ __/filters/mbfilter_sjis_2004.o: __/filters/mbfilter_sjis_2004.c.o
 
 # target to build an object file
 __/filters/mbfilter_sjis_2004.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_2004.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_2004.c.o
 .PHONY : __/filters/mbfilter_sjis_2004.c.o
 
 __/filters/mbfilter_sjis_2004.i: __/filters/mbfilter_sjis_2004.c.i
@@ -1359,7 +1359,7 @@ __/filters/mbfilter_sjis_2004.i: __/filters/mbfilter_sjis_2004.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_sjis_2004.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_2004.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_2004.c.i
 .PHONY : __/filters/mbfilter_sjis_2004.c.i
 
 __/filters/mbfilter_sjis_2004.s: __/filters/mbfilter_sjis_2004.c.s
@@ -1367,7 +1367,7 @@ __/filters/mbfilter_sjis_2004.s: __/filters/mbfilter_sjis_2004.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_sjis_2004.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_2004.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_2004.c.s
 .PHONY : __/filters/mbfilter_sjis_2004.c.s
 
 __/filters/mbfilter_sjis_mac.o: __/filters/mbfilter_sjis_mac.c.o
@@ -1375,7 +1375,7 @@ __/filters/mbfilter_sjis_mac.o: __/filters/mbfilter_sjis_mac.c.o
 
 # target to build an object file
 __/filters/mbfilter_sjis_mac.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mac.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mac.c.o
 .PHONY : __/filters/mbfilter_sjis_mac.c.o
 
 __/filters/mbfilter_sjis_mac.i: __/filters/mbfilter_sjis_mac.c.i
@@ -1383,7 +1383,7 @@ __/filters/mbfilter_sjis_mac.i: __/filters/mbfilter_sjis_mac.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_sjis_mac.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mac.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mac.c.i
 .PHONY : __/filters/mbfilter_sjis_mac.c.i
 
 __/filters/mbfilter_sjis_mac.s: __/filters/mbfilter_sjis_mac.c.s
@@ -1391,7 +1391,7 @@ __/filters/mbfilter_sjis_mac.s: __/filters/mbfilter_sjis_mac.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_sjis_mac.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mac.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mac.c.s
 .PHONY : __/filters/mbfilter_sjis_mac.c.s
 
 __/filters/mbfilter_sjis_mobile.o: __/filters/mbfilter_sjis_mobile.c.o
@@ -1399,7 +1399,7 @@ __/filters/mbfilter_sjis_mobile.o: __/filters/mbfilter_sjis_mobile.c.o
 
 # target to build an object file
 __/filters/mbfilter_sjis_mobile.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mobile.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mobile.c.o
 .PHONY : __/filters/mbfilter_sjis_mobile.c.o
 
 __/filters/mbfilter_sjis_mobile.i: __/filters/mbfilter_sjis_mobile.c.i
@@ -1407,7 +1407,7 @@ __/filters/mbfilter_sjis_mobile.i: __/filters/mbfilter_sjis_mobile.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_sjis_mobile.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mobile.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mobile.c.i
 .PHONY : __/filters/mbfilter_sjis_mobile.c.i
 
 __/filters/mbfilter_sjis_mobile.s: __/filters/mbfilter_sjis_mobile.c.s
@@ -1415,7 +1415,7 @@ __/filters/mbfilter_sjis_mobile.s: __/filters/mbfilter_sjis_mobile.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_sjis_mobile.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mobile.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_mobile.c.s
 .PHONY : __/filters/mbfilter_sjis_mobile.c.s
 
 __/filters/mbfilter_sjis_open.o: __/filters/mbfilter_sjis_open.c.o
@@ -1423,7 +1423,7 @@ __/filters/mbfilter_sjis_open.o: __/filters/mbfilter_sjis_open.c.o
 
 # target to build an object file
 __/filters/mbfilter_sjis_open.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_open.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_open.c.o
 .PHONY : __/filters/mbfilter_sjis_open.c.o
 
 __/filters/mbfilter_sjis_open.i: __/filters/mbfilter_sjis_open.c.i
@@ -1431,7 +1431,7 @@ __/filters/mbfilter_sjis_open.i: __/filters/mbfilter_sjis_open.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_sjis_open.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_open.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_open.c.i
 .PHONY : __/filters/mbfilter_sjis_open.c.i
 
 __/filters/mbfilter_sjis_open.s: __/filters/mbfilter_sjis_open.c.s
@@ -1439,7 +1439,7 @@ __/filters/mbfilter_sjis_open.s: __/filters/mbfilter_sjis_open.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_sjis_open.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_open.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_sjis_open.c.s
 .PHONY : __/filters/mbfilter_sjis_open.c.s
 
 __/filters/mbfilter_tl_jisx0201_jisx0208.o: __/filters/mbfilter_tl_jisx0201_jisx0208.c.o
@@ -1447,7 +1447,7 @@ __/filters/mbfilter_tl_jisx0201_jisx0208.o: __/filters/mbfilter_tl_jisx0201_jisx
 
 # target to build an object file
 __/filters/mbfilter_tl_jisx0201_jisx0208.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_tl_jisx0201_jisx0208.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_tl_jisx0201_jisx0208.c.o
 .PHONY : __/filters/mbfilter_tl_jisx0201_jisx0208.c.o
 
 __/filters/mbfilter_tl_jisx0201_jisx0208.i: __/filters/mbfilter_tl_jisx0201_jisx0208.c.i
@@ -1455,7 +1455,7 @@ __/filters/mbfilter_tl_jisx0201_jisx0208.i: __/filters/mbfilter_tl_jisx0201_jisx
 
 # target to preprocess a source file
 __/filters/mbfilter_tl_jisx0201_jisx0208.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_tl_jisx0201_jisx0208.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_tl_jisx0201_jisx0208.c.i
 .PHONY : __/filters/mbfilter_tl_jisx0201_jisx0208.c.i
 
 __/filters/mbfilter_tl_jisx0201_jisx0208.s: __/filters/mbfilter_tl_jisx0201_jisx0208.c.s
@@ -1463,7 +1463,7 @@ __/filters/mbfilter_tl_jisx0201_jisx0208.s: __/filters/mbfilter_tl_jisx0201_jisx
 
 # target to generate assembly for a file
 __/filters/mbfilter_tl_jisx0201_jisx0208.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_tl_jisx0201_jisx0208.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_tl_jisx0201_jisx0208.c.s
 .PHONY : __/filters/mbfilter_tl_jisx0201_jisx0208.c.s
 
 __/filters/mbfilter_ucs2.o: __/filters/mbfilter_ucs2.c.o
@@ -1471,7 +1471,7 @@ __/filters/mbfilter_ucs2.o: __/filters/mbfilter_ucs2.c.o
 
 # target to build an object file
 __/filters/mbfilter_ucs2.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs2.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs2.c.o
 .PHONY : __/filters/mbfilter_ucs2.c.o
 
 __/filters/mbfilter_ucs2.i: __/filters/mbfilter_ucs2.c.i
@@ -1479,7 +1479,7 @@ __/filters/mbfilter_ucs2.i: __/filters/mbfilter_ucs2.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_ucs2.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs2.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs2.c.i
 .PHONY : __/filters/mbfilter_ucs2.c.i
 
 __/filters/mbfilter_ucs2.s: __/filters/mbfilter_ucs2.c.s
@@ -1487,7 +1487,7 @@ __/filters/mbfilter_ucs2.s: __/filters/mbfilter_ucs2.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_ucs2.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs2.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs2.c.s
 .PHONY : __/filters/mbfilter_ucs2.c.s
 
 __/filters/mbfilter_ucs4.o: __/filters/mbfilter_ucs4.c.o
@@ -1495,7 +1495,7 @@ __/filters/mbfilter_ucs4.o: __/filters/mbfilter_ucs4.c.o
 
 # target to build an object file
 __/filters/mbfilter_ucs4.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs4.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs4.c.o
 .PHONY : __/filters/mbfilter_ucs4.c.o
 
 __/filters/mbfilter_ucs4.i: __/filters/mbfilter_ucs4.c.i
@@ -1503,7 +1503,7 @@ __/filters/mbfilter_ucs4.i: __/filters/mbfilter_ucs4.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_ucs4.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs4.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs4.c.i
 .PHONY : __/filters/mbfilter_ucs4.c.i
 
 __/filters/mbfilter_ucs4.s: __/filters/mbfilter_ucs4.c.s
@@ -1511,7 +1511,7 @@ __/filters/mbfilter_ucs4.s: __/filters/mbfilter_ucs4.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_ucs4.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs4.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_ucs4.c.s
 .PHONY : __/filters/mbfilter_ucs4.c.s
 
 __/filters/mbfilter_uhc.o: __/filters/mbfilter_uhc.c.o
@@ -1519,7 +1519,7 @@ __/filters/mbfilter_uhc.o: __/filters/mbfilter_uhc.c.o
 
 # target to build an object file
 __/filters/mbfilter_uhc.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uhc.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uhc.c.o
 .PHONY : __/filters/mbfilter_uhc.c.o
 
 __/filters/mbfilter_uhc.i: __/filters/mbfilter_uhc.c.i
@@ -1527,7 +1527,7 @@ __/filters/mbfilter_uhc.i: __/filters/mbfilter_uhc.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_uhc.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uhc.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uhc.c.i
 .PHONY : __/filters/mbfilter_uhc.c.i
 
 __/filters/mbfilter_uhc.s: __/filters/mbfilter_uhc.c.s
@@ -1535,7 +1535,7 @@ __/filters/mbfilter_uhc.s: __/filters/mbfilter_uhc.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_uhc.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uhc.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uhc.c.s
 .PHONY : __/filters/mbfilter_uhc.c.s
 
 __/filters/mbfilter_utf16.o: __/filters/mbfilter_utf16.c.o
@@ -1543,7 +1543,7 @@ __/filters/mbfilter_utf16.o: __/filters/mbfilter_utf16.c.o
 
 # target to build an object file
 __/filters/mbfilter_utf16.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf16.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf16.c.o
 .PHONY : __/filters/mbfilter_utf16.c.o
 
 __/filters/mbfilter_utf16.i: __/filters/mbfilter_utf16.c.i
@@ -1551,7 +1551,7 @@ __/filters/mbfilter_utf16.i: __/filters/mbfilter_utf16.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_utf16.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf16.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf16.c.i
 .PHONY : __/filters/mbfilter_utf16.c.i
 
 __/filters/mbfilter_utf16.s: __/filters/mbfilter_utf16.c.s
@@ -1559,7 +1559,7 @@ __/filters/mbfilter_utf16.s: __/filters/mbfilter_utf16.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_utf16.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf16.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf16.c.s
 .PHONY : __/filters/mbfilter_utf16.c.s
 
 __/filters/mbfilter_utf32.o: __/filters/mbfilter_utf32.c.o
@@ -1567,7 +1567,7 @@ __/filters/mbfilter_utf32.o: __/filters/mbfilter_utf32.c.o
 
 # target to build an object file
 __/filters/mbfilter_utf32.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf32.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf32.c.o
 .PHONY : __/filters/mbfilter_utf32.c.o
 
 __/filters/mbfilter_utf32.i: __/filters/mbfilter_utf32.c.i
@@ -1575,7 +1575,7 @@ __/filters/mbfilter_utf32.i: __/filters/mbfilter_utf32.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_utf32.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf32.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf32.c.i
 .PHONY : __/filters/mbfilter_utf32.c.i
 
 __/filters/mbfilter_utf32.s: __/filters/mbfilter_utf32.c.s
@@ -1583,7 +1583,7 @@ __/filters/mbfilter_utf32.s: __/filters/mbfilter_utf32.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_utf32.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf32.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf32.c.s
 .PHONY : __/filters/mbfilter_utf32.c.s
 
 __/filters/mbfilter_utf7.o: __/filters/mbfilter_utf7.c.o
@@ -1591,7 +1591,7 @@ __/filters/mbfilter_utf7.o: __/filters/mbfilter_utf7.c.o
 
 # target to build an object file
 __/filters/mbfilter_utf7.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7.c.o
 .PHONY : __/filters/mbfilter_utf7.c.o
 
 __/filters/mbfilter_utf7.i: __/filters/mbfilter_utf7.c.i
@@ -1599,7 +1599,7 @@ __/filters/mbfilter_utf7.i: __/filters/mbfilter_utf7.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_utf7.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7.c.i
 .PHONY : __/filters/mbfilter_utf7.c.i
 
 __/filters/mbfilter_utf7.s: __/filters/mbfilter_utf7.c.s
@@ -1607,7 +1607,7 @@ __/filters/mbfilter_utf7.s: __/filters/mbfilter_utf7.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_utf7.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7.c.s
 .PHONY : __/filters/mbfilter_utf7.c.s
 
 __/filters/mbfilter_utf7imap.o: __/filters/mbfilter_utf7imap.c.o
@@ -1615,7 +1615,7 @@ __/filters/mbfilter_utf7imap.o: __/filters/mbfilter_utf7imap.c.o
 
 # target to build an object file
 __/filters/mbfilter_utf7imap.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7imap.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7imap.c.o
 .PHONY : __/filters/mbfilter_utf7imap.c.o
 
 __/filters/mbfilter_utf7imap.i: __/filters/mbfilter_utf7imap.c.i
@@ -1623,7 +1623,7 @@ __/filters/mbfilter_utf7imap.i: __/filters/mbfilter_utf7imap.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_utf7imap.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7imap.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7imap.c.i
 .PHONY : __/filters/mbfilter_utf7imap.c.i
 
 __/filters/mbfilter_utf7imap.s: __/filters/mbfilter_utf7imap.c.s
@@ -1631,7 +1631,7 @@ __/filters/mbfilter_utf7imap.s: __/filters/mbfilter_utf7imap.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_utf7imap.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7imap.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf7imap.c.s
 .PHONY : __/filters/mbfilter_utf7imap.c.s
 
 __/filters/mbfilter_utf8.o: __/filters/mbfilter_utf8.c.o
@@ -1639,7 +1639,7 @@ __/filters/mbfilter_utf8.o: __/filters/mbfilter_utf8.c.o
 
 # target to build an object file
 __/filters/mbfilter_utf8.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8.c.o
 .PHONY : __/filters/mbfilter_utf8.c.o
 
 __/filters/mbfilter_utf8.i: __/filters/mbfilter_utf8.c.i
@@ -1647,7 +1647,7 @@ __/filters/mbfilter_utf8.i: __/filters/mbfilter_utf8.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_utf8.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8.c.i
 .PHONY : __/filters/mbfilter_utf8.c.i
 
 __/filters/mbfilter_utf8.s: __/filters/mbfilter_utf8.c.s
@@ -1655,7 +1655,7 @@ __/filters/mbfilter_utf8.s: __/filters/mbfilter_utf8.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_utf8.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8.c.s
 .PHONY : __/filters/mbfilter_utf8.c.s
 
 __/filters/mbfilter_utf8_mobile.o: __/filters/mbfilter_utf8_mobile.c.o
@@ -1663,7 +1663,7 @@ __/filters/mbfilter_utf8_mobile.o: __/filters/mbfilter_utf8_mobile.c.o
 
 # target to build an object file
 __/filters/mbfilter_utf8_mobile.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8_mobile.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8_mobile.c.o
 .PHONY : __/filters/mbfilter_utf8_mobile.c.o
 
 __/filters/mbfilter_utf8_mobile.i: __/filters/mbfilter_utf8_mobile.c.i
@@ -1671,7 +1671,7 @@ __/filters/mbfilter_utf8_mobile.i: __/filters/mbfilter_utf8_mobile.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_utf8_mobile.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8_mobile.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8_mobile.c.i
 .PHONY : __/filters/mbfilter_utf8_mobile.c.i
 
 __/filters/mbfilter_utf8_mobile.s: __/filters/mbfilter_utf8_mobile.c.s
@@ -1679,7 +1679,7 @@ __/filters/mbfilter_utf8_mobile.s: __/filters/mbfilter_utf8_mobile.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_utf8_mobile.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8_mobile.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_utf8_mobile.c.s
 .PHONY : __/filters/mbfilter_utf8_mobile.c.s
 
 __/filters/mbfilter_uuencode.o: __/filters/mbfilter_uuencode.c.o
@@ -1687,7 +1687,7 @@ __/filters/mbfilter_uuencode.o: __/filters/mbfilter_uuencode.c.o
 
 # target to build an object file
 __/filters/mbfilter_uuencode.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uuencode.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uuencode.c.o
 .PHONY : __/filters/mbfilter_uuencode.c.o
 
 __/filters/mbfilter_uuencode.i: __/filters/mbfilter_uuencode.c.i
@@ -1695,7 +1695,7 @@ __/filters/mbfilter_uuencode.i: __/filters/mbfilter_uuencode.c.i
 
 # target to preprocess a source file
 __/filters/mbfilter_uuencode.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uuencode.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uuencode.c.i
 .PHONY : __/filters/mbfilter_uuencode.c.i
 
 __/filters/mbfilter_uuencode.s: __/filters/mbfilter_uuencode.c.s
@@ -1703,7 +1703,7 @@ __/filters/mbfilter_uuencode.s: __/filters/mbfilter_uuencode.c.s
 
 # target to generate assembly for a file
 __/filters/mbfilter_uuencode.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uuencode.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/filters/mbfilter_uuencode.c.s
 .PHONY : __/filters/mbfilter_uuencode.c.s
 
 __/nls/nls_de.o: __/nls/nls_de.c.o
@@ -1711,7 +1711,7 @@ __/nls/nls_de.o: __/nls/nls_de.c.o
 
 # target to build an object file
 __/nls/nls_de.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_de.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_de.c.o
 .PHONY : __/nls/nls_de.c.o
 
 __/nls/nls_de.i: __/nls/nls_de.c.i
@@ -1719,7 +1719,7 @@ __/nls/nls_de.i: __/nls/nls_de.c.i
 
 # target to preprocess a source file
 __/nls/nls_de.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_de.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_de.c.i
 .PHONY : __/nls/nls_de.c.i
 
 __/nls/nls_de.s: __/nls/nls_de.c.s
@@ -1727,7 +1727,7 @@ __/nls/nls_de.s: __/nls/nls_de.c.s
 
 # target to generate assembly for a file
 __/nls/nls_de.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_de.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_de.c.s
 .PHONY : __/nls/nls_de.c.s
 
 __/nls/nls_en.o: __/nls/nls_en.c.o
@@ -1735,7 +1735,7 @@ __/nls/nls_en.o: __/nls/nls_en.c.o
 
 # target to build an object file
 __/nls/nls_en.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_en.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_en.c.o
 .PHONY : __/nls/nls_en.c.o
 
 __/nls/nls_en.i: __/nls/nls_en.c.i
@@ -1743,7 +1743,7 @@ __/nls/nls_en.i: __/nls/nls_en.c.i
 
 # target to preprocess a source file
 __/nls/nls_en.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_en.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_en.c.i
 .PHONY : __/nls/nls_en.c.i
 
 __/nls/nls_en.s: __/nls/nls_en.c.s
@@ -1751,7 +1751,7 @@ __/nls/nls_en.s: __/nls/nls_en.c.s
 
 # target to generate assembly for a file
 __/nls/nls_en.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_en.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_en.c.s
 .PHONY : __/nls/nls_en.c.s
 
 __/nls/nls_hy.o: __/nls/nls_hy.c.o
@@ -1759,7 +1759,7 @@ __/nls/nls_hy.o: __/nls/nls_hy.c.o
 
 # target to build an object file
 __/nls/nls_hy.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_hy.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_hy.c.o
 .PHONY : __/nls/nls_hy.c.o
 
 __/nls/nls_hy.i: __/nls/nls_hy.c.i
@@ -1767,7 +1767,7 @@ __/nls/nls_hy.i: __/nls/nls_hy.c.i
 
 # target to preprocess a source file
 __/nls/nls_hy.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_hy.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_hy.c.i
 .PHONY : __/nls/nls_hy.c.i
 
 __/nls/nls_hy.s: __/nls/nls_hy.c.s
@@ -1775,7 +1775,7 @@ __/nls/nls_hy.s: __/nls/nls_hy.c.s
 
 # target to generate assembly for a file
 __/nls/nls_hy.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_hy.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_hy.c.s
 .PHONY : __/nls/nls_hy.c.s
 
 __/nls/nls_ja.o: __/nls/nls_ja.c.o
@@ -1783,7 +1783,7 @@ __/nls/nls_ja.o: __/nls/nls_ja.c.o
 
 # target to build an object file
 __/nls/nls_ja.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ja.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ja.c.o
 .PHONY : __/nls/nls_ja.c.o
 
 __/nls/nls_ja.i: __/nls/nls_ja.c.i
@@ -1791,7 +1791,7 @@ __/nls/nls_ja.i: __/nls/nls_ja.c.i
 
 # target to preprocess a source file
 __/nls/nls_ja.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ja.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ja.c.i
 .PHONY : __/nls/nls_ja.c.i
 
 __/nls/nls_ja.s: __/nls/nls_ja.c.s
@@ -1799,7 +1799,7 @@ __/nls/nls_ja.s: __/nls/nls_ja.c.s
 
 # target to generate assembly for a file
 __/nls/nls_ja.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ja.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ja.c.s
 .PHONY : __/nls/nls_ja.c.s
 
 __/nls/nls_kr.o: __/nls/nls_kr.c.o
@@ -1807,7 +1807,7 @@ __/nls/nls_kr.o: __/nls/nls_kr.c.o
 
 # target to build an object file
 __/nls/nls_kr.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_kr.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_kr.c.o
 .PHONY : __/nls/nls_kr.c.o
 
 __/nls/nls_kr.i: __/nls/nls_kr.c.i
@@ -1815,7 +1815,7 @@ __/nls/nls_kr.i: __/nls/nls_kr.c.i
 
 # target to preprocess a source file
 __/nls/nls_kr.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_kr.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_kr.c.i
 .PHONY : __/nls/nls_kr.c.i
 
 __/nls/nls_kr.s: __/nls/nls_kr.c.s
@@ -1823,7 +1823,7 @@ __/nls/nls_kr.s: __/nls/nls_kr.c.s
 
 # target to generate assembly for a file
 __/nls/nls_kr.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_kr.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_kr.c.s
 .PHONY : __/nls/nls_kr.c.s
 
 __/nls/nls_neutral.o: __/nls/nls_neutral.c.o
@@ -1831,7 +1831,7 @@ __/nls/nls_neutral.o: __/nls/nls_neutral.c.o
 
 # target to build an object file
 __/nls/nls_neutral.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_neutral.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_neutral.c.o
 .PHONY : __/nls/nls_neutral.c.o
 
 __/nls/nls_neutral.i: __/nls/nls_neutral.c.i
@@ -1839,7 +1839,7 @@ __/nls/nls_neutral.i: __/nls/nls_neutral.c.i
 
 # target to preprocess a source file
 __/nls/nls_neutral.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_neutral.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_neutral.c.i
 .PHONY : __/nls/nls_neutral.c.i
 
 __/nls/nls_neutral.s: __/nls/nls_neutral.c.s
@@ -1847,7 +1847,7 @@ __/nls/nls_neutral.s: __/nls/nls_neutral.c.s
 
 # target to generate assembly for a file
 __/nls/nls_neutral.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_neutral.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_neutral.c.s
 .PHONY : __/nls/nls_neutral.c.s
 
 __/nls/nls_ru.o: __/nls/nls_ru.c.o
@@ -1855,7 +1855,7 @@ __/nls/nls_ru.o: __/nls/nls_ru.c.o
 
 # target to build an object file
 __/nls/nls_ru.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ru.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ru.c.o
 .PHONY : __/nls/nls_ru.c.o
 
 __/nls/nls_ru.i: __/nls/nls_ru.c.i
@@ -1863,7 +1863,7 @@ __/nls/nls_ru.i: __/nls/nls_ru.c.i
 
 # target to preprocess a source file
 __/nls/nls_ru.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ru.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ru.c.i
 .PHONY : __/nls/nls_ru.c.i
 
 __/nls/nls_ru.s: __/nls/nls_ru.c.s
@@ -1871,7 +1871,7 @@ __/nls/nls_ru.s: __/nls/nls_ru.c.s
 
 # target to generate assembly for a file
 __/nls/nls_ru.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ru.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ru.c.s
 .PHONY : __/nls/nls_ru.c.s
 
 __/nls/nls_tr.o: __/nls/nls_tr.c.o
@@ -1879,7 +1879,7 @@ __/nls/nls_tr.o: __/nls/nls_tr.c.o
 
 # target to build an object file
 __/nls/nls_tr.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_tr.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_tr.c.o
 .PHONY : __/nls/nls_tr.c.o
 
 __/nls/nls_tr.i: __/nls/nls_tr.c.i
@@ -1887,7 +1887,7 @@ __/nls/nls_tr.i: __/nls/nls_tr.c.i
 
 # target to preprocess a source file
 __/nls/nls_tr.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_tr.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_tr.c.i
 .PHONY : __/nls/nls_tr.c.i
 
 __/nls/nls_tr.s: __/nls/nls_tr.c.s
@@ -1895,7 +1895,7 @@ __/nls/nls_tr.s: __/nls/nls_tr.c.s
 
 # target to generate assembly for a file
 __/nls/nls_tr.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_tr.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_tr.c.s
 .PHONY : __/nls/nls_tr.c.s
 
 __/nls/nls_ua.o: __/nls/nls_ua.c.o
@@ -1903,7 +1903,7 @@ __/nls/nls_ua.o: __/nls/nls_ua.c.o
 
 # target to build an object file
 __/nls/nls_ua.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ua.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ua.c.o
 .PHONY : __/nls/nls_ua.c.o
 
 __/nls/nls_ua.i: __/nls/nls_ua.c.i
@@ -1911,7 +1911,7 @@ __/nls/nls_ua.i: __/nls/nls_ua.c.i
 
 # target to preprocess a source file
 __/nls/nls_ua.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ua.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ua.c.i
 .PHONY : __/nls/nls_ua.c.i
 
 __/nls/nls_ua.s: __/nls/nls_ua.c.s
@@ -1919,7 +1919,7 @@ __/nls/nls_ua.s: __/nls/nls_ua.c.s
 
 # target to generate assembly for a file
 __/nls/nls_ua.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ua.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_ua.c.s
 .PHONY : __/nls/nls_ua.c.s
 
 __/nls/nls_uni.o: __/nls/nls_uni.c.o
@@ -1927,7 +1927,7 @@ __/nls/nls_uni.o: __/nls/nls_uni.c.o
 
 # target to build an object file
 __/nls/nls_uni.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_uni.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_uni.c.o
 .PHONY : __/nls/nls_uni.c.o
 
 __/nls/nls_uni.i: __/nls/nls_uni.c.i
@@ -1935,7 +1935,7 @@ __/nls/nls_uni.i: __/nls/nls_uni.c.i
 
 # target to preprocess a source file
 __/nls/nls_uni.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_uni.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_uni.c.i
 .PHONY : __/nls/nls_uni.c.i
 
 __/nls/nls_uni.s: __/nls/nls_uni.c.s
@@ -1943,7 +1943,7 @@ __/nls/nls_uni.s: __/nls/nls_uni.c.s
 
 # target to generate assembly for a file
 __/nls/nls_uni.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_uni.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_uni.c.s
 .PHONY : __/nls/nls_uni.c.s
 
 __/nls/nls_zh.o: __/nls/nls_zh.c.o
@@ -1951,7 +1951,7 @@ __/nls/nls_zh.o: __/nls/nls_zh.c.o
 
 # target to build an object file
 __/nls/nls_zh.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_zh.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_zh.c.o
 .PHONY : __/nls/nls_zh.c.o
 
 __/nls/nls_zh.i: __/nls/nls_zh.c.i
@@ -1959,7 +1959,7 @@ __/nls/nls_zh.i: __/nls/nls_zh.c.i
 
 # target to preprocess a source file
 __/nls/nls_zh.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_zh.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_zh.c.i
 .PHONY : __/nls/nls_zh.c.i
 
 __/nls/nls_zh.s: __/nls/nls_zh.c.s
@@ -1967,7 +1967,7 @@ __/nls/nls_zh.s: __/nls/nls_zh.c.s
 
 # target to generate assembly for a file
 __/nls/nls_zh.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_zh.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/__/nls/nls_zh.c.s
 .PHONY : __/nls/nls_zh.c.s
 
 mbfilter.o: mbfilter.c.o
@@ -1975,7 +1975,7 @@ mbfilter.o: mbfilter.c.o
 
 # target to build an object file
 mbfilter.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter.c.o
 .PHONY : mbfilter.c.o
 
 mbfilter.i: mbfilter.c.i
@@ -1983,7 +1983,7 @@ mbfilter.i: mbfilter.c.i
 
 # target to preprocess a source file
 mbfilter.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter.c.i
 .PHONY : mbfilter.c.i
 
 mbfilter.s: mbfilter.c.s
@@ -1991,7 +1991,7 @@ mbfilter.s: mbfilter.c.s
 
 # target to generate assembly for a file
 mbfilter.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter.c.s
 .PHONY : mbfilter.c.s
 
 mbfilter_8bit.o: mbfilter_8bit.c.o
@@ -1999,7 +1999,7 @@ mbfilter_8bit.o: mbfilter_8bit.c.o
 
 # target to build an object file
 mbfilter_8bit.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_8bit.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_8bit.c.o
 .PHONY : mbfilter_8bit.c.o
 
 mbfilter_8bit.i: mbfilter_8bit.c.i
@@ -2007,7 +2007,7 @@ mbfilter_8bit.i: mbfilter_8bit.c.i
 
 # target to preprocess a source file
 mbfilter_8bit.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_8bit.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_8bit.c.i
 .PHONY : mbfilter_8bit.c.i
 
 mbfilter_8bit.s: mbfilter_8bit.c.s
@@ -2015,7 +2015,7 @@ mbfilter_8bit.s: mbfilter_8bit.c.s
 
 # target to generate assembly for a file
 mbfilter_8bit.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_8bit.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_8bit.c.s
 .PHONY : mbfilter_8bit.c.s
 
 mbfilter_pass.o: mbfilter_pass.c.o
@@ -2023,7 +2023,7 @@ mbfilter_pass.o: mbfilter_pass.c.o
 
 # target to build an object file
 mbfilter_pass.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_pass.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_pass.c.o
 .PHONY : mbfilter_pass.c.o
 
 mbfilter_pass.i: mbfilter_pass.c.i
@@ -2031,7 +2031,7 @@ mbfilter_pass.i: mbfilter_pass.c.i
 
 # target to preprocess a source file
 mbfilter_pass.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_pass.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_pass.c.i
 .PHONY : mbfilter_pass.c.i
 
 mbfilter_pass.s: mbfilter_pass.c.s
@@ -2039,7 +2039,7 @@ mbfilter_pass.s: mbfilter_pass.c.s
 
 # target to generate assembly for a file
 mbfilter_pass.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_pass.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_pass.c.s
 .PHONY : mbfilter_pass.c.s
 
 mbfilter_wchar.o: mbfilter_wchar.c.o
@@ -2047,7 +2047,7 @@ mbfilter_wchar.o: mbfilter_wchar.c.o
 
 # target to build an object file
 mbfilter_wchar.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_wchar.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_wchar.c.o
 .PHONY : mbfilter_wchar.c.o
 
 mbfilter_wchar.i: mbfilter_wchar.c.i
@@ -2055,7 +2055,7 @@ mbfilter_wchar.i: mbfilter_wchar.c.i
 
 # target to preprocess a source file
 mbfilter_wchar.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_wchar.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_wchar.c.i
 .PHONY : mbfilter_wchar.c.i
 
 mbfilter_wchar.s: mbfilter_wchar.c.s
@@ -2063,7 +2063,7 @@ mbfilter_wchar.s: mbfilter_wchar.c.s
 
 # target to generate assembly for a file
 mbfilter_wchar.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_wchar.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfilter_wchar.c.s
 .PHONY : mbfilter_wchar.c.s
 
 mbfl_allocators.o: mbfl_allocators.c.o
@@ -2071,7 +2071,7 @@ mbfl_allocators.o: mbfl_allocators.c.o
 
 # target to build an object file
 mbfl_allocators.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_allocators.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_allocators.c.o
 .PHONY : mbfl_allocators.c.o
 
 mbfl_allocators.i: mbfl_allocators.c.i
@@ -2079,7 +2079,7 @@ mbfl_allocators.i: mbfl_allocators.c.i
 
 # target to preprocess a source file
 mbfl_allocators.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_allocators.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_allocators.c.i
 .PHONY : mbfl_allocators.c.i
 
 mbfl_allocators.s: mbfl_allocators.c.s
@@ -2087,7 +2087,7 @@ mbfl_allocators.s: mbfl_allocators.c.s
 
 # target to generate assembly for a file
 mbfl_allocators.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_allocators.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_allocators.c.s
 .PHONY : mbfl_allocators.c.s
 
 mbfl_convert.o: mbfl_convert.c.o
@@ -2095,7 +2095,7 @@ mbfl_convert.o: mbfl_convert.c.o
 
 # target to build an object file
 mbfl_convert.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_convert.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_convert.c.o
 .PHONY : mbfl_convert.c.o
 
 mbfl_convert.i: mbfl_convert.c.i
@@ -2103,7 +2103,7 @@ mbfl_convert.i: mbfl_convert.c.i
 
 # target to preprocess a source file
 mbfl_convert.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_convert.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_convert.c.i
 .PHONY : mbfl_convert.c.i
 
 mbfl_convert.s: mbfl_convert.c.s
@@ -2111,7 +2111,7 @@ mbfl_convert.s: mbfl_convert.c.s
 
 # target to generate assembly for a file
 mbfl_convert.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_convert.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_convert.c.s
 .PHONY : mbfl_convert.c.s
 
 mbfl_encoding.o: mbfl_encoding.c.o
@@ -2119,7 +2119,7 @@ mbfl_encoding.o: mbfl_encoding.c.o
 
 # target to build an object file
 mbfl_encoding.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_encoding.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_encoding.c.o
 .PHONY : mbfl_encoding.c.o
 
 mbfl_encoding.i: mbfl_encoding.c.i
@@ -2127,7 +2127,7 @@ mbfl_encoding.i: mbfl_encoding.c.i
 
 # target to preprocess a source file
 mbfl_encoding.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_encoding.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_encoding.c.i
 .PHONY : mbfl_encoding.c.i
 
 mbfl_encoding.s: mbfl_encoding.c.s
@@ -2135,7 +2135,7 @@ mbfl_encoding.s: mbfl_encoding.c.s
 
 # target to generate assembly for a file
 mbfl_encoding.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_encoding.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_encoding.c.s
 .PHONY : mbfl_encoding.c.s
 
 mbfl_filter_output.o: mbfl_filter_output.c.o
@@ -2143,7 +2143,7 @@ mbfl_filter_output.o: mbfl_filter_output.c.o
 
 # target to build an object file
 mbfl_filter_output.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_filter_output.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_filter_output.c.o
 .PHONY : mbfl_filter_output.c.o
 
 mbfl_filter_output.i: mbfl_filter_output.c.i
@@ -2151,7 +2151,7 @@ mbfl_filter_output.i: mbfl_filter_output.c.i
 
 # target to preprocess a source file
 mbfl_filter_output.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_filter_output.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_filter_output.c.i
 .PHONY : mbfl_filter_output.c.i
 
 mbfl_filter_output.s: mbfl_filter_output.c.s
@@ -2159,7 +2159,7 @@ mbfl_filter_output.s: mbfl_filter_output.c.s
 
 # target to generate assembly for a file
 mbfl_filter_output.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_filter_output.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_filter_output.c.s
 .PHONY : mbfl_filter_output.c.s
 
 mbfl_ident.o: mbfl_ident.c.o
@@ -2167,7 +2167,7 @@ mbfl_ident.o: mbfl_ident.c.o
 
 # target to build an object file
 mbfl_ident.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_ident.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_ident.c.o
 .PHONY : mbfl_ident.c.o
 
 mbfl_ident.i: mbfl_ident.c.i
@@ -2175,7 +2175,7 @@ mbfl_ident.i: mbfl_ident.c.i
 
 # target to preprocess a source file
 mbfl_ident.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_ident.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_ident.c.i
 .PHONY : mbfl_ident.c.i
 
 mbfl_ident.s: mbfl_ident.c.s
@@ -2183,7 +2183,7 @@ mbfl_ident.s: mbfl_ident.c.s
 
 # target to generate assembly for a file
 mbfl_ident.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_ident.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_ident.c.s
 .PHONY : mbfl_ident.c.s
 
 mbfl_language.o: mbfl_language.c.o
@@ -2191,7 +2191,7 @@ mbfl_language.o: mbfl_language.c.o
 
 # target to build an object file
 mbfl_language.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_language.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_language.c.o
 .PHONY : mbfl_language.c.o
 
 mbfl_language.i: mbfl_language.c.i
@@ -2199,7 +2199,7 @@ mbfl_language.i: mbfl_language.c.i
 
 # target to preprocess a source file
 mbfl_language.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_language.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_language.c.i
 .PHONY : mbfl_language.c.i
 
 mbfl_language.s: mbfl_language.c.s
@@ -2207,7 +2207,7 @@ mbfl_language.s: mbfl_language.c.s
 
 # target to generate assembly for a file
 mbfl_language.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_language.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_language.c.s
 .PHONY : mbfl_language.c.s
 
 mbfl_memory_device.o: mbfl_memory_device.c.o
@@ -2215,7 +2215,7 @@ mbfl_memory_device.o: mbfl_memory_device.c.o
 
 # target to build an object file
 mbfl_memory_device.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_memory_device.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_memory_device.c.o
 .PHONY : mbfl_memory_device.c.o
 
 mbfl_memory_device.i: mbfl_memory_device.c.i
@@ -2223,7 +2223,7 @@ mbfl_memory_device.i: mbfl_memory_device.c.i
 
 # target to preprocess a source file
 mbfl_memory_device.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_memory_device.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_memory_device.c.i
 .PHONY : mbfl_memory_device.c.i
 
 mbfl_memory_device.s: mbfl_memory_device.c.s
@@ -2231,7 +2231,7 @@ mbfl_memory_device.s: mbfl_memory_device.c.s
 
 # target to generate assembly for a file
 mbfl_memory_device.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_memory_device.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_memory_device.c.s
 .PHONY : mbfl_memory_device.c.s
 
 mbfl_string.o: mbfl_string.c.o
@@ -2239,7 +2239,7 @@ mbfl_string.o: mbfl_string.c.o
 
 # target to build an object file
 mbfl_string.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_string.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_string.c.o
 .PHONY : mbfl_string.c.o
 
 mbfl_string.i: mbfl_string.c.i
@@ -2247,7 +2247,7 @@ mbfl_string.i: mbfl_string.c.i
 
 # target to preprocess a source file
 mbfl_string.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_string.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_string.c.i
 .PHONY : mbfl_string.c.i
 
 mbfl_string.s: mbfl_string.c.s
@@ -2255,7 +2255,7 @@ mbfl_string.s: mbfl_string.c.s
 
 # target to generate assembly for a file
 mbfl_string.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_string.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/build.make third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/mbfl_string.c.s
 .PHONY : mbfl_string.c.s
 
 # Help Target
@@ -2544,6 +2544,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

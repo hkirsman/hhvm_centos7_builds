@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.0
 
 # Utility rule file for webscalesqlclient.
 
@@ -58,56 +58,56 @@ third-party/webscalesqlclient/CMakeFiles/webscalesqlclient-complete: third-party
 third-party/webscalesqlclient/CMakeFiles/webscalesqlclient-complete: third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-configure
 third-party/webscalesqlclient/CMakeFiles/webscalesqlclient-complete: third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-build
 third-party/webscalesqlclient/CMakeFiles/webscalesqlclient-complete: third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-install
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Completed 'webscalesqlclient'"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient && /usr/bin/cmake -E make_directory /tmp/hhvm-3.11.1/third-party/webscalesqlclient/CMakeFiles
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient && /usr/bin/cmake -E touch /tmp/hhvm-3.11.1/third-party/webscalesqlclient/CMakeFiles/webscalesqlclient-complete
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient && /usr/bin/cmake -E touch /tmp/hhvm-3.11.1/third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-done
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient && /usr/bin/cmake -E make_directory /tmp/hhvm-3.12.0/third-party/webscalesqlclient/CMakeFiles
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient && /usr/bin/cmake -E touch /tmp/hhvm-3.12.0/third-party/webscalesqlclient/CMakeFiles/webscalesqlclient-complete
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient && /usr/bin/cmake -E touch /tmp/hhvm-3.12.0/third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-done
 
 third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-install: third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-build
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "No install step for 'webscalesqlclient'"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && /usr/bin/cmake -E touch /tmp/hhvm-3.11.1/third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-install
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src && /usr/bin/cmake -E touch /tmp/hhvm-3.12.0/third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-install
 
 third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-mkdir:
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Creating directories for 'webscalesqlclient'"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient && /usr/bin/cmake -E make_directory /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient && /usr/bin/cmake -E make_directory /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient && /usr/bin/cmake -E make_directory /tmp/hhvm-3.11.1/third-party/webscalesqlclient/build
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient && /usr/bin/cmake -E make_directory /tmp/hhvm-3.11.1/third-party/webscalesqlclient/build/tmp
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient && /usr/bin/cmake -E make_directory /tmp/hhvm-3.11.1/third-party/webscalesqlclient/build/src/webscalesqlclient-stamp
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient && /usr/bin/cmake -E make_directory /tmp/hhvm-3.11.1/third-party/webscalesqlclient/build/src
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient && /usr/bin/cmake -E touch /tmp/hhvm-3.11.1/third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-mkdir
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient && /usr/bin/cmake -E make_directory /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient && /usr/bin/cmake -E make_directory /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient && /usr/bin/cmake -E make_directory /tmp/hhvm-3.12.0/third-party/webscalesqlclient/build
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient && /usr/bin/cmake -E make_directory /tmp/hhvm-3.12.0/third-party/webscalesqlclient/build/tmp
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient && /usr/bin/cmake -E make_directory /tmp/hhvm-3.12.0/third-party/webscalesqlclient/build/src/webscalesqlclient-stamp
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient && /usr/bin/cmake -E make_directory /tmp/hhvm-3.12.0/third-party/webscalesqlclient/build/src
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient && /usr/bin/cmake -E touch /tmp/hhvm-3.12.0/third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-mkdir
 
 third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-download: third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-mkdir
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "No download step for 'webscalesqlclient'"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient && /usr/bin/cmake -E touch /tmp/hhvm-3.11.1/third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-download
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient && /usr/bin/cmake -E touch /tmp/hhvm-3.12.0/third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-download
 
 third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-update: third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-download
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "No update step for 'webscalesqlclient'"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient && /usr/bin/cmake -E touch /tmp/hhvm-3.11.1/third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-update
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient && /usr/bin/cmake -E touch /tmp/hhvm-3.12.0/third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-update
 
 third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-patch: third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-download
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "No patch step for 'webscalesqlclient'"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient && /usr/bin/cmake -E touch /tmp/hhvm-3.11.1/third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-patch
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient && /usr/bin/cmake -E touch /tmp/hhvm-3.12.0/third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-patch
 
 third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-configure: third-party/webscalesqlclient/build/tmp/webscalesqlclient-cfgcmd.txt
 third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-configure: third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-update
 third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-configure: third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-patch
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Performing configure step for 'webscalesqlclient'"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && /usr/bin/cmake -DWITHOUT_SERVER=TRUE -DDISABLE_SHARED=TRUE "-DCMAKE_C_FLAGS=-Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w" "-DCMAKE_CXX_FLAGS= -Wall -std=gnu++11 -ffunction-sections -fdata-sections -fno-gcse -fno-omit-frame-pointer -Woverloaded-virtual -Wno-deprecated -Wno-strict-aliasing -Wno-write-strings -Wno-invalid-offsetof -fno-operator-names -Wno-error=array-bounds -Wno-error=switch -Werror=format-security -Wno-unused-result -Wno-sign-compare -Wno-attributes -Wno-maybe-uninitialized -Wno-unused-local-typedefs -fno-canonical-system-headers -Wno-deprecated-declarations -Wno-unused-function -Wvla  -ftrack-macro-expansion=0 -fno-builtin-memcmp -mcrc32" -DCMAKE_C_COMPILER=/usr/bin/cc -DCMAKE_CXX_COMPILER=/usr/bin/c++ -DOPENSSL_INCLUDE_DIR=/usr/include -DOPENSSL_LIBRARY=/usr/lib64/libssl.so -DCRYPTO_LIBRARY=/usr/lib64/libcrypto.so "-GUnix Makefiles" /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && /usr/bin/cmake -E touch /tmp/hhvm-3.11.1/third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-configure
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src && /usr/bin/cmake -DWITHOUT_SERVER=TRUE -DDISABLE_SHARED=TRUE "-DCMAKE_C_FLAGS=-Wno-maybe-uninitialized   -ftrack-macro-expansion=0 -fno-builtin-memcmp -w" "-DCMAKE_CXX_FLAGS= -Wall -std=gnu++11 -ffunction-sections -fdata-sections -fno-gcse -fno-omit-frame-pointer -Woverloaded-virtual -Wno-deprecated -Wno-strict-aliasing -Wno-write-strings -Wno-invalid-offsetof -fno-operator-names -Wno-error=array-bounds -Wno-error=switch -Werror=format-security -Wno-unused-result -Wno-sign-compare -Wno-attributes -Wno-maybe-uninitialized -Wno-unused-local-typedefs -fno-canonical-system-headers -Wno-deprecated-declarations -Wno-unused-function -Wvla  -ftrack-macro-expansion=0 -fno-builtin-memcmp -mcrc32" -DCMAKE_C_COMPILER=/bin/cc -DCMAKE_CXX_COMPILER=/bin/c++ -DOPENSSL_INCLUDE_DIR=/usr/include -DOPENSSL_LIBRARY=/usr/lib64/libssl.so -DCRYPTO_LIBRARY=/usr/lib64/libcrypto.so "-GUnix Makefiles" /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src && /usr/bin/cmake -E touch /tmp/hhvm-3.12.0/third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-configure
 
 third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-build: third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-configure
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Performing build step for 'webscalesqlclient'"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -C libmysql
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && /usr/bin/cmake -E touch /tmp/hhvm-3.11.1/third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-build
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src && $(MAKE) -C libmysql
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src && /usr/bin/cmake -E touch /tmp/hhvm-3.12.0/third-party/webscalesqlclient/build/src/webscalesqlclient-stamp/webscalesqlclient-build
 
 webscalesqlclient: third-party/webscalesqlclient/CMakeFiles/webscalesqlclient
 webscalesqlclient: third-party/webscalesqlclient/CMakeFiles/webscalesqlclient-complete
@@ -126,10 +126,10 @@ third-party/webscalesqlclient/CMakeFiles/webscalesqlclient.dir/build: webscalesq
 .PHONY : third-party/webscalesqlclient/CMakeFiles/webscalesqlclient.dir/build
 
 third-party/webscalesqlclient/CMakeFiles/webscalesqlclient.dir/clean:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient && $(CMAKE_COMMAND) -P CMakeFiles/webscalesqlclient.dir/cmake_clean.cmake
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient && $(CMAKE_COMMAND) -P CMakeFiles/webscalesqlclient.dir/cmake_clean.cmake
 .PHONY : third-party/webscalesqlclient/CMakeFiles/webscalesqlclient.dir/clean
 
 third-party/webscalesqlclient/CMakeFiles/webscalesqlclient.dir/depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/third-party/webscalesqlclient /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/third-party/webscalesqlclient /tmp/hhvm-3.11.1/third-party/webscalesqlclient/CMakeFiles/webscalesqlclient.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.12.0 /tmp/hhvm-3.12.0/third-party/webscalesqlclient /tmp/hhvm-3.12.0 /tmp/hhvm-3.12.0/third-party/webscalesqlclient /tmp/hhvm-3.12.0/third-party/webscalesqlclient/CMakeFiles/webscalesqlclient.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : third-party/webscalesqlclient/CMakeFiles/webscalesqlclient.dir/depend
 

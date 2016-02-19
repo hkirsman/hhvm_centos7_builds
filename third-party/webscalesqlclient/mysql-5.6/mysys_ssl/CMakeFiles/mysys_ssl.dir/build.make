@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src
 
 # Include any dependencies generated for this target.
 include mysys_ssl/CMakeFiles/mysys_ssl.dir/depend.make
@@ -54,17 +54,17 @@ include mysys_ssl/CMakeFiles/mysys_ssl.dir/flags.make
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/crypt_genhash_impl.cc.o: mysys_ssl/CMakeFiles/mysys_ssl.dir/flags.make
 mysys_ssl/CMakeFiles/mysys_ssl.dir/crypt_genhash_impl.cc.o: mysys_ssl/crypt_genhash_impl.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object mysys_ssl/CMakeFiles/mysys_ssl.dir/crypt_genhash_impl.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mysys_ssl.dir/crypt_genhash_impl.cc.o -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/crypt_genhash_impl.cc
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mysys_ssl.dir/crypt_genhash_impl.cc.o -c /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl/crypt_genhash_impl.cc
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/crypt_genhash_impl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mysys_ssl.dir/crypt_genhash_impl.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/crypt_genhash_impl.cc > CMakeFiles/mysys_ssl.dir/crypt_genhash_impl.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl/crypt_genhash_impl.cc > CMakeFiles/mysys_ssl.dir/crypt_genhash_impl.cc.i
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/crypt_genhash_impl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mysys_ssl.dir/crypt_genhash_impl.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/crypt_genhash_impl.cc -o CMakeFiles/mysys_ssl.dir/crypt_genhash_impl.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl/crypt_genhash_impl.cc -o CMakeFiles/mysys_ssl.dir/crypt_genhash_impl.cc.s
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/crypt_genhash_impl.cc.o.requires:
 .PHONY : mysys_ssl/CMakeFiles/mysys_ssl.dir/crypt_genhash_impl.cc.o.requires
@@ -77,17 +77,17 @@ mysys_ssl/CMakeFiles/mysys_ssl.dir/crypt_genhash_impl.cc.o.provides.build: mysys
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_default.cc.o: mysys_ssl/CMakeFiles/mysys_ssl.dir/flags.make
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_default.cc.o: mysys_ssl/my_default.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object mysys_ssl/CMakeFiles/mysys_ssl.dir/my_default.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mysys_ssl.dir/my_default.cc.o -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_default.cc
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mysys_ssl.dir/my_default.cc.o -c /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl/my_default.cc
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_default.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mysys_ssl.dir/my_default.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_default.cc > CMakeFiles/mysys_ssl.dir/my_default.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl/my_default.cc > CMakeFiles/mysys_ssl.dir/my_default.cc.i
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_default.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mysys_ssl.dir/my_default.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_default.cc -o CMakeFiles/mysys_ssl.dir/my_default.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl/my_default.cc -o CMakeFiles/mysys_ssl.dir/my_default.cc.s
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_default.cc.o.requires:
 .PHONY : mysys_ssl/CMakeFiles/mysys_ssl.dir/my_default.cc.o.requires
@@ -100,17 +100,17 @@ mysys_ssl/CMakeFiles/mysys_ssl.dir/my_default.cc.o.provides.build: mysys_ssl/CMa
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_getopt.cc.o: mysys_ssl/CMakeFiles/mysys_ssl.dir/flags.make
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_getopt.cc.o: mysys_ssl/my_getopt.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object mysys_ssl/CMakeFiles/mysys_ssl.dir/my_getopt.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mysys_ssl.dir/my_getopt.cc.o -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_getopt.cc
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mysys_ssl.dir/my_getopt.cc.o -c /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl/my_getopt.cc
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_getopt.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mysys_ssl.dir/my_getopt.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_getopt.cc > CMakeFiles/mysys_ssl.dir/my_getopt.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl/my_getopt.cc > CMakeFiles/mysys_ssl.dir/my_getopt.cc.i
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_getopt.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mysys_ssl.dir/my_getopt.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_getopt.cc -o CMakeFiles/mysys_ssl.dir/my_getopt.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl/my_getopt.cc -o CMakeFiles/mysys_ssl.dir/my_getopt.cc.s
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_getopt.cc.o.requires:
 .PHONY : mysys_ssl/CMakeFiles/mysys_ssl.dir/my_getopt.cc.o.requires
@@ -123,17 +123,17 @@ mysys_ssl/CMakeFiles/mysys_ssl.dir/my_getopt.cc.o.provides.build: mysys_ssl/CMak
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_aes.cc.o: mysys_ssl/CMakeFiles/mysys_ssl.dir/flags.make
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_aes.cc.o: mysys_ssl/my_aes.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object mysys_ssl/CMakeFiles/mysys_ssl.dir/my_aes.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mysys_ssl.dir/my_aes.cc.o -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_aes.cc
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mysys_ssl.dir/my_aes.cc.o -c /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl/my_aes.cc
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_aes.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mysys_ssl.dir/my_aes.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_aes.cc > CMakeFiles/mysys_ssl.dir/my_aes.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl/my_aes.cc > CMakeFiles/mysys_ssl.dir/my_aes.cc.i
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_aes.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mysys_ssl.dir/my_aes.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_aes.cc -o CMakeFiles/mysys_ssl.dir/my_aes.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl/my_aes.cc -o CMakeFiles/mysys_ssl.dir/my_aes.cc.s
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_aes.cc.o.requires:
 .PHONY : mysys_ssl/CMakeFiles/mysys_ssl.dir/my_aes.cc.o.requires
@@ -146,17 +146,17 @@ mysys_ssl/CMakeFiles/mysys_ssl.dir/my_aes.cc.o.provides.build: mysys_ssl/CMakeFi
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_sha1.cc.o: mysys_ssl/CMakeFiles/mysys_ssl.dir/flags.make
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_sha1.cc.o: mysys_ssl/my_sha1.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object mysys_ssl/CMakeFiles/mysys_ssl.dir/my_sha1.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mysys_ssl.dir/my_sha1.cc.o -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_sha1.cc
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mysys_ssl.dir/my_sha1.cc.o -c /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl/my_sha1.cc
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_sha1.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mysys_ssl.dir/my_sha1.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_sha1.cc > CMakeFiles/mysys_ssl.dir/my_sha1.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl/my_sha1.cc > CMakeFiles/mysys_ssl.dir/my_sha1.cc.i
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_sha1.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mysys_ssl.dir/my_sha1.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_sha1.cc -o CMakeFiles/mysys_ssl.dir/my_sha1.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl/my_sha1.cc -o CMakeFiles/mysys_ssl.dir/my_sha1.cc.s
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_sha1.cc.o.requires:
 .PHONY : mysys_ssl/CMakeFiles/mysys_ssl.dir/my_sha1.cc.o.requires
@@ -169,17 +169,17 @@ mysys_ssl/CMakeFiles/mysys_ssl.dir/my_sha1.cc.o.provides.build: mysys_ssl/CMakeF
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_sha2.cc.o: mysys_ssl/CMakeFiles/mysys_ssl.dir/flags.make
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_sha2.cc.o: mysys_ssl/my_sha2.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object mysys_ssl/CMakeFiles/mysys_ssl.dir/my_sha2.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mysys_ssl.dir/my_sha2.cc.o -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_sha2.cc
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mysys_ssl.dir/my_sha2.cc.o -c /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl/my_sha2.cc
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_sha2.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mysys_ssl.dir/my_sha2.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_sha2.cc > CMakeFiles/mysys_ssl.dir/my_sha2.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl/my_sha2.cc > CMakeFiles/mysys_ssl.dir/my_sha2.cc.i
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_sha2.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mysys_ssl.dir/my_sha2.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_sha2.cc -o CMakeFiles/mysys_ssl.dir/my_sha2.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl/my_sha2.cc -o CMakeFiles/mysys_ssl.dir/my_sha2.cc.s
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_sha2.cc.o.requires:
 .PHONY : mysys_ssl/CMakeFiles/mysys_ssl.dir/my_sha2.cc.o.requires
@@ -192,17 +192,17 @@ mysys_ssl/CMakeFiles/mysys_ssl.dir/my_sha2.cc.o.provides.build: mysys_ssl/CMakeF
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_md5.cc.o: mysys_ssl/CMakeFiles/mysys_ssl.dir/flags.make
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_md5.cc.o: mysys_ssl/my_md5.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object mysys_ssl/CMakeFiles/mysys_ssl.dir/my_md5.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mysys_ssl.dir/my_md5.cc.o -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_md5.cc
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mysys_ssl.dir/my_md5.cc.o -c /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl/my_md5.cc
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_md5.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mysys_ssl.dir/my_md5.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_md5.cc > CMakeFiles/mysys_ssl.dir/my_md5.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl/my_md5.cc > CMakeFiles/mysys_ssl.dir/my_md5.cc.i
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_md5.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mysys_ssl.dir/my_md5.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_md5.cc -o CMakeFiles/mysys_ssl.dir/my_md5.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl/my_md5.cc -o CMakeFiles/mysys_ssl.dir/my_md5.cc.s
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_md5.cc.o.requires:
 .PHONY : mysys_ssl/CMakeFiles/mysys_ssl.dir/my_md5.cc.o.requires
@@ -215,17 +215,17 @@ mysys_ssl/CMakeFiles/mysys_ssl.dir/my_md5.cc.o.provides.build: mysys_ssl/CMakeFi
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_rnd.cc.o: mysys_ssl/CMakeFiles/mysys_ssl.dir/flags.make
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_rnd.cc.o: mysys_ssl/my_rnd.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object mysys_ssl/CMakeFiles/mysys_ssl.dir/my_rnd.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mysys_ssl.dir/my_rnd.cc.o -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_rnd.cc
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mysys_ssl.dir/my_rnd.cc.o -c /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl/my_rnd.cc
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_rnd.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mysys_ssl.dir/my_rnd.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_rnd.cc > CMakeFiles/mysys_ssl.dir/my_rnd.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl/my_rnd.cc > CMakeFiles/mysys_ssl.dir/my_rnd.cc.i
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_rnd.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mysys_ssl.dir/my_rnd.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_rnd.cc -o CMakeFiles/mysys_ssl.dir/my_rnd.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl/my_rnd.cc -o CMakeFiles/mysys_ssl.dir/my_rnd.cc.s
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_rnd.cc.o.requires:
 .PHONY : mysys_ssl/CMakeFiles/mysys_ssl.dir/my_rnd.cc.o.requires
@@ -238,17 +238,17 @@ mysys_ssl/CMakeFiles/mysys_ssl.dir/my_rnd.cc.o.provides.build: mysys_ssl/CMakeFi
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_murmur3.cc.o: mysys_ssl/CMakeFiles/mysys_ssl.dir/flags.make
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_murmur3.cc.o: mysys_ssl/my_murmur3.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object mysys_ssl/CMakeFiles/mysys_ssl.dir/my_murmur3.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mysys_ssl.dir/my_murmur3.cc.o -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_murmur3.cc
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mysys_ssl.dir/my_murmur3.cc.o -c /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl/my_murmur3.cc
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_murmur3.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mysys_ssl.dir/my_murmur3.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_murmur3.cc > CMakeFiles/mysys_ssl.dir/my_murmur3.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl/my_murmur3.cc > CMakeFiles/mysys_ssl.dir/my_murmur3.cc.i
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_murmur3.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mysys_ssl.dir/my_murmur3.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_murmur3.cc -o CMakeFiles/mysys_ssl.dir/my_murmur3.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl/my_murmur3.cc -o CMakeFiles/mysys_ssl.dir/my_murmur3.cc.s
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_murmur3.cc.o.requires:
 .PHONY : mysys_ssl/CMakeFiles/mysys_ssl.dir/my_murmur3.cc.o.requires
@@ -261,17 +261,17 @@ mysys_ssl/CMakeFiles/mysys_ssl.dir/my_murmur3.cc.o.provides.build: mysys_ssl/CMa
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_aes_openssl.cc.o: mysys_ssl/CMakeFiles/mysys_ssl.dir/flags.make
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_aes_openssl.cc.o: mysys_ssl/my_aes_openssl.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object mysys_ssl/CMakeFiles/mysys_ssl.dir/my_aes_openssl.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mysys_ssl.dir/my_aes_openssl.cc.o -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_aes_openssl.cc
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mysys_ssl.dir/my_aes_openssl.cc.o -c /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl/my_aes_openssl.cc
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_aes_openssl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mysys_ssl.dir/my_aes_openssl.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_aes_openssl.cc > CMakeFiles/mysys_ssl.dir/my_aes_openssl.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl/my_aes_openssl.cc > CMakeFiles/mysys_ssl.dir/my_aes_openssl.cc.i
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_aes_openssl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mysys_ssl.dir/my_aes_openssl.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_aes_openssl.cc -o CMakeFiles/mysys_ssl.dir/my_aes_openssl.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl/my_aes_openssl.cc -o CMakeFiles/mysys_ssl.dir/my_aes_openssl.cc.s
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/my_aes_openssl.cc.o.requires:
 .PHONY : mysys_ssl/CMakeFiles/mysys_ssl.dir/my_aes_openssl.cc.o.requires
@@ -311,8 +311,8 @@ mysys_ssl/libmysys_ssl.a: mysys_ssl/CMakeFiles/mysys_ssl.dir/my_aes_openssl.cc.o
 mysys_ssl/libmysys_ssl.a: mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make
 mysys_ssl/libmysys_ssl.a: mysys_ssl/CMakeFiles/mysys_ssl.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libmysys_ssl.a"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl && $(CMAKE_COMMAND) -P CMakeFiles/mysys_ssl.dir/cmake_clean_target.cmake
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mysys_ssl.dir/link.txt --verbose=$(VERBOSE)
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl && $(CMAKE_COMMAND) -P CMakeFiles/mysys_ssl.dir/cmake_clean_target.cmake
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mysys_ssl.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 mysys_ssl/CMakeFiles/mysys_ssl.dir/build: mysys_ssl/libmysys_ssl.a
@@ -331,10 +331,10 @@ mysys_ssl/CMakeFiles/mysys_ssl.dir/requires: mysys_ssl/CMakeFiles/mysys_ssl.dir/
 .PHONY : mysys_ssl/CMakeFiles/mysys_ssl.dir/requires
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/clean:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl && $(CMAKE_COMMAND) -P CMakeFiles/mysys_ssl.dir/cmake_clean.cmake
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl && $(CMAKE_COMMAND) -P CMakeFiles/mysys_ssl.dir/cmake_clean.cmake
 .PHONY : mysys_ssl/CMakeFiles/mysys_ssl.dir/clean
 
 mysys_ssl/CMakeFiles/mysys_ssl.dir/depend:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/CMakeFiles/mysys_ssl.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/mysys_ssl/CMakeFiles/mysys_ssl.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : mysys_ssl/CMakeFiles/mysys_ssl.dir/depend
 

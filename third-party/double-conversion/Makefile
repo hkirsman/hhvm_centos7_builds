@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.0
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles /tmp/hhvm-3.11.1/third-party/double-conversion/CMakeFiles/progress.marks
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/double-conversion/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles 0
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.0/CMakeFiles /tmp/hhvm-3.12.0/third-party/double-conversion/CMakeFiles/progress.marks
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/double-conversion/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.0/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/double-conversion/clean
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/double-conversion/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/double-conversion/preinstall
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/double-conversion/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/double-conversion/preinstall
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/double-conversion/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 third-party/double-conversion/CMakeFiles/double-conversion.dir/rule:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/double-conversion/CMakeFiles/double-conversion.dir/rule
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/double-conversion/CMakeFiles/double-conversion.dir/rule
 .PHONY : third-party/double-conversion/CMakeFiles/double-conversion.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ double-conversion: third-party/double-conversion/CMakeFiles/double-conversion.di
 
 # fast build rule for target.
 double-conversion/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/build
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/build
 .PHONY : double-conversion/fast
 
 src/double-conversion/bignum-dtoa.o: src/double-conversion/bignum-dtoa.cc.o
@@ -161,7 +161,7 @@ src/double-conversion/bignum-dtoa.o: src/double-conversion/bignum-dtoa.cc.o
 
 # target to build an object file
 src/double-conversion/bignum-dtoa.cc.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/bignum-dtoa.cc.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/bignum-dtoa.cc.o
 .PHONY : src/double-conversion/bignum-dtoa.cc.o
 
 src/double-conversion/bignum-dtoa.i: src/double-conversion/bignum-dtoa.cc.i
@@ -169,7 +169,7 @@ src/double-conversion/bignum-dtoa.i: src/double-conversion/bignum-dtoa.cc.i
 
 # target to preprocess a source file
 src/double-conversion/bignum-dtoa.cc.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/bignum-dtoa.cc.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/bignum-dtoa.cc.i
 .PHONY : src/double-conversion/bignum-dtoa.cc.i
 
 src/double-conversion/bignum-dtoa.s: src/double-conversion/bignum-dtoa.cc.s
@@ -177,7 +177,7 @@ src/double-conversion/bignum-dtoa.s: src/double-conversion/bignum-dtoa.cc.s
 
 # target to generate assembly for a file
 src/double-conversion/bignum-dtoa.cc.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/bignum-dtoa.cc.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/bignum-dtoa.cc.s
 .PHONY : src/double-conversion/bignum-dtoa.cc.s
 
 src/double-conversion/bignum.o: src/double-conversion/bignum.cc.o
@@ -185,7 +185,7 @@ src/double-conversion/bignum.o: src/double-conversion/bignum.cc.o
 
 # target to build an object file
 src/double-conversion/bignum.cc.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/bignum.cc.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/bignum.cc.o
 .PHONY : src/double-conversion/bignum.cc.o
 
 src/double-conversion/bignum.i: src/double-conversion/bignum.cc.i
@@ -193,7 +193,7 @@ src/double-conversion/bignum.i: src/double-conversion/bignum.cc.i
 
 # target to preprocess a source file
 src/double-conversion/bignum.cc.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/bignum.cc.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/bignum.cc.i
 .PHONY : src/double-conversion/bignum.cc.i
 
 src/double-conversion/bignum.s: src/double-conversion/bignum.cc.s
@@ -201,7 +201,7 @@ src/double-conversion/bignum.s: src/double-conversion/bignum.cc.s
 
 # target to generate assembly for a file
 src/double-conversion/bignum.cc.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/bignum.cc.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/bignum.cc.s
 .PHONY : src/double-conversion/bignum.cc.s
 
 src/double-conversion/cached-powers.o: src/double-conversion/cached-powers.cc.o
@@ -209,7 +209,7 @@ src/double-conversion/cached-powers.o: src/double-conversion/cached-powers.cc.o
 
 # target to build an object file
 src/double-conversion/cached-powers.cc.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/cached-powers.cc.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/cached-powers.cc.o
 .PHONY : src/double-conversion/cached-powers.cc.o
 
 src/double-conversion/cached-powers.i: src/double-conversion/cached-powers.cc.i
@@ -217,7 +217,7 @@ src/double-conversion/cached-powers.i: src/double-conversion/cached-powers.cc.i
 
 # target to preprocess a source file
 src/double-conversion/cached-powers.cc.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/cached-powers.cc.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/cached-powers.cc.i
 .PHONY : src/double-conversion/cached-powers.cc.i
 
 src/double-conversion/cached-powers.s: src/double-conversion/cached-powers.cc.s
@@ -225,7 +225,7 @@ src/double-conversion/cached-powers.s: src/double-conversion/cached-powers.cc.s
 
 # target to generate assembly for a file
 src/double-conversion/cached-powers.cc.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/cached-powers.cc.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/cached-powers.cc.s
 .PHONY : src/double-conversion/cached-powers.cc.s
 
 src/double-conversion/diy-fp.o: src/double-conversion/diy-fp.cc.o
@@ -233,7 +233,7 @@ src/double-conversion/diy-fp.o: src/double-conversion/diy-fp.cc.o
 
 # target to build an object file
 src/double-conversion/diy-fp.cc.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/diy-fp.cc.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/diy-fp.cc.o
 .PHONY : src/double-conversion/diy-fp.cc.o
 
 src/double-conversion/diy-fp.i: src/double-conversion/diy-fp.cc.i
@@ -241,7 +241,7 @@ src/double-conversion/diy-fp.i: src/double-conversion/diy-fp.cc.i
 
 # target to preprocess a source file
 src/double-conversion/diy-fp.cc.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/diy-fp.cc.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/diy-fp.cc.i
 .PHONY : src/double-conversion/diy-fp.cc.i
 
 src/double-conversion/diy-fp.s: src/double-conversion/diy-fp.cc.s
@@ -249,7 +249,7 @@ src/double-conversion/diy-fp.s: src/double-conversion/diy-fp.cc.s
 
 # target to generate assembly for a file
 src/double-conversion/diy-fp.cc.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/diy-fp.cc.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/diy-fp.cc.s
 .PHONY : src/double-conversion/diy-fp.cc.s
 
 src/double-conversion/double-conversion.o: src/double-conversion/double-conversion.cc.o
@@ -257,7 +257,7 @@ src/double-conversion/double-conversion.o: src/double-conversion/double-conversi
 
 # target to build an object file
 src/double-conversion/double-conversion.cc.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/double-conversion.cc.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/double-conversion.cc.o
 .PHONY : src/double-conversion/double-conversion.cc.o
 
 src/double-conversion/double-conversion.i: src/double-conversion/double-conversion.cc.i
@@ -265,7 +265,7 @@ src/double-conversion/double-conversion.i: src/double-conversion/double-conversi
 
 # target to preprocess a source file
 src/double-conversion/double-conversion.cc.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/double-conversion.cc.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/double-conversion.cc.i
 .PHONY : src/double-conversion/double-conversion.cc.i
 
 src/double-conversion/double-conversion.s: src/double-conversion/double-conversion.cc.s
@@ -273,7 +273,7 @@ src/double-conversion/double-conversion.s: src/double-conversion/double-conversi
 
 # target to generate assembly for a file
 src/double-conversion/double-conversion.cc.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/double-conversion.cc.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/double-conversion.cc.s
 .PHONY : src/double-conversion/double-conversion.cc.s
 
 src/double-conversion/fast-dtoa.o: src/double-conversion/fast-dtoa.cc.o
@@ -281,7 +281,7 @@ src/double-conversion/fast-dtoa.o: src/double-conversion/fast-dtoa.cc.o
 
 # target to build an object file
 src/double-conversion/fast-dtoa.cc.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/fast-dtoa.cc.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/fast-dtoa.cc.o
 .PHONY : src/double-conversion/fast-dtoa.cc.o
 
 src/double-conversion/fast-dtoa.i: src/double-conversion/fast-dtoa.cc.i
@@ -289,7 +289,7 @@ src/double-conversion/fast-dtoa.i: src/double-conversion/fast-dtoa.cc.i
 
 # target to preprocess a source file
 src/double-conversion/fast-dtoa.cc.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/fast-dtoa.cc.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/fast-dtoa.cc.i
 .PHONY : src/double-conversion/fast-dtoa.cc.i
 
 src/double-conversion/fast-dtoa.s: src/double-conversion/fast-dtoa.cc.s
@@ -297,7 +297,7 @@ src/double-conversion/fast-dtoa.s: src/double-conversion/fast-dtoa.cc.s
 
 # target to generate assembly for a file
 src/double-conversion/fast-dtoa.cc.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/fast-dtoa.cc.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/fast-dtoa.cc.s
 .PHONY : src/double-conversion/fast-dtoa.cc.s
 
 src/double-conversion/fixed-dtoa.o: src/double-conversion/fixed-dtoa.cc.o
@@ -305,7 +305,7 @@ src/double-conversion/fixed-dtoa.o: src/double-conversion/fixed-dtoa.cc.o
 
 # target to build an object file
 src/double-conversion/fixed-dtoa.cc.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/fixed-dtoa.cc.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/fixed-dtoa.cc.o
 .PHONY : src/double-conversion/fixed-dtoa.cc.o
 
 src/double-conversion/fixed-dtoa.i: src/double-conversion/fixed-dtoa.cc.i
@@ -313,7 +313,7 @@ src/double-conversion/fixed-dtoa.i: src/double-conversion/fixed-dtoa.cc.i
 
 # target to preprocess a source file
 src/double-conversion/fixed-dtoa.cc.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/fixed-dtoa.cc.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/fixed-dtoa.cc.i
 .PHONY : src/double-conversion/fixed-dtoa.cc.i
 
 src/double-conversion/fixed-dtoa.s: src/double-conversion/fixed-dtoa.cc.s
@@ -321,7 +321,7 @@ src/double-conversion/fixed-dtoa.s: src/double-conversion/fixed-dtoa.cc.s
 
 # target to generate assembly for a file
 src/double-conversion/fixed-dtoa.cc.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/fixed-dtoa.cc.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/fixed-dtoa.cc.s
 .PHONY : src/double-conversion/fixed-dtoa.cc.s
 
 src/double-conversion/strtod.o: src/double-conversion/strtod.cc.o
@@ -329,7 +329,7 @@ src/double-conversion/strtod.o: src/double-conversion/strtod.cc.o
 
 # target to build an object file
 src/double-conversion/strtod.cc.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/strtod.cc.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/strtod.cc.o
 .PHONY : src/double-conversion/strtod.cc.o
 
 src/double-conversion/strtod.i: src/double-conversion/strtod.cc.i
@@ -337,7 +337,7 @@ src/double-conversion/strtod.i: src/double-conversion/strtod.cc.i
 
 # target to preprocess a source file
 src/double-conversion/strtod.cc.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/strtod.cc.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/strtod.cc.i
 .PHONY : src/double-conversion/strtod.cc.i
 
 src/double-conversion/strtod.s: src/double-conversion/strtod.cc.s
@@ -345,7 +345,7 @@ src/double-conversion/strtod.s: src/double-conversion/strtod.cc.s
 
 # target to generate assembly for a file
 src/double-conversion/strtod.cc.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/strtod.cc.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/strtod.cc.s
 .PHONY : src/double-conversion/strtod.cc.s
 
 # Help Target
@@ -396,6 +396,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

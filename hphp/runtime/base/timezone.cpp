@@ -27,6 +27,7 @@
 
 #include "hphp/util/functional.h"
 #include "hphp/util/logger.h"
+#include "hphp/util/lock.h"
 #include "hphp/util/text-util.h"
 
 namespace HPHP {
@@ -37,7 +38,6 @@ IMPLEMENT_RESOURCE_ALLOCATION(TimeZone)
 class GuessedTimeZone {
 public:
   std::string m_tzid;
-  std::string m_warning;
 
   GuessedTimeZone() {
     time_t the_time = time(0);
@@ -55,26 +55,11 @@ public:
       tzid = "UTC";
     }
     m_tzid = tzid;
-
-#define DATE_TZ_ERRMSG \
-  "It is not safe to rely on the system's timezone settings. Please use " \
-  "the date.timezone setting, the TZ environment variable or the " \
-  "date_default_timezone_set() function. In case you used any of those " \
-  "methods and you are still getting this warning, you most likely " \
-  "misspelled the timezone identifier. "
-
-    string_printf(m_warning, DATE_TZ_ERRMSG
-                  "We selected '%s' for '%s/%.1f/%s' instead", tzid,
-#ifdef _MSC_VER
-                  "Unknown", 0,
-#else
-                  ta ? ta->tm_zone : "Unknown",
-                  ta ? (float) (ta->tm_gmtoff / 3600) : 0,
-#endif
-                  ta ? (ta->tm_isdst ? "DST" : "no DST") : "Unknown");
   }
 };
 static GuessedTimeZone s_guessed_timezone;
+static Mutex s_tzdb_mutex;
+static std::atomic<const timelib_tzdb*> s_tzdb_cache { nullptr };
 
 ///////////////////////////////////////////////////////////////////////////////
 // statics
@@ -112,10 +97,18 @@ void timezone_init() {
   s_tzvCache = TimeZoneValidityCache::create(kMaxTimeZoneCache).release();
 }
 
+const timelib_tzdb* timezone_get_builtin_tzdb() {
+  if (s_tzdb_cache != nullptr) return s_tzdb_cache;
+
+  Lock tzdbLock(s_tzdb_mutex);
+  if (s_tzdb_cache == nullptr) s_tzdb_cache = timelib_builtin_db();
+  return s_tzdb_cache;
+}
+
 const timelib_tzdb *TimeZone::GetDatabase() {
   const timelib_tzdb *&Database = s_timezone_data->Database;
   if (Database == nullptr) {
-    Database = timelib_builtin_db();
+    Database = timezone_get_builtin_tzdb();
   }
   return Database;
 }
@@ -168,8 +161,6 @@ String TimeZone::CurrentName() {
     return String(env, CopyString);
   }
 
-  /* Try to guess timezone from system information */
-  raise_strict_warning(s_guessed_timezone.m_warning);
   return String(s_guessed_timezone.m_tzid);
 }
 

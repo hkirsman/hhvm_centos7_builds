@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/libmysql
+# Install script for directory: /tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/libmysql
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,10 +33,10 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Development")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/libmysql/libwebscalesqlclient.a")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/libmysql/libwebscalesqlclient.a")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Development")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Development")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE FILE FILES "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/libmysql/libwebscalesqlclient_r.a")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE FILE FILES "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/libmysql/libwebscalesqlclient_r.a")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Development")
 

@@ -1,1 +1,1 @@
-hhi/hhi.ml: Exit_status Filename GlobalConfig Hhi_win32res Option Path Relative_path Sys Tmp Unix
+hhi/hhi.ml: Exit_status Filename Find GlobalConfig Hhi_win32res Option Path Relative_path Sys Sys_utils Tmp Unix

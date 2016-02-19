@@ -48,12 +48,18 @@ hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.o: hphp/util/functional.h
 hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.o: hphp/util/hash-map-typedefs.h
 hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.o: hphp/util/hash.h
 hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.o: hphp/util/light-process.h
+hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.o: hphp/util/locale-portability.h
 hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.o: hphp/util/lock.h
 hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.o: hphp/util/log-file-flusher.h
 hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.o: hphp/util/logger-inl.h
 hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.o: hphp/util/logger.h
 hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.o: hphp/util/mutex.h
 hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.o: hphp/util/portability.h
+hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.o: hphp/util/portability/fnmatch.h
+hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.o: hphp/util/portability/glob.h
+hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.o: hphp/util/portability/rand_r.h
+hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.o: hphp/util/portability/strfmon.h
+hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.o: hphp/util/portability/strptime.h
 hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.o: hphp/util/process.h
 hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.o: hphp/util/rank.h
 hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.o: hphp/util/stack-trace.h
@@ -83,6 +89,7 @@ hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.o: third-party/folly/folly
 hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.o: third-party/folly/folly/Likely.h
 hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.o: third-party/folly/folly/Malloc.h
 hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.o: third-party/folly/folly/Memory.h
+hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.o: third-party/folly/folly/Portability.h
 hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.o: third-party/folly/folly/Preprocessor.h
 hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.o: third-party/folly/folly/RWSpinLock.h
@@ -103,6 +110,7 @@ hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.o: third-party/folly/folly
 hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/tools/hfsort/CMakeFiles/jit_sort.dir/jitsort.cpp.o: third-party/folly/folly/io/async/Request.h

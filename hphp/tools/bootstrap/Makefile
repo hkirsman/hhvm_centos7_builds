@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.0
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles /tmp/hhvm-3.11.1/hphp/tools/bootstrap/CMakeFiles/progress.marks
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/tools/bootstrap/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles 0
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.0/CMakeFiles /tmp/hhvm-3.12.0/hphp/tools/bootstrap/CMakeFiles/progress.marks
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/tools/bootstrap/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.0/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/tools/bootstrap/clean
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/tools/bootstrap/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/tools/bootstrap/preinstall
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/tools/bootstrap/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/tools/bootstrap/preinstall
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/tools/bootstrap/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 hphp/tools/bootstrap/CMakeFiles/gen-class-map.dir/rule:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/tools/bootstrap/CMakeFiles/gen-class-map.dir/rule
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/tools/bootstrap/CMakeFiles/gen-class-map.dir/rule
 .PHONY : hphp/tools/bootstrap/CMakeFiles/gen-class-map.dir/rule
 
 # Convenience name for target.
@@ -153,12 +153,12 @@ gen-class-map: hphp/tools/bootstrap/CMakeFiles/gen-class-map.dir/rule
 
 # fast build rule for target.
 gen-class-map/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-class-map.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-class-map.dir/build
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-class-map.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-class-map.dir/build
 .PHONY : gen-class-map/fast
 
 # Convenience name for target.
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/rule:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/rule
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/rule
 .PHONY : hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/rule
 
 # Convenience name for target.
@@ -167,12 +167,12 @@ gen-ext-hhvm: hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/rule
 
 # fast build rule for target.
 gen-ext-hhvm/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/build
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/build
 .PHONY : gen-ext-hhvm/fast
 
 # Convenience name for target.
 hphp/tools/bootstrap/CMakeFiles/gen-infotabs.dir/rule:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/tools/bootstrap/CMakeFiles/gen-infotabs.dir/rule
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/tools/bootstrap/CMakeFiles/gen-infotabs.dir/rule
 .PHONY : hphp/tools/bootstrap/CMakeFiles/gen-infotabs.dir/rule
 
 # Convenience name for target.
@@ -181,7 +181,7 @@ gen-infotabs: hphp/tools/bootstrap/CMakeFiles/gen-infotabs.dir/rule
 
 # fast build rule for target.
 gen-infotabs/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-infotabs.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-infotabs.dir/build
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-infotabs.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-infotabs.dir/build
 .PHONY : gen-infotabs/fast
 
 gen-class-map.o: gen-class-map.cpp.o
@@ -189,7 +189,7 @@ gen-class-map.o: gen-class-map.cpp.o
 
 # target to build an object file
 gen-class-map.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-class-map.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-class-map.dir/gen-class-map.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-class-map.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-class-map.dir/gen-class-map.cpp.o
 .PHONY : gen-class-map.cpp.o
 
 gen-class-map.i: gen-class-map.cpp.i
@@ -197,7 +197,7 @@ gen-class-map.i: gen-class-map.cpp.i
 
 # target to preprocess a source file
 gen-class-map.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-class-map.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-class-map.dir/gen-class-map.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-class-map.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-class-map.dir/gen-class-map.cpp.i
 .PHONY : gen-class-map.cpp.i
 
 gen-class-map.s: gen-class-map.cpp.s
@@ -205,7 +205,7 @@ gen-class-map.s: gen-class-map.cpp.s
 
 # target to generate assembly for a file
 gen-class-map.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-class-map.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-class-map.dir/gen-class-map.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-class-map.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-class-map.dir/gen-class-map.cpp.s
 .PHONY : gen-class-map.cpp.s
 
 gen-ext-hhvm.o: gen-ext-hhvm.cpp.o
@@ -213,7 +213,7 @@ gen-ext-hhvm.o: gen-ext-hhvm.cpp.o
 
 # target to build an object file
 gen-ext-hhvm.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o
 .PHONY : gen-ext-hhvm.cpp.o
 
 gen-ext-hhvm.i: gen-ext-hhvm.cpp.i
@@ -221,7 +221,7 @@ gen-ext-hhvm.i: gen-ext-hhvm.cpp.i
 
 # target to preprocess a source file
 gen-ext-hhvm.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.i
 .PHONY : gen-ext-hhvm.cpp.i
 
 gen-ext-hhvm.s: gen-ext-hhvm.cpp.s
@@ -229,7 +229,7 @@ gen-ext-hhvm.s: gen-ext-hhvm.cpp.s
 
 # target to generate assembly for a file
 gen-ext-hhvm.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.s
 .PHONY : gen-ext-hhvm.cpp.s
 
 gen-infotabs.o: gen-infotabs.cpp.o
@@ -237,7 +237,7 @@ gen-infotabs.o: gen-infotabs.cpp.o
 
 # target to build an object file
 gen-infotabs.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-infotabs.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-infotabs.dir/gen-infotabs.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-infotabs.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-infotabs.dir/gen-infotabs.cpp.o
 .PHONY : gen-infotabs.cpp.o
 
 gen-infotabs.i: gen-infotabs.cpp.i
@@ -245,7 +245,7 @@ gen-infotabs.i: gen-infotabs.cpp.i
 
 # target to preprocess a source file
 gen-infotabs.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-infotabs.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-infotabs.dir/gen-infotabs.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-infotabs.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-infotabs.dir/gen-infotabs.cpp.i
 .PHONY : gen-infotabs.cpp.i
 
 gen-infotabs.s: gen-infotabs.cpp.s
@@ -253,7 +253,7 @@ gen-infotabs.s: gen-infotabs.cpp.s
 
 # target to generate assembly for a file
 gen-infotabs.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-infotabs.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-infotabs.dir/gen-infotabs.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-infotabs.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-infotabs.dir/gen-infotabs.cpp.s
 .PHONY : gen-infotabs.cpp.s
 
 idl.o: idl.cpp.o
@@ -261,9 +261,9 @@ idl.o: idl.cpp.o
 
 # target to build an object file
 idl.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-class-map.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-class-map.dir/idl.cpp.o
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/idl.cpp.o
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-infotabs.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-infotabs.dir/idl.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-class-map.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-class-map.dir/idl.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/idl.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-infotabs.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-infotabs.dir/idl.cpp.o
 .PHONY : idl.cpp.o
 
 idl.i: idl.cpp.i
@@ -271,9 +271,9 @@ idl.i: idl.cpp.i
 
 # target to preprocess a source file
 idl.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-class-map.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-class-map.dir/idl.cpp.i
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/idl.cpp.i
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-infotabs.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-infotabs.dir/idl.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-class-map.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-class-map.dir/idl.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/idl.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-infotabs.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-infotabs.dir/idl.cpp.i
 .PHONY : idl.cpp.i
 
 idl.s: idl.cpp.s
@@ -281,9 +281,9 @@ idl.s: idl.cpp.s
 
 # target to generate assembly for a file
 idl.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-class-map.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-class-map.dir/idl.cpp.s
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/idl.cpp.s
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-infotabs.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-infotabs.dir/idl.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-class-map.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-class-map.dir/idl.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/idl.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/tools/bootstrap/CMakeFiles/gen-infotabs.dir/build.make hphp/tools/bootstrap/CMakeFiles/gen-infotabs.dir/idl.cpp.s
 .PHONY : idl.cpp.s
 
 # Help Target
@@ -324,6 +324,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

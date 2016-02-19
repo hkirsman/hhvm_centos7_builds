@@ -6,23 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/libmysql/client_settings.h
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/libmysql/client_settings.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/libmysql/errmsg.c
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/libmysql/errmsg.c
 my_global.h
 -
 my_sys.h
 -
 errmsg.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/libmysql/errmsg.h
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/libmysql/errmsg.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/libmysql/get_password.c
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/libmysql/get_password.c
 my_global.h
 -
 my_sys.h
 -
 mysql.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/libmysql/mysql.h
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/libmysql/mysql.h
 m_string.h
 -
 m_ctype.h
@@ -44,7 +44,7 @@ asm/termiobits.h
 conio.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/libmysql/libmysql.c
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/libmysql/libmysql.c
 my_global.h
 -
 my_sys.h
@@ -58,13 +58,13 @@ m_string.h
 m_ctype.h
 -
 mysql.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/libmysql/mysql.h
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/libmysql/mysql.h
 mysql_version.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/libmysql/mysql_version.h
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/libmysql/mysql_version.h
 mysqld_error.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/libmysql/mysqld_error.h
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/libmysql/mysqld_error.h
 errmsg.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/libmysql/errmsg.h
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/libmysql/errmsg.h
 violite.h
 -
 sys/stat.h
@@ -88,19 +88,19 @@ my_pthread.h
 sql_common.h
 -
 client_settings.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/libmysql/client_settings.h
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/libmysql/client_settings.h
 errno.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/sql-common/client.c
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/sql-common/client.c
 my_global.h
 -
 mysql.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/sql-common/mysql.h
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/sql-common/mysql.h
 hash.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/sql-common/hash.h
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/sql-common/hash.h
 mysql/client_authentication.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/sql-common/mysql/client_authentication.h
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/sql-common/mysql/client_authentication.h
 my_sys.h
 -
 errno.h
@@ -108,7 +108,7 @@ errno.h
 sys/socket.h
 -
 my_default.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/sql-common/my_default.h
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/sql-common/my_default.h
 mysys_err.h
 -
 m_string.h
@@ -116,11 +116,11 @@ m_string.h
 m_ctype.h
 -
 mysql_version.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/sql-common/mysql_version.h
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/sql-common/mysql_version.h
 mysqld_error.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/sql-common/mysqld_error.h
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/sql-common/mysqld_error.h
 errmsg.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/sql-common/errmsg.h
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/sql-common/errmsg.h
 violite.h
 -
 openssl/x509.h
@@ -146,7 +146,7 @@ sys/un.h
 errno.h
 -
 client_settings.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/sql-common/client_settings.h
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/sql-common/client_settings.h
 sql_common.h
 -
 mysql/client_plugin.h
@@ -158,11 +158,11 @@ langinfo.h
 locale.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/sql-common/client_plugin.c
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/sql-common/client_plugin.c
 my_global.h
 -
 mysql.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/sql-common/mysql.h
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/sql-common/mysql.h
 my_sys.h
 -
 m_string.h
@@ -172,11 +172,11 @@ my_pthread.h
 sql_common.h
 -
 errmsg.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/sql-common/errmsg.h
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/sql-common/errmsg.h
 mysql/client_plugin.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/sql-common/my_time.c
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/sql-common/my_time.c
 my_time.h
 -
 m_string.h
@@ -188,7 +188,7 @@ myisampack.h
 my_pthread.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/sql-common/pack.c
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/sql-common/pack.c
 my_global.h
 -
 mysql_com.h
@@ -196,7 +196,7 @@ mysql_com.h
 mysql.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/sql/password.c
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/sql/password.c
 password.h
 -
 my_global.h
@@ -210,9 +210,9 @@ sha1.h
 my_rnd.h
 -
 mysql.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/sql/mysql.h
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/sql/mysql.h
 crypt_genhash_impl.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/sql/crypt_genhash_impl.h
+/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/sql/crypt_genhash_impl.h
 
 include/big_endian.h
 

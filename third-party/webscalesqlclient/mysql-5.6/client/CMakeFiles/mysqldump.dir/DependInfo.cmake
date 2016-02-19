@@ -4,8 +4,8 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/sql-common/my_user.c" "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/client/CMakeFiles/mysqldump.dir/__/sql-common/my_user.c.o"
-  "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/client/mysqldump.c" "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/client/CMakeFiles/mysqldump.dir/mysqldump.c.o"
+  "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/sql-common/my_user.c" "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/client/CMakeFiles/mysqldump.dir/__/sql-common/my_user.c.o"
+  "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/client/mysqldump.c" "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/client/CMakeFiles/mysqldump.dir/mysqldump.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 
@@ -18,8 +18,8 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/libmysql/CMakeFiles/webscalesqlclient.dir/DependInfo.cmake"
-  "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/CMakeFiles/zlib.dir/DependInfo.cmake"
+  "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/libmysql/CMakeFiles/webscalesqlclient.dir/DependInfo.cmake"
+  "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/zlib/CMakeFiles/zlib.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

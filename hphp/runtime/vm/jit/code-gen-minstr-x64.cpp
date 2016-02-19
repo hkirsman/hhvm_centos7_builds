@@ -77,20 +77,13 @@ void CodeGenerator::cgPropQ(IRInstruction* inst) {
       .ssa(1)
       .ssa(2);
 
-  if (inst->src(0)->isA(TObj)) {
-    cgCallHelper(
-      vmain(),
-      CallSpec::direct(propCOQ),
-      callDest(inst),
-      SyncOptions::Sync,
-      args
-    );
-    return;
-  }
+  auto helper = inst->src(0)->isA(TObj)
+    ? CallSpec::direct(propCOQ)
+    : CallSpec::direct(propCQ);
 
   cgCallHelper(
     vmain(),
-    CallSpec::direct(propCQ),
+    helper,
     callDest(inst),
     SyncOptions::Sync,
     args
@@ -159,7 +152,6 @@ void CodeGenerator::cgVGetProp(IRInstruction* inst) {
       .immPtr(getClass(inst->marker()))
       .ssa(0)
       .memberKeyS(1)
-      .ssa(2)
   );
 }
 
@@ -176,7 +168,6 @@ void CodeGenerator::cgBindProp(IRInstruction* inst) {
       .ssa(0)
       .typedValue(1)
       .ssa(2)
-      .ssa(3)
   );
 }
 
@@ -227,7 +218,6 @@ void CodeGenerator::cgSetOpProp(IRInstruction* inst) {
       .ssa(0)
       .typedValue(1)
       .typedValue(2)
-      .ssa(3)
       .imm(static_cast<int32_t>(extra->op))
   );
 }
@@ -458,7 +448,6 @@ void CodeGenerator::cgVGetElem(IRInstruction* inst) {
     argGroup(inst)
       .ssa(0)
       .memberKeyIS(1)
-      .ssa(2)
   );
 }
 

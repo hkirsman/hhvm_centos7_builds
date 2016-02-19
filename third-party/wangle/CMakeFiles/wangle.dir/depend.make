@@ -234,6 +234,7 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ConnectionManager.c
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ConnectionManager.cpp.o: third-party/folly/folly/Likely.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ConnectionManager.cpp.o: third-party/folly/folly/Malloc.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ConnectionManager.cpp.o: third-party/folly/folly/Memory.h
+third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ConnectionManager.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ConnectionManager.cpp.o: third-party/folly/folly/Optional.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ConnectionManager.cpp.o: third-party/folly/folly/Portability.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ConnectionManager.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -249,6 +250,7 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ConnectionManager.c
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ConnectionManager.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ConnectionManager.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ConnectionManager.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ConnectionManager.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ConnectionManager.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ConnectionManager.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ConnectionManager.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -321,6 +323,7 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ManagedConnection.c
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ManagedConnection.cpp.o: third-party/folly/folly/Likely.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ManagedConnection.cpp.o: third-party/folly/folly/Malloc.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ManagedConnection.cpp.o: third-party/folly/folly/Memory.h
+third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ManagedConnection.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ManagedConnection.cpp.o: third-party/folly/folly/Optional.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ManagedConnection.cpp.o: third-party/folly/folly/Portability.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ManagedConnection.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -336,6 +339,7 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ManagedConnection.c
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ManagedConnection.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ManagedConnection.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ManagedConnection.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ManagedConnection.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ManagedConnection.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ManagedConnection.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ManagedConnection.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -375,6 +379,7 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/SocketOptions.cpp.o
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/SocketOptions.cpp.o: third-party/folly/folly/IPAddressV6.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/SocketOptions.cpp.o: third-party/folly/folly/Likely.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/SocketOptions.cpp.o: third-party/folly/folly/Malloc.h
+third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/SocketOptions.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/SocketOptions.cpp.o: third-party/folly/folly/Portability.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/SocketOptions.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/SocketOptions.cpp.o: third-party/folly/folly/RWSpinLock.h
@@ -393,6 +398,7 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/SocketOptions.cpp.o
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/SocketOptions.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/SocketOptions.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/SocketOptions.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/SocketOptions.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/SocketOptions.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/SocketOptions.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/SocketOptions.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -440,6 +446,7 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/TransportInfo.cpp.o
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/TransportInfo.cpp.o: third-party/folly/folly/Likely.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/TransportInfo.cpp.o: third-party/folly/folly/Malloc.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/TransportInfo.cpp.o: third-party/folly/folly/Memory.h
+third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/TransportInfo.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/TransportInfo.cpp.o: third-party/folly/folly/Optional.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/TransportInfo.cpp.o: third-party/folly/folly/Portability.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/TransportInfo.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -461,6 +468,7 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/TransportInfo.cpp.o
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/TransportInfo.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/TransportInfo.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/TransportInfo.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/TransportInfo.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/TransportInfo.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/TransportInfo.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/TransportInfo.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -696,6 +704,7 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionPersist
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionPersistentCache.cpp.o: third-party/folly/folly/Likely.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionPersistentCache.cpp.o: third-party/folly/folly/Malloc.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionPersistentCache.cpp.o: third-party/folly/folly/Memory.h
+third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionPersistentCache.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionPersistentCache.cpp.o: third-party/folly/folly/Optional.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionPersistentCache.cpp.o: third-party/folly/folly/Portability.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionPersistentCache.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -717,6 +726,7 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionPersist
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionPersistentCache.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionPersistentCache.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionPersistentCache.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionPersistentCache.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionPersistentCache.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionPersistentCache.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionPersistentCache.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -779,6 +789,7 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/ThreadSafeSSLSess
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.o: third-party/folly/folly/Likely.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.o: third-party/folly/folly/Malloc.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.o: third-party/folly/folly/Memory.h
+third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.o: third-party/folly/folly/Optional.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.o: third-party/folly/folly/Portability.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -803,6 +814,7 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/ThreadSafeSSLSess
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -1525,6 +1537,7 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLContextManager.cpp.o:
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLContextManager.cpp.o: third-party/folly/folly/Likely.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLContextManager.cpp.o: third-party/folly/folly/Malloc.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLContextManager.cpp.o: third-party/folly/folly/Memory.h
+third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLContextManager.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLContextManager.cpp.o: third-party/folly/folly/Optional.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLContextManager.cpp.o: third-party/folly/folly/Portability.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLContextManager.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -1546,6 +1559,7 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLContextManager.cpp.o:
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLContextManager.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLContextManager.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLContextManager.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLContextManager.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLContextManager.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLContextManager.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLContextManager.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -1610,6 +1624,7 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLSessionCacheManager.c
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLSessionCacheManager.cpp.o: third-party/folly/folly/Likely.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLSessionCacheManager.cpp.o: third-party/folly/folly/Malloc.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLSessionCacheManager.cpp.o: third-party/folly/folly/Memory.h
+third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLSessionCacheManager.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLSessionCacheManager.cpp.o: third-party/folly/folly/Optional.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLSessionCacheManager.cpp.o: third-party/folly/folly/Portability.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLSessionCacheManager.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -1631,6 +1646,7 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLSessionCacheManager.c
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLSessionCacheManager.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLSessionCacheManager.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLSessionCacheManager.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLSessionCacheManager.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLSessionCacheManager.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLSessionCacheManager.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLSessionCacheManager.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -1686,6 +1702,7 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLUtil.cpp.o: third-par
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLUtil.cpp.o: third-party/folly/folly/Likely.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLUtil.cpp.o: third-party/folly/folly/Malloc.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLUtil.cpp.o: third-party/folly/folly/Memory.h
+third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLUtil.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLUtil.cpp.o: third-party/folly/folly/Optional.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLUtil.cpp.o: third-party/folly/folly/Portability.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLUtil.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -1707,6 +1724,7 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLUtil.cpp.o: third-par
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLUtil.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLUtil.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLUtil.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLUtil.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLUtil.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLUtil.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLUtil.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -1758,6 +1776,7 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/TLSTicketKeyManager.cpp.
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/TLSTicketKeyManager.cpp.o: third-party/folly/folly/Likely.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/TLSTicketKeyManager.cpp.o: third-party/folly/folly/Malloc.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/TLSTicketKeyManager.cpp.o: third-party/folly/folly/Memory.h
+third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/TLSTicketKeyManager.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/TLSTicketKeyManager.cpp.o: third-party/folly/folly/Optional.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/TLSTicketKeyManager.cpp.o: third-party/folly/folly/Portability.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/TLSTicketKeyManager.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -1779,6 +1798,7 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/TLSTicketKeyManager.cpp.
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/TLSTicketKeyManager.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/TLSTicketKeyManager.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/TLSTicketKeyManager.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/TLSTicketKeyManager.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/TLSTicketKeyManager.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/TLSTicketKeyManager.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/TLSTicketKeyManager.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h

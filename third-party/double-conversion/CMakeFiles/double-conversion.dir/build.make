@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.0
 
 # Include any dependencies generated for this target.
 include third-party/double-conversion/CMakeFiles/double-conversion.dir/depend.make
@@ -54,17 +54,17 @@ include third-party/double-conversion/CMakeFiles/double-conversion.dir/flags.mak
 
 third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/bignum-dtoa.cc.o: third-party/double-conversion/CMakeFiles/double-conversion.dir/flags.make
 third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/bignum-dtoa.cc.o: third-party/double-conversion/src/double-conversion/bignum-dtoa.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/bignum-dtoa.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/double-conversion && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/double-conversion.dir/src/double-conversion/bignum-dtoa.cc.o -c /tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/bignum-dtoa.cc
+	cd /tmp/hhvm-3.12.0/third-party/double-conversion && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/double-conversion.dir/src/double-conversion/bignum-dtoa.cc.o -c /tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/bignum-dtoa.cc
 
 third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/bignum-dtoa.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/double-conversion.dir/src/double-conversion/bignum-dtoa.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/double-conversion && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/bignum-dtoa.cc > CMakeFiles/double-conversion.dir/src/double-conversion/bignum-dtoa.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/double-conversion && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/bignum-dtoa.cc > CMakeFiles/double-conversion.dir/src/double-conversion/bignum-dtoa.cc.i
 
 third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/bignum-dtoa.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/double-conversion.dir/src/double-conversion/bignum-dtoa.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/double-conversion && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/bignum-dtoa.cc -o CMakeFiles/double-conversion.dir/src/double-conversion/bignum-dtoa.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/double-conversion && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/bignum-dtoa.cc -o CMakeFiles/double-conversion.dir/src/double-conversion/bignum-dtoa.cc.s
 
 third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/bignum-dtoa.cc.o.requires:
 .PHONY : third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/bignum-dtoa.cc.o.requires
@@ -77,17 +77,17 @@ third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conver
 
 third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/bignum.cc.o: third-party/double-conversion/CMakeFiles/double-conversion.dir/flags.make
 third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/bignum.cc.o: third-party/double-conversion/src/double-conversion/bignum.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/bignum.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/double-conversion && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/double-conversion.dir/src/double-conversion/bignum.cc.o -c /tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/bignum.cc
+	cd /tmp/hhvm-3.12.0/third-party/double-conversion && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/double-conversion.dir/src/double-conversion/bignum.cc.o -c /tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/bignum.cc
 
 third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/bignum.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/double-conversion.dir/src/double-conversion/bignum.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/double-conversion && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/bignum.cc > CMakeFiles/double-conversion.dir/src/double-conversion/bignum.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/double-conversion && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/bignum.cc > CMakeFiles/double-conversion.dir/src/double-conversion/bignum.cc.i
 
 third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/bignum.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/double-conversion.dir/src/double-conversion/bignum.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/double-conversion && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/bignum.cc -o CMakeFiles/double-conversion.dir/src/double-conversion/bignum.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/double-conversion && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/bignum.cc -o CMakeFiles/double-conversion.dir/src/double-conversion/bignum.cc.s
 
 third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/bignum.cc.o.requires:
 .PHONY : third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/bignum.cc.o.requires
@@ -100,17 +100,17 @@ third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conver
 
 third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/cached-powers.cc.o: third-party/double-conversion/CMakeFiles/double-conversion.dir/flags.make
 third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/cached-powers.cc.o: third-party/double-conversion/src/double-conversion/cached-powers.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/cached-powers.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/double-conversion && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/double-conversion.dir/src/double-conversion/cached-powers.cc.o -c /tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/cached-powers.cc
+	cd /tmp/hhvm-3.12.0/third-party/double-conversion && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/double-conversion.dir/src/double-conversion/cached-powers.cc.o -c /tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/cached-powers.cc
 
 third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/cached-powers.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/double-conversion.dir/src/double-conversion/cached-powers.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/double-conversion && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/cached-powers.cc > CMakeFiles/double-conversion.dir/src/double-conversion/cached-powers.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/double-conversion && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/cached-powers.cc > CMakeFiles/double-conversion.dir/src/double-conversion/cached-powers.cc.i
 
 third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/cached-powers.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/double-conversion.dir/src/double-conversion/cached-powers.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/double-conversion && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/cached-powers.cc -o CMakeFiles/double-conversion.dir/src/double-conversion/cached-powers.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/double-conversion && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/cached-powers.cc -o CMakeFiles/double-conversion.dir/src/double-conversion/cached-powers.cc.s
 
 third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/cached-powers.cc.o.requires:
 .PHONY : third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/cached-powers.cc.o.requires
@@ -123,17 +123,17 @@ third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conver
 
 third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/diy-fp.cc.o: third-party/double-conversion/CMakeFiles/double-conversion.dir/flags.make
 third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/diy-fp.cc.o: third-party/double-conversion/src/double-conversion/diy-fp.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/diy-fp.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/double-conversion && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/double-conversion.dir/src/double-conversion/diy-fp.cc.o -c /tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/diy-fp.cc
+	cd /tmp/hhvm-3.12.0/third-party/double-conversion && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/double-conversion.dir/src/double-conversion/diy-fp.cc.o -c /tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/diy-fp.cc
 
 third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/diy-fp.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/double-conversion.dir/src/double-conversion/diy-fp.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/double-conversion && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/diy-fp.cc > CMakeFiles/double-conversion.dir/src/double-conversion/diy-fp.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/double-conversion && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/diy-fp.cc > CMakeFiles/double-conversion.dir/src/double-conversion/diy-fp.cc.i
 
 third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/diy-fp.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/double-conversion.dir/src/double-conversion/diy-fp.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/double-conversion && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/diy-fp.cc -o CMakeFiles/double-conversion.dir/src/double-conversion/diy-fp.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/double-conversion && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/diy-fp.cc -o CMakeFiles/double-conversion.dir/src/double-conversion/diy-fp.cc.s
 
 third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/diy-fp.cc.o.requires:
 .PHONY : third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/diy-fp.cc.o.requires
@@ -146,17 +146,17 @@ third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conver
 
 third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/double-conversion.cc.o: third-party/double-conversion/CMakeFiles/double-conversion.dir/flags.make
 third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/double-conversion.cc.o: third-party/double-conversion/src/double-conversion/double-conversion.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/double-conversion.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/double-conversion && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/double-conversion.dir/src/double-conversion/double-conversion.cc.o -c /tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/double-conversion.cc
+	cd /tmp/hhvm-3.12.0/third-party/double-conversion && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/double-conversion.dir/src/double-conversion/double-conversion.cc.o -c /tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/double-conversion.cc
 
 third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/double-conversion.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/double-conversion.dir/src/double-conversion/double-conversion.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/double-conversion && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/double-conversion.cc > CMakeFiles/double-conversion.dir/src/double-conversion/double-conversion.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/double-conversion && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/double-conversion.cc > CMakeFiles/double-conversion.dir/src/double-conversion/double-conversion.cc.i
 
 third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/double-conversion.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/double-conversion.dir/src/double-conversion/double-conversion.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/double-conversion && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/double-conversion.cc -o CMakeFiles/double-conversion.dir/src/double-conversion/double-conversion.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/double-conversion && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/double-conversion.cc -o CMakeFiles/double-conversion.dir/src/double-conversion/double-conversion.cc.s
 
 third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/double-conversion.cc.o.requires:
 .PHONY : third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/double-conversion.cc.o.requires
@@ -169,17 +169,17 @@ third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conver
 
 third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/fast-dtoa.cc.o: third-party/double-conversion/CMakeFiles/double-conversion.dir/flags.make
 third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/fast-dtoa.cc.o: third-party/double-conversion/src/double-conversion/fast-dtoa.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/fast-dtoa.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/double-conversion && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/double-conversion.dir/src/double-conversion/fast-dtoa.cc.o -c /tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/fast-dtoa.cc
+	cd /tmp/hhvm-3.12.0/third-party/double-conversion && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/double-conversion.dir/src/double-conversion/fast-dtoa.cc.o -c /tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/fast-dtoa.cc
 
 third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/fast-dtoa.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/double-conversion.dir/src/double-conversion/fast-dtoa.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/double-conversion && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/fast-dtoa.cc > CMakeFiles/double-conversion.dir/src/double-conversion/fast-dtoa.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/double-conversion && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/fast-dtoa.cc > CMakeFiles/double-conversion.dir/src/double-conversion/fast-dtoa.cc.i
 
 third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/fast-dtoa.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/double-conversion.dir/src/double-conversion/fast-dtoa.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/double-conversion && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/fast-dtoa.cc -o CMakeFiles/double-conversion.dir/src/double-conversion/fast-dtoa.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/double-conversion && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/fast-dtoa.cc -o CMakeFiles/double-conversion.dir/src/double-conversion/fast-dtoa.cc.s
 
 third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/fast-dtoa.cc.o.requires:
 .PHONY : third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/fast-dtoa.cc.o.requires
@@ -192,17 +192,17 @@ third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conver
 
 third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/fixed-dtoa.cc.o: third-party/double-conversion/CMakeFiles/double-conversion.dir/flags.make
 third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/fixed-dtoa.cc.o: third-party/double-conversion/src/double-conversion/fixed-dtoa.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/fixed-dtoa.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/double-conversion && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/double-conversion.dir/src/double-conversion/fixed-dtoa.cc.o -c /tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/fixed-dtoa.cc
+	cd /tmp/hhvm-3.12.0/third-party/double-conversion && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/double-conversion.dir/src/double-conversion/fixed-dtoa.cc.o -c /tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/fixed-dtoa.cc
 
 third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/fixed-dtoa.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/double-conversion.dir/src/double-conversion/fixed-dtoa.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/double-conversion && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/fixed-dtoa.cc > CMakeFiles/double-conversion.dir/src/double-conversion/fixed-dtoa.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/double-conversion && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/fixed-dtoa.cc > CMakeFiles/double-conversion.dir/src/double-conversion/fixed-dtoa.cc.i
 
 third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/fixed-dtoa.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/double-conversion.dir/src/double-conversion/fixed-dtoa.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/double-conversion && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/fixed-dtoa.cc -o CMakeFiles/double-conversion.dir/src/double-conversion/fixed-dtoa.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/double-conversion && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/fixed-dtoa.cc -o CMakeFiles/double-conversion.dir/src/double-conversion/fixed-dtoa.cc.s
 
 third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/fixed-dtoa.cc.o.requires:
 .PHONY : third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/fixed-dtoa.cc.o.requires
@@ -215,17 +215,17 @@ third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conver
 
 third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/strtod.cc.o: third-party/double-conversion/CMakeFiles/double-conversion.dir/flags.make
 third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/strtod.cc.o: third-party/double-conversion/src/double-conversion/strtod.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/strtod.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/double-conversion && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/double-conversion.dir/src/double-conversion/strtod.cc.o -c /tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/strtod.cc
+	cd /tmp/hhvm-3.12.0/third-party/double-conversion && /bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/double-conversion.dir/src/double-conversion/strtod.cc.o -c /tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/strtod.cc
 
 third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/strtod.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/double-conversion.dir/src/double-conversion/strtod.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/double-conversion && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/strtod.cc > CMakeFiles/double-conversion.dir/src/double-conversion/strtod.cc.i
+	cd /tmp/hhvm-3.12.0/third-party/double-conversion && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/strtod.cc > CMakeFiles/double-conversion.dir/src/double-conversion/strtod.cc.i
 
 third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/strtod.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/double-conversion.dir/src/double-conversion/strtod.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/double-conversion && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/double-conversion/src/double-conversion/strtod.cc -o CMakeFiles/double-conversion.dir/src/double-conversion/strtod.cc.s
+	cd /tmp/hhvm-3.12.0/third-party/double-conversion && /bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.0/third-party/double-conversion/src/double-conversion/strtod.cc -o CMakeFiles/double-conversion.dir/src/double-conversion/strtod.cc.s
 
 third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/strtod.cc.o.requires:
 .PHONY : third-party/double-conversion/CMakeFiles/double-conversion.dir/src/double-conversion/strtod.cc.o.requires
@@ -261,8 +261,8 @@ third-party/double-conversion/libdouble-conversion.a: third-party/double-convers
 third-party/double-conversion/libdouble-conversion.a: third-party/double-conversion/CMakeFiles/double-conversion.dir/build.make
 third-party/double-conversion/libdouble-conversion.a: third-party/double-conversion/CMakeFiles/double-conversion.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libdouble-conversion.a"
-	cd /tmp/hhvm-3.11.1/third-party/double-conversion && $(CMAKE_COMMAND) -P CMakeFiles/double-conversion.dir/cmake_clean_target.cmake
-	cd /tmp/hhvm-3.11.1/third-party/double-conversion && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/double-conversion.dir/link.txt --verbose=$(VERBOSE)
+	cd /tmp/hhvm-3.12.0/third-party/double-conversion && $(CMAKE_COMMAND) -P CMakeFiles/double-conversion.dir/cmake_clean_target.cmake
+	cd /tmp/hhvm-3.12.0/third-party/double-conversion && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/double-conversion.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 third-party/double-conversion/CMakeFiles/double-conversion.dir/build: third-party/double-conversion/libdouble-conversion.a
@@ -279,10 +279,10 @@ third-party/double-conversion/CMakeFiles/double-conversion.dir/requires: third-p
 .PHONY : third-party/double-conversion/CMakeFiles/double-conversion.dir/requires
 
 third-party/double-conversion/CMakeFiles/double-conversion.dir/clean:
-	cd /tmp/hhvm-3.11.1/third-party/double-conversion && $(CMAKE_COMMAND) -P CMakeFiles/double-conversion.dir/cmake_clean.cmake
+	cd /tmp/hhvm-3.12.0/third-party/double-conversion && $(CMAKE_COMMAND) -P CMakeFiles/double-conversion.dir/cmake_clean.cmake
 .PHONY : third-party/double-conversion/CMakeFiles/double-conversion.dir/clean
 
 third-party/double-conversion/CMakeFiles/double-conversion.dir/depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/third-party/double-conversion /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/third-party/double-conversion /tmp/hhvm-3.11.1/third-party/double-conversion/CMakeFiles/double-conversion.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.12.0 /tmp/hhvm-3.12.0/third-party/double-conversion /tmp/hhvm-3.12.0 /tmp/hhvm-3.12.0/third-party/double-conversion /tmp/hhvm-3.12.0/third-party/double-conversion/CMakeFiles/double-conversion.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : third-party/double-conversion/CMakeFiles/double-conversion.dir/depend
 

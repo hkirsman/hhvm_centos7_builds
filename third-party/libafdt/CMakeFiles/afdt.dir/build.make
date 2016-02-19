@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.0
 
 # Include any dependencies generated for this target.
 include third-party/libafdt/CMakeFiles/afdt.dir/depend.make
@@ -54,17 +54,17 @@ include third-party/libafdt/CMakeFiles/afdt.dir/flags.make
 
 third-party/libafdt/CMakeFiles/afdt.dir/src/lowlevel.c.o: third-party/libafdt/CMakeFiles/afdt.dir/flags.make
 third-party/libafdt/CMakeFiles/afdt.dir/src/lowlevel.c.o: third-party/libafdt/src/lowlevel.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libafdt/CMakeFiles/afdt.dir/src/lowlevel.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libafdt && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/afdt.dir/src/lowlevel.c.o   -c /tmp/hhvm-3.11.1/third-party/libafdt/src/lowlevel.c
+	cd /tmp/hhvm-3.12.0/third-party/libafdt && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/afdt.dir/src/lowlevel.c.o   -c /tmp/hhvm-3.12.0/third-party/libafdt/src/lowlevel.c
 
 third-party/libafdt/CMakeFiles/afdt.dir/src/lowlevel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/afdt.dir/src/lowlevel.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libafdt && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libafdt/src/lowlevel.c > CMakeFiles/afdt.dir/src/lowlevel.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libafdt && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libafdt/src/lowlevel.c > CMakeFiles/afdt.dir/src/lowlevel.c.i
 
 third-party/libafdt/CMakeFiles/afdt.dir/src/lowlevel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/afdt.dir/src/lowlevel.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libafdt && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libafdt/src/lowlevel.c -o CMakeFiles/afdt.dir/src/lowlevel.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libafdt && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libafdt/src/lowlevel.c -o CMakeFiles/afdt.dir/src/lowlevel.c.s
 
 third-party/libafdt/CMakeFiles/afdt.dir/src/lowlevel.c.o.requires:
 .PHONY : third-party/libafdt/CMakeFiles/afdt.dir/src/lowlevel.c.o.requires
@@ -77,17 +77,17 @@ third-party/libafdt/CMakeFiles/afdt.dir/src/lowlevel.c.o.provides.build: third-p
 
 third-party/libafdt/CMakeFiles/afdt.dir/src/strlcpy.c.o: third-party/libafdt/CMakeFiles/afdt.dir/flags.make
 third-party/libafdt/CMakeFiles/afdt.dir/src/strlcpy.c.o: third-party/libafdt/src/strlcpy.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libafdt/CMakeFiles/afdt.dir/src/strlcpy.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libafdt && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/afdt.dir/src/strlcpy.c.o   -c /tmp/hhvm-3.11.1/third-party/libafdt/src/strlcpy.c
+	cd /tmp/hhvm-3.12.0/third-party/libafdt && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/afdt.dir/src/strlcpy.c.o   -c /tmp/hhvm-3.12.0/third-party/libafdt/src/strlcpy.c
 
 third-party/libafdt/CMakeFiles/afdt.dir/src/strlcpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/afdt.dir/src/strlcpy.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libafdt && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libafdt/src/strlcpy.c > CMakeFiles/afdt.dir/src/strlcpy.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libafdt && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libafdt/src/strlcpy.c > CMakeFiles/afdt.dir/src/strlcpy.c.i
 
 third-party/libafdt/CMakeFiles/afdt.dir/src/strlcpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/afdt.dir/src/strlcpy.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libafdt && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libafdt/src/strlcpy.c -o CMakeFiles/afdt.dir/src/strlcpy.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libafdt && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libafdt/src/strlcpy.c -o CMakeFiles/afdt.dir/src/strlcpy.c.s
 
 third-party/libafdt/CMakeFiles/afdt.dir/src/strlcpy.c.o.requires:
 .PHONY : third-party/libafdt/CMakeFiles/afdt.dir/src/strlcpy.c.o.requires
@@ -100,17 +100,17 @@ third-party/libafdt/CMakeFiles/afdt.dir/src/strlcpy.c.o.provides.build: third-pa
 
 third-party/libafdt/CMakeFiles/afdt.dir/src/sync.c.o: third-party/libafdt/CMakeFiles/afdt.dir/flags.make
 third-party/libafdt/CMakeFiles/afdt.dir/src/sync.c.o: third-party/libafdt/src/sync.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libafdt/CMakeFiles/afdt.dir/src/sync.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libafdt && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/afdt.dir/src/sync.c.o   -c /tmp/hhvm-3.11.1/third-party/libafdt/src/sync.c
+	cd /tmp/hhvm-3.12.0/third-party/libafdt && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/afdt.dir/src/sync.c.o   -c /tmp/hhvm-3.12.0/third-party/libafdt/src/sync.c
 
 third-party/libafdt/CMakeFiles/afdt.dir/src/sync.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/afdt.dir/src/sync.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libafdt && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libafdt/src/sync.c > CMakeFiles/afdt.dir/src/sync.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libafdt && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libafdt/src/sync.c > CMakeFiles/afdt.dir/src/sync.c.i
 
 third-party/libafdt/CMakeFiles/afdt.dir/src/sync.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/afdt.dir/src/sync.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libafdt && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libafdt/src/sync.c -o CMakeFiles/afdt.dir/src/sync.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libafdt && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libafdt/src/sync.c -o CMakeFiles/afdt.dir/src/sync.c.s
 
 third-party/libafdt/CMakeFiles/afdt.dir/src/sync.c.o.requires:
 .PHONY : third-party/libafdt/CMakeFiles/afdt.dir/src/sync.c.o.requires
@@ -123,17 +123,17 @@ third-party/libafdt/CMakeFiles/afdt.dir/src/sync.c.o.provides.build: third-party
 
 third-party/libafdt/CMakeFiles/afdt.dir/src/util.c.o: third-party/libafdt/CMakeFiles/afdt.dir/flags.make
 third-party/libafdt/CMakeFiles/afdt.dir/src/util.c.o: third-party/libafdt/src/util.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libafdt/CMakeFiles/afdt.dir/src/util.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libafdt && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/afdt.dir/src/util.c.o   -c /tmp/hhvm-3.11.1/third-party/libafdt/src/util.c
+	cd /tmp/hhvm-3.12.0/third-party/libafdt && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/afdt.dir/src/util.c.o   -c /tmp/hhvm-3.12.0/third-party/libafdt/src/util.c
 
 third-party/libafdt/CMakeFiles/afdt.dir/src/util.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/afdt.dir/src/util.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libafdt && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libafdt/src/util.c > CMakeFiles/afdt.dir/src/util.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libafdt && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libafdt/src/util.c > CMakeFiles/afdt.dir/src/util.c.i
 
 third-party/libafdt/CMakeFiles/afdt.dir/src/util.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/afdt.dir/src/util.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libafdt && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libafdt/src/util.c -o CMakeFiles/afdt.dir/src/util.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libafdt && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libafdt/src/util.c -o CMakeFiles/afdt.dir/src/util.c.s
 
 third-party/libafdt/CMakeFiles/afdt.dir/src/util.c.o.requires:
 .PHONY : third-party/libafdt/CMakeFiles/afdt.dir/src/util.c.o.requires
@@ -146,17 +146,17 @@ third-party/libafdt/CMakeFiles/afdt.dir/src/util.c.o.provides.build: third-party
 
 third-party/libafdt/CMakeFiles/afdt.dir/src/async.c.o: third-party/libafdt/CMakeFiles/afdt.dir/flags.make
 third-party/libafdt/CMakeFiles/afdt.dir/src/async.c.o: third-party/libafdt/src/async.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libafdt/CMakeFiles/afdt.dir/src/async.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libafdt && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/afdt.dir/src/async.c.o   -c /tmp/hhvm-3.11.1/third-party/libafdt/src/async.c
+	cd /tmp/hhvm-3.12.0/third-party/libafdt && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/afdt.dir/src/async.c.o   -c /tmp/hhvm-3.12.0/third-party/libafdt/src/async.c
 
 third-party/libafdt/CMakeFiles/afdt.dir/src/async.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/afdt.dir/src/async.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libafdt && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libafdt/src/async.c > CMakeFiles/afdt.dir/src/async.c.i
+	cd /tmp/hhvm-3.12.0/third-party/libafdt && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/libafdt/src/async.c > CMakeFiles/afdt.dir/src/async.c.i
 
 third-party/libafdt/CMakeFiles/afdt.dir/src/async.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/afdt.dir/src/async.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libafdt && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libafdt/src/async.c -o CMakeFiles/afdt.dir/src/async.c.s
+	cd /tmp/hhvm-3.12.0/third-party/libafdt && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/libafdt/src/async.c -o CMakeFiles/afdt.dir/src/async.c.s
 
 third-party/libafdt/CMakeFiles/afdt.dir/src/async.c.o.requires:
 .PHONY : third-party/libafdt/CMakeFiles/afdt.dir/src/async.c.o.requires
@@ -186,8 +186,8 @@ third-party/libafdt/libafdt.a: third-party/libafdt/CMakeFiles/afdt.dir/src/async
 third-party/libafdt/libafdt.a: third-party/libafdt/CMakeFiles/afdt.dir/build.make
 third-party/libafdt/libafdt.a: third-party/libafdt/CMakeFiles/afdt.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C static library libafdt.a"
-	cd /tmp/hhvm-3.11.1/third-party/libafdt && $(CMAKE_COMMAND) -P CMakeFiles/afdt.dir/cmake_clean_target.cmake
-	cd /tmp/hhvm-3.11.1/third-party/libafdt && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/afdt.dir/link.txt --verbose=$(VERBOSE)
+	cd /tmp/hhvm-3.12.0/third-party/libafdt && $(CMAKE_COMMAND) -P CMakeFiles/afdt.dir/cmake_clean_target.cmake
+	cd /tmp/hhvm-3.12.0/third-party/libafdt && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/afdt.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 third-party/libafdt/CMakeFiles/afdt.dir/build: third-party/libafdt/libafdt.a
@@ -201,10 +201,10 @@ third-party/libafdt/CMakeFiles/afdt.dir/requires: third-party/libafdt/CMakeFiles
 .PHONY : third-party/libafdt/CMakeFiles/afdt.dir/requires
 
 third-party/libafdt/CMakeFiles/afdt.dir/clean:
-	cd /tmp/hhvm-3.11.1/third-party/libafdt && $(CMAKE_COMMAND) -P CMakeFiles/afdt.dir/cmake_clean.cmake
+	cd /tmp/hhvm-3.12.0/third-party/libafdt && $(CMAKE_COMMAND) -P CMakeFiles/afdt.dir/cmake_clean.cmake
 .PHONY : third-party/libafdt/CMakeFiles/afdt.dir/clean
 
 third-party/libafdt/CMakeFiles/afdt.dir/depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/third-party/libafdt /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/third-party/libafdt /tmp/hhvm-3.11.1/third-party/libafdt/CMakeFiles/afdt.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.12.0 /tmp/hhvm-3.12.0/third-party/libafdt /tmp/hhvm-3.12.0 /tmp/hhvm-3.12.0/third-party/libafdt /tmp/hhvm-3.12.0/third-party/libafdt/CMakeFiles/afdt.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : third-party/libafdt/CMakeFiles/afdt.dir/depend
 

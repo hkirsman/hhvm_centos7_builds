@@ -23,6 +23,7 @@ third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventLogger.cpp.o
 third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventLogger.cpp.o: third-party/folly/folly/Hash.h
 third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventLogger.cpp.o: third-party/folly/folly/Likely.h
 third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventLogger.cpp.o: third-party/folly/folly/Malloc.h
+third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventLogger.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventLogger.cpp.o: third-party/folly/folly/Portability.h
 third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventLogger.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventLogger.cpp.o: third-party/folly/folly/Random-inl.h
@@ -40,6 +41,7 @@ third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventLogger.cpp.o
 third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventLogger.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventLogger.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventLogger.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventLogger.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventLogger.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventLogger.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventLogger.cpp.o: third-party/squangle/src/squangle/base/ConnectionKey.h

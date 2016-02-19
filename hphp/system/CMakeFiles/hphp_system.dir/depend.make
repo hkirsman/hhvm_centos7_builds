@@ -55,6 +55,7 @@ hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/runtime/base/ref-da
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/runtime/base/req-containers.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/runtime/base/req-root.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/runtime/base/request-local.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/runtime/base/resource-data.h
@@ -86,9 +87,10 @@ hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/runtime/base/types.
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/runtime/base/user-attributes.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/runtime/base/variable-unserializer.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/runtime/ext/collections/ext_collections-idl.h
+hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/runtime/ext/collections/ext_collections-pair.h
+hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/runtime/ext/collections/ext_collections.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/runtime/ext/ext.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/runtime/ext/extension.h
-hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/runtime/ext/std/ext_std_closure.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/runtime/ext/stream/ext_stream.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/runtime/server/ip-block-map.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/runtime/server/transport.h
@@ -116,6 +118,7 @@ hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/runtime/vm/named-en
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/runtime/vm/named-entity-pair-table-inl.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/runtime/vm/named-entity-pair-table.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/runtime/vm/named-entity.h
+hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/runtime/vm/native-data.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/runtime/vm/native.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/runtime/vm/pc-filter.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/runtime/vm/preclass-inl.h
@@ -130,6 +133,7 @@ hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/runtime/vm/unit-inl
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/runtime/vm/unit.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/system/constants.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/system/systemlib.h
+hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/util/abi-cxx.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/util/alloc.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/util/arena.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/util/assertions.h
@@ -141,6 +145,8 @@ hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/util/compatibility.
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/util/compilation-flags.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/util/compression.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/util/copy-ptr.h
+hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/util/cronolog.h
+hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/util/cronoutils.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/util/default-ptr.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/util/exception.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/util/fixed-vector.h
@@ -149,7 +155,11 @@ hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/util/hash-map-typed
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/util/hash.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/util/hdf.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/util/locale-portability.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/util/lock.h
+hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/util/log-file-flusher.h
+hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/util/logger-inl.h
+hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/util/logger.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/util/low-ptr.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/util/maphuge.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/util/md5.h
@@ -157,6 +167,11 @@ hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/util/meta.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/util/mutex.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/util/pointer-list.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/util/portability.h
+hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/util/portability/fnmatch.h
+hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/util/portability/glob.h
+hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/util/portability/rand_r.h
+hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/util/portability/strfmon.h
+hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/util/portability/strptime.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/util/range.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/util/rank.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/util/safe-cast.h
@@ -198,6 +213,7 @@ hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: third-party/folly/folly/
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: third-party/folly/folly/Likely.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: third-party/folly/folly/Malloc.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: third-party/folly/folly/Memory.h
+hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: third-party/folly/folly/Optional.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: third-party/folly/folly/Portability.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -223,6 +239,7 @@ hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: third-party/folly/folly/
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -283,6 +300,7 @@ hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/runtime/base/ref-da
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/runtime/base/req-containers.h
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/runtime/base/req-root.h
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/runtime/base/request-injection-data.h
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/runtime/base/resource-data.h
@@ -351,6 +369,7 @@ hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/runtime/vm/type-pro
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/runtime/vm/unit.h
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/system/systemlib.h
+hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/util/abi-cxx.h
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/util/alloc.h
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/util/arena.h
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/util/assertions.h
@@ -362,6 +381,8 @@ hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/util/compatibility.
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/util/compilation-flags.h
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/util/compression.h
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/util/copy-ptr.h
+hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/util/cronolog.h
+hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/util/cronoutils.h
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/util/default-ptr.h
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/util/exception.h
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/util/fixed-vector.h
@@ -370,7 +391,11 @@ hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/util/hash-map-typed
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/util/hash.h
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/util/hdf.h
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/util/locale-portability.h
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/util/lock.h
+hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/util/log-file-flusher.h
+hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/util/logger-inl.h
+hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/util/logger.h
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/util/low-ptr.h
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/util/maphuge.h
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/util/md5.h
@@ -378,6 +403,11 @@ hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/util/meta.h
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/util/mutex.h
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/util/pointer-list.h
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/util/portability.h
+hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/util/portability/fnmatch.h
+hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/util/portability/glob.h
+hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/util/portability/rand_r.h
+hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/util/portability/strfmon.h
+hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/util/portability/strptime.h
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/util/range.h
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/util/rank.h
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/util/safe-cast.h
@@ -418,6 +448,7 @@ hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: third-party/folly/folly/
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: third-party/folly/folly/Likely.h
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: third-party/folly/folly/Malloc.h
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: third-party/folly/folly/Memory.h
+hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: third-party/folly/folly/Optional.h
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: third-party/folly/folly/Portability.h
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -443,6 +474,7 @@ hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: third-party/folly/folly/
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: third-party/folly/folly/dynamic-inl.h

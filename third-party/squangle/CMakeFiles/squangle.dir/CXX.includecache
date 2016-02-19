@@ -6,25 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/tmp/hhvm-3.11.1/third-party/squangle/squangle/logger/DBEventCounter.cpp
+/tmp/hhvm-3.12.0/third-party/squangle/squangle/logger/DBEventCounter.cpp
 squangle/logger/DBEventCounter.h
-/tmp/hhvm-3.11.1/third-party/squangle/squangle/logger/squangle/logger/DBEventCounter.h
+/tmp/hhvm-3.12.0/third-party/squangle/squangle/logger/squangle/logger/DBEventCounter.h
 glog/logging.h
 -
 
-/tmp/hhvm-3.11.1/third-party/squangle/squangle/logger/DBEventLogger.cpp
+/tmp/hhvm-3.12.0/third-party/squangle/squangle/logger/DBEventLogger.cpp
 squangle/logger/DBEventLogger.h
-/tmp/hhvm-3.11.1/third-party/squangle/squangle/logger/squangle/logger/DBEventLogger.h
+/tmp/hhvm-3.12.0/third-party/squangle/squangle/logger/squangle/logger/DBEventLogger.h
 folly/Random.h
 -
 
-/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/AsyncConnectionPool.cpp
+/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/AsyncConnectionPool.cpp
 squangle/mysql_client/AsyncConnectionPool.h
-/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/squangle/mysql_client/AsyncConnectionPool.h
+/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/squangle/mysql_client/AsyncConnectionPool.h
 squangle/mysql_client/AsyncMysqlClient.h
-/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/squangle/mysql_client/AsyncMysqlClient.h
+/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/squangle/mysql_client/AsyncMysqlClient.h
 squangle/mysql_client/FutureAdapter.h
-/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/squangle/mysql_client/FutureAdapter.h
+/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/squangle/mysql_client/FutureAdapter.h
 memory
 -
 folly/Memory.h
@@ -38,17 +38,17 @@ mysqld_error.h
 chrono
 -
 
-/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/AsyncHelpers.cpp
+/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/AsyncHelpers.cpp
 squangle/mysql_client/AsyncHelpers.h
-/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/squangle/mysql_client/AsyncHelpers.h
+/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/squangle/mysql_client/AsyncHelpers.h
 
-/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/AsyncMysqlClient.cpp
+/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/AsyncMysqlClient.cpp
 squangle/mysql_client/AsyncMysqlClient.h
-/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/squangle/mysql_client/AsyncMysqlClient.h
+/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/squangle/mysql_client/AsyncMysqlClient.h
 squangle/mysql_client/Operation.h
-/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/squangle/mysql_client/Operation.h
+/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/squangle/mysql_client/Operation.h
 squangle/mysql_client/FutureAdapter.h
-/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/squangle/mysql_client/FutureAdapter.h
+/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/squangle/mysql_client/FutureAdapter.h
 vector
 -
 folly/Singleton.h
@@ -66,37 +66,37 @@ unistd.h
 fcntl.h
 -
 common/config/Flags.h
-/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/common/config/Flags.h
+/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/common/config/Flags.h
 
-/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/Connection.cpp
+/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/Connection.cpp
 squangle/mysql_client/Connection.h
-/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/squangle/mysql_client/Connection.h
+/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/squangle/mysql_client/Connection.h
 squangle/mysql_client/AsyncMysqlClient.h
-/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/squangle/mysql_client/AsyncMysqlClient.h
+/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/squangle/mysql_client/AsyncMysqlClient.h
 squangle/mysql_client/AsyncConnectionPool.h
-/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/squangle/mysql_client/AsyncConnectionPool.h
+/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/squangle/mysql_client/AsyncConnectionPool.h
 
-/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/DbResult.cpp
+/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/DbResult.cpp
 squangle/mysql_client/DbResult.h
-/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/squangle/mysql_client/DbResult.h
+/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/squangle/mysql_client/DbResult.h
 squangle/mysql_client/Operation.h
-/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/squangle/mysql_client/Operation.h
+/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/squangle/mysql_client/Operation.h
 squangle/mysql_client/AsyncMysqlClient.h
-/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/squangle/mysql_client/AsyncMysqlClient.h
+/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/squangle/mysql_client/AsyncMysqlClient.h
 
-/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/FutureAdapter.cpp
+/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/FutureAdapter.cpp
 squangle/mysql_client/FutureAdapter.h
-/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/squangle/mysql_client/FutureAdapter.h
+/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/squangle/mysql_client/FutureAdapter.h
 squangle/mysql_client/AsyncHelpers.h
-/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/squangle/mysql_client/AsyncHelpers.h
+/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/squangle/mysql_client/AsyncHelpers.h
 squangle/mysql_client/AsyncMysqlClient.h
-/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/squangle/mysql_client/AsyncMysqlClient.h
+/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/squangle/mysql_client/AsyncMysqlClient.h
 folly/futures/Promise.h
 -
 
-/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/Operation.cpp
+/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/Operation.cpp
 squangle/mysql_client/Operation.h
-/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/squangle/mysql_client/Operation.h
+/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/squangle/mysql_client/Operation.h
 openssl/ssl.h
 -
 errmsg.h
@@ -106,25 +106,25 @@ folly/Memory.h
 folly/experimental/StringKeyedUnorderedMap.h
 -
 squangle/mysql_client/AsyncMysqlClient.h
-/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/squangle/mysql_client/AsyncMysqlClient.h
+/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/squangle/mysql_client/AsyncMysqlClient.h
 squangle/mysql_client/SSLOptionsProviderBase.h
-/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/squangle/mysql_client/SSLOptionsProviderBase.h
+/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/squangle/mysql_client/SSLOptionsProviderBase.h
 wangle/client/ssl/SSLSession.h
 -
 common/config/Flags.h
-/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/common/config/Flags.h
+/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/common/config/Flags.h
 
-/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/OperationBatch.cpp
+/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/OperationBatch.cpp
 squangle/mysql_client/OperationBatch.h
-/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/squangle/mysql_client/OperationBatch.h
+/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/squangle/mysql_client/OperationBatch.h
 chrono
 -
 thread
 -
 
-/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/Query.cpp
+/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/Query.cpp
 squangle/mysql_client/Query.h
-/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/squangle/mysql_client/Query.h
+/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/squangle/mysql_client/Query.h
 folly/String.h
 -
 folly/Format.h
@@ -140,9 +140,9 @@ algorithm
 vector
 -
 
-/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/Row.cpp
+/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/Row.cpp
 squangle/mysql_client/Row.h
-/tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/squangle/mysql_client/Row.h
+/tmp/hhvm-3.12.0/third-party/squangle/squangle/mysql_client/squangle/mysql_client/Row.h
 chrono
 -
 
@@ -883,6 +883,8 @@ folly/Exception.h
 -
 folly/Malloc.h
 -
+folly/MicroSpinLock.h
+-
 
 third-party/folly/folly/detail/UncaughtExceptionCounter.h
 exception
@@ -1546,6 +1548,8 @@ folly/experimental/fibers/Baton.h
 folly/futures/Future.h
 -
 folly/io/async/EventBase.h
+-
+folly/Portability.h
 -
 folly/Singleton.h
 -

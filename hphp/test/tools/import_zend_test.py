@@ -331,6 +331,11 @@ flaky_tests = (
     # Socket based test that are possibly port clowny
     # Github commit: 6ae44fc92acb63e7fa31b5fd4fcd4cf939c3ef54
     '/ext/sockets/tests/socket_getsockname.php',
+
+    # Rely on system service configuration being a particular way.
+    '/ext/standard/tests/general_functions/getservbyname_variation9.php',
+    '/ext/standard/tests/general_functions/getservbyname_variation10.php',
+    '/ext/standard/tests/general_functions/getservbyport_variation1.php',
 )
 
 # Tests that work but not in repo mode
@@ -628,6 +633,15 @@ norepo_tests = (
     '/tests/lang/bug17115.php',
     '/tests/lang/bug22690.php',
     '/tests/lang/bug24926.php',
+
+    # These tests use assert with a string argument, which is also basically
+    # eval.
+    '/ext/dom/tests/DOMNode_insertBefore_error2.php',
+    '/ext/dom/tests/DOMNode_insertBefore_error3.php',
+    '/ext/dom/tests/DOMNode_insertBefore_error4.php',
+    '/ext/dom/tests/DOMNode_insertBefore_error5.php',
+    '/ext/dom/tests/DOMNode_insertBefore_error6.php',
+    '/tests/lang/bug23922.php',
 
     # This creates an interface with the same name as a builtin, which
     # hphpc doesn't correctly support AttrUnique flags on.

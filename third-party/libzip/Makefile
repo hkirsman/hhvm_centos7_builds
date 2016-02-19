@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.0
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles /tmp/hhvm-3.11.1/third-party/libzip/CMakeFiles/progress.marks
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/libzip/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles 0
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.0/CMakeFiles /tmp/hhvm-3.12.0/third-party/libzip/CMakeFiles/progress.marks
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/libzip/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.0/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/libzip/clean
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/libzip/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/libzip/preinstall
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/libzip/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/libzip/preinstall
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/libzip/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 third-party/libzip/CMakeFiles/zip_static.dir/rule:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/libzip/CMakeFiles/zip_static.dir/rule
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/libzip/CMakeFiles/zip_static.dir/rule
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ zip_static: third-party/libzip/CMakeFiles/zip_static.dir/rule
 
 # fast build rule for target.
 zip_static/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/build
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/build
 .PHONY : zip_static/fast
 
 zip_add.o: zip_add.c.o
@@ -161,7 +161,7 @@ zip_add.o: zip_add.c.o
 
 # target to build an object file
 zip_add.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_add.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_add.c.o
 .PHONY : zip_add.c.o
 
 zip_add.i: zip_add.c.i
@@ -169,7 +169,7 @@ zip_add.i: zip_add.c.i
 
 # target to preprocess a source file
 zip_add.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_add.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_add.c.i
 .PHONY : zip_add.c.i
 
 zip_add.s: zip_add.c.s
@@ -177,7 +177,7 @@ zip_add.s: zip_add.c.s
 
 # target to generate assembly for a file
 zip_add.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_add.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_add.c.s
 .PHONY : zip_add.c.s
 
 zip_add_dir.o: zip_add_dir.c.o
@@ -185,7 +185,7 @@ zip_add_dir.o: zip_add_dir.c.o
 
 # target to build an object file
 zip_add_dir.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_add_dir.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_add_dir.c.o
 .PHONY : zip_add_dir.c.o
 
 zip_add_dir.i: zip_add_dir.c.i
@@ -193,7 +193,7 @@ zip_add_dir.i: zip_add_dir.c.i
 
 # target to preprocess a source file
 zip_add_dir.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_add_dir.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_add_dir.c.i
 .PHONY : zip_add_dir.c.i
 
 zip_add_dir.s: zip_add_dir.c.s
@@ -201,7 +201,7 @@ zip_add_dir.s: zip_add_dir.c.s
 
 # target to generate assembly for a file
 zip_add_dir.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_add_dir.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_add_dir.c.s
 .PHONY : zip_add_dir.c.s
 
 zip_add_entry.o: zip_add_entry.c.o
@@ -209,7 +209,7 @@ zip_add_entry.o: zip_add_entry.c.o
 
 # target to build an object file
 zip_add_entry.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_add_entry.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_add_entry.c.o
 .PHONY : zip_add_entry.c.o
 
 zip_add_entry.i: zip_add_entry.c.i
@@ -217,7 +217,7 @@ zip_add_entry.i: zip_add_entry.c.i
 
 # target to preprocess a source file
 zip_add_entry.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_add_entry.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_add_entry.c.i
 .PHONY : zip_add_entry.c.i
 
 zip_add_entry.s: zip_add_entry.c.s
@@ -225,7 +225,7 @@ zip_add_entry.s: zip_add_entry.c.s
 
 # target to generate assembly for a file
 zip_add_entry.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_add_entry.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_add_entry.c.s
 .PHONY : zip_add_entry.c.s
 
 zip_close.o: zip_close.c.o
@@ -233,7 +233,7 @@ zip_close.o: zip_close.c.o
 
 # target to build an object file
 zip_close.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_close.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_close.c.o
 .PHONY : zip_close.c.o
 
 zip_close.i: zip_close.c.i
@@ -241,7 +241,7 @@ zip_close.i: zip_close.c.i
 
 # target to preprocess a source file
 zip_close.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_close.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_close.c.i
 .PHONY : zip_close.c.i
 
 zip_close.s: zip_close.c.s
@@ -249,7 +249,7 @@ zip_close.s: zip_close.c.s
 
 # target to generate assembly for a file
 zip_close.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_close.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_close.c.s
 .PHONY : zip_close.c.s
 
 zip_delete.o: zip_delete.c.o
@@ -257,7 +257,7 @@ zip_delete.o: zip_delete.c.o
 
 # target to build an object file
 zip_delete.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_delete.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_delete.c.o
 .PHONY : zip_delete.c.o
 
 zip_delete.i: zip_delete.c.i
@@ -265,7 +265,7 @@ zip_delete.i: zip_delete.c.i
 
 # target to preprocess a source file
 zip_delete.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_delete.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_delete.c.i
 .PHONY : zip_delete.c.i
 
 zip_delete.s: zip_delete.c.s
@@ -273,7 +273,7 @@ zip_delete.s: zip_delete.c.s
 
 # target to generate assembly for a file
 zip_delete.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_delete.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_delete.c.s
 .PHONY : zip_delete.c.s
 
 zip_dir_add.o: zip_dir_add.c.o
@@ -281,7 +281,7 @@ zip_dir_add.o: zip_dir_add.c.o
 
 # target to build an object file
 zip_dir_add.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_dir_add.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_dir_add.c.o
 .PHONY : zip_dir_add.c.o
 
 zip_dir_add.i: zip_dir_add.c.i
@@ -289,7 +289,7 @@ zip_dir_add.i: zip_dir_add.c.i
 
 # target to preprocess a source file
 zip_dir_add.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_dir_add.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_dir_add.c.i
 .PHONY : zip_dir_add.c.i
 
 zip_dir_add.s: zip_dir_add.c.s
@@ -297,7 +297,7 @@ zip_dir_add.s: zip_dir_add.c.s
 
 # target to generate assembly for a file
 zip_dir_add.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_dir_add.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_dir_add.c.s
 .PHONY : zip_dir_add.c.s
 
 zip_dirent.o: zip_dirent.c.o
@@ -305,7 +305,7 @@ zip_dirent.o: zip_dirent.c.o
 
 # target to build an object file
 zip_dirent.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_dirent.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_dirent.c.o
 .PHONY : zip_dirent.c.o
 
 zip_dirent.i: zip_dirent.c.i
@@ -313,7 +313,7 @@ zip_dirent.i: zip_dirent.c.i
 
 # target to preprocess a source file
 zip_dirent.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_dirent.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_dirent.c.i
 .PHONY : zip_dirent.c.i
 
 zip_dirent.s: zip_dirent.c.s
@@ -321,7 +321,7 @@ zip_dirent.s: zip_dirent.c.s
 
 # target to generate assembly for a file
 zip_dirent.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_dirent.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_dirent.c.s
 .PHONY : zip_dirent.c.s
 
 zip_discard.o: zip_discard.c.o
@@ -329,7 +329,7 @@ zip_discard.o: zip_discard.c.o
 
 # target to build an object file
 zip_discard.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_discard.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_discard.c.o
 .PHONY : zip_discard.c.o
 
 zip_discard.i: zip_discard.c.i
@@ -337,7 +337,7 @@ zip_discard.i: zip_discard.c.i
 
 # target to preprocess a source file
 zip_discard.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_discard.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_discard.c.i
 .PHONY : zip_discard.c.i
 
 zip_discard.s: zip_discard.c.s
@@ -345,7 +345,7 @@ zip_discard.s: zip_discard.c.s
 
 # target to generate assembly for a file
 zip_discard.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_discard.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_discard.c.s
 .PHONY : zip_discard.c.s
 
 zip_entry.o: zip_entry.c.o
@@ -353,7 +353,7 @@ zip_entry.o: zip_entry.c.o
 
 # target to build an object file
 zip_entry.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_entry.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_entry.c.o
 .PHONY : zip_entry.c.o
 
 zip_entry.i: zip_entry.c.i
@@ -361,7 +361,7 @@ zip_entry.i: zip_entry.c.i
 
 # target to preprocess a source file
 zip_entry.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_entry.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_entry.c.i
 .PHONY : zip_entry.c.i
 
 zip_entry.s: zip_entry.c.s
@@ -369,7 +369,7 @@ zip_entry.s: zip_entry.c.s
 
 # target to generate assembly for a file
 zip_entry.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_entry.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_entry.c.s
 .PHONY : zip_entry.c.s
 
 zip_err_str.o: zip_err_str.c.o
@@ -377,7 +377,7 @@ zip_err_str.o: zip_err_str.c.o
 
 # target to build an object file
 zip_err_str.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_err_str.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_err_str.c.o
 .PHONY : zip_err_str.c.o
 
 zip_err_str.i: zip_err_str.c.i
@@ -385,7 +385,7 @@ zip_err_str.i: zip_err_str.c.i
 
 # target to preprocess a source file
 zip_err_str.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_err_str.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_err_str.c.i
 .PHONY : zip_err_str.c.i
 
 zip_err_str.s: zip_err_str.c.s
@@ -393,7 +393,7 @@ zip_err_str.s: zip_err_str.c.s
 
 # target to generate assembly for a file
 zip_err_str.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_err_str.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_err_str.c.s
 .PHONY : zip_err_str.c.s
 
 zip_error.o: zip_error.c.o
@@ -401,7 +401,7 @@ zip_error.o: zip_error.c.o
 
 # target to build an object file
 zip_error.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_error.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_error.c.o
 .PHONY : zip_error.c.o
 
 zip_error.i: zip_error.c.i
@@ -409,7 +409,7 @@ zip_error.i: zip_error.c.i
 
 # target to preprocess a source file
 zip_error.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_error.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_error.c.i
 .PHONY : zip_error.c.i
 
 zip_error.s: zip_error.c.s
@@ -417,7 +417,7 @@ zip_error.s: zip_error.c.s
 
 # target to generate assembly for a file
 zip_error.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_error.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_error.c.s
 .PHONY : zip_error.c.s
 
 zip_error_clear.o: zip_error_clear.c.o
@@ -425,7 +425,7 @@ zip_error_clear.o: zip_error_clear.c.o
 
 # target to build an object file
 zip_error_clear.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_error_clear.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_error_clear.c.o
 .PHONY : zip_error_clear.c.o
 
 zip_error_clear.i: zip_error_clear.c.i
@@ -433,7 +433,7 @@ zip_error_clear.i: zip_error_clear.c.i
 
 # target to preprocess a source file
 zip_error_clear.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_error_clear.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_error_clear.c.i
 .PHONY : zip_error_clear.c.i
 
 zip_error_clear.s: zip_error_clear.c.s
@@ -441,7 +441,7 @@ zip_error_clear.s: zip_error_clear.c.s
 
 # target to generate assembly for a file
 zip_error_clear.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_error_clear.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_error_clear.c.s
 .PHONY : zip_error_clear.c.s
 
 zip_error_get.o: zip_error_get.c.o
@@ -449,7 +449,7 @@ zip_error_get.o: zip_error_get.c.o
 
 # target to build an object file
 zip_error_get.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_error_get.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_error_get.c.o
 .PHONY : zip_error_get.c.o
 
 zip_error_get.i: zip_error_get.c.i
@@ -457,7 +457,7 @@ zip_error_get.i: zip_error_get.c.i
 
 # target to preprocess a source file
 zip_error_get.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_error_get.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_error_get.c.i
 .PHONY : zip_error_get.c.i
 
 zip_error_get.s: zip_error_get.c.s
@@ -465,7 +465,7 @@ zip_error_get.s: zip_error_get.c.s
 
 # target to generate assembly for a file
 zip_error_get.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_error_get.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_error_get.c.s
 .PHONY : zip_error_get.c.s
 
 zip_error_get_sys_type.o: zip_error_get_sys_type.c.o
@@ -473,7 +473,7 @@ zip_error_get_sys_type.o: zip_error_get_sys_type.c.o
 
 # target to build an object file
 zip_error_get_sys_type.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_error_get_sys_type.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_error_get_sys_type.c.o
 .PHONY : zip_error_get_sys_type.c.o
 
 zip_error_get_sys_type.i: zip_error_get_sys_type.c.i
@@ -481,7 +481,7 @@ zip_error_get_sys_type.i: zip_error_get_sys_type.c.i
 
 # target to preprocess a source file
 zip_error_get_sys_type.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_error_get_sys_type.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_error_get_sys_type.c.i
 .PHONY : zip_error_get_sys_type.c.i
 
 zip_error_get_sys_type.s: zip_error_get_sys_type.c.s
@@ -489,7 +489,7 @@ zip_error_get_sys_type.s: zip_error_get_sys_type.c.s
 
 # target to generate assembly for a file
 zip_error_get_sys_type.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_error_get_sys_type.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_error_get_sys_type.c.s
 .PHONY : zip_error_get_sys_type.c.s
 
 zip_error_strerror.o: zip_error_strerror.c.o
@@ -497,7 +497,7 @@ zip_error_strerror.o: zip_error_strerror.c.o
 
 # target to build an object file
 zip_error_strerror.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_error_strerror.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_error_strerror.c.o
 .PHONY : zip_error_strerror.c.o
 
 zip_error_strerror.i: zip_error_strerror.c.i
@@ -505,7 +505,7 @@ zip_error_strerror.i: zip_error_strerror.c.i
 
 # target to preprocess a source file
 zip_error_strerror.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_error_strerror.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_error_strerror.c.i
 .PHONY : zip_error_strerror.c.i
 
 zip_error_strerror.s: zip_error_strerror.c.s
@@ -513,7 +513,7 @@ zip_error_strerror.s: zip_error_strerror.c.s
 
 # target to generate assembly for a file
 zip_error_strerror.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_error_strerror.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_error_strerror.c.s
 .PHONY : zip_error_strerror.c.s
 
 zip_error_to_str.o: zip_error_to_str.c.o
@@ -521,7 +521,7 @@ zip_error_to_str.o: zip_error_to_str.c.o
 
 # target to build an object file
 zip_error_to_str.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_error_to_str.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_error_to_str.c.o
 .PHONY : zip_error_to_str.c.o
 
 zip_error_to_str.i: zip_error_to_str.c.i
@@ -529,7 +529,7 @@ zip_error_to_str.i: zip_error_to_str.c.i
 
 # target to preprocess a source file
 zip_error_to_str.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_error_to_str.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_error_to_str.c.i
 .PHONY : zip_error_to_str.c.i
 
 zip_error_to_str.s: zip_error_to_str.c.s
@@ -537,7 +537,7 @@ zip_error_to_str.s: zip_error_to_str.c.s
 
 # target to generate assembly for a file
 zip_error_to_str.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_error_to_str.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_error_to_str.c.s
 .PHONY : zip_error_to_str.c.s
 
 zip_extra_field.o: zip_extra_field.c.o
@@ -545,7 +545,7 @@ zip_extra_field.o: zip_extra_field.c.o
 
 # target to build an object file
 zip_extra_field.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_extra_field.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_extra_field.c.o
 .PHONY : zip_extra_field.c.o
 
 zip_extra_field.i: zip_extra_field.c.i
@@ -553,7 +553,7 @@ zip_extra_field.i: zip_extra_field.c.i
 
 # target to preprocess a source file
 zip_extra_field.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_extra_field.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_extra_field.c.i
 .PHONY : zip_extra_field.c.i
 
 zip_extra_field.s: zip_extra_field.c.s
@@ -561,7 +561,7 @@ zip_extra_field.s: zip_extra_field.c.s
 
 # target to generate assembly for a file
 zip_extra_field.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_extra_field.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_extra_field.c.s
 .PHONY : zip_extra_field.c.s
 
 zip_extra_field_api.o: zip_extra_field_api.c.o
@@ -569,7 +569,7 @@ zip_extra_field_api.o: zip_extra_field_api.c.o
 
 # target to build an object file
 zip_extra_field_api.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_extra_field_api.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_extra_field_api.c.o
 .PHONY : zip_extra_field_api.c.o
 
 zip_extra_field_api.i: zip_extra_field_api.c.i
@@ -577,7 +577,7 @@ zip_extra_field_api.i: zip_extra_field_api.c.i
 
 # target to preprocess a source file
 zip_extra_field_api.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_extra_field_api.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_extra_field_api.c.i
 .PHONY : zip_extra_field_api.c.i
 
 zip_extra_field_api.s: zip_extra_field_api.c.s
@@ -585,7 +585,7 @@ zip_extra_field_api.s: zip_extra_field_api.c.s
 
 # target to generate assembly for a file
 zip_extra_field_api.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_extra_field_api.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_extra_field_api.c.s
 .PHONY : zip_extra_field_api.c.s
 
 zip_fclose.o: zip_fclose.c.o
@@ -593,7 +593,7 @@ zip_fclose.o: zip_fclose.c.o
 
 # target to build an object file
 zip_fclose.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fclose.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fclose.c.o
 .PHONY : zip_fclose.c.o
 
 zip_fclose.i: zip_fclose.c.i
@@ -601,7 +601,7 @@ zip_fclose.i: zip_fclose.c.i
 
 # target to preprocess a source file
 zip_fclose.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fclose.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fclose.c.i
 .PHONY : zip_fclose.c.i
 
 zip_fclose.s: zip_fclose.c.s
@@ -609,7 +609,7 @@ zip_fclose.s: zip_fclose.c.s
 
 # target to generate assembly for a file
 zip_fclose.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fclose.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fclose.c.s
 .PHONY : zip_fclose.c.s
 
 zip_fdopen.o: zip_fdopen.c.o
@@ -617,7 +617,7 @@ zip_fdopen.o: zip_fdopen.c.o
 
 # target to build an object file
 zip_fdopen.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fdopen.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fdopen.c.o
 .PHONY : zip_fdopen.c.o
 
 zip_fdopen.i: zip_fdopen.c.i
@@ -625,7 +625,7 @@ zip_fdopen.i: zip_fdopen.c.i
 
 # target to preprocess a source file
 zip_fdopen.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fdopen.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fdopen.c.i
 .PHONY : zip_fdopen.c.i
 
 zip_fdopen.s: zip_fdopen.c.s
@@ -633,7 +633,7 @@ zip_fdopen.s: zip_fdopen.c.s
 
 # target to generate assembly for a file
 zip_fdopen.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fdopen.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fdopen.c.s
 .PHONY : zip_fdopen.c.s
 
 zip_file_add.o: zip_file_add.c.o
@@ -641,7 +641,7 @@ zip_file_add.o: zip_file_add.c.o
 
 # target to build an object file
 zip_file_add.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_add.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_add.c.o
 .PHONY : zip_file_add.c.o
 
 zip_file_add.i: zip_file_add.c.i
@@ -649,7 +649,7 @@ zip_file_add.i: zip_file_add.c.i
 
 # target to preprocess a source file
 zip_file_add.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_add.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_add.c.i
 .PHONY : zip_file_add.c.i
 
 zip_file_add.s: zip_file_add.c.s
@@ -657,7 +657,7 @@ zip_file_add.s: zip_file_add.c.s
 
 # target to generate assembly for a file
 zip_file_add.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_add.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_add.c.s
 .PHONY : zip_file_add.c.s
 
 zip_file_error_clear.o: zip_file_error_clear.c.o
@@ -665,7 +665,7 @@ zip_file_error_clear.o: zip_file_error_clear.c.o
 
 # target to build an object file
 zip_file_error_clear.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_error_clear.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_error_clear.c.o
 .PHONY : zip_file_error_clear.c.o
 
 zip_file_error_clear.i: zip_file_error_clear.c.i
@@ -673,7 +673,7 @@ zip_file_error_clear.i: zip_file_error_clear.c.i
 
 # target to preprocess a source file
 zip_file_error_clear.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_error_clear.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_error_clear.c.i
 .PHONY : zip_file_error_clear.c.i
 
 zip_file_error_clear.s: zip_file_error_clear.c.s
@@ -681,7 +681,7 @@ zip_file_error_clear.s: zip_file_error_clear.c.s
 
 # target to generate assembly for a file
 zip_file_error_clear.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_error_clear.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_error_clear.c.s
 .PHONY : zip_file_error_clear.c.s
 
 zip_file_error_get.o: zip_file_error_get.c.o
@@ -689,7 +689,7 @@ zip_file_error_get.o: zip_file_error_get.c.o
 
 # target to build an object file
 zip_file_error_get.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_error_get.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_error_get.c.o
 .PHONY : zip_file_error_get.c.o
 
 zip_file_error_get.i: zip_file_error_get.c.i
@@ -697,7 +697,7 @@ zip_file_error_get.i: zip_file_error_get.c.i
 
 # target to preprocess a source file
 zip_file_error_get.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_error_get.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_error_get.c.i
 .PHONY : zip_file_error_get.c.i
 
 zip_file_error_get.s: zip_file_error_get.c.s
@@ -705,7 +705,7 @@ zip_file_error_get.s: zip_file_error_get.c.s
 
 # target to generate assembly for a file
 zip_file_error_get.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_error_get.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_error_get.c.s
 .PHONY : zip_file_error_get.c.s
 
 zip_file_get_comment.o: zip_file_get_comment.c.o
@@ -713,7 +713,7 @@ zip_file_get_comment.o: zip_file_get_comment.c.o
 
 # target to build an object file
 zip_file_get_comment.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_comment.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_comment.c.o
 .PHONY : zip_file_get_comment.c.o
 
 zip_file_get_comment.i: zip_file_get_comment.c.i
@@ -721,7 +721,7 @@ zip_file_get_comment.i: zip_file_get_comment.c.i
 
 # target to preprocess a source file
 zip_file_get_comment.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_comment.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_comment.c.i
 .PHONY : zip_file_get_comment.c.i
 
 zip_file_get_comment.s: zip_file_get_comment.c.s
@@ -729,7 +729,7 @@ zip_file_get_comment.s: zip_file_get_comment.c.s
 
 # target to generate assembly for a file
 zip_file_get_comment.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_comment.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_comment.c.s
 .PHONY : zip_file_get_comment.c.s
 
 zip_file_get_external_attributes.o: zip_file_get_external_attributes.c.o
@@ -737,7 +737,7 @@ zip_file_get_external_attributes.o: zip_file_get_external_attributes.c.o
 
 # target to build an object file
 zip_file_get_external_attributes.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_external_attributes.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_external_attributes.c.o
 .PHONY : zip_file_get_external_attributes.c.o
 
 zip_file_get_external_attributes.i: zip_file_get_external_attributes.c.i
@@ -745,7 +745,7 @@ zip_file_get_external_attributes.i: zip_file_get_external_attributes.c.i
 
 # target to preprocess a source file
 zip_file_get_external_attributes.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_external_attributes.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_external_attributes.c.i
 .PHONY : zip_file_get_external_attributes.c.i
 
 zip_file_get_external_attributes.s: zip_file_get_external_attributes.c.s
@@ -753,7 +753,7 @@ zip_file_get_external_attributes.s: zip_file_get_external_attributes.c.s
 
 # target to generate assembly for a file
 zip_file_get_external_attributes.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_external_attributes.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_external_attributes.c.s
 .PHONY : zip_file_get_external_attributes.c.s
 
 zip_file_get_offset.o: zip_file_get_offset.c.o
@@ -761,7 +761,7 @@ zip_file_get_offset.o: zip_file_get_offset.c.o
 
 # target to build an object file
 zip_file_get_offset.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_offset.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_offset.c.o
 .PHONY : zip_file_get_offset.c.o
 
 zip_file_get_offset.i: zip_file_get_offset.c.i
@@ -769,7 +769,7 @@ zip_file_get_offset.i: zip_file_get_offset.c.i
 
 # target to preprocess a source file
 zip_file_get_offset.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_offset.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_offset.c.i
 .PHONY : zip_file_get_offset.c.i
 
 zip_file_get_offset.s: zip_file_get_offset.c.s
@@ -777,7 +777,7 @@ zip_file_get_offset.s: zip_file_get_offset.c.s
 
 # target to generate assembly for a file
 zip_file_get_offset.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_offset.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_offset.c.s
 .PHONY : zip_file_get_offset.c.s
 
 zip_file_rename.o: zip_file_rename.c.o
@@ -785,7 +785,7 @@ zip_file_rename.o: zip_file_rename.c.o
 
 # target to build an object file
 zip_file_rename.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_rename.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_rename.c.o
 .PHONY : zip_file_rename.c.o
 
 zip_file_rename.i: zip_file_rename.c.i
@@ -793,7 +793,7 @@ zip_file_rename.i: zip_file_rename.c.i
 
 # target to preprocess a source file
 zip_file_rename.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_rename.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_rename.c.i
 .PHONY : zip_file_rename.c.i
 
 zip_file_rename.s: zip_file_rename.c.s
@@ -801,7 +801,7 @@ zip_file_rename.s: zip_file_rename.c.s
 
 # target to generate assembly for a file
 zip_file_rename.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_rename.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_rename.c.s
 .PHONY : zip_file_rename.c.s
 
 zip_file_replace.o: zip_file_replace.c.o
@@ -809,7 +809,7 @@ zip_file_replace.o: zip_file_replace.c.o
 
 # target to build an object file
 zip_file_replace.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_replace.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_replace.c.o
 .PHONY : zip_file_replace.c.o
 
 zip_file_replace.i: zip_file_replace.c.i
@@ -817,7 +817,7 @@ zip_file_replace.i: zip_file_replace.c.i
 
 # target to preprocess a source file
 zip_file_replace.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_replace.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_replace.c.i
 .PHONY : zip_file_replace.c.i
 
 zip_file_replace.s: zip_file_replace.c.s
@@ -825,7 +825,7 @@ zip_file_replace.s: zip_file_replace.c.s
 
 # target to generate assembly for a file
 zip_file_replace.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_replace.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_replace.c.s
 .PHONY : zip_file_replace.c.s
 
 zip_file_set_comment.o: zip_file_set_comment.c.o
@@ -833,7 +833,7 @@ zip_file_set_comment.o: zip_file_set_comment.c.o
 
 # target to build an object file
 zip_file_set_comment.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_set_comment.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_set_comment.c.o
 .PHONY : zip_file_set_comment.c.o
 
 zip_file_set_comment.i: zip_file_set_comment.c.i
@@ -841,7 +841,7 @@ zip_file_set_comment.i: zip_file_set_comment.c.i
 
 # target to preprocess a source file
 zip_file_set_comment.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_set_comment.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_set_comment.c.i
 .PHONY : zip_file_set_comment.c.i
 
 zip_file_set_comment.s: zip_file_set_comment.c.s
@@ -849,7 +849,7 @@ zip_file_set_comment.s: zip_file_set_comment.c.s
 
 # target to generate assembly for a file
 zip_file_set_comment.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_set_comment.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_set_comment.c.s
 .PHONY : zip_file_set_comment.c.s
 
 zip_file_set_external_attributes.o: zip_file_set_external_attributes.c.o
@@ -857,7 +857,7 @@ zip_file_set_external_attributes.o: zip_file_set_external_attributes.c.o
 
 # target to build an object file
 zip_file_set_external_attributes.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_set_external_attributes.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_set_external_attributes.c.o
 .PHONY : zip_file_set_external_attributes.c.o
 
 zip_file_set_external_attributes.i: zip_file_set_external_attributes.c.i
@@ -865,7 +865,7 @@ zip_file_set_external_attributes.i: zip_file_set_external_attributes.c.i
 
 # target to preprocess a source file
 zip_file_set_external_attributes.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_set_external_attributes.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_set_external_attributes.c.i
 .PHONY : zip_file_set_external_attributes.c.i
 
 zip_file_set_external_attributes.s: zip_file_set_external_attributes.c.s
@@ -873,7 +873,7 @@ zip_file_set_external_attributes.s: zip_file_set_external_attributes.c.s
 
 # target to generate assembly for a file
 zip_file_set_external_attributes.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_set_external_attributes.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_set_external_attributes.c.s
 .PHONY : zip_file_set_external_attributes.c.s
 
 zip_file_strerror.o: zip_file_strerror.c.o
@@ -881,7 +881,7 @@ zip_file_strerror.o: zip_file_strerror.c.o
 
 # target to build an object file
 zip_file_strerror.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_strerror.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_strerror.c.o
 .PHONY : zip_file_strerror.c.o
 
 zip_file_strerror.i: zip_file_strerror.c.i
@@ -889,7 +889,7 @@ zip_file_strerror.i: zip_file_strerror.c.i
 
 # target to preprocess a source file
 zip_file_strerror.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_strerror.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_strerror.c.i
 .PHONY : zip_file_strerror.c.i
 
 zip_file_strerror.s: zip_file_strerror.c.s
@@ -897,7 +897,7 @@ zip_file_strerror.s: zip_file_strerror.c.s
 
 # target to generate assembly for a file
 zip_file_strerror.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_strerror.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_file_strerror.c.s
 .PHONY : zip_file_strerror.c.s
 
 zip_filerange_crc.o: zip_filerange_crc.c.o
@@ -905,7 +905,7 @@ zip_filerange_crc.o: zip_filerange_crc.c.o
 
 # target to build an object file
 zip_filerange_crc.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_filerange_crc.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_filerange_crc.c.o
 .PHONY : zip_filerange_crc.c.o
 
 zip_filerange_crc.i: zip_filerange_crc.c.i
@@ -913,7 +913,7 @@ zip_filerange_crc.i: zip_filerange_crc.c.i
 
 # target to preprocess a source file
 zip_filerange_crc.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_filerange_crc.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_filerange_crc.c.i
 .PHONY : zip_filerange_crc.c.i
 
 zip_filerange_crc.s: zip_filerange_crc.c.s
@@ -921,7 +921,7 @@ zip_filerange_crc.s: zip_filerange_crc.c.s
 
 # target to generate assembly for a file
 zip_filerange_crc.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_filerange_crc.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_filerange_crc.c.s
 .PHONY : zip_filerange_crc.c.s
 
 zip_fopen.o: zip_fopen.c.o
@@ -929,7 +929,7 @@ zip_fopen.o: zip_fopen.c.o
 
 # target to build an object file
 zip_fopen.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen.c.o
 .PHONY : zip_fopen.c.o
 
 zip_fopen.i: zip_fopen.c.i
@@ -937,7 +937,7 @@ zip_fopen.i: zip_fopen.c.i
 
 # target to preprocess a source file
 zip_fopen.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen.c.i
 .PHONY : zip_fopen.c.i
 
 zip_fopen.s: zip_fopen.c.s
@@ -945,7 +945,7 @@ zip_fopen.s: zip_fopen.c.s
 
 # target to generate assembly for a file
 zip_fopen.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen.c.s
 .PHONY : zip_fopen.c.s
 
 zip_fopen_encrypted.o: zip_fopen_encrypted.c.o
@@ -953,7 +953,7 @@ zip_fopen_encrypted.o: zip_fopen_encrypted.c.o
 
 # target to build an object file
 zip_fopen_encrypted.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_encrypted.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_encrypted.c.o
 .PHONY : zip_fopen_encrypted.c.o
 
 zip_fopen_encrypted.i: zip_fopen_encrypted.c.i
@@ -961,7 +961,7 @@ zip_fopen_encrypted.i: zip_fopen_encrypted.c.i
 
 # target to preprocess a source file
 zip_fopen_encrypted.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_encrypted.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_encrypted.c.i
 .PHONY : zip_fopen_encrypted.c.i
 
 zip_fopen_encrypted.s: zip_fopen_encrypted.c.s
@@ -969,7 +969,7 @@ zip_fopen_encrypted.s: zip_fopen_encrypted.c.s
 
 # target to generate assembly for a file
 zip_fopen_encrypted.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_encrypted.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_encrypted.c.s
 .PHONY : zip_fopen_encrypted.c.s
 
 zip_fopen_index.o: zip_fopen_index.c.o
@@ -977,7 +977,7 @@ zip_fopen_index.o: zip_fopen_index.c.o
 
 # target to build an object file
 zip_fopen_index.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_index.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_index.c.o
 .PHONY : zip_fopen_index.c.o
 
 zip_fopen_index.i: zip_fopen_index.c.i
@@ -985,7 +985,7 @@ zip_fopen_index.i: zip_fopen_index.c.i
 
 # target to preprocess a source file
 zip_fopen_index.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_index.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_index.c.i
 .PHONY : zip_fopen_index.c.i
 
 zip_fopen_index.s: zip_fopen_index.c.s
@@ -993,7 +993,7 @@ zip_fopen_index.s: zip_fopen_index.c.s
 
 # target to generate assembly for a file
 zip_fopen_index.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_index.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_index.c.s
 .PHONY : zip_fopen_index.c.s
 
 zip_fopen_index_encrypted.o: zip_fopen_index_encrypted.c.o
@@ -1001,7 +1001,7 @@ zip_fopen_index_encrypted.o: zip_fopen_index_encrypted.c.o
 
 # target to build an object file
 zip_fopen_index_encrypted.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_index_encrypted.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_index_encrypted.c.o
 .PHONY : zip_fopen_index_encrypted.c.o
 
 zip_fopen_index_encrypted.i: zip_fopen_index_encrypted.c.i
@@ -1009,7 +1009,7 @@ zip_fopen_index_encrypted.i: zip_fopen_index_encrypted.c.i
 
 # target to preprocess a source file
 zip_fopen_index_encrypted.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_index_encrypted.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_index_encrypted.c.i
 .PHONY : zip_fopen_index_encrypted.c.i
 
 zip_fopen_index_encrypted.s: zip_fopen_index_encrypted.c.s
@@ -1017,7 +1017,7 @@ zip_fopen_index_encrypted.s: zip_fopen_index_encrypted.c.s
 
 # target to generate assembly for a file
 zip_fopen_index_encrypted.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_index_encrypted.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_index_encrypted.c.s
 .PHONY : zip_fopen_index_encrypted.c.s
 
 zip_fread.o: zip_fread.c.o
@@ -1025,7 +1025,7 @@ zip_fread.o: zip_fread.c.o
 
 # target to build an object file
 zip_fread.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fread.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fread.c.o
 .PHONY : zip_fread.c.o
 
 zip_fread.i: zip_fread.c.i
@@ -1033,7 +1033,7 @@ zip_fread.i: zip_fread.c.i
 
 # target to preprocess a source file
 zip_fread.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fread.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fread.c.i
 .PHONY : zip_fread.c.i
 
 zip_fread.s: zip_fread.c.s
@@ -1041,7 +1041,7 @@ zip_fread.s: zip_fread.c.s
 
 # target to generate assembly for a file
 zip_fread.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fread.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_fread.c.s
 .PHONY : zip_fread.c.s
 
 zip_get_archive_comment.o: zip_get_archive_comment.c.o
@@ -1049,7 +1049,7 @@ zip_get_archive_comment.o: zip_get_archive_comment.c.o
 
 # target to build an object file
 zip_get_archive_comment.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_archive_comment.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_archive_comment.c.o
 .PHONY : zip_get_archive_comment.c.o
 
 zip_get_archive_comment.i: zip_get_archive_comment.c.i
@@ -1057,7 +1057,7 @@ zip_get_archive_comment.i: zip_get_archive_comment.c.i
 
 # target to preprocess a source file
 zip_get_archive_comment.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_archive_comment.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_archive_comment.c.i
 .PHONY : zip_get_archive_comment.c.i
 
 zip_get_archive_comment.s: zip_get_archive_comment.c.s
@@ -1065,7 +1065,7 @@ zip_get_archive_comment.s: zip_get_archive_comment.c.s
 
 # target to generate assembly for a file
 zip_get_archive_comment.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_archive_comment.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_archive_comment.c.s
 .PHONY : zip_get_archive_comment.c.s
 
 zip_get_archive_flag.o: zip_get_archive_flag.c.o
@@ -1073,7 +1073,7 @@ zip_get_archive_flag.o: zip_get_archive_flag.c.o
 
 # target to build an object file
 zip_get_archive_flag.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_archive_flag.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_archive_flag.c.o
 .PHONY : zip_get_archive_flag.c.o
 
 zip_get_archive_flag.i: zip_get_archive_flag.c.i
@@ -1081,7 +1081,7 @@ zip_get_archive_flag.i: zip_get_archive_flag.c.i
 
 # target to preprocess a source file
 zip_get_archive_flag.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_archive_flag.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_archive_flag.c.i
 .PHONY : zip_get_archive_flag.c.i
 
 zip_get_archive_flag.s: zip_get_archive_flag.c.s
@@ -1089,7 +1089,7 @@ zip_get_archive_flag.s: zip_get_archive_flag.c.s
 
 # target to generate assembly for a file
 zip_get_archive_flag.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_archive_flag.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_archive_flag.c.s
 .PHONY : zip_get_archive_flag.c.s
 
 zip_get_compression_implementation.o: zip_get_compression_implementation.c.o
@@ -1097,7 +1097,7 @@ zip_get_compression_implementation.o: zip_get_compression_implementation.c.o
 
 # target to build an object file
 zip_get_compression_implementation.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_compression_implementation.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_compression_implementation.c.o
 .PHONY : zip_get_compression_implementation.c.o
 
 zip_get_compression_implementation.i: zip_get_compression_implementation.c.i
@@ -1105,7 +1105,7 @@ zip_get_compression_implementation.i: zip_get_compression_implementation.c.i
 
 # target to preprocess a source file
 zip_get_compression_implementation.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_compression_implementation.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_compression_implementation.c.i
 .PHONY : zip_get_compression_implementation.c.i
 
 zip_get_compression_implementation.s: zip_get_compression_implementation.c.s
@@ -1113,7 +1113,7 @@ zip_get_compression_implementation.s: zip_get_compression_implementation.c.s
 
 # target to generate assembly for a file
 zip_get_compression_implementation.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_compression_implementation.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_compression_implementation.c.s
 .PHONY : zip_get_compression_implementation.c.s
 
 zip_get_encryption_implementation.o: zip_get_encryption_implementation.c.o
@@ -1121,7 +1121,7 @@ zip_get_encryption_implementation.o: zip_get_encryption_implementation.c.o
 
 # target to build an object file
 zip_get_encryption_implementation.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_encryption_implementation.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_encryption_implementation.c.o
 .PHONY : zip_get_encryption_implementation.c.o
 
 zip_get_encryption_implementation.i: zip_get_encryption_implementation.c.i
@@ -1129,7 +1129,7 @@ zip_get_encryption_implementation.i: zip_get_encryption_implementation.c.i
 
 # target to preprocess a source file
 zip_get_encryption_implementation.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_encryption_implementation.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_encryption_implementation.c.i
 .PHONY : zip_get_encryption_implementation.c.i
 
 zip_get_encryption_implementation.s: zip_get_encryption_implementation.c.s
@@ -1137,7 +1137,7 @@ zip_get_encryption_implementation.s: zip_get_encryption_implementation.c.s
 
 # target to generate assembly for a file
 zip_get_encryption_implementation.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_encryption_implementation.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_encryption_implementation.c.s
 .PHONY : zip_get_encryption_implementation.c.s
 
 zip_get_file_comment.o: zip_get_file_comment.c.o
@@ -1145,7 +1145,7 @@ zip_get_file_comment.o: zip_get_file_comment.c.o
 
 # target to build an object file
 zip_get_file_comment.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_file_comment.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_file_comment.c.o
 .PHONY : zip_get_file_comment.c.o
 
 zip_get_file_comment.i: zip_get_file_comment.c.i
@@ -1153,7 +1153,7 @@ zip_get_file_comment.i: zip_get_file_comment.c.i
 
 # target to preprocess a source file
 zip_get_file_comment.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_file_comment.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_file_comment.c.i
 .PHONY : zip_get_file_comment.c.i
 
 zip_get_file_comment.s: zip_get_file_comment.c.s
@@ -1161,7 +1161,7 @@ zip_get_file_comment.s: zip_get_file_comment.c.s
 
 # target to generate assembly for a file
 zip_get_file_comment.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_file_comment.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_file_comment.c.s
 .PHONY : zip_get_file_comment.c.s
 
 zip_get_name.o: zip_get_name.c.o
@@ -1169,7 +1169,7 @@ zip_get_name.o: zip_get_name.c.o
 
 # target to build an object file
 zip_get_name.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_name.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_name.c.o
 .PHONY : zip_get_name.c.o
 
 zip_get_name.i: zip_get_name.c.i
@@ -1177,7 +1177,7 @@ zip_get_name.i: zip_get_name.c.i
 
 # target to preprocess a source file
 zip_get_name.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_name.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_name.c.i
 .PHONY : zip_get_name.c.i
 
 zip_get_name.s: zip_get_name.c.s
@@ -1185,7 +1185,7 @@ zip_get_name.s: zip_get_name.c.s
 
 # target to generate assembly for a file
 zip_get_name.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_name.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_name.c.s
 .PHONY : zip_get_name.c.s
 
 zip_get_num_entries.o: zip_get_num_entries.c.o
@@ -1193,7 +1193,7 @@ zip_get_num_entries.o: zip_get_num_entries.c.o
 
 # target to build an object file
 zip_get_num_entries.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_num_entries.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_num_entries.c.o
 .PHONY : zip_get_num_entries.c.o
 
 zip_get_num_entries.i: zip_get_num_entries.c.i
@@ -1201,7 +1201,7 @@ zip_get_num_entries.i: zip_get_num_entries.c.i
 
 # target to preprocess a source file
 zip_get_num_entries.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_num_entries.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_num_entries.c.i
 .PHONY : zip_get_num_entries.c.i
 
 zip_get_num_entries.s: zip_get_num_entries.c.s
@@ -1209,7 +1209,7 @@ zip_get_num_entries.s: zip_get_num_entries.c.s
 
 # target to generate assembly for a file
 zip_get_num_entries.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_num_entries.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_num_entries.c.s
 .PHONY : zip_get_num_entries.c.s
 
 zip_get_num_files.o: zip_get_num_files.c.o
@@ -1217,7 +1217,7 @@ zip_get_num_files.o: zip_get_num_files.c.o
 
 # target to build an object file
 zip_get_num_files.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_num_files.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_num_files.c.o
 .PHONY : zip_get_num_files.c.o
 
 zip_get_num_files.i: zip_get_num_files.c.i
@@ -1225,7 +1225,7 @@ zip_get_num_files.i: zip_get_num_files.c.i
 
 # target to preprocess a source file
 zip_get_num_files.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_num_files.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_num_files.c.i
 .PHONY : zip_get_num_files.c.i
 
 zip_get_num_files.s: zip_get_num_files.c.s
@@ -1233,7 +1233,7 @@ zip_get_num_files.s: zip_get_num_files.c.s
 
 # target to generate assembly for a file
 zip_get_num_files.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_num_files.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_get_num_files.c.s
 .PHONY : zip_get_num_files.c.s
 
 zip_memdup.o: zip_memdup.c.o
@@ -1241,7 +1241,7 @@ zip_memdup.o: zip_memdup.c.o
 
 # target to build an object file
 zip_memdup.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_memdup.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_memdup.c.o
 .PHONY : zip_memdup.c.o
 
 zip_memdup.i: zip_memdup.c.i
@@ -1249,7 +1249,7 @@ zip_memdup.i: zip_memdup.c.i
 
 # target to preprocess a source file
 zip_memdup.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_memdup.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_memdup.c.i
 .PHONY : zip_memdup.c.i
 
 zip_memdup.s: zip_memdup.c.s
@@ -1257,7 +1257,7 @@ zip_memdup.s: zip_memdup.c.s
 
 # target to generate assembly for a file
 zip_memdup.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_memdup.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_memdup.c.s
 .PHONY : zip_memdup.c.s
 
 zip_name_locate.o: zip_name_locate.c.o
@@ -1265,7 +1265,7 @@ zip_name_locate.o: zip_name_locate.c.o
 
 # target to build an object file
 zip_name_locate.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_name_locate.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_name_locate.c.o
 .PHONY : zip_name_locate.c.o
 
 zip_name_locate.i: zip_name_locate.c.i
@@ -1273,7 +1273,7 @@ zip_name_locate.i: zip_name_locate.c.i
 
 # target to preprocess a source file
 zip_name_locate.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_name_locate.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_name_locate.c.i
 .PHONY : zip_name_locate.c.i
 
 zip_name_locate.s: zip_name_locate.c.s
@@ -1281,7 +1281,7 @@ zip_name_locate.s: zip_name_locate.c.s
 
 # target to generate assembly for a file
 zip_name_locate.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_name_locate.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_name_locate.c.s
 .PHONY : zip_name_locate.c.s
 
 zip_new.o: zip_new.c.o
@@ -1289,7 +1289,7 @@ zip_new.o: zip_new.c.o
 
 # target to build an object file
 zip_new.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_new.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_new.c.o
 .PHONY : zip_new.c.o
 
 zip_new.i: zip_new.c.i
@@ -1297,7 +1297,7 @@ zip_new.i: zip_new.c.i
 
 # target to preprocess a source file
 zip_new.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_new.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_new.c.i
 .PHONY : zip_new.c.i
 
 zip_new.s: zip_new.c.s
@@ -1305,7 +1305,7 @@ zip_new.s: zip_new.c.s
 
 # target to generate assembly for a file
 zip_new.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_new.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_new.c.s
 .PHONY : zip_new.c.s
 
 zip_open.o: zip_open.c.o
@@ -1313,7 +1313,7 @@ zip_open.o: zip_open.c.o
 
 # target to build an object file
 zip_open.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_open.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_open.c.o
 .PHONY : zip_open.c.o
 
 zip_open.i: zip_open.c.i
@@ -1321,7 +1321,7 @@ zip_open.i: zip_open.c.i
 
 # target to preprocess a source file
 zip_open.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_open.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_open.c.i
 .PHONY : zip_open.c.i
 
 zip_open.s: zip_open.c.s
@@ -1329,7 +1329,7 @@ zip_open.s: zip_open.c.s
 
 # target to generate assembly for a file
 zip_open.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_open.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_open.c.s
 .PHONY : zip_open.c.s
 
 zip_rename.o: zip_rename.c.o
@@ -1337,7 +1337,7 @@ zip_rename.o: zip_rename.c.o
 
 # target to build an object file
 zip_rename.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_rename.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_rename.c.o
 .PHONY : zip_rename.c.o
 
 zip_rename.i: zip_rename.c.i
@@ -1345,7 +1345,7 @@ zip_rename.i: zip_rename.c.i
 
 # target to preprocess a source file
 zip_rename.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_rename.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_rename.c.i
 .PHONY : zip_rename.c.i
 
 zip_rename.s: zip_rename.c.s
@@ -1353,7 +1353,7 @@ zip_rename.s: zip_rename.c.s
 
 # target to generate assembly for a file
 zip_rename.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_rename.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_rename.c.s
 .PHONY : zip_rename.c.s
 
 zip_replace.o: zip_replace.c.o
@@ -1361,7 +1361,7 @@ zip_replace.o: zip_replace.c.o
 
 # target to build an object file
 zip_replace.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_replace.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_replace.c.o
 .PHONY : zip_replace.c.o
 
 zip_replace.i: zip_replace.c.i
@@ -1369,7 +1369,7 @@ zip_replace.i: zip_replace.c.i
 
 # target to preprocess a source file
 zip_replace.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_replace.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_replace.c.i
 .PHONY : zip_replace.c.i
 
 zip_replace.s: zip_replace.c.s
@@ -1377,7 +1377,7 @@ zip_replace.s: zip_replace.c.s
 
 # target to generate assembly for a file
 zip_replace.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_replace.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_replace.c.s
 .PHONY : zip_replace.c.s
 
 zip_set_archive_comment.o: zip_set_archive_comment.c.o
@@ -1385,7 +1385,7 @@ zip_set_archive_comment.o: zip_set_archive_comment.c.o
 
 # target to build an object file
 zip_set_archive_comment.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_set_archive_comment.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_set_archive_comment.c.o
 .PHONY : zip_set_archive_comment.c.o
 
 zip_set_archive_comment.i: zip_set_archive_comment.c.i
@@ -1393,7 +1393,7 @@ zip_set_archive_comment.i: zip_set_archive_comment.c.i
 
 # target to preprocess a source file
 zip_set_archive_comment.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_set_archive_comment.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_set_archive_comment.c.i
 .PHONY : zip_set_archive_comment.c.i
 
 zip_set_archive_comment.s: zip_set_archive_comment.c.s
@@ -1401,7 +1401,7 @@ zip_set_archive_comment.s: zip_set_archive_comment.c.s
 
 # target to generate assembly for a file
 zip_set_archive_comment.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_set_archive_comment.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_set_archive_comment.c.s
 .PHONY : zip_set_archive_comment.c.s
 
 zip_set_archive_flag.o: zip_set_archive_flag.c.o
@@ -1409,7 +1409,7 @@ zip_set_archive_flag.o: zip_set_archive_flag.c.o
 
 # target to build an object file
 zip_set_archive_flag.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_set_archive_flag.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_set_archive_flag.c.o
 .PHONY : zip_set_archive_flag.c.o
 
 zip_set_archive_flag.i: zip_set_archive_flag.c.i
@@ -1417,7 +1417,7 @@ zip_set_archive_flag.i: zip_set_archive_flag.c.i
 
 # target to preprocess a source file
 zip_set_archive_flag.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_set_archive_flag.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_set_archive_flag.c.i
 .PHONY : zip_set_archive_flag.c.i
 
 zip_set_archive_flag.s: zip_set_archive_flag.c.s
@@ -1425,7 +1425,7 @@ zip_set_archive_flag.s: zip_set_archive_flag.c.s
 
 # target to generate assembly for a file
 zip_set_archive_flag.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_set_archive_flag.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_set_archive_flag.c.s
 .PHONY : zip_set_archive_flag.c.s
 
 zip_set_default_password.o: zip_set_default_password.c.o
@@ -1433,7 +1433,7 @@ zip_set_default_password.o: zip_set_default_password.c.o
 
 # target to build an object file
 zip_set_default_password.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_set_default_password.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_set_default_password.c.o
 .PHONY : zip_set_default_password.c.o
 
 zip_set_default_password.i: zip_set_default_password.c.i
@@ -1441,7 +1441,7 @@ zip_set_default_password.i: zip_set_default_password.c.i
 
 # target to preprocess a source file
 zip_set_default_password.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_set_default_password.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_set_default_password.c.i
 .PHONY : zip_set_default_password.c.i
 
 zip_set_default_password.s: zip_set_default_password.c.s
@@ -1449,7 +1449,7 @@ zip_set_default_password.s: zip_set_default_password.c.s
 
 # target to generate assembly for a file
 zip_set_default_password.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_set_default_password.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_set_default_password.c.s
 .PHONY : zip_set_default_password.c.s
 
 zip_set_file_comment.o: zip_set_file_comment.c.o
@@ -1457,7 +1457,7 @@ zip_set_file_comment.o: zip_set_file_comment.c.o
 
 # target to build an object file
 zip_set_file_comment.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_set_file_comment.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_set_file_comment.c.o
 .PHONY : zip_set_file_comment.c.o
 
 zip_set_file_comment.i: zip_set_file_comment.c.i
@@ -1465,7 +1465,7 @@ zip_set_file_comment.i: zip_set_file_comment.c.i
 
 # target to preprocess a source file
 zip_set_file_comment.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_set_file_comment.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_set_file_comment.c.i
 .PHONY : zip_set_file_comment.c.i
 
 zip_set_file_comment.s: zip_set_file_comment.c.s
@@ -1473,7 +1473,7 @@ zip_set_file_comment.s: zip_set_file_comment.c.s
 
 # target to generate assembly for a file
 zip_set_file_comment.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_set_file_comment.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_set_file_comment.c.s
 .PHONY : zip_set_file_comment.c.s
 
 zip_set_file_compression.o: zip_set_file_compression.c.o
@@ -1481,7 +1481,7 @@ zip_set_file_compression.o: zip_set_file_compression.c.o
 
 # target to build an object file
 zip_set_file_compression.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_set_file_compression.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_set_file_compression.c.o
 .PHONY : zip_set_file_compression.c.o
 
 zip_set_file_compression.i: zip_set_file_compression.c.i
@@ -1489,7 +1489,7 @@ zip_set_file_compression.i: zip_set_file_compression.c.i
 
 # target to preprocess a source file
 zip_set_file_compression.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_set_file_compression.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_set_file_compression.c.i
 .PHONY : zip_set_file_compression.c.i
 
 zip_set_file_compression.s: zip_set_file_compression.c.s
@@ -1497,7 +1497,7 @@ zip_set_file_compression.s: zip_set_file_compression.c.s
 
 # target to generate assembly for a file
 zip_set_file_compression.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_set_file_compression.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_set_file_compression.c.s
 .PHONY : zip_set_file_compression.c.s
 
 zip_set_name.o: zip_set_name.c.o
@@ -1505,7 +1505,7 @@ zip_set_name.o: zip_set_name.c.o
 
 # target to build an object file
 zip_set_name.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_set_name.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_set_name.c.o
 .PHONY : zip_set_name.c.o
 
 zip_set_name.i: zip_set_name.c.i
@@ -1513,7 +1513,7 @@ zip_set_name.i: zip_set_name.c.i
 
 # target to preprocess a source file
 zip_set_name.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_set_name.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_set_name.c.i
 .PHONY : zip_set_name.c.i
 
 zip_set_name.s: zip_set_name.c.s
@@ -1521,7 +1521,7 @@ zip_set_name.s: zip_set_name.c.s
 
 # target to generate assembly for a file
 zip_set_name.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_set_name.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_set_name.c.s
 .PHONY : zip_set_name.c.s
 
 zip_source_buffer.o: zip_source_buffer.c.o
@@ -1529,7 +1529,7 @@ zip_source_buffer.o: zip_source_buffer.c.o
 
 # target to build an object file
 zip_source_buffer.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_buffer.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_buffer.c.o
 .PHONY : zip_source_buffer.c.o
 
 zip_source_buffer.i: zip_source_buffer.c.i
@@ -1537,7 +1537,7 @@ zip_source_buffer.i: zip_source_buffer.c.i
 
 # target to preprocess a source file
 zip_source_buffer.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_buffer.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_buffer.c.i
 .PHONY : zip_source_buffer.c.i
 
 zip_source_buffer.s: zip_source_buffer.c.s
@@ -1545,7 +1545,7 @@ zip_source_buffer.s: zip_source_buffer.c.s
 
 # target to generate assembly for a file
 zip_source_buffer.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_buffer.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_buffer.c.s
 .PHONY : zip_source_buffer.c.s
 
 zip_source_close.o: zip_source_close.c.o
@@ -1553,7 +1553,7 @@ zip_source_close.o: zip_source_close.c.o
 
 # target to build an object file
 zip_source_close.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_close.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_close.c.o
 .PHONY : zip_source_close.c.o
 
 zip_source_close.i: zip_source_close.c.i
@@ -1561,7 +1561,7 @@ zip_source_close.i: zip_source_close.c.i
 
 # target to preprocess a source file
 zip_source_close.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_close.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_close.c.i
 .PHONY : zip_source_close.c.i
 
 zip_source_close.s: zip_source_close.c.s
@@ -1569,7 +1569,7 @@ zip_source_close.s: zip_source_close.c.s
 
 # target to generate assembly for a file
 zip_source_close.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_close.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_close.c.s
 .PHONY : zip_source_close.c.s
 
 zip_source_crc.o: zip_source_crc.c.o
@@ -1577,7 +1577,7 @@ zip_source_crc.o: zip_source_crc.c.o
 
 # target to build an object file
 zip_source_crc.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_crc.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_crc.c.o
 .PHONY : zip_source_crc.c.o
 
 zip_source_crc.i: zip_source_crc.c.i
@@ -1585,7 +1585,7 @@ zip_source_crc.i: zip_source_crc.c.i
 
 # target to preprocess a source file
 zip_source_crc.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_crc.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_crc.c.i
 .PHONY : zip_source_crc.c.i
 
 zip_source_crc.s: zip_source_crc.c.s
@@ -1593,7 +1593,7 @@ zip_source_crc.s: zip_source_crc.c.s
 
 # target to generate assembly for a file
 zip_source_crc.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_crc.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_crc.c.s
 .PHONY : zip_source_crc.c.s
 
 zip_source_deflate.o: zip_source_deflate.c.o
@@ -1601,7 +1601,7 @@ zip_source_deflate.o: zip_source_deflate.c.o
 
 # target to build an object file
 zip_source_deflate.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_deflate.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_deflate.c.o
 .PHONY : zip_source_deflate.c.o
 
 zip_source_deflate.i: zip_source_deflate.c.i
@@ -1609,7 +1609,7 @@ zip_source_deflate.i: zip_source_deflate.c.i
 
 # target to preprocess a source file
 zip_source_deflate.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_deflate.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_deflate.c.i
 .PHONY : zip_source_deflate.c.i
 
 zip_source_deflate.s: zip_source_deflate.c.s
@@ -1617,7 +1617,7 @@ zip_source_deflate.s: zip_source_deflate.c.s
 
 # target to generate assembly for a file
 zip_source_deflate.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_deflate.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_deflate.c.s
 .PHONY : zip_source_deflate.c.s
 
 zip_source_error.o: zip_source_error.c.o
@@ -1625,7 +1625,7 @@ zip_source_error.o: zip_source_error.c.o
 
 # target to build an object file
 zip_source_error.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_error.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_error.c.o
 .PHONY : zip_source_error.c.o
 
 zip_source_error.i: zip_source_error.c.i
@@ -1633,7 +1633,7 @@ zip_source_error.i: zip_source_error.c.i
 
 # target to preprocess a source file
 zip_source_error.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_error.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_error.c.i
 .PHONY : zip_source_error.c.i
 
 zip_source_error.s: zip_source_error.c.s
@@ -1641,7 +1641,7 @@ zip_source_error.s: zip_source_error.c.s
 
 # target to generate assembly for a file
 zip_source_error.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_error.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_error.c.s
 .PHONY : zip_source_error.c.s
 
 zip_source_file.o: zip_source_file.c.o
@@ -1649,7 +1649,7 @@ zip_source_file.o: zip_source_file.c.o
 
 # target to build an object file
 zip_source_file.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_file.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_file.c.o
 .PHONY : zip_source_file.c.o
 
 zip_source_file.i: zip_source_file.c.i
@@ -1657,7 +1657,7 @@ zip_source_file.i: zip_source_file.c.i
 
 # target to preprocess a source file
 zip_source_file.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_file.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_file.c.i
 .PHONY : zip_source_file.c.i
 
 zip_source_file.s: zip_source_file.c.s
@@ -1665,7 +1665,7 @@ zip_source_file.s: zip_source_file.c.s
 
 # target to generate assembly for a file
 zip_source_file.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_file.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_file.c.s
 .PHONY : zip_source_file.c.s
 
 zip_source_filep.o: zip_source_filep.c.o
@@ -1673,7 +1673,7 @@ zip_source_filep.o: zip_source_filep.c.o
 
 # target to build an object file
 zip_source_filep.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_filep.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_filep.c.o
 .PHONY : zip_source_filep.c.o
 
 zip_source_filep.i: zip_source_filep.c.i
@@ -1681,7 +1681,7 @@ zip_source_filep.i: zip_source_filep.c.i
 
 # target to preprocess a source file
 zip_source_filep.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_filep.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_filep.c.i
 .PHONY : zip_source_filep.c.i
 
 zip_source_filep.s: zip_source_filep.c.s
@@ -1689,7 +1689,7 @@ zip_source_filep.s: zip_source_filep.c.s
 
 # target to generate assembly for a file
 zip_source_filep.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_filep.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_filep.c.s
 .PHONY : zip_source_filep.c.s
 
 zip_source_free.o: zip_source_free.c.o
@@ -1697,7 +1697,7 @@ zip_source_free.o: zip_source_free.c.o
 
 # target to build an object file
 zip_source_free.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_free.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_free.c.o
 .PHONY : zip_source_free.c.o
 
 zip_source_free.i: zip_source_free.c.i
@@ -1705,7 +1705,7 @@ zip_source_free.i: zip_source_free.c.i
 
 # target to preprocess a source file
 zip_source_free.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_free.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_free.c.i
 .PHONY : zip_source_free.c.i
 
 zip_source_free.s: zip_source_free.c.s
@@ -1713,7 +1713,7 @@ zip_source_free.s: zip_source_free.c.s
 
 # target to generate assembly for a file
 zip_source_free.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_free.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_free.c.s
 .PHONY : zip_source_free.c.s
 
 zip_source_function.o: zip_source_function.c.o
@@ -1721,7 +1721,7 @@ zip_source_function.o: zip_source_function.c.o
 
 # target to build an object file
 zip_source_function.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_function.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_function.c.o
 .PHONY : zip_source_function.c.o
 
 zip_source_function.i: zip_source_function.c.i
@@ -1729,7 +1729,7 @@ zip_source_function.i: zip_source_function.c.i
 
 # target to preprocess a source file
 zip_source_function.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_function.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_function.c.i
 .PHONY : zip_source_function.c.i
 
 zip_source_function.s: zip_source_function.c.s
@@ -1737,7 +1737,7 @@ zip_source_function.s: zip_source_function.c.s
 
 # target to generate assembly for a file
 zip_source_function.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_function.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_function.c.s
 .PHONY : zip_source_function.c.s
 
 zip_source_layered.o: zip_source_layered.c.o
@@ -1745,7 +1745,7 @@ zip_source_layered.o: zip_source_layered.c.o
 
 # target to build an object file
 zip_source_layered.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_layered.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_layered.c.o
 .PHONY : zip_source_layered.c.o
 
 zip_source_layered.i: zip_source_layered.c.i
@@ -1753,7 +1753,7 @@ zip_source_layered.i: zip_source_layered.c.i
 
 # target to preprocess a source file
 zip_source_layered.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_layered.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_layered.c.i
 .PHONY : zip_source_layered.c.i
 
 zip_source_layered.s: zip_source_layered.c.s
@@ -1761,7 +1761,7 @@ zip_source_layered.s: zip_source_layered.c.s
 
 # target to generate assembly for a file
 zip_source_layered.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_layered.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_layered.c.s
 .PHONY : zip_source_layered.c.s
 
 zip_source_open.o: zip_source_open.c.o
@@ -1769,7 +1769,7 @@ zip_source_open.o: zip_source_open.c.o
 
 # target to build an object file
 zip_source_open.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_open.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_open.c.o
 .PHONY : zip_source_open.c.o
 
 zip_source_open.i: zip_source_open.c.i
@@ -1777,7 +1777,7 @@ zip_source_open.i: zip_source_open.c.i
 
 # target to preprocess a source file
 zip_source_open.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_open.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_open.c.i
 .PHONY : zip_source_open.c.i
 
 zip_source_open.s: zip_source_open.c.s
@@ -1785,7 +1785,7 @@ zip_source_open.s: zip_source_open.c.s
 
 # target to generate assembly for a file
 zip_source_open.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_open.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_open.c.s
 .PHONY : zip_source_open.c.s
 
 zip_source_pkware.o: zip_source_pkware.c.o
@@ -1793,7 +1793,7 @@ zip_source_pkware.o: zip_source_pkware.c.o
 
 # target to build an object file
 zip_source_pkware.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_pkware.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_pkware.c.o
 .PHONY : zip_source_pkware.c.o
 
 zip_source_pkware.i: zip_source_pkware.c.i
@@ -1801,7 +1801,7 @@ zip_source_pkware.i: zip_source_pkware.c.i
 
 # target to preprocess a source file
 zip_source_pkware.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_pkware.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_pkware.c.i
 .PHONY : zip_source_pkware.c.i
 
 zip_source_pkware.s: zip_source_pkware.c.s
@@ -1809,7 +1809,7 @@ zip_source_pkware.s: zip_source_pkware.c.s
 
 # target to generate assembly for a file
 zip_source_pkware.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_pkware.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_pkware.c.s
 .PHONY : zip_source_pkware.c.s
 
 zip_source_pop.o: zip_source_pop.c.o
@@ -1817,7 +1817,7 @@ zip_source_pop.o: zip_source_pop.c.o
 
 # target to build an object file
 zip_source_pop.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_pop.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_pop.c.o
 .PHONY : zip_source_pop.c.o
 
 zip_source_pop.i: zip_source_pop.c.i
@@ -1825,7 +1825,7 @@ zip_source_pop.i: zip_source_pop.c.i
 
 # target to preprocess a source file
 zip_source_pop.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_pop.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_pop.c.i
 .PHONY : zip_source_pop.c.i
 
 zip_source_pop.s: zip_source_pop.c.s
@@ -1833,7 +1833,7 @@ zip_source_pop.s: zip_source_pop.c.s
 
 # target to generate assembly for a file
 zip_source_pop.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_pop.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_pop.c.s
 .PHONY : zip_source_pop.c.s
 
 zip_source_read.o: zip_source_read.c.o
@@ -1841,7 +1841,7 @@ zip_source_read.o: zip_source_read.c.o
 
 # target to build an object file
 zip_source_read.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_read.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_read.c.o
 .PHONY : zip_source_read.c.o
 
 zip_source_read.i: zip_source_read.c.i
@@ -1849,7 +1849,7 @@ zip_source_read.i: zip_source_read.c.i
 
 # target to preprocess a source file
 zip_source_read.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_read.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_read.c.i
 .PHONY : zip_source_read.c.i
 
 zip_source_read.s: zip_source_read.c.s
@@ -1857,7 +1857,7 @@ zip_source_read.s: zip_source_read.c.s
 
 # target to generate assembly for a file
 zip_source_read.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_read.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_read.c.s
 .PHONY : zip_source_read.c.s
 
 zip_source_stat.o: zip_source_stat.c.o
@@ -1865,7 +1865,7 @@ zip_source_stat.o: zip_source_stat.c.o
 
 # target to build an object file
 zip_source_stat.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_stat.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_stat.c.o
 .PHONY : zip_source_stat.c.o
 
 zip_source_stat.i: zip_source_stat.c.i
@@ -1873,7 +1873,7 @@ zip_source_stat.i: zip_source_stat.c.i
 
 # target to preprocess a source file
 zip_source_stat.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_stat.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_stat.c.i
 .PHONY : zip_source_stat.c.i
 
 zip_source_stat.s: zip_source_stat.c.s
@@ -1881,7 +1881,7 @@ zip_source_stat.s: zip_source_stat.c.s
 
 # target to generate assembly for a file
 zip_source_stat.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_stat.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_stat.c.s
 .PHONY : zip_source_stat.c.s
 
 zip_source_window.o: zip_source_window.c.o
@@ -1889,7 +1889,7 @@ zip_source_window.o: zip_source_window.c.o
 
 # target to build an object file
 zip_source_window.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_window.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_window.c.o
 .PHONY : zip_source_window.c.o
 
 zip_source_window.i: zip_source_window.c.i
@@ -1897,7 +1897,7 @@ zip_source_window.i: zip_source_window.c.i
 
 # target to preprocess a source file
 zip_source_window.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_window.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_window.c.i
 .PHONY : zip_source_window.c.i
 
 zip_source_window.s: zip_source_window.c.s
@@ -1905,7 +1905,7 @@ zip_source_window.s: zip_source_window.c.s
 
 # target to generate assembly for a file
 zip_source_window.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_window.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_window.c.s
 .PHONY : zip_source_window.c.s
 
 zip_source_zip.o: zip_source_zip.c.o
@@ -1913,7 +1913,7 @@ zip_source_zip.o: zip_source_zip.c.o
 
 # target to build an object file
 zip_source_zip.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_zip.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_zip.c.o
 .PHONY : zip_source_zip.c.o
 
 zip_source_zip.i: zip_source_zip.c.i
@@ -1921,7 +1921,7 @@ zip_source_zip.i: zip_source_zip.c.i
 
 # target to preprocess a source file
 zip_source_zip.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_zip.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_zip.c.i
 .PHONY : zip_source_zip.c.i
 
 zip_source_zip.s: zip_source_zip.c.s
@@ -1929,7 +1929,7 @@ zip_source_zip.s: zip_source_zip.c.s
 
 # target to generate assembly for a file
 zip_source_zip.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_zip.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_zip.c.s
 .PHONY : zip_source_zip.c.s
 
 zip_source_zip_new.o: zip_source_zip_new.c.o
@@ -1937,7 +1937,7 @@ zip_source_zip_new.o: zip_source_zip_new.c.o
 
 # target to build an object file
 zip_source_zip_new.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_zip_new.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_zip_new.c.o
 .PHONY : zip_source_zip_new.c.o
 
 zip_source_zip_new.i: zip_source_zip_new.c.i
@@ -1945,7 +1945,7 @@ zip_source_zip_new.i: zip_source_zip_new.c.i
 
 # target to preprocess a source file
 zip_source_zip_new.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_zip_new.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_zip_new.c.i
 .PHONY : zip_source_zip_new.c.i
 
 zip_source_zip_new.s: zip_source_zip_new.c.s
@@ -1953,7 +1953,7 @@ zip_source_zip_new.s: zip_source_zip_new.c.s
 
 # target to generate assembly for a file
 zip_source_zip_new.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_zip_new.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_source_zip_new.c.s
 .PHONY : zip_source_zip_new.c.s
 
 zip_stat.o: zip_stat.c.o
@@ -1961,7 +1961,7 @@ zip_stat.o: zip_stat.c.o
 
 # target to build an object file
 zip_stat.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_stat.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_stat.c.o
 .PHONY : zip_stat.c.o
 
 zip_stat.i: zip_stat.c.i
@@ -1969,7 +1969,7 @@ zip_stat.i: zip_stat.c.i
 
 # target to preprocess a source file
 zip_stat.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_stat.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_stat.c.i
 .PHONY : zip_stat.c.i
 
 zip_stat.s: zip_stat.c.s
@@ -1977,7 +1977,7 @@ zip_stat.s: zip_stat.c.s
 
 # target to generate assembly for a file
 zip_stat.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_stat.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_stat.c.s
 .PHONY : zip_stat.c.s
 
 zip_stat_index.o: zip_stat_index.c.o
@@ -1985,7 +1985,7 @@ zip_stat_index.o: zip_stat_index.c.o
 
 # target to build an object file
 zip_stat_index.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_stat_index.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_stat_index.c.o
 .PHONY : zip_stat_index.c.o
 
 zip_stat_index.i: zip_stat_index.c.i
@@ -1993,7 +1993,7 @@ zip_stat_index.i: zip_stat_index.c.i
 
 # target to preprocess a source file
 zip_stat_index.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_stat_index.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_stat_index.c.i
 .PHONY : zip_stat_index.c.i
 
 zip_stat_index.s: zip_stat_index.c.s
@@ -2001,7 +2001,7 @@ zip_stat_index.s: zip_stat_index.c.s
 
 # target to generate assembly for a file
 zip_stat_index.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_stat_index.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_stat_index.c.s
 .PHONY : zip_stat_index.c.s
 
 zip_stat_init.o: zip_stat_init.c.o
@@ -2009,7 +2009,7 @@ zip_stat_init.o: zip_stat_init.c.o
 
 # target to build an object file
 zip_stat_init.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_stat_init.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_stat_init.c.o
 .PHONY : zip_stat_init.c.o
 
 zip_stat_init.i: zip_stat_init.c.i
@@ -2017,7 +2017,7 @@ zip_stat_init.i: zip_stat_init.c.i
 
 # target to preprocess a source file
 zip_stat_init.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_stat_init.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_stat_init.c.i
 .PHONY : zip_stat_init.c.i
 
 zip_stat_init.s: zip_stat_init.c.s
@@ -2025,7 +2025,7 @@ zip_stat_init.s: zip_stat_init.c.s
 
 # target to generate assembly for a file
 zip_stat_init.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_stat_init.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_stat_init.c.s
 .PHONY : zip_stat_init.c.s
 
 zip_strerror.o: zip_strerror.c.o
@@ -2033,7 +2033,7 @@ zip_strerror.o: zip_strerror.c.o
 
 # target to build an object file
 zip_strerror.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_strerror.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_strerror.c.o
 .PHONY : zip_strerror.c.o
 
 zip_strerror.i: zip_strerror.c.i
@@ -2041,7 +2041,7 @@ zip_strerror.i: zip_strerror.c.i
 
 # target to preprocess a source file
 zip_strerror.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_strerror.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_strerror.c.i
 .PHONY : zip_strerror.c.i
 
 zip_strerror.s: zip_strerror.c.s
@@ -2049,7 +2049,7 @@ zip_strerror.s: zip_strerror.c.s
 
 # target to generate assembly for a file
 zip_strerror.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_strerror.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_strerror.c.s
 .PHONY : zip_strerror.c.s
 
 zip_string.o: zip_string.c.o
@@ -2057,7 +2057,7 @@ zip_string.o: zip_string.c.o
 
 # target to build an object file
 zip_string.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_string.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_string.c.o
 .PHONY : zip_string.c.o
 
 zip_string.i: zip_string.c.i
@@ -2065,7 +2065,7 @@ zip_string.i: zip_string.c.i
 
 # target to preprocess a source file
 zip_string.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_string.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_string.c.i
 .PHONY : zip_string.c.i
 
 zip_string.s: zip_string.c.s
@@ -2073,7 +2073,7 @@ zip_string.s: zip_string.c.s
 
 # target to generate assembly for a file
 zip_string.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_string.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_string.c.s
 .PHONY : zip_string.c.s
 
 zip_unchange.o: zip_unchange.c.o
@@ -2081,7 +2081,7 @@ zip_unchange.o: zip_unchange.c.o
 
 # target to build an object file
 zip_unchange.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange.c.o
 .PHONY : zip_unchange.c.o
 
 zip_unchange.i: zip_unchange.c.i
@@ -2089,7 +2089,7 @@ zip_unchange.i: zip_unchange.c.i
 
 # target to preprocess a source file
 zip_unchange.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange.c.i
 .PHONY : zip_unchange.c.i
 
 zip_unchange.s: zip_unchange.c.s
@@ -2097,7 +2097,7 @@ zip_unchange.s: zip_unchange.c.s
 
 # target to generate assembly for a file
 zip_unchange.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange.c.s
 .PHONY : zip_unchange.c.s
 
 zip_unchange_all.o: zip_unchange_all.c.o
@@ -2105,7 +2105,7 @@ zip_unchange_all.o: zip_unchange_all.c.o
 
 # target to build an object file
 zip_unchange_all.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_all.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_all.c.o
 .PHONY : zip_unchange_all.c.o
 
 zip_unchange_all.i: zip_unchange_all.c.i
@@ -2113,7 +2113,7 @@ zip_unchange_all.i: zip_unchange_all.c.i
 
 # target to preprocess a source file
 zip_unchange_all.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_all.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_all.c.i
 .PHONY : zip_unchange_all.c.i
 
 zip_unchange_all.s: zip_unchange_all.c.s
@@ -2121,7 +2121,7 @@ zip_unchange_all.s: zip_unchange_all.c.s
 
 # target to generate assembly for a file
 zip_unchange_all.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_all.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_all.c.s
 .PHONY : zip_unchange_all.c.s
 
 zip_unchange_archive.o: zip_unchange_archive.c.o
@@ -2129,7 +2129,7 @@ zip_unchange_archive.o: zip_unchange_archive.c.o
 
 # target to build an object file
 zip_unchange_archive.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_archive.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_archive.c.o
 .PHONY : zip_unchange_archive.c.o
 
 zip_unchange_archive.i: zip_unchange_archive.c.i
@@ -2137,7 +2137,7 @@ zip_unchange_archive.i: zip_unchange_archive.c.i
 
 # target to preprocess a source file
 zip_unchange_archive.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_archive.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_archive.c.i
 .PHONY : zip_unchange_archive.c.i
 
 zip_unchange_archive.s: zip_unchange_archive.c.s
@@ -2145,7 +2145,7 @@ zip_unchange_archive.s: zip_unchange_archive.c.s
 
 # target to generate assembly for a file
 zip_unchange_archive.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_archive.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_archive.c.s
 .PHONY : zip_unchange_archive.c.s
 
 zip_unchange_data.o: zip_unchange_data.c.o
@@ -2153,7 +2153,7 @@ zip_unchange_data.o: zip_unchange_data.c.o
 
 # target to build an object file
 zip_unchange_data.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_data.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_data.c.o
 .PHONY : zip_unchange_data.c.o
 
 zip_unchange_data.i: zip_unchange_data.c.i
@@ -2161,7 +2161,7 @@ zip_unchange_data.i: zip_unchange_data.c.i
 
 # target to preprocess a source file
 zip_unchange_data.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_data.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_data.c.i
 .PHONY : zip_unchange_data.c.i
 
 zip_unchange_data.s: zip_unchange_data.c.s
@@ -2169,7 +2169,7 @@ zip_unchange_data.s: zip_unchange_data.c.s
 
 # target to generate assembly for a file
 zip_unchange_data.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_data.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_data.c.s
 .PHONY : zip_unchange_data.c.s
 
 zip_utf-8.o: zip_utf-8.c.o
@@ -2177,7 +2177,7 @@ zip_utf-8.o: zip_utf-8.c.o
 
 # target to build an object file
 zip_utf-8.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_utf-8.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_utf-8.c.o
 .PHONY : zip_utf-8.c.o
 
 zip_utf-8.i: zip_utf-8.c.i
@@ -2185,7 +2185,7 @@ zip_utf-8.i: zip_utf-8.c.i
 
 # target to preprocess a source file
 zip_utf-8.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_utf-8.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_utf-8.c.i
 .PHONY : zip_utf-8.c.i
 
 zip_utf-8.s: zip_utf-8.c.s
@@ -2193,7 +2193,7 @@ zip_utf-8.s: zip_utf-8.c.s
 
 # target to generate assembly for a file
 zip_utf-8.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_utf-8.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/libzip/CMakeFiles/zip_static.dir/build.make third-party/libzip/CMakeFiles/zip_static.dir/zip_utf-8.c.s
 .PHONY : zip_utf-8.c.s
 
 # Help Target
@@ -2475,6 +2475,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -54,6 +54,7 @@ hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/runtim
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/runtime/base/req-containers.h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/runtime/base/req-root.h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/runtime/base/request-injection-data.h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/runtime/base/resource-data.h
@@ -100,11 +101,12 @@ hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/runtim
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/runtime/ext/asio/ext_waitable-wait-handle-inl.h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/runtime/ext/asio/ext_waitable-wait-handle.h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/runtime/ext/collections/ext_collections-idl.h
+hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/runtime/ext/collections/ext_collections-pair.h
+hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/runtime/ext/collections/ext_collections.h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/runtime/ext/ext.h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/runtime/ext/extension.h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/runtime/ext/generator/ext_generator.h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/runtime/ext/std/ext_std.h
-hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/runtime/ext/std/ext_std_closure.h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/runtime/ext/std/ext_std_errorfunc.h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/runtime/ext/stream/ext_stream.h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/runtime/ext_hhvm/ext_hhvm.h
@@ -164,6 +166,8 @@ hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/util/c
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/util/compilation-flags.h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/util/compression.h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/util/copy-ptr.h
+hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/util/cronolog.h
+hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/util/cronoutils.h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/util/data-block.h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/util/default-ptr.h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/util/exception.h
@@ -173,7 +177,11 @@ hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/util/h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/util/hash.h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/util/hdf.h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/util/locale-portability.h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/util/lock.h
+hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/util/log-file-flusher.h
+hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/util/logger-inl.h
+hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/util/logger.h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/util/low-ptr.h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/util/maphuge.h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/util/md5.h
@@ -181,6 +189,11 @@ hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/util/m
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/util/mutex.h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/util/pointer-list.h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/util/portability.h
+hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/util/portability/fnmatch.h
+hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/util/portability/glob.h
+hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/util/portability/rand_r.h
+hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/util/portability/strfmon.h
+hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/util/portability/strptime.h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/util/range.h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/util/rank.h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: hphp/util/ringbuffer.h
@@ -224,6 +237,7 @@ hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: third-party
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: third-party/folly/folly/Likely.h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: third-party/folly/folly/Malloc.h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: third-party/folly/folly/Memory.h
+hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: third-party/folly/folly/Optional.h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: third-party/folly/folly/Portability.h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -249,6 +263,7 @@ hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: third-party
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/tools/bootstrap/CMakeFiles/gen-ext-hhvm.dir/gen-ext-hhvm.cpp.o: third-party/folly/folly/dynamic-inl.h

@@ -22,10 +22,10 @@ namespace wangle {
 // This handler may only be used in a single Pipeline
 class AsyncSocketHandler
   : public wangle::BytesToBytesHandler,
-    public folly::AsyncSocket::ReadCallback {
+    public folly::AsyncTransportWrapper::ReadCallback {
  public:
   explicit AsyncSocketHandler(
-      std::shared_ptr<folly::AsyncSocket> socket)
+      std::shared_ptr<folly::AsyncTransportWrapper> socket)
     : socket_(std::move(socket)) {}
 
   AsyncSocketHandler(AsyncSocketHandler&&) = default;
@@ -83,6 +83,7 @@ class AsyncSocketHandler
   folly::Future<folly::Unit> write(
       Context* ctx,
       std::unique_ptr<folly::IOBuf> buf) override {
+    refreshTimeout();
     if (UNLIKELY(!buf)) {
       return folly::makeFuture();
     }
@@ -132,6 +133,7 @@ class AsyncSocketHandler
   }
 
   void readDataAvailable(size_t len) noexcept override {
+    refreshTimeout();
     bufQueue_.postallocate(len);
     getContext()->fireRead(bufQueue_);
   }
@@ -147,6 +149,13 @@ class AsyncSocketHandler
   }
 
  private:
+  void refreshTimeout() {
+    auto manager = getContext()->getPipeline()->getPipelineManager();
+    if (manager) {
+      manager->refreshTimeout();
+    }
+  }
+
   folly::Future<folly::Unit> shutdown(Context* ctx, bool closeWithReset) {
     if (socket_) {
       detachReadCallback();
@@ -163,7 +172,7 @@ class AsyncSocketHandler
     return folly::makeFuture();
   }
 
-  class WriteCallback : private folly::AsyncSocket::WriteCallback {
+  class WriteCallback : private folly::AsyncTransportWrapper::WriteCallback {
     void writeSuccess() noexcept override {
       promise_.setValue();
       delete this;
@@ -182,7 +191,7 @@ class AsyncSocketHandler
   };
 
   folly::IOBufQueue bufQueue_{folly::IOBufQueue::cacheChainLength()};
-  std::shared_ptr<folly::AsyncSocket> socket_{nullptr};
+  std::shared_ptr<folly::AsyncTransportWrapper> socket_{nullptr};
   bool firedInactive_{false};
   bool pipelineDeleted_{false};
 };

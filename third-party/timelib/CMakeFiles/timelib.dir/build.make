@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.0
 
 # Include any dependencies generated for this target.
 include third-party/timelib/CMakeFiles/timelib.dir/depend.make
@@ -54,17 +54,17 @@ include third-party/timelib/CMakeFiles/timelib.dir/flags.make
 
 third-party/timelib/CMakeFiles/timelib.dir/astro.c.o: third-party/timelib/CMakeFiles/timelib.dir/flags.make
 third-party/timelib/CMakeFiles/timelib.dir/astro.c.o: third-party/timelib/astro.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/timelib/CMakeFiles/timelib.dir/astro.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/timelib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/timelib.dir/astro.c.o   -c /tmp/hhvm-3.11.1/third-party/timelib/astro.c
+	cd /tmp/hhvm-3.12.0/third-party/timelib && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/timelib.dir/astro.c.o   -c /tmp/hhvm-3.12.0/third-party/timelib/astro.c
 
 third-party/timelib/CMakeFiles/timelib.dir/astro.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/timelib.dir/astro.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/timelib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/timelib/astro.c > CMakeFiles/timelib.dir/astro.c.i
+	cd /tmp/hhvm-3.12.0/third-party/timelib && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/timelib/astro.c > CMakeFiles/timelib.dir/astro.c.i
 
 third-party/timelib/CMakeFiles/timelib.dir/astro.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/timelib.dir/astro.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/timelib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/timelib/astro.c -o CMakeFiles/timelib.dir/astro.c.s
+	cd /tmp/hhvm-3.12.0/third-party/timelib && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/timelib/astro.c -o CMakeFiles/timelib.dir/astro.c.s
 
 third-party/timelib/CMakeFiles/timelib.dir/astro.c.o.requires:
 .PHONY : third-party/timelib/CMakeFiles/timelib.dir/astro.c.o.requires
@@ -77,17 +77,17 @@ third-party/timelib/CMakeFiles/timelib.dir/astro.c.o.provides.build: third-party
 
 third-party/timelib/CMakeFiles/timelib.dir/dow.c.o: third-party/timelib/CMakeFiles/timelib.dir/flags.make
 third-party/timelib/CMakeFiles/timelib.dir/dow.c.o: third-party/timelib/dow.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/timelib/CMakeFiles/timelib.dir/dow.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/timelib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/timelib.dir/dow.c.o   -c /tmp/hhvm-3.11.1/third-party/timelib/dow.c
+	cd /tmp/hhvm-3.12.0/third-party/timelib && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/timelib.dir/dow.c.o   -c /tmp/hhvm-3.12.0/third-party/timelib/dow.c
 
 third-party/timelib/CMakeFiles/timelib.dir/dow.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/timelib.dir/dow.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/timelib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/timelib/dow.c > CMakeFiles/timelib.dir/dow.c.i
+	cd /tmp/hhvm-3.12.0/third-party/timelib && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/timelib/dow.c > CMakeFiles/timelib.dir/dow.c.i
 
 third-party/timelib/CMakeFiles/timelib.dir/dow.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/timelib.dir/dow.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/timelib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/timelib/dow.c -o CMakeFiles/timelib.dir/dow.c.s
+	cd /tmp/hhvm-3.12.0/third-party/timelib && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/timelib/dow.c -o CMakeFiles/timelib.dir/dow.c.s
 
 third-party/timelib/CMakeFiles/timelib.dir/dow.c.o.requires:
 .PHONY : third-party/timelib/CMakeFiles/timelib.dir/dow.c.o.requires
@@ -100,17 +100,17 @@ third-party/timelib/CMakeFiles/timelib.dir/dow.c.o.provides.build: third-party/t
 
 third-party/timelib/CMakeFiles/timelib.dir/interval.c.o: third-party/timelib/CMakeFiles/timelib.dir/flags.make
 third-party/timelib/CMakeFiles/timelib.dir/interval.c.o: third-party/timelib/interval.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/timelib/CMakeFiles/timelib.dir/interval.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/timelib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/timelib.dir/interval.c.o   -c /tmp/hhvm-3.11.1/third-party/timelib/interval.c
+	cd /tmp/hhvm-3.12.0/third-party/timelib && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/timelib.dir/interval.c.o   -c /tmp/hhvm-3.12.0/third-party/timelib/interval.c
 
 third-party/timelib/CMakeFiles/timelib.dir/interval.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/timelib.dir/interval.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/timelib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/timelib/interval.c > CMakeFiles/timelib.dir/interval.c.i
+	cd /tmp/hhvm-3.12.0/third-party/timelib && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/timelib/interval.c > CMakeFiles/timelib.dir/interval.c.i
 
 third-party/timelib/CMakeFiles/timelib.dir/interval.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/timelib.dir/interval.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/timelib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/timelib/interval.c -o CMakeFiles/timelib.dir/interval.c.s
+	cd /tmp/hhvm-3.12.0/third-party/timelib && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/timelib/interval.c -o CMakeFiles/timelib.dir/interval.c.s
 
 third-party/timelib/CMakeFiles/timelib.dir/interval.c.o.requires:
 .PHONY : third-party/timelib/CMakeFiles/timelib.dir/interval.c.o.requires
@@ -123,17 +123,17 @@ third-party/timelib/CMakeFiles/timelib.dir/interval.c.o.provides.build: third-pa
 
 third-party/timelib/CMakeFiles/timelib.dir/parse_date.c.o: third-party/timelib/CMakeFiles/timelib.dir/flags.make
 third-party/timelib/CMakeFiles/timelib.dir/parse_date.c.o: third-party/timelib/parse_date.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/timelib/CMakeFiles/timelib.dir/parse_date.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/timelib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/timelib.dir/parse_date.c.o   -c /tmp/hhvm-3.11.1/third-party/timelib/parse_date.c
+	cd /tmp/hhvm-3.12.0/third-party/timelib && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/timelib.dir/parse_date.c.o   -c /tmp/hhvm-3.12.0/third-party/timelib/parse_date.c
 
 third-party/timelib/CMakeFiles/timelib.dir/parse_date.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/timelib.dir/parse_date.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/timelib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/timelib/parse_date.c > CMakeFiles/timelib.dir/parse_date.c.i
+	cd /tmp/hhvm-3.12.0/third-party/timelib && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/timelib/parse_date.c > CMakeFiles/timelib.dir/parse_date.c.i
 
 third-party/timelib/CMakeFiles/timelib.dir/parse_date.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/timelib.dir/parse_date.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/timelib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/timelib/parse_date.c -o CMakeFiles/timelib.dir/parse_date.c.s
+	cd /tmp/hhvm-3.12.0/third-party/timelib && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/timelib/parse_date.c -o CMakeFiles/timelib.dir/parse_date.c.s
 
 third-party/timelib/CMakeFiles/timelib.dir/parse_date.c.o.requires:
 .PHONY : third-party/timelib/CMakeFiles/timelib.dir/parse_date.c.o.requires
@@ -146,17 +146,17 @@ third-party/timelib/CMakeFiles/timelib.dir/parse_date.c.o.provides.build: third-
 
 third-party/timelib/CMakeFiles/timelib.dir/parse_iso_intervals.c.o: third-party/timelib/CMakeFiles/timelib.dir/flags.make
 third-party/timelib/CMakeFiles/timelib.dir/parse_iso_intervals.c.o: third-party/timelib/parse_iso_intervals.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/timelib/CMakeFiles/timelib.dir/parse_iso_intervals.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/timelib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/timelib.dir/parse_iso_intervals.c.o   -c /tmp/hhvm-3.11.1/third-party/timelib/parse_iso_intervals.c
+	cd /tmp/hhvm-3.12.0/third-party/timelib && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/timelib.dir/parse_iso_intervals.c.o   -c /tmp/hhvm-3.12.0/third-party/timelib/parse_iso_intervals.c
 
 third-party/timelib/CMakeFiles/timelib.dir/parse_iso_intervals.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/timelib.dir/parse_iso_intervals.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/timelib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/timelib/parse_iso_intervals.c > CMakeFiles/timelib.dir/parse_iso_intervals.c.i
+	cd /tmp/hhvm-3.12.0/third-party/timelib && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/timelib/parse_iso_intervals.c > CMakeFiles/timelib.dir/parse_iso_intervals.c.i
 
 third-party/timelib/CMakeFiles/timelib.dir/parse_iso_intervals.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/timelib.dir/parse_iso_intervals.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/timelib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/timelib/parse_iso_intervals.c -o CMakeFiles/timelib.dir/parse_iso_intervals.c.s
+	cd /tmp/hhvm-3.12.0/third-party/timelib && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/timelib/parse_iso_intervals.c -o CMakeFiles/timelib.dir/parse_iso_intervals.c.s
 
 third-party/timelib/CMakeFiles/timelib.dir/parse_iso_intervals.c.o.requires:
 .PHONY : third-party/timelib/CMakeFiles/timelib.dir/parse_iso_intervals.c.o.requires
@@ -169,17 +169,17 @@ third-party/timelib/CMakeFiles/timelib.dir/parse_iso_intervals.c.o.provides.buil
 
 third-party/timelib/CMakeFiles/timelib.dir/parse_tz.c.o: third-party/timelib/CMakeFiles/timelib.dir/flags.make
 third-party/timelib/CMakeFiles/timelib.dir/parse_tz.c.o: third-party/timelib/parse_tz.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/timelib/CMakeFiles/timelib.dir/parse_tz.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/timelib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/timelib.dir/parse_tz.c.o   -c /tmp/hhvm-3.11.1/third-party/timelib/parse_tz.c
+	cd /tmp/hhvm-3.12.0/third-party/timelib && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/timelib.dir/parse_tz.c.o   -c /tmp/hhvm-3.12.0/third-party/timelib/parse_tz.c
 
 third-party/timelib/CMakeFiles/timelib.dir/parse_tz.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/timelib.dir/parse_tz.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/timelib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/timelib/parse_tz.c > CMakeFiles/timelib.dir/parse_tz.c.i
+	cd /tmp/hhvm-3.12.0/third-party/timelib && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/timelib/parse_tz.c > CMakeFiles/timelib.dir/parse_tz.c.i
 
 third-party/timelib/CMakeFiles/timelib.dir/parse_tz.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/timelib.dir/parse_tz.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/timelib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/timelib/parse_tz.c -o CMakeFiles/timelib.dir/parse_tz.c.s
+	cd /tmp/hhvm-3.12.0/third-party/timelib && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/timelib/parse_tz.c -o CMakeFiles/timelib.dir/parse_tz.c.s
 
 third-party/timelib/CMakeFiles/timelib.dir/parse_tz.c.o.requires:
 .PHONY : third-party/timelib/CMakeFiles/timelib.dir/parse_tz.c.o.requires
@@ -192,17 +192,17 @@ third-party/timelib/CMakeFiles/timelib.dir/parse_tz.c.o.provides.build: third-pa
 
 third-party/timelib/CMakeFiles/timelib.dir/timelib.c.o: third-party/timelib/CMakeFiles/timelib.dir/flags.make
 third-party/timelib/CMakeFiles/timelib.dir/timelib.c.o: third-party/timelib/timelib.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/timelib/CMakeFiles/timelib.dir/timelib.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/timelib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/timelib.dir/timelib.c.o   -c /tmp/hhvm-3.11.1/third-party/timelib/timelib.c
+	cd /tmp/hhvm-3.12.0/third-party/timelib && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/timelib.dir/timelib.c.o   -c /tmp/hhvm-3.12.0/third-party/timelib/timelib.c
 
 third-party/timelib/CMakeFiles/timelib.dir/timelib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/timelib.dir/timelib.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/timelib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/timelib/timelib.c > CMakeFiles/timelib.dir/timelib.c.i
+	cd /tmp/hhvm-3.12.0/third-party/timelib && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/timelib/timelib.c > CMakeFiles/timelib.dir/timelib.c.i
 
 third-party/timelib/CMakeFiles/timelib.dir/timelib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/timelib.dir/timelib.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/timelib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/timelib/timelib.c -o CMakeFiles/timelib.dir/timelib.c.s
+	cd /tmp/hhvm-3.12.0/third-party/timelib && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/timelib/timelib.c -o CMakeFiles/timelib.dir/timelib.c.s
 
 third-party/timelib/CMakeFiles/timelib.dir/timelib.c.o.requires:
 .PHONY : third-party/timelib/CMakeFiles/timelib.dir/timelib.c.o.requires
@@ -215,17 +215,17 @@ third-party/timelib/CMakeFiles/timelib.dir/timelib.c.o.provides.build: third-par
 
 third-party/timelib/CMakeFiles/timelib.dir/tm2unixtime.c.o: third-party/timelib/CMakeFiles/timelib.dir/flags.make
 third-party/timelib/CMakeFiles/timelib.dir/tm2unixtime.c.o: third-party/timelib/tm2unixtime.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/timelib/CMakeFiles/timelib.dir/tm2unixtime.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/timelib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/timelib.dir/tm2unixtime.c.o   -c /tmp/hhvm-3.11.1/third-party/timelib/tm2unixtime.c
+	cd /tmp/hhvm-3.12.0/third-party/timelib && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/timelib.dir/tm2unixtime.c.o   -c /tmp/hhvm-3.12.0/third-party/timelib/tm2unixtime.c
 
 third-party/timelib/CMakeFiles/timelib.dir/tm2unixtime.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/timelib.dir/tm2unixtime.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/timelib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/timelib/tm2unixtime.c > CMakeFiles/timelib.dir/tm2unixtime.c.i
+	cd /tmp/hhvm-3.12.0/third-party/timelib && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/timelib/tm2unixtime.c > CMakeFiles/timelib.dir/tm2unixtime.c.i
 
 third-party/timelib/CMakeFiles/timelib.dir/tm2unixtime.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/timelib.dir/tm2unixtime.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/timelib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/timelib/tm2unixtime.c -o CMakeFiles/timelib.dir/tm2unixtime.c.s
+	cd /tmp/hhvm-3.12.0/third-party/timelib && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/timelib/tm2unixtime.c -o CMakeFiles/timelib.dir/tm2unixtime.c.s
 
 third-party/timelib/CMakeFiles/timelib.dir/tm2unixtime.c.o.requires:
 .PHONY : third-party/timelib/CMakeFiles/timelib.dir/tm2unixtime.c.o.requires
@@ -238,17 +238,17 @@ third-party/timelib/CMakeFiles/timelib.dir/tm2unixtime.c.o.provides.build: third
 
 third-party/timelib/CMakeFiles/timelib.dir/unixtime2tm.c.o: third-party/timelib/CMakeFiles/timelib.dir/flags.make
 third-party/timelib/CMakeFiles/timelib.dir/unixtime2tm.c.o: third-party/timelib/unixtime2tm.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.0/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/timelib/CMakeFiles/timelib.dir/unixtime2tm.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/timelib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/timelib.dir/unixtime2tm.c.o   -c /tmp/hhvm-3.11.1/third-party/timelib/unixtime2tm.c
+	cd /tmp/hhvm-3.12.0/third-party/timelib && /bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/timelib.dir/unixtime2tm.c.o   -c /tmp/hhvm-3.12.0/third-party/timelib/unixtime2tm.c
 
 third-party/timelib/CMakeFiles/timelib.dir/unixtime2tm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/timelib.dir/unixtime2tm.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/timelib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/timelib/unixtime2tm.c > CMakeFiles/timelib.dir/unixtime2tm.c.i
+	cd /tmp/hhvm-3.12.0/third-party/timelib && /bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.0/third-party/timelib/unixtime2tm.c > CMakeFiles/timelib.dir/unixtime2tm.c.i
 
 third-party/timelib/CMakeFiles/timelib.dir/unixtime2tm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/timelib.dir/unixtime2tm.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/timelib && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/timelib/unixtime2tm.c -o CMakeFiles/timelib.dir/unixtime2tm.c.s
+	cd /tmp/hhvm-3.12.0/third-party/timelib && /bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.0/third-party/timelib/unixtime2tm.c -o CMakeFiles/timelib.dir/unixtime2tm.c.s
 
 third-party/timelib/CMakeFiles/timelib.dir/unixtime2tm.c.o.requires:
 .PHONY : third-party/timelib/CMakeFiles/timelib.dir/unixtime2tm.c.o.requires
@@ -286,8 +286,8 @@ third-party/timelib/libtimelib.a: third-party/timelib/CMakeFiles/timelib.dir/uni
 third-party/timelib/libtimelib.a: third-party/timelib/CMakeFiles/timelib.dir/build.make
 third-party/timelib/libtimelib.a: third-party/timelib/CMakeFiles/timelib.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C static library libtimelib.a"
-	cd /tmp/hhvm-3.11.1/third-party/timelib && $(CMAKE_COMMAND) -P CMakeFiles/timelib.dir/cmake_clean_target.cmake
-	cd /tmp/hhvm-3.11.1/third-party/timelib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/timelib.dir/link.txt --verbose=$(VERBOSE)
+	cd /tmp/hhvm-3.12.0/third-party/timelib && $(CMAKE_COMMAND) -P CMakeFiles/timelib.dir/cmake_clean_target.cmake
+	cd /tmp/hhvm-3.12.0/third-party/timelib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/timelib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 third-party/timelib/CMakeFiles/timelib.dir/build: third-party/timelib/libtimelib.a
@@ -305,10 +305,10 @@ third-party/timelib/CMakeFiles/timelib.dir/requires: third-party/timelib/CMakeFi
 .PHONY : third-party/timelib/CMakeFiles/timelib.dir/requires
 
 third-party/timelib/CMakeFiles/timelib.dir/clean:
-	cd /tmp/hhvm-3.11.1/third-party/timelib && $(CMAKE_COMMAND) -P CMakeFiles/timelib.dir/cmake_clean.cmake
+	cd /tmp/hhvm-3.12.0/third-party/timelib && $(CMAKE_COMMAND) -P CMakeFiles/timelib.dir/cmake_clean.cmake
 .PHONY : third-party/timelib/CMakeFiles/timelib.dir/clean
 
 third-party/timelib/CMakeFiles/timelib.dir/depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/third-party/timelib /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/third-party/timelib /tmp/hhvm-3.11.1/third-party/timelib/CMakeFiles/timelib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.12.0 /tmp/hhvm-3.12.0/third-party/timelib /tmp/hhvm-3.12.0 /tmp/hhvm-3.12.0/third-party/timelib /tmp/hhvm-3.12.0/third-party/timelib/CMakeFiles/timelib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : third-party/timelib/CMakeFiles/timelib.dir/depend
 

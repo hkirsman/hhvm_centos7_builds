@@ -31,6 +31,7 @@ class PipelineManager {
  public:
   virtual ~PipelineManager() = default;
   virtual void deletePipeline(PipelineBase* pipeline) = 0;
+  virtual void refreshTimeout() {};
 };
 
 class PipelineBase : public std::enable_shared_from_this<PipelineBase> {
@@ -39,6 +40,10 @@ class PipelineBase : public std::enable_shared_from_this<PipelineBase> {
 
   void setPipelineManager(PipelineManager* manager) {
     manager_ = manager;
+  }
+
+  PipelineManager* getPipelineManager() {
+    return manager_;
   }
 
   void deletePipeline() {
@@ -217,6 +222,7 @@ class Pipeline : public PipelineBase {
 namespace folly {
 
 class AsyncSocket;
+class AsyncTransportWrapper;
 class AsyncUDPSocket;
 
 }
@@ -230,13 +236,13 @@ template <typename Pipeline>
 class PipelineFactory {
  public:
   virtual typename Pipeline::Ptr newPipeline(
-      std::shared_ptr<folly::AsyncSocket>) = 0;
+      std::shared_ptr<folly::AsyncTransportWrapper>) = 0;
 
   virtual ~PipelineFactory() = default;
 };
 
 struct ConnInfo {
-  folly::AsyncSocket* sock;
+  folly::AsyncTransportWrapper* sock;
   const folly::SocketAddress* clientAddr;
   const std::string& nextProtoName;
   SecureTransportType secureType;
@@ -249,7 +255,7 @@ enum class ConnEvent {
 };
 
 typedef boost::variant<folly::IOBuf*,
-                       folly::AsyncSocket*,
+                       folly::AsyncTransportWrapper*,
                        ConnInfo&,
                        ConnEvent,
                        std::tuple<folly::IOBuf*,

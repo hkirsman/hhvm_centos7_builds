@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.0
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles /tmp/hhvm-3.11.1/third-party/squangle/CMakeFiles/progress.marks
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/squangle/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles 0
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.0/CMakeFiles /tmp/hhvm-3.12.0/third-party/squangle/CMakeFiles/progress.marks
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/squangle/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.0/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/squangle/clean
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/squangle/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/squangle/preinstall
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/squangle/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/squangle/preinstall
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/squangle/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 third-party/squangle/CMakeFiles/squangle.dir/rule:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/squangle/CMakeFiles/squangle.dir/rule
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/squangle/CMakeFiles/squangle.dir/rule
 .PHONY : third-party/squangle/CMakeFiles/squangle.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ squangle: third-party/squangle/CMakeFiles/squangle.dir/rule
 
 # fast build rule for target.
 squangle/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/build
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/build
 .PHONY : squangle/fast
 
 squangle/logger/DBEventCounter.o: squangle/logger/DBEventCounter.cpp.o
@@ -161,7 +161,7 @@ squangle/logger/DBEventCounter.o: squangle/logger/DBEventCounter.cpp.o
 
 # target to build an object file
 squangle/logger/DBEventCounter.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventCounter.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventCounter.cpp.o
 .PHONY : squangle/logger/DBEventCounter.cpp.o
 
 squangle/logger/DBEventCounter.i: squangle/logger/DBEventCounter.cpp.i
@@ -169,7 +169,7 @@ squangle/logger/DBEventCounter.i: squangle/logger/DBEventCounter.cpp.i
 
 # target to preprocess a source file
 squangle/logger/DBEventCounter.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventCounter.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventCounter.cpp.i
 .PHONY : squangle/logger/DBEventCounter.cpp.i
 
 squangle/logger/DBEventCounter.s: squangle/logger/DBEventCounter.cpp.s
@@ -177,7 +177,7 @@ squangle/logger/DBEventCounter.s: squangle/logger/DBEventCounter.cpp.s
 
 # target to generate assembly for a file
 squangle/logger/DBEventCounter.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventCounter.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventCounter.cpp.s
 .PHONY : squangle/logger/DBEventCounter.cpp.s
 
 squangle/logger/DBEventLogger.o: squangle/logger/DBEventLogger.cpp.o
@@ -185,7 +185,7 @@ squangle/logger/DBEventLogger.o: squangle/logger/DBEventLogger.cpp.o
 
 # target to build an object file
 squangle/logger/DBEventLogger.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventLogger.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventLogger.cpp.o
 .PHONY : squangle/logger/DBEventLogger.cpp.o
 
 squangle/logger/DBEventLogger.i: squangle/logger/DBEventLogger.cpp.i
@@ -193,7 +193,7 @@ squangle/logger/DBEventLogger.i: squangle/logger/DBEventLogger.cpp.i
 
 # target to preprocess a source file
 squangle/logger/DBEventLogger.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventLogger.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventLogger.cpp.i
 .PHONY : squangle/logger/DBEventLogger.cpp.i
 
 squangle/logger/DBEventLogger.s: squangle/logger/DBEventLogger.cpp.s
@@ -201,7 +201,7 @@ squangle/logger/DBEventLogger.s: squangle/logger/DBEventLogger.cpp.s
 
 # target to generate assembly for a file
 squangle/logger/DBEventLogger.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventLogger.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventLogger.cpp.s
 .PHONY : squangle/logger/DBEventLogger.cpp.s
 
 squangle/mysql_client/AsyncConnectionPool.o: squangle/mysql_client/AsyncConnectionPool.cpp.o
@@ -209,7 +209,7 @@ squangle/mysql_client/AsyncConnectionPool.o: squangle/mysql_client/AsyncConnecti
 
 # target to build an object file
 squangle/mysql_client/AsyncConnectionPool.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncConnectionPool.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncConnectionPool.cpp.o
 .PHONY : squangle/mysql_client/AsyncConnectionPool.cpp.o
 
 squangle/mysql_client/AsyncConnectionPool.i: squangle/mysql_client/AsyncConnectionPool.cpp.i
@@ -217,7 +217,7 @@ squangle/mysql_client/AsyncConnectionPool.i: squangle/mysql_client/AsyncConnecti
 
 # target to preprocess a source file
 squangle/mysql_client/AsyncConnectionPool.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncConnectionPool.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncConnectionPool.cpp.i
 .PHONY : squangle/mysql_client/AsyncConnectionPool.cpp.i
 
 squangle/mysql_client/AsyncConnectionPool.s: squangle/mysql_client/AsyncConnectionPool.cpp.s
@@ -225,7 +225,7 @@ squangle/mysql_client/AsyncConnectionPool.s: squangle/mysql_client/AsyncConnecti
 
 # target to generate assembly for a file
 squangle/mysql_client/AsyncConnectionPool.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncConnectionPool.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncConnectionPool.cpp.s
 .PHONY : squangle/mysql_client/AsyncConnectionPool.cpp.s
 
 squangle/mysql_client/AsyncHelpers.o: squangle/mysql_client/AsyncHelpers.cpp.o
@@ -233,7 +233,7 @@ squangle/mysql_client/AsyncHelpers.o: squangle/mysql_client/AsyncHelpers.cpp.o
 
 # target to build an object file
 squangle/mysql_client/AsyncHelpers.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncHelpers.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncHelpers.cpp.o
 .PHONY : squangle/mysql_client/AsyncHelpers.cpp.o
 
 squangle/mysql_client/AsyncHelpers.i: squangle/mysql_client/AsyncHelpers.cpp.i
@@ -241,7 +241,7 @@ squangle/mysql_client/AsyncHelpers.i: squangle/mysql_client/AsyncHelpers.cpp.i
 
 # target to preprocess a source file
 squangle/mysql_client/AsyncHelpers.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncHelpers.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncHelpers.cpp.i
 .PHONY : squangle/mysql_client/AsyncHelpers.cpp.i
 
 squangle/mysql_client/AsyncHelpers.s: squangle/mysql_client/AsyncHelpers.cpp.s
@@ -249,7 +249,7 @@ squangle/mysql_client/AsyncHelpers.s: squangle/mysql_client/AsyncHelpers.cpp.s
 
 # target to generate assembly for a file
 squangle/mysql_client/AsyncHelpers.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncHelpers.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncHelpers.cpp.s
 .PHONY : squangle/mysql_client/AsyncHelpers.cpp.s
 
 squangle/mysql_client/AsyncMysqlClient.o: squangle/mysql_client/AsyncMysqlClient.cpp.o
@@ -257,7 +257,7 @@ squangle/mysql_client/AsyncMysqlClient.o: squangle/mysql_client/AsyncMysqlClient
 
 # target to build an object file
 squangle/mysql_client/AsyncMysqlClient.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncMysqlClient.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncMysqlClient.cpp.o
 .PHONY : squangle/mysql_client/AsyncMysqlClient.cpp.o
 
 squangle/mysql_client/AsyncMysqlClient.i: squangle/mysql_client/AsyncMysqlClient.cpp.i
@@ -265,7 +265,7 @@ squangle/mysql_client/AsyncMysqlClient.i: squangle/mysql_client/AsyncMysqlClient
 
 # target to preprocess a source file
 squangle/mysql_client/AsyncMysqlClient.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncMysqlClient.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncMysqlClient.cpp.i
 .PHONY : squangle/mysql_client/AsyncMysqlClient.cpp.i
 
 squangle/mysql_client/AsyncMysqlClient.s: squangle/mysql_client/AsyncMysqlClient.cpp.s
@@ -273,7 +273,7 @@ squangle/mysql_client/AsyncMysqlClient.s: squangle/mysql_client/AsyncMysqlClient
 
 # target to generate assembly for a file
 squangle/mysql_client/AsyncMysqlClient.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncMysqlClient.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncMysqlClient.cpp.s
 .PHONY : squangle/mysql_client/AsyncMysqlClient.cpp.s
 
 squangle/mysql_client/Connection.o: squangle/mysql_client/Connection.cpp.o
@@ -281,7 +281,7 @@ squangle/mysql_client/Connection.o: squangle/mysql_client/Connection.cpp.o
 
 # target to build an object file
 squangle/mysql_client/Connection.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Connection.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Connection.cpp.o
 .PHONY : squangle/mysql_client/Connection.cpp.o
 
 squangle/mysql_client/Connection.i: squangle/mysql_client/Connection.cpp.i
@@ -289,7 +289,7 @@ squangle/mysql_client/Connection.i: squangle/mysql_client/Connection.cpp.i
 
 # target to preprocess a source file
 squangle/mysql_client/Connection.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Connection.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Connection.cpp.i
 .PHONY : squangle/mysql_client/Connection.cpp.i
 
 squangle/mysql_client/Connection.s: squangle/mysql_client/Connection.cpp.s
@@ -297,7 +297,7 @@ squangle/mysql_client/Connection.s: squangle/mysql_client/Connection.cpp.s
 
 # target to generate assembly for a file
 squangle/mysql_client/Connection.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Connection.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Connection.cpp.s
 .PHONY : squangle/mysql_client/Connection.cpp.s
 
 squangle/mysql_client/DbResult.o: squangle/mysql_client/DbResult.cpp.o
@@ -305,7 +305,7 @@ squangle/mysql_client/DbResult.o: squangle/mysql_client/DbResult.cpp.o
 
 # target to build an object file
 squangle/mysql_client/DbResult.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/DbResult.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/DbResult.cpp.o
 .PHONY : squangle/mysql_client/DbResult.cpp.o
 
 squangle/mysql_client/DbResult.i: squangle/mysql_client/DbResult.cpp.i
@@ -313,7 +313,7 @@ squangle/mysql_client/DbResult.i: squangle/mysql_client/DbResult.cpp.i
 
 # target to preprocess a source file
 squangle/mysql_client/DbResult.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/DbResult.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/DbResult.cpp.i
 .PHONY : squangle/mysql_client/DbResult.cpp.i
 
 squangle/mysql_client/DbResult.s: squangle/mysql_client/DbResult.cpp.s
@@ -321,7 +321,7 @@ squangle/mysql_client/DbResult.s: squangle/mysql_client/DbResult.cpp.s
 
 # target to generate assembly for a file
 squangle/mysql_client/DbResult.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/DbResult.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/DbResult.cpp.s
 .PHONY : squangle/mysql_client/DbResult.cpp.s
 
 squangle/mysql_client/FutureAdapter.o: squangle/mysql_client/FutureAdapter.cpp.o
@@ -329,7 +329,7 @@ squangle/mysql_client/FutureAdapter.o: squangle/mysql_client/FutureAdapter.cpp.o
 
 # target to build an object file
 squangle/mysql_client/FutureAdapter.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/FutureAdapter.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/FutureAdapter.cpp.o
 .PHONY : squangle/mysql_client/FutureAdapter.cpp.o
 
 squangle/mysql_client/FutureAdapter.i: squangle/mysql_client/FutureAdapter.cpp.i
@@ -337,7 +337,7 @@ squangle/mysql_client/FutureAdapter.i: squangle/mysql_client/FutureAdapter.cpp.i
 
 # target to preprocess a source file
 squangle/mysql_client/FutureAdapter.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/FutureAdapter.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/FutureAdapter.cpp.i
 .PHONY : squangle/mysql_client/FutureAdapter.cpp.i
 
 squangle/mysql_client/FutureAdapter.s: squangle/mysql_client/FutureAdapter.cpp.s
@@ -345,7 +345,7 @@ squangle/mysql_client/FutureAdapter.s: squangle/mysql_client/FutureAdapter.cpp.s
 
 # target to generate assembly for a file
 squangle/mysql_client/FutureAdapter.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/FutureAdapter.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/FutureAdapter.cpp.s
 .PHONY : squangle/mysql_client/FutureAdapter.cpp.s
 
 squangle/mysql_client/Operation.o: squangle/mysql_client/Operation.cpp.o
@@ -353,7 +353,7 @@ squangle/mysql_client/Operation.o: squangle/mysql_client/Operation.cpp.o
 
 # target to build an object file
 squangle/mysql_client/Operation.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Operation.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Operation.cpp.o
 .PHONY : squangle/mysql_client/Operation.cpp.o
 
 squangle/mysql_client/Operation.i: squangle/mysql_client/Operation.cpp.i
@@ -361,7 +361,7 @@ squangle/mysql_client/Operation.i: squangle/mysql_client/Operation.cpp.i
 
 # target to preprocess a source file
 squangle/mysql_client/Operation.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Operation.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Operation.cpp.i
 .PHONY : squangle/mysql_client/Operation.cpp.i
 
 squangle/mysql_client/Operation.s: squangle/mysql_client/Operation.cpp.s
@@ -369,7 +369,7 @@ squangle/mysql_client/Operation.s: squangle/mysql_client/Operation.cpp.s
 
 # target to generate assembly for a file
 squangle/mysql_client/Operation.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Operation.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Operation.cpp.s
 .PHONY : squangle/mysql_client/Operation.cpp.s
 
 squangle/mysql_client/OperationBatch.o: squangle/mysql_client/OperationBatch.cpp.o
@@ -377,7 +377,7 @@ squangle/mysql_client/OperationBatch.o: squangle/mysql_client/OperationBatch.cpp
 
 # target to build an object file
 squangle/mysql_client/OperationBatch.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/OperationBatch.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/OperationBatch.cpp.o
 .PHONY : squangle/mysql_client/OperationBatch.cpp.o
 
 squangle/mysql_client/OperationBatch.i: squangle/mysql_client/OperationBatch.cpp.i
@@ -385,7 +385,7 @@ squangle/mysql_client/OperationBatch.i: squangle/mysql_client/OperationBatch.cpp
 
 # target to preprocess a source file
 squangle/mysql_client/OperationBatch.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/OperationBatch.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/OperationBatch.cpp.i
 .PHONY : squangle/mysql_client/OperationBatch.cpp.i
 
 squangle/mysql_client/OperationBatch.s: squangle/mysql_client/OperationBatch.cpp.s
@@ -393,7 +393,7 @@ squangle/mysql_client/OperationBatch.s: squangle/mysql_client/OperationBatch.cpp
 
 # target to generate assembly for a file
 squangle/mysql_client/OperationBatch.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/OperationBatch.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/OperationBatch.cpp.s
 .PHONY : squangle/mysql_client/OperationBatch.cpp.s
 
 squangle/mysql_client/Query.o: squangle/mysql_client/Query.cpp.o
@@ -401,7 +401,7 @@ squangle/mysql_client/Query.o: squangle/mysql_client/Query.cpp.o
 
 # target to build an object file
 squangle/mysql_client/Query.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Query.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Query.cpp.o
 .PHONY : squangle/mysql_client/Query.cpp.o
 
 squangle/mysql_client/Query.i: squangle/mysql_client/Query.cpp.i
@@ -409,7 +409,7 @@ squangle/mysql_client/Query.i: squangle/mysql_client/Query.cpp.i
 
 # target to preprocess a source file
 squangle/mysql_client/Query.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Query.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Query.cpp.i
 .PHONY : squangle/mysql_client/Query.cpp.i
 
 squangle/mysql_client/Query.s: squangle/mysql_client/Query.cpp.s
@@ -417,7 +417,7 @@ squangle/mysql_client/Query.s: squangle/mysql_client/Query.cpp.s
 
 # target to generate assembly for a file
 squangle/mysql_client/Query.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Query.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Query.cpp.s
 .PHONY : squangle/mysql_client/Query.cpp.s
 
 squangle/mysql_client/Row.o: squangle/mysql_client/Row.cpp.o
@@ -425,7 +425,7 @@ squangle/mysql_client/Row.o: squangle/mysql_client/Row.cpp.o
 
 # target to build an object file
 squangle/mysql_client/Row.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Row.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Row.cpp.o
 .PHONY : squangle/mysql_client/Row.cpp.o
 
 squangle/mysql_client/Row.i: squangle/mysql_client/Row.cpp.i
@@ -433,7 +433,7 @@ squangle/mysql_client/Row.i: squangle/mysql_client/Row.cpp.i
 
 # target to preprocess a source file
 squangle/mysql_client/Row.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Row.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Row.cpp.i
 .PHONY : squangle/mysql_client/Row.cpp.i
 
 squangle/mysql_client/Row.s: squangle/mysql_client/Row.cpp.s
@@ -441,7 +441,7 @@ squangle/mysql_client/Row.s: squangle/mysql_client/Row.cpp.s
 
 # target to generate assembly for a file
 squangle/mysql_client/Row.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Row.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/squangle/CMakeFiles/squangle.dir/build.make third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Row.cpp.s
 .PHONY : squangle/mysql_client/Row.cpp.s
 
 # Help Target
@@ -504,6 +504,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

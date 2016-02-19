@@ -4,12 +4,12 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/libservices/my_plugin_log_service.c" "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/libservices/CMakeFiles/mysqlservices.dir/my_plugin_log_service.c.o"
-  "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/libservices/my_snprintf_service.c" "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/libservices/CMakeFiles/mysqlservices.dir/my_snprintf_service.c.o"
-  "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/libservices/my_thread_scheduler_service.c" "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/libservices/CMakeFiles/mysqlservices.dir/my_thread_scheduler_service.c.o"
-  "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/libservices/mysql_string_service.c" "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/libservices/CMakeFiles/mysqlservices.dir/mysql_string_service.c.o"
-  "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/libservices/thd_alloc_service.c" "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/libservices/CMakeFiles/mysqlservices.dir/thd_alloc_service.c.o"
-  "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/libservices/thd_wait_service.c" "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/libservices/CMakeFiles/mysqlservices.dir/thd_wait_service.c.o"
+  "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/libservices/my_plugin_log_service.c" "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/libservices/CMakeFiles/mysqlservices.dir/my_plugin_log_service.c.o"
+  "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/libservices/my_snprintf_service.c" "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/libservices/CMakeFiles/mysqlservices.dir/my_snprintf_service.c.o"
+  "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/libservices/my_thread_scheduler_service.c" "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/libservices/CMakeFiles/mysqlservices.dir/my_thread_scheduler_service.c.o"
+  "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/libservices/mysql_string_service.c" "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/libservices/CMakeFiles/mysqlservices.dir/mysql_string_service.c.o"
+  "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/libservices/thd_alloc_service.c" "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/libservices/CMakeFiles/mysqlservices.dir/thd_alloc_service.c.o"
+  "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/libservices/thd_wait_service.c" "/tmp/hhvm-3.12.0/third-party/webscalesqlclient/src/libservices/CMakeFiles/mysqlservices.dir/thd_wait_service.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 

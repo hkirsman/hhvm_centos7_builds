@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/hhvm-3.11.1/hphp/system
+# Install script for directory: /tmp/hhvm-3.12.0/hphp/system
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,8 +33,8 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
-  INCLUDE("/tmp/hhvm-3.11.1/CMake/HPHPFunctions.cmake")
-      HHVM_INSTALL_HEADERS(system /tmp/hhvm-3.11.1
-      "${CMAKE_INSTALL_PREFIX}/include" /tmp/hhvm-3.11.1/hphp/system/constants.h;/tmp/hhvm-3.11.1/hphp/system/systemlib.h;/tmp/hhvm-3.11.1/hphp/system/constants.h;/tmp/hhvm-3.11.1/hphp/system/systemlib.h;/tmp/hhvm-3.11.1/hphp/system/constants.h)
+  INCLUDE("/tmp/hhvm-3.12.0/CMake/HPHPFunctions.cmake")
+      HHVM_INSTALL_HEADERS(system /tmp/hhvm-3.12.0
+      "${CMAKE_INSTALL_PREFIX}/include" /tmp/hhvm-3.12.0/hphp/system/systemlib.h;/tmp/hhvm-3.12.0/hphp/system/systemlib.h;/tmp/hhvm-3.12.0/hphp/system/constants.h)
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
 

@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.0
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles /tmp/hhvm-3.11.1/hphp/neo/CMakeFiles/progress.marks
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/neo/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles 0
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.0/CMakeFiles /tmp/hhvm-3.12.0/hphp/neo/CMakeFiles/progress.marks
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/neo/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.0/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/neo/clean
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/neo/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/neo/preinstall
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/neo/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/neo/preinstall
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/neo/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 hphp/neo/CMakeFiles/neo.dir/rule:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/neo/CMakeFiles/neo.dir/rule
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 hphp/neo/CMakeFiles/neo.dir/rule
 .PHONY : hphp/neo/CMakeFiles/neo.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ neo: hphp/neo/CMakeFiles/neo.dir/rule
 
 # fast build rule for target.
 neo/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/build
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/build
 .PHONY : neo/fast
 
 neo_err.o: neo_err.c.o
@@ -161,7 +161,7 @@ neo_err.o: neo_err.c.o
 
 # target to build an object file
 neo_err.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_err.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_err.c.o
 .PHONY : neo_err.c.o
 
 neo_err.i: neo_err.c.i
@@ -169,7 +169,7 @@ neo_err.i: neo_err.c.i
 
 # target to preprocess a source file
 neo_err.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_err.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_err.c.i
 .PHONY : neo_err.c.i
 
 neo_err.s: neo_err.c.s
@@ -177,7 +177,7 @@ neo_err.s: neo_err.c.s
 
 # target to generate assembly for a file
 neo_err.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_err.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_err.c.s
 .PHONY : neo_err.c.s
 
 neo_files.o: neo_files.c.o
@@ -185,7 +185,7 @@ neo_files.o: neo_files.c.o
 
 # target to build an object file
 neo_files.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_files.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_files.c.o
 .PHONY : neo_files.c.o
 
 neo_files.i: neo_files.c.i
@@ -193,7 +193,7 @@ neo_files.i: neo_files.c.i
 
 # target to preprocess a source file
 neo_files.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_files.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_files.c.i
 .PHONY : neo_files.c.i
 
 neo_files.s: neo_files.c.s
@@ -201,7 +201,7 @@ neo_files.s: neo_files.c.s
 
 # target to generate assembly for a file
 neo_files.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_files.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_files.c.s
 .PHONY : neo_files.c.s
 
 neo_hash.o: neo_hash.c.o
@@ -209,7 +209,7 @@ neo_hash.o: neo_hash.c.o
 
 # target to build an object file
 neo_hash.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_hash.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_hash.c.o
 .PHONY : neo_hash.c.o
 
 neo_hash.i: neo_hash.c.i
@@ -217,7 +217,7 @@ neo_hash.i: neo_hash.c.i
 
 # target to preprocess a source file
 neo_hash.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_hash.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_hash.c.i
 .PHONY : neo_hash.c.i
 
 neo_hash.s: neo_hash.c.s
@@ -225,7 +225,7 @@ neo_hash.s: neo_hash.c.s
 
 # target to generate assembly for a file
 neo_hash.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_hash.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_hash.c.s
 .PHONY : neo_hash.c.s
 
 neo_hdf.o: neo_hdf.c.o
@@ -233,7 +233,7 @@ neo_hdf.o: neo_hdf.c.o
 
 # target to build an object file
 neo_hdf.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_hdf.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_hdf.c.o
 .PHONY : neo_hdf.c.o
 
 neo_hdf.i: neo_hdf.c.i
@@ -241,7 +241,7 @@ neo_hdf.i: neo_hdf.c.i
 
 # target to preprocess a source file
 neo_hdf.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_hdf.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_hdf.c.i
 .PHONY : neo_hdf.c.i
 
 neo_hdf.s: neo_hdf.c.s
@@ -249,7 +249,7 @@ neo_hdf.s: neo_hdf.c.s
 
 # target to generate assembly for a file
 neo_hdf.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_hdf.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_hdf.c.s
 .PHONY : neo_hdf.c.s
 
 neo_misc.o: neo_misc.c.o
@@ -257,7 +257,7 @@ neo_misc.o: neo_misc.c.o
 
 # target to build an object file
 neo_misc.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_misc.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_misc.c.o
 .PHONY : neo_misc.c.o
 
 neo_misc.i: neo_misc.c.i
@@ -265,7 +265,7 @@ neo_misc.i: neo_misc.c.i
 
 # target to preprocess a source file
 neo_misc.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_misc.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_misc.c.i
 .PHONY : neo_misc.c.i
 
 neo_misc.s: neo_misc.c.s
@@ -273,7 +273,7 @@ neo_misc.s: neo_misc.c.s
 
 # target to generate assembly for a file
 neo_misc.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_misc.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_misc.c.s
 .PHONY : neo_misc.c.s
 
 neo_rand.o: neo_rand.c.o
@@ -281,7 +281,7 @@ neo_rand.o: neo_rand.c.o
 
 # target to build an object file
 neo_rand.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_rand.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_rand.c.o
 .PHONY : neo_rand.c.o
 
 neo_rand.i: neo_rand.c.i
@@ -289,7 +289,7 @@ neo_rand.i: neo_rand.c.i
 
 # target to preprocess a source file
 neo_rand.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_rand.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_rand.c.i
 .PHONY : neo_rand.c.i
 
 neo_rand.s: neo_rand.c.s
@@ -297,7 +297,7 @@ neo_rand.s: neo_rand.c.s
 
 # target to generate assembly for a file
 neo_rand.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_rand.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_rand.c.s
 .PHONY : neo_rand.c.s
 
 neo_str.o: neo_str.c.o
@@ -305,7 +305,7 @@ neo_str.o: neo_str.c.o
 
 # target to build an object file
 neo_str.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_str.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_str.c.o
 .PHONY : neo_str.c.o
 
 neo_str.i: neo_str.c.i
@@ -313,7 +313,7 @@ neo_str.i: neo_str.c.i
 
 # target to preprocess a source file
 neo_str.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_str.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_str.c.i
 .PHONY : neo_str.c.i
 
 neo_str.s: neo_str.c.s
@@ -321,7 +321,7 @@ neo_str.s: neo_str.c.s
 
 # target to generate assembly for a file
 neo_str.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_str.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/neo_str.c.s
 .PHONY : neo_str.c.s
 
 ulist.o: ulist.c.o
@@ -329,7 +329,7 @@ ulist.o: ulist.c.o
 
 # target to build an object file
 ulist.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/ulist.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/ulist.c.o
 .PHONY : ulist.c.o
 
 ulist.i: ulist.c.i
@@ -337,7 +337,7 @@ ulist.i: ulist.c.i
 
 # target to preprocess a source file
 ulist.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/ulist.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/ulist.c.i
 .PHONY : ulist.c.i
 
 ulist.s: ulist.c.s
@@ -345,7 +345,7 @@ ulist.s: ulist.c.s
 
 # target to generate assembly for a file
 ulist.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/ulist.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/ulist.c.s
 .PHONY : ulist.c.s
 
 ulocks.o: ulocks.c.o
@@ -353,7 +353,7 @@ ulocks.o: ulocks.c.o
 
 # target to build an object file
 ulocks.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/ulocks.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/ulocks.c.o
 .PHONY : ulocks.c.o
 
 ulocks.i: ulocks.c.i
@@ -361,7 +361,7 @@ ulocks.i: ulocks.c.i
 
 # target to preprocess a source file
 ulocks.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/ulocks.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/ulocks.c.i
 .PHONY : ulocks.c.i
 
 ulocks.s: ulocks.c.s
@@ -369,7 +369,7 @@ ulocks.s: ulocks.c.s
 
 # target to generate assembly for a file
 ulocks.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/ulocks.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f hphp/neo/CMakeFiles/neo.dir/build.make hphp/neo/CMakeFiles/neo.dir/ulocks.c.s
 .PHONY : ulocks.c.s
 
 # Help Target
@@ -423,6 +423,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

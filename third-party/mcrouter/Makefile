@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.0
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles /tmp/hhvm-3.11.1/third-party/mcrouter/CMakeFiles/progress.marks
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/mcrouter/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles 0
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.0/CMakeFiles /tmp/hhvm-3.12.0/third-party/mcrouter/CMakeFiles/progress.marks
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/mcrouter/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.0/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/mcrouter/clean
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/mcrouter/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/mcrouter/preinstall
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/mcrouter/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/mcrouter/preinstall
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/mcrouter/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 third-party/mcrouter/CMakeFiles/mcrouter.dir/rule:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/mcrouter/CMakeFiles/mcrouter.dir/rule
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f CMakeFiles/Makefile2 third-party/mcrouter/CMakeFiles/mcrouter.dir/rule
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ mcrouter: third-party/mcrouter/CMakeFiles/mcrouter.dir/rule
 
 # fast build rule for target.
 mcrouter/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/build
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/build
 .PHONY : mcrouter/fast
 
 McAsciiParser-gen.o: McAsciiParser-gen.cpp.o
@@ -161,7 +161,7 @@ McAsciiParser-gen.o: McAsciiParser-gen.cpp.o
 
 # target to build an object file
 McAsciiParser-gen.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/McAsciiParser-gen.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/McAsciiParser-gen.cpp.o
 .PHONY : McAsciiParser-gen.cpp.o
 
 McAsciiParser-gen.i: McAsciiParser-gen.cpp.i
@@ -169,7 +169,7 @@ McAsciiParser-gen.i: McAsciiParser-gen.cpp.i
 
 # target to preprocess a source file
 McAsciiParser-gen.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/McAsciiParser-gen.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/McAsciiParser-gen.cpp.i
 .PHONY : McAsciiParser-gen.cpp.i
 
 McAsciiParser-gen.s: McAsciiParser-gen.cpp.s
@@ -177,7 +177,7 @@ McAsciiParser-gen.s: McAsciiParser-gen.cpp.s
 
 # target to generate assembly for a file
 McAsciiParser-gen.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/McAsciiParser-gen.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/McAsciiParser-gen.cpp.s
 .PHONY : McAsciiParser-gen.cpp.s
 
 ascii_client.o: ascii_client.c.o
@@ -185,7 +185,7 @@ ascii_client.o: ascii_client.c.o
 
 # target to build an object file
 ascii_client.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/ascii_client.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/ascii_client.c.o
 .PHONY : ascii_client.c.o
 
 ascii_client.i: ascii_client.c.i
@@ -193,7 +193,7 @@ ascii_client.i: ascii_client.c.i
 
 # target to preprocess a source file
 ascii_client.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/ascii_client.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/ascii_client.c.i
 .PHONY : ascii_client.c.i
 
 ascii_client.s: ascii_client.c.s
@@ -201,7 +201,7 @@ ascii_client.s: ascii_client.c.s
 
 # target to generate assembly for a file
 ascii_client.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/ascii_client.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/ascii_client.c.s
 .PHONY : ascii_client.c.s
 
 mcrouter/ConfigApi.o: mcrouter/ConfigApi.cpp.o
@@ -209,7 +209,7 @@ mcrouter/ConfigApi.o: mcrouter/ConfigApi.cpp.o
 
 # target to build an object file
 mcrouter/ConfigApi.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ConfigApi.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ConfigApi.cpp.o
 .PHONY : mcrouter/ConfigApi.cpp.o
 
 mcrouter/ConfigApi.i: mcrouter/ConfigApi.cpp.i
@@ -217,7 +217,7 @@ mcrouter/ConfigApi.i: mcrouter/ConfigApi.cpp.i
 
 # target to preprocess a source file
 mcrouter/ConfigApi.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ConfigApi.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ConfigApi.cpp.i
 .PHONY : mcrouter/ConfigApi.cpp.i
 
 mcrouter/ConfigApi.s: mcrouter/ConfigApi.cpp.s
@@ -225,7 +225,7 @@ mcrouter/ConfigApi.s: mcrouter/ConfigApi.cpp.s
 
 # target to generate assembly for a file
 mcrouter/ConfigApi.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ConfigApi.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ConfigApi.cpp.s
 .PHONY : mcrouter/ConfigApi.cpp.s
 
 mcrouter/CyclesObserver.o: mcrouter/CyclesObserver.cpp.o
@@ -233,7 +233,7 @@ mcrouter/CyclesObserver.o: mcrouter/CyclesObserver.cpp.o
 
 # target to build an object file
 mcrouter/CyclesObserver.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/CyclesObserver.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/CyclesObserver.cpp.o
 .PHONY : mcrouter/CyclesObserver.cpp.o
 
 mcrouter/CyclesObserver.i: mcrouter/CyclesObserver.cpp.i
@@ -241,7 +241,7 @@ mcrouter/CyclesObserver.i: mcrouter/CyclesObserver.cpp.i
 
 # target to preprocess a source file
 mcrouter/CyclesObserver.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/CyclesObserver.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/CyclesObserver.cpp.i
 .PHONY : mcrouter/CyclesObserver.cpp.i
 
 mcrouter/CyclesObserver.s: mcrouter/CyclesObserver.cpp.s
@@ -249,7 +249,7 @@ mcrouter/CyclesObserver.s: mcrouter/CyclesObserver.cpp.s
 
 # target to generate assembly for a file
 mcrouter/CyclesObserver.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/CyclesObserver.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/CyclesObserver.cpp.s
 .PHONY : mcrouter/CyclesObserver.cpp.s
 
 mcrouter/FileDataProvider.o: mcrouter/FileDataProvider.cpp.o
@@ -257,7 +257,7 @@ mcrouter/FileDataProvider.o: mcrouter/FileDataProvider.cpp.o
 
 # target to build an object file
 mcrouter/FileDataProvider.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileDataProvider.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileDataProvider.cpp.o
 .PHONY : mcrouter/FileDataProvider.cpp.o
 
 mcrouter/FileDataProvider.i: mcrouter/FileDataProvider.cpp.i
@@ -265,7 +265,7 @@ mcrouter/FileDataProvider.i: mcrouter/FileDataProvider.cpp.i
 
 # target to preprocess a source file
 mcrouter/FileDataProvider.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileDataProvider.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileDataProvider.cpp.i
 .PHONY : mcrouter/FileDataProvider.cpp.i
 
 mcrouter/FileDataProvider.s: mcrouter/FileDataProvider.cpp.s
@@ -273,7 +273,7 @@ mcrouter/FileDataProvider.s: mcrouter/FileDataProvider.cpp.s
 
 # target to generate assembly for a file
 mcrouter/FileDataProvider.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileDataProvider.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileDataProvider.cpp.s
 .PHONY : mcrouter/FileDataProvider.cpp.s
 
 mcrouter/FileObserver.o: mcrouter/FileObserver.cpp.o
@@ -281,7 +281,7 @@ mcrouter/FileObserver.o: mcrouter/FileObserver.cpp.o
 
 # target to build an object file
 mcrouter/FileObserver.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileObserver.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileObserver.cpp.o
 .PHONY : mcrouter/FileObserver.cpp.o
 
 mcrouter/FileObserver.i: mcrouter/FileObserver.cpp.i
@@ -289,7 +289,7 @@ mcrouter/FileObserver.i: mcrouter/FileObserver.cpp.i
 
 # target to preprocess a source file
 mcrouter/FileObserver.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileObserver.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileObserver.cpp.i
 .PHONY : mcrouter/FileObserver.cpp.i
 
 mcrouter/FileObserver.s: mcrouter/FileObserver.cpp.s
@@ -297,7 +297,7 @@ mcrouter/FileObserver.s: mcrouter/FileObserver.cpp.s
 
 # target to generate assembly for a file
 mcrouter/FileObserver.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileObserver.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileObserver.cpp.s
 .PHONY : mcrouter/FileObserver.cpp.s
 
 mcrouter/LeaseTokenMap.o: mcrouter/LeaseTokenMap.cpp.o
@@ -305,7 +305,7 @@ mcrouter/LeaseTokenMap.o: mcrouter/LeaseTokenMap.cpp.o
 
 # target to build an object file
 mcrouter/LeaseTokenMap.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/LeaseTokenMap.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/LeaseTokenMap.cpp.o
 .PHONY : mcrouter/LeaseTokenMap.cpp.o
 
 mcrouter/LeaseTokenMap.i: mcrouter/LeaseTokenMap.cpp.i
@@ -313,7 +313,7 @@ mcrouter/LeaseTokenMap.i: mcrouter/LeaseTokenMap.cpp.i
 
 # target to preprocess a source file
 mcrouter/LeaseTokenMap.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/LeaseTokenMap.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/LeaseTokenMap.cpp.i
 .PHONY : mcrouter/LeaseTokenMap.cpp.i
 
 mcrouter/LeaseTokenMap.s: mcrouter/LeaseTokenMap.cpp.s
@@ -321,7 +321,7 @@ mcrouter/LeaseTokenMap.s: mcrouter/LeaseTokenMap.cpp.s
 
 # target to generate assembly for a file
 mcrouter/LeaseTokenMap.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/LeaseTokenMap.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/LeaseTokenMap.cpp.s
 .PHONY : mcrouter/LeaseTokenMap.cpp.s
 
 mcrouter/McrouterClient.o: mcrouter/McrouterClient.cpp.o
@@ -329,7 +329,7 @@ mcrouter/McrouterClient.o: mcrouter/McrouterClient.cpp.o
 
 # target to build an object file
 mcrouter/McrouterClient.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterClient.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterClient.cpp.o
 .PHONY : mcrouter/McrouterClient.cpp.o
 
 mcrouter/McrouterClient.i: mcrouter/McrouterClient.cpp.i
@@ -337,7 +337,7 @@ mcrouter/McrouterClient.i: mcrouter/McrouterClient.cpp.i
 
 # target to preprocess a source file
 mcrouter/McrouterClient.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterClient.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterClient.cpp.i
 .PHONY : mcrouter/McrouterClient.cpp.i
 
 mcrouter/McrouterClient.s: mcrouter/McrouterClient.cpp.s
@@ -345,7 +345,7 @@ mcrouter/McrouterClient.s: mcrouter/McrouterClient.cpp.s
 
 # target to generate assembly for a file
 mcrouter/McrouterClient.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterClient.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterClient.cpp.s
 .PHONY : mcrouter/McrouterClient.cpp.s
 
 mcrouter/McrouterFiberContext.o: mcrouter/McrouterFiberContext.cpp.o
@@ -353,7 +353,7 @@ mcrouter/McrouterFiberContext.o: mcrouter/McrouterFiberContext.cpp.o
 
 # target to build an object file
 mcrouter/McrouterFiberContext.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterFiberContext.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterFiberContext.cpp.o
 .PHONY : mcrouter/McrouterFiberContext.cpp.o
 
 mcrouter/McrouterFiberContext.i: mcrouter/McrouterFiberContext.cpp.i
@@ -361,7 +361,7 @@ mcrouter/McrouterFiberContext.i: mcrouter/McrouterFiberContext.cpp.i
 
 # target to preprocess a source file
 mcrouter/McrouterFiberContext.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterFiberContext.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterFiberContext.cpp.i
 .PHONY : mcrouter/McrouterFiberContext.cpp.i
 
 mcrouter/McrouterFiberContext.s: mcrouter/McrouterFiberContext.cpp.s
@@ -369,7 +369,7 @@ mcrouter/McrouterFiberContext.s: mcrouter/McrouterFiberContext.cpp.s
 
 # target to generate assembly for a file
 mcrouter/McrouterFiberContext.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterFiberContext.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterFiberContext.cpp.s
 .PHONY : mcrouter/McrouterFiberContext.cpp.s
 
 mcrouter/McrouterInstance.o: mcrouter/McrouterInstance.cpp.o
@@ -377,7 +377,7 @@ mcrouter/McrouterInstance.o: mcrouter/McrouterInstance.cpp.o
 
 # target to build an object file
 mcrouter/McrouterInstance.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterInstance.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterInstance.cpp.o
 .PHONY : mcrouter/McrouterInstance.cpp.o
 
 mcrouter/McrouterInstance.i: mcrouter/McrouterInstance.cpp.i
@@ -385,7 +385,7 @@ mcrouter/McrouterInstance.i: mcrouter/McrouterInstance.cpp.i
 
 # target to preprocess a source file
 mcrouter/McrouterInstance.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterInstance.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterInstance.cpp.i
 .PHONY : mcrouter/McrouterInstance.cpp.i
 
 mcrouter/McrouterInstance.s: mcrouter/McrouterInstance.cpp.s
@@ -393,7 +393,7 @@ mcrouter/McrouterInstance.s: mcrouter/McrouterInstance.cpp.s
 
 # target to generate assembly for a file
 mcrouter/McrouterInstance.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterInstance.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterInstance.cpp.s
 .PHONY : mcrouter/McrouterInstance.cpp.s
 
 mcrouter/McrouterLogFailure.o: mcrouter/McrouterLogFailure.cpp.o
@@ -401,7 +401,7 @@ mcrouter/McrouterLogFailure.o: mcrouter/McrouterLogFailure.cpp.o
 
 # target to build an object file
 mcrouter/McrouterLogFailure.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogFailure.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogFailure.cpp.o
 .PHONY : mcrouter/McrouterLogFailure.cpp.o
 
 mcrouter/McrouterLogFailure.i: mcrouter/McrouterLogFailure.cpp.i
@@ -409,7 +409,7 @@ mcrouter/McrouterLogFailure.i: mcrouter/McrouterLogFailure.cpp.i
 
 # target to preprocess a source file
 mcrouter/McrouterLogFailure.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogFailure.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogFailure.cpp.i
 .PHONY : mcrouter/McrouterLogFailure.cpp.i
 
 mcrouter/McrouterLogFailure.s: mcrouter/McrouterLogFailure.cpp.s
@@ -417,7 +417,7 @@ mcrouter/McrouterLogFailure.s: mcrouter/McrouterLogFailure.cpp.s
 
 # target to generate assembly for a file
 mcrouter/McrouterLogFailure.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogFailure.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogFailure.cpp.s
 .PHONY : mcrouter/McrouterLogFailure.cpp.s
 
 mcrouter/McrouterLogger.o: mcrouter/McrouterLogger.cpp.o
@@ -425,7 +425,7 @@ mcrouter/McrouterLogger.o: mcrouter/McrouterLogger.cpp.o
 
 # target to build an object file
 mcrouter/McrouterLogger.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogger.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogger.cpp.o
 .PHONY : mcrouter/McrouterLogger.cpp.o
 
 mcrouter/McrouterLogger.i: mcrouter/McrouterLogger.cpp.i
@@ -433,7 +433,7 @@ mcrouter/McrouterLogger.i: mcrouter/McrouterLogger.cpp.i
 
 # target to preprocess a source file
 mcrouter/McrouterLogger.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogger.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogger.cpp.i
 .PHONY : mcrouter/McrouterLogger.cpp.i
 
 mcrouter/McrouterLogger.s: mcrouter/McrouterLogger.cpp.s
@@ -441,7 +441,7 @@ mcrouter/McrouterLogger.s: mcrouter/McrouterLogger.cpp.s
 
 # target to generate assembly for a file
 mcrouter/McrouterLogger.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogger.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogger.cpp.s
 .PHONY : mcrouter/McrouterLogger.cpp.s
 
 mcrouter/OptionsUtil.o: mcrouter/OptionsUtil.cpp.o
@@ -449,7 +449,7 @@ mcrouter/OptionsUtil.o: mcrouter/OptionsUtil.cpp.o
 
 # target to build an object file
 mcrouter/OptionsUtil.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/OptionsUtil.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/OptionsUtil.cpp.o
 .PHONY : mcrouter/OptionsUtil.cpp.o
 
 mcrouter/OptionsUtil.i: mcrouter/OptionsUtil.cpp.i
@@ -457,7 +457,7 @@ mcrouter/OptionsUtil.i: mcrouter/OptionsUtil.cpp.i
 
 # target to preprocess a source file
 mcrouter/OptionsUtil.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/OptionsUtil.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/OptionsUtil.cpp.i
 .PHONY : mcrouter/OptionsUtil.cpp.i
 
 mcrouter/OptionsUtil.s: mcrouter/OptionsUtil.cpp.s
@@ -465,7 +465,7 @@ mcrouter/OptionsUtil.s: mcrouter/OptionsUtil.cpp.s
 
 # target to generate assembly for a file
 mcrouter/OptionsUtil.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/OptionsUtil.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/OptionsUtil.cpp.s
 .PHONY : mcrouter/OptionsUtil.cpp.s
 
 mcrouter/PoolFactory.o: mcrouter/PoolFactory.cpp.o
@@ -473,7 +473,7 @@ mcrouter/PoolFactory.o: mcrouter/PoolFactory.cpp.o
 
 # target to build an object file
 mcrouter/PoolFactory.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/PoolFactory.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/PoolFactory.cpp.o
 .PHONY : mcrouter/PoolFactory.cpp.o
 
 mcrouter/PoolFactory.i: mcrouter/PoolFactory.cpp.i
@@ -481,7 +481,7 @@ mcrouter/PoolFactory.i: mcrouter/PoolFactory.cpp.i
 
 # target to preprocess a source file
 mcrouter/PoolFactory.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/PoolFactory.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/PoolFactory.cpp.i
 .PHONY : mcrouter/PoolFactory.cpp.i
 
 mcrouter/PoolFactory.s: mcrouter/PoolFactory.cpp.s
@@ -489,7 +489,7 @@ mcrouter/PoolFactory.s: mcrouter/PoolFactory.cpp.s
 
 # target to generate assembly for a file
 mcrouter/PoolFactory.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/PoolFactory.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/PoolFactory.cpp.s
 .PHONY : mcrouter/PoolFactory.cpp.s
 
 mcrouter/ProxyConfig.o: mcrouter/ProxyConfig.cpp.o
@@ -497,7 +497,7 @@ mcrouter/ProxyConfig.o: mcrouter/ProxyConfig.cpp.o
 
 # target to build an object file
 mcrouter/ProxyConfig.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyConfig.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyConfig.cpp.o
 .PHONY : mcrouter/ProxyConfig.cpp.o
 
 mcrouter/ProxyConfig.i: mcrouter/ProxyConfig.cpp.i
@@ -505,7 +505,7 @@ mcrouter/ProxyConfig.i: mcrouter/ProxyConfig.cpp.i
 
 # target to preprocess a source file
 mcrouter/ProxyConfig.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyConfig.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyConfig.cpp.i
 .PHONY : mcrouter/ProxyConfig.cpp.i
 
 mcrouter/ProxyConfig.s: mcrouter/ProxyConfig.cpp.s
@@ -513,7 +513,7 @@ mcrouter/ProxyConfig.s: mcrouter/ProxyConfig.cpp.s
 
 # target to generate assembly for a file
 mcrouter/ProxyConfig.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyConfig.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyConfig.cpp.s
 .PHONY : mcrouter/ProxyConfig.cpp.s
 
 mcrouter/ProxyConfigBuilder.o: mcrouter/ProxyConfigBuilder.cpp.o
@@ -521,7 +521,7 @@ mcrouter/ProxyConfigBuilder.o: mcrouter/ProxyConfigBuilder.cpp.o
 
 # target to build an object file
 mcrouter/ProxyConfigBuilder.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyConfigBuilder.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyConfigBuilder.cpp.o
 .PHONY : mcrouter/ProxyConfigBuilder.cpp.o
 
 mcrouter/ProxyConfigBuilder.i: mcrouter/ProxyConfigBuilder.cpp.i
@@ -529,7 +529,7 @@ mcrouter/ProxyConfigBuilder.i: mcrouter/ProxyConfigBuilder.cpp.i
 
 # target to preprocess a source file
 mcrouter/ProxyConfigBuilder.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyConfigBuilder.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyConfigBuilder.cpp.i
 .PHONY : mcrouter/ProxyConfigBuilder.cpp.i
 
 mcrouter/ProxyConfigBuilder.s: mcrouter/ProxyConfigBuilder.cpp.s
@@ -537,7 +537,7 @@ mcrouter/ProxyConfigBuilder.s: mcrouter/ProxyConfigBuilder.cpp.s
 
 # target to generate assembly for a file
 mcrouter/ProxyConfigBuilder.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyConfigBuilder.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyConfigBuilder.cpp.s
 .PHONY : mcrouter/ProxyConfigBuilder.cpp.s
 
 mcrouter/ProxyDestination.o: mcrouter/ProxyDestination.cpp.o
@@ -545,7 +545,7 @@ mcrouter/ProxyDestination.o: mcrouter/ProxyDestination.cpp.o
 
 # target to build an object file
 mcrouter/ProxyDestination.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyDestination.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyDestination.cpp.o
 .PHONY : mcrouter/ProxyDestination.cpp.o
 
 mcrouter/ProxyDestination.i: mcrouter/ProxyDestination.cpp.i
@@ -553,7 +553,7 @@ mcrouter/ProxyDestination.i: mcrouter/ProxyDestination.cpp.i
 
 # target to preprocess a source file
 mcrouter/ProxyDestination.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyDestination.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyDestination.cpp.i
 .PHONY : mcrouter/ProxyDestination.cpp.i
 
 mcrouter/ProxyDestination.s: mcrouter/ProxyDestination.cpp.s
@@ -561,7 +561,7 @@ mcrouter/ProxyDestination.s: mcrouter/ProxyDestination.cpp.s
 
 # target to generate assembly for a file
 mcrouter/ProxyDestination.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyDestination.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyDestination.cpp.s
 .PHONY : mcrouter/ProxyDestination.cpp.s
 
 mcrouter/ProxyDestinationMap.o: mcrouter/ProxyDestinationMap.cpp.o
@@ -569,7 +569,7 @@ mcrouter/ProxyDestinationMap.o: mcrouter/ProxyDestinationMap.cpp.o
 
 # target to build an object file
 mcrouter/ProxyDestinationMap.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyDestinationMap.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyDestinationMap.cpp.o
 .PHONY : mcrouter/ProxyDestinationMap.cpp.o
 
 mcrouter/ProxyDestinationMap.i: mcrouter/ProxyDestinationMap.cpp.i
@@ -577,7 +577,7 @@ mcrouter/ProxyDestinationMap.i: mcrouter/ProxyDestinationMap.cpp.i
 
 # target to preprocess a source file
 mcrouter/ProxyDestinationMap.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyDestinationMap.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyDestinationMap.cpp.i
 .PHONY : mcrouter/ProxyDestinationMap.cpp.i
 
 mcrouter/ProxyDestinationMap.s: mcrouter/ProxyDestinationMap.cpp.s
@@ -585,7 +585,7 @@ mcrouter/ProxyDestinationMap.s: mcrouter/ProxyDestinationMap.cpp.s
 
 # target to generate assembly for a file
 mcrouter/ProxyDestinationMap.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyDestinationMap.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyDestinationMap.cpp.s
 .PHONY : mcrouter/ProxyDestinationMap.cpp.s
 
 mcrouter/ProxyRequestContext.o: mcrouter/ProxyRequestContext.cpp.o
@@ -593,7 +593,7 @@ mcrouter/ProxyRequestContext.o: mcrouter/ProxyRequestContext.cpp.o
 
 # target to build an object file
 mcrouter/ProxyRequestContext.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyRequestContext.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyRequestContext.cpp.o
 .PHONY : mcrouter/ProxyRequestContext.cpp.o
 
 mcrouter/ProxyRequestContext.i: mcrouter/ProxyRequestContext.cpp.i
@@ -601,7 +601,7 @@ mcrouter/ProxyRequestContext.i: mcrouter/ProxyRequestContext.cpp.i
 
 # target to preprocess a source file
 mcrouter/ProxyRequestContext.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyRequestContext.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyRequestContext.cpp.i
 .PHONY : mcrouter/ProxyRequestContext.cpp.i
 
 mcrouter/ProxyRequestContext.s: mcrouter/ProxyRequestContext.cpp.s
@@ -609,7 +609,7 @@ mcrouter/ProxyRequestContext.s: mcrouter/ProxyRequestContext.cpp.s
 
 # target to generate assembly for a file
 mcrouter/ProxyRequestContext.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyRequestContext.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyRequestContext.cpp.s
 .PHONY : mcrouter/ProxyRequestContext.cpp.s
 
 mcrouter/ProxyThread.o: mcrouter/ProxyThread.cpp.o
@@ -617,7 +617,7 @@ mcrouter/ProxyThread.o: mcrouter/ProxyThread.cpp.o
 
 # target to build an object file
 mcrouter/ProxyThread.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyThread.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyThread.cpp.o
 .PHONY : mcrouter/ProxyThread.cpp.o
 
 mcrouter/ProxyThread.i: mcrouter/ProxyThread.cpp.i
@@ -625,7 +625,7 @@ mcrouter/ProxyThread.i: mcrouter/ProxyThread.cpp.i
 
 # target to preprocess a source file
 mcrouter/ProxyThread.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyThread.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyThread.cpp.i
 .PHONY : mcrouter/ProxyThread.cpp.i
 
 mcrouter/ProxyThread.s: mcrouter/ProxyThread.cpp.s
@@ -633,7 +633,7 @@ mcrouter/ProxyThread.s: mcrouter/ProxyThread.cpp.s
 
 # target to generate assembly for a file
 mcrouter/ProxyThread.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyThread.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyThread.cpp.s
 .PHONY : mcrouter/ProxyThread.cpp.s
 
 mcrouter/RoutingPrefix.o: mcrouter/RoutingPrefix.cpp.o
@@ -641,7 +641,7 @@ mcrouter/RoutingPrefix.o: mcrouter/RoutingPrefix.cpp.o
 
 # target to build an object file
 mcrouter/RoutingPrefix.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/RoutingPrefix.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/RoutingPrefix.cpp.o
 .PHONY : mcrouter/RoutingPrefix.cpp.o
 
 mcrouter/RoutingPrefix.i: mcrouter/RoutingPrefix.cpp.i
@@ -649,7 +649,7 @@ mcrouter/RoutingPrefix.i: mcrouter/RoutingPrefix.cpp.i
 
 # target to preprocess a source file
 mcrouter/RoutingPrefix.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/RoutingPrefix.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/RoutingPrefix.cpp.i
 .PHONY : mcrouter/RoutingPrefix.cpp.i
 
 mcrouter/RoutingPrefix.s: mcrouter/RoutingPrefix.cpp.s
@@ -657,7 +657,7 @@ mcrouter/RoutingPrefix.s: mcrouter/RoutingPrefix.cpp.s
 
 # target to generate assembly for a file
 mcrouter/RoutingPrefix.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/RoutingPrefix.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/RoutingPrefix.cpp.s
 .PHONY : mcrouter/RoutingPrefix.cpp.s
 
 mcrouter/RuntimeVarsData.o: mcrouter/RuntimeVarsData.cpp.o
@@ -665,7 +665,7 @@ mcrouter/RuntimeVarsData.o: mcrouter/RuntimeVarsData.cpp.o
 
 # target to build an object file
 mcrouter/RuntimeVarsData.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/RuntimeVarsData.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/RuntimeVarsData.cpp.o
 .PHONY : mcrouter/RuntimeVarsData.cpp.o
 
 mcrouter/RuntimeVarsData.i: mcrouter/RuntimeVarsData.cpp.i
@@ -673,7 +673,7 @@ mcrouter/RuntimeVarsData.i: mcrouter/RuntimeVarsData.cpp.i
 
 # target to preprocess a source file
 mcrouter/RuntimeVarsData.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/RuntimeVarsData.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/RuntimeVarsData.cpp.i
 .PHONY : mcrouter/RuntimeVarsData.cpp.i
 
 mcrouter/RuntimeVarsData.s: mcrouter/RuntimeVarsData.cpp.s
@@ -681,7 +681,7 @@ mcrouter/RuntimeVarsData.s: mcrouter/RuntimeVarsData.cpp.s
 
 # target to generate assembly for a file
 mcrouter/RuntimeVarsData.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/RuntimeVarsData.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/RuntimeVarsData.cpp.s
 .PHONY : mcrouter/RuntimeVarsData.cpp.s
 
 mcrouter/ServiceInfo.o: mcrouter/ServiceInfo.cpp.o
@@ -689,7 +689,7 @@ mcrouter/ServiceInfo.o: mcrouter/ServiceInfo.cpp.o
 
 # target to build an object file
 mcrouter/ServiceInfo.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ServiceInfo.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ServiceInfo.cpp.o
 .PHONY : mcrouter/ServiceInfo.cpp.o
 
 mcrouter/ServiceInfo.i: mcrouter/ServiceInfo.cpp.i
@@ -697,7 +697,7 @@ mcrouter/ServiceInfo.i: mcrouter/ServiceInfo.cpp.i
 
 # target to preprocess a source file
 mcrouter/ServiceInfo.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ServiceInfo.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ServiceInfo.cpp.i
 .PHONY : mcrouter/ServiceInfo.cpp.i
 
 mcrouter/ServiceInfo.s: mcrouter/ServiceInfo.cpp.s
@@ -705,7 +705,7 @@ mcrouter/ServiceInfo.s: mcrouter/ServiceInfo.cpp.s
 
 # target to generate assembly for a file
 mcrouter/ServiceInfo.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ServiceInfo.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ServiceInfo.cpp.s
 .PHONY : mcrouter/ServiceInfo.cpp.s
 
 mcrouter/ThreadUtil.o: mcrouter/ThreadUtil.cpp.o
@@ -713,7 +713,7 @@ mcrouter/ThreadUtil.o: mcrouter/ThreadUtil.cpp.o
 
 # target to build an object file
 mcrouter/ThreadUtil.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ThreadUtil.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ThreadUtil.cpp.o
 .PHONY : mcrouter/ThreadUtil.cpp.o
 
 mcrouter/ThreadUtil.i: mcrouter/ThreadUtil.cpp.i
@@ -721,7 +721,7 @@ mcrouter/ThreadUtil.i: mcrouter/ThreadUtil.cpp.i
 
 # target to preprocess a source file
 mcrouter/ThreadUtil.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ThreadUtil.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ThreadUtil.cpp.i
 .PHONY : mcrouter/ThreadUtil.cpp.i
 
 mcrouter/ThreadUtil.s: mcrouter/ThreadUtil.cpp.s
@@ -729,7 +729,7 @@ mcrouter/ThreadUtil.s: mcrouter/ThreadUtil.cpp.s
 
 # target to generate assembly for a file
 mcrouter/ThreadUtil.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ThreadUtil.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ThreadUtil.cpp.s
 .PHONY : mcrouter/ThreadUtil.cpp.s
 
 mcrouter/TkoLog.o: mcrouter/TkoLog.cpp.o
@@ -737,7 +737,7 @@ mcrouter/TkoLog.o: mcrouter/TkoLog.cpp.o
 
 # target to build an object file
 mcrouter/TkoLog.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/TkoLog.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/TkoLog.cpp.o
 .PHONY : mcrouter/TkoLog.cpp.o
 
 mcrouter/TkoLog.i: mcrouter/TkoLog.cpp.i
@@ -745,7 +745,7 @@ mcrouter/TkoLog.i: mcrouter/TkoLog.cpp.i
 
 # target to preprocess a source file
 mcrouter/TkoLog.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/TkoLog.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/TkoLog.cpp.i
 .PHONY : mcrouter/TkoLog.cpp.i
 
 mcrouter/TkoLog.s: mcrouter/TkoLog.cpp.s
@@ -753,7 +753,7 @@ mcrouter/TkoLog.s: mcrouter/TkoLog.cpp.s
 
 # target to generate assembly for a file
 mcrouter/TkoLog.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/TkoLog.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/TkoLog.cpp.s
 .PHONY : mcrouter/TkoLog.cpp.s
 
 mcrouter/TkoTracker.o: mcrouter/TkoTracker.cpp.o
@@ -761,7 +761,7 @@ mcrouter/TkoTracker.o: mcrouter/TkoTracker.cpp.o
 
 # target to build an object file
 mcrouter/TkoTracker.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/TkoTracker.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/TkoTracker.cpp.o
 .PHONY : mcrouter/TkoTracker.cpp.o
 
 mcrouter/TkoTracker.i: mcrouter/TkoTracker.cpp.i
@@ -769,7 +769,7 @@ mcrouter/TkoTracker.i: mcrouter/TkoTracker.cpp.i
 
 # target to preprocess a source file
 mcrouter/TkoTracker.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/TkoTracker.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/TkoTracker.cpp.i
 .PHONY : mcrouter/TkoTracker.cpp.i
 
 mcrouter/TkoTracker.s: mcrouter/TkoTracker.cpp.s
@@ -777,7 +777,7 @@ mcrouter/TkoTracker.s: mcrouter/TkoTracker.cpp.s
 
 # target to generate assembly for a file
 mcrouter/TkoTracker.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/TkoTracker.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/TkoTracker.cpp.s
 .PHONY : mcrouter/TkoTracker.cpp.s
 
 mcrouter/async.o: mcrouter/async.cpp.o
@@ -785,7 +785,7 @@ mcrouter/async.o: mcrouter/async.cpp.o
 
 # target to build an object file
 mcrouter/async.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/async.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/async.cpp.o
 .PHONY : mcrouter/async.cpp.o
 
 mcrouter/async.i: mcrouter/async.cpp.i
@@ -793,7 +793,7 @@ mcrouter/async.i: mcrouter/async.cpp.i
 
 # target to preprocess a source file
 mcrouter/async.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/async.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/async.cpp.i
 .PHONY : mcrouter/async.cpp.i
 
 mcrouter/async.s: mcrouter/async.cpp.s
@@ -801,7 +801,7 @@ mcrouter/async.s: mcrouter/async.cpp.s
 
 # target to generate assembly for a file
 mcrouter/async.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/async.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/async.cpp.s
 .PHONY : mcrouter/async.cpp.s
 
 mcrouter/flavor.o: mcrouter/flavor.cpp.o
@@ -809,7 +809,7 @@ mcrouter/flavor.o: mcrouter/flavor.cpp.o
 
 # target to build an object file
 mcrouter/flavor.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/flavor.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/flavor.cpp.o
 .PHONY : mcrouter/flavor.cpp.o
 
 mcrouter/flavor.i: mcrouter/flavor.cpp.i
@@ -817,7 +817,7 @@ mcrouter/flavor.i: mcrouter/flavor.cpp.i
 
 # target to preprocess a source file
 mcrouter/flavor.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/flavor.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/flavor.cpp.i
 .PHONY : mcrouter/flavor.cpp.i
 
 mcrouter/flavor.s: mcrouter/flavor.cpp.s
@@ -825,7 +825,7 @@ mcrouter/flavor.s: mcrouter/flavor.cpp.s
 
 # target to generate assembly for a file
 mcrouter/flavor.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/flavor.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/flavor.cpp.s
 .PHONY : mcrouter/flavor.cpp.s
 
 mcrouter/lib/FailoverErrorsSettings.o: mcrouter/lib/FailoverErrorsSettings.cpp.o
@@ -833,7 +833,7 @@ mcrouter/lib/FailoverErrorsSettings.o: mcrouter/lib/FailoverErrorsSettings.cpp.o
 
 # target to build an object file
 mcrouter/lib/FailoverErrorsSettings.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/FailoverErrorsSettings.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/FailoverErrorsSettings.cpp.o
 .PHONY : mcrouter/lib/FailoverErrorsSettings.cpp.o
 
 mcrouter/lib/FailoverErrorsSettings.i: mcrouter/lib/FailoverErrorsSettings.cpp.i
@@ -841,7 +841,7 @@ mcrouter/lib/FailoverErrorsSettings.i: mcrouter/lib/FailoverErrorsSettings.cpp.i
 
 # target to preprocess a source file
 mcrouter/lib/FailoverErrorsSettings.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/FailoverErrorsSettings.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/FailoverErrorsSettings.cpp.i
 .PHONY : mcrouter/lib/FailoverErrorsSettings.cpp.i
 
 mcrouter/lib/FailoverErrorsSettings.s: mcrouter/lib/FailoverErrorsSettings.cpp.s
@@ -849,7 +849,7 @@ mcrouter/lib/FailoverErrorsSettings.s: mcrouter/lib/FailoverErrorsSettings.cpp.s
 
 # target to generate assembly for a file
 mcrouter/lib/FailoverErrorsSettings.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/FailoverErrorsSettings.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/FailoverErrorsSettings.cpp.s
 .PHONY : mcrouter/lib/FailoverErrorsSettings.cpp.s
 
 mcrouter/lib/IOBufUtil.o: mcrouter/lib/IOBufUtil.cpp.o
@@ -857,7 +857,7 @@ mcrouter/lib/IOBufUtil.o: mcrouter/lib/IOBufUtil.cpp.o
 
 # target to build an object file
 mcrouter/lib/IOBufUtil.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/IOBufUtil.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/IOBufUtil.cpp.o
 .PHONY : mcrouter/lib/IOBufUtil.cpp.o
 
 mcrouter/lib/IOBufUtil.i: mcrouter/lib/IOBufUtil.cpp.i
@@ -865,7 +865,7 @@ mcrouter/lib/IOBufUtil.i: mcrouter/lib/IOBufUtil.cpp.i
 
 # target to preprocess a source file
 mcrouter/lib/IOBufUtil.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/IOBufUtil.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/IOBufUtil.cpp.i
 .PHONY : mcrouter/lib/IOBufUtil.cpp.i
 
 mcrouter/lib/IOBufUtil.s: mcrouter/lib/IOBufUtil.cpp.s
@@ -873,7 +873,7 @@ mcrouter/lib/IOBufUtil.s: mcrouter/lib/IOBufUtil.cpp.s
 
 # target to generate assembly for a file
 mcrouter/lib/IOBufUtil.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/IOBufUtil.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/IOBufUtil.cpp.s
 .PHONY : mcrouter/lib/IOBufUtil.cpp.s
 
 mcrouter/lib/McReply.o: mcrouter/lib/McReply.cpp.o
@@ -881,7 +881,7 @@ mcrouter/lib/McReply.o: mcrouter/lib/McReply.cpp.o
 
 # target to build an object file
 mcrouter/lib/McReply.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/McReply.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/McReply.cpp.o
 .PHONY : mcrouter/lib/McReply.cpp.o
 
 mcrouter/lib/McReply.i: mcrouter/lib/McReply.cpp.i
@@ -889,7 +889,7 @@ mcrouter/lib/McReply.i: mcrouter/lib/McReply.cpp.i
 
 # target to preprocess a source file
 mcrouter/lib/McReply.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/McReply.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/McReply.cpp.i
 .PHONY : mcrouter/lib/McReply.cpp.i
 
 mcrouter/lib/McReply.s: mcrouter/lib/McReply.cpp.s
@@ -897,7 +897,7 @@ mcrouter/lib/McReply.s: mcrouter/lib/McReply.cpp.s
 
 # target to generate assembly for a file
 mcrouter/lib/McReply.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/McReply.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/McReply.cpp.s
 .PHONY : mcrouter/lib/McReply.cpp.s
 
 mcrouter/lib/McRequest.o: mcrouter/lib/McRequest.cpp.o
@@ -905,7 +905,7 @@ mcrouter/lib/McRequest.o: mcrouter/lib/McRequest.cpp.o
 
 # target to build an object file
 mcrouter/lib/McRequest.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/McRequest.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/McRequest.cpp.o
 .PHONY : mcrouter/lib/McRequest.cpp.o
 
 mcrouter/lib/McRequest.i: mcrouter/lib/McRequest.cpp.i
@@ -913,7 +913,7 @@ mcrouter/lib/McRequest.i: mcrouter/lib/McRequest.cpp.i
 
 # target to preprocess a source file
 mcrouter/lib/McRequest.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/McRequest.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/McRequest.cpp.i
 .PHONY : mcrouter/lib/McRequest.cpp.i
 
 mcrouter/lib/McRequest.s: mcrouter/lib/McRequest.cpp.s
@@ -921,7 +921,7 @@ mcrouter/lib/McRequest.s: mcrouter/lib/McRequest.cpp.s
 
 # target to generate assembly for a file
 mcrouter/lib/McRequest.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/McRequest.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/McRequest.cpp.s
 .PHONY : mcrouter/lib/McRequest.cpp.s
 
 mcrouter/lib/MessageQueue.o: mcrouter/lib/MessageQueue.cpp.o
@@ -929,7 +929,7 @@ mcrouter/lib/MessageQueue.o: mcrouter/lib/MessageQueue.cpp.o
 
 # target to build an object file
 mcrouter/lib/MessageQueue.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/MessageQueue.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/MessageQueue.cpp.o
 .PHONY : mcrouter/lib/MessageQueue.cpp.o
 
 mcrouter/lib/MessageQueue.i: mcrouter/lib/MessageQueue.cpp.i
@@ -937,7 +937,7 @@ mcrouter/lib/MessageQueue.i: mcrouter/lib/MessageQueue.cpp.i
 
 # target to preprocess a source file
 mcrouter/lib/MessageQueue.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/MessageQueue.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/MessageQueue.cpp.i
 .PHONY : mcrouter/lib/MessageQueue.cpp.i
 
 mcrouter/lib/MessageQueue.s: mcrouter/lib/MessageQueue.cpp.s
@@ -945,7 +945,7 @@ mcrouter/lib/MessageQueue.s: mcrouter/lib/MessageQueue.cpp.s
 
 # target to generate assembly for a file
 mcrouter/lib/MessageQueue.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/MessageQueue.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/MessageQueue.cpp.s
 .PHONY : mcrouter/lib/MessageQueue.cpp.s
 
 mcrouter/lib/StatsReply.o: mcrouter/lib/StatsReply.cpp.o
@@ -953,7 +953,7 @@ mcrouter/lib/StatsReply.o: mcrouter/lib/StatsReply.cpp.o
 
 # target to build an object file
 mcrouter/lib/StatsReply.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/StatsReply.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/StatsReply.cpp.o
 .PHONY : mcrouter/lib/StatsReply.cpp.o
 
 mcrouter/lib/StatsReply.i: mcrouter/lib/StatsReply.cpp.i
@@ -961,7 +961,7 @@ mcrouter/lib/StatsReply.i: mcrouter/lib/StatsReply.cpp.i
 
 # target to preprocess a source file
 mcrouter/lib/StatsReply.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/StatsReply.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/StatsReply.cpp.i
 .PHONY : mcrouter/lib/StatsReply.cpp.i
 
 mcrouter/lib/StatsReply.s: mcrouter/lib/StatsReply.cpp.s
@@ -969,7 +969,7 @@ mcrouter/lib/StatsReply.s: mcrouter/lib/StatsReply.cpp.s
 
 # target to generate assembly for a file
 mcrouter/lib/StatsReply.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/StatsReply.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/StatsReply.cpp.s
 .PHONY : mcrouter/lib/StatsReply.cpp.s
 
 mcrouter/lib/WeightedCh3HashFunc.o: mcrouter/lib/WeightedCh3HashFunc.cpp.o
@@ -977,7 +977,7 @@ mcrouter/lib/WeightedCh3HashFunc.o: mcrouter/lib/WeightedCh3HashFunc.cpp.o
 
 # target to build an object file
 mcrouter/lib/WeightedCh3HashFunc.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/WeightedCh3HashFunc.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/WeightedCh3HashFunc.cpp.o
 .PHONY : mcrouter/lib/WeightedCh3HashFunc.cpp.o
 
 mcrouter/lib/WeightedCh3HashFunc.i: mcrouter/lib/WeightedCh3HashFunc.cpp.i
@@ -985,7 +985,7 @@ mcrouter/lib/WeightedCh3HashFunc.i: mcrouter/lib/WeightedCh3HashFunc.cpp.i
 
 # target to preprocess a source file
 mcrouter/lib/WeightedCh3HashFunc.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/WeightedCh3HashFunc.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/WeightedCh3HashFunc.cpp.i
 .PHONY : mcrouter/lib/WeightedCh3HashFunc.cpp.i
 
 mcrouter/lib/WeightedCh3HashFunc.s: mcrouter/lib/WeightedCh3HashFunc.cpp.s
@@ -993,7 +993,7 @@ mcrouter/lib/WeightedCh3HashFunc.s: mcrouter/lib/WeightedCh3HashFunc.cpp.s
 
 # target to generate assembly for a file
 mcrouter/lib/WeightedCh3HashFunc.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/WeightedCh3HashFunc.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/WeightedCh3HashFunc.cpp.s
 .PHONY : mcrouter/lib/WeightedCh3HashFunc.cpp.s
 
 mcrouter/lib/config/ConfigPreprocessor.o: mcrouter/lib/config/ConfigPreprocessor.cpp.o
@@ -1001,7 +1001,7 @@ mcrouter/lib/config/ConfigPreprocessor.o: mcrouter/lib/config/ConfigPreprocessor
 
 # target to build an object file
 mcrouter/lib/config/ConfigPreprocessor.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/config/ConfigPreprocessor.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/config/ConfigPreprocessor.cpp.o
 .PHONY : mcrouter/lib/config/ConfigPreprocessor.cpp.o
 
 mcrouter/lib/config/ConfigPreprocessor.i: mcrouter/lib/config/ConfigPreprocessor.cpp.i
@@ -1009,7 +1009,7 @@ mcrouter/lib/config/ConfigPreprocessor.i: mcrouter/lib/config/ConfigPreprocessor
 
 # target to preprocess a source file
 mcrouter/lib/config/ConfigPreprocessor.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/config/ConfigPreprocessor.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/config/ConfigPreprocessor.cpp.i
 .PHONY : mcrouter/lib/config/ConfigPreprocessor.cpp.i
 
 mcrouter/lib/config/ConfigPreprocessor.s: mcrouter/lib/config/ConfigPreprocessor.cpp.s
@@ -1017,7 +1017,7 @@ mcrouter/lib/config/ConfigPreprocessor.s: mcrouter/lib/config/ConfigPreprocessor
 
 # target to generate assembly for a file
 mcrouter/lib/config/ConfigPreprocessor.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/config/ConfigPreprocessor.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/config/ConfigPreprocessor.cpp.s
 .PHONY : mcrouter/lib/config/ConfigPreprocessor.cpp.s
 
 mcrouter/lib/cycles/Accumulator.o: mcrouter/lib/cycles/Accumulator.cpp.o
@@ -1025,7 +1025,7 @@ mcrouter/lib/cycles/Accumulator.o: mcrouter/lib/cycles/Accumulator.cpp.o
 
 # target to build an object file
 mcrouter/lib/cycles/Accumulator.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Accumulator.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Accumulator.cpp.o
 .PHONY : mcrouter/lib/cycles/Accumulator.cpp.o
 
 mcrouter/lib/cycles/Accumulator.i: mcrouter/lib/cycles/Accumulator.cpp.i
@@ -1033,7 +1033,7 @@ mcrouter/lib/cycles/Accumulator.i: mcrouter/lib/cycles/Accumulator.cpp.i
 
 # target to preprocess a source file
 mcrouter/lib/cycles/Accumulator.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Accumulator.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Accumulator.cpp.i
 .PHONY : mcrouter/lib/cycles/Accumulator.cpp.i
 
 mcrouter/lib/cycles/Accumulator.s: mcrouter/lib/cycles/Accumulator.cpp.s
@@ -1041,7 +1041,7 @@ mcrouter/lib/cycles/Accumulator.s: mcrouter/lib/cycles/Accumulator.cpp.s
 
 # target to generate assembly for a file
 mcrouter/lib/cycles/Accumulator.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Accumulator.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Accumulator.cpp.s
 .PHONY : mcrouter/lib/cycles/Accumulator.cpp.s
 
 mcrouter/lib/cycles/Clocks.o: mcrouter/lib/cycles/Clocks.cpp.o
@@ -1049,7 +1049,7 @@ mcrouter/lib/cycles/Clocks.o: mcrouter/lib/cycles/Clocks.cpp.o
 
 # target to build an object file
 mcrouter/lib/cycles/Clocks.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Clocks.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Clocks.cpp.o
 .PHONY : mcrouter/lib/cycles/Clocks.cpp.o
 
 mcrouter/lib/cycles/Clocks.i: mcrouter/lib/cycles/Clocks.cpp.i
@@ -1057,7 +1057,7 @@ mcrouter/lib/cycles/Clocks.i: mcrouter/lib/cycles/Clocks.cpp.i
 
 # target to preprocess a source file
 mcrouter/lib/cycles/Clocks.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Clocks.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Clocks.cpp.i
 .PHONY : mcrouter/lib/cycles/Clocks.cpp.i
 
 mcrouter/lib/cycles/Clocks.s: mcrouter/lib/cycles/Clocks.cpp.s
@@ -1065,7 +1065,7 @@ mcrouter/lib/cycles/Clocks.s: mcrouter/lib/cycles/Clocks.cpp.s
 
 # target to generate assembly for a file
 mcrouter/lib/cycles/Clocks.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Clocks.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Clocks.cpp.s
 .PHONY : mcrouter/lib/cycles/Clocks.cpp.s
 
 mcrouter/lib/cycles/Cycles.o: mcrouter/lib/cycles/Cycles.cpp.o
@@ -1073,7 +1073,7 @@ mcrouter/lib/cycles/Cycles.o: mcrouter/lib/cycles/Cycles.cpp.o
 
 # target to build an object file
 mcrouter/lib/cycles/Cycles.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Cycles.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Cycles.cpp.o
 .PHONY : mcrouter/lib/cycles/Cycles.cpp.o
 
 mcrouter/lib/cycles/Cycles.i: mcrouter/lib/cycles/Cycles.cpp.i
@@ -1081,7 +1081,7 @@ mcrouter/lib/cycles/Cycles.i: mcrouter/lib/cycles/Cycles.cpp.i
 
 # target to preprocess a source file
 mcrouter/lib/cycles/Cycles.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Cycles.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Cycles.cpp.i
 .PHONY : mcrouter/lib/cycles/Cycles.cpp.i
 
 mcrouter/lib/cycles/Cycles.s: mcrouter/lib/cycles/Cycles.cpp.s
@@ -1089,7 +1089,7 @@ mcrouter/lib/cycles/Cycles.s: mcrouter/lib/cycles/Cycles.cpp.s
 
 # target to generate assembly for a file
 mcrouter/lib/cycles/Cycles.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Cycles.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Cycles.cpp.s
 .PHONY : mcrouter/lib/cycles/Cycles.cpp.s
 
 mcrouter/lib/cycles/ExtractorThread.o: mcrouter/lib/cycles/ExtractorThread.cpp.o
@@ -1097,7 +1097,7 @@ mcrouter/lib/cycles/ExtractorThread.o: mcrouter/lib/cycles/ExtractorThread.cpp.o
 
 # target to build an object file
 mcrouter/lib/cycles/ExtractorThread.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/ExtractorThread.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/ExtractorThread.cpp.o
 .PHONY : mcrouter/lib/cycles/ExtractorThread.cpp.o
 
 mcrouter/lib/cycles/ExtractorThread.i: mcrouter/lib/cycles/ExtractorThread.cpp.i
@@ -1105,7 +1105,7 @@ mcrouter/lib/cycles/ExtractorThread.i: mcrouter/lib/cycles/ExtractorThread.cpp.i
 
 # target to preprocess a source file
 mcrouter/lib/cycles/ExtractorThread.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/ExtractorThread.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/ExtractorThread.cpp.i
 .PHONY : mcrouter/lib/cycles/ExtractorThread.cpp.i
 
 mcrouter/lib/cycles/ExtractorThread.s: mcrouter/lib/cycles/ExtractorThread.cpp.s
@@ -1113,7 +1113,7 @@ mcrouter/lib/cycles/ExtractorThread.s: mcrouter/lib/cycles/ExtractorThread.cpp.s
 
 # target to generate assembly for a file
 mcrouter/lib/cycles/ExtractorThread.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/ExtractorThread.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/ExtractorThread.cpp.s
 .PHONY : mcrouter/lib/cycles/ExtractorThread.cpp.s
 
 mcrouter/lib/debug/Fifo.o: mcrouter/lib/debug/Fifo.cpp.o
@@ -1121,7 +1121,7 @@ mcrouter/lib/debug/Fifo.o: mcrouter/lib/debug/Fifo.cpp.o
 
 # target to build an object file
 mcrouter/lib/debug/Fifo.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/Fifo.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/Fifo.cpp.o
 .PHONY : mcrouter/lib/debug/Fifo.cpp.o
 
 mcrouter/lib/debug/Fifo.i: mcrouter/lib/debug/Fifo.cpp.i
@@ -1129,7 +1129,7 @@ mcrouter/lib/debug/Fifo.i: mcrouter/lib/debug/Fifo.cpp.i
 
 # target to preprocess a source file
 mcrouter/lib/debug/Fifo.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/Fifo.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/Fifo.cpp.i
 .PHONY : mcrouter/lib/debug/Fifo.cpp.i
 
 mcrouter/lib/debug/Fifo.s: mcrouter/lib/debug/Fifo.cpp.s
@@ -1137,7 +1137,7 @@ mcrouter/lib/debug/Fifo.s: mcrouter/lib/debug/Fifo.cpp.s
 
 # target to generate assembly for a file
 mcrouter/lib/debug/Fifo.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/Fifo.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/Fifo.cpp.s
 .PHONY : mcrouter/lib/debug/Fifo.cpp.s
 
 mcrouter/lib/debug/FifoManager.o: mcrouter/lib/debug/FifoManager.cpp.o
@@ -1145,7 +1145,7 @@ mcrouter/lib/debug/FifoManager.o: mcrouter/lib/debug/FifoManager.cpp.o
 
 # target to build an object file
 mcrouter/lib/debug/FifoManager.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/FifoManager.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/FifoManager.cpp.o
 .PHONY : mcrouter/lib/debug/FifoManager.cpp.o
 
 mcrouter/lib/debug/FifoManager.i: mcrouter/lib/debug/FifoManager.cpp.i
@@ -1153,7 +1153,7 @@ mcrouter/lib/debug/FifoManager.i: mcrouter/lib/debug/FifoManager.cpp.i
 
 # target to preprocess a source file
 mcrouter/lib/debug/FifoManager.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/FifoManager.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/FifoManager.cpp.i
 .PHONY : mcrouter/lib/debug/FifoManager.cpp.i
 
 mcrouter/lib/debug/FifoManager.s: mcrouter/lib/debug/FifoManager.cpp.s
@@ -1161,7 +1161,7 @@ mcrouter/lib/debug/FifoManager.s: mcrouter/lib/debug/FifoManager.cpp.s
 
 # target to generate assembly for a file
 mcrouter/lib/debug/FifoManager.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/FifoManager.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/FifoManager.cpp.s
 .PHONY : mcrouter/lib/debug/FifoManager.cpp.s
 
 mcrouter/lib/fbi/asox_queue.o: mcrouter/lib/fbi/asox_queue.c.o
@@ -1169,7 +1169,7 @@ mcrouter/lib/fbi/asox_queue.o: mcrouter/lib/fbi/asox_queue.c.o
 
 # target to build an object file
 mcrouter/lib/fbi/asox_queue.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_queue.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_queue.c.o
 .PHONY : mcrouter/lib/fbi/asox_queue.c.o
 
 mcrouter/lib/fbi/asox_queue.i: mcrouter/lib/fbi/asox_queue.c.i
@@ -1177,7 +1177,7 @@ mcrouter/lib/fbi/asox_queue.i: mcrouter/lib/fbi/asox_queue.c.i
 
 # target to preprocess a source file
 mcrouter/lib/fbi/asox_queue.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_queue.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_queue.c.i
 .PHONY : mcrouter/lib/fbi/asox_queue.c.i
 
 mcrouter/lib/fbi/asox_queue.s: mcrouter/lib/fbi/asox_queue.c.s
@@ -1185,7 +1185,7 @@ mcrouter/lib/fbi/asox_queue.s: mcrouter/lib/fbi/asox_queue.c.s
 
 # target to generate assembly for a file
 mcrouter/lib/fbi/asox_queue.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_queue.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_queue.c.s
 .PHONY : mcrouter/lib/fbi/asox_queue.c.s
 
 mcrouter/lib/fbi/asox_semaphore.o: mcrouter/lib/fbi/asox_semaphore.c.o
@@ -1193,7 +1193,7 @@ mcrouter/lib/fbi/asox_semaphore.o: mcrouter/lib/fbi/asox_semaphore.c.o
 
 # target to build an object file
 mcrouter/lib/fbi/asox_semaphore.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_semaphore.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_semaphore.c.o
 .PHONY : mcrouter/lib/fbi/asox_semaphore.c.o
 
 mcrouter/lib/fbi/asox_semaphore.i: mcrouter/lib/fbi/asox_semaphore.c.i
@@ -1201,7 +1201,7 @@ mcrouter/lib/fbi/asox_semaphore.i: mcrouter/lib/fbi/asox_semaphore.c.i
 
 # target to preprocess a source file
 mcrouter/lib/fbi/asox_semaphore.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_semaphore.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_semaphore.c.i
 .PHONY : mcrouter/lib/fbi/asox_semaphore.c.i
 
 mcrouter/lib/fbi/asox_semaphore.s: mcrouter/lib/fbi/asox_semaphore.c.s
@@ -1209,7 +1209,7 @@ mcrouter/lib/fbi/asox_semaphore.s: mcrouter/lib/fbi/asox_semaphore.c.s
 
 # target to generate assembly for a file
 mcrouter/lib/fbi/asox_semaphore.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_semaphore.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_semaphore.c.s
 .PHONY : mcrouter/lib/fbi/asox_semaphore.c.s
 
 mcrouter/lib/fbi/asox_timer.o: mcrouter/lib/fbi/asox_timer.c.o
@@ -1217,7 +1217,7 @@ mcrouter/lib/fbi/asox_timer.o: mcrouter/lib/fbi/asox_timer.c.o
 
 # target to build an object file
 mcrouter/lib/fbi/asox_timer.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_timer.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_timer.c.o
 .PHONY : mcrouter/lib/fbi/asox_timer.c.o
 
 mcrouter/lib/fbi/asox_timer.i: mcrouter/lib/fbi/asox_timer.c.i
@@ -1225,7 +1225,7 @@ mcrouter/lib/fbi/asox_timer.i: mcrouter/lib/fbi/asox_timer.c.i
 
 # target to preprocess a source file
 mcrouter/lib/fbi/asox_timer.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_timer.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_timer.c.i
 .PHONY : mcrouter/lib/fbi/asox_timer.c.i
 
 mcrouter/lib/fbi/asox_timer.s: mcrouter/lib/fbi/asox_timer.c.s
@@ -1233,7 +1233,7 @@ mcrouter/lib/fbi/asox_timer.s: mcrouter/lib/fbi/asox_timer.c.s
 
 # target to generate assembly for a file
 mcrouter/lib/fbi/asox_timer.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_timer.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_timer.c.s
 .PHONY : mcrouter/lib/fbi/asox_timer.c.s
 
 mcrouter/lib/fbi/counting_sem.o: mcrouter/lib/fbi/counting_sem.c.o
@@ -1241,7 +1241,7 @@ mcrouter/lib/fbi/counting_sem.o: mcrouter/lib/fbi/counting_sem.c.o
 
 # target to build an object file
 mcrouter/lib/fbi/counting_sem.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/counting_sem.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/counting_sem.c.o
 .PHONY : mcrouter/lib/fbi/counting_sem.c.o
 
 mcrouter/lib/fbi/counting_sem.i: mcrouter/lib/fbi/counting_sem.c.i
@@ -1249,7 +1249,7 @@ mcrouter/lib/fbi/counting_sem.i: mcrouter/lib/fbi/counting_sem.c.i
 
 # target to preprocess a source file
 mcrouter/lib/fbi/counting_sem.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/counting_sem.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/counting_sem.c.i
 .PHONY : mcrouter/lib/fbi/counting_sem.c.i
 
 mcrouter/lib/fbi/counting_sem.s: mcrouter/lib/fbi/counting_sem.c.s
@@ -1257,7 +1257,7 @@ mcrouter/lib/fbi/counting_sem.s: mcrouter/lib/fbi/counting_sem.c.s
 
 # target to generate assembly for a file
 mcrouter/lib/fbi/counting_sem.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/counting_sem.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/counting_sem.c.s
 .PHONY : mcrouter/lib/fbi/counting_sem.c.s
 
 mcrouter/lib/fbi/cpp/LogFailure.o: mcrouter/lib/fbi/cpp/LogFailure.cpp.o
@@ -1265,7 +1265,7 @@ mcrouter/lib/fbi/cpp/LogFailure.o: mcrouter/lib/fbi/cpp/LogFailure.cpp.o
 
 # target to build an object file
 mcrouter/lib/fbi/cpp/LogFailure.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/LogFailure.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/LogFailure.cpp.o
 .PHONY : mcrouter/lib/fbi/cpp/LogFailure.cpp.o
 
 mcrouter/lib/fbi/cpp/LogFailure.i: mcrouter/lib/fbi/cpp/LogFailure.cpp.i
@@ -1273,7 +1273,7 @@ mcrouter/lib/fbi/cpp/LogFailure.i: mcrouter/lib/fbi/cpp/LogFailure.cpp.i
 
 # target to preprocess a source file
 mcrouter/lib/fbi/cpp/LogFailure.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/LogFailure.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/LogFailure.cpp.i
 .PHONY : mcrouter/lib/fbi/cpp/LogFailure.cpp.i
 
 mcrouter/lib/fbi/cpp/LogFailure.s: mcrouter/lib/fbi/cpp/LogFailure.cpp.s
@@ -1281,7 +1281,7 @@ mcrouter/lib/fbi/cpp/LogFailure.s: mcrouter/lib/fbi/cpp/LogFailure.cpp.s
 
 # target to generate assembly for a file
 mcrouter/lib/fbi/cpp/LogFailure.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/LogFailure.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/LogFailure.cpp.s
 .PHONY : mcrouter/lib/fbi/cpp/LogFailure.cpp.s
 
 mcrouter/lib/fbi/cpp/ParsingUtil.o: mcrouter/lib/fbi/cpp/ParsingUtil.cpp.o
@@ -1289,7 +1289,7 @@ mcrouter/lib/fbi/cpp/ParsingUtil.o: mcrouter/lib/fbi/cpp/ParsingUtil.cpp.o
 
 # target to build an object file
 mcrouter/lib/fbi/cpp/ParsingUtil.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/ParsingUtil.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/ParsingUtil.cpp.o
 .PHONY : mcrouter/lib/fbi/cpp/ParsingUtil.cpp.o
 
 mcrouter/lib/fbi/cpp/ParsingUtil.i: mcrouter/lib/fbi/cpp/ParsingUtil.cpp.i
@@ -1297,7 +1297,7 @@ mcrouter/lib/fbi/cpp/ParsingUtil.i: mcrouter/lib/fbi/cpp/ParsingUtil.cpp.i
 
 # target to preprocess a source file
 mcrouter/lib/fbi/cpp/ParsingUtil.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/ParsingUtil.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/ParsingUtil.cpp.i
 .PHONY : mcrouter/lib/fbi/cpp/ParsingUtil.cpp.i
 
 mcrouter/lib/fbi/cpp/ParsingUtil.s: mcrouter/lib/fbi/cpp/ParsingUtil.cpp.s
@@ -1305,7 +1305,7 @@ mcrouter/lib/fbi/cpp/ParsingUtil.s: mcrouter/lib/fbi/cpp/ParsingUtil.cpp.s
 
 # target to generate assembly for a file
 mcrouter/lib/fbi/cpp/ParsingUtil.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/ParsingUtil.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/ParsingUtil.cpp.s
 .PHONY : mcrouter/lib/fbi/cpp/ParsingUtil.cpp.s
 
 mcrouter/lib/fbi/cpp/globals.o: mcrouter/lib/fbi/cpp/globals.cpp.o
@@ -1313,7 +1313,7 @@ mcrouter/lib/fbi/cpp/globals.o: mcrouter/lib/fbi/cpp/globals.cpp.o
 
 # target to build an object file
 mcrouter/lib/fbi/cpp/globals.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/globals.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/globals.cpp.o
 .PHONY : mcrouter/lib/fbi/cpp/globals.cpp.o
 
 mcrouter/lib/fbi/cpp/globals.i: mcrouter/lib/fbi/cpp/globals.cpp.i
@@ -1321,7 +1321,7 @@ mcrouter/lib/fbi/cpp/globals.i: mcrouter/lib/fbi/cpp/globals.cpp.i
 
 # target to preprocess a source file
 mcrouter/lib/fbi/cpp/globals.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/globals.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/globals.cpp.i
 .PHONY : mcrouter/lib/fbi/cpp/globals.cpp.i
 
 mcrouter/lib/fbi/cpp/globals.s: mcrouter/lib/fbi/cpp/globals.cpp.s
@@ -1329,7 +1329,7 @@ mcrouter/lib/fbi/cpp/globals.s: mcrouter/lib/fbi/cpp/globals.cpp.s
 
 # target to generate assembly for a file
 mcrouter/lib/fbi/cpp/globals.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/globals.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/globals.cpp.s
 .PHONY : mcrouter/lib/fbi/cpp/globals.cpp.s
 
 mcrouter/lib/fbi/cpp/util.o: mcrouter/lib/fbi/cpp/util.cpp.o
@@ -1337,7 +1337,7 @@ mcrouter/lib/fbi/cpp/util.o: mcrouter/lib/fbi/cpp/util.cpp.o
 
 # target to build an object file
 mcrouter/lib/fbi/cpp/util.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/util.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/util.cpp.o
 .PHONY : mcrouter/lib/fbi/cpp/util.cpp.o
 
 mcrouter/lib/fbi/cpp/util.i: mcrouter/lib/fbi/cpp/util.cpp.i
@@ -1345,7 +1345,7 @@ mcrouter/lib/fbi/cpp/util.i: mcrouter/lib/fbi/cpp/util.cpp.i
 
 # target to preprocess a source file
 mcrouter/lib/fbi/cpp/util.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/util.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/util.cpp.i
 .PHONY : mcrouter/lib/fbi/cpp/util.cpp.i
 
 mcrouter/lib/fbi/cpp/util.s: mcrouter/lib/fbi/cpp/util.cpp.s
@@ -1353,7 +1353,7 @@ mcrouter/lib/fbi/cpp/util.s: mcrouter/lib/fbi/cpp/util.cpp.s
 
 # target to generate assembly for a file
 mcrouter/lib/fbi/cpp/util.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/util.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/util.cpp.s
 .PHONY : mcrouter/lib/fbi/cpp/util.cpp.s
 
 mcrouter/lib/fbi/cwlock.o: mcrouter/lib/fbi/cwlock.c.o
@@ -1361,7 +1361,7 @@ mcrouter/lib/fbi/cwlock.o: mcrouter/lib/fbi/cwlock.c.o
 
 # target to build an object file
 mcrouter/lib/fbi/cwlock.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cwlock.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cwlock.c.o
 .PHONY : mcrouter/lib/fbi/cwlock.c.o
 
 mcrouter/lib/fbi/cwlock.i: mcrouter/lib/fbi/cwlock.c.i
@@ -1369,7 +1369,7 @@ mcrouter/lib/fbi/cwlock.i: mcrouter/lib/fbi/cwlock.c.i
 
 # target to preprocess a source file
 mcrouter/lib/fbi/cwlock.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cwlock.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cwlock.c.i
 .PHONY : mcrouter/lib/fbi/cwlock.c.i
 
 mcrouter/lib/fbi/cwlock.s: mcrouter/lib/fbi/cwlock.c.s
@@ -1377,7 +1377,7 @@ mcrouter/lib/fbi/cwlock.s: mcrouter/lib/fbi/cwlock.c.s
 
 # target to generate assembly for a file
 mcrouter/lib/fbi/cwlock.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cwlock.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cwlock.c.s
 .PHONY : mcrouter/lib/fbi/cwlock.c.s
 
 mcrouter/lib/fbi/debug.o: mcrouter/lib/fbi/debug.c.o
@@ -1385,7 +1385,7 @@ mcrouter/lib/fbi/debug.o: mcrouter/lib/fbi/debug.c.o
 
 # target to build an object file
 mcrouter/lib/fbi/debug.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/debug.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/debug.c.o
 .PHONY : mcrouter/lib/fbi/debug.c.o
 
 mcrouter/lib/fbi/debug.i: mcrouter/lib/fbi/debug.c.i
@@ -1393,7 +1393,7 @@ mcrouter/lib/fbi/debug.i: mcrouter/lib/fbi/debug.c.i
 
 # target to preprocess a source file
 mcrouter/lib/fbi/debug.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/debug.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/debug.c.i
 .PHONY : mcrouter/lib/fbi/debug.c.i
 
 mcrouter/lib/fbi/debug.s: mcrouter/lib/fbi/debug.c.s
@@ -1401,7 +1401,7 @@ mcrouter/lib/fbi/debug.s: mcrouter/lib/fbi/debug.c.s
 
 # target to generate assembly for a file
 mcrouter/lib/fbi/debug.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/debug.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/debug.c.s
 .PHONY : mcrouter/lib/fbi/debug.c.s
 
 mcrouter/lib/fbi/error.o: mcrouter/lib/fbi/error.c.o
@@ -1409,7 +1409,7 @@ mcrouter/lib/fbi/error.o: mcrouter/lib/fbi/error.c.o
 
 # target to build an object file
 mcrouter/lib/fbi/error.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/error.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/error.c.o
 .PHONY : mcrouter/lib/fbi/error.c.o
 
 mcrouter/lib/fbi/error.i: mcrouter/lib/fbi/error.c.i
@@ -1417,7 +1417,7 @@ mcrouter/lib/fbi/error.i: mcrouter/lib/fbi/error.c.i
 
 # target to preprocess a source file
 mcrouter/lib/fbi/error.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/error.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/error.c.i
 .PHONY : mcrouter/lib/fbi/error.c.i
 
 mcrouter/lib/fbi/error.s: mcrouter/lib/fbi/error.c.s
@@ -1425,7 +1425,7 @@ mcrouter/lib/fbi/error.s: mcrouter/lib/fbi/error.c.s
 
 # target to generate assembly for a file
 mcrouter/lib/fbi/error.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/error.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/error.c.s
 .PHONY : mcrouter/lib/fbi/error.c.s
 
 mcrouter/lib/fbi/fb_cpu_util.o: mcrouter/lib/fbi/fb_cpu_util.c.o
@@ -1433,7 +1433,7 @@ mcrouter/lib/fbi/fb_cpu_util.o: mcrouter/lib/fbi/fb_cpu_util.c.o
 
 # target to build an object file
 mcrouter/lib/fbi/fb_cpu_util.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/fb_cpu_util.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/fb_cpu_util.c.o
 .PHONY : mcrouter/lib/fbi/fb_cpu_util.c.o
 
 mcrouter/lib/fbi/fb_cpu_util.i: mcrouter/lib/fbi/fb_cpu_util.c.i
@@ -1441,7 +1441,7 @@ mcrouter/lib/fbi/fb_cpu_util.i: mcrouter/lib/fbi/fb_cpu_util.c.i
 
 # target to preprocess a source file
 mcrouter/lib/fbi/fb_cpu_util.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/fb_cpu_util.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/fb_cpu_util.c.i
 .PHONY : mcrouter/lib/fbi/fb_cpu_util.c.i
 
 mcrouter/lib/fbi/fb_cpu_util.s: mcrouter/lib/fbi/fb_cpu_util.c.s
@@ -1449,7 +1449,7 @@ mcrouter/lib/fbi/fb_cpu_util.s: mcrouter/lib/fbi/fb_cpu_util.c.s
 
 # target to generate assembly for a file
 mcrouter/lib/fbi/fb_cpu_util.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/fb_cpu_util.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/fb_cpu_util.c.s
 .PHONY : mcrouter/lib/fbi/fb_cpu_util.c.s
 
 mcrouter/lib/fbi/hash.o: mcrouter/lib/fbi/hash.c.o
@@ -1457,7 +1457,7 @@ mcrouter/lib/fbi/hash.o: mcrouter/lib/fbi/hash.c.o
 
 # target to build an object file
 mcrouter/lib/fbi/hash.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/hash.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/hash.c.o
 .PHONY : mcrouter/lib/fbi/hash.c.o
 
 mcrouter/lib/fbi/hash.i: mcrouter/lib/fbi/hash.c.i
@@ -1465,7 +1465,7 @@ mcrouter/lib/fbi/hash.i: mcrouter/lib/fbi/hash.c.i
 
 # target to preprocess a source file
 mcrouter/lib/fbi/hash.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/hash.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/hash.c.i
 .PHONY : mcrouter/lib/fbi/hash.c.i
 
 mcrouter/lib/fbi/hash.s: mcrouter/lib/fbi/hash.c.s
@@ -1473,7 +1473,7 @@ mcrouter/lib/fbi/hash.s: mcrouter/lib/fbi/hash.c.s
 
 # target to generate assembly for a file
 mcrouter/lib/fbi/hash.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/hash.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/hash.c.s
 .PHONY : mcrouter/lib/fbi/hash.c.s
 
 mcrouter/lib/fbi/lfcalloc.o: mcrouter/lib/fbi/lfcalloc.c.o
@@ -1481,7 +1481,7 @@ mcrouter/lib/fbi/lfcalloc.o: mcrouter/lib/fbi/lfcalloc.c.o
 
 # target to build an object file
 mcrouter/lib/fbi/lfcalloc.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/lfcalloc.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/lfcalloc.c.o
 .PHONY : mcrouter/lib/fbi/lfcalloc.c.o
 
 mcrouter/lib/fbi/lfcalloc.i: mcrouter/lib/fbi/lfcalloc.c.i
@@ -1489,7 +1489,7 @@ mcrouter/lib/fbi/lfcalloc.i: mcrouter/lib/fbi/lfcalloc.c.i
 
 # target to preprocess a source file
 mcrouter/lib/fbi/lfcalloc.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/lfcalloc.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/lfcalloc.c.i
 .PHONY : mcrouter/lib/fbi/lfcalloc.c.i
 
 mcrouter/lib/fbi/lfcalloc.s: mcrouter/lib/fbi/lfcalloc.c.s
@@ -1497,7 +1497,7 @@ mcrouter/lib/fbi/lfcalloc.s: mcrouter/lib/fbi/lfcalloc.c.s
 
 # target to generate assembly for a file
 mcrouter/lib/fbi/lfcalloc.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/lfcalloc.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/lfcalloc.c.s
 .PHONY : mcrouter/lib/fbi/lfcalloc.c.s
 
 mcrouter/lib/fbi/network.o: mcrouter/lib/fbi/network.c.o
@@ -1505,7 +1505,7 @@ mcrouter/lib/fbi/network.o: mcrouter/lib/fbi/network.c.o
 
 # target to build an object file
 mcrouter/lib/fbi/network.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/network.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/network.c.o
 .PHONY : mcrouter/lib/fbi/network.c.o
 
 mcrouter/lib/fbi/network.i: mcrouter/lib/fbi/network.c.i
@@ -1513,7 +1513,7 @@ mcrouter/lib/fbi/network.i: mcrouter/lib/fbi/network.c.i
 
 # target to preprocess a source file
 mcrouter/lib/fbi/network.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/network.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/network.c.i
 .PHONY : mcrouter/lib/fbi/network.c.i
 
 mcrouter/lib/fbi/network.s: mcrouter/lib/fbi/network.c.s
@@ -1521,7 +1521,7 @@ mcrouter/lib/fbi/network.s: mcrouter/lib/fbi/network.c.s
 
 # target to generate assembly for a file
 mcrouter/lib/fbi/network.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/network.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/network.c.s
 .PHONY : mcrouter/lib/fbi/network.c.s
 
 mcrouter/lib/fbi/nstring.o: mcrouter/lib/fbi/nstring.c.o
@@ -1529,7 +1529,7 @@ mcrouter/lib/fbi/nstring.o: mcrouter/lib/fbi/nstring.c.o
 
 # target to build an object file
 mcrouter/lib/fbi/nstring.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/nstring.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/nstring.c.o
 .PHONY : mcrouter/lib/fbi/nstring.c.o
 
 mcrouter/lib/fbi/nstring.i: mcrouter/lib/fbi/nstring.c.i
@@ -1537,7 +1537,7 @@ mcrouter/lib/fbi/nstring.i: mcrouter/lib/fbi/nstring.c.i
 
 # target to preprocess a source file
 mcrouter/lib/fbi/nstring.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/nstring.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/nstring.c.i
 .PHONY : mcrouter/lib/fbi/nstring.c.i
 
 mcrouter/lib/fbi/nstring.s: mcrouter/lib/fbi/nstring.c.s
@@ -1545,7 +1545,7 @@ mcrouter/lib/fbi/nstring.s: mcrouter/lib/fbi/nstring.c.s
 
 # target to generate assembly for a file
 mcrouter/lib/fbi/nstring.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/nstring.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/nstring.c.s
 .PHONY : mcrouter/lib/fbi/nstring.c.s
 
 mcrouter/lib/fbi/sfrlock.o: mcrouter/lib/fbi/sfrlock.c.o
@@ -1553,7 +1553,7 @@ mcrouter/lib/fbi/sfrlock.o: mcrouter/lib/fbi/sfrlock.c.o
 
 # target to build an object file
 mcrouter/lib/fbi/sfrlock.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/sfrlock.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/sfrlock.c.o
 .PHONY : mcrouter/lib/fbi/sfrlock.c.o
 
 mcrouter/lib/fbi/sfrlock.i: mcrouter/lib/fbi/sfrlock.c.i
@@ -1561,7 +1561,7 @@ mcrouter/lib/fbi/sfrlock.i: mcrouter/lib/fbi/sfrlock.c.i
 
 # target to preprocess a source file
 mcrouter/lib/fbi/sfrlock.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/sfrlock.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/sfrlock.c.i
 .PHONY : mcrouter/lib/fbi/sfrlock.c.i
 
 mcrouter/lib/fbi/sfrlock.s: mcrouter/lib/fbi/sfrlock.c.s
@@ -1569,7 +1569,7 @@ mcrouter/lib/fbi/sfrlock.s: mcrouter/lib/fbi/sfrlock.c.s
 
 # target to generate assembly for a file
 mcrouter/lib/fbi/sfrlock.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/sfrlock.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/sfrlock.c.s
 .PHONY : mcrouter/lib/fbi/sfrlock.c.s
 
 mcrouter/lib/fbi/skiplist.o: mcrouter/lib/fbi/skiplist.c.o
@@ -1577,7 +1577,7 @@ mcrouter/lib/fbi/skiplist.o: mcrouter/lib/fbi/skiplist.c.o
 
 # target to build an object file
 mcrouter/lib/fbi/skiplist.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/skiplist.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/skiplist.c.o
 .PHONY : mcrouter/lib/fbi/skiplist.c.o
 
 mcrouter/lib/fbi/skiplist.i: mcrouter/lib/fbi/skiplist.c.i
@@ -1585,7 +1585,7 @@ mcrouter/lib/fbi/skiplist.i: mcrouter/lib/fbi/skiplist.c.i
 
 # target to preprocess a source file
 mcrouter/lib/fbi/skiplist.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/skiplist.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/skiplist.c.i
 .PHONY : mcrouter/lib/fbi/skiplist.c.i
 
 mcrouter/lib/fbi/skiplist.s: mcrouter/lib/fbi/skiplist.c.s
@@ -1593,7 +1593,7 @@ mcrouter/lib/fbi/skiplist.s: mcrouter/lib/fbi/skiplist.c.s
 
 # target to generate assembly for a file
 mcrouter/lib/fbi/skiplist.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/skiplist.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/skiplist.c.s
 .PHONY : mcrouter/lib/fbi/skiplist.c.s
 
 mcrouter/lib/fbi/timer.o: mcrouter/lib/fbi/timer.c.o
@@ -1601,7 +1601,7 @@ mcrouter/lib/fbi/timer.o: mcrouter/lib/fbi/timer.c.o
 
 # target to build an object file
 mcrouter/lib/fbi/timer.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/timer.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/timer.c.o
 .PHONY : mcrouter/lib/fbi/timer.c.o
 
 mcrouter/lib/fbi/timer.i: mcrouter/lib/fbi/timer.c.i
@@ -1609,7 +1609,7 @@ mcrouter/lib/fbi/timer.i: mcrouter/lib/fbi/timer.c.i
 
 # target to preprocess a source file
 mcrouter/lib/fbi/timer.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/timer.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/timer.c.i
 .PHONY : mcrouter/lib/fbi/timer.c.i
 
 mcrouter/lib/fbi/timer.s: mcrouter/lib/fbi/timer.c.s
@@ -1617,7 +1617,7 @@ mcrouter/lib/fbi/timer.s: mcrouter/lib/fbi/timer.c.s
 
 # target to generate assembly for a file
 mcrouter/lib/fbi/timer.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/timer.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/timer.c.s
 .PHONY : mcrouter/lib/fbi/timer.c.s
 
 mcrouter/lib/fbi/waitable_count.o: mcrouter/lib/fbi/waitable_count.c.o
@@ -1625,7 +1625,7 @@ mcrouter/lib/fbi/waitable_count.o: mcrouter/lib/fbi/waitable_count.c.o
 
 # target to build an object file
 mcrouter/lib/fbi/waitable_count.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/waitable_count.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/waitable_count.c.o
 .PHONY : mcrouter/lib/fbi/waitable_count.c.o
 
 mcrouter/lib/fbi/waitable_count.i: mcrouter/lib/fbi/waitable_count.c.i
@@ -1633,7 +1633,7 @@ mcrouter/lib/fbi/waitable_count.i: mcrouter/lib/fbi/waitable_count.c.i
 
 # target to preprocess a source file
 mcrouter/lib/fbi/waitable_count.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/waitable_count.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/waitable_count.c.i
 .PHONY : mcrouter/lib/fbi/waitable_count.c.i
 
 mcrouter/lib/fbi/waitable_count.s: mcrouter/lib/fbi/waitable_count.c.s
@@ -1641,7 +1641,7 @@ mcrouter/lib/fbi/waitable_count.s: mcrouter/lib/fbi/waitable_count.c.s
 
 # target to generate assembly for a file
 mcrouter/lib/fbi/waitable_count.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/waitable_count.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/waitable_count.c.s
 .PHONY : mcrouter/lib/fbi/waitable_count.c.s
 
 mcrouter/lib/mc/ascii_response.o: mcrouter/lib/mc/ascii_response.c.o
@@ -1649,7 +1649,7 @@ mcrouter/lib/mc/ascii_response.o: mcrouter/lib/mc/ascii_response.c.o
 
 # target to build an object file
 mcrouter/lib/mc/ascii_response.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/ascii_response.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/ascii_response.c.o
 .PHONY : mcrouter/lib/mc/ascii_response.c.o
 
 mcrouter/lib/mc/ascii_response.i: mcrouter/lib/mc/ascii_response.c.i
@@ -1657,7 +1657,7 @@ mcrouter/lib/mc/ascii_response.i: mcrouter/lib/mc/ascii_response.c.i
 
 # target to preprocess a source file
 mcrouter/lib/mc/ascii_response.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/ascii_response.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/ascii_response.c.i
 .PHONY : mcrouter/lib/mc/ascii_response.c.i
 
 mcrouter/lib/mc/ascii_response.s: mcrouter/lib/mc/ascii_response.c.s
@@ -1665,7 +1665,7 @@ mcrouter/lib/mc/ascii_response.s: mcrouter/lib/mc/ascii_response.c.s
 
 # target to generate assembly for a file
 mcrouter/lib/mc/ascii_response.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/ascii_response.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/ascii_response.c.s
 .PHONY : mcrouter/lib/mc/ascii_response.c.s
 
 mcrouter/lib/mc/msg.o: mcrouter/lib/mc/msg.c.o
@@ -1673,7 +1673,7 @@ mcrouter/lib/mc/msg.o: mcrouter/lib/mc/msg.c.o
 
 # target to build an object file
 mcrouter/lib/mc/msg.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/msg.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/msg.c.o
 .PHONY : mcrouter/lib/mc/msg.c.o
 
 mcrouter/lib/mc/msg.i: mcrouter/lib/mc/msg.c.i
@@ -1681,7 +1681,7 @@ mcrouter/lib/mc/msg.i: mcrouter/lib/mc/msg.c.i
 
 # target to preprocess a source file
 mcrouter/lib/mc/msg.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/msg.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/msg.c.i
 .PHONY : mcrouter/lib/mc/msg.c.i
 
 mcrouter/lib/mc/msg.s: mcrouter/lib/mc/msg.c.s
@@ -1689,7 +1689,7 @@ mcrouter/lib/mc/msg.s: mcrouter/lib/mc/msg.c.s
 
 # target to generate assembly for a file
 mcrouter/lib/mc/msg.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/msg.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/msg.c.s
 .PHONY : mcrouter/lib/mc/msg.c.s
 
 mcrouter/lib/mc/parser.o: mcrouter/lib/mc/parser.c.o
@@ -1697,7 +1697,7 @@ mcrouter/lib/mc/parser.o: mcrouter/lib/mc/parser.c.o
 
 # target to build an object file
 mcrouter/lib/mc/parser.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/parser.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/parser.c.o
 .PHONY : mcrouter/lib/mc/parser.c.o
 
 mcrouter/lib/mc/parser.i: mcrouter/lib/mc/parser.c.i
@@ -1705,7 +1705,7 @@ mcrouter/lib/mc/parser.i: mcrouter/lib/mc/parser.c.i
 
 # target to preprocess a source file
 mcrouter/lib/mc/parser.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/parser.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/parser.c.i
 .PHONY : mcrouter/lib/mc/parser.c.i
 
 mcrouter/lib/mc/parser.s: mcrouter/lib/mc/parser.c.s
@@ -1713,7 +1713,7 @@ mcrouter/lib/mc/parser.s: mcrouter/lib/mc/parser.c.s
 
 # target to generate assembly for a file
 mcrouter/lib/mc/parser.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/parser.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/parser.c.s
 .PHONY : mcrouter/lib/mc/parser.c.s
 
 mcrouter/lib/mc/protocol.o: mcrouter/lib/mc/protocol.c.o
@@ -1721,7 +1721,7 @@ mcrouter/lib/mc/protocol.o: mcrouter/lib/mc/protocol.c.o
 
 # target to build an object file
 mcrouter/lib/mc/protocol.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/protocol.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/protocol.c.o
 .PHONY : mcrouter/lib/mc/protocol.c.o
 
 mcrouter/lib/mc/protocol.i: mcrouter/lib/mc/protocol.c.i
@@ -1729,7 +1729,7 @@ mcrouter/lib/mc/protocol.i: mcrouter/lib/mc/protocol.c.i
 
 # target to preprocess a source file
 mcrouter/lib/mc/protocol.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/protocol.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/protocol.c.i
 .PHONY : mcrouter/lib/mc/protocol.c.i
 
 mcrouter/lib/mc/protocol.s: mcrouter/lib/mc/protocol.c.s
@@ -1737,7 +1737,7 @@ mcrouter/lib/mc/protocol.s: mcrouter/lib/mc/protocol.c.s
 
 # target to generate assembly for a file
 mcrouter/lib/mc/protocol.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/protocol.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/protocol.c.s
 .PHONY : mcrouter/lib/mc/protocol.c.s
 
 mcrouter/lib/mc/umbrella.o: mcrouter/lib/mc/umbrella.c.o
@@ -1745,7 +1745,7 @@ mcrouter/lib/mc/umbrella.o: mcrouter/lib/mc/umbrella.c.o
 
 # target to build an object file
 mcrouter/lib/mc/umbrella.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella.c.o
 .PHONY : mcrouter/lib/mc/umbrella.c.o
 
 mcrouter/lib/mc/umbrella.i: mcrouter/lib/mc/umbrella.c.i
@@ -1753,7 +1753,7 @@ mcrouter/lib/mc/umbrella.i: mcrouter/lib/mc/umbrella.c.i
 
 # target to preprocess a source file
 mcrouter/lib/mc/umbrella.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella.c.i
 .PHONY : mcrouter/lib/mc/umbrella.c.i
 
 mcrouter/lib/mc/umbrella.s: mcrouter/lib/mc/umbrella.c.s
@@ -1761,7 +1761,7 @@ mcrouter/lib/mc/umbrella.s: mcrouter/lib/mc/umbrella.c.s
 
 # target to generate assembly for a file
 mcrouter/lib/mc/umbrella.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella.c.s
 .PHONY : mcrouter/lib/mc/umbrella.c.s
 
 mcrouter/lib/mc/umbrella_protocol.o: mcrouter/lib/mc/umbrella_protocol.c.o
@@ -1769,7 +1769,7 @@ mcrouter/lib/mc/umbrella_protocol.o: mcrouter/lib/mc/umbrella_protocol.c.o
 
 # target to build an object file
 mcrouter/lib/mc/umbrella_protocol.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella_protocol.c.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella_protocol.c.o
 .PHONY : mcrouter/lib/mc/umbrella_protocol.c.o
 
 mcrouter/lib/mc/umbrella_protocol.i: mcrouter/lib/mc/umbrella_protocol.c.i
@@ -1777,7 +1777,7 @@ mcrouter/lib/mc/umbrella_protocol.i: mcrouter/lib/mc/umbrella_protocol.c.i
 
 # target to preprocess a source file
 mcrouter/lib/mc/umbrella_protocol.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella_protocol.c.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella_protocol.c.i
 .PHONY : mcrouter/lib/mc/umbrella_protocol.c.i
 
 mcrouter/lib/mc/umbrella_protocol.s: mcrouter/lib/mc/umbrella_protocol.c.s
@@ -1785,7 +1785,7 @@ mcrouter/lib/mc/umbrella_protocol.s: mcrouter/lib/mc/umbrella_protocol.c.s
 
 # target to generate assembly for a file
 mcrouter/lib/mc/umbrella_protocol.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella_protocol.c.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella_protocol.c.s
 .PHONY : mcrouter/lib/mc/umbrella_protocol.c.s
 
 mcrouter/lib/network/AccessPoint.o: mcrouter/lib/network/AccessPoint.cpp.o
@@ -1793,7 +1793,7 @@ mcrouter/lib/network/AccessPoint.o: mcrouter/lib/network/AccessPoint.cpp.o
 
 # target to build an object file
 mcrouter/lib/network/AccessPoint.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AccessPoint.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AccessPoint.cpp.o
 .PHONY : mcrouter/lib/network/AccessPoint.cpp.o
 
 mcrouter/lib/network/AccessPoint.i: mcrouter/lib/network/AccessPoint.cpp.i
@@ -1801,7 +1801,7 @@ mcrouter/lib/network/AccessPoint.i: mcrouter/lib/network/AccessPoint.cpp.i
 
 # target to preprocess a source file
 mcrouter/lib/network/AccessPoint.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AccessPoint.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AccessPoint.cpp.i
 .PHONY : mcrouter/lib/network/AccessPoint.cpp.i
 
 mcrouter/lib/network/AccessPoint.s: mcrouter/lib/network/AccessPoint.cpp.s
@@ -1809,7 +1809,7 @@ mcrouter/lib/network/AccessPoint.s: mcrouter/lib/network/AccessPoint.cpp.s
 
 # target to generate assembly for a file
 mcrouter/lib/network/AccessPoint.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AccessPoint.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AccessPoint.cpp.s
 .PHONY : mcrouter/lib/network/AccessPoint.cpp.s
 
 mcrouter/lib/network/AsciiSerialized.o: mcrouter/lib/network/AsciiSerialized.cpp.o
@@ -1817,7 +1817,7 @@ mcrouter/lib/network/AsciiSerialized.o: mcrouter/lib/network/AsciiSerialized.cpp
 
 # target to build an object file
 mcrouter/lib/network/AsciiSerialized.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsciiSerialized.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsciiSerialized.cpp.o
 .PHONY : mcrouter/lib/network/AsciiSerialized.cpp.o
 
 mcrouter/lib/network/AsciiSerialized.i: mcrouter/lib/network/AsciiSerialized.cpp.i
@@ -1825,7 +1825,7 @@ mcrouter/lib/network/AsciiSerialized.i: mcrouter/lib/network/AsciiSerialized.cpp
 
 # target to preprocess a source file
 mcrouter/lib/network/AsciiSerialized.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsciiSerialized.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsciiSerialized.cpp.i
 .PHONY : mcrouter/lib/network/AsciiSerialized.cpp.i
 
 mcrouter/lib/network/AsciiSerialized.s: mcrouter/lib/network/AsciiSerialized.cpp.s
@@ -1833,7 +1833,7 @@ mcrouter/lib/network/AsciiSerialized.s: mcrouter/lib/network/AsciiSerialized.cpp
 
 # target to generate assembly for a file
 mcrouter/lib/network/AsciiSerialized.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsciiSerialized.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsciiSerialized.cpp.s
 .PHONY : mcrouter/lib/network/AsciiSerialized.cpp.s
 
 mcrouter/lib/network/AsyncMcClientImpl.o: mcrouter/lib/network/AsyncMcClientImpl.cpp.o
@@ -1841,7 +1841,7 @@ mcrouter/lib/network/AsyncMcClientImpl.o: mcrouter/lib/network/AsyncMcClientImpl
 
 # target to build an object file
 mcrouter/lib/network/AsyncMcClientImpl.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcClientImpl.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcClientImpl.cpp.o
 .PHONY : mcrouter/lib/network/AsyncMcClientImpl.cpp.o
 
 mcrouter/lib/network/AsyncMcClientImpl.i: mcrouter/lib/network/AsyncMcClientImpl.cpp.i
@@ -1849,7 +1849,7 @@ mcrouter/lib/network/AsyncMcClientImpl.i: mcrouter/lib/network/AsyncMcClientImpl
 
 # target to preprocess a source file
 mcrouter/lib/network/AsyncMcClientImpl.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcClientImpl.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcClientImpl.cpp.i
 .PHONY : mcrouter/lib/network/AsyncMcClientImpl.cpp.i
 
 mcrouter/lib/network/AsyncMcClientImpl.s: mcrouter/lib/network/AsyncMcClientImpl.cpp.s
@@ -1857,7 +1857,7 @@ mcrouter/lib/network/AsyncMcClientImpl.s: mcrouter/lib/network/AsyncMcClientImpl
 
 # target to generate assembly for a file
 mcrouter/lib/network/AsyncMcClientImpl.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcClientImpl.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcClientImpl.cpp.s
 .PHONY : mcrouter/lib/network/AsyncMcClientImpl.cpp.s
 
 mcrouter/lib/network/AsyncMcServer.o: mcrouter/lib/network/AsyncMcServer.cpp.o
@@ -1865,7 +1865,7 @@ mcrouter/lib/network/AsyncMcServer.o: mcrouter/lib/network/AsyncMcServer.cpp.o
 
 # target to build an object file
 mcrouter/lib/network/AsyncMcServer.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServer.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServer.cpp.o
 .PHONY : mcrouter/lib/network/AsyncMcServer.cpp.o
 
 mcrouter/lib/network/AsyncMcServer.i: mcrouter/lib/network/AsyncMcServer.cpp.i
@@ -1873,7 +1873,7 @@ mcrouter/lib/network/AsyncMcServer.i: mcrouter/lib/network/AsyncMcServer.cpp.i
 
 # target to preprocess a source file
 mcrouter/lib/network/AsyncMcServer.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServer.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServer.cpp.i
 .PHONY : mcrouter/lib/network/AsyncMcServer.cpp.i
 
 mcrouter/lib/network/AsyncMcServer.s: mcrouter/lib/network/AsyncMcServer.cpp.s
@@ -1881,7 +1881,7 @@ mcrouter/lib/network/AsyncMcServer.s: mcrouter/lib/network/AsyncMcServer.cpp.s
 
 # target to generate assembly for a file
 mcrouter/lib/network/AsyncMcServer.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServer.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServer.cpp.s
 .PHONY : mcrouter/lib/network/AsyncMcServer.cpp.s
 
 mcrouter/lib/network/AsyncMcServerWorker.o: mcrouter/lib/network/AsyncMcServerWorker.cpp.o
@@ -1889,7 +1889,7 @@ mcrouter/lib/network/AsyncMcServerWorker.o: mcrouter/lib/network/AsyncMcServerWo
 
 # target to build an object file
 mcrouter/lib/network/AsyncMcServerWorker.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServerWorker.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServerWorker.cpp.o
 .PHONY : mcrouter/lib/network/AsyncMcServerWorker.cpp.o
 
 mcrouter/lib/network/AsyncMcServerWorker.i: mcrouter/lib/network/AsyncMcServerWorker.cpp.i
@@ -1897,7 +1897,7 @@ mcrouter/lib/network/AsyncMcServerWorker.i: mcrouter/lib/network/AsyncMcServerWo
 
 # target to preprocess a source file
 mcrouter/lib/network/AsyncMcServerWorker.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServerWorker.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServerWorker.cpp.i
 .PHONY : mcrouter/lib/network/AsyncMcServerWorker.cpp.i
 
 mcrouter/lib/network/AsyncMcServerWorker.s: mcrouter/lib/network/AsyncMcServerWorker.cpp.s
@@ -1905,7 +1905,7 @@ mcrouter/lib/network/AsyncMcServerWorker.s: mcrouter/lib/network/AsyncMcServerWo
 
 # target to generate assembly for a file
 mcrouter/lib/network/AsyncMcServerWorker.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServerWorker.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServerWorker.cpp.s
 .PHONY : mcrouter/lib/network/AsyncMcServerWorker.cpp.s
 
 mcrouter/lib/network/McAsciiParser.o: mcrouter/lib/network/McAsciiParser.cpp.o
@@ -1913,7 +1913,7 @@ mcrouter/lib/network/McAsciiParser.o: mcrouter/lib/network/McAsciiParser.cpp.o
 
 # target to build an object file
 mcrouter/lib/network/McAsciiParser.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McAsciiParser.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McAsciiParser.cpp.o
 .PHONY : mcrouter/lib/network/McAsciiParser.cpp.o
 
 mcrouter/lib/network/McAsciiParser.i: mcrouter/lib/network/McAsciiParser.cpp.i
@@ -1921,7 +1921,7 @@ mcrouter/lib/network/McAsciiParser.i: mcrouter/lib/network/McAsciiParser.cpp.i
 
 # target to preprocess a source file
 mcrouter/lib/network/McAsciiParser.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McAsciiParser.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McAsciiParser.cpp.i
 .PHONY : mcrouter/lib/network/McAsciiParser.cpp.i
 
 mcrouter/lib/network/McAsciiParser.s: mcrouter/lib/network/McAsciiParser.cpp.s
@@ -1929,7 +1929,7 @@ mcrouter/lib/network/McAsciiParser.s: mcrouter/lib/network/McAsciiParser.cpp.s
 
 # target to generate assembly for a file
 mcrouter/lib/network/McAsciiParser.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McAsciiParser.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McAsciiParser.cpp.s
 .PHONY : mcrouter/lib/network/McAsciiParser.cpp.s
 
 mcrouter/lib/network/McClientRequestContext.o: mcrouter/lib/network/McClientRequestContext.cpp.o
@@ -1937,7 +1937,7 @@ mcrouter/lib/network/McClientRequestContext.o: mcrouter/lib/network/McClientRequ
 
 # target to build an object file
 mcrouter/lib/network/McClientRequestContext.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McClientRequestContext.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McClientRequestContext.cpp.o
 .PHONY : mcrouter/lib/network/McClientRequestContext.cpp.o
 
 mcrouter/lib/network/McClientRequestContext.i: mcrouter/lib/network/McClientRequestContext.cpp.i
@@ -1945,7 +1945,7 @@ mcrouter/lib/network/McClientRequestContext.i: mcrouter/lib/network/McClientRequ
 
 # target to preprocess a source file
 mcrouter/lib/network/McClientRequestContext.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McClientRequestContext.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McClientRequestContext.cpp.i
 .PHONY : mcrouter/lib/network/McClientRequestContext.cpp.i
 
 mcrouter/lib/network/McClientRequestContext.s: mcrouter/lib/network/McClientRequestContext.cpp.s
@@ -1953,7 +1953,7 @@ mcrouter/lib/network/McClientRequestContext.s: mcrouter/lib/network/McClientRequ
 
 # target to generate assembly for a file
 mcrouter/lib/network/McClientRequestContext.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McClientRequestContext.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McClientRequestContext.cpp.s
 .PHONY : mcrouter/lib/network/McClientRequestContext.cpp.s
 
 mcrouter/lib/network/McParser.o: mcrouter/lib/network/McParser.cpp.o
@@ -1961,7 +1961,7 @@ mcrouter/lib/network/McParser.o: mcrouter/lib/network/McParser.cpp.o
 
 # target to build an object file
 mcrouter/lib/network/McParser.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McParser.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McParser.cpp.o
 .PHONY : mcrouter/lib/network/McParser.cpp.o
 
 mcrouter/lib/network/McParser.i: mcrouter/lib/network/McParser.cpp.i
@@ -1969,7 +1969,7 @@ mcrouter/lib/network/McParser.i: mcrouter/lib/network/McParser.cpp.i
 
 # target to preprocess a source file
 mcrouter/lib/network/McParser.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McParser.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McParser.cpp.i
 .PHONY : mcrouter/lib/network/McParser.cpp.i
 
 mcrouter/lib/network/McParser.s: mcrouter/lib/network/McParser.cpp.s
@@ -1977,7 +1977,7 @@ mcrouter/lib/network/McParser.s: mcrouter/lib/network/McParser.cpp.s
 
 # target to generate assembly for a file
 mcrouter/lib/network/McParser.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McParser.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McParser.cpp.s
 .PHONY : mcrouter/lib/network/McParser.cpp.s
 
 mcrouter/lib/network/McSerializedRequest.o: mcrouter/lib/network/McSerializedRequest.cpp.o
@@ -1985,7 +1985,7 @@ mcrouter/lib/network/McSerializedRequest.o: mcrouter/lib/network/McSerializedReq
 
 # target to build an object file
 mcrouter/lib/network/McSerializedRequest.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McSerializedRequest.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McSerializedRequest.cpp.o
 .PHONY : mcrouter/lib/network/McSerializedRequest.cpp.o
 
 mcrouter/lib/network/McSerializedRequest.i: mcrouter/lib/network/McSerializedRequest.cpp.i
@@ -1993,7 +1993,7 @@ mcrouter/lib/network/McSerializedRequest.i: mcrouter/lib/network/McSerializedReq
 
 # target to preprocess a source file
 mcrouter/lib/network/McSerializedRequest.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McSerializedRequest.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McSerializedRequest.cpp.i
 .PHONY : mcrouter/lib/network/McSerializedRequest.cpp.i
 
 mcrouter/lib/network/McSerializedRequest.s: mcrouter/lib/network/McSerializedRequest.cpp.s
@@ -2001,7 +2001,7 @@ mcrouter/lib/network/McSerializedRequest.s: mcrouter/lib/network/McSerializedReq
 
 # target to generate assembly for a file
 mcrouter/lib/network/McSerializedRequest.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McSerializedRequest.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McSerializedRequest.cpp.s
 .PHONY : mcrouter/lib/network/McSerializedRequest.cpp.s
 
 mcrouter/lib/network/McServerRequestContext.o: mcrouter/lib/network/McServerRequestContext.cpp.o
@@ -2009,7 +2009,7 @@ mcrouter/lib/network/McServerRequestContext.o: mcrouter/lib/network/McServerRequ
 
 # target to build an object file
 mcrouter/lib/network/McServerRequestContext.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerRequestContext.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerRequestContext.cpp.o
 .PHONY : mcrouter/lib/network/McServerRequestContext.cpp.o
 
 mcrouter/lib/network/McServerRequestContext.i: mcrouter/lib/network/McServerRequestContext.cpp.i
@@ -2017,7 +2017,7 @@ mcrouter/lib/network/McServerRequestContext.i: mcrouter/lib/network/McServerRequ
 
 # target to preprocess a source file
 mcrouter/lib/network/McServerRequestContext.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerRequestContext.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerRequestContext.cpp.i
 .PHONY : mcrouter/lib/network/McServerRequestContext.cpp.i
 
 mcrouter/lib/network/McServerRequestContext.s: mcrouter/lib/network/McServerRequestContext.cpp.s
@@ -2025,7 +2025,7 @@ mcrouter/lib/network/McServerRequestContext.s: mcrouter/lib/network/McServerRequ
 
 # target to generate assembly for a file
 mcrouter/lib/network/McServerRequestContext.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerRequestContext.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerRequestContext.cpp.s
 .PHONY : mcrouter/lib/network/McServerRequestContext.cpp.s
 
 mcrouter/lib/network/McServerSession.o: mcrouter/lib/network/McServerSession.cpp.o
@@ -2033,7 +2033,7 @@ mcrouter/lib/network/McServerSession.o: mcrouter/lib/network/McServerSession.cpp
 
 # target to build an object file
 mcrouter/lib/network/McServerSession.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerSession.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerSession.cpp.o
 .PHONY : mcrouter/lib/network/McServerSession.cpp.o
 
 mcrouter/lib/network/McServerSession.i: mcrouter/lib/network/McServerSession.cpp.i
@@ -2041,7 +2041,7 @@ mcrouter/lib/network/McServerSession.i: mcrouter/lib/network/McServerSession.cpp
 
 # target to preprocess a source file
 mcrouter/lib/network/McServerSession.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerSession.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerSession.cpp.i
 .PHONY : mcrouter/lib/network/McServerSession.cpp.i
 
 mcrouter/lib/network/McServerSession.s: mcrouter/lib/network/McServerSession.cpp.s
@@ -2049,7 +2049,7 @@ mcrouter/lib/network/McServerSession.s: mcrouter/lib/network/McServerSession.cpp
 
 # target to generate assembly for a file
 mcrouter/lib/network/McServerSession.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerSession.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerSession.cpp.s
 .PHONY : mcrouter/lib/network/McServerSession.cpp.s
 
 mcrouter/lib/network/MockMcClientTransport.o: mcrouter/lib/network/MockMcClientTransport.cpp.o
@@ -2057,7 +2057,7 @@ mcrouter/lib/network/MockMcClientTransport.o: mcrouter/lib/network/MockMcClientT
 
 # target to build an object file
 mcrouter/lib/network/MockMcClientTransport.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MockMcClientTransport.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MockMcClientTransport.cpp.o
 .PHONY : mcrouter/lib/network/MockMcClientTransport.cpp.o
 
 mcrouter/lib/network/MockMcClientTransport.i: mcrouter/lib/network/MockMcClientTransport.cpp.i
@@ -2065,7 +2065,7 @@ mcrouter/lib/network/MockMcClientTransport.i: mcrouter/lib/network/MockMcClientT
 
 # target to preprocess a source file
 mcrouter/lib/network/MockMcClientTransport.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MockMcClientTransport.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MockMcClientTransport.cpp.i
 .PHONY : mcrouter/lib/network/MockMcClientTransport.cpp.i
 
 mcrouter/lib/network/MockMcClientTransport.s: mcrouter/lib/network/MockMcClientTransport.cpp.s
@@ -2073,7 +2073,7 @@ mcrouter/lib/network/MockMcClientTransport.s: mcrouter/lib/network/MockMcClientT
 
 # target to generate assembly for a file
 mcrouter/lib/network/MockMcClientTransport.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MockMcClientTransport.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MockMcClientTransport.cpp.s
 .PHONY : mcrouter/lib/network/MockMcClientTransport.cpp.s
 
 mcrouter/lib/network/MultiOpParent.o: mcrouter/lib/network/MultiOpParent.cpp.o
@@ -2081,7 +2081,7 @@ mcrouter/lib/network/MultiOpParent.o: mcrouter/lib/network/MultiOpParent.cpp.o
 
 # target to build an object file
 mcrouter/lib/network/MultiOpParent.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MultiOpParent.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MultiOpParent.cpp.o
 .PHONY : mcrouter/lib/network/MultiOpParent.cpp.o
 
 mcrouter/lib/network/MultiOpParent.i: mcrouter/lib/network/MultiOpParent.cpp.i
@@ -2089,7 +2089,7 @@ mcrouter/lib/network/MultiOpParent.i: mcrouter/lib/network/MultiOpParent.cpp.i
 
 # target to preprocess a source file
 mcrouter/lib/network/MultiOpParent.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MultiOpParent.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MultiOpParent.cpp.i
 .PHONY : mcrouter/lib/network/MultiOpParent.cpp.i
 
 mcrouter/lib/network/MultiOpParent.s: mcrouter/lib/network/MultiOpParent.cpp.s
@@ -2097,7 +2097,7 @@ mcrouter/lib/network/MultiOpParent.s: mcrouter/lib/network/MultiOpParent.cpp.s
 
 # target to generate assembly for a file
 mcrouter/lib/network/MultiOpParent.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MultiOpParent.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MultiOpParent.cpp.s
 .PHONY : mcrouter/lib/network/MultiOpParent.cpp.s
 
 mcrouter/lib/network/ThreadLocalSSLContextProvider.o: mcrouter/lib/network/ThreadLocalSSLContextProvider.cpp.o
@@ -2105,7 +2105,7 @@ mcrouter/lib/network/ThreadLocalSSLContextProvider.o: mcrouter/lib/network/Threa
 
 # target to build an object file
 mcrouter/lib/network/ThreadLocalSSLContextProvider.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/ThreadLocalSSLContextProvider.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/ThreadLocalSSLContextProvider.cpp.o
 .PHONY : mcrouter/lib/network/ThreadLocalSSLContextProvider.cpp.o
 
 mcrouter/lib/network/ThreadLocalSSLContextProvider.i: mcrouter/lib/network/ThreadLocalSSLContextProvider.cpp.i
@@ -2113,7 +2113,7 @@ mcrouter/lib/network/ThreadLocalSSLContextProvider.i: mcrouter/lib/network/Threa
 
 # target to preprocess a source file
 mcrouter/lib/network/ThreadLocalSSLContextProvider.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/ThreadLocalSSLContextProvider.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/ThreadLocalSSLContextProvider.cpp.i
 .PHONY : mcrouter/lib/network/ThreadLocalSSLContextProvider.cpp.i
 
 mcrouter/lib/network/ThreadLocalSSLContextProvider.s: mcrouter/lib/network/ThreadLocalSSLContextProvider.cpp.s
@@ -2121,7 +2121,7 @@ mcrouter/lib/network/ThreadLocalSSLContextProvider.s: mcrouter/lib/network/Threa
 
 # target to generate assembly for a file
 mcrouter/lib/network/ThreadLocalSSLContextProvider.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/ThreadLocalSSLContextProvider.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/ThreadLocalSSLContextProvider.cpp.s
 .PHONY : mcrouter/lib/network/ThreadLocalSSLContextProvider.cpp.s
 
 mcrouter/lib/network/UmbrellaProtocol.o: mcrouter/lib/network/UmbrellaProtocol.cpp.o
@@ -2129,7 +2129,7 @@ mcrouter/lib/network/UmbrellaProtocol.o: mcrouter/lib/network/UmbrellaProtocol.c
 
 # target to build an object file
 mcrouter/lib/network/UmbrellaProtocol.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/UmbrellaProtocol.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/UmbrellaProtocol.cpp.o
 .PHONY : mcrouter/lib/network/UmbrellaProtocol.cpp.o
 
 mcrouter/lib/network/UmbrellaProtocol.i: mcrouter/lib/network/UmbrellaProtocol.cpp.i
@@ -2137,7 +2137,7 @@ mcrouter/lib/network/UmbrellaProtocol.i: mcrouter/lib/network/UmbrellaProtocol.c
 
 # target to preprocess a source file
 mcrouter/lib/network/UmbrellaProtocol.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/UmbrellaProtocol.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/UmbrellaProtocol.cpp.i
 .PHONY : mcrouter/lib/network/UmbrellaProtocol.cpp.i
 
 mcrouter/lib/network/UmbrellaProtocol.s: mcrouter/lib/network/UmbrellaProtocol.cpp.s
@@ -2145,7 +2145,7 @@ mcrouter/lib/network/UmbrellaProtocol.s: mcrouter/lib/network/UmbrellaProtocol.c
 
 # target to generate assembly for a file
 mcrouter/lib/network/UmbrellaProtocol.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/UmbrellaProtocol.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/UmbrellaProtocol.cpp.s
 .PHONY : mcrouter/lib/network/UmbrellaProtocol.cpp.s
 
 mcrouter/lib/network/WriteBuffer.o: mcrouter/lib/network/WriteBuffer.cpp.o
@@ -2153,7 +2153,7 @@ mcrouter/lib/network/WriteBuffer.o: mcrouter/lib/network/WriteBuffer.cpp.o
 
 # target to build an object file
 mcrouter/lib/network/WriteBuffer.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/WriteBuffer.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/WriteBuffer.cpp.o
 .PHONY : mcrouter/lib/network/WriteBuffer.cpp.o
 
 mcrouter/lib/network/WriteBuffer.i: mcrouter/lib/network/WriteBuffer.cpp.i
@@ -2161,7 +2161,7 @@ mcrouter/lib/network/WriteBuffer.i: mcrouter/lib/network/WriteBuffer.cpp.i
 
 # target to preprocess a source file
 mcrouter/lib/network/WriteBuffer.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/WriteBuffer.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/WriteBuffer.cpp.i
 .PHONY : mcrouter/lib/network/WriteBuffer.cpp.i
 
 mcrouter/lib/network/WriteBuffer.s: mcrouter/lib/network/WriteBuffer.cpp.s
@@ -2169,7 +2169,7 @@ mcrouter/lib/network/WriteBuffer.s: mcrouter/lib/network/WriteBuffer.cpp.s
 
 # target to generate assembly for a file
 mcrouter/lib/network/WriteBuffer.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/WriteBuffer.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/WriteBuffer.cpp.s
 .PHONY : mcrouter/lib/network/WriteBuffer.cpp.s
 
 mcrouter/main.o: mcrouter/main.cpp.o
@@ -2177,7 +2177,7 @@ mcrouter/main.o: mcrouter/main.cpp.o
 
 # target to build an object file
 mcrouter/main.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/main.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/main.cpp.o
 .PHONY : mcrouter/main.cpp.o
 
 mcrouter/main.i: mcrouter/main.cpp.i
@@ -2185,7 +2185,7 @@ mcrouter/main.i: mcrouter/main.cpp.i
 
 # target to preprocess a source file
 mcrouter/main.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/main.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/main.cpp.i
 .PHONY : mcrouter/main.cpp.i
 
 mcrouter/main.s: mcrouter/main.cpp.s
@@ -2193,7 +2193,7 @@ mcrouter/main.s: mcrouter/main.cpp.s
 
 # target to generate assembly for a file
 mcrouter/main.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/main.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/main.cpp.s
 .PHONY : mcrouter/main.cpp.s
 
 mcrouter/mcrouter_config.o: mcrouter/mcrouter_config.cpp.o
@@ -2201,7 +2201,7 @@ mcrouter/mcrouter_config.o: mcrouter/mcrouter_config.cpp.o
 
 # target to build an object file
 mcrouter/mcrouter_config.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/mcrouter_config.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/mcrouter_config.cpp.o
 .PHONY : mcrouter/mcrouter_config.cpp.o
 
 mcrouter/mcrouter_config.i: mcrouter/mcrouter_config.cpp.i
@@ -2209,7 +2209,7 @@ mcrouter/mcrouter_config.i: mcrouter/mcrouter_config.cpp.i
 
 # target to preprocess a source file
 mcrouter/mcrouter_config.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/mcrouter_config.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/mcrouter_config.cpp.i
 .PHONY : mcrouter/mcrouter_config.cpp.i
 
 mcrouter/mcrouter_config.s: mcrouter/mcrouter_config.cpp.s
@@ -2217,7 +2217,7 @@ mcrouter/mcrouter_config.s: mcrouter/mcrouter_config.cpp.s
 
 # target to generate assembly for a file
 mcrouter/mcrouter_config.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/mcrouter_config.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/mcrouter_config.cpp.s
 .PHONY : mcrouter/mcrouter_config.cpp.s
 
 mcrouter/options.o: mcrouter/options.cpp.o
@@ -2225,7 +2225,7 @@ mcrouter/options.o: mcrouter/options.cpp.o
 
 # target to build an object file
 mcrouter/options.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/options.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/options.cpp.o
 .PHONY : mcrouter/options.cpp.o
 
 mcrouter/options.i: mcrouter/options.cpp.i
@@ -2233,7 +2233,7 @@ mcrouter/options.i: mcrouter/options.cpp.i
 
 # target to preprocess a source file
 mcrouter/options.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/options.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/options.cpp.i
 .PHONY : mcrouter/options.cpp.i
 
 mcrouter/options.s: mcrouter/options.cpp.s
@@ -2241,7 +2241,7 @@ mcrouter/options.s: mcrouter/options.cpp.s
 
 # target to generate assembly for a file
 mcrouter/options.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/options.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/options.cpp.s
 .PHONY : mcrouter/options.cpp.s
 
 mcrouter/proxy.o: mcrouter/proxy.cpp.o
@@ -2249,7 +2249,7 @@ mcrouter/proxy.o: mcrouter/proxy.cpp.o
 
 # target to build an object file
 mcrouter/proxy.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/proxy.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/proxy.cpp.o
 .PHONY : mcrouter/proxy.cpp.o
 
 mcrouter/proxy.i: mcrouter/proxy.cpp.i
@@ -2257,7 +2257,7 @@ mcrouter/proxy.i: mcrouter/proxy.cpp.i
 
 # target to preprocess a source file
 mcrouter/proxy.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/proxy.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/proxy.cpp.i
 .PHONY : mcrouter/proxy.cpp.i
 
 mcrouter/proxy.s: mcrouter/proxy.cpp.s
@@ -2265,7 +2265,7 @@ mcrouter/proxy.s: mcrouter/proxy.cpp.s
 
 # target to generate assembly for a file
 mcrouter/proxy.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/proxy.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/proxy.cpp.s
 .PHONY : mcrouter/proxy.cpp.s
 
 mcrouter/route.o: mcrouter/route.cpp.o
@@ -2273,7 +2273,7 @@ mcrouter/route.o: mcrouter/route.cpp.o
 
 # target to build an object file
 mcrouter/route.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/route.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/route.cpp.o
 .PHONY : mcrouter/route.cpp.o
 
 mcrouter/route.i: mcrouter/route.cpp.i
@@ -2281,7 +2281,7 @@ mcrouter/route.i: mcrouter/route.cpp.i
 
 # target to preprocess a source file
 mcrouter/route.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/route.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/route.cpp.i
 .PHONY : mcrouter/route.cpp.i
 
 mcrouter/route.s: mcrouter/route.cpp.s
@@ -2289,7 +2289,7 @@ mcrouter/route.s: mcrouter/route.cpp.s
 
 # target to generate assembly for a file
 mcrouter/route.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/route.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/route.cpp.s
 .PHONY : mcrouter/route.cpp.s
 
 mcrouter/routes/AllAsyncRoute.o: mcrouter/routes/AllAsyncRoute.cpp.o
@@ -2297,7 +2297,7 @@ mcrouter/routes/AllAsyncRoute.o: mcrouter/routes/AllAsyncRoute.cpp.o
 
 # target to build an object file
 mcrouter/routes/AllAsyncRoute.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllAsyncRoute.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllAsyncRoute.cpp.o
 .PHONY : mcrouter/routes/AllAsyncRoute.cpp.o
 
 mcrouter/routes/AllAsyncRoute.i: mcrouter/routes/AllAsyncRoute.cpp.i
@@ -2305,7 +2305,7 @@ mcrouter/routes/AllAsyncRoute.i: mcrouter/routes/AllAsyncRoute.cpp.i
 
 # target to preprocess a source file
 mcrouter/routes/AllAsyncRoute.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllAsyncRoute.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllAsyncRoute.cpp.i
 .PHONY : mcrouter/routes/AllAsyncRoute.cpp.i
 
 mcrouter/routes/AllAsyncRoute.s: mcrouter/routes/AllAsyncRoute.cpp.s
@@ -2313,7 +2313,7 @@ mcrouter/routes/AllAsyncRoute.s: mcrouter/routes/AllAsyncRoute.cpp.s
 
 # target to generate assembly for a file
 mcrouter/routes/AllAsyncRoute.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllAsyncRoute.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllAsyncRoute.cpp.s
 .PHONY : mcrouter/routes/AllAsyncRoute.cpp.s
 
 mcrouter/routes/AllFastestRoute.o: mcrouter/routes/AllFastestRoute.cpp.o
@@ -2321,7 +2321,7 @@ mcrouter/routes/AllFastestRoute.o: mcrouter/routes/AllFastestRoute.cpp.o
 
 # target to build an object file
 mcrouter/routes/AllFastestRoute.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllFastestRoute.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllFastestRoute.cpp.o
 .PHONY : mcrouter/routes/AllFastestRoute.cpp.o
 
 mcrouter/routes/AllFastestRoute.i: mcrouter/routes/AllFastestRoute.cpp.i
@@ -2329,7 +2329,7 @@ mcrouter/routes/AllFastestRoute.i: mcrouter/routes/AllFastestRoute.cpp.i
 
 # target to preprocess a source file
 mcrouter/routes/AllFastestRoute.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllFastestRoute.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllFastestRoute.cpp.i
 .PHONY : mcrouter/routes/AllFastestRoute.cpp.i
 
 mcrouter/routes/AllFastestRoute.s: mcrouter/routes/AllFastestRoute.cpp.s
@@ -2337,7 +2337,7 @@ mcrouter/routes/AllFastestRoute.s: mcrouter/routes/AllFastestRoute.cpp.s
 
 # target to generate assembly for a file
 mcrouter/routes/AllFastestRoute.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllFastestRoute.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllFastestRoute.cpp.s
 .PHONY : mcrouter/routes/AllFastestRoute.cpp.s
 
 mcrouter/routes/AllInitialRoute.o: mcrouter/routes/AllInitialRoute.cpp.o
@@ -2345,7 +2345,7 @@ mcrouter/routes/AllInitialRoute.o: mcrouter/routes/AllInitialRoute.cpp.o
 
 # target to build an object file
 mcrouter/routes/AllInitialRoute.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllInitialRoute.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllInitialRoute.cpp.o
 .PHONY : mcrouter/routes/AllInitialRoute.cpp.o
 
 mcrouter/routes/AllInitialRoute.i: mcrouter/routes/AllInitialRoute.cpp.i
@@ -2353,7 +2353,7 @@ mcrouter/routes/AllInitialRoute.i: mcrouter/routes/AllInitialRoute.cpp.i
 
 # target to preprocess a source file
 mcrouter/routes/AllInitialRoute.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllInitialRoute.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllInitialRoute.cpp.i
 .PHONY : mcrouter/routes/AllInitialRoute.cpp.i
 
 mcrouter/routes/AllInitialRoute.s: mcrouter/routes/AllInitialRoute.cpp.s
@@ -2361,7 +2361,7 @@ mcrouter/routes/AllInitialRoute.s: mcrouter/routes/AllInitialRoute.cpp.s
 
 # target to generate assembly for a file
 mcrouter/routes/AllInitialRoute.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllInitialRoute.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllInitialRoute.cpp.s
 .PHONY : mcrouter/routes/AllInitialRoute.cpp.s
 
 mcrouter/routes/AllMajorityRoute.o: mcrouter/routes/AllMajorityRoute.cpp.o
@@ -2369,7 +2369,7 @@ mcrouter/routes/AllMajorityRoute.o: mcrouter/routes/AllMajorityRoute.cpp.o
 
 # target to build an object file
 mcrouter/routes/AllMajorityRoute.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllMajorityRoute.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllMajorityRoute.cpp.o
 .PHONY : mcrouter/routes/AllMajorityRoute.cpp.o
 
 mcrouter/routes/AllMajorityRoute.i: mcrouter/routes/AllMajorityRoute.cpp.i
@@ -2377,7 +2377,7 @@ mcrouter/routes/AllMajorityRoute.i: mcrouter/routes/AllMajorityRoute.cpp.i
 
 # target to preprocess a source file
 mcrouter/routes/AllMajorityRoute.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllMajorityRoute.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllMajorityRoute.cpp.i
 .PHONY : mcrouter/routes/AllMajorityRoute.cpp.i
 
 mcrouter/routes/AllMajorityRoute.s: mcrouter/routes/AllMajorityRoute.cpp.s
@@ -2385,7 +2385,7 @@ mcrouter/routes/AllMajorityRoute.s: mcrouter/routes/AllMajorityRoute.cpp.s
 
 # target to generate assembly for a file
 mcrouter/routes/AllMajorityRoute.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllMajorityRoute.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllMajorityRoute.cpp.s
 .PHONY : mcrouter/routes/AllMajorityRoute.cpp.s
 
 mcrouter/routes/AllSyncRoute.o: mcrouter/routes/AllSyncRoute.cpp.o
@@ -2393,7 +2393,7 @@ mcrouter/routes/AllSyncRoute.o: mcrouter/routes/AllSyncRoute.cpp.o
 
 # target to build an object file
 mcrouter/routes/AllSyncRoute.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllSyncRoute.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllSyncRoute.cpp.o
 .PHONY : mcrouter/routes/AllSyncRoute.cpp.o
 
 mcrouter/routes/AllSyncRoute.i: mcrouter/routes/AllSyncRoute.cpp.i
@@ -2401,7 +2401,7 @@ mcrouter/routes/AllSyncRoute.i: mcrouter/routes/AllSyncRoute.cpp.i
 
 # target to preprocess a source file
 mcrouter/routes/AllSyncRoute.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllSyncRoute.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllSyncRoute.cpp.i
 .PHONY : mcrouter/routes/AllSyncRoute.cpp.i
 
 mcrouter/routes/AllSyncRoute.s: mcrouter/routes/AllSyncRoute.cpp.s
@@ -2409,7 +2409,7 @@ mcrouter/routes/AllSyncRoute.s: mcrouter/routes/AllSyncRoute.cpp.s
 
 # target to generate assembly for a file
 mcrouter/routes/AllSyncRoute.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllSyncRoute.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllSyncRoute.cpp.s
 .PHONY : mcrouter/routes/AllSyncRoute.cpp.s
 
 mcrouter/routes/AsynclogRoute.o: mcrouter/routes/AsynclogRoute.cpp.o
@@ -2417,7 +2417,7 @@ mcrouter/routes/AsynclogRoute.o: mcrouter/routes/AsynclogRoute.cpp.o
 
 # target to build an object file
 mcrouter/routes/AsynclogRoute.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AsynclogRoute.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AsynclogRoute.cpp.o
 .PHONY : mcrouter/routes/AsynclogRoute.cpp.o
 
 mcrouter/routes/AsynclogRoute.i: mcrouter/routes/AsynclogRoute.cpp.i
@@ -2425,7 +2425,7 @@ mcrouter/routes/AsynclogRoute.i: mcrouter/routes/AsynclogRoute.cpp.i
 
 # target to preprocess a source file
 mcrouter/routes/AsynclogRoute.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AsynclogRoute.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AsynclogRoute.cpp.i
 .PHONY : mcrouter/routes/AsynclogRoute.cpp.i
 
 mcrouter/routes/AsynclogRoute.s: mcrouter/routes/AsynclogRoute.cpp.s
@@ -2433,7 +2433,7 @@ mcrouter/routes/AsynclogRoute.s: mcrouter/routes/AsynclogRoute.cpp.s
 
 # target to generate assembly for a file
 mcrouter/routes/AsynclogRoute.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AsynclogRoute.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AsynclogRoute.cpp.s
 .PHONY : mcrouter/routes/AsynclogRoute.cpp.s
 
 mcrouter/routes/BigValueRoute.o: mcrouter/routes/BigValueRoute.cpp.o
@@ -2441,7 +2441,7 @@ mcrouter/routes/BigValueRoute.o: mcrouter/routes/BigValueRoute.cpp.o
 
 # target to build an object file
 mcrouter/routes/BigValueRoute.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/BigValueRoute.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/BigValueRoute.cpp.o
 .PHONY : mcrouter/routes/BigValueRoute.cpp.o
 
 mcrouter/routes/BigValueRoute.i: mcrouter/routes/BigValueRoute.cpp.i
@@ -2449,7 +2449,7 @@ mcrouter/routes/BigValueRoute.i: mcrouter/routes/BigValueRoute.cpp.i
 
 # target to preprocess a source file
 mcrouter/routes/BigValueRoute.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/BigValueRoute.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/BigValueRoute.cpp.i
 .PHONY : mcrouter/routes/BigValueRoute.cpp.i
 
 mcrouter/routes/BigValueRoute.s: mcrouter/routes/BigValueRoute.cpp.s
@@ -2457,7 +2457,7 @@ mcrouter/routes/BigValueRoute.s: mcrouter/routes/BigValueRoute.cpp.s
 
 # target to generate assembly for a file
 mcrouter/routes/BigValueRoute.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/BigValueRoute.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/BigValueRoute.cpp.s
 .PHONY : mcrouter/routes/BigValueRoute.cpp.s
 
 mcrouter/routes/DestinationRoute.o: mcrouter/routes/DestinationRoute.cpp.o
@@ -2465,7 +2465,7 @@ mcrouter/routes/DestinationRoute.o: mcrouter/routes/DestinationRoute.cpp.o
 
 # target to build an object file
 mcrouter/routes/DestinationRoute.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/DestinationRoute.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/DestinationRoute.cpp.o
 .PHONY : mcrouter/routes/DestinationRoute.cpp.o
 
 mcrouter/routes/DestinationRoute.i: mcrouter/routes/DestinationRoute.cpp.i
@@ -2473,7 +2473,7 @@ mcrouter/routes/DestinationRoute.i: mcrouter/routes/DestinationRoute.cpp.i
 
 # target to preprocess a source file
 mcrouter/routes/DestinationRoute.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/DestinationRoute.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/DestinationRoute.cpp.i
 .PHONY : mcrouter/routes/DestinationRoute.cpp.i
 
 mcrouter/routes/DestinationRoute.s: mcrouter/routes/DestinationRoute.cpp.s
@@ -2481,7 +2481,7 @@ mcrouter/routes/DestinationRoute.s: mcrouter/routes/DestinationRoute.cpp.s
 
 # target to generate assembly for a file
 mcrouter/routes/DestinationRoute.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/DestinationRoute.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/DestinationRoute.cpp.s
 .PHONY : mcrouter/routes/DestinationRoute.cpp.s
 
 mcrouter/routes/DevNullRoute.o: mcrouter/routes/DevNullRoute.cpp.o
@@ -2489,7 +2489,7 @@ mcrouter/routes/DevNullRoute.o: mcrouter/routes/DevNullRoute.cpp.o
 
 # target to build an object file
 mcrouter/routes/DevNullRoute.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/DevNullRoute.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/DevNullRoute.cpp.o
 .PHONY : mcrouter/routes/DevNullRoute.cpp.o
 
 mcrouter/routes/DevNullRoute.i: mcrouter/routes/DevNullRoute.cpp.i
@@ -2497,7 +2497,7 @@ mcrouter/routes/DevNullRoute.i: mcrouter/routes/DevNullRoute.cpp.i
 
 # target to preprocess a source file
 mcrouter/routes/DevNullRoute.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/DevNullRoute.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/DevNullRoute.cpp.i
 .PHONY : mcrouter/routes/DevNullRoute.cpp.i
 
 mcrouter/routes/DevNullRoute.s: mcrouter/routes/DevNullRoute.cpp.s
@@ -2505,7 +2505,7 @@ mcrouter/routes/DevNullRoute.s: mcrouter/routes/DevNullRoute.cpp.s
 
 # target to generate assembly for a file
 mcrouter/routes/DevNullRoute.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/DevNullRoute.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/DevNullRoute.cpp.s
 .PHONY : mcrouter/routes/DevNullRoute.cpp.s
 
 mcrouter/routes/ErrorRoute.o: mcrouter/routes/ErrorRoute.cpp.o
@@ -2513,7 +2513,7 @@ mcrouter/routes/ErrorRoute.o: mcrouter/routes/ErrorRoute.cpp.o
 
 # target to build an object file
 mcrouter/routes/ErrorRoute.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ErrorRoute.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ErrorRoute.cpp.o
 .PHONY : mcrouter/routes/ErrorRoute.cpp.o
 
 mcrouter/routes/ErrorRoute.i: mcrouter/routes/ErrorRoute.cpp.i
@@ -2521,7 +2521,7 @@ mcrouter/routes/ErrorRoute.i: mcrouter/routes/ErrorRoute.cpp.i
 
 # target to preprocess a source file
 mcrouter/routes/ErrorRoute.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ErrorRoute.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ErrorRoute.cpp.i
 .PHONY : mcrouter/routes/ErrorRoute.cpp.i
 
 mcrouter/routes/ErrorRoute.s: mcrouter/routes/ErrorRoute.cpp.s
@@ -2529,7 +2529,7 @@ mcrouter/routes/ErrorRoute.s: mcrouter/routes/ErrorRoute.cpp.s
 
 # target to generate assembly for a file
 mcrouter/routes/ErrorRoute.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ErrorRoute.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ErrorRoute.cpp.s
 .PHONY : mcrouter/routes/ErrorRoute.cpp.s
 
 mcrouter/routes/FailoverRateLimiter.o: mcrouter/routes/FailoverRateLimiter.cpp.o
@@ -2537,7 +2537,7 @@ mcrouter/routes/FailoverRateLimiter.o: mcrouter/routes/FailoverRateLimiter.cpp.o
 
 # target to build an object file
 mcrouter/routes/FailoverRateLimiter.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRateLimiter.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRateLimiter.cpp.o
 .PHONY : mcrouter/routes/FailoverRateLimiter.cpp.o
 
 mcrouter/routes/FailoverRateLimiter.i: mcrouter/routes/FailoverRateLimiter.cpp.i
@@ -2545,7 +2545,7 @@ mcrouter/routes/FailoverRateLimiter.i: mcrouter/routes/FailoverRateLimiter.cpp.i
 
 # target to preprocess a source file
 mcrouter/routes/FailoverRateLimiter.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRateLimiter.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRateLimiter.cpp.i
 .PHONY : mcrouter/routes/FailoverRateLimiter.cpp.i
 
 mcrouter/routes/FailoverRateLimiter.s: mcrouter/routes/FailoverRateLimiter.cpp.s
@@ -2553,7 +2553,7 @@ mcrouter/routes/FailoverRateLimiter.s: mcrouter/routes/FailoverRateLimiter.cpp.s
 
 # target to generate assembly for a file
 mcrouter/routes/FailoverRateLimiter.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRateLimiter.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRateLimiter.cpp.s
 .PHONY : mcrouter/routes/FailoverRateLimiter.cpp.s
 
 mcrouter/routes/FailoverRoute.o: mcrouter/routes/FailoverRoute.cpp.o
@@ -2561,7 +2561,7 @@ mcrouter/routes/FailoverRoute.o: mcrouter/routes/FailoverRoute.cpp.o
 
 # target to build an object file
 mcrouter/routes/FailoverRoute.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRoute.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRoute.cpp.o
 .PHONY : mcrouter/routes/FailoverRoute.cpp.o
 
 mcrouter/routes/FailoverRoute.i: mcrouter/routes/FailoverRoute.cpp.i
@@ -2569,7 +2569,7 @@ mcrouter/routes/FailoverRoute.i: mcrouter/routes/FailoverRoute.cpp.i
 
 # target to preprocess a source file
 mcrouter/routes/FailoverRoute.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRoute.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRoute.cpp.i
 .PHONY : mcrouter/routes/FailoverRoute.cpp.i
 
 mcrouter/routes/FailoverRoute.s: mcrouter/routes/FailoverRoute.cpp.s
@@ -2577,7 +2577,7 @@ mcrouter/routes/FailoverRoute.s: mcrouter/routes/FailoverRoute.cpp.s
 
 # target to generate assembly for a file
 mcrouter/routes/FailoverRoute.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRoute.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRoute.cpp.s
 .PHONY : mcrouter/routes/FailoverRoute.cpp.s
 
 mcrouter/routes/FailoverWithExptimeRoute.o: mcrouter/routes/FailoverWithExptimeRoute.cpp.o
@@ -2585,7 +2585,7 @@ mcrouter/routes/FailoverWithExptimeRoute.o: mcrouter/routes/FailoverWithExptimeR
 
 # target to build an object file
 mcrouter/routes/FailoverWithExptimeRoute.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverWithExptimeRoute.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverWithExptimeRoute.cpp.o
 .PHONY : mcrouter/routes/FailoverWithExptimeRoute.cpp.o
 
 mcrouter/routes/FailoverWithExptimeRoute.i: mcrouter/routes/FailoverWithExptimeRoute.cpp.i
@@ -2593,7 +2593,7 @@ mcrouter/routes/FailoverWithExptimeRoute.i: mcrouter/routes/FailoverWithExptimeR
 
 # target to preprocess a source file
 mcrouter/routes/FailoverWithExptimeRoute.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverWithExptimeRoute.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverWithExptimeRoute.cpp.i
 .PHONY : mcrouter/routes/FailoverWithExptimeRoute.cpp.i
 
 mcrouter/routes/FailoverWithExptimeRoute.s: mcrouter/routes/FailoverWithExptimeRoute.cpp.s
@@ -2601,7 +2601,7 @@ mcrouter/routes/FailoverWithExptimeRoute.s: mcrouter/routes/FailoverWithExptimeR
 
 # target to generate assembly for a file
 mcrouter/routes/FailoverWithExptimeRoute.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverWithExptimeRoute.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverWithExptimeRoute.cpp.s
 .PHONY : mcrouter/routes/FailoverWithExptimeRoute.cpp.s
 
 mcrouter/routes/HashRoute.o: mcrouter/routes/HashRoute.cpp.o
@@ -2609,7 +2609,7 @@ mcrouter/routes/HashRoute.o: mcrouter/routes/HashRoute.cpp.o
 
 # target to build an object file
 mcrouter/routes/HashRoute.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HashRoute.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HashRoute.cpp.o
 .PHONY : mcrouter/routes/HashRoute.cpp.o
 
 mcrouter/routes/HashRoute.i: mcrouter/routes/HashRoute.cpp.i
@@ -2617,7 +2617,7 @@ mcrouter/routes/HashRoute.i: mcrouter/routes/HashRoute.cpp.i
 
 # target to preprocess a source file
 mcrouter/routes/HashRoute.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HashRoute.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HashRoute.cpp.i
 .PHONY : mcrouter/routes/HashRoute.cpp.i
 
 mcrouter/routes/HashRoute.s: mcrouter/routes/HashRoute.cpp.s
@@ -2625,7 +2625,7 @@ mcrouter/routes/HashRoute.s: mcrouter/routes/HashRoute.cpp.s
 
 # target to generate assembly for a file
 mcrouter/routes/HashRoute.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HashRoute.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HashRoute.cpp.s
 .PHONY : mcrouter/routes/HashRoute.cpp.s
 
 mcrouter/routes/HostIdRoute.o: mcrouter/routes/HostIdRoute.cpp.o
@@ -2633,7 +2633,7 @@ mcrouter/routes/HostIdRoute.o: mcrouter/routes/HostIdRoute.cpp.o
 
 # target to build an object file
 mcrouter/routes/HostIdRoute.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HostIdRoute.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HostIdRoute.cpp.o
 .PHONY : mcrouter/routes/HostIdRoute.cpp.o
 
 mcrouter/routes/HostIdRoute.i: mcrouter/routes/HostIdRoute.cpp.i
@@ -2641,7 +2641,7 @@ mcrouter/routes/HostIdRoute.i: mcrouter/routes/HostIdRoute.cpp.i
 
 # target to preprocess a source file
 mcrouter/routes/HostIdRoute.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HostIdRoute.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HostIdRoute.cpp.i
 .PHONY : mcrouter/routes/HostIdRoute.cpp.i
 
 mcrouter/routes/HostIdRoute.s: mcrouter/routes/HostIdRoute.cpp.s
@@ -2649,7 +2649,7 @@ mcrouter/routes/HostIdRoute.s: mcrouter/routes/HostIdRoute.cpp.s
 
 # target to generate assembly for a file
 mcrouter/routes/HostIdRoute.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HostIdRoute.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HostIdRoute.cpp.s
 .PHONY : mcrouter/routes/HostIdRoute.cpp.s
 
 mcrouter/routes/L1L2CacheRoute.o: mcrouter/routes/L1L2CacheRoute.cpp.o
@@ -2657,7 +2657,7 @@ mcrouter/routes/L1L2CacheRoute.o: mcrouter/routes/L1L2CacheRoute.cpp.o
 
 # target to build an object file
 mcrouter/routes/L1L2CacheRoute.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/L1L2CacheRoute.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/L1L2CacheRoute.cpp.o
 .PHONY : mcrouter/routes/L1L2CacheRoute.cpp.o
 
 mcrouter/routes/L1L2CacheRoute.i: mcrouter/routes/L1L2CacheRoute.cpp.i
@@ -2665,7 +2665,7 @@ mcrouter/routes/L1L2CacheRoute.i: mcrouter/routes/L1L2CacheRoute.cpp.i
 
 # target to preprocess a source file
 mcrouter/routes/L1L2CacheRoute.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/L1L2CacheRoute.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/L1L2CacheRoute.cpp.i
 .PHONY : mcrouter/routes/L1L2CacheRoute.cpp.i
 
 mcrouter/routes/L1L2CacheRoute.s: mcrouter/routes/L1L2CacheRoute.cpp.s
@@ -2673,7 +2673,7 @@ mcrouter/routes/L1L2CacheRoute.s: mcrouter/routes/L1L2CacheRoute.cpp.s
 
 # target to generate assembly for a file
 mcrouter/routes/L1L2CacheRoute.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/L1L2CacheRoute.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/L1L2CacheRoute.cpp.s
 .PHONY : mcrouter/routes/L1L2CacheRoute.cpp.s
 
 mcrouter/routes/LatestRoute.o: mcrouter/routes/LatestRoute.cpp.o
@@ -2681,7 +2681,7 @@ mcrouter/routes/LatestRoute.o: mcrouter/routes/LatestRoute.cpp.o
 
 # target to build an object file
 mcrouter/routes/LatestRoute.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LatestRoute.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LatestRoute.cpp.o
 .PHONY : mcrouter/routes/LatestRoute.cpp.o
 
 mcrouter/routes/LatestRoute.i: mcrouter/routes/LatestRoute.cpp.i
@@ -2689,7 +2689,7 @@ mcrouter/routes/LatestRoute.i: mcrouter/routes/LatestRoute.cpp.i
 
 # target to preprocess a source file
 mcrouter/routes/LatestRoute.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LatestRoute.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LatestRoute.cpp.i
 .PHONY : mcrouter/routes/LatestRoute.cpp.i
 
 mcrouter/routes/LatestRoute.s: mcrouter/routes/LatestRoute.cpp.s
@@ -2697,7 +2697,7 @@ mcrouter/routes/LatestRoute.s: mcrouter/routes/LatestRoute.cpp.s
 
 # target to generate assembly for a file
 mcrouter/routes/LatestRoute.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LatestRoute.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LatestRoute.cpp.s
 .PHONY : mcrouter/routes/LatestRoute.cpp.s
 
 mcrouter/routes/LoggingRoute.o: mcrouter/routes/LoggingRoute.cpp.o
@@ -2705,7 +2705,7 @@ mcrouter/routes/LoggingRoute.o: mcrouter/routes/LoggingRoute.cpp.o
 
 # target to build an object file
 mcrouter/routes/LoggingRoute.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LoggingRoute.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LoggingRoute.cpp.o
 .PHONY : mcrouter/routes/LoggingRoute.cpp.o
 
 mcrouter/routes/LoggingRoute.i: mcrouter/routes/LoggingRoute.cpp.i
@@ -2713,7 +2713,7 @@ mcrouter/routes/LoggingRoute.i: mcrouter/routes/LoggingRoute.cpp.i
 
 # target to preprocess a source file
 mcrouter/routes/LoggingRoute.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LoggingRoute.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LoggingRoute.cpp.i
 .PHONY : mcrouter/routes/LoggingRoute.cpp.i
 
 mcrouter/routes/LoggingRoute.s: mcrouter/routes/LoggingRoute.cpp.s
@@ -2721,7 +2721,7 @@ mcrouter/routes/LoggingRoute.s: mcrouter/routes/LoggingRoute.cpp.s
 
 # target to generate assembly for a file
 mcrouter/routes/LoggingRoute.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LoggingRoute.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LoggingRoute.cpp.s
 .PHONY : mcrouter/routes/LoggingRoute.cpp.s
 
 mcrouter/routes/McExtraRouteHandleProvider.o: mcrouter/routes/McExtraRouteHandleProvider.cpp.o
@@ -2729,7 +2729,7 @@ mcrouter/routes/McExtraRouteHandleProvider.o: mcrouter/routes/McExtraRouteHandle
 
 # target to build an object file
 mcrouter/routes/McExtraRouteHandleProvider.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McExtraRouteHandleProvider.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McExtraRouteHandleProvider.cpp.o
 .PHONY : mcrouter/routes/McExtraRouteHandleProvider.cpp.o
 
 mcrouter/routes/McExtraRouteHandleProvider.i: mcrouter/routes/McExtraRouteHandleProvider.cpp.i
@@ -2737,7 +2737,7 @@ mcrouter/routes/McExtraRouteHandleProvider.i: mcrouter/routes/McExtraRouteHandle
 
 # target to preprocess a source file
 mcrouter/routes/McExtraRouteHandleProvider.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McExtraRouteHandleProvider.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McExtraRouteHandleProvider.cpp.i
 .PHONY : mcrouter/routes/McExtraRouteHandleProvider.cpp.i
 
 mcrouter/routes/McExtraRouteHandleProvider.s: mcrouter/routes/McExtraRouteHandleProvider.cpp.s
@@ -2745,7 +2745,7 @@ mcrouter/routes/McExtraRouteHandleProvider.s: mcrouter/routes/McExtraRouteHandle
 
 # target to generate assembly for a file
 mcrouter/routes/McExtraRouteHandleProvider.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McExtraRouteHandleProvider.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McExtraRouteHandleProvider.cpp.s
 .PHONY : mcrouter/routes/McExtraRouteHandleProvider.cpp.s
 
 mcrouter/routes/McImportResolver.o: mcrouter/routes/McImportResolver.cpp.o
@@ -2753,7 +2753,7 @@ mcrouter/routes/McImportResolver.o: mcrouter/routes/McImportResolver.cpp.o
 
 # target to build an object file
 mcrouter/routes/McImportResolver.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McImportResolver.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McImportResolver.cpp.o
 .PHONY : mcrouter/routes/McImportResolver.cpp.o
 
 mcrouter/routes/McImportResolver.i: mcrouter/routes/McImportResolver.cpp.i
@@ -2761,7 +2761,7 @@ mcrouter/routes/McImportResolver.i: mcrouter/routes/McImportResolver.cpp.i
 
 # target to preprocess a source file
 mcrouter/routes/McImportResolver.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McImportResolver.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McImportResolver.cpp.i
 .PHONY : mcrouter/routes/McImportResolver.cpp.i
 
 mcrouter/routes/McImportResolver.s: mcrouter/routes/McImportResolver.cpp.s
@@ -2769,7 +2769,7 @@ mcrouter/routes/McImportResolver.s: mcrouter/routes/McImportResolver.cpp.s
 
 # target to generate assembly for a file
 mcrouter/routes/McImportResolver.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McImportResolver.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McImportResolver.cpp.s
 .PHONY : mcrouter/routes/McImportResolver.cpp.s
 
 mcrouter/routes/McRouteHandleProvider.o: mcrouter/routes/McRouteHandleProvider.cpp.o
@@ -2777,7 +2777,7 @@ mcrouter/routes/McRouteHandleProvider.o: mcrouter/routes/McRouteHandleProvider.c
 
 # target to build an object file
 mcrouter/routes/McRouteHandleProvider.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McRouteHandleProvider.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McRouteHandleProvider.cpp.o
 .PHONY : mcrouter/routes/McRouteHandleProvider.cpp.o
 
 mcrouter/routes/McRouteHandleProvider.i: mcrouter/routes/McRouteHandleProvider.cpp.i
@@ -2785,7 +2785,7 @@ mcrouter/routes/McRouteHandleProvider.i: mcrouter/routes/McRouteHandleProvider.c
 
 # target to preprocess a source file
 mcrouter/routes/McRouteHandleProvider.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McRouteHandleProvider.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McRouteHandleProvider.cpp.i
 .PHONY : mcrouter/routes/McRouteHandleProvider.cpp.i
 
 mcrouter/routes/McRouteHandleProvider.s: mcrouter/routes/McRouteHandleProvider.cpp.s
@@ -2793,7 +2793,7 @@ mcrouter/routes/McRouteHandleProvider.s: mcrouter/routes/McRouteHandleProvider.c
 
 # target to generate assembly for a file
 mcrouter/routes/McRouteHandleProvider.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McRouteHandleProvider.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McRouteHandleProvider.cpp.s
 .PHONY : mcrouter/routes/McRouteHandleProvider.cpp.s
 
 mcrouter/routes/MigrateRoute.o: mcrouter/routes/MigrateRoute.cpp.o
@@ -2801,7 +2801,7 @@ mcrouter/routes/MigrateRoute.o: mcrouter/routes/MigrateRoute.cpp.o
 
 # target to build an object file
 mcrouter/routes/MigrateRoute.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MigrateRoute.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MigrateRoute.cpp.o
 .PHONY : mcrouter/routes/MigrateRoute.cpp.o
 
 mcrouter/routes/MigrateRoute.i: mcrouter/routes/MigrateRoute.cpp.i
@@ -2809,7 +2809,7 @@ mcrouter/routes/MigrateRoute.i: mcrouter/routes/MigrateRoute.cpp.i
 
 # target to preprocess a source file
 mcrouter/routes/MigrateRoute.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MigrateRoute.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MigrateRoute.cpp.i
 .PHONY : mcrouter/routes/MigrateRoute.cpp.i
 
 mcrouter/routes/MigrateRoute.s: mcrouter/routes/MigrateRoute.cpp.s
@@ -2817,7 +2817,7 @@ mcrouter/routes/MigrateRoute.s: mcrouter/routes/MigrateRoute.cpp.s
 
 # target to generate assembly for a file
 mcrouter/routes/MigrateRoute.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MigrateRoute.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MigrateRoute.cpp.s
 .PHONY : mcrouter/routes/MigrateRoute.cpp.s
 
 mcrouter/routes/MissFailoverRoute.o: mcrouter/routes/MissFailoverRoute.cpp.o
@@ -2825,7 +2825,7 @@ mcrouter/routes/MissFailoverRoute.o: mcrouter/routes/MissFailoverRoute.cpp.o
 
 # target to build an object file
 mcrouter/routes/MissFailoverRoute.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MissFailoverRoute.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MissFailoverRoute.cpp.o
 .PHONY : mcrouter/routes/MissFailoverRoute.cpp.o
 
 mcrouter/routes/MissFailoverRoute.i: mcrouter/routes/MissFailoverRoute.cpp.i
@@ -2833,7 +2833,7 @@ mcrouter/routes/MissFailoverRoute.i: mcrouter/routes/MissFailoverRoute.cpp.i
 
 # target to preprocess a source file
 mcrouter/routes/MissFailoverRoute.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MissFailoverRoute.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MissFailoverRoute.cpp.i
 .PHONY : mcrouter/routes/MissFailoverRoute.cpp.i
 
 mcrouter/routes/MissFailoverRoute.s: mcrouter/routes/MissFailoverRoute.cpp.s
@@ -2841,7 +2841,7 @@ mcrouter/routes/MissFailoverRoute.s: mcrouter/routes/MissFailoverRoute.cpp.s
 
 # target to generate assembly for a file
 mcrouter/routes/MissFailoverRoute.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MissFailoverRoute.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MissFailoverRoute.cpp.s
 .PHONY : mcrouter/routes/MissFailoverRoute.cpp.s
 
 mcrouter/routes/ModifyExptimeRoute.o: mcrouter/routes/ModifyExptimeRoute.cpp.o
@@ -2849,7 +2849,7 @@ mcrouter/routes/ModifyExptimeRoute.o: mcrouter/routes/ModifyExptimeRoute.cpp.o
 
 # target to build an object file
 mcrouter/routes/ModifyExptimeRoute.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyExptimeRoute.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyExptimeRoute.cpp.o
 .PHONY : mcrouter/routes/ModifyExptimeRoute.cpp.o
 
 mcrouter/routes/ModifyExptimeRoute.i: mcrouter/routes/ModifyExptimeRoute.cpp.i
@@ -2857,7 +2857,7 @@ mcrouter/routes/ModifyExptimeRoute.i: mcrouter/routes/ModifyExptimeRoute.cpp.i
 
 # target to preprocess a source file
 mcrouter/routes/ModifyExptimeRoute.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyExptimeRoute.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyExptimeRoute.cpp.i
 .PHONY : mcrouter/routes/ModifyExptimeRoute.cpp.i
 
 mcrouter/routes/ModifyExptimeRoute.s: mcrouter/routes/ModifyExptimeRoute.cpp.s
@@ -2865,7 +2865,7 @@ mcrouter/routes/ModifyExptimeRoute.s: mcrouter/routes/ModifyExptimeRoute.cpp.s
 
 # target to generate assembly for a file
 mcrouter/routes/ModifyExptimeRoute.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyExptimeRoute.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyExptimeRoute.cpp.s
 .PHONY : mcrouter/routes/ModifyExptimeRoute.cpp.s
 
 mcrouter/routes/ModifyKeyRoute.o: mcrouter/routes/ModifyKeyRoute.cpp.o
@@ -2873,7 +2873,7 @@ mcrouter/routes/ModifyKeyRoute.o: mcrouter/routes/ModifyKeyRoute.cpp.o
 
 # target to build an object file
 mcrouter/routes/ModifyKeyRoute.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyKeyRoute.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyKeyRoute.cpp.o
 .PHONY : mcrouter/routes/ModifyKeyRoute.cpp.o
 
 mcrouter/routes/ModifyKeyRoute.i: mcrouter/routes/ModifyKeyRoute.cpp.i
@@ -2881,7 +2881,7 @@ mcrouter/routes/ModifyKeyRoute.i: mcrouter/routes/ModifyKeyRoute.cpp.i
 
 # target to preprocess a source file
 mcrouter/routes/ModifyKeyRoute.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyKeyRoute.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyKeyRoute.cpp.i
 .PHONY : mcrouter/routes/ModifyKeyRoute.cpp.i
 
 mcrouter/routes/ModifyKeyRoute.s: mcrouter/routes/ModifyKeyRoute.cpp.s
@@ -2889,7 +2889,7 @@ mcrouter/routes/ModifyKeyRoute.s: mcrouter/routes/ModifyKeyRoute.cpp.s
 
 # target to generate assembly for a file
 mcrouter/routes/ModifyKeyRoute.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyKeyRoute.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyKeyRoute.cpp.s
 .PHONY : mcrouter/routes/ModifyKeyRoute.cpp.s
 
 mcrouter/routes/NullRoute.o: mcrouter/routes/NullRoute.cpp.o
@@ -2897,7 +2897,7 @@ mcrouter/routes/NullRoute.o: mcrouter/routes/NullRoute.cpp.o
 
 # target to build an object file
 mcrouter/routes/NullRoute.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/NullRoute.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/NullRoute.cpp.o
 .PHONY : mcrouter/routes/NullRoute.cpp.o
 
 mcrouter/routes/NullRoute.i: mcrouter/routes/NullRoute.cpp.i
@@ -2905,7 +2905,7 @@ mcrouter/routes/NullRoute.i: mcrouter/routes/NullRoute.cpp.i
 
 # target to preprocess a source file
 mcrouter/routes/NullRoute.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/NullRoute.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/NullRoute.cpp.i
 .PHONY : mcrouter/routes/NullRoute.cpp.i
 
 mcrouter/routes/NullRoute.s: mcrouter/routes/NullRoute.cpp.s
@@ -2913,7 +2913,7 @@ mcrouter/routes/NullRoute.s: mcrouter/routes/NullRoute.cpp.s
 
 # target to generate assembly for a file
 mcrouter/routes/NullRoute.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/NullRoute.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/NullRoute.cpp.s
 .PHONY : mcrouter/routes/NullRoute.cpp.s
 
 mcrouter/routes/OperationSelectorRoute.o: mcrouter/routes/OperationSelectorRoute.cpp.o
@@ -2921,7 +2921,7 @@ mcrouter/routes/OperationSelectorRoute.o: mcrouter/routes/OperationSelectorRoute
 
 # target to build an object file
 mcrouter/routes/OperationSelectorRoute.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/OperationSelectorRoute.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/OperationSelectorRoute.cpp.o
 .PHONY : mcrouter/routes/OperationSelectorRoute.cpp.o
 
 mcrouter/routes/OperationSelectorRoute.i: mcrouter/routes/OperationSelectorRoute.cpp.i
@@ -2929,7 +2929,7 @@ mcrouter/routes/OperationSelectorRoute.i: mcrouter/routes/OperationSelectorRoute
 
 # target to preprocess a source file
 mcrouter/routes/OperationSelectorRoute.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/OperationSelectorRoute.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/OperationSelectorRoute.cpp.i
 .PHONY : mcrouter/routes/OperationSelectorRoute.cpp.i
 
 mcrouter/routes/OperationSelectorRoute.s: mcrouter/routes/OperationSelectorRoute.cpp.s
@@ -2937,7 +2937,7 @@ mcrouter/routes/OperationSelectorRoute.s: mcrouter/routes/OperationSelectorRoute
 
 # target to generate assembly for a file
 mcrouter/routes/OperationSelectorRoute.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/OperationSelectorRoute.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/OperationSelectorRoute.cpp.s
 .PHONY : mcrouter/routes/OperationSelectorRoute.cpp.s
 
 mcrouter/routes/OutstandingLimitRoute.o: mcrouter/routes/OutstandingLimitRoute.cpp.o
@@ -2945,7 +2945,7 @@ mcrouter/routes/OutstandingLimitRoute.o: mcrouter/routes/OutstandingLimitRoute.c
 
 # target to build an object file
 mcrouter/routes/OutstandingLimitRoute.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/OutstandingLimitRoute.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/OutstandingLimitRoute.cpp.o
 .PHONY : mcrouter/routes/OutstandingLimitRoute.cpp.o
 
 mcrouter/routes/OutstandingLimitRoute.i: mcrouter/routes/OutstandingLimitRoute.cpp.i
@@ -2953,7 +2953,7 @@ mcrouter/routes/OutstandingLimitRoute.i: mcrouter/routes/OutstandingLimitRoute.c
 
 # target to preprocess a source file
 mcrouter/routes/OutstandingLimitRoute.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/OutstandingLimitRoute.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/OutstandingLimitRoute.cpp.i
 .PHONY : mcrouter/routes/OutstandingLimitRoute.cpp.i
 
 mcrouter/routes/OutstandingLimitRoute.s: mcrouter/routes/OutstandingLimitRoute.cpp.s
@@ -2961,7 +2961,7 @@ mcrouter/routes/OutstandingLimitRoute.s: mcrouter/routes/OutstandingLimitRoute.c
 
 # target to generate assembly for a file
 mcrouter/routes/OutstandingLimitRoute.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/OutstandingLimitRoute.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/OutstandingLimitRoute.cpp.s
 .PHONY : mcrouter/routes/OutstandingLimitRoute.cpp.s
 
 mcrouter/routes/PrefixSelectorRoute.o: mcrouter/routes/PrefixSelectorRoute.cpp.o
@@ -2969,7 +2969,7 @@ mcrouter/routes/PrefixSelectorRoute.o: mcrouter/routes/PrefixSelectorRoute.cpp.o
 
 # target to build an object file
 mcrouter/routes/PrefixSelectorRoute.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/PrefixSelectorRoute.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/PrefixSelectorRoute.cpp.o
 .PHONY : mcrouter/routes/PrefixSelectorRoute.cpp.o
 
 mcrouter/routes/PrefixSelectorRoute.i: mcrouter/routes/PrefixSelectorRoute.cpp.i
@@ -2977,7 +2977,7 @@ mcrouter/routes/PrefixSelectorRoute.i: mcrouter/routes/PrefixSelectorRoute.cpp.i
 
 # target to preprocess a source file
 mcrouter/routes/PrefixSelectorRoute.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/PrefixSelectorRoute.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/PrefixSelectorRoute.cpp.i
 .PHONY : mcrouter/routes/PrefixSelectorRoute.cpp.i
 
 mcrouter/routes/PrefixSelectorRoute.s: mcrouter/routes/PrefixSelectorRoute.cpp.s
@@ -2985,7 +2985,7 @@ mcrouter/routes/PrefixSelectorRoute.s: mcrouter/routes/PrefixSelectorRoute.cpp.s
 
 # target to generate assembly for a file
 mcrouter/routes/PrefixSelectorRoute.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/PrefixSelectorRoute.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/PrefixSelectorRoute.cpp.s
 .PHONY : mcrouter/routes/PrefixSelectorRoute.cpp.s
 
 mcrouter/routes/ProxyRoute.o: mcrouter/routes/ProxyRoute.cpp.o
@@ -2993,7 +2993,7 @@ mcrouter/routes/ProxyRoute.o: mcrouter/routes/ProxyRoute.cpp.o
 
 # target to build an object file
 mcrouter/routes/ProxyRoute.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ProxyRoute.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ProxyRoute.cpp.o
 .PHONY : mcrouter/routes/ProxyRoute.cpp.o
 
 mcrouter/routes/ProxyRoute.i: mcrouter/routes/ProxyRoute.cpp.i
@@ -3001,7 +3001,7 @@ mcrouter/routes/ProxyRoute.i: mcrouter/routes/ProxyRoute.cpp.i
 
 # target to preprocess a source file
 mcrouter/routes/ProxyRoute.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ProxyRoute.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ProxyRoute.cpp.i
 .PHONY : mcrouter/routes/ProxyRoute.cpp.i
 
 mcrouter/routes/ProxyRoute.s: mcrouter/routes/ProxyRoute.cpp.s
@@ -3009,7 +3009,7 @@ mcrouter/routes/ProxyRoute.s: mcrouter/routes/ProxyRoute.cpp.s
 
 # target to generate assembly for a file
 mcrouter/routes/ProxyRoute.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ProxyRoute.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ProxyRoute.cpp.s
 .PHONY : mcrouter/routes/ProxyRoute.cpp.s
 
 mcrouter/routes/RandomRoute.o: mcrouter/routes/RandomRoute.cpp.o
@@ -3017,7 +3017,7 @@ mcrouter/routes/RandomRoute.o: mcrouter/routes/RandomRoute.cpp.o
 
 # target to build an object file
 mcrouter/routes/RandomRoute.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RandomRoute.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RandomRoute.cpp.o
 .PHONY : mcrouter/routes/RandomRoute.cpp.o
 
 mcrouter/routes/RandomRoute.i: mcrouter/routes/RandomRoute.cpp.i
@@ -3025,7 +3025,7 @@ mcrouter/routes/RandomRoute.i: mcrouter/routes/RandomRoute.cpp.i
 
 # target to preprocess a source file
 mcrouter/routes/RandomRoute.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RandomRoute.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RandomRoute.cpp.i
 .PHONY : mcrouter/routes/RandomRoute.cpp.i
 
 mcrouter/routes/RandomRoute.s: mcrouter/routes/RandomRoute.cpp.s
@@ -3033,7 +3033,7 @@ mcrouter/routes/RandomRoute.s: mcrouter/routes/RandomRoute.cpp.s
 
 # target to generate assembly for a file
 mcrouter/routes/RandomRoute.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RandomRoute.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RandomRoute.cpp.s
 .PHONY : mcrouter/routes/RandomRoute.cpp.s
 
 mcrouter/routes/RateLimitRoute.o: mcrouter/routes/RateLimitRoute.cpp.o
@@ -3041,7 +3041,7 @@ mcrouter/routes/RateLimitRoute.o: mcrouter/routes/RateLimitRoute.cpp.o
 
 # target to build an object file
 mcrouter/routes/RateLimitRoute.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimitRoute.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimitRoute.cpp.o
 .PHONY : mcrouter/routes/RateLimitRoute.cpp.o
 
 mcrouter/routes/RateLimitRoute.i: mcrouter/routes/RateLimitRoute.cpp.i
@@ -3049,7 +3049,7 @@ mcrouter/routes/RateLimitRoute.i: mcrouter/routes/RateLimitRoute.cpp.i
 
 # target to preprocess a source file
 mcrouter/routes/RateLimitRoute.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimitRoute.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimitRoute.cpp.i
 .PHONY : mcrouter/routes/RateLimitRoute.cpp.i
 
 mcrouter/routes/RateLimitRoute.s: mcrouter/routes/RateLimitRoute.cpp.s
@@ -3057,7 +3057,7 @@ mcrouter/routes/RateLimitRoute.s: mcrouter/routes/RateLimitRoute.cpp.s
 
 # target to generate assembly for a file
 mcrouter/routes/RateLimitRoute.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimitRoute.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimitRoute.cpp.s
 .PHONY : mcrouter/routes/RateLimitRoute.cpp.s
 
 mcrouter/routes/RateLimiter.o: mcrouter/routes/RateLimiter.cpp.o
@@ -3065,7 +3065,7 @@ mcrouter/routes/RateLimiter.o: mcrouter/routes/RateLimiter.cpp.o
 
 # target to build an object file
 mcrouter/routes/RateLimiter.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimiter.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimiter.cpp.o
 .PHONY : mcrouter/routes/RateLimiter.cpp.o
 
 mcrouter/routes/RateLimiter.i: mcrouter/routes/RateLimiter.cpp.i
@@ -3073,7 +3073,7 @@ mcrouter/routes/RateLimiter.i: mcrouter/routes/RateLimiter.cpp.i
 
 # target to preprocess a source file
 mcrouter/routes/RateLimiter.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimiter.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimiter.cpp.i
 .PHONY : mcrouter/routes/RateLimiter.cpp.i
 
 mcrouter/routes/RateLimiter.s: mcrouter/routes/RateLimiter.cpp.s
@@ -3081,7 +3081,7 @@ mcrouter/routes/RateLimiter.s: mcrouter/routes/RateLimiter.cpp.s
 
 # target to generate assembly for a file
 mcrouter/routes/RateLimiter.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimiter.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimiter.cpp.s
 .PHONY : mcrouter/routes/RateLimiter.cpp.s
 
 mcrouter/routes/RouteHandleMap.o: mcrouter/routes/RouteHandleMap.cpp.o
@@ -3089,7 +3089,7 @@ mcrouter/routes/RouteHandleMap.o: mcrouter/routes/RouteHandleMap.cpp.o
 
 # target to build an object file
 mcrouter/routes/RouteHandleMap.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RouteHandleMap.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RouteHandleMap.cpp.o
 .PHONY : mcrouter/routes/RouteHandleMap.cpp.o
 
 mcrouter/routes/RouteHandleMap.i: mcrouter/routes/RouteHandleMap.cpp.i
@@ -3097,7 +3097,7 @@ mcrouter/routes/RouteHandleMap.i: mcrouter/routes/RouteHandleMap.cpp.i
 
 # target to preprocess a source file
 mcrouter/routes/RouteHandleMap.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RouteHandleMap.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RouteHandleMap.cpp.i
 .PHONY : mcrouter/routes/RouteHandleMap.cpp.i
 
 mcrouter/routes/RouteHandleMap.s: mcrouter/routes/RouteHandleMap.cpp.s
@@ -3105,7 +3105,7 @@ mcrouter/routes/RouteHandleMap.s: mcrouter/routes/RouteHandleMap.cpp.s
 
 # target to generate assembly for a file
 mcrouter/routes/RouteHandleMap.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RouteHandleMap.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RouteHandleMap.cpp.s
 .PHONY : mcrouter/routes/RouteHandleMap.cpp.s
 
 mcrouter/routes/RoutePolicyMap.o: mcrouter/routes/RoutePolicyMap.cpp.o
@@ -3113,7 +3113,7 @@ mcrouter/routes/RoutePolicyMap.o: mcrouter/routes/RoutePolicyMap.cpp.o
 
 # target to build an object file
 mcrouter/routes/RoutePolicyMap.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RoutePolicyMap.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RoutePolicyMap.cpp.o
 .PHONY : mcrouter/routes/RoutePolicyMap.cpp.o
 
 mcrouter/routes/RoutePolicyMap.i: mcrouter/routes/RoutePolicyMap.cpp.i
@@ -3121,7 +3121,7 @@ mcrouter/routes/RoutePolicyMap.i: mcrouter/routes/RoutePolicyMap.cpp.i
 
 # target to preprocess a source file
 mcrouter/routes/RoutePolicyMap.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RoutePolicyMap.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RoutePolicyMap.cpp.i
 .PHONY : mcrouter/routes/RoutePolicyMap.cpp.i
 
 mcrouter/routes/RoutePolicyMap.s: mcrouter/routes/RoutePolicyMap.cpp.s
@@ -3129,7 +3129,7 @@ mcrouter/routes/RoutePolicyMap.s: mcrouter/routes/RoutePolicyMap.cpp.s
 
 # target to generate assembly for a file
 mcrouter/routes/RoutePolicyMap.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RoutePolicyMap.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RoutePolicyMap.cpp.s
 .PHONY : mcrouter/routes/RoutePolicyMap.cpp.s
 
 mcrouter/routes/ShadowRoute.o: mcrouter/routes/ShadowRoute.cpp.o
@@ -3137,7 +3137,7 @@ mcrouter/routes/ShadowRoute.o: mcrouter/routes/ShadowRoute.cpp.o
 
 # target to build an object file
 mcrouter/routes/ShadowRoute.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShadowRoute.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShadowRoute.cpp.o
 .PHONY : mcrouter/routes/ShadowRoute.cpp.o
 
 mcrouter/routes/ShadowRoute.i: mcrouter/routes/ShadowRoute.cpp.i
@@ -3145,7 +3145,7 @@ mcrouter/routes/ShadowRoute.i: mcrouter/routes/ShadowRoute.cpp.i
 
 # target to preprocess a source file
 mcrouter/routes/ShadowRoute.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShadowRoute.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShadowRoute.cpp.i
 .PHONY : mcrouter/routes/ShadowRoute.cpp.i
 
 mcrouter/routes/ShadowRoute.s: mcrouter/routes/ShadowRoute.cpp.s
@@ -3153,7 +3153,7 @@ mcrouter/routes/ShadowRoute.s: mcrouter/routes/ShadowRoute.cpp.s
 
 # target to generate assembly for a file
 mcrouter/routes/ShadowRoute.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShadowRoute.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShadowRoute.cpp.s
 .PHONY : mcrouter/routes/ShadowRoute.cpp.s
 
 mcrouter/routes/ShardHashFunc.o: mcrouter/routes/ShardHashFunc.cpp.o
@@ -3161,7 +3161,7 @@ mcrouter/routes/ShardHashFunc.o: mcrouter/routes/ShardHashFunc.cpp.o
 
 # target to build an object file
 mcrouter/routes/ShardHashFunc.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardHashFunc.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardHashFunc.cpp.o
 .PHONY : mcrouter/routes/ShardHashFunc.cpp.o
 
 mcrouter/routes/ShardHashFunc.i: mcrouter/routes/ShardHashFunc.cpp.i
@@ -3169,7 +3169,7 @@ mcrouter/routes/ShardHashFunc.i: mcrouter/routes/ShardHashFunc.cpp.i
 
 # target to preprocess a source file
 mcrouter/routes/ShardHashFunc.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardHashFunc.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardHashFunc.cpp.i
 .PHONY : mcrouter/routes/ShardHashFunc.cpp.i
 
 mcrouter/routes/ShardHashFunc.s: mcrouter/routes/ShardHashFunc.cpp.s
@@ -3177,7 +3177,7 @@ mcrouter/routes/ShardHashFunc.s: mcrouter/routes/ShardHashFunc.cpp.s
 
 # target to generate assembly for a file
 mcrouter/routes/ShardHashFunc.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardHashFunc.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardHashFunc.cpp.s
 .PHONY : mcrouter/routes/ShardHashFunc.cpp.s
 
 mcrouter/routes/ShardSplitRoute.o: mcrouter/routes/ShardSplitRoute.cpp.o
@@ -3185,7 +3185,7 @@ mcrouter/routes/ShardSplitRoute.o: mcrouter/routes/ShardSplitRoute.cpp.o
 
 # target to build an object file
 mcrouter/routes/ShardSplitRoute.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitRoute.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitRoute.cpp.o
 .PHONY : mcrouter/routes/ShardSplitRoute.cpp.o
 
 mcrouter/routes/ShardSplitRoute.i: mcrouter/routes/ShardSplitRoute.cpp.i
@@ -3193,7 +3193,7 @@ mcrouter/routes/ShardSplitRoute.i: mcrouter/routes/ShardSplitRoute.cpp.i
 
 # target to preprocess a source file
 mcrouter/routes/ShardSplitRoute.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitRoute.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitRoute.cpp.i
 .PHONY : mcrouter/routes/ShardSplitRoute.cpp.i
 
 mcrouter/routes/ShardSplitRoute.s: mcrouter/routes/ShardSplitRoute.cpp.s
@@ -3201,7 +3201,7 @@ mcrouter/routes/ShardSplitRoute.s: mcrouter/routes/ShardSplitRoute.cpp.s
 
 # target to generate assembly for a file
 mcrouter/routes/ShardSplitRoute.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitRoute.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitRoute.cpp.s
 .PHONY : mcrouter/routes/ShardSplitRoute.cpp.s
 
 mcrouter/routes/ShardSplitter.o: mcrouter/routes/ShardSplitter.cpp.o
@@ -3209,7 +3209,7 @@ mcrouter/routes/ShardSplitter.o: mcrouter/routes/ShardSplitter.cpp.o
 
 # target to build an object file
 mcrouter/routes/ShardSplitter.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitter.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitter.cpp.o
 .PHONY : mcrouter/routes/ShardSplitter.cpp.o
 
 mcrouter/routes/ShardSplitter.i: mcrouter/routes/ShardSplitter.cpp.i
@@ -3217,7 +3217,7 @@ mcrouter/routes/ShardSplitter.i: mcrouter/routes/ShardSplitter.cpp.i
 
 # target to preprocess a source file
 mcrouter/routes/ShardSplitter.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitter.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitter.cpp.i
 .PHONY : mcrouter/routes/ShardSplitter.cpp.i
 
 mcrouter/routes/ShardSplitter.s: mcrouter/routes/ShardSplitter.cpp.s
@@ -3225,7 +3225,7 @@ mcrouter/routes/ShardSplitter.s: mcrouter/routes/ShardSplitter.cpp.s
 
 # target to generate assembly for a file
 mcrouter/routes/ShardSplitter.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitter.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitter.cpp.s
 .PHONY : mcrouter/routes/ShardSplitter.cpp.s
 
 mcrouter/routes/SlowWarmUpRoute.o: mcrouter/routes/SlowWarmUpRoute.cpp.o
@@ -3233,7 +3233,7 @@ mcrouter/routes/SlowWarmUpRoute.o: mcrouter/routes/SlowWarmUpRoute.cpp.o
 
 # target to build an object file
 mcrouter/routes/SlowWarmUpRoute.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRoute.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRoute.cpp.o
 .PHONY : mcrouter/routes/SlowWarmUpRoute.cpp.o
 
 mcrouter/routes/SlowWarmUpRoute.i: mcrouter/routes/SlowWarmUpRoute.cpp.i
@@ -3241,7 +3241,7 @@ mcrouter/routes/SlowWarmUpRoute.i: mcrouter/routes/SlowWarmUpRoute.cpp.i
 
 # target to preprocess a source file
 mcrouter/routes/SlowWarmUpRoute.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRoute.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRoute.cpp.i
 .PHONY : mcrouter/routes/SlowWarmUpRoute.cpp.i
 
 mcrouter/routes/SlowWarmUpRoute.s: mcrouter/routes/SlowWarmUpRoute.cpp.s
@@ -3249,7 +3249,7 @@ mcrouter/routes/SlowWarmUpRoute.s: mcrouter/routes/SlowWarmUpRoute.cpp.s
 
 # target to generate assembly for a file
 mcrouter/routes/SlowWarmUpRoute.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRoute.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRoute.cpp.s
 .PHONY : mcrouter/routes/SlowWarmUpRoute.cpp.s
 
 mcrouter/routes/SlowWarmUpRouteSettings.o: mcrouter/routes/SlowWarmUpRouteSettings.cpp.o
@@ -3257,7 +3257,7 @@ mcrouter/routes/SlowWarmUpRouteSettings.o: mcrouter/routes/SlowWarmUpRouteSettin
 
 # target to build an object file
 mcrouter/routes/SlowWarmUpRouteSettings.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRouteSettings.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRouteSettings.cpp.o
 .PHONY : mcrouter/routes/SlowWarmUpRouteSettings.cpp.o
 
 mcrouter/routes/SlowWarmUpRouteSettings.i: mcrouter/routes/SlowWarmUpRouteSettings.cpp.i
@@ -3265,7 +3265,7 @@ mcrouter/routes/SlowWarmUpRouteSettings.i: mcrouter/routes/SlowWarmUpRouteSettin
 
 # target to preprocess a source file
 mcrouter/routes/SlowWarmUpRouteSettings.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRouteSettings.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRouteSettings.cpp.i
 .PHONY : mcrouter/routes/SlowWarmUpRouteSettings.cpp.i
 
 mcrouter/routes/SlowWarmUpRouteSettings.s: mcrouter/routes/SlowWarmUpRouteSettings.cpp.s
@@ -3273,7 +3273,7 @@ mcrouter/routes/SlowWarmUpRouteSettings.s: mcrouter/routes/SlowWarmUpRouteSettin
 
 # target to generate assembly for a file
 mcrouter/routes/SlowWarmUpRouteSettings.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRouteSettings.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRouteSettings.cpp.s
 .PHONY : mcrouter/routes/SlowWarmUpRouteSettings.cpp.s
 
 mcrouter/routes/WarmUpRoute.o: mcrouter/routes/WarmUpRoute.cpp.o
@@ -3281,7 +3281,7 @@ mcrouter/routes/WarmUpRoute.o: mcrouter/routes/WarmUpRoute.cpp.o
 
 # target to build an object file
 mcrouter/routes/WarmUpRoute.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/WarmUpRoute.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/WarmUpRoute.cpp.o
 .PHONY : mcrouter/routes/WarmUpRoute.cpp.o
 
 mcrouter/routes/WarmUpRoute.i: mcrouter/routes/WarmUpRoute.cpp.i
@@ -3289,7 +3289,7 @@ mcrouter/routes/WarmUpRoute.i: mcrouter/routes/WarmUpRoute.cpp.i
 
 # target to preprocess a source file
 mcrouter/routes/WarmUpRoute.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/WarmUpRoute.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/WarmUpRoute.cpp.i
 .PHONY : mcrouter/routes/WarmUpRoute.cpp.i
 
 mcrouter/routes/WarmUpRoute.s: mcrouter/routes/WarmUpRoute.cpp.s
@@ -3297,7 +3297,7 @@ mcrouter/routes/WarmUpRoute.s: mcrouter/routes/WarmUpRoute.cpp.s
 
 # target to generate assembly for a file
 mcrouter/routes/WarmUpRoute.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/WarmUpRoute.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/WarmUpRoute.cpp.s
 .PHONY : mcrouter/routes/WarmUpRoute.cpp.s
 
 mcrouter/server.o: mcrouter/server.cpp.o
@@ -3305,7 +3305,7 @@ mcrouter/server.o: mcrouter/server.cpp.o
 
 # target to build an object file
 mcrouter/server.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/server.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/server.cpp.o
 .PHONY : mcrouter/server.cpp.o
 
 mcrouter/server.i: mcrouter/server.cpp.i
@@ -3313,7 +3313,7 @@ mcrouter/server.i: mcrouter/server.cpp.i
 
 # target to preprocess a source file
 mcrouter/server.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/server.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/server.cpp.i
 .PHONY : mcrouter/server.cpp.i
 
 mcrouter/server.s: mcrouter/server.cpp.s
@@ -3321,7 +3321,7 @@ mcrouter/server.s: mcrouter/server.cpp.s
 
 # target to generate assembly for a file
 mcrouter/server.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/server.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/server.cpp.s
 .PHONY : mcrouter/server.cpp.s
 
 mcrouter/stats.o: mcrouter/stats.cpp.o
@@ -3329,7 +3329,7 @@ mcrouter/stats.o: mcrouter/stats.cpp.o
 
 # target to build an object file
 mcrouter/stats.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/stats.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/stats.cpp.o
 .PHONY : mcrouter/stats.cpp.o
 
 mcrouter/stats.i: mcrouter/stats.cpp.i
@@ -3337,7 +3337,7 @@ mcrouter/stats.i: mcrouter/stats.cpp.i
 
 # target to preprocess a source file
 mcrouter/stats.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/stats.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/stats.cpp.i
 .PHONY : mcrouter/stats.cpp.i
 
 mcrouter/stats.s: mcrouter/stats.cpp.s
@@ -3345,7 +3345,7 @@ mcrouter/stats.s: mcrouter/stats.cpp.s
 
 # target to generate assembly for a file
 mcrouter/stats.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/stats.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/stats.cpp.s
 .PHONY : mcrouter/stats.cpp.s
 
 mcrouter/tools/mcpiper/AnsiColorCodeStream.o: mcrouter/tools/mcpiper/AnsiColorCodeStream.cpp.o
@@ -3353,7 +3353,7 @@ mcrouter/tools/mcpiper/AnsiColorCodeStream.o: mcrouter/tools/mcpiper/AnsiColorCo
 
 # target to build an object file
 mcrouter/tools/mcpiper/AnsiColorCodeStream.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/AnsiColorCodeStream.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/AnsiColorCodeStream.cpp.o
 .PHONY : mcrouter/tools/mcpiper/AnsiColorCodeStream.cpp.o
 
 mcrouter/tools/mcpiper/AnsiColorCodeStream.i: mcrouter/tools/mcpiper/AnsiColorCodeStream.cpp.i
@@ -3361,7 +3361,7 @@ mcrouter/tools/mcpiper/AnsiColorCodeStream.i: mcrouter/tools/mcpiper/AnsiColorCo
 
 # target to preprocess a source file
 mcrouter/tools/mcpiper/AnsiColorCodeStream.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/AnsiColorCodeStream.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/AnsiColorCodeStream.cpp.i
 .PHONY : mcrouter/tools/mcpiper/AnsiColorCodeStream.cpp.i
 
 mcrouter/tools/mcpiper/AnsiColorCodeStream.s: mcrouter/tools/mcpiper/AnsiColorCodeStream.cpp.s
@@ -3369,7 +3369,7 @@ mcrouter/tools/mcpiper/AnsiColorCodeStream.s: mcrouter/tools/mcpiper/AnsiColorCo
 
 # target to generate assembly for a file
 mcrouter/tools/mcpiper/AnsiColorCodeStream.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/AnsiColorCodeStream.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/AnsiColorCodeStream.cpp.s
 .PHONY : mcrouter/tools/mcpiper/AnsiColorCodeStream.cpp.s
 
 mcrouter/tools/mcpiper/ClientServerMcParser.o: mcrouter/tools/mcpiper/ClientServerMcParser.cpp.o
@@ -3377,7 +3377,7 @@ mcrouter/tools/mcpiper/ClientServerMcParser.o: mcrouter/tools/mcpiper/ClientServ
 
 # target to build an object file
 mcrouter/tools/mcpiper/ClientServerMcParser.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ClientServerMcParser.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ClientServerMcParser.cpp.o
 .PHONY : mcrouter/tools/mcpiper/ClientServerMcParser.cpp.o
 
 mcrouter/tools/mcpiper/ClientServerMcParser.i: mcrouter/tools/mcpiper/ClientServerMcParser.cpp.i
@@ -3385,7 +3385,7 @@ mcrouter/tools/mcpiper/ClientServerMcParser.i: mcrouter/tools/mcpiper/ClientServ
 
 # target to preprocess a source file
 mcrouter/tools/mcpiper/ClientServerMcParser.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ClientServerMcParser.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ClientServerMcParser.cpp.i
 .PHONY : mcrouter/tools/mcpiper/ClientServerMcParser.cpp.i
 
 mcrouter/tools/mcpiper/ClientServerMcParser.s: mcrouter/tools/mcpiper/ClientServerMcParser.cpp.s
@@ -3393,7 +3393,7 @@ mcrouter/tools/mcpiper/ClientServerMcParser.s: mcrouter/tools/mcpiper/ClientServ
 
 # target to generate assembly for a file
 mcrouter/tools/mcpiper/ClientServerMcParser.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ClientServerMcParser.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ClientServerMcParser.cpp.s
 .PHONY : mcrouter/tools/mcpiper/ClientServerMcParser.cpp.s
 
 mcrouter/tools/mcpiper/Config.o: mcrouter/tools/mcpiper/Config.cpp.o
@@ -3401,7 +3401,7 @@ mcrouter/tools/mcpiper/Config.o: mcrouter/tools/mcpiper/Config.cpp.o
 
 # target to build an object file
 mcrouter/tools/mcpiper/Config.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Config.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Config.cpp.o
 .PHONY : mcrouter/tools/mcpiper/Config.cpp.o
 
 mcrouter/tools/mcpiper/Config.i: mcrouter/tools/mcpiper/Config.cpp.i
@@ -3409,7 +3409,7 @@ mcrouter/tools/mcpiper/Config.i: mcrouter/tools/mcpiper/Config.cpp.i
 
 # target to preprocess a source file
 mcrouter/tools/mcpiper/Config.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Config.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Config.cpp.i
 .PHONY : mcrouter/tools/mcpiper/Config.cpp.i
 
 mcrouter/tools/mcpiper/Config.s: mcrouter/tools/mcpiper/Config.cpp.s
@@ -3417,7 +3417,7 @@ mcrouter/tools/mcpiper/Config.s: mcrouter/tools/mcpiper/Config.cpp.s
 
 # target to generate assembly for a file
 mcrouter/tools/mcpiper/Config.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Config.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Config.cpp.s
 .PHONY : mcrouter/tools/mcpiper/Config.cpp.s
 
 mcrouter/tools/mcpiper/FifoReader.o: mcrouter/tools/mcpiper/FifoReader.cpp.o
@@ -3425,7 +3425,7 @@ mcrouter/tools/mcpiper/FifoReader.o: mcrouter/tools/mcpiper/FifoReader.cpp.o
 
 # target to build an object file
 mcrouter/tools/mcpiper/FifoReader.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/FifoReader.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/FifoReader.cpp.o
 .PHONY : mcrouter/tools/mcpiper/FifoReader.cpp.o
 
 mcrouter/tools/mcpiper/FifoReader.i: mcrouter/tools/mcpiper/FifoReader.cpp.i
@@ -3433,7 +3433,7 @@ mcrouter/tools/mcpiper/FifoReader.i: mcrouter/tools/mcpiper/FifoReader.cpp.i
 
 # target to preprocess a source file
 mcrouter/tools/mcpiper/FifoReader.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/FifoReader.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/FifoReader.cpp.i
 .PHONY : mcrouter/tools/mcpiper/FifoReader.cpp.i
 
 mcrouter/tools/mcpiper/FifoReader.s: mcrouter/tools/mcpiper/FifoReader.cpp.s
@@ -3441,7 +3441,7 @@ mcrouter/tools/mcpiper/FifoReader.s: mcrouter/tools/mcpiper/FifoReader.cpp.s
 
 # target to generate assembly for a file
 mcrouter/tools/mcpiper/FifoReader.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/FifoReader.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/FifoReader.cpp.s
 .PHONY : mcrouter/tools/mcpiper/FifoReader.cpp.s
 
 mcrouter/tools/mcpiper/ParserMap.o: mcrouter/tools/mcpiper/ParserMap.cpp.o
@@ -3449,7 +3449,7 @@ mcrouter/tools/mcpiper/ParserMap.o: mcrouter/tools/mcpiper/ParserMap.cpp.o
 
 # target to build an object file
 mcrouter/tools/mcpiper/ParserMap.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ParserMap.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ParserMap.cpp.o
 .PHONY : mcrouter/tools/mcpiper/ParserMap.cpp.o
 
 mcrouter/tools/mcpiper/ParserMap.i: mcrouter/tools/mcpiper/ParserMap.cpp.i
@@ -3457,7 +3457,7 @@ mcrouter/tools/mcpiper/ParserMap.i: mcrouter/tools/mcpiper/ParserMap.cpp.i
 
 # target to preprocess a source file
 mcrouter/tools/mcpiper/ParserMap.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ParserMap.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ParserMap.cpp.i
 .PHONY : mcrouter/tools/mcpiper/ParserMap.cpp.i
 
 mcrouter/tools/mcpiper/ParserMap.s: mcrouter/tools/mcpiper/ParserMap.cpp.s
@@ -3465,7 +3465,7 @@ mcrouter/tools/mcpiper/ParserMap.s: mcrouter/tools/mcpiper/ParserMap.cpp.s
 
 # target to generate assembly for a file
 mcrouter/tools/mcpiper/ParserMap.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ParserMap.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ParserMap.cpp.s
 .PHONY : mcrouter/tools/mcpiper/ParserMap.cpp.s
 
 mcrouter/tools/mcpiper/StyledString.o: mcrouter/tools/mcpiper/StyledString.cpp.o
@@ -3473,7 +3473,7 @@ mcrouter/tools/mcpiper/StyledString.o: mcrouter/tools/mcpiper/StyledString.cpp.o
 
 # target to build an object file
 mcrouter/tools/mcpiper/StyledString.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/StyledString.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/StyledString.cpp.o
 .PHONY : mcrouter/tools/mcpiper/StyledString.cpp.o
 
 mcrouter/tools/mcpiper/StyledString.i: mcrouter/tools/mcpiper/StyledString.cpp.i
@@ -3481,7 +3481,7 @@ mcrouter/tools/mcpiper/StyledString.i: mcrouter/tools/mcpiper/StyledString.cpp.i
 
 # target to preprocess a source file
 mcrouter/tools/mcpiper/StyledString.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/StyledString.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/StyledString.cpp.i
 .PHONY : mcrouter/tools/mcpiper/StyledString.cpp.i
 
 mcrouter/tools/mcpiper/StyledString.s: mcrouter/tools/mcpiper/StyledString.cpp.s
@@ -3489,7 +3489,7 @@ mcrouter/tools/mcpiper/StyledString.s: mcrouter/tools/mcpiper/StyledString.cpp.s
 
 # target to generate assembly for a file
 mcrouter/tools/mcpiper/StyledString.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/StyledString.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/StyledString.cpp.s
 .PHONY : mcrouter/tools/mcpiper/StyledString.cpp.s
 
 mcrouter/tools/mcpiper/Util.o: mcrouter/tools/mcpiper/Util.cpp.o
@@ -3497,7 +3497,7 @@ mcrouter/tools/mcpiper/Util.o: mcrouter/tools/mcpiper/Util.cpp.o
 
 # target to build an object file
 mcrouter/tools/mcpiper/Util.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Util.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Util.cpp.o
 .PHONY : mcrouter/tools/mcpiper/Util.cpp.o
 
 mcrouter/tools/mcpiper/Util.i: mcrouter/tools/mcpiper/Util.cpp.i
@@ -3505,7 +3505,7 @@ mcrouter/tools/mcpiper/Util.i: mcrouter/tools/mcpiper/Util.cpp.i
 
 # target to preprocess a source file
 mcrouter/tools/mcpiper/Util.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Util.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Util.cpp.i
 .PHONY : mcrouter/tools/mcpiper/Util.cpp.i
 
 mcrouter/tools/mcpiper/Util.s: mcrouter/tools/mcpiper/Util.cpp.s
@@ -3513,7 +3513,7 @@ mcrouter/tools/mcpiper/Util.s: mcrouter/tools/mcpiper/Util.cpp.s
 
 # target to generate assembly for a file
 mcrouter/tools/mcpiper/Util.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Util.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Util.cpp.s
 .PHONY : mcrouter/tools/mcpiper/Util.cpp.s
 
 mcrouter/tools/mcpiper/mcpiper.o: mcrouter/tools/mcpiper/mcpiper.cpp.o
@@ -3521,7 +3521,7 @@ mcrouter/tools/mcpiper/mcpiper.o: mcrouter/tools/mcpiper/mcpiper.cpp.o
 
 # target to build an object file
 mcrouter/tools/mcpiper/mcpiper.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/mcpiper.cpp.o
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/mcpiper.cpp.o
 .PHONY : mcrouter/tools/mcpiper/mcpiper.cpp.o
 
 mcrouter/tools/mcpiper/mcpiper.i: mcrouter/tools/mcpiper/mcpiper.cpp.i
@@ -3529,7 +3529,7 @@ mcrouter/tools/mcpiper/mcpiper.i: mcrouter/tools/mcpiper/mcpiper.cpp.i
 
 # target to preprocess a source file
 mcrouter/tools/mcpiper/mcpiper.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/mcpiper.cpp.i
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/mcpiper.cpp.i
 .PHONY : mcrouter/tools/mcpiper/mcpiper.cpp.i
 
 mcrouter/tools/mcpiper/mcpiper.s: mcrouter/tools/mcpiper/mcpiper.cpp.s
@@ -3537,7 +3537,7 @@ mcrouter/tools/mcpiper/mcpiper.s: mcrouter/tools/mcpiper/mcpiper.cpp.s
 
 # target to generate assembly for a file
 mcrouter/tools/mcpiper/mcpiper.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/mcpiper.cpp.s
+	cd /tmp/hhvm-3.12.0 && $(MAKE) -f third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/mcpiper.cpp.s
 .PHONY : mcrouter/tools/mcpiper/mcpiper.cpp.s
 
 # Help Target
@@ -3987,6 +3987,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /tmp/hhvm-3.12.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

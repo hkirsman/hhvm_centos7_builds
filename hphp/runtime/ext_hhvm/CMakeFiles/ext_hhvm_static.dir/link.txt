@@ -1,2 +1,2 @@
-/usr/bin/ar cr libext_hhvm.a  CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp.o CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp.o CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp.o CMakeFiles/ext_hhvm_static.dir/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp.o
-/usr/bin/ranlib libext_hhvm.a
+/bin/ar cr libext_hhvm.a  CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp.o CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp.o CMakeFiles/ext_hhvm_static.dir/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp.o
+/bin/ranlib libext_hhvm.a
