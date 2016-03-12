@@ -29,8 +29,8 @@
 #include "hphp/runtime/ext/json/JSON_parser.h"
 #include "hphp/runtime/ext/json/ext_json.h"
 #include "hphp/runtime/ext/collections/ext_collections-idl.h"
-#include "hphp/runtime/vm/native-data.h"
 #include "hphp/runtime/ext/std/ext_std_closure.h"
+#include "hphp/runtime/vm/native-data.h"
 
 namespace HPHP {
 ///////////////////////////////////////////////////////////////////////////////
@@ -630,7 +630,7 @@ void VariableSerializer::write(const Object& v) {
     preventOverflow(v, [&v, this]() {
       if (v->isCollection()) {
         serializeCollection(v.get(), this);
-      } else if (v->instanceof(SystemLib::s_ClosureClass)) {
+      } else if (v->instanceof(c_Closure::classof())) {
         // We serialize closures as "{}" in JSON mode to be compatible
         // with PHP. And issue a warning in HipHop syntax.
         if (RuntimeOption::EnableHipHopSyntax) {
@@ -806,7 +806,7 @@ void VariableSerializer::writeArrayHeader(int size, bool isVectorData) {
     break;
   case Type::VarExport:
   case Type::PHPOutput:
-    if (m_indent > 0) {
+    if (m_indent > 0 && m_rsrcName.empty()) {
       m_buf->append('\n');
       indent();
     }
@@ -818,6 +818,8 @@ void VariableSerializer::writeArrayHeader(int size, bool isVectorData) {
         assert(m_objCode == 'V' || m_objCode == 'K');
         m_buf->append(" {\n");
       }
+    } else if (!m_rsrcName.empty()) {
+      m_buf->append("NULL");
     } else {
       m_buf->append("array (\n");
     }
@@ -1134,7 +1136,9 @@ void VariableSerializer::writeArrayFooter() {
     break;
   case Type::VarExport:
   case Type::PHPOutput:
-    indent();
+    if (m_rsrcName.empty()) {
+      indent();
+    }
     if (info.is_object && m_objCode) {
       if (m_objCode == 'O') {
         m_buf->append("))");
@@ -1142,7 +1146,7 @@ void VariableSerializer::writeArrayFooter() {
         assert(m_objCode == 'V' || m_objCode == 'K');
         m_buf->append("}");
       }
-    } else {
+    } else if (m_rsrcName.empty()) { // for rsrc, only write NULL in arrayHeader
       m_buf->append(')');
     }
     break;
@@ -1302,7 +1306,7 @@ void serializeVariant(const Variant& self, VariableSerializer *serializer,
       serializer->write(tv->m_data.dbl);
       return;
 
-    case KindOfStaticString:
+    case KindOfPersistentString:
     case KindOfString:
       serializer->write(tv->m_data.pstr->data(),
                         tv->m_data.pstr->size(), isArrayKey, noQuotes);
@@ -1401,7 +1405,7 @@ static void serializeArray(const Array& arr, VariableSerializer* serializer,
 
 static
 void serializeCollection(ObjectData* obj, VariableSerializer* serializer) {
-  int64_t sz = getCollectionSize(obj);
+  int64_t sz = collections::getSize(obj);
   auto type = obj->collectionType();
 
   if (isMapCollection(type)) {
@@ -1489,7 +1493,7 @@ inline Array getSerializeProps(const ObjectData* obj,
 
     // Same with Closure, since it's a dynamic object but still has its own
     // different behavior for var_dump and cast to array
-    if (UNLIKELY(obj->instanceof(SystemLib::s_ClosureClass))) {
+    if (UNLIKELY(obj->instanceof(c_Closure::classof()))) {
       auto ret = Array::Create();
       obj->o_getArray(ret);
       return ret;
@@ -1520,6 +1524,11 @@ static void serializeObjectImpl(const ObjectData* obj,
   Variant serializableNativeData = init_null();
   Variant ret;
   auto const type = serializer->getType();
+
+  if (obj->isCollection()) {
+    serializeCollection(const_cast<ObjectData*>(obj), serializer);
+    return;
+  }
 
   if (LIKELY(type == VariableSerializer::Type::Serialize ||
              type == VariableSerializer::Type::APCSerialize)) {
@@ -1649,10 +1658,8 @@ static void serializeObjectImpl(const ObjectData* obj,
       serializeVariant(uninit_null(), serializer);
     }
   } else {
-    if (obj->isCollection()) {
-      serializeCollection(const_cast<ObjectData*>(obj), serializer);
-    } else if (type == VariableSerializer::Type::VarExport &&
-               obj->instanceof(c_Closure::classof())) {
+    if (type == VariableSerializer::Type::VarExport &&
+        obj->instanceof(c_Closure::classof())) {
       serializer->write(obj->getClassName());
     } else {
       auto className = obj->getClassName();
@@ -1670,7 +1677,7 @@ static void serializeObjectImpl(const ObjectData* obj,
       }
       if (type == VariableSerializer::Type::DebuggerDump) {
         // Expect to display as their stringified classname.
-        if (obj->instanceof(SystemLib::s_ClosureClass)) {
+        if (obj->instanceof(c_Closure::classof())) {
           serializer->write(obj->getVMClass()->nameStr());
           return;
         }

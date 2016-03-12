@@ -1,1 +1,1 @@
-client/clientStart.ml: Array ClientConnectSimple ClientStop Exit_status Filename HackEventLogger Handle Path Printf Result String Sys Unix
+client/clientStart.ml: Array ClientStop Exit_status Filename HackEventLogger Handle HhServerMonitorConfig Path Printf Result ServerMonitorUtils ServerUtils String Sys Unix

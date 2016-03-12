@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/tmp/hhvm-3.11.1/hphp/ppc64-asm/asm-ppc64.cpp" "/tmp/hhvm-3.11.1/hphp/ppc64-asm/CMakeFiles/ppc64-asm.dir/asm-ppc64.cpp.o"
+  "/tmp/hhvm-3.12.1/hphp/ppc64-asm/asm-ppc64.cpp" "/tmp/hhvm-3.12.1/hphp/ppc64-asm/CMakeFiles/ppc64-asm.dir/asm-ppc64.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

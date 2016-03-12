@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.1
 
 # Include any dependencies generated for this target.
 include hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/depend.make
@@ -52,77 +52,44 @@ include hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/progress.make
 # Include the compile flags for this target's objects.
 include hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/flags.make
 
-hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp: hphp/runtime/ext_hhvm/../../system/idl/closure.idl.json
-hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp: hphp/tools/bootstrap/gen-ext-hhvm
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ext_hhvm wrapper for ../../system/idl/closure.idl.json"
-	cd /tmp/hhvm-3.11.1/hphp/tools/bootstrap && /tmp/hhvm-3.11.1/hphp/tools/bootstrap/gen-ext-hhvm x64 /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.h /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm/../../system/idl/closure.idl.json
-
-hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.h: hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp
-
 hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp: hphp/runtime/ext_hhvm/../../system/idl/collections.idl.json
 hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp: hphp/tools/bootstrap/gen-ext-hhvm
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ext_hhvm wrapper for ../../system/idl/collections.idl.json"
-	cd /tmp/hhvm-3.11.1/hphp/tools/bootstrap && /tmp/hhvm-3.11.1/hphp/tools/bootstrap/gen-ext-hhvm x64 /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.h /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm/../../system/idl/collections.idl.json
+	cd /tmp/hhvm-3.12.1/hphp/tools/bootstrap && /tmp/hhvm-3.12.1/hphp/tools/bootstrap/gen-ext-hhvm x64 /tmp/hhvm-3.12.1/hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.h /tmp/hhvm-3.12.1/hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp /tmp/hhvm-3.12.1/hphp/runtime/ext_hhvm/../../system/idl/collections.idl.json
 
 hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.h: hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp
 
 hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp: hphp/runtime/ext_hhvm/../../system/idl/constants.idl.json
 hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp: hphp/tools/bootstrap/gen-ext-hhvm
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ext_hhvm wrapper for ../../system/idl/constants.idl.json"
-	cd /tmp/hhvm-3.11.1/hphp/tools/bootstrap && /tmp/hhvm-3.11.1/hphp/tools/bootstrap/gen-ext-hhvm x64 /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.h /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm/../../system/idl/constants.idl.json
+	cd /tmp/hhvm-3.12.1/hphp/tools/bootstrap && /tmp/hhvm-3.12.1/hphp/tools/bootstrap/gen-ext-hhvm x64 /tmp/hhvm-3.12.1/hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.h /tmp/hhvm-3.12.1/hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp /tmp/hhvm-3.12.1/hphp/runtime/ext_hhvm/../../system/idl/constants.idl.json
 
 hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.h: hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp
 
-hphp/runtime/ext_hhvm/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp: hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.h
 hphp/runtime/ext_hhvm/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp: hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.h
 hphp/runtime/ext_hhvm/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp: hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.h
-hphp/runtime/ext_hhvm/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp: hphp/runtime/ext_hhvm/../../system/idl/closure.idl.json
 hphp/runtime/ext_hhvm/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp: hphp/runtime/ext_hhvm/../../system/idl/collections.idl.json
 hphp/runtime/ext_hhvm/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp: hphp/runtime/ext_hhvm/../../system/idl/constants.idl.json
 hphp/runtime/ext_hhvm/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp: hphp/tools/bootstrap/gen-infotabs
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm && ../../tools/bootstrap/gen-infotabs /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm/CMakeFiles/generated/hphp/runtime/ext_hhvm//ext_hhvm_infotabs.cpp /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm/CMakeFiles/generated/hphp/runtime/ext_hhvm//ext_hhvm_infotabs.h /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm/../../system/idl/closure.idl.json /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm/../../system/idl/collections.idl.json /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm/../../system/idl/constants.idl.json
-
-hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp.o: hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/flags.make
-hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp.o: hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_5)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp
-
-hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp > CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp.i
-
-hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp -o CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp.s
-
-hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp.o.requires:
-.PHONY : hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp.o.requires
-
-hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp.o.provides: hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp.o.requires
-	$(MAKE) -f hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/build.make hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp.o.provides.build
-.PHONY : hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp.o.provides
-
-hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp.o.provides.build: hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp.o
+	cd /tmp/hhvm-3.12.1/hphp/runtime/ext_hhvm && ../../tools/bootstrap/gen-infotabs /tmp/hhvm-3.12.1/hphp/runtime/ext_hhvm/CMakeFiles/generated/hphp/runtime/ext_hhvm//ext_hhvm_infotabs.cpp /tmp/hhvm-3.12.1/hphp/runtime/ext_hhvm/CMakeFiles/generated/hphp/runtime/ext_hhvm//ext_hhvm_infotabs.h /tmp/hhvm-3.12.1/hphp/runtime/ext_hhvm/../../system/idl/collections.idl.json /tmp/hhvm-3.12.1/hphp/runtime/ext_hhvm/../../system/idl/constants.idl.json
 
 hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp.o: hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/flags.make
 hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp.o: hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp
+	cd /tmp/hhvm-3.12.1/hphp/runtime/ext_hhvm && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp.o -c /tmp/hhvm-3.12.1/hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp
 
 hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp > CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/runtime/ext_hhvm && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp > CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp.i
 
 hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp -o CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/runtime/ext_hhvm && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp -o CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp.s
 
 hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp.o.requires:
 .PHONY : hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp.o.requires
@@ -135,17 +102,17 @@ hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles
 
 hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp.o: hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/flags.make
 hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp.o: hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp
+	cd /tmp/hhvm-3.12.1/hphp/runtime/ext_hhvm && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp.o -c /tmp/hhvm-3.12.1/hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp
 
 hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp > CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/runtime/ext_hhvm && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp > CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp.i
 
 hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp -o CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/runtime/ext_hhvm && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp -o CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp.s
 
 hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp.o.requires:
 .PHONY : hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp.o.requires
@@ -158,17 +125,17 @@ hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles
 
 hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp.o: hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/flags.make
 hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp.o: hphp/runtime/ext_hhvm/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ext_hhvm_static.dir/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp.o -c /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp
+	cd /tmp/hhvm-3.12.1/hphp/runtime/ext_hhvm && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ext_hhvm_static.dir/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp.o -c /tmp/hhvm-3.12.1/hphp/runtime/ext_hhvm/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp
 
 hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ext_hhvm_static.dir/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp > CMakeFiles/ext_hhvm_static.dir/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/runtime/ext_hhvm && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/runtime/ext_hhvm/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp > CMakeFiles/ext_hhvm_static.dir/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp.i
 
 hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ext_hhvm_static.dir/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp -o CMakeFiles/ext_hhvm_static.dir/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/runtime/ext_hhvm && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/runtime/ext_hhvm/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp -o CMakeFiles/ext_hhvm_static.dir/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp.s
 
 hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp.o.requires:
 .PHONY : hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp.o.requires
@@ -181,7 +148,6 @@ hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/CMakeFiles/generated/hphp/r
 
 # Object files for target ext_hhvm_static
 ext_hhvm_static_OBJECTS = \
-"CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp.o" \
 "CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp.o" \
 "CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp.o" \
 "CMakeFiles/ext_hhvm_static.dir/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp.o"
@@ -189,37 +155,33 @@ ext_hhvm_static_OBJECTS = \
 # External object files for target ext_hhvm_static
 ext_hhvm_static_EXTERNAL_OBJECTS =
 
-hphp/runtime/ext_hhvm/libext_hhvm.a: hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp.o
 hphp/runtime/ext_hhvm/libext_hhvm.a: hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp.o
 hphp/runtime/ext_hhvm/libext_hhvm.a: hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp.o
 hphp/runtime/ext_hhvm/libext_hhvm.a: hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp.o
 hphp/runtime/ext_hhvm/libext_hhvm.a: hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/build.make
 hphp/runtime/ext_hhvm/libext_hhvm.a: hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libext_hhvm.a"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm && $(CMAKE_COMMAND) -P CMakeFiles/ext_hhvm_static.dir/cmake_clean_target.cmake
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ext_hhvm_static.dir/link.txt --verbose=$(VERBOSE)
+	cd /tmp/hhvm-3.12.1/hphp/runtime/ext_hhvm && $(CMAKE_COMMAND) -P CMakeFiles/ext_hhvm_static.dir/cmake_clean_target.cmake
+	cd /tmp/hhvm-3.12.1/hphp/runtime/ext_hhvm && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ext_hhvm_static.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/build: hphp/runtime/ext_hhvm/libext_hhvm.a
 .PHONY : hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/build
 
-hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/requires: hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp.o.requires
 hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/requires: hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp.o.requires
 hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/requires: hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/__/__/system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp.o.requires
 hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/requires: hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp.o.requires
 .PHONY : hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/requires
 
 hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/clean:
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm && $(CMAKE_COMMAND) -P CMakeFiles/ext_hhvm_static.dir/cmake_clean.cmake
+	cd /tmp/hhvm-3.12.1/hphp/runtime/ext_hhvm && $(CMAKE_COMMAND) -P CMakeFiles/ext_hhvm_static.dir/cmake_clean.cmake
 .PHONY : hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/clean
 
-hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/depend: hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.cpp
-hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/depend: hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/closure.idl.json.ext_hhvm.h
 hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/depend: hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.cpp
 hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/depend: hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/collections.idl.json.ext_hhvm.h
 hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/depend: hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.cpp
 hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/depend: hphp/runtime/ext_hhvm/../../system/idl/CMakeFiles/hphp_runtime_ext.dir/constants.idl.json.ext_hhvm.h
 hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/depend: hphp/runtime/ext_hhvm/CMakeFiles/generated/hphp/runtime/ext_hhvm/ext_hhvm_infotabs.cpp
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm /tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/hhvm-3.12.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.12.1 /tmp/hhvm-3.12.1/hphp/runtime/ext_hhvm /tmp/hhvm-3.12.1 /tmp/hhvm-3.12.1/hphp/runtime/ext_hhvm /tmp/hhvm-3.12.1/hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/depend
 

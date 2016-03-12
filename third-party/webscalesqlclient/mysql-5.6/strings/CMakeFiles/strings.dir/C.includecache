@@ -6,191 +6,191 @@
 
 #IncludeRegexTransform: 
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/bchange.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/bchange.c
 my_global.h
 -
 m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_string.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/bmove_upp.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/bmove_upp.c
 my_global.h
 -
 m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_string.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/ctype-big5.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/ctype-big5.c
 my_global.h
 -
 m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_string.h
 m_ctype.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_ctype.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_ctype.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/ctype-bin.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/ctype-bin.c
 my_global.h
 -
 m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_string.h
 m_ctype.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_ctype.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_ctype.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/ctype-cp932.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/ctype-cp932.c
 my_global.h
 -
 m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_string.h
 m_ctype.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_ctype.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_ctype.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/ctype-czech.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/ctype-czech.c
 my_global.h
 -
 m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_string.h
 m_ctype.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_ctype.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_ctype.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/ctype-euc_kr.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/ctype-euc_kr.c
 my_global.h
 -
 m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_string.h
 m_ctype.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_ctype.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_ctype.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/ctype-eucjpms.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/ctype-eucjpms.c
 my_global.h
 -
 m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_string.h
 m_ctype.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_ctype.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_ctype.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/ctype-extra.c
-my_global.h
--
-m_ctype.h
--
-
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/ctype-gb2312.c
-my_global.h
--
-m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_string.h
-m_ctype.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_ctype.h
-
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/ctype-gbk.c
-my_global.h
--
-m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_string.h
-m_ctype.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_ctype.h
-
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/ctype-latin1.c
-my_global.h
--
-m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_string.h
-m_ctype.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_ctype.h
-
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/ctype-mb.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/ctype-extra.c
 my_global.h
 -
 m_ctype.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_ctype.h
-m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_string.h
+-
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/ctype-simple.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/ctype-gb2312.c
 my_global.h
 -
 m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_string.h
 m_ctype.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_ctype.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_ctype.h
+
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/ctype-gbk.c
+my_global.h
+-
+m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_string.h
+m_ctype.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_ctype.h
+
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/ctype-latin1.c
+my_global.h
+-
+m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_string.h
+m_ctype.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_ctype.h
+
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/ctype-mb.c
+my_global.h
+-
+m_ctype.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_ctype.h
+m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_string.h
+
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/ctype-simple.c
+my_global.h
+-
+m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_string.h
+m_ctype.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_ctype.h
 my_sys.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/my_sys.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/my_sys.h
 errno.h
 -
 stdarg.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/stdarg.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/stdarg.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/ctype-sjis.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/ctype-sjis.c
 my_global.h
 -
 m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_string.h
 m_ctype.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_ctype.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_ctype.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/ctype-tis620.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/ctype-tis620.c
 my_global.h
 -
 my_sys.h
 -
 m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_string.h
 m_ctype.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_ctype.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_ctype.h
 t_ctype.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/t_ctype.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/t_ctype.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/ctype-uca.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/ctype-uca.c
 my_global.h
 -
 m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_string.h
 m_ctype.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_ctype.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_ctype.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/ctype-ucs2.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/ctype-ucs2.c
 my_global.h
 -
 my_sys.h
 -
 m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_string.h
 m_ctype.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_ctype.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_ctype.h
 errno.h
 -
 stdarg.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/ctype-ujis.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/ctype-ujis.c
 my_global.h
 -
 m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_string.h
 m_ctype.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_ctype.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_ctype.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/ctype-utf8.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/ctype-utf8.c
 my_global.h
 -
 m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_string.h
 m_ctype.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_ctype.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_ctype.h
 errno.h
 -
 my_uctype.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/my_uctype.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/my_uctype.h
 stdio.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/ctype-win1250ch.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/ctype-win1250ch.c
 my_global.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/my_global.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/my_global.h
 m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_string.h
 m_ctype.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_ctype.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_ctype.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/ctype.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/ctype.c
 my_global.h
 -
 m_ctype.h
@@ -200,7 +200,7 @@ my_xml.h
 m_string.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/decimal.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/decimal.c
 my_global.h
 -
 m_ctype.h
@@ -214,7 +214,7 @@ m_string.h
 decimal.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/dtoa.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/dtoa.c
 my_base.h
 -
 my_global.h
@@ -222,39 +222,39 @@ my_global.h
 m_string.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/int2str.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/int2str.c
 my_global.h
 -
 m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_string.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/is_prefix.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/is_prefix.c
 my_global.h
 -
 m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_string.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/llstr.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/llstr.c
 my_global.h
 -
 m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_string.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/longlong2str.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/longlong2str.c
 my_global.h
 -
 m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_string.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/my_strchr.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/my_strchr.c
 my_global.h
 -
 m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_string.h
 m_ctype.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_ctype.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_ctype.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/my_strtoll10.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/my_strtoll10.c
 my_global.h
 -
 my_sys.h
@@ -262,7 +262,7 @@ my_sys.h
 m_string.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/my_vsnprintf.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/my_vsnprintf.c
 my_global.h
 -
 m_string.h
@@ -272,97 +272,97 @@ stdarg.h
 m_ctype.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/str2int.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/str2int.c
 my_global.h
 -
 m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_string.h
 m_ctype.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_ctype.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_ctype.h
 my_sys.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/my_sys.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/my_sys.h
 errno.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/str_alloc.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/str_alloc.c
 my_global.h
 -
 m_string.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/strappend.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/strappend.c
 my_global.h
 -
 m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_string.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/strcend.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/strcend.c
 my_global.h
 -
 m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_string.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/strcont.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/strcont.c
 my_global.h
 -
 m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_string.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/strend.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/strend.c
 my_global.h
 -
 m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_string.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/strfill.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/strfill.c
 my_global.h
 -
 m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_string.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/strmake.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/strmake.c
 my_global.h
 -
 m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_string.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/strmov.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/strmov.c
 my_global.h
 -
 m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_string.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/strnmov.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/strnmov.c
 my_global.h
 -
 m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_string.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/strxmov.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/strxmov.c
 my_global.h
 -
 m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_string.h
 stdarg.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/strxnmov.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/strxnmov.c
 my_global.h
 -
 m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_string.h
 stdarg.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/t_ctype.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/t_ctype.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/xml.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/xml.c
 my_global.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/my_global.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/my_global.h
 m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/m_string.h
 my_xml.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/my_xml.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/my_xml.h
 
 include/big_endian.h
 

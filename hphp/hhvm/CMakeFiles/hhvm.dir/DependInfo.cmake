@@ -4,9 +4,9 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/tmp/hhvm-3.11.1/hphp/hhvm/global-variables.cpp" "/tmp/hhvm-3.11.1/hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o"
-  "/tmp/hhvm-3.11.1/hphp/hhvm/main.cpp" "/tmp/hhvm-3.11.1/hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o"
-  "/tmp/hhvm-3.11.1/hphp/hhvm/process-init.cpp" "/tmp/hhvm-3.11.1/hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o"
+  "/tmp/hhvm-3.12.1/hphp/hhvm/global-variables.cpp" "/tmp/hhvm-3.12.1/hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o"
+  "/tmp/hhvm-3.12.1/hphp/hhvm/main.cpp" "/tmp/hhvm-3.12.1/hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o"
+  "/tmp/hhvm-3.12.1/hphp/hhvm/process-init.cpp" "/tmp/hhvm-3.12.1/hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -52,33 +52,33 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/tmp/hhvm-3.11.1/hphp/runtime/CMakeFiles/hphp_runtime_static.dir/DependInfo.cmake"
-  "/tmp/hhvm-3.11.1/hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/DependInfo.cmake"
-  "/tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/DependInfo.cmake"
-  "/tmp/hhvm-3.11.1/hphp/compiler/CMakeFiles/hphp_analysis.dir/DependInfo.cmake"
-  "/tmp/hhvm-3.11.1/hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/DependInfo.cmake"
-  "/tmp/hhvm-3.11.1/hphp/system/CMakeFiles/hphp_system.dir/DependInfo.cmake"
-  "/tmp/hhvm-3.11.1/hphp/parser/CMakeFiles/hphp_parser.dir/DependInfo.cmake"
-  "/tmp/hhvm-3.11.1/hphp/zend/CMakeFiles/hphp_zend.dir/DependInfo.cmake"
-  "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/DependInfo.cmake"
-  "/tmp/hhvm-3.11.1/hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/DependInfo.cmake"
-  "/tmp/hhvm-3.11.1/hphp/tools/hfsort/CMakeFiles/jit_sort.dir/DependInfo.cmake"
-  "/tmp/hhvm-3.11.1/hphp/ppc64-asm/CMakeFiles/ppc64-asm.dir/DependInfo.cmake"
-  "/tmp/hhvm-3.11.1/hphp/vixl/CMakeFiles/vixl.dir/DependInfo.cmake"
-  "/tmp/hhvm-3.11.1/hphp/neo/CMakeFiles/neo.dir/DependInfo.cmake"
-  "/tmp/hhvm-3.11.1/third-party/thrift/CMakeFiles/hphp_thrift.dir/DependInfo.cmake"
-  "/tmp/hhvm-3.11.1/third-party/proxygen/CMakeFiles/hphp_proxygen.dir/DependInfo.cmake"
-  "/tmp/hhvm-3.11.1/third-party/squangle/CMakeFiles/squangle.dir/DependInfo.cmake"
-  "/tmp/hhvm-3.11.1/third-party/re2/CMakeFiles/re2.dir/DependInfo.cmake"
-  "/tmp/hhvm-3.11.1/third-party/libzip/CMakeFiles/zip_static.dir/DependInfo.cmake"
-  "/tmp/hhvm-3.11.1/third-party/fastlz/CMakeFiles/fastlz.dir/DependInfo.cmake"
-  "/tmp/hhvm-3.11.1/third-party/timelib/CMakeFiles/timelib.dir/DependInfo.cmake"
-  "/tmp/hhvm-3.11.1/third-party/mcrouter/CMakeFiles/mcrouter.dir/DependInfo.cmake"
-  "/tmp/hhvm-3.11.1/third-party/libafdt/CMakeFiles/afdt.dir/DependInfo.cmake"
-  "/tmp/hhvm-3.11.1/third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/DependInfo.cmake"
-  "/tmp/hhvm-3.11.1/third-party/wangle/CMakeFiles/wangle.dir/DependInfo.cmake"
-  "/tmp/hhvm-3.11.1/third-party/folly/CMakeFiles/folly.dir/DependInfo.cmake"
-  "/tmp/hhvm-3.11.1/third-party/double-conversion/CMakeFiles/double-conversion.dir/DependInfo.cmake"
+  "/tmp/hhvm-3.12.1/hphp/runtime/CMakeFiles/hphp_runtime_static.dir/DependInfo.cmake"
+  "/tmp/hhvm-3.12.1/hphp/runtime/ext/CMakeFiles/hphp_runtime_ext.dir/DependInfo.cmake"
+  "/tmp/hhvm-3.12.1/hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/DependInfo.cmake"
+  "/tmp/hhvm-3.12.1/hphp/compiler/CMakeFiles/hphp_analysis.dir/DependInfo.cmake"
+  "/tmp/hhvm-3.12.1/hphp/runtime/ext_hhvm/CMakeFiles/ext_hhvm_static.dir/DependInfo.cmake"
+  "/tmp/hhvm-3.12.1/hphp/system/CMakeFiles/hphp_system.dir/DependInfo.cmake"
+  "/tmp/hhvm-3.12.1/hphp/parser/CMakeFiles/hphp_parser.dir/DependInfo.cmake"
+  "/tmp/hhvm-3.12.1/hphp/zend/CMakeFiles/hphp_zend.dir/DependInfo.cmake"
+  "/tmp/hhvm-3.12.1/hphp/util/CMakeFiles/hphp_util.dir/DependInfo.cmake"
+  "/tmp/hhvm-3.12.1/hphp/hhbbc/CMakeFiles/hphp_hhbbc.dir/DependInfo.cmake"
+  "/tmp/hhvm-3.12.1/hphp/tools/hfsort/CMakeFiles/jit_sort.dir/DependInfo.cmake"
+  "/tmp/hhvm-3.12.1/hphp/ppc64-asm/CMakeFiles/ppc64-asm.dir/DependInfo.cmake"
+  "/tmp/hhvm-3.12.1/hphp/vixl/CMakeFiles/vixl.dir/DependInfo.cmake"
+  "/tmp/hhvm-3.12.1/hphp/neo/CMakeFiles/neo.dir/DependInfo.cmake"
+  "/tmp/hhvm-3.12.1/third-party/thrift/CMakeFiles/hphp_thrift.dir/DependInfo.cmake"
+  "/tmp/hhvm-3.12.1/third-party/proxygen/CMakeFiles/hphp_proxygen.dir/DependInfo.cmake"
+  "/tmp/hhvm-3.12.1/third-party/squangle/CMakeFiles/squangle.dir/DependInfo.cmake"
+  "/tmp/hhvm-3.12.1/third-party/re2/CMakeFiles/re2.dir/DependInfo.cmake"
+  "/tmp/hhvm-3.12.1/third-party/libzip/CMakeFiles/zip_static.dir/DependInfo.cmake"
+  "/tmp/hhvm-3.12.1/third-party/fastlz/CMakeFiles/fastlz.dir/DependInfo.cmake"
+  "/tmp/hhvm-3.12.1/third-party/timelib/CMakeFiles/timelib.dir/DependInfo.cmake"
+  "/tmp/hhvm-3.12.1/third-party/mcrouter/CMakeFiles/mcrouter.dir/DependInfo.cmake"
+  "/tmp/hhvm-3.12.1/third-party/libafdt/CMakeFiles/afdt.dir/DependInfo.cmake"
+  "/tmp/hhvm-3.12.1/third-party/libmbfl/mbfl/CMakeFiles/mbfl.dir/DependInfo.cmake"
+  "/tmp/hhvm-3.12.1/third-party/wangle/CMakeFiles/wangle.dir/DependInfo.cmake"
+  "/tmp/hhvm-3.12.1/third-party/folly/CMakeFiles/folly.dir/DependInfo.cmake"
+  "/tmp/hhvm-3.12.1/third-party/double-conversion/CMakeFiles/double-conversion.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

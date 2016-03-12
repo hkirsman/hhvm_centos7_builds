@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.1
 
 # Include any dependencies generated for this target.
 include hphp/system/CMakeFiles/hphp_system.dir/depend.make
@@ -53,25 +53,25 @@ include hphp/system/CMakeFiles/hphp_system.dir/progress.make
 include hphp/system/CMakeFiles/hphp_system.dir/flags.make
 
 hphp/system/class_map.cpp: hphp/tools/bootstrap/gen-class-map
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating class_map.cpp and constants.h"
-	cd /tmp/hhvm-3.11.1/hphp/system && ../tools/bootstrap/gen-class-map --system /tmp/hhvm-3.11.1/hphp/system/class_map.cpp /tmp/hhvm-3.11.1/hphp/system/constants.h /tmp/hhvm-3.11.1/hphp/system/idl/constants.idl.json /tmp/hhvm-3.11.1/hphp/runtime/ext/collections/../../../system/idl/collections.idl.json /tmp/hhvm-3.11.1/hphp/runtime/ext/std/../../../system/idl/closure.idl.json
+	cd /tmp/hhvm-3.12.1/hphp/system && ../tools/bootstrap/gen-class-map --system /tmp/hhvm-3.12.1/hphp/system/class_map.cpp /tmp/hhvm-3.12.1/hphp/system/constants.h /tmp/hhvm-3.12.1/hphp/system/idl/constants.idl.json /tmp/hhvm-3.12.1/hphp/runtime/ext/collections/../../../system/idl/collections.idl.json
 
 hphp/system/constants.h: hphp/system/class_map.cpp
 
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/system/CMakeFiles/hphp_system.dir/flags.make
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o: hphp/system/class_map.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/system && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_system.dir/class_map.cpp.o -c /tmp/hhvm-3.11.1/hphp/system/class_map.cpp
+	cd /tmp/hhvm-3.12.1/hphp/system && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_system.dir/class_map.cpp.o -c /tmp/hhvm-3.12.1/hphp/system/class_map.cpp
 
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_system.dir/class_map.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/system && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/system/class_map.cpp > CMakeFiles/hphp_system.dir/class_map.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/system && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/system/class_map.cpp > CMakeFiles/hphp_system.dir/class_map.cpp.i
 
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_system.dir/class_map.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/system && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/system/class_map.cpp -o CMakeFiles/hphp_system.dir/class_map.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/system && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/system/class_map.cpp -o CMakeFiles/hphp_system.dir/class_map.cpp.s
 
 hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o.requires:
 .PHONY : hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o.requires
@@ -84,17 +84,17 @@ hphp/system/CMakeFiles/hphp_system.dir/class_map.cpp.o.provides.build: hphp/syst
 
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/system/CMakeFiles/hphp_system.dir/flags.make
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o: hphp/system/systemlib.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/system && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_system.dir/systemlib.cpp.o -c /tmp/hhvm-3.11.1/hphp/system/systemlib.cpp
+	cd /tmp/hhvm-3.12.1/hphp/system && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_system.dir/systemlib.cpp.o -c /tmp/hhvm-3.12.1/hphp/system/systemlib.cpp
 
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_system.dir/systemlib.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/system && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/system/systemlib.cpp > CMakeFiles/hphp_system.dir/systemlib.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/system && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/system/systemlib.cpp > CMakeFiles/hphp_system.dir/systemlib.cpp.i
 
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_system.dir/systemlib.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/system && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/system/systemlib.cpp -o CMakeFiles/hphp_system.dir/systemlib.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/system && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/system/systemlib.cpp -o CMakeFiles/hphp_system.dir/systemlib.cpp.s
 
 hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o.requires:
 .PHONY : hphp/system/CMakeFiles/hphp_system.dir/systemlib.cpp.o.requires
@@ -118,8 +118,8 @@ hphp/system/libhphp_system.a: hphp/system/CMakeFiles/hphp_system.dir/systemlib.c
 hphp/system/libhphp_system.a: hphp/system/CMakeFiles/hphp_system.dir/build.make
 hphp/system/libhphp_system.a: hphp/system/CMakeFiles/hphp_system.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libhphp_system.a"
-	cd /tmp/hhvm-3.11.1/hphp/system && $(CMAKE_COMMAND) -P CMakeFiles/hphp_system.dir/cmake_clean_target.cmake
-	cd /tmp/hhvm-3.11.1/hphp/system && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hphp_system.dir/link.txt --verbose=$(VERBOSE)
+	cd /tmp/hhvm-3.12.1/hphp/system && $(CMAKE_COMMAND) -P CMakeFiles/hphp_system.dir/cmake_clean_target.cmake
+	cd /tmp/hhvm-3.12.1/hphp/system && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hphp_system.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 hphp/system/CMakeFiles/hphp_system.dir/build: hphp/system/libhphp_system.a
@@ -130,11 +130,11 @@ hphp/system/CMakeFiles/hphp_system.dir/requires: hphp/system/CMakeFiles/hphp_sys
 .PHONY : hphp/system/CMakeFiles/hphp_system.dir/requires
 
 hphp/system/CMakeFiles/hphp_system.dir/clean:
-	cd /tmp/hhvm-3.11.1/hphp/system && $(CMAKE_COMMAND) -P CMakeFiles/hphp_system.dir/cmake_clean.cmake
+	cd /tmp/hhvm-3.12.1/hphp/system && $(CMAKE_COMMAND) -P CMakeFiles/hphp_system.dir/cmake_clean.cmake
 .PHONY : hphp/system/CMakeFiles/hphp_system.dir/clean
 
 hphp/system/CMakeFiles/hphp_system.dir/depend: hphp/system/class_map.cpp
 hphp/system/CMakeFiles/hphp_system.dir/depend: hphp/system/constants.h
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/hphp/system /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/hphp/system /tmp/hhvm-3.11.1/hphp/system/CMakeFiles/hphp_system.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/hhvm-3.12.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.12.1 /tmp/hhvm-3.12.1/hphp/system /tmp/hhvm-3.12.1 /tmp/hhvm-3.12.1/hphp/system /tmp/hhvm-3.12.1/hphp/system/CMakeFiles/hphp_system.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hphp/system/CMakeFiles/hphp_system.dir/depend
 

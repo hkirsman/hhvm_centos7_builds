@@ -47,7 +47,10 @@ struct APCLocalArray;
 struct MemoryManager;
 struct ObjectData;
 struct ResourceData;
-struct ExtendedException;
+
+namespace req {
+struct root_handle;
+}
 
 //////////////////////////////////////////////////////////////////////
 
@@ -218,79 +221,79 @@ struct Allocator {
  */
 #define SMALL_SIZES \
 /*         index, lg_grp, lg_delta, ndelta, lg_delta_lookup, ncontig */ \
-  SMALL_SIZE(  0,      4,        4,      0,  4,              32) \
-  SMALL_SIZE(  1,      4,        4,      1,  4,              32) \
-  SMALL_SIZE(  2,      4,        4,      2,  4,              32) \
-  SMALL_SIZE(  3,      4,        4,      3,  4,              32) \
+  SMALL_SIZE(  0,      4,        4,      0,  4,             128) \
+  SMALL_SIZE(  1,      4,        4,      1,  4,             128) \
+  SMALL_SIZE(  2,      4,        4,      2,  4,             128) \
+  SMALL_SIZE(  3,      4,        4,      3,  4,              96) \
   \
-  SMALL_SIZE(  4,      6,        4,      1,  4,              24) \
-  SMALL_SIZE(  5,      6,        4,      2,  4,              24) \
-  SMALL_SIZE(  6,      6,        4,      3,  4,              24) \
-  SMALL_SIZE(  7,      6,        4,      4,  4,              24) \
+  SMALL_SIZE(  4,      6,        4,      1,  4,              96) \
+  SMALL_SIZE(  5,      6,        4,      2,  4,              96) \
+  SMALL_SIZE(  6,      6,        4,      3,  4,              96) \
+  SMALL_SIZE(  7,      6,        4,      4,  4,              64) \
   \
-  SMALL_SIZE(  8,      7,        5,      1,  5,              16) \
-  SMALL_SIZE(  9,      7,        5,      2,  5,              16) \
-  SMALL_SIZE( 10,      7,        5,      3,  5,              16) \
-  SMALL_SIZE( 11,      7,        5,      4,  5,              16) \
+  SMALL_SIZE(  8,      7,        5,      1,  5,              64) \
+  SMALL_SIZE(  9,      7,        5,      2,  5,              64) \
+  SMALL_SIZE( 10,      7,        5,      3,  5,              64) \
+  SMALL_SIZE( 11,      7,        5,      4,  5,              32) \
   \
-  SMALL_SIZE( 12,      8,        6,      1,  6,              12) \
-  SMALL_SIZE( 13,      8,        6,      2,  6,              12) \
-  SMALL_SIZE( 14,      8,        6,      3,  6,              12) \
-  SMALL_SIZE( 15,      8,        6,      4,  6,              12) \
+  SMALL_SIZE( 12,      8,        6,      1,  6,              32) \
+  SMALL_SIZE( 13,      8,        6,      2,  6,              32) \
+  SMALL_SIZE( 14,      8,        6,      3,  6,              32) \
+  SMALL_SIZE( 15,      8,        6,      4,  6,              16) \
   \
-  SMALL_SIZE( 16,      9,        7,      1,  7,               8) \
-  SMALL_SIZE( 17,      9,        7,      2,  7,               8) \
-  SMALL_SIZE( 18,      9,        7,      3,  7,               8) \
+  SMALL_SIZE( 16,      9,        7,      1,  7,              16) \
+  SMALL_SIZE( 17,      9,        7,      2,  7,              16) \
+  SMALL_SIZE( 18,      9,        7,      3,  7,              16) \
   SMALL_SIZE( 19,      9,        7,      4,  7,               8) \
   \
-  SMALL_SIZE( 20,     10,        8,      1,  8,               6) \
-  SMALL_SIZE( 21,     10,        8,      2,  8,               6) \
-  SMALL_SIZE( 22,     10,        8,      3,  8,               6) \
-  SMALL_SIZE( 23,     10,        8,      4,  8,               6) \
+  SMALL_SIZE( 20,     10,        8,      1,  8,               8) \
+  SMALL_SIZE( 21,     10,        8,      2,  8,               8) \
+  SMALL_SIZE( 22,     10,        8,      3,  8,               8) \
+  SMALL_SIZE( 23,     10,        8,      4,  8,               4) \
   \
   SMALL_SIZE( 24,     11,        9,      1,  9,               4) \
   SMALL_SIZE( 25,     11,        9,      2,  9,               4) \
   SMALL_SIZE( 26,     11,        9,      3,  9,               4) \
-  SMALL_SIZE( 27,     11,        9,      4,  9,               4) \
+  SMALL_SIZE( 27,     11,        9,      4,  9,               2) \
   \
-  SMALL_SIZE( 28,     12,       10,      1, no,               3) \
-  SMALL_SIZE( 29,     12,       10,      2, no,               3) \
-  SMALL_SIZE( 30,     12,       10,      3, no,               3) \
-  SMALL_SIZE( 31,     12,       10,      4, no,               3) \
+  SMALL_SIZE( 28,     12,       10,      1, no,               2) \
+  SMALL_SIZE( 29,     12,       10,      2, no,               2) \
+  SMALL_SIZE( 30,     12,       10,      3, no,               2) \
+  SMALL_SIZE( 31,     12,       10,      4, no,               1) \
   \
-  SMALL_SIZE( 32,     13,       11,      1, no,               2) \
-  SMALL_SIZE( 33,     13,       11,      2, no,               2) \
-  SMALL_SIZE( 34,     13,       11,      3, no,               2) \
-  SMALL_SIZE( 35,     13,       11,      4, no,               2) \
+  SMALL_SIZE( 32,     13,       11,      1, no,               1) \
+  SMALL_SIZE( 33,     13,       11,      2, no,               1) \
+  SMALL_SIZE( 34,     13,       11,      3, no,               1) \
+  SMALL_SIZE( 35,     13,       11,      4, no,               1) \
   \
-  SMALL_SIZE( 36,     14,       12,      1, no,               2) \
-  SMALL_SIZE( 37,     14,       12,      2, no,               2) \
-  SMALL_SIZE( 38,     14,       12,      3, no,               2) \
-  SMALL_SIZE( 39,     14,       12,      4, no,               2) \
+  SMALL_SIZE( 36,     14,       12,      1, no,               1) \
+  SMALL_SIZE( 37,     14,       12,      2, no,               1) \
+  SMALL_SIZE( 38,     14,       12,      3, no,               1) \
+  SMALL_SIZE( 39,     14,       12,      4, no,               1) \
   \
-  SMALL_SIZE( 40,     15,       13,      1, no,               2) \
-  SMALL_SIZE( 41,     15,       13,      2, no,               2) \
-  SMALL_SIZE( 42,     15,       13,      3, no,               2) \
-  SMALL_SIZE( 43,     15,       13,      4, no,               2) \
+  SMALL_SIZE( 40,     15,       13,      1, no,               1) \
+  SMALL_SIZE( 41,     15,       13,      2, no,               1) \
+  SMALL_SIZE( 42,     15,       13,      3, no,               1) \
+  SMALL_SIZE( 43,     15,       13,      4, no,               1) \
   \
-  SMALL_SIZE( 44,     16,       14,      1, no,               2) \
-  SMALL_SIZE( 45,     16,       14,      2, no,               2) \
-  SMALL_SIZE( 46,     16,       14,      3, no,               2) \
-  SMALL_SIZE( 47,     16,       14,      4, no,               2) \
+  SMALL_SIZE( 44,     16,       14,      1, no,               1) \
+  SMALL_SIZE( 45,     16,       14,      2, no,               1) \
+  SMALL_SIZE( 46,     16,       14,      3, no,               1) \
+  SMALL_SIZE( 47,     16,       14,      4, no,               1) \
   \
-  SMALL_SIZE( 48,     17,       15,      1, no,               2) \
-  SMALL_SIZE( 49,     17,       15,      2, no,               2) \
-  SMALL_SIZE( 50,     17,       15,      3, no,               2) \
-  SMALL_SIZE( 51,     17,       15,      4, no,               2) \
+  SMALL_SIZE( 48,     17,       15,      1, no,               1) \
+  SMALL_SIZE( 49,     17,       15,      2, no,               1) \
+  SMALL_SIZE( 50,     17,       15,      3, no,               1) \
+  SMALL_SIZE( 51,     17,       15,      4, no,               1) \
   \
-  SMALL_SIZE( 52,     18,       16,      1, no,               2) \
-  SMALL_SIZE( 53,     18,       16,      2, no,               2) \
-  SMALL_SIZE( 54,     18,       16,      3, no,               2) \
-  SMALL_SIZE( 55,     18,       16,      4, no,               2) \
+  SMALL_SIZE( 52,     18,       16,      1, no,               1) \
+  SMALL_SIZE( 53,     18,       16,      2, no,               1) \
+  SMALL_SIZE( 54,     18,       16,      3, no,               1) \
+  SMALL_SIZE( 55,     18,       16,      4, no,               1) \
   \
-  SMALL_SIZE( 56,     19,       17,      1, no,               2) \
-  SMALL_SIZE( 57,     19,       17,      2, no,               2) \
-  SMALL_SIZE( 58,     19,       17,      3, no,               2) \
+  SMALL_SIZE( 56,     19,       17,      1, no,               1) \
+  SMALL_SIZE( 57,     19,       17,      2, no,               1) \
+  SMALL_SIZE( 58,     19,       17,      3, no,               1) \
   SMALL_SIZE( 59,     19,       17,      4, no,               1) \
   \
   SMALL_SIZE( 60,     20,       18,      1, no,               1) \
@@ -380,6 +383,13 @@ alignas(64) constexpr uint32_t kSmallIndex2Size[] = {
 #undef SMALL_SIZE
 };
 
+alignas(64) constexpr unsigned kNContigTab[] = {
+#define SMALL_SIZE(index, lg_grp, lg_delta, ndelta, lg_delta_lookup, ncontig) \
+  ncontig,
+  SMALL_SIZES
+#undef SMALL_SIZE
+};
+
 constexpr uint32_t kMaxSmallSizeLookup = 4096;
 
 constexpr unsigned kLgSlabSize = 21;
@@ -409,9 +419,6 @@ static_assert(kMaxSmallSize > kSmallSizeAlign * 2,
 static_assert(kMaxSmallSize < kSlabSize, "fix kNumSmallSizes or kLgSlabSize");
 static_assert(kNumSmallSizes <= sizeof(kSmallSize2Index),
               "Extend SMALL_SIZES table");
-
-constexpr unsigned kSmallPreallocCountLimit = 8;
-constexpr uint32_t kSmallPreallocBytesLimit = uint32_t{1} << 9;
 
 /*
  * Constants for the various debug junk-filling of different types of
@@ -868,6 +875,15 @@ struct MemoryManager {
    */
   static void requestShutdown();
 
+  /*
+   * Setup/teardown profiling for current request.  This causes all allocation
+   * requests to be passed through to the underlying memory allocator so that
+   * heap profiling can capture backtraces for individual allocations rather
+   * than slab allocations.
+   */
+  static void setupProfiling();
+  static void teardownProfiling();
+
   /////////////////////////////////////////////////////////////////////////////
 
   /*
@@ -892,16 +908,6 @@ struct MemoryManager {
   template <typename F> void scanRootMaps(F& m) const;
   template <typename F> void scanSweepLists(F& m) const;
 
-  // Opaque type used to allow for quick removal of exception roots. Should be
-  // embedded in ExtendedException.
-  struct ExceptionRootKey {
-    std::size_t m_index = 0;
-  };
-
-  // Add/remove exceptions as GC roots.
-  void addExceptionRoot(ExtendedException* exn);
-  void removeExceptionRoot(ExtendedException* exn);
-
   /*
    * Heap iterator methods.
    */
@@ -913,7 +919,13 @@ struct MemoryManager {
    * Run the experimental collector.
    */
   void collect(const char* phase);
-  void quarantine(); // turn free objects into holes
+
+  /*
+   * beginQuarantine() swaps out the normal freelists. endQuarantine()
+   * fills everything freed with holes, then restores the original freelists.
+   */
+  void beginQuarantine();
+  void endQuarantine();
 
   /*
    * Run an integrity check on the heap
@@ -927,6 +939,7 @@ private:
   friend void* req::calloc(size_t count, size_t bytes);
   friend void* req::realloc(void* ptr, size_t nbytes);
   friend void  req::free(void* ptr);
+  friend struct req::root_handle; // access m_root_handles
 
   struct FreeList {
     void* maybePop();
@@ -958,7 +971,7 @@ private:
     bool flag{false};
     bool prof_active{false};
     bool thread_prof_active{false};
-    std::string filename;
+    std::string filename{};
   };
 
   /////////////////////////////////////////////////////////////////////////////
@@ -967,13 +980,14 @@ private:
   MemoryManager();
   MemoryManager(const MemoryManager&) = delete;
   MemoryManager& operator=(const MemoryManager&) = delete;
+  ~MemoryManager();
 
 private:
-  void* slabAlloc(uint32_t bytes, unsigned index);
-  void* newSlab(uint32_t nbytes);
   void storeTail(void* tail, uint32_t tailBytes);
   void splitTail(void* tail, uint32_t tailBytes, unsigned nSplit,
                  uint32_t splitUsable, unsigned splitInd);
+  void* slabAlloc(uint32_t bytes, unsigned index);
+  void* newSlab(uint32_t nbytes);
   void* mallocSmallSizeSlow(uint32_t bytes, unsigned index);
   void  updateBigStats();
   void* mallocBig(size_t nbytes);
@@ -993,9 +1007,6 @@ private:
 
   void resetStatsImpl(bool isInternalCall);
 
-  void logAllocation(void*, size_t);
-  void logDeallocation(void*);
-
   void initHole(void* ptr, uint32_t size);
   void initHole();
   void initFree();
@@ -1003,7 +1014,8 @@ private:
   void dropRootMaps();
   void deleteRootMaps();
 
-  void eagerGCCheck();
+  void checkEagerGC();
+  void resetEagerGC();
 
   template <typename T>
   typename std::enable_if<
@@ -1070,7 +1082,7 @@ private:
 
   mutable RootMap<ResourceData>* m_resourceRoots{nullptr};
   mutable RootMap<ObjectData>* m_objectRoots{nullptr};
-  mutable std::vector<ExtendedException*> m_exceptionRoots;
+  mutable std::vector<req::root_handle*> m_root_handles;
 
   bool m_exiting{false};
   bool m_sweeping{false};
@@ -1099,6 +1111,9 @@ private:
   static size_t s_cactiveLimitCeiling;
   bool m_enableStatsSync;
 #endif
+
+  // freelists to use when quarantine is active
+  std::array<FreeList,kNumSmallSizes> m_quarantine;
 };
 
 //////////////////////////////////////////////////////////////////////

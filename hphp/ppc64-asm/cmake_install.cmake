@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/hhvm-3.11.1/hphp/ppc64-asm
+# Install script for directory: /tmp/hhvm-3.12.1/hphp/ppc64-asm
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,8 +33,8 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
-  INCLUDE("/tmp/hhvm-3.11.1/CMake/HPHPFunctions.cmake")
-      HHVM_INSTALL_HEADERS(ppc64-asm /tmp/hhvm-3.11.1
-      "${CMAKE_INSTALL_PREFIX}/include" /tmp/hhvm-3.11.1/hphp/ppc64-asm/asm-ppc64.h;/tmp/hhvm-3.11.1/hphp/ppc64-asm/isa-ppc64.h;/tmp/hhvm-3.11.1/hphp/ppc64-asm/asm-ppc64.h;/tmp/hhvm-3.11.1/hphp/ppc64-asm/isa-ppc64.h)
+  INCLUDE("/tmp/hhvm-3.12.1/CMake/HPHPFunctions.cmake")
+      HHVM_INSTALL_HEADERS(ppc64-asm /tmp/hhvm-3.12.1
+      "${CMAKE_INSTALL_PREFIX}/include" )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
 

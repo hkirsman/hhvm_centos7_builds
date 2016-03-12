@@ -1,1 +1,1 @@
-client/clientRefactor.ml: Buffer ClientEnv Core Hh_json List Pos SMap ServerCommand ServerRefactor ServerRpc String Sys_utils Utils
+client/clientRefactor.ml: Buffer ClientEnv Core Hh_json List Pos Printf SMap ServerCommand ServerRefactor ServerRpc Str String Sys_utils Utils

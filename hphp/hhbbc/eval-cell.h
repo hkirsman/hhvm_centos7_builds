@@ -59,14 +59,14 @@ folly::Optional<Type> eval_cell(Pred p) {
           }
           auto const sstr = makeStaticString(c.m_data.pstr);
           tvDecRef(&c);
-          c = make_tv<KindOfStaticString>(sstr);
+          c = make_tv<KindOfPersistentString>(sstr);
         }
         break;
       case KindOfArray:
         {
           auto const sarr = ArrayData::GetScalarArray(c.m_data.parr);
           tvDecRef(&c);
-          c = make_tv<KindOfArray>(sarr);
+          c = make_tv<KindOfPersistentArray>(sarr);
         }
         break;
       default:

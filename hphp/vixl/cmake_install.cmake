@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/hhvm-3.11.1/hphp/vixl
+# Install script for directory: /tmp/hhvm-3.12.1/hphp/vixl
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,14 +33,14 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
-  INCLUDE("/tmp/hhvm-3.11.1/CMake/HPHPFunctions.cmake")
-      HHVM_INSTALL_HEADERS(vixl /tmp/hhvm-3.11.1
-      "${CMAKE_INSTALL_PREFIX}/include" /tmp/hhvm-3.11.1/hphp/vixl/globals.h;/tmp/hhvm-3.11.1/hphp/vixl/platform.h;/tmp/hhvm-3.11.1/hphp/vixl/utils.h;/tmp/hhvm-3.11.1/hphp/vixl/globals.h;/tmp/hhvm-3.11.1/hphp/vixl/platform.h;/tmp/hhvm-3.11.1/hphp/vixl/utils.h)
+  INCLUDE("/tmp/hhvm-3.12.1/CMake/HPHPFunctions.cmake")
+      HHVM_INSTALL_HEADERS(vixl /tmp/hhvm-3.12.1
+      "${CMAKE_INSTALL_PREFIX}/include" /tmp/hhvm-3.12.1/hphp/vixl/globals.h;/tmp/hhvm-3.12.1/hphp/vixl/platform.h;/tmp/hhvm-3.12.1/hphp/vixl/utils.h;/tmp/hhvm-3.12.1/hphp/vixl/globals.h;/tmp/hhvm-3.12.1/hphp/vixl/platform.h;/tmp/hhvm-3.12.1/hphp/vixl/utils.h)
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
-  INCLUDE("/tmp/hhvm-3.11.1/CMake/HPHPFunctions.cmake")
-      HHVM_INSTALL_HEADERS(vixl /tmp/hhvm-3.11.1
-      "${CMAKE_INSTALL_PREFIX}/include" /tmp/hhvm-3.11.1/hphp/vixl/globals.h;/tmp/hhvm-3.11.1/hphp/vixl/platform.h;/tmp/hhvm-3.11.1/hphp/vixl/utils.h;/tmp/hhvm-3.11.1/hphp/vixl/a64/assembler-a64.h;/tmp/hhvm-3.11.1/hphp/vixl/a64/constants-a64.h;/tmp/hhvm-3.11.1/hphp/vixl/a64/cpu-a64.h;/tmp/hhvm-3.11.1/hphp/vixl/a64/debugger-a64.h;/tmp/hhvm-3.11.1/hphp/vixl/a64/decoder-a64.h;/tmp/hhvm-3.11.1/hphp/vixl/a64/disasm-a64.h;/tmp/hhvm-3.11.1/hphp/vixl/a64/instructions-a64.h;/tmp/hhvm-3.11.1/hphp/vixl/a64/instrument-a64.h;/tmp/hhvm-3.11.1/hphp/vixl/a64/macro-assembler-a64.h;/tmp/hhvm-3.11.1/hphp/vixl/a64/simulator-a64.h)
+  INCLUDE("/tmp/hhvm-3.12.1/CMake/HPHPFunctions.cmake")
+      HHVM_INSTALL_HEADERS(vixl /tmp/hhvm-3.12.1
+      "${CMAKE_INSTALL_PREFIX}/include" /tmp/hhvm-3.12.1/hphp/vixl/globals.h;/tmp/hhvm-3.12.1/hphp/vixl/platform.h;/tmp/hhvm-3.12.1/hphp/vixl/utils.h;/tmp/hhvm-3.12.1/hphp/vixl/a64/assembler-a64.h;/tmp/hhvm-3.12.1/hphp/vixl/a64/constants-a64.h;/tmp/hhvm-3.12.1/hphp/vixl/a64/cpu-a64.h;/tmp/hhvm-3.12.1/hphp/vixl/a64/debugger-a64.h;/tmp/hhvm-3.12.1/hphp/vixl/a64/decoder-a64.h;/tmp/hhvm-3.12.1/hphp/vixl/a64/disasm-a64.h;/tmp/hhvm-3.12.1/hphp/vixl/a64/instructions-a64.h;/tmp/hhvm-3.12.1/hphp/vixl/a64/instrument-a64.h;/tmp/hhvm-3.12.1/hphp/vixl/a64/macro-assembler-a64.h;/tmp/hhvm-3.12.1/hphp/vixl/a64/simulator-a64.h)
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
 

@@ -88,16 +88,15 @@ namespace folly {
  *
  * // Thread2: Exceptions are bad!
  * void processResult() {
- *   auto ep = globalExceptionWrapper.get();
- *   if (!ep.with_exception<FacePlantException>([&](
- *     FacePlantException& faceplant) {
- *       LOG(ERROR) << "FACEPLANT";
- *     })) {
- *     ep.with_exception<FailWhaleException>([&](
- *       FailWhaleException& failwhale) {
+ *   globalExceptionWrapper.with_exception(
+ *       [&](FacePlantException& faceplant) {
+ *         LOG(ERROR) << "FACEPLANT";
+ *       }) ||
+ *   globalExceptionWrapper.with_exception(
+ *       [&](FailWhaleException& failwhale) {
  *         LOG(ERROR) << "FAILWHALE!";
- *       });
- *   }
+ *       }) ||
+ *   LOG(FATAL) << "Unrecognized exception";
  * }
  *
  */
@@ -214,13 +213,25 @@ class exception_wrapper {
     } else if (eptr_) {
       try {
         std::rethrow_exception(eptr_);
-      } catch (std::exception& e) {
-        return dynamic_cast<const Ex*>(&e);
+      } catch (typename std::decay<Ex>::type&) {
+        return true;
       } catch (...) {
         // fall through
       }
     }
     return false;
+  }
+
+  template <class F>
+  bool with_exception(F&& f) {
+    using arg_type = typename functor_traits<F>::arg_type_decayed;
+    return with_exception<arg_type>(std::forward<F>(f));
+  }
+
+  template <class F>
+  bool with_exception(F&& f) const {
+    using arg_type = typename functor_traits<F>::arg_type_decayed;
+    return with_exception<const arg_type>(std::forward<F>(f));
   }
 
   // If this exception wrapper wraps an exception of type Ex, with_exception
@@ -310,6 +321,20 @@ protected:
   friend exception_wrapper make_exception_wrapper(Args&&... args);
 
 private:
+  template <typename F>
+  struct functor_traits {
+    template <typename T>
+    struct impl;
+    template <typename C, typename R, typename A>
+    struct impl<R(C::*)(A)> { using arg_type = A; };
+    template <typename C, typename R, typename A>
+    struct impl<R(C::*)(A) const> { using arg_type = A; };
+    using functor_decayed = typename std::decay<F>::type;
+    using functor_op = decltype(&functor_decayed::operator());
+    using arg_type = typename impl<functor_op>::arg_type;
+    using arg_type_decayed = typename std::decay<arg_type>::type;
+  };
+
   // What makes this useful is that T can be exception_wrapper* or
   // const exception_wrapper*, and the compiler will use the
   // instantiation which works with F.
@@ -323,11 +348,9 @@ private:
     } else if (that->eptr_) {
       try {
         std::rethrow_exception(that->eptr_);
-      } catch (std::exception& e) {
-        if (auto ex = dynamic_cast<Ex*>(&e)) {
-          f(*ex);
-          return true;
-        }
+      } catch (Ex& e) {
+        f(e);
+        return true;
       } catch (...) {
         // fall through
       }

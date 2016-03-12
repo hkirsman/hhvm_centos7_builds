@@ -53,6 +53,10 @@ struct HhbcExtClassInfo;
 struct StringData;
 class c_WaitHandle;
 
+namespace collections {
+class CollectionsExtension;
+}
+
 namespace Native {
 struct NativeDataInfo;
 struct NativePropHandler;
@@ -1194,6 +1198,8 @@ private:
     std::enable_if<std::is_base_of<c_WaitHandle, T>::value, void>::type
   finish_class();
 
+  friend class collections::CollectionsExtension;
+
   RequirementMap m_requirements;
   std::unique_ptr<ClassPtr[]> m_declInterfaces;
   uint32_t m_numDeclInterfaces{0};
@@ -1335,6 +1341,11 @@ bool isNormalClass(const Class* cls);
  * allocate the handle before we loaded the class.
  */
 bool classHasPersistentRDS(const Class* cls);
+
+/*
+ * Returns whether cls or any of its children may have magic property methods.
+ */
+bool classMayHaveMagicPropMethods(const Class* cls);
 
 /*
  * Return the class that "owns" f.  This will normally be f->cls(), but for

@@ -6,23 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/tmp/hhvm-3.11.1/third-party/folly/gen/EscapeTables.cpp
+/tmp/hhvm-3.12.1/third-party/folly/gen/EscapeTables.cpp
 
-/tmp/hhvm-3.11.1/third-party/folly/gen/FingerprintTables.cpp
+/tmp/hhvm-3.12.1/third-party/folly/gen/FingerprintTables.cpp
 folly/Fingerprint.h
-/tmp/hhvm-3.11.1/third-party/folly/gen/folly/Fingerprint.h
+/tmp/hhvm-3.12.1/third-party/folly/gen/folly/Fingerprint.h
 
-/tmp/hhvm-3.11.1/third-party/folly/gen/FormatTables.cpp
+/tmp/hhvm-3.12.1/third-party/folly/gen/FormatTables.cpp
 folly/FormatArg.h
-/tmp/hhvm-3.11.1/third-party/folly/gen/folly/FormatArg.h
+/tmp/hhvm-3.12.1/third-party/folly/gen/folly/FormatArg.h
 
-/tmp/hhvm-3.11.1/third-party/folly/gen/GroupVarintTables.cpp
+/tmp/hhvm-3.12.1/third-party/folly/gen/GroupVarintTables.cpp
 stdint.h
 -
 x86intrin.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/Bits.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/Bits.cpp
 folly/Bits.h
 -
 folly/CpuId.h
@@ -30,7 +30,7 @@ folly/CpuId.h
 folly/Portability.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/Checksum.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/Checksum.cpp
 folly/Checksum.h
 -
 algorithm
@@ -42,11 +42,11 @@ boost/crc.hpp
 folly/CpuId.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/Conv.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/Conv.cpp
 folly/Conv.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/Demangle.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/Demangle.cpp
 folly/Demangle.h
 -
 algorithm
@@ -58,7 +58,7 @@ folly/Malloc.h
 cxxabi.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/File.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/File.cpp
 folly/File.h
 -
 fcntl.h
@@ -80,7 +80,7 @@ system_error
 glog/logging.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/FileUtil.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/FileUtil.cpp
 folly/FileUtil.h
 -
 cerrno
@@ -94,17 +94,17 @@ sys/socket.h
 folly/detail/FileUtilDetail.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/Format.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/Format.cpp
 folly/Format.h
 -
 double-conversion/double-conversion.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/GroupVarint.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/GroupVarint.cpp
 folly/GroupVarint.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/IPAddress.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/IPAddress.cpp
 folly/IPAddress.h
 -
 limits
@@ -118,7 +118,7 @@ vector
 folly/String.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/IPAddressV4.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/IPAddressV4.cpp
 folly/IPAddressV4.h
 -
 ostream
@@ -132,7 +132,7 @@ folly/IPAddress.h
 folly/IPAddressV6.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/IPAddressV6.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/IPAddressV6.cpp
 folly/IPAddressV6.h
 -
 ostream
@@ -148,11 +148,11 @@ folly/IPAddressV4.h
 folly/MacAddress.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/LifoSem.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/LifoSem.cpp
 folly/LifoSem.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/MacAddress.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/MacAddress.cpp
 folly/MacAddress.h
 -
 folly/Exception.h
@@ -160,7 +160,7 @@ folly/Exception.h
 folly/IPAddressV6.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/MemoryMapping.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/MemoryMapping.cpp
 folly/MemoryMapping.h
 -
 algorithm
@@ -184,7 +184,7 @@ system_error
 gflags/gflags.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/Random.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/Random.cpp
 folly/Random.h
 -
 atomic
@@ -208,7 +208,7 @@ folly/FileUtil.h
 wincrypt.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/SafeAssert.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/SafeAssert.cpp
 folly/SafeAssert.h
 -
 folly/Conv.h
@@ -216,11 +216,11 @@ folly/Conv.h
 folly/FileUtil.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/SharedMutex.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/SharedMutex.cpp
 SharedMutex.h
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/SharedMutex.h
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/SharedMutex.h
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/SharedMutex.h
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/SharedMutex.h
 stdint.h
 -
 atomic
@@ -238,7 +238,7 @@ folly/detail/Futex.h
 sys/resource.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/Singleton.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/Singleton.cpp
 folly/Singleton.h
 -
 atomic
@@ -248,13 +248,13 @@ string
 folly/ScopeGuard.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/SingletonVault_c.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/SingletonVault_c.cpp
 folly/SingletonVault_c.h
 -
 folly/Singleton.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/SocketAddress.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/SocketAddress.cpp
 folly/SocketAddress.h
 -
 folly/Hash.h
@@ -274,19 +274,19 @@ sstream
 string
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/SpookyHashV1.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/SpookyHashV1.cpp
 folly/SpookyHashV1.h
 -
 cstring
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/SpookyHashV2.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/SpookyHashV2.cpp
 folly/SpookyHashV2.h
 -
 cstring
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/String.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/String.cpp
 folly/String.h
 -
 folly/Format.h
@@ -310,11 +310,11 @@ string.h
 glog/logging.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/StringBase.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/StringBase.cpp
 folly/String.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/Subprocess.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/Subprocess.cpp
 folly/Subprocess.h
 -
 sys/prctl.h
@@ -348,13 +348,13 @@ folly/String.h
 folly/io/Cursor.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/ThreadCachedArena.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/ThreadCachedArena.cpp
 folly/ThreadCachedArena.h
 -
 memory
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/TimeoutQueue.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/TimeoutQueue.cpp
 folly/TimeoutQueue.h
 -
 algorithm
@@ -362,11 +362,11 @@ algorithm
 vector
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/Unicode.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/Unicode.cpp
 folly/Unicode.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/Uri.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/Uri.cpp
 folly/Uri.h
 -
 ctype.h
@@ -374,11 +374,11 @@ ctype.h
 boost/regex.hpp
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/Version.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/Version.cpp
 folly/VersionCheck.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/detail/CacheLocality.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/detail/CacheLocality.cpp
 folly/detail/CacheLocality.h
 -
 dlfcn.h
@@ -396,7 +396,7 @@ folly/Format.h
 folly/ScopeGuard.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/detail/Futex.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/detail/Futex.cpp
 folly/detail/Futex.h
 -
 stdint.h
@@ -420,11 +420,11 @@ linux/futex.h
 sys/syscall.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/detail/MallocImpl.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/detail/MallocImpl.cpp
 folly/detail/Malloc.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/detail/MemoryIdler.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/detail/MemoryIdler.cpp
 folly/detail/MemoryIdler.h
 -
 folly/Logging.h
@@ -450,7 +450,7 @@ sys/mman.h
 utility
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/detail/RangeCommon.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/detail/RangeCommon.cpp
 folly/detail/RangeCommon.h
 -
 bitset
@@ -458,9 +458,9 @@ bitset
 folly/SparseByteSet.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/detail/RangeSse42.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/detail/RangeSse42.cpp
 RangeSse42.h
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/detail/RangeSse42.h
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/detail/RangeSse42.h
 glog/logging.h
 -
 folly/Portability.h
@@ -478,17 +478,21 @@ smmintrin.h
 folly/Likely.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/detail/RangeSse42.h
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/detail/RangeSse42.h
 cstddef
 -
 folly/detail/RangeCommon.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/dynamic.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/detail/ThreadLocalDetail.cpp
+folly/ThreadLocal.h
+-
+
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/dynamic.cpp
 folly/dynamic.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/FunctionScheduler.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/experimental/FunctionScheduler.cpp
 folly/experimental/FunctionScheduler.h
 -
 random
@@ -502,7 +506,7 @@ folly/String.h
 folly/ThreadName.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/JSONSchema.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/experimental/JSONSchema.cpp
 folly/experimental/JSONSchema.h
 -
 boost/algorithm/string/replace.hpp
@@ -522,7 +526,7 @@ folly/Singleton.h
 folly/json.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/NestedCommandLineApp.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/experimental/NestedCommandLineApp.cpp
 folly/experimental/NestedCommandLineApp.h
 -
 iostream
@@ -534,15 +538,15 @@ folly/Format.h
 folly/experimental/io/FsUtil.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/Select64.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/experimental/Select64.cpp
 folly/experimental/Select64.h
 -
 cstdint
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/fibers/Baton.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/experimental/fibers/Baton.cpp
 Baton.h
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/fibers/Baton.h
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/experimental/fibers/Baton.h
 chrono
 -
 folly/detail/MemoryIdler.h
@@ -550,7 +554,7 @@ folly/detail/MemoryIdler.h
 folly/experimental/fibers/FiberManager.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/fibers/Baton.h
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/experimental/fibers/Baton.h
 atomic
 -
 folly/detail/Futex.h
@@ -560,9 +564,9 @@ folly/experimental/fibers/TimeoutController.h
 folly/experimental/fibers/Baton-inl.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/fibers/Fiber.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/experimental/fibers/Fiber.cpp
 Fiber.h
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/fibers/Fiber.h
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/experimental/fibers/Fiber.h
 sys/syscall.h
 -
 unistd.h
@@ -584,7 +588,7 @@ folly/experimental/fibers/BoostContextCompatibility.h
 folly/experimental/fibers/FiberManager.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/fibers/Fiber.h
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/experimental/fibers/Fiber.h
 functional
 -
 typeinfo
@@ -608,7 +612,7 @@ folly/Portability.h
 folly/experimental/fibers/Fiber-inl.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/fibers/FiberManager-inl.h
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/experimental/fibers/FiberManager-inl.h
 cassert
 -
 folly/CPortability.h
@@ -634,9 +638,9 @@ folly/experimental/fibers/Promise.h
 folly/futures/Try.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/fibers/FiberManager.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/experimental/fibers/FiberManager.cpp
 FiberManager.h
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/fibers/FiberManager.h
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/experimental/fibers/FiberManager.h
 sys/syscall.h
 -
 unistd.h
@@ -652,7 +656,7 @@ folly/experimental/fibers/Fiber.h
 folly/experimental/fibers/LoopController.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/fibers/FiberManager.h
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/experimental/fibers/FiberManager.h
 functional
 -
 memory
@@ -692,11 +696,11 @@ folly/experimental/fibers/TimeoutController.h
 folly/experimental/fibers/traits.h
 -
 FiberManager-inl.h
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/fibers/FiberManager-inl.h
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/experimental/fibers/FiberManager-inl.h
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/fibers/FiberManagerMap.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/experimental/fibers/FiberManagerMap.cpp
 FiberManagerMap.h
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/fibers/FiberManagerMap.h
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/experimental/fibers/FiberManagerMap.h
 cassert
 -
 memory
@@ -706,15 +710,15 @@ unordered_map
 folly/ThreadLocal.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/fibers/FiberManagerMap.h
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/experimental/fibers/FiberManagerMap.h
 folly/experimental/fibers/FiberManager.h
 -
 folly/experimental/fibers/EventBaseLoopController.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/fibers/GuardPageAllocator.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/experimental/fibers/GuardPageAllocator.cpp
 GuardPageAllocator.h
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/fibers/GuardPageAllocator.h
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/experimental/fibers/GuardPageAllocator.h
 sys/mman.h
 -
 unistd.h
@@ -728,17 +732,17 @@ folly/SpinLock.h
 glog/logging.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/fibers/GuardPageAllocator.h
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/experimental/fibers/GuardPageAllocator.h
 memory
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/fibers/TimeoutController.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/experimental/fibers/TimeoutController.cpp
 TimeoutController.h
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/fibers/TimeoutController.h
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/experimental/fibers/TimeoutController.h
 folly/Memory.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/fibers/TimeoutController.h
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/experimental/fibers/TimeoutController.h
 chrono
 -
 functional
@@ -754,7 +758,7 @@ folly/Likely.h
 folly/experimental/fibers/LoopController.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/io/FsUtil.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/experimental/io/FsUtil.cpp
 folly/experimental/io/FsUtil.h
 -
 unistd.h
@@ -762,7 +766,7 @@ unistd.h
 folly/Exception.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/io/HugePages.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/experimental/io/HugePages.cpp
 folly/experimental/io/HugePages.h
 -
 sys/stat.h
@@ -804,7 +808,7 @@ folly/gen/File.h
 folly/gen/String.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/symbolizer/Dwarf.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/experimental/symbolizer/Dwarf.cpp
 folly/experimental/symbolizer/Dwarf.h
 -
 type_traits
@@ -812,7 +816,7 @@ type_traits
 dwarf.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/symbolizer/Elf.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/experimental/symbolizer/Elf.cpp
 folly/experimental/symbolizer/Elf.h
 -
 sys/mman.h
@@ -834,7 +838,7 @@ folly/Exception.h
 folly/ScopeGuard.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/symbolizer/LineReader.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/experimental/symbolizer/LineReader.cpp
 folly/experimental/symbolizer/LineReader.h
 -
 cstring
@@ -842,7 +846,7 @@ cstring
 folly/FileUtil.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/experimental/symbolizer/Symbolizer.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/experimental/symbolizer/Symbolizer.cpp
 folly/experimental/symbolizer/Symbolizer.h
 -
 cstdio
@@ -872,11 +876,11 @@ folly/experimental/symbolizer/Dwarf.h
 folly/experimental/symbolizer/LineReader.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/futures/Barrier.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/futures/Barrier.cpp
 folly/futures/Barrier.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/futures/Future.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/futures/Future.cpp
 folly/futures/Future.h
 -
 folly/futures/ThreadWheelTimekeeper.h
@@ -884,9 +888,9 @@ folly/futures/ThreadWheelTimekeeper.h
 folly/Likely.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/futures/InlineExecutor.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/futures/InlineExecutor.cpp
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/futures/ManualExecutor.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/futures/ManualExecutor.cpp
 folly/futures/ManualExecutor.h
 -
 string.h
@@ -898,7 +902,7 @@ tuple
 stdexcept
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/futures/QueuedImmediateExecutor.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/futures/QueuedImmediateExecutor.cpp
 folly/futures/QueuedImmediateExecutor.h
 -
 folly/ThreadLocal.h
@@ -906,9 +910,9 @@ folly/ThreadLocal.h
 queue
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/futures/ThreadWheelTimekeeper.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/futures/ThreadWheelTimekeeper.cpp
 ThreadWheelTimekeeper.h
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/futures/ThreadWheelTimekeeper.h
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/futures/ThreadWheelTimekeeper.h
 folly/Singleton.h
 -
 folly/futures/Future.h
@@ -916,7 +920,7 @@ folly/futures/Future.h
 future
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/futures/ThreadWheelTimekeeper.h
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/futures/ThreadWheelTimekeeper.h
 folly/futures/Future.h
 -
 folly/futures/Timekeeper.h
@@ -928,13 +932,13 @@ folly/io/async/HHWheelTimer.h
 thread
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/futures/ThreadedExecutor.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/futures/ThreadedExecutor.cpp
 folly/futures/ThreadedExecutor.h
 -
 glog/logging.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/io/IOBuf.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/io/IOBuf.cpp
 folly/io/IOBuf.h
 -
 folly/Conv.h
@@ -960,7 +964,7 @@ stdint.h
 stdlib.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/io/IOBufQueue.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/io/IOBufQueue.cpp
 folly/io/IOBufQueue.h
 -
 string.h
@@ -968,7 +972,7 @@ string.h
 stdexcept
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/io/RecordIO.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/io/RecordIO.cpp
 folly/io/RecordIO.h
 -
 sys/types.h
@@ -988,7 +992,7 @@ folly/ScopeGuard.h
 folly/String.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/io/ShutdownSocketSet.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/io/ShutdownSocketSet.cpp
 folly/io/ShutdownSocketSet.h
 -
 sys/socket.h
@@ -1006,7 +1010,7 @@ folly/FileUtil.h
 folly/Malloc.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/AsyncPipe.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/io/async/AsyncPipe.cpp
 folly/io/async/AsyncPipe.h
 -
 folly/FileUtil.h
@@ -1014,7 +1018,7 @@ folly/FileUtil.h
 folly/io/async/AsyncSocketException.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/AsyncSSLSocket.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/io/async/AsyncSSLSocket.cpp
 folly/io/async/AsyncSSLSocket.h
 -
 folly/io/async/EventBase.h
@@ -1054,7 +1058,7 @@ folly/io/IOBuf.h
 folly/io/Cursor.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/AsyncServerSocket.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/io/async/AsyncServerSocket.cpp
 folly/io/async/AsyncServerSocket.h
 -
 folly/FileUtil.h
@@ -1080,7 +1084,7 @@ sys/types.h
 unistd.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/AsyncSignalHandler.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/io/async/AsyncSignalHandler.cpp
 folly/io/async/AsyncSignalHandler.h
 -
 folly/io/async/EventBase.h
@@ -1088,7 +1092,7 @@ folly/io/async/EventBase.h
 folly/Conv.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/AsyncSocket.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/io/async/AsyncSocket.cpp
 folly/io/async/AsyncSocket.h
 -
 folly/io/async/EventBase.h
@@ -1122,7 +1126,7 @@ netinet/tcp.h
 boost/preprocessor/control/if.hpp
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/AsyncTimeout.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/io/async/AsyncTimeout.cpp
 folly/io/async/AsyncTimeout.h
 -
 folly/io/async/EventBase.h
@@ -1136,7 +1140,7 @@ assert.h
 glog/logging.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/AsyncUDPSocket.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/io/async/AsyncUDPSocket.cpp
 folly/io/async/AsyncUDPSocket.h
 -
 folly/io/async/EventBase.h
@@ -1150,7 +1154,7 @@ unistd.h
 fcntl.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/EventBase.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/io/async/EventBase.cpp
 folly/io/async/EventBase.h
 -
 folly/ThreadName.h
@@ -1170,7 +1174,7 @@ pthread.h
 unistd.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/EventBaseLocal.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/io/async/EventBaseLocal.cpp
 folly/io/async/EventBaseLocal.h
 -
 atomic
@@ -1178,11 +1182,11 @@ atomic
 thread
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/EventBaseManager.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/io/async/EventBaseManager.cpp
 folly/io/async/EventBaseManager.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/EventHandler.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/io/async/EventHandler.cpp
 folly/io/async/EventHandler.h
 -
 folly/io/async/EventBase.h
@@ -1190,7 +1194,7 @@ folly/io/async/EventBase.h
 assert.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/HHWheelTimer.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/io/async/HHWheelTimer.cpp
 folly/io/async/HHWheelTimer.h
 -
 folly/io/async/Request.h
@@ -1202,9 +1206,9 @@ folly/ScopeGuard.h
 cassert
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/SSLContext.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/io/async/SSLContext.cpp
 SSLContext.h
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/SSLContext.h
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/io/async/SSLContext.h
 openssl/err.h
 -
 openssl/rand.h
@@ -1218,7 +1222,7 @@ folly/Format.h
 folly/SpinLock.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/SSLContext.h
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/io/async/SSLContext.h
 mutex
 -
 list
@@ -1244,7 +1248,7 @@ glog/logging.h
 folly/folly-config.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/io/async/ScopedEventBaseThread.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/io/async/ScopedEventBaseThread.cpp
 folly/io/async/ScopedEventBaseThread.h
 -
 thread
@@ -1252,7 +1256,7 @@ thread
 folly/Memory.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/json.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/json.cpp
 folly/json.h
 -
 cassert
@@ -1270,7 +1274,7 @@ folly/String.h
 folly/Unicode.h
 -
 
-/tmp/hhvm-3.11.1/third-party/folly/src/folly/stats/Instantiations.cpp
+/tmp/hhvm-3.12.1/third-party/folly/src/folly/stats/Instantiations.cpp
 folly/stats/BucketedTimeSeries.h
 -
 folly/stats/BucketedTimeSeries-defs.h
@@ -2566,6 +2570,8 @@ folly/Foreach.h
 folly/Exception.h
 -
 folly/Malloc.h
+-
+folly/MicroSpinLock.h
 -
 
 third-party/folly/folly/detail/UncaughtExceptionCounter.h

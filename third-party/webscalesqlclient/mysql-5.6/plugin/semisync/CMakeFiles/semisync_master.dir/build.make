@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src
 
 # Include any dependencies generated for this target.
 include plugin/semisync/CMakeFiles/semisync_master.dir/depend.make
@@ -54,17 +54,17 @@ include plugin/semisync/CMakeFiles/semisync_master.dir/flags.make
 
 plugin/semisync/CMakeFiles/semisync_master.dir/semisync.cc.o: plugin/semisync/CMakeFiles/semisync_master.dir/flags.make
 plugin/semisync/CMakeFiles/semisync_master.dir/semisync.cc.o: plugin/semisync/semisync.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugin/semisync/CMakeFiles/semisync_master.dir/semisync.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/plugin/semisync && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/semisync_master.dir/semisync.cc.o -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/plugin/semisync/semisync.cc
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/plugin/semisync && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/semisync_master.dir/semisync.cc.o -c /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/plugin/semisync/semisync.cc
 
 plugin/semisync/CMakeFiles/semisync_master.dir/semisync.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/semisync_master.dir/semisync.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/plugin/semisync && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/plugin/semisync/semisync.cc > CMakeFiles/semisync_master.dir/semisync.cc.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/plugin/semisync && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/plugin/semisync/semisync.cc > CMakeFiles/semisync_master.dir/semisync.cc.i
 
 plugin/semisync/CMakeFiles/semisync_master.dir/semisync.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/semisync_master.dir/semisync.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/plugin/semisync && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/plugin/semisync/semisync.cc -o CMakeFiles/semisync_master.dir/semisync.cc.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/plugin/semisync && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/plugin/semisync/semisync.cc -o CMakeFiles/semisync_master.dir/semisync.cc.s
 
 plugin/semisync/CMakeFiles/semisync_master.dir/semisync.cc.o.requires:
 .PHONY : plugin/semisync/CMakeFiles/semisync_master.dir/semisync.cc.o.requires
@@ -77,17 +77,17 @@ plugin/semisync/CMakeFiles/semisync_master.dir/semisync.cc.o.provides.build: plu
 
 plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master.cc.o: plugin/semisync/CMakeFiles/semisync_master.dir/flags.make
 plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master.cc.o: plugin/semisync/semisync_master.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/plugin/semisync && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/semisync_master.dir/semisync_master.cc.o -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/plugin/semisync/semisync_master.cc
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/plugin/semisync && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/semisync_master.dir/semisync_master.cc.o -c /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/plugin/semisync/semisync_master.cc
 
 plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/semisync_master.dir/semisync_master.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/plugin/semisync && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/plugin/semisync/semisync_master.cc > CMakeFiles/semisync_master.dir/semisync_master.cc.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/plugin/semisync && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/plugin/semisync/semisync_master.cc > CMakeFiles/semisync_master.dir/semisync_master.cc.i
 
 plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/semisync_master.dir/semisync_master.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/plugin/semisync && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/plugin/semisync/semisync_master.cc -o CMakeFiles/semisync_master.dir/semisync_master.cc.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/plugin/semisync && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/plugin/semisync/semisync_master.cc -o CMakeFiles/semisync_master.dir/semisync_master.cc.s
 
 plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master.cc.o.requires:
 .PHONY : plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master.cc.o.requires
@@ -100,17 +100,17 @@ plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master.cc.o.provides.bui
 
 plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master_plugin.cc.o: plugin/semisync/CMakeFiles/semisync_master.dir/flags.make
 plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master_plugin.cc.o: plugin/semisync/semisync_master_plugin.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master_plugin.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/plugin/semisync && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/semisync_master.dir/semisync_master_plugin.cc.o -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/plugin/semisync/semisync_master_plugin.cc
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/plugin/semisync && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/semisync_master.dir/semisync_master_plugin.cc.o -c /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/plugin/semisync/semisync_master_plugin.cc
 
 plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master_plugin.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/semisync_master.dir/semisync_master_plugin.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/plugin/semisync && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/plugin/semisync/semisync_master_plugin.cc > CMakeFiles/semisync_master.dir/semisync_master_plugin.cc.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/plugin/semisync && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/plugin/semisync/semisync_master_plugin.cc > CMakeFiles/semisync_master.dir/semisync_master_plugin.cc.i
 
 plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master_plugin.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/semisync_master.dir/semisync_master_plugin.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/plugin/semisync && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/plugin/semisync/semisync_master_plugin.cc -o CMakeFiles/semisync_master.dir/semisync_master_plugin.cc.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/plugin/semisync && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/plugin/semisync/semisync_master_plugin.cc -o CMakeFiles/semisync_master.dir/semisync_master_plugin.cc.s
 
 plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master_plugin.cc.o.requires:
 .PHONY : plugin/semisync/CMakeFiles/semisync_master.dir/semisync_master_plugin.cc.o.requires
@@ -136,8 +136,8 @@ plugin/semisync/libsemisync_master.a: plugin/semisync/CMakeFiles/semisync_master
 plugin/semisync/libsemisync_master.a: plugin/semisync/CMakeFiles/semisync_master.dir/build.make
 plugin/semisync/libsemisync_master.a: plugin/semisync/CMakeFiles/semisync_master.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libsemisync_master.a"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/plugin/semisync && $(CMAKE_COMMAND) -P CMakeFiles/semisync_master.dir/cmake_clean_target.cmake
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/plugin/semisync && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/semisync_master.dir/link.txt --verbose=$(VERBOSE)
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/plugin/semisync && $(CMAKE_COMMAND) -P CMakeFiles/semisync_master.dir/cmake_clean_target.cmake
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/plugin/semisync && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/semisync_master.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 plugin/semisync/CMakeFiles/semisync_master.dir/build: plugin/semisync/libsemisync_master.a
@@ -149,10 +149,10 @@ plugin/semisync/CMakeFiles/semisync_master.dir/requires: plugin/semisync/CMakeFi
 .PHONY : plugin/semisync/CMakeFiles/semisync_master.dir/requires
 
 plugin/semisync/CMakeFiles/semisync_master.dir/clean:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/plugin/semisync && $(CMAKE_COMMAND) -P CMakeFiles/semisync_master.dir/cmake_clean.cmake
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/plugin/semisync && $(CMAKE_COMMAND) -P CMakeFiles/semisync_master.dir/cmake_clean.cmake
 .PHONY : plugin/semisync/CMakeFiles/semisync_master.dir/clean
 
 plugin/semisync/CMakeFiles/semisync_master.dir/depend:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/plugin/semisync /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/plugin/semisync /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/plugin/semisync/CMakeFiles/semisync_master.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/plugin/semisync /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/plugin/semisync /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/plugin/semisync/CMakeFiles/semisync_master.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : plugin/semisync/CMakeFiles/semisync_master.dir/depend
 

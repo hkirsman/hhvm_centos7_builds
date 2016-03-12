@@ -42,6 +42,7 @@
 #include "hphp/runtime/base/attr.h"
 #include "hphp/runtime/base/autoload-handler.h"
 #include "hphp/runtime/base/execution-context.h"
+#include "hphp/runtime/base/packed-array.h"
 #include "hphp/runtime/base/rds.h"
 #include "hphp/runtime/base/runtime-error.h"
 #include "hphp/runtime/base/runtime-option.h"
@@ -66,6 +67,7 @@
 #include "hphp/runtime/vm/hhbc.h"
 #include "hphp/runtime/vm/instance-bits.h"
 #include "hphp/runtime/vm/named-entity.h"
+#include "hphp/runtime/vm/named-entity-defs.h"
 #include "hphp/runtime/vm/preclass.h"
 #include "hphp/runtime/vm/repo-helpers.h"
 #include "hphp/runtime/vm/repo.h"
@@ -77,6 +79,7 @@
 
 #include "hphp/runtime/server/source-root-info.h"
 
+#include "hphp/runtime/ext/std/ext_std_closure.h"
 #include "hphp/runtime/ext/string/ext_string.h"
 
 #include "hphp/system/systemlib.h"
@@ -843,7 +846,7 @@ bool Unit::defCns(const StringData* cnsName, const TypedValue* value,
        * optimizing for.
        */
       rds::s_constants() =
-        Array::attach(MixedArray::MakeReserve(1));
+        Array::attach(PackedArray::MakeReserve(PackedArray::SmallSize));
     }
     auto const existed = !!rds::s_constants()->nvGet(cnsName);
     if (!existed) {
@@ -1628,7 +1631,6 @@ void Unit::mergeImpl(void* tcbase, MergeInfo* mi) {
   } while (true);
 }
 
-
 ///////////////////////////////////////////////////////////////////////////////
 // Info arrays.
 
@@ -1636,18 +1638,15 @@ namespace {
 
 Array getClassesWithAttrInfo(Attr attrs, bool inverse = false) {
   Array a = Array::Create();
-  if (NamedEntity::table()) {
-    for (AllCachedClasses ac; !ac.empty();) {
-      Class* c = ac.popFront();
-      if ((c->attrs() & attrs) ? !inverse : inverse) {
-        if (c->isBuiltin()) {
-          a.prepend(VarNR(c->name()));
-        } else {
-          a.append(VarNR(c->name()));
-        }
+  NamedEntity::foreach_cached_class([&](Class* c) {
+    if ((c->attrs() & attrs) ? !inverse : inverse) {
+      if (c->isBuiltin()) {
+        a.prepend(VarNR(c->name()));
+      } else {
+        a.append(VarNR(c->name()));
       }
     }
-  }
+  });
   return a;
 }
 
@@ -1656,16 +1655,10 @@ Array getFunctions() {
   // Return an array of all defined functions.  This method is used
   // to support get_defined_functions().
   Array a = Array::Create();
-  if (NamedEntity::table()) {
-    for (auto it = NamedEntity::table()->begin();
-         it != NamedEntity::table()->end(); ++it) {
-      Func* func_ = it->second.getCachedFunc();
-      if (!func_ || (system ^ func_->isBuiltin()) || func_->isGenerated()) {
-        continue;
-      }
-      a.append(VarNR(HHVM_FN(strtolower)(func_->nameStr())));
-    }
-  }
+  NamedEntity::foreach_cached_func([&](Func* func) {
+    if ((system ^ func->isBuiltin()) || func->isGenerated()) return; //continue
+    a.append(VarNR(HHVM_FN(strtolower)(func->nameStr())));
+  });
   return a;
 }
 
@@ -1802,45 +1795,4 @@ bool Unit::parseFatal(const StringData*& msg, int& line) const {
   auto kind_char = *pc;
   return kind_char == static_cast<uint8_t>(FatalOp::Parse);
 }
-
-///////////////////////////////////////////////////////////////////////////////
-
-void AllCachedClasses::skip() {
-  Class* cls;
-  while (!empty()) {
-    cls = m_next->second.clsList();
-    if (cls && cls->getCached() &&
-        (cls->parent() != SystemLib::s_ClosureClass)) break;
-    ++m_next;
-  }
-}
-
-AllCachedClasses::AllCachedClasses()
-    : m_next(NamedEntity::table()->begin())
-    , m_end(NamedEntity::table()->end())
-{
-  skip();
-}
-
-bool AllCachedClasses::empty() const {
-  return m_next == m_end;
-}
-
-Class* AllCachedClasses::front() {
-  assert(!empty());
-  Class* c = m_next->second.clsList();
-  assert(c);
-  c = c->getCached();
-  assert(c);
-  return c;
-}
-
-Class* AllCachedClasses::popFront() {
-  Class* c = front();
-  ++m_next;
-  skip();
-  return c;
-}
-
-///////////////////////////////////////////////////////////////////////////////
 }

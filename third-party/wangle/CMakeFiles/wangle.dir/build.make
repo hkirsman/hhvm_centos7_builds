@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.1
 
 # Include any dependencies generated for this target.
 include third-party/wangle/CMakeFiles/wangle.dir/depend.make
@@ -54,17 +54,17 @@ include third-party/wangle/CMakeFiles/wangle.dir/flags.make
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/Acceptor.cpp.o: third-party/wangle/CMakeFiles/wangle.dir/flags.make
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/Acceptor.cpp.o: third-party/wangle/src/wangle/acceptor/Acceptor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/Acceptor.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/acceptor/Acceptor.cpp.o -c /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/acceptor/Acceptor.cpp
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/acceptor/Acceptor.cpp.o -c /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/acceptor/Acceptor.cpp
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/Acceptor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wangle.dir/src/wangle/acceptor/Acceptor.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/acceptor/Acceptor.cpp > CMakeFiles/wangle.dir/src/wangle/acceptor/Acceptor.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/acceptor/Acceptor.cpp > CMakeFiles/wangle.dir/src/wangle/acceptor/Acceptor.cpp.i
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/Acceptor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wangle.dir/src/wangle/acceptor/Acceptor.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/acceptor/Acceptor.cpp -o CMakeFiles/wangle.dir/src/wangle/acceptor/Acceptor.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/acceptor/Acceptor.cpp -o CMakeFiles/wangle.dir/src/wangle/acceptor/Acceptor.cpp.s
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/Acceptor.cpp.o.requires:
 .PHONY : third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/Acceptor.cpp.o.requires
@@ -77,17 +77,17 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/Acceptor.cpp.o.prov
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/AcceptorHandshakeHelper.cpp.o: third-party/wangle/CMakeFiles/wangle.dir/flags.make
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/AcceptorHandshakeHelper.cpp.o: third-party/wangle/src/wangle/acceptor/AcceptorHandshakeHelper.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/AcceptorHandshakeHelper.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/acceptor/AcceptorHandshakeHelper.cpp.o -c /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/acceptor/AcceptorHandshakeHelper.cpp
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/acceptor/AcceptorHandshakeHelper.cpp.o -c /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/acceptor/AcceptorHandshakeHelper.cpp
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/AcceptorHandshakeHelper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wangle.dir/src/wangle/acceptor/AcceptorHandshakeHelper.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/acceptor/AcceptorHandshakeHelper.cpp > CMakeFiles/wangle.dir/src/wangle/acceptor/AcceptorHandshakeHelper.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/acceptor/AcceptorHandshakeHelper.cpp > CMakeFiles/wangle.dir/src/wangle/acceptor/AcceptorHandshakeHelper.cpp.i
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/AcceptorHandshakeHelper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wangle.dir/src/wangle/acceptor/AcceptorHandshakeHelper.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/acceptor/AcceptorHandshakeHelper.cpp -o CMakeFiles/wangle.dir/src/wangle/acceptor/AcceptorHandshakeHelper.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/acceptor/AcceptorHandshakeHelper.cpp -o CMakeFiles/wangle.dir/src/wangle/acceptor/AcceptorHandshakeHelper.cpp.s
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/AcceptorHandshakeHelper.cpp.o.requires:
 .PHONY : third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/AcceptorHandshakeHelper.cpp.o.requires
@@ -100,17 +100,17 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/AcceptorHandshakeHe
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ConnectionManager.cpp.o: third-party/wangle/CMakeFiles/wangle.dir/flags.make
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ConnectionManager.cpp.o: third-party/wangle/src/wangle/acceptor/ConnectionManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ConnectionManager.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/acceptor/ConnectionManager.cpp.o -c /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/acceptor/ConnectionManager.cpp
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/acceptor/ConnectionManager.cpp.o -c /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/acceptor/ConnectionManager.cpp
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ConnectionManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wangle.dir/src/wangle/acceptor/ConnectionManager.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/acceptor/ConnectionManager.cpp > CMakeFiles/wangle.dir/src/wangle/acceptor/ConnectionManager.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/acceptor/ConnectionManager.cpp > CMakeFiles/wangle.dir/src/wangle/acceptor/ConnectionManager.cpp.i
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ConnectionManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wangle.dir/src/wangle/acceptor/ConnectionManager.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/acceptor/ConnectionManager.cpp -o CMakeFiles/wangle.dir/src/wangle/acceptor/ConnectionManager.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/acceptor/ConnectionManager.cpp -o CMakeFiles/wangle.dir/src/wangle/acceptor/ConnectionManager.cpp.s
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ConnectionManager.cpp.o.requires:
 .PHONY : third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ConnectionManager.cpp.o.requires
@@ -123,17 +123,17 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ConnectionManager.c
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/LoadShedConfiguration.cpp.o: third-party/wangle/CMakeFiles/wangle.dir/flags.make
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/LoadShedConfiguration.cpp.o: third-party/wangle/src/wangle/acceptor/LoadShedConfiguration.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/LoadShedConfiguration.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/acceptor/LoadShedConfiguration.cpp.o -c /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/acceptor/LoadShedConfiguration.cpp
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/acceptor/LoadShedConfiguration.cpp.o -c /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/acceptor/LoadShedConfiguration.cpp
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/LoadShedConfiguration.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wangle.dir/src/wangle/acceptor/LoadShedConfiguration.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/acceptor/LoadShedConfiguration.cpp > CMakeFiles/wangle.dir/src/wangle/acceptor/LoadShedConfiguration.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/acceptor/LoadShedConfiguration.cpp > CMakeFiles/wangle.dir/src/wangle/acceptor/LoadShedConfiguration.cpp.i
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/LoadShedConfiguration.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wangle.dir/src/wangle/acceptor/LoadShedConfiguration.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/acceptor/LoadShedConfiguration.cpp -o CMakeFiles/wangle.dir/src/wangle/acceptor/LoadShedConfiguration.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/acceptor/LoadShedConfiguration.cpp -o CMakeFiles/wangle.dir/src/wangle/acceptor/LoadShedConfiguration.cpp.s
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/LoadShedConfiguration.cpp.o.requires:
 .PHONY : third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/LoadShedConfiguration.cpp.o.requires
@@ -146,17 +146,17 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/LoadShedConfigurati
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ManagedConnection.cpp.o: third-party/wangle/CMakeFiles/wangle.dir/flags.make
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ManagedConnection.cpp.o: third-party/wangle/src/wangle/acceptor/ManagedConnection.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ManagedConnection.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/acceptor/ManagedConnection.cpp.o -c /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/acceptor/ManagedConnection.cpp
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/acceptor/ManagedConnection.cpp.o -c /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/acceptor/ManagedConnection.cpp
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ManagedConnection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wangle.dir/src/wangle/acceptor/ManagedConnection.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/acceptor/ManagedConnection.cpp > CMakeFiles/wangle.dir/src/wangle/acceptor/ManagedConnection.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/acceptor/ManagedConnection.cpp > CMakeFiles/wangle.dir/src/wangle/acceptor/ManagedConnection.cpp.i
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ManagedConnection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wangle.dir/src/wangle/acceptor/ManagedConnection.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/acceptor/ManagedConnection.cpp -o CMakeFiles/wangle.dir/src/wangle/acceptor/ManagedConnection.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/acceptor/ManagedConnection.cpp -o CMakeFiles/wangle.dir/src/wangle/acceptor/ManagedConnection.cpp.s
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ManagedConnection.cpp.o.requires:
 .PHONY : third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ManagedConnection.cpp.o.requires
@@ -169,17 +169,17 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/ManagedConnection.c
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/SocketOptions.cpp.o: third-party/wangle/CMakeFiles/wangle.dir/flags.make
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/SocketOptions.cpp.o: third-party/wangle/src/wangle/acceptor/SocketOptions.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/SocketOptions.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/acceptor/SocketOptions.cpp.o -c /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/acceptor/SocketOptions.cpp
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/acceptor/SocketOptions.cpp.o -c /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/acceptor/SocketOptions.cpp
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/SocketOptions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wangle.dir/src/wangle/acceptor/SocketOptions.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/acceptor/SocketOptions.cpp > CMakeFiles/wangle.dir/src/wangle/acceptor/SocketOptions.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/acceptor/SocketOptions.cpp > CMakeFiles/wangle.dir/src/wangle/acceptor/SocketOptions.cpp.i
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/SocketOptions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wangle.dir/src/wangle/acceptor/SocketOptions.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/acceptor/SocketOptions.cpp -o CMakeFiles/wangle.dir/src/wangle/acceptor/SocketOptions.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/acceptor/SocketOptions.cpp -o CMakeFiles/wangle.dir/src/wangle/acceptor/SocketOptions.cpp.s
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/SocketOptions.cpp.o.requires:
 .PHONY : third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/SocketOptions.cpp.o.requires
@@ -192,17 +192,17 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/SocketOptions.cpp.o
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/TransportInfo.cpp.o: third-party/wangle/CMakeFiles/wangle.dir/flags.make
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/TransportInfo.cpp.o: third-party/wangle/src/wangle/acceptor/TransportInfo.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/TransportInfo.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/acceptor/TransportInfo.cpp.o -c /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/acceptor/TransportInfo.cpp
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/acceptor/TransportInfo.cpp.o -c /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/acceptor/TransportInfo.cpp
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/TransportInfo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wangle.dir/src/wangle/acceptor/TransportInfo.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/acceptor/TransportInfo.cpp > CMakeFiles/wangle.dir/src/wangle/acceptor/TransportInfo.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/acceptor/TransportInfo.cpp > CMakeFiles/wangle.dir/src/wangle/acceptor/TransportInfo.cpp.i
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/TransportInfo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wangle.dir/src/wangle/acceptor/TransportInfo.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/acceptor/TransportInfo.cpp -o CMakeFiles/wangle.dir/src/wangle/acceptor/TransportInfo.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/acceptor/TransportInfo.cpp -o CMakeFiles/wangle.dir/src/wangle/acceptor/TransportInfo.cpp.s
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/TransportInfo.cpp.o.requires:
 .PHONY : third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/TransportInfo.cpp.o.requires
@@ -215,17 +215,17 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/acceptor/TransportInfo.cpp.o
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/channel/Pipeline.cpp.o: third-party/wangle/CMakeFiles/wangle.dir/flags.make
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/channel/Pipeline.cpp.o: third-party/wangle/src/wangle/channel/Pipeline.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/wangle/CMakeFiles/wangle.dir/src/wangle/channel/Pipeline.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/channel/Pipeline.cpp.o -c /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/channel/Pipeline.cpp
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/channel/Pipeline.cpp.o -c /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/channel/Pipeline.cpp
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/channel/Pipeline.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wangle.dir/src/wangle/channel/Pipeline.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/channel/Pipeline.cpp > CMakeFiles/wangle.dir/src/wangle/channel/Pipeline.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/channel/Pipeline.cpp > CMakeFiles/wangle.dir/src/wangle/channel/Pipeline.cpp.i
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/channel/Pipeline.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wangle.dir/src/wangle/channel/Pipeline.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/channel/Pipeline.cpp -o CMakeFiles/wangle.dir/src/wangle/channel/Pipeline.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/channel/Pipeline.cpp -o CMakeFiles/wangle.dir/src/wangle/channel/Pipeline.cpp.s
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/channel/Pipeline.cpp.o.requires:
 .PHONY : third-party/wangle/CMakeFiles/wangle.dir/src/wangle/channel/Pipeline.cpp.o.requires
@@ -238,17 +238,17 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/channel/Pipeline.cpp.o.provi
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheData.cpp.o: third-party/wangle/CMakeFiles/wangle.dir/flags.make
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheData.cpp.o: third-party/wangle/src/wangle/client/ssl/SSLSessionCacheData.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheData.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheData.cpp.o -c /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/client/ssl/SSLSessionCacheData.cpp
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheData.cpp.o -c /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/client/ssl/SSLSessionCacheData.cpp
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheData.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheData.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/client/ssl/SSLSessionCacheData.cpp > CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheData.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/client/ssl/SSLSessionCacheData.cpp > CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheData.cpp.i
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheData.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/client/ssl/SSLSessionCacheData.cpp -o CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheData.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/client/ssl/SSLSessionCacheData.cpp -o CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheData.cpp.s
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheData.cpp.o.requires:
 .PHONY : third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheData.cpp.o.requires
@@ -261,17 +261,17 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheDa
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheUtils.cpp.o: third-party/wangle/CMakeFiles/wangle.dir/flags.make
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheUtils.cpp.o: third-party/wangle/src/wangle/client/ssl/SSLSessionCacheUtils.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheUtils.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheUtils.cpp.o -c /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/client/ssl/SSLSessionCacheUtils.cpp
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheUtils.cpp.o -c /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/client/ssl/SSLSessionCacheUtils.cpp
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheUtils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheUtils.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/client/ssl/SSLSessionCacheUtils.cpp > CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheUtils.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/client/ssl/SSLSessionCacheUtils.cpp > CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheUtils.cpp.i
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheUtils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheUtils.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/client/ssl/SSLSessionCacheUtils.cpp -o CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheUtils.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/client/ssl/SSLSessionCacheUtils.cpp -o CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheUtils.cpp.s
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheUtils.cpp.o.requires:
 .PHONY : third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheUtils.cpp.o.requires
@@ -284,17 +284,17 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionCacheUt
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionPersistentCache.cpp.o: third-party/wangle/CMakeFiles/wangle.dir/flags.make
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionPersistentCache.cpp.o: third-party/wangle/src/wangle/client/ssl/SSLSessionPersistentCache.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionPersistentCache.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionPersistentCache.cpp.o -c /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/client/ssl/SSLSessionPersistentCache.cpp
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionPersistentCache.cpp.o -c /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/client/ssl/SSLSessionPersistentCache.cpp
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionPersistentCache.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionPersistentCache.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/client/ssl/SSLSessionPersistentCache.cpp > CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionPersistentCache.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/client/ssl/SSLSessionPersistentCache.cpp > CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionPersistentCache.cpp.i
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionPersistentCache.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionPersistentCache.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/client/ssl/SSLSessionPersistentCache.cpp -o CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionPersistentCache.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/client/ssl/SSLSessionPersistentCache.cpp -o CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionPersistentCache.cpp.s
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionPersistentCache.cpp.o.requires:
 .PHONY : third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionPersistentCache.cpp.o.requires
@@ -307,17 +307,17 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/SSLSessionPersist
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.o: third-party/wangle/CMakeFiles/wangle.dir/flags.make
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.o: third-party/wangle/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.o -c /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.o -c /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wangle.dir/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp > CMakeFiles/wangle.dir/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp > CMakeFiles/wangle.dir/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.i
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wangle.dir/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp -o CMakeFiles/wangle.dir/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp -o CMakeFiles/wangle.dir/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.s
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.o.requires:
 .PHONY : third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp.o.requires
@@ -330,17 +330,17 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/client/ssl/ThreadSafeSSLSess
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldBasedFrameDecoder.cpp.o: third-party/wangle/CMakeFiles/wangle.dir/flags.make
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldBasedFrameDecoder.cpp.o: third-party/wangle/src/wangle/codec/LengthFieldBasedFrameDecoder.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldBasedFrameDecoder.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldBasedFrameDecoder.cpp.o -c /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/codec/LengthFieldBasedFrameDecoder.cpp
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldBasedFrameDecoder.cpp.o -c /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/codec/LengthFieldBasedFrameDecoder.cpp
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldBasedFrameDecoder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldBasedFrameDecoder.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/codec/LengthFieldBasedFrameDecoder.cpp > CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldBasedFrameDecoder.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/codec/LengthFieldBasedFrameDecoder.cpp > CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldBasedFrameDecoder.cpp.i
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldBasedFrameDecoder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldBasedFrameDecoder.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/codec/LengthFieldBasedFrameDecoder.cpp -o CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldBasedFrameDecoder.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/codec/LengthFieldBasedFrameDecoder.cpp -o CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldBasedFrameDecoder.cpp.s
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldBasedFrameDecoder.cpp.o.requires:
 .PHONY : third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldBasedFrameDecoder.cpp.o.requires
@@ -353,17 +353,17 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldBasedFrameD
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldPrepender.cpp.o: third-party/wangle/CMakeFiles/wangle.dir/flags.make
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldPrepender.cpp.o: third-party/wangle/src/wangle/codec/LengthFieldPrepender.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldPrepender.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldPrepender.cpp.o -c /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/codec/LengthFieldPrepender.cpp
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldPrepender.cpp.o -c /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/codec/LengthFieldPrepender.cpp
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldPrepender.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldPrepender.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/codec/LengthFieldPrepender.cpp > CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldPrepender.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/codec/LengthFieldPrepender.cpp > CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldPrepender.cpp.i
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldPrepender.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldPrepender.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/codec/LengthFieldPrepender.cpp -o CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldPrepender.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/codec/LengthFieldPrepender.cpp -o CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldPrepender.cpp.s
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldPrepender.cpp.o.requires:
 .PHONY : third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldPrepender.cpp.o.requires
@@ -376,17 +376,17 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LengthFieldPrepender.c
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LineBasedFrameDecoder.cpp.o: third-party/wangle/CMakeFiles/wangle.dir/flags.make
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LineBasedFrameDecoder.cpp.o: third-party/wangle/src/wangle/codec/LineBasedFrameDecoder.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LineBasedFrameDecoder.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/codec/LineBasedFrameDecoder.cpp.o -c /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/codec/LineBasedFrameDecoder.cpp
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/codec/LineBasedFrameDecoder.cpp.o -c /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/codec/LineBasedFrameDecoder.cpp
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LineBasedFrameDecoder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wangle.dir/src/wangle/codec/LineBasedFrameDecoder.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/codec/LineBasedFrameDecoder.cpp > CMakeFiles/wangle.dir/src/wangle/codec/LineBasedFrameDecoder.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/codec/LineBasedFrameDecoder.cpp > CMakeFiles/wangle.dir/src/wangle/codec/LineBasedFrameDecoder.cpp.i
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LineBasedFrameDecoder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wangle.dir/src/wangle/codec/LineBasedFrameDecoder.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/codec/LineBasedFrameDecoder.cpp -o CMakeFiles/wangle.dir/src/wangle/codec/LineBasedFrameDecoder.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/codec/LineBasedFrameDecoder.cpp -o CMakeFiles/wangle.dir/src/wangle/codec/LineBasedFrameDecoder.cpp.s
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LineBasedFrameDecoder.cpp.o.requires:
 .PHONY : third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LineBasedFrameDecoder.cpp.o.requires
@@ -399,17 +399,17 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/codec/LineBasedFrameDecoder.
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/CPUThreadPoolExecutor.cpp.o: third-party/wangle/CMakeFiles/wangle.dir/flags.make
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/CPUThreadPoolExecutor.cpp.o: third-party/wangle/src/wangle/concurrent/CPUThreadPoolExecutor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/CPUThreadPoolExecutor.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/concurrent/CPUThreadPoolExecutor.cpp.o -c /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/concurrent/CPUThreadPoolExecutor.cpp
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/concurrent/CPUThreadPoolExecutor.cpp.o -c /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/concurrent/CPUThreadPoolExecutor.cpp
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/CPUThreadPoolExecutor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wangle.dir/src/wangle/concurrent/CPUThreadPoolExecutor.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/concurrent/CPUThreadPoolExecutor.cpp > CMakeFiles/wangle.dir/src/wangle/concurrent/CPUThreadPoolExecutor.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/concurrent/CPUThreadPoolExecutor.cpp > CMakeFiles/wangle.dir/src/wangle/concurrent/CPUThreadPoolExecutor.cpp.i
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/CPUThreadPoolExecutor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wangle.dir/src/wangle/concurrent/CPUThreadPoolExecutor.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/concurrent/CPUThreadPoolExecutor.cpp -o CMakeFiles/wangle.dir/src/wangle/concurrent/CPUThreadPoolExecutor.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/concurrent/CPUThreadPoolExecutor.cpp -o CMakeFiles/wangle.dir/src/wangle/concurrent/CPUThreadPoolExecutor.cpp.s
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/CPUThreadPoolExecutor.cpp.o.requires:
 .PHONY : third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/CPUThreadPoolExecutor.cpp.o.requires
@@ -422,17 +422,17 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/CPUThreadPoolExec
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/Codel.cpp.o: third-party/wangle/CMakeFiles/wangle.dir/flags.make
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/Codel.cpp.o: third-party/wangle/src/wangle/concurrent/Codel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/Codel.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/concurrent/Codel.cpp.o -c /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/concurrent/Codel.cpp
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/concurrent/Codel.cpp.o -c /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/concurrent/Codel.cpp
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/Codel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wangle.dir/src/wangle/concurrent/Codel.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/concurrent/Codel.cpp > CMakeFiles/wangle.dir/src/wangle/concurrent/Codel.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/concurrent/Codel.cpp > CMakeFiles/wangle.dir/src/wangle/concurrent/Codel.cpp.i
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/Codel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wangle.dir/src/wangle/concurrent/Codel.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/concurrent/Codel.cpp -o CMakeFiles/wangle.dir/src/wangle/concurrent/Codel.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/concurrent/Codel.cpp -o CMakeFiles/wangle.dir/src/wangle/concurrent/Codel.cpp.s
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/Codel.cpp.o.requires:
 .PHONY : third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/Codel.cpp.o.requires
@@ -445,17 +445,17 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/Codel.cpp.o.provi
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/GlobalExecutor.cpp.o: third-party/wangle/CMakeFiles/wangle.dir/flags.make
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/GlobalExecutor.cpp.o: third-party/wangle/src/wangle/concurrent/GlobalExecutor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/GlobalExecutor.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/concurrent/GlobalExecutor.cpp.o -c /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/concurrent/GlobalExecutor.cpp
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/concurrent/GlobalExecutor.cpp.o -c /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/concurrent/GlobalExecutor.cpp
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/GlobalExecutor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wangle.dir/src/wangle/concurrent/GlobalExecutor.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/concurrent/GlobalExecutor.cpp > CMakeFiles/wangle.dir/src/wangle/concurrent/GlobalExecutor.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/concurrent/GlobalExecutor.cpp > CMakeFiles/wangle.dir/src/wangle/concurrent/GlobalExecutor.cpp.i
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/GlobalExecutor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wangle.dir/src/wangle/concurrent/GlobalExecutor.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/concurrent/GlobalExecutor.cpp -o CMakeFiles/wangle.dir/src/wangle/concurrent/GlobalExecutor.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/concurrent/GlobalExecutor.cpp -o CMakeFiles/wangle.dir/src/wangle/concurrent/GlobalExecutor.cpp.s
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/GlobalExecutor.cpp.o.requires:
 .PHONY : third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/GlobalExecutor.cpp.o.requires
@@ -468,17 +468,17 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/GlobalExecutor.cp
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/IOThreadPoolExecutor.cpp.o: third-party/wangle/CMakeFiles/wangle.dir/flags.make
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/IOThreadPoolExecutor.cpp.o: third-party/wangle/src/wangle/concurrent/IOThreadPoolExecutor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/IOThreadPoolExecutor.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/concurrent/IOThreadPoolExecutor.cpp.o -c /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/concurrent/IOThreadPoolExecutor.cpp
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/concurrent/IOThreadPoolExecutor.cpp.o -c /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/concurrent/IOThreadPoolExecutor.cpp
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/IOThreadPoolExecutor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wangle.dir/src/wangle/concurrent/IOThreadPoolExecutor.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/concurrent/IOThreadPoolExecutor.cpp > CMakeFiles/wangle.dir/src/wangle/concurrent/IOThreadPoolExecutor.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/concurrent/IOThreadPoolExecutor.cpp > CMakeFiles/wangle.dir/src/wangle/concurrent/IOThreadPoolExecutor.cpp.i
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/IOThreadPoolExecutor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wangle.dir/src/wangle/concurrent/IOThreadPoolExecutor.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/concurrent/IOThreadPoolExecutor.cpp -o CMakeFiles/wangle.dir/src/wangle/concurrent/IOThreadPoolExecutor.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/concurrent/IOThreadPoolExecutor.cpp -o CMakeFiles/wangle.dir/src/wangle/concurrent/IOThreadPoolExecutor.cpp.s
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/IOThreadPoolExecutor.cpp.o.requires:
 .PHONY : third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/IOThreadPoolExecutor.cpp.o.requires
@@ -491,17 +491,17 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/IOThreadPoolExecu
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/ThreadPoolExecutor.cpp.o: third-party/wangle/CMakeFiles/wangle.dir/flags.make
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/ThreadPoolExecutor.cpp.o: third-party/wangle/src/wangle/concurrent/ThreadPoolExecutor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/ThreadPoolExecutor.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/concurrent/ThreadPoolExecutor.cpp.o -c /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/concurrent/ThreadPoolExecutor.cpp
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/concurrent/ThreadPoolExecutor.cpp.o -c /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/concurrent/ThreadPoolExecutor.cpp
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/ThreadPoolExecutor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wangle.dir/src/wangle/concurrent/ThreadPoolExecutor.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/concurrent/ThreadPoolExecutor.cpp > CMakeFiles/wangle.dir/src/wangle/concurrent/ThreadPoolExecutor.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/concurrent/ThreadPoolExecutor.cpp > CMakeFiles/wangle.dir/src/wangle/concurrent/ThreadPoolExecutor.cpp.i
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/ThreadPoolExecutor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wangle.dir/src/wangle/concurrent/ThreadPoolExecutor.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/concurrent/ThreadPoolExecutor.cpp -o CMakeFiles/wangle.dir/src/wangle/concurrent/ThreadPoolExecutor.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/concurrent/ThreadPoolExecutor.cpp -o CMakeFiles/wangle.dir/src/wangle/concurrent/ThreadPoolExecutor.cpp.s
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/ThreadPoolExecutor.cpp.o.requires:
 .PHONY : third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/ThreadPoolExecutor.cpp.o.requires
@@ -514,17 +514,17 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/concurrent/ThreadPoolExecuto
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/deprecated/rx/Dummy.cpp.o: third-party/wangle/CMakeFiles/wangle.dir/flags.make
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/deprecated/rx/Dummy.cpp.o: third-party/wangle/src/wangle/deprecated/rx/Dummy.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/wangle/CMakeFiles/wangle.dir/src/wangle/deprecated/rx/Dummy.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/deprecated/rx/Dummy.cpp.o -c /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/deprecated/rx/Dummy.cpp
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/deprecated/rx/Dummy.cpp.o -c /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/deprecated/rx/Dummy.cpp
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/deprecated/rx/Dummy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wangle.dir/src/wangle/deprecated/rx/Dummy.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/deprecated/rx/Dummy.cpp > CMakeFiles/wangle.dir/src/wangle/deprecated/rx/Dummy.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/deprecated/rx/Dummy.cpp > CMakeFiles/wangle.dir/src/wangle/deprecated/rx/Dummy.cpp.i
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/deprecated/rx/Dummy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wangle.dir/src/wangle/deprecated/rx/Dummy.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/deprecated/rx/Dummy.cpp -o CMakeFiles/wangle.dir/src/wangle/deprecated/rx/Dummy.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/deprecated/rx/Dummy.cpp -o CMakeFiles/wangle.dir/src/wangle/deprecated/rx/Dummy.cpp.s
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/deprecated/rx/Dummy.cpp.o.requires:
 .PHONY : third-party/wangle/CMakeFiles/wangle.dir/src/wangle/deprecated/rx/Dummy.cpp.o.requires
@@ -537,17 +537,17 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/deprecated/rx/Dummy.cpp.o.pr
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/PasswordInFile.cpp.o: third-party/wangle/CMakeFiles/wangle.dir/flags.make
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/PasswordInFile.cpp.o: third-party/wangle/src/wangle/ssl/PasswordInFile.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/PasswordInFile.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/ssl/PasswordInFile.cpp.o -c /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/ssl/PasswordInFile.cpp
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/ssl/PasswordInFile.cpp.o -c /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/ssl/PasswordInFile.cpp
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/PasswordInFile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wangle.dir/src/wangle/ssl/PasswordInFile.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/ssl/PasswordInFile.cpp > CMakeFiles/wangle.dir/src/wangle/ssl/PasswordInFile.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/ssl/PasswordInFile.cpp > CMakeFiles/wangle.dir/src/wangle/ssl/PasswordInFile.cpp.i
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/PasswordInFile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wangle.dir/src/wangle/ssl/PasswordInFile.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/ssl/PasswordInFile.cpp -o CMakeFiles/wangle.dir/src/wangle/ssl/PasswordInFile.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/ssl/PasswordInFile.cpp -o CMakeFiles/wangle.dir/src/wangle/ssl/PasswordInFile.cpp.s
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/PasswordInFile.cpp.o.requires:
 .PHONY : third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/PasswordInFile.cpp.o.requires
@@ -560,17 +560,17 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/PasswordInFile.cpp.o.pro
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLContextManager.cpp.o: third-party/wangle/CMakeFiles/wangle.dir/flags.make
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLContextManager.cpp.o: third-party/wangle/src/wangle/ssl/SSLContextManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLContextManager.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/ssl/SSLContextManager.cpp.o -c /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/ssl/SSLContextManager.cpp
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/ssl/SSLContextManager.cpp.o -c /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/ssl/SSLContextManager.cpp
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLContextManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wangle.dir/src/wangle/ssl/SSLContextManager.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/ssl/SSLContextManager.cpp > CMakeFiles/wangle.dir/src/wangle/ssl/SSLContextManager.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/ssl/SSLContextManager.cpp > CMakeFiles/wangle.dir/src/wangle/ssl/SSLContextManager.cpp.i
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLContextManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wangle.dir/src/wangle/ssl/SSLContextManager.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/ssl/SSLContextManager.cpp -o CMakeFiles/wangle.dir/src/wangle/ssl/SSLContextManager.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/ssl/SSLContextManager.cpp -o CMakeFiles/wangle.dir/src/wangle/ssl/SSLContextManager.cpp.s
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLContextManager.cpp.o.requires:
 .PHONY : third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLContextManager.cpp.o.requires
@@ -583,17 +583,17 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLContextManager.cpp.o.
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLSessionCacheManager.cpp.o: third-party/wangle/CMakeFiles/wangle.dir/flags.make
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLSessionCacheManager.cpp.o: third-party/wangle/src/wangle/ssl/SSLSessionCacheManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLSessionCacheManager.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/ssl/SSLSessionCacheManager.cpp.o -c /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/ssl/SSLSessionCacheManager.cpp
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/ssl/SSLSessionCacheManager.cpp.o -c /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/ssl/SSLSessionCacheManager.cpp
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLSessionCacheManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wangle.dir/src/wangle/ssl/SSLSessionCacheManager.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/ssl/SSLSessionCacheManager.cpp > CMakeFiles/wangle.dir/src/wangle/ssl/SSLSessionCacheManager.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/ssl/SSLSessionCacheManager.cpp > CMakeFiles/wangle.dir/src/wangle/ssl/SSLSessionCacheManager.cpp.i
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLSessionCacheManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wangle.dir/src/wangle/ssl/SSLSessionCacheManager.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/ssl/SSLSessionCacheManager.cpp -o CMakeFiles/wangle.dir/src/wangle/ssl/SSLSessionCacheManager.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/ssl/SSLSessionCacheManager.cpp -o CMakeFiles/wangle.dir/src/wangle/ssl/SSLSessionCacheManager.cpp.s
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLSessionCacheManager.cpp.o.requires:
 .PHONY : third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLSessionCacheManager.cpp.o.requires
@@ -606,17 +606,17 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLSessionCacheManager.c
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLUtil.cpp.o: third-party/wangle/CMakeFiles/wangle.dir/flags.make
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLUtil.cpp.o: third-party/wangle/src/wangle/ssl/SSLUtil.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLUtil.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/ssl/SSLUtil.cpp.o -c /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/ssl/SSLUtil.cpp
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/ssl/SSLUtil.cpp.o -c /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/ssl/SSLUtil.cpp
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLUtil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wangle.dir/src/wangle/ssl/SSLUtil.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/ssl/SSLUtil.cpp > CMakeFiles/wangle.dir/src/wangle/ssl/SSLUtil.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/ssl/SSLUtil.cpp > CMakeFiles/wangle.dir/src/wangle/ssl/SSLUtil.cpp.i
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLUtil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wangle.dir/src/wangle/ssl/SSLUtil.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/ssl/SSLUtil.cpp -o CMakeFiles/wangle.dir/src/wangle/ssl/SSLUtil.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/ssl/SSLUtil.cpp -o CMakeFiles/wangle.dir/src/wangle/ssl/SSLUtil.cpp.s
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLUtil.cpp.o.requires:
 .PHONY : third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLUtil.cpp.o.requires
@@ -629,17 +629,17 @@ third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/SSLUtil.cpp.o.provides.b
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/TLSTicketKeyManager.cpp.o: third-party/wangle/CMakeFiles/wangle.dir/flags.make
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/TLSTicketKeyManager.cpp.o: third-party/wangle/src/wangle/ssl/TLSTicketKeyManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/TLSTicketKeyManager.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/ssl/TLSTicketKeyManager.cpp.o -c /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/ssl/TLSTicketKeyManager.cpp
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wangle.dir/src/wangle/ssl/TLSTicketKeyManager.cpp.o -c /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/ssl/TLSTicketKeyManager.cpp
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/TLSTicketKeyManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wangle.dir/src/wangle/ssl/TLSTicketKeyManager.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/ssl/TLSTicketKeyManager.cpp > CMakeFiles/wangle.dir/src/wangle/ssl/TLSTicketKeyManager.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/ssl/TLSTicketKeyManager.cpp > CMakeFiles/wangle.dir/src/wangle/ssl/TLSTicketKeyManager.cpp.i
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/TLSTicketKeyManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wangle.dir/src/wangle/ssl/TLSTicketKeyManager.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/wangle/src/wangle/ssl/TLSTicketKeyManager.cpp -o CMakeFiles/wangle.dir/src/wangle/ssl/TLSTicketKeyManager.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/wangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/wangle/src/wangle/ssl/TLSTicketKeyManager.cpp -o CMakeFiles/wangle.dir/src/wangle/ssl/TLSTicketKeyManager.cpp.s
 
 third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/TLSTicketKeyManager.cpp.o.requires:
 .PHONY : third-party/wangle/CMakeFiles/wangle.dir/src/wangle/ssl/TLSTicketKeyManager.cpp.o.requires
@@ -711,8 +711,8 @@ third-party/wangle/libwangle.a: third-party/wangle/CMakeFiles/wangle.dir/src/wan
 third-party/wangle/libwangle.a: third-party/wangle/CMakeFiles/wangle.dir/build.make
 third-party/wangle/libwangle.a: third-party/wangle/CMakeFiles/wangle.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libwangle.a"
-	cd /tmp/hhvm-3.11.1/third-party/wangle && $(CMAKE_COMMAND) -P CMakeFiles/wangle.dir/cmake_clean_target.cmake
-	cd /tmp/hhvm-3.11.1/third-party/wangle && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/wangle.dir/link.txt --verbose=$(VERBOSE)
+	cd /tmp/hhvm-3.12.1/third-party/wangle && $(CMAKE_COMMAND) -P CMakeFiles/wangle.dir/cmake_clean_target.cmake
+	cd /tmp/hhvm-3.12.1/third-party/wangle && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/wangle.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 third-party/wangle/CMakeFiles/wangle.dir/build: third-party/wangle/libwangle.a
@@ -747,10 +747,10 @@ third-party/wangle/CMakeFiles/wangle.dir/requires: third-party/wangle/CMakeFiles
 .PHONY : third-party/wangle/CMakeFiles/wangle.dir/requires
 
 third-party/wangle/CMakeFiles/wangle.dir/clean:
-	cd /tmp/hhvm-3.11.1/third-party/wangle && $(CMAKE_COMMAND) -P CMakeFiles/wangle.dir/cmake_clean.cmake
+	cd /tmp/hhvm-3.12.1/third-party/wangle && $(CMAKE_COMMAND) -P CMakeFiles/wangle.dir/cmake_clean.cmake
 .PHONY : third-party/wangle/CMakeFiles/wangle.dir/clean
 
 third-party/wangle/CMakeFiles/wangle.dir/depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/third-party/wangle /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/third-party/wangle /tmp/hhvm-3.11.1/third-party/wangle/CMakeFiles/wangle.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/hhvm-3.12.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.12.1 /tmp/hhvm-3.12.1/third-party/wangle /tmp/hhvm-3.12.1 /tmp/hhvm-3.12.1/third-party/wangle /tmp/hhvm-3.12.1/third-party/wangle/CMakeFiles/wangle.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : third-party/wangle/CMakeFiles/wangle.dir/depend
 

@@ -6,33 +6,33 @@
 
 #IncludeRegexTransform: 
 
-/tmp/hhvm-3.11.1/third-party/timelib/astro.c
+/tmp/hhvm-3.12.1/third-party/timelib/astro.c
 stdio.h
 -
 math.h
 -
 timelib.h
-/tmp/hhvm-3.11.1/third-party/timelib/timelib.h
+/tmp/hhvm-3.12.1/third-party/timelib/timelib.h
 astro.h
-/tmp/hhvm-3.11.1/third-party/timelib/astro.h
+/tmp/hhvm-3.12.1/third-party/timelib/astro.h
 
-/tmp/hhvm-3.11.1/third-party/timelib/astro.h
+/tmp/hhvm-3.12.1/third-party/timelib/astro.h
 
-/tmp/hhvm-3.11.1/third-party/timelib/dow.c
+/tmp/hhvm-3.12.1/third-party/timelib/dow.c
 timelib.h
-/tmp/hhvm-3.11.1/third-party/timelib/timelib.h
+/tmp/hhvm-3.12.1/third-party/timelib/timelib.h
 
-/tmp/hhvm-3.11.1/third-party/timelib/fallbackmap.h
+/tmp/hhvm-3.12.1/third-party/timelib/fallbackmap.h
 
-/tmp/hhvm-3.11.1/third-party/timelib/interval.c
+/tmp/hhvm-3.12.1/third-party/timelib/interval.c
 timelib.h
-/tmp/hhvm-3.11.1/third-party/timelib/timelib.h
+/tmp/hhvm-3.12.1/third-party/timelib/timelib.h
 math.h
 -
 
-/tmp/hhvm-3.11.1/third-party/timelib/parse_date.c
+/tmp/hhvm-3.12.1/third-party/timelib/parse_date.c
 timelib.h
-/tmp/hhvm-3.11.1/third-party/timelib/timelib.h
+/tmp/hhvm-3.12.1/third-party/timelib/timelib.h
 stdio.h
 -
 ctype.h
@@ -48,15 +48,15 @@ string.h
 strings.h
 -
 timelib_structs.h
-/tmp/hhvm-3.11.1/third-party/timelib/timelib_structs.h
+/tmp/hhvm-3.12.1/third-party/timelib/timelib_structs.h
 timezonemap.h
-/tmp/hhvm-3.11.1/third-party/timelib/timezonemap.h
+/tmp/hhvm-3.12.1/third-party/timelib/timezonemap.h
 fallbackmap.h
-/tmp/hhvm-3.11.1/third-party/timelib/fallbackmap.h
+/tmp/hhvm-3.12.1/third-party/timelib/fallbackmap.h
 
-/tmp/hhvm-3.11.1/third-party/timelib/parse_iso_intervals.c
+/tmp/hhvm-3.12.1/third-party/timelib/parse_iso_intervals.c
 timelib.h
-/tmp/hhvm-3.11.1/third-party/timelib/timelib.h
+/tmp/hhvm-3.12.1/third-party/timelib/timelib.h
 stdio.h
 -
 ctype.h
@@ -68,11 +68,11 @@ string.h
 strings.h
 -
 timelib_structs.h
-/tmp/hhvm-3.11.1/third-party/timelib/timelib_structs.h
+/tmp/hhvm-3.12.1/third-party/timelib/timelib_structs.h
 
-/tmp/hhvm-3.11.1/third-party/timelib/parse_tz.c
+/tmp/hhvm-3.12.1/third-party/timelib/parse_tz.c
 timelib.h
-/tmp/hhvm-3.11.1/third-party/timelib/timelib.h
+/tmp/hhvm-3.12.1/third-party/timelib/timelib.h
 sys/mman.h
 -
 sys/stat.h
@@ -94,29 +94,29 @@ string.h
 strings.h
 -
 timezonedb.h
-/tmp/hhvm-3.11.1/third-party/timelib/timezonedb.h
+/tmp/hhvm-3.12.1/third-party/timelib/timezonedb.h
 ctype.h
 -
 
-/tmp/hhvm-3.11.1/third-party/timelib/timelib.c
+/tmp/hhvm-3.12.1/third-party/timelib/timelib.c
 timelib.h
-/tmp/hhvm-3.11.1/third-party/timelib/timelib.h
+/tmp/hhvm-3.12.1/third-party/timelib/timelib.h
 ctype.h
 -
 math.h
 -
 
-/tmp/hhvm-3.11.1/third-party/timelib/timelib.h
+/tmp/hhvm-3.12.1/third-party/timelib/timelib.h
 timelib_structs.h
-/tmp/hhvm-3.11.1/third-party/timelib/timelib_structs.h
+/tmp/hhvm-3.12.1/third-party/timelib/timelib_structs.h
 limits.h
 -
 
-/tmp/hhvm-3.11.1/third-party/timelib/timelib_config.h
+/tmp/hhvm-3.12.1/third-party/timelib/timelib_config.h
 
-/tmp/hhvm-3.11.1/third-party/timelib/timelib_structs.h
+/tmp/hhvm-3.12.1/third-party/timelib/timelib_structs.h
 timelib_config.h
-/tmp/hhvm-3.11.1/third-party/timelib/timelib_config.h
+/tmp/hhvm-3.12.1/third-party/timelib/timelib_config.h
 sys/types.h
 -
 inttypes.h
@@ -124,7 +124,7 @@ inttypes.h
 stdint.h
 -
 win32/php_stdint.h
-/tmp/hhvm-3.11.1/third-party/timelib/win32/php_stdint.h
+/tmp/hhvm-3.12.1/third-party/timelib/win32/php_stdint.h
 stdio.h
 -
 stdlib.h
@@ -134,17 +134,17 @@ string.h
 strings.h
 -
 
-/tmp/hhvm-3.11.1/third-party/timelib/timezonedb.h
+/tmp/hhvm-3.12.1/third-party/timelib/timezonedb.h
 
-/tmp/hhvm-3.11.1/third-party/timelib/timezonemap.h
+/tmp/hhvm-3.12.1/third-party/timelib/timezonemap.h
 
-/tmp/hhvm-3.11.1/third-party/timelib/tm2unixtime.c
+/tmp/hhvm-3.12.1/third-party/timelib/tm2unixtime.c
 timelib.h
-/tmp/hhvm-3.11.1/third-party/timelib/timelib.h
+/tmp/hhvm-3.12.1/third-party/timelib/timelib.h
 
-/tmp/hhvm-3.11.1/third-party/timelib/unixtime2tm.c
+/tmp/hhvm-3.12.1/third-party/timelib/unixtime2tm.c
 timelib.h
-/tmp/hhvm-3.11.1/third-party/timelib/timelib.h
+/tmp/hhvm-3.12.1/third-party/timelib/timelib.h
 stdio.h
 -
 stdlib.h

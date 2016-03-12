@@ -1,1 +1,1 @@
-typing/typing_redecl_service.mli: DepSet Errors FileInfo Naming Relative_path Typing_deps Worker
+typing/typing_redecl_service.mli: DepSet Errors FileInfo Relative_path TypecheckerOptions Typing_deps Worker

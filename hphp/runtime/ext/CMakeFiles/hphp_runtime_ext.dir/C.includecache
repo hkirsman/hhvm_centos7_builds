@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/add.c
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/add.c
 config.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/config.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/config.h
 stdio.h
 -
 assert.h
@@ -20,19 +20,19 @@ ctype.h
 stdarg.h
 -
 bcmath.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/bcmath.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/bcmath.h
 private.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/private.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/private.h
 
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/bcmath.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/bcmath.h
 hphp/runtime/ext/bcmath/config.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/hphp/runtime/ext/bcmath/config.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/hphp/runtime/ext/bcmath/config.h
 stdint.h
 -
 
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/compare.c
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/compare.c
 config.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/config.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/config.h
 stdio.h
 -
 assert.h
@@ -44,17 +44,17 @@ ctype.h
 stdarg.h
 -
 bcmath.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/bcmath.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/bcmath.h
 private.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/private.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/private.h
 
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/config.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/config.h
 string.h
 -
 
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/debug.c
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/debug.c
 config.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/config.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/config.h
 stdio.h
 -
 assert.h
@@ -66,13 +66,13 @@ ctype.h
 stdarg.h
 -
 bcmath.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/bcmath.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/bcmath.h
 private.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/private.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/private.h
 
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/div.c
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/div.c
 config.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/config.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/config.h
 stdio.h
 -
 assert.h
@@ -84,13 +84,13 @@ ctype.h
 stdarg.h
 -
 bcmath.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/bcmath.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/bcmath.h
 private.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/private.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/private.h
 
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/divmod.c
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/divmod.c
 config.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/config.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/config.h
 stdio.h
 -
 assert.h
@@ -102,13 +102,13 @@ ctype.h
 stdarg.h
 -
 bcmath.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/bcmath.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/bcmath.h
 private.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/private.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/private.h
 
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/doaddsub.c
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/doaddsub.c
 config.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/config.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/config.h
 stdio.h
 -
 assert.h
@@ -120,13 +120,13 @@ ctype.h
 stdarg.h
 -
 bcmath.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/bcmath.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/bcmath.h
 private.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/private.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/private.h
 
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/init.c
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/init.c
 config.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/config.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/config.h
 stdio.h
 -
 assert.h
@@ -138,13 +138,13 @@ ctype.h
 stdarg.h
 -
 bcmath.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/bcmath.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/bcmath.h
 private.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/private.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/private.h
 
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/int2num.c
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/int2num.c
 config.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/config.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/config.h
 stdio.h
 -
 assert.h
@@ -156,13 +156,13 @@ ctype.h
 stdarg.h
 -
 bcmath.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/bcmath.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/bcmath.h
 private.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/private.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/private.h
 
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/nearzero.c
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/nearzero.c
 config.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/config.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/config.h
 stdio.h
 -
 assert.h
@@ -174,13 +174,13 @@ ctype.h
 stdarg.h
 -
 bcmath.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/bcmath.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/bcmath.h
 private.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/private.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/private.h
 
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/neg.c
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/neg.c
 config.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/config.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/config.h
 stdio.h
 -
 assert.h
@@ -192,13 +192,13 @@ ctype.h
 stdarg.h
 -
 bcmath.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/bcmath.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/bcmath.h
 private.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/private.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/private.h
 
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/num2long.c
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/num2long.c
 config.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/config.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/config.h
 stdio.h
 -
 assert.h
@@ -210,13 +210,13 @@ ctype.h
 stdarg.h
 -
 bcmath.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/bcmath.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/bcmath.h
 private.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/private.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/private.h
 
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/num2str.c
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/num2str.c
 config.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/config.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/config.h
 stdio.h
 -
 assert.h
@@ -228,13 +228,13 @@ ctype.h
 stdarg.h
 -
 bcmath.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/bcmath.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/bcmath.h
 private.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/private.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/private.h
 
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/outofmem.c
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/outofmem.c
 config.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/config.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/config.h
 stdio.h
 -
 assert.h
@@ -246,13 +246,13 @@ ctype.h
 stdarg.h
 -
 bcmath.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/bcmath.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/bcmath.h
 private.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/private.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/private.h
 
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/output.c
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/output.c
 config.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/config.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/config.h
 stdio.h
 -
 assert.h
@@ -264,15 +264,15 @@ ctype.h
 stdarg.h
 -
 bcmath.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/bcmath.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/bcmath.h
 private.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/private.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/private.h
 
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/private.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/private.h
 
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/raise.c
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/raise.c
 config.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/config.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/config.h
 stdio.h
 -
 assert.h
@@ -284,13 +284,13 @@ ctype.h
 stdarg.h
 -
 bcmath.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/bcmath.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/bcmath.h
 private.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/private.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/private.h
 
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/raisemod.c
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/raisemod.c
 config.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/config.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/config.h
 stdio.h
 -
 assert.h
@@ -302,13 +302,13 @@ ctype.h
 stdarg.h
 -
 bcmath.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/bcmath.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/bcmath.h
 private.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/private.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/private.h
 
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/recmul.c
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/recmul.c
 config.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/config.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/config.h
 stdio.h
 -
 assert.h
@@ -320,15 +320,15 @@ ctype.h
 stdarg.h
 -
 bcmath.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/bcmath.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/bcmath.h
 private.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/private.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/private.h
 muldigits.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/muldigits.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/muldigits.h
 
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/rmzero.c
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/rmzero.c
 config.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/config.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/config.h
 stdio.h
 -
 assert.h
@@ -340,13 +340,13 @@ ctype.h
 stdarg.h
 -
 bcmath.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/bcmath.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/bcmath.h
 private.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/private.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/private.h
 
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/rt.c
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/rt.c
 config.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/config.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/config.h
 stdio.h
 -
 assert.h
@@ -358,13 +358,13 @@ ctype.h
 stdarg.h
 -
 bcmath.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/bcmath.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/bcmath.h
 private.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/private.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/private.h
 
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/sqrt.c
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/sqrt.c
 config.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/config.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/config.h
 stdio.h
 -
 assert.h
@@ -376,13 +376,13 @@ ctype.h
 stdarg.h
 -
 bcmath.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/bcmath.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/bcmath.h
 private.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/private.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/private.h
 
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/str2num.c
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/str2num.c
 config.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/config.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/config.h
 stdio.h
 -
 assert.h
@@ -394,13 +394,13 @@ ctype.h
 stdarg.h
 -
 bcmath.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/bcmath.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/bcmath.h
 private.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/private.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/private.h
 
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/sub.c
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/sub.c
 config.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/config.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/config.h
 stdio.h
 -
 assert.h
@@ -412,13 +412,13 @@ ctype.h
 stdarg.h
 -
 bcmath.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/bcmath.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/bcmath.h
 private.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/private.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/private.h
 
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/zero.c
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/zero.c
 config.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/config.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/config.h
 stdio.h
 -
 assert.h
@@ -430,9 +430,9 @@ ctype.h
 stdarg.h
 -
 bcmath.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/bcmath.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/bcmath.h
 private.h
-/tmp/hhvm-3.11.1/hphp/runtime/ext/bcmath/private.h
+/tmp/hhvm-3.12.1/hphp/runtime/ext/bcmath/private.h
 
 hphp/runtime/ext/bcmath/config.h
 string.h

@@ -4,8 +4,8 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/tmp/hhvm-3.11.1/hphp/tools/hfsort/hfsort.cpp" "/tmp/hhvm-3.11.1/hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfsort.cpp.o"
-  "/tmp/hhvm-3.11.1/hphp/tools/hfsort/hfutil.cpp" "/tmp/hhvm-3.11.1/hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfutil.cpp.o"
+  "/tmp/hhvm-3.12.1/hphp/tools/hfsort/hfsort.cpp" "/tmp/hhvm-3.12.1/hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfsort.cpp.o"
+  "/tmp/hhvm-3.12.1/hphp/tools/hfsort/hfutil.cpp" "/tmp/hhvm-3.12.1/hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfutil.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -51,9 +51,9 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/tmp/hhvm-3.11.1/third-party/folly/CMakeFiles/folly.dir/DependInfo.cmake"
-  "/tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/DependInfo.cmake"
-  "/tmp/hhvm-3.11.1/third-party/double-conversion/CMakeFiles/double-conversion.dir/DependInfo.cmake"
+  "/tmp/hhvm-3.12.1/third-party/folly/CMakeFiles/folly.dir/DependInfo.cmake"
+  "/tmp/hhvm-3.12.1/hphp/util/CMakeFiles/hphp_util.dir/DependInfo.cmake"
+  "/tmp/hhvm-3.12.1/third-party/double-conversion/CMakeFiles/double-conversion.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

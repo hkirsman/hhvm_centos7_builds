@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -104,7 +104,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -114,7 +114,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && /usr/bin/cpack --config ./CPackSourceConfig.cmake /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CPackSourceConfig.cmake
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && /usr/bin/cpack --config ./CPackSourceConfig.cmake /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -133,14 +133,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/CMakeFiles/progress.marks
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 strings/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles 0
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/CMakeFiles /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/CMakeFiles/progress.marks
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 strings/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 strings/clean
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 strings/clean
 .PHONY : clean
 
 # The main clean target
@@ -149,22 +149,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 strings/preinstall
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 strings/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 strings/preinstall
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 strings/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 strings/CMakeFiles/conf_to_src.dir/rule:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 strings/CMakeFiles/conf_to_src.dir/rule
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 strings/CMakeFiles/conf_to_src.dir/rule
 .PHONY : strings/CMakeFiles/conf_to_src.dir/rule
 
 # Convenience name for target.
@@ -173,12 +173,12 @@ conf_to_src: strings/CMakeFiles/conf_to_src.dir/rule
 
 # fast build rule for target.
 conf_to_src/fast:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/conf_to_src.dir/build.make strings/CMakeFiles/conf_to_src.dir/build
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/conf_to_src.dir/build.make strings/CMakeFiles/conf_to_src.dir/build
 .PHONY : conf_to_src/fast
 
 # Convenience name for target.
 strings/CMakeFiles/strings.dir/rule:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 strings/CMakeFiles/strings.dir/rule
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 strings/CMakeFiles/strings.dir/rule
 .PHONY : strings/CMakeFiles/strings.dir/rule
 
 # Convenience name for target.
@@ -187,7 +187,7 @@ strings: strings/CMakeFiles/strings.dir/rule
 
 # fast build rule for target.
 strings/fast:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/build
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/build
 .PHONY : strings/fast
 
 bchange.o: bchange.c.o
@@ -195,7 +195,7 @@ bchange.o: bchange.c.o
 
 # target to build an object file
 bchange.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/bchange.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/bchange.c.o
 .PHONY : bchange.c.o
 
 bchange.i: bchange.c.i
@@ -203,7 +203,7 @@ bchange.i: bchange.c.i
 
 # target to preprocess a source file
 bchange.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/bchange.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/bchange.c.i
 .PHONY : bchange.c.i
 
 bchange.s: bchange.c.s
@@ -211,7 +211,7 @@ bchange.s: bchange.c.s
 
 # target to generate assembly for a file
 bchange.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/bchange.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/bchange.c.s
 .PHONY : bchange.c.s
 
 bmove_upp.o: bmove_upp.c.o
@@ -219,7 +219,7 @@ bmove_upp.o: bmove_upp.c.o
 
 # target to build an object file
 bmove_upp.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/bmove_upp.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/bmove_upp.c.o
 .PHONY : bmove_upp.c.o
 
 bmove_upp.i: bmove_upp.c.i
@@ -227,7 +227,7 @@ bmove_upp.i: bmove_upp.c.i
 
 # target to preprocess a source file
 bmove_upp.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/bmove_upp.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/bmove_upp.c.i
 .PHONY : bmove_upp.c.i
 
 bmove_upp.s: bmove_upp.c.s
@@ -235,7 +235,7 @@ bmove_upp.s: bmove_upp.c.s
 
 # target to generate assembly for a file
 bmove_upp.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/bmove_upp.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/bmove_upp.c.s
 .PHONY : bmove_upp.c.s
 
 conf_to_src.o: conf_to_src.c.o
@@ -243,7 +243,7 @@ conf_to_src.o: conf_to_src.c.o
 
 # target to build an object file
 conf_to_src.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/conf_to_src.dir/build.make strings/CMakeFiles/conf_to_src.dir/conf_to_src.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/conf_to_src.dir/build.make strings/CMakeFiles/conf_to_src.dir/conf_to_src.c.o
 .PHONY : conf_to_src.c.o
 
 conf_to_src.i: conf_to_src.c.i
@@ -251,7 +251,7 @@ conf_to_src.i: conf_to_src.c.i
 
 # target to preprocess a source file
 conf_to_src.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/conf_to_src.dir/build.make strings/CMakeFiles/conf_to_src.dir/conf_to_src.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/conf_to_src.dir/build.make strings/CMakeFiles/conf_to_src.dir/conf_to_src.c.i
 .PHONY : conf_to_src.c.i
 
 conf_to_src.s: conf_to_src.c.s
@@ -259,7 +259,7 @@ conf_to_src.s: conf_to_src.c.s
 
 # target to generate assembly for a file
 conf_to_src.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/conf_to_src.dir/build.make strings/CMakeFiles/conf_to_src.dir/conf_to_src.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/conf_to_src.dir/build.make strings/CMakeFiles/conf_to_src.dir/conf_to_src.c.s
 .PHONY : conf_to_src.c.s
 
 ctype-big5.o: ctype-big5.c.o
@@ -267,7 +267,7 @@ ctype-big5.o: ctype-big5.c.o
 
 # target to build an object file
 ctype-big5.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-big5.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-big5.c.o
 .PHONY : ctype-big5.c.o
 
 ctype-big5.i: ctype-big5.c.i
@@ -275,7 +275,7 @@ ctype-big5.i: ctype-big5.c.i
 
 # target to preprocess a source file
 ctype-big5.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-big5.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-big5.c.i
 .PHONY : ctype-big5.c.i
 
 ctype-big5.s: ctype-big5.c.s
@@ -283,7 +283,7 @@ ctype-big5.s: ctype-big5.c.s
 
 # target to generate assembly for a file
 ctype-big5.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-big5.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-big5.c.s
 .PHONY : ctype-big5.c.s
 
 ctype-bin.o: ctype-bin.c.o
@@ -291,7 +291,7 @@ ctype-bin.o: ctype-bin.c.o
 
 # target to build an object file
 ctype-bin.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-bin.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-bin.c.o
 .PHONY : ctype-bin.c.o
 
 ctype-bin.i: ctype-bin.c.i
@@ -299,7 +299,7 @@ ctype-bin.i: ctype-bin.c.i
 
 # target to preprocess a source file
 ctype-bin.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-bin.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-bin.c.i
 .PHONY : ctype-bin.c.i
 
 ctype-bin.s: ctype-bin.c.s
@@ -307,7 +307,7 @@ ctype-bin.s: ctype-bin.c.s
 
 # target to generate assembly for a file
 ctype-bin.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-bin.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-bin.c.s
 .PHONY : ctype-bin.c.s
 
 ctype-cp932.o: ctype-cp932.c.o
@@ -315,7 +315,7 @@ ctype-cp932.o: ctype-cp932.c.o
 
 # target to build an object file
 ctype-cp932.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-cp932.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-cp932.c.o
 .PHONY : ctype-cp932.c.o
 
 ctype-cp932.i: ctype-cp932.c.i
@@ -323,7 +323,7 @@ ctype-cp932.i: ctype-cp932.c.i
 
 # target to preprocess a source file
 ctype-cp932.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-cp932.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-cp932.c.i
 .PHONY : ctype-cp932.c.i
 
 ctype-cp932.s: ctype-cp932.c.s
@@ -331,7 +331,7 @@ ctype-cp932.s: ctype-cp932.c.s
 
 # target to generate assembly for a file
 ctype-cp932.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-cp932.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-cp932.c.s
 .PHONY : ctype-cp932.c.s
 
 ctype-czech.o: ctype-czech.c.o
@@ -339,7 +339,7 @@ ctype-czech.o: ctype-czech.c.o
 
 # target to build an object file
 ctype-czech.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-czech.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-czech.c.o
 .PHONY : ctype-czech.c.o
 
 ctype-czech.i: ctype-czech.c.i
@@ -347,7 +347,7 @@ ctype-czech.i: ctype-czech.c.i
 
 # target to preprocess a source file
 ctype-czech.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-czech.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-czech.c.i
 .PHONY : ctype-czech.c.i
 
 ctype-czech.s: ctype-czech.c.s
@@ -355,7 +355,7 @@ ctype-czech.s: ctype-czech.c.s
 
 # target to generate assembly for a file
 ctype-czech.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-czech.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-czech.c.s
 .PHONY : ctype-czech.c.s
 
 ctype-euc_kr.o: ctype-euc_kr.c.o
@@ -363,7 +363,7 @@ ctype-euc_kr.o: ctype-euc_kr.c.o
 
 # target to build an object file
 ctype-euc_kr.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-euc_kr.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-euc_kr.c.o
 .PHONY : ctype-euc_kr.c.o
 
 ctype-euc_kr.i: ctype-euc_kr.c.i
@@ -371,7 +371,7 @@ ctype-euc_kr.i: ctype-euc_kr.c.i
 
 # target to preprocess a source file
 ctype-euc_kr.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-euc_kr.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-euc_kr.c.i
 .PHONY : ctype-euc_kr.c.i
 
 ctype-euc_kr.s: ctype-euc_kr.c.s
@@ -379,7 +379,7 @@ ctype-euc_kr.s: ctype-euc_kr.c.s
 
 # target to generate assembly for a file
 ctype-euc_kr.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-euc_kr.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-euc_kr.c.s
 .PHONY : ctype-euc_kr.c.s
 
 ctype-eucjpms.o: ctype-eucjpms.c.o
@@ -387,7 +387,7 @@ ctype-eucjpms.o: ctype-eucjpms.c.o
 
 # target to build an object file
 ctype-eucjpms.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-eucjpms.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-eucjpms.c.o
 .PHONY : ctype-eucjpms.c.o
 
 ctype-eucjpms.i: ctype-eucjpms.c.i
@@ -395,7 +395,7 @@ ctype-eucjpms.i: ctype-eucjpms.c.i
 
 # target to preprocess a source file
 ctype-eucjpms.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-eucjpms.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-eucjpms.c.i
 .PHONY : ctype-eucjpms.c.i
 
 ctype-eucjpms.s: ctype-eucjpms.c.s
@@ -403,7 +403,7 @@ ctype-eucjpms.s: ctype-eucjpms.c.s
 
 # target to generate assembly for a file
 ctype-eucjpms.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-eucjpms.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-eucjpms.c.s
 .PHONY : ctype-eucjpms.c.s
 
 ctype-extra.o: ctype-extra.c.o
@@ -411,7 +411,7 @@ ctype-extra.o: ctype-extra.c.o
 
 # target to build an object file
 ctype-extra.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-extra.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-extra.c.o
 .PHONY : ctype-extra.c.o
 
 ctype-extra.i: ctype-extra.c.i
@@ -419,7 +419,7 @@ ctype-extra.i: ctype-extra.c.i
 
 # target to preprocess a source file
 ctype-extra.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-extra.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-extra.c.i
 .PHONY : ctype-extra.c.i
 
 ctype-extra.s: ctype-extra.c.s
@@ -427,7 +427,7 @@ ctype-extra.s: ctype-extra.c.s
 
 # target to generate assembly for a file
 ctype-extra.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-extra.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-extra.c.s
 .PHONY : ctype-extra.c.s
 
 ctype-gb2312.o: ctype-gb2312.c.o
@@ -435,7 +435,7 @@ ctype-gb2312.o: ctype-gb2312.c.o
 
 # target to build an object file
 ctype-gb2312.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-gb2312.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-gb2312.c.o
 .PHONY : ctype-gb2312.c.o
 
 ctype-gb2312.i: ctype-gb2312.c.i
@@ -443,7 +443,7 @@ ctype-gb2312.i: ctype-gb2312.c.i
 
 # target to preprocess a source file
 ctype-gb2312.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-gb2312.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-gb2312.c.i
 .PHONY : ctype-gb2312.c.i
 
 ctype-gb2312.s: ctype-gb2312.c.s
@@ -451,7 +451,7 @@ ctype-gb2312.s: ctype-gb2312.c.s
 
 # target to generate assembly for a file
 ctype-gb2312.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-gb2312.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-gb2312.c.s
 .PHONY : ctype-gb2312.c.s
 
 ctype-gbk.o: ctype-gbk.c.o
@@ -459,7 +459,7 @@ ctype-gbk.o: ctype-gbk.c.o
 
 # target to build an object file
 ctype-gbk.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-gbk.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-gbk.c.o
 .PHONY : ctype-gbk.c.o
 
 ctype-gbk.i: ctype-gbk.c.i
@@ -467,7 +467,7 @@ ctype-gbk.i: ctype-gbk.c.i
 
 # target to preprocess a source file
 ctype-gbk.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-gbk.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-gbk.c.i
 .PHONY : ctype-gbk.c.i
 
 ctype-gbk.s: ctype-gbk.c.s
@@ -475,7 +475,7 @@ ctype-gbk.s: ctype-gbk.c.s
 
 # target to generate assembly for a file
 ctype-gbk.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-gbk.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-gbk.c.s
 .PHONY : ctype-gbk.c.s
 
 ctype-latin1.o: ctype-latin1.c.o
@@ -483,7 +483,7 @@ ctype-latin1.o: ctype-latin1.c.o
 
 # target to build an object file
 ctype-latin1.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-latin1.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-latin1.c.o
 .PHONY : ctype-latin1.c.o
 
 ctype-latin1.i: ctype-latin1.c.i
@@ -491,7 +491,7 @@ ctype-latin1.i: ctype-latin1.c.i
 
 # target to preprocess a source file
 ctype-latin1.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-latin1.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-latin1.c.i
 .PHONY : ctype-latin1.c.i
 
 ctype-latin1.s: ctype-latin1.c.s
@@ -499,7 +499,7 @@ ctype-latin1.s: ctype-latin1.c.s
 
 # target to generate assembly for a file
 ctype-latin1.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-latin1.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-latin1.c.s
 .PHONY : ctype-latin1.c.s
 
 ctype-mb.o: ctype-mb.c.o
@@ -507,7 +507,7 @@ ctype-mb.o: ctype-mb.c.o
 
 # target to build an object file
 ctype-mb.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-mb.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-mb.c.o
 .PHONY : ctype-mb.c.o
 
 ctype-mb.i: ctype-mb.c.i
@@ -515,7 +515,7 @@ ctype-mb.i: ctype-mb.c.i
 
 # target to preprocess a source file
 ctype-mb.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-mb.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-mb.c.i
 .PHONY : ctype-mb.c.i
 
 ctype-mb.s: ctype-mb.c.s
@@ -523,7 +523,7 @@ ctype-mb.s: ctype-mb.c.s
 
 # target to generate assembly for a file
 ctype-mb.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-mb.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-mb.c.s
 .PHONY : ctype-mb.c.s
 
 ctype-simple.o: ctype-simple.c.o
@@ -531,7 +531,7 @@ ctype-simple.o: ctype-simple.c.o
 
 # target to build an object file
 ctype-simple.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-simple.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-simple.c.o
 .PHONY : ctype-simple.c.o
 
 ctype-simple.i: ctype-simple.c.i
@@ -539,7 +539,7 @@ ctype-simple.i: ctype-simple.c.i
 
 # target to preprocess a source file
 ctype-simple.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-simple.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-simple.c.i
 .PHONY : ctype-simple.c.i
 
 ctype-simple.s: ctype-simple.c.s
@@ -547,7 +547,7 @@ ctype-simple.s: ctype-simple.c.s
 
 # target to generate assembly for a file
 ctype-simple.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-simple.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-simple.c.s
 .PHONY : ctype-simple.c.s
 
 ctype-sjis.o: ctype-sjis.c.o
@@ -555,7 +555,7 @@ ctype-sjis.o: ctype-sjis.c.o
 
 # target to build an object file
 ctype-sjis.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-sjis.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-sjis.c.o
 .PHONY : ctype-sjis.c.o
 
 ctype-sjis.i: ctype-sjis.c.i
@@ -563,7 +563,7 @@ ctype-sjis.i: ctype-sjis.c.i
 
 # target to preprocess a source file
 ctype-sjis.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-sjis.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-sjis.c.i
 .PHONY : ctype-sjis.c.i
 
 ctype-sjis.s: ctype-sjis.c.s
@@ -571,7 +571,7 @@ ctype-sjis.s: ctype-sjis.c.s
 
 # target to generate assembly for a file
 ctype-sjis.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-sjis.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-sjis.c.s
 .PHONY : ctype-sjis.c.s
 
 ctype-tis620.o: ctype-tis620.c.o
@@ -579,7 +579,7 @@ ctype-tis620.o: ctype-tis620.c.o
 
 # target to build an object file
 ctype-tis620.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-tis620.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-tis620.c.o
 .PHONY : ctype-tis620.c.o
 
 ctype-tis620.i: ctype-tis620.c.i
@@ -587,7 +587,7 @@ ctype-tis620.i: ctype-tis620.c.i
 
 # target to preprocess a source file
 ctype-tis620.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-tis620.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-tis620.c.i
 .PHONY : ctype-tis620.c.i
 
 ctype-tis620.s: ctype-tis620.c.s
@@ -595,7 +595,7 @@ ctype-tis620.s: ctype-tis620.c.s
 
 # target to generate assembly for a file
 ctype-tis620.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-tis620.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-tis620.c.s
 .PHONY : ctype-tis620.c.s
 
 ctype-uca.o: ctype-uca.c.o
@@ -603,7 +603,7 @@ ctype-uca.o: ctype-uca.c.o
 
 # target to build an object file
 ctype-uca.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-uca.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-uca.c.o
 .PHONY : ctype-uca.c.o
 
 ctype-uca.i: ctype-uca.c.i
@@ -611,7 +611,7 @@ ctype-uca.i: ctype-uca.c.i
 
 # target to preprocess a source file
 ctype-uca.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-uca.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-uca.c.i
 .PHONY : ctype-uca.c.i
 
 ctype-uca.s: ctype-uca.c.s
@@ -619,7 +619,7 @@ ctype-uca.s: ctype-uca.c.s
 
 # target to generate assembly for a file
 ctype-uca.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-uca.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-uca.c.s
 .PHONY : ctype-uca.c.s
 
 ctype-ucs2.o: ctype-ucs2.c.o
@@ -627,7 +627,7 @@ ctype-ucs2.o: ctype-ucs2.c.o
 
 # target to build an object file
 ctype-ucs2.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-ucs2.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-ucs2.c.o
 .PHONY : ctype-ucs2.c.o
 
 ctype-ucs2.i: ctype-ucs2.c.i
@@ -635,7 +635,7 @@ ctype-ucs2.i: ctype-ucs2.c.i
 
 # target to preprocess a source file
 ctype-ucs2.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-ucs2.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-ucs2.c.i
 .PHONY : ctype-ucs2.c.i
 
 ctype-ucs2.s: ctype-ucs2.c.s
@@ -643,7 +643,7 @@ ctype-ucs2.s: ctype-ucs2.c.s
 
 # target to generate assembly for a file
 ctype-ucs2.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-ucs2.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-ucs2.c.s
 .PHONY : ctype-ucs2.c.s
 
 ctype-ujis.o: ctype-ujis.c.o
@@ -651,7 +651,7 @@ ctype-ujis.o: ctype-ujis.c.o
 
 # target to build an object file
 ctype-ujis.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-ujis.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-ujis.c.o
 .PHONY : ctype-ujis.c.o
 
 ctype-ujis.i: ctype-ujis.c.i
@@ -659,7 +659,7 @@ ctype-ujis.i: ctype-ujis.c.i
 
 # target to preprocess a source file
 ctype-ujis.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-ujis.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-ujis.c.i
 .PHONY : ctype-ujis.c.i
 
 ctype-ujis.s: ctype-ujis.c.s
@@ -667,7 +667,7 @@ ctype-ujis.s: ctype-ujis.c.s
 
 # target to generate assembly for a file
 ctype-ujis.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-ujis.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-ujis.c.s
 .PHONY : ctype-ujis.c.s
 
 ctype-utf8.o: ctype-utf8.c.o
@@ -675,7 +675,7 @@ ctype-utf8.o: ctype-utf8.c.o
 
 # target to build an object file
 ctype-utf8.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-utf8.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-utf8.c.o
 .PHONY : ctype-utf8.c.o
 
 ctype-utf8.i: ctype-utf8.c.i
@@ -683,7 +683,7 @@ ctype-utf8.i: ctype-utf8.c.i
 
 # target to preprocess a source file
 ctype-utf8.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-utf8.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-utf8.c.i
 .PHONY : ctype-utf8.c.i
 
 ctype-utf8.s: ctype-utf8.c.s
@@ -691,7 +691,7 @@ ctype-utf8.s: ctype-utf8.c.s
 
 # target to generate assembly for a file
 ctype-utf8.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-utf8.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-utf8.c.s
 .PHONY : ctype-utf8.c.s
 
 ctype-win1250ch.o: ctype-win1250ch.c.o
@@ -699,7 +699,7 @@ ctype-win1250ch.o: ctype-win1250ch.c.o
 
 # target to build an object file
 ctype-win1250ch.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-win1250ch.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-win1250ch.c.o
 .PHONY : ctype-win1250ch.c.o
 
 ctype-win1250ch.i: ctype-win1250ch.c.i
@@ -707,7 +707,7 @@ ctype-win1250ch.i: ctype-win1250ch.c.i
 
 # target to preprocess a source file
 ctype-win1250ch.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-win1250ch.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-win1250ch.c.i
 .PHONY : ctype-win1250ch.c.i
 
 ctype-win1250ch.s: ctype-win1250ch.c.s
@@ -715,7 +715,7 @@ ctype-win1250ch.s: ctype-win1250ch.c.s
 
 # target to generate assembly for a file
 ctype-win1250ch.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-win1250ch.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype-win1250ch.c.s
 .PHONY : ctype-win1250ch.c.s
 
 ctype.o: ctype.c.o
@@ -723,7 +723,7 @@ ctype.o: ctype.c.o
 
 # target to build an object file
 ctype.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype.c.o
 .PHONY : ctype.c.o
 
 ctype.i: ctype.c.i
@@ -731,7 +731,7 @@ ctype.i: ctype.c.i
 
 # target to preprocess a source file
 ctype.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype.c.i
 .PHONY : ctype.c.i
 
 ctype.s: ctype.c.s
@@ -739,7 +739,7 @@ ctype.s: ctype.c.s
 
 # target to generate assembly for a file
 ctype.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/ctype.c.s
 .PHONY : ctype.c.s
 
 decimal.o: decimal.c.o
@@ -747,7 +747,7 @@ decimal.o: decimal.c.o
 
 # target to build an object file
 decimal.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/decimal.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/decimal.c.o
 .PHONY : decimal.c.o
 
 decimal.i: decimal.c.i
@@ -755,7 +755,7 @@ decimal.i: decimal.c.i
 
 # target to preprocess a source file
 decimal.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/decimal.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/decimal.c.i
 .PHONY : decimal.c.i
 
 decimal.s: decimal.c.s
@@ -763,7 +763,7 @@ decimal.s: decimal.c.s
 
 # target to generate assembly for a file
 decimal.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/decimal.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/decimal.c.s
 .PHONY : decimal.c.s
 
 dtoa.o: dtoa.c.o
@@ -771,7 +771,7 @@ dtoa.o: dtoa.c.o
 
 # target to build an object file
 dtoa.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/dtoa.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/dtoa.c.o
 .PHONY : dtoa.c.o
 
 dtoa.i: dtoa.c.i
@@ -779,7 +779,7 @@ dtoa.i: dtoa.c.i
 
 # target to preprocess a source file
 dtoa.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/dtoa.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/dtoa.c.i
 .PHONY : dtoa.c.i
 
 dtoa.s: dtoa.c.s
@@ -787,7 +787,7 @@ dtoa.s: dtoa.c.s
 
 # target to generate assembly for a file
 dtoa.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/dtoa.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/dtoa.c.s
 .PHONY : dtoa.c.s
 
 int2str.o: int2str.c.o
@@ -795,7 +795,7 @@ int2str.o: int2str.c.o
 
 # target to build an object file
 int2str.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/int2str.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/int2str.c.o
 .PHONY : int2str.c.o
 
 int2str.i: int2str.c.i
@@ -803,7 +803,7 @@ int2str.i: int2str.c.i
 
 # target to preprocess a source file
 int2str.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/int2str.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/int2str.c.i
 .PHONY : int2str.c.i
 
 int2str.s: int2str.c.s
@@ -811,7 +811,7 @@ int2str.s: int2str.c.s
 
 # target to generate assembly for a file
 int2str.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/int2str.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/int2str.c.s
 .PHONY : int2str.c.s
 
 is_prefix.o: is_prefix.c.o
@@ -819,7 +819,7 @@ is_prefix.o: is_prefix.c.o
 
 # target to build an object file
 is_prefix.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/is_prefix.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/is_prefix.c.o
 .PHONY : is_prefix.c.o
 
 is_prefix.i: is_prefix.c.i
@@ -827,7 +827,7 @@ is_prefix.i: is_prefix.c.i
 
 # target to preprocess a source file
 is_prefix.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/is_prefix.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/is_prefix.c.i
 .PHONY : is_prefix.c.i
 
 is_prefix.s: is_prefix.c.s
@@ -835,7 +835,7 @@ is_prefix.s: is_prefix.c.s
 
 # target to generate assembly for a file
 is_prefix.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/is_prefix.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/is_prefix.c.s
 .PHONY : is_prefix.c.s
 
 llstr.o: llstr.c.o
@@ -843,7 +843,7 @@ llstr.o: llstr.c.o
 
 # target to build an object file
 llstr.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/llstr.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/llstr.c.o
 .PHONY : llstr.c.o
 
 llstr.i: llstr.c.i
@@ -851,7 +851,7 @@ llstr.i: llstr.c.i
 
 # target to preprocess a source file
 llstr.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/llstr.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/llstr.c.i
 .PHONY : llstr.c.i
 
 llstr.s: llstr.c.s
@@ -859,7 +859,7 @@ llstr.s: llstr.c.s
 
 # target to generate assembly for a file
 llstr.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/llstr.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/llstr.c.s
 .PHONY : llstr.c.s
 
 longlong2str.o: longlong2str.c.o
@@ -867,7 +867,7 @@ longlong2str.o: longlong2str.c.o
 
 # target to build an object file
 longlong2str.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/longlong2str.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/longlong2str.c.o
 .PHONY : longlong2str.c.o
 
 longlong2str.i: longlong2str.c.i
@@ -875,7 +875,7 @@ longlong2str.i: longlong2str.c.i
 
 # target to preprocess a source file
 longlong2str.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/longlong2str.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/longlong2str.c.i
 .PHONY : longlong2str.c.i
 
 longlong2str.s: longlong2str.c.s
@@ -883,7 +883,7 @@ longlong2str.s: longlong2str.c.s
 
 # target to generate assembly for a file
 longlong2str.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/longlong2str.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/longlong2str.c.s
 .PHONY : longlong2str.c.s
 
 my_strchr.o: my_strchr.c.o
@@ -891,7 +891,7 @@ my_strchr.o: my_strchr.c.o
 
 # target to build an object file
 my_strchr.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/my_strchr.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/my_strchr.c.o
 .PHONY : my_strchr.c.o
 
 my_strchr.i: my_strchr.c.i
@@ -899,7 +899,7 @@ my_strchr.i: my_strchr.c.i
 
 # target to preprocess a source file
 my_strchr.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/my_strchr.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/my_strchr.c.i
 .PHONY : my_strchr.c.i
 
 my_strchr.s: my_strchr.c.s
@@ -907,7 +907,7 @@ my_strchr.s: my_strchr.c.s
 
 # target to generate assembly for a file
 my_strchr.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/my_strchr.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/my_strchr.c.s
 .PHONY : my_strchr.c.s
 
 my_strtoll10.o: my_strtoll10.c.o
@@ -915,7 +915,7 @@ my_strtoll10.o: my_strtoll10.c.o
 
 # target to build an object file
 my_strtoll10.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/my_strtoll10.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/my_strtoll10.c.o
 .PHONY : my_strtoll10.c.o
 
 my_strtoll10.i: my_strtoll10.c.i
@@ -923,7 +923,7 @@ my_strtoll10.i: my_strtoll10.c.i
 
 # target to preprocess a source file
 my_strtoll10.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/my_strtoll10.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/my_strtoll10.c.i
 .PHONY : my_strtoll10.c.i
 
 my_strtoll10.s: my_strtoll10.c.s
@@ -931,7 +931,7 @@ my_strtoll10.s: my_strtoll10.c.s
 
 # target to generate assembly for a file
 my_strtoll10.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/my_strtoll10.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/my_strtoll10.c.s
 .PHONY : my_strtoll10.c.s
 
 my_vsnprintf.o: my_vsnprintf.c.o
@@ -939,7 +939,7 @@ my_vsnprintf.o: my_vsnprintf.c.o
 
 # target to build an object file
 my_vsnprintf.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/my_vsnprintf.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/my_vsnprintf.c.o
 .PHONY : my_vsnprintf.c.o
 
 my_vsnprintf.i: my_vsnprintf.c.i
@@ -947,7 +947,7 @@ my_vsnprintf.i: my_vsnprintf.c.i
 
 # target to preprocess a source file
 my_vsnprintf.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/my_vsnprintf.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/my_vsnprintf.c.i
 .PHONY : my_vsnprintf.c.i
 
 my_vsnprintf.s: my_vsnprintf.c.s
@@ -955,7 +955,7 @@ my_vsnprintf.s: my_vsnprintf.c.s
 
 # target to generate assembly for a file
 my_vsnprintf.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/my_vsnprintf.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/my_vsnprintf.c.s
 .PHONY : my_vsnprintf.c.s
 
 str2int.o: str2int.c.o
@@ -963,7 +963,7 @@ str2int.o: str2int.c.o
 
 # target to build an object file
 str2int.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/str2int.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/str2int.c.o
 .PHONY : str2int.c.o
 
 str2int.i: str2int.c.i
@@ -971,7 +971,7 @@ str2int.i: str2int.c.i
 
 # target to preprocess a source file
 str2int.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/str2int.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/str2int.c.i
 .PHONY : str2int.c.i
 
 str2int.s: str2int.c.s
@@ -979,7 +979,7 @@ str2int.s: str2int.c.s
 
 # target to generate assembly for a file
 str2int.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/str2int.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/str2int.c.s
 .PHONY : str2int.c.s
 
 str_alloc.o: str_alloc.c.o
@@ -987,7 +987,7 @@ str_alloc.o: str_alloc.c.o
 
 # target to build an object file
 str_alloc.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/str_alloc.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/str_alloc.c.o
 .PHONY : str_alloc.c.o
 
 str_alloc.i: str_alloc.c.i
@@ -995,7 +995,7 @@ str_alloc.i: str_alloc.c.i
 
 # target to preprocess a source file
 str_alloc.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/str_alloc.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/str_alloc.c.i
 .PHONY : str_alloc.c.i
 
 str_alloc.s: str_alloc.c.s
@@ -1003,7 +1003,7 @@ str_alloc.s: str_alloc.c.s
 
 # target to generate assembly for a file
 str_alloc.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/str_alloc.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/str_alloc.c.s
 .PHONY : str_alloc.c.s
 
 strappend.o: strappend.c.o
@@ -1011,7 +1011,7 @@ strappend.o: strappend.c.o
 
 # target to build an object file
 strappend.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strappend.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strappend.c.o
 .PHONY : strappend.c.o
 
 strappend.i: strappend.c.i
@@ -1019,7 +1019,7 @@ strappend.i: strappend.c.i
 
 # target to preprocess a source file
 strappend.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strappend.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strappend.c.i
 .PHONY : strappend.c.i
 
 strappend.s: strappend.c.s
@@ -1027,7 +1027,7 @@ strappend.s: strappend.c.s
 
 # target to generate assembly for a file
 strappend.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strappend.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strappend.c.s
 .PHONY : strappend.c.s
 
 strcend.o: strcend.c.o
@@ -1035,7 +1035,7 @@ strcend.o: strcend.c.o
 
 # target to build an object file
 strcend.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strcend.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strcend.c.o
 .PHONY : strcend.c.o
 
 strcend.i: strcend.c.i
@@ -1043,7 +1043,7 @@ strcend.i: strcend.c.i
 
 # target to preprocess a source file
 strcend.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strcend.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strcend.c.i
 .PHONY : strcend.c.i
 
 strcend.s: strcend.c.s
@@ -1051,7 +1051,7 @@ strcend.s: strcend.c.s
 
 # target to generate assembly for a file
 strcend.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strcend.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strcend.c.s
 .PHONY : strcend.c.s
 
 strcont.o: strcont.c.o
@@ -1059,7 +1059,7 @@ strcont.o: strcont.c.o
 
 # target to build an object file
 strcont.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strcont.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strcont.c.o
 .PHONY : strcont.c.o
 
 strcont.i: strcont.c.i
@@ -1067,7 +1067,7 @@ strcont.i: strcont.c.i
 
 # target to preprocess a source file
 strcont.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strcont.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strcont.c.i
 .PHONY : strcont.c.i
 
 strcont.s: strcont.c.s
@@ -1075,7 +1075,7 @@ strcont.s: strcont.c.s
 
 # target to generate assembly for a file
 strcont.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strcont.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strcont.c.s
 .PHONY : strcont.c.s
 
 strend.o: strend.c.o
@@ -1083,7 +1083,7 @@ strend.o: strend.c.o
 
 # target to build an object file
 strend.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strend.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strend.c.o
 .PHONY : strend.c.o
 
 strend.i: strend.c.i
@@ -1091,7 +1091,7 @@ strend.i: strend.c.i
 
 # target to preprocess a source file
 strend.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strend.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strend.c.i
 .PHONY : strend.c.i
 
 strend.s: strend.c.s
@@ -1099,7 +1099,7 @@ strend.s: strend.c.s
 
 # target to generate assembly for a file
 strend.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strend.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strend.c.s
 .PHONY : strend.c.s
 
 strfill.o: strfill.c.o
@@ -1107,7 +1107,7 @@ strfill.o: strfill.c.o
 
 # target to build an object file
 strfill.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strfill.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strfill.c.o
 .PHONY : strfill.c.o
 
 strfill.i: strfill.c.i
@@ -1115,7 +1115,7 @@ strfill.i: strfill.c.i
 
 # target to preprocess a source file
 strfill.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strfill.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strfill.c.i
 .PHONY : strfill.c.i
 
 strfill.s: strfill.c.s
@@ -1123,7 +1123,7 @@ strfill.s: strfill.c.s
 
 # target to generate assembly for a file
 strfill.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strfill.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strfill.c.s
 .PHONY : strfill.c.s
 
 strmake.o: strmake.c.o
@@ -1131,7 +1131,7 @@ strmake.o: strmake.c.o
 
 # target to build an object file
 strmake.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strmake.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strmake.c.o
 .PHONY : strmake.c.o
 
 strmake.i: strmake.c.i
@@ -1139,7 +1139,7 @@ strmake.i: strmake.c.i
 
 # target to preprocess a source file
 strmake.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strmake.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strmake.c.i
 .PHONY : strmake.c.i
 
 strmake.s: strmake.c.s
@@ -1147,7 +1147,7 @@ strmake.s: strmake.c.s
 
 # target to generate assembly for a file
 strmake.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strmake.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strmake.c.s
 .PHONY : strmake.c.s
 
 strmov.o: strmov.c.o
@@ -1155,7 +1155,7 @@ strmov.o: strmov.c.o
 
 # target to build an object file
 strmov.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strmov.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strmov.c.o
 .PHONY : strmov.c.o
 
 strmov.i: strmov.c.i
@@ -1163,7 +1163,7 @@ strmov.i: strmov.c.i
 
 # target to preprocess a source file
 strmov.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strmov.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strmov.c.i
 .PHONY : strmov.c.i
 
 strmov.s: strmov.c.s
@@ -1171,7 +1171,7 @@ strmov.s: strmov.c.s
 
 # target to generate assembly for a file
 strmov.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strmov.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strmov.c.s
 .PHONY : strmov.c.s
 
 strnmov.o: strnmov.c.o
@@ -1179,7 +1179,7 @@ strnmov.o: strnmov.c.o
 
 # target to build an object file
 strnmov.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strnmov.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strnmov.c.o
 .PHONY : strnmov.c.o
 
 strnmov.i: strnmov.c.i
@@ -1187,7 +1187,7 @@ strnmov.i: strnmov.c.i
 
 # target to preprocess a source file
 strnmov.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strnmov.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strnmov.c.i
 .PHONY : strnmov.c.i
 
 strnmov.s: strnmov.c.s
@@ -1195,7 +1195,7 @@ strnmov.s: strnmov.c.s
 
 # target to generate assembly for a file
 strnmov.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strnmov.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strnmov.c.s
 .PHONY : strnmov.c.s
 
 strxmov.o: strxmov.c.o
@@ -1203,7 +1203,7 @@ strxmov.o: strxmov.c.o
 
 # target to build an object file
 strxmov.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strxmov.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strxmov.c.o
 .PHONY : strxmov.c.o
 
 strxmov.i: strxmov.c.i
@@ -1211,7 +1211,7 @@ strxmov.i: strxmov.c.i
 
 # target to preprocess a source file
 strxmov.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strxmov.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strxmov.c.i
 .PHONY : strxmov.c.i
 
 strxmov.s: strxmov.c.s
@@ -1219,7 +1219,7 @@ strxmov.s: strxmov.c.s
 
 # target to generate assembly for a file
 strxmov.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strxmov.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strxmov.c.s
 .PHONY : strxmov.c.s
 
 strxnmov.o: strxnmov.c.o
@@ -1227,7 +1227,7 @@ strxnmov.o: strxnmov.c.o
 
 # target to build an object file
 strxnmov.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strxnmov.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strxnmov.c.o
 .PHONY : strxnmov.c.o
 
 strxnmov.i: strxnmov.c.i
@@ -1235,7 +1235,7 @@ strxnmov.i: strxnmov.c.i
 
 # target to preprocess a source file
 strxnmov.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strxnmov.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strxnmov.c.i
 .PHONY : strxnmov.c.i
 
 strxnmov.s: strxnmov.c.s
@@ -1243,7 +1243,7 @@ strxnmov.s: strxnmov.c.s
 
 # target to generate assembly for a file
 strxnmov.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strxnmov.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/strxnmov.c.s
 .PHONY : strxnmov.c.s
 
 xml.o: xml.c.o
@@ -1251,7 +1251,7 @@ xml.o: xml.c.o
 
 # target to build an object file
 xml.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/xml.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/xml.c.o
 .PHONY : xml.c.o
 
 xml.i: xml.c.i
@@ -1259,7 +1259,7 @@ xml.i: xml.c.i
 
 # target to preprocess a source file
 xml.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/xml.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/xml.c.i
 .PHONY : xml.c.i
 
 xml.s: xml.c.s
@@ -1267,7 +1267,7 @@ xml.s: xml.c.s
 
 # target to generate assembly for a file
 xml.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/xml.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f strings/CMakeFiles/strings.dir/build.make strings/CMakeFiles/strings.dir/xml.c.s
 .PHONY : xml.c.s
 
 # Help Target
@@ -1432,6 +1432,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

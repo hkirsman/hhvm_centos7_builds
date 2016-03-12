@@ -27,6 +27,7 @@ third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/EventHandlerBas
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/EventHandlerBase.cpp.o: third-party/folly/folly/IPAddressV6.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/EventHandlerBase.cpp.o: third-party/folly/folly/Likely.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/EventHandlerBase.cpp.o: third-party/folly/folly/Malloc.h
+third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/EventHandlerBase.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/EventHandlerBase.cpp.o: third-party/folly/folly/Optional.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/EventHandlerBase.cpp.o: third-party/folly/folly/Portability.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/EventHandlerBase.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -47,6 +48,7 @@ third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/EventHandlerBas
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/EventHandlerBase.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/EventHandlerBase.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/EventHandlerBase.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/EventHandlerBase.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/EventHandlerBase.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/EventHandlerBase.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/EventHandlerBase.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -133,6 +135,7 @@ third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSSL
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSSLSocketFactory.cpp.o: third-party/folly/folly/Likely.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSSLSocketFactory.cpp.o: third-party/folly/folly/Malloc.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSSLSocketFactory.cpp.o: third-party/folly/folly/Memory.h
+third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSSLSocketFactory.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSSLSocketFactory.cpp.o: third-party/folly/folly/Optional.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSSLSocketFactory.cpp.o: third-party/folly/folly/Portability.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSSLSocketFactory.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -154,6 +157,7 @@ third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSSL
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSSLSocketFactory.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSSLSocketFactory.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSSLSocketFactory.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSSLSocketFactory.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSSLSocketFactory.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSSLSocketFactory.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSSLSocketFactory.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -218,6 +222,7 @@ third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSoc
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSocketFactory.cpp.o: third-party/folly/folly/Likely.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSocketFactory.cpp.o: third-party/folly/folly/Malloc.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSocketFactory.cpp.o: third-party/folly/folly/Memory.h
+third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSocketFactory.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSocketFactory.cpp.o: third-party/folly/folly/Portability.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSocketFactory.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSocketFactory.cpp.o: third-party/folly/folly/RWSpinLock.h
@@ -236,6 +241,7 @@ third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSoc
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSocketFactory.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSocketFactory.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSocketFactory.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSocketFactory.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSocketFactory.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSocketFactory.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TAsyncSocketFactory.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -288,6 +294,7 @@ third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TBinaryAs
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TBinaryAsyncChannel.cpp.o: third-party/folly/folly/IPAddressV6.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TBinaryAsyncChannel.cpp.o: third-party/folly/folly/Likely.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TBinaryAsyncChannel.cpp.o: third-party/folly/folly/Malloc.h
+third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TBinaryAsyncChannel.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TBinaryAsyncChannel.cpp.o: third-party/folly/folly/Portability.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TBinaryAsyncChannel.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TBinaryAsyncChannel.cpp.o: third-party/folly/folly/RWSpinLock.h
@@ -306,6 +313,7 @@ third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TBinaryAs
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TBinaryAsyncChannel.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TBinaryAsyncChannel.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TBinaryAsyncChannel.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TBinaryAsyncChannel.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TBinaryAsyncChannel.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TBinaryAsyncChannel.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TBinaryAsyncChannel.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -990,6 +998,7 @@ third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TFramedAs
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TFramedAsyncChannel.cpp.o: third-party/folly/folly/IPAddressV6.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TFramedAsyncChannel.cpp.o: third-party/folly/folly/Likely.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TFramedAsyncChannel.cpp.o: third-party/folly/folly/Malloc.h
+third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TFramedAsyncChannel.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TFramedAsyncChannel.cpp.o: third-party/folly/folly/Portability.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TFramedAsyncChannel.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TFramedAsyncChannel.cpp.o: third-party/folly/folly/RWSpinLock.h
@@ -1008,6 +1017,7 @@ third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TFramedAs
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TFramedAsyncChannel.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TFramedAsyncChannel.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TFramedAsyncChannel.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TFramedAsyncChannel.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TFramedAsyncChannel.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TFramedAsyncChannel.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TFramedAsyncChannel.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -1068,6 +1078,7 @@ third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THeaderAs
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THeaderAsyncChannel.cpp.o: third-party/folly/folly/Likely.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THeaderAsyncChannel.cpp.o: third-party/folly/folly/Malloc.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THeaderAsyncChannel.cpp.o: third-party/folly/folly/Memory.h
+third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THeaderAsyncChannel.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THeaderAsyncChannel.cpp.o: third-party/folly/folly/Optional.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THeaderAsyncChannel.cpp.o: third-party/folly/folly/Portability.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THeaderAsyncChannel.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -1089,6 +1100,7 @@ third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THeaderAs
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THeaderAsyncChannel.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THeaderAsyncChannel.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THeaderAsyncChannel.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THeaderAsyncChannel.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THeaderAsyncChannel.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THeaderAsyncChannel.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THeaderAsyncChannel.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -1171,6 +1183,7 @@ third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THttpAsyn
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THttpAsyncChannel.cpp.o: third-party/folly/folly/IPAddressV6.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THttpAsyncChannel.cpp.o: third-party/folly/folly/Likely.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THttpAsyncChannel.cpp.o: third-party/folly/folly/Malloc.h
+third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THttpAsyncChannel.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THttpAsyncChannel.cpp.o: third-party/folly/folly/Portability.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THttpAsyncChannel.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THttpAsyncChannel.cpp.o: third-party/folly/folly/RWSpinLock.h
@@ -1189,6 +1202,7 @@ third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THttpAsyn
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THttpAsyncChannel.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THttpAsyncChannel.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THttpAsyncChannel.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THttpAsyncChannel.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THttpAsyncChannel.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THttpAsyncChannel.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/THttpAsyncChannel.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -1249,6 +1263,7 @@ third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TUnframed
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TUnframedAsyncChannel.cpp.o: third-party/folly/folly/IPAddressV6.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TUnframedAsyncChannel.cpp.o: third-party/folly/folly/Likely.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TUnframedAsyncChannel.cpp.o: third-party/folly/folly/Malloc.h
+third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TUnframedAsyncChannel.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TUnframedAsyncChannel.cpp.o: third-party/folly/folly/Portability.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TUnframedAsyncChannel.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TUnframedAsyncChannel.cpp.o: third-party/folly/folly/RWSpinLock.h
@@ -1267,6 +1282,7 @@ third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TUnframed
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TUnframedAsyncChannel.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TUnframedAsyncChannel.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TUnframedAsyncChannel.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TUnframedAsyncChannel.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TUnframedAsyncChannel.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TUnframedAsyncChannel.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TUnframedAsyncChannel.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -1315,6 +1331,7 @@ third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TZlibAsyn
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TZlibAsyncChannel.cpp.o: third-party/folly/folly/Hash.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TZlibAsyncChannel.cpp.o: third-party/folly/folly/Likely.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TZlibAsyncChannel.cpp.o: third-party/folly/folly/Malloc.h
+third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TZlibAsyncChannel.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TZlibAsyncChannel.cpp.o: third-party/folly/folly/Portability.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TZlibAsyncChannel.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TZlibAsyncChannel.cpp.o: third-party/folly/folly/RWSpinLock.h
@@ -1329,6 +1346,7 @@ third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TZlibAsyn
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TZlibAsyncChannel.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TZlibAsyncChannel.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TZlibAsyncChannel.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TZlibAsyncChannel.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TZlibAsyncChannel.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TZlibAsyncChannel.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/async/TZlibAsyncChannel.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -1520,6 +1538,7 @@ third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/processor/PeekP
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/processor/PeekProcessor.cpp.o: third-party/folly/folly/IPAddressV6.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/processor/PeekProcessor.cpp.o: third-party/folly/folly/Likely.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/processor/PeekProcessor.cpp.o: third-party/folly/folly/Malloc.h
+third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/processor/PeekProcessor.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/processor/PeekProcessor.cpp.o: third-party/folly/folly/Optional.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/processor/PeekProcessor.cpp.o: third-party/folly/folly/Portability.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/processor/PeekProcessor.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -1540,6 +1559,7 @@ third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/processor/PeekP
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/processor/PeekProcessor.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/processor/PeekProcessor.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/processor/PeekProcessor.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/processor/PeekProcessor.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/processor/PeekProcessor.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/processor/PeekProcessor.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/processor/PeekProcessor.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -1600,6 +1620,7 @@ third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TRpcTran
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TRpcTransportContext.cpp.o: third-party/folly/folly/IPAddressV6.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TRpcTransportContext.cpp.o: third-party/folly/folly/Likely.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TRpcTransportContext.cpp.o: third-party/folly/folly/Malloc.h
+third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TRpcTransportContext.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TRpcTransportContext.cpp.o: third-party/folly/folly/Optional.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TRpcTransportContext.cpp.o: third-party/folly/folly/Portability.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TRpcTransportContext.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -1619,6 +1640,7 @@ third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TRpcTran
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TRpcTransportContext.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TRpcTransportContext.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TRpcTransportContext.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TRpcTransportContext.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TRpcTransportContext.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TRpcTransportContext.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TRpcTransportContext.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -1671,6 +1693,7 @@ third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TServer.
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TServer.cpp.o: third-party/folly/folly/IPAddressV6.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TServer.cpp.o: third-party/folly/folly/Likely.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TServer.cpp.o: third-party/folly/folly/Malloc.h
+third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TServer.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TServer.cpp.o: third-party/folly/folly/Optional.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TServer.cpp.o: third-party/folly/folly/Portability.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TServer.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -1691,6 +1714,7 @@ third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TServer.
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TServer.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TServer.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TServer.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TServer.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TServer.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TServer.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/server/TServer.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -1804,6 +1828,7 @@ third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TFile
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TFileTransport.cpp.o: third-party/folly/folly/IPAddressV6.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TFileTransport.cpp.o: third-party/folly/folly/Likely.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TFileTransport.cpp.o: third-party/folly/folly/Malloc.h
+third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TFileTransport.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TFileTransport.cpp.o: third-party/folly/folly/Optional.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TFileTransport.cpp.o: third-party/folly/folly/Portability.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TFileTransport.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -1824,6 +1849,7 @@ third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TFile
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TFileTransport.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TFileTransport.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TFileTransport.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TFileTransport.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TFileTransport.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TFileTransport.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/transport/TFileTransport.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -2423,6 +2449,7 @@ third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ScopedServ
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ScopedServerThread.cpp.o: third-party/folly/folly/IPAddressV6.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ScopedServerThread.cpp.o: third-party/folly/folly/Likely.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ScopedServerThread.cpp.o: third-party/folly/folly/Malloc.h
+third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ScopedServerThread.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ScopedServerThread.cpp.o: third-party/folly/folly/Optional.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ScopedServerThread.cpp.o: third-party/folly/folly/Portability.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ScopedServerThread.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -2444,6 +2471,7 @@ third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ScopedServ
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ScopedServerThread.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ScopedServerThread.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ScopedServerThread.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ScopedServerThread.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ScopedServerThread.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ScopedServerThread.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ScopedServerThread.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -2509,6 +2537,7 @@ third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ServerCrea
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ServerCreatorBase.cpp.o: third-party/folly/folly/IPAddressV6.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ServerCreatorBase.cpp.o: third-party/folly/folly/Likely.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ServerCreatorBase.cpp.o: third-party/folly/folly/Malloc.h
+third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ServerCreatorBase.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ServerCreatorBase.cpp.o: third-party/folly/folly/Optional.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ServerCreatorBase.cpp.o: third-party/folly/folly/Portability.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ServerCreatorBase.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -2529,6 +2558,7 @@ third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ServerCrea
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ServerCreatorBase.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ServerCreatorBase.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ServerCreatorBase.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ServerCreatorBase.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ServerCreatorBase.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ServerCreatorBase.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/thrift/CMakeFiles/hphp_thrift.dir/src/thrift/lib/cpp/util/ServerCreatorBase.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h

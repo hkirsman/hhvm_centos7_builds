@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -104,7 +104,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -114,7 +114,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && /usr/bin/cpack --config ./CPackSourceConfig.cmake /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CPackSourceConfig.cmake
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && /usr/bin/cpack --config ./CPackSourceConfig.cmake /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -133,14 +133,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/CMakeFiles/progress.marks
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 mysys_ssl/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles 0
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/CMakeFiles /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys_ssl/CMakeFiles/progress.marks
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 mysys_ssl/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 mysys_ssl/clean
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 mysys_ssl/clean
 .PHONY : clean
 
 # The main clean target
@@ -149,22 +149,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 mysys_ssl/preinstall
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 mysys_ssl/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 mysys_ssl/preinstall
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 mysys_ssl/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 mysys_ssl/CMakeFiles/mysys_ssl.dir/rule:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 mysys_ssl/CMakeFiles/mysys_ssl.dir/rule
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 mysys_ssl/CMakeFiles/mysys_ssl.dir/rule
 .PHONY : mysys_ssl/CMakeFiles/mysys_ssl.dir/rule
 
 # Convenience name for target.
@@ -173,7 +173,7 @@ mysys_ssl: mysys_ssl/CMakeFiles/mysys_ssl.dir/rule
 
 # fast build rule for target.
 mysys_ssl/fast:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/build
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/build
 .PHONY : mysys_ssl/fast
 
 crypt_genhash_impl.o: crypt_genhash_impl.cc.o
@@ -181,7 +181,7 @@ crypt_genhash_impl.o: crypt_genhash_impl.cc.o
 
 # target to build an object file
 crypt_genhash_impl.cc.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/crypt_genhash_impl.cc.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/crypt_genhash_impl.cc.o
 .PHONY : crypt_genhash_impl.cc.o
 
 crypt_genhash_impl.i: crypt_genhash_impl.cc.i
@@ -189,7 +189,7 @@ crypt_genhash_impl.i: crypt_genhash_impl.cc.i
 
 # target to preprocess a source file
 crypt_genhash_impl.cc.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/crypt_genhash_impl.cc.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/crypt_genhash_impl.cc.i
 .PHONY : crypt_genhash_impl.cc.i
 
 crypt_genhash_impl.s: crypt_genhash_impl.cc.s
@@ -197,7 +197,7 @@ crypt_genhash_impl.s: crypt_genhash_impl.cc.s
 
 # target to generate assembly for a file
 crypt_genhash_impl.cc.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/crypt_genhash_impl.cc.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/crypt_genhash_impl.cc.s
 .PHONY : crypt_genhash_impl.cc.s
 
 my_aes.o: my_aes.cc.o
@@ -205,7 +205,7 @@ my_aes.o: my_aes.cc.o
 
 # target to build an object file
 my_aes.cc.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_aes.cc.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_aes.cc.o
 .PHONY : my_aes.cc.o
 
 my_aes.i: my_aes.cc.i
@@ -213,7 +213,7 @@ my_aes.i: my_aes.cc.i
 
 # target to preprocess a source file
 my_aes.cc.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_aes.cc.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_aes.cc.i
 .PHONY : my_aes.cc.i
 
 my_aes.s: my_aes.cc.s
@@ -221,7 +221,7 @@ my_aes.s: my_aes.cc.s
 
 # target to generate assembly for a file
 my_aes.cc.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_aes.cc.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_aes.cc.s
 .PHONY : my_aes.cc.s
 
 my_aes_openssl.o: my_aes_openssl.cc.o
@@ -229,7 +229,7 @@ my_aes_openssl.o: my_aes_openssl.cc.o
 
 # target to build an object file
 my_aes_openssl.cc.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_aes_openssl.cc.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_aes_openssl.cc.o
 .PHONY : my_aes_openssl.cc.o
 
 my_aes_openssl.i: my_aes_openssl.cc.i
@@ -237,7 +237,7 @@ my_aes_openssl.i: my_aes_openssl.cc.i
 
 # target to preprocess a source file
 my_aes_openssl.cc.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_aes_openssl.cc.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_aes_openssl.cc.i
 .PHONY : my_aes_openssl.cc.i
 
 my_aes_openssl.s: my_aes_openssl.cc.s
@@ -245,7 +245,7 @@ my_aes_openssl.s: my_aes_openssl.cc.s
 
 # target to generate assembly for a file
 my_aes_openssl.cc.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_aes_openssl.cc.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_aes_openssl.cc.s
 .PHONY : my_aes_openssl.cc.s
 
 my_default.o: my_default.cc.o
@@ -253,7 +253,7 @@ my_default.o: my_default.cc.o
 
 # target to build an object file
 my_default.cc.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_default.cc.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_default.cc.o
 .PHONY : my_default.cc.o
 
 my_default.i: my_default.cc.i
@@ -261,7 +261,7 @@ my_default.i: my_default.cc.i
 
 # target to preprocess a source file
 my_default.cc.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_default.cc.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_default.cc.i
 .PHONY : my_default.cc.i
 
 my_default.s: my_default.cc.s
@@ -269,7 +269,7 @@ my_default.s: my_default.cc.s
 
 # target to generate assembly for a file
 my_default.cc.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_default.cc.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_default.cc.s
 .PHONY : my_default.cc.s
 
 my_getopt.o: my_getopt.cc.o
@@ -277,7 +277,7 @@ my_getopt.o: my_getopt.cc.o
 
 # target to build an object file
 my_getopt.cc.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_getopt.cc.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_getopt.cc.o
 .PHONY : my_getopt.cc.o
 
 my_getopt.i: my_getopt.cc.i
@@ -285,7 +285,7 @@ my_getopt.i: my_getopt.cc.i
 
 # target to preprocess a source file
 my_getopt.cc.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_getopt.cc.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_getopt.cc.i
 .PHONY : my_getopt.cc.i
 
 my_getopt.s: my_getopt.cc.s
@@ -293,7 +293,7 @@ my_getopt.s: my_getopt.cc.s
 
 # target to generate assembly for a file
 my_getopt.cc.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_getopt.cc.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_getopt.cc.s
 .PHONY : my_getopt.cc.s
 
 my_md5.o: my_md5.cc.o
@@ -301,7 +301,7 @@ my_md5.o: my_md5.cc.o
 
 # target to build an object file
 my_md5.cc.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_md5.cc.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_md5.cc.o
 .PHONY : my_md5.cc.o
 
 my_md5.i: my_md5.cc.i
@@ -309,7 +309,7 @@ my_md5.i: my_md5.cc.i
 
 # target to preprocess a source file
 my_md5.cc.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_md5.cc.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_md5.cc.i
 .PHONY : my_md5.cc.i
 
 my_md5.s: my_md5.cc.s
@@ -317,7 +317,7 @@ my_md5.s: my_md5.cc.s
 
 # target to generate assembly for a file
 my_md5.cc.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_md5.cc.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_md5.cc.s
 .PHONY : my_md5.cc.s
 
 my_murmur3.o: my_murmur3.cc.o
@@ -325,7 +325,7 @@ my_murmur3.o: my_murmur3.cc.o
 
 # target to build an object file
 my_murmur3.cc.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_murmur3.cc.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_murmur3.cc.o
 .PHONY : my_murmur3.cc.o
 
 my_murmur3.i: my_murmur3.cc.i
@@ -333,7 +333,7 @@ my_murmur3.i: my_murmur3.cc.i
 
 # target to preprocess a source file
 my_murmur3.cc.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_murmur3.cc.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_murmur3.cc.i
 .PHONY : my_murmur3.cc.i
 
 my_murmur3.s: my_murmur3.cc.s
@@ -341,7 +341,7 @@ my_murmur3.s: my_murmur3.cc.s
 
 # target to generate assembly for a file
 my_murmur3.cc.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_murmur3.cc.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_murmur3.cc.s
 .PHONY : my_murmur3.cc.s
 
 my_rnd.o: my_rnd.cc.o
@@ -349,7 +349,7 @@ my_rnd.o: my_rnd.cc.o
 
 # target to build an object file
 my_rnd.cc.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_rnd.cc.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_rnd.cc.o
 .PHONY : my_rnd.cc.o
 
 my_rnd.i: my_rnd.cc.i
@@ -357,7 +357,7 @@ my_rnd.i: my_rnd.cc.i
 
 # target to preprocess a source file
 my_rnd.cc.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_rnd.cc.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_rnd.cc.i
 .PHONY : my_rnd.cc.i
 
 my_rnd.s: my_rnd.cc.s
@@ -365,7 +365,7 @@ my_rnd.s: my_rnd.cc.s
 
 # target to generate assembly for a file
 my_rnd.cc.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_rnd.cc.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_rnd.cc.s
 .PHONY : my_rnd.cc.s
 
 my_sha1.o: my_sha1.cc.o
@@ -373,7 +373,7 @@ my_sha1.o: my_sha1.cc.o
 
 # target to build an object file
 my_sha1.cc.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_sha1.cc.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_sha1.cc.o
 .PHONY : my_sha1.cc.o
 
 my_sha1.i: my_sha1.cc.i
@@ -381,7 +381,7 @@ my_sha1.i: my_sha1.cc.i
 
 # target to preprocess a source file
 my_sha1.cc.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_sha1.cc.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_sha1.cc.i
 .PHONY : my_sha1.cc.i
 
 my_sha1.s: my_sha1.cc.s
@@ -389,7 +389,7 @@ my_sha1.s: my_sha1.cc.s
 
 # target to generate assembly for a file
 my_sha1.cc.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_sha1.cc.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_sha1.cc.s
 .PHONY : my_sha1.cc.s
 
 my_sha2.o: my_sha2.cc.o
@@ -397,7 +397,7 @@ my_sha2.o: my_sha2.cc.o
 
 # target to build an object file
 my_sha2.cc.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_sha2.cc.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_sha2.cc.o
 .PHONY : my_sha2.cc.o
 
 my_sha2.i: my_sha2.cc.i
@@ -405,7 +405,7 @@ my_sha2.i: my_sha2.cc.i
 
 # target to preprocess a source file
 my_sha2.cc.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_sha2.cc.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_sha2.cc.i
 .PHONY : my_sha2.cc.i
 
 my_sha2.s: my_sha2.cc.s
@@ -413,7 +413,7 @@ my_sha2.s: my_sha2.cc.s
 
 # target to generate assembly for a file
 my_sha2.cc.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_sha2.cc.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f mysys_ssl/CMakeFiles/mysys_ssl.dir/build.make mysys_ssl/CMakeFiles/mysys_ssl.dir/my_sha2.cc.s
 .PHONY : my_sha2.cc.s
 
 # Help Target
@@ -472,6 +472,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

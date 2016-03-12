@@ -1,2 +1,2 @@
-/usr/bin/ar cr libhphp_zend.a  CMakeFiles/hphp_zend.dir/crypt-blowfish.c.o CMakeFiles/hphp_zend.dir/html-table.cpp.o CMakeFiles/hphp_zend.dir/zend-html.cpp.o CMakeFiles/hphp_zend.dir/zend-md5.cpp.o CMakeFiles/hphp_zend.dir/zend-sha1.cpp.o CMakeFiles/hphp_zend.dir/zend-string.cpp.o
+/usr/bin/ar cr libhphp_zend.a  CMakeFiles/hphp_zend.dir/crypt-blowfish.cpp.o CMakeFiles/hphp_zend.dir/html-table.cpp.o CMakeFiles/hphp_zend.dir/zend-html.cpp.o CMakeFiles/hphp_zend.dir/zend-md5.cpp.o CMakeFiles/hphp_zend.dir/zend-sha1.cpp.o CMakeFiles/hphp_zend.dir/zend-string.cpp.o
 /usr/bin/ranlib libhphp_zend.a

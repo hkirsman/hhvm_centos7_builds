@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.1
 
 # Include any dependencies generated for this target.
 include hphp/neo/CMakeFiles/neo.dir/depend.make
@@ -54,17 +54,17 @@ include hphp/neo/CMakeFiles/neo.dir/flags.make
 
 hphp/neo/CMakeFiles/neo.dir/neo_err.c.o: hphp/neo/CMakeFiles/neo.dir/flags.make
 hphp/neo/CMakeFiles/neo.dir/neo_err.c.o: hphp/neo/neo_err.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object hphp/neo/CMakeFiles/neo.dir/neo_err.c.o"
-	cd /tmp/hhvm-3.11.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/neo.dir/neo_err.c.o   -c /tmp/hhvm-3.11.1/hphp/neo/neo_err.c
+	cd /tmp/hhvm-3.12.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/neo.dir/neo_err.c.o   -c /tmp/hhvm-3.12.1/hphp/neo/neo_err.c
 
 hphp/neo/CMakeFiles/neo.dir/neo_err.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/neo.dir/neo_err.c.i"
-	cd /tmp/hhvm-3.11.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/hphp/neo/neo_err.c > CMakeFiles/neo.dir/neo_err.c.i
+	cd /tmp/hhvm-3.12.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/hphp/neo/neo_err.c > CMakeFiles/neo.dir/neo_err.c.i
 
 hphp/neo/CMakeFiles/neo.dir/neo_err.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/neo.dir/neo_err.c.s"
-	cd /tmp/hhvm-3.11.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/hphp/neo/neo_err.c -o CMakeFiles/neo.dir/neo_err.c.s
+	cd /tmp/hhvm-3.12.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/hphp/neo/neo_err.c -o CMakeFiles/neo.dir/neo_err.c.s
 
 hphp/neo/CMakeFiles/neo.dir/neo_err.c.o.requires:
 .PHONY : hphp/neo/CMakeFiles/neo.dir/neo_err.c.o.requires
@@ -77,17 +77,17 @@ hphp/neo/CMakeFiles/neo.dir/neo_err.c.o.provides.build: hphp/neo/CMakeFiles/neo.
 
 hphp/neo/CMakeFiles/neo.dir/neo_files.c.o: hphp/neo/CMakeFiles/neo.dir/flags.make
 hphp/neo/CMakeFiles/neo.dir/neo_files.c.o: hphp/neo/neo_files.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object hphp/neo/CMakeFiles/neo.dir/neo_files.c.o"
-	cd /tmp/hhvm-3.11.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/neo.dir/neo_files.c.o   -c /tmp/hhvm-3.11.1/hphp/neo/neo_files.c
+	cd /tmp/hhvm-3.12.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/neo.dir/neo_files.c.o   -c /tmp/hhvm-3.12.1/hphp/neo/neo_files.c
 
 hphp/neo/CMakeFiles/neo.dir/neo_files.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/neo.dir/neo_files.c.i"
-	cd /tmp/hhvm-3.11.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/hphp/neo/neo_files.c > CMakeFiles/neo.dir/neo_files.c.i
+	cd /tmp/hhvm-3.12.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/hphp/neo/neo_files.c > CMakeFiles/neo.dir/neo_files.c.i
 
 hphp/neo/CMakeFiles/neo.dir/neo_files.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/neo.dir/neo_files.c.s"
-	cd /tmp/hhvm-3.11.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/hphp/neo/neo_files.c -o CMakeFiles/neo.dir/neo_files.c.s
+	cd /tmp/hhvm-3.12.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/hphp/neo/neo_files.c -o CMakeFiles/neo.dir/neo_files.c.s
 
 hphp/neo/CMakeFiles/neo.dir/neo_files.c.o.requires:
 .PHONY : hphp/neo/CMakeFiles/neo.dir/neo_files.c.o.requires
@@ -100,17 +100,17 @@ hphp/neo/CMakeFiles/neo.dir/neo_files.c.o.provides.build: hphp/neo/CMakeFiles/ne
 
 hphp/neo/CMakeFiles/neo.dir/neo_hash.c.o: hphp/neo/CMakeFiles/neo.dir/flags.make
 hphp/neo/CMakeFiles/neo.dir/neo_hash.c.o: hphp/neo/neo_hash.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object hphp/neo/CMakeFiles/neo.dir/neo_hash.c.o"
-	cd /tmp/hhvm-3.11.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/neo.dir/neo_hash.c.o   -c /tmp/hhvm-3.11.1/hphp/neo/neo_hash.c
+	cd /tmp/hhvm-3.12.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/neo.dir/neo_hash.c.o   -c /tmp/hhvm-3.12.1/hphp/neo/neo_hash.c
 
 hphp/neo/CMakeFiles/neo.dir/neo_hash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/neo.dir/neo_hash.c.i"
-	cd /tmp/hhvm-3.11.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/hphp/neo/neo_hash.c > CMakeFiles/neo.dir/neo_hash.c.i
+	cd /tmp/hhvm-3.12.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/hphp/neo/neo_hash.c > CMakeFiles/neo.dir/neo_hash.c.i
 
 hphp/neo/CMakeFiles/neo.dir/neo_hash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/neo.dir/neo_hash.c.s"
-	cd /tmp/hhvm-3.11.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/hphp/neo/neo_hash.c -o CMakeFiles/neo.dir/neo_hash.c.s
+	cd /tmp/hhvm-3.12.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/hphp/neo/neo_hash.c -o CMakeFiles/neo.dir/neo_hash.c.s
 
 hphp/neo/CMakeFiles/neo.dir/neo_hash.c.o.requires:
 .PHONY : hphp/neo/CMakeFiles/neo.dir/neo_hash.c.o.requires
@@ -123,17 +123,17 @@ hphp/neo/CMakeFiles/neo.dir/neo_hash.c.o.provides.build: hphp/neo/CMakeFiles/neo
 
 hphp/neo/CMakeFiles/neo.dir/neo_hdf.c.o: hphp/neo/CMakeFiles/neo.dir/flags.make
 hphp/neo/CMakeFiles/neo.dir/neo_hdf.c.o: hphp/neo/neo_hdf.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object hphp/neo/CMakeFiles/neo.dir/neo_hdf.c.o"
-	cd /tmp/hhvm-3.11.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/neo.dir/neo_hdf.c.o   -c /tmp/hhvm-3.11.1/hphp/neo/neo_hdf.c
+	cd /tmp/hhvm-3.12.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/neo.dir/neo_hdf.c.o   -c /tmp/hhvm-3.12.1/hphp/neo/neo_hdf.c
 
 hphp/neo/CMakeFiles/neo.dir/neo_hdf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/neo.dir/neo_hdf.c.i"
-	cd /tmp/hhvm-3.11.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/hphp/neo/neo_hdf.c > CMakeFiles/neo.dir/neo_hdf.c.i
+	cd /tmp/hhvm-3.12.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/hphp/neo/neo_hdf.c > CMakeFiles/neo.dir/neo_hdf.c.i
 
 hphp/neo/CMakeFiles/neo.dir/neo_hdf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/neo.dir/neo_hdf.c.s"
-	cd /tmp/hhvm-3.11.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/hphp/neo/neo_hdf.c -o CMakeFiles/neo.dir/neo_hdf.c.s
+	cd /tmp/hhvm-3.12.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/hphp/neo/neo_hdf.c -o CMakeFiles/neo.dir/neo_hdf.c.s
 
 hphp/neo/CMakeFiles/neo.dir/neo_hdf.c.o.requires:
 .PHONY : hphp/neo/CMakeFiles/neo.dir/neo_hdf.c.o.requires
@@ -146,17 +146,17 @@ hphp/neo/CMakeFiles/neo.dir/neo_hdf.c.o.provides.build: hphp/neo/CMakeFiles/neo.
 
 hphp/neo/CMakeFiles/neo.dir/neo_misc.c.o: hphp/neo/CMakeFiles/neo.dir/flags.make
 hphp/neo/CMakeFiles/neo.dir/neo_misc.c.o: hphp/neo/neo_misc.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object hphp/neo/CMakeFiles/neo.dir/neo_misc.c.o"
-	cd /tmp/hhvm-3.11.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/neo.dir/neo_misc.c.o   -c /tmp/hhvm-3.11.1/hphp/neo/neo_misc.c
+	cd /tmp/hhvm-3.12.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/neo.dir/neo_misc.c.o   -c /tmp/hhvm-3.12.1/hphp/neo/neo_misc.c
 
 hphp/neo/CMakeFiles/neo.dir/neo_misc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/neo.dir/neo_misc.c.i"
-	cd /tmp/hhvm-3.11.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/hphp/neo/neo_misc.c > CMakeFiles/neo.dir/neo_misc.c.i
+	cd /tmp/hhvm-3.12.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/hphp/neo/neo_misc.c > CMakeFiles/neo.dir/neo_misc.c.i
 
 hphp/neo/CMakeFiles/neo.dir/neo_misc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/neo.dir/neo_misc.c.s"
-	cd /tmp/hhvm-3.11.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/hphp/neo/neo_misc.c -o CMakeFiles/neo.dir/neo_misc.c.s
+	cd /tmp/hhvm-3.12.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/hphp/neo/neo_misc.c -o CMakeFiles/neo.dir/neo_misc.c.s
 
 hphp/neo/CMakeFiles/neo.dir/neo_misc.c.o.requires:
 .PHONY : hphp/neo/CMakeFiles/neo.dir/neo_misc.c.o.requires
@@ -169,17 +169,17 @@ hphp/neo/CMakeFiles/neo.dir/neo_misc.c.o.provides.build: hphp/neo/CMakeFiles/neo
 
 hphp/neo/CMakeFiles/neo.dir/neo_rand.c.o: hphp/neo/CMakeFiles/neo.dir/flags.make
 hphp/neo/CMakeFiles/neo.dir/neo_rand.c.o: hphp/neo/neo_rand.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object hphp/neo/CMakeFiles/neo.dir/neo_rand.c.o"
-	cd /tmp/hhvm-3.11.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/neo.dir/neo_rand.c.o   -c /tmp/hhvm-3.11.1/hphp/neo/neo_rand.c
+	cd /tmp/hhvm-3.12.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/neo.dir/neo_rand.c.o   -c /tmp/hhvm-3.12.1/hphp/neo/neo_rand.c
 
 hphp/neo/CMakeFiles/neo.dir/neo_rand.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/neo.dir/neo_rand.c.i"
-	cd /tmp/hhvm-3.11.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/hphp/neo/neo_rand.c > CMakeFiles/neo.dir/neo_rand.c.i
+	cd /tmp/hhvm-3.12.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/hphp/neo/neo_rand.c > CMakeFiles/neo.dir/neo_rand.c.i
 
 hphp/neo/CMakeFiles/neo.dir/neo_rand.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/neo.dir/neo_rand.c.s"
-	cd /tmp/hhvm-3.11.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/hphp/neo/neo_rand.c -o CMakeFiles/neo.dir/neo_rand.c.s
+	cd /tmp/hhvm-3.12.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/hphp/neo/neo_rand.c -o CMakeFiles/neo.dir/neo_rand.c.s
 
 hphp/neo/CMakeFiles/neo.dir/neo_rand.c.o.requires:
 .PHONY : hphp/neo/CMakeFiles/neo.dir/neo_rand.c.o.requires
@@ -192,17 +192,17 @@ hphp/neo/CMakeFiles/neo.dir/neo_rand.c.o.provides.build: hphp/neo/CMakeFiles/neo
 
 hphp/neo/CMakeFiles/neo.dir/neo_str.c.o: hphp/neo/CMakeFiles/neo.dir/flags.make
 hphp/neo/CMakeFiles/neo.dir/neo_str.c.o: hphp/neo/neo_str.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object hphp/neo/CMakeFiles/neo.dir/neo_str.c.o"
-	cd /tmp/hhvm-3.11.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/neo.dir/neo_str.c.o   -c /tmp/hhvm-3.11.1/hphp/neo/neo_str.c
+	cd /tmp/hhvm-3.12.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/neo.dir/neo_str.c.o   -c /tmp/hhvm-3.12.1/hphp/neo/neo_str.c
 
 hphp/neo/CMakeFiles/neo.dir/neo_str.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/neo.dir/neo_str.c.i"
-	cd /tmp/hhvm-3.11.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/hphp/neo/neo_str.c > CMakeFiles/neo.dir/neo_str.c.i
+	cd /tmp/hhvm-3.12.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/hphp/neo/neo_str.c > CMakeFiles/neo.dir/neo_str.c.i
 
 hphp/neo/CMakeFiles/neo.dir/neo_str.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/neo.dir/neo_str.c.s"
-	cd /tmp/hhvm-3.11.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/hphp/neo/neo_str.c -o CMakeFiles/neo.dir/neo_str.c.s
+	cd /tmp/hhvm-3.12.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/hphp/neo/neo_str.c -o CMakeFiles/neo.dir/neo_str.c.s
 
 hphp/neo/CMakeFiles/neo.dir/neo_str.c.o.requires:
 .PHONY : hphp/neo/CMakeFiles/neo.dir/neo_str.c.o.requires
@@ -215,17 +215,17 @@ hphp/neo/CMakeFiles/neo.dir/neo_str.c.o.provides.build: hphp/neo/CMakeFiles/neo.
 
 hphp/neo/CMakeFiles/neo.dir/ulist.c.o: hphp/neo/CMakeFiles/neo.dir/flags.make
 hphp/neo/CMakeFiles/neo.dir/ulist.c.o: hphp/neo/ulist.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object hphp/neo/CMakeFiles/neo.dir/ulist.c.o"
-	cd /tmp/hhvm-3.11.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/neo.dir/ulist.c.o   -c /tmp/hhvm-3.11.1/hphp/neo/ulist.c
+	cd /tmp/hhvm-3.12.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/neo.dir/ulist.c.o   -c /tmp/hhvm-3.12.1/hphp/neo/ulist.c
 
 hphp/neo/CMakeFiles/neo.dir/ulist.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/neo.dir/ulist.c.i"
-	cd /tmp/hhvm-3.11.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/hphp/neo/ulist.c > CMakeFiles/neo.dir/ulist.c.i
+	cd /tmp/hhvm-3.12.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/hphp/neo/ulist.c > CMakeFiles/neo.dir/ulist.c.i
 
 hphp/neo/CMakeFiles/neo.dir/ulist.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/neo.dir/ulist.c.s"
-	cd /tmp/hhvm-3.11.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/hphp/neo/ulist.c -o CMakeFiles/neo.dir/ulist.c.s
+	cd /tmp/hhvm-3.12.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/hphp/neo/ulist.c -o CMakeFiles/neo.dir/ulist.c.s
 
 hphp/neo/CMakeFiles/neo.dir/ulist.c.o.requires:
 .PHONY : hphp/neo/CMakeFiles/neo.dir/ulist.c.o.requires
@@ -238,17 +238,17 @@ hphp/neo/CMakeFiles/neo.dir/ulist.c.o.provides.build: hphp/neo/CMakeFiles/neo.di
 
 hphp/neo/CMakeFiles/neo.dir/ulocks.c.o: hphp/neo/CMakeFiles/neo.dir/flags.make
 hphp/neo/CMakeFiles/neo.dir/ulocks.c.o: hphp/neo/ulocks.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object hphp/neo/CMakeFiles/neo.dir/ulocks.c.o"
-	cd /tmp/hhvm-3.11.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/neo.dir/ulocks.c.o   -c /tmp/hhvm-3.11.1/hphp/neo/ulocks.c
+	cd /tmp/hhvm-3.12.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/neo.dir/ulocks.c.o   -c /tmp/hhvm-3.12.1/hphp/neo/ulocks.c
 
 hphp/neo/CMakeFiles/neo.dir/ulocks.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/neo.dir/ulocks.c.i"
-	cd /tmp/hhvm-3.11.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/hphp/neo/ulocks.c > CMakeFiles/neo.dir/ulocks.c.i
+	cd /tmp/hhvm-3.12.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/hphp/neo/ulocks.c > CMakeFiles/neo.dir/ulocks.c.i
 
 hphp/neo/CMakeFiles/neo.dir/ulocks.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/neo.dir/ulocks.c.s"
-	cd /tmp/hhvm-3.11.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/hphp/neo/ulocks.c -o CMakeFiles/neo.dir/ulocks.c.s
+	cd /tmp/hhvm-3.12.1/hphp/neo && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/hphp/neo/ulocks.c -o CMakeFiles/neo.dir/ulocks.c.s
 
 hphp/neo/CMakeFiles/neo.dir/ulocks.c.o.requires:
 .PHONY : hphp/neo/CMakeFiles/neo.dir/ulocks.c.o.requires
@@ -286,8 +286,8 @@ hphp/neo/libneo.a: hphp/neo/CMakeFiles/neo.dir/ulocks.c.o
 hphp/neo/libneo.a: hphp/neo/CMakeFiles/neo.dir/build.make
 hphp/neo/libneo.a: hphp/neo/CMakeFiles/neo.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C static library libneo.a"
-	cd /tmp/hhvm-3.11.1/hphp/neo && $(CMAKE_COMMAND) -P CMakeFiles/neo.dir/cmake_clean_target.cmake
-	cd /tmp/hhvm-3.11.1/hphp/neo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/neo.dir/link.txt --verbose=$(VERBOSE)
+	cd /tmp/hhvm-3.12.1/hphp/neo && $(CMAKE_COMMAND) -P CMakeFiles/neo.dir/cmake_clean_target.cmake
+	cd /tmp/hhvm-3.12.1/hphp/neo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/neo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 hphp/neo/CMakeFiles/neo.dir/build: hphp/neo/libneo.a
@@ -305,10 +305,10 @@ hphp/neo/CMakeFiles/neo.dir/requires: hphp/neo/CMakeFiles/neo.dir/ulocks.c.o.req
 .PHONY : hphp/neo/CMakeFiles/neo.dir/requires
 
 hphp/neo/CMakeFiles/neo.dir/clean:
-	cd /tmp/hhvm-3.11.1/hphp/neo && $(CMAKE_COMMAND) -P CMakeFiles/neo.dir/cmake_clean.cmake
+	cd /tmp/hhvm-3.12.1/hphp/neo && $(CMAKE_COMMAND) -P CMakeFiles/neo.dir/cmake_clean.cmake
 .PHONY : hphp/neo/CMakeFiles/neo.dir/clean
 
 hphp/neo/CMakeFiles/neo.dir/depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/hphp/neo /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/hphp/neo /tmp/hhvm-3.11.1/hphp/neo/CMakeFiles/neo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/hhvm-3.12.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.12.1 /tmp/hhvm-3.12.1/hphp/neo /tmp/hhvm-3.12.1 /tmp/hhvm-3.12.1/hphp/neo /tmp/hhvm-3.12.1/hphp/neo/CMakeFiles/neo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hphp/neo/CMakeFiles/neo.dir/depend
 

@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src
 
 # Include any dependencies generated for this target.
 include client/CMakeFiles/mysqldump.dir/depend.make
@@ -54,17 +54,17 @@ include client/CMakeFiles/mysqldump.dir/flags.make
 
 client/CMakeFiles/mysqldump.dir/mysqldump.c.o: client/CMakeFiles/mysqldump.dir/flags.make
 client/CMakeFiles/mysqldump.dir/mysqldump.c.o: client/mysqldump.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object client/CMakeFiles/mysqldump.dir/mysqldump.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/client && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysqldump.dir/mysqldump.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/client/mysqldump.c
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/client && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysqldump.dir/mysqldump.c.o   -c /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/client/mysqldump.c
 
 client/CMakeFiles/mysqldump.dir/mysqldump.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysqldump.dir/mysqldump.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/client && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/client/mysqldump.c > CMakeFiles/mysqldump.dir/mysqldump.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/client && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/client/mysqldump.c > CMakeFiles/mysqldump.dir/mysqldump.c.i
 
 client/CMakeFiles/mysqldump.dir/mysqldump.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysqldump.dir/mysqldump.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/client && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/client/mysqldump.c -o CMakeFiles/mysqldump.dir/mysqldump.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/client && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/client/mysqldump.c -o CMakeFiles/mysqldump.dir/mysqldump.c.s
 
 client/CMakeFiles/mysqldump.dir/mysqldump.c.o.requires:
 .PHONY : client/CMakeFiles/mysqldump.dir/mysqldump.c.o.requires
@@ -77,17 +77,17 @@ client/CMakeFiles/mysqldump.dir/mysqldump.c.o.provides.build: client/CMakeFiles/
 
 client/CMakeFiles/mysqldump.dir/__/sql-common/my_user.c.o: client/CMakeFiles/mysqldump.dir/flags.make
 client/CMakeFiles/mysqldump.dir/__/sql-common/my_user.c.o: sql-common/my_user.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object client/CMakeFiles/mysqldump.dir/__/sql-common/my_user.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/client && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysqldump.dir/__/sql-common/my_user.c.o   -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/sql-common/my_user.c
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/client && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysqldump.dir/__/sql-common/my_user.c.o   -c /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/sql-common/my_user.c
 
 client/CMakeFiles/mysqldump.dir/__/sql-common/my_user.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysqldump.dir/__/sql-common/my_user.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/client && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/sql-common/my_user.c > CMakeFiles/mysqldump.dir/__/sql-common/my_user.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/client && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/sql-common/my_user.c > CMakeFiles/mysqldump.dir/__/sql-common/my_user.c.i
 
 client/CMakeFiles/mysqldump.dir/__/sql-common/my_user.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysqldump.dir/__/sql-common/my_user.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/client && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/sql-common/my_user.c -o CMakeFiles/mysqldump.dir/__/sql-common/my_user.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/client && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/sql-common/my_user.c -o CMakeFiles/mysqldump.dir/__/sql-common/my_user.c.s
 
 client/CMakeFiles/mysqldump.dir/__/sql-common/my_user.c.o.requires:
 .PHONY : client/CMakeFiles/mysqldump.dir/__/sql-common/my_user.c.o.requires
@@ -117,7 +117,7 @@ client/mysqldump: /usr/lib64/libcrypto.so
 client/mysqldump: zlib/libzlib.a
 client/mysqldump: client/CMakeFiles/mysqldump.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable mysqldump"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/client && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mysqldump.dir/link.txt --verbose=$(VERBOSE)
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/client && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mysqldump.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 client/CMakeFiles/mysqldump.dir/build: client/mysqldump
@@ -128,10 +128,10 @@ client/CMakeFiles/mysqldump.dir/requires: client/CMakeFiles/mysqldump.dir/__/sql
 .PHONY : client/CMakeFiles/mysqldump.dir/requires
 
 client/CMakeFiles/mysqldump.dir/clean:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/client && $(CMAKE_COMMAND) -P CMakeFiles/mysqldump.dir/cmake_clean.cmake
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/client && $(CMAKE_COMMAND) -P CMakeFiles/mysqldump.dir/cmake_clean.cmake
 .PHONY : client/CMakeFiles/mysqldump.dir/clean
 
 client/CMakeFiles/mysqldump.dir/depend:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/client /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/client /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/client/CMakeFiles/mysqldump.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/client /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/client /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/client/CMakeFiles/mysqldump.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : client/CMakeFiles/mysqldump.dir/depend
 

@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.1
 
 # Include any dependencies generated for this target.
 include third-party/squangle/CMakeFiles/squangle.dir/depend.make
@@ -54,17 +54,17 @@ include third-party/squangle/CMakeFiles/squangle.dir/flags.make
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventCounter.cpp.o: third-party/squangle/CMakeFiles/squangle.dir/flags.make
 third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventCounter.cpp.o: third-party/squangle/squangle/logger/DBEventCounter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventCounter.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/squangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/squangle.dir/squangle/logger/DBEventCounter.cpp.o -c /tmp/hhvm-3.11.1/third-party/squangle/squangle/logger/DBEventCounter.cpp
+	cd /tmp/hhvm-3.12.1/third-party/squangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/squangle.dir/squangle/logger/DBEventCounter.cpp.o -c /tmp/hhvm-3.12.1/third-party/squangle/squangle/logger/DBEventCounter.cpp
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventCounter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/squangle.dir/squangle/logger/DBEventCounter.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/squangle/squangle/logger/DBEventCounter.cpp > CMakeFiles/squangle.dir/squangle/logger/DBEventCounter.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/squangle/squangle/logger/DBEventCounter.cpp > CMakeFiles/squangle.dir/squangle/logger/DBEventCounter.cpp.i
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventCounter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/squangle.dir/squangle/logger/DBEventCounter.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/squangle/squangle/logger/DBEventCounter.cpp -o CMakeFiles/squangle.dir/squangle/logger/DBEventCounter.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/squangle/squangle/logger/DBEventCounter.cpp -o CMakeFiles/squangle.dir/squangle/logger/DBEventCounter.cpp.s
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventCounter.cpp.o.requires:
 .PHONY : third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventCounter.cpp.o.requires
@@ -77,17 +77,17 @@ third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventCounter.cpp.
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventLogger.cpp.o: third-party/squangle/CMakeFiles/squangle.dir/flags.make
 third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventLogger.cpp.o: third-party/squangle/squangle/logger/DBEventLogger.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventLogger.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/squangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/squangle.dir/squangle/logger/DBEventLogger.cpp.o -c /tmp/hhvm-3.11.1/third-party/squangle/squangle/logger/DBEventLogger.cpp
+	cd /tmp/hhvm-3.12.1/third-party/squangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/squangle.dir/squangle/logger/DBEventLogger.cpp.o -c /tmp/hhvm-3.12.1/third-party/squangle/squangle/logger/DBEventLogger.cpp
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventLogger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/squangle.dir/squangle/logger/DBEventLogger.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/squangle/squangle/logger/DBEventLogger.cpp > CMakeFiles/squangle.dir/squangle/logger/DBEventLogger.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/squangle/squangle/logger/DBEventLogger.cpp > CMakeFiles/squangle.dir/squangle/logger/DBEventLogger.cpp.i
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventLogger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/squangle.dir/squangle/logger/DBEventLogger.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/squangle/squangle/logger/DBEventLogger.cpp -o CMakeFiles/squangle.dir/squangle/logger/DBEventLogger.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/squangle/squangle/logger/DBEventLogger.cpp -o CMakeFiles/squangle.dir/squangle/logger/DBEventLogger.cpp.s
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventLogger.cpp.o.requires:
 .PHONY : third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventLogger.cpp.o.requires
@@ -100,17 +100,17 @@ third-party/squangle/CMakeFiles/squangle.dir/squangle/logger/DBEventLogger.cpp.o
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncConnectionPool.cpp.o: third-party/squangle/CMakeFiles/squangle.dir/flags.make
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncConnectionPool.cpp.o: third-party/squangle/squangle/mysql_client/AsyncConnectionPool.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncConnectionPool.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/squangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/squangle.dir/squangle/mysql_client/AsyncConnectionPool.cpp.o -c /tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/AsyncConnectionPool.cpp
+	cd /tmp/hhvm-3.12.1/third-party/squangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/squangle.dir/squangle/mysql_client/AsyncConnectionPool.cpp.o -c /tmp/hhvm-3.12.1/third-party/squangle/squangle/mysql_client/AsyncConnectionPool.cpp
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncConnectionPool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/squangle.dir/squangle/mysql_client/AsyncConnectionPool.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/AsyncConnectionPool.cpp > CMakeFiles/squangle.dir/squangle/mysql_client/AsyncConnectionPool.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/squangle/squangle/mysql_client/AsyncConnectionPool.cpp > CMakeFiles/squangle.dir/squangle/mysql_client/AsyncConnectionPool.cpp.i
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncConnectionPool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/squangle.dir/squangle/mysql_client/AsyncConnectionPool.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/AsyncConnectionPool.cpp -o CMakeFiles/squangle.dir/squangle/mysql_client/AsyncConnectionPool.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/squangle/squangle/mysql_client/AsyncConnectionPool.cpp -o CMakeFiles/squangle.dir/squangle/mysql_client/AsyncConnectionPool.cpp.s
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncConnectionPool.cpp.o.requires:
 .PHONY : third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncConnectionPool.cpp.o.requires
@@ -123,17 +123,17 @@ third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncConnecti
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncHelpers.cpp.o: third-party/squangle/CMakeFiles/squangle.dir/flags.make
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncHelpers.cpp.o: third-party/squangle/squangle/mysql_client/AsyncHelpers.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncHelpers.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/squangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/squangle.dir/squangle/mysql_client/AsyncHelpers.cpp.o -c /tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/AsyncHelpers.cpp
+	cd /tmp/hhvm-3.12.1/third-party/squangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/squangle.dir/squangle/mysql_client/AsyncHelpers.cpp.o -c /tmp/hhvm-3.12.1/third-party/squangle/squangle/mysql_client/AsyncHelpers.cpp
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncHelpers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/squangle.dir/squangle/mysql_client/AsyncHelpers.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/AsyncHelpers.cpp > CMakeFiles/squangle.dir/squangle/mysql_client/AsyncHelpers.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/squangle/squangle/mysql_client/AsyncHelpers.cpp > CMakeFiles/squangle.dir/squangle/mysql_client/AsyncHelpers.cpp.i
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncHelpers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/squangle.dir/squangle/mysql_client/AsyncHelpers.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/AsyncHelpers.cpp -o CMakeFiles/squangle.dir/squangle/mysql_client/AsyncHelpers.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/squangle/squangle/mysql_client/AsyncHelpers.cpp -o CMakeFiles/squangle.dir/squangle/mysql_client/AsyncHelpers.cpp.s
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncHelpers.cpp.o.requires:
 .PHONY : third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncHelpers.cpp.o.requires
@@ -146,17 +146,17 @@ third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncHelpers.
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncMysqlClient.cpp.o: third-party/squangle/CMakeFiles/squangle.dir/flags.make
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncMysqlClient.cpp.o: third-party/squangle/squangle/mysql_client/AsyncMysqlClient.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncMysqlClient.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/squangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/squangle.dir/squangle/mysql_client/AsyncMysqlClient.cpp.o -c /tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/AsyncMysqlClient.cpp
+	cd /tmp/hhvm-3.12.1/third-party/squangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/squangle.dir/squangle/mysql_client/AsyncMysqlClient.cpp.o -c /tmp/hhvm-3.12.1/third-party/squangle/squangle/mysql_client/AsyncMysqlClient.cpp
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncMysqlClient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/squangle.dir/squangle/mysql_client/AsyncMysqlClient.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/AsyncMysqlClient.cpp > CMakeFiles/squangle.dir/squangle/mysql_client/AsyncMysqlClient.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/squangle/squangle/mysql_client/AsyncMysqlClient.cpp > CMakeFiles/squangle.dir/squangle/mysql_client/AsyncMysqlClient.cpp.i
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncMysqlClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/squangle.dir/squangle/mysql_client/AsyncMysqlClient.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/AsyncMysqlClient.cpp -o CMakeFiles/squangle.dir/squangle/mysql_client/AsyncMysqlClient.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/squangle/squangle/mysql_client/AsyncMysqlClient.cpp -o CMakeFiles/squangle.dir/squangle/mysql_client/AsyncMysqlClient.cpp.s
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncMysqlClient.cpp.o.requires:
 .PHONY : third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncMysqlClient.cpp.o.requires
@@ -169,17 +169,17 @@ third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/AsyncMysqlCli
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Connection.cpp.o: third-party/squangle/CMakeFiles/squangle.dir/flags.make
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Connection.cpp.o: third-party/squangle/squangle/mysql_client/Connection.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Connection.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/squangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/squangle.dir/squangle/mysql_client/Connection.cpp.o -c /tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/Connection.cpp
+	cd /tmp/hhvm-3.12.1/third-party/squangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/squangle.dir/squangle/mysql_client/Connection.cpp.o -c /tmp/hhvm-3.12.1/third-party/squangle/squangle/mysql_client/Connection.cpp
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Connection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/squangle.dir/squangle/mysql_client/Connection.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/Connection.cpp > CMakeFiles/squangle.dir/squangle/mysql_client/Connection.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/squangle/squangle/mysql_client/Connection.cpp > CMakeFiles/squangle.dir/squangle/mysql_client/Connection.cpp.i
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Connection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/squangle.dir/squangle/mysql_client/Connection.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/Connection.cpp -o CMakeFiles/squangle.dir/squangle/mysql_client/Connection.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/squangle/squangle/mysql_client/Connection.cpp -o CMakeFiles/squangle.dir/squangle/mysql_client/Connection.cpp.s
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Connection.cpp.o.requires:
 .PHONY : third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Connection.cpp.o.requires
@@ -192,17 +192,17 @@ third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Connection.cp
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/DbResult.cpp.o: third-party/squangle/CMakeFiles/squangle.dir/flags.make
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/DbResult.cpp.o: third-party/squangle/squangle/mysql_client/DbResult.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/DbResult.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/squangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/squangle.dir/squangle/mysql_client/DbResult.cpp.o -c /tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/DbResult.cpp
+	cd /tmp/hhvm-3.12.1/third-party/squangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/squangle.dir/squangle/mysql_client/DbResult.cpp.o -c /tmp/hhvm-3.12.1/third-party/squangle/squangle/mysql_client/DbResult.cpp
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/DbResult.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/squangle.dir/squangle/mysql_client/DbResult.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/DbResult.cpp > CMakeFiles/squangle.dir/squangle/mysql_client/DbResult.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/squangle/squangle/mysql_client/DbResult.cpp > CMakeFiles/squangle.dir/squangle/mysql_client/DbResult.cpp.i
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/DbResult.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/squangle.dir/squangle/mysql_client/DbResult.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/DbResult.cpp -o CMakeFiles/squangle.dir/squangle/mysql_client/DbResult.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/squangle/squangle/mysql_client/DbResult.cpp -o CMakeFiles/squangle.dir/squangle/mysql_client/DbResult.cpp.s
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/DbResult.cpp.o.requires:
 .PHONY : third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/DbResult.cpp.o.requires
@@ -215,17 +215,17 @@ third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/DbResult.cpp.
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/FutureAdapter.cpp.o: third-party/squangle/CMakeFiles/squangle.dir/flags.make
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/FutureAdapter.cpp.o: third-party/squangle/squangle/mysql_client/FutureAdapter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/FutureAdapter.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/squangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/squangle.dir/squangle/mysql_client/FutureAdapter.cpp.o -c /tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/FutureAdapter.cpp
+	cd /tmp/hhvm-3.12.1/third-party/squangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/squangle.dir/squangle/mysql_client/FutureAdapter.cpp.o -c /tmp/hhvm-3.12.1/third-party/squangle/squangle/mysql_client/FutureAdapter.cpp
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/FutureAdapter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/squangle.dir/squangle/mysql_client/FutureAdapter.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/FutureAdapter.cpp > CMakeFiles/squangle.dir/squangle/mysql_client/FutureAdapter.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/squangle/squangle/mysql_client/FutureAdapter.cpp > CMakeFiles/squangle.dir/squangle/mysql_client/FutureAdapter.cpp.i
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/FutureAdapter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/squangle.dir/squangle/mysql_client/FutureAdapter.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/FutureAdapter.cpp -o CMakeFiles/squangle.dir/squangle/mysql_client/FutureAdapter.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/squangle/squangle/mysql_client/FutureAdapter.cpp -o CMakeFiles/squangle.dir/squangle/mysql_client/FutureAdapter.cpp.s
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/FutureAdapter.cpp.o.requires:
 .PHONY : third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/FutureAdapter.cpp.o.requires
@@ -238,17 +238,17 @@ third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/FutureAdapter
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Operation.cpp.o: third-party/squangle/CMakeFiles/squangle.dir/flags.make
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Operation.cpp.o: third-party/squangle/squangle/mysql_client/Operation.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Operation.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/squangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/squangle.dir/squangle/mysql_client/Operation.cpp.o -c /tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/Operation.cpp
+	cd /tmp/hhvm-3.12.1/third-party/squangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/squangle.dir/squangle/mysql_client/Operation.cpp.o -c /tmp/hhvm-3.12.1/third-party/squangle/squangle/mysql_client/Operation.cpp
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Operation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/squangle.dir/squangle/mysql_client/Operation.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/Operation.cpp > CMakeFiles/squangle.dir/squangle/mysql_client/Operation.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/squangle/squangle/mysql_client/Operation.cpp > CMakeFiles/squangle.dir/squangle/mysql_client/Operation.cpp.i
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Operation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/squangle.dir/squangle/mysql_client/Operation.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/Operation.cpp -o CMakeFiles/squangle.dir/squangle/mysql_client/Operation.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/squangle/squangle/mysql_client/Operation.cpp -o CMakeFiles/squangle.dir/squangle/mysql_client/Operation.cpp.s
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Operation.cpp.o.requires:
 .PHONY : third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Operation.cpp.o.requires
@@ -261,17 +261,17 @@ third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Operation.cpp
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/OperationBatch.cpp.o: third-party/squangle/CMakeFiles/squangle.dir/flags.make
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/OperationBatch.cpp.o: third-party/squangle/squangle/mysql_client/OperationBatch.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/OperationBatch.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/squangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/squangle.dir/squangle/mysql_client/OperationBatch.cpp.o -c /tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/OperationBatch.cpp
+	cd /tmp/hhvm-3.12.1/third-party/squangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/squangle.dir/squangle/mysql_client/OperationBatch.cpp.o -c /tmp/hhvm-3.12.1/third-party/squangle/squangle/mysql_client/OperationBatch.cpp
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/OperationBatch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/squangle.dir/squangle/mysql_client/OperationBatch.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/OperationBatch.cpp > CMakeFiles/squangle.dir/squangle/mysql_client/OperationBatch.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/squangle/squangle/mysql_client/OperationBatch.cpp > CMakeFiles/squangle.dir/squangle/mysql_client/OperationBatch.cpp.i
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/OperationBatch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/squangle.dir/squangle/mysql_client/OperationBatch.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/OperationBatch.cpp -o CMakeFiles/squangle.dir/squangle/mysql_client/OperationBatch.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/squangle/squangle/mysql_client/OperationBatch.cpp -o CMakeFiles/squangle.dir/squangle/mysql_client/OperationBatch.cpp.s
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/OperationBatch.cpp.o.requires:
 .PHONY : third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/OperationBatch.cpp.o.requires
@@ -284,17 +284,17 @@ third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/OperationBatc
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Query.cpp.o: third-party/squangle/CMakeFiles/squangle.dir/flags.make
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Query.cpp.o: third-party/squangle/squangle/mysql_client/Query.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Query.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/squangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/squangle.dir/squangle/mysql_client/Query.cpp.o -c /tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/Query.cpp
+	cd /tmp/hhvm-3.12.1/third-party/squangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/squangle.dir/squangle/mysql_client/Query.cpp.o -c /tmp/hhvm-3.12.1/third-party/squangle/squangle/mysql_client/Query.cpp
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Query.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/squangle.dir/squangle/mysql_client/Query.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/Query.cpp > CMakeFiles/squangle.dir/squangle/mysql_client/Query.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/squangle/squangle/mysql_client/Query.cpp > CMakeFiles/squangle.dir/squangle/mysql_client/Query.cpp.i
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Query.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/squangle.dir/squangle/mysql_client/Query.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/Query.cpp -o CMakeFiles/squangle.dir/squangle/mysql_client/Query.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/squangle/squangle/mysql_client/Query.cpp -o CMakeFiles/squangle.dir/squangle/mysql_client/Query.cpp.s
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Query.cpp.o.requires:
 .PHONY : third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Query.cpp.o.requires
@@ -307,17 +307,17 @@ third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Query.cpp.o.p
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Row.cpp.o: third-party/squangle/CMakeFiles/squangle.dir/flags.make
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Row.cpp.o: third-party/squangle/squangle/mysql_client/Row.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Row.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/squangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/squangle.dir/squangle/mysql_client/Row.cpp.o -c /tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/Row.cpp
+	cd /tmp/hhvm-3.12.1/third-party/squangle && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/squangle.dir/squangle/mysql_client/Row.cpp.o -c /tmp/hhvm-3.12.1/third-party/squangle/squangle/mysql_client/Row.cpp
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Row.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/squangle.dir/squangle/mysql_client/Row.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/Row.cpp > CMakeFiles/squangle.dir/squangle/mysql_client/Row.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/squangle/squangle/mysql_client/Row.cpp > CMakeFiles/squangle.dir/squangle/mysql_client/Row.cpp.i
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Row.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/squangle.dir/squangle/mysql_client/Row.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/squangle/squangle/mysql_client/Row.cpp -o CMakeFiles/squangle.dir/squangle/mysql_client/Row.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/squangle && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/squangle/squangle/mysql_client/Row.cpp -o CMakeFiles/squangle.dir/squangle/mysql_client/Row.cpp.s
 
 third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Row.cpp.o.requires:
 .PHONY : third-party/squangle/CMakeFiles/squangle.dir/squangle/mysql_client/Row.cpp.o.requires
@@ -361,8 +361,8 @@ third-party/squangle/libsquangle.a: third-party/squangle/CMakeFiles/squangle.dir
 third-party/squangle/libsquangle.a: third-party/squangle/CMakeFiles/squangle.dir/build.make
 third-party/squangle/libsquangle.a: third-party/squangle/CMakeFiles/squangle.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libsquangle.a"
-	cd /tmp/hhvm-3.11.1/third-party/squangle && $(CMAKE_COMMAND) -P CMakeFiles/squangle.dir/cmake_clean_target.cmake
-	cd /tmp/hhvm-3.11.1/third-party/squangle && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/squangle.dir/link.txt --verbose=$(VERBOSE)
+	cd /tmp/hhvm-3.12.1/third-party/squangle && $(CMAKE_COMMAND) -P CMakeFiles/squangle.dir/cmake_clean_target.cmake
+	cd /tmp/hhvm-3.12.1/third-party/squangle && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/squangle.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 third-party/squangle/CMakeFiles/squangle.dir/build: third-party/squangle/libsquangle.a
@@ -383,10 +383,10 @@ third-party/squangle/CMakeFiles/squangle.dir/requires: third-party/squangle/CMak
 .PHONY : third-party/squangle/CMakeFiles/squangle.dir/requires
 
 third-party/squangle/CMakeFiles/squangle.dir/clean:
-	cd /tmp/hhvm-3.11.1/third-party/squangle && $(CMAKE_COMMAND) -P CMakeFiles/squangle.dir/cmake_clean.cmake
+	cd /tmp/hhvm-3.12.1/third-party/squangle && $(CMAKE_COMMAND) -P CMakeFiles/squangle.dir/cmake_clean.cmake
 .PHONY : third-party/squangle/CMakeFiles/squangle.dir/clean
 
 third-party/squangle/CMakeFiles/squangle.dir/depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/third-party/squangle /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/third-party/squangle /tmp/hhvm-3.11.1/third-party/squangle/CMakeFiles/squangle.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/hhvm-3.12.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.12.1 /tmp/hhvm-3.12.1/third-party/squangle /tmp/hhvm-3.12.1 /tmp/hhvm-3.12.1/third-party/squangle /tmp/hhvm-3.12.1/third-party/squangle/CMakeFiles/squangle.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : third-party/squangle/CMakeFiles/squangle.dir/depend
 

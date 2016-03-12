@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src
 
 # Utility rule file for abi_check.
 
@@ -49,7 +49,7 @@ CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src
 include CMakeFiles/abi_check.dir/progress.make
 
 CMakeFiles/abi_check:
-	/usr/bin/cmake -DCOMPILER=/usr/bin/cc -DSOURCE_DIR=/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src -DBINARY_DIR=/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src "-DABI_HEADERS=/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/include/mysql/plugin_audit.h;/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/include/mysql/plugin_ftparser.h;/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/include/mysql.h;/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/include/mysql/psi/psi_abi_v0.h;/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/include/mysql/psi/psi_abi_v1.h;/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/include/mysql/psi/psi_abi_v2.h;/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/include/mysql/client_plugin.h;/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/include/mysql/plugin_auth.h" -P /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/cmake/do_abi_check.cmake
+	/usr/bin/cmake -DCOMPILER=/usr/bin/cc -DSOURCE_DIR=/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src -DBINARY_DIR=/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src "-DABI_HEADERS=/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/include/mysql/plugin_audit.h;/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/include/mysql/plugin_ftparser.h;/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/include/mysql.h;/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/include/mysql/psi/psi_abi_v0.h;/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/include/mysql/psi/psi_abi_v1.h;/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/include/mysql/psi/psi_abi_v2.h;/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/include/mysql/client_plugin.h;/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/include/mysql/plugin_auth.h" -P /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/cmake/do_abi_check.cmake
 
 abi_check: CMakeFiles/abi_check
 abi_check: CMakeFiles/abi_check.dir/build.make
@@ -64,6 +64,6 @@ CMakeFiles/abi_check.dir/clean:
 .PHONY : CMakeFiles/abi_check.dir/clean
 
 CMakeFiles/abi_check.dir/depend:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles/abi_check.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/CMakeFiles/abi_check.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/abi_check.dir/depend
 

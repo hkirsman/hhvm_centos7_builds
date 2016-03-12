@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/../mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys_ssl/../mysys/mysys_priv.h
 my_global.h
 -
 my_sys.h
 -
 system_wrappers.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/../mysys/system_wrappers.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys_ssl/../mysys/system_wrappers.h
 sys/resource.h
 -
 my_pthread.h
@@ -22,9 +22,9 @@ mysql/psi/mysql_file.h
 sys/stat.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/crypt_genhash_impl.cc
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys_ssl/crypt_genhash_impl.cc
 my_config.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_config.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys_ssl/my_config.h
 sha.hpp
 -
 openssl/ssl.h
@@ -34,7 +34,7 @@ openssl/sha.h
 openssl/rand.h
 -
 crypt_genhash_impl.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/crypt_genhash_impl.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys_ssl/crypt_genhash_impl.h
 stdint.h
 -
 time.h
@@ -42,7 +42,7 @@ time.h
 string.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_aes.cc
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys_ssl/my_aes.cc
 my_global.h
 -
 m_string.h
@@ -50,11 +50,11 @@ m_string.h
 my_aes.h
 -
 my_aes_impl.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_aes_impl.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys_ssl/my_aes_impl.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_aes_impl.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys_ssl/my_aes_impl.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_aes_openssl.cc
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys_ssl/my_aes_openssl.cc
 my_global.h
 -
 m_string.h
@@ -62,7 +62,7 @@ m_string.h
 my_aes.h
 -
 my_aes_impl.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_aes_impl.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys_ssl/my_aes_impl.h
 openssl/aes.h
 -
 openssl/evp.h
@@ -70,17 +70,17 @@ openssl/evp.h
 openssl/err.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_default.cc
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys_ssl/my_default.cc
 ../mysys/mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/../mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys_ssl/../mysys/mysys_priv.h
 my_default.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_default.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys_ssl/my_default.h
 my_default_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_default_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys_ssl/my_default_priv.h
 m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys_ssl/m_string.h
 m_ctype.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/m_ctype.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys_ssl/m_ctype.h
 my_dir.h
 -
 my_aes.h
@@ -88,11 +88,11 @@ my_aes.h
 winbase.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_default_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys_ssl/my_default_priv.h
 my_global.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_global.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys_ssl/my_global.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_getopt.cc
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys_ssl/my_getopt.cc
 my_global.h
 -
 m_string.h
@@ -108,27 +108,27 @@ errno.h
 m_string.h
 -
 my_default.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_default.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys_ssl/my_default.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_md5.cc
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys_ssl/my_md5.cc
 my_global.h
 -
 my_md5.h
 -
 my_config.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_config.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys_ssl/my_config.h
 md5.hpp
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/md5.hpp
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys_ssl/md5.hpp
 openssl/md5.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_murmur3.cc
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys_ssl/my_murmur3.cc
 my_murmur3.h
 -
 stdlib.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_rnd.cc
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys_ssl/my_rnd.cc
 my_rnd.h
 -
 openssl/ssl.h
@@ -138,17 +138,17 @@ openssl/rand.h
 openssl/err.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_sha1.cc
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys_ssl/my_sha1.cc
 my_global.h
 -
 sha1.h
 -
 sha.hpp
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/sha.hpp
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys_ssl/sha.hpp
 openssl/sha.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/my_sha2.cc
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys_ssl/my_sha2.cc
 my_global.h
 -
 sha2.h

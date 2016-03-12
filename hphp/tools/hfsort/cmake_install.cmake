@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/hhvm-3.11.1/hphp/tools/hfsort
+# Install script for directory: /tmp/hhvm-3.12.1/hphp/tools/hfsort
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

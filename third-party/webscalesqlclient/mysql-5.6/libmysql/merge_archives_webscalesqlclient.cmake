@@ -16,10 +16,10 @@
 
 # This script merges many static libraries into
 # one big library on Unix.
-SET(TARGET_LOCATION "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/libmysql/libwebscalesqlclient.a")
+SET(TARGET_LOCATION "/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/libmysql/libwebscalesqlclient.a")
 SET(TARGET "webscalesqlclient")
-SET(STATIC_LIBS "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/libmysql/libclientlib.a;/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/dbug/libdbug.a;/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/strings/libstrings.a;/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/vio/libvio.a;/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/libmysys.a;/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys_ssl/libmysys_ssl.a")
-SET(CMAKE_CURRENT_BINARY_DIR "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/libmysql")
+SET(STATIC_LIBS "/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/libmysql/libclientlib.a;/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/dbug/libdbug.a;/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/strings/libstrings.a;/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/vio/libvio.a;/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/libmysys.a;/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys_ssl/libmysys_ssl.a")
+SET(CMAKE_CURRENT_BINARY_DIR "/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/libmysql")
 SET(CMAKE_AR "/usr/bin/ar")
 SET(CMAKE_RANLIB "/usr/bin/ranlib")
 

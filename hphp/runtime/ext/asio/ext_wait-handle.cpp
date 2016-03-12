@@ -34,6 +34,8 @@
 #include "hphp/runtime/ext/asio/ext_sleep-wait-handle.h"
 #include "hphp/runtime/ext/asio/ext_external-thread-event-wait-handle.h"
 
+#include "hphp/system/systemlib.h"
+
 namespace HPHP {
 ///////////////////////////////////////////////////////////////////////////////
 
@@ -132,10 +134,8 @@ size_t asio_object_size(const ObjectData* od) {
     X(AsyncGenerator)
 #undef X
     case c_WaitHandle::Kind::AwaitAll:
-      assert(false); // Handled by its own HeaderKind
       return obj->asAwaitAll()->heapSize();
     case c_WaitHandle::Kind::AsyncFunction:
-      assert(false); // Handled by its own HeaderKind
       return obj->asAsyncFunction()->resumable()->size();
   }
   always_assert(false);
@@ -159,6 +159,13 @@ void AsioExtension::initWaitHandle() {
   WH_ME(getId);
   WH_ME(getName);
 #undef WH_ME
+}
+
+const StaticString
+  s_DoNotNewInstance("WaitHandles may not be directly instantiated");
+
+static ObjectData* asioInstanceCtor(Class*) {
+  SystemLib::throwExceptionObject(s_DoNotNewInstance);
 }
 
 // Asio's memory layout relies on the following invariants:
@@ -185,10 +192,7 @@ finish_class() {
   assert(!cls->m_extra->m_nativeDataInfo);
   assert(!cls->m_extra->m_instanceCtor);
   assert(!cls->m_extra->m_instanceDtor);
-  // Being IsCppBuiltin means we must have an InstanceCtor
-  // Use the default newInstance which will fail as expected
-  // on the private final constructor (asserted above)
-  cls->m_extra.raw()->m_instanceCtor = ObjectData::newInstance;
+  cls->m_extra.raw()->m_instanceCtor = asioInstanceCtor;
   cls->m_extra.raw()->m_instanceDtor = T::instanceDtor;
 }
 

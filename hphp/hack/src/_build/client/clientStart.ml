@@ -8,7 +8,7 @@
  *
  *)
 
-module CCS = ClientConnectSimple
+module SMUtils = ServerMonitorUtils
 
 let get_hhserver () =
   let exe_name =
@@ -76,17 +76,18 @@ let start_server env =
 
 let should_start env =
   let root_s = Path.to_string env.root in
-  match CCS.connect_once env.root with
+  match ServerUtils.connect_to_monitor
+    env.root HhServerMonitorConfig.Program.name with
   | Result.Ok _conn -> false
-  | Result.Error CCS.Server_missing
-  | Result.Error CCS.Build_id_mismatch -> true
-  | Result.Error CCS.Server_initializing ->
-      Printf.eprintf "Found initializing server for %s\n%!" root_s;
-      false
-  | Result.Error CCS.Server_busy ->
-      Printf.eprintf "Replacing unresponsive server for %s\n%!" root_s;
-      ClientStop.kill_server env.root;
-      true
+  | Result.Error
+      ( SMUtils.Server_missing
+      | SMUtils.Build_id_mismatched
+      | SMUtils.Server_died
+      ) -> true
+  | Result.Error SMUtils.Server_busy ->
+    Printf.eprintf "Replacing unresponsive server for %s\n%!" root_s;
+    ClientStop.kill_server env.root;
+    true
 
 let main env =
   HackEventLogger.client_start ();

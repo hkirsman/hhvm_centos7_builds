@@ -1,1 +1,1 @@
-hh_emitter.ml: Arg Array Ast_utils Daemon Emitter Errors EventLogger FileInfo Ident List Naming Parser_hack Parser_heap Printf Relative_path SMap SharedMem Sys Sys_utils TypecheckerOptions Typing_decl Utils
+hh_emitter.ml: Arg Array Ast_utils Daemon Emitter Errors EventLogger FileInfo Ident List NamingGlobal Parser_hack Parser_heap Printf Relative_path SMap SharedMem Sys Sys_utils TypecheckerOptions Typing_decl Utils

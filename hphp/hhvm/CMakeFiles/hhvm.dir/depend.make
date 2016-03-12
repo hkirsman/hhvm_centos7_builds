@@ -38,6 +38,7 @@ hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/runtime/base/mixed-ar
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/runtime/base/mixed-array.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/runtime/base/object-data-inl.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/runtime/base/object-data.h
+hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/runtime/base/packed-array.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/runtime/base/property-table.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/runtime/base/rds-inl.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/runtime/base/rds.h
@@ -45,6 +46,7 @@ hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/runtime/base/ref-data
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/runtime/base/req-containers.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/runtime/base/req-root.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/runtime/base/resource-data.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/runtime/base/runtime-error.h
@@ -100,6 +102,7 @@ hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/runtime/vm/type-profi
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/runtime/vm/unit.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/system/systemlib.h
+hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/util/abi-cxx.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/util/alloc.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/util/arena.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/util/assertions.h
@@ -109,6 +112,8 @@ hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/util/compact-tagged-p
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/util/compatibility.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/util/compilation-flags.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/util/copy-ptr.h
+hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/util/cronolog.h
+hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/util/cronoutils.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/util/default-ptr.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/util/exception.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/util/fixed-vector.h
@@ -117,7 +122,11 @@ hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/util/hash-map-typedef
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/util/hash.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/util/hdf.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/util/locale-portability.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/util/lock.h
+hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/util/log-file-flusher.h
+hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/util/logger-inl.h
+hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/util/logger.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/util/low-ptr.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/util/maphuge.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/util/md5.h
@@ -125,6 +134,11 @@ hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/util/meta.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/util/mutex.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/util/pointer-list.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/util/portability.h
+hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/util/portability/fnmatch.h
+hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/util/portability/glob.h
+hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/util/portability/rand_r.h
+hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/util/portability/strfmon.h
+hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/util/portability/strptime.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/util/range.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/util/rank.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: hphp/util/safe-cast.h
@@ -166,6 +180,7 @@ hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: third-party/folly/folly/Ha
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: third-party/folly/folly/Likely.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: third-party/folly/folly/Malloc.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: third-party/folly/folly/Memory.h
+hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: third-party/folly/folly/Optional.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: third-party/folly/folly/Portability.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -191,6 +206,7 @@ hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: third-party/folly/folly/de
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/hhvm/CMakeFiles/hhvm.dir/global-variables.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -290,6 +306,7 @@ hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/runtime/base/repo-auth-type-array
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/runtime/base/req-containers.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/runtime/base/req-root.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/runtime/base/request-injection-data.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/runtime/base/resource-data.h
@@ -386,6 +403,7 @@ hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/runtime/vm/unit-emitter.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/runtime/vm/unit.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/system/systemlib.h
+hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/util/abi-cxx.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/util/alloc.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/util/arena.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/util/assertions.h
@@ -399,6 +417,8 @@ hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/util/compatibility.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/util/compilation-flags.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/util/compression.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/util/copy-ptr.h
+hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/util/cronolog.h
+hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/util/cronoutils.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/util/data-block.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/util/default-ptr.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/util/deprecated/declare-boost-types.h
@@ -413,7 +433,11 @@ hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/util/hash-map-typedefs.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/util/hash.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/util/hdf.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/util/locale-portability.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/util/lock.h
+hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/util/log-file-flusher.h
+hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/util/logger-inl.h
+hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/util/logger.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/util/low-ptr.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/util/maphuge.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/util/md5.h
@@ -421,6 +445,11 @@ hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/util/meta.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/util/mutex.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/util/pointer-list.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/util/portability.h
+hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/util/portability/fnmatch.h
+hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/util/portability/glob.h
+hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/util/portability/rand_r.h
+hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/util/portability/strfmon.h
+hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/util/portability/strptime.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/util/range.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/util/rank.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: hphp/util/ringbuffer.h
@@ -464,6 +493,7 @@ hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: third-party/folly/folly/Hash.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: third-party/folly/folly/Likely.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: third-party/folly/folly/Malloc.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: third-party/folly/folly/Memory.h
+hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: third-party/folly/folly/Optional.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: third-party/folly/folly/Portability.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -489,6 +519,7 @@ hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: third-party/folly/folly/detail/Malloc.
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/hhvm/CMakeFiles/hhvm.dir/main.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -553,6 +584,7 @@ hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: hphp/runtime/base/ref-data.h
 hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: hphp/runtime/base/req-containers.h
 hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: hphp/runtime/base/req-root.h
 hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: hphp/runtime/base/request-injection-data.h
 hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: hphp/runtime/base/resource-data.h
@@ -712,6 +744,7 @@ hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: hphp/runtime/vm/unit.h
 hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: hphp/runtime/vm/vm-regs.h
 hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: hphp/system/systemlib.h
+hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: hphp/util/abi-cxx.h
 hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: hphp/util/alloc.h
 hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: hphp/util/arena.h
 hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: hphp/util/asm-x64.h
@@ -739,6 +772,7 @@ hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: hphp/util/hash.h
 hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: hphp/util/hdf.h
 hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: hphp/util/hphp-raw-ptr.h
 hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: hphp/util/immed.h
+hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: hphp/util/locale-portability.h
 hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: hphp/util/lock.h
 hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: hphp/util/log-file-flusher.h
 hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: hphp/util/logger-inl.h
@@ -750,6 +784,11 @@ hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: hphp/util/meta.h
 hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: hphp/util/mutex.h
 hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: hphp/util/pointer-list.h
 hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: hphp/util/portability.h
+hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: hphp/util/portability/fnmatch.h
+hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: hphp/util/portability/glob.h
+hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: hphp/util/portability/rand_r.h
+hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: hphp/util/portability/strfmon.h
+hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: hphp/util/portability/strptime.h
 hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: hphp/util/range.h
 hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: hphp/util/rank.h
 hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: hphp/util/ringbuffer.h
@@ -798,6 +837,7 @@ hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: third-party/folly/folly/Hash.h
 hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: third-party/folly/folly/Likely.h
 hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: third-party/folly/folly/Malloc.h
 hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: third-party/folly/folly/Memory.h
+hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: third-party/folly/folly/Optional.h
 hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: third-party/folly/folly/Portability.h
 hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -823,6 +863,7 @@ hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: third-party/folly/folly/detail
 hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/hhvm/CMakeFiles/hhvm.dir/process-init.cpp.o: third-party/folly/folly/dynamic-inl.h

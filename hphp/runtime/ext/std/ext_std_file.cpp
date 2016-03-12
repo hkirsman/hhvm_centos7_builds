@@ -28,6 +28,7 @@
 #include "hphp/runtime/base/actrec-args.h"
 #include "hphp/runtime/base/pipe.h"
 #include "hphp/runtime/base/plain-file.h"
+#include "hphp/runtime/base/temp-file.h"
 #include "hphp/runtime/base/request-local.h"
 #include "hphp/runtime/base/runtime-error.h"
 #include "hphp/runtime/base/runtime-option.h"
@@ -65,9 +66,9 @@
 #define REGISTER_CONSTANT(name, value)                                         \
   Native::registerConstant<KindOfInt64>(makeStaticString(#name), value)        \
 
-#define REGISTER_STRING_CONSTANT(name, value)                                  \
-  Native::registerConstant<KindOfStaticString>(makeStaticString(#name),        \
-                                               value.get())                    \
+#define REGISTER_STRING_CONSTANT(name, value)       \
+  Native::registerConstant<KindOfPersistentString>( \
+      makeStaticString(#name), value.get())
 
 #define CHECK_HANDLE_BASE(handle, f, ret)               \
   auto f = dyn_cast_or_null<File>(handle);              \
@@ -682,7 +683,7 @@ Variant HHVM_FUNCTION(file_put_contents,
     case KindOfBoolean:
     case KindOfInt64:
     case KindOfDouble:
-    case KindOfStaticString:
+    case KindOfPersistentString:
     case KindOfString:
     case KindOfRef: {
       String value = data.toString();
@@ -791,6 +792,8 @@ bool HHVM_FUNCTION(move_uploaded_file,
   if (!transport || !transport->isUploadedFile(filename)) {
     return false;
   }
+
+  CHECK_PATH_FALSE(destination, 2);
 
   if (HHVM_FN(rename)(filename, destination)) {
     return true;
@@ -1231,6 +1234,7 @@ Variant HHVM_FUNCTION(readlink_internal,
 
 Variant HHVM_FUNCTION(readlink,
                       const String& path) {
+  CHECK_PATH(path, 1);
   return HHVM_FN(readlink_internal)(path, true);
 }
 
@@ -1716,6 +1720,7 @@ bool HHVM_FUNCTION(fnmatch,
 Variant HHVM_FUNCTION(glob,
                       const String& pattern,
                       int flags /* = 0 */) {
+  CHECK_PATH(pattern, 1);
   glob_t globbuf;
   int cwd_skip = 0;
   memset(&globbuf, 0, sizeof(glob_t));
@@ -1804,6 +1809,7 @@ Variant HHVM_FUNCTION(tempnam,
                       const String& dir,
                       const String& prefix) {
   CHECK_PATH(dir, 1);
+  CHECK_PATH(prefix, 2);
   String tmpdir = dir, trailing_slash = "/";
   if (tmpdir.empty() || !HHVM_FN(is_dir)(tmpdir) ||
       !HHVM_FN(is_writable)(tmpdir)) {
@@ -1829,11 +1835,11 @@ Variant HHVM_FUNCTION(tempnam,
 }
 
 Variant HHVM_FUNCTION(tmpfile) {
-  FILE *f = tmpfile();
-  if (f) {
-    return Variant(req::make<PlainFile>(f));
+  auto file = req::make<TempFile>(true);
+  if (!file->valid()) {
+    return false;
   }
-  return false;
+  return Variant(file);
 }
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -1855,6 +1861,7 @@ bool HHVM_FUNCTION(mkdir,
 bool HHVM_FUNCTION(rmdir,
                    const String& dirname,
                    const Variant& context /* = null */) {
+  CHECK_PATH_FALSE(dirname, 1);
   Stream::Wrapper* w = Stream::getWrapperFromURI(dirname);
   if (!w) return false;
   int options = 0;
@@ -1948,6 +1955,7 @@ bool StringAscending(const String& s1, const String& s2) {
 
 Variant HHVM_FUNCTION(dir,
                       const String& directory) {
+  CHECK_PATH(directory, 1);
   Variant dir = HHVM_FN(opendir)(directory);
   if (same(dir, false)) {
     return false;
@@ -1961,6 +1969,7 @@ Variant HHVM_FUNCTION(dir,
 Variant HHVM_FUNCTION(opendir,
                       const String& path,
                       const Variant& context /* = null */) {
+  CHECK_PATH(path, 1);
   Stream::Wrapper* w = Stream::getWrapperFromURI(path);
   if (!w) return false;
   auto p = w->opendir(path);

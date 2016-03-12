@@ -1,1 +1,1 @@
-client/clientRestart.ml: ClientConnectSimple ClientStart ClientStop Exit_status HackEventLogger Path Printf
+client/clientRestart.ml: ClientStart ClientStop Exit_status HackEventLogger MonitorConnection Path Printf ServerFiles

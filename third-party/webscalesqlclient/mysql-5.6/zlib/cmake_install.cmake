@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib
+# Install script for directory: /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

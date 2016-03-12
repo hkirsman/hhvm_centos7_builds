@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.1
 
 # Include any dependencies generated for this target.
 include hphp/tools/hfsort/CMakeFiles/hfsort.dir/depend.make
@@ -54,17 +54,17 @@ include hphp/tools/hfsort/CMakeFiles/hfsort.dir/flags.make
 
 hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfsort.cpp.o: hphp/tools/hfsort/CMakeFiles/hfsort.dir/flags.make
 hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfsort.cpp.o: hphp/tools/hfsort/hfsort.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfsort.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/tools/hfsort && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hfsort.dir/hfsort.cpp.o -c /tmp/hhvm-3.11.1/hphp/tools/hfsort/hfsort.cpp
+	cd /tmp/hhvm-3.12.1/hphp/tools/hfsort && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hfsort.dir/hfsort.cpp.o -c /tmp/hhvm-3.12.1/hphp/tools/hfsort/hfsort.cpp
 
 hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfsort.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hfsort.dir/hfsort.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/tools/hfsort && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/tools/hfsort/hfsort.cpp > CMakeFiles/hfsort.dir/hfsort.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/tools/hfsort && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/tools/hfsort/hfsort.cpp > CMakeFiles/hfsort.dir/hfsort.cpp.i
 
 hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfsort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hfsort.dir/hfsort.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/tools/hfsort && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/tools/hfsort/hfsort.cpp -o CMakeFiles/hfsort.dir/hfsort.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/tools/hfsort && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/tools/hfsort/hfsort.cpp -o CMakeFiles/hfsort.dir/hfsort.cpp.s
 
 hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfsort.cpp.o.requires:
 .PHONY : hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfsort.cpp.o.requires
@@ -77,17 +77,17 @@ hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfsort.cpp.o.provides.build: hphp/tools/
 
 hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfutil.cpp.o: hphp/tools/hfsort/CMakeFiles/hfsort.dir/flags.make
 hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfutil.cpp.o: hphp/tools/hfsort/hfutil.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfutil.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/tools/hfsort && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hfsort.dir/hfutil.cpp.o -c /tmp/hhvm-3.11.1/hphp/tools/hfsort/hfutil.cpp
+	cd /tmp/hhvm-3.12.1/hphp/tools/hfsort && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hfsort.dir/hfutil.cpp.o -c /tmp/hhvm-3.12.1/hphp/tools/hfsort/hfutil.cpp
 
 hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfutil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hfsort.dir/hfutil.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/tools/hfsort && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/tools/hfsort/hfutil.cpp > CMakeFiles/hfsort.dir/hfutil.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/tools/hfsort && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/tools/hfsort/hfutil.cpp > CMakeFiles/hfsort.dir/hfutil.cpp.i
 
 hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfutil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hfsort.dir/hfutil.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/tools/hfsort && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/tools/hfsort/hfutil.cpp -o CMakeFiles/hfsort.dir/hfutil.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/tools/hfsort && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/tools/hfsort/hfutil.cpp -o CMakeFiles/hfsort.dir/hfutil.cpp.s
 
 hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfutil.cpp.o.requires:
 .PHONY : hphp/tools/hfsort/CMakeFiles/hfsort.dir/hfutil.cpp.o.requires
@@ -121,9 +121,10 @@ hphp/tools/hfsort/hfsort: /usr/lib64/libglog.so
 hphp/tools/hfsort/hfsort: /usr/lib64/libpthread.so
 hphp/tools/hfsort/hfsort: third-party/double-conversion/libdouble-conversion.a
 hphp/tools/hfsort/hfsort: /usr/lib64/libjemalloc.so
+hphp/tools/hfsort/hfsort: /usr/lib64/libnuma.so
 hphp/tools/hfsort/hfsort: hphp/tools/hfsort/CMakeFiles/hfsort.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable hfsort"
-	cd /tmp/hhvm-3.11.1/hphp/tools/hfsort && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hfsort.dir/link.txt --verbose=$(VERBOSE)
+	cd /tmp/hhvm-3.12.1/hphp/tools/hfsort && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hfsort.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 hphp/tools/hfsort/CMakeFiles/hfsort.dir/build: hphp/tools/hfsort/hfsort
@@ -134,10 +135,10 @@ hphp/tools/hfsort/CMakeFiles/hfsort.dir/requires: hphp/tools/hfsort/CMakeFiles/h
 .PHONY : hphp/tools/hfsort/CMakeFiles/hfsort.dir/requires
 
 hphp/tools/hfsort/CMakeFiles/hfsort.dir/clean:
-	cd /tmp/hhvm-3.11.1/hphp/tools/hfsort && $(CMAKE_COMMAND) -P CMakeFiles/hfsort.dir/cmake_clean.cmake
+	cd /tmp/hhvm-3.12.1/hphp/tools/hfsort && $(CMAKE_COMMAND) -P CMakeFiles/hfsort.dir/cmake_clean.cmake
 .PHONY : hphp/tools/hfsort/CMakeFiles/hfsort.dir/clean
 
 hphp/tools/hfsort/CMakeFiles/hfsort.dir/depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/hphp/tools/hfsort /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/hphp/tools/hfsort /tmp/hhvm-3.11.1/hphp/tools/hfsort/CMakeFiles/hfsort.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/hhvm-3.12.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.12.1 /tmp/hhvm-3.12.1/hphp/tools/hfsort /tmp/hhvm-3.12.1 /tmp/hhvm-3.12.1/hphp/tools/hfsort /tmp/hhvm-3.12.1/hphp/tools/hfsort/CMakeFiles/hfsort.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hphp/tools/hfsort/CMakeFiles/hfsort.dir/depend
 

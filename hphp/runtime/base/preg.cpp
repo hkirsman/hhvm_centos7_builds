@@ -488,11 +488,14 @@ static pcre_jit_stack* alloc_jit_stack(void* data) {
 namespace {
 
 template<bool useSmartFree = false>
-struct FreeHelperImpl : private boost::noncopyable {
+struct FreeHelperImpl {
   explicit FreeHelperImpl(void* p) : p(p) {}
   ~FreeHelperImpl() {
     useSmartFree ? req::free(p) : free(p);
   }
+
+  FreeHelperImpl(const FreeHelperImpl&) = delete;
+  FreeHelperImpl& operator=(const FreeHelperImpl&) = delete;
 
 private:
   void* p;
@@ -1820,7 +1823,8 @@ String preg_quote(const String& str,
 
   /* Allocate enough memory so that even if each character
      is quoted, we won't run out of room */
-  char* out_str = (char *)malloc(4 * str.size() + 1);
+  String ret(4 * str.size() + 1, ReserveString);
+  char* out_str = ret.mutableData();
 
   /* Go through the string and quote necessary characters */
   const char* p;
@@ -1852,7 +1856,7 @@ String preg_quote(const String& str,
   }
   *q = '\0';
 
-  return String(out_str, q - out_str, AttachString);
+  return ret.setSize(q - out_str);
 }
 
 int preg_last_error() {

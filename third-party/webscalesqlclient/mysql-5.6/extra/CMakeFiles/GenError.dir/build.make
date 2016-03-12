@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src
 
 # Utility rule file for GenError.
 
@@ -54,9 +54,9 @@ extra/CMakeFiles/GenError: sql/share/errmsg-utf8.txt
 
 include/mysqld_error.h: sql/share/errmsg-utf8.txt
 include/mysqld_error.h: extra/comp_err.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../include/mysqld_error.h, ../sql/share/english/errmsg.sys"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/extra && ./comp_err --charset=/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/sql/share/charsets --out-dir=/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/sql/share/ --header_file=/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/include/mysqld_error.h --name_file=/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/include/mysqld_ername.h --state_file=/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/include/sql_state.h --in_file=/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/sql/share/errmsg-utf8.txt
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/extra && ./comp_err --charset=/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/sql/share/charsets --out-dir=/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/sql/share/ --header_file=/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/include/mysqld_error.h --name_file=/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/include/mysqld_ername.h --state_file=/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/include/sql_state.h --in_file=/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/sql/share/errmsg-utf8.txt
 
 sql/share/english/errmsg.sys: include/mysqld_error.h
 
@@ -71,10 +71,10 @@ extra/CMakeFiles/GenError.dir/build: GenError
 .PHONY : extra/CMakeFiles/GenError.dir/build
 
 extra/CMakeFiles/GenError.dir/clean:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/extra && $(CMAKE_COMMAND) -P CMakeFiles/GenError.dir/cmake_clean.cmake
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/extra && $(CMAKE_COMMAND) -P CMakeFiles/GenError.dir/cmake_clean.cmake
 .PHONY : extra/CMakeFiles/GenError.dir/clean
 
 extra/CMakeFiles/GenError.dir/depend:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/extra /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/extra /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/extra/CMakeFiles/GenError.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/extra /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/extra /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/extra/CMakeFiles/GenError.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : extra/CMakeFiles/GenError.dir/depend
 

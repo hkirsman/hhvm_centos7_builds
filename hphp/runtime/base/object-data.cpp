@@ -22,18 +22,17 @@
 #include "hphp/runtime/base/container-functions.h"
 #include "hphp/runtime/base/execution-context.h"
 #include "hphp/runtime/base/externals.h"
-#include "hphp/runtime/base/memory-profile.h"
 #include "hphp/runtime/base/runtime-error.h"
 #include "hphp/runtime/base/req-containers.h"
 #include "hphp/runtime/base/type-conversions.h"
 #include "hphp/runtime/base/variable-serializer.h"
 #include "hphp/runtime/base/mixed-array-defs.h"
 
-#include "hphp/runtime/ext/std/ext_std_closure.h"
 #include "hphp/runtime/ext/collections/ext_collections-idl.h"
 #include "hphp/runtime/ext/generator/ext_generator.h"
 #include "hphp/runtime/ext/simplexml/ext_simplexml.h"
 #include "hphp/runtime/ext/datetime/ext_datetime.h"
+#include "hphp/runtime/ext/std/ext_std_closure.h"
 
 #include "hphp/runtime/vm/class.h"
 #include "hphp/runtime/vm/member-operations.h"
@@ -527,7 +526,7 @@ Array ObjectData::toArray(bool pubOnly /* = false */) const {
     return convert_to_array(this, SystemLib::s_ArrayObjectClass);
   } else if (UNLIKELY(instanceof(SystemLib::s_ArrayIteratorClass))) {
     return convert_to_array(this, SystemLib::s_ArrayIteratorClass);
-  } else if (UNLIKELY(instanceof(SystemLib::s_ClosureClass))) {
+  } else if (UNLIKELY(instanceof(c_Closure::classof()))) {
     return Array::Create(Object(const_cast<ObjectData*>(this)));
   } else if (UNLIKELY(instanceof(DateTimeData::getClass()))) {
     return Native::data<DateTimeData>(this)->getDebugInfo();
@@ -765,8 +764,9 @@ ObjectData* ObjectData::clone() {
   if (getAttribute(HasClone) && getAttribute(IsCppBuiltin)) {
     if (isCollection()) {
       return collections::clone(this);
-    } else if (instanceof(c_Closure::classof())) {
-      return c_Closure::Clone(this);
+    }
+    if (instanceof(c_Closure::classof())) {
+      return c_Closure::fromObject(this)->clone();
     }
     always_assert(false);
   }
@@ -792,7 +792,7 @@ bool ObjectData::equal(const ObjectData& other) const {
     other.o_getArray(ar2);
     return ar1->equal(ar2.get(), false);
   }
-  if (UNLIKELY(instanceof(SystemLib::s_ClosureClass))) {
+  if (UNLIKELY(instanceof(c_Closure::classof()))) {
     // First comparison already proves they are different
     return false;
   }
@@ -809,7 +809,7 @@ bool ObjectData::less(const ObjectData& other) const {
     return DateTimeData::getTimestamp(this) <
       DateTimeData::getTimestamp(&other);
   }
-  if (UNLIKELY(instanceof(SystemLib::s_ClosureClass))) {
+  if (UNLIKELY(instanceof(c_Closure::classof()))) {
     // First comparison already proves they are different
     return false;
   }
@@ -827,7 +827,7 @@ bool ObjectData::more(const ObjectData& other) const {
     return DateTimeData::getTimestamp(this) >
       DateTimeData::getTimestamp(&other);
   }
-  if (UNLIKELY(instanceof(SystemLib::s_ClosureClass))) {
+  if (UNLIKELY(instanceof(c_Closure::classof()))) {
     // First comparison already proves they are different
     return false;
   }
@@ -847,7 +847,7 @@ int64_t ObjectData::compare(const ObjectData& other) const {
     return (t1 < t2) ? -1 : ((t1 > t2) ? 1 : 0);
   }
   // Return 1 for different classes to match PHP7 behavior.
-  if (UNLIKELY(instanceof(SystemLib::s_ClosureClass))) {
+  if (UNLIKELY(instanceof(c_Closure::classof()))) {
     // First comparison already proves they are different
     return 1;
   }
@@ -1237,9 +1237,6 @@ TypedValue* ObjectData::propImpl(
       m_cls->preClass()->name()->data(),
       key->data()
     );
-
-    *tvRef = make_tv<KindOfUninit>();
-    return tvRef;
   }
 
   // First see if native getter is implemented.
@@ -1254,8 +1251,6 @@ TypedValue* ObjectData::propImpl(
 
   if (UNLIKELY(!*key->data())) {
     throw_invalid_property_name(StrNR(key));
-    *tvRef = make_tv<KindOfUninit>();
-    return tvRef;
   }
 
   if (warn) raiseUndefProp(key);
@@ -1437,7 +1432,6 @@ TypedValue* ObjectData::setOpProp(TypedValue& tvRef,
         SCOPE_EXIT { tvRefcountedDecRef(get_result); };
         setopBody(tvToCell(&get_result), op, val);
         if (getAttribute(UseSet)) {
-          assert(tvRef.m_type == KindOfUninit);
           cellDup(*tvToCell(&get_result), tvRef);
           if (invokeSet(key, &tvRef)) {
             return &tvRef;

@@ -76,6 +76,12 @@ struct VariableUnserializer {
   void expectChar(char expected);
 
   /*
+   * Attempt to consume a serialized string with content matching str.
+   * Return false and rewind stream on non-standard format or content mismatch.
+   */
+  bool matchString(folly::StringPiece str);
+
+  /*
    * Accessors.
    */
   Type type() const;
@@ -116,6 +122,12 @@ struct VariableUnserializer {
    */
   void putInOverwrittenList(const Variant& v);
 
+  /*
+   * Register an object that needs its __wakeup() method called after
+   * unserialization of the top-level value is complete.
+   */
+  void addSleepingObject(const Object&);
+
 private:
   /*
    * Hold references to previously-unserialized data, along with bits telling
@@ -140,9 +152,10 @@ private:
   req::vector<RefInfo> m_refs;
   bool m_unknownSerializable;
   const Array& m_options; // e.g. classes allowed to be unserialized
+  req::vector<Object> m_sleepingObjects;
 };
 
-void reserialize(VariableUnserializer *uns, StringBuffer &buf);
+void reserialize(VariableUnserializer* uns, StringBuffer& buf);
 
 }
 

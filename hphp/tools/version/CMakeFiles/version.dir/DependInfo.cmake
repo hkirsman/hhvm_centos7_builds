@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/tmp/hhvm-3.11.1/hphp/tools/version/version.cpp" "/tmp/hhvm-3.11.1/hphp/tools/version/CMakeFiles/version.dir/version.cpp.o"
+  "/tmp/hhvm-3.12.1/hphp/tools/version/version.cpp" "/tmp/hhvm-3.12.1/hphp/tools/version/CMakeFiles/version.dir/version.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

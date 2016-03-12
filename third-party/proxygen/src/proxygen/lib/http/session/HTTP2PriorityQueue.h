@@ -34,10 +34,10 @@ class HTTP2PriorityQueue : public HTTPCodec::PriorityQueue {
   class Node {
    public:
     Node(Node* inParent, HTTPCodec::StreamID id,
-         uint32_t weight, HTTPTransaction *txn)
+         uint8_t weight, HTTPTransaction *txn)
       : parent_(inParent),
         id_(id),
-        weight_(weight),
+        weight_(weight + 1),
         txn_(txn) {
     }
 
@@ -151,8 +151,8 @@ class HTTP2PriorityQueue : public HTTPCodec::PriorityQueue {
 
     // Set a new weight for this node
     void updateWeight(uint8_t weight) {
-      int16_t delta = weight - weight_;
-      weight_ = weight;
+      int16_t delta = weight - weight_ + 1;
+      weight_ = weight + 1;
       parent_->totalChildWeight_ += delta;
     }
 
@@ -164,13 +164,16 @@ class HTTP2PriorityQueue : public HTTPCodec::PriorityQueue {
     }
 
     // Find the node for the given stream ID in the priority tree
-    Node* findInTree(HTTPCodec::StreamID id) {
+    Node* findInTree(HTTPCodec::StreamID id, uint64_t* depth) {
       if (id_ == id) {
         return this;
       }
+      if (depth) {
+        *depth += 1;
+      }
       Node* res = nullptr;
       for (auto& child: children_) {
-        res = child->findInTree(id);
+        res = child->findInTree(id, depth);
         if (res) {
           break;
         }
@@ -263,6 +266,8 @@ class HTTP2PriorityQueue : public HTTPCodec::PriorityQueue {
         child->updateEnqueuedWeight();
       }
       if (totalEnqueuedWeight_ == 0 && !isEnqueued()) {
+        // Must only be called with activeCount_ > 0, root cannot be dequeued
+        CHECK_NOTNULL(parent_);
         parent_->totalEnqueuedWeight_ -= weight_;
       }
     }
@@ -270,7 +275,7 @@ class HTTP2PriorityQueue : public HTTPCodec::PriorityQueue {
    private:
     Node *parent_{nullptr};
     HTTPCodec::StreamID id_{0};
-    uint8_t weight_{16};
+    uint16_t weight_{16};
     HTTPTransaction *txn_{nullptr};
     bool enqueued_{false};
     uint64_t totalEnqueuedWeight_{0};
@@ -283,11 +288,11 @@ class HTTP2PriorityQueue : public HTTPCodec::PriorityQueue {
   HTTP2PriorityQueue() {}
 
   // Find the node in priority tree
-  Node* find(HTTPCodec::StreamID id) {
+  Node* find(HTTPCodec::StreamID id, uint64_t* depth = nullptr) {
     if (id == 0) {
       return nullptr;
     }
-    return root_.findInTree(id);
+    return root_.findInTree(id, depth);
   }
 
   // Notify the queue when a transaction has egress
@@ -301,7 +306,7 @@ class HTTP2PriorityQueue : public HTTPCodec::PriorityQueue {
 
   // Notify the queue when a transaction no longer has egress
   void clearPendingEgress(Handle h) {
-    CHECK(activeCount_ > 0);
+    CHECK_GT(activeCount_, 0);
     // clear does a CHECK on h->isEnqueued()
     h->clearPendingEgress();
     activeCount_--;
@@ -310,20 +315,23 @@ class HTTP2PriorityQueue : public HTTPCodec::PriorityQueue {
 
   void addPriorityNode(HTTPCodec::StreamID id,
                        HTTPCodec::StreamID parent) override{
-    addTransaction(id, {parent, false, 1}, nullptr);
+    addTransaction(id, {parent, false, 0}, nullptr);
   }
 
   // adds new transaction (possibly nullptr) to the priority tree
   Handle addTransaction(HTTPCodec::StreamID id, http2::PriorityUpdate pri,
-                        HTTPTransaction *txn) {
-    CHECK(id != 0);
+                        HTTPTransaction *txn, uint64_t* depth = nullptr) {
+    CHECK_NE(id, 0);
 
     Node* parent = &root_;
+    if (depth) {
+      *depth = 0;
+    }
     if (pri.streamDependency != 0) {
-      Node* dep = find(pri.streamDependency);
+      Node* dep = find(pri.streamDependency, depth);
       if (dep == nullptr) {
         // specified a missing parent (timed out an idle node)?
-        LOG(INFO) << "assigning default priority to txn=" << id;
+        VLOG(4) << "assigning default priority to txn=" << id;
       } else {
         parent = dep;
       }
@@ -450,7 +458,7 @@ class HTTP2PriorityQueue : public HTTPCodec::PriorityQueue {
     if (id == 0) {
       return &root_;
     }
-    return root_.findInTree(id);
+    return root_.findInTree(id, nullptr);
   }
 
   Node root_{nullptr, 0, 1, nullptr};

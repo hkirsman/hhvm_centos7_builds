@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.1
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/CMakeFiles/progress.marks
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/runtime/ext_zend_compat/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles 0
+	cd /tmp/hhvm-3.12.1 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.1/CMakeFiles /tmp/hhvm-3.12.1/hphp/runtime/ext_zend_compat/CMakeFiles/progress.marks
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/runtime/ext_zend_compat/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.1/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/runtime/ext_zend_compat/clean
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/runtime/ext_zend_compat/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/runtime/ext_zend_compat/preinstall
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/runtime/ext_zend_compat/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/runtime/ext_zend_compat/preinstall
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/runtime/ext_zend_compat/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /tmp/hhvm-3.12.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 hphp/runtime/ext_zend_compat/CMakeFiles/dso_test.dir/rule:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/runtime/ext_zend_compat/CMakeFiles/dso_test.dir/rule
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/runtime/ext_zend_compat/CMakeFiles/dso_test.dir/rule
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/dso_test.dir/rule
 
 # Convenience name for target.
@@ -153,12 +153,12 @@ dso_test: hphp/runtime/ext_zend_compat/CMakeFiles/dso_test.dir/rule
 
 # fast build rule for target.
 dso_test/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/dso_test.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/dso_test.dir/build
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/dso_test.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/dso_test.dir/build
 .PHONY : dso_test/fast
 
 # Convenience name for target.
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/rule:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/rule
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/rule
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/rule
 
 # Convenience name for target.
@@ -167,7 +167,7 @@ hphp_ext_zend_compat: hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_comp
 
 # fast build rule for target.
 hphp_ext_zend_compat/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build
 .PHONY : hphp_ext_zend_compat/fast
 
 calendar/cal_unix.o: calendar/cal_unix.cpp.o
@@ -175,7 +175,7 @@ calendar/cal_unix.o: calendar/cal_unix.cpp.o
 
 # target to build an object file
 calendar/cal_unix.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o
 .PHONY : calendar/cal_unix.cpp.o
 
 calendar/cal_unix.i: calendar/cal_unix.cpp.i
@@ -183,7 +183,7 @@ calendar/cal_unix.i: calendar/cal_unix.cpp.i
 
 # target to preprocess a source file
 calendar/cal_unix.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.i
 .PHONY : calendar/cal_unix.cpp.i
 
 calendar/cal_unix.s: calendar/cal_unix.cpp.s
@@ -191,7 +191,7 @@ calendar/cal_unix.s: calendar/cal_unix.cpp.s
 
 # target to generate assembly for a file
 calendar/cal_unix.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.s
 .PHONY : calendar/cal_unix.cpp.s
 
 calendar/calendar.o: calendar/calendar.cpp.o
@@ -199,7 +199,7 @@ calendar/calendar.o: calendar/calendar.cpp.o
 
 # target to build an object file
 calendar/calendar.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o
 .PHONY : calendar/calendar.cpp.o
 
 calendar/calendar.i: calendar/calendar.cpp.i
@@ -207,7 +207,7 @@ calendar/calendar.i: calendar/calendar.cpp.i
 
 # target to preprocess a source file
 calendar/calendar.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.i
 .PHONY : calendar/calendar.cpp.i
 
 calendar/calendar.s: calendar/calendar.cpp.s
@@ -215,7 +215,7 @@ calendar/calendar.s: calendar/calendar.cpp.s
 
 # target to generate assembly for a file
 calendar/calendar.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.s
 .PHONY : calendar/calendar.cpp.s
 
 calendar/dow.o: calendar/dow.cpp.o
@@ -223,7 +223,7 @@ calendar/dow.o: calendar/dow.cpp.o
 
 # target to build an object file
 calendar/dow.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/dow.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/dow.cpp.o
 .PHONY : calendar/dow.cpp.o
 
 calendar/dow.i: calendar/dow.cpp.i
@@ -231,7 +231,7 @@ calendar/dow.i: calendar/dow.cpp.i
 
 # target to preprocess a source file
 calendar/dow.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/dow.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/dow.cpp.i
 .PHONY : calendar/dow.cpp.i
 
 calendar/dow.s: calendar/dow.cpp.s
@@ -239,7 +239,7 @@ calendar/dow.s: calendar/dow.cpp.s
 
 # target to generate assembly for a file
 calendar/dow.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/dow.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/dow.cpp.s
 .PHONY : calendar/dow.cpp.s
 
 calendar/easter.o: calendar/easter.cpp.o
@@ -247,7 +247,7 @@ calendar/easter.o: calendar/easter.cpp.o
 
 # target to build an object file
 calendar/easter.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o
 .PHONY : calendar/easter.cpp.o
 
 calendar/easter.i: calendar/easter.cpp.i
@@ -255,7 +255,7 @@ calendar/easter.i: calendar/easter.cpp.i
 
 # target to preprocess a source file
 calendar/easter.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.i
 .PHONY : calendar/easter.cpp.i
 
 calendar/easter.s: calendar/easter.cpp.s
@@ -263,7 +263,7 @@ calendar/easter.s: calendar/easter.cpp.s
 
 # target to generate assembly for a file
 calendar/easter.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.s
 .PHONY : calendar/easter.cpp.s
 
 calendar/french.o: calendar/french.cpp.o
@@ -271,7 +271,7 @@ calendar/french.o: calendar/french.cpp.o
 
 # target to build an object file
 calendar/french.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/french.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/french.cpp.o
 .PHONY : calendar/french.cpp.o
 
 calendar/french.i: calendar/french.cpp.i
@@ -279,7 +279,7 @@ calendar/french.i: calendar/french.cpp.i
 
 # target to preprocess a source file
 calendar/french.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/french.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/french.cpp.i
 .PHONY : calendar/french.cpp.i
 
 calendar/french.s: calendar/french.cpp.s
@@ -287,7 +287,7 @@ calendar/french.s: calendar/french.cpp.s
 
 # target to generate assembly for a file
 calendar/french.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/french.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/french.cpp.s
 .PHONY : calendar/french.cpp.s
 
 calendar/gregor.o: calendar/gregor.cpp.o
@@ -295,7 +295,7 @@ calendar/gregor.o: calendar/gregor.cpp.o
 
 # target to build an object file
 calendar/gregor.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/gregor.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/gregor.cpp.o
 .PHONY : calendar/gregor.cpp.o
 
 calendar/gregor.i: calendar/gregor.cpp.i
@@ -303,7 +303,7 @@ calendar/gregor.i: calendar/gregor.cpp.i
 
 # target to preprocess a source file
 calendar/gregor.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/gregor.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/gregor.cpp.i
 .PHONY : calendar/gregor.cpp.i
 
 calendar/gregor.s: calendar/gregor.cpp.s
@@ -311,7 +311,7 @@ calendar/gregor.s: calendar/gregor.cpp.s
 
 # target to generate assembly for a file
 calendar/gregor.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/gregor.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/gregor.cpp.s
 .PHONY : calendar/gregor.cpp.s
 
 calendar/jewish.o: calendar/jewish.cpp.o
@@ -319,7 +319,7 @@ calendar/jewish.o: calendar/jewish.cpp.o
 
 # target to build an object file
 calendar/jewish.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/jewish.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/jewish.cpp.o
 .PHONY : calendar/jewish.cpp.o
 
 calendar/jewish.i: calendar/jewish.cpp.i
@@ -327,7 +327,7 @@ calendar/jewish.i: calendar/jewish.cpp.i
 
 # target to preprocess a source file
 calendar/jewish.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/jewish.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/jewish.cpp.i
 .PHONY : calendar/jewish.cpp.i
 
 calendar/jewish.s: calendar/jewish.cpp.s
@@ -335,7 +335,7 @@ calendar/jewish.s: calendar/jewish.cpp.s
 
 # target to generate assembly for a file
 calendar/jewish.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/jewish.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/jewish.cpp.s
 .PHONY : calendar/jewish.cpp.s
 
 calendar/julian.o: calendar/julian.cpp.o
@@ -343,7 +343,7 @@ calendar/julian.o: calendar/julian.cpp.o
 
 # target to build an object file
 calendar/julian.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/julian.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/julian.cpp.o
 .PHONY : calendar/julian.cpp.o
 
 calendar/julian.i: calendar/julian.cpp.i
@@ -351,7 +351,7 @@ calendar/julian.i: calendar/julian.cpp.i
 
 # target to preprocess a source file
 calendar/julian.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/julian.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/julian.cpp.i
 .PHONY : calendar/julian.cpp.i
 
 calendar/julian.s: calendar/julian.cpp.s
@@ -359,7 +359,7 @@ calendar/julian.s: calendar/julian.cpp.s
 
 # target to generate assembly for a file
 calendar/julian.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/julian.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/julian.cpp.s
 .PHONY : calendar/julian.cpp.s
 
 ftp/ftp.o: ftp/ftp.cpp.o
@@ -367,7 +367,7 @@ ftp/ftp.o: ftp/ftp.cpp.o
 
 # target to build an object file
 ftp/ftp.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o
 .PHONY : ftp/ftp.cpp.o
 
 ftp/ftp.i: ftp/ftp.cpp.i
@@ -375,7 +375,7 @@ ftp/ftp.i: ftp/ftp.cpp.i
 
 # target to preprocess a source file
 ftp/ftp.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.i
 .PHONY : ftp/ftp.cpp.i
 
 ftp/ftp.s: ftp/ftp.cpp.s
@@ -383,7 +383,7 @@ ftp/ftp.s: ftp/ftp.cpp.s
 
 # target to generate assembly for a file
 ftp/ftp.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.s
 .PHONY : ftp/ftp.cpp.s
 
 ftp/php_ftp.o: ftp/php_ftp.cpp.o
@@ -391,7 +391,7 @@ ftp/php_ftp.o: ftp/php_ftp.cpp.o
 
 # target to build an object file
 ftp/php_ftp.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o
 .PHONY : ftp/php_ftp.cpp.o
 
 ftp/php_ftp.i: ftp/php_ftp.cpp.i
@@ -399,7 +399,7 @@ ftp/php_ftp.i: ftp/php_ftp.cpp.i
 
 # target to preprocess a source file
 ftp/php_ftp.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.i
 .PHONY : ftp/php_ftp.cpp.i
 
 ftp/php_ftp.s: ftp/php_ftp.cpp.s
@@ -407,7 +407,7 @@ ftp/php_ftp.s: ftp/php_ftp.cpp.s
 
 # target to generate assembly for a file
 ftp/php_ftp.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.s
 .PHONY : ftp/php_ftp.cpp.s
 
 hhvm/zend-class-entry.o: hhvm/zend-class-entry.cpp.o
@@ -415,7 +415,7 @@ hhvm/zend-class-entry.o: hhvm/zend-class-entry.cpp.o
 
 # target to build an object file
 hhvm/zend-class-entry.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o
 .PHONY : hhvm/zend-class-entry.cpp.o
 
 hhvm/zend-class-entry.i: hhvm/zend-class-entry.cpp.i
@@ -423,7 +423,7 @@ hhvm/zend-class-entry.i: hhvm/zend-class-entry.cpp.i
 
 # target to preprocess a source file
 hhvm/zend-class-entry.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.i
 .PHONY : hhvm/zend-class-entry.cpp.i
 
 hhvm/zend-class-entry.s: hhvm/zend-class-entry.cpp.s
@@ -431,7 +431,7 @@ hhvm/zend-class-entry.s: hhvm/zend-class-entry.cpp.s
 
 # target to generate assembly for a file
 hhvm/zend-class-entry.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.s
 .PHONY : hhvm/zend-class-entry.cpp.s
 
 hhvm/zend-exception-store.o: hhvm/zend-exception-store.cpp.o
@@ -439,7 +439,7 @@ hhvm/zend-exception-store.o: hhvm/zend-exception-store.cpp.o
 
 # target to build an object file
 hhvm/zend-exception-store.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o
 .PHONY : hhvm/zend-exception-store.cpp.o
 
 hhvm/zend-exception-store.i: hhvm/zend-exception-store.cpp.i
@@ -447,7 +447,7 @@ hhvm/zend-exception-store.i: hhvm/zend-exception-store.cpp.i
 
 # target to preprocess a source file
 hhvm/zend-exception-store.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.i
 .PHONY : hhvm/zend-exception-store.cpp.i
 
 hhvm/zend-exception-store.s: hhvm/zend-exception-store.cpp.s
@@ -455,7 +455,7 @@ hhvm/zend-exception-store.s: hhvm/zend-exception-store.cpp.s
 
 # target to generate assembly for a file
 hhvm/zend-exception-store.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.s
 .PHONY : hhvm/zend-exception-store.cpp.s
 
 hhvm/zend-execution-stack.o: hhvm/zend-execution-stack.cpp.o
@@ -463,7 +463,7 @@ hhvm/zend-execution-stack.o: hhvm/zend-execution-stack.cpp.o
 
 # target to build an object file
 hhvm/zend-execution-stack.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o
 .PHONY : hhvm/zend-execution-stack.cpp.o
 
 hhvm/zend-execution-stack.i: hhvm/zend-execution-stack.cpp.i
@@ -471,7 +471,7 @@ hhvm/zend-execution-stack.i: hhvm/zend-execution-stack.cpp.i
 
 # target to preprocess a source file
 hhvm/zend-execution-stack.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.i
 .PHONY : hhvm/zend-execution-stack.cpp.i
 
 hhvm/zend-execution-stack.s: hhvm/zend-execution-stack.cpp.s
@@ -479,7 +479,7 @@ hhvm/zend-execution-stack.s: hhvm/zend-execution-stack.cpp.s
 
 # target to generate assembly for a file
 hhvm/zend-execution-stack.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.s
 .PHONY : hhvm/zend-execution-stack.cpp.s
 
 hhvm/zend-extension.o: hhvm/zend-extension.cpp.o
@@ -487,7 +487,7 @@ hhvm/zend-extension.o: hhvm/zend-extension.cpp.o
 
 # target to build an object file
 hhvm/zend-extension.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o
 .PHONY : hhvm/zend-extension.cpp.o
 
 hhvm/zend-extension.i: hhvm/zend-extension.cpp.i
@@ -495,7 +495,7 @@ hhvm/zend-extension.i: hhvm/zend-extension.cpp.i
 
 # target to preprocess a source file
 hhvm/zend-extension.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.i
 .PHONY : hhvm/zend-extension.cpp.i
 
 hhvm/zend-extension.s: hhvm/zend-extension.cpp.s
@@ -503,7 +503,7 @@ hhvm/zend-extension.s: hhvm/zend-extension.cpp.s
 
 # target to generate assembly for a file
 hhvm/zend-extension.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.s
 .PHONY : hhvm/zend-extension.cpp.s
 
 hhvm/zend-object-store.o: hhvm/zend-object-store.cpp.o
@@ -511,7 +511,7 @@ hhvm/zend-object-store.o: hhvm/zend-object-store.cpp.o
 
 # target to build an object file
 hhvm/zend-object-store.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o
 .PHONY : hhvm/zend-object-store.cpp.o
 
 hhvm/zend-object-store.i: hhvm/zend-object-store.cpp.i
@@ -519,7 +519,7 @@ hhvm/zend-object-store.i: hhvm/zend-object-store.cpp.i
 
 # target to preprocess a source file
 hhvm/zend-object-store.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.i
 .PHONY : hhvm/zend-object-store.cpp.i
 
 hhvm/zend-object-store.s: hhvm/zend-object-store.cpp.s
@@ -527,7 +527,7 @@ hhvm/zend-object-store.s: hhvm/zend-object-store.cpp.s
 
 # target to generate assembly for a file
 hhvm/zend-object-store.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.s
 .PHONY : hhvm/zend-object-store.cpp.s
 
 hhvm/zend-object.o: hhvm/zend-object.cpp.o
@@ -535,7 +535,7 @@ hhvm/zend-object.o: hhvm/zend-object.cpp.o
 
 # target to build an object file
 hhvm/zend-object.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o
 .PHONY : hhvm/zend-object.cpp.o
 
 hhvm/zend-object.i: hhvm/zend-object.cpp.i
@@ -543,7 +543,7 @@ hhvm/zend-object.i: hhvm/zend-object.cpp.i
 
 # target to preprocess a source file
 hhvm/zend-object.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.i
 .PHONY : hhvm/zend-object.cpp.i
 
 hhvm/zend-object.s: hhvm/zend-object.cpp.s
@@ -551,7 +551,7 @@ hhvm/zend-object.s: hhvm/zend-object.cpp.s
 
 # target to generate assembly for a file
 hhvm/zend-object.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.s
 .PHONY : hhvm/zend-object.cpp.s
 
 hhvm/zend-property-info.o: hhvm/zend-property-info.cpp.o
@@ -559,7 +559,7 @@ hhvm/zend-property-info.o: hhvm/zend-property-info.cpp.o
 
 # target to build an object file
 hhvm/zend-property-info.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o
 .PHONY : hhvm/zend-property-info.cpp.o
 
 hhvm/zend-property-info.i: hhvm/zend-property-info.cpp.i
@@ -567,7 +567,7 @@ hhvm/zend-property-info.i: hhvm/zend-property-info.cpp.i
 
 # target to preprocess a source file
 hhvm/zend-property-info.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.i
 .PHONY : hhvm/zend-property-info.cpp.i
 
 hhvm/zend-property-info.s: hhvm/zend-property-info.cpp.s
@@ -575,7 +575,7 @@ hhvm/zend-property-info.s: hhvm/zend-property-info.cpp.s
 
 # target to generate assembly for a file
 hhvm/zend-property-info.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.s
 .PHONY : hhvm/zend-property-info.cpp.s
 
 hhvm/zend-wrap-func.o: hhvm/zend-wrap-func.cpp.o
@@ -583,7 +583,7 @@ hhvm/zend-wrap-func.o: hhvm/zend-wrap-func.cpp.o
 
 # target to build an object file
 hhvm/zend-wrap-func.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o
 .PHONY : hhvm/zend-wrap-func.cpp.o
 
 hhvm/zend-wrap-func.i: hhvm/zend-wrap-func.cpp.i
@@ -591,7 +591,7 @@ hhvm/zend-wrap-func.i: hhvm/zend-wrap-func.cpp.i
 
 # target to preprocess a source file
 hhvm/zend-wrap-func.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.i
 .PHONY : hhvm/zend-wrap-func.cpp.i
 
 hhvm/zend-wrap-func.s: hhvm/zend-wrap-func.cpp.s
@@ -599,7 +599,7 @@ hhvm/zend-wrap-func.s: hhvm/zend-wrap-func.cpp.s
 
 # target to generate assembly for a file
 hhvm/zend-wrap-func.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.s
 .PHONY : hhvm/zend-wrap-func.cpp.s
 
 oauth/oauth.o: oauth/oauth.cpp.o
@@ -607,7 +607,7 @@ oauth/oauth.o: oauth/oauth.cpp.o
 
 # target to build an object file
 oauth/oauth.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o
 .PHONY : oauth/oauth.cpp.o
 
 oauth/oauth.i: oauth/oauth.cpp.i
@@ -615,7 +615,7 @@ oauth/oauth.i: oauth/oauth.cpp.i
 
 # target to preprocess a source file
 oauth/oauth.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.i
 .PHONY : oauth/oauth.cpp.i
 
 oauth/oauth.s: oauth/oauth.cpp.s
@@ -623,7 +623,7 @@ oauth/oauth.s: oauth/oauth.cpp.s
 
 # target to generate assembly for a file
 oauth/oauth.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.s
 .PHONY : oauth/oauth.cpp.s
 
 oauth/provider.o: oauth/provider.cpp.o
@@ -631,7 +631,7 @@ oauth/provider.o: oauth/provider.cpp.o
 
 # target to build an object file
 oauth/provider.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o
 .PHONY : oauth/provider.cpp.o
 
 oauth/provider.i: oauth/provider.cpp.i
@@ -639,7 +639,7 @@ oauth/provider.i: oauth/provider.cpp.i
 
 # target to preprocess a source file
 oauth/provider.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.i
 .PHONY : oauth/provider.cpp.i
 
 oauth/provider.s: oauth/provider.cpp.s
@@ -647,7 +647,7 @@ oauth/provider.s: oauth/provider.cpp.s
 
 # target to generate assembly for a file
 oauth/provider.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.s
 .PHONY : oauth/provider.cpp.s
 
 php-src/TSRM/TSRM.o: php-src/TSRM/TSRM.cpp.o
@@ -655,7 +655,7 @@ php-src/TSRM/TSRM.o: php-src/TSRM/TSRM.cpp.o
 
 # target to build an object file
 php-src/TSRM/TSRM.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o
 .PHONY : php-src/TSRM/TSRM.cpp.o
 
 php-src/TSRM/TSRM.i: php-src/TSRM/TSRM.cpp.i
@@ -663,7 +663,7 @@ php-src/TSRM/TSRM.i: php-src/TSRM/TSRM.cpp.i
 
 # target to preprocess a source file
 php-src/TSRM/TSRM.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.i
 .PHONY : php-src/TSRM/TSRM.cpp.i
 
 php-src/TSRM/TSRM.s: php-src/TSRM/TSRM.cpp.s
@@ -671,7 +671,7 @@ php-src/TSRM/TSRM.s: php-src/TSRM/TSRM.cpp.s
 
 # target to generate assembly for a file
 php-src/TSRM/TSRM.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.s
 .PHONY : php-src/TSRM/TSRM.cpp.s
 
 php-src/TSRM/tsrm_virtual_cwd.o: php-src/TSRM/tsrm_virtual_cwd.cpp.o
@@ -679,7 +679,7 @@ php-src/TSRM/tsrm_virtual_cwd.o: php-src/TSRM/tsrm_virtual_cwd.cpp.o
 
 # target to build an object file
 php-src/TSRM/tsrm_virtual_cwd.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o
 .PHONY : php-src/TSRM/tsrm_virtual_cwd.cpp.o
 
 php-src/TSRM/tsrm_virtual_cwd.i: php-src/TSRM/tsrm_virtual_cwd.cpp.i
@@ -687,7 +687,7 @@ php-src/TSRM/tsrm_virtual_cwd.i: php-src/TSRM/tsrm_virtual_cwd.cpp.i
 
 # target to preprocess a source file
 php-src/TSRM/tsrm_virtual_cwd.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.i
 .PHONY : php-src/TSRM/tsrm_virtual_cwd.cpp.i
 
 php-src/TSRM/tsrm_virtual_cwd.s: php-src/TSRM/tsrm_virtual_cwd.cpp.s
@@ -695,7 +695,7 @@ php-src/TSRM/tsrm_virtual_cwd.s: php-src/TSRM/tsrm_virtual_cwd.cpp.s
 
 # target to generate assembly for a file
 php-src/TSRM/tsrm_virtual_cwd.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.s
 .PHONY : php-src/TSRM/tsrm_virtual_cwd.cpp.s
 
 php-src/Zend/zend.o: php-src/Zend/zend.cpp.o
@@ -703,7 +703,7 @@ php-src/Zend/zend.o: php-src/Zend/zend.cpp.o
 
 # target to build an object file
 php-src/Zend/zend.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o
 .PHONY : php-src/Zend/zend.cpp.o
 
 php-src/Zend/zend.i: php-src/Zend/zend.cpp.i
@@ -711,7 +711,7 @@ php-src/Zend/zend.i: php-src/Zend/zend.cpp.i
 
 # target to preprocess a source file
 php-src/Zend/zend.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.i
 .PHONY : php-src/Zend/zend.cpp.i
 
 php-src/Zend/zend.s: php-src/Zend/zend.cpp.s
@@ -719,7 +719,7 @@ php-src/Zend/zend.s: php-src/Zend/zend.cpp.s
 
 # target to generate assembly for a file
 php-src/Zend/zend.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.s
 .PHONY : php-src/Zend/zend.cpp.s
 
 php-src/Zend/zend_API.o: php-src/Zend/zend_API.cpp.o
@@ -727,7 +727,7 @@ php-src/Zend/zend_API.o: php-src/Zend/zend_API.cpp.o
 
 # target to build an object file
 php-src/Zend/zend_API.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o
 .PHONY : php-src/Zend/zend_API.cpp.o
 
 php-src/Zend/zend_API.i: php-src/Zend/zend_API.cpp.i
@@ -735,7 +735,7 @@ php-src/Zend/zend_API.i: php-src/Zend/zend_API.cpp.i
 
 # target to preprocess a source file
 php-src/Zend/zend_API.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.i
 .PHONY : php-src/Zend/zend_API.cpp.i
 
 php-src/Zend/zend_API.s: php-src/Zend/zend_API.cpp.s
@@ -743,7 +743,7 @@ php-src/Zend/zend_API.s: php-src/Zend/zend_API.cpp.s
 
 # target to generate assembly for a file
 php-src/Zend/zend_API.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.s
 .PHONY : php-src/Zend/zend_API.cpp.s
 
 php-src/Zend/zend_alloc.o: php-src/Zend/zend_alloc.cpp.o
@@ -751,7 +751,7 @@ php-src/Zend/zend_alloc.o: php-src/Zend/zend_alloc.cpp.o
 
 # target to build an object file
 php-src/Zend/zend_alloc.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o
 .PHONY : php-src/Zend/zend_alloc.cpp.o
 
 php-src/Zend/zend_alloc.i: php-src/Zend/zend_alloc.cpp.i
@@ -759,7 +759,7 @@ php-src/Zend/zend_alloc.i: php-src/Zend/zend_alloc.cpp.i
 
 # target to preprocess a source file
 php-src/Zend/zend_alloc.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.i
 .PHONY : php-src/Zend/zend_alloc.cpp.i
 
 php-src/Zend/zend_alloc.s: php-src/Zend/zend_alloc.cpp.s
@@ -767,7 +767,7 @@ php-src/Zend/zend_alloc.s: php-src/Zend/zend_alloc.cpp.s
 
 # target to generate assembly for a file
 php-src/Zend/zend_alloc.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.s
 .PHONY : php-src/Zend/zend_alloc.cpp.s
 
 php-src/Zend/zend_compile.o: php-src/Zend/zend_compile.cpp.o
@@ -775,7 +775,7 @@ php-src/Zend/zend_compile.o: php-src/Zend/zend_compile.cpp.o
 
 # target to build an object file
 php-src/Zend/zend_compile.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o
 .PHONY : php-src/Zend/zend_compile.cpp.o
 
 php-src/Zend/zend_compile.i: php-src/Zend/zend_compile.cpp.i
@@ -783,7 +783,7 @@ php-src/Zend/zend_compile.i: php-src/Zend/zend_compile.cpp.i
 
 # target to preprocess a source file
 php-src/Zend/zend_compile.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.i
 .PHONY : php-src/Zend/zend_compile.cpp.i
 
 php-src/Zend/zend_compile.s: php-src/Zend/zend_compile.cpp.s
@@ -791,7 +791,7 @@ php-src/Zend/zend_compile.s: php-src/Zend/zend_compile.cpp.s
 
 # target to generate assembly for a file
 php-src/Zend/zend_compile.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.s
 .PHONY : php-src/Zend/zend_compile.cpp.s
 
 php-src/Zend/zend_constants.o: php-src/Zend/zend_constants.cpp.o
@@ -799,7 +799,7 @@ php-src/Zend/zend_constants.o: php-src/Zend/zend_constants.cpp.o
 
 # target to build an object file
 php-src/Zend/zend_constants.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o
 .PHONY : php-src/Zend/zend_constants.cpp.o
 
 php-src/Zend/zend_constants.i: php-src/Zend/zend_constants.cpp.i
@@ -807,7 +807,7 @@ php-src/Zend/zend_constants.i: php-src/Zend/zend_constants.cpp.i
 
 # target to preprocess a source file
 php-src/Zend/zend_constants.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.i
 .PHONY : php-src/Zend/zend_constants.cpp.i
 
 php-src/Zend/zend_constants.s: php-src/Zend/zend_constants.cpp.s
@@ -815,7 +815,7 @@ php-src/Zend/zend_constants.s: php-src/Zend/zend_constants.cpp.s
 
 # target to generate assembly for a file
 php-src/Zend/zend_constants.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.s
 .PHONY : php-src/Zend/zend_constants.cpp.s
 
 php-src/Zend/zend_exceptions.o: php-src/Zend/zend_exceptions.cpp.o
@@ -823,7 +823,7 @@ php-src/Zend/zend_exceptions.o: php-src/Zend/zend_exceptions.cpp.o
 
 # target to build an object file
 php-src/Zend/zend_exceptions.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o
 .PHONY : php-src/Zend/zend_exceptions.cpp.o
 
 php-src/Zend/zend_exceptions.i: php-src/Zend/zend_exceptions.cpp.i
@@ -831,7 +831,7 @@ php-src/Zend/zend_exceptions.i: php-src/Zend/zend_exceptions.cpp.i
 
 # target to preprocess a source file
 php-src/Zend/zend_exceptions.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.i
 .PHONY : php-src/Zend/zend_exceptions.cpp.i
 
 php-src/Zend/zend_exceptions.s: php-src/Zend/zend_exceptions.cpp.s
@@ -839,7 +839,7 @@ php-src/Zend/zend_exceptions.s: php-src/Zend/zend_exceptions.cpp.s
 
 # target to generate assembly for a file
 php-src/Zend/zend_exceptions.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.s
 .PHONY : php-src/Zend/zend_exceptions.cpp.s
 
 php-src/Zend/zend_execute_API.o: php-src/Zend/zend_execute_API.cpp.o
@@ -847,7 +847,7 @@ php-src/Zend/zend_execute_API.o: php-src/Zend/zend_execute_API.cpp.o
 
 # target to build an object file
 php-src/Zend/zend_execute_API.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o
 .PHONY : php-src/Zend/zend_execute_API.cpp.o
 
 php-src/Zend/zend_execute_API.i: php-src/Zend/zend_execute_API.cpp.i
@@ -855,7 +855,7 @@ php-src/Zend/zend_execute_API.i: php-src/Zend/zend_execute_API.cpp.i
 
 # target to preprocess a source file
 php-src/Zend/zend_execute_API.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.i
 .PHONY : php-src/Zend/zend_execute_API.cpp.i
 
 php-src/Zend/zend_execute_API.s: php-src/Zend/zend_execute_API.cpp.s
@@ -863,7 +863,7 @@ php-src/Zend/zend_execute_API.s: php-src/Zend/zend_execute_API.cpp.s
 
 # target to generate assembly for a file
 php-src/Zend/zend_execute_API.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.s
 .PHONY : php-src/Zend/zend_execute_API.cpp.s
 
 php-src/Zend/zend_gc.o: php-src/Zend/zend_gc.cpp.o
@@ -871,7 +871,7 @@ php-src/Zend/zend_gc.o: php-src/Zend/zend_gc.cpp.o
 
 # target to build an object file
 php-src/Zend/zend_gc.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o
 .PHONY : php-src/Zend/zend_gc.cpp.o
 
 php-src/Zend/zend_gc.i: php-src/Zend/zend_gc.cpp.i
@@ -879,7 +879,7 @@ php-src/Zend/zend_gc.i: php-src/Zend/zend_gc.cpp.i
 
 # target to preprocess a source file
 php-src/Zend/zend_gc.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.i
 .PHONY : php-src/Zend/zend_gc.cpp.i
 
 php-src/Zend/zend_gc.s: php-src/Zend/zend_gc.cpp.s
@@ -887,7 +887,7 @@ php-src/Zend/zend_gc.s: php-src/Zend/zend_gc.cpp.s
 
 # target to generate assembly for a file
 php-src/Zend/zend_gc.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.s
 .PHONY : php-src/Zend/zend_gc.cpp.s
 
 php-src/Zend/zend_globals.o: php-src/Zend/zend_globals.cpp.o
@@ -895,7 +895,7 @@ php-src/Zend/zend_globals.o: php-src/Zend/zend_globals.cpp.o
 
 # target to build an object file
 php-src/Zend/zend_globals.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o
 .PHONY : php-src/Zend/zend_globals.cpp.o
 
 php-src/Zend/zend_globals.i: php-src/Zend/zend_globals.cpp.i
@@ -903,7 +903,7 @@ php-src/Zend/zend_globals.i: php-src/Zend/zend_globals.cpp.i
 
 # target to preprocess a source file
 php-src/Zend/zend_globals.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.i
 .PHONY : php-src/Zend/zend_globals.cpp.i
 
 php-src/Zend/zend_globals.s: php-src/Zend/zend_globals.cpp.s
@@ -911,7 +911,7 @@ php-src/Zend/zend_globals.s: php-src/Zend/zend_globals.cpp.s
 
 # target to generate assembly for a file
 php-src/Zend/zend_globals.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.s
 .PHONY : php-src/Zend/zend_globals.cpp.s
 
 php-src/Zend/zend_hash.o: php-src/Zend/zend_hash.cpp.o
@@ -919,7 +919,7 @@ php-src/Zend/zend_hash.o: php-src/Zend/zend_hash.cpp.o
 
 # target to build an object file
 php-src/Zend/zend_hash.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o
 .PHONY : php-src/Zend/zend_hash.cpp.o
 
 php-src/Zend/zend_hash.i: php-src/Zend/zend_hash.cpp.i
@@ -927,7 +927,7 @@ php-src/Zend/zend_hash.i: php-src/Zend/zend_hash.cpp.i
 
 # target to preprocess a source file
 php-src/Zend/zend_hash.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.i
 .PHONY : php-src/Zend/zend_hash.cpp.i
 
 php-src/Zend/zend_hash.s: php-src/Zend/zend_hash.cpp.s
@@ -935,7 +935,7 @@ php-src/Zend/zend_hash.s: php-src/Zend/zend_hash.cpp.s
 
 # target to generate assembly for a file
 php-src/Zend/zend_hash.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.s
 .PHONY : php-src/Zend/zend_hash.cpp.s
 
 php-src/Zend/zend_ini.o: php-src/Zend/zend_ini.cpp.o
@@ -943,7 +943,7 @@ php-src/Zend/zend_ini.o: php-src/Zend/zend_ini.cpp.o
 
 # target to build an object file
 php-src/Zend/zend_ini.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o
 .PHONY : php-src/Zend/zend_ini.cpp.o
 
 php-src/Zend/zend_ini.i: php-src/Zend/zend_ini.cpp.i
@@ -951,7 +951,7 @@ php-src/Zend/zend_ini.i: php-src/Zend/zend_ini.cpp.i
 
 # target to preprocess a source file
 php-src/Zend/zend_ini.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.i
 .PHONY : php-src/Zend/zend_ini.cpp.i
 
 php-src/Zend/zend_ini.s: php-src/Zend/zend_ini.cpp.s
@@ -959,7 +959,7 @@ php-src/Zend/zend_ini.s: php-src/Zend/zend_ini.cpp.s
 
 # target to generate assembly for a file
 php-src/Zend/zend_ini.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.s
 .PHONY : php-src/Zend/zend_ini.cpp.s
 
 php-src/Zend/zend_interfaces.o: php-src/Zend/zend_interfaces.cpp.o
@@ -967,7 +967,7 @@ php-src/Zend/zend_interfaces.o: php-src/Zend/zend_interfaces.cpp.o
 
 # target to build an object file
 php-src/Zend/zend_interfaces.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o
 .PHONY : php-src/Zend/zend_interfaces.cpp.o
 
 php-src/Zend/zend_interfaces.i: php-src/Zend/zend_interfaces.cpp.i
@@ -975,7 +975,7 @@ php-src/Zend/zend_interfaces.i: php-src/Zend/zend_interfaces.cpp.i
 
 # target to preprocess a source file
 php-src/Zend/zend_interfaces.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.i
 .PHONY : php-src/Zend/zend_interfaces.cpp.i
 
 php-src/Zend/zend_interfaces.s: php-src/Zend/zend_interfaces.cpp.s
@@ -983,7 +983,7 @@ php-src/Zend/zend_interfaces.s: php-src/Zend/zend_interfaces.cpp.s
 
 # target to generate assembly for a file
 php-src/Zend/zend_interfaces.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.s
 .PHONY : php-src/Zend/zend_interfaces.cpp.s
 
 php-src/Zend/zend_list.o: php-src/Zend/zend_list.cpp.o
@@ -991,7 +991,7 @@ php-src/Zend/zend_list.o: php-src/Zend/zend_list.cpp.o
 
 # target to build an object file
 php-src/Zend/zend_list.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o
 .PHONY : php-src/Zend/zend_list.cpp.o
 
 php-src/Zend/zend_list.i: php-src/Zend/zend_list.cpp.i
@@ -999,7 +999,7 @@ php-src/Zend/zend_list.i: php-src/Zend/zend_list.cpp.i
 
 # target to preprocess a source file
 php-src/Zend/zend_list.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.i
 .PHONY : php-src/Zend/zend_list.cpp.i
 
 php-src/Zend/zend_list.s: php-src/Zend/zend_list.cpp.s
@@ -1007,7 +1007,7 @@ php-src/Zend/zend_list.s: php-src/Zend/zend_list.cpp.s
 
 # target to generate assembly for a file
 php-src/Zend/zend_list.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.s
 .PHONY : php-src/Zend/zend_list.cpp.s
 
 php-src/Zend/zend_object_handlers.o: php-src/Zend/zend_object_handlers.cpp.o
@@ -1015,7 +1015,7 @@ php-src/Zend/zend_object_handlers.o: php-src/Zend/zend_object_handlers.cpp.o
 
 # target to build an object file
 php-src/Zend/zend_object_handlers.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o
 .PHONY : php-src/Zend/zend_object_handlers.cpp.o
 
 php-src/Zend/zend_object_handlers.i: php-src/Zend/zend_object_handlers.cpp.i
@@ -1023,7 +1023,7 @@ php-src/Zend/zend_object_handlers.i: php-src/Zend/zend_object_handlers.cpp.i
 
 # target to preprocess a source file
 php-src/Zend/zend_object_handlers.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.i
 .PHONY : php-src/Zend/zend_object_handlers.cpp.i
 
 php-src/Zend/zend_object_handlers.s: php-src/Zend/zend_object_handlers.cpp.s
@@ -1031,7 +1031,7 @@ php-src/Zend/zend_object_handlers.s: php-src/Zend/zend_object_handlers.cpp.s
 
 # target to generate assembly for a file
 php-src/Zend/zend_object_handlers.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.s
 .PHONY : php-src/Zend/zend_object_handlers.cpp.s
 
 php-src/Zend/zend_objects.o: php-src/Zend/zend_objects.cpp.o
@@ -1039,7 +1039,7 @@ php-src/Zend/zend_objects.o: php-src/Zend/zend_objects.cpp.o
 
 # target to build an object file
 php-src/Zend/zend_objects.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o
 .PHONY : php-src/Zend/zend_objects.cpp.o
 
 php-src/Zend/zend_objects.i: php-src/Zend/zend_objects.cpp.i
@@ -1047,7 +1047,7 @@ php-src/Zend/zend_objects.i: php-src/Zend/zend_objects.cpp.i
 
 # target to preprocess a source file
 php-src/Zend/zend_objects.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.i
 .PHONY : php-src/Zend/zend_objects.cpp.i
 
 php-src/Zend/zend_objects.s: php-src/Zend/zend_objects.cpp.s
@@ -1055,7 +1055,7 @@ php-src/Zend/zend_objects.s: php-src/Zend/zend_objects.cpp.s
 
 # target to generate assembly for a file
 php-src/Zend/zend_objects.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.s
 .PHONY : php-src/Zend/zend_objects.cpp.s
 
 php-src/Zend/zend_objects_API.o: php-src/Zend/zend_objects_API.cpp.o
@@ -1063,7 +1063,7 @@ php-src/Zend/zend_objects_API.o: php-src/Zend/zend_objects_API.cpp.o
 
 # target to build an object file
 php-src/Zend/zend_objects_API.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o
 .PHONY : php-src/Zend/zend_objects_API.cpp.o
 
 php-src/Zend/zend_objects_API.i: php-src/Zend/zend_objects_API.cpp.i
@@ -1071,7 +1071,7 @@ php-src/Zend/zend_objects_API.i: php-src/Zend/zend_objects_API.cpp.i
 
 # target to preprocess a source file
 php-src/Zend/zend_objects_API.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.i
 .PHONY : php-src/Zend/zend_objects_API.cpp.i
 
 php-src/Zend/zend_objects_API.s: php-src/Zend/zend_objects_API.cpp.s
@@ -1079,7 +1079,7 @@ php-src/Zend/zend_objects_API.s: php-src/Zend/zend_objects_API.cpp.s
 
 # target to generate assembly for a file
 php-src/Zend/zend_objects_API.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.s
 .PHONY : php-src/Zend/zend_objects_API.cpp.s
 
 php-src/Zend/zend_operators.o: php-src/Zend/zend_operators.cpp.o
@@ -1087,7 +1087,7 @@ php-src/Zend/zend_operators.o: php-src/Zend/zend_operators.cpp.o
 
 # target to build an object file
 php-src/Zend/zend_operators.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o
 .PHONY : php-src/Zend/zend_operators.cpp.o
 
 php-src/Zend/zend_operators.i: php-src/Zend/zend_operators.cpp.i
@@ -1095,7 +1095,7 @@ php-src/Zend/zend_operators.i: php-src/Zend/zend_operators.cpp.i
 
 # target to preprocess a source file
 php-src/Zend/zend_operators.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.i
 .PHONY : php-src/Zend/zend_operators.cpp.i
 
 php-src/Zend/zend_operators.s: php-src/Zend/zend_operators.cpp.s
@@ -1103,7 +1103,7 @@ php-src/Zend/zend_operators.s: php-src/Zend/zend_operators.cpp.s
 
 # target to generate assembly for a file
 php-src/Zend/zend_operators.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.s
 .PHONY : php-src/Zend/zend_operators.cpp.s
 
 php-src/Zend/zend_qsort.o: php-src/Zend/zend_qsort.cpp.o
@@ -1111,7 +1111,7 @@ php-src/Zend/zend_qsort.o: php-src/Zend/zend_qsort.cpp.o
 
 # target to build an object file
 php-src/Zend/zend_qsort.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o
 .PHONY : php-src/Zend/zend_qsort.cpp.o
 
 php-src/Zend/zend_qsort.i: php-src/Zend/zend_qsort.cpp.i
@@ -1119,7 +1119,7 @@ php-src/Zend/zend_qsort.i: php-src/Zend/zend_qsort.cpp.i
 
 # target to preprocess a source file
 php-src/Zend/zend_qsort.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.i
 .PHONY : php-src/Zend/zend_qsort.cpp.i
 
 php-src/Zend/zend_qsort.s: php-src/Zend/zend_qsort.cpp.s
@@ -1127,7 +1127,7 @@ php-src/Zend/zend_qsort.s: php-src/Zend/zend_qsort.cpp.s
 
 # target to generate assembly for a file
 php-src/Zend/zend_qsort.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.s
 .PHONY : php-src/Zend/zend_qsort.cpp.s
 
 php-src/Zend/zend_strtod.o: php-src/Zend/zend_strtod.cpp.o
@@ -1135,7 +1135,7 @@ php-src/Zend/zend_strtod.o: php-src/Zend/zend_strtod.cpp.o
 
 # target to build an object file
 php-src/Zend/zend_strtod.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o
 .PHONY : php-src/Zend/zend_strtod.cpp.o
 
 php-src/Zend/zend_strtod.i: php-src/Zend/zend_strtod.cpp.i
@@ -1143,7 +1143,7 @@ php-src/Zend/zend_strtod.i: php-src/Zend/zend_strtod.cpp.i
 
 # target to preprocess a source file
 php-src/Zend/zend_strtod.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.i
 .PHONY : php-src/Zend/zend_strtod.cpp.i
 
 php-src/Zend/zend_strtod.s: php-src/Zend/zend_strtod.cpp.s
@@ -1151,7 +1151,7 @@ php-src/Zend/zend_strtod.s: php-src/Zend/zend_strtod.cpp.s
 
 # target to generate assembly for a file
 php-src/Zend/zend_strtod.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.s
 .PHONY : php-src/Zend/zend_strtod.cpp.s
 
 php-src/Zend/zend_variables.o: php-src/Zend/zend_variables.cpp.o
@@ -1159,7 +1159,7 @@ php-src/Zend/zend_variables.o: php-src/Zend/zend_variables.cpp.o
 
 # target to build an object file
 php-src/Zend/zend_variables.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o
 .PHONY : php-src/Zend/zend_variables.cpp.o
 
 php-src/Zend/zend_variables.i: php-src/Zend/zend_variables.cpp.i
@@ -1167,7 +1167,7 @@ php-src/Zend/zend_variables.i: php-src/Zend/zend_variables.cpp.i
 
 # target to preprocess a source file
 php-src/Zend/zend_variables.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.i
 .PHONY : php-src/Zend/zend_variables.cpp.i
 
 php-src/Zend/zend_variables.s: php-src/Zend/zend_variables.cpp.s
@@ -1175,7 +1175,7 @@ php-src/Zend/zend_variables.s: php-src/Zend/zend_variables.cpp.s
 
 # target to generate assembly for a file
 php-src/Zend/zend_variables.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.s
 .PHONY : php-src/Zend/zend_variables.cpp.s
 
 php-src/Zend/zend_virtual_cwd.o: php-src/Zend/zend_virtual_cwd.cpp.o
@@ -1183,7 +1183,7 @@ php-src/Zend/zend_virtual_cwd.o: php-src/Zend/zend_virtual_cwd.cpp.o
 
 # target to build an object file
 php-src/Zend/zend_virtual_cwd.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o
 .PHONY : php-src/Zend/zend_virtual_cwd.cpp.o
 
 php-src/Zend/zend_virtual_cwd.i: php-src/Zend/zend_virtual_cwd.cpp.i
@@ -1191,7 +1191,7 @@ php-src/Zend/zend_virtual_cwd.i: php-src/Zend/zend_virtual_cwd.cpp.i
 
 # target to preprocess a source file
 php-src/Zend/zend_virtual_cwd.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.i
 .PHONY : php-src/Zend/zend_virtual_cwd.cpp.i
 
 php-src/Zend/zend_virtual_cwd.s: php-src/Zend/zend_virtual_cwd.cpp.s
@@ -1199,7 +1199,7 @@ php-src/Zend/zend_virtual_cwd.s: php-src/Zend/zend_virtual_cwd.cpp.s
 
 # target to generate assembly for a file
 php-src/Zend/zend_virtual_cwd.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.s
 .PHONY : php-src/Zend/zend_virtual_cwd.cpp.s
 
 php-src/ext/pcre/php_pcre.o: php-src/ext/pcre/php_pcre.cpp.o
@@ -1207,7 +1207,7 @@ php-src/ext/pcre/php_pcre.o: php-src/ext/pcre/php_pcre.cpp.o
 
 # target to build an object file
 php-src/ext/pcre/php_pcre.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o
 .PHONY : php-src/ext/pcre/php_pcre.cpp.o
 
 php-src/ext/pcre/php_pcre.i: php-src/ext/pcre/php_pcre.cpp.i
@@ -1215,7 +1215,7 @@ php-src/ext/pcre/php_pcre.i: php-src/ext/pcre/php_pcre.cpp.i
 
 # target to preprocess a source file
 php-src/ext/pcre/php_pcre.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.i
 .PHONY : php-src/ext/pcre/php_pcre.cpp.i
 
 php-src/ext/pcre/php_pcre.s: php-src/ext/pcre/php_pcre.cpp.s
@@ -1223,7 +1223,7 @@ php-src/ext/pcre/php_pcre.s: php-src/ext/pcre/php_pcre.cpp.s
 
 # target to generate assembly for a file
 php-src/ext/pcre/php_pcre.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.s
 .PHONY : php-src/ext/pcre/php_pcre.cpp.s
 
 php-src/ext/standard/base64.o: php-src/ext/standard/base64.cpp.o
@@ -1231,7 +1231,7 @@ php-src/ext/standard/base64.o: php-src/ext/standard/base64.cpp.o
 
 # target to build an object file
 php-src/ext/standard/base64.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o
 .PHONY : php-src/ext/standard/base64.cpp.o
 
 php-src/ext/standard/base64.i: php-src/ext/standard/base64.cpp.i
@@ -1239,7 +1239,7 @@ php-src/ext/standard/base64.i: php-src/ext/standard/base64.cpp.i
 
 # target to preprocess a source file
 php-src/ext/standard/base64.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.i
 .PHONY : php-src/ext/standard/base64.cpp.i
 
 php-src/ext/standard/base64.s: php-src/ext/standard/base64.cpp.s
@@ -1247,7 +1247,7 @@ php-src/ext/standard/base64.s: php-src/ext/standard/base64.cpp.s
 
 # target to generate assembly for a file
 php-src/ext/standard/base64.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.s
 .PHONY : php-src/ext/standard/base64.cpp.s
 
 php-src/ext/standard/basic_functions.o: php-src/ext/standard/basic_functions.cpp.o
@@ -1255,7 +1255,7 @@ php-src/ext/standard/basic_functions.o: php-src/ext/standard/basic_functions.cpp
 
 # target to build an object file
 php-src/ext/standard/basic_functions.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o
 .PHONY : php-src/ext/standard/basic_functions.cpp.o
 
 php-src/ext/standard/basic_functions.i: php-src/ext/standard/basic_functions.cpp.i
@@ -1263,7 +1263,7 @@ php-src/ext/standard/basic_functions.i: php-src/ext/standard/basic_functions.cpp
 
 # target to preprocess a source file
 php-src/ext/standard/basic_functions.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.i
 .PHONY : php-src/ext/standard/basic_functions.cpp.i
 
 php-src/ext/standard/basic_functions.s: php-src/ext/standard/basic_functions.cpp.s
@@ -1271,7 +1271,7 @@ php-src/ext/standard/basic_functions.s: php-src/ext/standard/basic_functions.cpp
 
 # target to generate assembly for a file
 php-src/ext/standard/basic_functions.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.s
 .PHONY : php-src/ext/standard/basic_functions.cpp.s
 
 php-src/ext/standard/file.o: php-src/ext/standard/file.cpp.o
@@ -1279,7 +1279,7 @@ php-src/ext/standard/file.o: php-src/ext/standard/file.cpp.o
 
 # target to build an object file
 php-src/ext/standard/file.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o
 .PHONY : php-src/ext/standard/file.cpp.o
 
 php-src/ext/standard/file.i: php-src/ext/standard/file.cpp.i
@@ -1287,7 +1287,7 @@ php-src/ext/standard/file.i: php-src/ext/standard/file.cpp.i
 
 # target to preprocess a source file
 php-src/ext/standard/file.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.i
 .PHONY : php-src/ext/standard/file.cpp.i
 
 php-src/ext/standard/file.s: php-src/ext/standard/file.cpp.s
@@ -1295,7 +1295,7 @@ php-src/ext/standard/file.s: php-src/ext/standard/file.cpp.s
 
 # target to generate assembly for a file
 php-src/ext/standard/file.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.s
 .PHONY : php-src/ext/standard/file.cpp.s
 
 php-src/ext/standard/info.o: php-src/ext/standard/info.cpp.o
@@ -1303,7 +1303,7 @@ php-src/ext/standard/info.o: php-src/ext/standard/info.cpp.o
 
 # target to build an object file
 php-src/ext/standard/info.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o
 .PHONY : php-src/ext/standard/info.cpp.o
 
 php-src/ext/standard/info.i: php-src/ext/standard/info.cpp.i
@@ -1311,7 +1311,7 @@ php-src/ext/standard/info.i: php-src/ext/standard/info.cpp.i
 
 # target to preprocess a source file
 php-src/ext/standard/info.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.i
 .PHONY : php-src/ext/standard/info.cpp.i
 
 php-src/ext/standard/info.s: php-src/ext/standard/info.cpp.s
@@ -1319,7 +1319,7 @@ php-src/ext/standard/info.s: php-src/ext/standard/info.cpp.s
 
 # target to generate assembly for a file
 php-src/ext/standard/info.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.s
 .PHONY : php-src/ext/standard/info.cpp.s
 
 php-src/ext/standard/lcg.o: php-src/ext/standard/lcg.cpp.o
@@ -1327,7 +1327,7 @@ php-src/ext/standard/lcg.o: php-src/ext/standard/lcg.cpp.o
 
 # target to build an object file
 php-src/ext/standard/lcg.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o
 .PHONY : php-src/ext/standard/lcg.cpp.o
 
 php-src/ext/standard/lcg.i: php-src/ext/standard/lcg.cpp.i
@@ -1335,7 +1335,7 @@ php-src/ext/standard/lcg.i: php-src/ext/standard/lcg.cpp.i
 
 # target to preprocess a source file
 php-src/ext/standard/lcg.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.i
 .PHONY : php-src/ext/standard/lcg.cpp.i
 
 php-src/ext/standard/lcg.s: php-src/ext/standard/lcg.cpp.s
@@ -1343,7 +1343,7 @@ php-src/ext/standard/lcg.s: php-src/ext/standard/lcg.cpp.s
 
 # target to generate assembly for a file
 php-src/ext/standard/lcg.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.s
 .PHONY : php-src/ext/standard/lcg.cpp.s
 
 php-src/ext/standard/rand.o: php-src/ext/standard/rand.cpp.o
@@ -1351,7 +1351,7 @@ php-src/ext/standard/rand.o: php-src/ext/standard/rand.cpp.o
 
 # target to build an object file
 php-src/ext/standard/rand.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o
 .PHONY : php-src/ext/standard/rand.cpp.o
 
 php-src/ext/standard/rand.i: php-src/ext/standard/rand.cpp.i
@@ -1359,7 +1359,7 @@ php-src/ext/standard/rand.i: php-src/ext/standard/rand.cpp.i
 
 # target to preprocess a source file
 php-src/ext/standard/rand.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.i
 .PHONY : php-src/ext/standard/rand.cpp.i
 
 php-src/ext/standard/rand.s: php-src/ext/standard/rand.cpp.s
@@ -1367,7 +1367,7 @@ php-src/ext/standard/rand.s: php-src/ext/standard/rand.cpp.s
 
 # target to generate assembly for a file
 php-src/ext/standard/rand.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.s
 .PHONY : php-src/ext/standard/rand.cpp.s
 
 php-src/ext/standard/string.o: php-src/ext/standard/string.cpp.o
@@ -1375,7 +1375,7 @@ php-src/ext/standard/string.o: php-src/ext/standard/string.cpp.o
 
 # target to build an object file
 php-src/ext/standard/string.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o
 .PHONY : php-src/ext/standard/string.cpp.o
 
 php-src/ext/standard/string.i: php-src/ext/standard/string.cpp.i
@@ -1383,7 +1383,7 @@ php-src/ext/standard/string.i: php-src/ext/standard/string.cpp.i
 
 # target to preprocess a source file
 php-src/ext/standard/string.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.i
 .PHONY : php-src/ext/standard/string.cpp.i
 
 php-src/ext/standard/string.s: php-src/ext/standard/string.cpp.s
@@ -1391,7 +1391,7 @@ php-src/ext/standard/string.s: php-src/ext/standard/string.cpp.s
 
 # target to generate assembly for a file
 php-src/ext/standard/string.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.s
 .PHONY : php-src/ext/standard/string.cpp.s
 
 php-src/ext/standard/url.o: php-src/ext/standard/url.cpp.o
@@ -1399,7 +1399,7 @@ php-src/ext/standard/url.o: php-src/ext/standard/url.cpp.o
 
 # target to build an object file
 php-src/ext/standard/url.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o
 .PHONY : php-src/ext/standard/url.cpp.o
 
 php-src/ext/standard/url.i: php-src/ext/standard/url.cpp.i
@@ -1407,7 +1407,7 @@ php-src/ext/standard/url.i: php-src/ext/standard/url.cpp.i
 
 # target to preprocess a source file
 php-src/ext/standard/url.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.i
 .PHONY : php-src/ext/standard/url.cpp.i
 
 php-src/ext/standard/url.s: php-src/ext/standard/url.cpp.s
@@ -1415,7 +1415,7 @@ php-src/ext/standard/url.s: php-src/ext/standard/url.cpp.s
 
 # target to generate assembly for a file
 php-src/ext/standard/url.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.s
 .PHONY : php-src/ext/standard/url.cpp.s
 
 php-src/ext/standard/var.o: php-src/ext/standard/var.cpp.o
@@ -1423,7 +1423,7 @@ php-src/ext/standard/var.o: php-src/ext/standard/var.cpp.o
 
 # target to build an object file
 php-src/ext/standard/var.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o
 .PHONY : php-src/ext/standard/var.cpp.o
 
 php-src/ext/standard/var.i: php-src/ext/standard/var.cpp.i
@@ -1431,7 +1431,7 @@ php-src/ext/standard/var.i: php-src/ext/standard/var.cpp.i
 
 # target to preprocess a source file
 php-src/ext/standard/var.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.i
 .PHONY : php-src/ext/standard/var.cpp.i
 
 php-src/ext/standard/var.s: php-src/ext/standard/var.cpp.s
@@ -1439,7 +1439,7 @@ php-src/ext/standard/var.s: php-src/ext/standard/var.cpp.s
 
 # target to generate assembly for a file
 php-src/ext/standard/var.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.s
 .PHONY : php-src/ext/standard/var.cpp.s
 
 php-src/main/SAPI.o: php-src/main/SAPI.cpp.o
@@ -1447,7 +1447,7 @@ php-src/main/SAPI.o: php-src/main/SAPI.cpp.o
 
 # target to build an object file
 php-src/main/SAPI.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o
 .PHONY : php-src/main/SAPI.cpp.o
 
 php-src/main/SAPI.i: php-src/main/SAPI.cpp.i
@@ -1455,7 +1455,7 @@ php-src/main/SAPI.i: php-src/main/SAPI.cpp.i
 
 # target to preprocess a source file
 php-src/main/SAPI.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.i
 .PHONY : php-src/main/SAPI.cpp.i
 
 php-src/main/SAPI.s: php-src/main/SAPI.cpp.s
@@ -1463,7 +1463,7 @@ php-src/main/SAPI.s: php-src/main/SAPI.cpp.s
 
 # target to generate assembly for a file
 php-src/main/SAPI.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.s
 .PHONY : php-src/main/SAPI.cpp.s
 
 php-src/main/fopen_wrappers.o: php-src/main/fopen_wrappers.cpp.o
@@ -1471,7 +1471,7 @@ php-src/main/fopen_wrappers.o: php-src/main/fopen_wrappers.cpp.o
 
 # target to build an object file
 php-src/main/fopen_wrappers.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o
 .PHONY : php-src/main/fopen_wrappers.cpp.o
 
 php-src/main/fopen_wrappers.i: php-src/main/fopen_wrappers.cpp.i
@@ -1479,7 +1479,7 @@ php-src/main/fopen_wrappers.i: php-src/main/fopen_wrappers.cpp.i
 
 # target to preprocess a source file
 php-src/main/fopen_wrappers.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.i
 .PHONY : php-src/main/fopen_wrappers.cpp.i
 
 php-src/main/fopen_wrappers.s: php-src/main/fopen_wrappers.cpp.s
@@ -1487,7 +1487,7 @@ php-src/main/fopen_wrappers.s: php-src/main/fopen_wrappers.cpp.s
 
 # target to generate assembly for a file
 php-src/main/fopen_wrappers.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.s
 .PHONY : php-src/main/fopen_wrappers.cpp.s
 
 php-src/main/main.o: php-src/main/main.cpp.o
@@ -1495,7 +1495,7 @@ php-src/main/main.o: php-src/main/main.cpp.o
 
 # target to build an object file
 php-src/main/main.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o
 .PHONY : php-src/main/main.cpp.o
 
 php-src/main/main.i: php-src/main/main.cpp.i
@@ -1503,7 +1503,7 @@ php-src/main/main.i: php-src/main/main.cpp.i
 
 # target to preprocess a source file
 php-src/main/main.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.i
 .PHONY : php-src/main/main.cpp.i
 
 php-src/main/main.s: php-src/main/main.cpp.s
@@ -1511,7 +1511,7 @@ php-src/main/main.s: php-src/main/main.cpp.s
 
 # target to generate assembly for a file
 php-src/main/main.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.s
 .PHONY : php-src/main/main.cpp.s
 
 php-src/main/network.o: php-src/main/network.cpp.o
@@ -1519,7 +1519,7 @@ php-src/main/network.o: php-src/main/network.cpp.o
 
 # target to build an object file
 php-src/main/network.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o
 .PHONY : php-src/main/network.cpp.o
 
 php-src/main/network.i: php-src/main/network.cpp.i
@@ -1527,7 +1527,7 @@ php-src/main/network.i: php-src/main/network.cpp.i
 
 # target to preprocess a source file
 php-src/main/network.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.i
 .PHONY : php-src/main/network.cpp.i
 
 php-src/main/network.s: php-src/main/network.cpp.s
@@ -1535,7 +1535,7 @@ php-src/main/network.s: php-src/main/network.cpp.s
 
 # target to generate assembly for a file
 php-src/main/network.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.s
 .PHONY : php-src/main/network.cpp.s
 
 php-src/main/php_globals.o: php-src/main/php_globals.cpp.o
@@ -1543,7 +1543,7 @@ php-src/main/php_globals.o: php-src/main/php_globals.cpp.o
 
 # target to build an object file
 php-src/main/php_globals.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o
 .PHONY : php-src/main/php_globals.cpp.o
 
 php-src/main/php_globals.i: php-src/main/php_globals.cpp.i
@@ -1551,7 +1551,7 @@ php-src/main/php_globals.i: php-src/main/php_globals.cpp.i
 
 # target to preprocess a source file
 php-src/main/php_globals.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.i
 .PHONY : php-src/main/php_globals.cpp.i
 
 php-src/main/php_globals.s: php-src/main/php_globals.cpp.s
@@ -1559,7 +1559,7 @@ php-src/main/php_globals.s: php-src/main/php_globals.cpp.s
 
 # target to generate assembly for a file
 php-src/main/php_globals.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.s
 .PHONY : php-src/main/php_globals.cpp.s
 
 php-src/main/php_sprintf.o: php-src/main/php_sprintf.cpp.o
@@ -1567,7 +1567,7 @@ php-src/main/php_sprintf.o: php-src/main/php_sprintf.cpp.o
 
 # target to build an object file
 php-src/main/php_sprintf.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o
 .PHONY : php-src/main/php_sprintf.cpp.o
 
 php-src/main/php_sprintf.i: php-src/main/php_sprintf.cpp.i
@@ -1575,7 +1575,7 @@ php-src/main/php_sprintf.i: php-src/main/php_sprintf.cpp.i
 
 # target to preprocess a source file
 php-src/main/php_sprintf.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.i
 .PHONY : php-src/main/php_sprintf.cpp.i
 
 php-src/main/php_sprintf.s: php-src/main/php_sprintf.cpp.s
@@ -1583,7 +1583,7 @@ php-src/main/php_sprintf.s: php-src/main/php_sprintf.cpp.s
 
 # target to generate assembly for a file
 php-src/main/php_sprintf.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.s
 .PHONY : php-src/main/php_sprintf.cpp.s
 
 php-src/main/php_variable.o: php-src/main/php_variable.cpp.o
@@ -1591,7 +1591,7 @@ php-src/main/php_variable.o: php-src/main/php_variable.cpp.o
 
 # target to build an object file
 php-src/main/php_variable.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o
 .PHONY : php-src/main/php_variable.cpp.o
 
 php-src/main/php_variable.i: php-src/main/php_variable.cpp.i
@@ -1599,7 +1599,7 @@ php-src/main/php_variable.i: php-src/main/php_variable.cpp.i
 
 # target to preprocess a source file
 php-src/main/php_variable.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.i
 .PHONY : php-src/main/php_variable.cpp.i
 
 php-src/main/php_variable.s: php-src/main/php_variable.cpp.s
@@ -1607,7 +1607,7 @@ php-src/main/php_variable.s: php-src/main/php_variable.cpp.s
 
 # target to generate assembly for a file
 php-src/main/php_variable.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.s
 .PHONY : php-src/main/php_variable.cpp.s
 
 php-src/main/snprintf.o: php-src/main/snprintf.cpp.o
@@ -1615,7 +1615,7 @@ php-src/main/snprintf.o: php-src/main/snprintf.cpp.o
 
 # target to build an object file
 php-src/main/snprintf.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o
 .PHONY : php-src/main/snprintf.cpp.o
 
 php-src/main/snprintf.i: php-src/main/snprintf.cpp.i
@@ -1623,7 +1623,7 @@ php-src/main/snprintf.i: php-src/main/snprintf.cpp.i
 
 # target to preprocess a source file
 php-src/main/snprintf.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.i
 .PHONY : php-src/main/snprintf.cpp.i
 
 php-src/main/snprintf.s: php-src/main/snprintf.cpp.s
@@ -1631,7 +1631,7 @@ php-src/main/snprintf.s: php-src/main/snprintf.cpp.s
 
 # target to generate assembly for a file
 php-src/main/snprintf.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.s
 .PHONY : php-src/main/snprintf.cpp.s
 
 php-src/main/spprintf.o: php-src/main/spprintf.cpp.o
@@ -1639,7 +1639,7 @@ php-src/main/spprintf.o: php-src/main/spprintf.cpp.o
 
 # target to build an object file
 php-src/main/spprintf.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o
 .PHONY : php-src/main/spprintf.cpp.o
 
 php-src/main/spprintf.i: php-src/main/spprintf.cpp.i
@@ -1647,7 +1647,7 @@ php-src/main/spprintf.i: php-src/main/spprintf.cpp.i
 
 # target to preprocess a source file
 php-src/main/spprintf.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.i
 .PHONY : php-src/main/spprintf.cpp.i
 
 php-src/main/spprintf.s: php-src/main/spprintf.cpp.s
@@ -1655,7 +1655,7 @@ php-src/main/spprintf.s: php-src/main/spprintf.cpp.s
 
 # target to generate assembly for a file
 php-src/main/spprintf.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.s
 .PHONY : php-src/main/spprintf.cpp.s
 
 php-src/main/streams/plain_wrapper.o: php-src/main/streams/plain_wrapper.cpp.o
@@ -1663,7 +1663,7 @@ php-src/main/streams/plain_wrapper.o: php-src/main/streams/plain_wrapper.cpp.o
 
 # target to build an object file
 php-src/main/streams/plain_wrapper.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o
 .PHONY : php-src/main/streams/plain_wrapper.cpp.o
 
 php-src/main/streams/plain_wrapper.i: php-src/main/streams/plain_wrapper.cpp.i
@@ -1671,7 +1671,7 @@ php-src/main/streams/plain_wrapper.i: php-src/main/streams/plain_wrapper.cpp.i
 
 # target to preprocess a source file
 php-src/main/streams/plain_wrapper.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.i
 .PHONY : php-src/main/streams/plain_wrapper.cpp.i
 
 php-src/main/streams/plain_wrapper.s: php-src/main/streams/plain_wrapper.cpp.s
@@ -1679,7 +1679,7 @@ php-src/main/streams/plain_wrapper.s: php-src/main/streams/plain_wrapper.cpp.s
 
 # target to generate assembly for a file
 php-src/main/streams/plain_wrapper.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.s
 .PHONY : php-src/main/streams/plain_wrapper.cpp.s
 
 php-src/main/streams/streams.o: php-src/main/streams/streams.cpp.o
@@ -1687,7 +1687,7 @@ php-src/main/streams/streams.o: php-src/main/streams/streams.cpp.o
 
 # target to build an object file
 php-src/main/streams/streams.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o
 .PHONY : php-src/main/streams/streams.cpp.o
 
 php-src/main/streams/streams.i: php-src/main/streams/streams.cpp.i
@@ -1695,7 +1695,7 @@ php-src/main/streams/streams.i: php-src/main/streams/streams.cpp.i
 
 # target to preprocess a source file
 php-src/main/streams/streams.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.i
 .PHONY : php-src/main/streams/streams.cpp.i
 
 php-src/main/streams/streams.s: php-src/main/streams/streams.cpp.s
@@ -1703,7 +1703,7 @@ php-src/main/streams/streams.s: php-src/main/streams/streams.cpp.s
 
 # target to generate assembly for a file
 php-src/main/streams/streams.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.s
 .PHONY : php-src/main/streams/streams.cpp.s
 
 php-src/main/streams/transports.o: php-src/main/streams/transports.cpp.o
@@ -1711,7 +1711,7 @@ php-src/main/streams/transports.o: php-src/main/streams/transports.cpp.o
 
 # target to build an object file
 php-src/main/streams/transports.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o
 .PHONY : php-src/main/streams/transports.cpp.o
 
 php-src/main/streams/transports.i: php-src/main/streams/transports.cpp.i
@@ -1719,7 +1719,7 @@ php-src/main/streams/transports.i: php-src/main/streams/transports.cpp.i
 
 # target to preprocess a source file
 php-src/main/streams/transports.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.i
 .PHONY : php-src/main/streams/transports.cpp.i
 
 php-src/main/streams/transports.s: php-src/main/streams/transports.cpp.s
@@ -1727,7 +1727,7 @@ php-src/main/streams/transports.s: php-src/main/streams/transports.cpp.s
 
 # target to generate assembly for a file
 php-src/main/streams/transports.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.s
 .PHONY : php-src/main/streams/transports.cpp.s
 
 php-src/main/strlcpy.o: php-src/main/strlcpy.cpp.o
@@ -1735,7 +1735,7 @@ php-src/main/strlcpy.o: php-src/main/strlcpy.cpp.o
 
 # target to build an object file
 php-src/main/strlcpy.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o
 .PHONY : php-src/main/strlcpy.cpp.o
 
 php-src/main/strlcpy.i: php-src/main/strlcpy.cpp.i
@@ -1743,7 +1743,7 @@ php-src/main/strlcpy.i: php-src/main/strlcpy.cpp.i
 
 # target to preprocess a source file
 php-src/main/strlcpy.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.i
 .PHONY : php-src/main/strlcpy.cpp.i
 
 php-src/main/strlcpy.s: php-src/main/strlcpy.cpp.s
@@ -1751,7 +1751,7 @@ php-src/main/strlcpy.s: php-src/main/strlcpy.cpp.s
 
 # target to generate assembly for a file
 php-src/main/strlcpy.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.s
 .PHONY : php-src/main/strlcpy.cpp.s
 
 yaml/detect.o: yaml/detect.cpp.o
@@ -1759,7 +1759,7 @@ yaml/detect.o: yaml/detect.cpp.o
 
 # target to build an object file
 yaml/detect.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o
 .PHONY : yaml/detect.cpp.o
 
 yaml/detect.i: yaml/detect.cpp.i
@@ -1767,7 +1767,7 @@ yaml/detect.i: yaml/detect.cpp.i
 
 # target to preprocess a source file
 yaml/detect.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.i
 .PHONY : yaml/detect.cpp.i
 
 yaml/detect.s: yaml/detect.cpp.s
@@ -1775,7 +1775,7 @@ yaml/detect.s: yaml/detect.cpp.s
 
 # target to generate assembly for a file
 yaml/detect.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.s
 .PHONY : yaml/detect.cpp.s
 
 yaml/emit.o: yaml/emit.cpp.o
@@ -1783,7 +1783,7 @@ yaml/emit.o: yaml/emit.cpp.o
 
 # target to build an object file
 yaml/emit.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o
 .PHONY : yaml/emit.cpp.o
 
 yaml/emit.i: yaml/emit.cpp.i
@@ -1791,7 +1791,7 @@ yaml/emit.i: yaml/emit.cpp.i
 
 # target to preprocess a source file
 yaml/emit.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.i
 .PHONY : yaml/emit.cpp.i
 
 yaml/emit.s: yaml/emit.cpp.s
@@ -1799,7 +1799,7 @@ yaml/emit.s: yaml/emit.cpp.s
 
 # target to generate assembly for a file
 yaml/emit.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.s
 .PHONY : yaml/emit.cpp.s
 
 yaml/parse.o: yaml/parse.cpp.o
@@ -1807,7 +1807,7 @@ yaml/parse.o: yaml/parse.cpp.o
 
 # target to build an object file
 yaml/parse.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o
 .PHONY : yaml/parse.cpp.o
 
 yaml/parse.i: yaml/parse.cpp.i
@@ -1815,7 +1815,7 @@ yaml/parse.i: yaml/parse.cpp.i
 
 # target to preprocess a source file
 yaml/parse.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.i
 .PHONY : yaml/parse.cpp.i
 
 yaml/parse.s: yaml/parse.cpp.s
@@ -1823,7 +1823,7 @@ yaml/parse.s: yaml/parse.cpp.s
 
 # target to generate assembly for a file
 yaml/parse.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.s
 .PHONY : yaml/parse.cpp.s
 
 yaml/yaml.o: yaml/yaml.cpp.o
@@ -1831,7 +1831,7 @@ yaml/yaml.o: yaml/yaml.cpp.o
 
 # target to build an object file
 yaml/yaml.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o
 .PHONY : yaml/yaml.cpp.o
 
 yaml/yaml.i: yaml/yaml.cpp.i
@@ -1839,7 +1839,7 @@ yaml/yaml.i: yaml/yaml.cpp.i
 
 # target to preprocess a source file
 yaml/yaml.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.i
 .PHONY : yaml/yaml.cpp.i
 
 yaml/yaml.s: yaml/yaml.cpp.s
@@ -1847,7 +1847,7 @@ yaml/yaml.s: yaml/yaml.cpp.s
 
 # target to generate assembly for a file
 yaml/yaml.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/build.make hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.s
 .PHONY : yaml/yaml.cpp.s
 
 # Help Target
@@ -2085,6 +2085,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /tmp/hhvm-3.12.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

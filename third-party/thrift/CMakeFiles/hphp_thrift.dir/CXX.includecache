@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/EventHandlerBase.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/EventHandlerBase.cpp
 thrift/lib/cpp/TProcessor.h
 -
 thrift/lib/cpp/async/TAsyncChannel.h
@@ -18,7 +18,7 @@ thrift/lib/cpp/util/SocketRetriever.h
 algorithm
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/Thrift.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/Thrift.cpp
 thrift/lib/cpp/Thrift.h
 -
 cstring
@@ -30,7 +30,7 @@ stdarg.h
 stdio.h
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/VirtualProfiling.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/VirtualProfiling.cpp
 thrift/lib/cpp/Thrift.h
 -
 thrift/lib/cpp/concurrency/Mutex.h
@@ -42,19 +42,19 @@ execinfo.h
 stdio.h
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/async/TAsyncSSLSocketFactory.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/async/TAsyncSSLSocketFactory.cpp
 thrift/lib/cpp/async/TAsyncSSLSocketFactory.h
 -
 thrift/lib/cpp/async/TAsyncSSLSocket.h
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/async/TAsyncSocketFactory.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/async/TAsyncSocketFactory.cpp
 thrift/lib/cpp/async/TAsyncSocketFactory.h
 -
 folly/Memory.h
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/async/TBinaryAsyncChannel.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/async/TBinaryAsyncChannel.cpp
 thrift/lib/cpp/async/TBinaryAsyncChannel.h
 -
 thrift/lib/cpp/protocol/TBinaryProtocol.h
@@ -66,7 +66,7 @@ thrift/lib/cpp/async/TStreamAsyncChannel.tcc
 thrift/lib/cpp/async/TUnframedAsyncChannel.tcc
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/async/TEventConnection.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/async/TEventConnection.cpp
 thrift/lib/cpp/async/TEventConnection.h
 -
 thrift/lib/cpp/async/TAsyncSocket.h
@@ -88,7 +88,7 @@ thrift/lib/cpp/protocol/THeaderProtocol.h
 assert.h
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/async/TEventServer.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/async/TEventServer.cpp
 thrift/lib/cpp/async/TEventServer.h
 -
 folly/ScopeGuard.h
@@ -122,7 +122,7 @@ assert.h
 signal.h
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/async/TEventTask.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/async/TEventTask.cpp
 thrift/lib/cpp/async/TEventTask.h
 -
 thrift/lib/cpp/async/TEventServer.h
@@ -130,7 +130,7 @@ thrift/lib/cpp/async/TEventServer.h
 thrift/lib/cpp/async/TEventWorker.h
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/async/TEventWorker.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/async/TEventWorker.cpp
 thrift/lib/cpp/async/TEventWorker.h
 -
 thrift/lib/cpp/async/TEventConnection.h
@@ -164,13 +164,13 @@ errno.h
 assert.h
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/async/TFramedAsyncChannel.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/async/TFramedAsyncChannel.cpp
 thrift/lib/cpp/async/TFramedAsyncChannel.h
 -
 thrift/lib/cpp/async/TStreamAsyncChannel.tcc
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/async/THeaderAsyncChannel.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/async/THeaderAsyncChannel.cpp
 thrift/lib/cpp/async/THeaderAsyncChannel.h
 -
 thrift/lib/cpp/protocol/THeaderProtocol.h
@@ -184,23 +184,23 @@ thrift/lib/cpp/async/TBinaryAsyncChannel.h
 thrift/lib/cpp/async/TUnframedAsyncChannel.tcc
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/async/THttpAsyncChannel.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/async/THttpAsyncChannel.cpp
 thrift/lib/cpp/async/THttpAsyncChannel.h
 -
 thrift/lib/cpp/async/TStreamAsyncChannel.tcc
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/async/TUnframedAsyncChannel.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/async/TUnframedAsyncChannel.cpp
 thrift/lib/cpp/async/TUnframedAsyncChannel.h
 -
 thrift/lib/cpp/transport/TBufferTransports.h
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/async/TZlibAsyncChannel.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/async/TZlibAsyncChannel.cpp
 thrift/lib/cpp/async/TZlibAsyncChannel.h
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/concurrency/Monitor.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/concurrency/Monitor.cpp
 thrift/lib/cpp/concurrency/Monitor.h
 -
 thrift/lib/cpp/concurrency/Exception.h
@@ -220,7 +220,7 @@ iostream
 pthread.h
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/concurrency/Mutex.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/concurrency/Mutex.cpp
 thrift/lib/cpp/concurrency/Mutex.h
 -
 thrift/lib/cpp/concurrency/Exception.h
@@ -240,7 +240,7 @@ signal.h
 errno.h
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/concurrency/PosixThreadFactory.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/concurrency/PosixThreadFactory.cpp
 thrift/lib/cpp/concurrency/PosixThreadFactory.h
 -
 thrift/lib/cpp/concurrency/Exception.h
@@ -264,13 +264,13 @@ folly/String.h
 glog/logging.h
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/concurrency/ProfiledMutex.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/concurrency/ProfiledMutex.cpp
 thrift/lib/cpp/concurrency/ProfiledMutex.h
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/concurrency/ThreadManager.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/concurrency/ThreadManager.cpp
 ThreadManager.h
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/concurrency/ThreadManager.h
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/concurrency/ThreadManager.h
 thrift/lib/cpp/concurrency/ThreadManager-impl.h
 -
 thrift/lib/cpp/concurrency/PosixThreadFactory.h
@@ -292,7 +292,7 @@ set
 iostream
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/concurrency/ThreadManager.h
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/concurrency/ThreadManager.h
 sys/types.h
 -
 unistd.h
@@ -324,7 +324,7 @@ gflags/gflags.h
 thrift/lib/cpp/concurrency/ThreadManager.tcc
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/concurrency/TimerManager.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/concurrency/TimerManager.cpp
 thrift/lib/cpp/concurrency/TimerManager.h
 -
 thrift/lib/cpp/concurrency/Exception.h
@@ -338,7 +338,7 @@ iostream
 set
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/concurrency/Util.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/concurrency/Util.cpp
 thrift/lib/cpp/concurrency/Util.h
 -
 thrift/lib/cpp/thrift_config.h
@@ -354,17 +354,17 @@ assert.h
 glog/logging.h
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/processor/PeekProcessor.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/processor/PeekProcessor.cpp
 thrift/lib/cpp/processor/PeekProcessor.h
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/server/TRpcTransportContext.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/server/TRpcTransportContext.cpp
 thrift/lib/cpp/server/TRpcTransportContext.h
 -
 thrift/lib/cpp/transport/TRpcTransport.h
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/server/TServer.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/server/TServer.cpp
 thrift/lib/cpp/server/TServer.h
 -
 sys/time.h
@@ -374,7 +374,7 @@ sys/resource.h
 unistd.h
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/transport/TBufferTransports.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/transport/TBufferTransports.cpp
 thrift/lib/cpp/transport/TBufferTransports.h
 -
 cassert
@@ -382,13 +382,13 @@ cassert
 algorithm
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/transport/TCallbackTransport.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/transport/TCallbackTransport.cpp
 thrift/lib/cpp/transport/TCallbackTransport.h
 -
 exception
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/transport/TFDTransport.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/transport/TFDTransport.cpp
 thrift/lib/cpp/transport/TFDTransport.h
 -
 cerrno
@@ -398,7 +398,7 @@ exception
 unistd.h
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/transport/TFileTransport.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/transport/TFileTransport.cpp
 thrift/lib/cpp/transport/TFileTransport.h
 -
 thrift/lib/cpp/thrift_config.h
@@ -430,7 +430,7 @@ iostream
 sys/stat.h
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/transport/THttpClient.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/transport/THttpClient.cpp
 thrift/lib/cpp/transport/THttpClient.h
 -
 cstdlib
@@ -446,7 +446,7 @@ boost/lexical_cast.hpp
 thrift/lib/cpp/transport/TSocket.h
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/transport/THttpServer.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/transport/THttpServer.cpp
 thrift/lib/cpp/transport/THttpServer.h
 -
 cstdlib
@@ -458,17 +458,17 @@ iostream
 thrift/lib/cpp/transport/TSocket.h
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/transport/THttpTransport.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/transport/THttpTransport.cpp
 thrift/lib/cpp/transport/THttpTransport.h
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/transport/TSSLServerSocket.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/transport/TSSLServerSocket.cpp
 thrift/lib/cpp/transport/TSSLServerSocket.h
 -
 thrift/lib/cpp/transport/TSSLSocket.h
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/transport/TSSLSocket.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/transport/TSSLSocket.cpp
 thrift/lib/cpp/transport/TSSLSocket.h
 -
 arpa/inet.h
@@ -498,7 +498,7 @@ vector
 thrift/lib/cpp/concurrency/ProfiledMutex.h
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/transport/TServerSocket.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/transport/TServerSocket.cpp
 thrift/lib/cpp/transport/TServerSocket.h
 -
 cstring
@@ -530,7 +530,7 @@ thrift/lib/cpp/util/FdUtils.h
 memory
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/transport/TSimpleFileTransport.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/transport/TSimpleFileTransport.cpp
 thrift/lib/cpp/transport/TSimpleFileTransport.h
 -
 sys/types.h
@@ -540,7 +540,7 @@ sys/stat.h
 fcntl.h
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/transport/TSocket.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/transport/TSocket.cpp
 thrift/lib/cpp/transport/TSocket.h
 -
 thrift/lib/cpp/thrift_config.h
@@ -574,13 +574,13 @@ fcntl.h
 thrift/lib/cpp/transport/TTransportException.h
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/transport/TSocketOverHttpTunnel.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/transport/TSocketOverHttpTunnel.cpp
 thrift/lib/cpp/transport/TSocketOverHttpTunnel.h
 -
 folly/String.h
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/transport/TSocketPool.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/transport/TSocketPool.cpp
 thrift/lib/cpp/transport/TSocketPool.h
 -
 algorithm
@@ -590,7 +590,7 @@ iostream
 sstream
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/transport/TTransportException.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/transport/TTransportException.cpp
 thrift/lib/cpp/transport/TTransportException.h
 -
 cstring
@@ -598,11 +598,11 @@ cstring
 thrift/lib/cpp/thrift_config.h
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/transport/TTransportUtils.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/transport/TTransportUtils.cpp
 thrift/lib/cpp/transport/TTransportUtils.h
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/transport/TZlibTransport.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/transport/TZlibTransport.cpp
 thrift/lib/cpp/transport/TZlibTransport.h
 -
 cassert
@@ -614,13 +614,13 @@ algorithm
 zlib.h
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/util/FdUtils.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/util/FdUtils.cpp
 thrift/lib/cpp/util/FdUtils.h
 -
 fcntl.h
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/util/PausableTimer.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/util/PausableTimer.cpp
 thrift/lib/cpp/util/PausableTimer.h
 -
 stdint.h
@@ -628,7 +628,7 @@ stdint.h
 sys/time.h
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/util/ScopedServerThread.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/util/ScopedServerThread.cpp
 thrift/lib/cpp/util/ScopedServerThread.h
 -
 thrift/lib/cpp/concurrency/Monitor.h
@@ -642,7 +642,7 @@ folly/SocketAddress.h
 thrift/lib/cpp/util/ServerCreator.h
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/util/ServerCreatorBase.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/util/ServerCreatorBase.cpp
 thrift/lib/cpp/util/ServerCreatorBase.h
 -
 thrift/lib/cpp/protocol/TBinaryProtocol.h
@@ -652,9 +652,9 @@ thrift/lib/cpp/server/TServer.h
 thrift/lib/cpp/transport/TBufferTransports.h
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/util/SocketRetriever.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/util/SocketRetriever.cpp
 SocketRetriever.h
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/util/SocketRetriever.h
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/util/SocketRetriever.h
 typeinfo
 -
 thrift/lib/cpp/transport/TBufferTransports.h
@@ -662,13 +662,13 @@ thrift/lib/cpp/transport/TBufferTransports.h
 thrift/lib/cpp/transport/THeaderTransport.h
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/util/SocketRetriever.h
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/util/SocketRetriever.h
 thrift/lib/cpp/protocol/TProtocol.h
 -
 thrift/lib/cpp/transport/TSocket.h
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/util/SyncServerCreator.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/util/SyncServerCreator.cpp
 thrift/lib/cpp/util/SyncServerCreator.h
 -
 thrift/lib/cpp/protocol/TBinaryProtocol.h
@@ -678,7 +678,7 @@ thrift/lib/cpp/transport/TBufferTransports.h
 thrift/lib/cpp/transport/TServerSocket.h
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/util/TEventServerCreator.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/util/TEventServerCreator.cpp
 thrift/lib/cpp/util/TEventServerCreator.h
 -
 thrift/lib/cpp/async/TEventServer.h
@@ -688,7 +688,7 @@ thrift/lib/cpp/concurrency/PosixThreadFactory.h
 thrift/lib/cpp/concurrency/ThreadManager.h
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/util/THttpParser.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/util/THttpParser.cpp
 thrift/lib/cpp/util/THttpParser.h
 -
 thrift/lib/cpp/transport/TTransportException.h
@@ -702,7 +702,7 @@ cassert
 boost/algorithm/string.hpp
 -
 
-/tmp/hhvm-3.11.1/third-party/thrift/src/thrift/lib/cpp/util/VarintUtils.cpp
+/tmp/hhvm-3.12.1/third-party/thrift/src/thrift/lib/cpp/util/VarintUtils.cpp
 thrift/lib/cpp/util/VarintUtils.h
 -
 thrift/lib/cpp/TApplicationException.h
@@ -1692,6 +1692,8 @@ folly/Foreach.h
 folly/Exception.h
 -
 folly/Malloc.h
+-
+folly/MicroSpinLock.h
 -
 
 third-party/folly/folly/detail/TurnSequencer.h

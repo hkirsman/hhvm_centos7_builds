@@ -44,6 +44,11 @@ void emitX64(const Vunit&, Vtext&, AsmInfo*);
  */
 void finishARM(Vunit&, Vtext&, const Abi&, AsmInfo*);
 
+/*
+ * Optimize, register allocate, and emit PPC64 code for the given unit.
+ */
+void finishPPC64(Vunit&, Vtext&, const Abi&, AsmInfo*);
+
 ///////////////////////////////////////////////////////////////////////////////
 }}
 

@@ -4,11 +4,11 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/tmp/hhvm-3.11.1/hphp/parser/hphp.5.tab.cpp" "/tmp/hhvm-3.11.1/hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o"
-  "/tmp/hhvm-3.11.1/hphp/parser/hphp.7.tab.cpp" "/tmp/hhvm-3.11.1/hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o"
-  "/tmp/hhvm-3.11.1/hphp/parser/lex.yy.cpp" "/tmp/hhvm-3.11.1/hphp/parser/CMakeFiles/hphp_parser.dir/lex.yy.cpp.o"
-  "/tmp/hhvm-3.11.1/hphp/parser/parser.cpp" "/tmp/hhvm-3.11.1/hphp/parser/CMakeFiles/hphp_parser.dir/parser.cpp.o"
-  "/tmp/hhvm-3.11.1/hphp/parser/scanner.cpp" "/tmp/hhvm-3.11.1/hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.o"
+  "/tmp/hhvm-3.12.1/hphp/parser/hphp.5.tab.cpp" "/tmp/hhvm-3.12.1/hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o"
+  "/tmp/hhvm-3.12.1/hphp/parser/hphp.7.tab.cpp" "/tmp/hhvm-3.12.1/hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o"
+  "/tmp/hhvm-3.12.1/hphp/parser/lex.yy.cpp" "/tmp/hhvm-3.12.1/hphp/parser/CMakeFiles/hphp_parser.dir/lex.yy.cpp.o"
+  "/tmp/hhvm-3.12.1/hphp/parser/parser.cpp" "/tmp/hhvm-3.12.1/hphp/parser/CMakeFiles/hphp_parser.dir/parser.cpp.o"
+  "/tmp/hhvm-3.12.1/hphp/parser/scanner.cpp" "/tmp/hhvm-3.12.1/hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.1
 
 # Include any dependencies generated for this target.
 include hphp/vixl/CMakeFiles/vixl.dir/depend.make
@@ -54,17 +54,17 @@ include hphp/vixl/CMakeFiles/vixl.dir/flags.make
 
 hphp/vixl/CMakeFiles/vixl.dir/utils.cc.o: hphp/vixl/CMakeFiles/vixl.dir/flags.make
 hphp/vixl/CMakeFiles/vixl.dir/utils.cc.o: hphp/vixl/utils.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/vixl/CMakeFiles/vixl.dir/utils.cc.o"
-	cd /tmp/hhvm-3.11.1/hphp/vixl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vixl.dir/utils.cc.o -c /tmp/hhvm-3.11.1/hphp/vixl/utils.cc
+	cd /tmp/hhvm-3.12.1/hphp/vixl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vixl.dir/utils.cc.o -c /tmp/hhvm-3.12.1/hphp/vixl/utils.cc
 
 hphp/vixl/CMakeFiles/vixl.dir/utils.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vixl.dir/utils.cc.i"
-	cd /tmp/hhvm-3.11.1/hphp/vixl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/vixl/utils.cc > CMakeFiles/vixl.dir/utils.cc.i
+	cd /tmp/hhvm-3.12.1/hphp/vixl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/vixl/utils.cc > CMakeFiles/vixl.dir/utils.cc.i
 
 hphp/vixl/CMakeFiles/vixl.dir/utils.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vixl.dir/utils.cc.s"
-	cd /tmp/hhvm-3.11.1/hphp/vixl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/vixl/utils.cc -o CMakeFiles/vixl.dir/utils.cc.s
+	cd /tmp/hhvm-3.12.1/hphp/vixl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/vixl/utils.cc -o CMakeFiles/vixl.dir/utils.cc.s
 
 hphp/vixl/CMakeFiles/vixl.dir/utils.cc.o.requires:
 .PHONY : hphp/vixl/CMakeFiles/vixl.dir/utils.cc.o.requires
@@ -77,17 +77,17 @@ hphp/vixl/CMakeFiles/vixl.dir/utils.cc.o.provides.build: hphp/vixl/CMakeFiles/vi
 
 hphp/vixl/CMakeFiles/vixl.dir/a64/assembler-a64.cc.o: hphp/vixl/CMakeFiles/vixl.dir/flags.make
 hphp/vixl/CMakeFiles/vixl.dir/a64/assembler-a64.cc.o: hphp/vixl/a64/assembler-a64.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/vixl/CMakeFiles/vixl.dir/a64/assembler-a64.cc.o"
-	cd /tmp/hhvm-3.11.1/hphp/vixl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vixl.dir/a64/assembler-a64.cc.o -c /tmp/hhvm-3.11.1/hphp/vixl/a64/assembler-a64.cc
+	cd /tmp/hhvm-3.12.1/hphp/vixl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vixl.dir/a64/assembler-a64.cc.o -c /tmp/hhvm-3.12.1/hphp/vixl/a64/assembler-a64.cc
 
 hphp/vixl/CMakeFiles/vixl.dir/a64/assembler-a64.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vixl.dir/a64/assembler-a64.cc.i"
-	cd /tmp/hhvm-3.11.1/hphp/vixl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/vixl/a64/assembler-a64.cc > CMakeFiles/vixl.dir/a64/assembler-a64.cc.i
+	cd /tmp/hhvm-3.12.1/hphp/vixl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/vixl/a64/assembler-a64.cc > CMakeFiles/vixl.dir/a64/assembler-a64.cc.i
 
 hphp/vixl/CMakeFiles/vixl.dir/a64/assembler-a64.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vixl.dir/a64/assembler-a64.cc.s"
-	cd /tmp/hhvm-3.11.1/hphp/vixl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/vixl/a64/assembler-a64.cc -o CMakeFiles/vixl.dir/a64/assembler-a64.cc.s
+	cd /tmp/hhvm-3.12.1/hphp/vixl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/vixl/a64/assembler-a64.cc -o CMakeFiles/vixl.dir/a64/assembler-a64.cc.s
 
 hphp/vixl/CMakeFiles/vixl.dir/a64/assembler-a64.cc.o.requires:
 .PHONY : hphp/vixl/CMakeFiles/vixl.dir/a64/assembler-a64.cc.o.requires
@@ -100,17 +100,17 @@ hphp/vixl/CMakeFiles/vixl.dir/a64/assembler-a64.cc.o.provides.build: hphp/vixl/C
 
 hphp/vixl/CMakeFiles/vixl.dir/a64/cpu-a64.cc.o: hphp/vixl/CMakeFiles/vixl.dir/flags.make
 hphp/vixl/CMakeFiles/vixl.dir/a64/cpu-a64.cc.o: hphp/vixl/a64/cpu-a64.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/vixl/CMakeFiles/vixl.dir/a64/cpu-a64.cc.o"
-	cd /tmp/hhvm-3.11.1/hphp/vixl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vixl.dir/a64/cpu-a64.cc.o -c /tmp/hhvm-3.11.1/hphp/vixl/a64/cpu-a64.cc
+	cd /tmp/hhvm-3.12.1/hphp/vixl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vixl.dir/a64/cpu-a64.cc.o -c /tmp/hhvm-3.12.1/hphp/vixl/a64/cpu-a64.cc
 
 hphp/vixl/CMakeFiles/vixl.dir/a64/cpu-a64.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vixl.dir/a64/cpu-a64.cc.i"
-	cd /tmp/hhvm-3.11.1/hphp/vixl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/vixl/a64/cpu-a64.cc > CMakeFiles/vixl.dir/a64/cpu-a64.cc.i
+	cd /tmp/hhvm-3.12.1/hphp/vixl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/vixl/a64/cpu-a64.cc > CMakeFiles/vixl.dir/a64/cpu-a64.cc.i
 
 hphp/vixl/CMakeFiles/vixl.dir/a64/cpu-a64.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vixl.dir/a64/cpu-a64.cc.s"
-	cd /tmp/hhvm-3.11.1/hphp/vixl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/vixl/a64/cpu-a64.cc -o CMakeFiles/vixl.dir/a64/cpu-a64.cc.s
+	cd /tmp/hhvm-3.12.1/hphp/vixl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/vixl/a64/cpu-a64.cc -o CMakeFiles/vixl.dir/a64/cpu-a64.cc.s
 
 hphp/vixl/CMakeFiles/vixl.dir/a64/cpu-a64.cc.o.requires:
 .PHONY : hphp/vixl/CMakeFiles/vixl.dir/a64/cpu-a64.cc.o.requires
@@ -123,17 +123,17 @@ hphp/vixl/CMakeFiles/vixl.dir/a64/cpu-a64.cc.o.provides.build: hphp/vixl/CMakeFi
 
 hphp/vixl/CMakeFiles/vixl.dir/a64/debugger-a64.cc.o: hphp/vixl/CMakeFiles/vixl.dir/flags.make
 hphp/vixl/CMakeFiles/vixl.dir/a64/debugger-a64.cc.o: hphp/vixl/a64/debugger-a64.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/vixl/CMakeFiles/vixl.dir/a64/debugger-a64.cc.o"
-	cd /tmp/hhvm-3.11.1/hphp/vixl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vixl.dir/a64/debugger-a64.cc.o -c /tmp/hhvm-3.11.1/hphp/vixl/a64/debugger-a64.cc
+	cd /tmp/hhvm-3.12.1/hphp/vixl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vixl.dir/a64/debugger-a64.cc.o -c /tmp/hhvm-3.12.1/hphp/vixl/a64/debugger-a64.cc
 
 hphp/vixl/CMakeFiles/vixl.dir/a64/debugger-a64.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vixl.dir/a64/debugger-a64.cc.i"
-	cd /tmp/hhvm-3.11.1/hphp/vixl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/vixl/a64/debugger-a64.cc > CMakeFiles/vixl.dir/a64/debugger-a64.cc.i
+	cd /tmp/hhvm-3.12.1/hphp/vixl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/vixl/a64/debugger-a64.cc > CMakeFiles/vixl.dir/a64/debugger-a64.cc.i
 
 hphp/vixl/CMakeFiles/vixl.dir/a64/debugger-a64.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vixl.dir/a64/debugger-a64.cc.s"
-	cd /tmp/hhvm-3.11.1/hphp/vixl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/vixl/a64/debugger-a64.cc -o CMakeFiles/vixl.dir/a64/debugger-a64.cc.s
+	cd /tmp/hhvm-3.12.1/hphp/vixl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/vixl/a64/debugger-a64.cc -o CMakeFiles/vixl.dir/a64/debugger-a64.cc.s
 
 hphp/vixl/CMakeFiles/vixl.dir/a64/debugger-a64.cc.o.requires:
 .PHONY : hphp/vixl/CMakeFiles/vixl.dir/a64/debugger-a64.cc.o.requires
@@ -146,17 +146,17 @@ hphp/vixl/CMakeFiles/vixl.dir/a64/debugger-a64.cc.o.provides.build: hphp/vixl/CM
 
 hphp/vixl/CMakeFiles/vixl.dir/a64/decoder-a64.cc.o: hphp/vixl/CMakeFiles/vixl.dir/flags.make
 hphp/vixl/CMakeFiles/vixl.dir/a64/decoder-a64.cc.o: hphp/vixl/a64/decoder-a64.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/vixl/CMakeFiles/vixl.dir/a64/decoder-a64.cc.o"
-	cd /tmp/hhvm-3.11.1/hphp/vixl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vixl.dir/a64/decoder-a64.cc.o -c /tmp/hhvm-3.11.1/hphp/vixl/a64/decoder-a64.cc
+	cd /tmp/hhvm-3.12.1/hphp/vixl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vixl.dir/a64/decoder-a64.cc.o -c /tmp/hhvm-3.12.1/hphp/vixl/a64/decoder-a64.cc
 
 hphp/vixl/CMakeFiles/vixl.dir/a64/decoder-a64.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vixl.dir/a64/decoder-a64.cc.i"
-	cd /tmp/hhvm-3.11.1/hphp/vixl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/vixl/a64/decoder-a64.cc > CMakeFiles/vixl.dir/a64/decoder-a64.cc.i
+	cd /tmp/hhvm-3.12.1/hphp/vixl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/vixl/a64/decoder-a64.cc > CMakeFiles/vixl.dir/a64/decoder-a64.cc.i
 
 hphp/vixl/CMakeFiles/vixl.dir/a64/decoder-a64.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vixl.dir/a64/decoder-a64.cc.s"
-	cd /tmp/hhvm-3.11.1/hphp/vixl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/vixl/a64/decoder-a64.cc -o CMakeFiles/vixl.dir/a64/decoder-a64.cc.s
+	cd /tmp/hhvm-3.12.1/hphp/vixl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/vixl/a64/decoder-a64.cc -o CMakeFiles/vixl.dir/a64/decoder-a64.cc.s
 
 hphp/vixl/CMakeFiles/vixl.dir/a64/decoder-a64.cc.o.requires:
 .PHONY : hphp/vixl/CMakeFiles/vixl.dir/a64/decoder-a64.cc.o.requires
@@ -169,17 +169,17 @@ hphp/vixl/CMakeFiles/vixl.dir/a64/decoder-a64.cc.o.provides.build: hphp/vixl/CMa
 
 hphp/vixl/CMakeFiles/vixl.dir/a64/disasm-a64.cc.o: hphp/vixl/CMakeFiles/vixl.dir/flags.make
 hphp/vixl/CMakeFiles/vixl.dir/a64/disasm-a64.cc.o: hphp/vixl/a64/disasm-a64.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/vixl/CMakeFiles/vixl.dir/a64/disasm-a64.cc.o"
-	cd /tmp/hhvm-3.11.1/hphp/vixl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vixl.dir/a64/disasm-a64.cc.o -c /tmp/hhvm-3.11.1/hphp/vixl/a64/disasm-a64.cc
+	cd /tmp/hhvm-3.12.1/hphp/vixl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vixl.dir/a64/disasm-a64.cc.o -c /tmp/hhvm-3.12.1/hphp/vixl/a64/disasm-a64.cc
 
 hphp/vixl/CMakeFiles/vixl.dir/a64/disasm-a64.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vixl.dir/a64/disasm-a64.cc.i"
-	cd /tmp/hhvm-3.11.1/hphp/vixl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/vixl/a64/disasm-a64.cc > CMakeFiles/vixl.dir/a64/disasm-a64.cc.i
+	cd /tmp/hhvm-3.12.1/hphp/vixl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/vixl/a64/disasm-a64.cc > CMakeFiles/vixl.dir/a64/disasm-a64.cc.i
 
 hphp/vixl/CMakeFiles/vixl.dir/a64/disasm-a64.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vixl.dir/a64/disasm-a64.cc.s"
-	cd /tmp/hhvm-3.11.1/hphp/vixl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/vixl/a64/disasm-a64.cc -o CMakeFiles/vixl.dir/a64/disasm-a64.cc.s
+	cd /tmp/hhvm-3.12.1/hphp/vixl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/vixl/a64/disasm-a64.cc -o CMakeFiles/vixl.dir/a64/disasm-a64.cc.s
 
 hphp/vixl/CMakeFiles/vixl.dir/a64/disasm-a64.cc.o.requires:
 .PHONY : hphp/vixl/CMakeFiles/vixl.dir/a64/disasm-a64.cc.o.requires
@@ -192,17 +192,17 @@ hphp/vixl/CMakeFiles/vixl.dir/a64/disasm-a64.cc.o.provides.build: hphp/vixl/CMak
 
 hphp/vixl/CMakeFiles/vixl.dir/a64/instructions-a64.cc.o: hphp/vixl/CMakeFiles/vixl.dir/flags.make
 hphp/vixl/CMakeFiles/vixl.dir/a64/instructions-a64.cc.o: hphp/vixl/a64/instructions-a64.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/vixl/CMakeFiles/vixl.dir/a64/instructions-a64.cc.o"
-	cd /tmp/hhvm-3.11.1/hphp/vixl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vixl.dir/a64/instructions-a64.cc.o -c /tmp/hhvm-3.11.1/hphp/vixl/a64/instructions-a64.cc
+	cd /tmp/hhvm-3.12.1/hphp/vixl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vixl.dir/a64/instructions-a64.cc.o -c /tmp/hhvm-3.12.1/hphp/vixl/a64/instructions-a64.cc
 
 hphp/vixl/CMakeFiles/vixl.dir/a64/instructions-a64.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vixl.dir/a64/instructions-a64.cc.i"
-	cd /tmp/hhvm-3.11.1/hphp/vixl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/vixl/a64/instructions-a64.cc > CMakeFiles/vixl.dir/a64/instructions-a64.cc.i
+	cd /tmp/hhvm-3.12.1/hphp/vixl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/vixl/a64/instructions-a64.cc > CMakeFiles/vixl.dir/a64/instructions-a64.cc.i
 
 hphp/vixl/CMakeFiles/vixl.dir/a64/instructions-a64.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vixl.dir/a64/instructions-a64.cc.s"
-	cd /tmp/hhvm-3.11.1/hphp/vixl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/vixl/a64/instructions-a64.cc -o CMakeFiles/vixl.dir/a64/instructions-a64.cc.s
+	cd /tmp/hhvm-3.12.1/hphp/vixl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/vixl/a64/instructions-a64.cc -o CMakeFiles/vixl.dir/a64/instructions-a64.cc.s
 
 hphp/vixl/CMakeFiles/vixl.dir/a64/instructions-a64.cc.o.requires:
 .PHONY : hphp/vixl/CMakeFiles/vixl.dir/a64/instructions-a64.cc.o.requires
@@ -215,17 +215,17 @@ hphp/vixl/CMakeFiles/vixl.dir/a64/instructions-a64.cc.o.provides.build: hphp/vix
 
 hphp/vixl/CMakeFiles/vixl.dir/a64/instrument-a64.cc.o: hphp/vixl/CMakeFiles/vixl.dir/flags.make
 hphp/vixl/CMakeFiles/vixl.dir/a64/instrument-a64.cc.o: hphp/vixl/a64/instrument-a64.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/vixl/CMakeFiles/vixl.dir/a64/instrument-a64.cc.o"
-	cd /tmp/hhvm-3.11.1/hphp/vixl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vixl.dir/a64/instrument-a64.cc.o -c /tmp/hhvm-3.11.1/hphp/vixl/a64/instrument-a64.cc
+	cd /tmp/hhvm-3.12.1/hphp/vixl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vixl.dir/a64/instrument-a64.cc.o -c /tmp/hhvm-3.12.1/hphp/vixl/a64/instrument-a64.cc
 
 hphp/vixl/CMakeFiles/vixl.dir/a64/instrument-a64.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vixl.dir/a64/instrument-a64.cc.i"
-	cd /tmp/hhvm-3.11.1/hphp/vixl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/vixl/a64/instrument-a64.cc > CMakeFiles/vixl.dir/a64/instrument-a64.cc.i
+	cd /tmp/hhvm-3.12.1/hphp/vixl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/vixl/a64/instrument-a64.cc > CMakeFiles/vixl.dir/a64/instrument-a64.cc.i
 
 hphp/vixl/CMakeFiles/vixl.dir/a64/instrument-a64.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vixl.dir/a64/instrument-a64.cc.s"
-	cd /tmp/hhvm-3.11.1/hphp/vixl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/vixl/a64/instrument-a64.cc -o CMakeFiles/vixl.dir/a64/instrument-a64.cc.s
+	cd /tmp/hhvm-3.12.1/hphp/vixl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/vixl/a64/instrument-a64.cc -o CMakeFiles/vixl.dir/a64/instrument-a64.cc.s
 
 hphp/vixl/CMakeFiles/vixl.dir/a64/instrument-a64.cc.o.requires:
 .PHONY : hphp/vixl/CMakeFiles/vixl.dir/a64/instrument-a64.cc.o.requires
@@ -238,17 +238,17 @@ hphp/vixl/CMakeFiles/vixl.dir/a64/instrument-a64.cc.o.provides.build: hphp/vixl/
 
 hphp/vixl/CMakeFiles/vixl.dir/a64/macro-assembler-a64.cc.o: hphp/vixl/CMakeFiles/vixl.dir/flags.make
 hphp/vixl/CMakeFiles/vixl.dir/a64/macro-assembler-a64.cc.o: hphp/vixl/a64/macro-assembler-a64.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/vixl/CMakeFiles/vixl.dir/a64/macro-assembler-a64.cc.o"
-	cd /tmp/hhvm-3.11.1/hphp/vixl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vixl.dir/a64/macro-assembler-a64.cc.o -c /tmp/hhvm-3.11.1/hphp/vixl/a64/macro-assembler-a64.cc
+	cd /tmp/hhvm-3.12.1/hphp/vixl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vixl.dir/a64/macro-assembler-a64.cc.o -c /tmp/hhvm-3.12.1/hphp/vixl/a64/macro-assembler-a64.cc
 
 hphp/vixl/CMakeFiles/vixl.dir/a64/macro-assembler-a64.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vixl.dir/a64/macro-assembler-a64.cc.i"
-	cd /tmp/hhvm-3.11.1/hphp/vixl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/vixl/a64/macro-assembler-a64.cc > CMakeFiles/vixl.dir/a64/macro-assembler-a64.cc.i
+	cd /tmp/hhvm-3.12.1/hphp/vixl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/vixl/a64/macro-assembler-a64.cc > CMakeFiles/vixl.dir/a64/macro-assembler-a64.cc.i
 
 hphp/vixl/CMakeFiles/vixl.dir/a64/macro-assembler-a64.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vixl.dir/a64/macro-assembler-a64.cc.s"
-	cd /tmp/hhvm-3.11.1/hphp/vixl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/vixl/a64/macro-assembler-a64.cc -o CMakeFiles/vixl.dir/a64/macro-assembler-a64.cc.s
+	cd /tmp/hhvm-3.12.1/hphp/vixl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/vixl/a64/macro-assembler-a64.cc -o CMakeFiles/vixl.dir/a64/macro-assembler-a64.cc.s
 
 hphp/vixl/CMakeFiles/vixl.dir/a64/macro-assembler-a64.cc.o.requires:
 .PHONY : hphp/vixl/CMakeFiles/vixl.dir/a64/macro-assembler-a64.cc.o.requires
@@ -261,17 +261,17 @@ hphp/vixl/CMakeFiles/vixl.dir/a64/macro-assembler-a64.cc.o.provides.build: hphp/
 
 hphp/vixl/CMakeFiles/vixl.dir/a64/simulator-a64.cc.o: hphp/vixl/CMakeFiles/vixl.dir/flags.make
 hphp/vixl/CMakeFiles/vixl.dir/a64/simulator-a64.cc.o: hphp/vixl/a64/simulator-a64.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/vixl/CMakeFiles/vixl.dir/a64/simulator-a64.cc.o"
-	cd /tmp/hhvm-3.11.1/hphp/vixl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vixl.dir/a64/simulator-a64.cc.o -c /tmp/hhvm-3.11.1/hphp/vixl/a64/simulator-a64.cc
+	cd /tmp/hhvm-3.12.1/hphp/vixl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vixl.dir/a64/simulator-a64.cc.o -c /tmp/hhvm-3.12.1/hphp/vixl/a64/simulator-a64.cc
 
 hphp/vixl/CMakeFiles/vixl.dir/a64/simulator-a64.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vixl.dir/a64/simulator-a64.cc.i"
-	cd /tmp/hhvm-3.11.1/hphp/vixl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/vixl/a64/simulator-a64.cc > CMakeFiles/vixl.dir/a64/simulator-a64.cc.i
+	cd /tmp/hhvm-3.12.1/hphp/vixl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/vixl/a64/simulator-a64.cc > CMakeFiles/vixl.dir/a64/simulator-a64.cc.i
 
 hphp/vixl/CMakeFiles/vixl.dir/a64/simulator-a64.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vixl.dir/a64/simulator-a64.cc.s"
-	cd /tmp/hhvm-3.11.1/hphp/vixl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/vixl/a64/simulator-a64.cc -o CMakeFiles/vixl.dir/a64/simulator-a64.cc.s
+	cd /tmp/hhvm-3.12.1/hphp/vixl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/vixl/a64/simulator-a64.cc -o CMakeFiles/vixl.dir/a64/simulator-a64.cc.s
 
 hphp/vixl/CMakeFiles/vixl.dir/a64/simulator-a64.cc.o.requires:
 .PHONY : hphp/vixl/CMakeFiles/vixl.dir/a64/simulator-a64.cc.o.requires
@@ -311,8 +311,8 @@ hphp/vixl/libvixl.a: hphp/vixl/CMakeFiles/vixl.dir/a64/simulator-a64.cc.o
 hphp/vixl/libvixl.a: hphp/vixl/CMakeFiles/vixl.dir/build.make
 hphp/vixl/libvixl.a: hphp/vixl/CMakeFiles/vixl.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libvixl.a"
-	cd /tmp/hhvm-3.11.1/hphp/vixl && $(CMAKE_COMMAND) -P CMakeFiles/vixl.dir/cmake_clean_target.cmake
-	cd /tmp/hhvm-3.11.1/hphp/vixl && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vixl.dir/link.txt --verbose=$(VERBOSE)
+	cd /tmp/hhvm-3.12.1/hphp/vixl && $(CMAKE_COMMAND) -P CMakeFiles/vixl.dir/cmake_clean_target.cmake
+	cd /tmp/hhvm-3.12.1/hphp/vixl && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vixl.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 hphp/vixl/CMakeFiles/vixl.dir/build: hphp/vixl/libvixl.a
@@ -331,10 +331,10 @@ hphp/vixl/CMakeFiles/vixl.dir/requires: hphp/vixl/CMakeFiles/vixl.dir/a64/simula
 .PHONY : hphp/vixl/CMakeFiles/vixl.dir/requires
 
 hphp/vixl/CMakeFiles/vixl.dir/clean:
-	cd /tmp/hhvm-3.11.1/hphp/vixl && $(CMAKE_COMMAND) -P CMakeFiles/vixl.dir/cmake_clean.cmake
+	cd /tmp/hhvm-3.12.1/hphp/vixl && $(CMAKE_COMMAND) -P CMakeFiles/vixl.dir/cmake_clean.cmake
 .PHONY : hphp/vixl/CMakeFiles/vixl.dir/clean
 
 hphp/vixl/CMakeFiles/vixl.dir/depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/hphp/vixl /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/hphp/vixl /tmp/hhvm-3.11.1/hphp/vixl/CMakeFiles/vixl.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/hhvm-3.12.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.12.1 /tmp/hhvm-3.12.1/hphp/vixl /tmp/hhvm-3.12.1 /tmp/hhvm-3.12.1/hphp/vixl /tmp/hhvm-3.12.1/hphp/vixl/CMakeFiles/vixl.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hphp/vixl/CMakeFiles/vixl.dir/depend
 

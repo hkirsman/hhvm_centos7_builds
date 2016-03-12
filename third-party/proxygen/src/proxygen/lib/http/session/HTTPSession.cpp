@@ -104,7 +104,7 @@ HTTPSession::WriteSegment::writeErr(size_t bytesWritten,
 }
 
 HTTPSession::HTTPSession(
-  folly::HHWheelTimer* transactionTimeouts,
+  folly::HHWheelTimer::SharedPtr transactionTimeouts,
   AsyncTransportWrapper::UniquePtr sock,
   const SocketAddress& localAddr,
   const SocketAddress& peerAddr,
@@ -120,7 +120,7 @@ HTTPSession::HTTPSession(
     infoCallback_(infoCallback),
     writeTimeout_(this),
     flowControlTimeout_(this),
-    transactionTimeouts_(CHECK_NOTNULL(transactionTimeouts)),
+    transactionTimeouts_(transactionTimeouts),
     transportInfo_(tinfo),
     reads_(SocketState::PAUSED),
     writes_(SocketState::UNPAUSED),
@@ -516,8 +516,7 @@ HTTPSession::readErr(const AsyncSocketException& ex) noexcept {
 HTTPTransaction*
 HTTPSession::newPushedTransaction(
   HTTPCodec::StreamID assocStreamId,
-  HTTPTransaction::PushHandler* handler,
-  http2::PriorityUpdate priority) noexcept {
+  HTTPTransaction::PushHandler* handler) noexcept {
   if (!codec_->supportsPushTransactions()) {
     return nullptr;
   }
@@ -533,8 +532,7 @@ HTTPSession::newPushedTransaction(
   }
 
   HTTPTransaction* txn = createTransaction(codec_->createStream(),
-                                           assocStreamId,
-                                           priority);
+                                           assocStreamId);
   if (!txn) {
     return nullptr;
   }
@@ -570,6 +568,24 @@ HTTPSession::setNewTransactionPauseState(HTTPCodec::StreamID streamID) {
             << ", kPendingWriteMax=" << kPendingWriteMax;
     txn->pauseEgress();
   }
+}
+
+http2::PriorityUpdate
+HTTPSession::getMessagePriority(const HTTPMessage* msg) {
+  http2::PriorityUpdate h2Pri = http2::DefaultPriority;
+  if (msg) {
+    auto res = msg->getHTTP2Priority();
+    if (res) {
+      h2Pri.streamDependency = std::get<0>(*res);
+      h2Pri.exclusive = std::get<1>(*res);
+      h2Pri.weight = std::get<2>(*res);
+    } else {
+      // HTTPMessage with setPriority called explicitly
+      h2Pri.streamDependency =
+        codec_->mapPriorityToDependency(msg->getPriority());
+    }
+  }
+  return h2Pri;
 }
 
 void
@@ -618,17 +634,7 @@ HTTPSession::onMessageBeginImpl(HTTPCodec::StreamID streamID,
     }
   }
 
-  http2::PriorityUpdate h2Pri = http2::DefaultPriority;
-  if (msg) {
-    auto res = msg->getHTTP2Priority();
-    if (res) {
-      h2Pri.streamDependency = std::get<0>(*res);
-      h2Pri.exclusive = std::get<1>(*res);
-      h2Pri.weight = std::get<2>(*res);
-    }
-  }
-  txn = createTransaction(streamID, assocStreamID, h2Pri);
-
+  txn = createTransaction(streamID, assocStreamID, getMessagePriority(msg));
   if (!txn) {
     // This could happen if the socket is bad.
     return nullptr;
@@ -647,13 +653,13 @@ HTTPSession::onMessageBeginImpl(HTTPCodec::StreamID streamID,
   if (!codec_->supportsParallelRequests() && transactions_.size() > 1) {
     // The previous transaction hasn't completed yet. Pause reads until
     // it completes; this requires pausing both transactions.
-    DCHECK(transactions_.size() == 2);
+    DCHECK_EQ(transactions_.size(), 2);
     auto prevTxn = &transactions_.begin()->second;
     if (!prevTxn->isIngressPaused()) {
       DCHECK(prevTxn->isIngressComplete());
       prevTxn->pauseIngress();
     }
-    DCHECK(liveTransactions_ == 1);
+    DCHECK_EQ(liveTransactions_, 1);
     txn->pauseIngress();
   }
 
@@ -1055,7 +1061,7 @@ void HTTPSession::onSetMaxInitiatedStreams(uint32_t maxTxns) {
 void HTTPSession::pauseIngress(HTTPTransaction* txn) noexcept {
   VLOG(4) << *this << " pausing streamID=" << txn->getID() <<
     ", liveTransactions_ was " << liveTransactions_;
-  CHECK(liveTransactions_ > 0);
+  CHECK_GT(liveTransactions_, 0);
   --liveTransactions_;
   if (liveTransactions_ == 0) {
     pauseReads();
@@ -1113,6 +1119,12 @@ void HTTPSession::sendHeaders(HTTPTransaction* txn,
     goawayBuf = writeBuf_.move();
     writeBuf_.append(std::move(writeBuf));
   }
+  if (isUpstream() || (txn->isPushed() && headers.isResponse())) {
+    // upstream picks priority
+    auto pri = getMessagePriority(&headers);
+    txn->updatePriority(pri);
+  }
+
   const bool wasReusable = codec_->isReusable();
   const uint64_t oldOffset = sessionByteOffset();
   // Only PUSH_PROMISE (not push response) has an associated stream
@@ -1331,11 +1343,11 @@ HTTPSession::detach(HTTPTransaction* txn) noexcept {
 
   VLOG(4) << *this << " removing streamID=" << streamID <<
     ", liveTransactions was " << liveTransactions_;
-  CHECK(liveTransactions_ > 0);
+  CHECK_GT(liveTransactions_, 0);
   liveTransactions_--;
 
   if (txn->isPushed()) {
-    CHECK(pushedTxns_ > 0);
+    CHECK_GT(pushedTxns_, 0);
     pushedTxns_--;
     auto assocTxn = findTransaction(txn->getAssocTxnId());
     if (assocTxn) {
@@ -1363,7 +1375,7 @@ HTTPSession::detach(HTTPTransaction* txn) noexcept {
     if (!codec_->supportsParallelRequests() && !transactions_.empty()) {
       // If we had more than one transaction, then someone tried to pipeline and
       // we paused reads
-      DCHECK(transactions_.size() == 1);
+      DCHECK_EQ(transactions_.size(), 1);
       auto& nextTxn = transactions_.begin()->second;
       DCHECK(nextTxn.isIngressPaused());
       DCHECK(!nextTxn.isIngressComplete());
@@ -1407,7 +1419,7 @@ HTTPSession::sendWindowUpdate(HTTPTransaction* txn,
 
 void
 HTTPSession::notifyIngressBodyProcessed(uint32_t bytes) noexcept {
-  CHECK(pendingReadSize_ >= bytes);
+  CHECK_GE(pendingReadSize_, bytes);
   auto oldSize = pendingReadSize_;
   pendingReadSize_ -= bytes;
   VLOG(4) << *this << " Dequeued " << bytes << " bytes of ingress. "
@@ -1551,7 +1563,7 @@ unique_ptr<IOBuf> HTTPSession::getNextToSend(bool* cork, bool* eom) {
         (uint64_t)(allowed * txnPair.second);
       uint32_t min = std::min(allowed, (uint32_t)(egressBodySizeLimit_ / 4));
       uint32_t txnAllowed = std::max(min, uint32_t(allowed * txnPair.second));
-      txnPair.first->onWriteReady(txnAllowed);
+      txnPair.first->onWriteReady(txnAllowed, txnPair.second);
     }
     nextEgressResults_.clear();
     // it can be empty because of HTTPTransaction rate limiting.  We should
@@ -1578,7 +1590,7 @@ unique_ptr<IOBuf> HTTPSession::getNextToSend(bool* cork, bool* eom) {
         }
         return writeBuf_.split(needed);
       } else {
-        CHECK(needed == writeBuf_.chainLength());
+        CHECK_EQ(needed, writeBuf_.chainLength());
       }
     }
   }
@@ -1636,7 +1648,7 @@ HTTPSession::runLoopCallback() noexcept {
     VLOG(4) << *this << " writing " << len << ", activeWrites="
              << numActiveWrites_ << " cork=" << cork << " eom=" << eom;
     bytesScheduled_ += len;
-    sock_->writeChain(segment, std::move(writeBuf), segment->getFlags());
+    sock_->writeChain(segment, std::move(writeBuf), segment->getFlags(), this);
     if (numActiveWrites_ > 0) {
       updateWriteCount();
       pendingWriteSizeDelta_ += len;
@@ -1979,7 +1991,7 @@ HTTPSession::createTransaction(HTTPCodec::StreamID streamID,
     std::forward_as_tuple(streamID),
     std::forward_as_tuple(
       codec_->getTransportDirection(), streamID, transactionSeqNo_, *this,
-      txnEgressQueue_, transactionTimeouts_, sessionStats_,
+      txnEgressQueue_, transactionTimeouts_.get(), sessionStats_,
       codec_->supportsStreamFlowControl(),
       initialReceiveWindow_,
       getCodecSendWindowSize(),
@@ -2322,6 +2334,12 @@ void HTTPSession::setPersistentCork(bool cork) {
   auto sock = sock_->getUnderlyingTransport<AsyncSocket>();
   if (sock) {
     sock->setPersistentCork(cork);
+  }
+}
+
+void HTTPSession::onEgressBuffered() {
+  if (infoCallback_) {
+    infoCallback_->onEgressBuffered(*this);
   }
 }
 

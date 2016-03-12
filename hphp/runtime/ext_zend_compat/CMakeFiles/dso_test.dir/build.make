@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.1
 
 # Utility rule file for dso_test.
 
@@ -52,12 +52,12 @@ hphp/runtime/ext_zend_compat/CMakeFiles/dso_test: hphp/runtime/ext_zend_compat/d
 hphp/runtime/ext_zend_compat/CMakeFiles/dso_test: hphp/hhvm/hhvm
 
 hphp/runtime/ext_zend_compat/dso_test.so:
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Making dso_test.so"
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/dso_test && chmod 755 ../../../tools/hphpize/hphpize
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/dso_test && HHVM_HPHPIZE_CMAKE=../../../tools/hphpize/hphpize.cmake /bin/sh ../../../tools/hphpize/hphpize > /dev/null
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/dso_test && cmake -DHHVM_DSO_TEST_MODE=On . > /dev/null
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/dso_test && make
+	cd /tmp/hhvm-3.12.1/hphp/runtime/ext_zend_compat/dso_test && chmod 755 ../../../tools/hphpize/hphpize
+	cd /tmp/hhvm-3.12.1/hphp/runtime/ext_zend_compat/dso_test && HHVM_HPHPIZE_CMAKE=../../../tools/hphpize/hphpize.cmake /bin/sh ../../../tools/hphpize/hphpize > /dev/null
+	cd /tmp/hhvm-3.12.1/hphp/runtime/ext_zend_compat/dso_test && cmake -DHHVM_DSO_TEST_MODE=On . > /dev/null
+	cd /tmp/hhvm-3.12.1/hphp/runtime/ext_zend_compat/dso_test && make
 
 dso_test: hphp/runtime/ext_zend_compat/CMakeFiles/dso_test
 dso_test: hphp/runtime/ext_zend_compat/dso_test.so
@@ -69,10 +69,10 @@ hphp/runtime/ext_zend_compat/CMakeFiles/dso_test.dir/build: dso_test
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/dso_test.dir/build
 
 hphp/runtime/ext_zend_compat/CMakeFiles/dso_test.dir/clean:
-	cd /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat && $(CMAKE_COMMAND) -P CMakeFiles/dso_test.dir/cmake_clean.cmake
+	cd /tmp/hhvm-3.12.1/hphp/runtime/ext_zend_compat && $(CMAKE_COMMAND) -P CMakeFiles/dso_test.dir/cmake_clean.cmake
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/dso_test.dir/clean
 
 hphp/runtime/ext_zend_compat/CMakeFiles/dso_test.dir/depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat /tmp/hhvm-3.11.1/hphp/runtime/ext_zend_compat/CMakeFiles/dso_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/hhvm-3.12.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.12.1 /tmp/hhvm-3.12.1/hphp/runtime/ext_zend_compat /tmp/hhvm-3.12.1 /tmp/hhvm-3.12.1/hphp/runtime/ext_zend_compat /tmp/hhvm-3.12.1/hphp/runtime/ext_zend_compat/CMakeFiles/dso_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hphp/runtime/ext_zend_compat/CMakeFiles/dso_test.dir/depend
 

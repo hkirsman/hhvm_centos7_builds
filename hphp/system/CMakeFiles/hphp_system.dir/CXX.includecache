@@ -6,29 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/tmp/hhvm-3.11.1/hphp/system/class_map.cpp
+/tmp/hhvm-3.12.1/hphp/system/class_map.cpp
 hphp/runtime/base/externals.h
-/tmp/hhvm-3.11.1/hphp/system/hphp/runtime/base/externals.h
+/tmp/hhvm-3.12.1/hphp/system/hphp/runtime/base/externals.h
 hphp/runtime/base/plain-file.h
-/tmp/hhvm-3.11.1/hphp/system/hphp/runtime/base/plain-file.h
+/tmp/hhvm-3.12.1/hphp/system/hphp/runtime/base/plain-file.h
 hphp/system/constants.h
-/tmp/hhvm-3.11.1/hphp/system/hphp/system/constants.h
+/tmp/hhvm-3.12.1/hphp/system/hphp/system/constants.h
 hphp/runtime/ext/extension.h
-/tmp/hhvm-3.11.1/hphp/system/hphp/runtime/ext/extension.h
+/tmp/hhvm-3.12.1/hphp/system/hphp/runtime/ext/extension.h
 hphp/runtime/ext/ext.h
-/tmp/hhvm-3.11.1/hphp/system/hphp/runtime/ext/ext.h
+/tmp/hhvm-3.12.1/hphp/system/hphp/runtime/ext/ext.h
 
-/tmp/hhvm-3.11.1/hphp/system/systemlib.cpp
+/tmp/hhvm-3.12.1/hphp/system/systemlib.cpp
 hphp/system/systemlib.h
-/tmp/hhvm-3.11.1/hphp/system/hphp/system/systemlib.h
+/tmp/hhvm-3.12.1/hphp/system/hphp/system/systemlib.h
 hphp/runtime/base/array-init.h
-/tmp/hhvm-3.11.1/hphp/system/hphp/runtime/base/array-init.h
+/tmp/hhvm-3.12.1/hphp/system/hphp/runtime/base/array-init.h
 hphp/runtime/vm/unit.h
-/tmp/hhvm-3.11.1/hphp/system/hphp/runtime/vm/unit.h
+/tmp/hhvm-3.12.1/hphp/system/hphp/runtime/vm/unit.h
 hphp/runtime/vm/class.h
-/tmp/hhvm-3.11.1/hphp/system/hphp/runtime/vm/class.h
+/tmp/hhvm-3.12.1/hphp/system/hphp/runtime/vm/class.h
 hphp/runtime/base/execution-context.h
-/tmp/hhvm-3.11.1/hphp/system/hphp/runtime/base/execution-context.h
+/tmp/hhvm-3.12.1/hphp/system/hphp/runtime/base/execution-context.h
 vector
 -
 
@@ -281,6 +281,8 @@ hphp/util/exception.h
 hphp/runtime/base/hphp/util/exception.h
 hphp/runtime/base/type-array.h
 hphp/runtime/base/hphp/runtime/base/type-array.h
+hphp/runtime/base/req-root.h
+hphp/runtime/base/hphp/runtime/base/req-root.h
 
 hphp/runtime/base/execution-context-inl.h
 
@@ -447,6 +449,8 @@ hphp/runtime/base/array-iterator.h
 hphp/runtime/base/hphp/runtime/base/array-iterator.h
 hphp/runtime/base/array-iterator-defs.h
 hphp/runtime/base/hphp/runtime/base/array-iterator-defs.h
+hphp/runtime/base/packed-array.h
+hphp/runtime/base/hphp/runtime/base/packed-array.h
 hphp/runtime/base/runtime-option.h
 hphp/runtime/base/hphp/runtime/base/runtime-option.h
 hphp/runtime/base/struct-array.h
@@ -632,6 +636,10 @@ hphp/runtime/base/hphp/util/compilation-flags.h
 algorithm
 -
 
+hphp/runtime/base/req-root.h
+hphp/runtime/base/typed-value.h
+hphp/runtime/base/hphp/runtime/base/typed-value.h
+
 hphp/runtime/base/request-event-handler.h
 
 hphp/runtime/base/request-injection-data.h
@@ -670,8 +678,6 @@ hphp/runtime/base/hphp/runtime/base/execution-context.h
 
 hphp/runtime/base/resource-data.h
 iostream
--
-boost/noncopyable.hpp
 -
 hphp/runtime/base/countable.h
 hphp/runtime/base/hphp/runtime/base/countable.h
@@ -751,6 +757,10 @@ hphp/runtime/base/exceptions.h
 hphp/runtime/base/hphp/runtime/base/exceptions.h
 hphp/runtime/base/type-string.h
 hphp/runtime/base/hphp/runtime/base/type-string.h
+hphp/runtime/base/req-root.h
+hphp/runtime/base/hphp/runtime/base/req-root.h
+hphp/runtime/base/imarker.h
+hphp/runtime/base/hphp/runtime/base/imarker.h
 
 hphp/runtime/base/string-data-inl.h
 
@@ -807,10 +817,8 @@ hphp/runtime/base/rds-header.h
 hphp/runtime/base/hphp/runtime/base/rds-header.h
 
 hphp/runtime/base/sweepable.h
-boost/noncopyable.hpp
--
-hphp/util/portability.h
-hphp/runtime/base/hphp/util/portability.h
+hphp/util/assertions.h
+hphp/runtime/base/hphp/util/assertions.h
 
 hphp/runtime/base/thread-info.h
 cinttypes
@@ -857,6 +865,8 @@ hphp/runtime/base/string-data.h
 hphp/runtime/base/hphp/runtime/base/string-data.h
 hphp/runtime/base/typed-value.h
 hphp/runtime/base/hphp/runtime/base/typed-value.h
+hphp/runtime/base/req-root.h
+hphp/runtime/base/hphp/runtime/base/req-root.h
 
 hphp/runtime/base/type-array.h
 hphp/runtime/base/array-data.h
@@ -981,6 +991,10 @@ hphp/runtime/base/hphp/runtime/base/type-variant.h
 hphp/runtime/ext/collections/ext_collections-idl.h
 hphp/runtime/ext/extension.h
 hphp/runtime/ext/collections/hphp/runtime/ext/extension.h
+hphp/runtime/ext/collections/ext_collections.h
+hphp/runtime/ext/collections/hphp/runtime/ext/collections/ext_collections.h
+hphp/runtime/ext/collections/ext_collections-pair.h
+hphp/runtime/ext/collections/hphp/runtime/ext/collections/ext_collections-pair.h
 hphp/runtime/base/builtin-functions.h
 hphp/runtime/ext/collections/hphp/runtime/base/builtin-functions.h
 hphp/runtime/base/collections.h
@@ -998,11 +1012,23 @@ hphp/runtime/ext/collections/hphp/system/systemlib.h
 limits
 -
 
+hphp/runtime/ext/collections/ext_collections-pair.h
+hphp/runtime/ext/collections/ext_collections.h
+hphp/runtime/ext/collections/hphp/runtime/ext/collections/ext_collections.h
+hphp/runtime/ext/collections/ext_collections-idl.h
+hphp/runtime/ext/collections/hphp/runtime/ext/collections/ext_collections-idl.h
+hphp/runtime/vm/native-data.h
+hphp/runtime/ext/collections/hphp/runtime/vm/native-data.h
+hphp/runtime/base/builtin-functions.h
+hphp/runtime/ext/collections/hphp/runtime/base/builtin-functions.h
+
+hphp/runtime/ext/collections/ext_collections.h
+hphp/runtime/ext/extension.h
+hphp/runtime/ext/collections/hphp/runtime/ext/extension.h
+hphp/runtime/base/header-kind.h
+hphp/runtime/ext/collections/hphp/runtime/base/header-kind.h
+
 hphp/runtime/ext/ext.h
-hphp/facebook/extensions/phpmc/ext_phpmc.h
-hphp/runtime/ext/hphp/facebook/extensions/phpmc/ext_phpmc.h
-hphp/runtime/ext/std/ext_std_closure.h
-hphp/runtime/ext/hphp/runtime/ext/std/ext_std_closure.h
 hphp/runtime/ext/collections/ext_collections-idl.h
 hphp/runtime/ext/hphp/runtime/ext/collections/ext_collections-idl.h
 
@@ -1023,14 +1049,6 @@ set
 -
 string
 -
-
-hphp/runtime/ext/std/ext_std_closure.h
-hphp/runtime/ext/extension.h
-hphp/runtime/ext/std/hphp/runtime/ext/extension.h
-hphp/runtime/vm/func.h
-hphp/runtime/ext/std/hphp/runtime/vm/func.h
-hphp/runtime/vm/bytecode.h
-hphp/runtime/ext/std/hphp/runtime/vm/bytecode.h
 
 hphp/runtime/ext/stream/ext_stream.h
 hphp/runtime/ext/extension.h
@@ -1333,8 +1351,6 @@ hphp/runtime/base/typed-value.h
 hphp/runtime/vm/hphp/runtime/base/typed-value.h
 
 hphp/runtime/vm/name-value-table.h
-boost/noncopyable.hpp
--
 folly/Bits.h
 -
 hphp/runtime/base/typed-value.h
@@ -1363,6 +1379,8 @@ hphp/util/portability.h
 hphp/runtime/vm/hphp/util/portability.h
 hphp/util/low-ptr.h
 hphp/runtime/vm/hphp/util/low-ptr.h
+hphp/util/alloc.h
+hphp/runtime/vm/hphp/util/alloc.h
 folly/AtomicHashMap.h
 -
 atomic
@@ -1372,6 +1390,16 @@ utility
 hphp/runtime/vm/named-entity-inl.h
 hphp/runtime/vm/hphp/runtime/vm/named-entity-inl.h
 
+hphp/runtime/vm/native-data.h
+hphp/runtime/base/imarker.h
+hphp/runtime/vm/hphp/runtime/base/imarker.h
+hphp/runtime/base/memory-manager.h
+hphp/runtime/vm/hphp/runtime/base/memory-manager.h
+hphp/runtime/base/typed-value.h
+hphp/runtime/vm/hphp/runtime/base/typed-value.h
+hphp/runtime/base/type-object.h
+hphp/runtime/vm/hphp/runtime/base/type-object.h
+
 hphp/runtime/vm/native.h
 hphp/runtime/base/type-string.h
 hphp/runtime/vm/hphp/runtime/base/type-string.h
@@ -1379,6 +1407,8 @@ hphp/runtime/base/typed-value.h
 hphp/runtime/vm/hphp/runtime/base/typed-value.h
 hphp/runtime/vm/func.h
 hphp/runtime/vm/hphp/runtime/vm/func.h
+hphp/util/abi-cxx.h
+hphp/runtime/vm/hphp/util/abi-cxx.h
 type_traits
 -
 
@@ -1534,6 +1564,12 @@ hphp/system/hphp/runtime/base/types.h
 hphp/util/portability.h
 hphp/system/hphp/util/portability.h
 
+hphp/util/abi-cxx.h
+inttypes.h
+-
+string
+-
+
 hphp/util/alloc.h
 stdint.h
 -
@@ -1543,8 +1579,12 @@ atomic
 -
 folly/Portability.h
 -
+hphp/util/assertions.h
+hphp/util/hphp/util/assertions.h
 hphp/util/exception.h
 hphp/util/hphp/util/exception.h
+hphp/util/logger.h
+hphp/util/hphp/util/logger.h
 google/malloc_extension.h
 -
 stdlib.h
@@ -1640,6 +1680,56 @@ utility
 memory
 -
 
+hphp/util/cronolog.h
+atomic
+-
+string
+-
+cstdio
+-
+hphp/util/cronoutils.h
+hphp/util/hphp/util/cronoutils.h
+hphp/util/lock.h
+hphp/util/hphp/util/lock.h
+hphp/util/log-file-flusher.h
+hphp/util/hphp/util/log-file-flusher.h
+
+hphp/util/cronoutils.h
+ctype.h
+-
+stdio.h
+-
+stdlib.h
+-
+stdarg.h
+-
+errno.h
+-
+fcntl.h
+-
+limits.h
+-
+unistd.h
+-
+io.h
+-
+direct.h
+-
+string.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+sys/time.h
+-
+time.h
+-
+sys/time.h
+-
+time.h
+-
+
 hphp/util/default-ptr.h
 cstddef
 -
@@ -1724,6 +1814,14 @@ memory
 hphp/util/assertions.h
 hphp/util/hphp/util/assertions.h
 
+hphp/util/locale-portability.h
+locale.h
+-
+langinfo.h
+-
+xlocale.h
+-
+
 hphp/util/lock.h
 hphp/util/mutex.h
 hphp/util/hphp/util/mutex.h
@@ -1731,6 +1829,36 @@ hphp/util/synchronizable.h
 hphp/util/hphp/util/synchronizable.h
 hphp/util/synchronizable-multi.h
 hphp/util/hphp/util/synchronizable-multi.h
+
+hphp/util/log-file-flusher.h
+cstdio
+-
+atomic
+-
+unistd.h
+-
+hphp/util/compatibility.h
+hphp/util/hphp/util/compatibility.h
+
+hphp/util/logger-inl.h
+folly/Format.h
+-
+
+hphp/util/logger.h
+atomic
+-
+string
+-
+stdarg.h
+-
+hphp/util/thread-local.h
+hphp/util/hphp/util/thread-local.h
+hphp/util/cronolog.h
+hphp/util/hphp/util/cronolog.h
+hphp/util/log-file-flusher.h
+hphp/util/hphp/util/log-file-flusher.h
+hphp/util/logger-inl.h
+hphp/util/hphp/util/logger-inl.h
 
 hphp/util/low-ptr.h
 hphp/util/assertions.h
@@ -1804,6 +1932,34 @@ folly/Portability.h
 folly/CPortability.h
 -
 sys/param.h
+-
+hphp/util/portability/fnmatch.h
+hphp/util/hphp/util/portability/fnmatch.h
+hphp/util/portability/glob.h
+hphp/util/hphp/util/portability/glob.h
+hphp/util/portability/rand_r.h
+hphp/util/hphp/util/portability/rand_r.h
+hphp/util/portability/strfmon.h
+hphp/util/hphp/util/portability/strfmon.h
+hphp/util/portability/strptime.h
+hphp/util/hphp/util/portability/strptime.h
+
+hphp/util/portability/fnmatch.h
+
+hphp/util/portability/glob.h
+
+hphp/util/portability/rand_r.h
+
+hphp/util/portability/strfmon.h
+hphp/util/locale-portability.h
+hphp/util/portability/hphp/util/locale-portability.h
+folly/Portability.h
+-
+stdint.h
+-
+
+hphp/util/portability/strptime.h
+time.h
 -
 
 hphp/util/range.h
@@ -1911,8 +2067,6 @@ type_traits
 hphp/util/tiny-vector.h
 stdlib.h
 -
-boost/noncopyable.hpp
--
 boost/type_traits/has_trivial_destructor.hpp
 -
 boost/type_traits/has_trivial_copy.hpp
@@ -1989,6 +2143,8 @@ type_traits
 -
 
 third-party/folly/folly/AtomicHashArray-inl.h
+type_traits
+-
 folly/Bits.h
 -
 folly/detail/AtomicHashUtils.h
@@ -2344,6 +2500,30 @@ memory
 stdexcept
 -
 utility
+-
+
+third-party/folly/folly/MicroSpinLock.h
+array
+-
+cinttypes
+-
+type_traits
+-
+boost/noncopyable.hpp
+-
+cstdlib
+-
+pthread.h
+-
+mutex
+-
+atomic
+-
+glog/logging.h
+-
+folly/detail/Sleeper.h
+-
+folly/Portability.h
 -
 
 third-party/folly/folly/Optional.h
@@ -2702,6 +2882,14 @@ cstddef
 folly/detail/RangeCommon.h
 -
 
+third-party/folly/folly/detail/Sleeper.h
+cinttypes
+-
+ctime
+-
+folly/Portability.h
+-
+
 third-party/folly/folly/detail/ThreadLocalDetail.h
 limits.h
 -
@@ -2720,6 +2908,8 @@ folly/Foreach.h
 folly/Exception.h
 -
 folly/Malloc.h
+-
+folly/MicroSpinLock.h
 -
 
 third-party/folly/folly/detail/UncaughtExceptionCounter.h

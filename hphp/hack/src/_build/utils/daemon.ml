@@ -8,7 +8,7 @@
  *
  *)
 
-type 'a in_channel = Pervasives.in_channel
+type 'a in_channel = Timeout.in_channel
 type 'a out_channel = Pervasives.out_channel
 
 type ('in_, 'out) channel_pair = 'in_ in_channel * 'out out_channel
@@ -18,6 +18,10 @@ type ('in_, 'out) handle = {
   pid : int;
 }
 
+type log_mode =
+  | Log_file
+  | Parent_streams
+
 let to_channel :
   'a out_channel -> ?flags:Marshal.extern_flags list -> ?flush:bool ->
   'a -> unit =
@@ -25,13 +29,13 @@ let to_channel :
     Marshal.to_channel oc v flags;
     if should_flush then flush oc
 
-let from_channel : 'a in_channel -> 'a = fun ic ->
-  Marshal.from_channel ic
+let from_channel : ?timeout:Timeout.t -> 'a in_channel -> 'a = fun ?timeout ic ->
+  Timeout.input_value ?timeout ic
 
 let flush : 'a out_channel -> unit = Pervasives.flush
 
 let descr_of_in_channel : 'a in_channel -> Unix.file_descr =
-  Unix.descr_of_in_channel
+  Timeout.descr_of_in_channel
 
 let descr_of_out_channel : 'a out_channel -> Unix.file_descr =
   Unix.descr_of_out_channel
@@ -63,9 +67,11 @@ module Entry : sig
     'param ->
     ('input, 'output) channel_pair -> unit
   val set_context:
-    ('param, 'input, 'output) t -> 'param ->
+    ('param, 'input, 'output) t ->
     Unix.file_descr * Unix.file_descr ->
     unit
+  val send_param:
+    'param -> Unix.file_descr -> unit
   val get_context:
     unit ->
     (('param, 'input, 'output) t * 'param * ('input, 'output) channel_pair)
@@ -90,14 +96,17 @@ end = struct
       Printf.ksprintf failwith
         "Unknown entry point %S" name
 
-  let set_context entry param (ic, oc) =
+  let set_context entry (ic, oc) =
     let data =
       (Handle.get_handle ic,
-       Handle.get_handle oc,
-       param) in
+       Handle.get_handle oc) in
     let data_str = String.escaped (Marshal.to_string data []) in
     Unix.putenv "HH_SERVER_DAEMON" entry;
     Unix.putenv "HH_SERVER_DAEMON_PARAM" data_str
+
+  let send_param param fd =
+    let _, _, _ = Unix.select [] [fd] [] (-1.0) in
+    Marshal_tools.to_fd_with_preamble fd param
 
   (* How this works on Unix: It may appear like we are passing file descriptors
    * from one process to another here, but in_handle / out_handle are actually
@@ -112,10 +121,16 @@ end = struct
     let (in_handle, out_handle, param) =
       try
         let raw = Sys.getenv "HH_SERVER_DAEMON_PARAM" in
-        Marshal.from_string (Scanf.unescaped raw) 0
+        let (in_handle, out_handle) =
+          Marshal.from_string (Scanf.unescaped raw) 0 in
+        let _ = Unix.select
+          [(Handle.wrap_handle in_handle)] [] [] (-1.0) in
+        let param = Marshal_tools.from_fd_with_preamble
+          (Handle.wrap_handle in_handle) in
+        in_handle, out_handle, param
       with _ -> failwith "Can't find daemon parameters." in
     (entry, param,
-     (Unix.in_channel_of_descr (Handle.wrap_handle in_handle),
+     (Timeout.in_channel_of_descr (Handle.wrap_handle in_handle),
       Unix.out_channel_of_descr (Handle.wrap_handle out_handle)))
 
 end
@@ -139,7 +154,7 @@ let make_pipe () =
   (* close descriptors on exec so they are not leaked *)
   Unix.set_close_on_exec descr_in;
   Unix.set_close_on_exec descr_out;
-  let ic = Unix.in_channel_of_descr descr_in in
+  let ic = Timeout.in_channel_of_descr descr_in in
   let oc = Unix.out_channel_of_descr descr_out in
   ic, oc
 
@@ -153,7 +168,8 @@ let fork ?log_file (f : ('a, 'b) channel_pair -> unit) :
   | -1 -> failwith "Go get yourself a real computer"
   | 0 -> (* child *)
     (try
-      close_in parent_in;
+      ignore(Unix.setsid());
+      Timeout.close_in parent_in;
       close_out parent_out;
       Sys_utils.with_umask 0o111 begin fun () ->
         let fd =
@@ -177,7 +193,7 @@ let fork ?log_file (f : ('a, 'b) channel_pair -> unit) :
     with _ ->
       exit 1)
   | pid -> (* parent *)
-    close_in child_in;
+    Timeout.close_in child_in;
     close_out child_out;
     { channels = parent_in, parent_out; pid }
 
@@ -197,24 +213,32 @@ let setup_channels channel_mode =
 
 let spawn
     (type param) (type input) (type output)
-    ?reason ?log_file ?(channel_mode = `pipe)
+    ?reason ?log_file ?(channel_mode = `pipe) ?(log_mode = Log_file)
     (entry: (param, input, output) entry)
     (param: param) : (output, input) handle =
   let (parent_in, child_out), (child_in, parent_out) =
     setup_channels channel_mode in
-  Entry.set_context entry param (child_in, child_out);
+  Entry.set_context entry (child_in, child_out);
   let null_fd =
     Unix.openfile null_path [Unix.O_RDONLY; Unix.O_CREAT] 0o777 in
-  let out_path =
-    Option.value_map log_file
-      ~default:null_path
-      ~f:(fun fn ->
-          Sys_utils.mkdir_no_fail (Filename.dirname fn);
-          fn)  in
-  let out_fd =
-    Unix.openfile out_path [Unix.O_WRONLY; Unix.O_CREAT; Unix.O_TRUNC] 0o666 in
+  let out_fd, err_fd =
+    match log_mode with
+    | Log_file ->
+      let out_path =
+        Option.value_map log_file
+          ~default:null_path
+          ~f:(fun fn ->
+              Sys_utils.mkdir_no_fail (Filename.dirname fn);
+              fn)  in
+      let out_fd =
+        Unix.openfile out_path [Unix.O_WRONLY; Unix.O_CREAT; Unix.O_TRUNC]
+        0o666 in
+      out_fd, out_fd
+    | Parent_streams ->
+      Unix.stdout, Unix.stderr
+  in
   let exe = Sys_utils.executable_path () in
-  let pid = Unix.create_process exe [|exe|] null_fd out_fd out_fd in
+  let pid = Unix.create_process exe [|exe|] null_fd out_fd err_fd in
   Option.iter reason ~f:(fun reason -> PidLog.log ~reason pid);
   (match channel_mode with
   | `pipe ->
@@ -225,13 +249,14 @@ let spawn
     Unix.close child_in);
   Unix.close out_fd;
   Unix.close null_fd;
-  { channels = Unix.in_channel_of_descr parent_in,
+  Entry.send_param param parent_out;
+  { channels = Timeout.in_channel_of_descr parent_in,
                Unix.out_channel_of_descr parent_out;
     pid }
 
 (* for testing code *)
 let devnull () =
-  let ic = open_in "/dev/null" in
+  let ic = Timeout.open_in "/dev/null" in
   let oc = open_out "/dev/null" in
   {channels = ic, oc; pid = 0}
 
@@ -242,9 +267,9 @@ let check_entry_point () =
   with Not_found -> ()
 
 let close { channels = (ic, oc); _ } =
-  close_in ic;
+  Timeout.close_in ic;
   close_out oc
 
 let kill h =
   close h;
-  Unix.kill h.pid Sys.sigkill
+  Sys_utils.terminate_process h.pid

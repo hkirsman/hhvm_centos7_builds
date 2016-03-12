@@ -29,9 +29,10 @@
 #include "hphp/runtime/vm/vm-regs.h"
 #include "hphp/runtime/vm/treadmill.h"
 
+#include "hphp/runtime/ext/collections/ext_collections.h"
 #include "hphp/runtime/ext/string/ext_string.h"
+#include "hphp/runtime/ext/std/ext_std_closure.h"
 
-#include "hphp/system/systemlib.h"
 #include "hphp/parser/parser.h"
 
 #include "hphp/util/debug.h"
@@ -240,7 +241,7 @@ Class* Class::newClass(PreClass* preClass, Class* parent) {
 }
 
 Class* Class::rescope(Class* ctx, Attr attrs /* = AttrNone */) {
-  assert(parent() == SystemLib::s_ClosureClass);
+  assert(parent() == c_Closure::classof());
   assert(m_invoke);
 
   bool const is_dynamic = (attrs != AttrNone);
@@ -920,47 +921,87 @@ bool Class::IsPropAccessible(const Prop& prop, Class* ctx) {
 
 Cell Class::clsCnsGet(const StringData* clsCnsName, bool includeTypeCns) const {
   Slot clsCnsInd;
-  auto clsCns = cnsNameToTV(clsCnsName, clsCnsInd, includeTypeCns);
-  if (!clsCns) return make_tv<KindOfUninit>();
-  if (clsCns->m_type != KindOfUninit && !m_constants[clsCnsInd].isType()) {
-    return *clsCns;
+  auto cnsVal = cnsNameToTV(clsCnsName, clsCnsInd, includeTypeCns);
+  if (!cnsVal) return make_tv<KindOfUninit>();
+
+  auto& cns = m_constants[clsCnsInd];
+  ArrayData* typeCns = nullptr;
+
+  if (cnsVal->m_type != KindOfUninit) {
+    if (cns.isType()) {
+      // Type constants with the low bit set are already resolved and can be
+      // returned after masking out that bit.
+      assert(cnsVal->m_type == KindOfPersistentArray);
+      typeCns = cnsVal->m_data.parr;
+      auto const rawData = reinterpret_cast<intptr_t>(typeCns);
+      if (rawData & 0x1) {
+        return make_tv<KindOfPersistentArray>(
+          reinterpret_cast<ArrayData*>(rawData ^ 0x1));
+      }
+    } else {
+      return *cnsVal;
+    }
   }
 
-  // This constant has a non-scalar initializer, meaning it will be
-  // potentially different in different requests, which we store
-  // separately in an array living off in RDS.
+  // This constant has a non-scalar initializer, meaning it will be potentially
+  // different in different requests, which we store separately in an array
+  // living off in RDS.
   m_nonScalarConstantCache.bind();
   auto& clsCnsData = *m_nonScalarConstantCache;
 
-  if (clsCnsData.get() == nullptr) {
-    clsCnsData = Array::attach(MixedArray::MakeReserve(m_constants.size()));
-  } else {
-    auto cCns = clsCnsData->nvGet(clsCnsName);
-    if (cCns) return *cCns;
+  if (clsCnsData.get() != nullptr) {
+    if (auto cCns = clsCnsData->nvGet(clsCnsName)) return *cCns;
   }
 
-  // resolve type constant
-  if (m_constants[clsCnsInd].isType()) {
-    Array resTS;
+  auto makeCache = [&] {
+    if (clsCnsData.get() == nullptr) {
+      clsCnsData = Array::attach(PackedArray::MakeReserve(m_constants.size()));
+    }
+  };
+
+  // Resolve type constant, if needed.
+  if (cns.isType()) {
+    Array resolvedTS;
+    bool persistent = true;
     try {
-      resTS = TypeStructure::resolve(m_constants[clsCnsInd], this);
-    } catch (Exception &e) {
+      // We must give TypeStructure::resolve() the same ArrayData* we tested up
+      // above, to avoid reading an already-resolved (by another thread)
+      // ArrayData* from cns. Since resolve() takes a Class::Const and no other
+      // fields of the Const can change, just copy cns and give the copy our
+      // local version of the ArrayData*.
+      auto cnsCopy = cns;
+      cnsCopy.val.m_data.parr = typeCns;
+
+      resolvedTS = TypeStructure::resolve(cnsCopy, this, persistent);
+    } catch (const Exception& e) {
       raise_error(e.getMessage());
     }
-    auto tv = make_tv<KindOfArray>(resTS.get());
-    tv.m_aux = clsCns->m_aux;
-    assert(tvIsPlausible(tv));
+
+    auto const ad = ArrayData::GetScalarArray(resolvedTS.get());
+    if (persistent) {
+      auto const rawData = reinterpret_cast<intptr_t>(ad);
+      assert((rawData & 0x7) == 0 && "ArrayData not 8-byte aligned");
+      auto taggedData = reinterpret_cast<ArrayData*>(rawData | 0x1);
+
+      // Multiple threads might create and store the resolved type structure
+      // here, but that's fine since they'll all store the same thing thanks to
+      // GetScalarArray(). We could avoid a little duplicated work during
+      // warmup with more complexity but it's not worth it.
+      const_cast<TypedValueAux&>(cns.val).m_data.parr = taggedData;
+      return make_tv<KindOfPersistentArray>(ad);
+    }
+
+    auto tv = make_tv<KindOfPersistentArray>(ad);
+    makeCache();
     clsCnsData.set(StrNR(clsCnsName), tvAsCVarRef(&tv), true /* isKey */);
     return tv;
   }
 
   // The class constant has not been initialized yet; do so.
   static auto const sd86cinit = makeStaticString("86cinit");
-  auto const meth86cinit =
-    m_constants[clsCnsInd].cls->lookupMethod(sd86cinit);
+  auto const meth86cinit = cns.cls->lookupMethod(sd86cinit);
   TypedValue args[1] = {
-    make_tv<KindOfStaticString>(
-      const_cast<StringData*>(m_constants[clsCnsInd].name.get()))
+    make_tv<KindOfPersistentString>(const_cast<StringData*>(cns.name.get()))
   };
 
   Cell ret;
@@ -973,6 +1014,7 @@ Cell Class::clsCnsGet(const StringData* clsCnsName, bool includeTypeCns) const {
     args
   );
 
+  makeCache();
   clsCnsData.set(StrNR(clsCnsName), cellAsCVarRef(ret), true /* isKey */);
   return ret;
 }
@@ -990,8 +1032,8 @@ const Cell* Class::cnsNameToTV(const StringData* clsCnsName,
   if (!includeTypeCns && m_constants[clsCnsInd].isType()) {
     return nullptr;
   }
-  auto const ret = const_cast<TypedValueAux*>(&m_constants[clsCnsInd].val);
-  assert(tvIsPlausible(*ret));
+  auto const ret = &m_constants[clsCnsInd].val;
+  assert(m_constants[clsCnsInd].isType() || tvIsPlausible(*ret));
   return ret;
 }
 
@@ -1763,6 +1805,20 @@ void Class::setConstants() {
     }
   }
 
+
+  // For type constants, we have to use the value from the PreClass of the
+  // declaring class, because the parent class or interface we got it from may
+  // have replaced it with a resolved value.
+  for (auto& pair : builder) {
+    auto& cns = builder[pair.second];
+    if (cns.isType()) {
+      auto& preConsts = cns.cls->preClass()->constantsMap();
+      auto const idx = preConsts.findIndex(cns.name.get());
+      assert(idx != -1);
+      cns.val = preConsts[idx].val();
+    }
+  }
+
   m_constants.create(builder);
 }
 
@@ -1884,9 +1940,7 @@ void Class::setProperties() {
       if (preProp->attrs() & AttrDeepInit) {
         m_hasDeepInitProps = true;
       }
-      switch (preProp->attrs() & (AttrPublic|AttrProtected|AttrPrivate)) {
-      case AttrPrivate: {
-        // Append a new private property.
+      auto addNewProp = [&] {
         Prop prop;
         prop.name                = preProp->name();
         prop.mangledName         = preProp->mangledName();
@@ -1903,8 +1957,12 @@ void Class::setProperties() {
           prop.idx = slot + m_preClass->numProperties() + traitOffset;
         }
         curPropMap.add(preProp->name(), prop);
-        m_declPropInit.push_back(m_preClass->lookupProp(preProp->name())
-                                 ->val());
+        m_declPropInit.push_back(preProp->val());
+      };
+
+      switch (preProp->attrs() & (AttrPublic|AttrProtected|AttrPrivate)) {
+      case AttrPrivate: {
+        addNewProp();
         break;
       }
       case AttrProtected: {
@@ -1922,32 +1980,14 @@ void Class::setProperties() {
           } else {
             prop.idx = slot + m_preClass->numProperties() + traitOffset;
           }
-          const TypedValue& tv = m_preClass->lookupProp(preProp->name())->val();
+          const TypedValue& tv = preProp->val();
           TypedValueAux& tvaux = m_declPropInit[it2->second];
           tvaux.m_data = tv.m_data;
           tvaux.m_type = tv.m_type;
           copyDeepInitAttr(preProp, &prop);
           break;
         }
-        // Append a new protected property.
-        Prop prop;
-        prop.name                = preProp->name();
-        prop.mangledName         = preProp->mangledName();
-        prop.originalMangledName = preProp->mangledName();
-        prop.attrs               = preProp->attrs();
-        prop.typeConstraint      = preProp->typeConstraint();
-        // This is the first class to declare this property
-        prop.cls                 = this;
-        prop.docComment          = preProp->docComment();
-        prop.repoAuthType        = preProp->repoAuthType();
-        if (slot < traitIdx) {
-          prop.idx = slot;
-        } else {
-          prop.idx = slot + m_preClass->numProperties() + traitOffset;
-        }
-        curPropMap.add(preProp->name(), prop);
-        m_declPropInit.push_back(m_preClass->lookupProp(preProp->name())
-                                 ->val());
+        addNewProp();
         break;
       }
       case AttrPublic: {
@@ -1971,32 +2011,14 @@ void Class::setProperties() {
           } else {
             prop.idx = slot + m_preClass->numProperties() + traitOffset;
           }
-          auto const& tv = m_preClass->lookupProp(preProp->name())->val();
+          auto const& tv = preProp->val();
           TypedValueAux& tvaux = m_declPropInit[it2->second];
           tvaux.m_data = tv.m_data;
           tvaux.m_type = tv.m_type;
           copyDeepInitAttr(preProp, &prop);
           break;
         }
-        // Append a new public property.
-        Prop prop;
-        prop.name                = preProp->name();
-        prop.mangledName         = preProp->mangledName();
-        prop.originalMangledName = preProp->mangledName();
-        prop.attrs               = preProp->attrs();
-        prop.typeConstraint      = preProp->typeConstraint();
-        // This is the first class to declare this property
-        prop.cls                 = this;
-        prop.docComment          = preProp->docComment();
-        prop.repoAuthType        = preProp->repoAuthType();
-        if (slot < traitIdx) {
-          prop.idx = slot;
-        } else {
-          prop.idx = slot + m_preClass->numProperties() + traitOffset;
-        }
-        curPropMap.add(preProp->name(), prop);
-        m_declPropInit.push_back(m_preClass->lookupProp(preProp->name())
-                                 ->val());
+        addNewProp();
         break;
       }
       default: assert(false);
@@ -2041,7 +2063,7 @@ void Class::setProperties() {
       sProp.typeConstraint = preProp->typeConstraint();
       sProp.docComment     = preProp->docComment();
       sProp.cls            = this;
-      sProp.val            = m_preClass->lookupProp(preProp->name())->val();
+      sProp.val            = preProp->val();
       sProp.repoAuthType   = preProp->repoAuthType();
       if (slot < traitIdx) {
         sProp.idx = slot;
@@ -2099,7 +2121,7 @@ bool Class::compatibleTraitPropInit(TypedValue& tv1, TypedValue& tv2) {
     case KindOfBoolean:
     case KindOfInt64:
     case KindOfDouble:
-    case KindOfStaticString:
+    case KindOfPersistentString:
     case KindOfString:
       return same(tvAsVariant(&tv1), tvAsVariant(&tv2));
 
@@ -2789,7 +2811,7 @@ void Class::getMethodNames(const Class* cls,
     auto const meth = cls->getMethod(i);
     auto const declCls = meth->cls();
     auto addMeth = [&]() {
-      auto const methName = Variant(meth->name(), Variant::StaticStrInit{});
+      auto const methName = Variant(meth->name(), Variant::PersistentStrInit{});
       auto const lowerName = f_strtolower(methName.toString());
       if (!out.exists(lowerName)) {
         out.add(lowerName, methName);

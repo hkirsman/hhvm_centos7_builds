@@ -23,12 +23,12 @@
 
 #include "hphp/runtime/base/builtin-functions.h"
 #include "hphp/runtime/base/exceptions.h"
-#include "hphp/runtime/base/memory-profile.h"
 #include "hphp/runtime/base/runtime-option.h"
 #include "hphp/runtime/base/stack-logger.h"
 #include "hphp/runtime/base/surprise-flags.h"
 #include "hphp/runtime/base/sweepable.h"
 #include "hphp/runtime/base/thread-info.h"
+#include "hphp/runtime/base/req-root.h"
 #include "hphp/runtime/base/heap-graph.h"
 #include "hphp/runtime/server/http-server.h"
 
@@ -199,32 +199,15 @@ MemoryManager::MemoryManager() {
   m_bypassSlabAlloc = RuntimeOption::DisableSmallAllocator;
 }
 
-void MemoryManager::addExceptionRoot(ExtendedException* exn) {
-  m_exceptionRoots.push_back(exn);
-  // The key is the index into the exception root list (biased by 1).
-  exn->m_key.m_index = m_exceptionRoots.size();
-}
-
-void MemoryManager::removeExceptionRoot(ExtendedException* exn) {
-  // Swap the exception being removed with the last exception in the list (which
-  // might be the same one). This lets us remove from the vector in constant
-  // time.
-  assert(exn->m_key.m_index > 0 &&
-         exn->m_key.m_index <= m_exceptionRoots.size());
-  auto& removed = m_exceptionRoots[exn->m_key.m_index-1];
-  assert(removed == exn);
-  auto& back = m_exceptionRoots.back();
-  assert(back->m_key.m_index == m_exceptionRoots.size());
-  back->m_key = removed->m_key;
-  removed->m_key.m_index = 0;
-  removed = back;
-  m_exceptionRoots.pop_back();
+MemoryManager::~MemoryManager() {
+  for (auto r : m_root_handles) r->invalidate();
 }
 
 void MemoryManager::dropRootMaps() {
   m_objectRoots = nullptr;
   m_resourceRoots = nullptr;
-  m_exceptionRoots = std::vector<ExtendedException*>();
+  for (auto r : m_root_handles) r->invalidate();
+  m_root_handles.clear();
 }
 
 void MemoryManager::deleteRootMaps() {
@@ -236,7 +219,8 @@ void MemoryManager::deleteRootMaps() {
     req::destroy_raw(m_resourceRoots);
     m_resourceRoots = nullptr;
   }
-  m_exceptionRoots = std::vector<ExtendedException*>();
+  for (auto r : m_root_handles) r->invalidate();
+  m_root_handles.clear();
 }
 
 void MemoryManager::resetRuntimeOptions() {
@@ -475,10 +459,6 @@ template void MemoryManager::refreshStatsImpl<true>(MemoryUsageStats& stats);
 template void MemoryManager::refreshStatsImpl<false>(MemoryUsageStats& stats);
 
 void MemoryManager::sweep() {
-  // running a gc-cycle at end of request exposes bugs, but otherwise is
-  // somewhat pointless since we're about to free the heap en-masse.
-  if (debug) collect("before MM::sweep");
-
   assert(!sweeping());
   m_sweeping = true;
   DEBUG_ONLY size_t num_sweepables = 0, num_natives = 0;
@@ -550,7 +530,7 @@ void MemoryManager::flush() {
   m_heap.flush();
   m_apc_arrays = std::vector<APCLocalArray*>();
   m_natives = std::vector<NativeNode*>();
-  m_exceptionRoots = std::vector<ExtendedException*>();
+  m_root_handles = std::vector<req::root_handle*>{};
 }
 
 /*
@@ -643,7 +623,7 @@ inline void* MemoryManager::realloc(void* ptr, size_t nbytes) {
     return newmem;
   }
   // Ok, it's a big allocation.
-  if (debug) eagerGCCheck();
+  if (debug) checkEagerGC();
   auto block = m_heap.resizeBig(ptr, nbytes);
   refreshStats();
   return block.ptr;
@@ -683,8 +663,12 @@ void MemoryManager::initFree() {
   m_needInitFree = false;
 }
 
-// turn free blocks into holes, leave freelists empty.
-void MemoryManager::quarantine() {
+void MemoryManager::beginQuarantine() {
+  std::swap(m_freelists, m_quarantine);
+}
+
+// turn free blocks into holes, restore original freelists
+void MemoryManager::endQuarantine() {
   for (auto i = 0; i < kNumSmallSizes; i++) {
     auto size = smallIndex2Size(i);
     while (auto n = m_freelists[i].maybePop()) {
@@ -692,15 +676,14 @@ void MemoryManager::quarantine() {
       static_cast<FreeNode*>(n)->hdr.init(HeaderKind::Hole, size);
     }
   }
+  std::swap(m_freelists, m_quarantine);
 }
 
 // test iterating objects in slabs
 void MemoryManager::checkHeap(const char* phase) {
   size_t bytes=0;
   std::vector<Header*> hdrs;
-  std::unordered_set<FreeNode*> free_blocks;
-  std::unordered_set<APCLocalArray*> apc_arrays;
-  std::unordered_set<StringData*> apc_strings;
+  PtrMap free_blocks, apc_arrays, apc_strings;
   size_t counts[NumHeaderKinds];
   for (unsigned i=0; i < NumHeaderKinds; i++) counts[i] = 0;
   forEachHeader([&](Header* h) {
@@ -709,15 +692,15 @@ void MemoryManager::checkHeap(const char* phase) {
     counts[(int)h->kind()]++;
     switch (h->kind()) {
       case HeaderKind::Free:
-        free_blocks.insert(&h->free_);
+        free_blocks.insert(h);
         break;
       case HeaderKind::Apc:
         if (h->apc_.m_sweep_index != kInvalidSweepIndex) {
-          apc_arrays.insert(&h->apc_);
+          apc_arrays.insert(h);
         }
         break;
       case HeaderKind::String:
-        if (h->str_.isProxy()) apc_strings.insert(&h->str_);
+        if (h->str_.isProxy()) apc_strings.insert(h);
         break;
       case HeaderKind::Packed:
       case HeaderKind::Struct:
@@ -751,31 +734,34 @@ void MemoryManager::checkHeap(const char* phase) {
   });
 
   // check the free lists
+  free_blocks.prepare();
+  size_t num_free_blocks = 0;
   for (auto i = 0; i < kNumSmallSizes; i++) {
     for (auto n = m_freelists[i].head; n; n = n->next) {
-      assert(free_blocks.find(n) != free_blocks.end());
-      free_blocks.erase(n);
+      assert(free_blocks.isHeader(n));
+      ++num_free_blocks;
     }
   }
-  assert(free_blocks.empty());
+  assert(num_free_blocks == free_blocks.size());
 
   // check the apc array list
   assert(apc_arrays.size() == m_apc_arrays.size());
-  for (auto a : m_apc_arrays) {
-    assert(apc_arrays.find(a) != apc_arrays.end());
-    apc_arrays.erase(a);
+  apc_arrays.prepare();
+  for (UNUSED auto a : m_apc_arrays) {
+    assert(apc_arrays.isHeader(a));
   }
-  assert(apc_arrays.empty());
 
   // check the apc string list
+  size_t num_apc_strings = 0;
+  apc_strings.prepare();
   for (StringDataNode *next, *n = m_strings.next; n != &m_strings; n = next) {
     next = n->next;
-    auto const s = StringData::node2str(n);
+    UNUSED auto const s = StringData::node2str(n);
     assert(s->isProxy());
-    assert(apc_strings.find(s) != apc_strings.end());
-    apc_strings.erase(s);
+    assert(apc_strings.isHeader(s));
+    ++num_apc_strings;
   }
-  assert(apc_strings.empty());
+  assert(num_apc_strings == apc_strings.size());
 
   // heap check is done. If we are not exiting, check pointers using HeapGraph
   if (Trace::moduleEnabled(Trace::heapreport)) {
@@ -785,83 +771,6 @@ void MemoryManager::checkHeap(const char* phase) {
       printHeapReport(g, phase);
     }
   }
-}
-
-/*
- * Get a new slab, then allocate nbytes from it and install it in our
- * slab list.  Return the newly allocated nbytes-sized block.
- */
-NEVER_INLINE void* MemoryManager::newSlab(uint32_t nbytes) {
-  if (UNLIKELY(m_stats.usage > m_stats.maxBytes)) {
-    refreshStats();
-  }
-  storeTail(m_front, (char*)m_limit - (char*)m_front);
-  if (debug && RuntimeOption::EvalCheckHeapOnAlloc && !g_context.isNull()) {
-    setSurpriseFlag(PendingGCFlag); // defer heap check until safepoint
-  }
-  auto slab = m_heap.allocSlab(kSlabSize);
-  assert((uintptr_t(slab.ptr) & kSmallSizeAlignMask) == 0);
-  m_stats.borrow(slab.size);
-  m_stats.alloc += slab.size;
-  if (m_stats.alloc > m_stats.peakAlloc) {
-    m_stats.peakAlloc = m_stats.alloc;
-  }
-  m_front = (void*)(uintptr_t(slab.ptr) + nbytes);
-  m_limit = (void*)(uintptr_t(slab.ptr) + slab.size);
-  FTRACE(3, "newSlab: adding slab at {} to limit {}\n", slab.ptr, m_limit);
-  return slab.ptr;
-}
-
-/*
- * Allocate `bytes' from the current slab, aligned to kSmallSizeAlign.
- */
-inline void* MemoryManager::slabAlloc(uint32_t bytes, unsigned index) {
-  FTRACE(3, "slabAlloc({}, {}): m_front={}, m_limit={}\n", bytes, index,
-            m_front, m_limit);
-  uint32_t nbytes = smallIndex2Size(index);
-
-  assert(bytes <= nbytes);
-  assert(nbytes <= kSlabSize);
-  assert((nbytes & kSmallSizeAlignMask) == 0);
-  assert((uintptr_t(m_front) & kSmallSizeAlignMask) == 0);
-
-  if (UNLIKELY(m_bypassSlabAlloc)) {
-    // Stats correction; mallocBigSize() pulls stats from jemalloc.
-    m_stats.usage -= bytes;
-    return mallocBigSize<false>(nbytes).ptr;
-  }
-
-  void* ptr = m_front;
-  {
-    void* next = (void*)(uintptr_t(ptr) + nbytes);
-    if (uintptr_t(next) <= uintptr_t(m_limit)) {
-      m_front = next;
-    } else {
-      ptr = newSlab(nbytes);
-    }
-  }
-  // Preallocate more of the same in order to amortize entry into this method.
-  unsigned nPrealloc;
-  if (nbytes * kSmallPreallocCountLimit <= kSmallPreallocBytesLimit) {
-    nPrealloc = kSmallPreallocCountLimit;
-  } else {
-    nPrealloc = kSmallPreallocBytesLimit / nbytes;
-  }
-  {
-    void* front = (void*)(uintptr_t(m_front) + nPrealloc*nbytes);
-    if (uintptr_t(front) > uintptr_t(m_limit)) {
-      nPrealloc = ((uintptr_t)m_limit - uintptr_t(m_front)) / nbytes;
-      front = (void*)(uintptr_t(m_front) + nPrealloc*nbytes);
-    }
-    m_front = front;
-  }
-  for (void* p = (void*)(uintptr_t(m_front) - nbytes); p != ptr;
-       p = (void*)(uintptr_t(p) - nbytes)) {
-    m_freelists[index].push(p, nbytes);
-  }
-  FTRACE(4, "slabAlloc({}, {}) --> ptr={}, m_front={}, m_limit={}\n", bytes,
-            index, ptr, m_front, m_limit);
-  return ptr;
 }
 
 /*
@@ -911,15 +820,76 @@ inline void MemoryManager::splitTail(void* tail, uint32_t tailBytes,
   storeTail(rem, remBytes);
 }
 
+/*
+ * Get a new slab, then allocate nbytes from it and install it in our
+ * slab list.  Return the newly allocated nbytes-sized block.
+ */
+NEVER_INLINE void* MemoryManager::newSlab(uint32_t nbytes) {
+  if (UNLIKELY(m_stats.usage > m_stats.maxBytes)) {
+    refreshStats();
+  }
+  storeTail(m_front, (char*)m_limit - (char*)m_front);
+  auto slab = m_heap.allocSlab(kSlabSize);
+  assert((uintptr_t(slab.ptr) & kSmallSizeAlignMask) == 0);
+  m_stats.borrow(slab.size);
+  m_stats.alloc += slab.size;
+  if (m_stats.alloc > m_stats.peakAlloc) {
+    m_stats.peakAlloc = m_stats.alloc;
+  }
+  m_front = (void*)(uintptr_t(slab.ptr) + nbytes);
+  m_limit = (void*)(uintptr_t(slab.ptr) + slab.size);
+  FTRACE(3, "newSlab: adding slab at {} to limit {}\n", slab.ptr, m_limit);
+  return slab.ptr;
+}
+
+/*
+ * Allocate `bytes' from the current slab, aligned to kSmallSizeAlign.
+ */
+inline void* MemoryManager::slabAlloc(uint32_t bytes, unsigned index) {
+  FTRACE(3, "slabAlloc({}, {}): m_front={}, m_limit={}\n", bytes, index,
+            m_front, m_limit);
+  uint32_t nbytes = smallIndex2Size(index);
+
+  assert(bytes <= nbytes);
+  assert(nbytes <= kSlabSize);
+  assert((nbytes & kSmallSizeAlignMask) == 0);
+  assert((uintptr_t(m_front) & kSmallSizeAlignMask) == 0);
+
+  if (UNLIKELY(m_bypassSlabAlloc)) {
+    // Stats correction; mallocBigSize() pulls stats from jemalloc.
+    m_stats.usage -= bytes;
+    return mallocBigSize<false>(nbytes).ptr;
+  }
+
+  void* ptr = m_front;
+  {
+    void* next = (void*)(uintptr_t(ptr) + nbytes);
+    if (uintptr_t(next) <= uintptr_t(m_limit)) {
+      m_front = next;
+    } else {
+      ptr = newSlab(nbytes);
+    }
+  }
+  // Preallocate more of the same in order to amortize entry into this method.
+  unsigned nSplit = kNContigTab[index] - 1;
+  uintptr_t avail = uintptr_t(m_limit) - uintptr_t(m_front);
+  if (UNLIKELY(nSplit * nbytes > avail)) {
+    nSplit = avail / nbytes; // Expensive division.
+  }
+  if (nSplit > 0) {
+    void* tail = m_front;
+    uint32_t tailBytes = nSplit * nbytes;
+    m_front = (void*)(uintptr_t(m_front) + tailBytes);
+    splitTail(tail, tailBytes, nSplit, nbytes, index);
+  }
+  FTRACE(4, "slabAlloc({}, {}) --> ptr={}, m_front={}, m_limit={}\n", bytes,
+            index, ptr, m_front, m_limit);
+  return ptr;
+}
+
 void* MemoryManager::mallocSmallSizeSlow(uint32_t bytes, unsigned index) {
   size_t nbytes = smallIndex2Size(index);
-  static constexpr unsigned nContigTab[] = {
-#define SMALL_SIZE(index, lg_grp, lg_delta, ndelta, lg_delta_lookup, ncontig) \
-    ncontig,
-  SMALL_SIZES
-#undef SMALL_SIZE
-  };
-  unsigned nContig = nContigTab[index];
+  unsigned nContig = kNContigTab[index];
   size_t contigMin = nContig * nbytes;
   unsigned contigInd = smallSize2Index(contigMin);
   for (unsigned i = contigInd; i < kNumSmallSizes; ++i) {
@@ -972,7 +942,7 @@ MemBlock MemoryManager::mallocBigSize<false>(size_t);
 
 template<bool callerSavesActualSize> NEVER_INLINE
 MemBlock MemoryManager::mallocBigSize(size_t bytes) {
-  if (debug) eagerGCCheck();
+  if (debug) checkEagerGC();
 
   auto block = m_heap.allocBig(bytes, HeaderKind::BigObj);
   auto szOut = block.size;
@@ -994,7 +964,7 @@ MemBlock MemoryManager::mallocBigSize(size_t bytes) {
 
 NEVER_INLINE
 void* MemoryManager::callocBig(size_t totalbytes) {
-  if (debug) eagerGCCheck();
+  if (debug) checkEagerGC();
   assert(totalbytes > 0);
   auto block = m_heap.callocBig(totalbytes);
   updateBigStats();
@@ -1074,14 +1044,6 @@ Sweepable::Sweepable() {
 
 //////////////////////////////////////////////////////////////////////
 
-void MemoryManager::logAllocation(void* p, size_t bytes) {
-  MemoryProfile::logAllocation(p, bytes);
-}
-
-void MemoryManager::logDeallocation(void* p) {
-  MemoryProfile::logDeallocation(p);
-}
-
 void MemoryManager::resetCouldOOM(bool state) {
   clearSurpriseFlag(MemExceededFlag);
   m_couldOOM = state;
@@ -1122,26 +1084,20 @@ void MemoryManager::requestInit() {
   delete trigger;
 
 #ifdef USE_JEMALLOC
-  bool active = true;
-  size_t boolsz = sizeof(bool);
-
   // Reset jemalloc stats.
-  if (mallctl("prof.reset", nullptr, nullptr, nullptr, 0)) {
+  if (mallctlCall("prof.reset", true) != 0) {
     return;
   }
 
   // Enable jemalloc thread-local heap dumps.
-  if (mallctl("prof.active",
-              &profctx.prof_active, &boolsz,
-              &active, sizeof(bool))) {
+  if (mallctlReadWrite("prof.active", &profctx.prof_active, true, true)
+      != 0) {
     profctx = ReqProfContext{};
     return;
   }
-  if (mallctl("thread.prof.active",
-              &profctx.thread_prof_active, &boolsz,
-              &active, sizeof(bool))) {
-    mallctl("prof.active", nullptr, nullptr,
-            &profctx.prof_active, sizeof(bool));
+  if (mallctlReadWrite("thread.prof.active", &profctx.thread_prof_active,
+                       true, true) != 0) {
+    mallctlWrite("prof.active", profctx.prof_active);
     profctx = ReqProfContext{};
     return;
   }
@@ -1156,10 +1112,8 @@ void MemoryManager::requestShutdown() {
 #ifdef USE_JEMALLOC
   jemalloc_pprof_dump(profctx.filename, true);
 
-  mallctl("thread.prof.active", nullptr, nullptr,
-          &profctx.thread_prof_active, sizeof(bool));
-  mallctl("prof.active", nullptr, nullptr,
-          &profctx.prof_active, sizeof(bool));
+  mallctlWrite("thread.prof.active", profctx.thread_prof_active);
+  mallctlWrite("prof.active", profctx.prof_active);
 #endif
 
   MM().m_bypassSlabAlloc = RuntimeOption::DisableSmallAllocator;
@@ -1167,12 +1121,13 @@ void MemoryManager::requestShutdown() {
   profctx = ReqProfContext{};
 }
 
-void MemoryManager::eagerGCCheck() {
-  if (RuntimeOption::EvalEagerGCProbability > 0 &&
-      !g_context.isNull() &&
-      folly::Random::oneIn(RuntimeOption::EvalEagerGCProbability)) {
-    setSurpriseFlag(PendingGCFlag);
-  }
+/* static */ void MemoryManager::setupProfiling() {
+  always_assert(MM().empty());
+  MM().m_bypassSlabAlloc = true;
+}
+
+/* static */ void MemoryManager::teardownProfiling() {
+  MM().m_bypassSlabAlloc = RuntimeOption::DisableSmallAllocator;
 }
 
 ///////////////////////////////////////////////////////////////////////////////

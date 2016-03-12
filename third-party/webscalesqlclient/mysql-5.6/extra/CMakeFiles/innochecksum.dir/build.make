@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src
 
 # Include any dependencies generated for this target.
 include extra/CMakeFiles/innochecksum.dir/depend.make
@@ -54,17 +54,17 @@ include extra/CMakeFiles/innochecksum.dir/flags.make
 
 extra/CMakeFiles/innochecksum.dir/innochecksum.cc.o: extra/CMakeFiles/innochecksum.dir/flags.make
 extra/CMakeFiles/innochecksum.dir/innochecksum.cc.o: extra/innochecksum.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object extra/CMakeFiles/innochecksum.dir/innochecksum.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/extra && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/innochecksum.dir/innochecksum.cc.o -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/extra/innochecksum.cc
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/extra && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/innochecksum.dir/innochecksum.cc.o -c /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/extra/innochecksum.cc
 
 extra/CMakeFiles/innochecksum.dir/innochecksum.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/innochecksum.dir/innochecksum.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/extra && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/extra/innochecksum.cc > CMakeFiles/innochecksum.dir/innochecksum.cc.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/extra && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/extra/innochecksum.cc > CMakeFiles/innochecksum.dir/innochecksum.cc.i
 
 extra/CMakeFiles/innochecksum.dir/innochecksum.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/innochecksum.dir/innochecksum.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/extra && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/extra/innochecksum.cc -o CMakeFiles/innochecksum.dir/innochecksum.cc.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/extra && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/extra/innochecksum.cc -o CMakeFiles/innochecksum.dir/innochecksum.cc.s
 
 extra/CMakeFiles/innochecksum.dir/innochecksum.cc.o.requires:
 .PHONY : extra/CMakeFiles/innochecksum.dir/innochecksum.cc.o.requires
@@ -77,17 +77,17 @@ extra/CMakeFiles/innochecksum.dir/innochecksum.cc.o.provides.build: extra/CMakeF
 
 extra/CMakeFiles/innochecksum.dir/__/storage/innobase/buf/buf0checksum.cc.o: extra/CMakeFiles/innochecksum.dir/flags.make
 extra/CMakeFiles/innochecksum.dir/__/storage/innobase/buf/buf0checksum.cc.o: storage/innobase/buf/buf0checksum.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object extra/CMakeFiles/innochecksum.dir/__/storage/innobase/buf/buf0checksum.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/extra && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/innochecksum.dir/__/storage/innobase/buf/buf0checksum.cc.o -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/storage/innobase/buf/buf0checksum.cc
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/extra && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/innochecksum.dir/__/storage/innobase/buf/buf0checksum.cc.o -c /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/storage/innobase/buf/buf0checksum.cc
 
 extra/CMakeFiles/innochecksum.dir/__/storage/innobase/buf/buf0checksum.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/innochecksum.dir/__/storage/innobase/buf/buf0checksum.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/extra && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/storage/innobase/buf/buf0checksum.cc > CMakeFiles/innochecksum.dir/__/storage/innobase/buf/buf0checksum.cc.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/extra && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/storage/innobase/buf/buf0checksum.cc > CMakeFiles/innochecksum.dir/__/storage/innobase/buf/buf0checksum.cc.i
 
 extra/CMakeFiles/innochecksum.dir/__/storage/innobase/buf/buf0checksum.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/innochecksum.dir/__/storage/innobase/buf/buf0checksum.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/extra && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/storage/innobase/buf/buf0checksum.cc -o CMakeFiles/innochecksum.dir/__/storage/innobase/buf/buf0checksum.cc.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/extra && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/storage/innobase/buf/buf0checksum.cc -o CMakeFiles/innochecksum.dir/__/storage/innobase/buf/buf0checksum.cc.s
 
 extra/CMakeFiles/innochecksum.dir/__/storage/innobase/buf/buf0checksum.cc.o.requires:
 .PHONY : extra/CMakeFiles/innochecksum.dir/__/storage/innobase/buf/buf0checksum.cc.o.requires
@@ -100,17 +100,17 @@ extra/CMakeFiles/innochecksum.dir/__/storage/innobase/buf/buf0checksum.cc.o.prov
 
 extra/CMakeFiles/innochecksum.dir/__/storage/innobase/ut/ut0crc32.cc.o: extra/CMakeFiles/innochecksum.dir/flags.make
 extra/CMakeFiles/innochecksum.dir/__/storage/innobase/ut/ut0crc32.cc.o: storage/innobase/ut/ut0crc32.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object extra/CMakeFiles/innochecksum.dir/__/storage/innobase/ut/ut0crc32.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/extra && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/innochecksum.dir/__/storage/innobase/ut/ut0crc32.cc.o -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/storage/innobase/ut/ut0crc32.cc
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/extra && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/innochecksum.dir/__/storage/innobase/ut/ut0crc32.cc.o -c /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/storage/innobase/ut/ut0crc32.cc
 
 extra/CMakeFiles/innochecksum.dir/__/storage/innobase/ut/ut0crc32.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/innochecksum.dir/__/storage/innobase/ut/ut0crc32.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/extra && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/storage/innobase/ut/ut0crc32.cc > CMakeFiles/innochecksum.dir/__/storage/innobase/ut/ut0crc32.cc.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/extra && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/storage/innobase/ut/ut0crc32.cc > CMakeFiles/innochecksum.dir/__/storage/innobase/ut/ut0crc32.cc.i
 
 extra/CMakeFiles/innochecksum.dir/__/storage/innobase/ut/ut0crc32.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/innochecksum.dir/__/storage/innobase/ut/ut0crc32.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/extra && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/storage/innobase/ut/ut0crc32.cc -o CMakeFiles/innochecksum.dir/__/storage/innobase/ut/ut0crc32.cc.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/extra && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/storage/innobase/ut/ut0crc32.cc -o CMakeFiles/innochecksum.dir/__/storage/innobase/ut/ut0crc32.cc.s
 
 extra/CMakeFiles/innochecksum.dir/__/storage/innobase/ut/ut0crc32.cc.o.requires:
 .PHONY : extra/CMakeFiles/innochecksum.dir/__/storage/innobase/ut/ut0crc32.cc.o.requires
@@ -123,17 +123,17 @@ extra/CMakeFiles/innochecksum.dir/__/storage/innobase/ut/ut0crc32.cc.o.provides.
 
 extra/CMakeFiles/innochecksum.dir/__/storage/innobase/ut/ut0ut.cc.o: extra/CMakeFiles/innochecksum.dir/flags.make
 extra/CMakeFiles/innochecksum.dir/__/storage/innobase/ut/ut0ut.cc.o: storage/innobase/ut/ut0ut.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object extra/CMakeFiles/innochecksum.dir/__/storage/innobase/ut/ut0ut.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/extra && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/innochecksum.dir/__/storage/innobase/ut/ut0ut.cc.o -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/storage/innobase/ut/ut0ut.cc
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/extra && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/innochecksum.dir/__/storage/innobase/ut/ut0ut.cc.o -c /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/storage/innobase/ut/ut0ut.cc
 
 extra/CMakeFiles/innochecksum.dir/__/storage/innobase/ut/ut0ut.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/innochecksum.dir/__/storage/innobase/ut/ut0ut.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/extra && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/storage/innobase/ut/ut0ut.cc > CMakeFiles/innochecksum.dir/__/storage/innobase/ut/ut0ut.cc.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/extra && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/storage/innobase/ut/ut0ut.cc > CMakeFiles/innochecksum.dir/__/storage/innobase/ut/ut0ut.cc.i
 
 extra/CMakeFiles/innochecksum.dir/__/storage/innobase/ut/ut0ut.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/innochecksum.dir/__/storage/innobase/ut/ut0ut.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/extra && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/storage/innobase/ut/ut0ut.cc -o CMakeFiles/innochecksum.dir/__/storage/innobase/ut/ut0ut.cc.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/extra && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/storage/innobase/ut/ut0ut.cc -o CMakeFiles/innochecksum.dir/__/storage/innobase/ut/ut0ut.cc.s
 
 extra/CMakeFiles/innochecksum.dir/__/storage/innobase/ut/ut0ut.cc.o.requires:
 .PHONY : extra/CMakeFiles/innochecksum.dir/__/storage/innobase/ut/ut0ut.cc.o.requires
@@ -146,17 +146,17 @@ extra/CMakeFiles/innochecksum.dir/__/storage/innobase/ut/ut0ut.cc.o.provides.bui
 
 extra/CMakeFiles/innochecksum.dir/__/storage/innobase/page/page0zip_checksum.cc.o: extra/CMakeFiles/innochecksum.dir/flags.make
 extra/CMakeFiles/innochecksum.dir/__/storage/innobase/page/page0zip_checksum.cc.o: storage/innobase/page/page0zip_checksum.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object extra/CMakeFiles/innochecksum.dir/__/storage/innobase/page/page0zip_checksum.cc.o"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/extra && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/innochecksum.dir/__/storage/innobase/page/page0zip_checksum.cc.o -c /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/storage/innobase/page/page0zip_checksum.cc
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/extra && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/innochecksum.dir/__/storage/innobase/page/page0zip_checksum.cc.o -c /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/storage/innobase/page/page0zip_checksum.cc
 
 extra/CMakeFiles/innochecksum.dir/__/storage/innobase/page/page0zip_checksum.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/innochecksum.dir/__/storage/innobase/page/page0zip_checksum.cc.i"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/extra && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/storage/innobase/page/page0zip_checksum.cc > CMakeFiles/innochecksum.dir/__/storage/innobase/page/page0zip_checksum.cc.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/extra && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/storage/innobase/page/page0zip_checksum.cc > CMakeFiles/innochecksum.dir/__/storage/innobase/page/page0zip_checksum.cc.i
 
 extra/CMakeFiles/innochecksum.dir/__/storage/innobase/page/page0zip_checksum.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/innochecksum.dir/__/storage/innobase/page/page0zip_checksum.cc.s"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/extra && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/storage/innobase/page/page0zip_checksum.cc -o CMakeFiles/innochecksum.dir/__/storage/innobase/page/page0zip_checksum.cc.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/extra && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/storage/innobase/page/page0zip_checksum.cc -o CMakeFiles/innochecksum.dir/__/storage/innobase/page/page0zip_checksum.cc.s
 
 extra/CMakeFiles/innochecksum.dir/__/storage/innobase/page/page0zip_checksum.cc.o.requires:
 .PHONY : extra/CMakeFiles/innochecksum.dir/__/storage/innobase/page/page0zip_checksum.cc.o.requires
@@ -196,7 +196,7 @@ extra/innochecksum: /usr/lib64/libssl.so
 extra/innochecksum: /usr/lib64/libcrypto.so
 extra/innochecksum: extra/CMakeFiles/innochecksum.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable innochecksum"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/extra && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/innochecksum.dir/link.txt --verbose=$(VERBOSE)
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/extra && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/innochecksum.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 extra/CMakeFiles/innochecksum.dir/build: extra/innochecksum
@@ -210,10 +210,10 @@ extra/CMakeFiles/innochecksum.dir/requires: extra/CMakeFiles/innochecksum.dir/__
 .PHONY : extra/CMakeFiles/innochecksum.dir/requires
 
 extra/CMakeFiles/innochecksum.dir/clean:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/extra && $(CMAKE_COMMAND) -P CMakeFiles/innochecksum.dir/cmake_clean.cmake
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/extra && $(CMAKE_COMMAND) -P CMakeFiles/innochecksum.dir/cmake_clean.cmake
 .PHONY : extra/CMakeFiles/innochecksum.dir/clean
 
 extra/CMakeFiles/innochecksum.dir/depend:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/extra /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/extra /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/extra/CMakeFiles/innochecksum.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/extra /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/extra /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/extra/CMakeFiles/innochecksum.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : extra/CMakeFiles/innochecksum.dir/depend
 

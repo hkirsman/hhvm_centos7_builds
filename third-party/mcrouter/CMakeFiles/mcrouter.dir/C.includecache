@@ -6,35 +6,35 @@
 
 #IncludeRegexTransform: 
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/ascii_client.c
+/tmp/hhvm-3.12.1/third-party/mcrouter/ascii_client.c
 ctype.h
 -
 mcrouter/lib/fbi/debug.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/debug.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/debug.h
 mcrouter/lib/mc/_protocol.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/_protocol.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/_protocol.h
 mcrouter/lib/mc/parser.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/parser.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/parser.h
 mcrouter/lib/mc/msg.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/msg.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/msg.h
 mcrouter/lib/mc/util.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/util.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/util.h
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/asox_queue.c
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/asox_queue.c
 asox_queue.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/asox_queue.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/asox_queue.h
 stdbool.h
 -
 stdlib.h
 -
 mcrouter/lib/fbi/asox_semaphore.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/asox_semaphore.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/asox_semaphore.h
 mcrouter/lib/fbi/debug.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/debug.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/debug.h
 mcrouter/lib/fbi/waitable_count.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/waitable_count.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/waitable_count.h
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/asox_queue.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/asox_queue.h
 event.h
 -
 stdint.h
@@ -42,21 +42,21 @@ stdint.h
 sys/types.h
 -
 mcrouter/lib/fbi/decls.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/decls.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/decls.h
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/asox_semaphore.c
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/asox_semaphore.c
 asox_semaphore.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/asox_semaphore.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/asox_semaphore.h
 unistd.h
 -
 fcntl.h
 -
 folly/io/async/EventFDWrapper.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/folly/io/async/EventFDWrapper.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/folly/io/async/EventFDWrapper.h
 mcrouter/lib/fbi/debug.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/debug.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/debug.h
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/asox_semaphore.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/asox_semaphore.h
 event.h
 -
 stdbool.h
@@ -64,23 +64,23 @@ stdbool.h
 stdint.h
 -
 mcrouter/lib/fbi/decls.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/decls.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/decls.h
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/asox_timer.c
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/asox_timer.c
 asox_timer.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/asox_timer.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/asox_timer.h
 mcrouter/lib/fbi/debug.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/debug.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/debug.h
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/asox_timer.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/asox_timer.h
 event.h
 -
 mcrouter/lib/fbi/decls.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/decls.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/decls.h
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/counting_sem.c
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/counting_sem.c
 counting_sem.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/counting_sem.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/counting_sem.h
 limits.h
 -
 linux/futex.h
@@ -94,17 +94,17 @@ sys/syscall.h
 unistd.h
 -
 util.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/util.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/util.h
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/counting_sem.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/counting_sem.h
 stdint.h
 -
 mcrouter/lib/fbi/decls.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/decls.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/decls.h
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/cwlock.c
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/cwlock.c
 cwlock.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/cwlock.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/cwlock.h
 limits.h
 -
 linux/futex.h
@@ -116,17 +116,17 @@ sys/syscall.h
 unistd.h
 -
 debug.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/debug.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/debug.h
 util.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/util.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/util.h
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/cwlock.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/cwlock.h
 stdbool.h
 -
 stdint.h
 -
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/debug.c
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/debug.c
 assert.h
 -
 errno.h
@@ -148,9 +148,9 @@ sys/time.h
 pthread.h
 -
 debug.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/debug.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/debug.h
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/debug.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/debug.h
 assert.h
 -
 errno.h
@@ -162,15 +162,15 @@ stdio.h
 string.h
 -
 mcrouter/lib/fbi/decls.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/decls.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/decls.h
 mcrouter/lib/fbi/time.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/time.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/time.h
 inttypes.h
 -
 nstring.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/nstring.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/nstring.h
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/error.c
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/error.c
 assert.h
 -
 pthread.h
@@ -180,11 +180,11 @@ stdarg.h
 stdio.h
 -
 error.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/error.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/error.h
 queue.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/queue.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/queue.h
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/error.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/error.h
 errno.h
 -
 stdio.h
@@ -192,13 +192,13 @@ stdio.h
 stdlib.h
 -
 mcrouter/lib/fbi/decls.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/decls.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/decls.h
 mcrouter/lib/fbi/nstring.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/nstring.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/nstring.h
 mcrouter/lib/fbi/time.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/time.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/time.h
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/fb_cpu_util.c
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/fb_cpu_util.c
 stdio.h
 -
 sys/param.h
@@ -222,13 +222,13 @@ unistd.h
 err.h
 -
 fb_cpu_util.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/fb_cpu_util.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/fb_cpu_util.h
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/fb_cpu_util.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/fb_cpu_util.h
 stdint.h
 -
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/hash.c
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/hash.c
 assert.h
 -
 stdlib.h
@@ -244,47 +244,47 @@ string.h
 math.h
 -
 hash.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/hash.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/hash.h
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/hash.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/hash.h
 inttypes.h
 -
 sys/types.h
 -
 mcrouter/lib/fbi/decls.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/decls.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/decls.h
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/lfcalloc.c
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/lfcalloc.c
 lfcalloc.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/lfcalloc.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/lfcalloc.h
 stddef.h
 -
 util.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/util.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/util.h
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/lfcalloc.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/lfcalloc.h
 stddef.h
 -
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/network.c
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/network.c
 network.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/network.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/network.h
 ifaddrs.h
 -
 stddef.h
 -
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/network.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/network.h
 netinet/in.h
 -
 stdbool.h
 -
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/nstring.c
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/nstring.c
 nstring.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/nstring.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/nstring.h
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/nstring.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/nstring.h
 assert.h
 -
 stdint.h
@@ -294,17 +294,17 @@ stdlib.h
 string.h
 -
 mcrouter/lib/fbi/decls.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/decls.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/decls.h
 debug.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/debug.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/debug.h
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/queue.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/queue.h
 sys/cdefs.h
 -
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/sfrlock.c
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/sfrlock.c
 sfrlock.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/sfrlock.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/sfrlock.h
 limits.h
 -
 linux/futex.h
@@ -314,17 +314,17 @@ sys/syscall.h
 unistd.h
 -
 debug.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/debug.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/debug.h
 util.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/util.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/util.h
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/sfrlock.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/sfrlock.h
 stdint.h
 -
 mcrouter/lib/fbi/util.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/util.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/util.h
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/skiplist.c
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/skiplist.c
 stdint.h
 -
 stdio.h
@@ -332,33 +332,33 @@ stdio.h
 stdlib.h
 -
 skiplist.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/skiplist.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/skiplist.h
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/skiplist.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/skiplist.h
 stdint.h
 -
 mcrouter/lib/fbi/decls.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/decls.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/decls.h
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/timer.c
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/timer.c
 timer.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/timer.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/timer.h
 stdio.h
 -
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/timer.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/timer.h
 mcrouter/lib/fbi/fb_cpu_util.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/fb_cpu_util.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/fb_cpu_util.h
 mcrouter/lib/fbi/nstring.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/nstring.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/nstring.h
 mcrouter/lib/fbi/queue.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/queue.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/mcrouter/lib/fbi/queue.h
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/util.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/util.h
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/waitable_count.c
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/waitable_count.c
 waitable_count.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/waitable_count.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/waitable_count.h
 errno.h
 -
 limits.h
@@ -374,33 +374,33 @@ sys/time.h
 unistd.h
 -
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/waitable_count.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/waitable_count.h
 stdbool.h
 -
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/_protocol.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/_protocol.h
 mcrouter/lib/fbi/decls.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/fbi/decls.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/fbi/decls.h
 mcrouter/lib/mc/msg.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/msg.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/msg.h
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/ascii_response.c
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/ascii_response.c
 ascii_response.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/ascii_response.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/ascii_response.h
 arpa/inet.h
 -
 mcrouter/lib/mc/util.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/util.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/util.h
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/ascii_response.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/ascii_response.h
 mcrouter/lib/fbi/decls.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/fbi/decls.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/fbi/decls.h
 mcrouter/lib/mc/msg.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/msg.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/msg.h
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/msg.c
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/msg.c
 msg.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/msg.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/msg.h
 ctype.h
 -
 stdint.h
@@ -412,13 +412,13 @@ string.h
 zlib.h
 -
 mcrouter/lib/fbi/nstring.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/fbi/nstring.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/fbi/nstring.h
 mcrouter/lib/mc/protocol.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/protocol.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/protocol.h
 mcrouter/lib/mc/mc_fbtrace_info.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/mc_fbtrace_info.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/mc_fbtrace_info.h
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/msg.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/msg.h
 inttypes.h
 -
 netinet/in.h
@@ -428,65 +428,65 @@ stdbool.h
 stdint.h
 -
 mcrouter/lib/fbi/decls.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/fbi/decls.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/fbi/decls.h
 mcrouter/lib/fbi/nstring.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/fbi/nstring.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/fbi/nstring.h
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/parser.c
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/parser.c
 parser.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/parser.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/parser.h
 stdio.h
 -
 mcrouter/lib/mc/ascii_client.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/ascii_client.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/ascii_client.h
 mcrouter/lib/mc/umbrella_protocol.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/umbrella_protocol.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/umbrella_protocol.h
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/parser.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/parser.h
 inttypes.h
 -
 stdbool.h
 -
 mcrouter/lib/fbi/decls.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/fbi/decls.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/fbi/decls.h
 mcrouter/lib/fbi/nstring.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/fbi/nstring.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/fbi/nstring.h
 mcrouter/lib/mc/msg.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/msg.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/msg.h
 mcrouter/lib/mc/protocol.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/protocol.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/protocol.h
 mcrouter/lib/mc/umbrella.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/umbrella.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/umbrella.h
 mcrouter/lib/mc/umbrella_protocol.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/umbrella_protocol.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/umbrella_protocol.h
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/protocol.c
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/protocol.c
 protocol.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/protocol.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/protocol.h
 stdio.h
 -
 inttypes.h
 -
 mcrouter/lib/mc/_protocol.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/_protocol.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/_protocol.h
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/protocol.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/protocol.h
 assert.h
 -
 netinet/in.h
 -
 mcrouter/lib/fbi/decls.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/fbi/decls.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/fbi/decls.h
 mcrouter/lib/fbi/nstring.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/fbi/nstring.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/fbi/nstring.h
 mcrouter/lib/fbi/util.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/fbi/util.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/fbi/util.h
 mcrouter/lib/mc/msg.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/msg.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/msg.h
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/umbrella.c
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/umbrella.c
 umbrella.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/umbrella.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/umbrella.h
 arpa/inet.h
 -
 assert.h
@@ -502,11 +502,11 @@ stdlib.h
 sys/uio.h
 -
 mcrouter/lib/mc/umbrella.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/umbrella.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/umbrella.h
 mcrouter/lib/mc/util.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/util.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/util.h
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/umbrella.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/umbrella.h
 arpa/inet.h
 -
 stdint.h
@@ -518,51 +518,51 @@ string.h
 sys/uio.h
 -
 mcrouter/lib/fbi/debug.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/fbi/debug.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/fbi/debug.h
 mcrouter/lib/fbi/decls.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/fbi/decls.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/fbi/decls.h
 mcrouter/lib/mc/msg.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/msg.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/msg.h
 mcrouter/lib/mc/umbrella_protocol.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/umbrella_protocol.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/umbrella_protocol.h
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/umbrella_protocol.c
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/umbrella_protocol.c
 umbrella_protocol.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/umbrella_protocol.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/umbrella_protocol.h
 sys/types.h
 -
 sys/uio.h
 -
 mcrouter/lib/fbi/debug.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/fbi/debug.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/fbi/debug.h
 mcrouter/lib/mc/msg.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/msg.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/msg.h
 mcrouter/lib/mc/umbrella.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/umbrella.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/umbrella.h
 mcrouter/lib/mc/mc_fbtrace_info.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/mc_fbtrace_info.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/mc_fbtrace_info.h
 mcrouter/lib/mc/umbrella_conv.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/umbrella_conv.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/umbrella_conv.h
 mcrouter/lib/mc/umbrella_conv.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/umbrella_conv.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/umbrella_conv.h
 mcrouter/lib/mc/umbrella_conv.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/umbrella_conv.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/umbrella_conv.h
 mcrouter/lib/mc/umbrella_conv.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/umbrella_conv.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/umbrella_conv.h
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/umbrella_protocol.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/umbrella_protocol.h
 stdint.h
 -
 sys/types.h
 -
 mcrouter/lib/fbi/decls.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/fbi/decls.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/fbi/decls.h
 mcrouter/lib/mc/msg.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/msg.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/mc/msg.h
 
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/util.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/util.h
 mcrouter/lib/fbi/decls.h
-/tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/fbi/decls.h
+/tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/mcrouter/lib/fbi/decls.h
 
 third-party/folly/folly/io/async/EventFDWrapper.h
 folly/folly-config.h

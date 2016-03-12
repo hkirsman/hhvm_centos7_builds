@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.1
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles /tmp/hhvm-3.11.1/third-party/re2/CMakeFiles/progress.marks
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/re2/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles 0
+	cd /tmp/hhvm-3.12.1 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.1/CMakeFiles /tmp/hhvm-3.12.1/third-party/re2/CMakeFiles/progress.marks
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/re2/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.1/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/re2/clean
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/re2/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/re2/preinstall
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/re2/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/re2/preinstall
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/re2/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /tmp/hhvm-3.12.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 third-party/re2/CMakeFiles/re2.dir/rule:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/re2/CMakeFiles/re2.dir/rule
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/re2/CMakeFiles/re2.dir/rule
 .PHONY : third-party/re2/CMakeFiles/re2.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ re2: third-party/re2/CMakeFiles/re2.dir/rule
 
 # fast build rule for target.
 re2/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/build
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/build
 .PHONY : re2/fast
 
 src/re2/bitstate.o: src/re2/bitstate.cc.o
@@ -161,7 +161,7 @@ src/re2/bitstate.o: src/re2/bitstate.cc.o
 
 # target to build an object file
 src/re2/bitstate.cc.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/bitstate.cc.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/bitstate.cc.o
 .PHONY : src/re2/bitstate.cc.o
 
 src/re2/bitstate.i: src/re2/bitstate.cc.i
@@ -169,7 +169,7 @@ src/re2/bitstate.i: src/re2/bitstate.cc.i
 
 # target to preprocess a source file
 src/re2/bitstate.cc.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/bitstate.cc.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/bitstate.cc.i
 .PHONY : src/re2/bitstate.cc.i
 
 src/re2/bitstate.s: src/re2/bitstate.cc.s
@@ -177,7 +177,7 @@ src/re2/bitstate.s: src/re2/bitstate.cc.s
 
 # target to generate assembly for a file
 src/re2/bitstate.cc.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/bitstate.cc.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/bitstate.cc.s
 .PHONY : src/re2/bitstate.cc.s
 
 src/re2/compile.o: src/re2/compile.cc.o
@@ -185,7 +185,7 @@ src/re2/compile.o: src/re2/compile.cc.o
 
 # target to build an object file
 src/re2/compile.cc.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/compile.cc.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/compile.cc.o
 .PHONY : src/re2/compile.cc.o
 
 src/re2/compile.i: src/re2/compile.cc.i
@@ -193,7 +193,7 @@ src/re2/compile.i: src/re2/compile.cc.i
 
 # target to preprocess a source file
 src/re2/compile.cc.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/compile.cc.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/compile.cc.i
 .PHONY : src/re2/compile.cc.i
 
 src/re2/compile.s: src/re2/compile.cc.s
@@ -201,7 +201,7 @@ src/re2/compile.s: src/re2/compile.cc.s
 
 # target to generate assembly for a file
 src/re2/compile.cc.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/compile.cc.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/compile.cc.s
 .PHONY : src/re2/compile.cc.s
 
 src/re2/dfa.o: src/re2/dfa.cc.o
@@ -209,7 +209,7 @@ src/re2/dfa.o: src/re2/dfa.cc.o
 
 # target to build an object file
 src/re2/dfa.cc.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/dfa.cc.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/dfa.cc.o
 .PHONY : src/re2/dfa.cc.o
 
 src/re2/dfa.i: src/re2/dfa.cc.i
@@ -217,7 +217,7 @@ src/re2/dfa.i: src/re2/dfa.cc.i
 
 # target to preprocess a source file
 src/re2/dfa.cc.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/dfa.cc.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/dfa.cc.i
 .PHONY : src/re2/dfa.cc.i
 
 src/re2/dfa.s: src/re2/dfa.cc.s
@@ -225,7 +225,7 @@ src/re2/dfa.s: src/re2/dfa.cc.s
 
 # target to generate assembly for a file
 src/re2/dfa.cc.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/dfa.cc.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/dfa.cc.s
 .PHONY : src/re2/dfa.cc.s
 
 src/re2/filtered_re2.o: src/re2/filtered_re2.cc.o
@@ -233,7 +233,7 @@ src/re2/filtered_re2.o: src/re2/filtered_re2.cc.o
 
 # target to build an object file
 src/re2/filtered_re2.cc.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/filtered_re2.cc.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/filtered_re2.cc.o
 .PHONY : src/re2/filtered_re2.cc.o
 
 src/re2/filtered_re2.i: src/re2/filtered_re2.cc.i
@@ -241,7 +241,7 @@ src/re2/filtered_re2.i: src/re2/filtered_re2.cc.i
 
 # target to preprocess a source file
 src/re2/filtered_re2.cc.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/filtered_re2.cc.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/filtered_re2.cc.i
 .PHONY : src/re2/filtered_re2.cc.i
 
 src/re2/filtered_re2.s: src/re2/filtered_re2.cc.s
@@ -249,7 +249,7 @@ src/re2/filtered_re2.s: src/re2/filtered_re2.cc.s
 
 # target to generate assembly for a file
 src/re2/filtered_re2.cc.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/filtered_re2.cc.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/filtered_re2.cc.s
 .PHONY : src/re2/filtered_re2.cc.s
 
 src/re2/mimics_pcre.o: src/re2/mimics_pcre.cc.o
@@ -257,7 +257,7 @@ src/re2/mimics_pcre.o: src/re2/mimics_pcre.cc.o
 
 # target to build an object file
 src/re2/mimics_pcre.cc.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/mimics_pcre.cc.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/mimics_pcre.cc.o
 .PHONY : src/re2/mimics_pcre.cc.o
 
 src/re2/mimics_pcre.i: src/re2/mimics_pcre.cc.i
@@ -265,7 +265,7 @@ src/re2/mimics_pcre.i: src/re2/mimics_pcre.cc.i
 
 # target to preprocess a source file
 src/re2/mimics_pcre.cc.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/mimics_pcre.cc.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/mimics_pcre.cc.i
 .PHONY : src/re2/mimics_pcre.cc.i
 
 src/re2/mimics_pcre.s: src/re2/mimics_pcre.cc.s
@@ -273,7 +273,7 @@ src/re2/mimics_pcre.s: src/re2/mimics_pcre.cc.s
 
 # target to generate assembly for a file
 src/re2/mimics_pcre.cc.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/mimics_pcre.cc.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/mimics_pcre.cc.s
 .PHONY : src/re2/mimics_pcre.cc.s
 
 src/re2/nfa.o: src/re2/nfa.cc.o
@@ -281,7 +281,7 @@ src/re2/nfa.o: src/re2/nfa.cc.o
 
 # target to build an object file
 src/re2/nfa.cc.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/nfa.cc.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/nfa.cc.o
 .PHONY : src/re2/nfa.cc.o
 
 src/re2/nfa.i: src/re2/nfa.cc.i
@@ -289,7 +289,7 @@ src/re2/nfa.i: src/re2/nfa.cc.i
 
 # target to preprocess a source file
 src/re2/nfa.cc.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/nfa.cc.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/nfa.cc.i
 .PHONY : src/re2/nfa.cc.i
 
 src/re2/nfa.s: src/re2/nfa.cc.s
@@ -297,7 +297,7 @@ src/re2/nfa.s: src/re2/nfa.cc.s
 
 # target to generate assembly for a file
 src/re2/nfa.cc.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/nfa.cc.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/nfa.cc.s
 .PHONY : src/re2/nfa.cc.s
 
 src/re2/onepass.o: src/re2/onepass.cc.o
@@ -305,7 +305,7 @@ src/re2/onepass.o: src/re2/onepass.cc.o
 
 # target to build an object file
 src/re2/onepass.cc.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/onepass.cc.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/onepass.cc.o
 .PHONY : src/re2/onepass.cc.o
 
 src/re2/onepass.i: src/re2/onepass.cc.i
@@ -313,7 +313,7 @@ src/re2/onepass.i: src/re2/onepass.cc.i
 
 # target to preprocess a source file
 src/re2/onepass.cc.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/onepass.cc.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/onepass.cc.i
 .PHONY : src/re2/onepass.cc.i
 
 src/re2/onepass.s: src/re2/onepass.cc.s
@@ -321,7 +321,7 @@ src/re2/onepass.s: src/re2/onepass.cc.s
 
 # target to generate assembly for a file
 src/re2/onepass.cc.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/onepass.cc.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/onepass.cc.s
 .PHONY : src/re2/onepass.cc.s
 
 src/re2/parse.o: src/re2/parse.cc.o
@@ -329,7 +329,7 @@ src/re2/parse.o: src/re2/parse.cc.o
 
 # target to build an object file
 src/re2/parse.cc.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/parse.cc.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/parse.cc.o
 .PHONY : src/re2/parse.cc.o
 
 src/re2/parse.i: src/re2/parse.cc.i
@@ -337,7 +337,7 @@ src/re2/parse.i: src/re2/parse.cc.i
 
 # target to preprocess a source file
 src/re2/parse.cc.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/parse.cc.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/parse.cc.i
 .PHONY : src/re2/parse.cc.i
 
 src/re2/parse.s: src/re2/parse.cc.s
@@ -345,7 +345,7 @@ src/re2/parse.s: src/re2/parse.cc.s
 
 # target to generate assembly for a file
 src/re2/parse.cc.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/parse.cc.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/parse.cc.s
 .PHONY : src/re2/parse.cc.s
 
 src/re2/perl_groups.o: src/re2/perl_groups.cc.o
@@ -353,7 +353,7 @@ src/re2/perl_groups.o: src/re2/perl_groups.cc.o
 
 # target to build an object file
 src/re2/perl_groups.cc.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/perl_groups.cc.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/perl_groups.cc.o
 .PHONY : src/re2/perl_groups.cc.o
 
 src/re2/perl_groups.i: src/re2/perl_groups.cc.i
@@ -361,7 +361,7 @@ src/re2/perl_groups.i: src/re2/perl_groups.cc.i
 
 # target to preprocess a source file
 src/re2/perl_groups.cc.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/perl_groups.cc.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/perl_groups.cc.i
 .PHONY : src/re2/perl_groups.cc.i
 
 src/re2/perl_groups.s: src/re2/perl_groups.cc.s
@@ -369,7 +369,7 @@ src/re2/perl_groups.s: src/re2/perl_groups.cc.s
 
 # target to generate assembly for a file
 src/re2/perl_groups.cc.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/perl_groups.cc.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/perl_groups.cc.s
 .PHONY : src/re2/perl_groups.cc.s
 
 src/re2/prefilter.o: src/re2/prefilter.cc.o
@@ -377,7 +377,7 @@ src/re2/prefilter.o: src/re2/prefilter.cc.o
 
 # target to build an object file
 src/re2/prefilter.cc.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/prefilter.cc.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/prefilter.cc.o
 .PHONY : src/re2/prefilter.cc.o
 
 src/re2/prefilter.i: src/re2/prefilter.cc.i
@@ -385,7 +385,7 @@ src/re2/prefilter.i: src/re2/prefilter.cc.i
 
 # target to preprocess a source file
 src/re2/prefilter.cc.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/prefilter.cc.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/prefilter.cc.i
 .PHONY : src/re2/prefilter.cc.i
 
 src/re2/prefilter.s: src/re2/prefilter.cc.s
@@ -393,7 +393,7 @@ src/re2/prefilter.s: src/re2/prefilter.cc.s
 
 # target to generate assembly for a file
 src/re2/prefilter.cc.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/prefilter.cc.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/prefilter.cc.s
 .PHONY : src/re2/prefilter.cc.s
 
 src/re2/prefilter_tree.o: src/re2/prefilter_tree.cc.o
@@ -401,7 +401,7 @@ src/re2/prefilter_tree.o: src/re2/prefilter_tree.cc.o
 
 # target to build an object file
 src/re2/prefilter_tree.cc.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/prefilter_tree.cc.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/prefilter_tree.cc.o
 .PHONY : src/re2/prefilter_tree.cc.o
 
 src/re2/prefilter_tree.i: src/re2/prefilter_tree.cc.i
@@ -409,7 +409,7 @@ src/re2/prefilter_tree.i: src/re2/prefilter_tree.cc.i
 
 # target to preprocess a source file
 src/re2/prefilter_tree.cc.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/prefilter_tree.cc.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/prefilter_tree.cc.i
 .PHONY : src/re2/prefilter_tree.cc.i
 
 src/re2/prefilter_tree.s: src/re2/prefilter_tree.cc.s
@@ -417,7 +417,7 @@ src/re2/prefilter_tree.s: src/re2/prefilter_tree.cc.s
 
 # target to generate assembly for a file
 src/re2/prefilter_tree.cc.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/prefilter_tree.cc.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/prefilter_tree.cc.s
 .PHONY : src/re2/prefilter_tree.cc.s
 
 src/re2/prog.o: src/re2/prog.cc.o
@@ -425,7 +425,7 @@ src/re2/prog.o: src/re2/prog.cc.o
 
 # target to build an object file
 src/re2/prog.cc.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/prog.cc.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/prog.cc.o
 .PHONY : src/re2/prog.cc.o
 
 src/re2/prog.i: src/re2/prog.cc.i
@@ -433,7 +433,7 @@ src/re2/prog.i: src/re2/prog.cc.i
 
 # target to preprocess a source file
 src/re2/prog.cc.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/prog.cc.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/prog.cc.i
 .PHONY : src/re2/prog.cc.i
 
 src/re2/prog.s: src/re2/prog.cc.s
@@ -441,7 +441,7 @@ src/re2/prog.s: src/re2/prog.cc.s
 
 # target to generate assembly for a file
 src/re2/prog.cc.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/prog.cc.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/prog.cc.s
 .PHONY : src/re2/prog.cc.s
 
 src/re2/re2.o: src/re2/re2.cc.o
@@ -449,7 +449,7 @@ src/re2/re2.o: src/re2/re2.cc.o
 
 # target to build an object file
 src/re2/re2.cc.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/re2.cc.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/re2.cc.o
 .PHONY : src/re2/re2.cc.o
 
 src/re2/re2.i: src/re2/re2.cc.i
@@ -457,7 +457,7 @@ src/re2/re2.i: src/re2/re2.cc.i
 
 # target to preprocess a source file
 src/re2/re2.cc.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/re2.cc.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/re2.cc.i
 .PHONY : src/re2/re2.cc.i
 
 src/re2/re2.s: src/re2/re2.cc.s
@@ -465,7 +465,7 @@ src/re2/re2.s: src/re2/re2.cc.s
 
 # target to generate assembly for a file
 src/re2/re2.cc.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/re2.cc.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/re2.cc.s
 .PHONY : src/re2/re2.cc.s
 
 src/re2/regexp.o: src/re2/regexp.cc.o
@@ -473,7 +473,7 @@ src/re2/regexp.o: src/re2/regexp.cc.o
 
 # target to build an object file
 src/re2/regexp.cc.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/regexp.cc.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/regexp.cc.o
 .PHONY : src/re2/regexp.cc.o
 
 src/re2/regexp.i: src/re2/regexp.cc.i
@@ -481,7 +481,7 @@ src/re2/regexp.i: src/re2/regexp.cc.i
 
 # target to preprocess a source file
 src/re2/regexp.cc.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/regexp.cc.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/regexp.cc.i
 .PHONY : src/re2/regexp.cc.i
 
 src/re2/regexp.s: src/re2/regexp.cc.s
@@ -489,7 +489,7 @@ src/re2/regexp.s: src/re2/regexp.cc.s
 
 # target to generate assembly for a file
 src/re2/regexp.cc.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/regexp.cc.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/regexp.cc.s
 .PHONY : src/re2/regexp.cc.s
 
 src/re2/set.o: src/re2/set.cc.o
@@ -497,7 +497,7 @@ src/re2/set.o: src/re2/set.cc.o
 
 # target to build an object file
 src/re2/set.cc.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/set.cc.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/set.cc.o
 .PHONY : src/re2/set.cc.o
 
 src/re2/set.i: src/re2/set.cc.i
@@ -505,7 +505,7 @@ src/re2/set.i: src/re2/set.cc.i
 
 # target to preprocess a source file
 src/re2/set.cc.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/set.cc.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/set.cc.i
 .PHONY : src/re2/set.cc.i
 
 src/re2/set.s: src/re2/set.cc.s
@@ -513,7 +513,7 @@ src/re2/set.s: src/re2/set.cc.s
 
 # target to generate assembly for a file
 src/re2/set.cc.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/set.cc.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/set.cc.s
 .PHONY : src/re2/set.cc.s
 
 src/re2/simplify.o: src/re2/simplify.cc.o
@@ -521,7 +521,7 @@ src/re2/simplify.o: src/re2/simplify.cc.o
 
 # target to build an object file
 src/re2/simplify.cc.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/simplify.cc.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/simplify.cc.o
 .PHONY : src/re2/simplify.cc.o
 
 src/re2/simplify.i: src/re2/simplify.cc.i
@@ -529,7 +529,7 @@ src/re2/simplify.i: src/re2/simplify.cc.i
 
 # target to preprocess a source file
 src/re2/simplify.cc.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/simplify.cc.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/simplify.cc.i
 .PHONY : src/re2/simplify.cc.i
 
 src/re2/simplify.s: src/re2/simplify.cc.s
@@ -537,7 +537,7 @@ src/re2/simplify.s: src/re2/simplify.cc.s
 
 # target to generate assembly for a file
 src/re2/simplify.cc.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/simplify.cc.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/simplify.cc.s
 .PHONY : src/re2/simplify.cc.s
 
 src/re2/stringpiece.o: src/re2/stringpiece.cc.o
@@ -545,7 +545,7 @@ src/re2/stringpiece.o: src/re2/stringpiece.cc.o
 
 # target to build an object file
 src/re2/stringpiece.cc.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/stringpiece.cc.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/stringpiece.cc.o
 .PHONY : src/re2/stringpiece.cc.o
 
 src/re2/stringpiece.i: src/re2/stringpiece.cc.i
@@ -553,7 +553,7 @@ src/re2/stringpiece.i: src/re2/stringpiece.cc.i
 
 # target to preprocess a source file
 src/re2/stringpiece.cc.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/stringpiece.cc.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/stringpiece.cc.i
 .PHONY : src/re2/stringpiece.cc.i
 
 src/re2/stringpiece.s: src/re2/stringpiece.cc.s
@@ -561,7 +561,7 @@ src/re2/stringpiece.s: src/re2/stringpiece.cc.s
 
 # target to generate assembly for a file
 src/re2/stringpiece.cc.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/stringpiece.cc.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/stringpiece.cc.s
 .PHONY : src/re2/stringpiece.cc.s
 
 src/re2/tostring.o: src/re2/tostring.cc.o
@@ -569,7 +569,7 @@ src/re2/tostring.o: src/re2/tostring.cc.o
 
 # target to build an object file
 src/re2/tostring.cc.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/tostring.cc.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/tostring.cc.o
 .PHONY : src/re2/tostring.cc.o
 
 src/re2/tostring.i: src/re2/tostring.cc.i
@@ -577,7 +577,7 @@ src/re2/tostring.i: src/re2/tostring.cc.i
 
 # target to preprocess a source file
 src/re2/tostring.cc.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/tostring.cc.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/tostring.cc.i
 .PHONY : src/re2/tostring.cc.i
 
 src/re2/tostring.s: src/re2/tostring.cc.s
@@ -585,7 +585,7 @@ src/re2/tostring.s: src/re2/tostring.cc.s
 
 # target to generate assembly for a file
 src/re2/tostring.cc.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/tostring.cc.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/tostring.cc.s
 .PHONY : src/re2/tostring.cc.s
 
 src/re2/unicode_casefold.o: src/re2/unicode_casefold.cc.o
@@ -593,7 +593,7 @@ src/re2/unicode_casefold.o: src/re2/unicode_casefold.cc.o
 
 # target to build an object file
 src/re2/unicode_casefold.cc.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/unicode_casefold.cc.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/unicode_casefold.cc.o
 .PHONY : src/re2/unicode_casefold.cc.o
 
 src/re2/unicode_casefold.i: src/re2/unicode_casefold.cc.i
@@ -601,7 +601,7 @@ src/re2/unicode_casefold.i: src/re2/unicode_casefold.cc.i
 
 # target to preprocess a source file
 src/re2/unicode_casefold.cc.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/unicode_casefold.cc.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/unicode_casefold.cc.i
 .PHONY : src/re2/unicode_casefold.cc.i
 
 src/re2/unicode_casefold.s: src/re2/unicode_casefold.cc.s
@@ -609,7 +609,7 @@ src/re2/unicode_casefold.s: src/re2/unicode_casefold.cc.s
 
 # target to generate assembly for a file
 src/re2/unicode_casefold.cc.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/unicode_casefold.cc.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/unicode_casefold.cc.s
 .PHONY : src/re2/unicode_casefold.cc.s
 
 src/re2/unicode_groups.o: src/re2/unicode_groups.cc.o
@@ -617,7 +617,7 @@ src/re2/unicode_groups.o: src/re2/unicode_groups.cc.o
 
 # target to build an object file
 src/re2/unicode_groups.cc.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/unicode_groups.cc.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/unicode_groups.cc.o
 .PHONY : src/re2/unicode_groups.cc.o
 
 src/re2/unicode_groups.i: src/re2/unicode_groups.cc.i
@@ -625,7 +625,7 @@ src/re2/unicode_groups.i: src/re2/unicode_groups.cc.i
 
 # target to preprocess a source file
 src/re2/unicode_groups.cc.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/unicode_groups.cc.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/unicode_groups.cc.i
 .PHONY : src/re2/unicode_groups.cc.i
 
 src/re2/unicode_groups.s: src/re2/unicode_groups.cc.s
@@ -633,7 +633,7 @@ src/re2/unicode_groups.s: src/re2/unicode_groups.cc.s
 
 # target to generate assembly for a file
 src/re2/unicode_groups.cc.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/unicode_groups.cc.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/re2/unicode_groups.cc.s
 .PHONY : src/re2/unicode_groups.cc.s
 
 src/util/hash.o: src/util/hash.cc.o
@@ -641,7 +641,7 @@ src/util/hash.o: src/util/hash.cc.o
 
 # target to build an object file
 src/util/hash.cc.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/util/hash.cc.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/util/hash.cc.o
 .PHONY : src/util/hash.cc.o
 
 src/util/hash.i: src/util/hash.cc.i
@@ -649,7 +649,7 @@ src/util/hash.i: src/util/hash.cc.i
 
 # target to preprocess a source file
 src/util/hash.cc.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/util/hash.cc.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/util/hash.cc.i
 .PHONY : src/util/hash.cc.i
 
 src/util/hash.s: src/util/hash.cc.s
@@ -657,7 +657,7 @@ src/util/hash.s: src/util/hash.cc.s
 
 # target to generate assembly for a file
 src/util/hash.cc.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/util/hash.cc.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/util/hash.cc.s
 .PHONY : src/util/hash.cc.s
 
 src/util/rune.o: src/util/rune.cc.o
@@ -665,7 +665,7 @@ src/util/rune.o: src/util/rune.cc.o
 
 # target to build an object file
 src/util/rune.cc.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/util/rune.cc.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/util/rune.cc.o
 .PHONY : src/util/rune.cc.o
 
 src/util/rune.i: src/util/rune.cc.i
@@ -673,7 +673,7 @@ src/util/rune.i: src/util/rune.cc.i
 
 # target to preprocess a source file
 src/util/rune.cc.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/util/rune.cc.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/util/rune.cc.i
 .PHONY : src/util/rune.cc.i
 
 src/util/rune.s: src/util/rune.cc.s
@@ -681,7 +681,7 @@ src/util/rune.s: src/util/rune.cc.s
 
 # target to generate assembly for a file
 src/util/rune.cc.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/util/rune.cc.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/util/rune.cc.s
 .PHONY : src/util/rune.cc.s
 
 src/util/stringprintf.o: src/util/stringprintf.cc.o
@@ -689,7 +689,7 @@ src/util/stringprintf.o: src/util/stringprintf.cc.o
 
 # target to build an object file
 src/util/stringprintf.cc.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/util/stringprintf.cc.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/util/stringprintf.cc.o
 .PHONY : src/util/stringprintf.cc.o
 
 src/util/stringprintf.i: src/util/stringprintf.cc.i
@@ -697,7 +697,7 @@ src/util/stringprintf.i: src/util/stringprintf.cc.i
 
 # target to preprocess a source file
 src/util/stringprintf.cc.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/util/stringprintf.cc.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/util/stringprintf.cc.i
 .PHONY : src/util/stringprintf.cc.i
 
 src/util/stringprintf.s: src/util/stringprintf.cc.s
@@ -705,7 +705,7 @@ src/util/stringprintf.s: src/util/stringprintf.cc.s
 
 # target to generate assembly for a file
 src/util/stringprintf.cc.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/util/stringprintf.cc.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/util/stringprintf.cc.s
 .PHONY : src/util/stringprintf.cc.s
 
 src/util/strutil.o: src/util/strutil.cc.o
@@ -713,7 +713,7 @@ src/util/strutil.o: src/util/strutil.cc.o
 
 # target to build an object file
 src/util/strutil.cc.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/util/strutil.cc.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/util/strutil.cc.o
 .PHONY : src/util/strutil.cc.o
 
 src/util/strutil.i: src/util/strutil.cc.i
@@ -721,7 +721,7 @@ src/util/strutil.i: src/util/strutil.cc.i
 
 # target to preprocess a source file
 src/util/strutil.cc.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/util/strutil.cc.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/util/strutil.cc.i
 .PHONY : src/util/strutil.cc.i
 
 src/util/strutil.s: src/util/strutil.cc.s
@@ -729,7 +729,7 @@ src/util/strutil.s: src/util/strutil.cc.s
 
 # target to generate assembly for a file
 src/util/strutil.cc.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/util/strutil.cc.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/util/strutil.cc.s
 .PHONY : src/util/strutil.cc.s
 
 src/util/valgrind.o: src/util/valgrind.cc.o
@@ -737,7 +737,7 @@ src/util/valgrind.o: src/util/valgrind.cc.o
 
 # target to build an object file
 src/util/valgrind.cc.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/util/valgrind.cc.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/util/valgrind.cc.o
 .PHONY : src/util/valgrind.cc.o
 
 src/util/valgrind.i: src/util/valgrind.cc.i
@@ -745,7 +745,7 @@ src/util/valgrind.i: src/util/valgrind.cc.i
 
 # target to preprocess a source file
 src/util/valgrind.cc.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/util/valgrind.cc.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/util/valgrind.cc.i
 .PHONY : src/util/valgrind.cc.i
 
 src/util/valgrind.s: src/util/valgrind.cc.s
@@ -753,7 +753,7 @@ src/util/valgrind.s: src/util/valgrind.cc.s
 
 # target to generate assembly for a file
 src/util/valgrind.cc.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/util/valgrind.cc.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/re2/CMakeFiles/re2.dir/build.make third-party/re2/CMakeFiles/re2.dir/src/util/valgrind.cc.s
 .PHONY : src/util/valgrind.cc.s
 
 # Help Target
@@ -855,6 +855,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /tmp/hhvm-3.12.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

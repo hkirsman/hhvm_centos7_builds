@@ -27,6 +27,7 @@
 #include "hphp/runtime/vm/resumable.h"
 #include "hphp/runtime/ext/asio/ext_asio.h"
 #include "hphp/runtime/ext/asio/ext_await-all-wait-handle.h"
+#include "hphp/runtime/ext/collections/ext_collections-pair.h"
 
 namespace HPHP {
 
@@ -50,6 +51,7 @@ struct Header {
     ProxyArray proxy_;
     GlobalsArray globals_;
     ObjectData obj_;
+    c_Pair pair_;
     ResourceHdr res_;
     RefData ref_;
     SmallNode small_;
@@ -129,6 +131,8 @@ inline size_t Header::size() const {
       return str_.heapSize();
     case HeaderKind::Object:
     case HeaderKind::ResumableObj:
+      // [ObjectData][subclass][props]
+      return obj_.heapSize();
     case HeaderKind::Vector:
     case HeaderKind::Map:
     case HeaderKind::Set:
@@ -136,8 +140,8 @@ inline size_t Header::size() const {
     case HeaderKind::ImmVector:
     case HeaderKind::ImmMap:
     case HeaderKind::ImmSet:
-      // [ObjectData][subclass][props]
-      return obj_.heapSize();
+      // [ObjectData][subclass]
+      return collections::heapSize(kind());
     case HeaderKind::WaitHandle:
       // [ObjectData][subclass]
       return asio_object_size(&obj_);
@@ -288,6 +292,69 @@ template<class Fn> void MemoryManager::forEachObject(Fn fn) {
     fn(ptr);
   }
 }
+
+// information about heap objects, indexed by valid object starts.
+struct PtrMap {
+  void insert(const Header* h) {
+    assert(!sorted_);
+    regions_.emplace_back(h, h->size());
+  }
+
+  const Header* header(const void* p) const {
+    assert(sorted_);
+    // Find the first region which begins beyond p.
+    auto it =
+      std::upper_bound(
+        regions_.begin(),
+        regions_.end(),
+        p,
+        [](const void* p,
+           const std::pair<const Header*, std::size_t>& region) {
+          return p < region.first;
+        }
+      );
+    // If its the first region, p is before any region, so there's no
+    // header. Otherwise, backup to the previous region.
+    if (it == regions_.begin()) return nullptr;
+    --it;
+    // p can only potentially point within this previous region, so check that.
+    return (uintptr_t(p) < uintptr_t(it->first) + it->second) ?
+      it->first : nullptr;
+  }
+
+  bool isHeader(const void* p) const {
+    auto h = header(p);
+    return h && h == p;
+  }
+
+  void prepare() {
+    assert(!sorted_);
+    std::sort(regions_.begin(), regions_.end());
+    assert(sanityCheck());
+    sorted_ = true;
+  }
+
+  size_t size() const {
+    return regions_.size();
+  }
+
+private:
+  bool sanityCheck() const {
+    // Verify that all the regions are in increasing and non-overlapping order.
+    void* last = nullptr;
+    for (const auto& region : regions_) {
+      if (!last || last <= region.first) {
+        last = (void*)(uintptr_t(region.first) + region.second);
+      } else {
+        return false;
+      }
+    }
+    return true;
+  }
+
+  std::vector<std::pair<const Header*, std::size_t>> regions_;
+  bool sorted_ = false;
+};
 
 }
 

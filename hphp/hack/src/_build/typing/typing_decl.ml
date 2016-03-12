@@ -128,7 +128,7 @@ let merge_single_req env subst inc_req_ty existing_req_opt
   match existing_req_opt with
     | Some ex_req_ty ->
       (* If multiple uses/impls require the *exact same* ancestor, ... *)
-      let env, inc_req_ty = Inst.instantiate subst env inc_req_ty in
+      let inc_req_ty = Inst.instantiate subst inc_req_ty in
       (* ... ensure that they're compatible and select
        * the one that's more restrictive (subtype of the other) *)
       let env, result_ty = Errors.try_
@@ -144,7 +144,7 @@ let merge_single_req env subst inc_req_ty existing_req_opt
       in
       (env : Env.env), (result_ty: decl ty)
     | None ->
-      let env, inc_req_ty = Inst.instantiate subst env inc_req_ty in
+      let inc_req_ty = Inst.instantiate subst inc_req_ty in
       (env : Env.env), (inc_req_ty: decl ty)
 
 (* for non-traits, check that requirements inherited from
@@ -155,7 +155,7 @@ let merge_parent_class_reqs class_nast impls
     (env, req_ancestors, req_ancestors_extends) parent_hint =
   let parent_pos, parent_name, parent_params =
     TUtils.unwrap_class_or_interface_hint parent_hint in
-  let env, parent_params = lfold Typing_hint.hint env parent_params in
+  let env, parent_params = List.map_env env parent_params Typing_hint.hint in
   let parent_type = Env.get_class_dep env parent_name in
 
   match parent_type with
@@ -175,7 +175,7 @@ let merge_parent_class_reqs class_nast impls
                 Errors.unsatisfied_req parent_pos req_name req_pos;
                 env
               | Some impl_ty ->
-                let env, req_ty = Inst.instantiate subst env req_ty in
+                let req_ty = Inst.instantiate subst req_ty in
                 Typing_ops.sub_type_decl parent_pos Reason.URclass_req env req_ty impl_ty
           end parent_type.tc_req_ancestors env
           in
@@ -202,7 +202,7 @@ let declared_class_req class_nast impls (env, requirements, req_extends) hint =
   let env, req_ty = Typing_hint.hint env hint in
   let req_pos, req_name, req_params =
     TUtils.unwrap_class_or_interface_hint hint in
-  let env, _ = lfold Typing_hint.hint env req_params in
+  let env, _ = List.map_env env req_params Typing_hint.hint in
   let req_type = Env.get_class_dep env req_name in
 
   (* for concrete classes, check required ancestors against actual
@@ -280,11 +280,11 @@ let get_class_requirements env class_nast impls =
 (* Section declaring the type of a function *)
 (*****************************************************************************)
 
-let ifun_decl nenv (f: Ast.fun_) =
-  let f = Naming.fun_ nenv f in
+let ifun_decl tcopt (f: Ast.fun_) =
+  let f = Naming.fun_ tcopt f in
   let cid = snd f.f_name in
   Naming_heap.FunHeap.add cid f;
-  Typing.fun_decl nenv f;
+  Typing.fun_decl tcopt f;
   ()
 
 (*****************************************************************************)
@@ -292,7 +292,7 @@ let ifun_decl nenv (f: Ast.fun_) =
 (*****************************************************************************)
 
 type class_env = {
-  nenv: Naming.env;
+  tcopt: TypecheckerOptions.t;
   stack: SSet.t;
   all_classes: Relative_path.Set.t SMap.t;
 }
@@ -319,9 +319,9 @@ and class_decl_if_missing class_env c =
 
 and class_naming_and_decl (class_env:class_env) cid c =
   let class_env = { class_env with stack = SSet.add cid class_env.stack } in
-  let c = Naming.class_ class_env.nenv c in
+  let c = Naming.class_ class_env.tcopt c in
   class_parents_decl class_env c;
-  class_decl (Naming.typechecker_options class_env.nenv) c;
+  class_decl class_env.tcopt c;
   (* It is important to add the "named" ast (nast.ml) only
    * AFTER we are done declaring the type type of the class.
    * Otherwise there is a subtle race condition.
@@ -408,7 +408,7 @@ and class_decl tcopt c =
     | Some {ce_type = (_, Tfun ({ft_abstract = true; _})); _} -> false
     | _ -> true in
   let impl = c.c_extends @ c.c_implements @ c.c_uses in
-  let env, impl = lmap Typing_hint.hint env impl in
+  let env, impl = List.map_env env impl Typing_hint.hint in
   let impl = match SMap.get SN.Members.__toString m with
     | Some {ce_type = (_, Tfun ft); _} when cls_name <> SN.Classes.cStringish ->
       (* HHVM implicitly adds Stringish interface for every class/iface/trait
@@ -418,7 +418,7 @@ and class_decl tcopt c =
       ty :: impl
     | _ -> impl
   in
-  let env, impl = lfold get_implements env impl in
+  let env, impl = List.map_env env impl get_implements in
   let impl = List.fold_right impl ~f:(SMap.fold SMap.add) ~init:SMap.empty in
   let env, extends, ext_strict = get_class_parents_and_traits env c in
   let extends = if c.c_is_xhp
@@ -456,7 +456,7 @@ and class_decl tcopt c =
     Errors.strict_members_not_known p name
   else ();
   let ext_strict = if not_strict_because_xhp then false else ext_strict in
-  let env, tparams = lfold Typing.type_param env (fst c.c_tparams) in
+  let env, tparams = List.map_env env (fst c.c_tparams) Typing.type_param in
   let env, enum = match c.c_enum with
     | None -> env, None
     | Some e ->
@@ -514,7 +514,7 @@ and get_implements (env: Env.env) ht =
       let subst = Inst.make_subst class_.tc_tparams paraml in
       let sub_implements =
         SMap.map
-          (fun ty -> snd (Inst.instantiate subst env ty))
+          (fun ty -> Inst.instantiate subst ty)
           class_.tc_ancestors
       in
       env, SMap.add c ht sub_implements
@@ -763,7 +763,7 @@ and method_decl env m =
     | FVellipsis    -> env, Fellipsis arity_min
     | FVnonVariadic -> env, Fstandard (arity_min, List.length m.m_params)
   in
-  let env, tparams = lfold Typing.type_param env m.m_tparams in
+  let env, tparams = List.map_env env m.m_tparams Typing.type_param in
   let ft = {
     ft_pos      = fst m.m_name;
     ft_deprecated =
@@ -821,27 +821,26 @@ and method_check_trait_overrides c id method_ce =
 (* Dealing with typedefs *)
 (*****************************************************************************)
 
-let rec type_typedef_decl_if_missing nenv typedef =
+let rec type_typedef_decl_if_missing tcopt typedef =
   let _, tid = typedef.Ast.t_id in
   if Naming_heap.TypedefHeap.mem tid
   then ()
   else
-    type_typedef_naming_and_decl nenv typedef
+    type_typedef_naming_and_decl tcopt typedef
 
-and type_typedef_naming_and_decl nenv tdef =
+and type_typedef_naming_and_decl tcopt tdef =
   let pos, tid = tdef.Ast.t_id in
   let {
     t_tparams = params;
     t_constraint = tcstr;
     t_kind = concrete_type;
     t_user_attributes = _;
-  } as decl = Naming.typedef nenv tdef in
+  } as decl = Naming.typedef tcopt tdef in
   let filename = Pos.filename pos in
-  let tcopt = Naming.typechecker_options nenv in
   let env = Typing_env.empty tcopt filename in
   let env = Typing_env.set_mode env tdef.Ast.t_mode in
   let env = Env.set_root env (Typing_deps.Dep.Class tid) in
-  let env, params = lfold Typing.type_param env params in
+  let env, params = List.map_env env params Typing.type_param in
   let env, concrete_type = Typing_hint.hint env concrete_type in
   let _env, tcstr =
     match tcstr with
@@ -864,38 +863,38 @@ and type_typedef_naming_and_decl nenv tdef =
 (* Global constants *)
 (*****************************************************************************)
 
-let iconst_decl nenv cst =
-  let cst = Naming.global_const nenv cst in
+let iconst_decl tcopt cst =
+  let cst = Naming.global_const tcopt cst in
   let _cst_pos, cst_name = cst.cst_name in
   Naming_heap.ConstHeap.add cst_name cst;
-  Typing.gconst_decl (Naming.typechecker_options nenv) cst;
+  Typing.gconst_decl tcopt cst;
   ()
 
 (*****************************************************************************)
 
-let name_and_declare_types_program nenv all_classes prog =
+let name_and_declare_types_program tcopt all_classes prog =
   List.iter prog begin fun def ->
     match def with
     | Ast.Namespace _
     | Ast.NamespaceUse _ -> assert false
-    | Ast.Fun f -> ifun_decl nenv f
+    | Ast.Fun f -> ifun_decl tcopt f
     | Ast.Class c ->
       let class_env = {
-        nenv = nenv;
+        tcopt;
         stack = SSet.empty;
         all_classes = all_classes;
       } in
       class_decl_if_missing class_env c
     | Ast.Typedef typedef ->
-      type_typedef_decl_if_missing nenv typedef
+      type_typedef_decl_if_missing tcopt typedef
     | Ast.Stmt _ -> ()
     | Ast.Constant cst ->
-        iconst_decl nenv cst
+        iconst_decl tcopt cst
   end
 
-let make_env nenv all_classes fn =
+let make_env tcopt all_classes fn =
   match Parser_heap.ParserHeap.get fn with
   | None -> ()
   | Some prog ->
       Typing_decl_deps.add prog;
-      name_and_declare_types_program nenv all_classes prog
+      name_and_declare_types_program tcopt all_classes prog

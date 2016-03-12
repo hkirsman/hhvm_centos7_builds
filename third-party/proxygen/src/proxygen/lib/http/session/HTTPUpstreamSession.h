@@ -36,7 +36,7 @@ class HTTPUpstreamSession final: public HTTPSession {
       InfoCallback* infoCallback):
     HTTPSession(transactionTimeouts, std::move(sock), localAddr, peerAddr,
                 nullptr, std::move(codec), tinfo, infoCallback) {
-    CHECK(codec_->getTransportDirection() == TransportDirection::UPSTREAM);
+    CHECK_EQ(codec_->getTransportDirection(), TransportDirection::UPSTREAM);
   }
 
   /**
@@ -45,12 +45,8 @@ class HTTPUpstreamSession final: public HTTPSession {
    *
    * @param handler The request handler to attach to this transaction. It must
    *                not be null.
-   * @param priority The priority to associate with this request. Lower numbers
-   *                 indicate higher priority. This parameter only has an effect
-   *                 if the session uses a parallel codec.
    */
-  HTTPTransaction* newTransaction(HTTPTransaction::Handler* handler,
-                                  int8_t priority = -1);
+  HTTPTransaction* newTransaction(HTTPTransaction::Handler* handler);
 
   /**
    * Returns true if this session has no open transactions and the underlying

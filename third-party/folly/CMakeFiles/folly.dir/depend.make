@@ -474,6 +474,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/Random.cpp.o: third-party/folly
 third-party/folly/CMakeFiles/folly.dir/src/folly/Random.cpp.o: third-party/folly/folly/Hash.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/Random.cpp.o: third-party/folly/folly/Likely.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/Random.cpp.o: third-party/folly/folly/Malloc.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/Random.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/Random.cpp.o: third-party/folly/folly/Portability.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/Random.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/Random.cpp.o: third-party/folly/folly/Random-inl.h
@@ -489,6 +490,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/Random.cpp.o: third-party/folly
 third-party/folly/CMakeFiles/folly.dir/src/folly/Random.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/Random.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/Random.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/Random.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/Random.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/Random.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 
@@ -547,6 +549,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/Singleton.cpp.o: third-party/fo
 third-party/folly/CMakeFiles/folly.dir/src/folly/Singleton.cpp.o: third-party/folly/folly/Likely.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/Singleton.cpp.o: third-party/folly/folly/Malloc.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/Singleton.cpp.o: third-party/folly/folly/Memory.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/Singleton.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/Singleton.cpp.o: third-party/folly/folly/Portability.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/Singleton.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/Singleton.cpp.o: third-party/folly/folly/RWSpinLock.h
@@ -565,6 +568,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/Singleton.cpp.o: third-party/fo
 third-party/folly/CMakeFiles/folly.dir/src/folly/Singleton.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/Singleton.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/Singleton.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/Singleton.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/Singleton.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/Singleton.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/Singleton.cpp.o: third-party/folly/folly/io/async/Request.h
@@ -587,6 +591,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/SingletonVault_c.cpp.o: third-p
 third-party/folly/CMakeFiles/folly.dir/src/folly/SingletonVault_c.cpp.o: third-party/folly/folly/Likely.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/SingletonVault_c.cpp.o: third-party/folly/folly/Malloc.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/SingletonVault_c.cpp.o: third-party/folly/folly/Memory.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/SingletonVault_c.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/SingletonVault_c.cpp.o: third-party/folly/folly/Portability.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/SingletonVault_c.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/SingletonVault_c.cpp.o: third-party/folly/folly/RWSpinLock.h
@@ -606,6 +611,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/SingletonVault_c.cpp.o: third-p
 third-party/folly/CMakeFiles/folly.dir/src/folly/SingletonVault_c.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/SingletonVault_c.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/SingletonVault_c.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/SingletonVault_c.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/SingletonVault_c.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/SingletonVault_c.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/SingletonVault_c.cpp.o: third-party/folly/folly/io/async/Request.h
@@ -785,6 +791,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/ThreadCachedArena.cpp.o: third-
 third-party/folly/CMakeFiles/folly.dir/src/folly/ThreadCachedArena.cpp.o: third-party/folly/folly/Likely.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/ThreadCachedArena.cpp.o: third-party/folly/folly/Malloc.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/ThreadCachedArena.cpp.o: third-party/folly/folly/Memory.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/ThreadCachedArena.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/ThreadCachedArena.cpp.o: third-party/folly/folly/Portability.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/ThreadCachedArena.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/ThreadCachedArena.cpp.o: third-party/folly/folly/Range.h
@@ -800,6 +807,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/ThreadCachedArena.cpp.o: third-
 third-party/folly/CMakeFiles/folly.dir/src/folly/ThreadCachedArena.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/ThreadCachedArena.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/ThreadCachedArena.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/ThreadCachedArena.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/ThreadCachedArena.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/ThreadCachedArena.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 
@@ -953,6 +961,37 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/detail/RangeSse42.cpp.o: third-
 third-party/folly/CMakeFiles/folly.dir/src/folly/detail/RangeSse42.cpp.o: third-party/folly/folly/detail/FunctionalExcept.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/detail/RangeSse42.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 
+third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o: third-party/folly/src/folly/detail/ThreadLocalDetail.cpp
+third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o: third-party/double-conversion/src/double-conversion/double-conversion.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o: third-party/double-conversion/src/double-conversion/utils.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o: third-party/folly/folly/ApplyTuple.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o: third-party/folly/folly/CPortability.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o: third-party/folly/folly/Conv.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o: third-party/folly/folly/CpuId.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o: third-party/folly/folly/Exception.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o: third-party/folly/folly/FBString.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o: third-party/folly/folly/Foreach.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o: third-party/folly/folly/Hash.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o: third-party/folly/folly/Likely.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o: third-party/folly/folly/Malloc.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o: third-party/folly/folly/MicroSpinLock.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o: third-party/folly/folly/Portability.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o: third-party/folly/folly/Preprocessor.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o: third-party/folly/folly/Range.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o: third-party/folly/folly/ScopeGuard.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o: third-party/folly/folly/SpookyHashV1.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o: third-party/folly/folly/SpookyHashV2.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o: third-party/folly/folly/ThreadLocal.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o: third-party/folly/folly/Traits.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o: third-party/folly/folly/detail/Clock.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o: third-party/folly/folly/detail/FunctionalExcept.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o: third-party/folly/folly/detail/Malloc.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o: third-party/folly/folly/detail/RangeCommon.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o: third-party/folly/folly/detail/Sleeper.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
+
 third-party/folly/CMakeFiles/folly.dir/src/folly/dynamic.cpp.o: third-party/folly/src/folly/dynamic.cpp
 third-party/folly/CMakeFiles/folly.dir/src/folly/dynamic.cpp.o: third-party/double-conversion/src/double-conversion/double-conversion.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/dynamic.cpp.o: third-party/double-conversion/src/double-conversion/utils.h
@@ -1005,6 +1044,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.cpp.o: third-party/folly/folly/Hash.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.cpp.o: third-party/folly/folly/Likely.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.cpp.o: third-party/folly/folly/Malloc.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.cpp.o: third-party/folly/folly/Portability.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.cpp.o: third-party/folly/folly/Random-inl.h
@@ -1023,6 +1063,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.cpp.o: third-party/folly/folly/experimental/FunctionScheduler.h
@@ -1051,6 +1092,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.o: 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.o: third-party/folly/folly/Likely.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.o: third-party/folly/folly/Malloc.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.o: third-party/folly/folly/Memory.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.o: third-party/folly/folly/Optional.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.o: third-party/folly/folly/Portability.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -1073,6 +1115,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.o: 
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -1147,6 +1190,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Baton.cpp.o
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Baton.cpp.o: third-party/folly/folly/Likely.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Baton.cpp.o: third-party/folly/folly/Malloc.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Baton.cpp.o: third-party/folly/folly/Memory.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Baton.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Baton.cpp.o: third-party/folly/folly/Optional.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Baton.cpp.o: third-party/folly/folly/Portability.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Baton.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -1167,6 +1211,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Baton.cpp.o
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Baton.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Baton.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Baton.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Baton.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Baton.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Baton.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Baton.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -1211,6 +1256,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Fiber.cpp.o
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Fiber.cpp.o: third-party/folly/folly/Likely.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Fiber.cpp.o: third-party/folly/folly/Malloc.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Fiber.cpp.o: third-party/folly/folly/Memory.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Fiber.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Fiber.cpp.o: third-party/folly/folly/Optional.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Fiber.cpp.o: third-party/folly/folly/Portability.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Fiber.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -1230,6 +1276,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Fiber.cpp.o
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Fiber.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Fiber.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Fiber.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Fiber.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Fiber.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Fiber.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Fiber.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -1275,6 +1322,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManage
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManager.cpp.o: third-party/folly/folly/Likely.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManager.cpp.o: third-party/folly/folly/Malloc.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManager.cpp.o: third-party/folly/folly/Memory.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManager.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManager.cpp.o: third-party/folly/folly/Optional.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManager.cpp.o: third-party/folly/folly/Portability.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManager.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -1294,6 +1342,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManage
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManager.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManager.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManager.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManager.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManager.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManager.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManager.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -1337,6 +1386,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManage
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManagerMap.cpp.o: third-party/folly/folly/Likely.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManagerMap.cpp.o: third-party/folly/folly/Malloc.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManagerMap.cpp.o: third-party/folly/folly/Memory.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManagerMap.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManagerMap.cpp.o: third-party/folly/folly/Optional.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManagerMap.cpp.o: third-party/folly/folly/Portability.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManagerMap.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -1356,6 +1406,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManage
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManagerMap.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManagerMap.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManagerMap.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManagerMap.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManagerMap.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManagerMap.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManagerMap.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -1845,6 +1896,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/futures/QueuedImmediateExecutor
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/QueuedImmediateExecutor.cpp.o: third-party/folly/folly/Hash.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/QueuedImmediateExecutor.cpp.o: third-party/folly/folly/Likely.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/QueuedImmediateExecutor.cpp.o: third-party/folly/folly/Malloc.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/futures/QueuedImmediateExecutor.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/QueuedImmediateExecutor.cpp.o: third-party/folly/folly/Portability.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/QueuedImmediateExecutor.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/QueuedImmediateExecutor.cpp.o: third-party/folly/folly/Range.h
@@ -1858,6 +1910,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/futures/QueuedImmediateExecutor
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/QueuedImmediateExecutor.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/QueuedImmediateExecutor.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/QueuedImmediateExecutor.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/futures/QueuedImmediateExecutor.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/QueuedImmediateExecutor.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/QueuedImmediateExecutor.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/futures/QueuedImmediateExecutor.cpp.o: third-party/folly/folly/futures/QueuedImmediateExecutor.h
@@ -2107,6 +2160,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncPipe.cpp.o: third
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncPipe.cpp.o: third-party/folly/folly/IPAddressV6.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncPipe.cpp.o: third-party/folly/folly/Likely.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncPipe.cpp.o: third-party/folly/folly/Malloc.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncPipe.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncPipe.cpp.o: third-party/folly/folly/Portability.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncPipe.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncPipe.cpp.o: third-party/folly/folly/RWSpinLock.h
@@ -2125,6 +2179,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncPipe.cpp.o: third
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncPipe.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncPipe.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncPipe.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncPipe.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncPipe.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncPipe.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncPipe.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -2303,6 +2358,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSignalHandler.cpp
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSignalHandler.cpp.o: third-party/folly/folly/Hash.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSignalHandler.cpp.o: third-party/folly/folly/Likely.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSignalHandler.cpp.o: third-party/folly/folly/Malloc.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSignalHandler.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSignalHandler.cpp.o: third-party/folly/folly/Portability.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSignalHandler.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSignalHandler.cpp.o: third-party/folly/folly/RWSpinLock.h
@@ -2317,6 +2373,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSignalHandler.cpp
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSignalHandler.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSignalHandler.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSignalHandler.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSignalHandler.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSignalHandler.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSignalHandler.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSignalHandler.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -2352,6 +2409,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSocket.cpp.o: thi
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSocket.cpp.o: third-party/folly/folly/IPAddressV6.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSocket.cpp.o: third-party/folly/folly/Likely.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSocket.cpp.o: third-party/folly/folly/Malloc.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSocket.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSocket.cpp.o: third-party/folly/folly/Portability.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSocket.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSocket.cpp.o: third-party/folly/folly/RWSpinLock.h
@@ -2370,6 +2428,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSocket.cpp.o: thi
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSocket.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSocket.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSocket.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSocket.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSocket.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSocket.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSocket.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -2403,6 +2462,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncTimeout.cpp.o: th
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncTimeout.cpp.o: third-party/folly/folly/Hash.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncTimeout.cpp.o: third-party/folly/folly/Likely.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncTimeout.cpp.o: third-party/folly/folly/Malloc.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncTimeout.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncTimeout.cpp.o: third-party/folly/folly/Portability.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncTimeout.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncTimeout.cpp.o: third-party/folly/folly/RWSpinLock.h
@@ -2417,6 +2477,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncTimeout.cpp.o: th
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncTimeout.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncTimeout.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncTimeout.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncTimeout.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncTimeout.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncTimeout.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncTimeout.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -2451,6 +2512,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncUDPSocket.cpp.o: 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncUDPSocket.cpp.o: third-party/folly/folly/IPAddressV6.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncUDPSocket.cpp.o: third-party/folly/folly/Likely.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncUDPSocket.cpp.o: third-party/folly/folly/Malloc.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncUDPSocket.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncUDPSocket.cpp.o: third-party/folly/folly/Portability.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncUDPSocket.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncUDPSocket.cpp.o: third-party/folly/folly/RWSpinLock.h
@@ -2469,6 +2531,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncUDPSocket.cpp.o: 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncUDPSocket.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncUDPSocket.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncUDPSocket.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncUDPSocket.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncUDPSocket.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncUDPSocket.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncUDPSocket.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -2550,6 +2613,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseLocal.cpp.o: 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseLocal.cpp.o: third-party/folly/folly/Hash.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseLocal.cpp.o: third-party/folly/folly/Likely.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseLocal.cpp.o: third-party/folly/folly/Malloc.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseLocal.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseLocal.cpp.o: third-party/folly/folly/Portability.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseLocal.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseLocal.cpp.o: third-party/folly/folly/RWSpinLock.h
@@ -2565,6 +2629,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseLocal.cpp.o: 
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseLocal.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseLocal.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseLocal.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseLocal.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseLocal.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseLocal.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseLocal.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -2589,6 +2654,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseManager.cpp.o
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseManager.cpp.o: third-party/folly/folly/Hash.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseManager.cpp.o: third-party/folly/folly/Likely.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseManager.cpp.o: third-party/folly/folly/Malloc.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseManager.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseManager.cpp.o: third-party/folly/folly/Portability.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseManager.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseManager.cpp.o: third-party/folly/folly/RWSpinLock.h
@@ -2603,6 +2669,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseManager.cpp.o
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseManager.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseManager.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseManager.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseManager.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseManager.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseManager.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseManager.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -2627,6 +2694,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventHandler.cpp.o: th
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventHandler.cpp.o: third-party/folly/folly/Hash.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventHandler.cpp.o: third-party/folly/folly/Likely.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventHandler.cpp.o: third-party/folly/folly/Malloc.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventHandler.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventHandler.cpp.o: third-party/folly/folly/Portability.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventHandler.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventHandler.cpp.o: third-party/folly/folly/RWSpinLock.h
@@ -2641,6 +2709,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventHandler.cpp.o: th
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventHandler.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventHandler.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventHandler.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventHandler.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventHandler.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventHandler.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventHandler.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h
@@ -2665,6 +2734,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/HHWheelTimer.cpp.o: th
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/HHWheelTimer.cpp.o: third-party/folly/folly/Hash.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/HHWheelTimer.cpp.o: third-party/folly/folly/Likely.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/HHWheelTimer.cpp.o: third-party/folly/folly/Malloc.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/HHWheelTimer.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/HHWheelTimer.cpp.o: third-party/folly/folly/Optional.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/HHWheelTimer.cpp.o: third-party/folly/folly/Portability.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/HHWheelTimer.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -2680,6 +2750,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/HHWheelTimer.cpp.o: th
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/HHWheelTimer.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/HHWheelTimer.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/HHWheelTimer.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/HHWheelTimer.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/HHWheelTimer.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/HHWheelTimer.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/HHWheelTimer.cpp.o: third-party/folly/folly/io/async/AsyncTimeout.h
@@ -2745,6 +2816,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/ScopedEventBaseThread.
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/ScopedEventBaseThread.cpp.o: third-party/folly/folly/Likely.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/ScopedEventBaseThread.cpp.o: third-party/folly/folly/Malloc.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/ScopedEventBaseThread.cpp.o: third-party/folly/folly/Memory.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/ScopedEventBaseThread.cpp.o: third-party/folly/folly/MicroSpinLock.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/ScopedEventBaseThread.cpp.o: third-party/folly/folly/Portability.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/ScopedEventBaseThread.cpp.o: third-party/folly/folly/Preprocessor.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/ScopedEventBaseThread.cpp.o: third-party/folly/folly/RWSpinLock.h
@@ -2759,6 +2831,7 @@ third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/ScopedEventBaseThread.
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/ScopedEventBaseThread.cpp.o: third-party/folly/folly/detail/Malloc.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/ScopedEventBaseThread.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/ScopedEventBaseThread.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/ScopedEventBaseThread.cpp.o: third-party/folly/folly/detail/Sleeper.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/ScopedEventBaseThread.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/ScopedEventBaseThread.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/ScopedEventBaseThread.cpp.o: third-party/folly/folly/experimental/ExecutionObserver.h

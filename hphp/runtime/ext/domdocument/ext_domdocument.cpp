@@ -22,6 +22,7 @@
 #include "hphp/runtime/base/actrec-args.h"
 #include "hphp/runtime/base/builtin-functions.h"
 #include "hphp/runtime/base/file.h"
+#include "hphp/runtime/base/file-util.h"
 #include "hphp/runtime/base/runtime-error.h"
 #include "hphp/runtime/ext/simplexml/ext_simplexml.h"
 #include "hphp/runtime/ext/std/ext_std_classobj.h"
@@ -809,6 +810,10 @@ static bool HHVM_METHOD(DomDocument, _load, const String& source,
     raise_warning("Empty string supplied as input");
     return false;
   }
+  if (isFile && !FileUtil::isValidPath(source)) {
+    raise_warning("Invalid file source");
+    return false;
+  }
   auto domdoc = Native::data<DOMNode>(this_);
   auto newdoc = dom_document_parser(domdoc, isFile, source, options);
   if (!newdoc) {
@@ -834,6 +839,11 @@ static bool HHVM_METHOD(DomDocument, _loadHTML, const String& source,
 
   htmlParserCtxtPtr ctxt;
   if (isFile) {
+    if (!FileUtil::isValidPath(source)) {
+      raise_warning("Invalid file source");
+      return false;
+    }
+
     ctxt = htmlCreateFileParserCtxt(source.data(), nullptr);
   } else {
     ctxt = htmlCreateMemoryParserCtxt(source.data(), source.size());
@@ -3615,6 +3625,17 @@ Variant HHVM_METHOD(DOMDocument, importNode,
       return false;
     }
   }
+  if ((retnodep->type == XML_ATTRIBUTE_NODE) && (nodep->ns != nullptr)) {
+    xmlNsPtr nsptr = nullptr;
+    xmlNodePtr root = xmlDocGetRootElement(docp);
+
+    nsptr = xmlSearchNsByHref (nodep->doc, root, nodep->ns->href);
+    if (nsptr == nullptr) {
+      int errorcode;
+      nsptr = dom_get_ns(root, (char *) nodep->ns->href, &errorcode, (char *) nodep->ns->prefix);
+    }
+    xmlSetNs(retnodep, nsptr);
+  }
   return create_node_object(retnodep, data->doc());
 }
 
@@ -4534,11 +4555,17 @@ Variant HHVM_METHOD(DOMElement, setAttributeNS,
       if (nodep != nullptr && nodep->type != XML_ATTRIBUTE_DECL) {
         node_list_unlink(nodep->children);
       }
-      if (xmlStrEqual((xmlChar*)prefix, (xmlChar*)"xmlns") &&
-          xmlStrEqual((xmlChar*)namespaceuri.data(),
-                      (xmlChar*)DOM_XMLNS_NAMESPACE)) {
+      if ((xmlStrEqual((xmlChar *) prefix, (xmlChar *)"xmlns") ||
+          (prefix == nullptr &&
+          xmlStrEqual((xmlChar *) localname, (xmlChar *)"xmlns"))) &&
+          xmlStrEqual((xmlChar *) namespaceuri.data(),
+                      (xmlChar *)DOM_XMLNS_NAMESPACE)) {
         is_xmlns = 1;
-        nsptr = dom_get_nsdecl(elemp, (xmlChar*)localname);
+        if (prefix == nullptr) {
+          nsptr = dom_get_nsdecl(elemp, nullptr);
+        } else {
+          nsptr = dom_get_nsdecl(elemp, (xmlChar *)localname);
+        }
       } else {
         nsptr = xmlSearchNsByHref(elemp->doc, elemp,
                                   (xmlChar*)namespaceuri.data());
@@ -4560,7 +4587,12 @@ Variant HHVM_METHOD(DOMElement, setAttributeNS,
       }
       if (nsptr == nullptr) {
         if (prefix == nullptr) {
-          errorcode = NAMESPACE_ERR;
+          if (is_xmlns == 1) {
+            xmlNewNs(elemp, (xmlChar *)value.data(), nullptr);
+            xmlReconciliateNs(elemp->doc, elemp);
+          } else {
+            errorcode = NAMESPACE_ERR;
+          }
         } else {
           if (is_xmlns == 1) {
             xmlNewNs(elemp, (xmlChar*)value.data(), (xmlChar*)localname);
@@ -6012,7 +6044,7 @@ public:
     HHVM_RC_INT(XML_NAMESPACE_DECL_NODE, XML_NAMESPACE_DECL);
 
     HHVM_RC_INT_SAME(XML_LOCAL_NAMESPACE);
-#ifdef XML_GLOBAL_NAMESAPCE
+#ifdef XML_GLOBAL_NAMESPACE
     HHVM_RC_INT_SAME(XML_GLOBAL_NAMESPACE);
 #endif
 
@@ -6020,7 +6052,7 @@ public:
     HHVM_RC_INT_SAME(XML_ATTRIBUTE_ID);
     HHVM_RC_INT_SAME(XML_ATTRIBUTE_IDREF);
     HHVM_RC_INT_SAME(XML_ATTRIBUTE_IDREFS);
-    HHVM_RC_INT_SAME(XML_ATTRIBUTE_ENTITY);
+    HHVM_RC_INT(XML_ATTRIBUTE_ENTITY, XML_ATTRIBUTE_ENTITIES);
     HHVM_RC_INT_SAME(XML_ATTRIBUTE_NMTOKEN);
     HHVM_RC_INT_SAME(XML_ATTRIBUTE_NMTOKENS);
     HHVM_RC_INT_SAME(XML_ATTRIBUTE_ENUMERATION);

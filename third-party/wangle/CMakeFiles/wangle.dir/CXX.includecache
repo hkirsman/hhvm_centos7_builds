@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/acceptor/Acceptor.cpp
+/tmp/hhvm-3.12.1/third-party/wangle/src/wangle/acceptor/Acceptor.cpp
 wangle/acceptor/Acceptor.h
 -
 wangle/acceptor/ManagedConnection.h
@@ -38,7 +38,7 @@ gflags/gflags.h
 unistd.h
 -
 
-/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/acceptor/AcceptorHandshakeHelper.cpp
+/tmp/hhvm-3.12.1/third-party/wangle/src/wangle/acceptor/AcceptorHandshakeHelper.cpp
 wangle/acceptor/AcceptorHandshakeHelper.h
 -
 string
@@ -46,7 +46,7 @@ string
 wangle/acceptor/SecureTransportType.h
 -
 
-/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/acceptor/ConnectionManager.cpp
+/tmp/hhvm-3.12.1/third-party/wangle/src/wangle/acceptor/ConnectionManager.cpp
 wangle/acceptor/ConnectionManager.h
 -
 glog/logging.h
@@ -54,7 +54,7 @@ glog/logging.h
 folly/io/async/EventBase.h
 -
 
-/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/acceptor/LoadShedConfiguration.cpp
+/tmp/hhvm-3.12.1/third-party/wangle/src/wangle/acceptor/LoadShedConfiguration.cpp
 wangle/acceptor/LoadShedConfiguration.h
 -
 folly/Conv.h
@@ -62,13 +62,13 @@ folly/Conv.h
 openssl/ssl.h
 -
 
-/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/acceptor/ManagedConnection.cpp
+/tmp/hhvm-3.12.1/third-party/wangle/src/wangle/acceptor/ManagedConnection.cpp
 wangle/acceptor/ManagedConnection.h
 -
 wangle/acceptor/ConnectionManager.h
 -
 
-/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/acceptor/SocketOptions.cpp
+/tmp/hhvm-3.12.1/third-party/wangle/src/wangle/acceptor/SocketOptions.cpp
 wangle/acceptor/SocketOptions.h
 -
 netinet/tcp.h
@@ -76,7 +76,7 @@ netinet/tcp.h
 sys/socket.h
 -
 
-/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/acceptor/TransportInfo.cpp
+/tmp/hhvm-3.12.1/third-party/wangle/src/wangle/acceptor/TransportInfo.cpp
 wangle/acceptor/TransportInfo.h
 -
 sys/socket.h
@@ -86,15 +86,15 @@ sys/types.h
 folly/io/async/AsyncSocket.h
 -
 
-/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/channel/Pipeline.cpp
+/tmp/hhvm-3.12.1/third-party/wangle/src/wangle/channel/Pipeline.cpp
 wangle/channel/Pipeline.h
 -
 
-/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/client/ssl/SSLSessionCacheData.cpp
+/tmp/hhvm-3.12.1/third-party/wangle/src/wangle/client/ssl/SSLSessionCacheData.cpp
 wangle/client/ssl/SSLSessionCacheData.h
 -
 
-/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/client/ssl/SSLSessionCacheUtils.cpp
+/tmp/hhvm-3.12.1/third-party/wangle/src/wangle/client/ssl/SSLSessionCacheUtils.cpp
 wangle/client/ssl/SSLSessionCacheUtils.h
 -
 folly/io/IOBuf.h
@@ -102,7 +102,7 @@ folly/io/IOBuf.h
 memory
 -
 
-/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/client/ssl/SSLSessionPersistentCache.cpp
+/tmp/hhvm-3.12.1/third-party/wangle/src/wangle/client/ssl/SSLSessionPersistentCache.cpp
 wangle/client/ssl/SSLSessionPersistentCache.h
 -
 wangle/client/ssl/SSLSessionCacheUtils.h
@@ -114,29 +114,29 @@ folly/io/IOBuf.h
 folly/Memory.h
 -
 
-/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp
+/tmp/hhvm-3.12.1/third-party/wangle/src/wangle/client/ssl/ThreadSafeSSLSessionCache.cpp
 wangle/client/ssl/ThreadSafeSSLSessionCache.h
 -
 
-/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/codec/LengthFieldBasedFrameDecoder.cpp
+/tmp/hhvm-3.12.1/third-party/wangle/src/wangle/codec/LengthFieldBasedFrameDecoder.cpp
 wangle/codec/LengthFieldBasedFrameDecoder.h
 -
 
-/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/codec/LengthFieldPrepender.cpp
+/tmp/hhvm-3.12.1/third-party/wangle/src/wangle/codec/LengthFieldPrepender.cpp
 wangle/codec/LengthFieldPrepender.h
 -
 
-/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/codec/LineBasedFrameDecoder.cpp
+/tmp/hhvm-3.12.1/third-party/wangle/src/wangle/codec/LineBasedFrameDecoder.cpp
 wangle/codec/LineBasedFrameDecoder.h
 -
 
-/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/concurrent/CPUThreadPoolExecutor.cpp
+/tmp/hhvm-3.12.1/third-party/wangle/src/wangle/concurrent/CPUThreadPoolExecutor.cpp
 wangle/concurrent/CPUThreadPoolExecutor.h
 -
 wangle/concurrent/PriorityLifoSemMPMCQueue.h
 -
 
-/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/concurrent/Codel.cpp
+/tmp/hhvm-3.12.1/third-party/wangle/src/wangle/concurrent/Codel.cpp
 wangle/concurrent/Codel.h
 -
 algorithm
@@ -146,7 +146,7 @@ math.h
 gflags/gflags.h
 -
 
-/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/concurrent/GlobalExecutor.cpp
+/tmp/hhvm-3.12.1/third-party/wangle/src/wangle/concurrent/GlobalExecutor.cpp
 folly/Singleton.h
 -
 wangle/concurrent/IOExecutor.h
@@ -156,7 +156,7 @@ wangle/concurrent/IOThreadPoolExecutor.h
 folly/futures/InlineExecutor.h
 -
 
-/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/concurrent/IOThreadPoolExecutor.cpp
+/tmp/hhvm-3.12.1/third-party/wangle/src/wangle/concurrent/IOThreadPoolExecutor.cpp
 wangle/concurrent/IOThreadPoolExecutor.h
 -
 folly/MoveWrapper.h
@@ -166,19 +166,19 @@ glog/logging.h
 folly/detail/MemoryIdler.h
 -
 
-/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/concurrent/ThreadPoolExecutor.cpp
+/tmp/hhvm-3.12.1/third-party/wangle/src/wangle/concurrent/ThreadPoolExecutor.cpp
 wangle/concurrent/ThreadPoolExecutor.h
 -
 
-/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/deprecated/rx/Dummy.cpp
+/tmp/hhvm-3.12.1/third-party/wangle/src/wangle/deprecated/rx/Dummy.cpp
 
-/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/ssl/PasswordInFile.cpp
+/tmp/hhvm-3.12.1/third-party/wangle/src/wangle/ssl/PasswordInFile.cpp
 wangle/ssl/PasswordInFile.h
 -
 folly/FileUtil.h
 -
 
-/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/ssl/SSLContextManager.cpp
+/tmp/hhvm-3.12.1/third-party/wangle/src/wangle/ssl/SSLContextManager.cpp
 wangle/ssl/SSLContextManager.h
 -
 wangle/ssl/ClientHelloExtStats.h
@@ -214,7 +214,7 @@ string
 folly/io/async/EventBase.h
 -
 
-/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/ssl/SSLSessionCacheManager.cpp
+/tmp/hhvm-3.12.1/third-party/wangle/src/wangle/ssl/SSLSessionCacheManager.cpp
 wangle/ssl/SSLSessionCacheManager.h
 -
 wangle/ssl/SSLCacheProvider.h
@@ -228,7 +228,7 @@ folly/io/async/EventBase.h
 gflags/gflags.h
 -
 
-/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/ssl/SSLUtil.cpp
+/tmp/hhvm-3.12.1/third-party/wangle/src/wangle/ssl/SSLUtil.cpp
 wangle/ssl/SSLUtil.h
 -
 folly/Memory.h
@@ -238,7 +238,7 @@ openssl/asn1.h
 openssl/x509v3.h
 -
 
-/tmp/hhvm-3.11.1/third-party/wangle/src/wangle/ssl/TLSTicketKeyManager.cpp
+/tmp/hhvm-3.12.1/third-party/wangle/src/wangle/ssl/TLSTicketKeyManager.cpp
 wangle/ssl/TLSTicketKeyManager.h
 -
 wangle/ssl/SSLStats.h
@@ -1380,6 +1380,8 @@ folly/Foreach.h
 folly/Exception.h
 -
 folly/Malloc.h
+-
+folly/MicroSpinLock.h
 -
 
 third-party/folly/folly/detail/TurnSequencer.h

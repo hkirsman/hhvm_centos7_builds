@@ -249,7 +249,6 @@ nobase_follyinclude_HEADERS = \
 	Random.h \
 	Random-inl.h \
 	Range.h \
-	ReadMostlySharedPtr.h \
 	RWSpinLock.h \
 	ScopeGuard.h \
 	SharedMutex.h \
@@ -268,6 +267,8 @@ nobase_follyinclude_HEADERS = \
 	stats/Histogram.h \
 	stats/MultiLevelTimeSeries-defs.h \
 	stats/MultiLevelTimeSeries.h \
+	stats/TimeseriesHistogram-defs.h \
+	stats/TimeseriesHistogram.h \
 	String.h \
 	String-inl.h \
 	Subprocess.h \
@@ -278,6 +279,7 @@ nobase_follyinclude_HEADERS = \
 	test/function_benchmark/test_functions.h \
 	test/SynchronizedTestLib.h \
 	test/SynchronizedTestLib-inl.h \
+	test/TestUtils.h \
 	ThreadCachedArena.h \
 	ThreadCachedInt.h \
 	ThreadLocal.h \
@@ -330,6 +332,7 @@ libfolly_la_SOURCES = \
 	futures/QueuedImmediateExecutor.cpp \
 	futures/ThreadWheelTimekeeper.cpp \
 	detail/Futex.cpp \
+	detail/ThreadLocalDetail.cpp \
 	GroupVarint.cpp \
 	GroupVarintTables.cpp \
 	IPAddress.cpp \

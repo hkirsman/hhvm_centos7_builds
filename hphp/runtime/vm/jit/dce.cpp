@@ -229,6 +229,7 @@ bool canDCE(IRInstruction* inst) {
   case PackMagicArgs:
   case LdMBase:
   case MethodExists:
+  case LdTVAux:
     assertx(!inst->isControlFlow());
     return true;
 
@@ -531,6 +532,7 @@ bool canDCE(IRInstruction* inst) {
   case CheckARMagicFlag:
   case LdARNumArgsAndFlags:
   case StARNumArgsAndFlags:
+  case StTVAux:
   case StARInvName:
   case ExitPlaceholder:
   case ThrowOutOfBounds:
@@ -541,6 +543,8 @@ bool canDCE(IRInstruction* inst) {
   case StMBase:
   case FinishMemberOp:
   case InlineReturnNoFrame:
+  case BeginInlining:
+  case SyncReturnBC:
     return false;
   }
   not_reached();
@@ -883,9 +887,9 @@ void convertToStackInst(IRUnit& unit, IRInstruction& inst) {
       return;
     }
     case LdLocAddr: {
-      auto ty = inst.typeParam().deref().ptr(Ptr::Stk);
       IRSPOffsetData data {locToStkOff(inst)};
-      unit.replace(&inst, LdStkAddr, data, ty, unit.mainSP());
+      unit.replace(&inst, LdStkAddr, data, unit.mainSP());
+      retypeDests(&inst, &unit);
       return;
     }
     case AssertLoc: {
@@ -900,7 +904,9 @@ void convertToStackInst(IRUnit& unit, IRInstruction& inst) {
       // read inside of region-tracelet when we walk guards-- if we're
       // killing an inlined frame its locals won't be part of the guards
       RelOffsetData data {locToStkOff(inst)};
-      unit.replace(&inst, CheckStk, data, ty, unit.mainSP());
+      auto next = inst.next();
+      unit.replace(&inst, CheckStk, data, ty, inst.taken(), unit.mainSP());
+      inst.setNext(next);
       return;
     }
     case HintLocInner: {

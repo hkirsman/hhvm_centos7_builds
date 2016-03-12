@@ -51,6 +51,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_un
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/runtime/base/resource-data.h
@@ -191,6 +192,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_un
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/util/assertions.h
@@ -202,6 +204,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_un
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/util/fixed-vector.h
@@ -210,7 +214,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_un
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/util/md5.h
@@ -218,6 +226,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_un
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: hphp/util/safe-cast.h
@@ -258,6 +271,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_un
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -283,6 +297,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_un
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/cal_unix.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -346,6 +361,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calend
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/runtime/base/resource-data.h
@@ -487,6 +503,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calend
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/util/assertions.h
@@ -498,6 +515,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calend
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/util/fixed-vector.h
@@ -506,7 +525,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calend
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/util/md5.h
@@ -514,6 +537,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calend
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: hphp/util/safe-cast.h
@@ -554,6 +582,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calend
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -579,6 +608,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calend
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/calendar.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -646,6 +676,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/runtime/base/resource-data.h
@@ -786,6 +817,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/util/assertions.h
@@ -797,6 +829,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/util/fixed-vector.h
@@ -805,7 +839,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/util/md5.h
@@ -813,6 +851,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: hphp/util/safe-cast.h
@@ -853,6 +896,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -878,6 +922,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/calendar/easter.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -952,6 +997,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/runtime/base/resource-data.h
@@ -1095,6 +1141,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/util/assertions.h
@@ -1106,6 +1153,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/util/fixed-vector.h
@@ -1114,7 +1163,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/util/md5.h
@@ -1122,6 +1175,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: hphp/util/safe-cast.h
@@ -1162,6 +1220,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -1187,6 +1246,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: 
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/ftp.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -1251,6 +1311,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/runtime/base/resource-data.h
@@ -1394,6 +1455,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/util/assertions.h
@@ -1405,6 +1467,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/util/fixed-vector.h
@@ -1413,7 +1477,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/util/md5.h
@@ -1421,6 +1489,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: hphp/util/safe-cast.h
@@ -1461,6 +1534,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -1486,6 +1560,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/ftp/php_ftp.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -1545,6 +1620,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/runtime/base/resource-data.h
@@ -1640,6 +1716,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/util/assertions.h
@@ -1651,6 +1728,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/util/fixed-vector.h
@@ -1659,7 +1738,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/util/md5.h
@@ -1667,6 +1750,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: hphp/util/safe-cast.h
@@ -1707,6 +1795,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -1732,6 +1821,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-class-entry.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -1789,6 +1879,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-excep
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/runtime/base/resource-data.h
@@ -1856,6 +1947,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-excep
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/util/assertions.h
@@ -1867,6 +1959,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-excep
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/util/fixed-vector.h
@@ -1875,7 +1969,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-excep
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/util/md5.h
@@ -1883,6 +1981,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-excep
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: hphp/util/safe-cast.h
@@ -1923,6 +2026,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-excep
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -1948,6 +2052,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-excep
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exception-store.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -2007,6 +2112,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execu
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/runtime/base/request-injection-data.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/runtime/base/request-local.h
@@ -2125,6 +2231,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execu
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/runtime/vm/vm-regs.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/util/asm-x64.h
@@ -2138,6 +2245,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execu
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/util/data-block.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/util/exception.h
@@ -2149,7 +2258,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execu
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/util/hphp-raw-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/util/immed.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/util/md5.h
@@ -2157,6 +2270,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execu
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: hphp/util/ringbuffer.h
@@ -2204,6 +2322,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execu
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -2229,6 +2348,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execu
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-execution-stack.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -2287,6 +2407,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exten
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/runtime/base/resource-data.h
@@ -2399,6 +2520,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exten
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/util/assertions.h
@@ -2410,6 +2532,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exten
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/util/fixed-vector.h
@@ -2418,7 +2542,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exten
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/util/md5.h
@@ -2426,6 +2554,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exten
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: hphp/util/safe-cast.h
@@ -2467,6 +2600,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exten
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -2492,6 +2626,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-exten
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-extension.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -2551,6 +2686,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-objec
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/runtime/base/request-injection-data.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/runtime/base/request-local.h
@@ -2673,6 +2809,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-objec
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/runtime/vm/vm-regs.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/util/asm-x64.h
@@ -2686,6 +2823,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-objec
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/util/data-block.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/util/exception.h
@@ -2697,7 +2836,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-objec
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/util/hphp-raw-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/util/immed.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/util/md5.h
@@ -2705,6 +2848,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-objec
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: hphp/util/ringbuffer.h
@@ -2752,6 +2900,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-objec
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -2777,6 +2926,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-objec
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object-store.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -2835,6 +2985,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-objec
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/runtime/base/resource-data.h
@@ -2935,6 +3086,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-objec
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/util/assertions.h
@@ -2946,6 +3098,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-objec
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/util/fixed-vector.h
@@ -2954,7 +3108,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-objec
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/util/md5.h
@@ -2962,6 +3120,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-objec
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: hphp/util/safe-cast.h
@@ -3002,6 +3165,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-objec
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -3027,6 +3191,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-objec
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-object.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -3079,6 +3244,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-prope
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/runtime/base/resource-data.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/runtime/base/runtime-error.h
@@ -3171,6 +3337,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-prope
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/util/assertions.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/util/bstring.h
@@ -3179,6 +3346,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-prope
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/util/compatibility.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/util/fixed-vector.h
@@ -3187,13 +3356,22 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-prope
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/util/md5.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/util/meta.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: hphp/util/safe-cast.h
@@ -3234,6 +3412,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-prope
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -3259,6 +3438,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-prope
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-property-info.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -3319,6 +3499,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/runtime/base/request-injection-data.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/runtime/base/request-local.h
@@ -3479,6 +3660,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/runtime/vm/vm-regs.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/util/asm-x64.h
@@ -3492,6 +3674,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/util/data-block.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/util/exception.h
@@ -3503,7 +3687,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/util/hphp-raw-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/util/immed.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/util/md5.h
@@ -3511,6 +3699,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: hphp/util/ringbuffer.h
@@ -3558,6 +3751,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -3583,6 +3777,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/hhvm/zend-wrap-func.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -3646,6 +3841,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/runtime/base/resource-data.h
@@ -3809,6 +4005,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/util/assertions.h
@@ -3820,6 +4017,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/util/fixed-vector.h
@@ -3828,7 +4027,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/util/md5.h
@@ -3836,6 +4039,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: hphp/util/safe-cast.h
@@ -3876,6 +4084,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -3901,6 +4110,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/oauth.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -3965,6 +4175,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/runtime/base/resource-data.h
@@ -4128,6 +4339,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/util/assertions.h
@@ -4139,6 +4351,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/util/fixed-vector.h
@@ -4147,7 +4361,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/util/md5.h
@@ -4155,6 +4373,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: hphp/util/safe-cast.h
@@ -4195,6 +4418,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -4220,6 +4444,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/oauth/provider.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -4262,6 +4487,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TS
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/runtime/base/memory-usage-stats.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/runtime/base/runtime-option.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/runtime/base/sort-flags.h
@@ -4283,21 +4509,37 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TS
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/util/compact-tagged-ptrs.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/util/compatibility.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/util/compilation-flags.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/util/functional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/util/hash-map-typedefs.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/util/locale-portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/util/md5.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/util/meta.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/util/range.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/util/safe-cast.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/util/sparse-id-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/util/stack-trace.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/util/synchronizable-multi.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/util/synchronizable.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/util/text-color.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/util/thread-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: hphp/util/tiny-vector.h
@@ -4325,6 +4567,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TS
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -4346,6 +4589,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TS
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/TSRM.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -4395,6 +4639,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/ts
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/runtime/base/resource-data.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/runtime/base/runtime-error.h
@@ -4457,6 +4702,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/ts
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/util/assertions.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/util/bstring.h
@@ -4465,6 +4711,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/ts
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/util/compatibility.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/util/fixed-vector.h
@@ -4473,13 +4721,22 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/ts
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/util/md5.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/util/meta.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: hphp/util/safe-cast.h
@@ -4519,6 +4776,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/ts
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -4544,6 +4802,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/ts
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/TSRM/tsrm_virtual_cwd.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -4647,6 +4906,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/runtime/base/resource-data.h
@@ -4720,6 +4980,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/util/assertions.h
@@ -4731,6 +4992,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/util/fixed-vector.h
@@ -4739,7 +5002,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/util/md5.h
@@ -4747,6 +5014,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: hphp/util/safe-cast.h
@@ -4787,6 +5059,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -4812,6 +5085,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -4912,6 +5186,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/runtime/base/request-injection-data.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/runtime/base/request-local.h
@@ -5017,6 +5292,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/runtime/vm/vm-regs.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/util/asm-x64.h
@@ -5030,6 +5306,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/util/data-block.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/util/exception.h
@@ -5041,7 +5319,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/util/hphp-raw-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/util/immed.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/util/md5.h
@@ -5049,6 +5331,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: hphp/util/ringbuffer.h
@@ -5096,6 +5383,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -5121,6 +5409,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_API.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -5209,6 +5498,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/runtime/base/resource-data.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/runtime/base/runtime-error.h
@@ -5265,6 +5555,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/util/assertions.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/util/bstring.h
@@ -5273,6 +5564,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/util/compatibility.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/util/fixed-vector.h
@@ -5281,13 +5574,22 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/util/md5.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/util/meta.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: hphp/util/safe-cast.h
@@ -5328,6 +5630,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -5353,6 +5656,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_alloc.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -5453,6 +5757,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/runtime/base/resource-data.h
@@ -5527,6 +5832,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/util/assertions.h
@@ -5538,6 +5844,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/util/fixed-vector.h
@@ -5546,7 +5854,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/util/md5.h
@@ -5554,6 +5866,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: hphp/util/safe-cast.h
@@ -5594,6 +5911,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -5619,6 +5937,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_compile.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -5715,6 +6034,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/runtime/base/resource-data.h
@@ -5788,6 +6108,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/util/assertions.h
@@ -5799,6 +6120,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/util/fixed-vector.h
@@ -5807,7 +6130,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/util/md5.h
@@ -5815,6 +6142,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: hphp/util/safe-cast.h
@@ -5855,6 +6187,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -5880,6 +6213,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_constants.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -5982,6 +6316,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/runtime/base/resource-data.h
@@ -6086,6 +6421,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/util/assertions.h
@@ -6097,6 +6433,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/util/fixed-vector.h
@@ -6105,7 +6443,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/util/md5.h
@@ -6113,6 +6455,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: hphp/util/safe-cast.h
@@ -6153,6 +6500,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -6178,6 +6526,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_exceptions.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -6282,6 +6631,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/runtime/base/request-injection-data.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/runtime/base/request-local.h
@@ -6384,6 +6734,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/runtime/vm/vm-regs.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/util/asm-x64.h
@@ -6397,6 +6748,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/util/data-block.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/util/exception.h
@@ -6408,7 +6761,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/util/hphp-raw-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/util/immed.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/util/md5.h
@@ -6416,6 +6773,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: hphp/util/ringbuffer.h
@@ -6463,6 +6825,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -6488,6 +6851,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_execute_API.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -6585,6 +6949,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/runtime/base/resource-data.h
@@ -6658,6 +7023,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/util/assertions.h
@@ -6669,6 +7035,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/util/fixed-vector.h
@@ -6677,7 +7045,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/util/md5.h
@@ -6685,6 +7057,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: hphp/util/safe-cast.h
@@ -6725,6 +7102,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -6750,6 +7128,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_gc.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -6847,6 +7226,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/runtime/base/request-injection-data.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/runtime/base/request-local.h
@@ -6923,6 +7303,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/util/assertions.h
@@ -6934,6 +7315,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/util/fixed-vector.h
@@ -6942,7 +7325,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/util/md5.h
@@ -6950,6 +7337,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: hphp/util/safe-cast.h
@@ -6990,6 +7382,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -7015,6 +7408,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_globals.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -7099,6 +7493,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/runtime/base/request-injection-data.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/runtime/base/request-local.h
@@ -7199,6 +7594,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/util/assertions.h
@@ -7210,6 +7606,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/util/data-block.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/util/exception.h
@@ -7219,7 +7617,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/util/md5.h
@@ -7227,6 +7629,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: hphp/util/ringbuffer.h
@@ -7269,6 +7676,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -7294,6 +7702,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_hash.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -7393,6 +7802,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/runtime/base/resource-data.h
@@ -7466,6 +7876,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/util/assertions.h
@@ -7477,6 +7888,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/util/fixed-vector.h
@@ -7485,7 +7898,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/util/md5.h
@@ -7493,6 +7910,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: hphp/util/safe-cast.h
@@ -7533,6 +7955,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -7558,6 +7981,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_ini.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -7661,6 +8085,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/runtime/base/request-injection-data.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/runtime/base/request-local.h
@@ -7738,6 +8163,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/util/assertions.h
@@ -7749,6 +8175,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/util/fixed-vector.h
@@ -7757,7 +8185,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/util/md5.h
@@ -7765,6 +8197,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: hphp/util/safe-cast.h
@@ -7805,6 +8242,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -7830,6 +8268,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_interfaces.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -7930,6 +8369,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/runtime/base/request-injection-data.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/runtime/base/request-local.h
@@ -8060,6 +8500,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/runtime/vm/vm-regs.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/util/asm-x64.h
@@ -8073,6 +8514,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/util/data-block.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/util/exception.h
@@ -8084,7 +8527,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/util/hphp-raw-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/util/immed.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/util/md5.h
@@ -8092,6 +8539,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: hphp/util/ringbuffer.h
@@ -8139,6 +8591,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -8164,6 +8617,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_list.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -8262,6 +8716,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/runtime/base/resource-data.h
@@ -8335,6 +8790,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/util/assertions.h
@@ -8346,6 +8802,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/util/fixed-vector.h
@@ -8354,7 +8812,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/util/md5.h
@@ -8362,6 +8824,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: hphp/util/safe-cast.h
@@ -8402,6 +8869,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -8427,6 +8895,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_object_handlers.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -8526,6 +8995,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/runtime/base/resource-data.h
@@ -8599,6 +9069,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/util/assertions.h
@@ -8610,6 +9081,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/util/fixed-vector.h
@@ -8618,7 +9091,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/util/md5.h
@@ -8626,6 +9103,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: hphp/util/safe-cast.h
@@ -8666,6 +9148,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -8691,6 +9174,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -8788,6 +9272,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/runtime/base/resource-data.h
@@ -8866,6 +9351,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/util/assertions.h
@@ -8877,6 +9363,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/util/fixed-vector.h
@@ -8885,7 +9373,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/util/md5.h
@@ -8893,6 +9385,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: hphp/util/safe-cast.h
@@ -8933,6 +9430,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -8958,6 +9456,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_objects_API.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -9058,6 +9557,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/runtime/base/resource-data.h
@@ -9136,6 +9636,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/util/assertions.h
@@ -9147,6 +9648,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/util/fixed-vector.h
@@ -9155,7 +9658,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/util/md5.h
@@ -9163,6 +9670,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: hphp/util/safe-cast.h
@@ -9203,6 +9715,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -9228,6 +9741,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_operators.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -9303,6 +9817,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/runtime/base/resource-data.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/runtime/base/runtime-error.h
@@ -9355,6 +9870,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/util/assertions.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/util/bstring.h
@@ -9363,6 +9879,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/util/compatibility.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/util/fixed-vector.h
@@ -9371,13 +9889,22 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/util/md5.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/util/meta.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: hphp/util/safe-cast.h
@@ -9418,6 +9945,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -9443,6 +9971,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_qsort.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -9493,6 +10022,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/runtime/base/resource-data.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/runtime/base/runtime-error.h
@@ -9569,6 +10099,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/util/assertions.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/util/bstring.h
@@ -9577,6 +10108,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/util/compatibility.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/util/fixed-vector.h
@@ -9585,13 +10118,22 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/util/md5.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/util/meta.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: hphp/util/safe-cast.h
@@ -9632,6 +10174,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -9657,6 +10200,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_strtod.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -9755,6 +10299,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/runtime/base/resource-data.h
@@ -9828,6 +10373,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/util/assertions.h
@@ -9839,6 +10385,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/util/fixed-vector.h
@@ -9847,7 +10395,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/util/md5.h
@@ -9855,6 +10407,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: hphp/util/safe-cast.h
@@ -9895,6 +10452,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -9920,6 +10478,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_variables.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -9979,6 +10538,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/runtime/base/resource-data.h
@@ -10076,6 +10636,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/util/assertions.h
@@ -10087,6 +10648,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/util/fixed-vector.h
@@ -10095,7 +10658,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/util/md5.h
@@ -10103,6 +10670,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: hphp/util/safe-cast.h
@@ -10143,6 +10715,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -10168,6 +10741,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/ze
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/Zend/zend_virtual_cwd.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -10231,6 +10805,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcr
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/runtime/base/resource-data.h
@@ -10378,6 +10953,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcr
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/util/assertions.h
@@ -10389,6 +10965,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcr
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/util/fixed-vector.h
@@ -10397,7 +10975,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcr
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/util/md5.h
@@ -10405,6 +10987,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcr
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: hphp/util/safe-cast.h
@@ -10447,6 +11034,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcr
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -10472,6 +11060,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcr
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/pcre/php_pcre.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -10534,6 +11123,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/runtime/base/resource-data.h
@@ -10674,6 +11264,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/util/assertions.h
@@ -10685,6 +11276,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/util/fixed-vector.h
@@ -10693,7 +11286,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/util/md5.h
@@ -10701,6 +11298,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: hphp/util/safe-cast.h
@@ -10741,6 +11343,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -10766,6 +11369,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/base64.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -10831,6 +11435,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/runtime/base/resource-data.h
@@ -10978,6 +11583,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/util/assertions.h
@@ -10989,6 +11595,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/util/fixed-vector.h
@@ -10997,7 +11605,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/util/md5.h
@@ -11005,6 +11617,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: hphp/util/safe-cast.h
@@ -11045,6 +11662,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -11070,6 +11688,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/basic_functions.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -11136,6 +11755,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/runtime/base/resource-data.h
@@ -11278,6 +11898,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/util/assertions.h
@@ -11289,6 +11910,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/util/fixed-vector.h
@@ -11297,7 +11920,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/util/md5.h
@@ -11305,6 +11932,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: hphp/util/safe-cast.h
@@ -11345,6 +11977,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -11370,6 +12003,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/file.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -11432,6 +12066,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/runtime/base/resource-data.h
@@ -11577,6 +12212,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/util/assertions.h
@@ -11588,6 +12224,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/util/fixed-vector.h
@@ -11596,7 +12234,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/util/md5.h
@@ -11604,6 +12246,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: hphp/util/safe-cast.h
@@ -11644,6 +12291,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -11669,6 +12317,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/info.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -11731,6 +12380,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/runtime/base/resource-data.h
@@ -11876,6 +12526,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/util/assertions.h
@@ -11887,6 +12538,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/util/fixed-vector.h
@@ -11895,7 +12548,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/util/md5.h
@@ -11903,6 +12560,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: hphp/util/safe-cast.h
@@ -11943,6 +12605,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -11968,6 +12631,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/lcg.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -12034,6 +12698,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/runtime/base/resource-data.h
@@ -12178,6 +12843,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/util/assertions.h
@@ -12189,6 +12855,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/util/fixed-vector.h
@@ -12197,7 +12865,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/util/md5.h
@@ -12205,6 +12877,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: hphp/util/safe-cast.h
@@ -12246,6 +12923,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -12271,6 +12949,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/rand.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -12339,6 +13018,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/runtime/base/resource-data.h
@@ -12484,6 +13164,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/util/assertions.h
@@ -12495,6 +13176,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/util/fixed-vector.h
@@ -12503,7 +13186,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/util/md5.h
@@ -12511,6 +13198,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: hphp/util/safe-cast.h
@@ -12551,6 +13243,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -12576,6 +13269,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/string.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -12639,6 +13333,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/runtime/base/resource-data.h
@@ -12779,6 +13474,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/util/assertions.h
@@ -12790,6 +13486,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/util/fixed-vector.h
@@ -12798,7 +13496,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/util/md5.h
@@ -12806,6 +13508,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: hphp/util/safe-cast.h
@@ -12846,6 +13553,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -12871,6 +13579,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/url.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -12939,6 +13648,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/runtime/base/resource-data.h
@@ -13085,6 +13795,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/util/assertions.h
@@ -13096,6 +13807,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/util/fixed-vector.h
@@ -13104,7 +13817,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/util/md5.h
@@ -13112,6 +13829,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: hphp/util/safe-cast.h
@@ -13152,6 +13874,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -13177,6 +13900,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/sta
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/ext/standard/var.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -13259,6 +13983,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SA
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/runtime/base/resource-data.h
@@ -13383,6 +14108,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SA
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/util/assertions.h
@@ -13394,6 +14120,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SA
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/util/fixed-vector.h
@@ -13402,7 +14130,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SA
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/util/md5.h
@@ -13410,6 +14142,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SA
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: hphp/util/safe-cast.h
@@ -13450,6 +14187,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SA
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -13475,6 +14213,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SA
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/SAPI.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -13558,6 +14297,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fo
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/runtime/base/resource-data.h
@@ -13680,6 +14420,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fo
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/util/assertions.h
@@ -13691,6 +14432,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fo
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/util/file.h
@@ -13700,7 +14443,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fo
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/util/md5.h
@@ -13708,6 +14455,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fo
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: hphp/util/safe-cast.h
@@ -13748,6 +14500,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fo
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -13773,6 +14526,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fo
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/fopen_wrappers.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -13856,6 +14610,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/ma
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/runtime/base/resource-data.h
@@ -13981,6 +14736,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/ma
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/util/assertions.h
@@ -13992,6 +14748,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/ma
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/util/fixed-vector.h
@@ -14000,7 +14758,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/ma
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/util/md5.h
@@ -14008,6 +14770,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/ma
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: hphp/util/safe-cast.h
@@ -14049,6 +14816,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/ma
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -14074,6 +14842,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/ma
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/main.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -14155,6 +14924,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/ne
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/runtime/base/resource-data.h
@@ -14277,6 +15047,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/ne
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/util/assertions.h
@@ -14288,6 +15059,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/ne
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/util/fixed-vector.h
@@ -14296,7 +15069,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/ne
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/util/md5.h
@@ -14304,6 +15081,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/ne
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: hphp/util/safe-cast.h
@@ -14344,6 +15126,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/ne
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -14369,6 +15152,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/ne
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/network.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -14432,6 +15216,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/ph
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/runtime/base/request-injection-data.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/runtime/base/request-local.h
@@ -14570,6 +15355,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/ph
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/util/assertions.h
@@ -14581,6 +15367,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/ph
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/util/data-block.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/util/exception.h
@@ -14590,7 +15378,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/ph
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/util/md5.h
@@ -14598,6 +15390,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/ph
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: hphp/util/ringbuffer.h
@@ -14639,6 +15436,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/ph
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -14664,6 +15462,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/ph
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_globals.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -14744,6 +15543,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/ph
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/runtime/base/resource-data.h
@@ -14865,6 +15665,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/ph
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/util/assertions.h
@@ -14876,6 +15677,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/ph
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/util/fixed-vector.h
@@ -14884,7 +15687,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/ph
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/util/md5.h
@@ -14892,6 +15699,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/ph
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: hphp/util/safe-cast.h
@@ -14932,6 +15744,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/ph
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -14957,6 +15770,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/ph
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_sprintf.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -15039,6 +15853,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/ph
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/runtime/base/resource-data.h
@@ -15161,6 +15976,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/ph
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/util/assertions.h
@@ -15172,6 +15988,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/ph
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/util/fixed-vector.h
@@ -15180,7 +15998,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/ph
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/util/md5.h
@@ -15188,6 +16010,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/ph
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: hphp/util/safe-cast.h
@@ -15228,6 +16055,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/ph
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -15253,6 +16081,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/ph
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/php_variable.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -15333,6 +16162,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/sn
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/runtime/base/resource-data.h
@@ -15454,6 +16284,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/sn
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/util/assertions.h
@@ -15465,6 +16296,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/sn
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/util/fixed-vector.h
@@ -15473,7 +16306,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/sn
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/util/md5.h
@@ -15481,6 +16318,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/sn
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: hphp/util/safe-cast.h
@@ -15521,6 +16363,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/sn
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -15546,6 +16389,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/sn
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/snprintf.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -15607,6 +16451,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/sp
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/runtime/base/resource-data.h
@@ -15748,6 +16593,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/sp
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/util/assertions.h
@@ -15759,6 +16605,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/sp
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/util/fixed-vector.h
@@ -15767,7 +16615,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/sp
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/util/md5.h
@@ -15775,6 +16627,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/sp
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: hphp/util/safe-cast.h
@@ -15815,6 +16672,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/sp
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -15840,6 +16698,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/sp
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/spprintf.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -15902,6 +16761,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/st
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/runtime/base/resource-data.h
@@ -16042,6 +16902,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/st
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/util/assertions.h
@@ -16053,6 +16914,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/st
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/util/fixed-vector.h
@@ -16061,7 +16924,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/st
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/util/md5.h
@@ -16069,6 +16936,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/st
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: hphp/util/safe-cast.h
@@ -16109,6 +16981,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/st
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -16134,6 +17007,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/st
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/plain_wrapper.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -16198,6 +17072,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/st
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/runtime/base/resource-data.h
@@ -16344,6 +17219,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/st
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/util/assertions.h
@@ -16355,6 +17231,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/st
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/util/fixed-vector.h
@@ -16363,7 +17241,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/st
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/util/md5.h
@@ -16371,6 +17253,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/st
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: hphp/util/safe-cast.h
@@ -16411,6 +17298,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/st
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -16436,6 +17324,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/st
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/streams.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -16497,6 +17386,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/st
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/runtime/base/resource-data.h
@@ -16637,6 +17527,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/st
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/util/assertions.h
@@ -16648,6 +17539,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/st
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/util/fixed-vector.h
@@ -16656,7 +17549,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/st
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/util/md5.h
@@ -16664,6 +17561,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/st
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: hphp/util/safe-cast.h
@@ -16704,6 +17606,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/st
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -16729,6 +17632,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/st
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/streams/transports.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -16809,6 +17713,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/st
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/runtime/base/resource-data.h
@@ -16930,6 +17835,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/st
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/util/assertions.h
@@ -16941,6 +17847,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/st
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/util/fixed-vector.h
@@ -16949,7 +17857,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/st
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/util/md5.h
@@ -16957,6 +17869,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/st
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: hphp/util/safe-cast.h
@@ -16997,6 +17914,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/st
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -17022,6 +17940,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/st
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/php-src/main/strlcpy.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -17086,6 +18005,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/runtime/base/resource-data.h
@@ -17239,6 +18159,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/util/assertions.h
@@ -17250,6 +18171,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/util/fixed-vector.h
@@ -17258,7 +18181,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/util/md5.h
@@ -17266,6 +18193,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: hphp/util/safe-cast.h
@@ -17306,6 +18238,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -17331,6 +18264,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/detect.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -17396,6 +18330,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/runtime/base/resource-data.h
@@ -17549,6 +18484,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/util/assertions.h
@@ -17560,6 +18496,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/util/fixed-vector.h
@@ -17568,7 +18506,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/util/md5.h
@@ -17576,6 +18518,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: hphp/util/safe-cast.h
@@ -17616,6 +18563,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -17641,6 +18589,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/emit.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -17706,6 +18655,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/runtime/base/resource-data.h
@@ -17859,6 +18809,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/util/assertions.h
@@ -17870,6 +18821,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/util/fixed-vector.h
@@ -17878,7 +18831,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/util/md5.h
@@ -17886,6 +18843,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: hphp/util/safe-cast.h
@@ -17926,6 +18888,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -17951,6 +18914,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/parse.cpp.o: third-party/folly/folly/dynamic-inl.h
@@ -18016,6 +18980,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/runtime/base/repo-auth-type.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/runtime/base/req-containers.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/runtime/base/req-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/runtime/base/req-root.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/runtime/base/request-event-handler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/runtime/base/request-local.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/runtime/base/resource-data.h
@@ -18169,6 +19134,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/runtime/vm/unit-inl.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/runtime/vm/unit.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/system/systemlib.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/util/abi-cxx.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/util/alloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/util/arena.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/util/assertions.h
@@ -18180,6 +19146,8 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/util/compilation-flags.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/util/compression.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/util/copy-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/util/cronolog.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/util/cronoutils.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/util/default-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/util/exception.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/util/fixed-vector.h
@@ -18188,7 +19156,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/util/hash.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/util/hdf.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/util/hphp-raw-ptr.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/util/locale-portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/util/lock.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/util/log-file-flusher.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/util/logger-inl.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/util/logger.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/util/low-ptr.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/util/maphuge.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/util/md5.h
@@ -18196,6 +19168,11 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/util/mutex.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/util/pointer-list.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/util/portability.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/util/portability/fnmatch.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/util/portability/glob.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/util/portability/rand_r.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/util/portability/strfmon.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/util/portability/strptime.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/util/range.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/util/rank.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: hphp/util/safe-cast.h
@@ -18236,6 +19213,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: third-party/folly/folly/Likely.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: third-party/folly/folly/Malloc.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: third-party/folly/folly/Memory.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: third-party/folly/folly/MicroSpinLock.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: third-party/folly/folly/Optional.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: third-party/folly/folly/Portability.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: third-party/folly/folly/Preprocessor.h
@@ -18261,6 +19239,7 @@ hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: third-party/folly/folly/detail/MemoryIdler.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: third-party/folly/folly/detail/RangeCommon.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: third-party/folly/folly/detail/RangeSse42.h
+hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: third-party/folly/folly/detail/Sleeper.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: third-party/folly/folly/detail/ThreadLocalDetail.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: third-party/folly/folly/detail/UncaughtExceptionCounter.h
 hphp/runtime/ext_zend_compat/CMakeFiles/hphp_ext_zend_compat.dir/yaml/yaml.cpp.o: third-party/folly/folly/dynamic-inl.h

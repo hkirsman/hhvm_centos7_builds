@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/dbug/dbug.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/dbug/dbug.c
 my_global.h
 -
 m_string.h

@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/array.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/array.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/m_string.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/base64.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/base64.c
 my_global.h
 -
 m_string.h
@@ -22,15 +22,15 @@ m_ctype.h
 base64.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/charset-def.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/charset-def.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/charset.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/charset.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 mysys_err.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
 m_ctype.h
 -
 m_string.h
@@ -40,7 +40,7 @@ my_dir.h
 my_xml.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/checksum.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/checksum.c
 my_global.h
 -
 my_sys.h
@@ -48,23 +48,23 @@ my_sys.h
 zlib.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/errors.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/errors.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 mysys_err.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/hash.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/hash.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 m_string.h
 -
 m_ctype.h
 -
 hash.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/hash.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/hash.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/lf_alloc-pin.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/lf_alloc-pin.c
 my_global.h
 -
 my_sys.h
@@ -72,7 +72,7 @@ my_sys.h
 lf.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/lf_dynarray.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/lf_dynarray.c
 my_global.h
 -
 m_string.h
@@ -82,7 +82,7 @@ my_sys.h
 lf.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/lf_hash.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/lf_hash.c
 my_global.h
 -
 m_string.h
@@ -94,67 +94,67 @@ my_bit.h
 lf.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/list.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/list.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 my_list.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mf_arr_appstr.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mf_arr_appstr.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 m_string.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mf_cache.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mf_cache.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 m_string.h
 -
 my_static.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_static.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_static.h
 mysys_err.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mf_dirname.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mf_dirname.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 m_string.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mf_fn_ext.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mf_fn_ext.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 m_string.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mf_format.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mf_format.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 m_string.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mf_getdate.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mf_getdate.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 m_string.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mf_iocache.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mf_iocache.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 m_string.h
 -
 mysys_err.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
 errno.h
 -
 my_dir.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mf_iocache2.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mf_iocache2.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 m_string.h
 -
 stdarg.h
@@ -162,15 +162,15 @@ stdarg.h
 m_ctype.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mf_keycache.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mf_keycache.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 mysys_err.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
 keycache.h
 -
 my_static.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_static.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_static.h
 m_string.h
 -
 my_bit.h
@@ -180,11 +180,11 @@ errno.h
 stdarg.h
 -
 probes_mysql.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/probes_mysql.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/probes_mysql.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mf_keycaches.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mf_keycaches.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 keycache.h
 -
 hash.h
@@ -192,111 +192,111 @@ hash.h
 m_string.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mf_loadpath.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mf_loadpath.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 m_string.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mf_pack.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mf_pack.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 m_string.h
 -
 pwd.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mf_path.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mf_path.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 m_string.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mf_qsort.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mf_qsort.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 m_string.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mf_qsort2.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mf_qsort2.c
 mf_qsort.c
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mf_qsort.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mf_qsort.c
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mf_radix.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mf_radix.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 m_string.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mf_same.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mf_same.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 m_string.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mf_sort.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mf_sort.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 m_string.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mf_soundex.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mf_soundex.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 m_ctype.h
 -
 my_static.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_static.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_static.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mf_tempdir.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mf_tempdir.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 m_string.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mf_tempfile.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mf_tempfile.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 m_string.h
 -
 my_static.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_static.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_static.h
 mysys_err.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
 errno.h
 -
 paths.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mf_unixpath.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mf_unixpath.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 m_string.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mf_wcomp.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mf_wcomp.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mulalloc.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mulalloc.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 stdarg.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_access.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_access.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 m_string.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_alarm.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_alarm.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 my_alarm.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_alarm.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_alarm.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_alloc.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_alloc.c
 my_global.h
 -
 my_sys.h
@@ -304,7 +304,7 @@ my_sys.h
 m_string.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_atomic.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_atomic.c
 my_global.h
 -
 my_sys.h
@@ -312,15 +312,15 @@ my_sys.h
 my_atomic.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_bit.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_bit.c
 my_global.h
 -
 my_bit.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_bitmap.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_bitmap.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 my_bitmap.h
 -
 m_string.h
@@ -328,15 +328,15 @@ m_string.h
 my_bit.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_chsize.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_chsize.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 mysys_err.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
 m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/m_string.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_compare.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_compare.c
 my_global.h
 -
 m_ctype.h
@@ -348,7 +348,7 @@ my_compare.h
 my_sys.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_compress.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_compress.c
 my_global.h
 -
 my_sys.h
@@ -358,15 +358,15 @@ m_string.h
 zlib.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_copy.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_copy.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 my_dir.h
 -
 m_string.h
 -
 mysys_err.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
 utime.h
 -
 sys/utime.h
@@ -374,13 +374,13 @@ sys/utime.h
 time.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_create.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_create.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 my_dir.h
 -
 mysys_err.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
 errno.h
 -
 my_sys.h
@@ -388,23 +388,23 @@ my_sys.h
 share.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_delete.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_delete.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 mysys_err.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
 my_sys.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_div.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_div.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_error.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_error.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 mysys_err.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
 m_string.h
 -
 stdarg.h
@@ -412,41 +412,41 @@ stdarg.h
 m_ctype.h
 -
 my_base.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_base.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_base.h
 my_handler_errors.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_handler_errors.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_handler_errors.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_file.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_file.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 my_static.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_static.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_static.h
 m_string.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_fopen.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_fopen.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 my_static.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_static.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_static.h
 errno.h
 -
 mysys_err.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_fstream.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_fstream.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 mysys_err.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
 errno.h
 -
 stdio.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_gethwaddr.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_gethwaddr.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 m_string.h
 -
 net/ethernet.h
@@ -468,29 +468,29 @@ net/ethernet.h
 iphlpapi.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_getncpus.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_getncpus.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 unistd.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_getpagesize.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_getpagesize.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_getsystime.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_getsystime.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 my_static.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_static.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_static.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_getwd.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_getwd.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 m_string.h
 -
 mysys_err.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
 sys/param.h
 -
 m_ctype.h
@@ -500,15 +500,15 @@ dos.h
 direct.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_handler_errors.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_handler_errors.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_init.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_init.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 my_static.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_static.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_static.h
 mysys_err.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
 m_string.h
 -
 m_ctype.h
@@ -524,23 +524,23 @@ crtdbg.h
 rtcapi.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_largepage.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_largepage.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 sys/ipc.h
 -
 sys/shm.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_lib.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_lib.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 m_string.h
 -
 my_dir.h
 -
 mysys_err.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
 dirent.h
 -
 sys/ndir.h
@@ -552,35 +552,35 @@ ndir.h
 dir.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_lock.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_lock.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 mysys_err.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
 errno.h
 -
 my_alarm.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_lockmem.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_lockmem.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 mysys_err.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
 my_list.h
 -
 sys/mman.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_malloc.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_malloc.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 mysys_err.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
 m_string.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_memmem.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_memmem.c
 my_global.h
 -
 m_string.h
@@ -588,15 +588,15 @@ m_string.h
 assert.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_mess.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_mess.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_mkdir.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_mkdir.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 mysys_err.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
 sys/types.h
 -
 sys/stat.h
@@ -604,37 +604,37 @@ sys/stat.h
 direct.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_mmap.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_mmap.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_once.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_once.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 my_static.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_static.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_static.h
 mysys_err.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
 m_string.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_open.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_open.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 mysys_err.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
 my_dir.h
 -
 errno.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_pread.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_pread.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 mysys_err.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
 my_base.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_base.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_base.h
 m_string.h
 -
 errno.h
@@ -642,9 +642,9 @@ errno.h
 unistd.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_pthread.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_pthread.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 signal.h
 -
 m_string.h
@@ -654,21 +654,21 @@ thr_alarm.h
 netdb.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_quick.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_quick.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 my_nosys.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_nosys.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_nosys.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_rdtsc.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_rdtsc.c
 my_global.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_global.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_global.h
 my_rdtsc.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_rdtsc.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_rdtsc.h
 stdio.h
 -
 windows.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/windows.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/windows.h
 stdio.h
 -
 sys/time.h
@@ -690,69 +690,69 @@ ia64intrin.h
 mach/mach_time.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_read.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_read.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 mysys_err.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
 my_base.h
 -
 errno.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_redel.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_redel.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 my_dir.h
 -
 m_string.h
 -
 mysys_err.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
 utime.h
 -
 sys/utime.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_rename.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_rename.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 my_dir.h
 -
 mysys_err.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
 m_string.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/m_string.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/m_string.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_seek.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_seek.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 mysys_err.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_sleep.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_sleep.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 m_string.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_static.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_static.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 my_static.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_static.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_static.h
 my_alarm.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_alarm.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_alarm.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_static.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_static.h
 signal.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_symlink.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_symlink.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 mysys_err.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
 m_string.h
 -
 errno.h
@@ -762,45 +762,45 @@ sys/param.h
 sys/stat.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_symlink2.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_symlink2.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 mysys_err.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
 m_string.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_sync.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_sync.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 mysys_err.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
 errno.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_thr_init.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_thr_init.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 m_string.h
 -
 signal.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_write.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_write.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 mysys_err.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
 errno.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 my_global.h
 -
 my_sys.h
 -
 system_wrappers.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/system_wrappers.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/system_wrappers.h
 sys/resource.h
 -
 my_pthread.h
@@ -810,13 +810,13 @@ mysql/psi/mysql_file.h
 sys/stat.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/posix_timers.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/posix_timers.c
 my_pthread.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_pthread.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_pthread.h
 string.h
 -
 my_timer.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_timer.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_timer.h
 errno.h
 -
 sys/syscall.h
@@ -824,33 +824,33 @@ sys/syscall.h
 port.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/psi_noop.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/psi_noop.c
 my_global.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_global.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_global.h
 my_pthread.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_pthread.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_pthread.h
 my_sys.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_sys.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_sys.h
 mysql/psi/psi.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysql/psi/psi.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysql/psi/psi.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/ptr_cmp.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/ptr_cmp.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 myisampack.h
 -
 string.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/queues.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/queues.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 mysys_err.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_err.h
 queues.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/stacktrace.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/stacktrace.c
 my_global.h
 -
 my_stacktrace.h
@@ -878,15 +878,15 @@ dbghelp.h
 tlhelp32.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/string.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/string.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 m_string.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/thr_alarm.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/thr_alarm.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 my_global.h
 -
 errno.h
@@ -902,17 +902,17 @@ m_string.h
 queues.h
 -
 thr_alarm.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/thr_alarm.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/thr_alarm.h
 sys/select.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/thr_lock.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/thr_lock.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 thr_lock.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/thr_lock.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/thr_lock.h
 mysql/psi/mysql_table.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysql/psi/mysql_table.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysql/psi/mysql_table.h
 m_string.h
 -
 errno.h
@@ -920,19 +920,19 @@ errno.h
 my_sys.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/thr_mutex.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/thr_mutex.c
 my_global.h
 -
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 my_static.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_static.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_static.h
 m_string.h
 -
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 my_static.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_static.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_static.h
 m_string.h
 -
 m_ctype.h
@@ -946,31 +946,31 @@ mysys_err.h
 my_sys.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/thr_rwlock.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/thr_rwlock.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 errno.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/tree.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/tree.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 m_string.h
 -
 my_tree.h
 -
 my_base.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/my_base.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/my_base.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/typelib.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/typelib.c
 mysys_priv.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/mysys_priv.h
 m_string.h
 -
 m_ctype.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/mysys/waiting_threads.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/mysys/waiting_threads.c
 waiting_threads.h
 -
 m_string.h

@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.1
 
 # Include any dependencies generated for this target.
 include third-party/mcrouter/CMakeFiles/mcrouter.dir/depend.make
@@ -54,17 +54,17 @@ include third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/ascii_client.c.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/ascii_client.c.o: third-party/mcrouter/ascii_client.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/mcrouter/CMakeFiles/mcrouter.dir/ascii_client.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/ascii_client.c.o   -c /tmp/hhvm-3.11.1/third-party/mcrouter/ascii_client.c
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/ascii_client.c.o   -c /tmp/hhvm-3.12.1/third-party/mcrouter/ascii_client.c
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/ascii_client.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mcrouter.dir/ascii_client.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/ascii_client.c > CMakeFiles/mcrouter.dir/ascii_client.c.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/ascii_client.c > CMakeFiles/mcrouter.dir/ascii_client.c.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/ascii_client.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mcrouter.dir/ascii_client.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/ascii_client.c -o CMakeFiles/mcrouter.dir/ascii_client.c.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/ascii_client.c -o CMakeFiles/mcrouter.dir/ascii_client.c.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/ascii_client.c.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/ascii_client.c.o.requires
@@ -77,17 +77,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/ascii_client.c.o.provides.build: th
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_queue.c.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_queue.c.o: third-party/mcrouter/mcrouter/lib/fbi/asox_queue.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_queue.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_queue.c.o   -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/asox_queue.c
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_queue.c.o   -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/asox_queue.c
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_queue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_queue.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/asox_queue.c > CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_queue.c.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/asox_queue.c > CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_queue.c.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_queue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_queue.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/asox_queue.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_queue.c.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/asox_queue.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_queue.c.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_queue.c.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_queue.c.o.requires
@@ -100,17 +100,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_queue.c.o.pro
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_semaphore.c.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_semaphore.c.o: third-party/mcrouter/mcrouter/lib/fbi/asox_semaphore.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_semaphore.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_semaphore.c.o   -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/asox_semaphore.c
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_semaphore.c.o   -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/asox_semaphore.c
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_semaphore.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_semaphore.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/asox_semaphore.c > CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_semaphore.c.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/asox_semaphore.c > CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_semaphore.c.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_semaphore.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_semaphore.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/asox_semaphore.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_semaphore.c.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/asox_semaphore.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_semaphore.c.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_semaphore.c.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_semaphore.c.o.requires
@@ -123,17 +123,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_semaphore.c.o
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_timer.c.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_timer.c.o: third-party/mcrouter/mcrouter/lib/fbi/asox_timer.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_timer.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_timer.c.o   -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/asox_timer.c
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_timer.c.o   -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/asox_timer.c
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_timer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_timer.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/asox_timer.c > CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_timer.c.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/asox_timer.c > CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_timer.c.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_timer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_timer.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/asox_timer.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_timer.c.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/asox_timer.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_timer.c.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_timer.c.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_timer.c.o.requires
@@ -146,17 +146,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/asox_timer.c.o.pro
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/counting_sem.c.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/counting_sem.c.o: third-party/mcrouter/mcrouter/lib/fbi/counting_sem.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/counting_sem.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/counting_sem.c.o   -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/counting_sem.c
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/counting_sem.c.o   -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/counting_sem.c
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/counting_sem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/counting_sem.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/counting_sem.c > CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/counting_sem.c.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/counting_sem.c > CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/counting_sem.c.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/counting_sem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/counting_sem.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/counting_sem.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/counting_sem.c.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/counting_sem.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/counting_sem.c.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/counting_sem.c.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/counting_sem.c.o.requires
@@ -169,17 +169,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/counting_sem.c.o.p
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cwlock.c.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cwlock.c.o: third-party/mcrouter/mcrouter/lib/fbi/cwlock.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cwlock.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cwlock.c.o   -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/cwlock.c
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cwlock.c.o   -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/cwlock.c
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cwlock.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cwlock.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/cwlock.c > CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cwlock.c.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/cwlock.c > CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cwlock.c.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cwlock.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cwlock.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/cwlock.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cwlock.c.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/cwlock.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cwlock.c.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cwlock.c.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cwlock.c.o.requires
@@ -192,17 +192,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cwlock.c.o.provide
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/debug.c.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/debug.c.o: third-party/mcrouter/mcrouter/lib/fbi/debug.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/debug.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/debug.c.o   -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/debug.c
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/debug.c.o   -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/debug.c
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/debug.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/debug.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/debug.c > CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/debug.c.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/debug.c > CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/debug.c.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/debug.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/debug.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/debug.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/debug.c.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/debug.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/debug.c.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/debug.c.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/debug.c.o.requires
@@ -215,17 +215,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/debug.c.o.provides
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/error.c.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/error.c.o: third-party/mcrouter/mcrouter/lib/fbi/error.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/error.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/error.c.o   -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/error.c
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/error.c.o   -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/error.c
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/error.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/error.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/error.c > CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/error.c.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/error.c > CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/error.c.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/error.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/error.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/error.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/error.c.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/error.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/error.c.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/error.c.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/error.c.o.requires
@@ -238,17 +238,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/error.c.o.provides
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/fb_cpu_util.c.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/fb_cpu_util.c.o: third-party/mcrouter/mcrouter/lib/fbi/fb_cpu_util.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/fb_cpu_util.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/fb_cpu_util.c.o   -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/fb_cpu_util.c
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/fb_cpu_util.c.o   -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/fb_cpu_util.c
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/fb_cpu_util.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/fb_cpu_util.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/fb_cpu_util.c > CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/fb_cpu_util.c.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/fb_cpu_util.c > CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/fb_cpu_util.c.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/fb_cpu_util.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/fb_cpu_util.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/fb_cpu_util.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/fb_cpu_util.c.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/fb_cpu_util.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/fb_cpu_util.c.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/fb_cpu_util.c.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/fb_cpu_util.c.o.requires
@@ -261,17 +261,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/fb_cpu_util.c.o.pr
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/hash.c.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/hash.c.o: third-party/mcrouter/mcrouter/lib/fbi/hash.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/hash.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/hash.c.o   -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/hash.c
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/hash.c.o   -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/hash.c
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/hash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/hash.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/hash.c > CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/hash.c.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/hash.c > CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/hash.c.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/hash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/hash.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/hash.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/hash.c.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/hash.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/hash.c.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/hash.c.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/hash.c.o.requires
@@ -284,17 +284,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/hash.c.o.provides.
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/lfcalloc.c.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/lfcalloc.c.o: third-party/mcrouter/mcrouter/lib/fbi/lfcalloc.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/lfcalloc.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/lfcalloc.c.o   -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/lfcalloc.c
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/lfcalloc.c.o   -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/lfcalloc.c
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/lfcalloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/lfcalloc.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/lfcalloc.c > CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/lfcalloc.c.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/lfcalloc.c > CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/lfcalloc.c.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/lfcalloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/lfcalloc.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/lfcalloc.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/lfcalloc.c.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/lfcalloc.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/lfcalloc.c.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/lfcalloc.c.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/lfcalloc.c.o.requires
@@ -307,17 +307,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/lfcalloc.c.o.provi
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/network.c.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/network.c.o: third-party/mcrouter/mcrouter/lib/fbi/network.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/network.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/network.c.o   -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/network.c
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/network.c.o   -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/network.c
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/network.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/network.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/network.c > CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/network.c.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/network.c > CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/network.c.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/network.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/network.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/network.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/network.c.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/network.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/network.c.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/network.c.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/network.c.o.requires
@@ -330,17 +330,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/network.c.o.provid
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/nstring.c.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/nstring.c.o: third-party/mcrouter/mcrouter/lib/fbi/nstring.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/nstring.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/nstring.c.o   -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/nstring.c
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/nstring.c.o   -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/nstring.c
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/nstring.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/nstring.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/nstring.c > CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/nstring.c.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/nstring.c > CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/nstring.c.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/nstring.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/nstring.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/nstring.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/nstring.c.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/nstring.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/nstring.c.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/nstring.c.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/nstring.c.o.requires
@@ -353,17 +353,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/nstring.c.o.provid
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/sfrlock.c.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/sfrlock.c.o: third-party/mcrouter/mcrouter/lib/fbi/sfrlock.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/sfrlock.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/sfrlock.c.o   -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/sfrlock.c
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/sfrlock.c.o   -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/sfrlock.c
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/sfrlock.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/sfrlock.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/sfrlock.c > CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/sfrlock.c.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/sfrlock.c > CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/sfrlock.c.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/sfrlock.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/sfrlock.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/sfrlock.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/sfrlock.c.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/sfrlock.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/sfrlock.c.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/sfrlock.c.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/sfrlock.c.o.requires
@@ -376,17 +376,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/sfrlock.c.o.provid
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/skiplist.c.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/skiplist.c.o: third-party/mcrouter/mcrouter/lib/fbi/skiplist.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/skiplist.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/skiplist.c.o   -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/skiplist.c
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/skiplist.c.o   -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/skiplist.c
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/skiplist.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/skiplist.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/skiplist.c > CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/skiplist.c.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/skiplist.c > CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/skiplist.c.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/skiplist.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/skiplist.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/skiplist.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/skiplist.c.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/skiplist.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/skiplist.c.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/skiplist.c.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/skiplist.c.o.requires
@@ -399,17 +399,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/skiplist.c.o.provi
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/timer.c.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/timer.c.o: third-party/mcrouter/mcrouter/lib/fbi/timer.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/timer.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/timer.c.o   -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/timer.c
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/timer.c.o   -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/timer.c
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/timer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/timer.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/timer.c > CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/timer.c.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/timer.c > CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/timer.c.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/timer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/timer.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/timer.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/timer.c.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/timer.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/timer.c.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/timer.c.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/timer.c.o.requires
@@ -422,17 +422,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/timer.c.o.provides
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/waitable_count.c.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/waitable_count.c.o: third-party/mcrouter/mcrouter/lib/fbi/waitable_count.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/waitable_count.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/waitable_count.c.o   -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/waitable_count.c
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/waitable_count.c.o   -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/waitable_count.c
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/waitable_count.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/waitable_count.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/waitable_count.c > CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/waitable_count.c.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/waitable_count.c > CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/waitable_count.c.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/waitable_count.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/waitable_count.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/waitable_count.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/waitable_count.c.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/waitable_count.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/waitable_count.c.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/waitable_count.c.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/waitable_count.c.o.requires
@@ -445,17 +445,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/waitable_count.c.o
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/ascii_response.c.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/ascii_response.c.o: third-party/mcrouter/mcrouter/lib/mc/ascii_response.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/ascii_response.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/mc/ascii_response.c.o   -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/ascii_response.c
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/mc/ascii_response.c.o   -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/ascii_response.c
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/ascii_response.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mcrouter.dir/mcrouter/lib/mc/ascii_response.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/ascii_response.c > CMakeFiles/mcrouter.dir/mcrouter/lib/mc/ascii_response.c.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/ascii_response.c > CMakeFiles/mcrouter.dir/mcrouter/lib/mc/ascii_response.c.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/ascii_response.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/mc/ascii_response.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/ascii_response.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/mc/ascii_response.c.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/ascii_response.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/mc/ascii_response.c.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/ascii_response.c.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/ascii_response.c.o.requires
@@ -468,17 +468,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/ascii_response.c.o.
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/msg.c.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/msg.c.o: third-party/mcrouter/mcrouter/lib/mc/msg.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/msg.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/mc/msg.c.o   -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/msg.c
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/mc/msg.c.o   -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/msg.c
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/msg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mcrouter.dir/mcrouter/lib/mc/msg.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/msg.c > CMakeFiles/mcrouter.dir/mcrouter/lib/mc/msg.c.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/msg.c > CMakeFiles/mcrouter.dir/mcrouter/lib/mc/msg.c.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/msg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/mc/msg.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/msg.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/mc/msg.c.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/msg.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/mc/msg.c.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/msg.c.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/msg.c.o.requires
@@ -491,17 +491,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/msg.c.o.provides.bu
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/parser.c.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/parser.c.o: third-party/mcrouter/mcrouter/lib/mc/parser.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/parser.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/mc/parser.c.o   -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/parser.c
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/mc/parser.c.o   -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/parser.c
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/parser.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mcrouter.dir/mcrouter/lib/mc/parser.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/parser.c > CMakeFiles/mcrouter.dir/mcrouter/lib/mc/parser.c.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/parser.c > CMakeFiles/mcrouter.dir/mcrouter/lib/mc/parser.c.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/parser.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/mc/parser.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/parser.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/mc/parser.c.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/parser.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/mc/parser.c.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/parser.c.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/parser.c.o.requires
@@ -514,17 +514,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/parser.c.o.provides
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/protocol.c.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/protocol.c.o: third-party/mcrouter/mcrouter/lib/mc/protocol.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/protocol.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/mc/protocol.c.o   -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/protocol.c
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/mc/protocol.c.o   -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/protocol.c
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/protocol.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mcrouter.dir/mcrouter/lib/mc/protocol.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/protocol.c > CMakeFiles/mcrouter.dir/mcrouter/lib/mc/protocol.c.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/protocol.c > CMakeFiles/mcrouter.dir/mcrouter/lib/mc/protocol.c.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/protocol.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/mc/protocol.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/protocol.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/mc/protocol.c.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/protocol.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/mc/protocol.c.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/protocol.c.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/protocol.c.o.requires
@@ -537,17 +537,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/protocol.c.o.provid
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella.c.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella.c.o: third-party/mcrouter/mcrouter/lib/mc/umbrella.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella.c.o   -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/umbrella.c
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella.c.o   -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/umbrella.c
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/umbrella.c > CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella.c.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/umbrella.c > CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella.c.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/umbrella.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella.c.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/umbrella.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella.c.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella.c.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella.c.o.requires
@@ -560,17 +560,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella.c.o.provid
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella_protocol.c.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella_protocol.c.o: third-party/mcrouter/mcrouter/lib/mc/umbrella_protocol.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella_protocol.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella_protocol.c.o   -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/umbrella_protocol.c
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella_protocol.c.o   -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/umbrella_protocol.c
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella_protocol.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella_protocol.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/umbrella_protocol.c > CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella_protocol.c.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/umbrella_protocol.c > CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella_protocol.c.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella_protocol.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella_protocol.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/mc/umbrella_protocol.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella_protocol.c.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/mc/umbrella_protocol.c -o CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella_protocol.c.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella_protocol.c.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella_protocol.c.o.requires
@@ -583,17 +583,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/mc/umbrella_protocol.c
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/McAsciiParser-gen.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/McAsciiParser-gen.cpp.o: third-party/mcrouter/McAsciiParser-gen.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/McAsciiParser-gen.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/McAsciiParser-gen.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/McAsciiParser-gen.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/McAsciiParser-gen.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/McAsciiParser-gen.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/McAsciiParser-gen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/McAsciiParser-gen.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/McAsciiParser-gen.cpp > CMakeFiles/mcrouter.dir/McAsciiParser-gen.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/McAsciiParser-gen.cpp > CMakeFiles/mcrouter.dir/McAsciiParser-gen.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/McAsciiParser-gen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/McAsciiParser-gen.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/McAsciiParser-gen.cpp -o CMakeFiles/mcrouter.dir/McAsciiParser-gen.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/McAsciiParser-gen.cpp -o CMakeFiles/mcrouter.dir/McAsciiParser-gen.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/McAsciiParser-gen.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/McAsciiParser-gen.cpp.o.requires
@@ -606,17 +606,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/McAsciiParser-gen.cpp.o.provides.bu
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ConfigApi.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ConfigApi.cpp.o: third-party/mcrouter/mcrouter/ConfigApi.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ConfigApi.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/ConfigApi.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/ConfigApi.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/ConfigApi.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/ConfigApi.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ConfigApi.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/ConfigApi.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/ConfigApi.cpp > CMakeFiles/mcrouter.dir/mcrouter/ConfigApi.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/ConfigApi.cpp > CMakeFiles/mcrouter.dir/mcrouter/ConfigApi.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ConfigApi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/ConfigApi.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/ConfigApi.cpp -o CMakeFiles/mcrouter.dir/mcrouter/ConfigApi.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/ConfigApi.cpp -o CMakeFiles/mcrouter.dir/mcrouter/ConfigApi.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ConfigApi.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ConfigApi.cpp.o.requires
@@ -629,17 +629,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ConfigApi.cpp.o.provides.b
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/CyclesObserver.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/CyclesObserver.cpp.o: third-party/mcrouter/mcrouter/CyclesObserver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/CyclesObserver.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/CyclesObserver.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/CyclesObserver.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/CyclesObserver.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/CyclesObserver.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/CyclesObserver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/CyclesObserver.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/CyclesObserver.cpp > CMakeFiles/mcrouter.dir/mcrouter/CyclesObserver.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/CyclesObserver.cpp > CMakeFiles/mcrouter.dir/mcrouter/CyclesObserver.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/CyclesObserver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/CyclesObserver.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/CyclesObserver.cpp -o CMakeFiles/mcrouter.dir/mcrouter/CyclesObserver.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/CyclesObserver.cpp -o CMakeFiles/mcrouter.dir/mcrouter/CyclesObserver.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/CyclesObserver.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/CyclesObserver.cpp.o.requires
@@ -652,17 +652,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/CyclesObserver.cpp.o.provi
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileDataProvider.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileDataProvider.cpp.o: third-party/mcrouter/mcrouter/FileDataProvider.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileDataProvider.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/FileDataProvider.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/FileDataProvider.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/FileDataProvider.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/FileDataProvider.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileDataProvider.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/FileDataProvider.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/FileDataProvider.cpp > CMakeFiles/mcrouter.dir/mcrouter/FileDataProvider.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/FileDataProvider.cpp > CMakeFiles/mcrouter.dir/mcrouter/FileDataProvider.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileDataProvider.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/FileDataProvider.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/FileDataProvider.cpp -o CMakeFiles/mcrouter.dir/mcrouter/FileDataProvider.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/FileDataProvider.cpp -o CMakeFiles/mcrouter.dir/mcrouter/FileDataProvider.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileDataProvider.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileDataProvider.cpp.o.requires
@@ -675,17 +675,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileDataProvider.cpp.o.pro
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileObserver.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileObserver.cpp.o: third-party/mcrouter/mcrouter/FileObserver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileObserver.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/FileObserver.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/FileObserver.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/FileObserver.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/FileObserver.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileObserver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/FileObserver.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/FileObserver.cpp > CMakeFiles/mcrouter.dir/mcrouter/FileObserver.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/FileObserver.cpp > CMakeFiles/mcrouter.dir/mcrouter/FileObserver.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileObserver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/FileObserver.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/FileObserver.cpp -o CMakeFiles/mcrouter.dir/mcrouter/FileObserver.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/FileObserver.cpp -o CMakeFiles/mcrouter.dir/mcrouter/FileObserver.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileObserver.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileObserver.cpp.o.requires
@@ -698,17 +698,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/FileObserver.cpp.o.provide
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/LeaseTokenMap.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/LeaseTokenMap.cpp.o: third-party/mcrouter/mcrouter/LeaseTokenMap.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/LeaseTokenMap.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/LeaseTokenMap.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/LeaseTokenMap.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/LeaseTokenMap.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/LeaseTokenMap.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/LeaseTokenMap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/LeaseTokenMap.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/LeaseTokenMap.cpp > CMakeFiles/mcrouter.dir/mcrouter/LeaseTokenMap.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/LeaseTokenMap.cpp > CMakeFiles/mcrouter.dir/mcrouter/LeaseTokenMap.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/LeaseTokenMap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/LeaseTokenMap.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/LeaseTokenMap.cpp -o CMakeFiles/mcrouter.dir/mcrouter/LeaseTokenMap.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/LeaseTokenMap.cpp -o CMakeFiles/mcrouter.dir/mcrouter/LeaseTokenMap.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/LeaseTokenMap.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/LeaseTokenMap.cpp.o.requires
@@ -721,17 +721,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/LeaseTokenMap.cpp.o.provid
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterClient.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterClient.cpp.o: third-party/mcrouter/mcrouter/McrouterClient.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterClient.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/McrouterClient.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/McrouterClient.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/McrouterClient.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/McrouterClient.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterClient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/McrouterClient.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/McrouterClient.cpp > CMakeFiles/mcrouter.dir/mcrouter/McrouterClient.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/McrouterClient.cpp > CMakeFiles/mcrouter.dir/mcrouter/McrouterClient.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/McrouterClient.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/McrouterClient.cpp -o CMakeFiles/mcrouter.dir/mcrouter/McrouterClient.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/McrouterClient.cpp -o CMakeFiles/mcrouter.dir/mcrouter/McrouterClient.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterClient.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterClient.cpp.o.requires
@@ -744,17 +744,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterClient.cpp.o.provi
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterFiberContext.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterFiberContext.cpp.o: third-party/mcrouter/mcrouter/McrouterFiberContext.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_31)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterFiberContext.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/McrouterFiberContext.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/McrouterFiberContext.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/McrouterFiberContext.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/McrouterFiberContext.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterFiberContext.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/McrouterFiberContext.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/McrouterFiberContext.cpp > CMakeFiles/mcrouter.dir/mcrouter/McrouterFiberContext.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/McrouterFiberContext.cpp > CMakeFiles/mcrouter.dir/mcrouter/McrouterFiberContext.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterFiberContext.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/McrouterFiberContext.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/McrouterFiberContext.cpp -o CMakeFiles/mcrouter.dir/mcrouter/McrouterFiberContext.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/McrouterFiberContext.cpp -o CMakeFiles/mcrouter.dir/mcrouter/McrouterFiberContext.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterFiberContext.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterFiberContext.cpp.o.requires
@@ -767,17 +767,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterFiberContext.cpp.o
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterInstance.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterInstance.cpp.o: third-party/mcrouter/mcrouter/McrouterInstance.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_32)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_32)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterInstance.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/McrouterInstance.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/McrouterInstance.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/McrouterInstance.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/McrouterInstance.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterInstance.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/McrouterInstance.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/McrouterInstance.cpp > CMakeFiles/mcrouter.dir/mcrouter/McrouterInstance.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/McrouterInstance.cpp > CMakeFiles/mcrouter.dir/mcrouter/McrouterInstance.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterInstance.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/McrouterInstance.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/McrouterInstance.cpp -o CMakeFiles/mcrouter.dir/mcrouter/McrouterInstance.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/McrouterInstance.cpp -o CMakeFiles/mcrouter.dir/mcrouter/McrouterInstance.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterInstance.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterInstance.cpp.o.requires
@@ -790,17 +790,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterInstance.cpp.o.pro
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogFailure.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogFailure.cpp.o: third-party/mcrouter/mcrouter/McrouterLogFailure.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_33)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_33)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogFailure.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/McrouterLogFailure.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/McrouterLogFailure.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/McrouterLogFailure.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/McrouterLogFailure.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogFailure.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/McrouterLogFailure.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/McrouterLogFailure.cpp > CMakeFiles/mcrouter.dir/mcrouter/McrouterLogFailure.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/McrouterLogFailure.cpp > CMakeFiles/mcrouter.dir/mcrouter/McrouterLogFailure.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogFailure.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/McrouterLogFailure.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/McrouterLogFailure.cpp -o CMakeFiles/mcrouter.dir/mcrouter/McrouterLogFailure.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/McrouterLogFailure.cpp -o CMakeFiles/mcrouter.dir/mcrouter/McrouterLogFailure.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogFailure.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogFailure.cpp.o.requires
@@ -813,17 +813,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogFailure.cpp.o.p
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogger.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogger.cpp.o: third-party/mcrouter/mcrouter/McrouterLogger.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_34)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_34)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogger.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/McrouterLogger.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/McrouterLogger.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/McrouterLogger.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/McrouterLogger.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/McrouterLogger.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/McrouterLogger.cpp > CMakeFiles/mcrouter.dir/mcrouter/McrouterLogger.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/McrouterLogger.cpp > CMakeFiles/mcrouter.dir/mcrouter/McrouterLogger.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/McrouterLogger.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/McrouterLogger.cpp -o CMakeFiles/mcrouter.dir/mcrouter/McrouterLogger.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/McrouterLogger.cpp -o CMakeFiles/mcrouter.dir/mcrouter/McrouterLogger.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogger.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogger.cpp.o.requires
@@ -836,17 +836,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/McrouterLogger.cpp.o.provi
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/OptionsUtil.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/OptionsUtil.cpp.o: third-party/mcrouter/mcrouter/OptionsUtil.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_35)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_35)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/OptionsUtil.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/OptionsUtil.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/OptionsUtil.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/OptionsUtil.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/OptionsUtil.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/OptionsUtil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/OptionsUtil.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/OptionsUtil.cpp > CMakeFiles/mcrouter.dir/mcrouter/OptionsUtil.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/OptionsUtil.cpp > CMakeFiles/mcrouter.dir/mcrouter/OptionsUtil.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/OptionsUtil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/OptionsUtil.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/OptionsUtil.cpp -o CMakeFiles/mcrouter.dir/mcrouter/OptionsUtil.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/OptionsUtil.cpp -o CMakeFiles/mcrouter.dir/mcrouter/OptionsUtil.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/OptionsUtil.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/OptionsUtil.cpp.o.requires
@@ -859,17 +859,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/OptionsUtil.cpp.o.provides
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/PoolFactory.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/PoolFactory.cpp.o: third-party/mcrouter/mcrouter/PoolFactory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_36)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_36)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/PoolFactory.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/PoolFactory.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/PoolFactory.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/PoolFactory.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/PoolFactory.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/PoolFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/PoolFactory.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/PoolFactory.cpp > CMakeFiles/mcrouter.dir/mcrouter/PoolFactory.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/PoolFactory.cpp > CMakeFiles/mcrouter.dir/mcrouter/PoolFactory.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/PoolFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/PoolFactory.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/PoolFactory.cpp -o CMakeFiles/mcrouter.dir/mcrouter/PoolFactory.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/PoolFactory.cpp -o CMakeFiles/mcrouter.dir/mcrouter/PoolFactory.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/PoolFactory.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/PoolFactory.cpp.o.requires
@@ -882,17 +882,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/PoolFactory.cpp.o.provides
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyConfig.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyConfig.cpp.o: third-party/mcrouter/mcrouter/ProxyConfig.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_37)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_37)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyConfig.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/ProxyConfig.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/ProxyConfig.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/ProxyConfig.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/ProxyConfig.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyConfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/ProxyConfig.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/ProxyConfig.cpp > CMakeFiles/mcrouter.dir/mcrouter/ProxyConfig.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/ProxyConfig.cpp > CMakeFiles/mcrouter.dir/mcrouter/ProxyConfig.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyConfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/ProxyConfig.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/ProxyConfig.cpp -o CMakeFiles/mcrouter.dir/mcrouter/ProxyConfig.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/ProxyConfig.cpp -o CMakeFiles/mcrouter.dir/mcrouter/ProxyConfig.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyConfig.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyConfig.cpp.o.requires
@@ -905,17 +905,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyConfig.cpp.o.provides
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyConfigBuilder.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyConfigBuilder.cpp.o: third-party/mcrouter/mcrouter/ProxyConfigBuilder.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_38)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_38)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyConfigBuilder.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/ProxyConfigBuilder.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/ProxyConfigBuilder.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/ProxyConfigBuilder.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/ProxyConfigBuilder.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyConfigBuilder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/ProxyConfigBuilder.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/ProxyConfigBuilder.cpp > CMakeFiles/mcrouter.dir/mcrouter/ProxyConfigBuilder.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/ProxyConfigBuilder.cpp > CMakeFiles/mcrouter.dir/mcrouter/ProxyConfigBuilder.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyConfigBuilder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/ProxyConfigBuilder.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/ProxyConfigBuilder.cpp -o CMakeFiles/mcrouter.dir/mcrouter/ProxyConfigBuilder.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/ProxyConfigBuilder.cpp -o CMakeFiles/mcrouter.dir/mcrouter/ProxyConfigBuilder.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyConfigBuilder.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyConfigBuilder.cpp.o.requires
@@ -928,17 +928,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyConfigBuilder.cpp.o.p
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyDestination.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyDestination.cpp.o: third-party/mcrouter/mcrouter/ProxyDestination.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_39)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_39)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyDestination.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/ProxyDestination.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/ProxyDestination.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/ProxyDestination.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/ProxyDestination.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyDestination.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/ProxyDestination.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/ProxyDestination.cpp > CMakeFiles/mcrouter.dir/mcrouter/ProxyDestination.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/ProxyDestination.cpp > CMakeFiles/mcrouter.dir/mcrouter/ProxyDestination.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyDestination.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/ProxyDestination.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/ProxyDestination.cpp -o CMakeFiles/mcrouter.dir/mcrouter/ProxyDestination.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/ProxyDestination.cpp -o CMakeFiles/mcrouter.dir/mcrouter/ProxyDestination.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyDestination.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyDestination.cpp.o.requires
@@ -951,17 +951,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyDestination.cpp.o.pro
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyDestinationMap.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyDestinationMap.cpp.o: third-party/mcrouter/mcrouter/ProxyDestinationMap.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_40)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_40)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyDestinationMap.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/ProxyDestinationMap.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/ProxyDestinationMap.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/ProxyDestinationMap.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/ProxyDestinationMap.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyDestinationMap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/ProxyDestinationMap.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/ProxyDestinationMap.cpp > CMakeFiles/mcrouter.dir/mcrouter/ProxyDestinationMap.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/ProxyDestinationMap.cpp > CMakeFiles/mcrouter.dir/mcrouter/ProxyDestinationMap.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyDestinationMap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/ProxyDestinationMap.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/ProxyDestinationMap.cpp -o CMakeFiles/mcrouter.dir/mcrouter/ProxyDestinationMap.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/ProxyDestinationMap.cpp -o CMakeFiles/mcrouter.dir/mcrouter/ProxyDestinationMap.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyDestinationMap.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyDestinationMap.cpp.o.requires
@@ -974,17 +974,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyDestinationMap.cpp.o.
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyRequestContext.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyRequestContext.cpp.o: third-party/mcrouter/mcrouter/ProxyRequestContext.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_41)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_41)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyRequestContext.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/ProxyRequestContext.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/ProxyRequestContext.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/ProxyRequestContext.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/ProxyRequestContext.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyRequestContext.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/ProxyRequestContext.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/ProxyRequestContext.cpp > CMakeFiles/mcrouter.dir/mcrouter/ProxyRequestContext.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/ProxyRequestContext.cpp > CMakeFiles/mcrouter.dir/mcrouter/ProxyRequestContext.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyRequestContext.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/ProxyRequestContext.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/ProxyRequestContext.cpp -o CMakeFiles/mcrouter.dir/mcrouter/ProxyRequestContext.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/ProxyRequestContext.cpp -o CMakeFiles/mcrouter.dir/mcrouter/ProxyRequestContext.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyRequestContext.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyRequestContext.cpp.o.requires
@@ -997,17 +997,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyRequestContext.cpp.o.
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyThread.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyThread.cpp.o: third-party/mcrouter/mcrouter/ProxyThread.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_42)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_42)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyThread.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/ProxyThread.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/ProxyThread.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/ProxyThread.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/ProxyThread.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyThread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/ProxyThread.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/ProxyThread.cpp > CMakeFiles/mcrouter.dir/mcrouter/ProxyThread.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/ProxyThread.cpp > CMakeFiles/mcrouter.dir/mcrouter/ProxyThread.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyThread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/ProxyThread.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/ProxyThread.cpp -o CMakeFiles/mcrouter.dir/mcrouter/ProxyThread.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/ProxyThread.cpp -o CMakeFiles/mcrouter.dir/mcrouter/ProxyThread.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyThread.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyThread.cpp.o.requires
@@ -1020,17 +1020,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ProxyThread.cpp.o.provides
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/RoutingPrefix.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/RoutingPrefix.cpp.o: third-party/mcrouter/mcrouter/RoutingPrefix.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_43)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_43)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/RoutingPrefix.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/RoutingPrefix.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/RoutingPrefix.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/RoutingPrefix.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/RoutingPrefix.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/RoutingPrefix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/RoutingPrefix.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/RoutingPrefix.cpp > CMakeFiles/mcrouter.dir/mcrouter/RoutingPrefix.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/RoutingPrefix.cpp > CMakeFiles/mcrouter.dir/mcrouter/RoutingPrefix.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/RoutingPrefix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/RoutingPrefix.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/RoutingPrefix.cpp -o CMakeFiles/mcrouter.dir/mcrouter/RoutingPrefix.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/RoutingPrefix.cpp -o CMakeFiles/mcrouter.dir/mcrouter/RoutingPrefix.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/RoutingPrefix.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/RoutingPrefix.cpp.o.requires
@@ -1043,17 +1043,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/RoutingPrefix.cpp.o.provid
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/RuntimeVarsData.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/RuntimeVarsData.cpp.o: third-party/mcrouter/mcrouter/RuntimeVarsData.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_44)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_44)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/RuntimeVarsData.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/RuntimeVarsData.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/RuntimeVarsData.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/RuntimeVarsData.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/RuntimeVarsData.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/RuntimeVarsData.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/RuntimeVarsData.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/RuntimeVarsData.cpp > CMakeFiles/mcrouter.dir/mcrouter/RuntimeVarsData.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/RuntimeVarsData.cpp > CMakeFiles/mcrouter.dir/mcrouter/RuntimeVarsData.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/RuntimeVarsData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/RuntimeVarsData.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/RuntimeVarsData.cpp -o CMakeFiles/mcrouter.dir/mcrouter/RuntimeVarsData.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/RuntimeVarsData.cpp -o CMakeFiles/mcrouter.dir/mcrouter/RuntimeVarsData.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/RuntimeVarsData.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/RuntimeVarsData.cpp.o.requires
@@ -1066,17 +1066,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/RuntimeVarsData.cpp.o.prov
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ServiceInfo.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ServiceInfo.cpp.o: third-party/mcrouter/mcrouter/ServiceInfo.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_45)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_45)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ServiceInfo.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/ServiceInfo.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/ServiceInfo.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/ServiceInfo.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/ServiceInfo.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ServiceInfo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/ServiceInfo.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/ServiceInfo.cpp > CMakeFiles/mcrouter.dir/mcrouter/ServiceInfo.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/ServiceInfo.cpp > CMakeFiles/mcrouter.dir/mcrouter/ServiceInfo.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ServiceInfo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/ServiceInfo.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/ServiceInfo.cpp -o CMakeFiles/mcrouter.dir/mcrouter/ServiceInfo.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/ServiceInfo.cpp -o CMakeFiles/mcrouter.dir/mcrouter/ServiceInfo.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ServiceInfo.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ServiceInfo.cpp.o.requires
@@ -1089,17 +1089,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ServiceInfo.cpp.o.provides
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ThreadUtil.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ThreadUtil.cpp.o: third-party/mcrouter/mcrouter/ThreadUtil.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_46)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_46)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ThreadUtil.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/ThreadUtil.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/ThreadUtil.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/ThreadUtil.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/ThreadUtil.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ThreadUtil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/ThreadUtil.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/ThreadUtil.cpp > CMakeFiles/mcrouter.dir/mcrouter/ThreadUtil.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/ThreadUtil.cpp > CMakeFiles/mcrouter.dir/mcrouter/ThreadUtil.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ThreadUtil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/ThreadUtil.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/ThreadUtil.cpp -o CMakeFiles/mcrouter.dir/mcrouter/ThreadUtil.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/ThreadUtil.cpp -o CMakeFiles/mcrouter.dir/mcrouter/ThreadUtil.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ThreadUtil.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ThreadUtil.cpp.o.requires
@@ -1112,17 +1112,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/ThreadUtil.cpp.o.provides.
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/TkoLog.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/TkoLog.cpp.o: third-party/mcrouter/mcrouter/TkoLog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_47)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_47)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/TkoLog.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/TkoLog.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/TkoLog.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/TkoLog.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/TkoLog.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/TkoLog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/TkoLog.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/TkoLog.cpp > CMakeFiles/mcrouter.dir/mcrouter/TkoLog.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/TkoLog.cpp > CMakeFiles/mcrouter.dir/mcrouter/TkoLog.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/TkoLog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/TkoLog.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/TkoLog.cpp -o CMakeFiles/mcrouter.dir/mcrouter/TkoLog.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/TkoLog.cpp -o CMakeFiles/mcrouter.dir/mcrouter/TkoLog.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/TkoLog.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/TkoLog.cpp.o.requires
@@ -1135,17 +1135,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/TkoLog.cpp.o.provides.buil
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/TkoTracker.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/TkoTracker.cpp.o: third-party/mcrouter/mcrouter/TkoTracker.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_48)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_48)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/TkoTracker.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/TkoTracker.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/TkoTracker.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/TkoTracker.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/TkoTracker.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/TkoTracker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/TkoTracker.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/TkoTracker.cpp > CMakeFiles/mcrouter.dir/mcrouter/TkoTracker.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/TkoTracker.cpp > CMakeFiles/mcrouter.dir/mcrouter/TkoTracker.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/TkoTracker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/TkoTracker.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/TkoTracker.cpp -o CMakeFiles/mcrouter.dir/mcrouter/TkoTracker.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/TkoTracker.cpp -o CMakeFiles/mcrouter.dir/mcrouter/TkoTracker.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/TkoTracker.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/TkoTracker.cpp.o.requires
@@ -1158,17 +1158,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/TkoTracker.cpp.o.provides.
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/async.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/async.cpp.o: third-party/mcrouter/mcrouter/async.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_49)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_49)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/async.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/async.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/async.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/async.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/async.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/async.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/async.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/async.cpp > CMakeFiles/mcrouter.dir/mcrouter/async.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/async.cpp > CMakeFiles/mcrouter.dir/mcrouter/async.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/async.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/async.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/async.cpp -o CMakeFiles/mcrouter.dir/mcrouter/async.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/async.cpp -o CMakeFiles/mcrouter.dir/mcrouter/async.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/async.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/async.cpp.o.requires
@@ -1181,17 +1181,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/async.cpp.o.provides.build
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/flavor.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/flavor.cpp.o: third-party/mcrouter/mcrouter/flavor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_50)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_50)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/flavor.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/flavor.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/flavor.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/flavor.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/flavor.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/flavor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/flavor.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/flavor.cpp > CMakeFiles/mcrouter.dir/mcrouter/flavor.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/flavor.cpp > CMakeFiles/mcrouter.dir/mcrouter/flavor.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/flavor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/flavor.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/flavor.cpp -o CMakeFiles/mcrouter.dir/mcrouter/flavor.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/flavor.cpp -o CMakeFiles/mcrouter.dir/mcrouter/flavor.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/flavor.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/flavor.cpp.o.requires
@@ -1204,17 +1204,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/flavor.cpp.o.provides.buil
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/main.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/main.cpp.o: third-party/mcrouter/mcrouter/main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_51)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_51)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/main.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/main.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/main.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/main.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/main.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/main.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/main.cpp > CMakeFiles/mcrouter.dir/mcrouter/main.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/main.cpp > CMakeFiles/mcrouter.dir/mcrouter/main.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/main.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/main.cpp -o CMakeFiles/mcrouter.dir/mcrouter/main.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/main.cpp -o CMakeFiles/mcrouter.dir/mcrouter/main.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/main.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/main.cpp.o.requires
@@ -1227,17 +1227,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/main.cpp.o.provides.build:
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/mcrouter_config.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/mcrouter_config.cpp.o: third-party/mcrouter/mcrouter/mcrouter_config.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_52)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_52)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/mcrouter_config.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/mcrouter_config.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/mcrouter_config.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/mcrouter_config.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/mcrouter_config.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/mcrouter_config.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/mcrouter_config.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/mcrouter_config.cpp > CMakeFiles/mcrouter.dir/mcrouter/mcrouter_config.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/mcrouter_config.cpp > CMakeFiles/mcrouter.dir/mcrouter/mcrouter_config.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/mcrouter_config.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/mcrouter_config.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/mcrouter_config.cpp -o CMakeFiles/mcrouter.dir/mcrouter/mcrouter_config.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/mcrouter_config.cpp -o CMakeFiles/mcrouter.dir/mcrouter/mcrouter_config.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/mcrouter_config.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/mcrouter_config.cpp.o.requires
@@ -1250,17 +1250,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/mcrouter_config.cpp.o.prov
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/options.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/options.cpp.o: third-party/mcrouter/mcrouter/options.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_53)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_53)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/options.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/options.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/options.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/options.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/options.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/options.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/options.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/options.cpp > CMakeFiles/mcrouter.dir/mcrouter/options.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/options.cpp > CMakeFiles/mcrouter.dir/mcrouter/options.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/options.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/options.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/options.cpp -o CMakeFiles/mcrouter.dir/mcrouter/options.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/options.cpp -o CMakeFiles/mcrouter.dir/mcrouter/options.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/options.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/options.cpp.o.requires
@@ -1273,17 +1273,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/options.cpp.o.provides.bui
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/proxy.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/proxy.cpp.o: third-party/mcrouter/mcrouter/proxy.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_54)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_54)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/proxy.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/proxy.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/proxy.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/proxy.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/proxy.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/proxy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/proxy.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/proxy.cpp > CMakeFiles/mcrouter.dir/mcrouter/proxy.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/proxy.cpp > CMakeFiles/mcrouter.dir/mcrouter/proxy.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/proxy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/proxy.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/proxy.cpp -o CMakeFiles/mcrouter.dir/mcrouter/proxy.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/proxy.cpp -o CMakeFiles/mcrouter.dir/mcrouter/proxy.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/proxy.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/proxy.cpp.o.requires
@@ -1296,17 +1296,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/proxy.cpp.o.provides.build
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/route.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/route.cpp.o: third-party/mcrouter/mcrouter/route.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_55)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_55)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/route.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/route.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/route.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/route.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/route.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/route.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/route.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/route.cpp > CMakeFiles/mcrouter.dir/mcrouter/route.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/route.cpp > CMakeFiles/mcrouter.dir/mcrouter/route.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/route.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/route.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/route.cpp -o CMakeFiles/mcrouter.dir/mcrouter/route.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/route.cpp -o CMakeFiles/mcrouter.dir/mcrouter/route.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/route.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/route.cpp.o.requires
@@ -1319,17 +1319,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/route.cpp.o.provides.build
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/server.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/server.cpp.o: third-party/mcrouter/mcrouter/server.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_56)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_56)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/server.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/server.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/server.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/server.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/server.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/server.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/server.cpp > CMakeFiles/mcrouter.dir/mcrouter/server.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/server.cpp > CMakeFiles/mcrouter.dir/mcrouter/server.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/server.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/server.cpp -o CMakeFiles/mcrouter.dir/mcrouter/server.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/server.cpp -o CMakeFiles/mcrouter.dir/mcrouter/server.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/server.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/server.cpp.o.requires
@@ -1342,17 +1342,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/server.cpp.o.provides.buil
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/stats.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/stats.cpp.o: third-party/mcrouter/mcrouter/stats.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_57)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_57)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/stats.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/stats.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/stats.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/stats.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/stats.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/stats.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/stats.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/stats.cpp > CMakeFiles/mcrouter.dir/mcrouter/stats.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/stats.cpp > CMakeFiles/mcrouter.dir/mcrouter/stats.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/stats.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/stats.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/stats.cpp -o CMakeFiles/mcrouter.dir/mcrouter/stats.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/stats.cpp -o CMakeFiles/mcrouter.dir/mcrouter/stats.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/stats.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/stats.cpp.o.requires
@@ -1365,17 +1365,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/stats.cpp.o.provides.build
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/FailoverErrorsSettings.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/FailoverErrorsSettings.cpp.o: third-party/mcrouter/mcrouter/lib/FailoverErrorsSettings.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_58)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_58)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/FailoverErrorsSettings.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/FailoverErrorsSettings.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/FailoverErrorsSettings.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/FailoverErrorsSettings.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/FailoverErrorsSettings.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/FailoverErrorsSettings.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/lib/FailoverErrorsSettings.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/FailoverErrorsSettings.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/FailoverErrorsSettings.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/FailoverErrorsSettings.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/FailoverErrorsSettings.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/FailoverErrorsSettings.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/FailoverErrorsSettings.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/FailoverErrorsSettings.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/FailoverErrorsSettings.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/FailoverErrorsSettings.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/FailoverErrorsSettings.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/FailoverErrorsSettings.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/FailoverErrorsSettings.cpp.o.requires
@@ -1388,17 +1388,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/FailoverErrorsSettings
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/IOBufUtil.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/IOBufUtil.cpp.o: third-party/mcrouter/mcrouter/lib/IOBufUtil.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_59)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_59)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/IOBufUtil.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/IOBufUtil.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/IOBufUtil.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/IOBufUtil.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/IOBufUtil.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/IOBufUtil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/lib/IOBufUtil.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/IOBufUtil.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/IOBufUtil.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/IOBufUtil.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/IOBufUtil.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/IOBufUtil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/IOBufUtil.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/IOBufUtil.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/IOBufUtil.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/IOBufUtil.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/IOBufUtil.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/IOBufUtil.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/IOBufUtil.cpp.o.requires
@@ -1411,17 +1411,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/IOBufUtil.cpp.o.provid
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/McReply.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/McReply.cpp.o: third-party/mcrouter/mcrouter/lib/McReply.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_60)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_60)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/McReply.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/McReply.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/McReply.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/McReply.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/McReply.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/McReply.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/lib/McReply.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/McReply.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/McReply.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/McReply.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/McReply.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/McReply.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/McReply.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/McReply.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/McReply.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/McReply.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/McReply.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/McReply.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/McReply.cpp.o.requires
@@ -1434,17 +1434,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/McReply.cpp.o.provides
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/McRequest.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/McRequest.cpp.o: third-party/mcrouter/mcrouter/lib/McRequest.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_61)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_61)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/McRequest.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/McRequest.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/McRequest.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/McRequest.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/McRequest.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/McRequest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/lib/McRequest.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/McRequest.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/McRequest.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/McRequest.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/McRequest.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/McRequest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/McRequest.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/McRequest.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/McRequest.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/McRequest.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/McRequest.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/McRequest.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/McRequest.cpp.o.requires
@@ -1457,17 +1457,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/McRequest.cpp.o.provid
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/MessageQueue.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/MessageQueue.cpp.o: third-party/mcrouter/mcrouter/lib/MessageQueue.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_62)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_62)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/MessageQueue.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/MessageQueue.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/MessageQueue.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/MessageQueue.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/MessageQueue.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/MessageQueue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/lib/MessageQueue.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/MessageQueue.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/MessageQueue.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/MessageQueue.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/MessageQueue.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/MessageQueue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/MessageQueue.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/MessageQueue.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/MessageQueue.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/MessageQueue.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/MessageQueue.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/MessageQueue.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/MessageQueue.cpp.o.requires
@@ -1480,17 +1480,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/MessageQueue.cpp.o.pro
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/StatsReply.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/StatsReply.cpp.o: third-party/mcrouter/mcrouter/lib/StatsReply.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_63)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_63)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/StatsReply.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/StatsReply.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/StatsReply.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/StatsReply.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/StatsReply.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/StatsReply.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/lib/StatsReply.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/StatsReply.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/StatsReply.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/StatsReply.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/StatsReply.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/StatsReply.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/StatsReply.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/StatsReply.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/StatsReply.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/StatsReply.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/StatsReply.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/StatsReply.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/StatsReply.cpp.o.requires
@@ -1503,17 +1503,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/StatsReply.cpp.o.provi
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/WeightedCh3HashFunc.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/WeightedCh3HashFunc.cpp.o: third-party/mcrouter/mcrouter/lib/WeightedCh3HashFunc.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_64)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_64)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/WeightedCh3HashFunc.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/WeightedCh3HashFunc.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/WeightedCh3HashFunc.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/WeightedCh3HashFunc.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/WeightedCh3HashFunc.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/WeightedCh3HashFunc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/lib/WeightedCh3HashFunc.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/WeightedCh3HashFunc.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/WeightedCh3HashFunc.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/WeightedCh3HashFunc.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/WeightedCh3HashFunc.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/WeightedCh3HashFunc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/WeightedCh3HashFunc.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/WeightedCh3HashFunc.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/WeightedCh3HashFunc.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/WeightedCh3HashFunc.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/WeightedCh3HashFunc.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/WeightedCh3HashFunc.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/WeightedCh3HashFunc.cpp.o.requires
@@ -1526,17 +1526,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/WeightedCh3HashFunc.cp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/config/ConfigPreprocessor.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/config/ConfigPreprocessor.cpp.o: third-party/mcrouter/mcrouter/lib/config/ConfigPreprocessor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_65)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_65)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/config/ConfigPreprocessor.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/config/ConfigPreprocessor.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/config/ConfigPreprocessor.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/config/ConfigPreprocessor.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/config/ConfigPreprocessor.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/config/ConfigPreprocessor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/lib/config/ConfigPreprocessor.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/config/ConfigPreprocessor.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/config/ConfigPreprocessor.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/config/ConfigPreprocessor.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/config/ConfigPreprocessor.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/config/ConfigPreprocessor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/config/ConfigPreprocessor.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/config/ConfigPreprocessor.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/config/ConfigPreprocessor.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/config/ConfigPreprocessor.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/config/ConfigPreprocessor.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/config/ConfigPreprocessor.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/config/ConfigPreprocessor.cpp.o.requires
@@ -1549,17 +1549,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/config/ConfigPreproces
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Accumulator.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Accumulator.cpp.o: third-party/mcrouter/mcrouter/lib/cycles/Accumulator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_66)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_66)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Accumulator.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Accumulator.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/cycles/Accumulator.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Accumulator.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/cycles/Accumulator.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Accumulator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Accumulator.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/cycles/Accumulator.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Accumulator.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/cycles/Accumulator.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Accumulator.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Accumulator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Accumulator.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/cycles/Accumulator.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Accumulator.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/cycles/Accumulator.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Accumulator.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Accumulator.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Accumulator.cpp.o.requires
@@ -1572,17 +1572,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Accumulator.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Clocks.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Clocks.cpp.o: third-party/mcrouter/mcrouter/lib/cycles/Clocks.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_67)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_67)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Clocks.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Clocks.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/cycles/Clocks.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Clocks.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/cycles/Clocks.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Clocks.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Clocks.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/cycles/Clocks.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Clocks.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/cycles/Clocks.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Clocks.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Clocks.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Clocks.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/cycles/Clocks.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Clocks.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/cycles/Clocks.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Clocks.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Clocks.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Clocks.cpp.o.requires
@@ -1595,17 +1595,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Clocks.cpp.o.pr
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Cycles.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Cycles.cpp.o: third-party/mcrouter/mcrouter/lib/cycles/Cycles.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_68)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_68)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Cycles.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Cycles.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/cycles/Cycles.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Cycles.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/cycles/Cycles.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Cycles.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Cycles.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/cycles/Cycles.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Cycles.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/cycles/Cycles.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Cycles.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Cycles.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Cycles.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/cycles/Cycles.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Cycles.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/cycles/Cycles.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Cycles.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Cycles.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Cycles.cpp.o.requires
@@ -1618,17 +1618,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/Cycles.cpp.o.pr
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/ExtractorThread.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/ExtractorThread.cpp.o: third-party/mcrouter/mcrouter/lib/cycles/ExtractorThread.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_69)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_69)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/ExtractorThread.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/ExtractorThread.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/cycles/ExtractorThread.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/ExtractorThread.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/cycles/ExtractorThread.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/ExtractorThread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/ExtractorThread.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/cycles/ExtractorThread.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/ExtractorThread.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/cycles/ExtractorThread.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/ExtractorThread.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/ExtractorThread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/ExtractorThread.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/cycles/ExtractorThread.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/ExtractorThread.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/cycles/ExtractorThread.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/ExtractorThread.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/ExtractorThread.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/ExtractorThread.cpp.o.requires
@@ -1641,17 +1641,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/cycles/ExtractorThread
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/Fifo.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/Fifo.cpp.o: third-party/mcrouter/mcrouter/lib/debug/Fifo.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_70)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_70)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/Fifo.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/debug/Fifo.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/debug/Fifo.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/debug/Fifo.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/debug/Fifo.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/Fifo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/lib/debug/Fifo.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/debug/Fifo.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/debug/Fifo.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/debug/Fifo.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/debug/Fifo.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/Fifo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/debug/Fifo.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/debug/Fifo.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/debug/Fifo.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/debug/Fifo.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/debug/Fifo.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/Fifo.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/Fifo.cpp.o.requires
@@ -1664,17 +1664,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/Fifo.cpp.o.provi
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/FifoManager.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/FifoManager.cpp.o: third-party/mcrouter/mcrouter/lib/debug/FifoManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_71)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_71)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/FifoManager.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/debug/FifoManager.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/debug/FifoManager.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/debug/FifoManager.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/debug/FifoManager.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/FifoManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/lib/debug/FifoManager.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/debug/FifoManager.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/debug/FifoManager.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/debug/FifoManager.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/debug/FifoManager.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/FifoManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/debug/FifoManager.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/debug/FifoManager.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/debug/FifoManager.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/debug/FifoManager.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/debug/FifoManager.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/FifoManager.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/FifoManager.cpp.o.requires
@@ -1687,17 +1687,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/debug/FifoManager.cpp.
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/LogFailure.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/LogFailure.cpp.o: third-party/mcrouter/mcrouter/lib/fbi/cpp/LogFailure.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_72)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_72)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/LogFailure.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/LogFailure.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/cpp/LogFailure.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/LogFailure.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/cpp/LogFailure.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/LogFailure.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/LogFailure.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/cpp/LogFailure.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/LogFailure.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/cpp/LogFailure.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/LogFailure.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/LogFailure.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/LogFailure.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/cpp/LogFailure.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/LogFailure.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/cpp/LogFailure.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/LogFailure.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/LogFailure.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/LogFailure.cpp.o.requires
@@ -1710,17 +1710,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/LogFailure.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/ParsingUtil.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/ParsingUtil.cpp.o: third-party/mcrouter/mcrouter/lib/fbi/cpp/ParsingUtil.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_73)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_73)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/ParsingUtil.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/ParsingUtil.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/cpp/ParsingUtil.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/ParsingUtil.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/cpp/ParsingUtil.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/ParsingUtil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/ParsingUtil.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/cpp/ParsingUtil.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/ParsingUtil.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/cpp/ParsingUtil.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/ParsingUtil.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/ParsingUtil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/ParsingUtil.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/cpp/ParsingUtil.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/ParsingUtil.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/cpp/ParsingUtil.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/ParsingUtil.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/ParsingUtil.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/ParsingUtil.cpp.o.requires
@@ -1733,17 +1733,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/ParsingUtil.cp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/globals.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/globals.cpp.o: third-party/mcrouter/mcrouter/lib/fbi/cpp/globals.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_74)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_74)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/globals.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/globals.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/cpp/globals.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/globals.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/cpp/globals.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/globals.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/globals.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/cpp/globals.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/globals.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/cpp/globals.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/globals.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/globals.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/globals.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/cpp/globals.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/globals.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/cpp/globals.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/globals.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/globals.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/globals.cpp.o.requires
@@ -1756,17 +1756,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/globals.cpp.o.
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/util.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/util.cpp.o: third-party/mcrouter/mcrouter/lib/fbi/cpp/util.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_75)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_75)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/util.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/util.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/cpp/util.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/util.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/cpp/util.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/util.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/cpp/util.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/util.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/cpp/util.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/util.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/util.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/fbi/cpp/util.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/util.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/fbi/cpp/util.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/util.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/util.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/util.cpp.o.requires
@@ -1779,17 +1779,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/fbi/cpp/util.cpp.o.pro
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AccessPoint.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AccessPoint.cpp.o: third-party/mcrouter/mcrouter/lib/network/AccessPoint.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_76)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_76)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AccessPoint.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/AccessPoint.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/AccessPoint.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/AccessPoint.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/AccessPoint.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AccessPoint.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/lib/network/AccessPoint.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/AccessPoint.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/network/AccessPoint.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/AccessPoint.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/network/AccessPoint.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AccessPoint.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/network/AccessPoint.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/AccessPoint.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/AccessPoint.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/AccessPoint.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/AccessPoint.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AccessPoint.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AccessPoint.cpp.o.requires
@@ -1802,17 +1802,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AccessPoint.cp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsciiSerialized.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsciiSerialized.cpp.o: third-party/mcrouter/mcrouter/lib/network/AsciiSerialized.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_77)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_77)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsciiSerialized.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsciiSerialized.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/AsciiSerialized.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsciiSerialized.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/AsciiSerialized.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsciiSerialized.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsciiSerialized.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/AsciiSerialized.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsciiSerialized.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/AsciiSerialized.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsciiSerialized.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsciiSerialized.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsciiSerialized.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/AsciiSerialized.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsciiSerialized.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/AsciiSerialized.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsciiSerialized.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsciiSerialized.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsciiSerialized.cpp.o.requires
@@ -1825,17 +1825,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsciiSerialize
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcClientImpl.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcClientImpl.cpp.o: third-party/mcrouter/mcrouter/lib/network/AsyncMcClientImpl.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_78)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_78)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcClientImpl.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcClientImpl.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/AsyncMcClientImpl.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcClientImpl.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/AsyncMcClientImpl.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcClientImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcClientImpl.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/AsyncMcClientImpl.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcClientImpl.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/AsyncMcClientImpl.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcClientImpl.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcClientImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcClientImpl.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/AsyncMcClientImpl.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcClientImpl.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/AsyncMcClientImpl.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcClientImpl.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcClientImpl.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcClientImpl.cpp.o.requires
@@ -1848,17 +1848,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcClientI
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServer.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServer.cpp.o: third-party/mcrouter/mcrouter/lib/network/AsyncMcServer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_79)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_79)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServer.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServer.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/AsyncMcServer.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServer.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/AsyncMcServer.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServer.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/AsyncMcServer.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServer.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/AsyncMcServer.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServer.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServer.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/AsyncMcServer.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServer.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/AsyncMcServer.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServer.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServer.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServer.cpp.o.requires
@@ -1871,17 +1871,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServer.
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServerWorker.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServerWorker.cpp.o: third-party/mcrouter/mcrouter/lib/network/AsyncMcServerWorker.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_80)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_80)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServerWorker.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServerWorker.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/AsyncMcServerWorker.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServerWorker.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/AsyncMcServerWorker.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServerWorker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServerWorker.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/AsyncMcServerWorker.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServerWorker.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/AsyncMcServerWorker.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServerWorker.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServerWorker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServerWorker.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/AsyncMcServerWorker.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServerWorker.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/AsyncMcServerWorker.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServerWorker.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServerWorker.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServerWorker.cpp.o.requires
@@ -1894,17 +1894,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/AsyncMcServerW
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McAsciiParser.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McAsciiParser.cpp.o: third-party/mcrouter/mcrouter/lib/network/McAsciiParser.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_81)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_81)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McAsciiParser.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/McAsciiParser.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/McAsciiParser.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/McAsciiParser.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/McAsciiParser.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McAsciiParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/lib/network/McAsciiParser.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/McAsciiParser.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/network/McAsciiParser.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/McAsciiParser.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/network/McAsciiParser.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McAsciiParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/network/McAsciiParser.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/McAsciiParser.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/McAsciiParser.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/McAsciiParser.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/McAsciiParser.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McAsciiParser.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McAsciiParser.cpp.o.requires
@@ -1917,17 +1917,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McAsciiParser.
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McClientRequestContext.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McClientRequestContext.cpp.o: third-party/mcrouter/mcrouter/lib/network/McClientRequestContext.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_82)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_82)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McClientRequestContext.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/McClientRequestContext.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/McClientRequestContext.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/McClientRequestContext.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/McClientRequestContext.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McClientRequestContext.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/lib/network/McClientRequestContext.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/McClientRequestContext.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/network/McClientRequestContext.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/McClientRequestContext.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/network/McClientRequestContext.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McClientRequestContext.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/network/McClientRequestContext.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/McClientRequestContext.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/McClientRequestContext.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/McClientRequestContext.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/McClientRequestContext.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McClientRequestContext.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McClientRequestContext.cpp.o.requires
@@ -1940,17 +1940,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McClientReques
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McParser.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McParser.cpp.o: third-party/mcrouter/mcrouter/lib/network/McParser.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_83)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_83)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McParser.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/McParser.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/McParser.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/McParser.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/McParser.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/lib/network/McParser.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/McParser.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/network/McParser.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/McParser.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/network/McParser.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/network/McParser.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/McParser.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/McParser.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/McParser.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/McParser.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McParser.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McParser.cpp.o.requires
@@ -1963,17 +1963,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McParser.cpp.o
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McSerializedRequest.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McSerializedRequest.cpp.o: third-party/mcrouter/mcrouter/lib/network/McSerializedRequest.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_84)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_84)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McSerializedRequest.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/McSerializedRequest.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/McSerializedRequest.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/McSerializedRequest.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/McSerializedRequest.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McSerializedRequest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/lib/network/McSerializedRequest.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/McSerializedRequest.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/network/McSerializedRequest.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/McSerializedRequest.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/network/McSerializedRequest.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McSerializedRequest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/network/McSerializedRequest.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/McSerializedRequest.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/McSerializedRequest.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/McSerializedRequest.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/McSerializedRequest.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McSerializedRequest.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McSerializedRequest.cpp.o.requires
@@ -1986,17 +1986,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McSerializedRe
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerRequestContext.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerRequestContext.cpp.o: third-party/mcrouter/mcrouter/lib/network/McServerRequestContext.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_85)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_85)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerRequestContext.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerRequestContext.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/McServerRequestContext.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerRequestContext.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/McServerRequestContext.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerRequestContext.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerRequestContext.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/McServerRequestContext.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerRequestContext.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/McServerRequestContext.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerRequestContext.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerRequestContext.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerRequestContext.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/McServerRequestContext.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerRequestContext.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/McServerRequestContext.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerRequestContext.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerRequestContext.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerRequestContext.cpp.o.requires
@@ -2009,17 +2009,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerReques
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerSession.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerSession.cpp.o: third-party/mcrouter/mcrouter/lib/network/McServerSession.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_86)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_86)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerSession.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerSession.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/McServerSession.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerSession.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/McServerSession.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerSession.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerSession.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/McServerSession.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerSession.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/McServerSession.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerSession.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerSession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerSession.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/McServerSession.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerSession.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/McServerSession.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerSession.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerSession.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerSession.cpp.o.requires
@@ -2032,17 +2032,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/McServerSessio
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MockMcClientTransport.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MockMcClientTransport.cpp.o: third-party/mcrouter/mcrouter/lib/network/MockMcClientTransport.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_87)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_87)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MockMcClientTransport.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/MockMcClientTransport.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/MockMcClientTransport.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/MockMcClientTransport.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/MockMcClientTransport.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MockMcClientTransport.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/lib/network/MockMcClientTransport.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/MockMcClientTransport.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/network/MockMcClientTransport.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/MockMcClientTransport.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/network/MockMcClientTransport.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MockMcClientTransport.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/network/MockMcClientTransport.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/MockMcClientTransport.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/MockMcClientTransport.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/MockMcClientTransport.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/MockMcClientTransport.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MockMcClientTransport.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MockMcClientTransport.cpp.o.requires
@@ -2055,17 +2055,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MockMcClientTr
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MultiOpParent.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MultiOpParent.cpp.o: third-party/mcrouter/mcrouter/lib/network/MultiOpParent.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_88)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_88)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MultiOpParent.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/MultiOpParent.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/MultiOpParent.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/MultiOpParent.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/MultiOpParent.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MultiOpParent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/lib/network/MultiOpParent.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/MultiOpParent.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/network/MultiOpParent.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/MultiOpParent.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/network/MultiOpParent.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MultiOpParent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/network/MultiOpParent.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/MultiOpParent.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/MultiOpParent.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/MultiOpParent.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/MultiOpParent.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MultiOpParent.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MultiOpParent.cpp.o.requires
@@ -2078,17 +2078,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/MultiOpParent.
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/ThreadLocalSSLContextProvider.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/ThreadLocalSSLContextProvider.cpp.o: third-party/mcrouter/mcrouter/lib/network/ThreadLocalSSLContextProvider.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_89)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_89)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/ThreadLocalSSLContextProvider.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/ThreadLocalSSLContextProvider.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/ThreadLocalSSLContextProvider.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/ThreadLocalSSLContextProvider.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/ThreadLocalSSLContextProvider.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/ThreadLocalSSLContextProvider.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/lib/network/ThreadLocalSSLContextProvider.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/ThreadLocalSSLContextProvider.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/network/ThreadLocalSSLContextProvider.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/ThreadLocalSSLContextProvider.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/network/ThreadLocalSSLContextProvider.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/ThreadLocalSSLContextProvider.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/network/ThreadLocalSSLContextProvider.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/ThreadLocalSSLContextProvider.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/ThreadLocalSSLContextProvider.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/ThreadLocalSSLContextProvider.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/ThreadLocalSSLContextProvider.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/ThreadLocalSSLContextProvider.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/ThreadLocalSSLContextProvider.cpp.o.requires
@@ -2101,17 +2101,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/ThreadLocalSSL
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/UmbrellaProtocol.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/UmbrellaProtocol.cpp.o: third-party/mcrouter/mcrouter/lib/network/UmbrellaProtocol.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_90)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_90)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/UmbrellaProtocol.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/UmbrellaProtocol.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/UmbrellaProtocol.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/UmbrellaProtocol.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/UmbrellaProtocol.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/UmbrellaProtocol.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/lib/network/UmbrellaProtocol.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/UmbrellaProtocol.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/network/UmbrellaProtocol.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/UmbrellaProtocol.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/network/UmbrellaProtocol.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/UmbrellaProtocol.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/network/UmbrellaProtocol.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/UmbrellaProtocol.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/UmbrellaProtocol.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/UmbrellaProtocol.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/UmbrellaProtocol.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/UmbrellaProtocol.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/UmbrellaProtocol.cpp.o.requires
@@ -2124,17 +2124,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/UmbrellaProtoc
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/WriteBuffer.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/WriteBuffer.cpp.o: third-party/mcrouter/mcrouter/lib/network/WriteBuffer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_91)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_91)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/WriteBuffer.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/WriteBuffer.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/WriteBuffer.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/WriteBuffer.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/WriteBuffer.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/WriteBuffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/lib/network/WriteBuffer.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/WriteBuffer.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/network/WriteBuffer.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/WriteBuffer.cpp > CMakeFiles/mcrouter.dir/mcrouter/lib/network/WriteBuffer.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/WriteBuffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/lib/network/WriteBuffer.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/lib/network/WriteBuffer.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/WriteBuffer.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/lib/network/WriteBuffer.cpp -o CMakeFiles/mcrouter.dir/mcrouter/lib/network/WriteBuffer.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/WriteBuffer.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/WriteBuffer.cpp.o.requires
@@ -2147,17 +2147,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/lib/network/WriteBuffer.cp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllAsyncRoute.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllAsyncRoute.cpp.o: third-party/mcrouter/mcrouter/routes/AllAsyncRoute.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_92)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_92)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllAsyncRoute.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/AllAsyncRoute.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/AllAsyncRoute.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/AllAsyncRoute.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/AllAsyncRoute.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllAsyncRoute.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/AllAsyncRoute.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/AllAsyncRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/AllAsyncRoute.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/AllAsyncRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/AllAsyncRoute.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllAsyncRoute.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/AllAsyncRoute.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/AllAsyncRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/AllAsyncRoute.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/AllAsyncRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/AllAsyncRoute.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllAsyncRoute.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllAsyncRoute.cpp.o.requires
@@ -2170,17 +2170,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllAsyncRoute.cpp.o
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllFastestRoute.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllFastestRoute.cpp.o: third-party/mcrouter/mcrouter/routes/AllFastestRoute.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_93)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_93)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllFastestRoute.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/AllFastestRoute.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/AllFastestRoute.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/AllFastestRoute.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/AllFastestRoute.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllFastestRoute.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/AllFastestRoute.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/AllFastestRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/AllFastestRoute.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/AllFastestRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/AllFastestRoute.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllFastestRoute.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/AllFastestRoute.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/AllFastestRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/AllFastestRoute.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/AllFastestRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/AllFastestRoute.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllFastestRoute.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllFastestRoute.cpp.o.requires
@@ -2193,17 +2193,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllFastestRoute.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllInitialRoute.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllInitialRoute.cpp.o: third-party/mcrouter/mcrouter/routes/AllInitialRoute.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_94)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_94)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllInitialRoute.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/AllInitialRoute.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/AllInitialRoute.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/AllInitialRoute.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/AllInitialRoute.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllInitialRoute.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/AllInitialRoute.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/AllInitialRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/AllInitialRoute.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/AllInitialRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/AllInitialRoute.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllInitialRoute.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/AllInitialRoute.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/AllInitialRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/AllInitialRoute.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/AllInitialRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/AllInitialRoute.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllInitialRoute.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllInitialRoute.cpp.o.requires
@@ -2216,17 +2216,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllInitialRoute.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllMajorityRoute.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllMajorityRoute.cpp.o: third-party/mcrouter/mcrouter/routes/AllMajorityRoute.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_95)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_95)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllMajorityRoute.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/AllMajorityRoute.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/AllMajorityRoute.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/AllMajorityRoute.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/AllMajorityRoute.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllMajorityRoute.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/AllMajorityRoute.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/AllMajorityRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/AllMajorityRoute.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/AllMajorityRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/AllMajorityRoute.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllMajorityRoute.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/AllMajorityRoute.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/AllMajorityRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/AllMajorityRoute.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/AllMajorityRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/AllMajorityRoute.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllMajorityRoute.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllMajorityRoute.cpp.o.requires
@@ -2239,17 +2239,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllMajorityRoute.cp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllSyncRoute.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllSyncRoute.cpp.o: third-party/mcrouter/mcrouter/routes/AllSyncRoute.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_96)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_96)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllSyncRoute.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/AllSyncRoute.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/AllSyncRoute.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/AllSyncRoute.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/AllSyncRoute.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllSyncRoute.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/AllSyncRoute.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/AllSyncRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/AllSyncRoute.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/AllSyncRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/AllSyncRoute.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllSyncRoute.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/AllSyncRoute.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/AllSyncRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/AllSyncRoute.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/AllSyncRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/AllSyncRoute.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllSyncRoute.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllSyncRoute.cpp.o.requires
@@ -2262,17 +2262,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AllSyncRoute.cpp.o.
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AsynclogRoute.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AsynclogRoute.cpp.o: third-party/mcrouter/mcrouter/routes/AsynclogRoute.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_97)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_97)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AsynclogRoute.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/AsynclogRoute.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/AsynclogRoute.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/AsynclogRoute.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/AsynclogRoute.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AsynclogRoute.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/AsynclogRoute.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/AsynclogRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/AsynclogRoute.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/AsynclogRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/AsynclogRoute.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AsynclogRoute.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/AsynclogRoute.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/AsynclogRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/AsynclogRoute.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/AsynclogRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/AsynclogRoute.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AsynclogRoute.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AsynclogRoute.cpp.o.requires
@@ -2285,17 +2285,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/AsynclogRoute.cpp.o
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/BigValueRoute.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/BigValueRoute.cpp.o: third-party/mcrouter/mcrouter/routes/BigValueRoute.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_98)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_98)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/BigValueRoute.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/BigValueRoute.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/BigValueRoute.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/BigValueRoute.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/BigValueRoute.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/BigValueRoute.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/BigValueRoute.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/BigValueRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/BigValueRoute.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/BigValueRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/BigValueRoute.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/BigValueRoute.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/BigValueRoute.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/BigValueRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/BigValueRoute.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/BigValueRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/BigValueRoute.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/BigValueRoute.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/BigValueRoute.cpp.o.requires
@@ -2308,17 +2308,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/BigValueRoute.cpp.o
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/DestinationRoute.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/DestinationRoute.cpp.o: third-party/mcrouter/mcrouter/routes/DestinationRoute.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_99)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_99)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/DestinationRoute.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/DestinationRoute.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/DestinationRoute.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/DestinationRoute.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/DestinationRoute.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/DestinationRoute.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/DestinationRoute.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/DestinationRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/DestinationRoute.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/DestinationRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/DestinationRoute.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/DestinationRoute.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/DestinationRoute.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/DestinationRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/DestinationRoute.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/DestinationRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/DestinationRoute.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/DestinationRoute.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/DestinationRoute.cpp.o.requires
@@ -2331,17 +2331,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/DestinationRoute.cp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/DevNullRoute.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/DevNullRoute.cpp.o: third-party/mcrouter/mcrouter/routes/DevNullRoute.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_100)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_100)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/DevNullRoute.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/DevNullRoute.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/DevNullRoute.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/DevNullRoute.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/DevNullRoute.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/DevNullRoute.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/DevNullRoute.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/DevNullRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/DevNullRoute.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/DevNullRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/DevNullRoute.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/DevNullRoute.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/DevNullRoute.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/DevNullRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/DevNullRoute.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/DevNullRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/DevNullRoute.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/DevNullRoute.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/DevNullRoute.cpp.o.requires
@@ -2354,17 +2354,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/DevNullRoute.cpp.o.
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ErrorRoute.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ErrorRoute.cpp.o: third-party/mcrouter/mcrouter/routes/ErrorRoute.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_101)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_101)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ErrorRoute.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/ErrorRoute.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/ErrorRoute.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/ErrorRoute.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/ErrorRoute.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ErrorRoute.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/ErrorRoute.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/ErrorRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/ErrorRoute.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/ErrorRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/ErrorRoute.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ErrorRoute.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/ErrorRoute.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/ErrorRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/ErrorRoute.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/ErrorRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/ErrorRoute.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ErrorRoute.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ErrorRoute.cpp.o.requires
@@ -2377,17 +2377,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ErrorRoute.cpp.o.pr
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRateLimiter.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRateLimiter.cpp.o: third-party/mcrouter/mcrouter/routes/FailoverRateLimiter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_102)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_102)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRateLimiter.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRateLimiter.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/FailoverRateLimiter.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRateLimiter.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/FailoverRateLimiter.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRateLimiter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRateLimiter.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/FailoverRateLimiter.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRateLimiter.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/FailoverRateLimiter.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRateLimiter.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRateLimiter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRateLimiter.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/FailoverRateLimiter.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRateLimiter.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/FailoverRateLimiter.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRateLimiter.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRateLimiter.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRateLimiter.cpp.o.requires
@@ -2400,17 +2400,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRateLimiter
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRoute.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRoute.cpp.o: third-party/mcrouter/mcrouter/routes/FailoverRoute.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_103)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_103)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRoute.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRoute.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/FailoverRoute.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRoute.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/FailoverRoute.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRoute.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRoute.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/FailoverRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRoute.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/FailoverRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRoute.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRoute.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRoute.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/FailoverRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRoute.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/FailoverRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRoute.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRoute.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRoute.cpp.o.requires
@@ -2423,17 +2423,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverRoute.cpp.o
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverWithExptimeRoute.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverWithExptimeRoute.cpp.o: third-party/mcrouter/mcrouter/routes/FailoverWithExptimeRoute.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_104)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_104)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverWithExptimeRoute.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverWithExptimeRoute.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/FailoverWithExptimeRoute.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverWithExptimeRoute.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/FailoverWithExptimeRoute.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverWithExptimeRoute.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverWithExptimeRoute.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/FailoverWithExptimeRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverWithExptimeRoute.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/FailoverWithExptimeRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverWithExptimeRoute.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverWithExptimeRoute.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverWithExptimeRoute.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/FailoverWithExptimeRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverWithExptimeRoute.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/FailoverWithExptimeRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverWithExptimeRoute.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverWithExptimeRoute.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverWithExptimeRoute.cpp.o.requires
@@ -2446,17 +2446,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/FailoverWithExptime
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HashRoute.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HashRoute.cpp.o: third-party/mcrouter/mcrouter/routes/HashRoute.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_105)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_105)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HashRoute.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/HashRoute.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/HashRoute.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/HashRoute.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/HashRoute.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HashRoute.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/HashRoute.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/HashRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/HashRoute.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/HashRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/HashRoute.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HashRoute.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/HashRoute.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/HashRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/HashRoute.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/HashRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/HashRoute.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HashRoute.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HashRoute.cpp.o.requires
@@ -2469,17 +2469,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HashRoute.cpp.o.pro
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HostIdRoute.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HostIdRoute.cpp.o: third-party/mcrouter/mcrouter/routes/HostIdRoute.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_106)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_106)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HostIdRoute.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/HostIdRoute.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/HostIdRoute.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/HostIdRoute.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/HostIdRoute.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HostIdRoute.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/HostIdRoute.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/HostIdRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/HostIdRoute.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/HostIdRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/HostIdRoute.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HostIdRoute.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/HostIdRoute.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/HostIdRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/HostIdRoute.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/HostIdRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/HostIdRoute.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HostIdRoute.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HostIdRoute.cpp.o.requires
@@ -2492,17 +2492,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/HostIdRoute.cpp.o.p
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/L1L2CacheRoute.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/L1L2CacheRoute.cpp.o: third-party/mcrouter/mcrouter/routes/L1L2CacheRoute.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_107)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_107)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/L1L2CacheRoute.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/L1L2CacheRoute.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/L1L2CacheRoute.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/L1L2CacheRoute.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/L1L2CacheRoute.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/L1L2CacheRoute.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/L1L2CacheRoute.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/L1L2CacheRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/L1L2CacheRoute.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/L1L2CacheRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/L1L2CacheRoute.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/L1L2CacheRoute.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/L1L2CacheRoute.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/L1L2CacheRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/L1L2CacheRoute.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/L1L2CacheRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/L1L2CacheRoute.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/L1L2CacheRoute.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/L1L2CacheRoute.cpp.o.requires
@@ -2515,17 +2515,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/L1L2CacheRoute.cpp.
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LatestRoute.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LatestRoute.cpp.o: third-party/mcrouter/mcrouter/routes/LatestRoute.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_108)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_108)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LatestRoute.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/LatestRoute.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/LatestRoute.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/LatestRoute.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/LatestRoute.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LatestRoute.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/LatestRoute.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/LatestRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/LatestRoute.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/LatestRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/LatestRoute.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LatestRoute.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/LatestRoute.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/LatestRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/LatestRoute.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/LatestRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/LatestRoute.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LatestRoute.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LatestRoute.cpp.o.requires
@@ -2538,17 +2538,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LatestRoute.cpp.o.p
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LoggingRoute.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LoggingRoute.cpp.o: third-party/mcrouter/mcrouter/routes/LoggingRoute.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_109)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_109)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LoggingRoute.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/LoggingRoute.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/LoggingRoute.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/LoggingRoute.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/LoggingRoute.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LoggingRoute.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/LoggingRoute.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/LoggingRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/LoggingRoute.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/LoggingRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/LoggingRoute.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LoggingRoute.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/LoggingRoute.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/LoggingRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/LoggingRoute.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/LoggingRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/LoggingRoute.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LoggingRoute.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LoggingRoute.cpp.o.requires
@@ -2561,17 +2561,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/LoggingRoute.cpp.o.
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McExtraRouteHandleProvider.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McExtraRouteHandleProvider.cpp.o: third-party/mcrouter/mcrouter/routes/McExtraRouteHandleProvider.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_110)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_110)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McExtraRouteHandleProvider.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/McExtraRouteHandleProvider.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/McExtraRouteHandleProvider.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/McExtraRouteHandleProvider.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/McExtraRouteHandleProvider.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McExtraRouteHandleProvider.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/McExtraRouteHandleProvider.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/McExtraRouteHandleProvider.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/McExtraRouteHandleProvider.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/McExtraRouteHandleProvider.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/McExtraRouteHandleProvider.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McExtraRouteHandleProvider.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/McExtraRouteHandleProvider.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/McExtraRouteHandleProvider.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/McExtraRouteHandleProvider.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/McExtraRouteHandleProvider.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/McExtraRouteHandleProvider.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McExtraRouteHandleProvider.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McExtraRouteHandleProvider.cpp.o.requires
@@ -2584,17 +2584,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McExtraRouteHandleP
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McImportResolver.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McImportResolver.cpp.o: third-party/mcrouter/mcrouter/routes/McImportResolver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_111)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_111)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McImportResolver.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/McImportResolver.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/McImportResolver.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/McImportResolver.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/McImportResolver.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McImportResolver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/McImportResolver.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/McImportResolver.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/McImportResolver.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/McImportResolver.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/McImportResolver.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McImportResolver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/McImportResolver.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/McImportResolver.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/McImportResolver.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/McImportResolver.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/McImportResolver.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McImportResolver.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McImportResolver.cpp.o.requires
@@ -2607,17 +2607,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McImportResolver.cp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McRouteHandleProvider.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McRouteHandleProvider.cpp.o: third-party/mcrouter/mcrouter/routes/McRouteHandleProvider.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_112)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_112)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McRouteHandleProvider.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/McRouteHandleProvider.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/McRouteHandleProvider.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/McRouteHandleProvider.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/McRouteHandleProvider.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McRouteHandleProvider.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/McRouteHandleProvider.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/McRouteHandleProvider.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/McRouteHandleProvider.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/McRouteHandleProvider.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/McRouteHandleProvider.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McRouteHandleProvider.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/McRouteHandleProvider.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/McRouteHandleProvider.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/McRouteHandleProvider.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/McRouteHandleProvider.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/McRouteHandleProvider.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McRouteHandleProvider.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McRouteHandleProvider.cpp.o.requires
@@ -2630,17 +2630,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/McRouteHandleProvid
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MigrateRoute.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MigrateRoute.cpp.o: third-party/mcrouter/mcrouter/routes/MigrateRoute.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_113)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_113)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MigrateRoute.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/MigrateRoute.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/MigrateRoute.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/MigrateRoute.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/MigrateRoute.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MigrateRoute.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/MigrateRoute.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/MigrateRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/MigrateRoute.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/MigrateRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/MigrateRoute.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MigrateRoute.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/MigrateRoute.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/MigrateRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/MigrateRoute.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/MigrateRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/MigrateRoute.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MigrateRoute.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MigrateRoute.cpp.o.requires
@@ -2653,17 +2653,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MigrateRoute.cpp.o.
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MissFailoverRoute.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MissFailoverRoute.cpp.o: third-party/mcrouter/mcrouter/routes/MissFailoverRoute.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_114)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_114)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MissFailoverRoute.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/MissFailoverRoute.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/MissFailoverRoute.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/MissFailoverRoute.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/MissFailoverRoute.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MissFailoverRoute.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/MissFailoverRoute.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/MissFailoverRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/MissFailoverRoute.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/MissFailoverRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/MissFailoverRoute.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MissFailoverRoute.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/MissFailoverRoute.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/MissFailoverRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/MissFailoverRoute.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/MissFailoverRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/MissFailoverRoute.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MissFailoverRoute.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MissFailoverRoute.cpp.o.requires
@@ -2676,17 +2676,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/MissFailoverRoute.c
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyExptimeRoute.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyExptimeRoute.cpp.o: third-party/mcrouter/mcrouter/routes/ModifyExptimeRoute.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_115)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_115)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyExptimeRoute.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyExptimeRoute.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/ModifyExptimeRoute.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyExptimeRoute.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/ModifyExptimeRoute.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyExptimeRoute.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyExptimeRoute.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/ModifyExptimeRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyExptimeRoute.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/ModifyExptimeRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyExptimeRoute.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyExptimeRoute.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyExptimeRoute.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/ModifyExptimeRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyExptimeRoute.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/ModifyExptimeRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyExptimeRoute.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyExptimeRoute.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyExptimeRoute.cpp.o.requires
@@ -2699,17 +2699,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyExptimeRoute.
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyKeyRoute.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyKeyRoute.cpp.o: third-party/mcrouter/mcrouter/routes/ModifyKeyRoute.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_116)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_116)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyKeyRoute.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyKeyRoute.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/ModifyKeyRoute.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyKeyRoute.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/ModifyKeyRoute.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyKeyRoute.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyKeyRoute.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/ModifyKeyRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyKeyRoute.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/ModifyKeyRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyKeyRoute.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyKeyRoute.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyKeyRoute.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/ModifyKeyRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyKeyRoute.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/ModifyKeyRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyKeyRoute.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyKeyRoute.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyKeyRoute.cpp.o.requires
@@ -2722,17 +2722,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ModifyKeyRoute.cpp.
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/NullRoute.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/NullRoute.cpp.o: third-party/mcrouter/mcrouter/routes/NullRoute.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_117)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_117)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/NullRoute.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/NullRoute.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/NullRoute.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/NullRoute.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/NullRoute.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/NullRoute.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/NullRoute.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/NullRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/NullRoute.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/NullRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/NullRoute.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/NullRoute.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/NullRoute.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/NullRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/NullRoute.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/NullRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/NullRoute.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/NullRoute.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/NullRoute.cpp.o.requires
@@ -2745,17 +2745,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/NullRoute.cpp.o.pro
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/OperationSelectorRoute.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/OperationSelectorRoute.cpp.o: third-party/mcrouter/mcrouter/routes/OperationSelectorRoute.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_118)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_118)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/OperationSelectorRoute.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/OperationSelectorRoute.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/OperationSelectorRoute.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/OperationSelectorRoute.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/OperationSelectorRoute.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/OperationSelectorRoute.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/OperationSelectorRoute.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/OperationSelectorRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/OperationSelectorRoute.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/OperationSelectorRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/OperationSelectorRoute.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/OperationSelectorRoute.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/OperationSelectorRoute.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/OperationSelectorRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/OperationSelectorRoute.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/OperationSelectorRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/OperationSelectorRoute.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/OperationSelectorRoute.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/OperationSelectorRoute.cpp.o.requires
@@ -2768,17 +2768,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/OperationSelectorRo
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/OutstandingLimitRoute.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/OutstandingLimitRoute.cpp.o: third-party/mcrouter/mcrouter/routes/OutstandingLimitRoute.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_119)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_119)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/OutstandingLimitRoute.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/OutstandingLimitRoute.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/OutstandingLimitRoute.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/OutstandingLimitRoute.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/OutstandingLimitRoute.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/OutstandingLimitRoute.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/OutstandingLimitRoute.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/OutstandingLimitRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/OutstandingLimitRoute.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/OutstandingLimitRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/OutstandingLimitRoute.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/OutstandingLimitRoute.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/OutstandingLimitRoute.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/OutstandingLimitRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/OutstandingLimitRoute.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/OutstandingLimitRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/OutstandingLimitRoute.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/OutstandingLimitRoute.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/OutstandingLimitRoute.cpp.o.requires
@@ -2791,17 +2791,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/OutstandingLimitRou
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/PrefixSelectorRoute.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/PrefixSelectorRoute.cpp.o: third-party/mcrouter/mcrouter/routes/PrefixSelectorRoute.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_120)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_120)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/PrefixSelectorRoute.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/PrefixSelectorRoute.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/PrefixSelectorRoute.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/PrefixSelectorRoute.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/PrefixSelectorRoute.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/PrefixSelectorRoute.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/PrefixSelectorRoute.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/PrefixSelectorRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/PrefixSelectorRoute.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/PrefixSelectorRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/PrefixSelectorRoute.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/PrefixSelectorRoute.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/PrefixSelectorRoute.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/PrefixSelectorRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/PrefixSelectorRoute.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/PrefixSelectorRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/PrefixSelectorRoute.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/PrefixSelectorRoute.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/PrefixSelectorRoute.cpp.o.requires
@@ -2814,17 +2814,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/PrefixSelectorRoute
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ProxyRoute.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ProxyRoute.cpp.o: third-party/mcrouter/mcrouter/routes/ProxyRoute.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_121)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_121)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ProxyRoute.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/ProxyRoute.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/ProxyRoute.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/ProxyRoute.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/ProxyRoute.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ProxyRoute.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/ProxyRoute.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/ProxyRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/ProxyRoute.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/ProxyRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/ProxyRoute.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ProxyRoute.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/ProxyRoute.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/ProxyRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/ProxyRoute.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/ProxyRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/ProxyRoute.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ProxyRoute.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ProxyRoute.cpp.o.requires
@@ -2837,17 +2837,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ProxyRoute.cpp.o.pr
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RandomRoute.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RandomRoute.cpp.o: third-party/mcrouter/mcrouter/routes/RandomRoute.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_122)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_122)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RandomRoute.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/RandomRoute.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/RandomRoute.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/RandomRoute.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/RandomRoute.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RandomRoute.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/RandomRoute.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/RandomRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/RandomRoute.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/RandomRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/RandomRoute.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RandomRoute.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/RandomRoute.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/RandomRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/RandomRoute.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/RandomRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/RandomRoute.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RandomRoute.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RandomRoute.cpp.o.requires
@@ -2860,17 +2860,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RandomRoute.cpp.o.p
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimitRoute.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimitRoute.cpp.o: third-party/mcrouter/mcrouter/routes/RateLimitRoute.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_123)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_123)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimitRoute.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimitRoute.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/RateLimitRoute.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimitRoute.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/RateLimitRoute.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimitRoute.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimitRoute.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/RateLimitRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimitRoute.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/RateLimitRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimitRoute.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimitRoute.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimitRoute.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/RateLimitRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimitRoute.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/RateLimitRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimitRoute.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimitRoute.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimitRoute.cpp.o.requires
@@ -2883,17 +2883,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimitRoute.cpp.
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimiter.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimiter.cpp.o: third-party/mcrouter/mcrouter/routes/RateLimiter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_124)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_124)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimiter.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimiter.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/RateLimiter.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimiter.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/RateLimiter.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimiter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimiter.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/RateLimiter.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimiter.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/RateLimiter.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimiter.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimiter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimiter.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/RateLimiter.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimiter.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/RateLimiter.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimiter.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimiter.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimiter.cpp.o.requires
@@ -2906,17 +2906,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RateLimiter.cpp.o.p
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RouteHandleMap.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RouteHandleMap.cpp.o: third-party/mcrouter/mcrouter/routes/RouteHandleMap.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_125)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_125)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RouteHandleMap.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/RouteHandleMap.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/RouteHandleMap.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/RouteHandleMap.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/RouteHandleMap.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RouteHandleMap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/RouteHandleMap.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/RouteHandleMap.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/RouteHandleMap.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/RouteHandleMap.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/RouteHandleMap.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RouteHandleMap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/RouteHandleMap.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/RouteHandleMap.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/RouteHandleMap.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/RouteHandleMap.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/RouteHandleMap.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RouteHandleMap.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RouteHandleMap.cpp.o.requires
@@ -2929,17 +2929,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RouteHandleMap.cpp.
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RoutePolicyMap.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RoutePolicyMap.cpp.o: third-party/mcrouter/mcrouter/routes/RoutePolicyMap.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_126)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_126)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RoutePolicyMap.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/RoutePolicyMap.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/RoutePolicyMap.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/RoutePolicyMap.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/RoutePolicyMap.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RoutePolicyMap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/RoutePolicyMap.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/RoutePolicyMap.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/RoutePolicyMap.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/RoutePolicyMap.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/RoutePolicyMap.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RoutePolicyMap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/RoutePolicyMap.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/RoutePolicyMap.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/RoutePolicyMap.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/RoutePolicyMap.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/RoutePolicyMap.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RoutePolicyMap.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RoutePolicyMap.cpp.o.requires
@@ -2952,17 +2952,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/RoutePolicyMap.cpp.
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShadowRoute.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShadowRoute.cpp.o: third-party/mcrouter/mcrouter/routes/ShadowRoute.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_127)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_127)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShadowRoute.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/ShadowRoute.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/ShadowRoute.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/ShadowRoute.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/ShadowRoute.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShadowRoute.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/ShadowRoute.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/ShadowRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/ShadowRoute.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/ShadowRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/ShadowRoute.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShadowRoute.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/ShadowRoute.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/ShadowRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/ShadowRoute.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/ShadowRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/ShadowRoute.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShadowRoute.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShadowRoute.cpp.o.requires
@@ -2975,17 +2975,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShadowRoute.cpp.o.p
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardHashFunc.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardHashFunc.cpp.o: third-party/mcrouter/mcrouter/routes/ShardHashFunc.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_128)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_128)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardHashFunc.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/ShardHashFunc.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/ShardHashFunc.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/ShardHashFunc.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/ShardHashFunc.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardHashFunc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/ShardHashFunc.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/ShardHashFunc.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/ShardHashFunc.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/ShardHashFunc.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/ShardHashFunc.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardHashFunc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/ShardHashFunc.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/ShardHashFunc.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/ShardHashFunc.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/ShardHashFunc.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/ShardHashFunc.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardHashFunc.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardHashFunc.cpp.o.requires
@@ -2998,17 +2998,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardHashFunc.cpp.o
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitRoute.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitRoute.cpp.o: third-party/mcrouter/mcrouter/routes/ShardSplitRoute.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_129)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_129)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitRoute.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitRoute.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/ShardSplitRoute.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitRoute.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/ShardSplitRoute.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitRoute.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitRoute.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/ShardSplitRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitRoute.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/ShardSplitRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitRoute.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitRoute.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitRoute.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/ShardSplitRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitRoute.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/ShardSplitRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitRoute.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitRoute.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitRoute.cpp.o.requires
@@ -3021,17 +3021,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitRoute.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitter.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitter.cpp.o: third-party/mcrouter/mcrouter/routes/ShardSplitter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_130)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_130)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitter.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitter.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/ShardSplitter.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitter.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/ShardSplitter.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitter.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/ShardSplitter.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitter.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/ShardSplitter.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitter.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitter.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/ShardSplitter.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitter.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/ShardSplitter.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitter.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitter.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitter.cpp.o.requires
@@ -3044,17 +3044,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/ShardSplitter.cpp.o
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRoute.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRoute.cpp.o: third-party/mcrouter/mcrouter/routes/SlowWarmUpRoute.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_131)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_131)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRoute.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRoute.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/SlowWarmUpRoute.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRoute.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/SlowWarmUpRoute.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRoute.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRoute.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/SlowWarmUpRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRoute.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/SlowWarmUpRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRoute.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRoute.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRoute.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/SlowWarmUpRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRoute.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/SlowWarmUpRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRoute.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRoute.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRoute.cpp.o.requires
@@ -3067,17 +3067,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRoute.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRouteSettings.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRouteSettings.cpp.o: third-party/mcrouter/mcrouter/routes/SlowWarmUpRouteSettings.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_132)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_132)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRouteSettings.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRouteSettings.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/SlowWarmUpRouteSettings.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRouteSettings.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/SlowWarmUpRouteSettings.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRouteSettings.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRouteSettings.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/SlowWarmUpRouteSettings.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRouteSettings.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/SlowWarmUpRouteSettings.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRouteSettings.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRouteSettings.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRouteSettings.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/SlowWarmUpRouteSettings.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRouteSettings.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/SlowWarmUpRouteSettings.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRouteSettings.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRouteSettings.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRouteSettings.cpp.o.requires
@@ -3090,17 +3090,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/SlowWarmUpRouteSett
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/WarmUpRoute.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/WarmUpRoute.cpp.o: third-party/mcrouter/mcrouter/routes/WarmUpRoute.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_133)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_133)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/WarmUpRoute.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/WarmUpRoute.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/WarmUpRoute.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/routes/WarmUpRoute.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/WarmUpRoute.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/WarmUpRoute.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/routes/WarmUpRoute.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/WarmUpRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/WarmUpRoute.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/WarmUpRoute.cpp > CMakeFiles/mcrouter.dir/mcrouter/routes/WarmUpRoute.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/WarmUpRoute.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/routes/WarmUpRoute.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/routes/WarmUpRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/WarmUpRoute.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/routes/WarmUpRoute.cpp -o CMakeFiles/mcrouter.dir/mcrouter/routes/WarmUpRoute.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/WarmUpRoute.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/WarmUpRoute.cpp.o.requires
@@ -3113,17 +3113,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/routes/WarmUpRoute.cpp.o.p
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/AnsiColorCodeStream.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/AnsiColorCodeStream.cpp.o: third-party/mcrouter/mcrouter/tools/mcpiper/AnsiColorCodeStream.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_134)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_134)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/AnsiColorCodeStream.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/AnsiColorCodeStream.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/tools/mcpiper/AnsiColorCodeStream.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/AnsiColorCodeStream.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/tools/mcpiper/AnsiColorCodeStream.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/AnsiColorCodeStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/AnsiColorCodeStream.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/tools/mcpiper/AnsiColorCodeStream.cpp > CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/AnsiColorCodeStream.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/tools/mcpiper/AnsiColorCodeStream.cpp > CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/AnsiColorCodeStream.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/AnsiColorCodeStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/AnsiColorCodeStream.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/tools/mcpiper/AnsiColorCodeStream.cpp -o CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/AnsiColorCodeStream.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/tools/mcpiper/AnsiColorCodeStream.cpp -o CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/AnsiColorCodeStream.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/AnsiColorCodeStream.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/AnsiColorCodeStream.cpp.o.requires
@@ -3136,17 +3136,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/AnsiColorCod
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ClientServerMcParser.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ClientServerMcParser.cpp.o: third-party/mcrouter/mcrouter/tools/mcpiper/ClientServerMcParser.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_135)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_135)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ClientServerMcParser.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ClientServerMcParser.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/tools/mcpiper/ClientServerMcParser.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ClientServerMcParser.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/tools/mcpiper/ClientServerMcParser.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ClientServerMcParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ClientServerMcParser.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/tools/mcpiper/ClientServerMcParser.cpp > CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ClientServerMcParser.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/tools/mcpiper/ClientServerMcParser.cpp > CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ClientServerMcParser.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ClientServerMcParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ClientServerMcParser.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/tools/mcpiper/ClientServerMcParser.cpp -o CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ClientServerMcParser.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/tools/mcpiper/ClientServerMcParser.cpp -o CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ClientServerMcParser.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ClientServerMcParser.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ClientServerMcParser.cpp.o.requires
@@ -3159,17 +3159,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ClientServer
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Config.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Config.cpp.o: third-party/mcrouter/mcrouter/tools/mcpiper/Config.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_136)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_136)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Config.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Config.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/tools/mcpiper/Config.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Config.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/tools/mcpiper/Config.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Config.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Config.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/tools/mcpiper/Config.cpp > CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Config.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/tools/mcpiper/Config.cpp > CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Config.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Config.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Config.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/tools/mcpiper/Config.cpp -o CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Config.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/tools/mcpiper/Config.cpp -o CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Config.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Config.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Config.cpp.o.requires
@@ -3182,17 +3182,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Config.cpp.o
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/FifoReader.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/FifoReader.cpp.o: third-party/mcrouter/mcrouter/tools/mcpiper/FifoReader.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_137)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_137)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/FifoReader.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/FifoReader.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/tools/mcpiper/FifoReader.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/FifoReader.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/tools/mcpiper/FifoReader.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/FifoReader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/FifoReader.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/tools/mcpiper/FifoReader.cpp > CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/FifoReader.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/tools/mcpiper/FifoReader.cpp > CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/FifoReader.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/FifoReader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/FifoReader.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/tools/mcpiper/FifoReader.cpp -o CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/FifoReader.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/tools/mcpiper/FifoReader.cpp -o CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/FifoReader.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/FifoReader.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/FifoReader.cpp.o.requires
@@ -3205,17 +3205,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/FifoReader.c
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ParserMap.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ParserMap.cpp.o: third-party/mcrouter/mcrouter/tools/mcpiper/ParserMap.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_138)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_138)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ParserMap.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ParserMap.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/tools/mcpiper/ParserMap.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ParserMap.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/tools/mcpiper/ParserMap.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ParserMap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ParserMap.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/tools/mcpiper/ParserMap.cpp > CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ParserMap.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/tools/mcpiper/ParserMap.cpp > CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ParserMap.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ParserMap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ParserMap.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/tools/mcpiper/ParserMap.cpp -o CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ParserMap.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/tools/mcpiper/ParserMap.cpp -o CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ParserMap.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ParserMap.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ParserMap.cpp.o.requires
@@ -3228,17 +3228,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/ParserMap.cp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/StyledString.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/StyledString.cpp.o: third-party/mcrouter/mcrouter/tools/mcpiper/StyledString.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_139)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_139)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/StyledString.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/StyledString.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/tools/mcpiper/StyledString.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/StyledString.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/tools/mcpiper/StyledString.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/StyledString.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/StyledString.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/tools/mcpiper/StyledString.cpp > CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/StyledString.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/tools/mcpiper/StyledString.cpp > CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/StyledString.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/StyledString.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/StyledString.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/tools/mcpiper/StyledString.cpp -o CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/StyledString.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/tools/mcpiper/StyledString.cpp -o CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/StyledString.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/StyledString.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/StyledString.cpp.o.requires
@@ -3251,17 +3251,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/StyledString
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Util.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Util.cpp.o: third-party/mcrouter/mcrouter/tools/mcpiper/Util.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_140)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_140)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Util.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Util.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/tools/mcpiper/Util.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Util.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/tools/mcpiper/Util.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Util.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/tools/mcpiper/Util.cpp > CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Util.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/tools/mcpiper/Util.cpp > CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Util.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Util.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/tools/mcpiper/Util.cpp -o CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Util.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/tools/mcpiper/Util.cpp -o CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Util.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Util.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Util.cpp.o.requires
@@ -3274,17 +3274,17 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/Util.cpp.o.p
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/mcpiper.cpp.o: third-party/mcrouter/CMakeFiles/mcrouter.dir/flags.make
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/mcpiper.cpp.o: third-party/mcrouter/mcrouter/tools/mcpiper/mcpiper.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_141)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_141)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/mcpiper.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/mcpiper.cpp.o -c /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/tools/mcpiper/mcpiper.cpp
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/mcpiper.cpp.o -c /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/tools/mcpiper/mcpiper.cpp
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/mcpiper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/mcpiper.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/tools/mcpiper/mcpiper.cpp > CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/mcpiper.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/tools/mcpiper/mcpiper.cpp > CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/mcpiper.cpp.i
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/mcpiper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/mcpiper.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/mcrouter/mcrouter/tools/mcpiper/mcpiper.cpp -o CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/mcpiper.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/mcrouter/mcrouter/tools/mcpiper/mcpiper.cpp -o CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/mcpiper.cpp.s
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/mcpiper.cpp.o.requires:
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/mcrouter/tools/mcpiper/mcpiper.cpp.o.requires
@@ -3586,8 +3586,8 @@ third-party/mcrouter/libmcrouter.a: third-party/mcrouter/CMakeFiles/mcrouter.dir
 third-party/mcrouter/libmcrouter.a: third-party/mcrouter/CMakeFiles/mcrouter.dir/build.make
 third-party/mcrouter/libmcrouter.a: third-party/mcrouter/CMakeFiles/mcrouter.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libmcrouter.a"
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && $(CMAKE_COMMAND) -P CMakeFiles/mcrouter.dir/cmake_clean_target.cmake
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mcrouter.dir/link.txt --verbose=$(VERBOSE)
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && $(CMAKE_COMMAND) -P CMakeFiles/mcrouter.dir/cmake_clean_target.cmake
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mcrouter.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 third-party/mcrouter/CMakeFiles/mcrouter.dir/build: third-party/mcrouter/libmcrouter.a
@@ -3737,10 +3737,10 @@ third-party/mcrouter/CMakeFiles/mcrouter.dir/requires: third-party/mcrouter/CMak
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/requires
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/clean:
-	cd /tmp/hhvm-3.11.1/third-party/mcrouter && $(CMAKE_COMMAND) -P CMakeFiles/mcrouter.dir/cmake_clean.cmake
+	cd /tmp/hhvm-3.12.1/third-party/mcrouter && $(CMAKE_COMMAND) -P CMakeFiles/mcrouter.dir/cmake_clean.cmake
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/clean
 
 third-party/mcrouter/CMakeFiles/mcrouter.dir/depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/third-party/mcrouter /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/third-party/mcrouter /tmp/hhvm-3.11.1/third-party/mcrouter/CMakeFiles/mcrouter.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/hhvm-3.12.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.12.1 /tmp/hhvm-3.12.1/third-party/mcrouter /tmp/hhvm-3.12.1 /tmp/hhvm-3.12.1/third-party/mcrouter /tmp/hhvm-3.12.1/third-party/mcrouter/CMakeFiles/mcrouter.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : third-party/mcrouter/CMakeFiles/mcrouter.dir/depend
 

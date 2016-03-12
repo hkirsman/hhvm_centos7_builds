@@ -84,6 +84,14 @@ using StrIntCmpFnInt = int64_t (*)(const StringData*, int64_t);
 
 //////////////////////////////////////////////////////////////////////
 
+#ifdef MSVC_REQUIRE_AUTO_TEMPLATED_OVERLOAD
+static auto Generator_Create_false = &Generator::Create<false>;
+static auto c_AsyncFunctionWaitHandle_Create_true =
+  &c_AsyncFunctionWaitHandle::Create<true>;
+static auto c_AsyncFunctionWaitHandle_Create_false =
+  &c_AsyncFunctionWaitHandle::Create<false>;
+#endif
+
 /*
  * The table passed to s_callMap's constructor describes helpers calls
  * used by translated code. Each row consists of the following values:
@@ -203,11 +211,11 @@ static CallMap s_callMap {
     {ArrayAdd,           arrayAdd, DSSA, SSync, {{SSA, 0}, {SSA, 1}}},
     {Box,                boxValue, DSSA, SNone, {{TV, 0}}},
     {Clone,              &ObjectData::clone, DSSA, SSync, {{SSA, 0}}},
-    {NewArray,           MixedArray::MakeReserve, DSSA, SNone, {{SSA, 0}}},
+    {NewArray,           PackedArray::MakeReserve, DSSA, SNone, {{SSA, 0}}},
     {NewMixedArray,      MixedArray::MakeReserveMixed, DSSA, SNone, {{SSA, 0}}},
     {NewLikeArray,       MixedArray::MakeReserveLike, DSSA, SNone,
                            {{SSA, 0}, {SSA, 1}}},
-    {AllocPackedArray,   MixedArray::MakePackedUninitialized, DSSA, SNone,
+    {AllocPackedArray,   PackedArray::MakeUninitialized, DSSA, SNone,
                            {{extra(&PackedArrayData::size)}}},
     {ColAddNewElemC,     colAddNewElemCHelper, DSSA, SSync,
                            {{SSA, 0}, {TV, 1}}},
@@ -363,14 +371,26 @@ static CallMap s_callMap {
                            {{SSA, 0}, {SSA, 1}, {SSA, 2}}},
 
     /* Generator support helpers */
+#ifdef MSVC_REQUIRE_AUTO_TEMPLATED_OVERLOAD
+    {CreateCont,         Generator_Create_false, DSSA, SNone,
+                           {{SSA, 0}, {SSA, 1}, {SSA, 2}, {SSA, 3}}},
+#else
     {CreateCont,         &Generator::Create<false>, DSSA, SNone,
                            {{SSA, 0}, {SSA, 1}, {SSA, 2}, {SSA, 3}}},
+#endif
 
     /* Async function support helpers */
+#ifdef MSVC_REQUIRE_AUTO_TEMPLATED_OVERLOAD
+    {CreateAFWH,         c_AsyncFunctionWaitHandle_Create_true, DSSA, SNone,
+                           {{SSA, 0}, {SSA, 1}, {SSA, 2}, {SSA, 3}, {SSA, 4}}},
+    {CreateAFWHNoVV,     c_AsyncFunctionWaitHandle_Create_false, DSSA, SNone,
+                           {{SSA, 0}, {SSA, 1}, {SSA, 2}, {SSA, 3}, {SSA, 4}}},
+#else
     {CreateAFWH,         &c_AsyncFunctionWaitHandle::Create<true>, DSSA, SNone,
                            {{SSA, 0}, {SSA, 1}, {SSA, 2}, {SSA, 3}, {SSA, 4}}},
     {CreateAFWHNoVV,     &c_AsyncFunctionWaitHandle::Create<false>, DSSA, SNone,
                            {{SSA, 0}, {SSA, 1}, {SSA, 2}, {SSA, 3}, {SSA, 4}}},
+#endif
     {CreateSSWH,         &c_StaticWaitHandle::CreateSucceeded, DSSA, SNone,
                            {{TV, 0}}},
     {AFWHPrepareChild,   &c_AsyncFunctionWaitHandle::PrepareChild, DSSA, SSync,
@@ -379,27 +399,25 @@ static CallMap s_callMap {
                            {{SSA, 0}}},
 
     /* MInstrTranslator helpers */
-    {SetOpElem, setOpElem, DTV, SSync,
-                 {{SSA, 0}, {TV, 1}, {TV, 2}, {SSA, 3},
-                  extra(&SetOpData::op)}},
-    {IncDecElem, incDecElem, DTV, SSync,
-                 {{SSA, 0}, {TV, 1}, {SSA, 2},
-                  extra(&IncDecData::op)}},
+    {SetOpElem, MInstrHelpers::setOpElem, DTV, SSync,
+                 {{SSA, 0}, {TV, 1}, {TV, 2}, extra(&SetOpData::op)}},
+    {IncDecElem, MInstrHelpers::incDecElem, DTV, SSync,
+                 {{SSA, 0}, {TV, 1}, extra(&IncDecData::op)}},
     {SetNewElem, setNewElem, DNone, SSync, {{SSA, 0}, {TV, 1}}},
     {SetNewElemArray, setNewElemArray, DNone, SSync, {{SSA, 0}, {TV, 1}}},
-    {BindNewElem, bindNewElemIR, DNone, SSync,
-                 {{SSA, 0}, {SSA, 1}, {SSA, 2}}},
+    {BindNewElem, MInstrHelpers::bindNewElem, DNone, SSync,
+                  {{SSA, 0}, {SSA, 1}}},
     {StringGet, MInstrHelpers::stringGetI, DSSA, SSync, {{SSA, 0}, {SSA, 1}}},
 
     {PairIsset, MInstrHelpers::pairIsset, DSSA, SSync, {{SSA, 0}, {SSA, 1}}},
     {VectorIsset, MInstrHelpers::vectorIsset, DSSA, SSync,
                   {{SSA, 0}, {SSA, 1}}},
     {BindElem, MInstrHelpers::bindElemC, DNone, SSync,
-                 {{SSA, 0}, {TV, 1}, {SSA, 2}, {SSA, 3}}},
-    {SetWithRefElem, MInstrHelpers::setWithRefElemC, DNone, SSync,
-                 {{SSA, 0}, {TV, 1}, {TV, 2}, {SSA, 3}}},
-    {SetWithRefNewElem, MInstrHelpers::setWithRefNewElem, DNone, SSync,
                  {{SSA, 0}, {TV, 1}, {SSA, 2}}},
+    {SetWithRefElem, MInstrHelpers::setWithRefElemC, DNone, SSync,
+                 {{SSA, 0}, {TV, 1}, {TV, 2}}},
+    {SetWithRefNewElem, MInstrHelpers::setWithRefNewElem, DNone, SSync,
+                 {{SSA, 0}, {TV, 1}}},
     {ThrowOutOfBounds, throwOOB, DNone, SSync, {{SSA, 0}}},
 
     /* instanceof checks */

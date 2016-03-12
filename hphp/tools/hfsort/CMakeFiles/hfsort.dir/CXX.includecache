@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/tmp/hhvm-3.11.1/hphp/tools/hfsort/hfsort.cpp
+/tmp/hhvm-3.12.1/hphp/tools/hfsort/hfsort.cpp
 hphp/tools/hfsort/hfutil.h
-/tmp/hhvm-3.11.1/hphp/tools/hfsort/hphp/tools/hfsort/hfutil.h
+/tmp/hhvm-3.12.1/hphp/tools/hfsort/hphp/tools/hfsort/hfutil.h
 stdio.h
 -
 assert.h
@@ -24,11 +24,11 @@ cxxabi.h
 folly/Format.h
 -
 hphp/util/text-util.h
-/tmp/hhvm-3.11.1/hphp/tools/hfsort/hphp/util/text-util.h
+/tmp/hhvm-3.12.1/hphp/tools/hfsort/hphp/util/text-util.h
 
-/tmp/hhvm-3.11.1/hphp/tools/hfsort/hfutil.cpp
+/tmp/hhvm-3.12.1/hphp/tools/hfsort/hfutil.cpp
 hphp/tools/hfsort/hfutil.h
-/tmp/hhvm-3.11.1/hphp/tools/hfsort/hphp/tools/hfsort/hfutil.h
+/tmp/hhvm-3.12.1/hphp/tools/hfsort/hphp/tools/hfsort/hfutil.h
 set
 -
 stdio.h
@@ -52,6 +52,14 @@ unordered_map
 map
 -
 
+hphp/util/locale-portability.h
+locale.h
+-
+langinfo.h
+-
+xlocale.h
+-
+
 hphp/util/portability.h
 folly/Likely.h
 -
@@ -60,6 +68,34 @@ folly/Portability.h
 folly/CPortability.h
 -
 sys/param.h
+-
+hphp/util/portability/fnmatch.h
+hphp/util/hphp/util/portability/fnmatch.h
+hphp/util/portability/glob.h
+hphp/util/hphp/util/portability/glob.h
+hphp/util/portability/rand_r.h
+hphp/util/hphp/util/portability/rand_r.h
+hphp/util/portability/strfmon.h
+hphp/util/hphp/util/portability/strfmon.h
+hphp/util/portability/strptime.h
+hphp/util/hphp/util/portability/strptime.h
+
+hphp/util/portability/fnmatch.h
+
+hphp/util/portability/glob.h
+
+hphp/util/portability/rand_r.h
+
+hphp/util/portability/strfmon.h
+hphp/util/locale-portability.h
+hphp/util/portability/hphp/util/locale-portability.h
+folly/Portability.h
+-
+stdint.h
+-
+
+hphp/util/portability/strptime.h
+time.h
 -
 
 hphp/util/text-util.h

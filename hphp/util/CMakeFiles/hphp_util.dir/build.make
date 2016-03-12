@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.1
 
 # Include any dependencies generated for this target.
 include hphp/util/CMakeFiles/hphp_util.dir/depend.make
@@ -111,25 +111,25 @@ hphp/util/../hphp-repo-schema.h: hphp/util/cache/cache-data.cpp
 hphp/util/../hphp-repo-schema.h: hphp/util/cache/cache-manager.cpp
 hphp/util/../hphp-repo-schema.h: hphp/util/cache/cache-saver.cpp
 hphp/util/../hphp-repo-schema.h: hphp/util/cache/mmap-file.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Repo Schema ID and Compiler ID"
-	cd /tmp/hhvm-3.11.1/hphp/util && /tmp/hhvm-3.11.1/hphp/util/generate-buildinfo.sh
+	cd /tmp/hhvm-3.12.1/hphp/util && /tmp/hhvm-3.12.1/hphp/util/generate-buildinfo.sh
 
 hphp/util/../hphp-build-info.cpp: hphp/util/../hphp-repo-schema.h
 
 hphp/util/CMakeFiles/hphp_util.dir/abi-cxx.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/abi-cxx.cpp.o: hphp/util/abi-cxx.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/abi-cxx.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/abi-cxx.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/abi-cxx.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/abi-cxx.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/abi-cxx.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/abi-cxx.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/abi-cxx.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/abi-cxx.cpp > CMakeFiles/hphp_util.dir/abi-cxx.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/abi-cxx.cpp > CMakeFiles/hphp_util.dir/abi-cxx.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/abi-cxx.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/abi-cxx.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/abi-cxx.cpp -o CMakeFiles/hphp_util.dir/abi-cxx.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/abi-cxx.cpp -o CMakeFiles/hphp_util.dir/abi-cxx.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/abi-cxx.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/abi-cxx.cpp.o.requires
@@ -142,17 +142,17 @@ hphp/util/CMakeFiles/hphp_util.dir/abi-cxx.cpp.o.provides.build: hphp/util/CMake
 
 hphp/util/CMakeFiles/hphp_util.dir/afdt-util.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/afdt-util.cpp.o: hphp/util/afdt-util.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/afdt-util.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/afdt-util.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/afdt-util.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/afdt-util.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/afdt-util.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/afdt-util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/afdt-util.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/afdt-util.cpp > CMakeFiles/hphp_util.dir/afdt-util.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/afdt-util.cpp > CMakeFiles/hphp_util.dir/afdt-util.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/afdt-util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/afdt-util.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/afdt-util.cpp -o CMakeFiles/hphp_util.dir/afdt-util.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/afdt-util.cpp -o CMakeFiles/hphp_util.dir/afdt-util.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/afdt-util.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/afdt-util.cpp.o.requires
@@ -165,17 +165,17 @@ hphp/util/CMakeFiles/hphp_util.dir/afdt-util.cpp.o.provides.build: hphp/util/CMa
 
 hphp/util/CMakeFiles/hphp_util.dir/alloc.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/alloc.cpp.o: hphp/util/alloc.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/alloc.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/alloc.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/alloc.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/alloc.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/alloc.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/alloc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/alloc.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/alloc.cpp > CMakeFiles/hphp_util.dir/alloc.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/alloc.cpp > CMakeFiles/hphp_util.dir/alloc.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/alloc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/alloc.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/alloc.cpp -o CMakeFiles/hphp_util.dir/alloc.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/alloc.cpp -o CMakeFiles/hphp_util.dir/alloc.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/alloc.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/alloc.cpp.o.requires
@@ -188,17 +188,17 @@ hphp/util/CMakeFiles/hphp_util.dir/alloc.cpp.o.provides.build: hphp/util/CMakeFi
 
 hphp/util/CMakeFiles/hphp_util.dir/arena.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/arena.cpp.o: hphp/util/arena.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/arena.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/arena.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/arena.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/arena.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/arena.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/arena.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/arena.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/arena.cpp > CMakeFiles/hphp_util.dir/arena.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/arena.cpp > CMakeFiles/hphp_util.dir/arena.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/arena.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/arena.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/arena.cpp -o CMakeFiles/hphp_util.dir/arena.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/arena.cpp -o CMakeFiles/hphp_util.dir/arena.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/arena.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/arena.cpp.o.requires
@@ -211,17 +211,17 @@ hphp/util/CMakeFiles/hphp_util.dir/arena.cpp.o.provides.build: hphp/util/CMakeFi
 
 hphp/util/CMakeFiles/hphp_util.dir/asm-x64.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/asm-x64.cpp.o: hphp/util/asm-x64.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/asm-x64.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/asm-x64.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/asm-x64.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/asm-x64.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/asm-x64.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/asm-x64.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/asm-x64.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/asm-x64.cpp > CMakeFiles/hphp_util.dir/asm-x64.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/asm-x64.cpp > CMakeFiles/hphp_util.dir/asm-x64.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/asm-x64.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/asm-x64.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/asm-x64.cpp -o CMakeFiles/hphp_util.dir/asm-x64.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/asm-x64.cpp -o CMakeFiles/hphp_util.dir/asm-x64.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/asm-x64.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/asm-x64.cpp.o.requires
@@ -234,17 +234,17 @@ hphp/util/CMakeFiles/hphp_util.dir/asm-x64.cpp.o.provides.build: hphp/util/CMake
 
 hphp/util/CMakeFiles/hphp_util.dir/assertions.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/assertions.cpp.o: hphp/util/assertions.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/assertions.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/assertions.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/assertions.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/assertions.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/assertions.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/assertions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/assertions.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/assertions.cpp > CMakeFiles/hphp_util.dir/assertions.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/assertions.cpp > CMakeFiles/hphp_util.dir/assertions.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/assertions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/assertions.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/assertions.cpp -o CMakeFiles/hphp_util.dir/assertions.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/assertions.cpp -o CMakeFiles/hphp_util.dir/assertions.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/assertions.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/assertions.cpp.o.requires
@@ -257,17 +257,17 @@ hphp/util/CMakeFiles/hphp_util.dir/assertions.cpp.o.provides.build: hphp/util/CM
 
 hphp/util/CMakeFiles/hphp_util.dir/async-func.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/async-func.cpp.o: hphp/util/async-func.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/async-func.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/async-func.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/async-func.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/async-func.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/async-func.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/async-func.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/async-func.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/async-func.cpp > CMakeFiles/hphp_util.dir/async-func.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/async-func.cpp > CMakeFiles/hphp_util.dir/async-func.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/async-func.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/async-func.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/async-func.cpp -o CMakeFiles/hphp_util.dir/async-func.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/async-func.cpp -o CMakeFiles/hphp_util.dir/async-func.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/async-func.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/async-func.cpp.o.requires
@@ -280,17 +280,17 @@ hphp/util/CMakeFiles/hphp_util.dir/async-func.cpp.o.provides.build: hphp/util/CM
 
 hphp/util/CMakeFiles/hphp_util.dir/async-job.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/async-job.cpp.o: hphp/util/async-job.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/async-job.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/async-job.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/async-job.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/async-job.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/async-job.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/async-job.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/async-job.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/async-job.cpp > CMakeFiles/hphp_util.dir/async-job.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/async-job.cpp > CMakeFiles/hphp_util.dir/async-job.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/async-job.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/async-job.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/async-job.cpp -o CMakeFiles/hphp_util.dir/async-job.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/async-job.cpp -o CMakeFiles/hphp_util.dir/async-job.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/async-job.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/async-job.cpp.o.requires
@@ -303,17 +303,17 @@ hphp/util/CMakeFiles/hphp_util.dir/async-job.cpp.o.provides.build: hphp/util/CMa
 
 hphp/util/CMakeFiles/hphp_util.dir/boot_timer.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/boot_timer.cpp.o: hphp/util/boot_timer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/boot_timer.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/boot_timer.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/boot_timer.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/boot_timer.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/boot_timer.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/boot_timer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/boot_timer.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/boot_timer.cpp > CMakeFiles/hphp_util.dir/boot_timer.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/boot_timer.cpp > CMakeFiles/hphp_util.dir/boot_timer.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/boot_timer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/boot_timer.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/boot_timer.cpp -o CMakeFiles/hphp_util.dir/boot_timer.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/boot_timer.cpp -o CMakeFiles/hphp_util.dir/boot_timer.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/boot_timer.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/boot_timer.cpp.o.requires
@@ -326,17 +326,17 @@ hphp/util/CMakeFiles/hphp_util.dir/boot_timer.cpp.o.provides.build: hphp/util/CM
 
 hphp/util/CMakeFiles/hphp_util.dir/bstring.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/bstring.cpp.o: hphp/util/bstring.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/bstring.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/bstring.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/bstring.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/bstring.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/bstring.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/bstring.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/bstring.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/bstring.cpp > CMakeFiles/hphp_util.dir/bstring.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/bstring.cpp > CMakeFiles/hphp_util.dir/bstring.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/bstring.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/bstring.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/bstring.cpp -o CMakeFiles/hphp_util.dir/bstring.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/bstring.cpp -o CMakeFiles/hphp_util.dir/bstring.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/bstring.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/bstring.cpp.o.requires
@@ -349,17 +349,17 @@ hphp/util/CMakeFiles/hphp_util.dir/bstring.cpp.o.provides.build: hphp/util/CMake
 
 hphp/util/CMakeFiles/hphp_util.dir/capability.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/capability.cpp.o: hphp/util/capability.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/capability.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/capability.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/capability.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/capability.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/capability.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/capability.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/capability.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/capability.cpp > CMakeFiles/hphp_util.dir/capability.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/capability.cpp > CMakeFiles/hphp_util.dir/capability.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/capability.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/capability.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/capability.cpp -o CMakeFiles/hphp_util.dir/capability.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/capability.cpp -o CMakeFiles/hphp_util.dir/capability.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/capability.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/capability.cpp.o.requires
@@ -372,17 +372,17 @@ hphp/util/CMakeFiles/hphp_util.dir/capability.cpp.o.provides.build: hphp/util/CM
 
 hphp/util/CMakeFiles/hphp_util.dir/code-cache.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/code-cache.cpp.o: hphp/util/code-cache.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/code-cache.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/code-cache.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/code-cache.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/code-cache.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/code-cache.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/code-cache.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/code-cache.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/code-cache.cpp > CMakeFiles/hphp_util.dir/code-cache.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/code-cache.cpp > CMakeFiles/hphp_util.dir/code-cache.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/code-cache.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/code-cache.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/code-cache.cpp -o CMakeFiles/hphp_util.dir/code-cache.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/code-cache.cpp -o CMakeFiles/hphp_util.dir/code-cache.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/code-cache.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/code-cache.cpp.o.requires
@@ -395,17 +395,17 @@ hphp/util/CMakeFiles/hphp_util.dir/code-cache.cpp.o.provides.build: hphp/util/CM
 
 hphp/util/CMakeFiles/hphp_util.dir/compatibility.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/compatibility.cpp.o: hphp/util/compatibility.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/compatibility.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/compatibility.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/compatibility.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/compatibility.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/compatibility.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/compatibility.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/compatibility.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/compatibility.cpp > CMakeFiles/hphp_util.dir/compatibility.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/compatibility.cpp > CMakeFiles/hphp_util.dir/compatibility.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/compatibility.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/compatibility.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/compatibility.cpp -o CMakeFiles/hphp_util.dir/compatibility.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/compatibility.cpp -o CMakeFiles/hphp_util.dir/compatibility.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/compatibility.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/compatibility.cpp.o.requires
@@ -418,17 +418,17 @@ hphp/util/CMakeFiles/hphp_util.dir/compatibility.cpp.o.provides.build: hphp/util
 
 hphp/util/CMakeFiles/hphp_util.dir/compression.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/compression.cpp.o: hphp/util/compression.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/compression.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/compression.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/compression.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/compression.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/compression.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/compression.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/compression.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/compression.cpp > CMakeFiles/hphp_util.dir/compression.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/compression.cpp > CMakeFiles/hphp_util.dir/compression.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/compression.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/compression.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/compression.cpp -o CMakeFiles/hphp_util.dir/compression.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/compression.cpp -o CMakeFiles/hphp_util.dir/compression.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/compression.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/compression.cpp.o.requires
@@ -441,17 +441,17 @@ hphp/util/CMakeFiles/hphp_util.dir/compression.cpp.o.provides.build: hphp/util/C
 
 hphp/util/CMakeFiles/hphp_util.dir/cronolog.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/cronolog.cpp.o: hphp/util/cronolog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/cronolog.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/cronolog.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/cronolog.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/cronolog.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/cronolog.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/cronolog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/cronolog.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/cronolog.cpp > CMakeFiles/hphp_util.dir/cronolog.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/cronolog.cpp > CMakeFiles/hphp_util.dir/cronolog.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/cronolog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/cronolog.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/cronolog.cpp -o CMakeFiles/hphp_util.dir/cronolog.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/cronolog.cpp -o CMakeFiles/hphp_util.dir/cronolog.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/cronolog.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/cronolog.cpp.o.requires
@@ -464,17 +464,17 @@ hphp/util/CMakeFiles/hphp_util.dir/cronolog.cpp.o.provides.build: hphp/util/CMak
 
 hphp/util/CMakeFiles/hphp_util.dir/cronoutils.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/cronoutils.cpp.o: hphp/util/cronoutils.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/cronoutils.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/cronoutils.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/cronoutils.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/cronoutils.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/cronoutils.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/cronoutils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/cronoutils.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/cronoutils.cpp > CMakeFiles/hphp_util.dir/cronoutils.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/cronoutils.cpp > CMakeFiles/hphp_util.dir/cronoutils.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/cronoutils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/cronoutils.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/cronoutils.cpp -o CMakeFiles/hphp_util.dir/cronoutils.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/cronoutils.cpp -o CMakeFiles/hphp_util.dir/cronoutils.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/cronoutils.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/cronoutils.cpp.o.requires
@@ -487,17 +487,17 @@ hphp/util/CMakeFiles/hphp_util.dir/cronoutils.cpp.o.provides.build: hphp/util/CM
 
 hphp/util/CMakeFiles/hphp_util.dir/current-executable.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/current-executable.cpp.o: hphp/util/current-executable.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/current-executable.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/current-executable.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/current-executable.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/current-executable.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/current-executable.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/current-executable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/current-executable.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/current-executable.cpp > CMakeFiles/hphp_util.dir/current-executable.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/current-executable.cpp > CMakeFiles/hphp_util.dir/current-executable.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/current-executable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/current-executable.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/current-executable.cpp -o CMakeFiles/hphp_util.dir/current-executable.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/current-executable.cpp -o CMakeFiles/hphp_util.dir/current-executable.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/current-executable.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/current-executable.cpp.o.requires
@@ -510,17 +510,17 @@ hphp/util/CMakeFiles/hphp_util.dir/current-executable.cpp.o.provides.build: hphp
 
 hphp/util/CMakeFiles/hphp_util.dir/data-block.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/data-block.cpp.o: hphp/util/data-block.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/data-block.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/data-block.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/data-block.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/data-block.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/data-block.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/data-block.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/data-block.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/data-block.cpp > CMakeFiles/hphp_util.dir/data-block.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/data-block.cpp > CMakeFiles/hphp_util.dir/data-block.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/data-block.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/data-block.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/data-block.cpp -o CMakeFiles/hphp_util.dir/data-block.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/data-block.cpp -o CMakeFiles/hphp_util.dir/data-block.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/data-block.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/data-block.cpp.o.requires
@@ -533,17 +533,17 @@ hphp/util/CMakeFiles/hphp_util.dir/data-block.cpp.o.provides.build: hphp/util/CM
 
 hphp/util/CMakeFiles/hphp_util.dir/disasm.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/disasm.cpp.o: hphp/util/disasm.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/disasm.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/disasm.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/disasm.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/disasm.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/disasm.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/disasm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/disasm.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/disasm.cpp > CMakeFiles/hphp_util.dir/disasm.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/disasm.cpp > CMakeFiles/hphp_util.dir/disasm.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/disasm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/disasm.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/disasm.cpp -o CMakeFiles/hphp_util.dir/disasm.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/disasm.cpp -o CMakeFiles/hphp_util.dir/disasm.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/disasm.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/disasm.cpp.o.requires
@@ -556,17 +556,17 @@ hphp/util/CMakeFiles/hphp_util.dir/disasm.cpp.o.provides.build: hphp/util/CMakeF
 
 hphp/util/CMakeFiles/hphp_util.dir/embedded-data.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/embedded-data.cpp.o: hphp/util/embedded-data.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/embedded-data.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/embedded-data.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/embedded-data.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/embedded-data.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/embedded-data.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/embedded-data.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/embedded-data.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/embedded-data.cpp > CMakeFiles/hphp_util.dir/embedded-data.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/embedded-data.cpp > CMakeFiles/hphp_util.dir/embedded-data.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/embedded-data.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/embedded-data.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/embedded-data.cpp -o CMakeFiles/hphp_util.dir/embedded-data.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/embedded-data.cpp -o CMakeFiles/hphp_util.dir/embedded-data.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/embedded-data.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/embedded-data.cpp.o.requires
@@ -579,17 +579,17 @@ hphp/util/CMakeFiles/hphp_util.dir/embedded-data.cpp.o.provides.build: hphp/util
 
 hphp/util/CMakeFiles/hphp_util.dir/embedded-vfs.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/embedded-vfs.cpp.o: hphp/util/embedded-vfs.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/embedded-vfs.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/embedded-vfs.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/embedded-vfs.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/embedded-vfs.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/embedded-vfs.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/embedded-vfs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/embedded-vfs.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/embedded-vfs.cpp > CMakeFiles/hphp_util.dir/embedded-vfs.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/embedded-vfs.cpp > CMakeFiles/hphp_util.dir/embedded-vfs.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/embedded-vfs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/embedded-vfs.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/embedded-vfs.cpp -o CMakeFiles/hphp_util.dir/embedded-vfs.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/embedded-vfs.cpp -o CMakeFiles/hphp_util.dir/embedded-vfs.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/embedded-vfs.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/embedded-vfs.cpp.o.requires
@@ -602,17 +602,17 @@ hphp/util/CMakeFiles/hphp_util.dir/embedded-vfs.cpp.o.provides.build: hphp/util/
 
 hphp/util/CMakeFiles/hphp_util.dir/exception.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/exception.cpp.o: hphp/util/exception.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/exception.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/exception.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/exception.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/exception.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/exception.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/exception.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/exception.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/exception.cpp > CMakeFiles/hphp_util.dir/exception.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/exception.cpp > CMakeFiles/hphp_util.dir/exception.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/exception.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/exception.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/exception.cpp -o CMakeFiles/hphp_util.dir/exception.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/exception.cpp -o CMakeFiles/hphp_util.dir/exception.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/exception.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/exception.cpp.o.requires
@@ -625,17 +625,17 @@ hphp/util/CMakeFiles/hphp_util.dir/exception.cpp.o.provides.build: hphp/util/CMa
 
 hphp/util/CMakeFiles/hphp_util.dir/file-cache.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/file-cache.cpp.o: hphp/util/file-cache.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/file-cache.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/file-cache.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/file-cache.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/file-cache.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/file-cache.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/file-cache.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/file-cache.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/file-cache.cpp > CMakeFiles/hphp_util.dir/file-cache.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/file-cache.cpp > CMakeFiles/hphp_util.dir/file-cache.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/file-cache.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/file-cache.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/file-cache.cpp -o CMakeFiles/hphp_util.dir/file-cache.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/file-cache.cpp -o CMakeFiles/hphp_util.dir/file-cache.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/file-cache.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/file-cache.cpp.o.requires
@@ -648,17 +648,17 @@ hphp/util/CMakeFiles/hphp_util.dir/file-cache.cpp.o.provides.build: hphp/util/CM
 
 hphp/util/CMakeFiles/hphp_util.dir/hardware-counter.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/hardware-counter.cpp.o: hphp/util/hardware-counter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/hardware-counter.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/hardware-counter.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/hardware-counter.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/hardware-counter.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/hardware-counter.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/hardware-counter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/hardware-counter.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/hardware-counter.cpp > CMakeFiles/hphp_util.dir/hardware-counter.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/hardware-counter.cpp > CMakeFiles/hphp_util.dir/hardware-counter.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/hardware-counter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/hardware-counter.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/hardware-counter.cpp -o CMakeFiles/hphp_util.dir/hardware-counter.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/hardware-counter.cpp -o CMakeFiles/hphp_util.dir/hardware-counter.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/hardware-counter.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/hardware-counter.cpp.o.requires
@@ -671,17 +671,17 @@ hphp/util/CMakeFiles/hphp_util.dir/hardware-counter.cpp.o.provides.build: hphp/u
 
 hphp/util/CMakeFiles/hphp_util.dir/hash.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/hash.cpp.o: hphp/util/hash.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/hash.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/hash.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/hash.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/hash.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/hash.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/hash.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/hash.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/hash.cpp > CMakeFiles/hphp_util.dir/hash.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/hash.cpp > CMakeFiles/hphp_util.dir/hash.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/hash.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/hash.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/hash.cpp -o CMakeFiles/hphp_util.dir/hash.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/hash.cpp -o CMakeFiles/hphp_util.dir/hash.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/hash.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/hash.cpp.o.requires
@@ -694,17 +694,17 @@ hphp/util/CMakeFiles/hphp_util.dir/hash.cpp.o.provides.build: hphp/util/CMakeFil
 
 hphp/util/CMakeFiles/hphp_util.dir/hdf.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/hdf.cpp.o: hphp/util/hdf.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/hdf.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/hdf.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/hdf.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/hdf.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/hdf.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/hdf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/hdf.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/hdf.cpp > CMakeFiles/hphp_util.dir/hdf.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/hdf.cpp > CMakeFiles/hphp_util.dir/hdf.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/hdf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/hdf.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/hdf.cpp -o CMakeFiles/hphp_util.dir/hdf.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/hdf.cpp -o CMakeFiles/hphp_util.dir/hdf.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/hdf.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/hdf.cpp.o.requires
@@ -717,17 +717,17 @@ hphp/util/CMakeFiles/hphp_util.dir/hdf.cpp.o.provides.build: hphp/util/CMakeFile
 
 hphp/util/CMakeFiles/hphp_util.dir/kernel-version.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/kernel-version.cpp.o: hphp/util/kernel-version.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/kernel-version.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/kernel-version.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/kernel-version.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/kernel-version.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/kernel-version.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/kernel-version.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/kernel-version.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/kernel-version.cpp > CMakeFiles/hphp_util.dir/kernel-version.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/kernel-version.cpp > CMakeFiles/hphp_util.dir/kernel-version.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/kernel-version.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/kernel-version.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/kernel-version.cpp -o CMakeFiles/hphp_util.dir/kernel-version.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/kernel-version.cpp -o CMakeFiles/hphp_util.dir/kernel-version.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/kernel-version.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/kernel-version.cpp.o.requires
@@ -740,17 +740,17 @@ hphp/util/CMakeFiles/hphp_util.dir/kernel-version.cpp.o.provides.build: hphp/uti
 
 hphp/util/CMakeFiles/hphp_util.dir/light-process.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/light-process.cpp.o: hphp/util/light-process.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/light-process.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/light-process.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/light-process.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/light-process.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/light-process.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/light-process.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/light-process.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/light-process.cpp > CMakeFiles/hphp_util.dir/light-process.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/light-process.cpp > CMakeFiles/hphp_util.dir/light-process.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/light-process.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/light-process.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/light-process.cpp -o CMakeFiles/hphp_util.dir/light-process.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/light-process.cpp -o CMakeFiles/hphp_util.dir/light-process.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/light-process.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/light-process.cpp.o.requires
@@ -763,17 +763,17 @@ hphp/util/CMakeFiles/hphp_util.dir/light-process.cpp.o.provides.build: hphp/util
 
 hphp/util/CMakeFiles/hphp_util.dir/lock.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/lock.cpp.o: hphp/util/lock.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/lock.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/lock.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/lock.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/lock.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/lock.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/lock.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/lock.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/lock.cpp > CMakeFiles/hphp_util.dir/lock.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/lock.cpp > CMakeFiles/hphp_util.dir/lock.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/lock.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/lock.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/lock.cpp -o CMakeFiles/hphp_util.dir/lock.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/lock.cpp -o CMakeFiles/hphp_util.dir/lock.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/lock.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/lock.cpp.o.requires
@@ -786,17 +786,17 @@ hphp/util/CMakeFiles/hphp_util.dir/lock.cpp.o.provides.build: hphp/util/CMakeFil
 
 hphp/util/CMakeFiles/hphp_util.dir/log-file-flusher.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/log-file-flusher.cpp.o: hphp/util/log-file-flusher.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_31)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/log-file-flusher.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/log-file-flusher.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/log-file-flusher.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/log-file-flusher.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/log-file-flusher.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/log-file-flusher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/log-file-flusher.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/log-file-flusher.cpp > CMakeFiles/hphp_util.dir/log-file-flusher.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/log-file-flusher.cpp > CMakeFiles/hphp_util.dir/log-file-flusher.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/log-file-flusher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/log-file-flusher.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/log-file-flusher.cpp -o CMakeFiles/hphp_util.dir/log-file-flusher.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/log-file-flusher.cpp -o CMakeFiles/hphp_util.dir/log-file-flusher.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/log-file-flusher.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/log-file-flusher.cpp.o.requires
@@ -809,17 +809,17 @@ hphp/util/CMakeFiles/hphp_util.dir/log-file-flusher.cpp.o.provides.build: hphp/u
 
 hphp/util/CMakeFiles/hphp_util.dir/logger.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/logger.cpp.o: hphp/util/logger.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_32)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_32)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/logger.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/logger.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/logger.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/logger.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/logger.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/logger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/logger.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/logger.cpp > CMakeFiles/hphp_util.dir/logger.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/logger.cpp > CMakeFiles/hphp_util.dir/logger.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/logger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/logger.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/logger.cpp -o CMakeFiles/hphp_util.dir/logger.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/logger.cpp -o CMakeFiles/hphp_util.dir/logger.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/logger.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/logger.cpp.o.requires
@@ -832,17 +832,17 @@ hphp/util/CMakeFiles/hphp_util.dir/logger.cpp.o.provides.build: hphp/util/CMakeF
 
 hphp/util/CMakeFiles/hphp_util.dir/maphuge.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/maphuge.cpp.o: hphp/util/maphuge.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_33)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_33)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/maphuge.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/maphuge.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/maphuge.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/maphuge.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/maphuge.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/maphuge.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/maphuge.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/maphuge.cpp > CMakeFiles/hphp_util.dir/maphuge.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/maphuge.cpp > CMakeFiles/hphp_util.dir/maphuge.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/maphuge.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/maphuge.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/maphuge.cpp -o CMakeFiles/hphp_util.dir/maphuge.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/maphuge.cpp -o CMakeFiles/hphp_util.dir/maphuge.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/maphuge.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/maphuge.cpp.o.requires
@@ -855,17 +855,17 @@ hphp/util/CMakeFiles/hphp_util.dir/maphuge.cpp.o.provides.build: hphp/util/CMake
 
 hphp/util/CMakeFiles/hphp_util.dir/network.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/network.cpp.o: hphp/util/network.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_34)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_34)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/network.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/network.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/network.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/network.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/network.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/network.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/network.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/network.cpp > CMakeFiles/hphp_util.dir/network.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/network.cpp > CMakeFiles/hphp_util.dir/network.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/network.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/network.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/network.cpp -o CMakeFiles/hphp_util.dir/network.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/network.cpp -o CMakeFiles/hphp_util.dir/network.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/network.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/network.cpp.o.requires
@@ -878,17 +878,17 @@ hphp/util/CMakeFiles/hphp_util.dir/network.cpp.o.provides.build: hphp/util/CMake
 
 hphp/util/CMakeFiles/hphp_util.dir/process.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/process.cpp.o: hphp/util/process.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_35)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_35)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/process.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/process.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/process.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/process.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/process.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/process.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/process.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/process.cpp > CMakeFiles/hphp_util.dir/process.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/process.cpp > CMakeFiles/hphp_util.dir/process.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/process.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/process.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/process.cpp -o CMakeFiles/hphp_util.dir/process.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/process.cpp -o CMakeFiles/hphp_util.dir/process.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/process.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/process.cpp.o.requires
@@ -901,17 +901,17 @@ hphp/util/CMakeFiles/hphp_util.dir/process.cpp.o.provides.build: hphp/util/CMake
 
 hphp/util/CMakeFiles/hphp_util.dir/rank.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/rank.cpp.o: hphp/util/rank.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_36)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_36)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/rank.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/rank.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/rank.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/rank.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/rank.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/rank.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/rank.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/rank.cpp > CMakeFiles/hphp_util.dir/rank.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/rank.cpp > CMakeFiles/hphp_util.dir/rank.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/rank.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/rank.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/rank.cpp -o CMakeFiles/hphp_util.dir/rank.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/rank.cpp -o CMakeFiles/hphp_util.dir/rank.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/rank.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/rank.cpp.o.requires
@@ -924,17 +924,17 @@ hphp/util/CMakeFiles/hphp_util.dir/rank.cpp.o.provides.build: hphp/util/CMakeFil
 
 hphp/util/CMakeFiles/hphp_util.dir/read-only-arena.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/read-only-arena.cpp.o: hphp/util/read-only-arena.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_37)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_37)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/read-only-arena.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/read-only-arena.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/read-only-arena.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/read-only-arena.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/read-only-arena.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/read-only-arena.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/read-only-arena.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/read-only-arena.cpp > CMakeFiles/hphp_util.dir/read-only-arena.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/read-only-arena.cpp > CMakeFiles/hphp_util.dir/read-only-arena.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/read-only-arena.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/read-only-arena.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/read-only-arena.cpp -o CMakeFiles/hphp_util.dir/read-only-arena.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/read-only-arena.cpp -o CMakeFiles/hphp_util.dir/read-only-arena.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/read-only-arena.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/read-only-arena.cpp.o.requires
@@ -947,17 +947,17 @@ hphp/util/CMakeFiles/hphp_util.dir/read-only-arena.cpp.o.provides.build: hphp/ut
 
 hphp/util/CMakeFiles/hphp_util.dir/repo-schema.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/repo-schema.cpp.o: hphp/util/repo-schema.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_38)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_38)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/repo-schema.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/repo-schema.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/repo-schema.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/repo-schema.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/repo-schema.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/repo-schema.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/repo-schema.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/repo-schema.cpp > CMakeFiles/hphp_util.dir/repo-schema.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/repo-schema.cpp > CMakeFiles/hphp_util.dir/repo-schema.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/repo-schema.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/repo-schema.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/repo-schema.cpp -o CMakeFiles/hphp_util.dir/repo-schema.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/repo-schema.cpp -o CMakeFiles/hphp_util.dir/repo-schema.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/repo-schema.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/repo-schema.cpp.o.requires
@@ -970,17 +970,17 @@ hphp/util/CMakeFiles/hphp_util.dir/repo-schema.cpp.o.provides.build: hphp/util/C
 
 hphp/util/CMakeFiles/hphp_util.dir/ringbuffer.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/ringbuffer.cpp.o: hphp/util/ringbuffer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_39)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_39)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/ringbuffer.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/ringbuffer.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/ringbuffer.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/ringbuffer.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/ringbuffer.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/ringbuffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/ringbuffer.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/ringbuffer.cpp > CMakeFiles/hphp_util.dir/ringbuffer.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/ringbuffer.cpp > CMakeFiles/hphp_util.dir/ringbuffer.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/ringbuffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/ringbuffer.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/ringbuffer.cpp -o CMakeFiles/hphp_util.dir/ringbuffer.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/ringbuffer.cpp -o CMakeFiles/hphp_util.dir/ringbuffer.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/ringbuffer.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/ringbuffer.cpp.o.requires
@@ -993,17 +993,17 @@ hphp/util/CMakeFiles/hphp_util.dir/ringbuffer.cpp.o.provides.build: hphp/util/CM
 
 hphp/util/CMakeFiles/hphp_util.dir/safe-cast.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/safe-cast.cpp.o: hphp/util/safe-cast.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_40)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_40)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/safe-cast.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/safe-cast.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/safe-cast.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/safe-cast.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/safe-cast.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/safe-cast.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/safe-cast.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/safe-cast.cpp > CMakeFiles/hphp_util.dir/safe-cast.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/safe-cast.cpp > CMakeFiles/hphp_util.dir/safe-cast.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/safe-cast.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/safe-cast.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/safe-cast.cpp -o CMakeFiles/hphp_util.dir/safe-cast.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/safe-cast.cpp -o CMakeFiles/hphp_util.dir/safe-cast.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/safe-cast.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/safe-cast.cpp.o.requires
@@ -1016,17 +1016,17 @@ hphp/util/CMakeFiles/hphp_util.dir/safe-cast.cpp.o.provides.build: hphp/util/CMa
 
 hphp/util/CMakeFiles/hphp_util.dir/service-data.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/service-data.cpp.o: hphp/util/service-data.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_41)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_41)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/service-data.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/service-data.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/service-data.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/service-data.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/service-data.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/service-data.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/service-data.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/service-data.cpp > CMakeFiles/hphp_util.dir/service-data.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/service-data.cpp > CMakeFiles/hphp_util.dir/service-data.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/service-data.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/service-data.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/service-data.cpp -o CMakeFiles/hphp_util.dir/service-data.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/service-data.cpp -o CMakeFiles/hphp_util.dir/service-data.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/service-data.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/service-data.cpp.o.requires
@@ -1039,17 +1039,17 @@ hphp/util/CMakeFiles/hphp_util.dir/service-data.cpp.o.provides.build: hphp/util/
 
 hphp/util/CMakeFiles/hphp_util.dir/shm-counter.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/shm-counter.cpp.o: hphp/util/shm-counter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_42)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_42)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/shm-counter.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/shm-counter.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/shm-counter.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/shm-counter.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/shm-counter.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/shm-counter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/shm-counter.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/shm-counter.cpp > CMakeFiles/hphp_util.dir/shm-counter.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/shm-counter.cpp > CMakeFiles/hphp_util.dir/shm-counter.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/shm-counter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/shm-counter.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/shm-counter.cpp -o CMakeFiles/hphp_util.dir/shm-counter.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/shm-counter.cpp -o CMakeFiles/hphp_util.dir/shm-counter.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/shm-counter.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/shm-counter.cpp.o.requires
@@ -1062,17 +1062,17 @@ hphp/util/CMakeFiles/hphp_util.dir/shm-counter.cpp.o.provides.build: hphp/util/C
 
 hphp/util/CMakeFiles/hphp_util.dir/ssl-init.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/ssl-init.cpp.o: hphp/util/ssl-init.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_43)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_43)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/ssl-init.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/ssl-init.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/ssl-init.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/ssl-init.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/ssl-init.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/ssl-init.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/ssl-init.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/ssl-init.cpp > CMakeFiles/hphp_util.dir/ssl-init.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/ssl-init.cpp > CMakeFiles/hphp_util.dir/ssl-init.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/ssl-init.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/ssl-init.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/ssl-init.cpp -o CMakeFiles/hphp_util.dir/ssl-init.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/ssl-init.cpp -o CMakeFiles/hphp_util.dir/ssl-init.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/ssl-init.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/ssl-init.cpp.o.requires
@@ -1085,17 +1085,17 @@ hphp/util/CMakeFiles/hphp_util.dir/ssl-init.cpp.o.provides.build: hphp/util/CMak
 
 hphp/util/CMakeFiles/hphp_util.dir/stack-trace.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/stack-trace.cpp.o: hphp/util/stack-trace.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_44)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_44)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/stack-trace.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/stack-trace.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/stack-trace.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/stack-trace.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/stack-trace.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/stack-trace.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/stack-trace.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/stack-trace.cpp > CMakeFiles/hphp_util.dir/stack-trace.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/stack-trace.cpp > CMakeFiles/hphp_util.dir/stack-trace.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/stack-trace.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/stack-trace.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/stack-trace.cpp -o CMakeFiles/hphp_util.dir/stack-trace.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/stack-trace.cpp -o CMakeFiles/hphp_util.dir/stack-trace.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/stack-trace.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/stack-trace.cpp.o.requires
@@ -1108,17 +1108,17 @@ hphp/util/CMakeFiles/hphp_util.dir/stack-trace.cpp.o.provides.build: hphp/util/C
 
 hphp/util/CMakeFiles/hphp_util.dir/stacktrace-profiler.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/stacktrace-profiler.cpp.o: hphp/util/stacktrace-profiler.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_45)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_45)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/stacktrace-profiler.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/stacktrace-profiler.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/stacktrace-profiler.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/stacktrace-profiler.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/stacktrace-profiler.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/stacktrace-profiler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/stacktrace-profiler.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/stacktrace-profiler.cpp > CMakeFiles/hphp_util.dir/stacktrace-profiler.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/stacktrace-profiler.cpp > CMakeFiles/hphp_util.dir/stacktrace-profiler.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/stacktrace-profiler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/stacktrace-profiler.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/stacktrace-profiler.cpp -o CMakeFiles/hphp_util.dir/stacktrace-profiler.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/stacktrace-profiler.cpp -o CMakeFiles/hphp_util.dir/stacktrace-profiler.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/stacktrace-profiler.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/stacktrace-profiler.cpp.o.requires
@@ -1131,17 +1131,17 @@ hphp/util/CMakeFiles/hphp_util.dir/stacktrace-profiler.cpp.o.provides.build: hph
 
 hphp/util/CMakeFiles/hphp_util.dir/string-bag.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/string-bag.cpp.o: hphp/util/string-bag.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_46)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_46)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/string-bag.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/string-bag.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/string-bag.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/string-bag.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/string-bag.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/string-bag.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/string-bag.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/string-bag.cpp > CMakeFiles/hphp_util.dir/string-bag.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/string-bag.cpp > CMakeFiles/hphp_util.dir/string-bag.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/string-bag.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/string-bag.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/string-bag.cpp -o CMakeFiles/hphp_util.dir/string-bag.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/string-bag.cpp -o CMakeFiles/hphp_util.dir/string-bag.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/string-bag.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/string-bag.cpp.o.requires
@@ -1154,17 +1154,17 @@ hphp/util/CMakeFiles/hphp_util.dir/string-bag.cpp.o.provides.build: hphp/util/CM
 
 hphp/util/CMakeFiles/hphp_util.dir/string-vsnprintf.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/string-vsnprintf.cpp.o: hphp/util/string-vsnprintf.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_47)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_47)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/string-vsnprintf.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/string-vsnprintf.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/string-vsnprintf.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/string-vsnprintf.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/string-vsnprintf.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/string-vsnprintf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/string-vsnprintf.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/string-vsnprintf.cpp > CMakeFiles/hphp_util.dir/string-vsnprintf.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/string-vsnprintf.cpp > CMakeFiles/hphp_util.dir/string-vsnprintf.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/string-vsnprintf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/string-vsnprintf.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/string-vsnprintf.cpp -o CMakeFiles/hphp_util.dir/string-vsnprintf.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/string-vsnprintf.cpp -o CMakeFiles/hphp_util.dir/string-vsnprintf.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/string-vsnprintf.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/string-vsnprintf.cpp.o.requires
@@ -1177,17 +1177,17 @@ hphp/util/CMakeFiles/hphp_util.dir/string-vsnprintf.cpp.o.provides.build: hphp/u
 
 hphp/util/CMakeFiles/hphp_util.dir/synchronizable-multi.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/synchronizable-multi.cpp.o: hphp/util/synchronizable-multi.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_48)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_48)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/synchronizable-multi.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/synchronizable-multi.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/synchronizable-multi.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/synchronizable-multi.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/synchronizable-multi.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/synchronizable-multi.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/synchronizable-multi.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/synchronizable-multi.cpp > CMakeFiles/hphp_util.dir/synchronizable-multi.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/synchronizable-multi.cpp > CMakeFiles/hphp_util.dir/synchronizable-multi.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/synchronizable-multi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/synchronizable-multi.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/synchronizable-multi.cpp -o CMakeFiles/hphp_util.dir/synchronizable-multi.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/synchronizable-multi.cpp -o CMakeFiles/hphp_util.dir/synchronizable-multi.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/synchronizable-multi.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/synchronizable-multi.cpp.o.requires
@@ -1200,17 +1200,17 @@ hphp/util/CMakeFiles/hphp_util.dir/synchronizable-multi.cpp.o.provides.build: hp
 
 hphp/util/CMakeFiles/hphp_util.dir/synchronizable.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/synchronizable.cpp.o: hphp/util/synchronizable.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_49)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_49)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/synchronizable.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/synchronizable.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/synchronizable.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/synchronizable.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/synchronizable.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/synchronizable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/synchronizable.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/synchronizable.cpp > CMakeFiles/hphp_util.dir/synchronizable.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/synchronizable.cpp > CMakeFiles/hphp_util.dir/synchronizable.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/synchronizable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/synchronizable.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/synchronizable.cpp -o CMakeFiles/hphp_util.dir/synchronizable.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/synchronizable.cpp -o CMakeFiles/hphp_util.dir/synchronizable.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/synchronizable.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/synchronizable.cpp.o.requires
@@ -1223,17 +1223,17 @@ hphp/util/CMakeFiles/hphp_util.dir/synchronizable.cpp.o.provides.build: hphp/uti
 
 hphp/util/CMakeFiles/hphp_util.dir/text-art.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/text-art.cpp.o: hphp/util/text-art.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_50)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_50)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/text-art.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/text-art.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/text-art.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/text-art.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/text-art.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/text-art.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/text-art.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/text-art.cpp > CMakeFiles/hphp_util.dir/text-art.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/text-art.cpp > CMakeFiles/hphp_util.dir/text-art.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/text-art.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/text-art.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/text-art.cpp -o CMakeFiles/hphp_util.dir/text-art.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/text-art.cpp -o CMakeFiles/hphp_util.dir/text-art.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/text-art.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/text-art.cpp.o.requires
@@ -1246,17 +1246,17 @@ hphp/util/CMakeFiles/hphp_util.dir/text-art.cpp.o.provides.build: hphp/util/CMak
 
 hphp/util/CMakeFiles/hphp_util.dir/text-color.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/text-color.cpp.o: hphp/util/text-color.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_51)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_51)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/text-color.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/text-color.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/text-color.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/text-color.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/text-color.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/text-color.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/text-color.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/text-color.cpp > CMakeFiles/hphp_util.dir/text-color.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/text-color.cpp > CMakeFiles/hphp_util.dir/text-color.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/text-color.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/text-color.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/text-color.cpp -o CMakeFiles/hphp_util.dir/text-color.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/text-color.cpp -o CMakeFiles/hphp_util.dir/text-color.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/text-color.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/text-color.cpp.o.requires
@@ -1269,17 +1269,17 @@ hphp/util/CMakeFiles/hphp_util.dir/text-color.cpp.o.provides.build: hphp/util/CM
 
 hphp/util/CMakeFiles/hphp_util.dir/text-util.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/text-util.cpp.o: hphp/util/text-util.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_52)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_52)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/text-util.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/text-util.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/text-util.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/text-util.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/text-util.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/text-util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/text-util.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/text-util.cpp > CMakeFiles/hphp_util.dir/text-util.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/text-util.cpp > CMakeFiles/hphp_util.dir/text-util.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/text-util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/text-util.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/text-util.cpp -o CMakeFiles/hphp_util.dir/text-util.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/text-util.cpp -o CMakeFiles/hphp_util.dir/text-util.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/text-util.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/text-util.cpp.o.requires
@@ -1292,17 +1292,17 @@ hphp/util/CMakeFiles/hphp_util.dir/text-util.cpp.o.provides.build: hphp/util/CMa
 
 hphp/util/CMakeFiles/hphp_util.dir/thread-local.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/thread-local.cpp.o: hphp/util/thread-local.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_53)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_53)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/thread-local.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/thread-local.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/thread-local.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/thread-local.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/thread-local.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/thread-local.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/thread-local.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/thread-local.cpp > CMakeFiles/hphp_util.dir/thread-local.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/thread-local.cpp > CMakeFiles/hphp_util.dir/thread-local.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/thread-local.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/thread-local.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/thread-local.cpp -o CMakeFiles/hphp_util.dir/thread-local.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/thread-local.cpp -o CMakeFiles/hphp_util.dir/thread-local.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/thread-local.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/thread-local.cpp.o.requires
@@ -1315,17 +1315,17 @@ hphp/util/CMakeFiles/hphp_util.dir/thread-local.cpp.o.provides.build: hphp/util/
 
 hphp/util/CMakeFiles/hphp_util.dir/timer.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/timer.cpp.o: hphp/util/timer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_54)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_54)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/timer.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/timer.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/timer.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/timer.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/timer.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/timer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/timer.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/timer.cpp > CMakeFiles/hphp_util.dir/timer.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/timer.cpp > CMakeFiles/hphp_util.dir/timer.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/timer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/timer.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/timer.cpp -o CMakeFiles/hphp_util.dir/timer.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/timer.cpp -o CMakeFiles/hphp_util.dir/timer.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/timer.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/timer.cpp.o.requires
@@ -1338,17 +1338,17 @@ hphp/util/CMakeFiles/hphp_util.dir/timer.cpp.o.provides.build: hphp/util/CMakeFi
 
 hphp/util/CMakeFiles/hphp_util.dir/trace.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/trace.cpp.o: hphp/util/trace.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_55)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_55)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/trace.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/trace.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/trace.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/trace.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/trace.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/trace.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/trace.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/trace.cpp > CMakeFiles/hphp_util.dir/trace.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/trace.cpp > CMakeFiles/hphp_util.dir/trace.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/trace.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/trace.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/trace.cpp -o CMakeFiles/hphp_util.dir/trace.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/trace.cpp -o CMakeFiles/hphp_util.dir/trace.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/trace.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/trace.cpp.o.requires
@@ -1361,17 +1361,17 @@ hphp/util/CMakeFiles/hphp_util.dir/trace.cpp.o.provides.build: hphp/util/CMakeFi
 
 hphp/util/CMakeFiles/hphp_util.dir/vdso.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/vdso.cpp.o: hphp/util/vdso.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_56)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_56)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/vdso.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/vdso.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/vdso.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/vdso.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/vdso.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/vdso.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/vdso.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/vdso.cpp > CMakeFiles/hphp_util.dir/vdso.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/vdso.cpp > CMakeFiles/hphp_util.dir/vdso.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/vdso.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/vdso.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/vdso.cpp -o CMakeFiles/hphp_util.dir/vdso.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/vdso.cpp -o CMakeFiles/hphp_util.dir/vdso.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/vdso.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/vdso.cpp.o.requires
@@ -1384,17 +1384,17 @@ hphp/util/CMakeFiles/hphp_util.dir/vdso.cpp.o.provides.build: hphp/util/CMakeFil
 
 hphp/util/CMakeFiles/hphp_util.dir/cache/cache-data.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/cache/cache-data.cpp.o: hphp/util/cache/cache-data.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_57)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_57)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/cache/cache-data.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/cache/cache-data.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/cache/cache-data.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/cache/cache-data.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/cache/cache-data.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/cache/cache-data.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/cache/cache-data.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/cache/cache-data.cpp > CMakeFiles/hphp_util.dir/cache/cache-data.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/cache/cache-data.cpp > CMakeFiles/hphp_util.dir/cache/cache-data.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/cache/cache-data.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/cache/cache-data.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/cache/cache-data.cpp -o CMakeFiles/hphp_util.dir/cache/cache-data.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/cache/cache-data.cpp -o CMakeFiles/hphp_util.dir/cache/cache-data.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/cache/cache-data.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/cache/cache-data.cpp.o.requires
@@ -1407,17 +1407,17 @@ hphp/util/CMakeFiles/hphp_util.dir/cache/cache-data.cpp.o.provides.build: hphp/u
 
 hphp/util/CMakeFiles/hphp_util.dir/cache/cache-manager.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/cache/cache-manager.cpp.o: hphp/util/cache/cache-manager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_58)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_58)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/cache/cache-manager.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/cache/cache-manager.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/cache/cache-manager.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/cache/cache-manager.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/cache/cache-manager.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/cache/cache-manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/cache/cache-manager.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/cache/cache-manager.cpp > CMakeFiles/hphp_util.dir/cache/cache-manager.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/cache/cache-manager.cpp > CMakeFiles/hphp_util.dir/cache/cache-manager.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/cache/cache-manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/cache/cache-manager.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/cache/cache-manager.cpp -o CMakeFiles/hphp_util.dir/cache/cache-manager.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/cache/cache-manager.cpp -o CMakeFiles/hphp_util.dir/cache/cache-manager.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/cache/cache-manager.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/cache/cache-manager.cpp.o.requires
@@ -1430,17 +1430,17 @@ hphp/util/CMakeFiles/hphp_util.dir/cache/cache-manager.cpp.o.provides.build: hph
 
 hphp/util/CMakeFiles/hphp_util.dir/cache/cache-saver.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/cache/cache-saver.cpp.o: hphp/util/cache/cache-saver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_59)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_59)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/cache/cache-saver.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/cache/cache-saver.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/cache/cache-saver.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/cache/cache-saver.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/cache/cache-saver.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/cache/cache-saver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/cache/cache-saver.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/cache/cache-saver.cpp > CMakeFiles/hphp_util.dir/cache/cache-saver.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/cache/cache-saver.cpp > CMakeFiles/hphp_util.dir/cache/cache-saver.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/cache/cache-saver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/cache/cache-saver.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/cache/cache-saver.cpp -o CMakeFiles/hphp_util.dir/cache/cache-saver.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/cache/cache-saver.cpp -o CMakeFiles/hphp_util.dir/cache/cache-saver.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/cache/cache-saver.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/cache/cache-saver.cpp.o.requires
@@ -1453,17 +1453,17 @@ hphp/util/CMakeFiles/hphp_util.dir/cache/cache-saver.cpp.o.provides.build: hphp/
 
 hphp/util/CMakeFiles/hphp_util.dir/cache/mmap-file.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/cache/mmap-file.cpp.o: hphp/util/cache/mmap-file.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_60)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_60)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/cache/mmap-file.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/cache/mmap-file.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/cache/mmap-file.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/cache/mmap-file.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/cache/mmap-file.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/cache/mmap-file.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/cache/mmap-file.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/cache/mmap-file.cpp > CMakeFiles/hphp_util.dir/cache/mmap-file.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/cache/mmap-file.cpp > CMakeFiles/hphp_util.dir/cache/mmap-file.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/cache/mmap-file.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/cache/mmap-file.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/cache/mmap-file.cpp -o CMakeFiles/hphp_util.dir/cache/mmap-file.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/cache/mmap-file.cpp -o CMakeFiles/hphp_util.dir/cache/mmap-file.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/cache/mmap-file.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/cache/mmap-file.cpp.o.requires
@@ -1476,9 +1476,9 @@ hphp/util/CMakeFiles/hphp_util.dir/cache/mmap-file.cpp.o.provides.build: hphp/ut
 
 hphp/util/CMakeFiles/hphp_util.dir/hash-crc.S.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/hash-crc.S.o: hphp/util/hash-crc.S
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_61)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_61)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building ASM object hphp/util/CMakeFiles/hphp_util.dir/hash-crc.S.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/cc  $(ASM_DEFINES) $(ASM_FLAGS) -o CMakeFiles/hphp_util.dir/hash-crc.S.o -c /tmp/hhvm-3.11.1/hphp/util/hash-crc.S
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/cc  $(ASM_DEFINES) $(ASM_FLAGS) -o CMakeFiles/hphp_util.dir/hash-crc.S.o -c /tmp/hhvm-3.12.1/hphp/util/hash-crc.S
 
 hphp/util/CMakeFiles/hphp_util.dir/hash-crc.S.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/hash-crc.S.o.requires
@@ -1491,9 +1491,9 @@ hphp/util/CMakeFiles/hphp_util.dir/hash-crc.S.o.provides.build: hphp/util/CMakeF
 
 hphp/util/CMakeFiles/hphp_util.dir/memcpy-x64.S.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/memcpy-x64.S.o: hphp/util/memcpy-x64.S
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_62)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_62)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building ASM object hphp/util/CMakeFiles/hphp_util.dir/memcpy-x64.S.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/cc  $(ASM_DEFINES) $(ASM_FLAGS) -o CMakeFiles/hphp_util.dir/memcpy-x64.S.o -c /tmp/hhvm-3.11.1/hphp/util/memcpy-x64.S
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/cc  $(ASM_DEFINES) $(ASM_FLAGS) -o CMakeFiles/hphp_util.dir/memcpy-x64.S.o -c /tmp/hhvm-3.12.1/hphp/util/memcpy-x64.S
 
 hphp/util/CMakeFiles/hphp_util.dir/memcpy-x64.S.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/memcpy-x64.S.o.requires
@@ -1506,9 +1506,9 @@ hphp/util/CMakeFiles/hphp_util.dir/memcpy-x64.S.o.provides.build: hphp/util/CMak
 
 hphp/util/CMakeFiles/hphp_util.dir/memset-x64-avx2.S.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/memset-x64-avx2.S.o: hphp/util/memset-x64-avx2.S
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_63)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_63)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building ASM object hphp/util/CMakeFiles/hphp_util.dir/memset-x64-avx2.S.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/cc  $(ASM_DEFINES) $(ASM_FLAGS) -o CMakeFiles/hphp_util.dir/memset-x64-avx2.S.o -c /tmp/hhvm-3.11.1/hphp/util/memset-x64-avx2.S
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/cc  $(ASM_DEFINES) $(ASM_FLAGS) -o CMakeFiles/hphp_util.dir/memset-x64-avx2.S.o -c /tmp/hhvm-3.12.1/hphp/util/memset-x64-avx2.S
 
 hphp/util/CMakeFiles/hphp_util.dir/memset-x64-avx2.S.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/memset-x64-avx2.S.o.requires
@@ -1521,9 +1521,9 @@ hphp/util/CMakeFiles/hphp_util.dir/memset-x64-avx2.S.o.provides.build: hphp/util
 
 hphp/util/CMakeFiles/hphp_util.dir/strcmp-sse42.S.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/strcmp-sse42.S.o: hphp/util/strcmp-sse42.S
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_64)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_64)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building ASM object hphp/util/CMakeFiles/hphp_util.dir/strcmp-sse42.S.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/cc  $(ASM_DEFINES) $(ASM_FLAGS) -o CMakeFiles/hphp_util.dir/strcmp-sse42.S.o -c /tmp/hhvm-3.11.1/hphp/util/strcmp-sse42.S
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/cc  $(ASM_DEFINES) $(ASM_FLAGS) -o CMakeFiles/hphp_util.dir/strcmp-sse42.S.o -c /tmp/hhvm-3.12.1/hphp/util/strcmp-sse42.S
 
 hphp/util/CMakeFiles/hphp_util.dir/strcmp-sse42.S.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/strcmp-sse42.S.o.requires
@@ -1536,17 +1536,17 @@ hphp/util/CMakeFiles/hphp_util.dir/strcmp-sse42.S.o.provides.build: hphp/util/CM
 
 hphp/util/CMakeFiles/hphp_util.dir/__/hphp-build-info.cpp.o: hphp/util/CMakeFiles/hphp_util.dir/flags.make
 hphp/util/CMakeFiles/hphp_util.dir/__/hphp-build-info.cpp.o: hphp/util/../hphp-build-info.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_65)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_65)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/util/CMakeFiles/hphp_util.dir/__/hphp-build-info.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/__/hphp-build-info.cpp.o -c /tmp/hhvm-3.11.1/hphp/util/../hphp-build-info.cpp
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_util.dir/__/hphp-build-info.cpp.o -c /tmp/hhvm-3.12.1/hphp/util/../hphp-build-info.cpp
 
 hphp/util/CMakeFiles/hphp_util.dir/__/hphp-build-info.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_util.dir/__/hphp-build-info.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/util/../hphp-build-info.cpp > CMakeFiles/hphp_util.dir/__/hphp-build-info.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/util/../hphp-build-info.cpp > CMakeFiles/hphp_util.dir/__/hphp-build-info.cpp.i
 
 hphp/util/CMakeFiles/hphp_util.dir/__/hphp-build-info.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_util.dir/__/hphp-build-info.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/util/../hphp-build-info.cpp -o CMakeFiles/hphp_util.dir/__/hphp-build-info.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/util && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/util/../hphp-build-info.cpp -o CMakeFiles/hphp_util.dir/__/hphp-build-info.cpp.s
 
 hphp/util/CMakeFiles/hphp_util.dir/__/hphp-build-info.cpp.o.requires:
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/__/hphp-build-info.cpp.o.requires
@@ -1694,8 +1694,8 @@ hphp/util/libhphp_util.a: hphp/util/CMakeFiles/hphp_util.dir/__/hphp-build-info.
 hphp/util/libhphp_util.a: hphp/util/CMakeFiles/hphp_util.dir/build.make
 hphp/util/libhphp_util.a: hphp/util/CMakeFiles/hphp_util.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libhphp_util.a"
-	cd /tmp/hhvm-3.11.1/hphp/util && $(CMAKE_COMMAND) -P CMakeFiles/hphp_util.dir/cmake_clean_target.cmake
-	cd /tmp/hhvm-3.11.1/hphp/util && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hphp_util.dir/link.txt --verbose=$(VERBOSE)
+	cd /tmp/hhvm-3.12.1/hphp/util && $(CMAKE_COMMAND) -P CMakeFiles/hphp_util.dir/cmake_clean_target.cmake
+	cd /tmp/hhvm-3.12.1/hphp/util && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hphp_util.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 hphp/util/CMakeFiles/hphp_util.dir/build: hphp/util/libhphp_util.a
@@ -1768,11 +1768,11 @@ hphp/util/CMakeFiles/hphp_util.dir/requires: hphp/util/CMakeFiles/hphp_util.dir/
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/requires
 
 hphp/util/CMakeFiles/hphp_util.dir/clean:
-	cd /tmp/hhvm-3.11.1/hphp/util && $(CMAKE_COMMAND) -P CMakeFiles/hphp_util.dir/cmake_clean.cmake
+	cd /tmp/hhvm-3.12.1/hphp/util && $(CMAKE_COMMAND) -P CMakeFiles/hphp_util.dir/cmake_clean.cmake
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/clean
 
 hphp/util/CMakeFiles/hphp_util.dir/depend: hphp/util/../hphp-repo-schema.h
 hphp/util/CMakeFiles/hphp_util.dir/depend: hphp/util/../hphp-build-info.cpp
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/hphp/util /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/hphp/util /tmp/hhvm-3.11.1/hphp/util/CMakeFiles/hphp_util.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/hhvm-3.12.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.12.1 /tmp/hhvm-3.12.1/hphp/util /tmp/hhvm-3.12.1 /tmp/hhvm-3.12.1/hphp/util /tmp/hhvm-3.12.1/hphp/util/CMakeFiles/hphp_util.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/depend
 

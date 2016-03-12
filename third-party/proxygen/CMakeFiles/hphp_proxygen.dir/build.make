@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.1
 
 # Include any dependencies generated for this target.
 include third-party/proxygen/CMakeFiles/hphp_proxygen.dir/depend.make
@@ -53,51 +53,28 @@ include third-party/proxygen/CMakeFiles/hphp_proxygen.dir/progress.make
 include third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 
 third-party/proxygen/lib/http/HTTPCommonHeaders.cpp:
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating lib/http/HTTPCommonHeaders.cpp"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && HEADERS_LIST=/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/HTTPCommonHeaders.txt FBCODE_DIR=/tmp/hhvm-3.11.1/third-party/proxygen/.. INSTALL_DIR=/tmp/hhvm-3.11.1/third-party/proxygen/lib/http /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/gen_HTTPCommonHeaders.cpp.sh
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && HEADERS_LIST=/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/HTTPCommonHeaders.txt FBCODE_DIR=/tmp/hhvm-3.12.1/third-party/proxygen/.. INSTALL_DIR=/tmp/hhvm-3.12.1/third-party/proxygen/lib/http /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/gen_HTTPCommonHeaders.cpp.sh
 
 third-party/proxygen/lib/http/HTTPCommonHeaders.h:
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating lib/http/HTTPCommonHeaders.h"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && HEADERS_LIST=/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/HTTPCommonHeaders.txt FBCODE_DIR=/tmp/hhvm-3.11.1/third-party/proxygen/.. INSTALL_DIR=/tmp/hhvm-3.11.1/third-party/proxygen/lib/http /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/gen_HTTPCommonHeaders.h.sh
-
-third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
-third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.o: third-party/proxygen/lib/http/HTTPCommonHeaders.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/HTTPCommonHeaders.cpp
-
-third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/HTTPCommonHeaders.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.i
-
-third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/HTTPCommonHeaders.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.s
-
-third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.o.requires:
-.PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.o.requires
-
-third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.o.provides: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.o.requires
-	$(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.o.provides.build
-.PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.o.provides
-
-third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.o.provides.build: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.o
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && HEADERS_LIST=/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/HTTPCommonHeaders.txt FBCODE_DIR=/tmp/hhvm-3.12.1/third-party/proxygen/.. INSTALL_DIR=/tmp/hhvm-3.12.1/third-party/proxygen/lib/http /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/gen_HTTPCommonHeaders.h.sh
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.o: third-party/proxygen/lib/http/HTTPConnector.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/HTTPConnector.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/HTTPConnector.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/HTTPConnector.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/HTTPConnector.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/HTTPConnector.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/HTTPConnector.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.o.requires
@@ -110,17 +87,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.o.p
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConstants.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConstants.cpp.o: third-party/proxygen/lib/http/HTTPConstants.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConstants.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConstants.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/HTTPConstants.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConstants.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/HTTPConstants.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConstants.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConstants.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/HTTPConstants.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConstants.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/HTTPConstants.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConstants.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConstants.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConstants.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/HTTPConstants.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConstants.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/HTTPConstants.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConstants.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConstants.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConstants.cpp.o.requires
@@ -133,17 +110,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConstants.cpp.o.p
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.o: third-party/proxygen/lib/http/HTTPException.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/HTTPException.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/HTTPException.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/HTTPException.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/HTTPException.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/HTTPException.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/HTTPException.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.o.requires
@@ -156,17 +133,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.o.p
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPHeaders.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPHeaders.cpp.o: third-party/proxygen/lib/http/HTTPHeaders.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPHeaders.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/HTTPHeaders.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/HTTPHeaders.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/HTTPHeaders.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/HTTPHeaders.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPHeaders.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/HTTPHeaders.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/HTTPHeaders.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/HTTPHeaders.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/HTTPHeaders.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/HTTPHeaders.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPHeaders.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/HTTPHeaders.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/HTTPHeaders.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/HTTPHeaders.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/HTTPHeaders.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/HTTPHeaders.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPHeaders.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPHeaders.cpp.o.requires
@@ -179,17 +156,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPHeaders.cpp.o.pro
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMessage.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMessage.cpp.o: third-party/proxygen/lib/http/HTTPMessage.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMessage.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMessage.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/HTTPMessage.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMessage.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/HTTPMessage.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMessage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMessage.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/HTTPMessage.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMessage.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/HTTPMessage.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMessage.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMessage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMessage.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/HTTPMessage.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMessage.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/HTTPMessage.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMessage.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMessage.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMessage.cpp.o.requires
@@ -202,17 +179,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMessage.cpp.o.pro
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMethod.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMethod.cpp.o: third-party/proxygen/lib/http/HTTPMethod.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMethod.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMethod.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/HTTPMethod.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMethod.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/HTTPMethod.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMethod.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMethod.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/HTTPMethod.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMethod.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/HTTPMethod.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMethod.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMethod.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMethod.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/HTTPMethod.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMethod.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/HTTPMethod.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMethod.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMethod.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMethod.cpp.o.requires
@@ -225,17 +202,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPMethod.cpp.o.prov
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/ProxygenErrorEnum.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/ProxygenErrorEnum.cpp.o: third-party/proxygen/lib/http/ProxygenErrorEnum.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/ProxygenErrorEnum.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/ProxygenErrorEnum.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/ProxygenErrorEnum.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/ProxygenErrorEnum.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/ProxygenErrorEnum.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/ProxygenErrorEnum.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/ProxygenErrorEnum.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/ProxygenErrorEnum.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/ProxygenErrorEnum.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/ProxygenErrorEnum.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/ProxygenErrorEnum.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/ProxygenErrorEnum.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/ProxygenErrorEnum.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/ProxygenErrorEnum.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/ProxygenErrorEnum.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/ProxygenErrorEnum.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/ProxygenErrorEnum.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/ProxygenErrorEnum.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/ProxygenErrorEnum.cpp.o.requires
@@ -248,17 +225,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/ProxygenErrorEnum.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/RFC2616.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/RFC2616.cpp.o: third-party/proxygen/lib/http/RFC2616.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/RFC2616.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/RFC2616.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/RFC2616.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/RFC2616.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/RFC2616.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/RFC2616.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/RFC2616.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/RFC2616.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/RFC2616.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/RFC2616.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/RFC2616.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/RFC2616.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/RFC2616.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/RFC2616.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/RFC2616.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/RFC2616.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/RFC2616.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/RFC2616.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/RFC2616.cpp.o.requires
@@ -271,17 +248,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/RFC2616.cpp.o.provide
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/Window.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/Window.cpp.o: third-party/proxygen/lib/http/Window.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/Window.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/Window.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/Window.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/Window.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/Window.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/Window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/Window.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/Window.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/Window.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/Window.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/Window.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/Window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/Window.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/Window.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/Window.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/Window.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/Window.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/Window.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/Window.cpp.o.requires
@@ -294,17 +271,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/Window.cpp.o.provides
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/CodecProtocol.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/CodecProtocol.cpp.o: third-party/proxygen/lib/http/codec/CodecProtocol.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/CodecProtocol.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/CodecProtocol.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/CodecProtocol.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/CodecProtocol.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/CodecProtocol.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/CodecProtocol.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/codec/CodecProtocol.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/CodecProtocol.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/CodecProtocol.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/CodecProtocol.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/CodecProtocol.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/CodecProtocol.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/codec/CodecProtocol.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/CodecProtocol.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/CodecProtocol.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/CodecProtocol.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/CodecProtocol.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/CodecProtocol.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/CodecProtocol.cpp.o.requires
@@ -317,17 +294,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/CodecProtocol.c
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/ErrorCode.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/ErrorCode.cpp.o: third-party/proxygen/lib/http/codec/ErrorCode.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/ErrorCode.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/ErrorCode.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/ErrorCode.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/ErrorCode.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/ErrorCode.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/ErrorCode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/codec/ErrorCode.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/ErrorCode.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/ErrorCode.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/ErrorCode.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/ErrorCode.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/ErrorCode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/codec/ErrorCode.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/ErrorCode.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/ErrorCode.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/ErrorCode.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/ErrorCode.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/ErrorCode.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/ErrorCode.cpp.o.requires
@@ -340,17 +317,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/ErrorCode.cpp.o
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/FlowControlFilter.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/FlowControlFilter.cpp.o: third-party/proxygen/lib/http/codec/FlowControlFilter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/FlowControlFilter.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/FlowControlFilter.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/FlowControlFilter.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/FlowControlFilter.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/FlowControlFilter.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/FlowControlFilter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/codec/FlowControlFilter.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/FlowControlFilter.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/FlowControlFilter.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/FlowControlFilter.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/FlowControlFilter.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/FlowControlFilter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/codec/FlowControlFilter.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/FlowControlFilter.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/FlowControlFilter.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/FlowControlFilter.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/FlowControlFilter.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/FlowControlFilter.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/FlowControlFilter.cpp.o.requires
@@ -363,17 +340,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/FlowControlFilt
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTP1xCodec.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTP1xCodec.cpp.o: third-party/proxygen/lib/http/codec/HTTP1xCodec.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTP1xCodec.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTP1xCodec.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/HTTP1xCodec.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTP1xCodec.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/HTTP1xCodec.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTP1xCodec.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTP1xCodec.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/HTTP1xCodec.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTP1xCodec.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/HTTP1xCodec.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTP1xCodec.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTP1xCodec.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTP1xCodec.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/HTTP1xCodec.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTP1xCodec.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/HTTP1xCodec.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTP1xCodec.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTP1xCodec.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTP1xCodec.cpp.o.requires
@@ -386,17 +363,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTP1xCodec.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPChecks.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPChecks.cpp.o: third-party/proxygen/lib/http/codec/HTTPChecks.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPChecks.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPChecks.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/HTTPChecks.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPChecks.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/HTTPChecks.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPChecks.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPChecks.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/HTTPChecks.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPChecks.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/HTTPChecks.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPChecks.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPChecks.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPChecks.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/HTTPChecks.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPChecks.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/HTTPChecks.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPChecks.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPChecks.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPChecks.cpp.o.requires
@@ -409,17 +386,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPChecks.cpp.
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecFilter.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecFilter.cpp.o: third-party/proxygen/lib/http/codec/HTTPCodecFilter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecFilter.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecFilter.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/HTTPCodecFilter.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecFilter.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/HTTPCodecFilter.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecFilter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecFilter.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/HTTPCodecFilter.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecFilter.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/HTTPCodecFilter.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecFilter.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecFilter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecFilter.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/HTTPCodecFilter.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecFilter.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/HTTPCodecFilter.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecFilter.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecFilter.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecFilter.cpp.o.requires
@@ -432,17 +409,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecFilter
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecPrinter.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecPrinter.cpp.o: third-party/proxygen/lib/http/codec/HTTPCodecPrinter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecPrinter.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecPrinter.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/HTTPCodecPrinter.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecPrinter.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/HTTPCodecPrinter.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecPrinter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecPrinter.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/HTTPCodecPrinter.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecPrinter.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/HTTPCodecPrinter.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecPrinter.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecPrinter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecPrinter.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/HTTPCodecPrinter.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecPrinter.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/HTTPCodecPrinter.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecPrinter.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecPrinter.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecPrinter.cpp.o.requires
@@ -455,17 +432,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPCodecPrinte
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPParallelCodec.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPParallelCodec.cpp.o: third-party/proxygen/lib/http/codec/HTTPParallelCodec.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPParallelCodec.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPParallelCodec.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/HTTPParallelCodec.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPParallelCodec.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/HTTPParallelCodec.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPParallelCodec.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPParallelCodec.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/HTTPParallelCodec.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPParallelCodec.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/HTTPParallelCodec.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPParallelCodec.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPParallelCodec.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPParallelCodec.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/HTTPParallelCodec.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPParallelCodec.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/HTTPParallelCodec.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPParallelCodec.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPParallelCodec.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPParallelCodec.cpp.o.requires
@@ -478,17 +455,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPParallelCod
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPSettings.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPSettings.cpp.o: third-party/proxygen/lib/http/codec/HTTPSettings.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPSettings.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPSettings.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/HTTPSettings.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPSettings.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/HTTPSettings.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPSettings.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPSettings.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/HTTPSettings.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPSettings.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/HTTPSettings.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPSettings.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPSettings.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPSettings.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/HTTPSettings.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPSettings.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/HTTPSettings.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPSettings.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPSettings.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPSettings.cpp.o.requires
@@ -501,17 +478,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/HTTPSettings.cp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYCodec.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYCodec.cpp.o: third-party/proxygen/lib/http/codec/SPDYCodec.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYCodec.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYCodec.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/SPDYCodec.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYCodec.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/SPDYCodec.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYCodec.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYCodec.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/SPDYCodec.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYCodec.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/SPDYCodec.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYCodec.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYCodec.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYCodec.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/SPDYCodec.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYCodec.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/SPDYCodec.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYCodec.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYCodec.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYCodec.cpp.o.requires
@@ -524,17 +501,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYCodec.cpp.o
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYConstants.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYConstants.cpp.o: third-party/proxygen/lib/http/codec/SPDYConstants.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYConstants.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYConstants.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/SPDYConstants.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYConstants.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/SPDYConstants.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYConstants.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYConstants.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/SPDYConstants.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYConstants.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/SPDYConstants.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYConstants.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYConstants.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYConstants.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/SPDYConstants.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYConstants.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/SPDYConstants.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYConstants.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYConstants.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYConstants.cpp.o.requires
@@ -547,17 +524,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYConstants.c
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYUtil.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYUtil.cpp.o: third-party/proxygen/lib/http/codec/SPDYUtil.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYUtil.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYUtil.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/SPDYUtil.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYUtil.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/SPDYUtil.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYUtil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYUtil.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/SPDYUtil.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYUtil.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/SPDYUtil.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYUtil.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYUtil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYUtil.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/SPDYUtil.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYUtil.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/SPDYUtil.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYUtil.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYUtil.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYUtil.cpp.o.requires
@@ -570,17 +547,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SPDYUtil.cpp.o.
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SettingsId.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SettingsId.cpp.o: third-party/proxygen/lib/http/codec/SettingsId.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SettingsId.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/SettingsId.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/SettingsId.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/SettingsId.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/SettingsId.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SettingsId.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/codec/SettingsId.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/SettingsId.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/SettingsId.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/SettingsId.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/SettingsId.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SettingsId.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/codec/SettingsId.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/SettingsId.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/SettingsId.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/SettingsId.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/SettingsId.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SettingsId.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SettingsId.cpp.o.requires
@@ -593,17 +570,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/SettingsId.cpp.
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/TransportDirection.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/TransportDirection.cpp.o: third-party/proxygen/lib/http/codec/TransportDirection.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/TransportDirection.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/TransportDirection.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/TransportDirection.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/TransportDirection.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/TransportDirection.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/TransportDirection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/codec/TransportDirection.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/TransportDirection.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/TransportDirection.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/TransportDirection.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/TransportDirection.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/TransportDirection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/codec/TransportDirection.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/TransportDirection.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/TransportDirection.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/TransportDirection.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/TransportDirection.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/TransportDirection.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/TransportDirection.cpp.o.requires
@@ -616,17 +593,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/TransportDirect
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/GzipHeaderCodec.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/GzipHeaderCodec.cpp.o: third-party/proxygen/lib/http/codec/compress/GzipHeaderCodec.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/GzipHeaderCodec.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/GzipHeaderCodec.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/GzipHeaderCodec.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/GzipHeaderCodec.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/GzipHeaderCodec.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/GzipHeaderCodec.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/GzipHeaderCodec.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/GzipHeaderCodec.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/GzipHeaderCodec.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/GzipHeaderCodec.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/GzipHeaderCodec.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/GzipHeaderCodec.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/GzipHeaderCodec.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/GzipHeaderCodec.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/GzipHeaderCodec.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/GzipHeaderCodec.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/GzipHeaderCodec.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/GzipHeaderCodec.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/GzipHeaderCodec.cpp.o.requires
@@ -639,17 +616,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/GzipHe
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKCodec.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKCodec.cpp.o: third-party/proxygen/lib/http/codec/compress/HPACKCodec.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKCodec.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKCodec.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/HPACKCodec.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKCodec.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/HPACKCodec.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKCodec.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKCodec.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/HPACKCodec.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKCodec.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/HPACKCodec.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKCodec.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKCodec.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKCodec.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/HPACKCodec.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKCodec.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/HPACKCodec.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKCodec.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKCodec.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKCodec.cpp.o.requires
@@ -662,17 +639,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKC
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKContext.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKContext.cpp.o: third-party/proxygen/lib/http/codec/compress/HPACKContext.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKContext.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKContext.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/HPACKContext.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKContext.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/HPACKContext.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKContext.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKContext.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/HPACKContext.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKContext.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/HPACKContext.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKContext.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKContext.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKContext.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/HPACKContext.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKContext.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/HPACKContext.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKContext.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKContext.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKContext.cpp.o.requires
@@ -685,17 +662,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKC
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecodeBuffer.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecodeBuffer.cpp.o: third-party/proxygen/lib/http/codec/compress/HPACKDecodeBuffer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecodeBuffer.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecodeBuffer.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/HPACKDecodeBuffer.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecodeBuffer.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/HPACKDecodeBuffer.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecodeBuffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecodeBuffer.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/HPACKDecodeBuffer.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecodeBuffer.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/HPACKDecodeBuffer.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecodeBuffer.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecodeBuffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecodeBuffer.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/HPACKDecodeBuffer.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecodeBuffer.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/HPACKDecodeBuffer.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecodeBuffer.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecodeBuffer.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecodeBuffer.cpp.o.requires
@@ -708,17 +685,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKD
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecoder.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecoder.cpp.o: third-party/proxygen/lib/http/codec/compress/HPACKDecoder.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_31)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecoder.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecoder.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/HPACKDecoder.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecoder.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/HPACKDecoder.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecoder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecoder.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/HPACKDecoder.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecoder.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/HPACKDecoder.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecoder.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecoder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecoder.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/HPACKDecoder.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecoder.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/HPACKDecoder.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecoder.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecoder.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKDecoder.cpp.o.requires
@@ -731,17 +708,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKD
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncodeBuffer.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncodeBuffer.cpp.o: third-party/proxygen/lib/http/codec/compress/HPACKEncodeBuffer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_32)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncodeBuffer.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncodeBuffer.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/HPACKEncodeBuffer.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncodeBuffer.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/HPACKEncodeBuffer.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncodeBuffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncodeBuffer.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/HPACKEncodeBuffer.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncodeBuffer.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/HPACKEncodeBuffer.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncodeBuffer.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncodeBuffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncodeBuffer.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/HPACKEncodeBuffer.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncodeBuffer.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/HPACKEncodeBuffer.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncodeBuffer.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncodeBuffer.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncodeBuffer.cpp.o.requires
@@ -754,17 +731,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKE
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncoder.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncoder.cpp.o: third-party/proxygen/lib/http/codec/compress/HPACKEncoder.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_33)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_32)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncoder.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncoder.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/HPACKEncoder.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncoder.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/HPACKEncoder.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncoder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncoder.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/HPACKEncoder.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncoder.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/HPACKEncoder.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncoder.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncoder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncoder.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/HPACKEncoder.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncoder.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/HPACKEncoder.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncoder.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncoder.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKEncoder.cpp.o.requires
@@ -777,17 +754,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKE
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKHeader.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKHeader.cpp.o: third-party/proxygen/lib/http/codec/compress/HPACKHeader.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_34)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_33)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKHeader.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKHeader.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/HPACKHeader.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKHeader.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/HPACKHeader.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKHeader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKHeader.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/HPACKHeader.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKHeader.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/HPACKHeader.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKHeader.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKHeader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKHeader.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/HPACKHeader.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKHeader.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/HPACKHeader.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKHeader.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKHeader.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKHeader.cpp.o.requires
@@ -800,17 +777,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HPACKH
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HeaderTable.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HeaderTable.cpp.o: third-party/proxygen/lib/http/codec/compress/HeaderTable.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_35)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_34)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HeaderTable.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HeaderTable.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/HeaderTable.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HeaderTable.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/HeaderTable.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HeaderTable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HeaderTable.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/HeaderTable.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HeaderTable.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/HeaderTable.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HeaderTable.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HeaderTable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HeaderTable.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/HeaderTable.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HeaderTable.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/HeaderTable.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HeaderTable.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HeaderTable.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/HeaderTable.cpp.o.requires
@@ -823,17 +800,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Header
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Huffman.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Huffman.cpp.o: third-party/proxygen/lib/http/codec/compress/Huffman.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_36)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_35)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Huffman.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Huffman.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/Huffman.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Huffman.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/Huffman.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Huffman.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Huffman.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/Huffman.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Huffman.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/Huffman.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Huffman.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Huffman.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Huffman.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/Huffman.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Huffman.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/Huffman.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Huffman.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Huffman.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Huffman.cpp.o.requires
@@ -846,17 +823,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Huffma
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Logging.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Logging.cpp.o: third-party/proxygen/lib/http/codec/compress/Logging.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_37)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_36)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Logging.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Logging.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/Logging.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Logging.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/Logging.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Logging.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Logging.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/Logging.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Logging.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/Logging.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Logging.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Logging.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Logging.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/Logging.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Logging.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/Logging.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Logging.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Logging.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Logging.cpp.o.requires
@@ -869,17 +846,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Loggin
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/StaticHeaderTable.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/StaticHeaderTable.cpp.o: third-party/proxygen/lib/http/codec/compress/StaticHeaderTable.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_38)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_37)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/StaticHeaderTable.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/StaticHeaderTable.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/StaticHeaderTable.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/StaticHeaderTable.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/StaticHeaderTable.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/StaticHeaderTable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/StaticHeaderTable.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/StaticHeaderTable.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/StaticHeaderTable.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/StaticHeaderTable.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/StaticHeaderTable.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/StaticHeaderTable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/StaticHeaderTable.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/StaticHeaderTable.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/StaticHeaderTable.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/StaticHeaderTable.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/StaticHeaderTable.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/StaticHeaderTable.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/StaticHeaderTable.cpp.o.requires
@@ -892,17 +869,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/Static
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.o: third-party/proxygen/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_39)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_38)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp.o.requires
@@ -915,17 +892,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experi
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.o: third-party/proxygen/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_40)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_39)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp.o.requires
@@ -938,17 +915,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experi
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKEncoder.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKEncoder.cpp.o: third-party/proxygen/lib/http/codec/compress/experimental/hpack9/HPACKEncoder.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_41)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_40)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKEncoder.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKEncoder.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/experimental/hpack9/HPACKEncoder.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKEncoder.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/experimental/hpack9/HPACKEncoder.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKEncoder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKEncoder.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/experimental/hpack9/HPACKEncoder.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKEncoder.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/experimental/hpack9/HPACKEncoder.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKEncoder.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKEncoder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKEncoder.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/experimental/hpack9/HPACKEncoder.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKEncoder.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/experimental/hpack9/HPACKEncoder.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKEncoder.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKEncoder.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/HPACKEncoder.cpp.o.requires
@@ -961,17 +938,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experi
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/Huffman.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/Huffman.cpp.o: third-party/proxygen/lib/http/codec/compress/experimental/hpack9/Huffman.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_42)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_41)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/Huffman.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/Huffman.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/experimental/hpack9/Huffman.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/Huffman.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/experimental/hpack9/Huffman.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/Huffman.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/Huffman.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/experimental/hpack9/Huffman.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/Huffman.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/experimental/hpack9/Huffman.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/Huffman.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/Huffman.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/Huffman.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/experimental/hpack9/Huffman.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/Huffman.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/experimental/hpack9/Huffman.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/Huffman.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/Huffman.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/Huffman.cpp.o.requires
@@ -984,17 +961,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experi
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.cpp.o: third-party/proxygen/lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_43)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_42)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.cpp.o.requires
@@ -1007,17 +984,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/compress/experi
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Codec.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Codec.cpp.o: third-party/proxygen/lib/http/codec/experimental/HTTP2Codec.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_44)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_43)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Codec.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Codec.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/experimental/HTTP2Codec.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Codec.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/experimental/HTTP2Codec.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Codec.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Codec.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/experimental/HTTP2Codec.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Codec.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/experimental/HTTP2Codec.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Codec.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Codec.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Codec.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/experimental/HTTP2Codec.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Codec.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/experimental/HTTP2Codec.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Codec.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Codec.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Codec.cpp.o.requires
@@ -1030,17 +1007,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HT
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Constants.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Constants.cpp.o: third-party/proxygen/lib/http/codec/experimental/HTTP2Constants.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_45)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_44)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Constants.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Constants.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/experimental/HTTP2Constants.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Constants.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/experimental/HTTP2Constants.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Constants.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Constants.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/experimental/HTTP2Constants.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Constants.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/experimental/HTTP2Constants.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Constants.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Constants.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Constants.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/experimental/HTTP2Constants.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Constants.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/experimental/HTTP2Constants.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Constants.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Constants.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Constants.cpp.o.requires
@@ -1053,17 +1030,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HT
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Framer.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Framer.cpp.o: third-party/proxygen/lib/http/codec/experimental/HTTP2Framer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_46)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_45)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Framer.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Framer.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/experimental/HTTP2Framer.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Framer.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/experimental/HTTP2Framer.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Framer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Framer.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/experimental/HTTP2Framer.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Framer.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/experimental/HTTP2Framer.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Framer.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Framer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Framer.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/experimental/HTTP2Framer.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Framer.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/experimental/HTTP2Framer.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Framer.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Framer.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HTTP2Framer.cpp.o.requires
@@ -1076,17 +1053,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/codec/experimental/HT
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEventTracker.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEventTracker.cpp.o: third-party/proxygen/lib/http/session/ByteEventTracker.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_47)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_46)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEventTracker.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEventTracker.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/ByteEventTracker.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEventTracker.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/ByteEventTracker.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEventTracker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEventTracker.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/ByteEventTracker.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEventTracker.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/ByteEventTracker.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEventTracker.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEventTracker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEventTracker.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/ByteEventTracker.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEventTracker.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/ByteEventTracker.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEventTracker.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEventTracker.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEventTracker.cpp.o.requires
@@ -1099,17 +1076,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEventTrac
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEvents.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEvents.cpp.o: third-party/proxygen/lib/http/session/ByteEvents.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_48)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_47)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEvents.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEvents.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/ByteEvents.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEvents.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/ByteEvents.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEvents.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEvents.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/ByteEvents.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEvents.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/ByteEvents.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEvents.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEvents.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEvents.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/ByteEvents.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEvents.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/ByteEvents.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEvents.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEvents.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEvents.cpp.o.requires
@@ -1122,17 +1099,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/ByteEvents.cp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/CodecErrorResponseHandler.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/CodecErrorResponseHandler.cpp.o: third-party/proxygen/lib/http/session/CodecErrorResponseHandler.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_49)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_48)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/CodecErrorResponseHandler.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/session/CodecErrorResponseHandler.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/CodecErrorResponseHandler.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/session/CodecErrorResponseHandler.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/CodecErrorResponseHandler.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/CodecErrorResponseHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/session/CodecErrorResponseHandler.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/CodecErrorResponseHandler.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/session/CodecErrorResponseHandler.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/CodecErrorResponseHandler.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/session/CodecErrorResponseHandler.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/CodecErrorResponseHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/session/CodecErrorResponseHandler.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/CodecErrorResponseHandler.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/session/CodecErrorResponseHandler.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/CodecErrorResponseHandler.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/session/CodecErrorResponseHandler.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/CodecErrorResponseHandler.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/CodecErrorResponseHandler.cpp.o.requires
@@ -1145,17 +1122,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/CodecErrorRes
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTP2PriorityQueue.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTP2PriorityQueue.cpp.o: third-party/proxygen/lib/http/session/HTTP2PriorityQueue.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_50)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_49)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTP2PriorityQueue.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTP2PriorityQueue.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTP2PriorityQueue.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTP2PriorityQueue.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTP2PriorityQueue.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTP2PriorityQueue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTP2PriorityQueue.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTP2PriorityQueue.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTP2PriorityQueue.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTP2PriorityQueue.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTP2PriorityQueue.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTP2PriorityQueue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTP2PriorityQueue.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTP2PriorityQueue.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTP2PriorityQueue.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTP2PriorityQueue.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTP2PriorityQueue.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTP2PriorityQueue.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTP2PriorityQueue.cpp.o.requires
@@ -1168,17 +1145,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTP2Priority
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDirectResponseHandler.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDirectResponseHandler.cpp.o: third-party/proxygen/lib/http/session/HTTPDirectResponseHandler.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_51)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_50)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDirectResponseHandler.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDirectResponseHandler.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTPDirectResponseHandler.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDirectResponseHandler.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTPDirectResponseHandler.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDirectResponseHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDirectResponseHandler.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTPDirectResponseHandler.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDirectResponseHandler.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTPDirectResponseHandler.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDirectResponseHandler.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDirectResponseHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDirectResponseHandler.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTPDirectResponseHandler.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDirectResponseHandler.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTPDirectResponseHandler.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDirectResponseHandler.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDirectResponseHandler.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDirectResponseHandler.cpp.o.requires
@@ -1191,17 +1168,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDirectRes
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDownstreamSession.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDownstreamSession.cpp.o: third-party/proxygen/lib/http/session/HTTPDownstreamSession.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_52)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_51)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDownstreamSession.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDownstreamSession.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTPDownstreamSession.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDownstreamSession.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTPDownstreamSession.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDownstreamSession.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDownstreamSession.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTPDownstreamSession.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDownstreamSession.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTPDownstreamSession.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDownstreamSession.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDownstreamSession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDownstreamSession.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTPDownstreamSession.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDownstreamSession.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTPDownstreamSession.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDownstreamSession.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDownstreamSession.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDownstreamSession.cpp.o.requires
@@ -1214,17 +1191,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPDownstrea
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPErrorPage.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPErrorPage.cpp.o: third-party/proxygen/lib/http/session/HTTPErrorPage.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_53)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_52)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPErrorPage.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPErrorPage.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTPErrorPage.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPErrorPage.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTPErrorPage.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPErrorPage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPErrorPage.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTPErrorPage.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPErrorPage.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTPErrorPage.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPErrorPage.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPErrorPage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPErrorPage.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTPErrorPage.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPErrorPage.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTPErrorPage.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPErrorPage.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPErrorPage.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPErrorPage.cpp.o.requires
@@ -1237,17 +1214,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPErrorPage
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPEvent.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPEvent.cpp.o: third-party/proxygen/lib/http/session/HTTPEvent.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_54)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_53)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPEvent.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPEvent.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTPEvent.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPEvent.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTPEvent.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPEvent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPEvent.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTPEvent.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPEvent.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTPEvent.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPEvent.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPEvent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPEvent.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTPEvent.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPEvent.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTPEvent.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPEvent.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPEvent.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPEvent.cpp.o.requires
@@ -1260,17 +1237,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPEvent.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSession.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSession.cpp.o: third-party/proxygen/lib/http/session/HTTPSession.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_55)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_54)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSession.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSession.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTPSession.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSession.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTPSession.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSession.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSession.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTPSession.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSession.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTPSession.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSession.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSession.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTPSession.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSession.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTPSession.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSession.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSession.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSession.cpp.o.requires
@@ -1283,17 +1260,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSession.c
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSessionAcceptor.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSessionAcceptor.cpp.o: third-party/proxygen/lib/http/session/HTTPSessionAcceptor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_56)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_55)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSessionAcceptor.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSessionAcceptor.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTPSessionAcceptor.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSessionAcceptor.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTPSessionAcceptor.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSessionAcceptor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSessionAcceptor.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTPSessionAcceptor.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSessionAcceptor.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTPSessionAcceptor.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSessionAcceptor.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSessionAcceptor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSessionAcceptor.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTPSessionAcceptor.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSessionAcceptor.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTPSessionAcceptor.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSessionAcceptor.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSessionAcceptor.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSessionAcceptor.cpp.o.requires
@@ -1306,17 +1283,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPSessionAc
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransaction.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransaction.cpp.o: third-party/proxygen/lib/http/session/HTTPTransaction.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_57)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_56)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransaction.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransaction.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTPTransaction.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransaction.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTPTransaction.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransaction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransaction.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTPTransaction.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransaction.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTPTransaction.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransaction.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransaction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransaction.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTPTransaction.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransaction.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTPTransaction.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransaction.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransaction.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransaction.cpp.o.requires
@@ -1329,17 +1306,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransacti
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionEgressSM.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionEgressSM.cpp.o: third-party/proxygen/lib/http/session/HTTPTransactionEgressSM.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_58)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_57)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionEgressSM.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionEgressSM.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTPTransactionEgressSM.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionEgressSM.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTPTransactionEgressSM.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionEgressSM.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionEgressSM.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTPTransactionEgressSM.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionEgressSM.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTPTransactionEgressSM.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionEgressSM.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionEgressSM.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionEgressSM.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTPTransactionEgressSM.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionEgressSM.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTPTransactionEgressSM.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionEgressSM.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionEgressSM.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionEgressSM.cpp.o.requires
@@ -1352,17 +1329,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransacti
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionIngressSM.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionIngressSM.cpp.o: third-party/proxygen/lib/http/session/HTTPTransactionIngressSM.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_59)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_58)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionIngressSM.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionIngressSM.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTPTransactionIngressSM.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionIngressSM.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTPTransactionIngressSM.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionIngressSM.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionIngressSM.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTPTransactionIngressSM.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionIngressSM.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTPTransactionIngressSM.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionIngressSM.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionIngressSM.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionIngressSM.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTPTransactionIngressSM.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionIngressSM.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTPTransactionIngressSM.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionIngressSM.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionIngressSM.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransactionIngressSM.cpp.o.requires
@@ -1375,17 +1352,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPTransacti
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPUpstreamSession.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPUpstreamSession.cpp.o: third-party/proxygen/lib/http/session/HTTPUpstreamSession.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_60)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_59)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPUpstreamSession.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPUpstreamSession.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTPUpstreamSession.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPUpstreamSession.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTPUpstreamSession.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPUpstreamSession.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPUpstreamSession.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTPUpstreamSession.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPUpstreamSession.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTPUpstreamSession.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPUpstreamSession.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPUpstreamSession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPUpstreamSession.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTPUpstreamSession.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPUpstreamSession.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTPUpstreamSession.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPUpstreamSession.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPUpstreamSession.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPUpstreamSession.cpp.o.requires
@@ -1398,17 +1375,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/HTTPUpstreamS
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/SimpleController.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/SimpleController.cpp.o: third-party/proxygen/lib/http/session/SimpleController.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_61)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_60)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/SimpleController.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/session/SimpleController.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/SimpleController.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/session/SimpleController.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/SimpleController.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/SimpleController.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/session/SimpleController.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/SimpleController.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/session/SimpleController.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/SimpleController.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/session/SimpleController.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/SimpleController.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/session/SimpleController.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/SimpleController.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/session/SimpleController.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/SimpleController.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/session/SimpleController.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/SimpleController.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/SimpleController.cpp.o.requires
@@ -1421,17 +1398,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/SimpleControl
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/TransportFilter.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/TransportFilter.cpp.o: third-party/proxygen/lib/http/session/TransportFilter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_62)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_61)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/TransportFilter.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/session/TransportFilter.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/TransportFilter.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/session/TransportFilter.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/TransportFilter.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/TransportFilter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/session/TransportFilter.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/TransportFilter.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/session/TransportFilter.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/TransportFilter.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/session/TransportFilter.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/TransportFilter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/session/TransportFilter.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/TransportFilter.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/session/TransportFilter.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/TransportFilter.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/session/TransportFilter.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/TransportFilter.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/TransportFilter.cpp.o.requires
@@ -1444,17 +1421,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/session/TransportFilt
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/RequestWorker.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/RequestWorker.cpp.o: third-party/proxygen/lib/services/RequestWorker.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_63)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_62)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/RequestWorker.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/services/RequestWorker.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/services/RequestWorker.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/services/RequestWorker.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/services/RequestWorker.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/RequestWorker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/services/RequestWorker.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/services/RequestWorker.cpp > CMakeFiles/hphp_proxygen.dir/lib/services/RequestWorker.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/services/RequestWorker.cpp > CMakeFiles/hphp_proxygen.dir/lib/services/RequestWorker.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/RequestWorker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/services/RequestWorker.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/services/RequestWorker.cpp -o CMakeFiles/hphp_proxygen.dir/lib/services/RequestWorker.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/services/RequestWorker.cpp -o CMakeFiles/hphp_proxygen.dir/lib/services/RequestWorker.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/RequestWorker.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/RequestWorker.cpp.o.requires
@@ -1467,17 +1444,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/RequestWorker.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/Service.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/Service.cpp.o: third-party/proxygen/lib/services/Service.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_64)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_63)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/Service.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/services/Service.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/services/Service.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/services/Service.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/services/Service.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/Service.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/services/Service.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/services/Service.cpp > CMakeFiles/hphp_proxygen.dir/lib/services/Service.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/services/Service.cpp > CMakeFiles/hphp_proxygen.dir/lib/services/Service.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/Service.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/services/Service.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/services/Service.cpp -o CMakeFiles/hphp_proxygen.dir/lib/services/Service.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/services/Service.cpp -o CMakeFiles/hphp_proxygen.dir/lib/services/Service.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/Service.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/Service.cpp.o.requires
@@ -1490,17 +1467,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/Service.cpp.o.pro
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/WorkerThread.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/WorkerThread.cpp.o: third-party/proxygen/lib/services/WorkerThread.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_65)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_64)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/WorkerThread.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/services/WorkerThread.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/services/WorkerThread.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/services/WorkerThread.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/services/WorkerThread.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/WorkerThread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/services/WorkerThread.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/services/WorkerThread.cpp > CMakeFiles/hphp_proxygen.dir/lib/services/WorkerThread.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/services/WorkerThread.cpp > CMakeFiles/hphp_proxygen.dir/lib/services/WorkerThread.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/WorkerThread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/services/WorkerThread.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/services/WorkerThread.cpp -o CMakeFiles/hphp_proxygen.dir/lib/services/WorkerThread.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/services/WorkerThread.cpp -o CMakeFiles/hphp_proxygen.dir/lib/services/WorkerThread.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/WorkerThread.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/WorkerThread.cpp.o.requires
@@ -1513,17 +1490,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/services/WorkerThread.cpp.
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/AsyncTimeoutSet.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/AsyncTimeoutSet.cpp.o: third-party/proxygen/lib/utils/AsyncTimeoutSet.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_66)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_65)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/AsyncTimeoutSet.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/utils/AsyncTimeoutSet.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/AsyncTimeoutSet.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/utils/AsyncTimeoutSet.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/AsyncTimeoutSet.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/AsyncTimeoutSet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/utils/AsyncTimeoutSet.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/AsyncTimeoutSet.cpp > CMakeFiles/hphp_proxygen.dir/lib/utils/AsyncTimeoutSet.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/AsyncTimeoutSet.cpp > CMakeFiles/hphp_proxygen.dir/lib/utils/AsyncTimeoutSet.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/AsyncTimeoutSet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/utils/AsyncTimeoutSet.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/AsyncTimeoutSet.cpp -o CMakeFiles/hphp_proxygen.dir/lib/utils/AsyncTimeoutSet.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/AsyncTimeoutSet.cpp -o CMakeFiles/hphp_proxygen.dir/lib/utils/AsyncTimeoutSet.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/AsyncTimeoutSet.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/AsyncTimeoutSet.cpp.o.requires
@@ -1536,17 +1513,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/AsyncTimeoutSet.cpp.
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ChromeUtils.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ChromeUtils.cpp.o: third-party/proxygen/lib/utils/ChromeUtils.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_67)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_66)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ChromeUtils.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/utils/ChromeUtils.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/ChromeUtils.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/utils/ChromeUtils.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/ChromeUtils.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ChromeUtils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/utils/ChromeUtils.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/ChromeUtils.cpp > CMakeFiles/hphp_proxygen.dir/lib/utils/ChromeUtils.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/ChromeUtils.cpp > CMakeFiles/hphp_proxygen.dir/lib/utils/ChromeUtils.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ChromeUtils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/utils/ChromeUtils.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/ChromeUtils.cpp -o CMakeFiles/hphp_proxygen.dir/lib/utils/ChromeUtils.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/ChromeUtils.cpp -o CMakeFiles/hphp_proxygen.dir/lib/utils/ChromeUtils.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ChromeUtils.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ChromeUtils.cpp.o.requires
@@ -1559,17 +1536,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ChromeUtils.cpp.o.pr
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/CryptUtil.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/CryptUtil.cpp.o: third-party/proxygen/lib/utils/CryptUtil.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_68)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_67)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/CryptUtil.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/utils/CryptUtil.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/CryptUtil.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/utils/CryptUtil.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/CryptUtil.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/CryptUtil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/utils/CryptUtil.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/CryptUtil.cpp > CMakeFiles/hphp_proxygen.dir/lib/utils/CryptUtil.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/CryptUtil.cpp > CMakeFiles/hphp_proxygen.dir/lib/utils/CryptUtil.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/CryptUtil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/utils/CryptUtil.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/CryptUtil.cpp -o CMakeFiles/hphp_proxygen.dir/lib/utils/CryptUtil.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/CryptUtil.cpp -o CMakeFiles/hphp_proxygen.dir/lib/utils/CryptUtil.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/CryptUtil.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/CryptUtil.cpp.o.requires
@@ -1582,17 +1559,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/CryptUtil.cpp.o.prov
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/Exception.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/Exception.cpp.o: third-party/proxygen/lib/utils/Exception.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_69)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_68)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/Exception.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/utils/Exception.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/Exception.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/utils/Exception.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/Exception.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/Exception.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/utils/Exception.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/Exception.cpp > CMakeFiles/hphp_proxygen.dir/lib/utils/Exception.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/Exception.cpp > CMakeFiles/hphp_proxygen.dir/lib/utils/Exception.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/Exception.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/utils/Exception.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/Exception.cpp -o CMakeFiles/hphp_proxygen.dir/lib/utils/Exception.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/Exception.cpp -o CMakeFiles/hphp_proxygen.dir/lib/utils/Exception.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/Exception.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/Exception.cpp.o.requires
@@ -1605,17 +1582,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/Exception.cpp.o.prov
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/HTTPTime.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/HTTPTime.cpp.o: third-party/proxygen/lib/utils/HTTPTime.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_70)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_69)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/HTTPTime.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/utils/HTTPTime.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/HTTPTime.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/utils/HTTPTime.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/HTTPTime.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/HTTPTime.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/utils/HTTPTime.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/HTTPTime.cpp > CMakeFiles/hphp_proxygen.dir/lib/utils/HTTPTime.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/HTTPTime.cpp > CMakeFiles/hphp_proxygen.dir/lib/utils/HTTPTime.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/HTTPTime.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/utils/HTTPTime.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/HTTPTime.cpp -o CMakeFiles/hphp_proxygen.dir/lib/utils/HTTPTime.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/HTTPTime.cpp -o CMakeFiles/hphp_proxygen.dir/lib/utils/HTTPTime.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/HTTPTime.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/HTTPTime.cpp.o.requires
@@ -1628,17 +1605,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/HTTPTime.cpp.o.provi
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/Logging.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/Logging.cpp.o: third-party/proxygen/lib/utils/Logging.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_71)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_70)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/Logging.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/utils/Logging.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/Logging.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/utils/Logging.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/Logging.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/Logging.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/utils/Logging.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/Logging.cpp > CMakeFiles/hphp_proxygen.dir/lib/utils/Logging.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/Logging.cpp > CMakeFiles/hphp_proxygen.dir/lib/utils/Logging.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/Logging.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/utils/Logging.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/Logging.cpp -o CMakeFiles/hphp_proxygen.dir/lib/utils/Logging.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/Logging.cpp -o CMakeFiles/hphp_proxygen.dir/lib/utils/Logging.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/Logging.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/Logging.cpp.o.requires
@@ -1651,17 +1628,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/Logging.cpp.o.provid
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ParseURL.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ParseURL.cpp.o: third-party/proxygen/lib/utils/ParseURL.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_72)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_71)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ParseURL.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/utils/ParseURL.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/ParseURL.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/utils/ParseURL.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/ParseURL.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ParseURL.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/utils/ParseURL.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/ParseURL.cpp > CMakeFiles/hphp_proxygen.dir/lib/utils/ParseURL.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/ParseURL.cpp > CMakeFiles/hphp_proxygen.dir/lib/utils/ParseURL.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ParseURL.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/utils/ParseURL.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/ParseURL.cpp -o CMakeFiles/hphp_proxygen.dir/lib/utils/ParseURL.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/ParseURL.cpp -o CMakeFiles/hphp_proxygen.dir/lib/utils/ParseURL.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ParseURL.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ParseURL.cpp.o.requires
@@ -1674,17 +1651,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ParseURL.cpp.o.provi
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/RendezvousHash.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/RendezvousHash.cpp.o: third-party/proxygen/lib/utils/RendezvousHash.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_73)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_72)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/RendezvousHash.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/utils/RendezvousHash.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/RendezvousHash.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/utils/RendezvousHash.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/RendezvousHash.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/RendezvousHash.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/utils/RendezvousHash.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/RendezvousHash.cpp > CMakeFiles/hphp_proxygen.dir/lib/utils/RendezvousHash.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/RendezvousHash.cpp > CMakeFiles/hphp_proxygen.dir/lib/utils/RendezvousHash.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/RendezvousHash.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/utils/RendezvousHash.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/RendezvousHash.cpp -o CMakeFiles/hphp_proxygen.dir/lib/utils/RendezvousHash.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/RendezvousHash.cpp -o CMakeFiles/hphp_proxygen.dir/lib/utils/RendezvousHash.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/RendezvousHash.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/RendezvousHash.cpp.o.requires
@@ -1697,17 +1674,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/RendezvousHash.cpp.o
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamCompressor.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamCompressor.cpp.o: third-party/proxygen/lib/utils/ZlibStreamCompressor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_74)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_73)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamCompressor.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamCompressor.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/ZlibStreamCompressor.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamCompressor.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/ZlibStreamCompressor.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamCompressor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamCompressor.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/ZlibStreamCompressor.cpp > CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamCompressor.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/ZlibStreamCompressor.cpp > CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamCompressor.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamCompressor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamCompressor.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/ZlibStreamCompressor.cpp -o CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamCompressor.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/ZlibStreamCompressor.cpp -o CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamCompressor.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamCompressor.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamCompressor.cpp.o.requires
@@ -1720,17 +1697,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamCompressor
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamDecompressor.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamDecompressor.cpp.o: third-party/proxygen/lib/utils/ZlibStreamDecompressor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_75)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_74)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamDecompressor.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamDecompressor.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/ZlibStreamDecompressor.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamDecompressor.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/ZlibStreamDecompressor.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamDecompressor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamDecompressor.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/ZlibStreamDecompressor.cpp > CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamDecompressor.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/ZlibStreamDecompressor.cpp > CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamDecompressor.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamDecompressor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamDecompressor.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/ZlibStreamDecompressor.cpp -o CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamDecompressor.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/ZlibStreamDecompressor.cpp -o CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamDecompressor.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamDecompressor.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamDecompressor.cpp.o.requires
@@ -1743,17 +1720,17 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamDecompress
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/external/http_parser/http_parser_cpp.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/external/http_parser/http_parser_cpp.cpp.o: third-party/proxygen/external/http_parser/http_parser_cpp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_76)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_75)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/external/http_parser/http_parser_cpp.cpp.o"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/external/http_parser/http_parser_cpp.cpp.o -c /tmp/hhvm-3.11.1/third-party/proxygen/external/http_parser/http_parser_cpp.cpp
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/external/http_parser/http_parser_cpp.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/external/http_parser/http_parser_cpp.cpp
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/external/http_parser/http_parser_cpp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/external/http_parser/http_parser_cpp.cpp.i"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/third-party/proxygen/external/http_parser/http_parser_cpp.cpp > CMakeFiles/hphp_proxygen.dir/external/http_parser/http_parser_cpp.cpp.i
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/external/http_parser/http_parser_cpp.cpp > CMakeFiles/hphp_proxygen.dir/external/http_parser/http_parser_cpp.cpp.i
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/external/http_parser/http_parser_cpp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/external/http_parser/http_parser_cpp.cpp.s"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/third-party/proxygen/external/http_parser/http_parser_cpp.cpp -o CMakeFiles/hphp_proxygen.dir/external/http_parser/http_parser_cpp.cpp.s
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/external/http_parser/http_parser_cpp.cpp -o CMakeFiles/hphp_proxygen.dir/external/http_parser/http_parser_cpp.cpp.s
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/external/http_parser/http_parser_cpp.cpp.o.requires:
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/external/http_parser/http_parser_cpp.cpp.o.requires
@@ -1764,9 +1741,31 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/external/http_parser/http_pars
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/external/http_parser/http_parser_cpp.cpp.o.provides.build: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/external/http_parser/http_parser_cpp.cpp.o
 
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.o: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/flags.make
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.o: third-party/proxygen/lib/http/HTTPCommonHeaders.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_76)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.o"
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.o -c /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/HTTPCommonHeaders.cpp
+
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.i"
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/HTTPCommonHeaders.cpp > CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.i
+
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.s"
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/third-party/proxygen/lib/http/HTTPCommonHeaders.cpp -o CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.s
+
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.o.requires:
+.PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.o.requires
+
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.o.provides: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.o.requires
+	$(MAKE) -f third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.o.provides.build
+.PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.o.provides
+
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.o.provides.build: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.o
+
 # Object files for target hphp_proxygen
 hphp_proxygen_OBJECTS = \
-"CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.o" \
 "CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.o" \
 "CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConstants.cpp.o" \
 "CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.o" \
@@ -1839,12 +1838,12 @@ hphp_proxygen_OBJECTS = \
 "CMakeFiles/hphp_proxygen.dir/lib/utils/RendezvousHash.cpp.o" \
 "CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamCompressor.cpp.o" \
 "CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamDecompressor.cpp.o" \
-"CMakeFiles/hphp_proxygen.dir/external/http_parser/http_parser_cpp.cpp.o"
+"CMakeFiles/hphp_proxygen.dir/external/http_parser/http_parser_cpp.cpp.o" \
+"CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.o"
 
 # External object files for target hphp_proxygen
 hphp_proxygen_EXTERNAL_OBJECTS =
 
-third-party/proxygen/libhphp_proxygen.a: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.o
 third-party/proxygen/libhphp_proxygen.a: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.o
 third-party/proxygen/libhphp_proxygen.a: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConstants.cpp.o
 third-party/proxygen/libhphp_proxygen.a: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.o
@@ -1918,17 +1917,17 @@ third-party/proxygen/libhphp_proxygen.a: third-party/proxygen/CMakeFiles/hphp_pr
 third-party/proxygen/libhphp_proxygen.a: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamCompressor.cpp.o
 third-party/proxygen/libhphp_proxygen.a: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamDecompressor.cpp.o
 third-party/proxygen/libhphp_proxygen.a: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/external/http_parser/http_parser_cpp.cpp.o
+third-party/proxygen/libhphp_proxygen.a: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.o
 third-party/proxygen/libhphp_proxygen.a: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build.make
 third-party/proxygen/libhphp_proxygen.a: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libhphp_proxygen.a"
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && $(CMAKE_COMMAND) -P CMakeFiles/hphp_proxygen.dir/cmake_clean_target.cmake
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hphp_proxygen.dir/link.txt --verbose=$(VERBOSE)
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && $(CMAKE_COMMAND) -P CMakeFiles/hphp_proxygen.dir/cmake_clean_target.cmake
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hphp_proxygen.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build: third-party/proxygen/libhphp_proxygen.a
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/build
 
-third-party/proxygen/CMakeFiles/hphp_proxygen.dir/requires: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.o.requires
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/requires: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConnector.cpp.o.requires
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/requires: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPConstants.cpp.o.requires
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/requires: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPException.cpp.o.requires
@@ -2002,14 +2001,15 @@ third-party/proxygen/CMakeFiles/hphp_proxygen.dir/requires: third-party/proxygen
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/requires: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamCompressor.cpp.o.requires
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/requires: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/utils/ZlibStreamDecompressor.cpp.o.requires
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/requires: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/external/http_parser/http_parser_cpp.cpp.o.requires
+third-party/proxygen/CMakeFiles/hphp_proxygen.dir/requires: third-party/proxygen/CMakeFiles/hphp_proxygen.dir/lib/http/HTTPCommonHeaders.cpp.o.requires
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/requires
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/clean:
-	cd /tmp/hhvm-3.11.1/third-party/proxygen && $(CMAKE_COMMAND) -P CMakeFiles/hphp_proxygen.dir/cmake_clean.cmake
+	cd /tmp/hhvm-3.12.1/third-party/proxygen && $(CMAKE_COMMAND) -P CMakeFiles/hphp_proxygen.dir/cmake_clean.cmake
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/clean
 
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/depend: third-party/proxygen/lib/http/HTTPCommonHeaders.cpp
 third-party/proxygen/CMakeFiles/hphp_proxygen.dir/depend: third-party/proxygen/lib/http/HTTPCommonHeaders.h
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/third-party/proxygen /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/third-party/proxygen /tmp/hhvm-3.11.1/third-party/proxygen/CMakeFiles/hphp_proxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/hhvm-3.12.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.12.1 /tmp/hhvm-3.12.1/third-party/proxygen /tmp/hhvm-3.12.1 /tmp/hhvm-3.12.1/third-party/proxygen /tmp/hhvm-3.12.1/third-party/proxygen/CMakeFiles/hphp_proxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : third-party/proxygen/CMakeFiles/hphp_proxygen.dir/depend
 

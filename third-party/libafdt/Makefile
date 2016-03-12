@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.1
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles /tmp/hhvm-3.11.1/third-party/libafdt/CMakeFiles/progress.marks
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/libafdt/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles 0
+	cd /tmp/hhvm-3.12.1 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.1/CMakeFiles /tmp/hhvm-3.12.1/third-party/libafdt/CMakeFiles/progress.marks
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/libafdt/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.1/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/libafdt/clean
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/libafdt/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/libafdt/preinstall
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/libafdt/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/libafdt/preinstall
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/libafdt/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /tmp/hhvm-3.12.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 third-party/libafdt/CMakeFiles/afdt.dir/rule:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/libafdt/CMakeFiles/afdt.dir/rule
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/libafdt/CMakeFiles/afdt.dir/rule
 .PHONY : third-party/libafdt/CMakeFiles/afdt.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ afdt: third-party/libafdt/CMakeFiles/afdt.dir/rule
 
 # fast build rule for target.
 afdt/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libafdt/CMakeFiles/afdt.dir/build.make third-party/libafdt/CMakeFiles/afdt.dir/build
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/libafdt/CMakeFiles/afdt.dir/build.make third-party/libafdt/CMakeFiles/afdt.dir/build
 .PHONY : afdt/fast
 
 src/async.o: src/async.c.o
@@ -161,7 +161,7 @@ src/async.o: src/async.c.o
 
 # target to build an object file
 src/async.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libafdt/CMakeFiles/afdt.dir/build.make third-party/libafdt/CMakeFiles/afdt.dir/src/async.c.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/libafdt/CMakeFiles/afdt.dir/build.make third-party/libafdt/CMakeFiles/afdt.dir/src/async.c.o
 .PHONY : src/async.c.o
 
 src/async.i: src/async.c.i
@@ -169,7 +169,7 @@ src/async.i: src/async.c.i
 
 # target to preprocess a source file
 src/async.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libafdt/CMakeFiles/afdt.dir/build.make third-party/libafdt/CMakeFiles/afdt.dir/src/async.c.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/libafdt/CMakeFiles/afdt.dir/build.make third-party/libafdt/CMakeFiles/afdt.dir/src/async.c.i
 .PHONY : src/async.c.i
 
 src/async.s: src/async.c.s
@@ -177,7 +177,7 @@ src/async.s: src/async.c.s
 
 # target to generate assembly for a file
 src/async.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libafdt/CMakeFiles/afdt.dir/build.make third-party/libafdt/CMakeFiles/afdt.dir/src/async.c.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/libafdt/CMakeFiles/afdt.dir/build.make third-party/libafdt/CMakeFiles/afdt.dir/src/async.c.s
 .PHONY : src/async.c.s
 
 src/lowlevel.o: src/lowlevel.c.o
@@ -185,7 +185,7 @@ src/lowlevel.o: src/lowlevel.c.o
 
 # target to build an object file
 src/lowlevel.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libafdt/CMakeFiles/afdt.dir/build.make third-party/libafdt/CMakeFiles/afdt.dir/src/lowlevel.c.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/libafdt/CMakeFiles/afdt.dir/build.make third-party/libafdt/CMakeFiles/afdt.dir/src/lowlevel.c.o
 .PHONY : src/lowlevel.c.o
 
 src/lowlevel.i: src/lowlevel.c.i
@@ -193,7 +193,7 @@ src/lowlevel.i: src/lowlevel.c.i
 
 # target to preprocess a source file
 src/lowlevel.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libafdt/CMakeFiles/afdt.dir/build.make third-party/libafdt/CMakeFiles/afdt.dir/src/lowlevel.c.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/libafdt/CMakeFiles/afdt.dir/build.make third-party/libafdt/CMakeFiles/afdt.dir/src/lowlevel.c.i
 .PHONY : src/lowlevel.c.i
 
 src/lowlevel.s: src/lowlevel.c.s
@@ -201,7 +201,7 @@ src/lowlevel.s: src/lowlevel.c.s
 
 # target to generate assembly for a file
 src/lowlevel.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libafdt/CMakeFiles/afdt.dir/build.make third-party/libafdt/CMakeFiles/afdt.dir/src/lowlevel.c.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/libafdt/CMakeFiles/afdt.dir/build.make third-party/libafdt/CMakeFiles/afdt.dir/src/lowlevel.c.s
 .PHONY : src/lowlevel.c.s
 
 src/strlcpy.o: src/strlcpy.c.o
@@ -209,7 +209,7 @@ src/strlcpy.o: src/strlcpy.c.o
 
 # target to build an object file
 src/strlcpy.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libafdt/CMakeFiles/afdt.dir/build.make third-party/libafdt/CMakeFiles/afdt.dir/src/strlcpy.c.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/libafdt/CMakeFiles/afdt.dir/build.make third-party/libafdt/CMakeFiles/afdt.dir/src/strlcpy.c.o
 .PHONY : src/strlcpy.c.o
 
 src/strlcpy.i: src/strlcpy.c.i
@@ -217,7 +217,7 @@ src/strlcpy.i: src/strlcpy.c.i
 
 # target to preprocess a source file
 src/strlcpy.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libafdt/CMakeFiles/afdt.dir/build.make third-party/libafdt/CMakeFiles/afdt.dir/src/strlcpy.c.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/libafdt/CMakeFiles/afdt.dir/build.make third-party/libafdt/CMakeFiles/afdt.dir/src/strlcpy.c.i
 .PHONY : src/strlcpy.c.i
 
 src/strlcpy.s: src/strlcpy.c.s
@@ -225,7 +225,7 @@ src/strlcpy.s: src/strlcpy.c.s
 
 # target to generate assembly for a file
 src/strlcpy.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libafdt/CMakeFiles/afdt.dir/build.make third-party/libafdt/CMakeFiles/afdt.dir/src/strlcpy.c.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/libafdt/CMakeFiles/afdt.dir/build.make third-party/libafdt/CMakeFiles/afdt.dir/src/strlcpy.c.s
 .PHONY : src/strlcpy.c.s
 
 src/sync.o: src/sync.c.o
@@ -233,7 +233,7 @@ src/sync.o: src/sync.c.o
 
 # target to build an object file
 src/sync.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libafdt/CMakeFiles/afdt.dir/build.make third-party/libafdt/CMakeFiles/afdt.dir/src/sync.c.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/libafdt/CMakeFiles/afdt.dir/build.make third-party/libafdt/CMakeFiles/afdt.dir/src/sync.c.o
 .PHONY : src/sync.c.o
 
 src/sync.i: src/sync.c.i
@@ -241,7 +241,7 @@ src/sync.i: src/sync.c.i
 
 # target to preprocess a source file
 src/sync.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libafdt/CMakeFiles/afdt.dir/build.make third-party/libafdt/CMakeFiles/afdt.dir/src/sync.c.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/libafdt/CMakeFiles/afdt.dir/build.make third-party/libafdt/CMakeFiles/afdt.dir/src/sync.c.i
 .PHONY : src/sync.c.i
 
 src/sync.s: src/sync.c.s
@@ -249,7 +249,7 @@ src/sync.s: src/sync.c.s
 
 # target to generate assembly for a file
 src/sync.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libafdt/CMakeFiles/afdt.dir/build.make third-party/libafdt/CMakeFiles/afdt.dir/src/sync.c.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/libafdt/CMakeFiles/afdt.dir/build.make third-party/libafdt/CMakeFiles/afdt.dir/src/sync.c.s
 .PHONY : src/sync.c.s
 
 src/util.o: src/util.c.o
@@ -257,7 +257,7 @@ src/util.o: src/util.c.o
 
 # target to build an object file
 src/util.c.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libafdt/CMakeFiles/afdt.dir/build.make third-party/libafdt/CMakeFiles/afdt.dir/src/util.c.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/libafdt/CMakeFiles/afdt.dir/build.make third-party/libafdt/CMakeFiles/afdt.dir/src/util.c.o
 .PHONY : src/util.c.o
 
 src/util.i: src/util.c.i
@@ -265,7 +265,7 @@ src/util.i: src/util.c.i
 
 # target to preprocess a source file
 src/util.c.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libafdt/CMakeFiles/afdt.dir/build.make third-party/libafdt/CMakeFiles/afdt.dir/src/util.c.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/libafdt/CMakeFiles/afdt.dir/build.make third-party/libafdt/CMakeFiles/afdt.dir/src/util.c.i
 .PHONY : src/util.c.i
 
 src/util.s: src/util.c.s
@@ -273,7 +273,7 @@ src/util.s: src/util.c.s
 
 # target to generate assembly for a file
 src/util.c.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/libafdt/CMakeFiles/afdt.dir/build.make third-party/libafdt/CMakeFiles/afdt.dir/src/util.c.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/libafdt/CMakeFiles/afdt.dir/build.make third-party/libafdt/CMakeFiles/afdt.dir/src/util.c.s
 .PHONY : src/util.c.s
 
 # Help Target
@@ -315,6 +315,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /tmp/hhvm-3.12.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

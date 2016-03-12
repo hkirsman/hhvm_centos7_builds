@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/tmp/hhvm-3.11.1/hphp/runtime/base/mixed-array-x64.S
+/tmp/hhvm-3.12.1/hphp/runtime/base/mixed-array-x64.S
 hphp/util/etch-helpers.h
-/tmp/hhvm-3.11.1/hphp/runtime/base/hphp/util/etch-helpers.h
+/tmp/hhvm-3.12.1/hphp/runtime/base/hphp/util/etch-helpers.h
 
-/tmp/hhvm-3.11.1/hphp/runtime/vm/jit/translator-asm-helpers.S
+/tmp/hhvm-3.12.1/hphp/runtime/vm/jit/translator-asm-helpers.S
 hphp/util/etch-helpers.h
-/tmp/hhvm-3.11.1/hphp/runtime/vm/jit/hphp/util/etch-helpers.h
+/tmp/hhvm-3.12.1/hphp/runtime/vm/jit/hphp/util/etch-helpers.h
 
 hphp/util/etch-helpers.h
 

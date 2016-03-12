@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.1
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles /tmp/hhvm-3.11.1/hphp/parser/CMakeFiles/progress.marks
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/parser/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles 0
+	cd /tmp/hhvm-3.12.1 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.1/CMakeFiles /tmp/hhvm-3.12.1/hphp/parser/CMakeFiles/progress.marks
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/parser/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.1/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/parser/clean
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/parser/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/parser/preinstall
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/parser/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/parser/preinstall
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/parser/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /tmp/hhvm-3.12.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 hphp/parser/CMakeFiles/hphp_parser.dir/rule:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/parser/CMakeFiles/hphp_parser.dir/rule
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/parser/CMakeFiles/hphp_parser.dir/rule
 .PHONY : hphp/parser/CMakeFiles/hphp_parser.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ hphp_parser: hphp/parser/CMakeFiles/hphp_parser.dir/rule
 
 # fast build rule for target.
 hphp_parser/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/parser/CMakeFiles/hphp_parser.dir/build.make hphp/parser/CMakeFiles/hphp_parser.dir/build
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/parser/CMakeFiles/hphp_parser.dir/build.make hphp/parser/CMakeFiles/hphp_parser.dir/build
 .PHONY : hphp_parser/fast
 
 hphp.5.tab.o: hphp.5.tab.cpp.o
@@ -161,7 +161,7 @@ hphp.5.tab.o: hphp.5.tab.cpp.o
 
 # target to build an object file
 hphp.5.tab.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/parser/CMakeFiles/hphp_parser.dir/build.make hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/parser/CMakeFiles/hphp_parser.dir/build.make hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.o
 .PHONY : hphp.5.tab.cpp.o
 
 hphp.5.tab.i: hphp.5.tab.cpp.i
@@ -169,7 +169,7 @@ hphp.5.tab.i: hphp.5.tab.cpp.i
 
 # target to preprocess a source file
 hphp.5.tab.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/parser/CMakeFiles/hphp_parser.dir/build.make hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/parser/CMakeFiles/hphp_parser.dir/build.make hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.i
 .PHONY : hphp.5.tab.cpp.i
 
 hphp.5.tab.s: hphp.5.tab.cpp.s
@@ -177,7 +177,7 @@ hphp.5.tab.s: hphp.5.tab.cpp.s
 
 # target to generate assembly for a file
 hphp.5.tab.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/parser/CMakeFiles/hphp_parser.dir/build.make hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/parser/CMakeFiles/hphp_parser.dir/build.make hphp/parser/CMakeFiles/hphp_parser.dir/hphp.5.tab.cpp.s
 .PHONY : hphp.5.tab.cpp.s
 
 hphp.7.tab.o: hphp.7.tab.cpp.o
@@ -185,7 +185,7 @@ hphp.7.tab.o: hphp.7.tab.cpp.o
 
 # target to build an object file
 hphp.7.tab.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/parser/CMakeFiles/hphp_parser.dir/build.make hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/parser/CMakeFiles/hphp_parser.dir/build.make hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.o
 .PHONY : hphp.7.tab.cpp.o
 
 hphp.7.tab.i: hphp.7.tab.cpp.i
@@ -193,7 +193,7 @@ hphp.7.tab.i: hphp.7.tab.cpp.i
 
 # target to preprocess a source file
 hphp.7.tab.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/parser/CMakeFiles/hphp_parser.dir/build.make hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/parser/CMakeFiles/hphp_parser.dir/build.make hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.i
 .PHONY : hphp.7.tab.cpp.i
 
 hphp.7.tab.s: hphp.7.tab.cpp.s
@@ -201,7 +201,7 @@ hphp.7.tab.s: hphp.7.tab.cpp.s
 
 # target to generate assembly for a file
 hphp.7.tab.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/parser/CMakeFiles/hphp_parser.dir/build.make hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/parser/CMakeFiles/hphp_parser.dir/build.make hphp/parser/CMakeFiles/hphp_parser.dir/hphp.7.tab.cpp.s
 .PHONY : hphp.7.tab.cpp.s
 
 lex.yy.o: lex.yy.cpp.o
@@ -209,7 +209,7 @@ lex.yy.o: lex.yy.cpp.o
 
 # target to build an object file
 lex.yy.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/parser/CMakeFiles/hphp_parser.dir/build.make hphp/parser/CMakeFiles/hphp_parser.dir/lex.yy.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/parser/CMakeFiles/hphp_parser.dir/build.make hphp/parser/CMakeFiles/hphp_parser.dir/lex.yy.cpp.o
 .PHONY : lex.yy.cpp.o
 
 lex.yy.i: lex.yy.cpp.i
@@ -217,7 +217,7 @@ lex.yy.i: lex.yy.cpp.i
 
 # target to preprocess a source file
 lex.yy.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/parser/CMakeFiles/hphp_parser.dir/build.make hphp/parser/CMakeFiles/hphp_parser.dir/lex.yy.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/parser/CMakeFiles/hphp_parser.dir/build.make hphp/parser/CMakeFiles/hphp_parser.dir/lex.yy.cpp.i
 .PHONY : lex.yy.cpp.i
 
 lex.yy.s: lex.yy.cpp.s
@@ -225,7 +225,7 @@ lex.yy.s: lex.yy.cpp.s
 
 # target to generate assembly for a file
 lex.yy.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/parser/CMakeFiles/hphp_parser.dir/build.make hphp/parser/CMakeFiles/hphp_parser.dir/lex.yy.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/parser/CMakeFiles/hphp_parser.dir/build.make hphp/parser/CMakeFiles/hphp_parser.dir/lex.yy.cpp.s
 .PHONY : lex.yy.cpp.s
 
 parser.o: parser.cpp.o
@@ -233,7 +233,7 @@ parser.o: parser.cpp.o
 
 # target to build an object file
 parser.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/parser/CMakeFiles/hphp_parser.dir/build.make hphp/parser/CMakeFiles/hphp_parser.dir/parser.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/parser/CMakeFiles/hphp_parser.dir/build.make hphp/parser/CMakeFiles/hphp_parser.dir/parser.cpp.o
 .PHONY : parser.cpp.o
 
 parser.i: parser.cpp.i
@@ -241,7 +241,7 @@ parser.i: parser.cpp.i
 
 # target to preprocess a source file
 parser.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/parser/CMakeFiles/hphp_parser.dir/build.make hphp/parser/CMakeFiles/hphp_parser.dir/parser.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/parser/CMakeFiles/hphp_parser.dir/build.make hphp/parser/CMakeFiles/hphp_parser.dir/parser.cpp.i
 .PHONY : parser.cpp.i
 
 parser.s: parser.cpp.s
@@ -249,7 +249,7 @@ parser.s: parser.cpp.s
 
 # target to generate assembly for a file
 parser.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/parser/CMakeFiles/hphp_parser.dir/build.make hphp/parser/CMakeFiles/hphp_parser.dir/parser.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/parser/CMakeFiles/hphp_parser.dir/build.make hphp/parser/CMakeFiles/hphp_parser.dir/parser.cpp.s
 .PHONY : parser.cpp.s
 
 scanner.o: scanner.cpp.o
@@ -257,7 +257,7 @@ scanner.o: scanner.cpp.o
 
 # target to build an object file
 scanner.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/parser/CMakeFiles/hphp_parser.dir/build.make hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/parser/CMakeFiles/hphp_parser.dir/build.make hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.o
 .PHONY : scanner.cpp.o
 
 scanner.i: scanner.cpp.i
@@ -265,7 +265,7 @@ scanner.i: scanner.cpp.i
 
 # target to preprocess a source file
 scanner.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/parser/CMakeFiles/hphp_parser.dir/build.make hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/parser/CMakeFiles/hphp_parser.dir/build.make hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.i
 .PHONY : scanner.cpp.i
 
 scanner.s: scanner.cpp.s
@@ -273,7 +273,7 @@ scanner.s: scanner.cpp.s
 
 # target to generate assembly for a file
 scanner.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/parser/CMakeFiles/hphp_parser.dir/build.make hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/parser/CMakeFiles/hphp_parser.dir/build.make hphp/parser/CMakeFiles/hphp_parser.dir/scanner.cpp.s
 .PHONY : scanner.cpp.s
 
 # Help Target
@@ -315,6 +315,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /tmp/hhvm-3.12.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

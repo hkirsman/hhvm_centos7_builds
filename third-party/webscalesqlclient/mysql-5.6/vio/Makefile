@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -104,7 +104,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -114,7 +114,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && /usr/bin/cpack --config ./CPackSourceConfig.cmake /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CPackSourceConfig.cmake
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && /usr/bin/cpack --config ./CPackSourceConfig.cmake /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -133,14 +133,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/vio/CMakeFiles/progress.marks
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 vio/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles 0
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/CMakeFiles /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/vio/CMakeFiles/progress.marks
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 vio/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 vio/clean
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 vio/clean
 .PHONY : clean
 
 # The main clean target
@@ -149,22 +149,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 vio/preinstall
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 vio/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 vio/preinstall
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 vio/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 vio/CMakeFiles/vio.dir/rule:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 vio/CMakeFiles/vio.dir/rule
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 vio/CMakeFiles/vio.dir/rule
 .PHONY : vio/CMakeFiles/vio.dir/rule
 
 # Convenience name for target.
@@ -173,7 +173,7 @@ vio: vio/CMakeFiles/vio.dir/rule
 
 # fast build rule for target.
 vio/fast:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f vio/CMakeFiles/vio.dir/build.make vio/CMakeFiles/vio.dir/build
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f vio/CMakeFiles/vio.dir/build.make vio/CMakeFiles/vio.dir/build
 .PHONY : vio/fast
 
 vio.o: vio.c.o
@@ -181,7 +181,7 @@ vio.o: vio.c.o
 
 # target to build an object file
 vio.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f vio/CMakeFiles/vio.dir/build.make vio/CMakeFiles/vio.dir/vio.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f vio/CMakeFiles/vio.dir/build.make vio/CMakeFiles/vio.dir/vio.c.o
 .PHONY : vio.c.o
 
 vio.i: vio.c.i
@@ -189,7 +189,7 @@ vio.i: vio.c.i
 
 # target to preprocess a source file
 vio.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f vio/CMakeFiles/vio.dir/build.make vio/CMakeFiles/vio.dir/vio.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f vio/CMakeFiles/vio.dir/build.make vio/CMakeFiles/vio.dir/vio.c.i
 .PHONY : vio.c.i
 
 vio.s: vio.c.s
@@ -197,7 +197,7 @@ vio.s: vio.c.s
 
 # target to generate assembly for a file
 vio.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f vio/CMakeFiles/vio.dir/build.make vio/CMakeFiles/vio.dir/vio.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f vio/CMakeFiles/vio.dir/build.make vio/CMakeFiles/vio.dir/vio.c.s
 .PHONY : vio.c.s
 
 viopipe.o: viopipe.c.o
@@ -205,7 +205,7 @@ viopipe.o: viopipe.c.o
 
 # target to build an object file
 viopipe.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f vio/CMakeFiles/vio.dir/build.make vio/CMakeFiles/vio.dir/viopipe.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f vio/CMakeFiles/vio.dir/build.make vio/CMakeFiles/vio.dir/viopipe.c.o
 .PHONY : viopipe.c.o
 
 viopipe.i: viopipe.c.i
@@ -213,7 +213,7 @@ viopipe.i: viopipe.c.i
 
 # target to preprocess a source file
 viopipe.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f vio/CMakeFiles/vio.dir/build.make vio/CMakeFiles/vio.dir/viopipe.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f vio/CMakeFiles/vio.dir/build.make vio/CMakeFiles/vio.dir/viopipe.c.i
 .PHONY : viopipe.c.i
 
 viopipe.s: viopipe.c.s
@@ -221,7 +221,7 @@ viopipe.s: viopipe.c.s
 
 # target to generate assembly for a file
 viopipe.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f vio/CMakeFiles/vio.dir/build.make vio/CMakeFiles/vio.dir/viopipe.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f vio/CMakeFiles/vio.dir/build.make vio/CMakeFiles/vio.dir/viopipe.c.s
 .PHONY : viopipe.c.s
 
 vioshm.o: vioshm.c.o
@@ -229,7 +229,7 @@ vioshm.o: vioshm.c.o
 
 # target to build an object file
 vioshm.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f vio/CMakeFiles/vio.dir/build.make vio/CMakeFiles/vio.dir/vioshm.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f vio/CMakeFiles/vio.dir/build.make vio/CMakeFiles/vio.dir/vioshm.c.o
 .PHONY : vioshm.c.o
 
 vioshm.i: vioshm.c.i
@@ -237,7 +237,7 @@ vioshm.i: vioshm.c.i
 
 # target to preprocess a source file
 vioshm.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f vio/CMakeFiles/vio.dir/build.make vio/CMakeFiles/vio.dir/vioshm.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f vio/CMakeFiles/vio.dir/build.make vio/CMakeFiles/vio.dir/vioshm.c.i
 .PHONY : vioshm.c.i
 
 vioshm.s: vioshm.c.s
@@ -245,7 +245,7 @@ vioshm.s: vioshm.c.s
 
 # target to generate assembly for a file
 vioshm.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f vio/CMakeFiles/vio.dir/build.make vio/CMakeFiles/vio.dir/vioshm.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f vio/CMakeFiles/vio.dir/build.make vio/CMakeFiles/vio.dir/vioshm.c.s
 .PHONY : vioshm.c.s
 
 viosocket.o: viosocket.c.o
@@ -253,7 +253,7 @@ viosocket.o: viosocket.c.o
 
 # target to build an object file
 viosocket.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f vio/CMakeFiles/vio.dir/build.make vio/CMakeFiles/vio.dir/viosocket.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f vio/CMakeFiles/vio.dir/build.make vio/CMakeFiles/vio.dir/viosocket.c.o
 .PHONY : viosocket.c.o
 
 viosocket.i: viosocket.c.i
@@ -261,7 +261,7 @@ viosocket.i: viosocket.c.i
 
 # target to preprocess a source file
 viosocket.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f vio/CMakeFiles/vio.dir/build.make vio/CMakeFiles/vio.dir/viosocket.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f vio/CMakeFiles/vio.dir/build.make vio/CMakeFiles/vio.dir/viosocket.c.i
 .PHONY : viosocket.c.i
 
 viosocket.s: viosocket.c.s
@@ -269,7 +269,7 @@ viosocket.s: viosocket.c.s
 
 # target to generate assembly for a file
 viosocket.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f vio/CMakeFiles/vio.dir/build.make vio/CMakeFiles/vio.dir/viosocket.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f vio/CMakeFiles/vio.dir/build.make vio/CMakeFiles/vio.dir/viosocket.c.s
 .PHONY : viosocket.c.s
 
 viossl.o: viossl.c.o
@@ -277,7 +277,7 @@ viossl.o: viossl.c.o
 
 # target to build an object file
 viossl.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f vio/CMakeFiles/vio.dir/build.make vio/CMakeFiles/vio.dir/viossl.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f vio/CMakeFiles/vio.dir/build.make vio/CMakeFiles/vio.dir/viossl.c.o
 .PHONY : viossl.c.o
 
 viossl.i: viossl.c.i
@@ -285,7 +285,7 @@ viossl.i: viossl.c.i
 
 # target to preprocess a source file
 viossl.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f vio/CMakeFiles/vio.dir/build.make vio/CMakeFiles/vio.dir/viossl.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f vio/CMakeFiles/vio.dir/build.make vio/CMakeFiles/vio.dir/viossl.c.i
 .PHONY : viossl.c.i
 
 viossl.s: viossl.c.s
@@ -293,7 +293,7 @@ viossl.s: viossl.c.s
 
 # target to generate assembly for a file
 viossl.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f vio/CMakeFiles/vio.dir/build.make vio/CMakeFiles/vio.dir/viossl.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f vio/CMakeFiles/vio.dir/build.make vio/CMakeFiles/vio.dir/viossl.c.s
 .PHONY : viossl.c.s
 
 viosslfactories.o: viosslfactories.c.o
@@ -301,7 +301,7 @@ viosslfactories.o: viosslfactories.c.o
 
 # target to build an object file
 viosslfactories.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f vio/CMakeFiles/vio.dir/build.make vio/CMakeFiles/vio.dir/viosslfactories.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f vio/CMakeFiles/vio.dir/build.make vio/CMakeFiles/vio.dir/viosslfactories.c.o
 .PHONY : viosslfactories.c.o
 
 viosslfactories.i: viosslfactories.c.i
@@ -309,7 +309,7 @@ viosslfactories.i: viosslfactories.c.i
 
 # target to preprocess a source file
 viosslfactories.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f vio/CMakeFiles/vio.dir/build.make vio/CMakeFiles/vio.dir/viosslfactories.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f vio/CMakeFiles/vio.dir/build.make vio/CMakeFiles/vio.dir/viosslfactories.c.i
 .PHONY : viosslfactories.c.i
 
 viosslfactories.s: viosslfactories.c.s
@@ -317,7 +317,7 @@ viosslfactories.s: viosslfactories.c.s
 
 # target to generate assembly for a file
 viosslfactories.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f vio/CMakeFiles/vio.dir/build.make vio/CMakeFiles/vio.dir/viosslfactories.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f vio/CMakeFiles/vio.dir/build.make vio/CMakeFiles/vio.dir/viosslfactories.c.s
 .PHONY : viosslfactories.c.s
 
 # Help Target
@@ -364,6 +364,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

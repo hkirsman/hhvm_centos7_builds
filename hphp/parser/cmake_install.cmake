@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/hhvm-3.11.1/hphp/parser
+# Install script for directory: /tmp/hhvm-3.12.1/hphp/parser
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,8 +33,8 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
-  INCLUDE("/tmp/hhvm-3.11.1/CMake/HPHPFunctions.cmake")
-      HHVM_INSTALL_HEADERS(parser /tmp/hhvm-3.11.1
-      "${CMAKE_INSTALL_PREFIX}/include" /tmp/hhvm-3.11.1/hphp/parser/location.h;/tmp/hhvm-3.11.1/hphp/parser/parse-time-fatal-exception.h;/tmp/hhvm-3.11.1/hphp/parser/parser.h;/tmp/hhvm-3.11.1/hphp/parser/scanner.h;/tmp/hhvm-3.11.1/hphp/parser/location.h;/tmp/hhvm-3.11.1/hphp/parser/parse-time-fatal-exception.h;/tmp/hhvm-3.11.1/hphp/parser/parser.h;/tmp/hhvm-3.11.1/hphp/parser/scanner.h)
+  INCLUDE("/tmp/hhvm-3.12.1/CMake/HPHPFunctions.cmake")
+      HHVM_INSTALL_HEADERS(parser /tmp/hhvm-3.12.1
+      "${CMAKE_INSTALL_PREFIX}/include" /tmp/hhvm-3.12.1/hphp/parser/location.h;/tmp/hhvm-3.12.1/hphp/parser/parse-time-fatal-exception.h;/tmp/hhvm-3.12.1/hphp/parser/parser.h;/tmp/hhvm-3.12.1/hphp/parser/scanner.h;/tmp/hhvm-3.12.1/hphp/parser/location.h;/tmp/hhvm-3.12.1/hphp/parser/parse-time-fatal-exception.h;/tmp/hhvm-3.12.1/hphp/parser/parser.h;/tmp/hhvm-3.12.1/hphp/parser/scanner.h)
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
 

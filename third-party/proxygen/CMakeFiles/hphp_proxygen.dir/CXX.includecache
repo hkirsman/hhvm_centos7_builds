@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/tmp/hhvm-3.11.1/third-party/proxygen/external/http_parser/http_parser_cpp.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/external/http_parser/http_parser_cpp.cpp
 proxygen/external/http_parser/http_parser.h
-/tmp/hhvm-3.11.1/third-party/proxygen/external/http_parser/proxygen/external/http_parser/http_parser.h
+/tmp/hhvm-3.12.1/third-party/proxygen/external/http_parser/proxygen/external/http_parser/http_parser.h
 assert.h
 -
 stddef.h
@@ -20,15 +20,15 @@ stdlib.h
 limits
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/HTTPCommonHeaders.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/HTTPCommonHeaders.cpp
 proxygen/lib/http/HTTPCommonHeaders.h
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/proxygen/lib/http/HTTPCommonHeaders.h
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/proxygen/lib/http/HTTPCommonHeaders.h
 cstring
 -
 glog/logging.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/HTTPConnector.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/HTTPConnector.cpp
 proxygen/lib/http/HTTPConnector.h
 -
 wangle/ssl/SSLUtil.h
@@ -46,15 +46,15 @@ proxygen/lib/http/session/HTTPUpstreamSession.h
 folly/io/async/AsyncSSLSocket.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/HTTPConstants.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/HTTPConstants.cpp
 proxygen/lib/http/HTTPConstants.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/HTTPException.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/HTTPException.cpp
 proxygen/lib/http/HTTPException.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/HTTPHeaders.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/HTTPHeaders.cpp
 proxygen/lib/http/HTTPHeaders.h
 -
 glog/logging.h
@@ -62,7 +62,7 @@ glog/logging.h
 vector
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/HTTPMessage.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/HTTPMessage.cpp
 proxygen/lib/http/HTTPMessage.h
 -
 array
@@ -80,7 +80,7 @@ utility
 vector
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/HTTPMethod.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/HTTPMethod.cpp
 proxygen/lib/http/HTTPMethod.h
 -
 folly/Foreach.h
@@ -92,11 +92,11 @@ proxygen/lib/utils/UnionBasedStatic.h
 vector
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/ProxygenErrorEnum.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/ProxygenErrorEnum.cpp
 proxygen/lib/http/ProxygenErrorEnum.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/RFC2616.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/RFC2616.cpp
 proxygen/lib/http/RFC2616.h
 -
 folly/String.h
@@ -106,7 +106,7 @@ folly/ThreadLocal.h
 proxygen/lib/http/HTTPHeaders.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/Window.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/Window.cpp
 proxygen/lib/http/Window.h
 -
 glog/logging.h
@@ -114,7 +114,7 @@ glog/logging.h
 limits
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/CodecProtocol.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/CodecProtocol.cpp
 proxygen/lib/http/codec/CodecProtocol.h
 -
 proxygen/lib/http/codec/HTTPCodec.h
@@ -122,17 +122,17 @@ proxygen/lib/http/codec/HTTPCodec.h
 glog/logging.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/ErrorCode.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/ErrorCode.cpp
 proxygen/lib/http/codec/ErrorCode.h
 -
 glog/logging.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/FlowControlFilter.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/FlowControlFilter.cpp
 proxygen/lib/http/codec/FlowControlFilter.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/HTTP1xCodec.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/HTTP1xCodec.cpp
 proxygen/lib/http/codec/HTTP1xCodec.h
 -
 folly/Memory.h
@@ -142,21 +142,21 @@ proxygen/lib/http/HTTPHeaderSize.h
 proxygen/lib/http/RFC2616.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/HTTPChecks.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/HTTPChecks.cpp
 proxygen/lib/http/codec/HTTPChecks.h
 -
 proxygen/lib/http/RFC2616.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/HTTPCodecFilter.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/HTTPCodecFilter.cpp
 proxygen/lib/http/codec/HTTPCodecFilter.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/HTTPCodecPrinter.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/HTTPCodecPrinter.cpp
 proxygen/lib/http/codec/HTTPCodecPrinter.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/HTTPParallelCodec.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/HTTPParallelCodec.cpp
 proxygen/lib/http/codec/HTTPParallelCodec.h
 -
 algorithm
@@ -184,11 +184,11 @@ proxygen/lib/http/HTTPMessage.h
 proxygen/lib/http/codec/CodecDictionaries.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/HTTPSettings.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/HTTPSettings.cpp
 proxygen/lib/http/codec/HTTPSettings.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/SPDYCodec.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/SPDYCodec.cpp
 proxygen/lib/http/codec/SPDYCodec.h
 -
 algorithm
@@ -228,11 +228,11 @@ proxygen/lib/utils/UtilInl.h
 vector
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/SPDYConstants.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/SPDYConstants.cpp
 proxygen/lib/http/codec/SPDYConstants.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/SPDYUtil.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/SPDYUtil.cpp
 proxygen/lib/http/codec/SPDYUtil.h
 -
 folly/ThreadLocal.h
@@ -240,15 +240,15 @@ folly/ThreadLocal.h
 proxygen/lib/http/RFC2616.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/SettingsId.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/SettingsId.cpp
 proxygen/lib/http/codec/SettingsId.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/TransportDirection.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/TransportDirection.cpp
 proxygen/lib/http/codec/TransportDirection.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/GzipHeaderCodec.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/GzipHeaderCodec.cpp
 proxygen/lib/http/codec/compress/GzipHeaderCodec.h
 -
 folly/Memory.h
@@ -270,7 +270,7 @@ proxygen/lib/utils/UnionBasedStatic.h
 string
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/HPACKCodec.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/HPACKCodec.cpp
 proxygen/lib/http/codec/compress/HPACKCodec.h
 -
 algorithm
@@ -282,13 +282,13 @@ folly/io/Cursor.h
 proxygen/lib/http/codec/compress/HPACKHeader.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/HPACKContext.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/HPACKContext.cpp
 proxygen/lib/http/codec/compress/HPACKContext.h
 -
 folly/io/IOBuf.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/HPACKDecodeBuffer.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/HPACKDecodeBuffer.cpp
 proxygen/lib/http/codec/compress/HPACKDecodeBuffer.h
 -
 limits
@@ -298,7 +298,7 @@ memory
 proxygen/lib/http/codec/compress/Huffman.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/HPACKDecoder.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/HPACKDecoder.cpp
 proxygen/lib/http/codec/compress/HPACKDecoder.h
 -
 algorithm
@@ -310,7 +310,7 @@ proxygen/lib/http/codec/compress/HeaderCodec.h
 proxygen/lib/http/codec/compress/Huffman.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/HPACKEncodeBuffer.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/HPACKEncodeBuffer.cpp
 proxygen/lib/http/codec/compress/HPACKEncodeBuffer.h
 -
 ctype.h
@@ -324,7 +324,7 @@ proxygen/lib/http/codec/compress/Logging.h
 proxygen/lib/utils/Logging.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/HPACKEncoder.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/HPACKEncoder.cpp
 proxygen/lib/http/codec/compress/HPACKEncoder.h
 -
 algorithm
@@ -334,17 +334,17 @@ unordered_set
 utility
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/HPACKHeader.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/HPACKHeader.cpp
 proxygen/lib/http/codec/compress/HPACKHeader.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/HeaderTable.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/HeaderTable.cpp
 proxygen/lib/http/codec/compress/HeaderTable.h
 -
 glog/logging.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/Huffman.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/Huffman.cpp
 proxygen/lib/http/codec/compress/Huffman.h
 -
 proxygen/lib/utils/UnionBasedStatic.h
@@ -352,13 +352,13 @@ proxygen/lib/utils/UnionBasedStatic.h
 arpa/inet.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/Logging.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/Logging.cpp
 proxygen/lib/http/codec/compress/Logging.h
 -
 sstream
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/StaticHeaderTable.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/StaticHeaderTable.cpp
 proxygen/lib/http/codec/compress/StaticHeaderTable.h
 -
 proxygen/lib/utils/UnionBasedStatic.h
@@ -368,7 +368,7 @@ glog/logging.h
 list
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/experimental/hpack9/HPACKCodec.cpp
 proxygen/lib/http/codec/compress/experimental/hpack9/HPACKCodec.h
 -
 proxygen/lib/http/codec/compress/experimental/hpack9/HPACKEncoder.h
@@ -376,7 +376,7 @@ proxygen/lib/http/codec/compress/experimental/hpack9/HPACKEncoder.h
 proxygen/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.cpp
 proxygen/lib/http/codec/compress/experimental/hpack9/HPACKDecoder.h
 -
 proxygen/lib/http/codec/compress/experimental/hpack9/HPACKConstants.h
@@ -384,7 +384,7 @@ proxygen/lib/http/codec/compress/experimental/hpack9/HPACKConstants.h
 proxygen/lib/http/codec/compress/experimental/hpack9/Huffman.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/experimental/hpack9/HPACKEncoder.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/experimental/hpack9/HPACKEncoder.cpp
 proxygen/lib/http/codec/compress/experimental/hpack9/HPACKEncoder.h
 -
 proxygen/lib/http/codec/compress/experimental/hpack9/HPACKConstants.h
@@ -392,19 +392,19 @@ proxygen/lib/http/codec/compress/experimental/hpack9/HPACKConstants.h
 folly/io/IOBuf.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/experimental/hpack9/Huffman.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/experimental/hpack9/Huffman.cpp
 proxygen/lib/http/codec/compress/experimental/hpack9/Huffman.h
 -
 proxygen/lib/utils/UnionBasedStatic.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.cpp
 proxygen/lib/http/codec/compress/experimental/hpack9/StaticHeaderTable.h
 -
 proxygen/lib/utils/UnionBasedStatic.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/experimental/HTTP2Codec.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/experimental/HTTP2Codec.cpp
 proxygen/lib/http/codec/experimental/HTTP2Codec.h
 -
 proxygen/lib/http/codec/experimental/HTTP2Constants.h
@@ -422,17 +422,17 @@ folly/io/Cursor.h
 folly/Random.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/experimental/HTTP2Constants.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/experimental/HTTP2Constants.cpp
 proxygen/lib/http/codec/experimental/HTTP2Constants.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/codec/experimental/HTTP2Framer.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/codec/experimental/HTTP2Framer.cpp
 proxygen/lib/http/codec/experimental/HTTP2Framer.h
 -
 cstdint
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/ByteEventTracker.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/ByteEventTracker.cpp
 proxygen/lib/http/session/ByteEventTracker.h
 -
 folly/io/async/DelayedDestruction.h
@@ -444,23 +444,23 @@ proxygen/lib/http/session/HTTPSessionStats.h
 string
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/ByteEvents.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/ByteEvents.cpp
 proxygen/lib/http/session/ByteEvents.h
 -
 proxygen/lib/utils/Time.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/CodecErrorResponseHandler.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/CodecErrorResponseHandler.cpp
 proxygen/lib/http/session/CodecErrorResponseHandler.h
 -
 folly/Conv.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTP2PriorityQueue.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTP2PriorityQueue.cpp
 proxygen/lib/http/session/HTTP2PriorityQueue.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTPDirectResponseHandler.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTPDirectResponseHandler.cpp
 proxygen/lib/http/session/HTTPDirectResponseHandler.h
 -
 folly/Conv.h
@@ -468,7 +468,7 @@ folly/Conv.h
 proxygen/lib/http/session/HTTPErrorPage.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTPDownstreamSession.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTPDownstreamSession.cpp
 proxygen/lib/http/session/HTTPDownstreamSession.h
 -
 proxygen/lib/http/session/HTTPSessionController.h
@@ -476,19 +476,19 @@ proxygen/lib/http/session/HTTPSessionController.h
 proxygen/lib/http/session/HTTPTransaction.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTPErrorPage.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTPErrorPage.cpp
 proxygen/lib/http/session/HTTPErrorPage.h
 -
 folly/io/IOBuf.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTPEvent.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTPEvent.cpp
 proxygen/lib/http/session/HTTPEvent.h
 -
 iostream
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTPSession.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTPSession.cpp
 proxygen/lib/http/session/HTTPSession.h
 -
 chrono
@@ -512,7 +512,7 @@ proxygen/lib/http/session/HTTPSessionStats.h
 folly/io/async/AsyncSSLSocket.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTPSessionAcceptor.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTPSessionAcceptor.cpp
 proxygen/lib/http/session/HTTPSessionAcceptor.h
 -
 proxygen/lib/http/codec/HTTP1xCodec.h
@@ -522,7 +522,7 @@ proxygen/lib/http/codec/experimental/HTTP2Codec.h
 proxygen/lib/http/session/HTTPDirectResponseHandler.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTPTransaction.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTPTransaction.cpp
 proxygen/lib/http/session/HTTPTransaction.h
 -
 algorithm
@@ -540,19 +540,19 @@ proxygen/lib/http/codec/SPDYConstants.h
 proxygen/lib/http/session/HTTPSessionStats.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTPTransactionEgressSM.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTPTransactionEgressSM.cpp
 proxygen/lib/http/session/HTTPTransactionEgressSM.h
 -
 proxygen/lib/utils/UnionBasedStatic.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTPTransactionIngressSM.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTPTransactionIngressSM.cpp
 proxygen/lib/http/session/HTTPTransactionIngressSM.h
 -
 proxygen/lib/utils/UnionBasedStatic.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/HTTPUpstreamSession.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/HTTPUpstreamSession.cpp
 proxygen/lib/http/session/HTTPUpstreamSession.h
 -
 wangle/acceptor/ConnectionManager.h
@@ -560,7 +560,7 @@ wangle/acceptor/ConnectionManager.h
 proxygen/lib/http/session/HTTPTransaction.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/SimpleController.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/SimpleController.cpp
 proxygen/lib/http/session/SimpleController.h
 -
 proxygen/lib/http/session/CodecErrorResponseHandler.h
@@ -570,11 +570,11 @@ proxygen/lib/http/session/HTTPDirectResponseHandler.h
 proxygen/lib/http/session/HTTPSessionAcceptor.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/http/session/TransportFilter.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/http/session/TransportFilter.cpp
 proxygen/lib/http/session/TransportFilter.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/services/RequestWorker.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/services/RequestWorker.cpp
 proxygen/lib/services/RequestWorker.h
 -
 folly/io/async/EventBaseManager.h
@@ -582,7 +582,7 @@ folly/io/async/EventBaseManager.h
 proxygen/lib/services/ServiceWorker.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/services/Service.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/services/Service.cpp
 proxygen/lib/services/Service.h
 -
 proxygen/lib/services/RequestWorker.h
@@ -590,7 +590,7 @@ proxygen/lib/services/RequestWorker.h
 proxygen/lib/services/ServiceWorker.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/services/WorkerThread.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/services/WorkerThread.cpp
 proxygen/lib/services/WorkerThread.h
 -
 folly/String.h
@@ -602,7 +602,7 @@ glog/logging.h
 signal.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/AsyncTimeoutSet.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/AsyncTimeoutSet.cpp
 proxygen/lib/utils/AsyncTimeoutSet.h
 -
 cassert
@@ -612,17 +612,17 @@ folly/ScopeGuard.h
 folly/io/async/Request.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/ChromeUtils.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/ChromeUtils.cpp
 ChromeUtils.h
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/ChromeUtils.h
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/ChromeUtils.h
 string
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/ChromeUtils.h
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/ChromeUtils.h
 folly/Range.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/CryptUtil.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/CryptUtil.cpp
 proxygen/lib/utils/CryptUtil.h
 -
 iomanip
@@ -638,11 +638,11 @@ openssl/md5.h
 sstream
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/Exception.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/Exception.cpp
 proxygen/lib/utils/Exception.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/HTTPTime.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/HTTPTime.cpp
 proxygen/lib/utils/HTTPTime.h
 -
 ctime
@@ -650,7 +650,7 @@ ctime
 glog/logging.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/Logging.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/Logging.cpp
 proxygen/lib/utils/Logging.h
 -
 folly/Format.h
@@ -672,7 +672,7 @@ vector
 sys/stat.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/ParseURL.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/ParseURL.cpp
 proxygen/lib/utils/ParseURL.h
 -
 algorithm
@@ -684,9 +684,9 @@ proxygen/lib/http/codec/SPDYUtil.h
 proxygen/lib/utils/UtilInl.h
 -
 proxygen/external/http_parser/http_parser.h
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/proxygen/external/http_parser/http_parser.h
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/proxygen/external/http_parser/http_parser.h
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/RendezvousHash.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/RendezvousHash.cpp
 proxygen/lib/utils/RendezvousHash.h
 -
 folly/Foreach.h
@@ -706,15 +706,15 @@ limits
 math.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/ZlibStreamCompressor.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/ZlibStreamCompressor.cpp
 ZlibStreamCompressor.h
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/ZlibStreamCompressor.h
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/ZlibStreamCompressor.h
 folly/Bits.h
 -
 folly/io/Cursor.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/ZlibStreamCompressor.h
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/ZlibStreamCompressor.h
 memory
 -
 zlib.h
@@ -724,7 +724,7 @@ proxygen/lib/utils/ZlibStreamDecompressor.h
 gflags/gflags.h
 -
 
-/tmp/hhvm-3.11.1/third-party/proxygen/lib/utils/ZlibStreamDecompressor.cpp
+/tmp/hhvm-3.12.1/third-party/proxygen/lib/utils/ZlibStreamDecompressor.cpp
 proxygen/lib/utils/ZlibStreamDecompressor.h
 -
 folly/io/Cursor.h
@@ -1576,6 +1576,8 @@ folly/Foreach.h
 folly/Exception.h
 -
 folly/Malloc.h
+-
+folly/MicroSpinLock.h
 -
 
 third-party/folly/folly/detail/UncaughtExceptionCounter.h

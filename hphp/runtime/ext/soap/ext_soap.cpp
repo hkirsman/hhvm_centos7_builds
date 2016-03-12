@@ -1660,7 +1660,7 @@ static void type_to_string(sdlType *type, StringBuffer &buf, int level) {
   case XSD_TYPEKIND_RESTRICTION:
   case XSD_TYPEKIND_EXTENSION:
     if (type->encode &&
-        (isArrayType((DataType)type->encode->details.type) ||
+        (isArrayDataType((DataType)type->encode->details.type) ||
          type->encode->details.type == SOAP_ENC_ARRAY)) {
       sdlAttributeMap::iterator iter;
       sdlExtraAttributeMap::iterator iterExtra;
@@ -2103,7 +2103,7 @@ Variant HHVM_METHOD(SoapServer, getfunctions) {
   }
 
   Class* cls = Unit::lookupClass(class_name.get());
-  auto ret = Array::attach(MixedArray::MakeReserve(cls->numMethods()));
+  auto ret = Array::attach(PackedArray::MakeReserve(cls->numMethods()));
   Class::getMethodNames(cls, nullptr, ret);
   return f_array_values(ret);
 }

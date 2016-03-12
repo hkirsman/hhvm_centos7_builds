@@ -6,111 +6,111 @@
 
 #IncludeRegexTransform: 
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/adler32.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/adler32.c
 zlib.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/zlib.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/zlib.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/compress.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/compress.c
 zlib.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/zlib.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/zlib.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/crc32.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/crc32.c
 stdio.h
 -
 zutil.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/zutil.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/zutil.h
 limits.h
 -
 crc32.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/crc32.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/crc32.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/crc32.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/crc32.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/deflate.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/deflate.c
 deflate.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/deflate.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/deflate.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/deflate.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/deflate.h
 zutil.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/zutil.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/zutil.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/gzio.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/gzio.c
 config.h
 -
 stdio.h
 -
 zutil.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/zutil.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/zutil.h
 stdarg.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/infback.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/infback.c
 zutil.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/zutil.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/zutil.h
 inftrees.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/inftrees.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/inftrees.h
 inflate.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/inflate.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/inflate.h
 inffast.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/inffast.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/inffast.h
 inffixed.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/inffixed.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/inffixed.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/inffast.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/inffast.c
 zutil.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/zutil.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/zutil.h
 inftrees.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/inftrees.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/inftrees.h
 inflate.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/inflate.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/inflate.h
 inffast.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/inffast.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/inffast.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/inffast.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/inffast.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/inffixed.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/inffixed.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/inflate.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/inflate.c
 zutil.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/zutil.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/zutil.h
 inftrees.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/inftrees.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/inftrees.h
 inflate.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/inflate.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/inflate.h
 inffast.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/inffast.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/inffast.h
 inffixed.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/inffixed.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/inffixed.h
 stdio.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/inflate.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/inflate.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/inftrees.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/inftrees.c
 zutil.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/zutil.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/zutil.h
 inftrees.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/inftrees.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/inftrees.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/inftrees.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/inftrees.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/trees.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/trees.c
 deflate.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/deflate.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/deflate.h
 ctype.h
 -
 trees.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/trees.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/trees.h
 stdio.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/trees.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/trees.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/uncompr.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/uncompr.c
 zlib.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/zlib.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/zlib.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/zconf.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/zconf.h
 config.h
 -
 windows.h
@@ -122,17 +122,17 @@ unistd.h
 unixio.h
 -
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/zlib.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/zlib.h
 zconf.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/zconf.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/zconf.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/zutil.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/zutil.c
 zutil.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/zutil.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/zutil.h
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/zutil.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/zutil.h
 zlib.h
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/zlib.h
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/zlib.h
 stddef.h
 -
 string.h

@@ -29,10 +29,11 @@
 #include "hphp/runtime/base/apc-local-array.h"
 #include "hphp/runtime/base/apc-local-array-defs.h"
 #include "hphp/runtime/base/thread-info.h"
-#include "hphp/runtime/vm/globals-array.h"
 #include "hphp/runtime/base/rds-header.h"
 #include "hphp/runtime/base/imarker.h"
 #include "hphp/runtime/base/memory-manager.h"
+#include "hphp/runtime/base/req-root.h"
+#include "hphp/runtime/vm/globals-array.h"
 #include "hphp/runtime/ext/extension-registry.h"
 #include "hphp/runtime/base/request-event-handler.h"
 #include "hphp/runtime/server/server-note.h"
@@ -41,6 +42,7 @@
 #include "hphp/runtime/ext/asio/ext_reschedule-wait-handle.h"
 #include "hphp/runtime/ext/asio/ext_external-thread-event-wait-handle.h"
 #include "hphp/runtime/ext/asio/ext_resumable-wait-handle.h"
+#include "hphp/runtime/ext/asio/ext_async-function-wait-handle.h"
 
 #ifdef ENABLE_ZEND_COMPAT
 #include "hphp/runtime/ext_zend_compat/php-src/TSRM/TSRM.h"
@@ -71,11 +73,12 @@ template<class F> void scanHeader(const Header* h, F& mark) {
     case HeaderKind::Vector:
     case HeaderKind::Map:
     case HeaderKind::Set:
-    case HeaderKind::Pair:
     case HeaderKind::ImmVector:
     case HeaderKind::ImmMap:
     case HeaderKind::ImmSet:
       return h->obj_.scan(mark);
+    case HeaderKind::Pair:
+      return h->pair_.scan(mark);
     case HeaderKind::Resource:
       return h->res_.data()->scan(mark);
     case HeaderKind::Ref:
@@ -108,16 +111,17 @@ template<class F> void ObjectData::scan(F& mark) const {
     auto frame = reinterpret_cast<const TypedValue*>(r) -
                  r->actRec()->func()->numSlotsInFrame();
     mark(frame, uintptr_t(this) - uintptr_t(frame));
-    assert(!getVMClass()->getNativeDataInfo());
+    auto node = reinterpret_cast<const ResumableNode*>(frame) - 1;
+    mark(this + 1, uintptr_t(node) + r->size() - uintptr_t(this + 1));
   } else if (m_hdr.kind == HeaderKind::WaitHandle) {
     // scan C++ properties after [ObjectData] header
     mark(this + 1, asio_object_size(this) - sizeof(*this));
-    assert(!getVMClass()->getNativeDataInfo());
   } else if (m_hdr.kind == HeaderKind::AwaitAllWH) {
     auto wh = static_cast<const c_AwaitAllWaitHandle*>(this);
     wh->scanChildren(mark);
-    assert(!getVMClass()->getNativeDataInfo());
-  } else if (getAttribute(HasNativeData)) {
+  }
+
+  if (getAttribute(HasNativeData)) {
     // [NativeNode][NativeData][ObjectData][props]
     Native::nativeDataScan(this, mark);
   }
@@ -155,7 +159,7 @@ template<class F> void scan_ezc_resources(F& mark) {
 #endif
 }
 
-template<class F> void ExtendedException::scan(F& mark) const {
+template<class F> void req::root_handle::scan(F& mark) const {
   ExtMarker<F> bridge(mark);
   vscan(bridge);
 }
@@ -246,7 +250,7 @@ void MemoryManager::scanRootMaps(F& m) const {
       scan(root.second, m);
     }
   }
-  for (const auto& root : m_exceptionRoots) {
+  for (const auto root : m_root_handles) {
     root->scan(m);
   }
 }
@@ -324,62 +328,6 @@ template <typename T, typename F>
 void scan(const req::ptr<T>& ptr, F& mark) {
   ptr->scan(mark);
 }
-
-// information about heap objects, indexed by valid object starts.
-struct PtrMap {
-  void insert(const Header* h) {
-    assert(!sorted_);
-    regions_.emplace_back(h, h->size());
-  }
-  const Header* header(const void* p) const {
-    assert(sorted_);
-    // Find the first region which begins beyond p.
-    auto it =
-      std::upper_bound(
-        regions_.begin(),
-        regions_.end(),
-        p,
-        [](const void* p,
-           const std::pair<const Header*, std::size_t>& region) {
-          return p < region.first;
-        }
-      );
-    // If its the first region, p is before any region, so there's no
-    // header. Otherwise, backup to the previous region.
-    if (it == regions_.begin()) return nullptr;
-    --it;
-    // p can only potentially point within this previous region, so check that.
-    return (uintptr_t(p) < uintptr_t(it->first) + it->second) ?
-      it->first : nullptr;
-  }
-  bool isHeader(const void* p) const {
-    auto h = header(p);
-    return h && h == p;
-  }
-
-  void prepare() {
-    assert(!sorted_);
-    std::sort(regions_.begin(), regions_.end());
-    assert(sanityCheck());
-    sorted_ = true;
-  }
-private:
-  bool sanityCheck() const {
-    // Verify that all the regions are in increasing and non-overlapping order.
-    void* last = nullptr;
-    for (const auto& region : regions_) {
-      if (!last || last <= region.first) {
-        last = (void*)(uintptr_t(region.first) + region.second);
-      } else {
-        return false;
-      }
-    }
-    return true;
-  }
-
-  std::vector<std::pair<const Header*, std::size_t>> regions_;
-  bool sorted_ = false;
-};
 
 }
 #endif

@@ -1,1 +1,1 @@
-typing/typing_decl_service.mli: Errors FileInfo Naming Relative_path SMap Utils Worker
+typing/typing_decl_service.mli: Errors FileInfo Relative_path SMap TypecheckerOptions Utils Worker

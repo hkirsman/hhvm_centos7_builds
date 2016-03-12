@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.1
 
 # Include any dependencies generated for this target.
 include third-party/libzip/CMakeFiles/zip_static.dir/depend.make
@@ -54,17 +54,17 @@ include third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_add.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_add.c.o: third-party/libzip/zip_add.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_add.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_add.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_add.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_add.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_add.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_add.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_add.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_add.c > CMakeFiles/zip_static.dir/zip_add.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_add.c > CMakeFiles/zip_static.dir/zip_add.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_add.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_add.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_add.c -o CMakeFiles/zip_static.dir/zip_add.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_add.c -o CMakeFiles/zip_static.dir/zip_add.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_add.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_add.c.o.requires
@@ -77,17 +77,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_add.c.o.provides.build: third-p
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_add_dir.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_add_dir.c.o: third-party/libzip/zip_add_dir.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_add_dir.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_add_dir.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_add_dir.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_add_dir.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_add_dir.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_add_dir.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_add_dir.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_add_dir.c > CMakeFiles/zip_static.dir/zip_add_dir.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_add_dir.c > CMakeFiles/zip_static.dir/zip_add_dir.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_add_dir.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_add_dir.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_add_dir.c -o CMakeFiles/zip_static.dir/zip_add_dir.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_add_dir.c -o CMakeFiles/zip_static.dir/zip_add_dir.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_add_dir.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_add_dir.c.o.requires
@@ -100,17 +100,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_add_dir.c.o.provides.build: thi
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_add_entry.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_add_entry.c.o: third-party/libzip/zip_add_entry.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_add_entry.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_add_entry.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_add_entry.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_add_entry.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_add_entry.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_add_entry.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_add_entry.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_add_entry.c > CMakeFiles/zip_static.dir/zip_add_entry.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_add_entry.c > CMakeFiles/zip_static.dir/zip_add_entry.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_add_entry.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_add_entry.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_add_entry.c -o CMakeFiles/zip_static.dir/zip_add_entry.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_add_entry.c -o CMakeFiles/zip_static.dir/zip_add_entry.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_add_entry.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_add_entry.c.o.requires
@@ -123,17 +123,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_add_entry.c.o.provides.build: t
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_close.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_close.c.o: third-party/libzip/zip_close.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_close.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_close.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_close.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_close.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_close.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_close.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_close.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_close.c > CMakeFiles/zip_static.dir/zip_close.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_close.c > CMakeFiles/zip_static.dir/zip_close.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_close.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_close.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_close.c -o CMakeFiles/zip_static.dir/zip_close.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_close.c -o CMakeFiles/zip_static.dir/zip_close.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_close.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_close.c.o.requires
@@ -146,17 +146,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_close.c.o.provides.build: third
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_delete.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_delete.c.o: third-party/libzip/zip_delete.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_delete.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_delete.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_delete.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_delete.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_delete.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_delete.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_delete.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_delete.c > CMakeFiles/zip_static.dir/zip_delete.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_delete.c > CMakeFiles/zip_static.dir/zip_delete.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_delete.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_delete.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_delete.c -o CMakeFiles/zip_static.dir/zip_delete.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_delete.c -o CMakeFiles/zip_static.dir/zip_delete.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_delete.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_delete.c.o.requires
@@ -169,17 +169,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_delete.c.o.provides.build: thir
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_dir_add.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_dir_add.c.o: third-party/libzip/zip_dir_add.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_dir_add.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_dir_add.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_dir_add.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_dir_add.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_dir_add.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_dir_add.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_dir_add.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_dir_add.c > CMakeFiles/zip_static.dir/zip_dir_add.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_dir_add.c > CMakeFiles/zip_static.dir/zip_dir_add.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_dir_add.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_dir_add.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_dir_add.c -o CMakeFiles/zip_static.dir/zip_dir_add.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_dir_add.c -o CMakeFiles/zip_static.dir/zip_dir_add.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_dir_add.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_dir_add.c.o.requires
@@ -192,17 +192,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_dir_add.c.o.provides.build: thi
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_dirent.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_dirent.c.o: third-party/libzip/zip_dirent.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_dirent.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_dirent.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_dirent.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_dirent.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_dirent.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_dirent.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_dirent.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_dirent.c > CMakeFiles/zip_static.dir/zip_dirent.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_dirent.c > CMakeFiles/zip_static.dir/zip_dirent.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_dirent.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_dirent.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_dirent.c -o CMakeFiles/zip_static.dir/zip_dirent.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_dirent.c -o CMakeFiles/zip_static.dir/zip_dirent.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_dirent.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_dirent.c.o.requires
@@ -215,17 +215,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_dirent.c.o.provides.build: thir
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_discard.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_discard.c.o: third-party/libzip/zip_discard.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_discard.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_discard.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_discard.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_discard.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_discard.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_discard.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_discard.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_discard.c > CMakeFiles/zip_static.dir/zip_discard.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_discard.c > CMakeFiles/zip_static.dir/zip_discard.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_discard.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_discard.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_discard.c -o CMakeFiles/zip_static.dir/zip_discard.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_discard.c -o CMakeFiles/zip_static.dir/zip_discard.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_discard.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_discard.c.o.requires
@@ -238,17 +238,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_discard.c.o.provides.build: thi
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_entry.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_entry.c.o: third-party/libzip/zip_entry.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_entry.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_entry.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_entry.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_entry.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_entry.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_entry.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_entry.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_entry.c > CMakeFiles/zip_static.dir/zip_entry.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_entry.c > CMakeFiles/zip_static.dir/zip_entry.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_entry.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_entry.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_entry.c -o CMakeFiles/zip_static.dir/zip_entry.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_entry.c -o CMakeFiles/zip_static.dir/zip_entry.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_entry.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_entry.c.o.requires
@@ -261,17 +261,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_entry.c.o.provides.build: third
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_error.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_error.c.o: third-party/libzip/zip_error.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_error.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_error.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_error.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_error.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_error.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_error.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_error.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_error.c > CMakeFiles/zip_static.dir/zip_error.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_error.c > CMakeFiles/zip_static.dir/zip_error.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_error.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_error.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_error.c -o CMakeFiles/zip_static.dir/zip_error.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_error.c -o CMakeFiles/zip_static.dir/zip_error.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_error.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_error.c.o.requires
@@ -284,17 +284,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_error.c.o.provides.build: third
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_error_clear.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_error_clear.c.o: third-party/libzip/zip_error_clear.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_error_clear.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_error_clear.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_error_clear.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_error_clear.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_error_clear.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_error_clear.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_error_clear.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_error_clear.c > CMakeFiles/zip_static.dir/zip_error_clear.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_error_clear.c > CMakeFiles/zip_static.dir/zip_error_clear.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_error_clear.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_error_clear.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_error_clear.c -o CMakeFiles/zip_static.dir/zip_error_clear.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_error_clear.c -o CMakeFiles/zip_static.dir/zip_error_clear.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_error_clear.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_error_clear.c.o.requires
@@ -307,17 +307,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_error_clear.c.o.provides.build:
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_error_get.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_error_get.c.o: third-party/libzip/zip_error_get.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_error_get.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_error_get.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_error_get.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_error_get.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_error_get.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_error_get.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_error_get.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_error_get.c > CMakeFiles/zip_static.dir/zip_error_get.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_error_get.c > CMakeFiles/zip_static.dir/zip_error_get.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_error_get.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_error_get.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_error_get.c -o CMakeFiles/zip_static.dir/zip_error_get.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_error_get.c -o CMakeFiles/zip_static.dir/zip_error_get.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_error_get.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_error_get.c.o.requires
@@ -330,17 +330,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_error_get.c.o.provides.build: t
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_error_get_sys_type.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_error_get_sys_type.c.o: third-party/libzip/zip_error_get_sys_type.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_error_get_sys_type.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_error_get_sys_type.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_error_get_sys_type.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_error_get_sys_type.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_error_get_sys_type.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_error_get_sys_type.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_error_get_sys_type.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_error_get_sys_type.c > CMakeFiles/zip_static.dir/zip_error_get_sys_type.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_error_get_sys_type.c > CMakeFiles/zip_static.dir/zip_error_get_sys_type.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_error_get_sys_type.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_error_get_sys_type.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_error_get_sys_type.c -o CMakeFiles/zip_static.dir/zip_error_get_sys_type.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_error_get_sys_type.c -o CMakeFiles/zip_static.dir/zip_error_get_sys_type.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_error_get_sys_type.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_error_get_sys_type.c.o.requires
@@ -353,17 +353,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_error_get_sys_type.c.o.provides
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_error_strerror.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_error_strerror.c.o: third-party/libzip/zip_error_strerror.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_error_strerror.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_error_strerror.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_error_strerror.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_error_strerror.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_error_strerror.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_error_strerror.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_error_strerror.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_error_strerror.c > CMakeFiles/zip_static.dir/zip_error_strerror.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_error_strerror.c > CMakeFiles/zip_static.dir/zip_error_strerror.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_error_strerror.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_error_strerror.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_error_strerror.c -o CMakeFiles/zip_static.dir/zip_error_strerror.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_error_strerror.c -o CMakeFiles/zip_static.dir/zip_error_strerror.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_error_strerror.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_error_strerror.c.o.requires
@@ -376,17 +376,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_error_strerror.c.o.provides.bui
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_error_to_str.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_error_to_str.c.o: third-party/libzip/zip_error_to_str.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_error_to_str.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_error_to_str.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_error_to_str.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_error_to_str.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_error_to_str.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_error_to_str.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_error_to_str.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_error_to_str.c > CMakeFiles/zip_static.dir/zip_error_to_str.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_error_to_str.c > CMakeFiles/zip_static.dir/zip_error_to_str.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_error_to_str.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_error_to_str.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_error_to_str.c -o CMakeFiles/zip_static.dir/zip_error_to_str.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_error_to_str.c -o CMakeFiles/zip_static.dir/zip_error_to_str.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_error_to_str.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_error_to_str.c.o.requires
@@ -399,17 +399,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_error_to_str.c.o.provides.build
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_err_str.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_err_str.c.o: third-party/libzip/zip_err_str.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_err_str.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_err_str.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_err_str.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_err_str.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_err_str.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_err_str.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_err_str.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_err_str.c > CMakeFiles/zip_static.dir/zip_err_str.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_err_str.c > CMakeFiles/zip_static.dir/zip_err_str.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_err_str.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_err_str.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_err_str.c -o CMakeFiles/zip_static.dir/zip_err_str.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_err_str.c -o CMakeFiles/zip_static.dir/zip_err_str.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_err_str.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_err_str.c.o.requires
@@ -422,17 +422,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_err_str.c.o.provides.build: thi
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_extra_field_api.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_extra_field_api.c.o: third-party/libzip/zip_extra_field_api.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_extra_field_api.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_extra_field_api.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_extra_field_api.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_extra_field_api.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_extra_field_api.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_extra_field_api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_extra_field_api.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_extra_field_api.c > CMakeFiles/zip_static.dir/zip_extra_field_api.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_extra_field_api.c > CMakeFiles/zip_static.dir/zip_extra_field_api.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_extra_field_api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_extra_field_api.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_extra_field_api.c -o CMakeFiles/zip_static.dir/zip_extra_field_api.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_extra_field_api.c -o CMakeFiles/zip_static.dir/zip_extra_field_api.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_extra_field_api.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_extra_field_api.c.o.requires
@@ -445,17 +445,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_extra_field_api.c.o.provides.bu
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_extra_field.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_extra_field.c.o: third-party/libzip/zip_extra_field.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_extra_field.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_extra_field.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_extra_field.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_extra_field.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_extra_field.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_extra_field.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_extra_field.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_extra_field.c > CMakeFiles/zip_static.dir/zip_extra_field.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_extra_field.c > CMakeFiles/zip_static.dir/zip_extra_field.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_extra_field.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_extra_field.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_extra_field.c -o CMakeFiles/zip_static.dir/zip_extra_field.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_extra_field.c -o CMakeFiles/zip_static.dir/zip_extra_field.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_extra_field.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_extra_field.c.o.requires
@@ -468,17 +468,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_extra_field.c.o.provides.build:
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_fclose.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_fclose.c.o: third-party/libzip/zip_fclose.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_fclose.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_fclose.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_fclose.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_fclose.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_fclose.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_fclose.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_fclose.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_fclose.c > CMakeFiles/zip_static.dir/zip_fclose.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_fclose.c > CMakeFiles/zip_static.dir/zip_fclose.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_fclose.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_fclose.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_fclose.c -o CMakeFiles/zip_static.dir/zip_fclose.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_fclose.c -o CMakeFiles/zip_static.dir/zip_fclose.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_fclose.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_fclose.c.o.requires
@@ -491,17 +491,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_fclose.c.o.provides.build: thir
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_fdopen.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_fdopen.c.o: third-party/libzip/zip_fdopen.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_fdopen.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_fdopen.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_fdopen.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_fdopen.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_fdopen.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_fdopen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_fdopen.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_fdopen.c > CMakeFiles/zip_static.dir/zip_fdopen.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_fdopen.c > CMakeFiles/zip_static.dir/zip_fdopen.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_fdopen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_fdopen.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_fdopen.c -o CMakeFiles/zip_static.dir/zip_fdopen.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_fdopen.c -o CMakeFiles/zip_static.dir/zip_fdopen.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_fdopen.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_fdopen.c.o.requires
@@ -514,17 +514,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_fdopen.c.o.provides.build: thir
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_add.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_add.c.o: third-party/libzip/zip_file_add.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_file_add.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_file_add.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_file_add.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_file_add.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_file_add.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_add.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_file_add.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_file_add.c > CMakeFiles/zip_static.dir/zip_file_add.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_file_add.c > CMakeFiles/zip_static.dir/zip_file_add.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_add.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_file_add.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_file_add.c -o CMakeFiles/zip_static.dir/zip_file_add.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_file_add.c -o CMakeFiles/zip_static.dir/zip_file_add.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_add.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_file_add.c.o.requires
@@ -537,17 +537,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_file_add.c.o.provides.build: th
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_error_clear.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_error_clear.c.o: third-party/libzip/zip_file_error_clear.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_file_error_clear.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_file_error_clear.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_file_error_clear.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_file_error_clear.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_file_error_clear.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_error_clear.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_file_error_clear.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_file_error_clear.c > CMakeFiles/zip_static.dir/zip_file_error_clear.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_file_error_clear.c > CMakeFiles/zip_static.dir/zip_file_error_clear.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_error_clear.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_file_error_clear.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_file_error_clear.c -o CMakeFiles/zip_static.dir/zip_file_error_clear.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_file_error_clear.c -o CMakeFiles/zip_static.dir/zip_file_error_clear.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_error_clear.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_file_error_clear.c.o.requires
@@ -560,17 +560,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_file_error_clear.c.o.provides.b
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_error_get.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_error_get.c.o: third-party/libzip/zip_file_error_get.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_file_error_get.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_file_error_get.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_file_error_get.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_file_error_get.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_file_error_get.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_error_get.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_file_error_get.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_file_error_get.c > CMakeFiles/zip_static.dir/zip_file_error_get.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_file_error_get.c > CMakeFiles/zip_static.dir/zip_file_error_get.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_error_get.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_file_error_get.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_file_error_get.c -o CMakeFiles/zip_static.dir/zip_file_error_get.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_file_error_get.c -o CMakeFiles/zip_static.dir/zip_file_error_get.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_error_get.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_file_error_get.c.o.requires
@@ -583,17 +583,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_file_error_get.c.o.provides.bui
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_comment.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_comment.c.o: third-party/libzip/zip_file_get_comment.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_comment.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_file_get_comment.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_file_get_comment.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_file_get_comment.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_file_get_comment.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_comment.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_file_get_comment.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_file_get_comment.c > CMakeFiles/zip_static.dir/zip_file_get_comment.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_file_get_comment.c > CMakeFiles/zip_static.dir/zip_file_get_comment.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_comment.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_file_get_comment.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_file_get_comment.c -o CMakeFiles/zip_static.dir/zip_file_get_comment.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_file_get_comment.c -o CMakeFiles/zip_static.dir/zip_file_get_comment.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_comment.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_comment.c.o.requires
@@ -606,17 +606,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_comment.c.o.provides.b
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_external_attributes.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_external_attributes.c.o: third-party/libzip/zip_file_get_external_attributes.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_external_attributes.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_file_get_external_attributes.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_file_get_external_attributes.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_file_get_external_attributes.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_file_get_external_attributes.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_external_attributes.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_file_get_external_attributes.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_file_get_external_attributes.c > CMakeFiles/zip_static.dir/zip_file_get_external_attributes.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_file_get_external_attributes.c > CMakeFiles/zip_static.dir/zip_file_get_external_attributes.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_external_attributes.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_file_get_external_attributes.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_file_get_external_attributes.c -o CMakeFiles/zip_static.dir/zip_file_get_external_attributes.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_file_get_external_attributes.c -o CMakeFiles/zip_static.dir/zip_file_get_external_attributes.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_external_attributes.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_external_attributes.c.o.requires
@@ -629,17 +629,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_external_attributes.c.
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_offset.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_offset.c.o: third-party/libzip/zip_file_get_offset.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_offset.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_file_get_offset.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_file_get_offset.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_file_get_offset.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_file_get_offset.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_offset.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_file_get_offset.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_file_get_offset.c > CMakeFiles/zip_static.dir/zip_file_get_offset.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_file_get_offset.c > CMakeFiles/zip_static.dir/zip_file_get_offset.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_offset.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_file_get_offset.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_file_get_offset.c -o CMakeFiles/zip_static.dir/zip_file_get_offset.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_file_get_offset.c -o CMakeFiles/zip_static.dir/zip_file_get_offset.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_offset.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_offset.c.o.requires
@@ -652,17 +652,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_file_get_offset.c.o.provides.bu
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_filerange_crc.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_filerange_crc.c.o: third-party/libzip/zip_filerange_crc.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_filerange_crc.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_filerange_crc.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_filerange_crc.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_filerange_crc.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_filerange_crc.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_filerange_crc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_filerange_crc.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_filerange_crc.c > CMakeFiles/zip_static.dir/zip_filerange_crc.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_filerange_crc.c > CMakeFiles/zip_static.dir/zip_filerange_crc.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_filerange_crc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_filerange_crc.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_filerange_crc.c -o CMakeFiles/zip_static.dir/zip_filerange_crc.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_filerange_crc.c -o CMakeFiles/zip_static.dir/zip_filerange_crc.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_filerange_crc.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_filerange_crc.c.o.requires
@@ -675,17 +675,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_filerange_crc.c.o.provides.buil
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_rename.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_rename.c.o: third-party/libzip/zip_file_rename.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_file_rename.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_file_rename.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_file_rename.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_file_rename.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_file_rename.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_rename.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_file_rename.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_file_rename.c > CMakeFiles/zip_static.dir/zip_file_rename.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_file_rename.c > CMakeFiles/zip_static.dir/zip_file_rename.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_rename.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_file_rename.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_file_rename.c -o CMakeFiles/zip_static.dir/zip_file_rename.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_file_rename.c -o CMakeFiles/zip_static.dir/zip_file_rename.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_rename.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_file_rename.c.o.requires
@@ -698,17 +698,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_file_rename.c.o.provides.build:
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_replace.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_replace.c.o: third-party/libzip/zip_file_replace.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_file_replace.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_file_replace.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_file_replace.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_file_replace.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_file_replace.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_replace.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_file_replace.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_file_replace.c > CMakeFiles/zip_static.dir/zip_file_replace.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_file_replace.c > CMakeFiles/zip_static.dir/zip_file_replace.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_replace.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_file_replace.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_file_replace.c -o CMakeFiles/zip_static.dir/zip_file_replace.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_file_replace.c -o CMakeFiles/zip_static.dir/zip_file_replace.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_replace.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_file_replace.c.o.requires
@@ -721,17 +721,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_file_replace.c.o.provides.build
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_set_comment.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_set_comment.c.o: third-party/libzip/zip_file_set_comment.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_file_set_comment.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_file_set_comment.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_file_set_comment.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_file_set_comment.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_file_set_comment.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_set_comment.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_file_set_comment.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_file_set_comment.c > CMakeFiles/zip_static.dir/zip_file_set_comment.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_file_set_comment.c > CMakeFiles/zip_static.dir/zip_file_set_comment.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_set_comment.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_file_set_comment.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_file_set_comment.c -o CMakeFiles/zip_static.dir/zip_file_set_comment.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_file_set_comment.c -o CMakeFiles/zip_static.dir/zip_file_set_comment.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_set_comment.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_file_set_comment.c.o.requires
@@ -744,17 +744,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_file_set_comment.c.o.provides.b
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_set_external_attributes.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_set_external_attributes.c.o: third-party/libzip/zip_file_set_external_attributes.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_31)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_file_set_external_attributes.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_file_set_external_attributes.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_file_set_external_attributes.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_file_set_external_attributes.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_file_set_external_attributes.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_set_external_attributes.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_file_set_external_attributes.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_file_set_external_attributes.c > CMakeFiles/zip_static.dir/zip_file_set_external_attributes.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_file_set_external_attributes.c > CMakeFiles/zip_static.dir/zip_file_set_external_attributes.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_set_external_attributes.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_file_set_external_attributes.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_file_set_external_attributes.c -o CMakeFiles/zip_static.dir/zip_file_set_external_attributes.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_file_set_external_attributes.c -o CMakeFiles/zip_static.dir/zip_file_set_external_attributes.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_set_external_attributes.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_file_set_external_attributes.c.o.requires
@@ -767,17 +767,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_file_set_external_attributes.c.
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_strerror.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_strerror.c.o: third-party/libzip/zip_file_strerror.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_32)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_32)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_file_strerror.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_file_strerror.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_file_strerror.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_file_strerror.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_file_strerror.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_strerror.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_file_strerror.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_file_strerror.c > CMakeFiles/zip_static.dir/zip_file_strerror.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_file_strerror.c > CMakeFiles/zip_static.dir/zip_file_strerror.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_strerror.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_file_strerror.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_file_strerror.c -o CMakeFiles/zip_static.dir/zip_file_strerror.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_file_strerror.c -o CMakeFiles/zip_static.dir/zip_file_strerror.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_file_strerror.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_file_strerror.c.o.requires
@@ -790,17 +790,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_file_strerror.c.o.provides.buil
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen.c.o: third-party/libzip/zip_fopen.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_33)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_33)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_fopen.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_fopen.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_fopen.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_fopen.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_fopen.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_fopen.c > CMakeFiles/zip_static.dir/zip_fopen.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_fopen.c > CMakeFiles/zip_static.dir/zip_fopen.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_fopen.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_fopen.c -o CMakeFiles/zip_static.dir/zip_fopen.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_fopen.c -o CMakeFiles/zip_static.dir/zip_fopen.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen.c.o.requires
@@ -813,17 +813,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen.c.o.provides.build: third
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_encrypted.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_encrypted.c.o: third-party/libzip/zip_fopen_encrypted.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_34)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_34)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_encrypted.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_fopen_encrypted.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_fopen_encrypted.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_fopen_encrypted.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_fopen_encrypted.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_encrypted.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_fopen_encrypted.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_fopen_encrypted.c > CMakeFiles/zip_static.dir/zip_fopen_encrypted.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_fopen_encrypted.c > CMakeFiles/zip_static.dir/zip_fopen_encrypted.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_encrypted.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_fopen_encrypted.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_fopen_encrypted.c -o CMakeFiles/zip_static.dir/zip_fopen_encrypted.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_fopen_encrypted.c -o CMakeFiles/zip_static.dir/zip_fopen_encrypted.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_encrypted.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_encrypted.c.o.requires
@@ -836,17 +836,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_encrypted.c.o.provides.bu
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_index.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_index.c.o: third-party/libzip/zip_fopen_index.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_35)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_35)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_index.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_fopen_index.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_fopen_index.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_fopen_index.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_fopen_index.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_index.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_fopen_index.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_fopen_index.c > CMakeFiles/zip_static.dir/zip_fopen_index.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_fopen_index.c > CMakeFiles/zip_static.dir/zip_fopen_index.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_index.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_fopen_index.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_fopen_index.c -o CMakeFiles/zip_static.dir/zip_fopen_index.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_fopen_index.c -o CMakeFiles/zip_static.dir/zip_fopen_index.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_index.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_index.c.o.requires
@@ -859,17 +859,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_index.c.o.provides.build:
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_index_encrypted.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_index_encrypted.c.o: third-party/libzip/zip_fopen_index_encrypted.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_36)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_36)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_index_encrypted.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_fopen_index_encrypted.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_fopen_index_encrypted.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_fopen_index_encrypted.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_fopen_index_encrypted.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_index_encrypted.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_fopen_index_encrypted.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_fopen_index_encrypted.c > CMakeFiles/zip_static.dir/zip_fopen_index_encrypted.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_fopen_index_encrypted.c > CMakeFiles/zip_static.dir/zip_fopen_index_encrypted.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_index_encrypted.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_fopen_index_encrypted.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_fopen_index_encrypted.c -o CMakeFiles/zip_static.dir/zip_fopen_index_encrypted.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_fopen_index_encrypted.c -o CMakeFiles/zip_static.dir/zip_fopen_index_encrypted.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_index_encrypted.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_index_encrypted.c.o.requires
@@ -882,17 +882,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_fopen_index_encrypted.c.o.provi
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_fread.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_fread.c.o: third-party/libzip/zip_fread.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_37)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_37)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_fread.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_fread.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_fread.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_fread.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_fread.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_fread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_fread.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_fread.c > CMakeFiles/zip_static.dir/zip_fread.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_fread.c > CMakeFiles/zip_static.dir/zip_fread.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_fread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_fread.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_fread.c -o CMakeFiles/zip_static.dir/zip_fread.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_fread.c -o CMakeFiles/zip_static.dir/zip_fread.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_fread.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_fread.c.o.requires
@@ -905,17 +905,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_fread.c.o.provides.build: third
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_get_archive_comment.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_get_archive_comment.c.o: third-party/libzip/zip_get_archive_comment.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_38)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_38)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_get_archive_comment.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_get_archive_comment.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_get_archive_comment.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_get_archive_comment.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_get_archive_comment.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_get_archive_comment.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_get_archive_comment.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_get_archive_comment.c > CMakeFiles/zip_static.dir/zip_get_archive_comment.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_get_archive_comment.c > CMakeFiles/zip_static.dir/zip_get_archive_comment.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_get_archive_comment.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_get_archive_comment.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_get_archive_comment.c -o CMakeFiles/zip_static.dir/zip_get_archive_comment.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_get_archive_comment.c -o CMakeFiles/zip_static.dir/zip_get_archive_comment.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_get_archive_comment.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_get_archive_comment.c.o.requires
@@ -928,17 +928,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_get_archive_comment.c.o.provide
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_get_archive_flag.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_get_archive_flag.c.o: third-party/libzip/zip_get_archive_flag.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_39)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_39)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_get_archive_flag.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_get_archive_flag.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_get_archive_flag.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_get_archive_flag.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_get_archive_flag.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_get_archive_flag.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_get_archive_flag.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_get_archive_flag.c > CMakeFiles/zip_static.dir/zip_get_archive_flag.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_get_archive_flag.c > CMakeFiles/zip_static.dir/zip_get_archive_flag.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_get_archive_flag.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_get_archive_flag.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_get_archive_flag.c -o CMakeFiles/zip_static.dir/zip_get_archive_flag.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_get_archive_flag.c -o CMakeFiles/zip_static.dir/zip_get_archive_flag.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_get_archive_flag.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_get_archive_flag.c.o.requires
@@ -951,17 +951,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_get_archive_flag.c.o.provides.b
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_get_compression_implementation.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_get_compression_implementation.c.o: third-party/libzip/zip_get_compression_implementation.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_40)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_40)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_get_compression_implementation.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_get_compression_implementation.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_get_compression_implementation.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_get_compression_implementation.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_get_compression_implementation.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_get_compression_implementation.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_get_compression_implementation.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_get_compression_implementation.c > CMakeFiles/zip_static.dir/zip_get_compression_implementation.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_get_compression_implementation.c > CMakeFiles/zip_static.dir/zip_get_compression_implementation.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_get_compression_implementation.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_get_compression_implementation.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_get_compression_implementation.c -o CMakeFiles/zip_static.dir/zip_get_compression_implementation.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_get_compression_implementation.c -o CMakeFiles/zip_static.dir/zip_get_compression_implementation.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_get_compression_implementation.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_get_compression_implementation.c.o.requires
@@ -974,17 +974,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_get_compression_implementation.
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_get_encryption_implementation.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_get_encryption_implementation.c.o: third-party/libzip/zip_get_encryption_implementation.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_41)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_41)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_get_encryption_implementation.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_get_encryption_implementation.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_get_encryption_implementation.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_get_encryption_implementation.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_get_encryption_implementation.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_get_encryption_implementation.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_get_encryption_implementation.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_get_encryption_implementation.c > CMakeFiles/zip_static.dir/zip_get_encryption_implementation.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_get_encryption_implementation.c > CMakeFiles/zip_static.dir/zip_get_encryption_implementation.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_get_encryption_implementation.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_get_encryption_implementation.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_get_encryption_implementation.c -o CMakeFiles/zip_static.dir/zip_get_encryption_implementation.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_get_encryption_implementation.c -o CMakeFiles/zip_static.dir/zip_get_encryption_implementation.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_get_encryption_implementation.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_get_encryption_implementation.c.o.requires
@@ -997,17 +997,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_get_encryption_implementation.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_get_file_comment.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_get_file_comment.c.o: third-party/libzip/zip_get_file_comment.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_42)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_42)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_get_file_comment.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_get_file_comment.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_get_file_comment.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_get_file_comment.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_get_file_comment.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_get_file_comment.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_get_file_comment.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_get_file_comment.c > CMakeFiles/zip_static.dir/zip_get_file_comment.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_get_file_comment.c > CMakeFiles/zip_static.dir/zip_get_file_comment.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_get_file_comment.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_get_file_comment.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_get_file_comment.c -o CMakeFiles/zip_static.dir/zip_get_file_comment.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_get_file_comment.c -o CMakeFiles/zip_static.dir/zip_get_file_comment.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_get_file_comment.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_get_file_comment.c.o.requires
@@ -1020,17 +1020,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_get_file_comment.c.o.provides.b
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_get_name.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_get_name.c.o: third-party/libzip/zip_get_name.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_43)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_43)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_get_name.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_get_name.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_get_name.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_get_name.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_get_name.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_get_name.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_get_name.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_get_name.c > CMakeFiles/zip_static.dir/zip_get_name.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_get_name.c > CMakeFiles/zip_static.dir/zip_get_name.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_get_name.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_get_name.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_get_name.c -o CMakeFiles/zip_static.dir/zip_get_name.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_get_name.c -o CMakeFiles/zip_static.dir/zip_get_name.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_get_name.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_get_name.c.o.requires
@@ -1043,17 +1043,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_get_name.c.o.provides.build: th
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_get_num_entries.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_get_num_entries.c.o: third-party/libzip/zip_get_num_entries.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_44)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_44)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_get_num_entries.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_get_num_entries.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_get_num_entries.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_get_num_entries.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_get_num_entries.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_get_num_entries.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_get_num_entries.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_get_num_entries.c > CMakeFiles/zip_static.dir/zip_get_num_entries.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_get_num_entries.c > CMakeFiles/zip_static.dir/zip_get_num_entries.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_get_num_entries.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_get_num_entries.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_get_num_entries.c -o CMakeFiles/zip_static.dir/zip_get_num_entries.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_get_num_entries.c -o CMakeFiles/zip_static.dir/zip_get_num_entries.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_get_num_entries.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_get_num_entries.c.o.requires
@@ -1066,17 +1066,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_get_num_entries.c.o.provides.bu
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_get_num_files.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_get_num_files.c.o: third-party/libzip/zip_get_num_files.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_45)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_45)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_get_num_files.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_get_num_files.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_get_num_files.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_get_num_files.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_get_num_files.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_get_num_files.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_get_num_files.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_get_num_files.c > CMakeFiles/zip_static.dir/zip_get_num_files.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_get_num_files.c > CMakeFiles/zip_static.dir/zip_get_num_files.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_get_num_files.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_get_num_files.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_get_num_files.c -o CMakeFiles/zip_static.dir/zip_get_num_files.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_get_num_files.c -o CMakeFiles/zip_static.dir/zip_get_num_files.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_get_num_files.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_get_num_files.c.o.requires
@@ -1089,17 +1089,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_get_num_files.c.o.provides.buil
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_memdup.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_memdup.c.o: third-party/libzip/zip_memdup.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_46)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_46)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_memdup.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_memdup.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_memdup.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_memdup.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_memdup.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_memdup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_memdup.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_memdup.c > CMakeFiles/zip_static.dir/zip_memdup.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_memdup.c > CMakeFiles/zip_static.dir/zip_memdup.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_memdup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_memdup.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_memdup.c -o CMakeFiles/zip_static.dir/zip_memdup.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_memdup.c -o CMakeFiles/zip_static.dir/zip_memdup.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_memdup.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_memdup.c.o.requires
@@ -1112,17 +1112,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_memdup.c.o.provides.build: thir
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_name_locate.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_name_locate.c.o: third-party/libzip/zip_name_locate.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_47)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_47)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_name_locate.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_name_locate.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_name_locate.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_name_locate.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_name_locate.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_name_locate.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_name_locate.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_name_locate.c > CMakeFiles/zip_static.dir/zip_name_locate.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_name_locate.c > CMakeFiles/zip_static.dir/zip_name_locate.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_name_locate.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_name_locate.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_name_locate.c -o CMakeFiles/zip_static.dir/zip_name_locate.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_name_locate.c -o CMakeFiles/zip_static.dir/zip_name_locate.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_name_locate.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_name_locate.c.o.requires
@@ -1135,17 +1135,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_name_locate.c.o.provides.build:
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_new.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_new.c.o: third-party/libzip/zip_new.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_48)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_48)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_new.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_new.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_new.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_new.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_new.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_new.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_new.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_new.c > CMakeFiles/zip_static.dir/zip_new.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_new.c > CMakeFiles/zip_static.dir/zip_new.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_new.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_new.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_new.c -o CMakeFiles/zip_static.dir/zip_new.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_new.c -o CMakeFiles/zip_static.dir/zip_new.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_new.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_new.c.o.requires
@@ -1158,17 +1158,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_new.c.o.provides.build: third-p
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_open.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_open.c.o: third-party/libzip/zip_open.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_49)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_49)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_open.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_open.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_open.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_open.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_open.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_open.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_open.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_open.c > CMakeFiles/zip_static.dir/zip_open.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_open.c > CMakeFiles/zip_static.dir/zip_open.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_open.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_open.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_open.c -o CMakeFiles/zip_static.dir/zip_open.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_open.c -o CMakeFiles/zip_static.dir/zip_open.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_open.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_open.c.o.requires
@@ -1181,17 +1181,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_open.c.o.provides.build: third-
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_rename.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_rename.c.o: third-party/libzip/zip_rename.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_50)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_50)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_rename.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_rename.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_rename.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_rename.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_rename.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_rename.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_rename.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_rename.c > CMakeFiles/zip_static.dir/zip_rename.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_rename.c > CMakeFiles/zip_static.dir/zip_rename.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_rename.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_rename.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_rename.c -o CMakeFiles/zip_static.dir/zip_rename.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_rename.c -o CMakeFiles/zip_static.dir/zip_rename.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_rename.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_rename.c.o.requires
@@ -1204,17 +1204,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_rename.c.o.provides.build: thir
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_replace.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_replace.c.o: third-party/libzip/zip_replace.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_51)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_51)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_replace.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_replace.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_replace.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_replace.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_replace.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_replace.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_replace.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_replace.c > CMakeFiles/zip_static.dir/zip_replace.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_replace.c > CMakeFiles/zip_static.dir/zip_replace.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_replace.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_replace.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_replace.c -o CMakeFiles/zip_static.dir/zip_replace.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_replace.c -o CMakeFiles/zip_static.dir/zip_replace.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_replace.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_replace.c.o.requires
@@ -1227,17 +1227,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_replace.c.o.provides.build: thi
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_set_archive_comment.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_set_archive_comment.c.o: third-party/libzip/zip_set_archive_comment.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_52)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_52)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_set_archive_comment.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_set_archive_comment.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_set_archive_comment.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_set_archive_comment.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_set_archive_comment.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_set_archive_comment.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_set_archive_comment.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_set_archive_comment.c > CMakeFiles/zip_static.dir/zip_set_archive_comment.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_set_archive_comment.c > CMakeFiles/zip_static.dir/zip_set_archive_comment.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_set_archive_comment.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_set_archive_comment.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_set_archive_comment.c -o CMakeFiles/zip_static.dir/zip_set_archive_comment.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_set_archive_comment.c -o CMakeFiles/zip_static.dir/zip_set_archive_comment.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_set_archive_comment.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_set_archive_comment.c.o.requires
@@ -1250,17 +1250,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_set_archive_comment.c.o.provide
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_set_archive_flag.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_set_archive_flag.c.o: third-party/libzip/zip_set_archive_flag.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_53)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_53)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_set_archive_flag.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_set_archive_flag.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_set_archive_flag.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_set_archive_flag.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_set_archive_flag.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_set_archive_flag.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_set_archive_flag.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_set_archive_flag.c > CMakeFiles/zip_static.dir/zip_set_archive_flag.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_set_archive_flag.c > CMakeFiles/zip_static.dir/zip_set_archive_flag.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_set_archive_flag.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_set_archive_flag.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_set_archive_flag.c -o CMakeFiles/zip_static.dir/zip_set_archive_flag.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_set_archive_flag.c -o CMakeFiles/zip_static.dir/zip_set_archive_flag.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_set_archive_flag.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_set_archive_flag.c.o.requires
@@ -1273,17 +1273,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_set_archive_flag.c.o.provides.b
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_set_default_password.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_set_default_password.c.o: third-party/libzip/zip_set_default_password.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_54)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_54)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_set_default_password.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_set_default_password.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_set_default_password.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_set_default_password.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_set_default_password.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_set_default_password.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_set_default_password.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_set_default_password.c > CMakeFiles/zip_static.dir/zip_set_default_password.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_set_default_password.c > CMakeFiles/zip_static.dir/zip_set_default_password.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_set_default_password.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_set_default_password.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_set_default_password.c -o CMakeFiles/zip_static.dir/zip_set_default_password.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_set_default_password.c -o CMakeFiles/zip_static.dir/zip_set_default_password.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_set_default_password.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_set_default_password.c.o.requires
@@ -1296,17 +1296,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_set_default_password.c.o.provid
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_set_file_comment.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_set_file_comment.c.o: third-party/libzip/zip_set_file_comment.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_55)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_55)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_set_file_comment.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_set_file_comment.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_set_file_comment.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_set_file_comment.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_set_file_comment.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_set_file_comment.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_set_file_comment.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_set_file_comment.c > CMakeFiles/zip_static.dir/zip_set_file_comment.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_set_file_comment.c > CMakeFiles/zip_static.dir/zip_set_file_comment.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_set_file_comment.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_set_file_comment.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_set_file_comment.c -o CMakeFiles/zip_static.dir/zip_set_file_comment.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_set_file_comment.c -o CMakeFiles/zip_static.dir/zip_set_file_comment.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_set_file_comment.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_set_file_comment.c.o.requires
@@ -1319,17 +1319,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_set_file_comment.c.o.provides.b
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_set_file_compression.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_set_file_compression.c.o: third-party/libzip/zip_set_file_compression.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_56)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_56)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_set_file_compression.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_set_file_compression.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_set_file_compression.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_set_file_compression.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_set_file_compression.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_set_file_compression.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_set_file_compression.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_set_file_compression.c > CMakeFiles/zip_static.dir/zip_set_file_compression.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_set_file_compression.c > CMakeFiles/zip_static.dir/zip_set_file_compression.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_set_file_compression.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_set_file_compression.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_set_file_compression.c -o CMakeFiles/zip_static.dir/zip_set_file_compression.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_set_file_compression.c -o CMakeFiles/zip_static.dir/zip_set_file_compression.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_set_file_compression.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_set_file_compression.c.o.requires
@@ -1342,17 +1342,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_set_file_compression.c.o.provid
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_set_name.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_set_name.c.o: third-party/libzip/zip_set_name.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_57)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_57)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_set_name.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_set_name.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_set_name.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_set_name.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_set_name.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_set_name.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_set_name.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_set_name.c > CMakeFiles/zip_static.dir/zip_set_name.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_set_name.c > CMakeFiles/zip_static.dir/zip_set_name.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_set_name.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_set_name.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_set_name.c -o CMakeFiles/zip_static.dir/zip_set_name.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_set_name.c -o CMakeFiles/zip_static.dir/zip_set_name.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_set_name.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_set_name.c.o.requires
@@ -1365,17 +1365,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_set_name.c.o.provides.build: th
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_buffer.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_buffer.c.o: third-party/libzip/zip_source_buffer.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_58)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_58)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_source_buffer.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_source_buffer.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_source_buffer.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_source_buffer.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_source_buffer.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_buffer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_source_buffer.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_source_buffer.c > CMakeFiles/zip_static.dir/zip_source_buffer.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_source_buffer.c > CMakeFiles/zip_static.dir/zip_source_buffer.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_buffer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_source_buffer.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_source_buffer.c -o CMakeFiles/zip_static.dir/zip_source_buffer.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_source_buffer.c -o CMakeFiles/zip_static.dir/zip_source_buffer.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_buffer.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_source_buffer.c.o.requires
@@ -1388,17 +1388,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_source_buffer.c.o.provides.buil
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_close.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_close.c.o: third-party/libzip/zip_source_close.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_59)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_59)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_source_close.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_source_close.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_source_close.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_source_close.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_source_close.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_close.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_source_close.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_source_close.c > CMakeFiles/zip_static.dir/zip_source_close.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_source_close.c > CMakeFiles/zip_static.dir/zip_source_close.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_close.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_source_close.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_source_close.c -o CMakeFiles/zip_static.dir/zip_source_close.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_source_close.c -o CMakeFiles/zip_static.dir/zip_source_close.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_close.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_source_close.c.o.requires
@@ -1411,17 +1411,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_source_close.c.o.provides.build
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_crc.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_crc.c.o: third-party/libzip/zip_source_crc.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_60)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_60)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_source_crc.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_source_crc.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_source_crc.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_source_crc.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_source_crc.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_crc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_source_crc.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_source_crc.c > CMakeFiles/zip_static.dir/zip_source_crc.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_source_crc.c > CMakeFiles/zip_static.dir/zip_source_crc.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_crc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_source_crc.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_source_crc.c -o CMakeFiles/zip_static.dir/zip_source_crc.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_source_crc.c -o CMakeFiles/zip_static.dir/zip_source_crc.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_crc.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_source_crc.c.o.requires
@@ -1434,17 +1434,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_source_crc.c.o.provides.build: 
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_deflate.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_deflate.c.o: third-party/libzip/zip_source_deflate.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_61)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_61)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_source_deflate.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_source_deflate.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_source_deflate.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_source_deflate.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_source_deflate.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_deflate.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_source_deflate.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_source_deflate.c > CMakeFiles/zip_static.dir/zip_source_deflate.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_source_deflate.c > CMakeFiles/zip_static.dir/zip_source_deflate.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_deflate.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_source_deflate.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_source_deflate.c -o CMakeFiles/zip_static.dir/zip_source_deflate.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_source_deflate.c -o CMakeFiles/zip_static.dir/zip_source_deflate.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_deflate.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_source_deflate.c.o.requires
@@ -1457,17 +1457,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_source_deflate.c.o.provides.bui
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_error.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_error.c.o: third-party/libzip/zip_source_error.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_62)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_62)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_source_error.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_source_error.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_source_error.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_source_error.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_source_error.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_error.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_source_error.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_source_error.c > CMakeFiles/zip_static.dir/zip_source_error.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_source_error.c > CMakeFiles/zip_static.dir/zip_source_error.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_error.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_source_error.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_source_error.c -o CMakeFiles/zip_static.dir/zip_source_error.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_source_error.c -o CMakeFiles/zip_static.dir/zip_source_error.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_error.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_source_error.c.o.requires
@@ -1480,17 +1480,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_source_error.c.o.provides.build
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_file.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_file.c.o: third-party/libzip/zip_source_file.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_63)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_63)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_source_file.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_source_file.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_source_file.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_source_file.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_source_file.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_file.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_source_file.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_source_file.c > CMakeFiles/zip_static.dir/zip_source_file.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_source_file.c > CMakeFiles/zip_static.dir/zip_source_file.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_file.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_source_file.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_source_file.c -o CMakeFiles/zip_static.dir/zip_source_file.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_source_file.c -o CMakeFiles/zip_static.dir/zip_source_file.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_file.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_source_file.c.o.requires
@@ -1503,17 +1503,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_source_file.c.o.provides.build:
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_filep.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_filep.c.o: third-party/libzip/zip_source_filep.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_64)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_64)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_source_filep.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_source_filep.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_source_filep.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_source_filep.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_source_filep.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_filep.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_source_filep.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_source_filep.c > CMakeFiles/zip_static.dir/zip_source_filep.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_source_filep.c > CMakeFiles/zip_static.dir/zip_source_filep.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_filep.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_source_filep.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_source_filep.c -o CMakeFiles/zip_static.dir/zip_source_filep.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_source_filep.c -o CMakeFiles/zip_static.dir/zip_source_filep.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_filep.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_source_filep.c.o.requires
@@ -1526,17 +1526,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_source_filep.c.o.provides.build
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_free.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_free.c.o: third-party/libzip/zip_source_free.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_65)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_65)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_source_free.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_source_free.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_source_free.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_source_free.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_source_free.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_free.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_source_free.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_source_free.c > CMakeFiles/zip_static.dir/zip_source_free.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_source_free.c > CMakeFiles/zip_static.dir/zip_source_free.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_free.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_source_free.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_source_free.c -o CMakeFiles/zip_static.dir/zip_source_free.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_source_free.c -o CMakeFiles/zip_static.dir/zip_source_free.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_free.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_source_free.c.o.requires
@@ -1549,17 +1549,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_source_free.c.o.provides.build:
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_function.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_function.c.o: third-party/libzip/zip_source_function.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_66)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_66)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_source_function.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_source_function.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_source_function.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_source_function.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_source_function.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_function.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_source_function.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_source_function.c > CMakeFiles/zip_static.dir/zip_source_function.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_source_function.c > CMakeFiles/zip_static.dir/zip_source_function.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_function.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_source_function.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_source_function.c -o CMakeFiles/zip_static.dir/zip_source_function.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_source_function.c -o CMakeFiles/zip_static.dir/zip_source_function.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_function.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_source_function.c.o.requires
@@ -1572,17 +1572,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_source_function.c.o.provides.bu
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_layered.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_layered.c.o: third-party/libzip/zip_source_layered.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_67)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_67)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_source_layered.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_source_layered.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_source_layered.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_source_layered.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_source_layered.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_layered.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_source_layered.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_source_layered.c > CMakeFiles/zip_static.dir/zip_source_layered.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_source_layered.c > CMakeFiles/zip_static.dir/zip_source_layered.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_layered.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_source_layered.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_source_layered.c -o CMakeFiles/zip_static.dir/zip_source_layered.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_source_layered.c -o CMakeFiles/zip_static.dir/zip_source_layered.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_layered.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_source_layered.c.o.requires
@@ -1595,17 +1595,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_source_layered.c.o.provides.bui
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_open.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_open.c.o: third-party/libzip/zip_source_open.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_68)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_68)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_source_open.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_source_open.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_source_open.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_source_open.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_source_open.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_open.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_source_open.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_source_open.c > CMakeFiles/zip_static.dir/zip_source_open.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_source_open.c > CMakeFiles/zip_static.dir/zip_source_open.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_open.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_source_open.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_source_open.c -o CMakeFiles/zip_static.dir/zip_source_open.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_source_open.c -o CMakeFiles/zip_static.dir/zip_source_open.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_open.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_source_open.c.o.requires
@@ -1618,17 +1618,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_source_open.c.o.provides.build:
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_pkware.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_pkware.c.o: third-party/libzip/zip_source_pkware.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_69)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_69)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_source_pkware.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_source_pkware.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_source_pkware.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_source_pkware.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_source_pkware.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_pkware.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_source_pkware.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_source_pkware.c > CMakeFiles/zip_static.dir/zip_source_pkware.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_source_pkware.c > CMakeFiles/zip_static.dir/zip_source_pkware.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_pkware.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_source_pkware.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_source_pkware.c -o CMakeFiles/zip_static.dir/zip_source_pkware.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_source_pkware.c -o CMakeFiles/zip_static.dir/zip_source_pkware.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_pkware.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_source_pkware.c.o.requires
@@ -1641,17 +1641,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_source_pkware.c.o.provides.buil
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_pop.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_pop.c.o: third-party/libzip/zip_source_pop.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_70)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_70)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_source_pop.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_source_pop.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_source_pop.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_source_pop.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_source_pop.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_pop.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_source_pop.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_source_pop.c > CMakeFiles/zip_static.dir/zip_source_pop.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_source_pop.c > CMakeFiles/zip_static.dir/zip_source_pop.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_pop.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_source_pop.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_source_pop.c -o CMakeFiles/zip_static.dir/zip_source_pop.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_source_pop.c -o CMakeFiles/zip_static.dir/zip_source_pop.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_pop.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_source_pop.c.o.requires
@@ -1664,17 +1664,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_source_pop.c.o.provides.build: 
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_read.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_read.c.o: third-party/libzip/zip_source_read.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_71)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_71)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_source_read.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_source_read.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_source_read.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_source_read.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_source_read.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_read.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_source_read.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_source_read.c > CMakeFiles/zip_static.dir/zip_source_read.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_source_read.c > CMakeFiles/zip_static.dir/zip_source_read.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_read.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_source_read.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_source_read.c -o CMakeFiles/zip_static.dir/zip_source_read.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_source_read.c -o CMakeFiles/zip_static.dir/zip_source_read.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_read.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_source_read.c.o.requires
@@ -1687,17 +1687,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_source_read.c.o.provides.build:
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_stat.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_stat.c.o: third-party/libzip/zip_source_stat.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_72)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_72)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_source_stat.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_source_stat.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_source_stat.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_source_stat.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_source_stat.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_stat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_source_stat.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_source_stat.c > CMakeFiles/zip_static.dir/zip_source_stat.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_source_stat.c > CMakeFiles/zip_static.dir/zip_source_stat.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_stat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_source_stat.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_source_stat.c -o CMakeFiles/zip_static.dir/zip_source_stat.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_source_stat.c -o CMakeFiles/zip_static.dir/zip_source_stat.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_stat.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_source_stat.c.o.requires
@@ -1710,17 +1710,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_source_stat.c.o.provides.build:
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_window.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_window.c.o: third-party/libzip/zip_source_window.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_73)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_73)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_source_window.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_source_window.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_source_window.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_source_window.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_source_window.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_window.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_source_window.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_source_window.c > CMakeFiles/zip_static.dir/zip_source_window.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_source_window.c > CMakeFiles/zip_static.dir/zip_source_window.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_window.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_source_window.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_source_window.c -o CMakeFiles/zip_static.dir/zip_source_window.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_source_window.c -o CMakeFiles/zip_static.dir/zip_source_window.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_window.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_source_window.c.o.requires
@@ -1733,17 +1733,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_source_window.c.o.provides.buil
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_zip.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_zip.c.o: third-party/libzip/zip_source_zip.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_74)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_74)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_source_zip.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_source_zip.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_source_zip.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_source_zip.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_source_zip.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_zip.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_source_zip.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_source_zip.c > CMakeFiles/zip_static.dir/zip_source_zip.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_source_zip.c > CMakeFiles/zip_static.dir/zip_source_zip.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_zip.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_source_zip.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_source_zip.c -o CMakeFiles/zip_static.dir/zip_source_zip.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_source_zip.c -o CMakeFiles/zip_static.dir/zip_source_zip.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_zip.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_source_zip.c.o.requires
@@ -1756,17 +1756,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_source_zip.c.o.provides.build: 
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_zip_new.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_zip_new.c.o: third-party/libzip/zip_source_zip_new.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_75)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_75)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_source_zip_new.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_source_zip_new.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_source_zip_new.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_source_zip_new.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_source_zip_new.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_zip_new.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_source_zip_new.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_source_zip_new.c > CMakeFiles/zip_static.dir/zip_source_zip_new.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_source_zip_new.c > CMakeFiles/zip_static.dir/zip_source_zip_new.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_zip_new.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_source_zip_new.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_source_zip_new.c -o CMakeFiles/zip_static.dir/zip_source_zip_new.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_source_zip_new.c -o CMakeFiles/zip_static.dir/zip_source_zip_new.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_source_zip_new.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_source_zip_new.c.o.requires
@@ -1779,17 +1779,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_source_zip_new.c.o.provides.bui
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_stat.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_stat.c.o: third-party/libzip/zip_stat.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_76)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_76)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_stat.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_stat.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_stat.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_stat.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_stat.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_stat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_stat.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_stat.c > CMakeFiles/zip_static.dir/zip_stat.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_stat.c > CMakeFiles/zip_static.dir/zip_stat.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_stat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_stat.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_stat.c -o CMakeFiles/zip_static.dir/zip_stat.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_stat.c -o CMakeFiles/zip_static.dir/zip_stat.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_stat.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_stat.c.o.requires
@@ -1802,17 +1802,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_stat.c.o.provides.build: third-
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_stat_index.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_stat_index.c.o: third-party/libzip/zip_stat_index.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_77)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_77)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_stat_index.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_stat_index.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_stat_index.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_stat_index.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_stat_index.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_stat_index.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_stat_index.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_stat_index.c > CMakeFiles/zip_static.dir/zip_stat_index.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_stat_index.c > CMakeFiles/zip_static.dir/zip_stat_index.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_stat_index.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_stat_index.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_stat_index.c -o CMakeFiles/zip_static.dir/zip_stat_index.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_stat_index.c -o CMakeFiles/zip_static.dir/zip_stat_index.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_stat_index.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_stat_index.c.o.requires
@@ -1825,17 +1825,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_stat_index.c.o.provides.build: 
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_stat_init.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_stat_init.c.o: third-party/libzip/zip_stat_init.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_78)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_78)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_stat_init.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_stat_init.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_stat_init.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_stat_init.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_stat_init.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_stat_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_stat_init.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_stat_init.c > CMakeFiles/zip_static.dir/zip_stat_init.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_stat_init.c > CMakeFiles/zip_static.dir/zip_stat_init.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_stat_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_stat_init.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_stat_init.c -o CMakeFiles/zip_static.dir/zip_stat_init.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_stat_init.c -o CMakeFiles/zip_static.dir/zip_stat_init.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_stat_init.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_stat_init.c.o.requires
@@ -1848,17 +1848,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_stat_init.c.o.provides.build: t
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_strerror.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_strerror.c.o: third-party/libzip/zip_strerror.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_79)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_79)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_strerror.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_strerror.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_strerror.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_strerror.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_strerror.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_strerror.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_strerror.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_strerror.c > CMakeFiles/zip_static.dir/zip_strerror.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_strerror.c > CMakeFiles/zip_static.dir/zip_strerror.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_strerror.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_strerror.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_strerror.c -o CMakeFiles/zip_static.dir/zip_strerror.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_strerror.c -o CMakeFiles/zip_static.dir/zip_strerror.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_strerror.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_strerror.c.o.requires
@@ -1871,17 +1871,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_strerror.c.o.provides.build: th
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_string.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_string.c.o: third-party/libzip/zip_string.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_80)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_80)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_string.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_string.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_string.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_string.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_string.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_string.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_string.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_string.c > CMakeFiles/zip_static.dir/zip_string.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_string.c > CMakeFiles/zip_static.dir/zip_string.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_string.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_string.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_string.c -o CMakeFiles/zip_static.dir/zip_string.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_string.c -o CMakeFiles/zip_static.dir/zip_string.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_string.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_string.c.o.requires
@@ -1894,17 +1894,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_string.c.o.provides.build: thir
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_all.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_all.c.o: third-party/libzip/zip_unchange_all.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_81)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_81)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_all.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_unchange_all.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_unchange_all.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_unchange_all.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_unchange_all.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_all.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_unchange_all.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_unchange_all.c > CMakeFiles/zip_static.dir/zip_unchange_all.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_unchange_all.c > CMakeFiles/zip_static.dir/zip_unchange_all.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_all.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_unchange_all.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_unchange_all.c -o CMakeFiles/zip_static.dir/zip_unchange_all.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_unchange_all.c -o CMakeFiles/zip_static.dir/zip_unchange_all.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_all.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_all.c.o.requires
@@ -1917,17 +1917,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_all.c.o.provides.build
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_archive.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_archive.c.o: third-party/libzip/zip_unchange_archive.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_82)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_82)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_archive.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_unchange_archive.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_unchange_archive.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_unchange_archive.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_unchange_archive.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_archive.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_unchange_archive.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_unchange_archive.c > CMakeFiles/zip_static.dir/zip_unchange_archive.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_unchange_archive.c > CMakeFiles/zip_static.dir/zip_unchange_archive.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_archive.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_unchange_archive.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_unchange_archive.c -o CMakeFiles/zip_static.dir/zip_unchange_archive.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_unchange_archive.c -o CMakeFiles/zip_static.dir/zip_unchange_archive.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_archive.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_archive.c.o.requires
@@ -1940,17 +1940,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_archive.c.o.provides.b
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange.c.o: third-party/libzip/zip_unchange.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_83)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_83)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_unchange.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_unchange.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_unchange.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_unchange.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_unchange.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_unchange.c > CMakeFiles/zip_static.dir/zip_unchange.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_unchange.c > CMakeFiles/zip_static.dir/zip_unchange.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_unchange.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_unchange.c -o CMakeFiles/zip_static.dir/zip_unchange.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_unchange.c -o CMakeFiles/zip_static.dir/zip_unchange.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange.c.o.requires
@@ -1963,17 +1963,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange.c.o.provides.build: th
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_data.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_data.c.o: third-party/libzip/zip_unchange_data.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_84)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_84)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_data.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_unchange_data.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_unchange_data.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_unchange_data.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_unchange_data.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_data.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_unchange_data.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_unchange_data.c > CMakeFiles/zip_static.dir/zip_unchange_data.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_unchange_data.c > CMakeFiles/zip_static.dir/zip_unchange_data.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_data.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_unchange_data.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_unchange_data.c -o CMakeFiles/zip_static.dir/zip_unchange_data.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_unchange_data.c -o CMakeFiles/zip_static.dir/zip_unchange_data.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_data.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_data.c.o.requires
@@ -1986,17 +1986,17 @@ third-party/libzip/CMakeFiles/zip_static.dir/zip_unchange_data.c.o.provides.buil
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_utf-8.c.o: third-party/libzip/CMakeFiles/zip_static.dir/flags.make
 third-party/libzip/CMakeFiles/zip_static.dir/zip_utf-8.c.o: third-party/libzip/zip_utf-8.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_85)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_85)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object third-party/libzip/CMakeFiles/zip_static.dir/zip_utf-8.c.o"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_utf-8.c.o   -c /tmp/hhvm-3.11.1/third-party/libzip/zip_utf-8.c
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zip_static.dir/zip_utf-8.c.o   -c /tmp/hhvm-3.12.1/third-party/libzip/zip_utf-8.c
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_utf-8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zip_static.dir/zip_utf-8.c.i"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/third-party/libzip/zip_utf-8.c > CMakeFiles/zip_static.dir/zip_utf-8.c.i
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.12.1/third-party/libzip/zip_utf-8.c > CMakeFiles/zip_static.dir/zip_utf-8.c.i
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_utf-8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zip_static.dir/zip_utf-8.c.s"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/third-party/libzip/zip_utf-8.c -o CMakeFiles/zip_static.dir/zip_utf-8.c.s
+	cd /tmp/hhvm-3.12.1/third-party/libzip && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.12.1/third-party/libzip/zip_utf-8.c -o CMakeFiles/zip_static.dir/zip_utf-8.c.s
 
 third-party/libzip/CMakeFiles/zip_static.dir/zip_utf-8.c.o.requires:
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/zip_utf-8.c.o.requires
@@ -2186,8 +2186,8 @@ third-party/libzip/libzip.a: third-party/libzip/CMakeFiles/zip_static.dir/zip_ut
 third-party/libzip/libzip.a: third-party/libzip/CMakeFiles/zip_static.dir/build.make
 third-party/libzip/libzip.a: third-party/libzip/CMakeFiles/zip_static.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C static library libzip.a"
-	cd /tmp/hhvm-3.11.1/third-party/libzip && $(CMAKE_COMMAND) -P CMakeFiles/zip_static.dir/cmake_clean_target.cmake
-	cd /tmp/hhvm-3.11.1/third-party/libzip && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/zip_static.dir/link.txt --verbose=$(VERBOSE)
+	cd /tmp/hhvm-3.12.1/third-party/libzip && $(CMAKE_COMMAND) -P CMakeFiles/zip_static.dir/cmake_clean_target.cmake
+	cd /tmp/hhvm-3.12.1/third-party/libzip && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/zip_static.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 third-party/libzip/CMakeFiles/zip_static.dir/build: third-party/libzip/libzip.a
@@ -2281,10 +2281,10 @@ third-party/libzip/CMakeFiles/zip_static.dir/requires: third-party/libzip/CMakeF
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/requires
 
 third-party/libzip/CMakeFiles/zip_static.dir/clean:
-	cd /tmp/hhvm-3.11.1/third-party/libzip && $(CMAKE_COMMAND) -P CMakeFiles/zip_static.dir/cmake_clean.cmake
+	cd /tmp/hhvm-3.12.1/third-party/libzip && $(CMAKE_COMMAND) -P CMakeFiles/zip_static.dir/cmake_clean.cmake
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/clean
 
 third-party/libzip/CMakeFiles/zip_static.dir/depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/third-party/libzip /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/third-party/libzip /tmp/hhvm-3.11.1/third-party/libzip/CMakeFiles/zip_static.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/hhvm-3.12.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.12.1 /tmp/hhvm-3.12.1/third-party/libzip /tmp/hhvm-3.12.1 /tmp/hhvm-3.12.1/third-party/libzip /tmp/hhvm-3.12.1/third-party/libzip/CMakeFiles/zip_static.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : third-party/libzip/CMakeFiles/zip_static.dir/depend
 

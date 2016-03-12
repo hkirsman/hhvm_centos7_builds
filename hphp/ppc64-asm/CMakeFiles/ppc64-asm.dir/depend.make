@@ -15,8 +15,14 @@ hphp/ppc64-asm/CMakeFiles/ppc64-asm.dir/asm-ppc64.cpp.o: hphp/util/functional.h
 hphp/ppc64-asm/CMakeFiles/ppc64-asm.dir/asm-ppc64.cpp.o: hphp/util/hash-map-typedefs.h
 hphp/ppc64-asm/CMakeFiles/ppc64-asm.dir/asm-ppc64.cpp.o: hphp/util/hash.h
 hphp/ppc64-asm/CMakeFiles/ppc64-asm.dir/asm-ppc64.cpp.o: hphp/util/immed.h
+hphp/ppc64-asm/CMakeFiles/ppc64-asm.dir/asm-ppc64.cpp.o: hphp/util/locale-portability.h
 hphp/ppc64-asm/CMakeFiles/ppc64-asm.dir/asm-ppc64.cpp.o: hphp/util/low-ptr.h
 hphp/ppc64-asm/CMakeFiles/ppc64-asm.dir/asm-ppc64.cpp.o: hphp/util/portability.h
+hphp/ppc64-asm/CMakeFiles/ppc64-asm.dir/asm-ppc64.cpp.o: hphp/util/portability/fnmatch.h
+hphp/ppc64-asm/CMakeFiles/ppc64-asm.dir/asm-ppc64.cpp.o: hphp/util/portability/glob.h
+hphp/ppc64-asm/CMakeFiles/ppc64-asm.dir/asm-ppc64.cpp.o: hphp/util/portability/rand_r.h
+hphp/ppc64-asm/CMakeFiles/ppc64-asm.dir/asm-ppc64.cpp.o: hphp/util/portability/strfmon.h
+hphp/ppc64-asm/CMakeFiles/ppc64-asm.dir/asm-ppc64.cpp.o: hphp/util/portability/strptime.h
 hphp/ppc64-asm/CMakeFiles/ppc64-asm.dir/asm-ppc64.cpp.o: hphp/util/safe-cast.h
 hphp/ppc64-asm/CMakeFiles/ppc64-asm.dir/asm-ppc64.cpp.o: hphp/util/text-color.h
 hphp/ppc64-asm/CMakeFiles/ppc64-asm.dir/asm-ppc64.cpp.o: hphp/util/trace.h

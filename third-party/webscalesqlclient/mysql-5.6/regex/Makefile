@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -104,7 +104,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -114,7 +114,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && /usr/bin/cpack --config ./CPackSourceConfig.cmake /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CPackSourceConfig.cmake
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && /usr/bin/cpack --config ./CPackSourceConfig.cmake /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -133,14 +133,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/regex/CMakeFiles/progress.marks
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 regex/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles 0
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/CMakeFiles /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/regex/CMakeFiles/progress.marks
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 regex/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 regex/clean
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 regex/clean
 .PHONY : clean
 
 # The main clean target
@@ -149,22 +149,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 regex/preinstall
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 regex/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 regex/preinstall
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 regex/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 regex/CMakeFiles/regex.dir/rule:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 regex/CMakeFiles/regex.dir/rule
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 regex/CMakeFiles/regex.dir/rule
 .PHONY : regex/CMakeFiles/regex.dir/rule
 
 # Convenience name for target.
@@ -173,7 +173,7 @@ regex: regex/CMakeFiles/regex.dir/rule
 
 # fast build rule for target.
 regex/fast:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f regex/CMakeFiles/regex.dir/build.make regex/CMakeFiles/regex.dir/build
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f regex/CMakeFiles/regex.dir/build.make regex/CMakeFiles/regex.dir/build
 .PHONY : regex/fast
 
 regcomp.o: regcomp.c.o
@@ -181,7 +181,7 @@ regcomp.o: regcomp.c.o
 
 # target to build an object file
 regcomp.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f regex/CMakeFiles/regex.dir/build.make regex/CMakeFiles/regex.dir/regcomp.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f regex/CMakeFiles/regex.dir/build.make regex/CMakeFiles/regex.dir/regcomp.c.o
 .PHONY : regcomp.c.o
 
 regcomp.i: regcomp.c.i
@@ -189,7 +189,7 @@ regcomp.i: regcomp.c.i
 
 # target to preprocess a source file
 regcomp.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f regex/CMakeFiles/regex.dir/build.make regex/CMakeFiles/regex.dir/regcomp.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f regex/CMakeFiles/regex.dir/build.make regex/CMakeFiles/regex.dir/regcomp.c.i
 .PHONY : regcomp.c.i
 
 regcomp.s: regcomp.c.s
@@ -197,7 +197,7 @@ regcomp.s: regcomp.c.s
 
 # target to generate assembly for a file
 regcomp.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f regex/CMakeFiles/regex.dir/build.make regex/CMakeFiles/regex.dir/regcomp.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f regex/CMakeFiles/regex.dir/build.make regex/CMakeFiles/regex.dir/regcomp.c.s
 .PHONY : regcomp.c.s
 
 regerror.o: regerror.c.o
@@ -205,7 +205,7 @@ regerror.o: regerror.c.o
 
 # target to build an object file
 regerror.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f regex/CMakeFiles/regex.dir/build.make regex/CMakeFiles/regex.dir/regerror.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f regex/CMakeFiles/regex.dir/build.make regex/CMakeFiles/regex.dir/regerror.c.o
 .PHONY : regerror.c.o
 
 regerror.i: regerror.c.i
@@ -213,7 +213,7 @@ regerror.i: regerror.c.i
 
 # target to preprocess a source file
 regerror.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f regex/CMakeFiles/regex.dir/build.make regex/CMakeFiles/regex.dir/regerror.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f regex/CMakeFiles/regex.dir/build.make regex/CMakeFiles/regex.dir/regerror.c.i
 .PHONY : regerror.c.i
 
 regerror.s: regerror.c.s
@@ -221,7 +221,7 @@ regerror.s: regerror.c.s
 
 # target to generate assembly for a file
 regerror.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f regex/CMakeFiles/regex.dir/build.make regex/CMakeFiles/regex.dir/regerror.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f regex/CMakeFiles/regex.dir/build.make regex/CMakeFiles/regex.dir/regerror.c.s
 .PHONY : regerror.c.s
 
 regexec.o: regexec.c.o
@@ -229,7 +229,7 @@ regexec.o: regexec.c.o
 
 # target to build an object file
 regexec.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f regex/CMakeFiles/regex.dir/build.make regex/CMakeFiles/regex.dir/regexec.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f regex/CMakeFiles/regex.dir/build.make regex/CMakeFiles/regex.dir/regexec.c.o
 .PHONY : regexec.c.o
 
 regexec.i: regexec.c.i
@@ -237,7 +237,7 @@ regexec.i: regexec.c.i
 
 # target to preprocess a source file
 regexec.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f regex/CMakeFiles/regex.dir/build.make regex/CMakeFiles/regex.dir/regexec.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f regex/CMakeFiles/regex.dir/build.make regex/CMakeFiles/regex.dir/regexec.c.i
 .PHONY : regexec.c.i
 
 regexec.s: regexec.c.s
@@ -245,7 +245,7 @@ regexec.s: regexec.c.s
 
 # target to generate assembly for a file
 regexec.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f regex/CMakeFiles/regex.dir/build.make regex/CMakeFiles/regex.dir/regexec.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f regex/CMakeFiles/regex.dir/build.make regex/CMakeFiles/regex.dir/regexec.c.s
 .PHONY : regexec.c.s
 
 regfree.o: regfree.c.o
@@ -253,7 +253,7 @@ regfree.o: regfree.c.o
 
 # target to build an object file
 regfree.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f regex/CMakeFiles/regex.dir/build.make regex/CMakeFiles/regex.dir/regfree.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f regex/CMakeFiles/regex.dir/build.make regex/CMakeFiles/regex.dir/regfree.c.o
 .PHONY : regfree.c.o
 
 regfree.i: regfree.c.i
@@ -261,7 +261,7 @@ regfree.i: regfree.c.i
 
 # target to preprocess a source file
 regfree.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f regex/CMakeFiles/regex.dir/build.make regex/CMakeFiles/regex.dir/regfree.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f regex/CMakeFiles/regex.dir/build.make regex/CMakeFiles/regex.dir/regfree.c.i
 .PHONY : regfree.c.i
 
 regfree.s: regfree.c.s
@@ -269,7 +269,7 @@ regfree.s: regfree.c.s
 
 # target to generate assembly for a file
 regfree.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f regex/CMakeFiles/regex.dir/build.make regex/CMakeFiles/regex.dir/regfree.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f regex/CMakeFiles/regex.dir/build.make regex/CMakeFiles/regex.dir/regfree.c.s
 .PHONY : regfree.c.s
 
 reginit.o: reginit.c.o
@@ -277,7 +277,7 @@ reginit.o: reginit.c.o
 
 # target to build an object file
 reginit.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f regex/CMakeFiles/regex.dir/build.make regex/CMakeFiles/regex.dir/reginit.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f regex/CMakeFiles/regex.dir/build.make regex/CMakeFiles/regex.dir/reginit.c.o
 .PHONY : reginit.c.o
 
 reginit.i: reginit.c.i
@@ -285,7 +285,7 @@ reginit.i: reginit.c.i
 
 # target to preprocess a source file
 reginit.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f regex/CMakeFiles/regex.dir/build.make regex/CMakeFiles/regex.dir/reginit.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f regex/CMakeFiles/regex.dir/build.make regex/CMakeFiles/regex.dir/reginit.c.i
 .PHONY : reginit.c.i
 
 reginit.s: reginit.c.s
@@ -293,7 +293,7 @@ reginit.s: reginit.c.s
 
 # target to generate assembly for a file
 reginit.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f regex/CMakeFiles/regex.dir/build.make regex/CMakeFiles/regex.dir/reginit.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f regex/CMakeFiles/regex.dir/build.make regex/CMakeFiles/regex.dir/reginit.c.s
 .PHONY : reginit.c.s
 
 # Help Target
@@ -337,6 +337,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

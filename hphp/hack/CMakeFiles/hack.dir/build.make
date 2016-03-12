@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.1
 
 # Utility rule file for hack.
 
@@ -49,7 +49,7 @@ CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
 include hphp/hack/CMakeFiles/hack.dir/progress.make
 
 hphp/hack/CMakeFiles/hack:
-	cd /tmp/hhvm-3.11.1/hphp/hack/src && env OPTBIN=".opt" $(MAKE) EXTRA_INCLUDE_PATHS="/tmp/hhvm-3.11.1 /usr/include /usr/include" EXTRA_LIB_PATHS="/usr/lib64 /usr/lib64" EXTRA_CC_FLAGS="-DHAVE_ELF_GETSHDRSTRNDX -DHAVE_DECL___NR_MEMFD_CREATE -DOSS_SMALL_HH_TABLE_POWS -pthread" EXTRA_NATIVE_LIBRARIES="lz4"
+	cd /tmp/hhvm-3.12.1/hphp/hack/src && env OPTBIN=".opt" $(MAKE) EXTRA_INCLUDE_PATHS="/tmp/hhvm-3.12.1 /usr/include /usr/include" EXTRA_LIB_PATHS="/usr/lib64 /usr/lib64" EXTRA_CC_FLAGS="-DHAVE_ELF_GETSHDRSTRNDX -DHAVE_DECL___NR_MEMFD_CREATE -DOSS_SMALL_HH_TABLE_POWS -pthread" EXTRA_NATIVE_LIBRARIES="lz4"
 
 hack: hphp/hack/CMakeFiles/hack
 hack: hphp/hack/CMakeFiles/hack.dir/build.make
@@ -60,10 +60,10 @@ hphp/hack/CMakeFiles/hack.dir/build: hack
 .PHONY : hphp/hack/CMakeFiles/hack.dir/build
 
 hphp/hack/CMakeFiles/hack.dir/clean:
-	cd /tmp/hhvm-3.11.1/hphp/hack && $(CMAKE_COMMAND) -P CMakeFiles/hack.dir/cmake_clean.cmake
+	cd /tmp/hhvm-3.12.1/hphp/hack && $(CMAKE_COMMAND) -P CMakeFiles/hack.dir/cmake_clean.cmake
 .PHONY : hphp/hack/CMakeFiles/hack.dir/clean
 
 hphp/hack/CMakeFiles/hack.dir/depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/hphp/hack /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/hphp/hack /tmp/hhvm-3.11.1/hphp/hack/CMakeFiles/hack.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/hhvm-3.12.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.12.1 /tmp/hhvm-3.12.1/hphp/hack /tmp/hhvm-3.12.1 /tmp/hhvm-3.12.1/hphp/hack /tmp/hhvm-3.12.1/hphp/hack/CMakeFiles/hack.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hphp/hack/CMakeFiles/hack.dir/depend
 

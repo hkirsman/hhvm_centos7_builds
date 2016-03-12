@@ -218,7 +218,7 @@ and emit_assignment env obop e1 e2 =
       let env, lval = emit_lval env lhs in
       env, (lval, path)
     in
-    let env, assignments = lmap emit_lhs env assignments in
+    let env, assignments = List.map_env env assignments emit_lhs in
 
     (* Store off the rhs to a (maybe temporary) local *)
     let env, opt_faultlet, id = match rhs_tag with
@@ -646,7 +646,7 @@ and emit_expr env (pos, expr_ as expr) =
     let env = emit_Dup env in
     let env = emit_IsTypeC env "Null" in
     let env = emit_cjmp env true skip_label in
-    let env = emit_Await env env.next_iterator in
+    let env = emit_Await env in
     emit_label env skip_label
 
   | Yield af ->

@@ -36,6 +36,7 @@
 #include "hphp/runtime/base/code-coverage.h"
 #include "hphp/runtime/base/externals.h"
 #include "hphp/runtime/base/file.h"
+#include "hphp/runtime/base/file-util.h"
 #include "hphp/runtime/base/plain-file.h"
 #include "hphp/runtime/base/unit-cache.h"
 #include "hphp/runtime/base/intercept.h"
@@ -420,7 +421,7 @@ static int fb_compact_serialize_variant(StringBuffer& sb,
       return 0;
     }
 
-    case KindOfStaticString:
+    case KindOfPersistentString:
     case KindOfString:
       fb_compact_serialize_string(sb, var.toString());
       return 0;
@@ -698,7 +699,7 @@ int fb_compact_unserialize_from_buffer(
         if (key.getType() == KindOfInt64) {
           arr.set(key.toInt64(), value);
         } else if (key.getType() == KindOfString ||
-                   key.getType() == KindOfStaticString) {
+                   key.getType() == KindOfPersistentString) {
           arr.set(key, value);
         } else {
           return FB_UNSERIALIZE_UNEXPECTED_ARRAY_KEY_TYPE;
@@ -1141,10 +1142,17 @@ static Variant do_lazy_stat(Function dostat, const String& filename) {
 }
 
 Variant HHVM_FUNCTION(fb_lazy_lstat, const String& filename) {
+  if (!FileUtil::checkPathAndWarn(filename, __FUNCTION__ + 2, 1)) {
+    return false;
+  }
   return do_lazy_stat(StatCache::lstat, filename);
 }
 
-String HHVM_FUNCTION(fb_lazy_realpath, const String& filename) {
+Variant HHVM_FUNCTION(fb_lazy_realpath, const String& filename) {
+  if (!FileUtil::checkPathAndWarn(filename, __FUNCTION__ + 2, 1)) {
+    return false;
+  }
+
   return StatCache::realpath(filename.c_str());
 }
 

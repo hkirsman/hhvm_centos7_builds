@@ -267,12 +267,15 @@ class MockHTTPPushHandler : public HTTPHandlerBase,
 
   void sendPushHeaders(const std::string& path,
                        const std::string& host,
-                       uint32_t content_length) {
+                       uint32_t content_length,
+                       http2::PriorityUpdate pri) {
     HTTPMessage push;
     push.setURL(path);
     push.getHeaders().set(HTTP_HEADER_HOST, host);
     push.getHeaders().add(HTTP_HEADER_CONTENT_LENGTH,
                           folly::to<std::string>(content_length));
+    push.setHTTP2Priority(std::make_tuple(pri.streamDependency, pri.exclusive,
+                                          pri.weight));
     txn_->sendHeaders(push);
   }
 };
@@ -324,6 +327,7 @@ class MockHTTPSessionInfoCallback: public HTTPSession::InfoCallback {
   MOCK_METHOD1(onSettingsOutgoingStreamsFull, void(const HTTPSession&));
   MOCK_METHOD1(onSettingsOutgoingStreamsNotFull, void(const HTTPSession&));
   MOCK_METHOD1(onFlowControlWindowClosed, void(const HTTPSession&));
+  MOCK_METHOD1(onEgressBuffered, void(const HTTPSession&));
 };
 
 }

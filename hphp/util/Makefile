@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.1
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles /tmp/hhvm-3.11.1/hphp/util/CMakeFiles/progress.marks
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/util/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles 0
+	cd /tmp/hhvm-3.12.1 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.1/CMakeFiles /tmp/hhvm-3.12.1/hphp/util/CMakeFiles/progress.marks
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/util/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.1/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/util/clean
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/util/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/util/preinstall
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/util/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/util/preinstall
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/util/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /tmp/hhvm-3.12.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 hphp/util/CMakeFiles/hphp_util.dir/rule:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/util/CMakeFiles/hphp_util.dir/rule
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f CMakeFiles/Makefile2 hphp/util/CMakeFiles/hphp_util.dir/rule
 .PHONY : hphp/util/CMakeFiles/hphp_util.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ hphp_util: hphp/util/CMakeFiles/hphp_util.dir/rule
 
 # fast build rule for target.
 hphp_util/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/build
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/build
 .PHONY : hphp_util/fast
 
 __/hphp-build-info.o: __/hphp-build-info.cpp.o
@@ -161,7 +161,7 @@ __/hphp-build-info.o: __/hphp-build-info.cpp.o
 
 # target to build an object file
 __/hphp-build-info.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/__/hphp-build-info.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/__/hphp-build-info.cpp.o
 .PHONY : __/hphp-build-info.cpp.o
 
 __/hphp-build-info.i: __/hphp-build-info.cpp.i
@@ -169,7 +169,7 @@ __/hphp-build-info.i: __/hphp-build-info.cpp.i
 
 # target to preprocess a source file
 __/hphp-build-info.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/__/hphp-build-info.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/__/hphp-build-info.cpp.i
 .PHONY : __/hphp-build-info.cpp.i
 
 __/hphp-build-info.s: __/hphp-build-info.cpp.s
@@ -177,7 +177,7 @@ __/hphp-build-info.s: __/hphp-build-info.cpp.s
 
 # target to generate assembly for a file
 __/hphp-build-info.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/__/hphp-build-info.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/__/hphp-build-info.cpp.s
 .PHONY : __/hphp-build-info.cpp.s
 
 abi-cxx.o: abi-cxx.cpp.o
@@ -185,7 +185,7 @@ abi-cxx.o: abi-cxx.cpp.o
 
 # target to build an object file
 abi-cxx.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/abi-cxx.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/abi-cxx.cpp.o
 .PHONY : abi-cxx.cpp.o
 
 abi-cxx.i: abi-cxx.cpp.i
@@ -193,7 +193,7 @@ abi-cxx.i: abi-cxx.cpp.i
 
 # target to preprocess a source file
 abi-cxx.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/abi-cxx.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/abi-cxx.cpp.i
 .PHONY : abi-cxx.cpp.i
 
 abi-cxx.s: abi-cxx.cpp.s
@@ -201,7 +201,7 @@ abi-cxx.s: abi-cxx.cpp.s
 
 # target to generate assembly for a file
 abi-cxx.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/abi-cxx.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/abi-cxx.cpp.s
 .PHONY : abi-cxx.cpp.s
 
 afdt-util.o: afdt-util.cpp.o
@@ -209,7 +209,7 @@ afdt-util.o: afdt-util.cpp.o
 
 # target to build an object file
 afdt-util.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/afdt-util.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/afdt-util.cpp.o
 .PHONY : afdt-util.cpp.o
 
 afdt-util.i: afdt-util.cpp.i
@@ -217,7 +217,7 @@ afdt-util.i: afdt-util.cpp.i
 
 # target to preprocess a source file
 afdt-util.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/afdt-util.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/afdt-util.cpp.i
 .PHONY : afdt-util.cpp.i
 
 afdt-util.s: afdt-util.cpp.s
@@ -225,7 +225,7 @@ afdt-util.s: afdt-util.cpp.s
 
 # target to generate assembly for a file
 afdt-util.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/afdt-util.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/afdt-util.cpp.s
 .PHONY : afdt-util.cpp.s
 
 alloc.o: alloc.cpp.o
@@ -233,7 +233,7 @@ alloc.o: alloc.cpp.o
 
 # target to build an object file
 alloc.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/alloc.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/alloc.cpp.o
 .PHONY : alloc.cpp.o
 
 alloc.i: alloc.cpp.i
@@ -241,7 +241,7 @@ alloc.i: alloc.cpp.i
 
 # target to preprocess a source file
 alloc.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/alloc.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/alloc.cpp.i
 .PHONY : alloc.cpp.i
 
 alloc.s: alloc.cpp.s
@@ -249,7 +249,7 @@ alloc.s: alloc.cpp.s
 
 # target to generate assembly for a file
 alloc.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/alloc.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/alloc.cpp.s
 .PHONY : alloc.cpp.s
 
 arena.o: arena.cpp.o
@@ -257,7 +257,7 @@ arena.o: arena.cpp.o
 
 # target to build an object file
 arena.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/arena.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/arena.cpp.o
 .PHONY : arena.cpp.o
 
 arena.i: arena.cpp.i
@@ -265,7 +265,7 @@ arena.i: arena.cpp.i
 
 # target to preprocess a source file
 arena.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/arena.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/arena.cpp.i
 .PHONY : arena.cpp.i
 
 arena.s: arena.cpp.s
@@ -273,7 +273,7 @@ arena.s: arena.cpp.s
 
 # target to generate assembly for a file
 arena.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/arena.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/arena.cpp.s
 .PHONY : arena.cpp.s
 
 asm-x64.o: asm-x64.cpp.o
@@ -281,7 +281,7 @@ asm-x64.o: asm-x64.cpp.o
 
 # target to build an object file
 asm-x64.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/asm-x64.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/asm-x64.cpp.o
 .PHONY : asm-x64.cpp.o
 
 asm-x64.i: asm-x64.cpp.i
@@ -289,7 +289,7 @@ asm-x64.i: asm-x64.cpp.i
 
 # target to preprocess a source file
 asm-x64.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/asm-x64.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/asm-x64.cpp.i
 .PHONY : asm-x64.cpp.i
 
 asm-x64.s: asm-x64.cpp.s
@@ -297,7 +297,7 @@ asm-x64.s: asm-x64.cpp.s
 
 # target to generate assembly for a file
 asm-x64.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/asm-x64.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/asm-x64.cpp.s
 .PHONY : asm-x64.cpp.s
 
 assertions.o: assertions.cpp.o
@@ -305,7 +305,7 @@ assertions.o: assertions.cpp.o
 
 # target to build an object file
 assertions.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/assertions.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/assertions.cpp.o
 .PHONY : assertions.cpp.o
 
 assertions.i: assertions.cpp.i
@@ -313,7 +313,7 @@ assertions.i: assertions.cpp.i
 
 # target to preprocess a source file
 assertions.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/assertions.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/assertions.cpp.i
 .PHONY : assertions.cpp.i
 
 assertions.s: assertions.cpp.s
@@ -321,7 +321,7 @@ assertions.s: assertions.cpp.s
 
 # target to generate assembly for a file
 assertions.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/assertions.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/assertions.cpp.s
 .PHONY : assertions.cpp.s
 
 async-func.o: async-func.cpp.o
@@ -329,7 +329,7 @@ async-func.o: async-func.cpp.o
 
 # target to build an object file
 async-func.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/async-func.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/async-func.cpp.o
 .PHONY : async-func.cpp.o
 
 async-func.i: async-func.cpp.i
@@ -337,7 +337,7 @@ async-func.i: async-func.cpp.i
 
 # target to preprocess a source file
 async-func.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/async-func.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/async-func.cpp.i
 .PHONY : async-func.cpp.i
 
 async-func.s: async-func.cpp.s
@@ -345,7 +345,7 @@ async-func.s: async-func.cpp.s
 
 # target to generate assembly for a file
 async-func.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/async-func.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/async-func.cpp.s
 .PHONY : async-func.cpp.s
 
 async-job.o: async-job.cpp.o
@@ -353,7 +353,7 @@ async-job.o: async-job.cpp.o
 
 # target to build an object file
 async-job.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/async-job.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/async-job.cpp.o
 .PHONY : async-job.cpp.o
 
 async-job.i: async-job.cpp.i
@@ -361,7 +361,7 @@ async-job.i: async-job.cpp.i
 
 # target to preprocess a source file
 async-job.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/async-job.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/async-job.cpp.i
 .PHONY : async-job.cpp.i
 
 async-job.s: async-job.cpp.s
@@ -369,7 +369,7 @@ async-job.s: async-job.cpp.s
 
 # target to generate assembly for a file
 async-job.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/async-job.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/async-job.cpp.s
 .PHONY : async-job.cpp.s
 
 boot_timer.o: boot_timer.cpp.o
@@ -377,7 +377,7 @@ boot_timer.o: boot_timer.cpp.o
 
 # target to build an object file
 boot_timer.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/boot_timer.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/boot_timer.cpp.o
 .PHONY : boot_timer.cpp.o
 
 boot_timer.i: boot_timer.cpp.i
@@ -385,7 +385,7 @@ boot_timer.i: boot_timer.cpp.i
 
 # target to preprocess a source file
 boot_timer.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/boot_timer.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/boot_timer.cpp.i
 .PHONY : boot_timer.cpp.i
 
 boot_timer.s: boot_timer.cpp.s
@@ -393,7 +393,7 @@ boot_timer.s: boot_timer.cpp.s
 
 # target to generate assembly for a file
 boot_timer.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/boot_timer.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/boot_timer.cpp.s
 .PHONY : boot_timer.cpp.s
 
 bstring.o: bstring.cpp.o
@@ -401,7 +401,7 @@ bstring.o: bstring.cpp.o
 
 # target to build an object file
 bstring.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/bstring.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/bstring.cpp.o
 .PHONY : bstring.cpp.o
 
 bstring.i: bstring.cpp.i
@@ -409,7 +409,7 @@ bstring.i: bstring.cpp.i
 
 # target to preprocess a source file
 bstring.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/bstring.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/bstring.cpp.i
 .PHONY : bstring.cpp.i
 
 bstring.s: bstring.cpp.s
@@ -417,7 +417,7 @@ bstring.s: bstring.cpp.s
 
 # target to generate assembly for a file
 bstring.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/bstring.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/bstring.cpp.s
 .PHONY : bstring.cpp.s
 
 cache/cache-data.o: cache/cache-data.cpp.o
@@ -425,7 +425,7 @@ cache/cache-data.o: cache/cache-data.cpp.o
 
 # target to build an object file
 cache/cache-data.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/cache/cache-data.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/cache/cache-data.cpp.o
 .PHONY : cache/cache-data.cpp.o
 
 cache/cache-data.i: cache/cache-data.cpp.i
@@ -433,7 +433,7 @@ cache/cache-data.i: cache/cache-data.cpp.i
 
 # target to preprocess a source file
 cache/cache-data.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/cache/cache-data.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/cache/cache-data.cpp.i
 .PHONY : cache/cache-data.cpp.i
 
 cache/cache-data.s: cache/cache-data.cpp.s
@@ -441,7 +441,7 @@ cache/cache-data.s: cache/cache-data.cpp.s
 
 # target to generate assembly for a file
 cache/cache-data.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/cache/cache-data.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/cache/cache-data.cpp.s
 .PHONY : cache/cache-data.cpp.s
 
 cache/cache-manager.o: cache/cache-manager.cpp.o
@@ -449,7 +449,7 @@ cache/cache-manager.o: cache/cache-manager.cpp.o
 
 # target to build an object file
 cache/cache-manager.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/cache/cache-manager.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/cache/cache-manager.cpp.o
 .PHONY : cache/cache-manager.cpp.o
 
 cache/cache-manager.i: cache/cache-manager.cpp.i
@@ -457,7 +457,7 @@ cache/cache-manager.i: cache/cache-manager.cpp.i
 
 # target to preprocess a source file
 cache/cache-manager.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/cache/cache-manager.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/cache/cache-manager.cpp.i
 .PHONY : cache/cache-manager.cpp.i
 
 cache/cache-manager.s: cache/cache-manager.cpp.s
@@ -465,7 +465,7 @@ cache/cache-manager.s: cache/cache-manager.cpp.s
 
 # target to generate assembly for a file
 cache/cache-manager.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/cache/cache-manager.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/cache/cache-manager.cpp.s
 .PHONY : cache/cache-manager.cpp.s
 
 cache/cache-saver.o: cache/cache-saver.cpp.o
@@ -473,7 +473,7 @@ cache/cache-saver.o: cache/cache-saver.cpp.o
 
 # target to build an object file
 cache/cache-saver.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/cache/cache-saver.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/cache/cache-saver.cpp.o
 .PHONY : cache/cache-saver.cpp.o
 
 cache/cache-saver.i: cache/cache-saver.cpp.i
@@ -481,7 +481,7 @@ cache/cache-saver.i: cache/cache-saver.cpp.i
 
 # target to preprocess a source file
 cache/cache-saver.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/cache/cache-saver.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/cache/cache-saver.cpp.i
 .PHONY : cache/cache-saver.cpp.i
 
 cache/cache-saver.s: cache/cache-saver.cpp.s
@@ -489,7 +489,7 @@ cache/cache-saver.s: cache/cache-saver.cpp.s
 
 # target to generate assembly for a file
 cache/cache-saver.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/cache/cache-saver.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/cache/cache-saver.cpp.s
 .PHONY : cache/cache-saver.cpp.s
 
 cache/mmap-file.o: cache/mmap-file.cpp.o
@@ -497,7 +497,7 @@ cache/mmap-file.o: cache/mmap-file.cpp.o
 
 # target to build an object file
 cache/mmap-file.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/cache/mmap-file.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/cache/mmap-file.cpp.o
 .PHONY : cache/mmap-file.cpp.o
 
 cache/mmap-file.i: cache/mmap-file.cpp.i
@@ -505,7 +505,7 @@ cache/mmap-file.i: cache/mmap-file.cpp.i
 
 # target to preprocess a source file
 cache/mmap-file.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/cache/mmap-file.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/cache/mmap-file.cpp.i
 .PHONY : cache/mmap-file.cpp.i
 
 cache/mmap-file.s: cache/mmap-file.cpp.s
@@ -513,7 +513,7 @@ cache/mmap-file.s: cache/mmap-file.cpp.s
 
 # target to generate assembly for a file
 cache/mmap-file.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/cache/mmap-file.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/cache/mmap-file.cpp.s
 .PHONY : cache/mmap-file.cpp.s
 
 capability.o: capability.cpp.o
@@ -521,7 +521,7 @@ capability.o: capability.cpp.o
 
 # target to build an object file
 capability.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/capability.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/capability.cpp.o
 .PHONY : capability.cpp.o
 
 capability.i: capability.cpp.i
@@ -529,7 +529,7 @@ capability.i: capability.cpp.i
 
 # target to preprocess a source file
 capability.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/capability.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/capability.cpp.i
 .PHONY : capability.cpp.i
 
 capability.s: capability.cpp.s
@@ -537,7 +537,7 @@ capability.s: capability.cpp.s
 
 # target to generate assembly for a file
 capability.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/capability.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/capability.cpp.s
 .PHONY : capability.cpp.s
 
 code-cache.o: code-cache.cpp.o
@@ -545,7 +545,7 @@ code-cache.o: code-cache.cpp.o
 
 # target to build an object file
 code-cache.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/code-cache.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/code-cache.cpp.o
 .PHONY : code-cache.cpp.o
 
 code-cache.i: code-cache.cpp.i
@@ -553,7 +553,7 @@ code-cache.i: code-cache.cpp.i
 
 # target to preprocess a source file
 code-cache.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/code-cache.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/code-cache.cpp.i
 .PHONY : code-cache.cpp.i
 
 code-cache.s: code-cache.cpp.s
@@ -561,7 +561,7 @@ code-cache.s: code-cache.cpp.s
 
 # target to generate assembly for a file
 code-cache.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/code-cache.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/code-cache.cpp.s
 .PHONY : code-cache.cpp.s
 
 compatibility.o: compatibility.cpp.o
@@ -569,7 +569,7 @@ compatibility.o: compatibility.cpp.o
 
 # target to build an object file
 compatibility.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/compatibility.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/compatibility.cpp.o
 .PHONY : compatibility.cpp.o
 
 compatibility.i: compatibility.cpp.i
@@ -577,7 +577,7 @@ compatibility.i: compatibility.cpp.i
 
 # target to preprocess a source file
 compatibility.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/compatibility.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/compatibility.cpp.i
 .PHONY : compatibility.cpp.i
 
 compatibility.s: compatibility.cpp.s
@@ -585,7 +585,7 @@ compatibility.s: compatibility.cpp.s
 
 # target to generate assembly for a file
 compatibility.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/compatibility.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/compatibility.cpp.s
 .PHONY : compatibility.cpp.s
 
 compression.o: compression.cpp.o
@@ -593,7 +593,7 @@ compression.o: compression.cpp.o
 
 # target to build an object file
 compression.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/compression.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/compression.cpp.o
 .PHONY : compression.cpp.o
 
 compression.i: compression.cpp.i
@@ -601,7 +601,7 @@ compression.i: compression.cpp.i
 
 # target to preprocess a source file
 compression.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/compression.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/compression.cpp.i
 .PHONY : compression.cpp.i
 
 compression.s: compression.cpp.s
@@ -609,7 +609,7 @@ compression.s: compression.cpp.s
 
 # target to generate assembly for a file
 compression.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/compression.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/compression.cpp.s
 .PHONY : compression.cpp.s
 
 cronolog.o: cronolog.cpp.o
@@ -617,7 +617,7 @@ cronolog.o: cronolog.cpp.o
 
 # target to build an object file
 cronolog.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/cronolog.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/cronolog.cpp.o
 .PHONY : cronolog.cpp.o
 
 cronolog.i: cronolog.cpp.i
@@ -625,7 +625,7 @@ cronolog.i: cronolog.cpp.i
 
 # target to preprocess a source file
 cronolog.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/cronolog.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/cronolog.cpp.i
 .PHONY : cronolog.cpp.i
 
 cronolog.s: cronolog.cpp.s
@@ -633,7 +633,7 @@ cronolog.s: cronolog.cpp.s
 
 # target to generate assembly for a file
 cronolog.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/cronolog.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/cronolog.cpp.s
 .PHONY : cronolog.cpp.s
 
 cronoutils.o: cronoutils.cpp.o
@@ -641,7 +641,7 @@ cronoutils.o: cronoutils.cpp.o
 
 # target to build an object file
 cronoutils.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/cronoutils.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/cronoutils.cpp.o
 .PHONY : cronoutils.cpp.o
 
 cronoutils.i: cronoutils.cpp.i
@@ -649,7 +649,7 @@ cronoutils.i: cronoutils.cpp.i
 
 # target to preprocess a source file
 cronoutils.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/cronoutils.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/cronoutils.cpp.i
 .PHONY : cronoutils.cpp.i
 
 cronoutils.s: cronoutils.cpp.s
@@ -657,7 +657,7 @@ cronoutils.s: cronoutils.cpp.s
 
 # target to generate assembly for a file
 cronoutils.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/cronoutils.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/cronoutils.cpp.s
 .PHONY : cronoutils.cpp.s
 
 current-executable.o: current-executable.cpp.o
@@ -665,7 +665,7 @@ current-executable.o: current-executable.cpp.o
 
 # target to build an object file
 current-executable.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/current-executable.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/current-executable.cpp.o
 .PHONY : current-executable.cpp.o
 
 current-executable.i: current-executable.cpp.i
@@ -673,7 +673,7 @@ current-executable.i: current-executable.cpp.i
 
 # target to preprocess a source file
 current-executable.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/current-executable.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/current-executable.cpp.i
 .PHONY : current-executable.cpp.i
 
 current-executable.s: current-executable.cpp.s
@@ -681,7 +681,7 @@ current-executable.s: current-executable.cpp.s
 
 # target to generate assembly for a file
 current-executable.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/current-executable.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/current-executable.cpp.s
 .PHONY : current-executable.cpp.s
 
 data-block.o: data-block.cpp.o
@@ -689,7 +689,7 @@ data-block.o: data-block.cpp.o
 
 # target to build an object file
 data-block.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/data-block.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/data-block.cpp.o
 .PHONY : data-block.cpp.o
 
 data-block.i: data-block.cpp.i
@@ -697,7 +697,7 @@ data-block.i: data-block.cpp.i
 
 # target to preprocess a source file
 data-block.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/data-block.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/data-block.cpp.i
 .PHONY : data-block.cpp.i
 
 data-block.s: data-block.cpp.s
@@ -705,7 +705,7 @@ data-block.s: data-block.cpp.s
 
 # target to generate assembly for a file
 data-block.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/data-block.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/data-block.cpp.s
 .PHONY : data-block.cpp.s
 
 disasm.o: disasm.cpp.o
@@ -713,7 +713,7 @@ disasm.o: disasm.cpp.o
 
 # target to build an object file
 disasm.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/disasm.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/disasm.cpp.o
 .PHONY : disasm.cpp.o
 
 disasm.i: disasm.cpp.i
@@ -721,7 +721,7 @@ disasm.i: disasm.cpp.i
 
 # target to preprocess a source file
 disasm.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/disasm.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/disasm.cpp.i
 .PHONY : disasm.cpp.i
 
 disasm.s: disasm.cpp.s
@@ -729,7 +729,7 @@ disasm.s: disasm.cpp.s
 
 # target to generate assembly for a file
 disasm.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/disasm.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/disasm.cpp.s
 .PHONY : disasm.cpp.s
 
 embedded-data.o: embedded-data.cpp.o
@@ -737,7 +737,7 @@ embedded-data.o: embedded-data.cpp.o
 
 # target to build an object file
 embedded-data.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/embedded-data.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/embedded-data.cpp.o
 .PHONY : embedded-data.cpp.o
 
 embedded-data.i: embedded-data.cpp.i
@@ -745,7 +745,7 @@ embedded-data.i: embedded-data.cpp.i
 
 # target to preprocess a source file
 embedded-data.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/embedded-data.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/embedded-data.cpp.i
 .PHONY : embedded-data.cpp.i
 
 embedded-data.s: embedded-data.cpp.s
@@ -753,7 +753,7 @@ embedded-data.s: embedded-data.cpp.s
 
 # target to generate assembly for a file
 embedded-data.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/embedded-data.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/embedded-data.cpp.s
 .PHONY : embedded-data.cpp.s
 
 embedded-vfs.o: embedded-vfs.cpp.o
@@ -761,7 +761,7 @@ embedded-vfs.o: embedded-vfs.cpp.o
 
 # target to build an object file
 embedded-vfs.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/embedded-vfs.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/embedded-vfs.cpp.o
 .PHONY : embedded-vfs.cpp.o
 
 embedded-vfs.i: embedded-vfs.cpp.i
@@ -769,7 +769,7 @@ embedded-vfs.i: embedded-vfs.cpp.i
 
 # target to preprocess a source file
 embedded-vfs.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/embedded-vfs.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/embedded-vfs.cpp.i
 .PHONY : embedded-vfs.cpp.i
 
 embedded-vfs.s: embedded-vfs.cpp.s
@@ -777,7 +777,7 @@ embedded-vfs.s: embedded-vfs.cpp.s
 
 # target to generate assembly for a file
 embedded-vfs.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/embedded-vfs.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/embedded-vfs.cpp.s
 .PHONY : embedded-vfs.cpp.s
 
 exception.o: exception.cpp.o
@@ -785,7 +785,7 @@ exception.o: exception.cpp.o
 
 # target to build an object file
 exception.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/exception.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/exception.cpp.o
 .PHONY : exception.cpp.o
 
 exception.i: exception.cpp.i
@@ -793,7 +793,7 @@ exception.i: exception.cpp.i
 
 # target to preprocess a source file
 exception.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/exception.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/exception.cpp.i
 .PHONY : exception.cpp.i
 
 exception.s: exception.cpp.s
@@ -801,7 +801,7 @@ exception.s: exception.cpp.s
 
 # target to generate assembly for a file
 exception.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/exception.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/exception.cpp.s
 .PHONY : exception.cpp.s
 
 file-cache.o: file-cache.cpp.o
@@ -809,7 +809,7 @@ file-cache.o: file-cache.cpp.o
 
 # target to build an object file
 file-cache.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/file-cache.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/file-cache.cpp.o
 .PHONY : file-cache.cpp.o
 
 file-cache.i: file-cache.cpp.i
@@ -817,7 +817,7 @@ file-cache.i: file-cache.cpp.i
 
 # target to preprocess a source file
 file-cache.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/file-cache.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/file-cache.cpp.i
 .PHONY : file-cache.cpp.i
 
 file-cache.s: file-cache.cpp.s
@@ -825,7 +825,7 @@ file-cache.s: file-cache.cpp.s
 
 # target to generate assembly for a file
 file-cache.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/file-cache.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/file-cache.cpp.s
 .PHONY : file-cache.cpp.s
 
 hardware-counter.o: hardware-counter.cpp.o
@@ -833,7 +833,7 @@ hardware-counter.o: hardware-counter.cpp.o
 
 # target to build an object file
 hardware-counter.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/hardware-counter.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/hardware-counter.cpp.o
 .PHONY : hardware-counter.cpp.o
 
 hardware-counter.i: hardware-counter.cpp.i
@@ -841,7 +841,7 @@ hardware-counter.i: hardware-counter.cpp.i
 
 # target to preprocess a source file
 hardware-counter.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/hardware-counter.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/hardware-counter.cpp.i
 .PHONY : hardware-counter.cpp.i
 
 hardware-counter.s: hardware-counter.cpp.s
@@ -849,7 +849,7 @@ hardware-counter.s: hardware-counter.cpp.s
 
 # target to generate assembly for a file
 hardware-counter.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/hardware-counter.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/hardware-counter.cpp.s
 .PHONY : hardware-counter.cpp.s
 
 hash-crc.o: hash-crc.S.o
@@ -857,7 +857,7 @@ hash-crc.o: hash-crc.S.o
 
 # target to build an object file
 hash-crc.S.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/hash-crc.S.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/hash-crc.S.o
 .PHONY : hash-crc.S.o
 
 hash.o: hash.cpp.o
@@ -865,7 +865,7 @@ hash.o: hash.cpp.o
 
 # target to build an object file
 hash.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/hash.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/hash.cpp.o
 .PHONY : hash.cpp.o
 
 hash.i: hash.cpp.i
@@ -873,7 +873,7 @@ hash.i: hash.cpp.i
 
 # target to preprocess a source file
 hash.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/hash.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/hash.cpp.i
 .PHONY : hash.cpp.i
 
 hash.s: hash.cpp.s
@@ -881,7 +881,7 @@ hash.s: hash.cpp.s
 
 # target to generate assembly for a file
 hash.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/hash.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/hash.cpp.s
 .PHONY : hash.cpp.s
 
 hdf.o: hdf.cpp.o
@@ -889,7 +889,7 @@ hdf.o: hdf.cpp.o
 
 # target to build an object file
 hdf.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/hdf.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/hdf.cpp.o
 .PHONY : hdf.cpp.o
 
 hdf.i: hdf.cpp.i
@@ -897,7 +897,7 @@ hdf.i: hdf.cpp.i
 
 # target to preprocess a source file
 hdf.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/hdf.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/hdf.cpp.i
 .PHONY : hdf.cpp.i
 
 hdf.s: hdf.cpp.s
@@ -905,7 +905,7 @@ hdf.s: hdf.cpp.s
 
 # target to generate assembly for a file
 hdf.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/hdf.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/hdf.cpp.s
 .PHONY : hdf.cpp.s
 
 kernel-version.o: kernel-version.cpp.o
@@ -913,7 +913,7 @@ kernel-version.o: kernel-version.cpp.o
 
 # target to build an object file
 kernel-version.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/kernel-version.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/kernel-version.cpp.o
 .PHONY : kernel-version.cpp.o
 
 kernel-version.i: kernel-version.cpp.i
@@ -921,7 +921,7 @@ kernel-version.i: kernel-version.cpp.i
 
 # target to preprocess a source file
 kernel-version.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/kernel-version.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/kernel-version.cpp.i
 .PHONY : kernel-version.cpp.i
 
 kernel-version.s: kernel-version.cpp.s
@@ -929,7 +929,7 @@ kernel-version.s: kernel-version.cpp.s
 
 # target to generate assembly for a file
 kernel-version.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/kernel-version.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/kernel-version.cpp.s
 .PHONY : kernel-version.cpp.s
 
 light-process.o: light-process.cpp.o
@@ -937,7 +937,7 @@ light-process.o: light-process.cpp.o
 
 # target to build an object file
 light-process.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/light-process.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/light-process.cpp.o
 .PHONY : light-process.cpp.o
 
 light-process.i: light-process.cpp.i
@@ -945,7 +945,7 @@ light-process.i: light-process.cpp.i
 
 # target to preprocess a source file
 light-process.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/light-process.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/light-process.cpp.i
 .PHONY : light-process.cpp.i
 
 light-process.s: light-process.cpp.s
@@ -953,7 +953,7 @@ light-process.s: light-process.cpp.s
 
 # target to generate assembly for a file
 light-process.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/light-process.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/light-process.cpp.s
 .PHONY : light-process.cpp.s
 
 lock.o: lock.cpp.o
@@ -961,7 +961,7 @@ lock.o: lock.cpp.o
 
 # target to build an object file
 lock.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/lock.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/lock.cpp.o
 .PHONY : lock.cpp.o
 
 lock.i: lock.cpp.i
@@ -969,7 +969,7 @@ lock.i: lock.cpp.i
 
 # target to preprocess a source file
 lock.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/lock.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/lock.cpp.i
 .PHONY : lock.cpp.i
 
 lock.s: lock.cpp.s
@@ -977,7 +977,7 @@ lock.s: lock.cpp.s
 
 # target to generate assembly for a file
 lock.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/lock.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/lock.cpp.s
 .PHONY : lock.cpp.s
 
 log-file-flusher.o: log-file-flusher.cpp.o
@@ -985,7 +985,7 @@ log-file-flusher.o: log-file-flusher.cpp.o
 
 # target to build an object file
 log-file-flusher.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/log-file-flusher.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/log-file-flusher.cpp.o
 .PHONY : log-file-flusher.cpp.o
 
 log-file-flusher.i: log-file-flusher.cpp.i
@@ -993,7 +993,7 @@ log-file-flusher.i: log-file-flusher.cpp.i
 
 # target to preprocess a source file
 log-file-flusher.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/log-file-flusher.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/log-file-flusher.cpp.i
 .PHONY : log-file-flusher.cpp.i
 
 log-file-flusher.s: log-file-flusher.cpp.s
@@ -1001,7 +1001,7 @@ log-file-flusher.s: log-file-flusher.cpp.s
 
 # target to generate assembly for a file
 log-file-flusher.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/log-file-flusher.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/log-file-flusher.cpp.s
 .PHONY : log-file-flusher.cpp.s
 
 logger.o: logger.cpp.o
@@ -1009,7 +1009,7 @@ logger.o: logger.cpp.o
 
 # target to build an object file
 logger.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/logger.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/logger.cpp.o
 .PHONY : logger.cpp.o
 
 logger.i: logger.cpp.i
@@ -1017,7 +1017,7 @@ logger.i: logger.cpp.i
 
 # target to preprocess a source file
 logger.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/logger.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/logger.cpp.i
 .PHONY : logger.cpp.i
 
 logger.s: logger.cpp.s
@@ -1025,7 +1025,7 @@ logger.s: logger.cpp.s
 
 # target to generate assembly for a file
 logger.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/logger.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/logger.cpp.s
 .PHONY : logger.cpp.s
 
 maphuge.o: maphuge.cpp.o
@@ -1033,7 +1033,7 @@ maphuge.o: maphuge.cpp.o
 
 # target to build an object file
 maphuge.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/maphuge.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/maphuge.cpp.o
 .PHONY : maphuge.cpp.o
 
 maphuge.i: maphuge.cpp.i
@@ -1041,7 +1041,7 @@ maphuge.i: maphuge.cpp.i
 
 # target to preprocess a source file
 maphuge.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/maphuge.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/maphuge.cpp.i
 .PHONY : maphuge.cpp.i
 
 maphuge.s: maphuge.cpp.s
@@ -1049,7 +1049,7 @@ maphuge.s: maphuge.cpp.s
 
 # target to generate assembly for a file
 maphuge.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/maphuge.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/maphuge.cpp.s
 .PHONY : maphuge.cpp.s
 
 memcpy-x64.o: memcpy-x64.S.o
@@ -1057,7 +1057,7 @@ memcpy-x64.o: memcpy-x64.S.o
 
 # target to build an object file
 memcpy-x64.S.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/memcpy-x64.S.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/memcpy-x64.S.o
 .PHONY : memcpy-x64.S.o
 
 memset-x64-avx2.o: memset-x64-avx2.S.o
@@ -1065,7 +1065,7 @@ memset-x64-avx2.o: memset-x64-avx2.S.o
 
 # target to build an object file
 memset-x64-avx2.S.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/memset-x64-avx2.S.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/memset-x64-avx2.S.o
 .PHONY : memset-x64-avx2.S.o
 
 network.o: network.cpp.o
@@ -1073,7 +1073,7 @@ network.o: network.cpp.o
 
 # target to build an object file
 network.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/network.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/network.cpp.o
 .PHONY : network.cpp.o
 
 network.i: network.cpp.i
@@ -1081,7 +1081,7 @@ network.i: network.cpp.i
 
 # target to preprocess a source file
 network.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/network.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/network.cpp.i
 .PHONY : network.cpp.i
 
 network.s: network.cpp.s
@@ -1089,7 +1089,7 @@ network.s: network.cpp.s
 
 # target to generate assembly for a file
 network.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/network.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/network.cpp.s
 .PHONY : network.cpp.s
 
 process.o: process.cpp.o
@@ -1097,7 +1097,7 @@ process.o: process.cpp.o
 
 # target to build an object file
 process.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/process.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/process.cpp.o
 .PHONY : process.cpp.o
 
 process.i: process.cpp.i
@@ -1105,7 +1105,7 @@ process.i: process.cpp.i
 
 # target to preprocess a source file
 process.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/process.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/process.cpp.i
 .PHONY : process.cpp.i
 
 process.s: process.cpp.s
@@ -1113,7 +1113,7 @@ process.s: process.cpp.s
 
 # target to generate assembly for a file
 process.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/process.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/process.cpp.s
 .PHONY : process.cpp.s
 
 rank.o: rank.cpp.o
@@ -1121,7 +1121,7 @@ rank.o: rank.cpp.o
 
 # target to build an object file
 rank.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/rank.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/rank.cpp.o
 .PHONY : rank.cpp.o
 
 rank.i: rank.cpp.i
@@ -1129,7 +1129,7 @@ rank.i: rank.cpp.i
 
 # target to preprocess a source file
 rank.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/rank.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/rank.cpp.i
 .PHONY : rank.cpp.i
 
 rank.s: rank.cpp.s
@@ -1137,7 +1137,7 @@ rank.s: rank.cpp.s
 
 # target to generate assembly for a file
 rank.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/rank.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/rank.cpp.s
 .PHONY : rank.cpp.s
 
 read-only-arena.o: read-only-arena.cpp.o
@@ -1145,7 +1145,7 @@ read-only-arena.o: read-only-arena.cpp.o
 
 # target to build an object file
 read-only-arena.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/read-only-arena.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/read-only-arena.cpp.o
 .PHONY : read-only-arena.cpp.o
 
 read-only-arena.i: read-only-arena.cpp.i
@@ -1153,7 +1153,7 @@ read-only-arena.i: read-only-arena.cpp.i
 
 # target to preprocess a source file
 read-only-arena.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/read-only-arena.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/read-only-arena.cpp.i
 .PHONY : read-only-arena.cpp.i
 
 read-only-arena.s: read-only-arena.cpp.s
@@ -1161,7 +1161,7 @@ read-only-arena.s: read-only-arena.cpp.s
 
 # target to generate assembly for a file
 read-only-arena.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/read-only-arena.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/read-only-arena.cpp.s
 .PHONY : read-only-arena.cpp.s
 
 repo-schema.o: repo-schema.cpp.o
@@ -1169,7 +1169,7 @@ repo-schema.o: repo-schema.cpp.o
 
 # target to build an object file
 repo-schema.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/repo-schema.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/repo-schema.cpp.o
 .PHONY : repo-schema.cpp.o
 
 repo-schema.i: repo-schema.cpp.i
@@ -1177,7 +1177,7 @@ repo-schema.i: repo-schema.cpp.i
 
 # target to preprocess a source file
 repo-schema.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/repo-schema.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/repo-schema.cpp.i
 .PHONY : repo-schema.cpp.i
 
 repo-schema.s: repo-schema.cpp.s
@@ -1185,7 +1185,7 @@ repo-schema.s: repo-schema.cpp.s
 
 # target to generate assembly for a file
 repo-schema.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/repo-schema.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/repo-schema.cpp.s
 .PHONY : repo-schema.cpp.s
 
 ringbuffer.o: ringbuffer.cpp.o
@@ -1193,7 +1193,7 @@ ringbuffer.o: ringbuffer.cpp.o
 
 # target to build an object file
 ringbuffer.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/ringbuffer.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/ringbuffer.cpp.o
 .PHONY : ringbuffer.cpp.o
 
 ringbuffer.i: ringbuffer.cpp.i
@@ -1201,7 +1201,7 @@ ringbuffer.i: ringbuffer.cpp.i
 
 # target to preprocess a source file
 ringbuffer.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/ringbuffer.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/ringbuffer.cpp.i
 .PHONY : ringbuffer.cpp.i
 
 ringbuffer.s: ringbuffer.cpp.s
@@ -1209,7 +1209,7 @@ ringbuffer.s: ringbuffer.cpp.s
 
 # target to generate assembly for a file
 ringbuffer.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/ringbuffer.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/ringbuffer.cpp.s
 .PHONY : ringbuffer.cpp.s
 
 safe-cast.o: safe-cast.cpp.o
@@ -1217,7 +1217,7 @@ safe-cast.o: safe-cast.cpp.o
 
 # target to build an object file
 safe-cast.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/safe-cast.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/safe-cast.cpp.o
 .PHONY : safe-cast.cpp.o
 
 safe-cast.i: safe-cast.cpp.i
@@ -1225,7 +1225,7 @@ safe-cast.i: safe-cast.cpp.i
 
 # target to preprocess a source file
 safe-cast.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/safe-cast.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/safe-cast.cpp.i
 .PHONY : safe-cast.cpp.i
 
 safe-cast.s: safe-cast.cpp.s
@@ -1233,7 +1233,7 @@ safe-cast.s: safe-cast.cpp.s
 
 # target to generate assembly for a file
 safe-cast.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/safe-cast.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/safe-cast.cpp.s
 .PHONY : safe-cast.cpp.s
 
 service-data.o: service-data.cpp.o
@@ -1241,7 +1241,7 @@ service-data.o: service-data.cpp.o
 
 # target to build an object file
 service-data.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/service-data.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/service-data.cpp.o
 .PHONY : service-data.cpp.o
 
 service-data.i: service-data.cpp.i
@@ -1249,7 +1249,7 @@ service-data.i: service-data.cpp.i
 
 # target to preprocess a source file
 service-data.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/service-data.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/service-data.cpp.i
 .PHONY : service-data.cpp.i
 
 service-data.s: service-data.cpp.s
@@ -1257,7 +1257,7 @@ service-data.s: service-data.cpp.s
 
 # target to generate assembly for a file
 service-data.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/service-data.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/service-data.cpp.s
 .PHONY : service-data.cpp.s
 
 shm-counter.o: shm-counter.cpp.o
@@ -1265,7 +1265,7 @@ shm-counter.o: shm-counter.cpp.o
 
 # target to build an object file
 shm-counter.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/shm-counter.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/shm-counter.cpp.o
 .PHONY : shm-counter.cpp.o
 
 shm-counter.i: shm-counter.cpp.i
@@ -1273,7 +1273,7 @@ shm-counter.i: shm-counter.cpp.i
 
 # target to preprocess a source file
 shm-counter.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/shm-counter.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/shm-counter.cpp.i
 .PHONY : shm-counter.cpp.i
 
 shm-counter.s: shm-counter.cpp.s
@@ -1281,7 +1281,7 @@ shm-counter.s: shm-counter.cpp.s
 
 # target to generate assembly for a file
 shm-counter.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/shm-counter.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/shm-counter.cpp.s
 .PHONY : shm-counter.cpp.s
 
 ssl-init.o: ssl-init.cpp.o
@@ -1289,7 +1289,7 @@ ssl-init.o: ssl-init.cpp.o
 
 # target to build an object file
 ssl-init.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/ssl-init.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/ssl-init.cpp.o
 .PHONY : ssl-init.cpp.o
 
 ssl-init.i: ssl-init.cpp.i
@@ -1297,7 +1297,7 @@ ssl-init.i: ssl-init.cpp.i
 
 # target to preprocess a source file
 ssl-init.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/ssl-init.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/ssl-init.cpp.i
 .PHONY : ssl-init.cpp.i
 
 ssl-init.s: ssl-init.cpp.s
@@ -1305,7 +1305,7 @@ ssl-init.s: ssl-init.cpp.s
 
 # target to generate assembly for a file
 ssl-init.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/ssl-init.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/ssl-init.cpp.s
 .PHONY : ssl-init.cpp.s
 
 stack-trace.o: stack-trace.cpp.o
@@ -1313,7 +1313,7 @@ stack-trace.o: stack-trace.cpp.o
 
 # target to build an object file
 stack-trace.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/stack-trace.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/stack-trace.cpp.o
 .PHONY : stack-trace.cpp.o
 
 stack-trace.i: stack-trace.cpp.i
@@ -1321,7 +1321,7 @@ stack-trace.i: stack-trace.cpp.i
 
 # target to preprocess a source file
 stack-trace.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/stack-trace.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/stack-trace.cpp.i
 .PHONY : stack-trace.cpp.i
 
 stack-trace.s: stack-trace.cpp.s
@@ -1329,7 +1329,7 @@ stack-trace.s: stack-trace.cpp.s
 
 # target to generate assembly for a file
 stack-trace.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/stack-trace.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/stack-trace.cpp.s
 .PHONY : stack-trace.cpp.s
 
 stacktrace-profiler.o: stacktrace-profiler.cpp.o
@@ -1337,7 +1337,7 @@ stacktrace-profiler.o: stacktrace-profiler.cpp.o
 
 # target to build an object file
 stacktrace-profiler.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/stacktrace-profiler.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/stacktrace-profiler.cpp.o
 .PHONY : stacktrace-profiler.cpp.o
 
 stacktrace-profiler.i: stacktrace-profiler.cpp.i
@@ -1345,7 +1345,7 @@ stacktrace-profiler.i: stacktrace-profiler.cpp.i
 
 # target to preprocess a source file
 stacktrace-profiler.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/stacktrace-profiler.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/stacktrace-profiler.cpp.i
 .PHONY : stacktrace-profiler.cpp.i
 
 stacktrace-profiler.s: stacktrace-profiler.cpp.s
@@ -1353,7 +1353,7 @@ stacktrace-profiler.s: stacktrace-profiler.cpp.s
 
 # target to generate assembly for a file
 stacktrace-profiler.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/stacktrace-profiler.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/stacktrace-profiler.cpp.s
 .PHONY : stacktrace-profiler.cpp.s
 
 strcmp-sse42.o: strcmp-sse42.S.o
@@ -1361,7 +1361,7 @@ strcmp-sse42.o: strcmp-sse42.S.o
 
 # target to build an object file
 strcmp-sse42.S.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/strcmp-sse42.S.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/strcmp-sse42.S.o
 .PHONY : strcmp-sse42.S.o
 
 string-bag.o: string-bag.cpp.o
@@ -1369,7 +1369,7 @@ string-bag.o: string-bag.cpp.o
 
 # target to build an object file
 string-bag.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/string-bag.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/string-bag.cpp.o
 .PHONY : string-bag.cpp.o
 
 string-bag.i: string-bag.cpp.i
@@ -1377,7 +1377,7 @@ string-bag.i: string-bag.cpp.i
 
 # target to preprocess a source file
 string-bag.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/string-bag.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/string-bag.cpp.i
 .PHONY : string-bag.cpp.i
 
 string-bag.s: string-bag.cpp.s
@@ -1385,7 +1385,7 @@ string-bag.s: string-bag.cpp.s
 
 # target to generate assembly for a file
 string-bag.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/string-bag.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/string-bag.cpp.s
 .PHONY : string-bag.cpp.s
 
 string-vsnprintf.o: string-vsnprintf.cpp.o
@@ -1393,7 +1393,7 @@ string-vsnprintf.o: string-vsnprintf.cpp.o
 
 # target to build an object file
 string-vsnprintf.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/string-vsnprintf.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/string-vsnprintf.cpp.o
 .PHONY : string-vsnprintf.cpp.o
 
 string-vsnprintf.i: string-vsnprintf.cpp.i
@@ -1401,7 +1401,7 @@ string-vsnprintf.i: string-vsnprintf.cpp.i
 
 # target to preprocess a source file
 string-vsnprintf.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/string-vsnprintf.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/string-vsnprintf.cpp.i
 .PHONY : string-vsnprintf.cpp.i
 
 string-vsnprintf.s: string-vsnprintf.cpp.s
@@ -1409,7 +1409,7 @@ string-vsnprintf.s: string-vsnprintf.cpp.s
 
 # target to generate assembly for a file
 string-vsnprintf.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/string-vsnprintf.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/string-vsnprintf.cpp.s
 .PHONY : string-vsnprintf.cpp.s
 
 synchronizable-multi.o: synchronizable-multi.cpp.o
@@ -1417,7 +1417,7 @@ synchronizable-multi.o: synchronizable-multi.cpp.o
 
 # target to build an object file
 synchronizable-multi.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/synchronizable-multi.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/synchronizable-multi.cpp.o
 .PHONY : synchronizable-multi.cpp.o
 
 synchronizable-multi.i: synchronizable-multi.cpp.i
@@ -1425,7 +1425,7 @@ synchronizable-multi.i: synchronizable-multi.cpp.i
 
 # target to preprocess a source file
 synchronizable-multi.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/synchronizable-multi.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/synchronizable-multi.cpp.i
 .PHONY : synchronizable-multi.cpp.i
 
 synchronizable-multi.s: synchronizable-multi.cpp.s
@@ -1433,7 +1433,7 @@ synchronizable-multi.s: synchronizable-multi.cpp.s
 
 # target to generate assembly for a file
 synchronizable-multi.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/synchronizable-multi.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/synchronizable-multi.cpp.s
 .PHONY : synchronizable-multi.cpp.s
 
 synchronizable.o: synchronizable.cpp.o
@@ -1441,7 +1441,7 @@ synchronizable.o: synchronizable.cpp.o
 
 # target to build an object file
 synchronizable.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/synchronizable.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/synchronizable.cpp.o
 .PHONY : synchronizable.cpp.o
 
 synchronizable.i: synchronizable.cpp.i
@@ -1449,7 +1449,7 @@ synchronizable.i: synchronizable.cpp.i
 
 # target to preprocess a source file
 synchronizable.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/synchronizable.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/synchronizable.cpp.i
 .PHONY : synchronizable.cpp.i
 
 synchronizable.s: synchronizable.cpp.s
@@ -1457,7 +1457,7 @@ synchronizable.s: synchronizable.cpp.s
 
 # target to generate assembly for a file
 synchronizable.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/synchronizable.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/synchronizable.cpp.s
 .PHONY : synchronizable.cpp.s
 
 text-art.o: text-art.cpp.o
@@ -1465,7 +1465,7 @@ text-art.o: text-art.cpp.o
 
 # target to build an object file
 text-art.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/text-art.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/text-art.cpp.o
 .PHONY : text-art.cpp.o
 
 text-art.i: text-art.cpp.i
@@ -1473,7 +1473,7 @@ text-art.i: text-art.cpp.i
 
 # target to preprocess a source file
 text-art.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/text-art.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/text-art.cpp.i
 .PHONY : text-art.cpp.i
 
 text-art.s: text-art.cpp.s
@@ -1481,7 +1481,7 @@ text-art.s: text-art.cpp.s
 
 # target to generate assembly for a file
 text-art.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/text-art.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/text-art.cpp.s
 .PHONY : text-art.cpp.s
 
 text-color.o: text-color.cpp.o
@@ -1489,7 +1489,7 @@ text-color.o: text-color.cpp.o
 
 # target to build an object file
 text-color.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/text-color.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/text-color.cpp.o
 .PHONY : text-color.cpp.o
 
 text-color.i: text-color.cpp.i
@@ -1497,7 +1497,7 @@ text-color.i: text-color.cpp.i
 
 # target to preprocess a source file
 text-color.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/text-color.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/text-color.cpp.i
 .PHONY : text-color.cpp.i
 
 text-color.s: text-color.cpp.s
@@ -1505,7 +1505,7 @@ text-color.s: text-color.cpp.s
 
 # target to generate assembly for a file
 text-color.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/text-color.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/text-color.cpp.s
 .PHONY : text-color.cpp.s
 
 text-util.o: text-util.cpp.o
@@ -1513,7 +1513,7 @@ text-util.o: text-util.cpp.o
 
 # target to build an object file
 text-util.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/text-util.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/text-util.cpp.o
 .PHONY : text-util.cpp.o
 
 text-util.i: text-util.cpp.i
@@ -1521,7 +1521,7 @@ text-util.i: text-util.cpp.i
 
 # target to preprocess a source file
 text-util.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/text-util.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/text-util.cpp.i
 .PHONY : text-util.cpp.i
 
 text-util.s: text-util.cpp.s
@@ -1529,7 +1529,7 @@ text-util.s: text-util.cpp.s
 
 # target to generate assembly for a file
 text-util.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/text-util.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/text-util.cpp.s
 .PHONY : text-util.cpp.s
 
 thread-local.o: thread-local.cpp.o
@@ -1537,7 +1537,7 @@ thread-local.o: thread-local.cpp.o
 
 # target to build an object file
 thread-local.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/thread-local.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/thread-local.cpp.o
 .PHONY : thread-local.cpp.o
 
 thread-local.i: thread-local.cpp.i
@@ -1545,7 +1545,7 @@ thread-local.i: thread-local.cpp.i
 
 # target to preprocess a source file
 thread-local.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/thread-local.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/thread-local.cpp.i
 .PHONY : thread-local.cpp.i
 
 thread-local.s: thread-local.cpp.s
@@ -1553,7 +1553,7 @@ thread-local.s: thread-local.cpp.s
 
 # target to generate assembly for a file
 thread-local.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/thread-local.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/thread-local.cpp.s
 .PHONY : thread-local.cpp.s
 
 timer.o: timer.cpp.o
@@ -1561,7 +1561,7 @@ timer.o: timer.cpp.o
 
 # target to build an object file
 timer.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/timer.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/timer.cpp.o
 .PHONY : timer.cpp.o
 
 timer.i: timer.cpp.i
@@ -1569,7 +1569,7 @@ timer.i: timer.cpp.i
 
 # target to preprocess a source file
 timer.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/timer.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/timer.cpp.i
 .PHONY : timer.cpp.i
 
 timer.s: timer.cpp.s
@@ -1577,7 +1577,7 @@ timer.s: timer.cpp.s
 
 # target to generate assembly for a file
 timer.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/timer.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/timer.cpp.s
 .PHONY : timer.cpp.s
 
 trace.o: trace.cpp.o
@@ -1585,7 +1585,7 @@ trace.o: trace.cpp.o
 
 # target to build an object file
 trace.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/trace.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/trace.cpp.o
 .PHONY : trace.cpp.o
 
 trace.i: trace.cpp.i
@@ -1593,7 +1593,7 @@ trace.i: trace.cpp.i
 
 # target to preprocess a source file
 trace.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/trace.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/trace.cpp.i
 .PHONY : trace.cpp.i
 
 trace.s: trace.cpp.s
@@ -1601,7 +1601,7 @@ trace.s: trace.cpp.s
 
 # target to generate assembly for a file
 trace.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/trace.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/trace.cpp.s
 .PHONY : trace.cpp.s
 
 vdso.o: vdso.cpp.o
@@ -1609,7 +1609,7 @@ vdso.o: vdso.cpp.o
 
 # target to build an object file
 vdso.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/vdso.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/vdso.cpp.o
 .PHONY : vdso.cpp.o
 
 vdso.i: vdso.cpp.i
@@ -1617,7 +1617,7 @@ vdso.i: vdso.cpp.i
 
 # target to preprocess a source file
 vdso.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/vdso.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/vdso.cpp.i
 .PHONY : vdso.cpp.i
 
 vdso.s: vdso.cpp.s
@@ -1625,7 +1625,7 @@ vdso.s: vdso.cpp.s
 
 # target to generate assembly for a file
 vdso.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/vdso.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f hphp/util/CMakeFiles/hphp_util.dir/build.make hphp/util/CMakeFiles/hphp_util.dir/vdso.cpp.s
 .PHONY : vdso.cpp.s
 
 # Help Target
@@ -1836,6 +1836,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /tmp/hhvm-3.12.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

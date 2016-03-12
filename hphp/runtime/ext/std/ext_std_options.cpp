@@ -75,9 +75,9 @@ const int64_t k_ASSERT_EXCEPTION   = 6;
 
 struct OptionData final : RequestEventHandler {
   void requestInit() override {
-    assertActive = 0;
+    assertActive = 1;
     assertException = 0;
-    assertWarning = 0;
+    assertWarning = 1;
     assertBail = 0;
     assertQuietEval = false;
   }
@@ -104,11 +104,11 @@ IMPLEMENT_STATIC_REQUEST_LOCAL(OptionData, s_option_data);
 
 void StandardExtension::requestInitOptions() {
   IniSetting::Bind(IniSetting::CORE, IniSetting::PHP_INI_ALL,
-    "assert.active", "0", &s_option_data->assertActive);
+    "assert.active", "1", &s_option_data->assertActive);
   IniSetting::Bind(IniSetting::CORE, IniSetting::PHP_INI_ALL,
     "assert.exception", "0", &s_option_data->assertException);
   IniSetting::Bind(IniSetting::CORE, IniSetting::PHP_INI_ALL,
-    "assert.warning", "0", &s_option_data->assertWarning);
+    "assert.warning", "1", &s_option_data->assertWarning);
   IniSetting::Bind(IniSetting::CORE, IniSetting::PHP_INI_ALL,
     "assert.bail", "0", &s_option_data->assertBail);
 }
@@ -175,6 +175,18 @@ static Variant eval_for_assert(ActRec* const curFP, const String& codeStr) {
     curFP->setVarEnv(VarEnv::createLocal(curFP));
   }
   auto varEnv = curFP->getVarEnv();
+
+  if (curFP != vmfp()) {
+    // If we aren't using FCallBuiltin, the stack frame of the call to assert
+    // will be in middle of the code we are about to eval and our caller, whose
+    // varEnv we want to use. The invokeFunc below will get very confused if
+    // this is the case, since it will be using a varEnv that belongs to the
+    // wrong function on the stack. So, we rebind it here, to match what
+    // invokeFunc will expect.
+    assert(!vmfp()->hasVarEnv());
+    vmfp()->setVarEnv(varEnv);
+    varEnv->enterFP(curFP, vmfp());
+  }
 
   auto const func = unit->getMain();
   TypedValue retVal;
@@ -956,7 +968,7 @@ static Variant HHVM_FUNCTION(phpversion, const String& extension /*="" */) {
   Extension *ext;
 
   if (extension.empty()) {
-    return k_PHP_VERSION;
+    return get_PHP_VERSION();
   }
 
   if ((ext = ExtensionRegistry::get(extension)) != nullptr &&

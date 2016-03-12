@@ -37,6 +37,7 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/folly.dir/src/folly/detail/MemoryIdler.cpp.o"
   "CMakeFiles/folly.dir/src/folly/detail/RangeCommon.cpp.o"
   "CMakeFiles/folly.dir/src/folly/detail/RangeSse42.cpp.o"
+  "CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o"
   "CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.cpp.o"
   "CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.o"
   "CMakeFiles/folly.dir/src/folly/experimental/NestedCommandLineApp.cpp.o"

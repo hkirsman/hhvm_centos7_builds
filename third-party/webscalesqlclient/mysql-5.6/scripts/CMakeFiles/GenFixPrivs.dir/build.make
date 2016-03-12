@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src
 
 # Utility rule file for GenFixPrivs.
 
@@ -53,10 +53,10 @@ scripts/CMakeFiles/GenFixPrivs: scripts/mysql_fix_privilege_tables_sql.c
 scripts/mysql_fix_privilege_tables_sql.c: scripts/comp_sql
 scripts/mysql_fix_privilege_tables_sql.c: scripts/mysql_system_tables.sql
 scripts/mysql_fix_privilege_tables_sql.c: scripts/mysql_system_tables_fix.sql
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating mysql_fix_privilege_tables_sql.c"
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/scripts && /usr/bin/cmake -E chdir /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/scripts /usr/bin/cat mysql_system_tables.sql mysql_system_tables_fix.sql > /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/scripts/mysql_fix_privilege_tables.sql
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/scripts && /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/scripts/comp_sql mysql_fix_privilege_tables mysql_fix_privilege_tables.sql mysql_fix_privilege_tables_sql.c
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/scripts && /usr/bin/cmake -E chdir /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/scripts /usr/bin/cat mysql_system_tables.sql mysql_system_tables_fix.sql > /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/scripts/mysql_fix_privilege_tables.sql
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/scripts && /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/scripts/comp_sql mysql_fix_privilege_tables mysql_fix_privilege_tables.sql mysql_fix_privilege_tables_sql.c
 
 GenFixPrivs: scripts/CMakeFiles/GenFixPrivs
 GenFixPrivs: scripts/mysql_fix_privilege_tables_sql.c
@@ -68,10 +68,10 @@ scripts/CMakeFiles/GenFixPrivs.dir/build: GenFixPrivs
 .PHONY : scripts/CMakeFiles/GenFixPrivs.dir/build
 
 scripts/CMakeFiles/GenFixPrivs.dir/clean:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/scripts && $(CMAKE_COMMAND) -P CMakeFiles/GenFixPrivs.dir/cmake_clean.cmake
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/scripts && $(CMAKE_COMMAND) -P CMakeFiles/GenFixPrivs.dir/cmake_clean.cmake
 .PHONY : scripts/CMakeFiles/GenFixPrivs.dir/clean
 
 scripts/CMakeFiles/GenFixPrivs.dir/depend:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/scripts /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/scripts /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/scripts/CMakeFiles/GenFixPrivs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/scripts /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/scripts /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/scripts/CMakeFiles/GenFixPrivs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : scripts/CMakeFiles/GenFixPrivs.dir/depend
 

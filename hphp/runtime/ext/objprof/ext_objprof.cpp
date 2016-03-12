@@ -38,9 +38,10 @@
 #include "hphp/runtime/base/memory-manager-defs.h"
 #include "hphp/runtime/ext/datetime/ext_datetime.h"
 #include "hphp/runtime/ext/simplexml/ext_simplexml.h"
+#include "hphp/runtime/ext/std/ext_std_closure.h"
 #include "hphp/runtime/vm/class.h"
 #include "hphp/runtime/vm/unit.h"
-#include "hphp/runtime/vm/iterators.h"
+#include "hphp/runtime/vm/named-entity-defs.h"
 #include "hphp/util/alloc.h"
 
 namespace HPHP {
@@ -429,7 +430,7 @@ std::pair<int, double> tvGetSize(
       }
       break;
     }
-    case KindOfStaticString:
+    case KindOfPersistentString:
     case KindOfString: {
       StringData* str = tv->m_data.pstr;
       size += str->size();
@@ -486,7 +487,7 @@ void tvGetStrings(
       tvGetStrings((TypedValue*)cell, metrics, path, pointers);
       break;
     }
-    case HPHP::KindOfStaticString:
+    case HPHP::KindOfPersistentString:
     case HPHP::KindOfString: {
       StringData* str = tv->m_data.pstr;
 
@@ -543,7 +544,7 @@ bool supportsToArray(ObjectData* obj) {
     return true;
   } else if (UNLIKELY(obj->instanceof(SystemLib::s_ArrayIteratorClass))) {
     return true;
-  } else if (UNLIKELY(obj->instanceof(SystemLib::s_ClosureClass))) {
+  } else if (UNLIKELY(obj->instanceof(c_Closure::classof()))) {
     return true;
   } else if (UNLIKELY(obj->instanceof(DateTimeData::getClass()))) {
     return true;
@@ -818,9 +819,9 @@ Array HHVM_FUNCTION(objprof_get_paths, void) {
       assert(stack.size() == 0);
   });
 
-  for (auto cls = all_classes().begin(); cls != all_classes().end(); ++cls) {
+  NamedEntity::foreach_class([&](Class* cls) {
     if (cls->needsInitSProps()) {
-      continue;
+      return;
     }
     auto const staticProps = cls->staticProperties();
     auto const nSProps = cls->numStaticProperties();
@@ -846,7 +847,7 @@ Array HHVM_FUNCTION(objprof_get_paths, void) {
       );
 
       if (tv->m_data.num == 0) {
-          continue;
+        continue;
       }
 
       stack.push_back(refname);
@@ -867,7 +868,7 @@ Array HHVM_FUNCTION(objprof_get_paths, void) {
       }
       assert(stack.size() == 0);
     }
-  }
+  });
 
   // Create response
   ArrayInit objs(histogram.size(), ArrayInit::Map{});

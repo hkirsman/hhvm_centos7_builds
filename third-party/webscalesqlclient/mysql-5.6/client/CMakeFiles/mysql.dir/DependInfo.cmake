@@ -4,10 +4,10 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/client/completion_hash.cc" "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/client/CMakeFiles/mysql.dir/completion_hash.cc.o"
-  "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/client/mysql.cc" "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/client/CMakeFiles/mysql.dir/mysql.cc.o"
-  "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/client/readline.cc" "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/client/CMakeFiles/mysql.dir/readline.cc.o"
-  "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/client/sql_string.cc" "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/client/CMakeFiles/mysql.dir/sql_string.cc.o"
+  "/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/client/completion_hash.cc" "/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/client/CMakeFiles/mysql.dir/completion_hash.cc.o"
+  "/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/client/mysql.cc" "/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/client/CMakeFiles/mysql.dir/mysql.cc.o"
+  "/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/client/readline.cc" "/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/client/CMakeFiles/mysql.dir/readline.cc.o"
+  "/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/client/sql_string.cc" "/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/client/CMakeFiles/mysql.dir/sql_string.cc.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -20,8 +20,8 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/libmysql/CMakeFiles/webscalesqlclient.dir/DependInfo.cmake"
-  "/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/zlib/CMakeFiles/zlib.dir/DependInfo.cmake"
+  "/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/libmysql/CMakeFiles/webscalesqlclient.dir/DependInfo.cmake"
+  "/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/zlib/CMakeFiles/zlib.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

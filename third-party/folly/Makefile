@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.1
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles /tmp/hhvm-3.11.1/third-party/folly/CMakeFiles/progress.marks
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/folly/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/CMakeFiles 0
+	cd /tmp/hhvm-3.12.1 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.1/CMakeFiles /tmp/hhvm-3.12.1/third-party/folly/CMakeFiles/progress.marks
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/folly/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.1/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/folly/clean
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/folly/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/folly/preinstall
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/folly/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/folly/preinstall
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/folly/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /tmp/hhvm-3.12.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 third-party/folly/CMakeFiles/folly.dir/rule:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/folly/CMakeFiles/folly.dir/rule
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f CMakeFiles/Makefile2 third-party/folly/CMakeFiles/folly.dir/rule
 .PHONY : third-party/folly/CMakeFiles/folly.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ folly: third-party/folly/CMakeFiles/folly.dir/rule
 
 # fast build rule for target.
 folly/fast:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/build
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/build
 .PHONY : folly/fast
 
 gen/EscapeTables.o: gen/EscapeTables.cpp.o
@@ -161,7 +161,7 @@ gen/EscapeTables.o: gen/EscapeTables.cpp.o
 
 # target to build an object file
 gen/EscapeTables.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/gen/EscapeTables.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/gen/EscapeTables.cpp.o
 .PHONY : gen/EscapeTables.cpp.o
 
 gen/EscapeTables.i: gen/EscapeTables.cpp.i
@@ -169,7 +169,7 @@ gen/EscapeTables.i: gen/EscapeTables.cpp.i
 
 # target to preprocess a source file
 gen/EscapeTables.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/gen/EscapeTables.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/gen/EscapeTables.cpp.i
 .PHONY : gen/EscapeTables.cpp.i
 
 gen/EscapeTables.s: gen/EscapeTables.cpp.s
@@ -177,7 +177,7 @@ gen/EscapeTables.s: gen/EscapeTables.cpp.s
 
 # target to generate assembly for a file
 gen/EscapeTables.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/gen/EscapeTables.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/gen/EscapeTables.cpp.s
 .PHONY : gen/EscapeTables.cpp.s
 
 gen/FingerprintTables.o: gen/FingerprintTables.cpp.o
@@ -185,7 +185,7 @@ gen/FingerprintTables.o: gen/FingerprintTables.cpp.o
 
 # target to build an object file
 gen/FingerprintTables.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/gen/FingerprintTables.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/gen/FingerprintTables.cpp.o
 .PHONY : gen/FingerprintTables.cpp.o
 
 gen/FingerprintTables.i: gen/FingerprintTables.cpp.i
@@ -193,7 +193,7 @@ gen/FingerprintTables.i: gen/FingerprintTables.cpp.i
 
 # target to preprocess a source file
 gen/FingerprintTables.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/gen/FingerprintTables.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/gen/FingerprintTables.cpp.i
 .PHONY : gen/FingerprintTables.cpp.i
 
 gen/FingerprintTables.s: gen/FingerprintTables.cpp.s
@@ -201,7 +201,7 @@ gen/FingerprintTables.s: gen/FingerprintTables.cpp.s
 
 # target to generate assembly for a file
 gen/FingerprintTables.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/gen/FingerprintTables.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/gen/FingerprintTables.cpp.s
 .PHONY : gen/FingerprintTables.cpp.s
 
 gen/FormatTables.o: gen/FormatTables.cpp.o
@@ -209,7 +209,7 @@ gen/FormatTables.o: gen/FormatTables.cpp.o
 
 # target to build an object file
 gen/FormatTables.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/gen/FormatTables.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/gen/FormatTables.cpp.o
 .PHONY : gen/FormatTables.cpp.o
 
 gen/FormatTables.i: gen/FormatTables.cpp.i
@@ -217,7 +217,7 @@ gen/FormatTables.i: gen/FormatTables.cpp.i
 
 # target to preprocess a source file
 gen/FormatTables.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/gen/FormatTables.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/gen/FormatTables.cpp.i
 .PHONY : gen/FormatTables.cpp.i
 
 gen/FormatTables.s: gen/FormatTables.cpp.s
@@ -225,7 +225,7 @@ gen/FormatTables.s: gen/FormatTables.cpp.s
 
 # target to generate assembly for a file
 gen/FormatTables.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/gen/FormatTables.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/gen/FormatTables.cpp.s
 .PHONY : gen/FormatTables.cpp.s
 
 gen/GroupVarintTables.o: gen/GroupVarintTables.cpp.o
@@ -233,7 +233,7 @@ gen/GroupVarintTables.o: gen/GroupVarintTables.cpp.o
 
 # target to build an object file
 gen/GroupVarintTables.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/gen/GroupVarintTables.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/gen/GroupVarintTables.cpp.o
 .PHONY : gen/GroupVarintTables.cpp.o
 
 gen/GroupVarintTables.i: gen/GroupVarintTables.cpp.i
@@ -241,7 +241,7 @@ gen/GroupVarintTables.i: gen/GroupVarintTables.cpp.i
 
 # target to preprocess a source file
 gen/GroupVarintTables.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/gen/GroupVarintTables.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/gen/GroupVarintTables.cpp.i
 .PHONY : gen/GroupVarintTables.cpp.i
 
 gen/GroupVarintTables.s: gen/GroupVarintTables.cpp.s
@@ -249,7 +249,7 @@ gen/GroupVarintTables.s: gen/GroupVarintTables.cpp.s
 
 # target to generate assembly for a file
 gen/GroupVarintTables.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/gen/GroupVarintTables.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/gen/GroupVarintTables.cpp.s
 .PHONY : gen/GroupVarintTables.cpp.s
 
 src/folly/Bits.o: src/folly/Bits.cpp.o
@@ -257,7 +257,7 @@ src/folly/Bits.o: src/folly/Bits.cpp.o
 
 # target to build an object file
 src/folly/Bits.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Bits.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Bits.cpp.o
 .PHONY : src/folly/Bits.cpp.o
 
 src/folly/Bits.i: src/folly/Bits.cpp.i
@@ -265,7 +265,7 @@ src/folly/Bits.i: src/folly/Bits.cpp.i
 
 # target to preprocess a source file
 src/folly/Bits.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Bits.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Bits.cpp.i
 .PHONY : src/folly/Bits.cpp.i
 
 src/folly/Bits.s: src/folly/Bits.cpp.s
@@ -273,7 +273,7 @@ src/folly/Bits.s: src/folly/Bits.cpp.s
 
 # target to generate assembly for a file
 src/folly/Bits.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Bits.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Bits.cpp.s
 .PHONY : src/folly/Bits.cpp.s
 
 src/folly/Checksum.o: src/folly/Checksum.cpp.o
@@ -281,7 +281,7 @@ src/folly/Checksum.o: src/folly/Checksum.cpp.o
 
 # target to build an object file
 src/folly/Checksum.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Checksum.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Checksum.cpp.o
 .PHONY : src/folly/Checksum.cpp.o
 
 src/folly/Checksum.i: src/folly/Checksum.cpp.i
@@ -289,7 +289,7 @@ src/folly/Checksum.i: src/folly/Checksum.cpp.i
 
 # target to preprocess a source file
 src/folly/Checksum.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Checksum.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Checksum.cpp.i
 .PHONY : src/folly/Checksum.cpp.i
 
 src/folly/Checksum.s: src/folly/Checksum.cpp.s
@@ -297,7 +297,7 @@ src/folly/Checksum.s: src/folly/Checksum.cpp.s
 
 # target to generate assembly for a file
 src/folly/Checksum.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Checksum.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Checksum.cpp.s
 .PHONY : src/folly/Checksum.cpp.s
 
 src/folly/Conv.o: src/folly/Conv.cpp.o
@@ -305,7 +305,7 @@ src/folly/Conv.o: src/folly/Conv.cpp.o
 
 # target to build an object file
 src/folly/Conv.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Conv.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Conv.cpp.o
 .PHONY : src/folly/Conv.cpp.o
 
 src/folly/Conv.i: src/folly/Conv.cpp.i
@@ -313,7 +313,7 @@ src/folly/Conv.i: src/folly/Conv.cpp.i
 
 # target to preprocess a source file
 src/folly/Conv.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Conv.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Conv.cpp.i
 .PHONY : src/folly/Conv.cpp.i
 
 src/folly/Conv.s: src/folly/Conv.cpp.s
@@ -321,7 +321,7 @@ src/folly/Conv.s: src/folly/Conv.cpp.s
 
 # target to generate assembly for a file
 src/folly/Conv.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Conv.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Conv.cpp.s
 .PHONY : src/folly/Conv.cpp.s
 
 src/folly/Demangle.o: src/folly/Demangle.cpp.o
@@ -329,7 +329,7 @@ src/folly/Demangle.o: src/folly/Demangle.cpp.o
 
 # target to build an object file
 src/folly/Demangle.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Demangle.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Demangle.cpp.o
 .PHONY : src/folly/Demangle.cpp.o
 
 src/folly/Demangle.i: src/folly/Demangle.cpp.i
@@ -337,7 +337,7 @@ src/folly/Demangle.i: src/folly/Demangle.cpp.i
 
 # target to preprocess a source file
 src/folly/Demangle.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Demangle.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Demangle.cpp.i
 .PHONY : src/folly/Demangle.cpp.i
 
 src/folly/Demangle.s: src/folly/Demangle.cpp.s
@@ -345,7 +345,7 @@ src/folly/Demangle.s: src/folly/Demangle.cpp.s
 
 # target to generate assembly for a file
 src/folly/Demangle.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Demangle.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Demangle.cpp.s
 .PHONY : src/folly/Demangle.cpp.s
 
 src/folly/File.o: src/folly/File.cpp.o
@@ -353,7 +353,7 @@ src/folly/File.o: src/folly/File.cpp.o
 
 # target to build an object file
 src/folly/File.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/File.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/File.cpp.o
 .PHONY : src/folly/File.cpp.o
 
 src/folly/File.i: src/folly/File.cpp.i
@@ -361,7 +361,7 @@ src/folly/File.i: src/folly/File.cpp.i
 
 # target to preprocess a source file
 src/folly/File.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/File.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/File.cpp.i
 .PHONY : src/folly/File.cpp.i
 
 src/folly/File.s: src/folly/File.cpp.s
@@ -369,7 +369,7 @@ src/folly/File.s: src/folly/File.cpp.s
 
 # target to generate assembly for a file
 src/folly/File.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/File.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/File.cpp.s
 .PHONY : src/folly/File.cpp.s
 
 src/folly/FileUtil.o: src/folly/FileUtil.cpp.o
@@ -377,7 +377,7 @@ src/folly/FileUtil.o: src/folly/FileUtil.cpp.o
 
 # target to build an object file
 src/folly/FileUtil.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/FileUtil.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/FileUtil.cpp.o
 .PHONY : src/folly/FileUtil.cpp.o
 
 src/folly/FileUtil.i: src/folly/FileUtil.cpp.i
@@ -385,7 +385,7 @@ src/folly/FileUtil.i: src/folly/FileUtil.cpp.i
 
 # target to preprocess a source file
 src/folly/FileUtil.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/FileUtil.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/FileUtil.cpp.i
 .PHONY : src/folly/FileUtil.cpp.i
 
 src/folly/FileUtil.s: src/folly/FileUtil.cpp.s
@@ -393,7 +393,7 @@ src/folly/FileUtil.s: src/folly/FileUtil.cpp.s
 
 # target to generate assembly for a file
 src/folly/FileUtil.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/FileUtil.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/FileUtil.cpp.s
 .PHONY : src/folly/FileUtil.cpp.s
 
 src/folly/Format.o: src/folly/Format.cpp.o
@@ -401,7 +401,7 @@ src/folly/Format.o: src/folly/Format.cpp.o
 
 # target to build an object file
 src/folly/Format.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Format.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Format.cpp.o
 .PHONY : src/folly/Format.cpp.o
 
 src/folly/Format.i: src/folly/Format.cpp.i
@@ -409,7 +409,7 @@ src/folly/Format.i: src/folly/Format.cpp.i
 
 # target to preprocess a source file
 src/folly/Format.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Format.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Format.cpp.i
 .PHONY : src/folly/Format.cpp.i
 
 src/folly/Format.s: src/folly/Format.cpp.s
@@ -417,7 +417,7 @@ src/folly/Format.s: src/folly/Format.cpp.s
 
 # target to generate assembly for a file
 src/folly/Format.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Format.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Format.cpp.s
 .PHONY : src/folly/Format.cpp.s
 
 src/folly/GroupVarint.o: src/folly/GroupVarint.cpp.o
@@ -425,7 +425,7 @@ src/folly/GroupVarint.o: src/folly/GroupVarint.cpp.o
 
 # target to build an object file
 src/folly/GroupVarint.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/GroupVarint.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/GroupVarint.cpp.o
 .PHONY : src/folly/GroupVarint.cpp.o
 
 src/folly/GroupVarint.i: src/folly/GroupVarint.cpp.i
@@ -433,7 +433,7 @@ src/folly/GroupVarint.i: src/folly/GroupVarint.cpp.i
 
 # target to preprocess a source file
 src/folly/GroupVarint.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/GroupVarint.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/GroupVarint.cpp.i
 .PHONY : src/folly/GroupVarint.cpp.i
 
 src/folly/GroupVarint.s: src/folly/GroupVarint.cpp.s
@@ -441,7 +441,7 @@ src/folly/GroupVarint.s: src/folly/GroupVarint.cpp.s
 
 # target to generate assembly for a file
 src/folly/GroupVarint.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/GroupVarint.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/GroupVarint.cpp.s
 .PHONY : src/folly/GroupVarint.cpp.s
 
 src/folly/IPAddress.o: src/folly/IPAddress.cpp.o
@@ -449,7 +449,7 @@ src/folly/IPAddress.o: src/folly/IPAddress.cpp.o
 
 # target to build an object file
 src/folly/IPAddress.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddress.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddress.cpp.o
 .PHONY : src/folly/IPAddress.cpp.o
 
 src/folly/IPAddress.i: src/folly/IPAddress.cpp.i
@@ -457,7 +457,7 @@ src/folly/IPAddress.i: src/folly/IPAddress.cpp.i
 
 # target to preprocess a source file
 src/folly/IPAddress.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddress.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddress.cpp.i
 .PHONY : src/folly/IPAddress.cpp.i
 
 src/folly/IPAddress.s: src/folly/IPAddress.cpp.s
@@ -465,7 +465,7 @@ src/folly/IPAddress.s: src/folly/IPAddress.cpp.s
 
 # target to generate assembly for a file
 src/folly/IPAddress.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddress.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddress.cpp.s
 .PHONY : src/folly/IPAddress.cpp.s
 
 src/folly/IPAddressV4.o: src/folly/IPAddressV4.cpp.o
@@ -473,7 +473,7 @@ src/folly/IPAddressV4.o: src/folly/IPAddressV4.cpp.o
 
 # target to build an object file
 src/folly/IPAddressV4.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddressV4.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddressV4.cpp.o
 .PHONY : src/folly/IPAddressV4.cpp.o
 
 src/folly/IPAddressV4.i: src/folly/IPAddressV4.cpp.i
@@ -481,7 +481,7 @@ src/folly/IPAddressV4.i: src/folly/IPAddressV4.cpp.i
 
 # target to preprocess a source file
 src/folly/IPAddressV4.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddressV4.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddressV4.cpp.i
 .PHONY : src/folly/IPAddressV4.cpp.i
 
 src/folly/IPAddressV4.s: src/folly/IPAddressV4.cpp.s
@@ -489,7 +489,7 @@ src/folly/IPAddressV4.s: src/folly/IPAddressV4.cpp.s
 
 # target to generate assembly for a file
 src/folly/IPAddressV4.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddressV4.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddressV4.cpp.s
 .PHONY : src/folly/IPAddressV4.cpp.s
 
 src/folly/IPAddressV6.o: src/folly/IPAddressV6.cpp.o
@@ -497,7 +497,7 @@ src/folly/IPAddressV6.o: src/folly/IPAddressV6.cpp.o
 
 # target to build an object file
 src/folly/IPAddressV6.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddressV6.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddressV6.cpp.o
 .PHONY : src/folly/IPAddressV6.cpp.o
 
 src/folly/IPAddressV6.i: src/folly/IPAddressV6.cpp.i
@@ -505,7 +505,7 @@ src/folly/IPAddressV6.i: src/folly/IPAddressV6.cpp.i
 
 # target to preprocess a source file
 src/folly/IPAddressV6.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddressV6.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddressV6.cpp.i
 .PHONY : src/folly/IPAddressV6.cpp.i
 
 src/folly/IPAddressV6.s: src/folly/IPAddressV6.cpp.s
@@ -513,7 +513,7 @@ src/folly/IPAddressV6.s: src/folly/IPAddressV6.cpp.s
 
 # target to generate assembly for a file
 src/folly/IPAddressV6.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddressV6.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/IPAddressV6.cpp.s
 .PHONY : src/folly/IPAddressV6.cpp.s
 
 src/folly/LifoSem.o: src/folly/LifoSem.cpp.o
@@ -521,7 +521,7 @@ src/folly/LifoSem.o: src/folly/LifoSem.cpp.o
 
 # target to build an object file
 src/folly/LifoSem.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/LifoSem.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/LifoSem.cpp.o
 .PHONY : src/folly/LifoSem.cpp.o
 
 src/folly/LifoSem.i: src/folly/LifoSem.cpp.i
@@ -529,7 +529,7 @@ src/folly/LifoSem.i: src/folly/LifoSem.cpp.i
 
 # target to preprocess a source file
 src/folly/LifoSem.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/LifoSem.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/LifoSem.cpp.i
 .PHONY : src/folly/LifoSem.cpp.i
 
 src/folly/LifoSem.s: src/folly/LifoSem.cpp.s
@@ -537,7 +537,7 @@ src/folly/LifoSem.s: src/folly/LifoSem.cpp.s
 
 # target to generate assembly for a file
 src/folly/LifoSem.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/LifoSem.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/LifoSem.cpp.s
 .PHONY : src/folly/LifoSem.cpp.s
 
 src/folly/MacAddress.o: src/folly/MacAddress.cpp.o
@@ -545,7 +545,7 @@ src/folly/MacAddress.o: src/folly/MacAddress.cpp.o
 
 # target to build an object file
 src/folly/MacAddress.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/MacAddress.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/MacAddress.cpp.o
 .PHONY : src/folly/MacAddress.cpp.o
 
 src/folly/MacAddress.i: src/folly/MacAddress.cpp.i
@@ -553,7 +553,7 @@ src/folly/MacAddress.i: src/folly/MacAddress.cpp.i
 
 # target to preprocess a source file
 src/folly/MacAddress.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/MacAddress.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/MacAddress.cpp.i
 .PHONY : src/folly/MacAddress.cpp.i
 
 src/folly/MacAddress.s: src/folly/MacAddress.cpp.s
@@ -561,7 +561,7 @@ src/folly/MacAddress.s: src/folly/MacAddress.cpp.s
 
 # target to generate assembly for a file
 src/folly/MacAddress.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/MacAddress.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/MacAddress.cpp.s
 .PHONY : src/folly/MacAddress.cpp.s
 
 src/folly/MemoryMapping.o: src/folly/MemoryMapping.cpp.o
@@ -569,7 +569,7 @@ src/folly/MemoryMapping.o: src/folly/MemoryMapping.cpp.o
 
 # target to build an object file
 src/folly/MemoryMapping.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/MemoryMapping.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/MemoryMapping.cpp.o
 .PHONY : src/folly/MemoryMapping.cpp.o
 
 src/folly/MemoryMapping.i: src/folly/MemoryMapping.cpp.i
@@ -577,7 +577,7 @@ src/folly/MemoryMapping.i: src/folly/MemoryMapping.cpp.i
 
 # target to preprocess a source file
 src/folly/MemoryMapping.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/MemoryMapping.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/MemoryMapping.cpp.i
 .PHONY : src/folly/MemoryMapping.cpp.i
 
 src/folly/MemoryMapping.s: src/folly/MemoryMapping.cpp.s
@@ -585,7 +585,7 @@ src/folly/MemoryMapping.s: src/folly/MemoryMapping.cpp.s
 
 # target to generate assembly for a file
 src/folly/MemoryMapping.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/MemoryMapping.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/MemoryMapping.cpp.s
 .PHONY : src/folly/MemoryMapping.cpp.s
 
 src/folly/Random.o: src/folly/Random.cpp.o
@@ -593,7 +593,7 @@ src/folly/Random.o: src/folly/Random.cpp.o
 
 # target to build an object file
 src/folly/Random.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Random.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Random.cpp.o
 .PHONY : src/folly/Random.cpp.o
 
 src/folly/Random.i: src/folly/Random.cpp.i
@@ -601,7 +601,7 @@ src/folly/Random.i: src/folly/Random.cpp.i
 
 # target to preprocess a source file
 src/folly/Random.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Random.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Random.cpp.i
 .PHONY : src/folly/Random.cpp.i
 
 src/folly/Random.s: src/folly/Random.cpp.s
@@ -609,7 +609,7 @@ src/folly/Random.s: src/folly/Random.cpp.s
 
 # target to generate assembly for a file
 src/folly/Random.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Random.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Random.cpp.s
 .PHONY : src/folly/Random.cpp.s
 
 src/folly/SafeAssert.o: src/folly/SafeAssert.cpp.o
@@ -617,7 +617,7 @@ src/folly/SafeAssert.o: src/folly/SafeAssert.cpp.o
 
 # target to build an object file
 src/folly/SafeAssert.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/SafeAssert.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/SafeAssert.cpp.o
 .PHONY : src/folly/SafeAssert.cpp.o
 
 src/folly/SafeAssert.i: src/folly/SafeAssert.cpp.i
@@ -625,7 +625,7 @@ src/folly/SafeAssert.i: src/folly/SafeAssert.cpp.i
 
 # target to preprocess a source file
 src/folly/SafeAssert.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/SafeAssert.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/SafeAssert.cpp.i
 .PHONY : src/folly/SafeAssert.cpp.i
 
 src/folly/SafeAssert.s: src/folly/SafeAssert.cpp.s
@@ -633,7 +633,7 @@ src/folly/SafeAssert.s: src/folly/SafeAssert.cpp.s
 
 # target to generate assembly for a file
 src/folly/SafeAssert.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/SafeAssert.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/SafeAssert.cpp.s
 .PHONY : src/folly/SafeAssert.cpp.s
 
 src/folly/SharedMutex.o: src/folly/SharedMutex.cpp.o
@@ -641,7 +641,7 @@ src/folly/SharedMutex.o: src/folly/SharedMutex.cpp.o
 
 # target to build an object file
 src/folly/SharedMutex.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/SharedMutex.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/SharedMutex.cpp.o
 .PHONY : src/folly/SharedMutex.cpp.o
 
 src/folly/SharedMutex.i: src/folly/SharedMutex.cpp.i
@@ -649,7 +649,7 @@ src/folly/SharedMutex.i: src/folly/SharedMutex.cpp.i
 
 # target to preprocess a source file
 src/folly/SharedMutex.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/SharedMutex.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/SharedMutex.cpp.i
 .PHONY : src/folly/SharedMutex.cpp.i
 
 src/folly/SharedMutex.s: src/folly/SharedMutex.cpp.s
@@ -657,7 +657,7 @@ src/folly/SharedMutex.s: src/folly/SharedMutex.cpp.s
 
 # target to generate assembly for a file
 src/folly/SharedMutex.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/SharedMutex.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/SharedMutex.cpp.s
 .PHONY : src/folly/SharedMutex.cpp.s
 
 src/folly/Singleton.o: src/folly/Singleton.cpp.o
@@ -665,7 +665,7 @@ src/folly/Singleton.o: src/folly/Singleton.cpp.o
 
 # target to build an object file
 src/folly/Singleton.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Singleton.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Singleton.cpp.o
 .PHONY : src/folly/Singleton.cpp.o
 
 src/folly/Singleton.i: src/folly/Singleton.cpp.i
@@ -673,7 +673,7 @@ src/folly/Singleton.i: src/folly/Singleton.cpp.i
 
 # target to preprocess a source file
 src/folly/Singleton.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Singleton.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Singleton.cpp.i
 .PHONY : src/folly/Singleton.cpp.i
 
 src/folly/Singleton.s: src/folly/Singleton.cpp.s
@@ -681,7 +681,7 @@ src/folly/Singleton.s: src/folly/Singleton.cpp.s
 
 # target to generate assembly for a file
 src/folly/Singleton.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Singleton.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Singleton.cpp.s
 .PHONY : src/folly/Singleton.cpp.s
 
 src/folly/SingletonVault_c.o: src/folly/SingletonVault_c.cpp.o
@@ -689,7 +689,7 @@ src/folly/SingletonVault_c.o: src/folly/SingletonVault_c.cpp.o
 
 # target to build an object file
 src/folly/SingletonVault_c.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/SingletonVault_c.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/SingletonVault_c.cpp.o
 .PHONY : src/folly/SingletonVault_c.cpp.o
 
 src/folly/SingletonVault_c.i: src/folly/SingletonVault_c.cpp.i
@@ -697,7 +697,7 @@ src/folly/SingletonVault_c.i: src/folly/SingletonVault_c.cpp.i
 
 # target to preprocess a source file
 src/folly/SingletonVault_c.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/SingletonVault_c.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/SingletonVault_c.cpp.i
 .PHONY : src/folly/SingletonVault_c.cpp.i
 
 src/folly/SingletonVault_c.s: src/folly/SingletonVault_c.cpp.s
@@ -705,7 +705,7 @@ src/folly/SingletonVault_c.s: src/folly/SingletonVault_c.cpp.s
 
 # target to generate assembly for a file
 src/folly/SingletonVault_c.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/SingletonVault_c.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/SingletonVault_c.cpp.s
 .PHONY : src/folly/SingletonVault_c.cpp.s
 
 src/folly/SocketAddress.o: src/folly/SocketAddress.cpp.o
@@ -713,7 +713,7 @@ src/folly/SocketAddress.o: src/folly/SocketAddress.cpp.o
 
 # target to build an object file
 src/folly/SocketAddress.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/SocketAddress.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/SocketAddress.cpp.o
 .PHONY : src/folly/SocketAddress.cpp.o
 
 src/folly/SocketAddress.i: src/folly/SocketAddress.cpp.i
@@ -721,7 +721,7 @@ src/folly/SocketAddress.i: src/folly/SocketAddress.cpp.i
 
 # target to preprocess a source file
 src/folly/SocketAddress.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/SocketAddress.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/SocketAddress.cpp.i
 .PHONY : src/folly/SocketAddress.cpp.i
 
 src/folly/SocketAddress.s: src/folly/SocketAddress.cpp.s
@@ -729,7 +729,7 @@ src/folly/SocketAddress.s: src/folly/SocketAddress.cpp.s
 
 # target to generate assembly for a file
 src/folly/SocketAddress.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/SocketAddress.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/SocketAddress.cpp.s
 .PHONY : src/folly/SocketAddress.cpp.s
 
 src/folly/SpookyHashV1.o: src/folly/SpookyHashV1.cpp.o
@@ -737,7 +737,7 @@ src/folly/SpookyHashV1.o: src/folly/SpookyHashV1.cpp.o
 
 # target to build an object file
 src/folly/SpookyHashV1.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/SpookyHashV1.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/SpookyHashV1.cpp.o
 .PHONY : src/folly/SpookyHashV1.cpp.o
 
 src/folly/SpookyHashV1.i: src/folly/SpookyHashV1.cpp.i
@@ -745,7 +745,7 @@ src/folly/SpookyHashV1.i: src/folly/SpookyHashV1.cpp.i
 
 # target to preprocess a source file
 src/folly/SpookyHashV1.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/SpookyHashV1.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/SpookyHashV1.cpp.i
 .PHONY : src/folly/SpookyHashV1.cpp.i
 
 src/folly/SpookyHashV1.s: src/folly/SpookyHashV1.cpp.s
@@ -753,7 +753,7 @@ src/folly/SpookyHashV1.s: src/folly/SpookyHashV1.cpp.s
 
 # target to generate assembly for a file
 src/folly/SpookyHashV1.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/SpookyHashV1.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/SpookyHashV1.cpp.s
 .PHONY : src/folly/SpookyHashV1.cpp.s
 
 src/folly/SpookyHashV2.o: src/folly/SpookyHashV2.cpp.o
@@ -761,7 +761,7 @@ src/folly/SpookyHashV2.o: src/folly/SpookyHashV2.cpp.o
 
 # target to build an object file
 src/folly/SpookyHashV2.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/SpookyHashV2.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/SpookyHashV2.cpp.o
 .PHONY : src/folly/SpookyHashV2.cpp.o
 
 src/folly/SpookyHashV2.i: src/folly/SpookyHashV2.cpp.i
@@ -769,7 +769,7 @@ src/folly/SpookyHashV2.i: src/folly/SpookyHashV2.cpp.i
 
 # target to preprocess a source file
 src/folly/SpookyHashV2.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/SpookyHashV2.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/SpookyHashV2.cpp.i
 .PHONY : src/folly/SpookyHashV2.cpp.i
 
 src/folly/SpookyHashV2.s: src/folly/SpookyHashV2.cpp.s
@@ -777,7 +777,7 @@ src/folly/SpookyHashV2.s: src/folly/SpookyHashV2.cpp.s
 
 # target to generate assembly for a file
 src/folly/SpookyHashV2.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/SpookyHashV2.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/SpookyHashV2.cpp.s
 .PHONY : src/folly/SpookyHashV2.cpp.s
 
 src/folly/String.o: src/folly/String.cpp.o
@@ -785,7 +785,7 @@ src/folly/String.o: src/folly/String.cpp.o
 
 # target to build an object file
 src/folly/String.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/String.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/String.cpp.o
 .PHONY : src/folly/String.cpp.o
 
 src/folly/String.i: src/folly/String.cpp.i
@@ -793,7 +793,7 @@ src/folly/String.i: src/folly/String.cpp.i
 
 # target to preprocess a source file
 src/folly/String.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/String.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/String.cpp.i
 .PHONY : src/folly/String.cpp.i
 
 src/folly/String.s: src/folly/String.cpp.s
@@ -801,7 +801,7 @@ src/folly/String.s: src/folly/String.cpp.s
 
 # target to generate assembly for a file
 src/folly/String.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/String.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/String.cpp.s
 .PHONY : src/folly/String.cpp.s
 
 src/folly/StringBase.o: src/folly/StringBase.cpp.o
@@ -809,7 +809,7 @@ src/folly/StringBase.o: src/folly/StringBase.cpp.o
 
 # target to build an object file
 src/folly/StringBase.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/StringBase.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/StringBase.cpp.o
 .PHONY : src/folly/StringBase.cpp.o
 
 src/folly/StringBase.i: src/folly/StringBase.cpp.i
@@ -817,7 +817,7 @@ src/folly/StringBase.i: src/folly/StringBase.cpp.i
 
 # target to preprocess a source file
 src/folly/StringBase.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/StringBase.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/StringBase.cpp.i
 .PHONY : src/folly/StringBase.cpp.i
 
 src/folly/StringBase.s: src/folly/StringBase.cpp.s
@@ -825,7 +825,7 @@ src/folly/StringBase.s: src/folly/StringBase.cpp.s
 
 # target to generate assembly for a file
 src/folly/StringBase.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/StringBase.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/StringBase.cpp.s
 .PHONY : src/folly/StringBase.cpp.s
 
 src/folly/Subprocess.o: src/folly/Subprocess.cpp.o
@@ -833,7 +833,7 @@ src/folly/Subprocess.o: src/folly/Subprocess.cpp.o
 
 # target to build an object file
 src/folly/Subprocess.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Subprocess.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Subprocess.cpp.o
 .PHONY : src/folly/Subprocess.cpp.o
 
 src/folly/Subprocess.i: src/folly/Subprocess.cpp.i
@@ -841,7 +841,7 @@ src/folly/Subprocess.i: src/folly/Subprocess.cpp.i
 
 # target to preprocess a source file
 src/folly/Subprocess.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Subprocess.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Subprocess.cpp.i
 .PHONY : src/folly/Subprocess.cpp.i
 
 src/folly/Subprocess.s: src/folly/Subprocess.cpp.s
@@ -849,7 +849,7 @@ src/folly/Subprocess.s: src/folly/Subprocess.cpp.s
 
 # target to generate assembly for a file
 src/folly/Subprocess.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Subprocess.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Subprocess.cpp.s
 .PHONY : src/folly/Subprocess.cpp.s
 
 src/folly/ThreadCachedArena.o: src/folly/ThreadCachedArena.cpp.o
@@ -857,7 +857,7 @@ src/folly/ThreadCachedArena.o: src/folly/ThreadCachedArena.cpp.o
 
 # target to build an object file
 src/folly/ThreadCachedArena.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/ThreadCachedArena.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/ThreadCachedArena.cpp.o
 .PHONY : src/folly/ThreadCachedArena.cpp.o
 
 src/folly/ThreadCachedArena.i: src/folly/ThreadCachedArena.cpp.i
@@ -865,7 +865,7 @@ src/folly/ThreadCachedArena.i: src/folly/ThreadCachedArena.cpp.i
 
 # target to preprocess a source file
 src/folly/ThreadCachedArena.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/ThreadCachedArena.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/ThreadCachedArena.cpp.i
 .PHONY : src/folly/ThreadCachedArena.cpp.i
 
 src/folly/ThreadCachedArena.s: src/folly/ThreadCachedArena.cpp.s
@@ -873,7 +873,7 @@ src/folly/ThreadCachedArena.s: src/folly/ThreadCachedArena.cpp.s
 
 # target to generate assembly for a file
 src/folly/ThreadCachedArena.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/ThreadCachedArena.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/ThreadCachedArena.cpp.s
 .PHONY : src/folly/ThreadCachedArena.cpp.s
 
 src/folly/TimeoutQueue.o: src/folly/TimeoutQueue.cpp.o
@@ -881,7 +881,7 @@ src/folly/TimeoutQueue.o: src/folly/TimeoutQueue.cpp.o
 
 # target to build an object file
 src/folly/TimeoutQueue.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/TimeoutQueue.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/TimeoutQueue.cpp.o
 .PHONY : src/folly/TimeoutQueue.cpp.o
 
 src/folly/TimeoutQueue.i: src/folly/TimeoutQueue.cpp.i
@@ -889,7 +889,7 @@ src/folly/TimeoutQueue.i: src/folly/TimeoutQueue.cpp.i
 
 # target to preprocess a source file
 src/folly/TimeoutQueue.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/TimeoutQueue.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/TimeoutQueue.cpp.i
 .PHONY : src/folly/TimeoutQueue.cpp.i
 
 src/folly/TimeoutQueue.s: src/folly/TimeoutQueue.cpp.s
@@ -897,7 +897,7 @@ src/folly/TimeoutQueue.s: src/folly/TimeoutQueue.cpp.s
 
 # target to generate assembly for a file
 src/folly/TimeoutQueue.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/TimeoutQueue.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/TimeoutQueue.cpp.s
 .PHONY : src/folly/TimeoutQueue.cpp.s
 
 src/folly/Unicode.o: src/folly/Unicode.cpp.o
@@ -905,7 +905,7 @@ src/folly/Unicode.o: src/folly/Unicode.cpp.o
 
 # target to build an object file
 src/folly/Unicode.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Unicode.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Unicode.cpp.o
 .PHONY : src/folly/Unicode.cpp.o
 
 src/folly/Unicode.i: src/folly/Unicode.cpp.i
@@ -913,7 +913,7 @@ src/folly/Unicode.i: src/folly/Unicode.cpp.i
 
 # target to preprocess a source file
 src/folly/Unicode.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Unicode.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Unicode.cpp.i
 .PHONY : src/folly/Unicode.cpp.i
 
 src/folly/Unicode.s: src/folly/Unicode.cpp.s
@@ -921,7 +921,7 @@ src/folly/Unicode.s: src/folly/Unicode.cpp.s
 
 # target to generate assembly for a file
 src/folly/Unicode.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Unicode.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Unicode.cpp.s
 .PHONY : src/folly/Unicode.cpp.s
 
 src/folly/Uri.o: src/folly/Uri.cpp.o
@@ -929,7 +929,7 @@ src/folly/Uri.o: src/folly/Uri.cpp.o
 
 # target to build an object file
 src/folly/Uri.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Uri.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Uri.cpp.o
 .PHONY : src/folly/Uri.cpp.o
 
 src/folly/Uri.i: src/folly/Uri.cpp.i
@@ -937,7 +937,7 @@ src/folly/Uri.i: src/folly/Uri.cpp.i
 
 # target to preprocess a source file
 src/folly/Uri.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Uri.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Uri.cpp.i
 .PHONY : src/folly/Uri.cpp.i
 
 src/folly/Uri.s: src/folly/Uri.cpp.s
@@ -945,7 +945,7 @@ src/folly/Uri.s: src/folly/Uri.cpp.s
 
 # target to generate assembly for a file
 src/folly/Uri.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Uri.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Uri.cpp.s
 .PHONY : src/folly/Uri.cpp.s
 
 src/folly/Version.o: src/folly/Version.cpp.o
@@ -953,7 +953,7 @@ src/folly/Version.o: src/folly/Version.cpp.o
 
 # target to build an object file
 src/folly/Version.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Version.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Version.cpp.o
 .PHONY : src/folly/Version.cpp.o
 
 src/folly/Version.i: src/folly/Version.cpp.i
@@ -961,7 +961,7 @@ src/folly/Version.i: src/folly/Version.cpp.i
 
 # target to preprocess a source file
 src/folly/Version.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Version.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Version.cpp.i
 .PHONY : src/folly/Version.cpp.i
 
 src/folly/Version.s: src/folly/Version.cpp.s
@@ -969,7 +969,7 @@ src/folly/Version.s: src/folly/Version.cpp.s
 
 # target to generate assembly for a file
 src/folly/Version.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Version.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/Version.cpp.s
 .PHONY : src/folly/Version.cpp.s
 
 src/folly/detail/CacheLocality.o: src/folly/detail/CacheLocality.cpp.o
@@ -977,7 +977,7 @@ src/folly/detail/CacheLocality.o: src/folly/detail/CacheLocality.cpp.o
 
 # target to build an object file
 src/folly/detail/CacheLocality.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/detail/CacheLocality.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/detail/CacheLocality.cpp.o
 .PHONY : src/folly/detail/CacheLocality.cpp.o
 
 src/folly/detail/CacheLocality.i: src/folly/detail/CacheLocality.cpp.i
@@ -985,7 +985,7 @@ src/folly/detail/CacheLocality.i: src/folly/detail/CacheLocality.cpp.i
 
 # target to preprocess a source file
 src/folly/detail/CacheLocality.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/detail/CacheLocality.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/detail/CacheLocality.cpp.i
 .PHONY : src/folly/detail/CacheLocality.cpp.i
 
 src/folly/detail/CacheLocality.s: src/folly/detail/CacheLocality.cpp.s
@@ -993,7 +993,7 @@ src/folly/detail/CacheLocality.s: src/folly/detail/CacheLocality.cpp.s
 
 # target to generate assembly for a file
 src/folly/detail/CacheLocality.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/detail/CacheLocality.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/detail/CacheLocality.cpp.s
 .PHONY : src/folly/detail/CacheLocality.cpp.s
 
 src/folly/detail/Futex.o: src/folly/detail/Futex.cpp.o
@@ -1001,7 +1001,7 @@ src/folly/detail/Futex.o: src/folly/detail/Futex.cpp.o
 
 # target to build an object file
 src/folly/detail/Futex.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/detail/Futex.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/detail/Futex.cpp.o
 .PHONY : src/folly/detail/Futex.cpp.o
 
 src/folly/detail/Futex.i: src/folly/detail/Futex.cpp.i
@@ -1009,7 +1009,7 @@ src/folly/detail/Futex.i: src/folly/detail/Futex.cpp.i
 
 # target to preprocess a source file
 src/folly/detail/Futex.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/detail/Futex.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/detail/Futex.cpp.i
 .PHONY : src/folly/detail/Futex.cpp.i
 
 src/folly/detail/Futex.s: src/folly/detail/Futex.cpp.s
@@ -1017,7 +1017,7 @@ src/folly/detail/Futex.s: src/folly/detail/Futex.cpp.s
 
 # target to generate assembly for a file
 src/folly/detail/Futex.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/detail/Futex.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/detail/Futex.cpp.s
 .PHONY : src/folly/detail/Futex.cpp.s
 
 src/folly/detail/MallocImpl.o: src/folly/detail/MallocImpl.cpp.o
@@ -1025,7 +1025,7 @@ src/folly/detail/MallocImpl.o: src/folly/detail/MallocImpl.cpp.o
 
 # target to build an object file
 src/folly/detail/MallocImpl.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/detail/MallocImpl.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/detail/MallocImpl.cpp.o
 .PHONY : src/folly/detail/MallocImpl.cpp.o
 
 src/folly/detail/MallocImpl.i: src/folly/detail/MallocImpl.cpp.i
@@ -1033,7 +1033,7 @@ src/folly/detail/MallocImpl.i: src/folly/detail/MallocImpl.cpp.i
 
 # target to preprocess a source file
 src/folly/detail/MallocImpl.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/detail/MallocImpl.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/detail/MallocImpl.cpp.i
 .PHONY : src/folly/detail/MallocImpl.cpp.i
 
 src/folly/detail/MallocImpl.s: src/folly/detail/MallocImpl.cpp.s
@@ -1041,7 +1041,7 @@ src/folly/detail/MallocImpl.s: src/folly/detail/MallocImpl.cpp.s
 
 # target to generate assembly for a file
 src/folly/detail/MallocImpl.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/detail/MallocImpl.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/detail/MallocImpl.cpp.s
 .PHONY : src/folly/detail/MallocImpl.cpp.s
 
 src/folly/detail/MemoryIdler.o: src/folly/detail/MemoryIdler.cpp.o
@@ -1049,7 +1049,7 @@ src/folly/detail/MemoryIdler.o: src/folly/detail/MemoryIdler.cpp.o
 
 # target to build an object file
 src/folly/detail/MemoryIdler.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/detail/MemoryIdler.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/detail/MemoryIdler.cpp.o
 .PHONY : src/folly/detail/MemoryIdler.cpp.o
 
 src/folly/detail/MemoryIdler.i: src/folly/detail/MemoryIdler.cpp.i
@@ -1057,7 +1057,7 @@ src/folly/detail/MemoryIdler.i: src/folly/detail/MemoryIdler.cpp.i
 
 # target to preprocess a source file
 src/folly/detail/MemoryIdler.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/detail/MemoryIdler.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/detail/MemoryIdler.cpp.i
 .PHONY : src/folly/detail/MemoryIdler.cpp.i
 
 src/folly/detail/MemoryIdler.s: src/folly/detail/MemoryIdler.cpp.s
@@ -1065,7 +1065,7 @@ src/folly/detail/MemoryIdler.s: src/folly/detail/MemoryIdler.cpp.s
 
 # target to generate assembly for a file
 src/folly/detail/MemoryIdler.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/detail/MemoryIdler.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/detail/MemoryIdler.cpp.s
 .PHONY : src/folly/detail/MemoryIdler.cpp.s
 
 src/folly/detail/RangeCommon.o: src/folly/detail/RangeCommon.cpp.o
@@ -1073,7 +1073,7 @@ src/folly/detail/RangeCommon.o: src/folly/detail/RangeCommon.cpp.o
 
 # target to build an object file
 src/folly/detail/RangeCommon.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/detail/RangeCommon.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/detail/RangeCommon.cpp.o
 .PHONY : src/folly/detail/RangeCommon.cpp.o
 
 src/folly/detail/RangeCommon.i: src/folly/detail/RangeCommon.cpp.i
@@ -1081,7 +1081,7 @@ src/folly/detail/RangeCommon.i: src/folly/detail/RangeCommon.cpp.i
 
 # target to preprocess a source file
 src/folly/detail/RangeCommon.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/detail/RangeCommon.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/detail/RangeCommon.cpp.i
 .PHONY : src/folly/detail/RangeCommon.cpp.i
 
 src/folly/detail/RangeCommon.s: src/folly/detail/RangeCommon.cpp.s
@@ -1089,7 +1089,7 @@ src/folly/detail/RangeCommon.s: src/folly/detail/RangeCommon.cpp.s
 
 # target to generate assembly for a file
 src/folly/detail/RangeCommon.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/detail/RangeCommon.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/detail/RangeCommon.cpp.s
 .PHONY : src/folly/detail/RangeCommon.cpp.s
 
 src/folly/detail/RangeSse42.o: src/folly/detail/RangeSse42.cpp.o
@@ -1097,7 +1097,7 @@ src/folly/detail/RangeSse42.o: src/folly/detail/RangeSse42.cpp.o
 
 # target to build an object file
 src/folly/detail/RangeSse42.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/detail/RangeSse42.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/detail/RangeSse42.cpp.o
 .PHONY : src/folly/detail/RangeSse42.cpp.o
 
 src/folly/detail/RangeSse42.i: src/folly/detail/RangeSse42.cpp.i
@@ -1105,7 +1105,7 @@ src/folly/detail/RangeSse42.i: src/folly/detail/RangeSse42.cpp.i
 
 # target to preprocess a source file
 src/folly/detail/RangeSse42.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/detail/RangeSse42.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/detail/RangeSse42.cpp.i
 .PHONY : src/folly/detail/RangeSse42.cpp.i
 
 src/folly/detail/RangeSse42.s: src/folly/detail/RangeSse42.cpp.s
@@ -1113,15 +1113,39 @@ src/folly/detail/RangeSse42.s: src/folly/detail/RangeSse42.cpp.s
 
 # target to generate assembly for a file
 src/folly/detail/RangeSse42.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/detail/RangeSse42.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/detail/RangeSse42.cpp.s
 .PHONY : src/folly/detail/RangeSse42.cpp.s
+
+src/folly/detail/ThreadLocalDetail.o: src/folly/detail/ThreadLocalDetail.cpp.o
+.PHONY : src/folly/detail/ThreadLocalDetail.o
+
+# target to build an object file
+src/folly/detail/ThreadLocalDetail.cpp.o:
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.o
+.PHONY : src/folly/detail/ThreadLocalDetail.cpp.o
+
+src/folly/detail/ThreadLocalDetail.i: src/folly/detail/ThreadLocalDetail.cpp.i
+.PHONY : src/folly/detail/ThreadLocalDetail.i
+
+# target to preprocess a source file
+src/folly/detail/ThreadLocalDetail.cpp.i:
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.i
+.PHONY : src/folly/detail/ThreadLocalDetail.cpp.i
+
+src/folly/detail/ThreadLocalDetail.s: src/folly/detail/ThreadLocalDetail.cpp.s
+.PHONY : src/folly/detail/ThreadLocalDetail.s
+
+# target to generate assembly for a file
+src/folly/detail/ThreadLocalDetail.cpp.s:
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/detail/ThreadLocalDetail.cpp.s
+.PHONY : src/folly/detail/ThreadLocalDetail.cpp.s
 
 src/folly/dynamic.o: src/folly/dynamic.cpp.o
 .PHONY : src/folly/dynamic.o
 
 # target to build an object file
 src/folly/dynamic.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/dynamic.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/dynamic.cpp.o
 .PHONY : src/folly/dynamic.cpp.o
 
 src/folly/dynamic.i: src/folly/dynamic.cpp.i
@@ -1129,7 +1153,7 @@ src/folly/dynamic.i: src/folly/dynamic.cpp.i
 
 # target to preprocess a source file
 src/folly/dynamic.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/dynamic.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/dynamic.cpp.i
 .PHONY : src/folly/dynamic.cpp.i
 
 src/folly/dynamic.s: src/folly/dynamic.cpp.s
@@ -1137,7 +1161,7 @@ src/folly/dynamic.s: src/folly/dynamic.cpp.s
 
 # target to generate assembly for a file
 src/folly/dynamic.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/dynamic.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/dynamic.cpp.s
 .PHONY : src/folly/dynamic.cpp.s
 
 src/folly/experimental/FunctionScheduler.o: src/folly/experimental/FunctionScheduler.cpp.o
@@ -1145,7 +1169,7 @@ src/folly/experimental/FunctionScheduler.o: src/folly/experimental/FunctionSched
 
 # target to build an object file
 src/folly/experimental/FunctionScheduler.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.cpp.o
 .PHONY : src/folly/experimental/FunctionScheduler.cpp.o
 
 src/folly/experimental/FunctionScheduler.i: src/folly/experimental/FunctionScheduler.cpp.i
@@ -1153,7 +1177,7 @@ src/folly/experimental/FunctionScheduler.i: src/folly/experimental/FunctionSched
 
 # target to preprocess a source file
 src/folly/experimental/FunctionScheduler.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.cpp.i
 .PHONY : src/folly/experimental/FunctionScheduler.cpp.i
 
 src/folly/experimental/FunctionScheduler.s: src/folly/experimental/FunctionScheduler.cpp.s
@@ -1161,7 +1185,7 @@ src/folly/experimental/FunctionScheduler.s: src/folly/experimental/FunctionSched
 
 # target to generate assembly for a file
 src/folly/experimental/FunctionScheduler.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/FunctionScheduler.cpp.s
 .PHONY : src/folly/experimental/FunctionScheduler.cpp.s
 
 src/folly/experimental/JSONSchema.o: src/folly/experimental/JSONSchema.cpp.o
@@ -1169,7 +1193,7 @@ src/folly/experimental/JSONSchema.o: src/folly/experimental/JSONSchema.cpp.o
 
 # target to build an object file
 src/folly/experimental/JSONSchema.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.o
 .PHONY : src/folly/experimental/JSONSchema.cpp.o
 
 src/folly/experimental/JSONSchema.i: src/folly/experimental/JSONSchema.cpp.i
@@ -1177,7 +1201,7 @@ src/folly/experimental/JSONSchema.i: src/folly/experimental/JSONSchema.cpp.i
 
 # target to preprocess a source file
 src/folly/experimental/JSONSchema.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.i
 .PHONY : src/folly/experimental/JSONSchema.cpp.i
 
 src/folly/experimental/JSONSchema.s: src/folly/experimental/JSONSchema.cpp.s
@@ -1185,7 +1209,7 @@ src/folly/experimental/JSONSchema.s: src/folly/experimental/JSONSchema.cpp.s
 
 # target to generate assembly for a file
 src/folly/experimental/JSONSchema.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/JSONSchema.cpp.s
 .PHONY : src/folly/experimental/JSONSchema.cpp.s
 
 src/folly/experimental/NestedCommandLineApp.o: src/folly/experimental/NestedCommandLineApp.cpp.o
@@ -1193,7 +1217,7 @@ src/folly/experimental/NestedCommandLineApp.o: src/folly/experimental/NestedComm
 
 # target to build an object file
 src/folly/experimental/NestedCommandLineApp.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/NestedCommandLineApp.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/NestedCommandLineApp.cpp.o
 .PHONY : src/folly/experimental/NestedCommandLineApp.cpp.o
 
 src/folly/experimental/NestedCommandLineApp.i: src/folly/experimental/NestedCommandLineApp.cpp.i
@@ -1201,7 +1225,7 @@ src/folly/experimental/NestedCommandLineApp.i: src/folly/experimental/NestedComm
 
 # target to preprocess a source file
 src/folly/experimental/NestedCommandLineApp.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/NestedCommandLineApp.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/NestedCommandLineApp.cpp.i
 .PHONY : src/folly/experimental/NestedCommandLineApp.cpp.i
 
 src/folly/experimental/NestedCommandLineApp.s: src/folly/experimental/NestedCommandLineApp.cpp.s
@@ -1209,7 +1233,7 @@ src/folly/experimental/NestedCommandLineApp.s: src/folly/experimental/NestedComm
 
 # target to generate assembly for a file
 src/folly/experimental/NestedCommandLineApp.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/NestedCommandLineApp.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/NestedCommandLineApp.cpp.s
 .PHONY : src/folly/experimental/NestedCommandLineApp.cpp.s
 
 src/folly/experimental/Select64.o: src/folly/experimental/Select64.cpp.o
@@ -1217,7 +1241,7 @@ src/folly/experimental/Select64.o: src/folly/experimental/Select64.cpp.o
 
 # target to build an object file
 src/folly/experimental/Select64.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/Select64.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/Select64.cpp.o
 .PHONY : src/folly/experimental/Select64.cpp.o
 
 src/folly/experimental/Select64.i: src/folly/experimental/Select64.cpp.i
@@ -1225,7 +1249,7 @@ src/folly/experimental/Select64.i: src/folly/experimental/Select64.cpp.i
 
 # target to preprocess a source file
 src/folly/experimental/Select64.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/Select64.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/Select64.cpp.i
 .PHONY : src/folly/experimental/Select64.cpp.i
 
 src/folly/experimental/Select64.s: src/folly/experimental/Select64.cpp.s
@@ -1233,7 +1257,7 @@ src/folly/experimental/Select64.s: src/folly/experimental/Select64.cpp.s
 
 # target to generate assembly for a file
 src/folly/experimental/Select64.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/Select64.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/Select64.cpp.s
 .PHONY : src/folly/experimental/Select64.cpp.s
 
 src/folly/experimental/fibers/Baton.o: src/folly/experimental/fibers/Baton.cpp.o
@@ -1241,7 +1265,7 @@ src/folly/experimental/fibers/Baton.o: src/folly/experimental/fibers/Baton.cpp.o
 
 # target to build an object file
 src/folly/experimental/fibers/Baton.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Baton.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Baton.cpp.o
 .PHONY : src/folly/experimental/fibers/Baton.cpp.o
 
 src/folly/experimental/fibers/Baton.i: src/folly/experimental/fibers/Baton.cpp.i
@@ -1249,7 +1273,7 @@ src/folly/experimental/fibers/Baton.i: src/folly/experimental/fibers/Baton.cpp.i
 
 # target to preprocess a source file
 src/folly/experimental/fibers/Baton.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Baton.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Baton.cpp.i
 .PHONY : src/folly/experimental/fibers/Baton.cpp.i
 
 src/folly/experimental/fibers/Baton.s: src/folly/experimental/fibers/Baton.cpp.s
@@ -1257,7 +1281,7 @@ src/folly/experimental/fibers/Baton.s: src/folly/experimental/fibers/Baton.cpp.s
 
 # target to generate assembly for a file
 src/folly/experimental/fibers/Baton.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Baton.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Baton.cpp.s
 .PHONY : src/folly/experimental/fibers/Baton.cpp.s
 
 src/folly/experimental/fibers/Fiber.o: src/folly/experimental/fibers/Fiber.cpp.o
@@ -1265,7 +1289,7 @@ src/folly/experimental/fibers/Fiber.o: src/folly/experimental/fibers/Fiber.cpp.o
 
 # target to build an object file
 src/folly/experimental/fibers/Fiber.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Fiber.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Fiber.cpp.o
 .PHONY : src/folly/experimental/fibers/Fiber.cpp.o
 
 src/folly/experimental/fibers/Fiber.i: src/folly/experimental/fibers/Fiber.cpp.i
@@ -1273,7 +1297,7 @@ src/folly/experimental/fibers/Fiber.i: src/folly/experimental/fibers/Fiber.cpp.i
 
 # target to preprocess a source file
 src/folly/experimental/fibers/Fiber.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Fiber.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Fiber.cpp.i
 .PHONY : src/folly/experimental/fibers/Fiber.cpp.i
 
 src/folly/experimental/fibers/Fiber.s: src/folly/experimental/fibers/Fiber.cpp.s
@@ -1281,7 +1305,7 @@ src/folly/experimental/fibers/Fiber.s: src/folly/experimental/fibers/Fiber.cpp.s
 
 # target to generate assembly for a file
 src/folly/experimental/fibers/Fiber.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Fiber.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/Fiber.cpp.s
 .PHONY : src/folly/experimental/fibers/Fiber.cpp.s
 
 src/folly/experimental/fibers/FiberManager.o: src/folly/experimental/fibers/FiberManager.cpp.o
@@ -1289,7 +1313,7 @@ src/folly/experimental/fibers/FiberManager.o: src/folly/experimental/fibers/Fibe
 
 # target to build an object file
 src/folly/experimental/fibers/FiberManager.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManager.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManager.cpp.o
 .PHONY : src/folly/experimental/fibers/FiberManager.cpp.o
 
 src/folly/experimental/fibers/FiberManager.i: src/folly/experimental/fibers/FiberManager.cpp.i
@@ -1297,7 +1321,7 @@ src/folly/experimental/fibers/FiberManager.i: src/folly/experimental/fibers/Fibe
 
 # target to preprocess a source file
 src/folly/experimental/fibers/FiberManager.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManager.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManager.cpp.i
 .PHONY : src/folly/experimental/fibers/FiberManager.cpp.i
 
 src/folly/experimental/fibers/FiberManager.s: src/folly/experimental/fibers/FiberManager.cpp.s
@@ -1305,7 +1329,7 @@ src/folly/experimental/fibers/FiberManager.s: src/folly/experimental/fibers/Fibe
 
 # target to generate assembly for a file
 src/folly/experimental/fibers/FiberManager.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManager.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManager.cpp.s
 .PHONY : src/folly/experimental/fibers/FiberManager.cpp.s
 
 src/folly/experimental/fibers/FiberManagerMap.o: src/folly/experimental/fibers/FiberManagerMap.cpp.o
@@ -1313,7 +1337,7 @@ src/folly/experimental/fibers/FiberManagerMap.o: src/folly/experimental/fibers/F
 
 # target to build an object file
 src/folly/experimental/fibers/FiberManagerMap.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManagerMap.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManagerMap.cpp.o
 .PHONY : src/folly/experimental/fibers/FiberManagerMap.cpp.o
 
 src/folly/experimental/fibers/FiberManagerMap.i: src/folly/experimental/fibers/FiberManagerMap.cpp.i
@@ -1321,7 +1345,7 @@ src/folly/experimental/fibers/FiberManagerMap.i: src/folly/experimental/fibers/F
 
 # target to preprocess a source file
 src/folly/experimental/fibers/FiberManagerMap.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManagerMap.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManagerMap.cpp.i
 .PHONY : src/folly/experimental/fibers/FiberManagerMap.cpp.i
 
 src/folly/experimental/fibers/FiberManagerMap.s: src/folly/experimental/fibers/FiberManagerMap.cpp.s
@@ -1329,7 +1353,7 @@ src/folly/experimental/fibers/FiberManagerMap.s: src/folly/experimental/fibers/F
 
 # target to generate assembly for a file
 src/folly/experimental/fibers/FiberManagerMap.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManagerMap.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/FiberManagerMap.cpp.s
 .PHONY : src/folly/experimental/fibers/FiberManagerMap.cpp.s
 
 src/folly/experimental/fibers/GuardPageAllocator.o: src/folly/experimental/fibers/GuardPageAllocator.cpp.o
@@ -1337,7 +1361,7 @@ src/folly/experimental/fibers/GuardPageAllocator.o: src/folly/experimental/fiber
 
 # target to build an object file
 src/folly/experimental/fibers/GuardPageAllocator.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/GuardPageAllocator.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/GuardPageAllocator.cpp.o
 .PHONY : src/folly/experimental/fibers/GuardPageAllocator.cpp.o
 
 src/folly/experimental/fibers/GuardPageAllocator.i: src/folly/experimental/fibers/GuardPageAllocator.cpp.i
@@ -1345,7 +1369,7 @@ src/folly/experimental/fibers/GuardPageAllocator.i: src/folly/experimental/fiber
 
 # target to preprocess a source file
 src/folly/experimental/fibers/GuardPageAllocator.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/GuardPageAllocator.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/GuardPageAllocator.cpp.i
 .PHONY : src/folly/experimental/fibers/GuardPageAllocator.cpp.i
 
 src/folly/experimental/fibers/GuardPageAllocator.s: src/folly/experimental/fibers/GuardPageAllocator.cpp.s
@@ -1353,7 +1377,7 @@ src/folly/experimental/fibers/GuardPageAllocator.s: src/folly/experimental/fiber
 
 # target to generate assembly for a file
 src/folly/experimental/fibers/GuardPageAllocator.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/GuardPageAllocator.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/GuardPageAllocator.cpp.s
 .PHONY : src/folly/experimental/fibers/GuardPageAllocator.cpp.s
 
 src/folly/experimental/fibers/TimeoutController.o: src/folly/experimental/fibers/TimeoutController.cpp.o
@@ -1361,7 +1385,7 @@ src/folly/experimental/fibers/TimeoutController.o: src/folly/experimental/fibers
 
 # target to build an object file
 src/folly/experimental/fibers/TimeoutController.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/TimeoutController.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/TimeoutController.cpp.o
 .PHONY : src/folly/experimental/fibers/TimeoutController.cpp.o
 
 src/folly/experimental/fibers/TimeoutController.i: src/folly/experimental/fibers/TimeoutController.cpp.i
@@ -1369,7 +1393,7 @@ src/folly/experimental/fibers/TimeoutController.i: src/folly/experimental/fibers
 
 # target to preprocess a source file
 src/folly/experimental/fibers/TimeoutController.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/TimeoutController.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/TimeoutController.cpp.i
 .PHONY : src/folly/experimental/fibers/TimeoutController.cpp.i
 
 src/folly/experimental/fibers/TimeoutController.s: src/folly/experimental/fibers/TimeoutController.cpp.s
@@ -1377,7 +1401,7 @@ src/folly/experimental/fibers/TimeoutController.s: src/folly/experimental/fibers
 
 # target to generate assembly for a file
 src/folly/experimental/fibers/TimeoutController.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/TimeoutController.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/fibers/TimeoutController.cpp.s
 .PHONY : src/folly/experimental/fibers/TimeoutController.cpp.s
 
 src/folly/experimental/io/FsUtil.o: src/folly/experimental/io/FsUtil.cpp.o
@@ -1385,7 +1409,7 @@ src/folly/experimental/io/FsUtil.o: src/folly/experimental/io/FsUtil.cpp.o
 
 # target to build an object file
 src/folly/experimental/io/FsUtil.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/io/FsUtil.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/io/FsUtil.cpp.o
 .PHONY : src/folly/experimental/io/FsUtil.cpp.o
 
 src/folly/experimental/io/FsUtil.i: src/folly/experimental/io/FsUtil.cpp.i
@@ -1393,7 +1417,7 @@ src/folly/experimental/io/FsUtil.i: src/folly/experimental/io/FsUtil.cpp.i
 
 # target to preprocess a source file
 src/folly/experimental/io/FsUtil.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/io/FsUtil.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/io/FsUtil.cpp.i
 .PHONY : src/folly/experimental/io/FsUtil.cpp.i
 
 src/folly/experimental/io/FsUtil.s: src/folly/experimental/io/FsUtil.cpp.s
@@ -1401,7 +1425,7 @@ src/folly/experimental/io/FsUtil.s: src/folly/experimental/io/FsUtil.cpp.s
 
 # target to generate assembly for a file
 src/folly/experimental/io/FsUtil.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/io/FsUtil.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/io/FsUtil.cpp.s
 .PHONY : src/folly/experimental/io/FsUtil.cpp.s
 
 src/folly/experimental/io/HugePages.o: src/folly/experimental/io/HugePages.cpp.o
@@ -1409,7 +1433,7 @@ src/folly/experimental/io/HugePages.o: src/folly/experimental/io/HugePages.cpp.o
 
 # target to build an object file
 src/folly/experimental/io/HugePages.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/io/HugePages.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/io/HugePages.cpp.o
 .PHONY : src/folly/experimental/io/HugePages.cpp.o
 
 src/folly/experimental/io/HugePages.i: src/folly/experimental/io/HugePages.cpp.i
@@ -1417,7 +1441,7 @@ src/folly/experimental/io/HugePages.i: src/folly/experimental/io/HugePages.cpp.i
 
 # target to preprocess a source file
 src/folly/experimental/io/HugePages.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/io/HugePages.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/io/HugePages.cpp.i
 .PHONY : src/folly/experimental/io/HugePages.cpp.i
 
 src/folly/experimental/io/HugePages.s: src/folly/experimental/io/HugePages.cpp.s
@@ -1425,7 +1449,7 @@ src/folly/experimental/io/HugePages.s: src/folly/experimental/io/HugePages.cpp.s
 
 # target to generate assembly for a file
 src/folly/experimental/io/HugePages.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/io/HugePages.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/io/HugePages.cpp.s
 .PHONY : src/folly/experimental/io/HugePages.cpp.s
 
 src/folly/experimental/symbolizer/Dwarf.o: src/folly/experimental/symbolizer/Dwarf.cpp.o
@@ -1433,7 +1457,7 @@ src/folly/experimental/symbolizer/Dwarf.o: src/folly/experimental/symbolizer/Dwa
 
 # target to build an object file
 src/folly/experimental/symbolizer/Dwarf.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Dwarf.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Dwarf.cpp.o
 .PHONY : src/folly/experimental/symbolizer/Dwarf.cpp.o
 
 src/folly/experimental/symbolizer/Dwarf.i: src/folly/experimental/symbolizer/Dwarf.cpp.i
@@ -1441,7 +1465,7 @@ src/folly/experimental/symbolizer/Dwarf.i: src/folly/experimental/symbolizer/Dwa
 
 # target to preprocess a source file
 src/folly/experimental/symbolizer/Dwarf.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Dwarf.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Dwarf.cpp.i
 .PHONY : src/folly/experimental/symbolizer/Dwarf.cpp.i
 
 src/folly/experimental/symbolizer/Dwarf.s: src/folly/experimental/symbolizer/Dwarf.cpp.s
@@ -1449,7 +1473,7 @@ src/folly/experimental/symbolizer/Dwarf.s: src/folly/experimental/symbolizer/Dwa
 
 # target to generate assembly for a file
 src/folly/experimental/symbolizer/Dwarf.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Dwarf.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Dwarf.cpp.s
 .PHONY : src/folly/experimental/symbolizer/Dwarf.cpp.s
 
 src/folly/experimental/symbolizer/Elf.o: src/folly/experimental/symbolizer/Elf.cpp.o
@@ -1457,7 +1481,7 @@ src/folly/experimental/symbolizer/Elf.o: src/folly/experimental/symbolizer/Elf.c
 
 # target to build an object file
 src/folly/experimental/symbolizer/Elf.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Elf.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Elf.cpp.o
 .PHONY : src/folly/experimental/symbolizer/Elf.cpp.o
 
 src/folly/experimental/symbolizer/Elf.i: src/folly/experimental/symbolizer/Elf.cpp.i
@@ -1465,7 +1489,7 @@ src/folly/experimental/symbolizer/Elf.i: src/folly/experimental/symbolizer/Elf.c
 
 # target to preprocess a source file
 src/folly/experimental/symbolizer/Elf.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Elf.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Elf.cpp.i
 .PHONY : src/folly/experimental/symbolizer/Elf.cpp.i
 
 src/folly/experimental/symbolizer/Elf.s: src/folly/experimental/symbolizer/Elf.cpp.s
@@ -1473,7 +1497,7 @@ src/folly/experimental/symbolizer/Elf.s: src/folly/experimental/symbolizer/Elf.c
 
 # target to generate assembly for a file
 src/folly/experimental/symbolizer/Elf.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Elf.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Elf.cpp.s
 .PHONY : src/folly/experimental/symbolizer/Elf.cpp.s
 
 src/folly/experimental/symbolizer/LineReader.o: src/folly/experimental/symbolizer/LineReader.cpp.o
@@ -1481,7 +1505,7 @@ src/folly/experimental/symbolizer/LineReader.o: src/folly/experimental/symbolize
 
 # target to build an object file
 src/folly/experimental/symbolizer/LineReader.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/LineReader.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/LineReader.cpp.o
 .PHONY : src/folly/experimental/symbolizer/LineReader.cpp.o
 
 src/folly/experimental/symbolizer/LineReader.i: src/folly/experimental/symbolizer/LineReader.cpp.i
@@ -1489,7 +1513,7 @@ src/folly/experimental/symbolizer/LineReader.i: src/folly/experimental/symbolize
 
 # target to preprocess a source file
 src/folly/experimental/symbolizer/LineReader.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/LineReader.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/LineReader.cpp.i
 .PHONY : src/folly/experimental/symbolizer/LineReader.cpp.i
 
 src/folly/experimental/symbolizer/LineReader.s: src/folly/experimental/symbolizer/LineReader.cpp.s
@@ -1497,7 +1521,7 @@ src/folly/experimental/symbolizer/LineReader.s: src/folly/experimental/symbolize
 
 # target to generate assembly for a file
 src/folly/experimental/symbolizer/LineReader.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/LineReader.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/LineReader.cpp.s
 .PHONY : src/folly/experimental/symbolizer/LineReader.cpp.s
 
 src/folly/experimental/symbolizer/Symbolizer.o: src/folly/experimental/symbolizer/Symbolizer.cpp.o
@@ -1505,7 +1529,7 @@ src/folly/experimental/symbolizer/Symbolizer.o: src/folly/experimental/symbolize
 
 # target to build an object file
 src/folly/experimental/symbolizer/Symbolizer.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Symbolizer.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Symbolizer.cpp.o
 .PHONY : src/folly/experimental/symbolizer/Symbolizer.cpp.o
 
 src/folly/experimental/symbolizer/Symbolizer.i: src/folly/experimental/symbolizer/Symbolizer.cpp.i
@@ -1513,7 +1537,7 @@ src/folly/experimental/symbolizer/Symbolizer.i: src/folly/experimental/symbolize
 
 # target to preprocess a source file
 src/folly/experimental/symbolizer/Symbolizer.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Symbolizer.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Symbolizer.cpp.i
 .PHONY : src/folly/experimental/symbolizer/Symbolizer.cpp.i
 
 src/folly/experimental/symbolizer/Symbolizer.s: src/folly/experimental/symbolizer/Symbolizer.cpp.s
@@ -1521,7 +1545,7 @@ src/folly/experimental/symbolizer/Symbolizer.s: src/folly/experimental/symbolize
 
 # target to generate assembly for a file
 src/folly/experimental/symbolizer/Symbolizer.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Symbolizer.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/experimental/symbolizer/Symbolizer.cpp.s
 .PHONY : src/folly/experimental/symbolizer/Symbolizer.cpp.s
 
 src/folly/futures/Barrier.o: src/folly/futures/Barrier.cpp.o
@@ -1529,7 +1553,7 @@ src/folly/futures/Barrier.o: src/folly/futures/Barrier.cpp.o
 
 # target to build an object file
 src/folly/futures/Barrier.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/Barrier.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/Barrier.cpp.o
 .PHONY : src/folly/futures/Barrier.cpp.o
 
 src/folly/futures/Barrier.i: src/folly/futures/Barrier.cpp.i
@@ -1537,7 +1561,7 @@ src/folly/futures/Barrier.i: src/folly/futures/Barrier.cpp.i
 
 # target to preprocess a source file
 src/folly/futures/Barrier.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/Barrier.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/Barrier.cpp.i
 .PHONY : src/folly/futures/Barrier.cpp.i
 
 src/folly/futures/Barrier.s: src/folly/futures/Barrier.cpp.s
@@ -1545,7 +1569,7 @@ src/folly/futures/Barrier.s: src/folly/futures/Barrier.cpp.s
 
 # target to generate assembly for a file
 src/folly/futures/Barrier.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/Barrier.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/Barrier.cpp.s
 .PHONY : src/folly/futures/Barrier.cpp.s
 
 src/folly/futures/Future.o: src/folly/futures/Future.cpp.o
@@ -1553,7 +1577,7 @@ src/folly/futures/Future.o: src/folly/futures/Future.cpp.o
 
 # target to build an object file
 src/folly/futures/Future.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/Future.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/Future.cpp.o
 .PHONY : src/folly/futures/Future.cpp.o
 
 src/folly/futures/Future.i: src/folly/futures/Future.cpp.i
@@ -1561,7 +1585,7 @@ src/folly/futures/Future.i: src/folly/futures/Future.cpp.i
 
 # target to preprocess a source file
 src/folly/futures/Future.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/Future.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/Future.cpp.i
 .PHONY : src/folly/futures/Future.cpp.i
 
 src/folly/futures/Future.s: src/folly/futures/Future.cpp.s
@@ -1569,7 +1593,7 @@ src/folly/futures/Future.s: src/folly/futures/Future.cpp.s
 
 # target to generate assembly for a file
 src/folly/futures/Future.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/Future.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/Future.cpp.s
 .PHONY : src/folly/futures/Future.cpp.s
 
 src/folly/futures/InlineExecutor.o: src/folly/futures/InlineExecutor.cpp.o
@@ -1577,7 +1601,7 @@ src/folly/futures/InlineExecutor.o: src/folly/futures/InlineExecutor.cpp.o
 
 # target to build an object file
 src/folly/futures/InlineExecutor.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/InlineExecutor.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/InlineExecutor.cpp.o
 .PHONY : src/folly/futures/InlineExecutor.cpp.o
 
 src/folly/futures/InlineExecutor.i: src/folly/futures/InlineExecutor.cpp.i
@@ -1585,7 +1609,7 @@ src/folly/futures/InlineExecutor.i: src/folly/futures/InlineExecutor.cpp.i
 
 # target to preprocess a source file
 src/folly/futures/InlineExecutor.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/InlineExecutor.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/InlineExecutor.cpp.i
 .PHONY : src/folly/futures/InlineExecutor.cpp.i
 
 src/folly/futures/InlineExecutor.s: src/folly/futures/InlineExecutor.cpp.s
@@ -1593,7 +1617,7 @@ src/folly/futures/InlineExecutor.s: src/folly/futures/InlineExecutor.cpp.s
 
 # target to generate assembly for a file
 src/folly/futures/InlineExecutor.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/InlineExecutor.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/InlineExecutor.cpp.s
 .PHONY : src/folly/futures/InlineExecutor.cpp.s
 
 src/folly/futures/ManualExecutor.o: src/folly/futures/ManualExecutor.cpp.o
@@ -1601,7 +1625,7 @@ src/folly/futures/ManualExecutor.o: src/folly/futures/ManualExecutor.cpp.o
 
 # target to build an object file
 src/folly/futures/ManualExecutor.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ManualExecutor.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ManualExecutor.cpp.o
 .PHONY : src/folly/futures/ManualExecutor.cpp.o
 
 src/folly/futures/ManualExecutor.i: src/folly/futures/ManualExecutor.cpp.i
@@ -1609,7 +1633,7 @@ src/folly/futures/ManualExecutor.i: src/folly/futures/ManualExecutor.cpp.i
 
 # target to preprocess a source file
 src/folly/futures/ManualExecutor.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ManualExecutor.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ManualExecutor.cpp.i
 .PHONY : src/folly/futures/ManualExecutor.cpp.i
 
 src/folly/futures/ManualExecutor.s: src/folly/futures/ManualExecutor.cpp.s
@@ -1617,7 +1641,7 @@ src/folly/futures/ManualExecutor.s: src/folly/futures/ManualExecutor.cpp.s
 
 # target to generate assembly for a file
 src/folly/futures/ManualExecutor.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ManualExecutor.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ManualExecutor.cpp.s
 .PHONY : src/folly/futures/ManualExecutor.cpp.s
 
 src/folly/futures/QueuedImmediateExecutor.o: src/folly/futures/QueuedImmediateExecutor.cpp.o
@@ -1625,7 +1649,7 @@ src/folly/futures/QueuedImmediateExecutor.o: src/folly/futures/QueuedImmediateEx
 
 # target to build an object file
 src/folly/futures/QueuedImmediateExecutor.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/QueuedImmediateExecutor.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/QueuedImmediateExecutor.cpp.o
 .PHONY : src/folly/futures/QueuedImmediateExecutor.cpp.o
 
 src/folly/futures/QueuedImmediateExecutor.i: src/folly/futures/QueuedImmediateExecutor.cpp.i
@@ -1633,7 +1657,7 @@ src/folly/futures/QueuedImmediateExecutor.i: src/folly/futures/QueuedImmediateEx
 
 # target to preprocess a source file
 src/folly/futures/QueuedImmediateExecutor.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/QueuedImmediateExecutor.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/QueuedImmediateExecutor.cpp.i
 .PHONY : src/folly/futures/QueuedImmediateExecutor.cpp.i
 
 src/folly/futures/QueuedImmediateExecutor.s: src/folly/futures/QueuedImmediateExecutor.cpp.s
@@ -1641,7 +1665,7 @@ src/folly/futures/QueuedImmediateExecutor.s: src/folly/futures/QueuedImmediateEx
 
 # target to generate assembly for a file
 src/folly/futures/QueuedImmediateExecutor.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/QueuedImmediateExecutor.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/QueuedImmediateExecutor.cpp.s
 .PHONY : src/folly/futures/QueuedImmediateExecutor.cpp.s
 
 src/folly/futures/ThreadWheelTimekeeper.o: src/folly/futures/ThreadWheelTimekeeper.cpp.o
@@ -1649,7 +1673,7 @@ src/folly/futures/ThreadWheelTimekeeper.o: src/folly/futures/ThreadWheelTimekeep
 
 # target to build an object file
 src/folly/futures/ThreadWheelTimekeeper.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ThreadWheelTimekeeper.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ThreadWheelTimekeeper.cpp.o
 .PHONY : src/folly/futures/ThreadWheelTimekeeper.cpp.o
 
 src/folly/futures/ThreadWheelTimekeeper.i: src/folly/futures/ThreadWheelTimekeeper.cpp.i
@@ -1657,7 +1681,7 @@ src/folly/futures/ThreadWheelTimekeeper.i: src/folly/futures/ThreadWheelTimekeep
 
 # target to preprocess a source file
 src/folly/futures/ThreadWheelTimekeeper.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ThreadWheelTimekeeper.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ThreadWheelTimekeeper.cpp.i
 .PHONY : src/folly/futures/ThreadWheelTimekeeper.cpp.i
 
 src/folly/futures/ThreadWheelTimekeeper.s: src/folly/futures/ThreadWheelTimekeeper.cpp.s
@@ -1665,7 +1689,7 @@ src/folly/futures/ThreadWheelTimekeeper.s: src/folly/futures/ThreadWheelTimekeep
 
 # target to generate assembly for a file
 src/folly/futures/ThreadWheelTimekeeper.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ThreadWheelTimekeeper.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ThreadWheelTimekeeper.cpp.s
 .PHONY : src/folly/futures/ThreadWheelTimekeeper.cpp.s
 
 src/folly/futures/ThreadedExecutor.o: src/folly/futures/ThreadedExecutor.cpp.o
@@ -1673,7 +1697,7 @@ src/folly/futures/ThreadedExecutor.o: src/folly/futures/ThreadedExecutor.cpp.o
 
 # target to build an object file
 src/folly/futures/ThreadedExecutor.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ThreadedExecutor.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ThreadedExecutor.cpp.o
 .PHONY : src/folly/futures/ThreadedExecutor.cpp.o
 
 src/folly/futures/ThreadedExecutor.i: src/folly/futures/ThreadedExecutor.cpp.i
@@ -1681,7 +1705,7 @@ src/folly/futures/ThreadedExecutor.i: src/folly/futures/ThreadedExecutor.cpp.i
 
 # target to preprocess a source file
 src/folly/futures/ThreadedExecutor.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ThreadedExecutor.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ThreadedExecutor.cpp.i
 .PHONY : src/folly/futures/ThreadedExecutor.cpp.i
 
 src/folly/futures/ThreadedExecutor.s: src/folly/futures/ThreadedExecutor.cpp.s
@@ -1689,7 +1713,7 @@ src/folly/futures/ThreadedExecutor.s: src/folly/futures/ThreadedExecutor.cpp.s
 
 # target to generate assembly for a file
 src/folly/futures/ThreadedExecutor.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ThreadedExecutor.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/futures/ThreadedExecutor.cpp.s
 .PHONY : src/folly/futures/ThreadedExecutor.cpp.s
 
 src/folly/io/IOBuf.o: src/folly/io/IOBuf.cpp.o
@@ -1697,7 +1721,7 @@ src/folly/io/IOBuf.o: src/folly/io/IOBuf.cpp.o
 
 # target to build an object file
 src/folly/io/IOBuf.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/IOBuf.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/IOBuf.cpp.o
 .PHONY : src/folly/io/IOBuf.cpp.o
 
 src/folly/io/IOBuf.i: src/folly/io/IOBuf.cpp.i
@@ -1705,7 +1729,7 @@ src/folly/io/IOBuf.i: src/folly/io/IOBuf.cpp.i
 
 # target to preprocess a source file
 src/folly/io/IOBuf.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/IOBuf.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/IOBuf.cpp.i
 .PHONY : src/folly/io/IOBuf.cpp.i
 
 src/folly/io/IOBuf.s: src/folly/io/IOBuf.cpp.s
@@ -1713,7 +1737,7 @@ src/folly/io/IOBuf.s: src/folly/io/IOBuf.cpp.s
 
 # target to generate assembly for a file
 src/folly/io/IOBuf.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/IOBuf.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/IOBuf.cpp.s
 .PHONY : src/folly/io/IOBuf.cpp.s
 
 src/folly/io/IOBufQueue.o: src/folly/io/IOBufQueue.cpp.o
@@ -1721,7 +1745,7 @@ src/folly/io/IOBufQueue.o: src/folly/io/IOBufQueue.cpp.o
 
 # target to build an object file
 src/folly/io/IOBufQueue.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/IOBufQueue.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/IOBufQueue.cpp.o
 .PHONY : src/folly/io/IOBufQueue.cpp.o
 
 src/folly/io/IOBufQueue.i: src/folly/io/IOBufQueue.cpp.i
@@ -1729,7 +1753,7 @@ src/folly/io/IOBufQueue.i: src/folly/io/IOBufQueue.cpp.i
 
 # target to preprocess a source file
 src/folly/io/IOBufQueue.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/IOBufQueue.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/IOBufQueue.cpp.i
 .PHONY : src/folly/io/IOBufQueue.cpp.i
 
 src/folly/io/IOBufQueue.s: src/folly/io/IOBufQueue.cpp.s
@@ -1737,7 +1761,7 @@ src/folly/io/IOBufQueue.s: src/folly/io/IOBufQueue.cpp.s
 
 # target to generate assembly for a file
 src/folly/io/IOBufQueue.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/IOBufQueue.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/IOBufQueue.cpp.s
 .PHONY : src/folly/io/IOBufQueue.cpp.s
 
 src/folly/io/RecordIO.o: src/folly/io/RecordIO.cpp.o
@@ -1745,7 +1769,7 @@ src/folly/io/RecordIO.o: src/folly/io/RecordIO.cpp.o
 
 # target to build an object file
 src/folly/io/RecordIO.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/RecordIO.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/RecordIO.cpp.o
 .PHONY : src/folly/io/RecordIO.cpp.o
 
 src/folly/io/RecordIO.i: src/folly/io/RecordIO.cpp.i
@@ -1753,7 +1777,7 @@ src/folly/io/RecordIO.i: src/folly/io/RecordIO.cpp.i
 
 # target to preprocess a source file
 src/folly/io/RecordIO.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/RecordIO.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/RecordIO.cpp.i
 .PHONY : src/folly/io/RecordIO.cpp.i
 
 src/folly/io/RecordIO.s: src/folly/io/RecordIO.cpp.s
@@ -1761,7 +1785,7 @@ src/folly/io/RecordIO.s: src/folly/io/RecordIO.cpp.s
 
 # target to generate assembly for a file
 src/folly/io/RecordIO.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/RecordIO.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/RecordIO.cpp.s
 .PHONY : src/folly/io/RecordIO.cpp.s
 
 src/folly/io/ShutdownSocketSet.o: src/folly/io/ShutdownSocketSet.cpp.o
@@ -1769,7 +1793,7 @@ src/folly/io/ShutdownSocketSet.o: src/folly/io/ShutdownSocketSet.cpp.o
 
 # target to build an object file
 src/folly/io/ShutdownSocketSet.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/ShutdownSocketSet.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/ShutdownSocketSet.cpp.o
 .PHONY : src/folly/io/ShutdownSocketSet.cpp.o
 
 src/folly/io/ShutdownSocketSet.i: src/folly/io/ShutdownSocketSet.cpp.i
@@ -1777,7 +1801,7 @@ src/folly/io/ShutdownSocketSet.i: src/folly/io/ShutdownSocketSet.cpp.i
 
 # target to preprocess a source file
 src/folly/io/ShutdownSocketSet.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/ShutdownSocketSet.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/ShutdownSocketSet.cpp.i
 .PHONY : src/folly/io/ShutdownSocketSet.cpp.i
 
 src/folly/io/ShutdownSocketSet.s: src/folly/io/ShutdownSocketSet.cpp.s
@@ -1785,7 +1809,7 @@ src/folly/io/ShutdownSocketSet.s: src/folly/io/ShutdownSocketSet.cpp.s
 
 # target to generate assembly for a file
 src/folly/io/ShutdownSocketSet.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/ShutdownSocketSet.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/ShutdownSocketSet.cpp.s
 .PHONY : src/folly/io/ShutdownSocketSet.cpp.s
 
 src/folly/io/async/AsyncPipe.o: src/folly/io/async/AsyncPipe.cpp.o
@@ -1793,7 +1817,7 @@ src/folly/io/async/AsyncPipe.o: src/folly/io/async/AsyncPipe.cpp.o
 
 # target to build an object file
 src/folly/io/async/AsyncPipe.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncPipe.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncPipe.cpp.o
 .PHONY : src/folly/io/async/AsyncPipe.cpp.o
 
 src/folly/io/async/AsyncPipe.i: src/folly/io/async/AsyncPipe.cpp.i
@@ -1801,7 +1825,7 @@ src/folly/io/async/AsyncPipe.i: src/folly/io/async/AsyncPipe.cpp.i
 
 # target to preprocess a source file
 src/folly/io/async/AsyncPipe.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncPipe.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncPipe.cpp.i
 .PHONY : src/folly/io/async/AsyncPipe.cpp.i
 
 src/folly/io/async/AsyncPipe.s: src/folly/io/async/AsyncPipe.cpp.s
@@ -1809,7 +1833,7 @@ src/folly/io/async/AsyncPipe.s: src/folly/io/async/AsyncPipe.cpp.s
 
 # target to generate assembly for a file
 src/folly/io/async/AsyncPipe.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncPipe.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncPipe.cpp.s
 .PHONY : src/folly/io/async/AsyncPipe.cpp.s
 
 src/folly/io/async/AsyncSSLSocket.o: src/folly/io/async/AsyncSSLSocket.cpp.o
@@ -1817,7 +1841,7 @@ src/folly/io/async/AsyncSSLSocket.o: src/folly/io/async/AsyncSSLSocket.cpp.o
 
 # target to build an object file
 src/folly/io/async/AsyncSSLSocket.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSSLSocket.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSSLSocket.cpp.o
 .PHONY : src/folly/io/async/AsyncSSLSocket.cpp.o
 
 src/folly/io/async/AsyncSSLSocket.i: src/folly/io/async/AsyncSSLSocket.cpp.i
@@ -1825,7 +1849,7 @@ src/folly/io/async/AsyncSSLSocket.i: src/folly/io/async/AsyncSSLSocket.cpp.i
 
 # target to preprocess a source file
 src/folly/io/async/AsyncSSLSocket.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSSLSocket.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSSLSocket.cpp.i
 .PHONY : src/folly/io/async/AsyncSSLSocket.cpp.i
 
 src/folly/io/async/AsyncSSLSocket.s: src/folly/io/async/AsyncSSLSocket.cpp.s
@@ -1833,7 +1857,7 @@ src/folly/io/async/AsyncSSLSocket.s: src/folly/io/async/AsyncSSLSocket.cpp.s
 
 # target to generate assembly for a file
 src/folly/io/async/AsyncSSLSocket.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSSLSocket.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSSLSocket.cpp.s
 .PHONY : src/folly/io/async/AsyncSSLSocket.cpp.s
 
 src/folly/io/async/AsyncServerSocket.o: src/folly/io/async/AsyncServerSocket.cpp.o
@@ -1841,7 +1865,7 @@ src/folly/io/async/AsyncServerSocket.o: src/folly/io/async/AsyncServerSocket.cpp
 
 # target to build an object file
 src/folly/io/async/AsyncServerSocket.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncServerSocket.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncServerSocket.cpp.o
 .PHONY : src/folly/io/async/AsyncServerSocket.cpp.o
 
 src/folly/io/async/AsyncServerSocket.i: src/folly/io/async/AsyncServerSocket.cpp.i
@@ -1849,7 +1873,7 @@ src/folly/io/async/AsyncServerSocket.i: src/folly/io/async/AsyncServerSocket.cpp
 
 # target to preprocess a source file
 src/folly/io/async/AsyncServerSocket.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncServerSocket.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncServerSocket.cpp.i
 .PHONY : src/folly/io/async/AsyncServerSocket.cpp.i
 
 src/folly/io/async/AsyncServerSocket.s: src/folly/io/async/AsyncServerSocket.cpp.s
@@ -1857,7 +1881,7 @@ src/folly/io/async/AsyncServerSocket.s: src/folly/io/async/AsyncServerSocket.cpp
 
 # target to generate assembly for a file
 src/folly/io/async/AsyncServerSocket.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncServerSocket.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncServerSocket.cpp.s
 .PHONY : src/folly/io/async/AsyncServerSocket.cpp.s
 
 src/folly/io/async/AsyncSignalHandler.o: src/folly/io/async/AsyncSignalHandler.cpp.o
@@ -1865,7 +1889,7 @@ src/folly/io/async/AsyncSignalHandler.o: src/folly/io/async/AsyncSignalHandler.c
 
 # target to build an object file
 src/folly/io/async/AsyncSignalHandler.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSignalHandler.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSignalHandler.cpp.o
 .PHONY : src/folly/io/async/AsyncSignalHandler.cpp.o
 
 src/folly/io/async/AsyncSignalHandler.i: src/folly/io/async/AsyncSignalHandler.cpp.i
@@ -1873,7 +1897,7 @@ src/folly/io/async/AsyncSignalHandler.i: src/folly/io/async/AsyncSignalHandler.c
 
 # target to preprocess a source file
 src/folly/io/async/AsyncSignalHandler.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSignalHandler.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSignalHandler.cpp.i
 .PHONY : src/folly/io/async/AsyncSignalHandler.cpp.i
 
 src/folly/io/async/AsyncSignalHandler.s: src/folly/io/async/AsyncSignalHandler.cpp.s
@@ -1881,7 +1905,7 @@ src/folly/io/async/AsyncSignalHandler.s: src/folly/io/async/AsyncSignalHandler.c
 
 # target to generate assembly for a file
 src/folly/io/async/AsyncSignalHandler.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSignalHandler.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSignalHandler.cpp.s
 .PHONY : src/folly/io/async/AsyncSignalHandler.cpp.s
 
 src/folly/io/async/AsyncSocket.o: src/folly/io/async/AsyncSocket.cpp.o
@@ -1889,7 +1913,7 @@ src/folly/io/async/AsyncSocket.o: src/folly/io/async/AsyncSocket.cpp.o
 
 # target to build an object file
 src/folly/io/async/AsyncSocket.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSocket.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSocket.cpp.o
 .PHONY : src/folly/io/async/AsyncSocket.cpp.o
 
 src/folly/io/async/AsyncSocket.i: src/folly/io/async/AsyncSocket.cpp.i
@@ -1897,7 +1921,7 @@ src/folly/io/async/AsyncSocket.i: src/folly/io/async/AsyncSocket.cpp.i
 
 # target to preprocess a source file
 src/folly/io/async/AsyncSocket.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSocket.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSocket.cpp.i
 .PHONY : src/folly/io/async/AsyncSocket.cpp.i
 
 src/folly/io/async/AsyncSocket.s: src/folly/io/async/AsyncSocket.cpp.s
@@ -1905,7 +1929,7 @@ src/folly/io/async/AsyncSocket.s: src/folly/io/async/AsyncSocket.cpp.s
 
 # target to generate assembly for a file
 src/folly/io/async/AsyncSocket.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSocket.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncSocket.cpp.s
 .PHONY : src/folly/io/async/AsyncSocket.cpp.s
 
 src/folly/io/async/AsyncTimeout.o: src/folly/io/async/AsyncTimeout.cpp.o
@@ -1913,7 +1937,7 @@ src/folly/io/async/AsyncTimeout.o: src/folly/io/async/AsyncTimeout.cpp.o
 
 # target to build an object file
 src/folly/io/async/AsyncTimeout.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncTimeout.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncTimeout.cpp.o
 .PHONY : src/folly/io/async/AsyncTimeout.cpp.o
 
 src/folly/io/async/AsyncTimeout.i: src/folly/io/async/AsyncTimeout.cpp.i
@@ -1921,7 +1945,7 @@ src/folly/io/async/AsyncTimeout.i: src/folly/io/async/AsyncTimeout.cpp.i
 
 # target to preprocess a source file
 src/folly/io/async/AsyncTimeout.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncTimeout.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncTimeout.cpp.i
 .PHONY : src/folly/io/async/AsyncTimeout.cpp.i
 
 src/folly/io/async/AsyncTimeout.s: src/folly/io/async/AsyncTimeout.cpp.s
@@ -1929,7 +1953,7 @@ src/folly/io/async/AsyncTimeout.s: src/folly/io/async/AsyncTimeout.cpp.s
 
 # target to generate assembly for a file
 src/folly/io/async/AsyncTimeout.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncTimeout.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncTimeout.cpp.s
 .PHONY : src/folly/io/async/AsyncTimeout.cpp.s
 
 src/folly/io/async/AsyncUDPSocket.o: src/folly/io/async/AsyncUDPSocket.cpp.o
@@ -1937,7 +1961,7 @@ src/folly/io/async/AsyncUDPSocket.o: src/folly/io/async/AsyncUDPSocket.cpp.o
 
 # target to build an object file
 src/folly/io/async/AsyncUDPSocket.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncUDPSocket.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncUDPSocket.cpp.o
 .PHONY : src/folly/io/async/AsyncUDPSocket.cpp.o
 
 src/folly/io/async/AsyncUDPSocket.i: src/folly/io/async/AsyncUDPSocket.cpp.i
@@ -1945,7 +1969,7 @@ src/folly/io/async/AsyncUDPSocket.i: src/folly/io/async/AsyncUDPSocket.cpp.i
 
 # target to preprocess a source file
 src/folly/io/async/AsyncUDPSocket.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncUDPSocket.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncUDPSocket.cpp.i
 .PHONY : src/folly/io/async/AsyncUDPSocket.cpp.i
 
 src/folly/io/async/AsyncUDPSocket.s: src/folly/io/async/AsyncUDPSocket.cpp.s
@@ -1953,7 +1977,7 @@ src/folly/io/async/AsyncUDPSocket.s: src/folly/io/async/AsyncUDPSocket.cpp.s
 
 # target to generate assembly for a file
 src/folly/io/async/AsyncUDPSocket.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncUDPSocket.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/AsyncUDPSocket.cpp.s
 .PHONY : src/folly/io/async/AsyncUDPSocket.cpp.s
 
 src/folly/io/async/EventBase.o: src/folly/io/async/EventBase.cpp.o
@@ -1961,7 +1985,7 @@ src/folly/io/async/EventBase.o: src/folly/io/async/EventBase.cpp.o
 
 # target to build an object file
 src/folly/io/async/EventBase.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBase.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBase.cpp.o
 .PHONY : src/folly/io/async/EventBase.cpp.o
 
 src/folly/io/async/EventBase.i: src/folly/io/async/EventBase.cpp.i
@@ -1969,7 +1993,7 @@ src/folly/io/async/EventBase.i: src/folly/io/async/EventBase.cpp.i
 
 # target to preprocess a source file
 src/folly/io/async/EventBase.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBase.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBase.cpp.i
 .PHONY : src/folly/io/async/EventBase.cpp.i
 
 src/folly/io/async/EventBase.s: src/folly/io/async/EventBase.cpp.s
@@ -1977,7 +2001,7 @@ src/folly/io/async/EventBase.s: src/folly/io/async/EventBase.cpp.s
 
 # target to generate assembly for a file
 src/folly/io/async/EventBase.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBase.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBase.cpp.s
 .PHONY : src/folly/io/async/EventBase.cpp.s
 
 src/folly/io/async/EventBaseLocal.o: src/folly/io/async/EventBaseLocal.cpp.o
@@ -1985,7 +2009,7 @@ src/folly/io/async/EventBaseLocal.o: src/folly/io/async/EventBaseLocal.cpp.o
 
 # target to build an object file
 src/folly/io/async/EventBaseLocal.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseLocal.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseLocal.cpp.o
 .PHONY : src/folly/io/async/EventBaseLocal.cpp.o
 
 src/folly/io/async/EventBaseLocal.i: src/folly/io/async/EventBaseLocal.cpp.i
@@ -1993,7 +2017,7 @@ src/folly/io/async/EventBaseLocal.i: src/folly/io/async/EventBaseLocal.cpp.i
 
 # target to preprocess a source file
 src/folly/io/async/EventBaseLocal.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseLocal.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseLocal.cpp.i
 .PHONY : src/folly/io/async/EventBaseLocal.cpp.i
 
 src/folly/io/async/EventBaseLocal.s: src/folly/io/async/EventBaseLocal.cpp.s
@@ -2001,7 +2025,7 @@ src/folly/io/async/EventBaseLocal.s: src/folly/io/async/EventBaseLocal.cpp.s
 
 # target to generate assembly for a file
 src/folly/io/async/EventBaseLocal.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseLocal.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseLocal.cpp.s
 .PHONY : src/folly/io/async/EventBaseLocal.cpp.s
 
 src/folly/io/async/EventBaseManager.o: src/folly/io/async/EventBaseManager.cpp.o
@@ -2009,7 +2033,7 @@ src/folly/io/async/EventBaseManager.o: src/folly/io/async/EventBaseManager.cpp.o
 
 # target to build an object file
 src/folly/io/async/EventBaseManager.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseManager.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseManager.cpp.o
 .PHONY : src/folly/io/async/EventBaseManager.cpp.o
 
 src/folly/io/async/EventBaseManager.i: src/folly/io/async/EventBaseManager.cpp.i
@@ -2017,7 +2041,7 @@ src/folly/io/async/EventBaseManager.i: src/folly/io/async/EventBaseManager.cpp.i
 
 # target to preprocess a source file
 src/folly/io/async/EventBaseManager.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseManager.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseManager.cpp.i
 .PHONY : src/folly/io/async/EventBaseManager.cpp.i
 
 src/folly/io/async/EventBaseManager.s: src/folly/io/async/EventBaseManager.cpp.s
@@ -2025,7 +2049,7 @@ src/folly/io/async/EventBaseManager.s: src/folly/io/async/EventBaseManager.cpp.s
 
 # target to generate assembly for a file
 src/folly/io/async/EventBaseManager.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseManager.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventBaseManager.cpp.s
 .PHONY : src/folly/io/async/EventBaseManager.cpp.s
 
 src/folly/io/async/EventHandler.o: src/folly/io/async/EventHandler.cpp.o
@@ -2033,7 +2057,7 @@ src/folly/io/async/EventHandler.o: src/folly/io/async/EventHandler.cpp.o
 
 # target to build an object file
 src/folly/io/async/EventHandler.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventHandler.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventHandler.cpp.o
 .PHONY : src/folly/io/async/EventHandler.cpp.o
 
 src/folly/io/async/EventHandler.i: src/folly/io/async/EventHandler.cpp.i
@@ -2041,7 +2065,7 @@ src/folly/io/async/EventHandler.i: src/folly/io/async/EventHandler.cpp.i
 
 # target to preprocess a source file
 src/folly/io/async/EventHandler.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventHandler.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventHandler.cpp.i
 .PHONY : src/folly/io/async/EventHandler.cpp.i
 
 src/folly/io/async/EventHandler.s: src/folly/io/async/EventHandler.cpp.s
@@ -2049,7 +2073,7 @@ src/folly/io/async/EventHandler.s: src/folly/io/async/EventHandler.cpp.s
 
 # target to generate assembly for a file
 src/folly/io/async/EventHandler.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventHandler.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/EventHandler.cpp.s
 .PHONY : src/folly/io/async/EventHandler.cpp.s
 
 src/folly/io/async/HHWheelTimer.o: src/folly/io/async/HHWheelTimer.cpp.o
@@ -2057,7 +2081,7 @@ src/folly/io/async/HHWheelTimer.o: src/folly/io/async/HHWheelTimer.cpp.o
 
 # target to build an object file
 src/folly/io/async/HHWheelTimer.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/HHWheelTimer.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/HHWheelTimer.cpp.o
 .PHONY : src/folly/io/async/HHWheelTimer.cpp.o
 
 src/folly/io/async/HHWheelTimer.i: src/folly/io/async/HHWheelTimer.cpp.i
@@ -2065,7 +2089,7 @@ src/folly/io/async/HHWheelTimer.i: src/folly/io/async/HHWheelTimer.cpp.i
 
 # target to preprocess a source file
 src/folly/io/async/HHWheelTimer.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/HHWheelTimer.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/HHWheelTimer.cpp.i
 .PHONY : src/folly/io/async/HHWheelTimer.cpp.i
 
 src/folly/io/async/HHWheelTimer.s: src/folly/io/async/HHWheelTimer.cpp.s
@@ -2073,7 +2097,7 @@ src/folly/io/async/HHWheelTimer.s: src/folly/io/async/HHWheelTimer.cpp.s
 
 # target to generate assembly for a file
 src/folly/io/async/HHWheelTimer.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/HHWheelTimer.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/HHWheelTimer.cpp.s
 .PHONY : src/folly/io/async/HHWheelTimer.cpp.s
 
 src/folly/io/async/SSLContext.o: src/folly/io/async/SSLContext.cpp.o
@@ -2081,7 +2105,7 @@ src/folly/io/async/SSLContext.o: src/folly/io/async/SSLContext.cpp.o
 
 # target to build an object file
 src/folly/io/async/SSLContext.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/SSLContext.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/SSLContext.cpp.o
 .PHONY : src/folly/io/async/SSLContext.cpp.o
 
 src/folly/io/async/SSLContext.i: src/folly/io/async/SSLContext.cpp.i
@@ -2089,7 +2113,7 @@ src/folly/io/async/SSLContext.i: src/folly/io/async/SSLContext.cpp.i
 
 # target to preprocess a source file
 src/folly/io/async/SSLContext.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/SSLContext.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/SSLContext.cpp.i
 .PHONY : src/folly/io/async/SSLContext.cpp.i
 
 src/folly/io/async/SSLContext.s: src/folly/io/async/SSLContext.cpp.s
@@ -2097,7 +2121,7 @@ src/folly/io/async/SSLContext.s: src/folly/io/async/SSLContext.cpp.s
 
 # target to generate assembly for a file
 src/folly/io/async/SSLContext.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/SSLContext.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/SSLContext.cpp.s
 .PHONY : src/folly/io/async/SSLContext.cpp.s
 
 src/folly/io/async/ScopedEventBaseThread.o: src/folly/io/async/ScopedEventBaseThread.cpp.o
@@ -2105,7 +2129,7 @@ src/folly/io/async/ScopedEventBaseThread.o: src/folly/io/async/ScopedEventBaseTh
 
 # target to build an object file
 src/folly/io/async/ScopedEventBaseThread.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/ScopedEventBaseThread.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/ScopedEventBaseThread.cpp.o
 .PHONY : src/folly/io/async/ScopedEventBaseThread.cpp.o
 
 src/folly/io/async/ScopedEventBaseThread.i: src/folly/io/async/ScopedEventBaseThread.cpp.i
@@ -2113,7 +2137,7 @@ src/folly/io/async/ScopedEventBaseThread.i: src/folly/io/async/ScopedEventBaseTh
 
 # target to preprocess a source file
 src/folly/io/async/ScopedEventBaseThread.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/ScopedEventBaseThread.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/ScopedEventBaseThread.cpp.i
 .PHONY : src/folly/io/async/ScopedEventBaseThread.cpp.i
 
 src/folly/io/async/ScopedEventBaseThread.s: src/folly/io/async/ScopedEventBaseThread.cpp.s
@@ -2121,7 +2145,7 @@ src/folly/io/async/ScopedEventBaseThread.s: src/folly/io/async/ScopedEventBaseTh
 
 # target to generate assembly for a file
 src/folly/io/async/ScopedEventBaseThread.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/ScopedEventBaseThread.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/io/async/ScopedEventBaseThread.cpp.s
 .PHONY : src/folly/io/async/ScopedEventBaseThread.cpp.s
 
 src/folly/json.o: src/folly/json.cpp.o
@@ -2129,7 +2153,7 @@ src/folly/json.o: src/folly/json.cpp.o
 
 # target to build an object file
 src/folly/json.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/json.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/json.cpp.o
 .PHONY : src/folly/json.cpp.o
 
 src/folly/json.i: src/folly/json.cpp.i
@@ -2137,7 +2161,7 @@ src/folly/json.i: src/folly/json.cpp.i
 
 # target to preprocess a source file
 src/folly/json.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/json.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/json.cpp.i
 .PHONY : src/folly/json.cpp.i
 
 src/folly/json.s: src/folly/json.cpp.s
@@ -2145,7 +2169,7 @@ src/folly/json.s: src/folly/json.cpp.s
 
 # target to generate assembly for a file
 src/folly/json.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/json.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/json.cpp.s
 .PHONY : src/folly/json.cpp.s
 
 src/folly/stats/Instantiations.o: src/folly/stats/Instantiations.cpp.o
@@ -2153,7 +2177,7 @@ src/folly/stats/Instantiations.o: src/folly/stats/Instantiations.cpp.o
 
 # target to build an object file
 src/folly/stats/Instantiations.cpp.o:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/stats/Instantiations.cpp.o
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/stats/Instantiations.cpp.o
 .PHONY : src/folly/stats/Instantiations.cpp.o
 
 src/folly/stats/Instantiations.i: src/folly/stats/Instantiations.cpp.i
@@ -2161,7 +2185,7 @@ src/folly/stats/Instantiations.i: src/folly/stats/Instantiations.cpp.i
 
 # target to preprocess a source file
 src/folly/stats/Instantiations.cpp.i:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/stats/Instantiations.cpp.i
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/stats/Instantiations.cpp.i
 .PHONY : src/folly/stats/Instantiations.cpp.i
 
 src/folly/stats/Instantiations.s: src/folly/stats/Instantiations.cpp.s
@@ -2169,7 +2193,7 @@ src/folly/stats/Instantiations.s: src/folly/stats/Instantiations.cpp.s
 
 # target to generate assembly for a file
 src/folly/stats/Instantiations.cpp.s:
-	cd /tmp/hhvm-3.11.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/stats/Instantiations.cpp.s
+	cd /tmp/hhvm-3.12.1 && $(MAKE) -f third-party/folly/CMakeFiles/folly.dir/build.make third-party/folly/CMakeFiles/folly.dir/src/folly/stats/Instantiations.cpp.s
 .PHONY : src/folly/stats/Instantiations.cpp.s
 
 # Help Target
@@ -2305,6 +2329,9 @@ help:
 	@echo "... src/folly/detail/RangeSse42.o"
 	@echo "... src/folly/detail/RangeSse42.i"
 	@echo "... src/folly/detail/RangeSse42.s"
+	@echo "... src/folly/detail/ThreadLocalDetail.o"
+	@echo "... src/folly/detail/ThreadLocalDetail.i"
+	@echo "... src/folly/detail/ThreadLocalDetail.s"
 	@echo "... src/folly/dynamic.o"
 	@echo "... src/folly/dynamic.i"
 	@echo "... src/folly/dynamic.s"
@@ -2448,6 +2475,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /tmp/hhvm-3.12.1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

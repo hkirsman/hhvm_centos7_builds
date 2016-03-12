@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.1
 
 # Include any dependencies generated for this target.
 include hphp/zend/CMakeFiles/hphp_zend.dir/depend.make
@@ -52,42 +52,42 @@ include hphp/zend/CMakeFiles/hphp_zend.dir/progress.make
 # Include the compile flags for this target's objects.
 include hphp/zend/CMakeFiles/hphp_zend.dir/flags.make
 
-hphp/zend/CMakeFiles/hphp_zend.dir/crypt-blowfish.c.o: hphp/zend/CMakeFiles/hphp_zend.dir/flags.make
-hphp/zend/CMakeFiles/hphp_zend.dir/crypt-blowfish.c.o: hphp/zend/crypt-blowfish.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object hphp/zend/CMakeFiles/hphp_zend.dir/crypt-blowfish.c.o"
-	cd /tmp/hhvm-3.11.1/hphp/zend && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/hphp_zend.dir/crypt-blowfish.c.o   -c /tmp/hhvm-3.11.1/hphp/zend/crypt-blowfish.c
+hphp/zend/CMakeFiles/hphp_zend.dir/crypt-blowfish.cpp.o: hphp/zend/CMakeFiles/hphp_zend.dir/flags.make
+hphp/zend/CMakeFiles/hphp_zend.dir/crypt-blowfish.cpp.o: hphp/zend/crypt-blowfish.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/zend/CMakeFiles/hphp_zend.dir/crypt-blowfish.cpp.o"
+	cd /tmp/hhvm-3.12.1/hphp/zend && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_zend.dir/crypt-blowfish.cpp.o -c /tmp/hhvm-3.12.1/hphp/zend/crypt-blowfish.cpp
 
-hphp/zend/CMakeFiles/hphp_zend.dir/crypt-blowfish.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hphp_zend.dir/crypt-blowfish.c.i"
-	cd /tmp/hhvm-3.11.1/hphp/zend && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/hhvm-3.11.1/hphp/zend/crypt-blowfish.c > CMakeFiles/hphp_zend.dir/crypt-blowfish.c.i
+hphp/zend/CMakeFiles/hphp_zend.dir/crypt-blowfish.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_zend.dir/crypt-blowfish.cpp.i"
+	cd /tmp/hhvm-3.12.1/hphp/zend && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/zend/crypt-blowfish.cpp > CMakeFiles/hphp_zend.dir/crypt-blowfish.cpp.i
 
-hphp/zend/CMakeFiles/hphp_zend.dir/crypt-blowfish.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hphp_zend.dir/crypt-blowfish.c.s"
-	cd /tmp/hhvm-3.11.1/hphp/zend && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/hhvm-3.11.1/hphp/zend/crypt-blowfish.c -o CMakeFiles/hphp_zend.dir/crypt-blowfish.c.s
+hphp/zend/CMakeFiles/hphp_zend.dir/crypt-blowfish.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_zend.dir/crypt-blowfish.cpp.s"
+	cd /tmp/hhvm-3.12.1/hphp/zend && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/zend/crypt-blowfish.cpp -o CMakeFiles/hphp_zend.dir/crypt-blowfish.cpp.s
 
-hphp/zend/CMakeFiles/hphp_zend.dir/crypt-blowfish.c.o.requires:
-.PHONY : hphp/zend/CMakeFiles/hphp_zend.dir/crypt-blowfish.c.o.requires
+hphp/zend/CMakeFiles/hphp_zend.dir/crypt-blowfish.cpp.o.requires:
+.PHONY : hphp/zend/CMakeFiles/hphp_zend.dir/crypt-blowfish.cpp.o.requires
 
-hphp/zend/CMakeFiles/hphp_zend.dir/crypt-blowfish.c.o.provides: hphp/zend/CMakeFiles/hphp_zend.dir/crypt-blowfish.c.o.requires
-	$(MAKE) -f hphp/zend/CMakeFiles/hphp_zend.dir/build.make hphp/zend/CMakeFiles/hphp_zend.dir/crypt-blowfish.c.o.provides.build
-.PHONY : hphp/zend/CMakeFiles/hphp_zend.dir/crypt-blowfish.c.o.provides
+hphp/zend/CMakeFiles/hphp_zend.dir/crypt-blowfish.cpp.o.provides: hphp/zend/CMakeFiles/hphp_zend.dir/crypt-blowfish.cpp.o.requires
+	$(MAKE) -f hphp/zend/CMakeFiles/hphp_zend.dir/build.make hphp/zend/CMakeFiles/hphp_zend.dir/crypt-blowfish.cpp.o.provides.build
+.PHONY : hphp/zend/CMakeFiles/hphp_zend.dir/crypt-blowfish.cpp.o.provides
 
-hphp/zend/CMakeFiles/hphp_zend.dir/crypt-blowfish.c.o.provides.build: hphp/zend/CMakeFiles/hphp_zend.dir/crypt-blowfish.c.o
+hphp/zend/CMakeFiles/hphp_zend.dir/crypt-blowfish.cpp.o.provides.build: hphp/zend/CMakeFiles/hphp_zend.dir/crypt-blowfish.cpp.o
 
 hphp/zend/CMakeFiles/hphp_zend.dir/html-table.cpp.o: hphp/zend/CMakeFiles/hphp_zend.dir/flags.make
 hphp/zend/CMakeFiles/hphp_zend.dir/html-table.cpp.o: hphp/zend/html-table.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/zend/CMakeFiles/hphp_zend.dir/html-table.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/zend && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_zend.dir/html-table.cpp.o -c /tmp/hhvm-3.11.1/hphp/zend/html-table.cpp
+	cd /tmp/hhvm-3.12.1/hphp/zend && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_zend.dir/html-table.cpp.o -c /tmp/hhvm-3.12.1/hphp/zend/html-table.cpp
 
 hphp/zend/CMakeFiles/hphp_zend.dir/html-table.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_zend.dir/html-table.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/zend && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/zend/html-table.cpp > CMakeFiles/hphp_zend.dir/html-table.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/zend && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/zend/html-table.cpp > CMakeFiles/hphp_zend.dir/html-table.cpp.i
 
 hphp/zend/CMakeFiles/hphp_zend.dir/html-table.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_zend.dir/html-table.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/zend && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/zend/html-table.cpp -o CMakeFiles/hphp_zend.dir/html-table.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/zend && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/zend/html-table.cpp -o CMakeFiles/hphp_zend.dir/html-table.cpp.s
 
 hphp/zend/CMakeFiles/hphp_zend.dir/html-table.cpp.o.requires:
 .PHONY : hphp/zend/CMakeFiles/hphp_zend.dir/html-table.cpp.o.requires
@@ -100,17 +100,17 @@ hphp/zend/CMakeFiles/hphp_zend.dir/html-table.cpp.o.provides.build: hphp/zend/CM
 
 hphp/zend/CMakeFiles/hphp_zend.dir/zend-html.cpp.o: hphp/zend/CMakeFiles/hphp_zend.dir/flags.make
 hphp/zend/CMakeFiles/hphp_zend.dir/zend-html.cpp.o: hphp/zend/zend-html.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/zend/CMakeFiles/hphp_zend.dir/zend-html.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/zend && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_zend.dir/zend-html.cpp.o -c /tmp/hhvm-3.11.1/hphp/zend/zend-html.cpp
+	cd /tmp/hhvm-3.12.1/hphp/zend && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_zend.dir/zend-html.cpp.o -c /tmp/hhvm-3.12.1/hphp/zend/zend-html.cpp
 
 hphp/zend/CMakeFiles/hphp_zend.dir/zend-html.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_zend.dir/zend-html.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/zend && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/zend/zend-html.cpp > CMakeFiles/hphp_zend.dir/zend-html.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/zend && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/zend/zend-html.cpp > CMakeFiles/hphp_zend.dir/zend-html.cpp.i
 
 hphp/zend/CMakeFiles/hphp_zend.dir/zend-html.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_zend.dir/zend-html.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/zend && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/zend/zend-html.cpp -o CMakeFiles/hphp_zend.dir/zend-html.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/zend && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/zend/zend-html.cpp -o CMakeFiles/hphp_zend.dir/zend-html.cpp.s
 
 hphp/zend/CMakeFiles/hphp_zend.dir/zend-html.cpp.o.requires:
 .PHONY : hphp/zend/CMakeFiles/hphp_zend.dir/zend-html.cpp.o.requires
@@ -123,17 +123,17 @@ hphp/zend/CMakeFiles/hphp_zend.dir/zend-html.cpp.o.provides.build: hphp/zend/CMa
 
 hphp/zend/CMakeFiles/hphp_zend.dir/zend-md5.cpp.o: hphp/zend/CMakeFiles/hphp_zend.dir/flags.make
 hphp/zend/CMakeFiles/hphp_zend.dir/zend-md5.cpp.o: hphp/zend/zend-md5.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/zend/CMakeFiles/hphp_zend.dir/zend-md5.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/zend && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_zend.dir/zend-md5.cpp.o -c /tmp/hhvm-3.11.1/hphp/zend/zend-md5.cpp
+	cd /tmp/hhvm-3.12.1/hphp/zend && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_zend.dir/zend-md5.cpp.o -c /tmp/hhvm-3.12.1/hphp/zend/zend-md5.cpp
 
 hphp/zend/CMakeFiles/hphp_zend.dir/zend-md5.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_zend.dir/zend-md5.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/zend && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/zend/zend-md5.cpp > CMakeFiles/hphp_zend.dir/zend-md5.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/zend && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/zend/zend-md5.cpp > CMakeFiles/hphp_zend.dir/zend-md5.cpp.i
 
 hphp/zend/CMakeFiles/hphp_zend.dir/zend-md5.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_zend.dir/zend-md5.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/zend && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/zend/zend-md5.cpp -o CMakeFiles/hphp_zend.dir/zend-md5.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/zend && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/zend/zend-md5.cpp -o CMakeFiles/hphp_zend.dir/zend-md5.cpp.s
 
 hphp/zend/CMakeFiles/hphp_zend.dir/zend-md5.cpp.o.requires:
 .PHONY : hphp/zend/CMakeFiles/hphp_zend.dir/zend-md5.cpp.o.requires
@@ -146,17 +146,17 @@ hphp/zend/CMakeFiles/hphp_zend.dir/zend-md5.cpp.o.provides.build: hphp/zend/CMak
 
 hphp/zend/CMakeFiles/hphp_zend.dir/zend-sha1.cpp.o: hphp/zend/CMakeFiles/hphp_zend.dir/flags.make
 hphp/zend/CMakeFiles/hphp_zend.dir/zend-sha1.cpp.o: hphp/zend/zend-sha1.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/zend/CMakeFiles/hphp_zend.dir/zend-sha1.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/zend && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_zend.dir/zend-sha1.cpp.o -c /tmp/hhvm-3.11.1/hphp/zend/zend-sha1.cpp
+	cd /tmp/hhvm-3.12.1/hphp/zend && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_zend.dir/zend-sha1.cpp.o -c /tmp/hhvm-3.12.1/hphp/zend/zend-sha1.cpp
 
 hphp/zend/CMakeFiles/hphp_zend.dir/zend-sha1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_zend.dir/zend-sha1.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/zend && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/zend/zend-sha1.cpp > CMakeFiles/hphp_zend.dir/zend-sha1.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/zend && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/zend/zend-sha1.cpp > CMakeFiles/hphp_zend.dir/zend-sha1.cpp.i
 
 hphp/zend/CMakeFiles/hphp_zend.dir/zend-sha1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_zend.dir/zend-sha1.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/zend && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/zend/zend-sha1.cpp -o CMakeFiles/hphp_zend.dir/zend-sha1.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/zend && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/zend/zend-sha1.cpp -o CMakeFiles/hphp_zend.dir/zend-sha1.cpp.s
 
 hphp/zend/CMakeFiles/hphp_zend.dir/zend-sha1.cpp.o.requires:
 .PHONY : hphp/zend/CMakeFiles/hphp_zend.dir/zend-sha1.cpp.o.requires
@@ -169,17 +169,17 @@ hphp/zend/CMakeFiles/hphp_zend.dir/zend-sha1.cpp.o.provides.build: hphp/zend/CMa
 
 hphp/zend/CMakeFiles/hphp_zend.dir/zend-string.cpp.o: hphp/zend/CMakeFiles/hphp_zend.dir/flags.make
 hphp/zend/CMakeFiles/hphp_zend.dir/zend-string.cpp.o: hphp/zend/zend-string.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.11.1/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/hhvm-3.12.1/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object hphp/zend/CMakeFiles/hphp_zend.dir/zend-string.cpp.o"
-	cd /tmp/hhvm-3.11.1/hphp/zend && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_zend.dir/zend-string.cpp.o -c /tmp/hhvm-3.11.1/hphp/zend/zend-string.cpp
+	cd /tmp/hhvm-3.12.1/hphp/zend && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hphp_zend.dir/zend-string.cpp.o -c /tmp/hhvm-3.12.1/hphp/zend/zend-string.cpp
 
 hphp/zend/CMakeFiles/hphp_zend.dir/zend-string.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hphp_zend.dir/zend-string.cpp.i"
-	cd /tmp/hhvm-3.11.1/hphp/zend && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.11.1/hphp/zend/zend-string.cpp > CMakeFiles/hphp_zend.dir/zend-string.cpp.i
+	cd /tmp/hhvm-3.12.1/hphp/zend && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/hhvm-3.12.1/hphp/zend/zend-string.cpp > CMakeFiles/hphp_zend.dir/zend-string.cpp.i
 
 hphp/zend/CMakeFiles/hphp_zend.dir/zend-string.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hphp_zend.dir/zend-string.cpp.s"
-	cd /tmp/hhvm-3.11.1/hphp/zend && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.11.1/hphp/zend/zend-string.cpp -o CMakeFiles/hphp_zend.dir/zend-string.cpp.s
+	cd /tmp/hhvm-3.12.1/hphp/zend && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/hhvm-3.12.1/hphp/zend/zend-string.cpp -o CMakeFiles/hphp_zend.dir/zend-string.cpp.s
 
 hphp/zend/CMakeFiles/hphp_zend.dir/zend-string.cpp.o.requires:
 .PHONY : hphp/zend/CMakeFiles/hphp_zend.dir/zend-string.cpp.o.requires
@@ -192,7 +192,7 @@ hphp/zend/CMakeFiles/hphp_zend.dir/zend-string.cpp.o.provides.build: hphp/zend/C
 
 # Object files for target hphp_zend
 hphp_zend_OBJECTS = \
-"CMakeFiles/hphp_zend.dir/crypt-blowfish.c.o" \
+"CMakeFiles/hphp_zend.dir/crypt-blowfish.cpp.o" \
 "CMakeFiles/hphp_zend.dir/html-table.cpp.o" \
 "CMakeFiles/hphp_zend.dir/zend-html.cpp.o" \
 "CMakeFiles/hphp_zend.dir/zend-md5.cpp.o" \
@@ -202,7 +202,7 @@ hphp_zend_OBJECTS = \
 # External object files for target hphp_zend
 hphp_zend_EXTERNAL_OBJECTS =
 
-hphp/zend/libhphp_zend.a: hphp/zend/CMakeFiles/hphp_zend.dir/crypt-blowfish.c.o
+hphp/zend/libhphp_zend.a: hphp/zend/CMakeFiles/hphp_zend.dir/crypt-blowfish.cpp.o
 hphp/zend/libhphp_zend.a: hphp/zend/CMakeFiles/hphp_zend.dir/html-table.cpp.o
 hphp/zend/libhphp_zend.a: hphp/zend/CMakeFiles/hphp_zend.dir/zend-html.cpp.o
 hphp/zend/libhphp_zend.a: hphp/zend/CMakeFiles/hphp_zend.dir/zend-md5.cpp.o
@@ -211,14 +211,14 @@ hphp/zend/libhphp_zend.a: hphp/zend/CMakeFiles/hphp_zend.dir/zend-string.cpp.o
 hphp/zend/libhphp_zend.a: hphp/zend/CMakeFiles/hphp_zend.dir/build.make
 hphp/zend/libhphp_zend.a: hphp/zend/CMakeFiles/hphp_zend.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libhphp_zend.a"
-	cd /tmp/hhvm-3.11.1/hphp/zend && $(CMAKE_COMMAND) -P CMakeFiles/hphp_zend.dir/cmake_clean_target.cmake
-	cd /tmp/hhvm-3.11.1/hphp/zend && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hphp_zend.dir/link.txt --verbose=$(VERBOSE)
+	cd /tmp/hhvm-3.12.1/hphp/zend && $(CMAKE_COMMAND) -P CMakeFiles/hphp_zend.dir/cmake_clean_target.cmake
+	cd /tmp/hhvm-3.12.1/hphp/zend && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hphp_zend.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 hphp/zend/CMakeFiles/hphp_zend.dir/build: hphp/zend/libhphp_zend.a
 .PHONY : hphp/zend/CMakeFiles/hphp_zend.dir/build
 
-hphp/zend/CMakeFiles/hphp_zend.dir/requires: hphp/zend/CMakeFiles/hphp_zend.dir/crypt-blowfish.c.o.requires
+hphp/zend/CMakeFiles/hphp_zend.dir/requires: hphp/zend/CMakeFiles/hphp_zend.dir/crypt-blowfish.cpp.o.requires
 hphp/zend/CMakeFiles/hphp_zend.dir/requires: hphp/zend/CMakeFiles/hphp_zend.dir/html-table.cpp.o.requires
 hphp/zend/CMakeFiles/hphp_zend.dir/requires: hphp/zend/CMakeFiles/hphp_zend.dir/zend-html.cpp.o.requires
 hphp/zend/CMakeFiles/hphp_zend.dir/requires: hphp/zend/CMakeFiles/hphp_zend.dir/zend-md5.cpp.o.requires
@@ -227,10 +227,10 @@ hphp/zend/CMakeFiles/hphp_zend.dir/requires: hphp/zend/CMakeFiles/hphp_zend.dir/
 .PHONY : hphp/zend/CMakeFiles/hphp_zend.dir/requires
 
 hphp/zend/CMakeFiles/hphp_zend.dir/clean:
-	cd /tmp/hhvm-3.11.1/hphp/zend && $(CMAKE_COMMAND) -P CMakeFiles/hphp_zend.dir/cmake_clean.cmake
+	cd /tmp/hhvm-3.12.1/hphp/zend && $(CMAKE_COMMAND) -P CMakeFiles/hphp_zend.dir/cmake_clean.cmake
 .PHONY : hphp/zend/CMakeFiles/hphp_zend.dir/clean
 
 hphp/zend/CMakeFiles/hphp_zend.dir/depend:
-	cd /tmp/hhvm-3.11.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/hphp/zend /tmp/hhvm-3.11.1 /tmp/hhvm-3.11.1/hphp/zend /tmp/hhvm-3.11.1/hphp/zend/CMakeFiles/hphp_zend.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/hhvm-3.12.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/hhvm-3.12.1 /tmp/hhvm-3.12.1/hphp/zend /tmp/hhvm-3.12.1 /tmp/hhvm-3.12.1/hphp/zend /tmp/hhvm-3.12.1/hphp/zend/CMakeFiles/hphp_zend.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hphp/zend/CMakeFiles/hphp_zend.dir/depend
 

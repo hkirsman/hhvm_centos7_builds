@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/extra/comp_err.c
+/tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/extra/comp_err.c
 my_global.h
 -
 m_ctype.h

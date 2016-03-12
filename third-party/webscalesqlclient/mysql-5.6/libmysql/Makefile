@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src
+CMAKE_SOURCE_DIR = /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src
+CMAKE_BINARY_DIR = /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -104,7 +104,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -114,7 +114,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && /usr/bin/cpack --config ./CPackSourceConfig.cmake /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CPackSourceConfig.cmake
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && /usr/bin/cpack --config ./CPackSourceConfig.cmake /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -133,14 +133,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/libmysql/CMakeFiles/progress.marks
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 libmysql/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src/CMakeFiles 0
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/CMakeFiles /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/libmysql/CMakeFiles/progress.marks
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 libmysql/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 libmysql/clean
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 libmysql/clean
 .PHONY : clean
 
 # The main clean target
@@ -149,22 +149,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 libmysql/preinstall
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 libmysql/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 libmysql/preinstall
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 libmysql/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libmysql/CMakeFiles/clientlib.dir/rule:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 libmysql/CMakeFiles/clientlib.dir/rule
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 libmysql/CMakeFiles/clientlib.dir/rule
 .PHONY : libmysql/CMakeFiles/clientlib.dir/rule
 
 # Convenience name for target.
@@ -173,12 +173,12 @@ clientlib: libmysql/CMakeFiles/clientlib.dir/rule
 
 # fast build rule for target.
 clientlib/fast:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/build
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/build
 .PHONY : clientlib/fast
 
 # Convenience name for target.
 libmysql/CMakeFiles/symlink_libwebscalesqlclient_r.a.dir/rule:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 libmysql/CMakeFiles/symlink_libwebscalesqlclient_r.a.dir/rule
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 libmysql/CMakeFiles/symlink_libwebscalesqlclient_r.a.dir/rule
 .PHONY : libmysql/CMakeFiles/symlink_libwebscalesqlclient_r.a.dir/rule
 
 # Convenience name for target.
@@ -187,12 +187,12 @@ symlink_libwebscalesqlclient_r.a: libmysql/CMakeFiles/symlink_libwebscalesqlclie
 
 # fast build rule for target.
 symlink_libwebscalesqlclient_r.a/fast:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/symlink_libwebscalesqlclient_r.a.dir/build.make libmysql/CMakeFiles/symlink_libwebscalesqlclient_r.a.dir/build
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/symlink_libwebscalesqlclient_r.a.dir/build.make libmysql/CMakeFiles/symlink_libwebscalesqlclient_r.a.dir/build
 .PHONY : symlink_libwebscalesqlclient_r.a/fast
 
 # Convenience name for target.
 libmysql/CMakeFiles/webscalesqlclient.dir/rule:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 libmysql/CMakeFiles/webscalesqlclient.dir/rule
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f CMakeFiles/Makefile2 libmysql/CMakeFiles/webscalesqlclient.dir/rule
 .PHONY : libmysql/CMakeFiles/webscalesqlclient.dir/rule
 
 # Convenience name for target.
@@ -201,7 +201,7 @@ webscalesqlclient: libmysql/CMakeFiles/webscalesqlclient.dir/rule
 
 # fast build rule for target.
 webscalesqlclient/fast:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/webscalesqlclient.dir/build.make libmysql/CMakeFiles/webscalesqlclient.dir/build
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/webscalesqlclient.dir/build.make libmysql/CMakeFiles/webscalesqlclient.dir/build
 .PHONY : webscalesqlclient/fast
 
 __/sql-common/client.o: __/sql-common/client.c.o
@@ -209,7 +209,7 @@ __/sql-common/client.o: __/sql-common/client.c.o
 
 # target to build an object file
 __/sql-common/client.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql-common/client.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql-common/client.c.o
 .PHONY : __/sql-common/client.c.o
 
 __/sql-common/client.i: __/sql-common/client.c.i
@@ -217,7 +217,7 @@ __/sql-common/client.i: __/sql-common/client.c.i
 
 # target to preprocess a source file
 __/sql-common/client.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql-common/client.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql-common/client.c.i
 .PHONY : __/sql-common/client.c.i
 
 __/sql-common/client.s: __/sql-common/client.c.s
@@ -225,7 +225,7 @@ __/sql-common/client.s: __/sql-common/client.c.s
 
 # target to generate assembly for a file
 __/sql-common/client.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql-common/client.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql-common/client.c.s
 .PHONY : __/sql-common/client.c.s
 
 __/sql-common/client_authentication.o: __/sql-common/client_authentication.cc.o
@@ -233,7 +233,7 @@ __/sql-common/client_authentication.o: __/sql-common/client_authentication.cc.o
 
 # target to build an object file
 __/sql-common/client_authentication.cc.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql-common/client_authentication.cc.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql-common/client_authentication.cc.o
 .PHONY : __/sql-common/client_authentication.cc.o
 
 __/sql-common/client_authentication.i: __/sql-common/client_authentication.cc.i
@@ -241,7 +241,7 @@ __/sql-common/client_authentication.i: __/sql-common/client_authentication.cc.i
 
 # target to preprocess a source file
 __/sql-common/client_authentication.cc.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql-common/client_authentication.cc.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql-common/client_authentication.cc.i
 .PHONY : __/sql-common/client_authentication.cc.i
 
 __/sql-common/client_authentication.s: __/sql-common/client_authentication.cc.s
@@ -249,7 +249,7 @@ __/sql-common/client_authentication.s: __/sql-common/client_authentication.cc.s
 
 # target to generate assembly for a file
 __/sql-common/client_authentication.cc.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql-common/client_authentication.cc.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql-common/client_authentication.cc.s
 .PHONY : __/sql-common/client_authentication.cc.s
 
 __/sql-common/client_plugin.o: __/sql-common/client_plugin.c.o
@@ -257,7 +257,7 @@ __/sql-common/client_plugin.o: __/sql-common/client_plugin.c.o
 
 # target to build an object file
 __/sql-common/client_plugin.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql-common/client_plugin.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql-common/client_plugin.c.o
 .PHONY : __/sql-common/client_plugin.c.o
 
 __/sql-common/client_plugin.i: __/sql-common/client_plugin.c.i
@@ -265,7 +265,7 @@ __/sql-common/client_plugin.i: __/sql-common/client_plugin.c.i
 
 # target to preprocess a source file
 __/sql-common/client_plugin.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql-common/client_plugin.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql-common/client_plugin.c.i
 .PHONY : __/sql-common/client_plugin.c.i
 
 __/sql-common/client_plugin.s: __/sql-common/client_plugin.c.s
@@ -273,7 +273,7 @@ __/sql-common/client_plugin.s: __/sql-common/client_plugin.c.s
 
 # target to generate assembly for a file
 __/sql-common/client_plugin.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql-common/client_plugin.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql-common/client_plugin.c.s
 .PHONY : __/sql-common/client_plugin.c.s
 
 __/sql-common/my_time.o: __/sql-common/my_time.c.o
@@ -281,7 +281,7 @@ __/sql-common/my_time.o: __/sql-common/my_time.c.o
 
 # target to build an object file
 __/sql-common/my_time.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql-common/my_time.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql-common/my_time.c.o
 .PHONY : __/sql-common/my_time.c.o
 
 __/sql-common/my_time.i: __/sql-common/my_time.c.i
@@ -289,7 +289,7 @@ __/sql-common/my_time.i: __/sql-common/my_time.c.i
 
 # target to preprocess a source file
 __/sql-common/my_time.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql-common/my_time.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql-common/my_time.c.i
 .PHONY : __/sql-common/my_time.c.i
 
 __/sql-common/my_time.s: __/sql-common/my_time.c.s
@@ -297,7 +297,7 @@ __/sql-common/my_time.s: __/sql-common/my_time.c.s
 
 # target to generate assembly for a file
 __/sql-common/my_time.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql-common/my_time.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql-common/my_time.c.s
 .PHONY : __/sql-common/my_time.c.s
 
 __/sql-common/pack.o: __/sql-common/pack.c.o
@@ -305,7 +305,7 @@ __/sql-common/pack.o: __/sql-common/pack.c.o
 
 # target to build an object file
 __/sql-common/pack.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql-common/pack.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql-common/pack.c.o
 .PHONY : __/sql-common/pack.c.o
 
 __/sql-common/pack.i: __/sql-common/pack.c.i
@@ -313,7 +313,7 @@ __/sql-common/pack.i: __/sql-common/pack.c.i
 
 # target to preprocess a source file
 __/sql-common/pack.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql-common/pack.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql-common/pack.c.i
 .PHONY : __/sql-common/pack.c.i
 
 __/sql-common/pack.s: __/sql-common/pack.c.s
@@ -321,7 +321,7 @@ __/sql-common/pack.s: __/sql-common/pack.c.s
 
 # target to generate assembly for a file
 __/sql-common/pack.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql-common/pack.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql-common/pack.c.s
 .PHONY : __/sql-common/pack.c.s
 
 __/sql/net_serv.o: __/sql/net_serv.cc.o
@@ -329,7 +329,7 @@ __/sql/net_serv.o: __/sql/net_serv.cc.o
 
 # target to build an object file
 __/sql/net_serv.cc.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql/net_serv.cc.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql/net_serv.cc.o
 .PHONY : __/sql/net_serv.cc.o
 
 __/sql/net_serv.i: __/sql/net_serv.cc.i
@@ -337,7 +337,7 @@ __/sql/net_serv.i: __/sql/net_serv.cc.i
 
 # target to preprocess a source file
 __/sql/net_serv.cc.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql/net_serv.cc.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql/net_serv.cc.i
 .PHONY : __/sql/net_serv.cc.i
 
 __/sql/net_serv.s: __/sql/net_serv.cc.s
@@ -345,7 +345,7 @@ __/sql/net_serv.s: __/sql/net_serv.cc.s
 
 # target to generate assembly for a file
 __/sql/net_serv.cc.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql/net_serv.cc.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql/net_serv.cc.s
 .PHONY : __/sql/net_serv.cc.s
 
 __/sql/password.o: __/sql/password.c.o
@@ -353,7 +353,7 @@ __/sql/password.o: __/sql/password.c.o
 
 # target to build an object file
 __/sql/password.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql/password.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql/password.c.o
 .PHONY : __/sql/password.c.o
 
 __/sql/password.i: __/sql/password.c.i
@@ -361,7 +361,7 @@ __/sql/password.i: __/sql/password.c.i
 
 # target to preprocess a source file
 __/sql/password.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql/password.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql/password.c.i
 .PHONY : __/sql/password.c.i
 
 __/sql/password.s: __/sql/password.c.s
@@ -369,7 +369,7 @@ __/sql/password.s: __/sql/password.c.s
 
 # target to generate assembly for a file
 __/sql/password.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql/password.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/__/sql/password.c.s
 .PHONY : __/sql/password.c.s
 
 errmsg.o: errmsg.c.o
@@ -377,7 +377,7 @@ errmsg.o: errmsg.c.o
 
 # target to build an object file
 errmsg.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/errmsg.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/errmsg.c.o
 .PHONY : errmsg.c.o
 
 errmsg.i: errmsg.c.i
@@ -385,7 +385,7 @@ errmsg.i: errmsg.c.i
 
 # target to preprocess a source file
 errmsg.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/errmsg.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/errmsg.c.i
 .PHONY : errmsg.c.i
 
 errmsg.s: errmsg.c.s
@@ -393,7 +393,7 @@ errmsg.s: errmsg.c.s
 
 # target to generate assembly for a file
 errmsg.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/errmsg.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/errmsg.c.s
 .PHONY : errmsg.c.s
 
 get_password.o: get_password.c.o
@@ -401,7 +401,7 @@ get_password.o: get_password.c.o
 
 # target to build an object file
 get_password.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/get_password.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/get_password.c.o
 .PHONY : get_password.c.o
 
 get_password.i: get_password.c.i
@@ -409,7 +409,7 @@ get_password.i: get_password.c.i
 
 # target to preprocess a source file
 get_password.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/get_password.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/get_password.c.i
 .PHONY : get_password.c.i
 
 get_password.s: get_password.c.s
@@ -417,7 +417,7 @@ get_password.s: get_password.c.s
 
 # target to generate assembly for a file
 get_password.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/get_password.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/get_password.c.s
 .PHONY : get_password.c.s
 
 libmysql.o: libmysql.c.o
@@ -425,7 +425,7 @@ libmysql.o: libmysql.c.o
 
 # target to build an object file
 libmysql.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/libmysql.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/libmysql.c.o
 .PHONY : libmysql.c.o
 
 libmysql.i: libmysql.c.i
@@ -433,7 +433,7 @@ libmysql.i: libmysql.c.i
 
 # target to preprocess a source file
 libmysql.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/libmysql.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/libmysql.c.i
 .PHONY : libmysql.c.i
 
 libmysql.s: libmysql.c.s
@@ -441,7 +441,7 @@ libmysql.s: libmysql.c.s
 
 # target to generate assembly for a file
 libmysql.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/libmysql.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/clientlib.dir/build.make libmysql/CMakeFiles/clientlib.dir/libmysql.c.s
 .PHONY : libmysql.c.s
 
 webscalesqlclient_depends.o: webscalesqlclient_depends.c.o
@@ -449,7 +449,7 @@ webscalesqlclient_depends.o: webscalesqlclient_depends.c.o
 
 # target to build an object file
 webscalesqlclient_depends.c.o:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/webscalesqlclient.dir/build.make libmysql/CMakeFiles/webscalesqlclient.dir/webscalesqlclient_depends.c.o
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/webscalesqlclient.dir/build.make libmysql/CMakeFiles/webscalesqlclient.dir/webscalesqlclient_depends.c.o
 .PHONY : webscalesqlclient_depends.c.o
 
 webscalesqlclient_depends.i: webscalesqlclient_depends.c.i
@@ -457,7 +457,7 @@ webscalesqlclient_depends.i: webscalesqlclient_depends.c.i
 
 # target to preprocess a source file
 webscalesqlclient_depends.c.i:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/webscalesqlclient.dir/build.make libmysql/CMakeFiles/webscalesqlclient.dir/webscalesqlclient_depends.c.i
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/webscalesqlclient.dir/build.make libmysql/CMakeFiles/webscalesqlclient.dir/webscalesqlclient_depends.c.i
 .PHONY : webscalesqlclient_depends.c.i
 
 webscalesqlclient_depends.s: webscalesqlclient_depends.c.s
@@ -465,7 +465,7 @@ webscalesqlclient_depends.s: webscalesqlclient_depends.c.s
 
 # target to generate assembly for a file
 webscalesqlclient_depends.c.s:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/webscalesqlclient.dir/build.make libmysql/CMakeFiles/webscalesqlclient.dir/webscalesqlclient_depends.c.s
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(MAKE) -f libmysql/CMakeFiles/webscalesqlclient.dir/build.make libmysql/CMakeFiles/webscalesqlclient.dir/webscalesqlclient_depends.c.s
 .PHONY : webscalesqlclient_depends.c.s
 
 # Help Target
@@ -529,6 +529,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /tmp/hhvm-3.11.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /tmp/hhvm-3.12.1/third-party/webscalesqlclient/src && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

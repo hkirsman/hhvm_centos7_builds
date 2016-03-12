@@ -1,1 +1,1 @@
-hh_client.ml: ClientArgs ClientBuild ClientCheck ClientCommand ClientRestart ClientStart ClientStop Exit_status HackEventLogger Sys
+hh_client.ml: ClientArgs ClientBuild ClientCheck ClientCommand ClientRestart ClientStart ClientStop Exit_status HackEventLogger Sys Sys_utils

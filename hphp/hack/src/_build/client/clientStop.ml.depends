@@ -1,1 +1,1 @@
-client/clientStop.ml: ClientConnectSimple Core Exit_status HackEventLogger List Path PidLog Printexc Printf Result ServerCommand ServerFiles ServerRpc Unix
+client/clientStop.ml: Core Exit_status HackEventLogger HhServerMonitorConfig List MonitorConnection Path PidLog Printexc Printf Result ServerCommand ServerFiles ServerMonitorUtils ServerRpc ServerUtils Sys_utils Timeout Unix
